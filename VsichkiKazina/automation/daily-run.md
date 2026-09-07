@@ -135,6 +135,17 @@ stage you are STARTING now>,"stage":"<that stage's name>"}`.
        log `external check: Gemini <verdict> after N passes (below 80 target)`.
      · Gemini must NEVER touch facts, RG language, disclosures, or `[VERIFY]` flags — it is
        style-only; recommendations only.
+     · **Commit-history discipline (audit trail on the PR branch).** Keep every iteration as
+       its own commit so the PR shows draft → Gemini feedback → revision → re-check:
+         1. Commit the initial draft (whole `articles/<slug>/`): `content(<slug>): initial draft`.
+         2. After each Gemini check, save Gemini's verbatim verdict + recommendations to
+            `articles/<slug>/07-gemini-check-<pass>.md` and commit:
+            `gemini(<slug>): check <pass> — <verdict> (<needs changes|PASS>)`.
+         3. After applying the recommendations via the Humaniser, commit the revised `05b`:
+            `content(<slug>): humaniser pass <pass> (apply Gemini recs)`.
+         4. Repeat 2–3 until PASS or `MAX_GEMINI_PASSES`. Each Gemini feedback and each Claude
+            revision is a SEPARATE commit — never squash them. The `07-gemini-check-*.md` files
+            persist in the article dir as the record.
      · **Record the result in the article's `content-queue.md` `gemini` column** so the
        dashboard shows it: `human <conf>` if it passed (e.g. `human 84`), `ai <conf>` if it
        ended below 80 after the cap (e.g. `ai 68`), or `skipped` if Gemini was unavailable.
