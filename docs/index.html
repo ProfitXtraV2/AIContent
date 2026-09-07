@@ -82,6 +82,9 @@
   .chk-ahrefs { background: #e7f8ee; color: #0f8a4d; }
   .chk-web { background: #e4f1ff; color: #1668c7; }
   .chk-none { background: #f1f4f9; color: #94a3b8; }
+  .gem { font-size: .7rem; padding: .14rem .5rem; border-radius: 999px; font-weight: 600; white-space: nowrap; }
+  .gem-pass { background: #e7f8ee; color: #0f8a4d; }
+  .gem-warn { background: #fef3e2; color: #b3730a; }
   td .sugg { color: var(--muted); font-size: .82rem; }
   .num { text-align: right; font-variant-numeric: tabular-nums; }
   .empty { color: var(--muted); padding: 1.25rem .2rem; }
@@ -354,12 +357,23 @@ async function load() {
     return `<span class="rlinks">${parts.join('') || '—'}</span>`;
   }
 
+  function geminiBadge(v) {
+    v = (v || '').trim().toLowerCase();
+    if (!v) return '<span class="chk chk-none">— not run</span>';
+    if (v.startsWith('skip')) return '<span class="chk chk-none">skipped</span>';
+    const conf = (v.match(/(\d+)/) || [])[1] || '';
+    if (v.startsWith('human')) return `<span class="gem gem-pass">✓ Gemini ${conf}%</span>`;
+    if (v.startsWith('ai')) return `<span class="gem gem-warn">AI-ish ${conf}%</span>`;
+    return `<span class="chk chk-none">${v}</span>`;
+  }
+
   function renderArticles(rows) {
     if (!rows.length) return '<div class="empty">Nothing here right now.</div>';
     const cols = [['status','Status'],['type','Type'],['query','Article'],
-      ['keywords_or_terms','Keywords used'],['source','Source'],['links','Links']];
+      ['keywords_or_terms','Keywords used'],['source','Source'],['gemini','Gemini'],['links','Links']];
     const body = rows.map(r => '<tr>' + cols.map(([c]) => {
       if (c === 'links') return `<td>${articleLinks(r)}</td>`;
+      if (c === 'gemini') return `<td>${geminiBadge(r.gemini)}</td>`;
       let v = r[c] || '';
       if (c === 'status') v = `<span class="st st-${v}">${v}</span>`;
       return `<td>${v}</td>`;

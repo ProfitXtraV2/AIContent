@@ -53,6 +53,23 @@ def test_parse_queue_fields():
     assert rows[0]["type"] == "review"
     assert rows[0]["query"] == "Spin City"
     assert rows[0]["folder"] == "2026-09-07-spin-city"
+    assert rows[0]["gemini"] == ""   # legacy 11-col rows get an empty gemini field
+
+
+QUEUE_GEMINI = """# Content Queue
+| id | status | type | query | keywords_or_terms | source | drafted_date | posted_date | folder | pr | gemini | notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | drafted | guide | Free games | free | research | 2026-09-07 |  | 2026-09-07-free | #4 | human 84 |  |
+| 2 | drafted | guide | No deposit | nodep | research | 2026-09-07 |  | 2026-09-07-nodep | #5 | ai 68 |  |
+| 3 | drafted | guide | Skipped one | x | research | 2026-09-07 |  | 2026-09-07-x | #6 | skipped |  |
+"""
+
+
+def test_parse_queue_gemini_column():
+    rows = bd.parse_queue(QUEUE_GEMINI)
+    assert rows[0]["gemini"] == "human 84"
+    assert rows[1]["gemini"] == "ai 68"
+    assert rows[2]["gemini"] == "skipped"
 
 
 def test_parse_backlog():

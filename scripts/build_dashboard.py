@@ -13,8 +13,9 @@ BUFFER_STATES = {"drafted", "approved"}
 ALL_STATES = ["in-progress", "drafted", "approved", "posted", "failed"]
 
 COLUMNS = ["id", "status", "type", "query", "keywords_or_terms",
-           "source", "drafted_date", "posted_date", "folder", "pr", "notes"]
-COLUMNS_LEGACY = [c for c in COLUMNS if c != "folder"]  # pre-`folder` 10-col
+           "source", "drafted_date", "posted_date", "folder", "pr", "gemini", "notes"]
+COLUMNS_L11 = [c for c in COLUMNS if c != "gemini"]                  # folder, no gemini
+COLUMNS_L10 = [c for c in COLUMNS if c not in ("gemini", "folder")]  # oldest 10-col
 
 # Human backlog. Ahrefs metrics (volume/kd/intent/checked/ahrefs_note) are enriched by the
 # run; the human only fills priority/type/query/keywords/status/notes (legacy 6-col parses).
@@ -94,8 +95,8 @@ LINKS = {
 
 
 def parse_queue(md_text):
-    """Parse the content-queue table (11-col with `folder`, or legacy 10-col)."""
-    return _parse_tolerant(md_text, [COLUMNS, COLUMNS_LEGACY])
+    """Parse the content-queue table (12-col with `gemini`, 11-col with `folder`, or 10-col)."""
+    return _parse_tolerant(md_text, [COLUMNS, COLUMNS_L11, COLUMNS_L10])
 
 
 def parse_backlog(md_text):

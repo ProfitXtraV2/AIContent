@@ -135,6 +135,11 @@ stage you are STARTING now>,"stage":"<that stage's name>"}`.
        log `external check: Gemini <verdict> after N passes (below 80 target)`.
      · Gemini must NEVER touch facts, RG language, disclosures, or `[VERIFY]` flags — it is
        style-only; recommendations only.
+     · **Record the result in the article's `content-queue.md` `gemini` column** so the
+       dashboard shows it: `human <conf>` if it passed (e.g. `human 84`), `ai <conf>` if it
+       ended below 80 after the cap (e.g. `ai 68`), or `skipped` if Gemini was unavailable.
+       The dashboard turns `human ≥80` into a green ✓ "approved by Gemini" badge (shown on
+       both Articles-for-review and Articles-ready-to-deploy).
    - Assemble `06-verification.md`: surviving flags + time-sensitive claims with
      primary-source URLs; recalculate one figure with working shown. FLAGS STAY IN THE
      TEXT. Record the Gemini verdict (final confidence + passes applied) in

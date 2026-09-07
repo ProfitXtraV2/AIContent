@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-07T16:44:52Z",
+  "generated_utc": "2026-09-07T16:59:58Z",
   "buffer": {
     "count": 1,
     "target": 10,
@@ -25,7 +25,8 @@
       "posted_date": "",
       "folder": "2026-09-07-kak-raboti-razigravaneto",
       "pr": "#1",
-      "notes": "gate 89/100; HUMAN-LIKE; 0 flags"
+      "notes": "gate 89/100; HUMAN-LIKE; 0 flags",
+      "gemini": ""
     },
     {
       "id": "vk-0002",
@@ -38,7 +39,8 @@
       "posted_date": "",
       "folder": "2026-09-07-najdobri-bonusi-za-dobre-doshli-2026",
       "pr": "#3",
-      "notes": "primary sources unreachable: operator T&C 403 geo-block, НАП register conn reset; full egress on but sites block foreign traffic; can't build like-for-like превъртане bases + licence №s without fabricating"
+      "notes": "primary sources unreachable: operator T&C 403 geo-block, НАП register conn reset; full egress on but sites block foreign traffic; can't build like-for-like превъртане bases + licence №s without fabricating",
+      "gemini": ""
     }
   ],
   "backlog": [
