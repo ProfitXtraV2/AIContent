@@ -5,7 +5,7 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/routines/trig_011f3su1Brcj5QHNCo4zqBEY",
-  "note": "Validation run (max 2 articles)",
+  "note": "Validation run (max 2) — per-step tracking activates on the next scheduled run",
   "progress": {
     "phase": "writing",
     "article_index": 1,
