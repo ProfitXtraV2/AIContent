@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-07T21:03:58Z",
+  "generated_utc": "2026-09-07T21:14:46Z",
   "buffer": {
     "count": 10,
     "target": 10,
@@ -923,9 +923,12 @@
   "meta": {
     "brand": "VsichkiKazina",
     "schedule": {
-      "cron_utc_hour": 4,
-      "cron_utc_minute": 0,
-      "label": "Daily · 07:00 Europe/Sofia"
+      "cron_utc_hours": [
+        3,
+        7,
+        22
+      ],
+      "label": "3×/day · 01:00, 06:00, 10:00 Europe/Sofia"
     },
     "links": {
       "site": "https://vsichkikazina.bg",
