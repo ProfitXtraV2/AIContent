@@ -5,14 +5,24 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/routines/trig_011f3su1Brcj5QHNCo4zqBEY",
-  "note": "daily run — MAX_PER_RUN=3 override; three distinct guide pillars (безплатни казино игри / бонус без депозит / ново онлайн казино)",
+  "note": "daily run — MAX_PER_RUN=3; article 1 (безплатни казино игри) drafted; writing article 2 (бонус без депозит)",
   "progress": {
     "phase": "writing",
-    "article_index": 1,
+    "article_index": 2,
     "article_total": 3,
-    "article_slug": "2026-09-07-bezplatni-kazino-igri",
-    "stages": ["Synthesis", "Outline", "Author", "Humaniser", "SEO", "Brand Gate", "Light re-check", "Verification", "PR"],
-    "stage_index": null,
-    "stage": null
+    "article_slug": "2026-09-07-bonus-bez-depozit-2026",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
