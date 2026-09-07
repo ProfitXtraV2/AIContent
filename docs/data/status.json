@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-07T16:59:58Z",
+  "generated_utc": "2026-09-07T17:20:19Z",
   "buffer": {
-    "count": 1,
+    "count": 4,
     "target": 10,
-    "deficit": 9,
+    "deficit": 6,
     "ok": false
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 1,
+    "drafted": 4,
     "approved": 0,
     "posted": 0,
     "failed": 1
@@ -40,6 +40,48 @@
       "folder": "2026-09-07-najdobri-bonusi-za-dobre-doshli-2026",
       "pr": "#3",
       "notes": "primary sources unreachable: operator T&C 403 geo-block, НАП register conn reset; full egress on but sites block foreign traffic; can't build like-for-like превъртане bases + licence №s without fabricating",
+      "gemini": ""
+    },
+    {
+      "id": "vk-0003",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Безплатни казино игри: демо режим, RTP и капаните на „безплатното\"",
+      "keywords_or_terms": "безплатни казино игри, демо режим, RTP, безплатни завъртания",
+      "source": "research",
+      "drafted_date": "2026-09-07",
+      "posted_date": "",
+      "folder": "2026-09-07-bezplatni-kazino-igri",
+      "pr": "#4",
+      "notes": "gate 90/100; HUMAN-LIKE 51/60; 0 flags; folds „с ротативки\"; anti-cannibal note vs /kazino-igri/ /slot-igri/",
+      "gemini": ""
+    },
+    {
+      "id": "vk-0004",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Бонус без депозит 2026: какво наистина получавате",
+      "keywords_or_terms": "бонус без депозит, казино без депозит, безплатни завъртания без депозит",
+      "source": "research",
+      "drafted_date": "2026-09-07",
+      "posted_date": "",
+      "folder": "2026-09-07-bonus-bez-depozit-2026",
+      "pr": "#5",
+      "notes": "gate 90/100; HUMAN-LIKE 50/60; 0 flags; no-deposit pillar; folds 3 near-dups; anti-cannibal note vs listing /bonusi/bez-depozit/",
+      "gemini": ""
+    },
+    {
+      "id": "vk-0005",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Ново онлайн казино: как да оцените новооткрит оператор",
+      "keywords_or_terms": "ново онлайн казино, оценка на оператор, лиценз от НАП",
+      "source": "research",
+      "drafted_date": "2026-09-07",
+      "posted_date": "",
+      "folder": "2026-09-07-novo-onlajn-kazino",
+      "pr": "#6",
+      "notes": "gate 91/100; HUMAN-LIKE 51/60; 0 flags; evaluation framework (not a list); anti-cannibal note vs /novi-kazina/ + 2 blog guides",
       "gemini": ""
     }
   ],
@@ -125,8 +167,8 @@
       "intent": "transactional",
       "trend": "flat",
       "checked": "ahrefs",
-      "suggestion": "силен: голям обем (5400), постижима трудност (kd61), висок транзакционен интент — приоритет №1 сред кандидатите",
-      "status": "candidate",
+      "suggestion": "силен: голям обем (5400), постижима трудност (kd61), висок транзакционен интент; написан като NO-DEPOSIT pillar (vk-0004, PR #5); folds казино без депозит / без депозит България / безплатни завъртания без депозит",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 76,
@@ -159,8 +201,8 @@
       "intent": "commercial",
       "trend": "up",
       "checked": "ahrefs",
-      "suggestion": "силен: огромен обем (11000) при ниска трудност (kd45) — най-добрата възможност в бенчмарка; възходящ тренд",
-      "status": "candidate",
+      "suggestion": "силен: огромен обем (11000) при ниска трудност (kd45) — най-добрата възможност в бенчмарка; live re-pull 07.09: „безплатни казино игри\" 4000/kd66, „безплатно казино игри\" 11000/kd45 (същ кластер); написан като pillar (vk-0003, PR #4), folds „с ротативки\"",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 82,
@@ -176,8 +218,8 @@
       "intent": "transactional",
       "trend": "down",
       "checked": "ahrefs",
-      "suggestion": "силен обем (2200), средна трудност (kd57); трендът леко надолу — публикувай със свеж списък и дата",
-      "status": "candidate",
+      "suggestion": "силен обем (2200), средна трудност (kd57); трендът леко надолу; написан като evaluation-framework guide (vk-0005, PR #6), НЕ списък с оператори",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 77,
@@ -210,8 +252,8 @@
       "intent": "transactional",
       "trend": "up",
       "checked": "ahrefs",
-      "suggestion": "силен: висок обем (2900), възходящ тренд, висок интент; kd63 постижим с ясен €-разчет",
-      "status": "candidate",
+      "suggestion": "силен: висок обем (2900), възходящ тренд, висок интент; kd63 постижим; fold-in → бонус без депозит pillar (vk-0004)",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 75,
@@ -227,8 +269,8 @@
       "intent": "transactional",
       "trend": "up",
       "checked": "ahrefs",
-      "suggestion": "силен и локализиран: обем 1600, възходящ, kd61; BG-специфичен ъгъл (лиценз/НАП) е диференциатор",
-      "status": "candidate",
+      "suggestion": "силен и локализиран: обем 1600, възходящ, kd61; BG-специфичен ъгъл (лиценз/НАП); fold-in → бонус без депозит pillar §лиценз (vk-0004)",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 76,
@@ -244,8 +286,8 @@
       "intent": "transactional",
       "trend": "flat",
       "checked": "ahrefs",
-      "suggestion": "силен: обем 1100, висок транзакционен интент, kd61; естествено се свързва с бонус-гайдовете",
-      "status": "candidate",
+      "suggestion": "силен: обем 1100, висок транзакционен интент, kd61; естествено се свързва с бонус-гайдовете; fold-in → бонус без депозит pillar §FS (vk-0004)",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 71,
@@ -261,8 +303,8 @@
       "intent": "informational",
       "trend": "up",
       "checked": "ahrefs",
-      "suggestion": "силен обем (1600), възходящ; информационен интент — водещ към ревюта/сравнения като конверсия",
-      "status": "candidate",
+      "suggestion": "силен обем (1600), възходящ; информационен интент; fold-in → безплатни казино игри pillar §ротативки (vk-0003)",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 74,
