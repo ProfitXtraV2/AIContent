@@ -3,14 +3,18 @@
   "run_started_utc": "2026-09-07T18:10:39Z",
   "run_finished_utc": null,
   "articles_written": null,
-  "prs_opened": [],
+  "prs_opened": [
+    7,
+    8,
+    9
+  ],
   "run_url": "https://claude.ai/code/routines/trig_011f3su1Brcj5QHNCo4zqBEY",
-  "note": "daily run RESUMED after session-rate-limit reset (19:10 UTC). Completing 6 guide articles in conservative waves; partial artifacts preserved on branch wip/daily-2026-09-07.",
+  "note": "daily run — finalizing. 3/6 guides through Gemini + PR: jackpots (human 85, PR#8), RTP (human 90, PR#9), poker (ai 75, PR#7). Processing cashback, blackjack, myths.",
   "progress": {
-    "phase": "writing",
-    "article_index": 1,
+    "phase": "finalizing",
+    "article_index": 4,
     "article_total": 6,
-    "article_slug": "2026-09-07-rtp-i-volatilnost",
+    "article_slug": "2026-09-07-keshbek-i-loyalni-programi",
     "stages": [
       "Synthesis",
       "Outline",
@@ -22,7 +26,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 2,
-    "stage": "Author"
+    "stage_index": 7,
+    "stage": "Verification"
   }
 }
