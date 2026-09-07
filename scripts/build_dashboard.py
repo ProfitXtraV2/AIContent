@@ -87,7 +87,7 @@ LINKS = {
     "site": "https://vsichkikazina.bg",
     "repo": "https://github.com/ProfitXtraV2/AIContent",
     "prs": "https://github.com/ProfitXtraV2/AIContent/pulls",
-    "routine": "https://claude.ai/code/routines/trig_011f3su1Brcj5QHNCo4zqBEY",
+    "routine": "https://claude.ai/code/routines",
     "backlog": "https://github.com/ProfitXtraV2/AIContent/blob/main/VsichkiKazina/topic-backlog.md",
     "queue": "https://github.com/ProfitXtraV2/AIContent/blob/main/VsichkiKazina/content-queue.md",
 }
