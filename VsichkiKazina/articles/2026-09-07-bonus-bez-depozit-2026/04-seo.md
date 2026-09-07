@@ -21,9 +21,10 @@ Nothing to [DATA NEEDED].
 - [LINK: велкъм бонусите → /bonus-category/welcome-bonus/]  (close, deposit-based offers)
 
 ## Edits applied
-The meta description contains one em-dash („без риск — и"); this is a META field, not body
-copy, but it is flagged for Step 5b to normalise to a colon/comma to keep the whole artifact
-em-dash-free. Body otherwise identical to 03.
+SEO's first-pass meta above reads „...да спечелиш без риск — и с най-стегнатите условия...". Two
+downstream flags on it: (1) „без риск" is a BANNED promise phrase (Pillar 5) — the Brand Gate
+replaces it with „без да залагаш свои пари"; (2) the em-dash is normalised to a comma at Step 5b.
+Body otherwise identical to 03. (The banned phrase also appeared once in §5 and is fixed at the Gate.)
 
 NUMBER DIFF 03→04: identical (10 € · 40× · 400 € · 120 € · 50 € · 100 € · 7 дни · 57 € · 5 € · 10–20% ·
 2 000 € · 30 FS · 0,10 € · 3 € · 100% — preserved byte-for-byte).

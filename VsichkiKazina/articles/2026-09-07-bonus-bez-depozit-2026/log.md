@@ -23,10 +23,12 @@
   154 chars. 4 approved links formalised as [LINK]. SEO introduced one em-dash in the META (not
   body) → flagged to 5b. NUMBER DIFF 03→04: identical.
 - 2026-09-07 · Stage 5 (Brand Gate — vsichkikazina, fresh-context): 05-gate-report.md. PASS WITH
-  FIXES 90/100 (Pers19 Tone14 EEAT18 Trust11 Lang14 RG14). Criticals: missing footer trust block
-  (assembled in Phase 2: byline Георги Тодоров + dates 07.09.2026 + About slot + RG block
+  FIXES 90/100 (Pers19 Tone14 EEAT18 Trust11 Lang14 RG14). Criticals: (a) missing footer trust
+  block (assembled in Phase 2: byline Георги Тодоров + dates 07.09.2026 + About slot + RG block
   /otgovorna-igra/ + регистър НАП + Солидарност 0888 99 18 66 + verbatim 1-Aug-2026 affiliate
-  footer) + meta em-dash (routed to 5b). Maths recalculated, consistent (40×10=400; 120→cap 50;
+  footer); (b) BANNED PROMISE PHRASE „без риск" (Pillar 5, zero-tolerance) in the meta and §5 →
+  replaced (meta „без риск"→„без да залагаш свои пари"; §5 „игра без риск"→„игра, за която не
+  плащаш нищо"), no figure changed; (c) meta em-dash → comma (5b). Maths recalculated, consistent (40×10=400; 120→cap 50;
   400/7≈57; 30×0,10=3). No FAIL. NUMBER DIFF 04→05: preserved.
 - 2026-09-07 · Stage 5b (humaniser light re-check, fresh-context): 05b-final-draft.md. Normalised
   the meta em-dash to a comma; zero em-dashes remain. Body all prose (no table/list to convert).
@@ -35,7 +37,8 @@
   claims; illustrative-number table; wagering + cap + срок recalculation; verbatim-untouchables
   spot-check; anti-cannibalization note; human-action list). No flags in text.
 - external check: skipped (Step 7 manual-only).
-- Final grep verification: 0 em-dashes (incl. meta); verbatim 18+/RG line present; affiliate
+- Final grep verification: 0 em-dashes (incl. meta); 0 banned promise/hype words („без риск"
+  removed at Gate); verbatim 18+/RG line present; affiliate
   footer present; Солидарност + регистър present; exactly 4 approved internal links, no strays;
   key numbers (10 €/40×/400 €/120 €/50 €/100 €/7 дни/57 €/5 €/10–20%/2 000 €/30 FS/0,10 €/3 €) present and
   consistent; превъртане base stated (само бонус).

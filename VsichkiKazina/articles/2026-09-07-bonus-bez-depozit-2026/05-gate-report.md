@@ -10,11 +10,15 @@ Personality 19/20 | Tone 14/15 | E-E-A-T 18/20 | Trust signals 11/15 | Language&
    slot, RG block (verbatim 18+ line + /otgovorna-igra/ + национален регистър на уязвимите лица
    НАП + Солидарност 0888 99 18 66), affiliate footer (verbatim 1-Aug-2026 pending-licence).
    → ASSEMBLED in 05b, no body text touched.
-2. Meta description carried an em-dash (SEO stage). Flagged to Step 5b → normalised to a colon in
-   the final meta (05b). No body em-dash.
+2. BANNED PROMISE PHRASE „без риск" (Pillar 5, zero-tolerance) present twice — in the SEO meta
+   description AND in §5 („3 € игра без риск"). This is a CRITICAL language defect regardless of
+   literal accuracy. → REPLACED in Phase 2: meta „да спечелиш без риск" → „да спечелиш, без да
+   залагаш свои пари"; §5 „3 € игра без риск" → „3 € игра, за която не плащаш нищо". No figure changed.
+3. Meta description also carried an em-dash (SEO stage). → normalised to a comma in the final meta (05b).
 
-## MODERATE — none requiring body edits
-Kill test passed. No promise/hype words; no FOMO ("бонусът изтича — действай сега" absent); no
+## MODERATE — none further requiring body edits
+Kill test passed. After the Pillar-5 fix above, no promise/hype words remain; no FOMO
+("бонусът изтича — действай сега" absent); no
 narrated emotion; asymmetric close. Run-specific bans honoured: no thesis-sentence headings, no
 „не A, а B" antithesis (3 removed at Humaniser), no signposting lead-in (§4 „Тук идва…" removed),
 no staccato stacking, no command-verb math bridge.
@@ -41,8 +45,9 @@ correction, and the licence-first turn. Do not re-tone.
 
 ## Phase 2 — application
 Assembled the footer trust block (byline Георги Тодоров, dates 07.09.2026, About slot, full RG
-block, verbatim affiliate footer); normalised the meta em-dash to a colon. No number, link, or
-body sentence altered. Result → 05b-final-draft.md.
+block, verbatim affiliate footer); replaced the banned promise phrase „без риск" in the meta and
+in §5 (Pillar-5 zero-tolerance); normalised the meta em-dash to a comma. One body phrase reworded
+to drop the banned word; NO figure, link, date, RG line or disclosure altered. Result → 05b-final-draft.md.
 
 Two sections added at authoring to reach guide length (substantive, no padding): the bonus-code /
 one-per-person rule and the when-it-is-worth-it frame; the calc section also gained the
