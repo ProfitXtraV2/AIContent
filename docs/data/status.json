@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-07T21:14:46Z",
+  "generated_utc": "2026-09-07T21:32:37Z",
   "buffer": {
     "count": 10,
     "target": 10,
@@ -61,8 +61,8 @@
       "posted_date": "",
       "folder": "2026-09-07-bezplatni-kazino-igri",
       "pr": "#4",
-      "gemini": "ai 60",
-      "notes": "gate 90/100; HUMAN-LIKE 51/60; 0 flags; folds „с ротативки\"; anti-cannibal note vs /kazino-igri/ /slot-igri/; Gemini Step-7 backfill: Humaniser ×2 → best 60% AI (below-80 target)",
+      "gemini": "human 90",
+      "notes": "gate 90/100; HUMAN-LIKE 51/60; 0 flags; folds „с ротативки\"; anti-cannibal note vs /kazino-igri/ /slot-igri/; Gemini Step-7 override run (MAX_PASSES=5): baseline HL 30 → Humaniser pass 1 → HL 90 (Likely human-written 90%), PASS in 1 pass; kept pass-1",
       "opportunity": {
         "score": 82,
         "band": "Strong"
