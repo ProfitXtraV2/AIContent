@@ -372,13 +372,16 @@ async function load() {
   function renderArticles(rows) {
     if (!rows.length) return '<div class="empty">Nothing here right now.</div>';
     const cols = [['status','Status'],['type','Type'],['query','Article'],
-      ['keywords_or_terms','Keywords used'],['source','Source'],['gemini','Gemini'],['links','Links']];
+      ['keywords_or_terms','Keywords used'],['volume','Vol'],['kd','KD'],['opportunity','Opportunity'],
+      ['source','Source'],['gemini','Gemini'],['links','Links']];
     const body = rows.map(r => '<tr>' + cols.map(([c]) => {
       if (c === 'links') return `<td>${articleLinks(r)}</td>`;
       if (c === 'gemini') return `<td>${geminiBadge(r.gemini)}</td>`;
+      if (c === 'opportunity') return `<td>${opChip(r.opportunity)}</td>`;
       let v = r[c] || '';
       if (c === 'status') v = `<span class="st st-${v}">${v}</span>`;
-      return `<td>${v}</td>`;
+      const cls = (c === 'volume' || c === 'kd') ? ' class="num"' : '';
+      return `<td${cls}>${v}</td>`;
     }).join('') + '</tr>').join('');
     return `<table><thead><tr>${cols.map(([, h]) => `<th>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table>`;
   }

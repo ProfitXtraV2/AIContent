@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-07T17:58:31Z",
+  "generated_utc": "2026-09-07T18:04:53Z",
   "buffer": {
     "count": 4,
     "target": 10,
@@ -20,13 +20,16 @@
       "type": "guide",
       "query": "Как работи изискването за разиграване (wagering)",
       "keywords_or_terms": "разиграване, wagering, бонус условия",
+      "volume": "20",
+      "kd": "",
       "source": "backlog",
       "drafted_date": "2026-09-07",
       "posted_date": "",
       "folder": "2026-09-07-kak-raboti-razigravaneto",
       "pr": "#1",
       "gemini": "human 85",
-      "notes": "gate 89/100; HUMAN-LIKE; 0 flags; Gemini Step-7 backfill: Humaniser ×2 → Likely human-written 85%"
+      "notes": "gate 89/100; HUMAN-LIKE; 0 flags; Gemini Step-7 backfill: Humaniser ×2 → Likely human-written 85%",
+      "opportunity": null
     },
     {
       "id": "vk-0002",
@@ -34,13 +37,16 @@
       "type": "comparison",
       "query": "Най-добри казино бонуси за добре дошли 2026",
       "keywords_or_terms": "бонус за добре дошли, welcome bonus",
+      "volume": "20",
+      "kd": "",
       "source": "backlog",
       "drafted_date": "",
       "posted_date": "",
       "folder": "2026-09-07-najdobri-bonusi-za-dobre-doshli-2026",
       "pr": "#3",
       "gemini": "",
-      "notes": "primary sources unreachable: operator T&C 403 geo-block, НАП register conn reset; full egress on but sites block foreign traffic; can't build like-for-like превъртане bases + licence №s without fabricating"
+      "notes": "primary sources unreachable: operator T&C 403 geo-block, НАП register conn reset; full egress on but sites block foreign traffic; can't build like-for-like превъртане bases + licence №s without fabricating",
+      "opportunity": null
     },
     {
       "id": "vk-0003",
@@ -48,13 +54,19 @@
       "type": "guide",
       "query": "Безплатни казино игри: демо режим, RTP и капаните на „безплатното\"",
       "keywords_or_terms": "безплатни казино игри, демо режим, RTP, безплатни завъртания",
+      "volume": "11000",
+      "kd": "45",
       "source": "research",
       "drafted_date": "2026-09-07",
       "posted_date": "",
       "folder": "2026-09-07-bezplatni-kazino-igri",
       "pr": "#4",
       "gemini": "ai 60",
-      "notes": "gate 90/100; HUMAN-LIKE 51/60; 0 flags; folds „с ротативки\"; anti-cannibal note vs /kazino-igri/ /slot-igri/; Gemini Step-7 backfill: Humaniser ×2 → best 60% AI (below-80 target)"
+      "notes": "gate 90/100; HUMAN-LIKE 51/60; 0 flags; folds „с ротативки\"; anti-cannibal note vs /kazino-igri/ /slot-igri/; Gemini Step-7 backfill: Humaniser ×2 → best 60% AI (below-80 target)",
+      "opportunity": {
+        "score": 82,
+        "band": "Strong"
+      }
     },
     {
       "id": "vk-0004",
@@ -62,13 +74,19 @@
       "type": "guide",
       "query": "Бонус без депозит 2026: какво наистина получавате",
       "keywords_or_terms": "бонус без депозит, казино без депозит, безплатни завъртания без депозит",
+      "volume": "5400",
+      "kd": "61",
       "source": "research",
       "drafted_date": "2026-09-07",
       "posted_date": "",
       "folder": "2026-09-07-bonus-bez-depozit-2026",
       "pr": "#5",
       "gemini": "human 85",
-      "notes": "gate 90/100; HUMAN-LIKE 50/60; 0 flags; no-deposit pillar; folds 3 near-dups; anti-cannibal note vs listing /bonusi/bez-depozit/; Gemini Step-7 backfill: Humaniser ×1 → Likely human-written 85%"
+      "notes": "gate 90/100; HUMAN-LIKE 50/60; 0 flags; no-deposit pillar; folds 3 near-dups; anti-cannibal note vs listing /bonusi/bez-depozit/; Gemini Step-7 backfill: Humaniser ×1 → Likely human-written 85%",
+      "opportunity": {
+        "score": 76,
+        "band": "Strong"
+      }
     },
     {
       "id": "vk-0005",
@@ -76,13 +94,19 @@
       "type": "guide",
       "query": "Ново онлайн казино: как да оцените новооткрит оператор",
       "keywords_or_terms": "ново онлайн казино, оценка на оператор, лиценз от НАП",
+      "volume": "2200",
+      "kd": "57",
       "source": "research",
       "drafted_date": "2026-09-07",
       "posted_date": "",
       "folder": "2026-09-07-novo-onlajn-kazino",
       "pr": "#6",
       "gemini": "human 85",
-      "notes": "gate 91/100; HUMAN-LIKE 51/60; 0 flags; evaluation framework (not a list); anti-cannibal note vs /novi-kazina/ + 2 blog guides; Gemini Step-7 backfill: Humaniser ×2 → Likely human-written 85%"
+      "notes": "gate 91/100; HUMAN-LIKE 51/60; 0 flags; evaluation framework (not a list); anti-cannibal note vs /novi-kazina/ + 2 blog guides; Gemini Step-7 backfill: Humaniser ×2 → Likely human-written 85%",
+      "opportunity": {
+        "score": 77,
+        "band": "Strong"
+      }
     }
   ],
   "backlog": [

@@ -99,10 +99,12 @@ stage you are STARTING now>,"stage":"<that stage's name>"}`.
       pillars over many overlapping ones.
    e. For each selected topic add a `content-queue.md` row: fresh `id`, `status: in-progress`,
       `type`, `query`, `keywords_or_terms` (the keywords you will actually target),
-      `source` = `backlog` or `research`, `folder` = `<TODAY>-<slug>`.
+      `volume` + `kd` (copy the target keyword's Ahrefs metrics from research/backlog so the
+      dashboard can show Vol/KD/Opportunity per article), `source` = `backlog` or `research`,
+      `folder` = `<TODAY>-<slug>`.
 
-4. **Write each article** in `VsichkiKazina/articles/<TODAY>-<slug>/` (TODAY = the run
-   date you are given; do not call the system clock):
+4. **Write each article** in `VsichkiKazina/articles/<TODAY>-<slug>/` (TODAY = today's date;
+   get it with `date -u +%Y-%m-%d`):
    - Assemble `00-brief.md` from `pipeline/templates/00-brief-template-vsichkikazina.md`
      (web-search + fetch top 2-3 BG sources). If sources are unreachable and the type
      needs them (review/comparison/news), STOP this article and mark it `failed` — never

@@ -12,10 +12,11 @@ from pathlib import Path
 BUFFER_STATES = {"drafted", "approved"}
 ALL_STATES = ["in-progress", "drafted", "approved", "posted", "failed"]
 
-COLUMNS = ["id", "status", "type", "query", "keywords_or_terms",
+COLUMNS = ["id", "status", "type", "query", "keywords_or_terms", "volume", "kd",
            "source", "drafted_date", "posted_date", "folder", "pr", "gemini", "notes"]
-COLUMNS_L11 = [c for c in COLUMNS if c != "gemini"]                  # folder, no gemini
-COLUMNS_L10 = [c for c in COLUMNS if c not in ("gemini", "folder")]  # oldest 10-col
+COLUMNS_L12 = [c for c in COLUMNS if c not in ("volume", "kd")]                # gemini, no vol/kd
+COLUMNS_L11 = [c for c in COLUMNS if c not in ("volume", "kd", "gemini")]      # folder, no gemini
+COLUMNS_L10 = [c for c in COLUMNS if c not in ("volume", "kd", "gemini", "folder")]  # oldest
 
 # Human backlog. Ahrefs metrics (volume/kd/intent/checked/ahrefs_note) are enriched by the
 # run; the human only fills priority/type/query/keywords/status/notes (legacy 6-col parses).
@@ -95,8 +96,8 @@ LINKS = {
 
 
 def parse_queue(md_text):
-    """Parse the content-queue table (12-col with `gemini`, 11-col with `folder`, or 10-col)."""
-    return _parse_tolerant(md_text, [COLUMNS, COLUMNS_L11, COLUMNS_L10])
+    """Parse the content-queue table (14-col with vol/kd, or 12/11/10-col legacy)."""
+    return _parse_tolerant(md_text, [COLUMNS, COLUMNS_L12, COLUMNS_L11, COLUMNS_L10])
 
 
 def parse_backlog(md_text):
@@ -123,6 +124,7 @@ def build_status(rows, backlog=None, research=None, target=10):
         if st in counts:
             counts[st] += 1
     buffer_count = counts["drafted"] + counts["approved"]
+    rows = _with_opportunity(rows)          # articles carry their target keyword's vol/kd
     backlog = _with_opportunity(backlog or [])
     research = _with_opportunity(research or [])
     return {

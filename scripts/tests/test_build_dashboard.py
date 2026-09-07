@@ -72,6 +72,28 @@ def test_parse_queue_gemini_column():
     assert rows[2]["gemini"] == "skipped"
 
 
+QUEUE_AHREFS = """# Content Queue
+| id | status | type | query | keywords_or_terms | volume | kd | source | drafted_date | posted_date | folder | pr | gemini | notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | drafted | guide | Free games | free | 11000 | 45 | research | 2026-09-07 |  | 2026-09-07-free | #4 | ai 60 |  |
+"""
+
+
+def test_queue_ahrefs_columns_and_article_opportunity():
+    rows = bd.parse_queue(QUEUE_AHREFS)
+    assert rows[0]["volume"] == "11000" and rows[0]["kd"] == "45"
+    status = bd.build_status(rows, target=10)
+    # article rows now carry a computed Opportunity from their target keyword's vol/kd
+    assert status["rows"][0]["opportunity"]["band"] == "Strong"
+
+
+def test_legacy_queue_rows_get_empty_metrics():
+    rows = bd.parse_queue(QUEUE_GEMINI)   # 12-col, no vol/kd
+    assert rows[0]["volume"] == "" and rows[0]["kd"] == ""
+    status = bd.build_status(rows, target=10)
+    assert status["rows"][0]["opportunity"] is None
+
+
 def test_parse_backlog():
     bl = bd.parse_backlog(BACKLOG_SAMPLE)
     assert len(bl) == 2
