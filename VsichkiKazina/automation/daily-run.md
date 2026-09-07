@@ -124,22 +124,29 @@ stage you are STARTING now>,"stage":"<that stage's name>"}`.
      and prints Gemini's verdict + recommendations.
      · **If it exits non-zero / prints `GEMINI_UNAVAILABLE`/`GEMINI_ERROR`** (key unset, API
        down): DO NOT halt — log `external check: skipped (Gemini unavailable)` and continue.
-     · **PASS** when the verdict is "human-written" with confidence **≥ GEMINI_TARGET_CONFIDENCE
-       (80)** — log `external check: Gemini <verdict>` and continue.
+     · **Interpreting the verdict → one HUMAN-LIKENESS score (0–100, higher = better).**
+       Gemini phrases it two ways; normalize BOTH before any comparison:
+       `"Likely human-written, X%"` → human-likeness = **X**; `"Shows AI patterns, Y%"` →
+       human-likeness = **100 − Y**. (So "AI patterns 65%" = 35 human-likeness, which is
+       worse than "human-written 70%".) Use human-likeness for the PASS test AND for
+       keep-best — NEVER compare the raw confidence numbers across different verdict types.
+     · **PASS** when **human-likeness ≥ GEMINI_TARGET_CONFIDENCE (80)** — log
+       `external check: Gemini <verdict>` and continue.
      · **Otherwise** (shows AI patterns, or human-written < 80): iterate to improve. Each
        pass: apply Gemini's flagged recommendations through a FRESH Humaniser pass using
        `pipeline/prompts/step-7b-apply-gemini-recs.md` (preserve EVERY untouchable: numbers,
        links, RG lines, 18+, disclosures, dates, byline, brand; never paste Gemini's text),
        then a quick Brand Gate re-check, then re-run `gemini_check.py`. Repeat up to
        `MAX_GEMINI_PASSES` (2).
-     · **KEEP THE BEST STATE (mandatory).** Record the score of the INITIAL draft and of
-       EVERY pass (the `07-gemini-check-<pass>.md` files preserve them). A Humaniser pass can
-       *lower* the score (e.g. 75 → 70 → 65). When the loop ends — by PASS or by hitting the
-       cap — the final `05b` MUST be the **highest-scoring version seen**, even if that is the
-       untouched original or an earlier pass. NEVER keep a later, lower-scoring version just
-       because it came last. Commit the winner as
-       `content(<slug>): keep best version (pass <k>, <conf>%)` and put that score in the
-       `gemini` column (`human <conf>` if ≥80, else `ai <conf>`).
+     · **KEEP THE BEST STATE (mandatory).** Record the **human-likeness** of the INITIAL
+       draft and of EVERY pass (the `07-gemini-check-<pass>.md` files preserve the verdicts).
+       A Humaniser pass can *lower* human-likeness (e.g. 75 → 70 → 65). When the loop ends —
+       by PASS or by hitting the cap — the final `05b` MUST be the version with the
+       **highest human-likeness seen**, even if that is the untouched original or an earlier
+       pass. NEVER keep a later, lower version just because it came last. Commit the winner as
+       `content(<slug>): keep best version (pass <k>, <human-likeness>%)` and record it in the
+       `gemini` column: `human <hl>` if human-likeness ≥ 80, else `ai <100−hl>` (i.e. the
+       winning version's own verdict, verbatim scale).
      · Gemini must NEVER touch facts, RG language, disclosures, or `[VERIFY]` flags — it is
        style-only; recommendations only.
      · **Commit-history discipline (audit trail on the PR branch).** Keep every iteration as

@@ -361,10 +361,12 @@ async function load() {
     v = (v || '').trim().toLowerCase();
     if (!v) return '<span class="chk chk-none">— not run</span>';
     if (v.startsWith('skip')) return '<span class="chk chk-none">skipped</span>';
-    const conf = (v.match(/(\d+)/) || [])[1] || '';
-    if (v.startsWith('human')) return `<span class="gem gem-pass">✓ Gemini ${conf}%</span>`;
-    if (v.startsWith('ai')) return `<span class="gem gem-warn">AI-ish ${conf}%</span>`;
-    return `<span class="chk chk-none">${v}</span>`;
+    const n = parseInt(((v.match(/(\d+)/) || [])[1]));
+    if (isNaN(n)) return `<span class="chk chk-none">${v}</span>`;
+    // normalise to human-likeness (higher = better); "ai Y" means Y% AI ⇒ 100−Y human.
+    const hl = v.startsWith('ai') ? (100 - n) : n;
+    const pass = hl >= 80;
+    return `<span class="gem ${pass ? 'gem-pass' : 'gem-warn'}">${pass ? '✓ ' : ''}${hl}% human</span>`;
   }
 
   function renderArticles(rows) {
