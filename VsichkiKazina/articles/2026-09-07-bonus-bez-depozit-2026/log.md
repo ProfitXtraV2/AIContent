@@ -43,3 +43,14 @@
   key numbers (10 €/40×/400 €/120 €/50 €/100 €/7 дни/57 €/5 €/10–20%/2 000 €/30 FS/0,10 €/3 €) present and
   consistent; превъртане base stated (само бонус).
 - Status → drafted. drafted_date 07.09.2026. Not posted, not merged; human owns Step 6/publish.
+- 2026-09-07 · Step 7 BACKFILL (external Gemini cross-model check — article predated the Gemini step).
+  Model gemini-3.1-pro-preview (scripts/gemini_check.py). Pass 1 (as-delivered 05b): "Shows AI patterns"
+  70% → below 80. Applied Gemini's flagged style recs via a FRESH Humaniser pass, no untouchable altered:
+  removed the doubled "Причината е проста:/Логиката… е проста:" explanatory setups, cut the "Честно казано,"
+  filler, replaced the "Мнозина приемат…" strawman with a direct statement, dropped numerical signposting
+  ("Има и още две неща…", "Втората практическа спънка е…"), and broke the "Точно затова… точно затова…"
+  symmetry. Relocated the trailing process meta-notes out of 05b into this log + 07-gemini-check-*.md.
+  Pass 2 check: "Likely human-written, 85% confidence" → PASS (≥80) in one Humaniser pass. All numbers
+  (10 €, превъртане 40 пъти, 40×10 €, 400 €, 120 €, 50 €, 100 €, 7 дни, 57 €, 5 €, 10–20%, 2 000 €, 30 FS,
+  0,10 €, 3 €, 100%), the 4 internal links, verbatim 18+/RG lines, dates and affiliate disclosure UNTOUCHED;
+  [VERIFY] flags not resolved; not posted, not merged. content-queue gemini = human 85.
