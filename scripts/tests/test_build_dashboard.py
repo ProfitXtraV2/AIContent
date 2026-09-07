@@ -21,6 +21,12 @@ BACKLOG_SAMPLE = """# Topic Backlog
 | 2 | comparison | Best bonuses | bonus | open |  |
 """
 
+RESEARCH_SAMPLE = """# Research Topics Bank
+| type | query | researched_keywords | source_rationale | status | date_researched |
+|---|---|---|---|---|---|
+| review | Palms Bet | palms bet казино | НАП register | candidate | 2026-09-07 |
+"""
+
 
 def test_parse_queue_row_count():
     rows = bd.parse_queue(SAMPLE)
@@ -47,6 +53,15 @@ def test_build_status_includes_backlog_and_articles_base():
                              backlog=bd.parse_backlog(BACKLOG_SAMPLE), target=10)
     assert len(status["backlog"]) == 2
     assert status["articles_base_url"].endswith("/VsichkiKazina/articles/")
+
+
+def test_parse_research_and_included_in_status():
+    research = bd.parse_research(RESEARCH_SAMPLE)
+    assert len(research) == 1
+    assert research[0]["query"] == "Palms Bet"
+    assert research[0]["researched_keywords"] == "palms bet казино"
+    status = bd.build_status(bd.parse_queue(SAMPLE), research=research, target=10)
+    assert len(status["research"]) == 1
 
 
 def test_build_status_buffer_counts_drafted_and_approved():

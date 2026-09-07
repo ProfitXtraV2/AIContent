@@ -14,6 +14,8 @@ ALL_STATES = ["in-progress", "drafted", "approved", "posted", "failed"]
 COLUMNS = ["id", "status", "type", "query", "keywords_or_terms",
            "source", "drafted_date", "posted_date", "folder", "pr", "notes"]
 BACKLOG_COLUMNS = ["priority", "type", "query", "keywords_or_terms", "status", "notes"]
+RESEARCH_COLUMNS = ["type", "query", "researched_keywords", "source_rationale",
+                    "status", "date_researched"]
 
 
 def _parse_table(md_text, columns):
@@ -79,7 +81,12 @@ def parse_backlog(md_text):
     return _parse_table(md_text, BACKLOG_COLUMNS)
 
 
-def build_status(rows, backlog=None, target=10):
+def parse_research(md_text):
+    """Parse the research-topics (AI backlog) markdown table into row dicts."""
+    return _parse_table(md_text, RESEARCH_COLUMNS)
+
+
+def build_status(rows, backlog=None, research=None, target=10):
     counts = {s: 0 for s in ALL_STATES}
     for r in rows:
         st = r.get("status", "").lower()
@@ -97,6 +104,7 @@ def build_status(rows, backlog=None, target=10):
         "counts": counts,
         "rows": rows,
         "backlog": backlog or [],
+        "research": research or [],
         "articles_base_url": LINKS["repo"] + "/tree/main/VsichkiKazina/articles/",
         "meta": {
             "brand": "VsichkiKazina",
@@ -110,10 +118,13 @@ def main():
     root = Path(__file__).resolve().parents[1]
     queue = root / "VsichkiKazina" / "content-queue.md"
     backlog_f = root / "VsichkiKazina" / "topic-backlog.md"
+    research_f = root / "VsichkiKazina" / "research-topics.md"
     out = root / "docs" / "data" / "status.json"
     md = queue.read_text(encoding="utf-8") if queue.exists() else ""
     bl = backlog_f.read_text(encoding="utf-8") if backlog_f.exists() else ""
-    status = build_status(parse_queue(md), backlog=parse_backlog(bl), target=10)
+    rs = research_f.read_text(encoding="utf-8") if research_f.exists() else ""
+    status = build_status(parse_queue(md), backlog=parse_backlog(bl),
+                          research=parse_research(rs), target=10)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(status, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"wrote {out} — buffer {status['buffer']['count']}/{status['buffer']['target']}")

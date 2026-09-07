@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-07T14:28:51Z",
+  "generated_utc": "2026-09-07T14:42:39Z",
   "buffer": {
     "count": 0,
     "target": 10,
@@ -32,6 +32,7 @@
       "notes": "links /bonus-category/welcome-bonus/"
     }
   ],
+  "research": [],
   "articles_base_url": "https://github.com/ProfitXtraV2/AIContent/tree/main/VsichkiKazina/articles/",
   "meta": {
     "brand": "VsichkiKazina",

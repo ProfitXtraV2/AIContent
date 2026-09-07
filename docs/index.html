@@ -286,15 +286,17 @@ async function load() {
   // Tabs — ordered by importance (most actionable first)
   const allRows = s.rows || [];
   const backlog = s.backlog || [];
+  const research = s.research || [];
   const base = s.articles_base_url || '';
   const TABS = [
-    { key: 'deploy', cls: 'deploy', label: '▶ Ready to deploy',
+    { key: 'deploy', cls: 'deploy', label: 'Articles ready to deploy',
       rows: allRows.filter(r => r.status === 'approved'), kind: 'article' },
-    { key: 'review', cls: 'review', label: 'Needs review',
+    { key: 'review', cls: 'review', label: 'Articles for review',
       rows: allRows.filter(r => r.status === 'drafted'), kind: 'article' },
-    { key: 'backlog', cls: '', label: 'Backlog',
+    { key: 'backlog', cls: '', label: 'Backlog keywords',
       rows: backlog.filter(r => (r.status || 'open') !== 'used'), kind: 'backlog' },
-    { key: 'all', cls: '', label: 'All', rows: allRows, kind: 'article' },
+    { key: 'research', cls: '', label: 'AI backlog keywords',
+      rows: research.filter(r => (r.status || 'candidate') !== 'used'), kind: 'research' },
   ];
 
   function articleLinks(r) {
@@ -325,6 +327,14 @@ async function load() {
     return `<table><thead><tr>${cols.map(([, h]) => `<th>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table>`;
   }
 
+  function renderResearch(rows) {
+    if (!rows.length) return '<div class="empty">No AI-researched topics yet — the run refreshes this bank each day.</div>';
+    const cols = [['type','Type'],['query','Topic'],['researched_keywords','Keywords'],
+      ['source_rationale','Why / source'],['status','Status'],['date_researched','Found']];
+    const body = rows.map(r => '<tr>' + cols.map(([c]) => `<td>${r[c] || ''}</td>`).join('') + '</tr>').join('');
+    return `<table><thead><tr>${cols.map(([, h]) => `<th>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table>`;
+  }
+
   const tabsEl = document.getElementById('tabs');
   const contentEl = document.getElementById('tabContent');
   function activate(key) {
@@ -332,7 +342,9 @@ async function load() {
       document.getElementById('tab-' + t.key).classList.toggle('active', t.key === key);
     });
     const t = TABS.find(x => x.key === key);
-    contentEl.innerHTML = t.kind === 'backlog' ? renderBacklog(t.rows) : renderArticles(t.rows);
+    contentEl.innerHTML = t.kind === 'backlog' ? renderBacklog(t.rows)
+      : t.kind === 'research' ? renderResearch(t.rows)
+      : renderArticles(t.rows);
   }
   tabsEl.innerHTML = TABS.map(t =>
     `<button class="tab ${t.cls}" id="tab-${t.key}" onclick="__activate('${t.key}')">` +
