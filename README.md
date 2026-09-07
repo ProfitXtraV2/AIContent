@@ -46,8 +46,14 @@ design (see [Adding a brand](#adding-a-new-brand)).
   (Synthesis → Outline → Author → Humaniser → SEO → Brand Gate → light re-check) produces
   Bulgarian copy signed **Георги Тодоров**, with an anti-AI-pattern discipline and a hard
   compliance gate (responsible-gambling lines, disclosures, licence framing).
+- **Cross-model AI-detection gate (Gemini, Step 7).** Each finished draft is scored by
+  **Gemini** (a different model family) for AI-writing tells. If it's below the target
+  ("human-written ≥ 80%"), the run applies Gemini's *style* recommendations through a fresh
+  Humaniser pass (facts untouched) and re-checks — up to 2 passes. The verdict shows on the
+  dashboard as a per-article rating/approval badge. Skips gracefully if the key is unset.
 - **Never fabricates.** Unverifiable facts stay as `[VERIFY]` flags for the human; the run
-  refuses to invent operator terms, licences, or figures.
+  refuses to invent operator terms, licences, or figures. Gemini is style-only — it never
+  touches facts, RG language, disclosures, or flags.
 - **Delivers via PR.** One Pull Request per article (content only), plus a
   `06-verification.md` that makes the human's fact-check fast. Nothing reaches `main` /
   publication without a human.
@@ -110,10 +116,11 @@ Summary of its steps:
    keyword must eventually become a written article), then the AI research bank. Apply
    **exact dedup** (queue + sitemap) and **anti-cannibalization** (one pillar per cluster).
 4. **Write each article** through pipeline stages 1→5b, diffing all numbers between stages;
-   assemble `06-verification.md`; obey the current **content scope** (guides-only until a
-   BG source route exists).
-5. **Record outcome on `main`.** Queue row → `drafted`/`failed`; backlog row → `written`/
-   `failed`; never resolve flags, post, or merge.
+   run the **Step-7 Gemini cross-model check** (accept at human-written ≥ 80%, else apply
+   recs via a fresh Humaniser pass + re-gate, ≤ 2 passes); assemble `06-verification.md`;
+   obey the current **content scope** (guides-only until a BG source route exists).
+5. **Record outcome on `main`.** Queue row → `drafted`/`failed` (+ the Gemini verdict in the
+   `gemini` column); backlog row → `written`/`failed`; never resolve flags, post, or merge.
 6. **Keyword research + analysis.** Ahrefs (or web fallback) refreshes the AI backlog and
    grades the human backlog; dedup applied *here too*. Rebuild the dashboard.
 7. **Open one PR per article** (content only) into `main`.
@@ -133,7 +140,9 @@ AIContent/
 │       └── run-status.json       #   heartbeat: running/idle + live per-stage progress
 ├── scripts/
 │   ├── build_dashboard.py        # deterministic: parses board files → status.json
+│   ├── gemini_check.py           # Step-7 external check: POSTs article+prompt to Gemini API
 │   ├── AHREFS_ENDPOINTS.md       # recorded working Ahrefs v3 endpoints (for scripting)
+│   ├── GEMINI_ENDPOINT.md        # recorded working Gemini model/endpoint
 │   └── tests/test_build_dashboard.py
 └── VsichkiKazina/                # ── one folder per brand ──
     ├── pipeline/                 # the editorial pipeline (agents, prompts, markets, gate)
@@ -150,7 +159,9 @@ AIContent/
 ## Data model & schemas
 
 **Article lifecycle** (`content-queue.md`): `in-progress → drafted → approved → posted`
-(or `failed`). **Buffer** = count of `drafted + approved`.
+(or `failed`). **Buffer** = count of `drafted + approved`. Columns include a **`gemini`**
+field holding the Step-7 verdict (`human <conf>` = approved, `ai <conf>` = below target,
+`skipped`) — rendered as the rating badge on the article tabs.
 
 **Human backlog** (`topic-backlog.md`) — you fill the first columns; the run enriches the rest:
 `priority | type | query | keywords_or_terms | volume | kd | intent | checked | ahrefs_note | status | notes`
@@ -194,6 +205,8 @@ the **cloud environment / routine**, not in the repo.
 | `BUFFER_TARGET` | 10 | desired written-but-unposted articles |
 | `MAX_PER_RUN` | 10 | safety cap on articles per run (first backfill) |
 | `RUN_TIME` | 07:00 Europe/Sofia | cron fire time (UTC in the routine: `0 4 * * *`) |
+| `GEMINI_TARGET_CONFIDENCE` | 80 | Step-7 accepts at "human-written ≥ this" |
+| `MAX_GEMINI_PASSES` | 2 | max Humaniser re-passes Gemini can drive before handing to human |
 | **Content scope** | guides-only | single switch — see limits below |
 
 ## Human workflow
@@ -207,8 +220,9 @@ Each morning a PR (or several) is waiting. Per PR:
    (this frees a buffer slot; the next run refills it).
 5. Steer future topics by adding rows to `topic-backlog.md` — the run enriches + writes them.
 
-Optional cross-model humanisation check (Gemini) can be applied manually via
-`pipeline/prompts/step-7b-apply-gemini-recs.md` through a fresh Humaniser pass before posting.
+The **Gemini rating** (green `✓ Gemini NN%` = approved, amber `AI-ish NN%` = below target) is
+shown per article on the review/deploy tabs — an amber badge is your cue to tighten the copy
+(or post as-is). The Step-7 check runs automatically in the pipeline; you don't run it by hand.
 
 ## The dashboard
 
@@ -216,9 +230,10 @@ Static, data-driven (`docs/index.html` reads `docs/data/status.json` + `run-stat
 - **Buffer gauge**, **next scheduled run** (live countdown), **pipeline status** counts.
 - **Live run banner + stage tracker** (reads `run-status.json` fresh via the GitHub API,
   so it isn't delayed by Pages builds).
-- Tabs: **Articles ready to deploy** (approved), **Articles for review** (open PRs / drafts),
-  **Backlog keywords** (yours, with Ahrefs verdict), **AI backlog keywords** (sorted by
-  opportunity, with `✓ Ahrefs`/`web` badge).
+- Tabs: **Articles ready to deploy** (approved) and **Articles for review** (drafts) — each
+  row shows keywords used, source, links (PR + files), and the **Gemini rating badge**;
+  **Backlog keywords** (yours, with Ahrefs verdict) and **AI backlog keywords** (sorted by
+  opportunity, with Vol/KD/Opportunity + `✓ Ahrefs`/`web` badge).
 - Regenerated every run by `build_dashboard.py`.
 
 ## Local development
