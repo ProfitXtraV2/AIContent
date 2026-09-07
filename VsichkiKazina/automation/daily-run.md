@@ -14,6 +14,17 @@ You may commit **only** `docs/data/run-status.json` directly to `main` — this 
 operational status heartbeat, never article content or the queue. Everything else
 still follows the "never commit to main" rule (articles go via PRs).
 
+## Live progress reporting
+Keep a `progress` object inside `run-status.json` current so the dashboard can show
+which step you are on. Before starting each pipeline stage of the current article,
+update and push `run-status.json` with:
+`progress = {"phase":"writing","article_index":<1-based>,"article_total":<deficit>,
+"article_slug":"<slug>","stages":["Synthesis","Outline","Author","Humaniser","SEO",
+"Brand Gate","Light re-check","Verification","PR"],"stage_index":<0-based index of the
+stage you are about to run>,"stage":"<that stage's name>"}`. One push per stage is fine
+(the dashboard reads this file fresh via the GitHub API, so it is not delayed by Pages
+builds). Use the exact stage names above so the tracker lines up.
+
 ## Procedure
 
 1. **Sync + start heartbeat.** Ensure you are on an up-to-date `main` (the human may

@@ -81,11 +81,19 @@
   @keyframes pulse { 70% { box-shadow: 0 0 0 9px rgba(52,214,122,0); }
                      100% { box-shadow: 0 0 0 0 rgba(52,214,122,0); } }
   .run-banner a { margin-left: auto; }
+  .steps { display: flex; flex-wrap: wrap; gap: .4rem; margin: -.5rem 0 1.25rem; }
+  .step { font-size: .72rem; padding: .22rem .55rem; border-radius: 999px;
+          border: 1px solid var(--line); color: var(--muted); }
+  .step.done { color: #57e08a; border-color: #1e5c37; }
+  .step.done::before { content: "✓ "; }
+  .step.current { color: #8ff0b4; border-color: #34d67a; background: #10241a;
+                  animation: pulse 1.4s infinite; font-weight: 600; }
 </style>
 </head>
 <body>
 <div class="wrap">
   <div id="runBanner" class="run-banner" style="display:none"></div>
+  <div id="runSteps" class="steps" style="display:none"></div>
   <header>
     <h1><span class="dot">●</span> VsichkiKazina — Content Autopilot</h1>
     <div class="sub" id="site"></div>
@@ -156,21 +164,60 @@ function ago(iso) {
   return h < 24 ? `${h}h ${m % 60}m ago` : `${Math.round(h / 24)}d ago`;
 }
 
+// GitHub API contents endpoint is not CDN-cached, so run-status is fresh within
+// seconds of a push (Pages copy is the fallback if the API is unavailable/rate-limited).
+const RUNSTATUS_API =
+  'https://api.github.com/repos/ProfitXtraV2/AIContent/contents/docs/data/run-status.json?ref=main';
+
+function b64utf8(b64) {
+  const bin = atob(b64.replace(/\n/g, ''));
+  const bytes = Uint8Array.from(bin, c => c.charCodeAt(0));
+  return new TextDecoder('utf-8').decode(bytes);
+}
+
+async function fetchRunStatus() {
+  try {
+    const j = await (await fetch(RUNSTATUS_API + '&_=' + Date.now(),
+      { headers: { 'Accept': 'application/vnd.github.raw+json' } })).json();
+    if (j && j.content) return JSON.parse(b64utf8(j.content));  // default JSON response
+    if (j && j.state) return j;                                  // raw media type response
+  } catch (e) { /* fall through */ }
+  return (await fetch('./data/run-status.json?_=' + Date.now())).json();  // Pages fallback
+}
+
+function renderSteps(p) {
+  const el = document.getElementById('runSteps');
+  if (!p || !p.stages) { el.style.display = 'none'; return; }
+  el.style.display = 'flex';
+  const idx = (p.stage_index != null) ? p.stage_index : -1;
+  el.innerHTML = p.stages.map((name, i) => {
+    const cls = i < idx ? 'done' : (i === idx ? 'current' : '');
+    return `<span class="step ${cls}">${name}</span>`;
+  }).join('');
+}
+
 async function loadRunStatus() {
   const el = document.getElementById('runBanner');
   let r;
-  try { r = await (await fetch('./data/run-status.json?_=' + Date.now())).json(); }
-  catch (e) { el.style.display = 'none'; return; }
+  try { r = await fetchRunStatus(); }
+  catch (e) { el.style.display = 'none'; document.getElementById('runSteps').style.display = 'none'; return; }
   el.style.display = 'flex';
   const link = r.run_url ? `<a href="${r.run_url}" target="_blank" rel="noopener">View run ↗</a>` : '';
   if (r.state === 'running') {
     el.className = 'run-banner running';
-    el.innerHTML = `<span class="live"></span><span><b>Run in progress</b>` +
-      ` — started ${ago(r.run_started_utc)}${r.note ? ' · ' + r.note : ''}</span>${link}`;
+    const p = r.progress || {};
+    let where = '';
+    if (p.article_total) where += ` — article ${p.article_index || 1}/${p.article_total}`;
+    if (p.article_slug) where += `: ${p.article_slug}`;
+    if (p.stage) where += ` · ${p.stage}`;
+    el.innerHTML = `<span class="live"></span><span><b>Run in progress</b>${where}` +
+      `<span style="color:var(--muted)"> · started ${ago(r.run_started_utc)}</span></span>${link}`;
+    renderSteps(p);
   } else {
     el.className = 'run-banner idle';
     const wrote = (r.articles_written != null) ? ` · wrote ${r.articles_written} article(s)` : '';
     el.innerHTML = `<span class="live"></span><span>Idle — last run ${ago(r.run_finished_utc)}${wrote}</span>${link}`;
+    document.getElementById('runSteps').style.display = 'none';
   }
 }
 

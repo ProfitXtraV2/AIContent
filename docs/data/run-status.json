@@ -5,5 +5,14 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/routines/trig_011f3su1Brcj5QHNCo4zqBEY",
-  "note": "Validation run (max 2 articles)"
+  "note": "Validation run (max 2 articles)",
+  "progress": {
+    "phase": "writing",
+    "article_index": 1,
+    "article_total": 2,
+    "article_slug": "",
+    "stages": ["Synthesis", "Outline", "Author", "Humaniser", "SEO", "Brand Gate", "Light re-check", "Verification", "PR"],
+    "stage_index": null,
+    "stage": null
+  }
 }
