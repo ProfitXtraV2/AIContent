@@ -1,38 +1,106 @@
 {
-  "generated_utc": "2026-09-07T14:42:39Z",
+  "generated_utc": "2026-09-07T14:57:39Z",
   "buffer": {
-    "count": 0,
+    "count": 1,
     "target": 10,
-    "deficit": 10,
+    "deficit": 9,
     "ok": false
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 0,
+    "drafted": 1,
     "approved": 0,
     "posted": 0,
-    "failed": 0
+    "failed": 1
   },
-  "rows": [],
+  "rows": [
+    {
+      "id": "vk-0001",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Как работи изискването за разиграване (wagering)",
+      "keywords_or_terms": "разиграване, wagering, бонус условия",
+      "source": "backlog",
+      "drafted_date": "2026-09-07",
+      "posted_date": "",
+      "folder": "2026-09-07-kak-raboti-razigravaneto",
+      "pr": "content/2026-09-07-kak-raboti-razigravaneto",
+      "notes": "gate PASS WITH FIXES 89/100; humanisation HUMAN-LIKE 50/60; 0 surviving flags; 4 approved links; all numbers illustrative"
+    },
+    {
+      "id": "vk-0002",
+      "status": "failed",
+      "type": "comparison",
+      "query": "Най-добри казино бонуси за добре дошли 2026",
+      "keywords_or_terms": "бонус за добре дошли, welcome bonus",
+      "source": "backlog",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-07-bonusi-za-dobre-doshli-2026",
+      "pr": "content/2026-09-07-bonusi-za-dobre-doshli-2026",
+      "notes": "BLOCKED at brief: operator T&C + НАП register + competitor sites egress-blocked; would require fabricating operator terms/licences (forbidden); [FAILED] PR; needs verified brief or source-reachable env"
+    }
+  ],
   "backlog": [
     {
       "priority": "1",
       "type": "guide",
       "query": "Как работи изискването за разиграване (wagering)",
       "keywords_or_terms": "разиграване, wagering, бонус условия",
-      "status": "open",
-      "notes": "evergreen explainer"
+      "status": "queued",
+      "notes": "2026-09-07: drafted (id vk-0001), PR content/2026-09-07-kak-raboti-razigravaneto"
     },
     {
       "priority": "2",
       "type": "comparison",
       "query": "Най-добри казино бонуси за добре дошли 2026",
       "keywords_or_terms": "бонус за добре дошли, welcome bonus",
-      "status": "open",
-      "notes": "links /bonus-category/welcome-bonus/"
+      "status": "queued",
+      "notes": "links /bonus-category/welcome-bonus/; 2026-09-07: attempted, FAILED (id vk-0002) — operator terms + НАП register egress-blocked; needs verified brief or source-reachable env"
     }
   ],
-  "research": [],
+  "research": [
+    {
+      "type": "guide",
+      "query": "Какво е RTP и как да го четем",
+      "researched_keywords": "RTP, връщане към играча, домашно предимство, дълъг период",
+      "source_rationale": "Education cluster supporting /kak-ocenyavame/; evergreen conceptual — writable without operator/НАП data. Pairs with the wagering guide (vk-0001).",
+      "status": "candidate",
+      "date_researched": "2026-09-07"
+    },
+    {
+      "type": "guide",
+      "query": "Волатилност на слот игрите: ниска срещу висока",
+      "researched_keywords": "волатилност, дисперсия, ротативки, бюджет, темперамент",
+      "source_rationale": "Explains a core concept players misread as \"quality\"; evergreen, no operator facts needed.",
+      "status": "candidate",
+      "date_researched": "2026-09-07"
+    },
+    {
+      "type": "guide",
+      "query": "Бонус без депозит: как работи и къде е уловката",
+      "researched_keywords": "бонус без депозит, превъртане, макс. изтегляема сума, срок",
+      "source_rationale": "Companion to vk-0001; the no-deposit case has its own catches (high wagering, low cashout cap). Conceptual — writable without blocked sources.",
+      "status": "candidate",
+      "date_researched": "2026-09-07"
+    },
+    {
+      "type": "guide",
+      "query": "Верификация (KYC) при първо теглене: какво искат и защо",
+      "researched_keywords": "верификация, KYC, теглене, лична карта, доказателство за адрес",
+      "source_rationale": "Process guide for the first-withdrawal friction; supports /depoziti-i-teglenia/; evergreen, no operator-specific data.",
+      "status": "candidate",
+      "date_researched": "2026-09-07"
+    },
+    {
+      "type": "guide",
+      "query": "Лимити за отговорна игра: депозит, загуба, сесия",
+      "researched_keywords": "лимит на депозита, лимит на загубата, самоизключване, регистър на уязвимите лица",
+      "source_rationale": "RG hub content for /otgovorna-igra/; site-doctrine aligned; writable without blocked sources.",
+      "status": "candidate",
+      "date_researched": "2026-09-07"
+    }
+  ],
   "articles_base_url": "https://github.com/ProfitXtraV2/AIContent/tree/main/VsichkiKazina/articles/",
   "meta": {
     "brand": "VsichkiKazina",
