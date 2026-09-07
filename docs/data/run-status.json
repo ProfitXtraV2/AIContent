@@ -5,7 +5,7 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/routines/trig_011f3su1Brcj5QHNCo4zqBEY",
-  "note": "daily run — 6 guide pillars in production (fresh-context writers)",
+  "note": "daily run PAUSED — session rate limit hit (6/6 writer subagents 429'd, resets 19:10 UTC). Partial artifacts preserved on branch wip/daily-2026-09-07. Auto-resume scheduled ~19:12 UTC to finish articles + Gemini + PRs.",
   "progress": {
     "phase": "writing",
     "article_index": 1,
