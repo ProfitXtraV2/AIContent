@@ -61,6 +61,7 @@
   th, td { padding: .6rem .65rem; text-align: left; border-bottom: 1px solid var(--line); }
   th { color: var(--muted); font-weight: 600; font-size: .7rem; text-transform: uppercase;
        letter-spacing: .06em; background: #f7f9fc; }
+  th[title] { cursor: help; text-decoration: underline dotted; text-underline-offset: 3px; }
   thead th:first-child { border-top-left-radius: 8px; }
   thead th:last-child { border-top-right-radius: 8px; }
   tbody tr:hover { background: #f5f8ff; }
@@ -171,6 +172,27 @@
 const LABELS = {
   site: "Live site", repo: "Repo", prs: "Pull requests",
   routine: "Run / routine", backlog: "Topic backlog", queue: "Content queue"
+};
+
+// Hover explanations for table column headers (shown as native tooltips).
+const TIPS = {
+  volume: "Vol — monthly search volume in Bulgaria (Ahrefs): how many people search this keyword per month. Higher = more demand / potential traffic.",
+  kd: "KD — Keyword Difficulty 0–100 (Ahrefs): how hard it is to rank #1. Higher = more competition.",
+  opportunity: "Opportunity — our combined score from Vol × (1−KD): high volume + achievable difficulty = Strong. In short: is it worth writing?",
+  gemini: "Gemini — cross-model AI-detection score. Green ✓ = ≥80% human-likeness (passed); amber = below the 80 target; '— not run' = not yet checked.",
+  checked: "Checked — how the metrics were obtained: ✓ Ahrefs (real API data), web (fallback estimate), or unchecked.",
+  intent: "Intent — search intent (Ahrefs): informational / commercial / transactional / navigational.",
+  trend: "Trend — search-volume direction over time (up / flat / down).",
+  source: "Source — where the topic came from: your backlog or the AI research bank.",
+  keywords_or_terms: "The keywords this article/topic targets.",
+  researched_keywords: "The keywords researched for this candidate.",
+  status: "Lifecycle status of the article.",
+  ahrefs_note: "Ahrefs verdict + a stronger-variant suggestion if the keyword is weak.",
+  suggestion: "One-line rating / verdict for the keyword.",
+  priority: "Your priority order (lower = written first).",
+  query: "The article title / topic.",
+  pr: "Pull request number.",
+  links: "Links to the PR and the article's files in the repo.",
 };
 
 function nextRunFromSchedule(sched) {
@@ -383,7 +405,7 @@ async function load() {
       const cls = (c === 'volume' || c === 'kd') ? ' class="num"' : '';
       return `<td${cls}>${v}</td>`;
     }).join('') + '</tr>').join('');
-    return `<table><thead><tr>${cols.map(([, h]) => `<th>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table>`;
+    return `<table><thead><tr>${cols.map(([c, h]) => `<th${TIPS[c] ? ' title="' + TIPS[c] + '"' : ''}>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table>`;
   }
 
   function opChip(o) {
@@ -411,7 +433,7 @@ async function load() {
       const cls = (c === 'volume' || c === 'kd') ? ' class="num"' : '';
       return `<td${cls}>${r[c] || ''}</td>`;
     }).join('') + '</tr>').join('');
-    return `<table><thead><tr>${cols.map(([, h]) => `<th>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table>`;
+    return `<table><thead><tr>${cols.map(([c, h]) => `<th${TIPS[c] ? ' title="' + TIPS[c] + '"' : ''}>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table>`;
   }
 
   function renderResearch(rows) {
@@ -426,7 +448,7 @@ async function load() {
       const cls = (c === 'volume' || c === 'kd') ? ' class="num"' : '';
       return `<td${cls}>${r[c] || ''}</td>`;
     }).join('') + '</tr>').join('');
-    return `<table><thead><tr>${cols.map(([, h]) => `<th>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table>`;
+    return `<table><thead><tr>${cols.map(([c, h]) => `<th${TIPS[c] ? ' title="' + TIPS[c] + '"' : ''}>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table>`;
   }
 
   const tabsEl = document.getElementById('tabs');
