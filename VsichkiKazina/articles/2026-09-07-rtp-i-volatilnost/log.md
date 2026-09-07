@@ -26,3 +26,9 @@ FINAL GREP-VERIFICATION (05b-final-draft.md)
 - превъртане: not used (concept guide, no bonus). N/A base note.
 
 ANTI-CANNIBALIZATION NOTE (for human): a live listing page /slot-igri/visok-rtp/ (high-RTP slots LIST) already exists. This piece is an evergreen CONCEPT/EDUCATION guide with informational intent — different search job, no overlap. It deliberately does NOT link /slot-igri/visok-rtp/ (outside approved set anyway). At publish the human may add a single contextual cross-link from this guide to the listing if desired.
+
+## Step 6/7 (orchestrator, post-writer)
+- Step 6 prep: assembled 06-verification.md (0 flags; illustrative-number table; long-run/house-edge recalculations; verbatim-untouchables spot-check; anti-cannibalization note vs /slot-igri/visok-rtp/). No flags in text.
+- Step 7 (Gemini cross-model, gemini-3.1-pro-preview): pass 1 (as-delivered) "Shows strong AI patterns 80%" → hl 20. Humaniser pass 1 (drop dramatic-pivot hooks, cut „Илюстративно:"/„Правилото е просто:" signposts, thin „не A, а B" contrasts, de-symmetrise the close) → pass 2 "Likely human-written 90%" → hl 90 → PASS. Kept pass-1 revision. content-queue gemini = human 90. Numbers/links/RG/18+/dates/byline/brand UNTOUCHED; no [VERIFY] resolved; not posted, not merged.
+- 07-gemini-check-1.md / -2.md persisted as the audit trail.
+- Status → drafted. drafted_date 07.09.2026. Human owns Step 6/publish.
