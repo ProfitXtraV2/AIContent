@@ -8,6 +8,8 @@ pipeline in `VsichkiKazina/pipeline/` VERBATIM — never paraphrase its agent fi
 ## Constants
 - BUFFER_TARGET = 10
 - MAX_PER_RUN = 10
+- GEMINI_TARGET_CONFIDENCE = 80   (Step 7 accepts at "human-written ≥ 80%"; 80 is acceptable)
+- MAX_GEMINI_PASSES = 2            (max Humaniser re-passes driven by Gemini before handing to human)
 
 ## CURRENT CONTENT SCOPE (guides-only autopilot)
 Until a BG-reachable source route exists (proxy/scraping-API or human source packs), the
@@ -117,9 +119,26 @@ stage you are STARTING now>,"stage":"<that stage's name>"}`.
      `affiliate_url` from `VsichkiKazina/affiliate-links.md` (`status: active` only). If the
      operator is missing from that registry, insert `[LINK NEEDED: <operator>]` — NEVER invent
      an affiliate URL or link a bare operator domain. Keep the affiliate-disclosure footer.
+   - **Step 7 — external Gemini check (cross-model).** After `05b` is final, run:
+     `python3 scripts/gemini_check.py <article>/05b-final-draft.md`. It reads `GEMINI_API_KEY`
+     and prints Gemini's verdict + recommendations.
+     · **If it exits non-zero / prints `GEMINI_UNAVAILABLE`/`GEMINI_ERROR`** (key unset, API
+       down): DO NOT halt — log `external check: skipped (Gemini unavailable)` and continue.
+     · **PASS** when the verdict is "human-written" with confidence **≥ GEMINI_TARGET_CONFIDENCE
+       (80)** — log `external check: Gemini <verdict>` and continue.
+     · **Otherwise** (shows AI patterns, or human-written < 80): apply Gemini's flagged
+       recommendations through a FRESH Humaniser pass using
+       `pipeline/prompts/step-7b-apply-gemini-recs.md` (preserve EVERY untouchable: numbers,
+       links, RG lines, 18+, disclosures, dates, byline, brand; never paste Gemini's text),
+       then a quick Brand Gate re-check, then re-run `gemini_check.py`. Repeat up to
+       `MAX_GEMINI_PASSES` (2). If still < 80 after the cap, keep the best-scoring version and
+       log `external check: Gemini <verdict> after N passes (below 80 target)`.
+     · Gemini must NEVER touch facts, RG language, disclosures, or `[VERIFY]` flags — it is
+       style-only; recommendations only.
    - Assemble `06-verification.md`: surviving flags + time-sensitive claims with
      primary-source URLs; recalculate one figure with working shown. FLAGS STAY IN THE
-     TEXT. Append one line per stage to `log.md`; record `external check: skipped`.
+     TEXT. Record the Gemini verdict (final confidence + passes applied) in
+     `06-verification.md` and one line per stage in `log.md`.
 
 5. **Record the outcome (board on `main`):**
    - Success → `content-queue.md` row `status: drafted`, fill `drafted_date`. If the topic

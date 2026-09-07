@@ -184,7 +184,8 @@ the **cloud environment / routine**, not in the repo.
 | 3 | Cloud GitHub access | `/web-setup` or Claude GitHub App | grant the org/repo so the cloud agent can clone + open PRs |
 | 4 | Cloud environment network | claude.ai/code → routine → env ⚙ | **Network access: Full** (WebFetch/Ahrefs need egress) |
 | 5 | Ahrefs key | same env ⚙ → Environment variables | secret **`AHREFS_API_KEY`** (never commit it) |
-| 6 | Scheduled routine | `/schedule` / routines API | cron **`0 4 * * *`** (07:00 Europe/Sofia), model, run `automation/daily-run.md` |
+| 6 | Gemini key (optional) | same env ⚙ → Environment variables | secret **`GEMINI_API_KEY`** for the Step-7 cross-model check (skips gracefully if unset) |
+| 7 | Scheduled routine | `/schedule` / routines API | cron **`0 4 * * *`** (07:00 Europe/Sofia), model, run `automation/daily-run.md` |
 
 **Tunable constants** (top of `automation/daily-run.md`):
 

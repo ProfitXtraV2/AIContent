@@ -27,6 +27,9 @@ Run **`/web-setup`** in Claude Code, or install the **Claude GitHub App**
 - **Network access: Full** — the run needs egress for WebFetch and the Ahrefs API.
 - **Environment variable `AHREFS_API_KEY`** (mark as secret) — your Ahrefs API token.
   Never commit it to the repo.
+- **Environment variable `GEMINI_API_KEY`** (mark as secret) — Google AI Studio key for the
+  Step-7 external cross-model check. Optional: if unset, the run logs
+  `external check: skipped` and continues. (Optional `GEMINI_MODEL`, default `gemini-2.5-pro`.)
 
 ## 5. Scheduled routine
 Create a routine (via `/schedule` or the routines API):
