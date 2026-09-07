@@ -25,3 +25,9 @@ FINAL GREP-VERIFICATION (05b):
 - Body word count: 1041 prose words (1095 incl. H1+H2 headings); guide range 1000–1800. ✔
 - Flags in final text: 0.
 - Byline: Георги Тодоров. Brand written „Всички Казина" (exact). ✔
+
+## Step 6/7 (orchestrator, post-writer)
+- Step 6 prep: assembled 06-verification.md (0 flags; 0 time-sensitive operator claims; illustrative-number table; RTP→house-edge + €100→€2 recalculation; verbatim-untouchables spot-check; anti-cannibalization note). No flags in text.
+- Step 7 (Gemini cross-model, gemini-3.1-pro-preview): pass 1 (as-delivered) "Shows AI patterns 75%" → hl 25. Humaniser pass 1 (apply recs) → pass 2 check "Shows AI patterns 80%" → hl 20 (regressed via a new fragment). Humaniser pass 2 (fix fragment, drop „другата страна на монетата", dismantle Goldilocks synthesis) → pass 3 check "Shows AI patterns 75%" → hl 25. MAX_GEMINI_PASSES=2 reached. KEEP-BEST = pass 2 (hl 25, tied-highest + cleanest). content-queue gemini = ai 75. Numbers/links/RG/18+/dates/byline/brand UNTOUCHED across all passes; no [VERIFY] resolved; not posted, not merged.
+- 07-gemini-check-1.md / -2.md / -3.md persisted as the audit trail.
+- Status → drafted. drafted_date 07.09.2026. Human owns Step 6/publish.
