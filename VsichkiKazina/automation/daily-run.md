@@ -9,10 +9,19 @@ pipeline in `VsichkiKazina/pipeline/` VERBATIM — never paraphrase its agent fi
 - BUFFER_TARGET = 10
 - MAX_PER_RUN = 10
 
+## Heartbeat exception
+You may commit **only** `docs/data/run-status.json` directly to `main` — this is an
+operational status heartbeat, never article content or the queue. Everything else
+still follows the "never commit to main" rule (articles go via PRs).
+
 ## Procedure
 
-1. **Sync.** Ensure you are on an up-to-date `main` (the human may have merged
-   approvals / edited `topic-backlog.md` since the last run).
+1. **Sync + start heartbeat.** Ensure you are on an up-to-date `main` (the human may
+   have merged approvals / edited `topic-backlog.md` since the last run). Immediately
+   write `docs/data/run-status.json` with `{"state":"running","run_started_utc":"<now>",
+   "run_finished_utc":null,"articles_written":null,"prs_opened":[],
+   "run_url":"<this run's URL if known>","note":"<e.g. daily run>"}` and commit+push it
+   to `main` (heartbeat exception). This makes the dashboard show "Run in progress".
 
 2. **Measure the buffer.** Run `python3 scripts/build_dashboard.py` and read
    `docs/data/status.json`. `deficit = min(BUFFER_TARGET - buffer.count, MAX_PER_RUN)`.
@@ -62,10 +71,17 @@ pipeline in `VsichkiKazina/pipeline/` VERBATIM — never paraphrase its agent fi
    candidates for future runs. Run `python3 scripts/build_dashboard.py`.
 
 8. **Open one PR per written article** (plus the queue + dashboard changes). Branch
-   `content/<TODAY>-<slug>`. NEVER commit to `main`. PR title = the article query; PR
-   body summarises: type, gate score, humanisation verdict, surviving-flag count, and a
-   link to `06-verification.md`. Request review from the repo owner. If an article ended
-   `failed`, title it `[FAILED] <query>` and explain what stopped and where.
+   `content/<TODAY>-<slug>`. NEVER commit article content or the queue to `main`. PR
+   title = the article query; PR body summarises: type, gate score, humanisation verdict,
+   surviving-flag count, and a link to `06-verification.md`. Request review from the repo
+   owner. If an article ended `failed`, title it `[FAILED] <query>` and explain what
+   stopped and where.
+
+9. **End heartbeat.** Write `docs/data/run-status.json` with `{"state":"idle",
+   "run_started_utc":"<start>","run_finished_utc":"<now>","articles_written":<N>,
+   "prs_opened":[<pr numbers>],"run_url":"<this run's URL>","note":"<summary>"}` and
+   commit+push it to `main` (heartbeat exception). The dashboard now shows "Idle — last
+   run … · wrote N article(s)".
 
 ## Never
 - Never publish or present `05b` as final. Never resolve a flag. Never commit to `main`.

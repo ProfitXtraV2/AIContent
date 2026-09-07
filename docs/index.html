@@ -58,10 +58,22 @@
   .empty { color: var(--muted); padding: 1.5rem 0; }
   footer { color: var(--muted); font-size: .76rem; margin-top: 1.5rem; }
   h2 { font-size: .95rem; margin: 1.5rem 0 .5rem; }
+  .run-banner { display: flex; align-items: center; gap: .6rem; padding: .7rem 1rem;
+                border-radius: 12px; margin-bottom: 1.25rem; font-size: .9rem;
+                border: 1px solid var(--line); }
+  .run-banner.running { background: #10241a; border-color: #1e5c37; color: #8ff0b4; }
+  .run-banner.idle { background: var(--card); color: var(--muted); }
+  .run-banner .live { width: 10px; height: 10px; border-radius: 50%; background: #34d67a;
+                      box-shadow: 0 0 0 0 rgba(52,214,122,.7); animation: pulse 1.4s infinite; }
+  .run-banner.idle .live { background: #5b6680; animation: none; box-shadow: none; }
+  @keyframes pulse { 70% { box-shadow: 0 0 0 9px rgba(52,214,122,0); }
+                     100% { box-shadow: 0 0 0 0 rgba(52,214,122,0); } }
+  .run-banner a { margin-left: auto; }
 </style>
 </head>
 <body>
 <div class="wrap">
+  <div id="runBanner" class="run-banner" style="display:none"></div>
   <header>
     <h1><span class="dot">●</span> VsichkiKazina — Content Autopilot</h1>
     <div class="sub" id="site"></div>
@@ -122,7 +134,36 @@ function humanIn(ms) {
   return `in ${Math.round(h / 24)}d`;
 }
 
+function ago(iso) {
+  if (!iso) return '';
+  const ms = new Date() - new Date(iso);
+  const m = Math.round(ms / 60000);
+  if (m < 1) return 'just now';
+  if (m < 60) return m + ' min ago';
+  const h = Math.floor(m / 60);
+  return h < 24 ? `${h}h ${m % 60}m ago` : `${Math.round(h / 24)}d ago`;
+}
+
+async function loadRunStatus() {
+  const el = document.getElementById('runBanner');
+  let r;
+  try { r = await (await fetch('./data/run-status.json?_=' + Date.now())).json(); }
+  catch (e) { el.style.display = 'none'; return; }
+  el.style.display = 'flex';
+  const link = r.run_url ? `<a href="${r.run_url}" target="_blank" rel="noopener">View run ↗</a>` : '';
+  if (r.state === 'running') {
+    el.className = 'run-banner running';
+    el.innerHTML = `<span class="live"></span><span><b>Run in progress</b>` +
+      ` — started ${ago(r.run_started_utc)}${r.note ? ' · ' + r.note : ''}</span>${link}`;
+  } else {
+    el.className = 'run-banner idle';
+    const wrote = (r.articles_written != null) ? ` · wrote ${r.articles_written} article(s)` : '';
+    el.innerHTML = `<span class="live"></span><span>Idle — last run ${ago(r.run_finished_utc)}${wrote}</span>${link}`;
+  }
+}
+
 async function load() {
+  loadRunStatus();
   let s;
   try { s = await (await fetch('./data/status.json?_=' + Date.now())).json(); }
   catch (e) { document.getElementById('bufferBig').textContent = 'no data'; return; }
