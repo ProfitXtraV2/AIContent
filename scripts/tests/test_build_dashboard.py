@@ -43,3 +43,10 @@ def test_build_status_status_breakdown():
 def test_build_status_is_json_serialisable():
     status = bd.build_status(bd.parse_queue(SAMPLE), target=10)
     json.dumps(status)  # must not raise
+
+
+def test_build_status_includes_meta_schedule_and_links():
+    status = bd.build_status(bd.parse_queue(SAMPLE), target=10)
+    assert status["meta"]["schedule"]["cron_utc_hour"] == 4
+    assert status["meta"]["links"]["repo"].startswith("https://github.com/")
+    assert "routine" in status["meta"]["links"]

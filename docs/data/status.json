@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-07T14:02:39Z",
+  "generated_utc": "2026-09-07T14:17:57Z",
   "buffer": {
     "count": 0,
     "target": 10,
@@ -13,5 +13,21 @@
     "posted": 0,
     "failed": 0
   },
-  "rows": []
+  "rows": [],
+  "meta": {
+    "brand": "VsichkiKazina",
+    "schedule": {
+      "cron_utc_hour": 4,
+      "cron_utc_minute": 0,
+      "label": "Daily · 07:00 Europe/Sofia"
+    },
+    "links": {
+      "site": "https://vsichkikazina.bg",
+      "repo": "https://github.com/ProfitXtraV2/AIContent",
+      "prs": "https://github.com/ProfitXtraV2/AIContent/pulls",
+      "routine": "https://claude.ai/code/routines/trig_011f3su1Brcj5QHNCo4zqBEY",
+      "backlog": "https://github.com/ProfitXtraV2/AIContent/blob/main/VsichkiKazina/topic-backlog.md",
+      "queue": "https://github.com/ProfitXtraV2/AIContent/blob/main/VsichkiKazina/content-queue.md"
+    }
+  }
 }

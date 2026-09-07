@@ -6,50 +6,177 @@
 <meta name="robots" content="noindex, nofollow">
 <title>VsichkiKazina — Content Autopilot</title>
 <style>
-  body { font-family: system-ui, sans-serif; margin: 2rem; color: #1a1a1a; }
-  h1 { font-size: 1.4rem; }
-  .gauge { font-size: 2rem; font-weight: 700; padding: .5rem 1rem; border-radius: .5rem;
-           display: inline-block; }
-  .ok { background: #d8f5d8; color: #0a5c0a; }
-  .low { background: #fdeecb; color: #8a5a00; }
-  .counts span { display: inline-block; margin-right: 1rem; }
-  table { border-collapse: collapse; margin-top: 1rem; width: 100%; font-size: .9rem; }
-  th, td { border: 1px solid #ddd; padding: .35rem .5rem; text-align: left; }
-  th { background: #f4f4f4; }
-  .muted { color: #777; font-size: .8rem; }
-  .s-drafted { color: #0a5c0a; } .s-approved { color: #05628a; }
-  .s-posted { color: #555; } .s-failed { color: #b00; } .s-in-progress { color: #8a5a00; }
+  :root {
+    --bg: #0f1420; --card: #1a2233; --line: #2a3550; --ink: #e8edf7;
+    --muted: #93a1bf; --accent: #5b9dff;
+    --ok-bg: #12341f; --ok-ink: #57e08a; --low-bg: #3a2a10; --low-ink: #f5b843;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+         background: var(--bg); color: var(--ink); }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+  header { display: flex; align-items: baseline; justify-content: space-between;
+           flex-wrap: wrap; gap: .5rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 1.35rem; margin: 0; letter-spacing: .2px; }
+  h1 .dot { color: var(--accent); }
+  .sub { color: var(--muted); font-size: .85rem; }
+  .links { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1rem 0 1.75rem; }
+  .links a { text-decoration: none; font-size: .82rem; color: var(--ink);
+             background: var(--card); border: 1px solid var(--line);
+             padding: .4rem .7rem; border-radius: 999px; transition: .15s; }
+  .links a:hover { border-color: var(--accent); color: var(--accent); }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+           gap: 1rem; margin-bottom: 1.75rem; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+          padding: 1.1rem 1.2rem; }
+  .card .lbl { color: var(--muted); font-size: .72rem; text-transform: uppercase;
+               letter-spacing: .09em; margin-bottom: .5rem; }
+  .card .big { font-size: 2rem; font-weight: 700; line-height: 1; }
+  .card .note { color: var(--muted); font-size: .8rem; margin-top: .45rem; }
+  .buffer.ok { background: var(--ok-bg); border-color: #1e5c37; }
+  .buffer.ok .big { color: var(--ok-ink); }
+  .buffer.low { background: var(--low-bg); border-color: #6a4a12; }
+  .buffer.low .big { color: var(--low-ink); }
+  .bar { height: 7px; background: #0c111c; border-radius: 999px; margin-top: .7rem; overflow: hidden; }
+  .bar > i { display: block; height: 100%; background: var(--accent); }
+  .pills { display: flex; flex-wrap: wrap; gap: .4rem; }
+  .pill { font-size: .74rem; padding: .28rem .55rem; border-radius: 999px;
+          border: 1px solid var(--line); color: var(--muted); }
+  .pill b { color: var(--ink); }
+  table { border-collapse: collapse; width: 100%; font-size: .84rem; margin-top: .4rem; }
+  th, td { padding: .5rem .6rem; text-align: left; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; font-size: .72rem; text-transform: uppercase;
+       letter-spacing: .06em; }
+  tbody tr:hover { background: #141b29; }
+  a { color: var(--accent); }
+  .st { font-size: .74rem; padding: .18rem .5rem; border-radius: 999px; font-weight: 600; }
+  .st-drafted { background: #12341f; color: #57e08a; }
+  .st-approved { background: #102c3a; color: #4fc3f7; }
+  .st-posted { background: #23262e; color: #9aa4b2; }
+  .st-failed { background: #3a1414; color: #ff7a7a; }
+  .st-in-progress { background: #3a2a10; color: #f5b843; }
+  .empty { color: var(--muted); padding: 1.5rem 0; }
+  footer { color: var(--muted); font-size: .76rem; margin-top: 1.5rem; }
+  h2 { font-size: .95rem; margin: 1.5rem 0 .5rem; }
 </style>
 </head>
 <body>
-<h1>VsichkiKazina — Content Autopilot</h1>
-<div id="gauge"></div>
-<div class="counts" id="counts"></div>
-<div id="table"></div>
-<p class="muted" id="ts"></p>
+<div class="wrap">
+  <header>
+    <h1><span class="dot">●</span> VsichkiKazina — Content Autopilot</h1>
+    <div class="sub" id="site"></div>
+  </header>
+
+  <nav class="links" id="links"></nav>
+
+  <section class="cards">
+    <div class="card buffer" id="bufferCard">
+      <div class="lbl">Buffer (written · unposted)</div>
+      <div class="big" id="bufferBig">—</div>
+      <div class="bar"><i id="bufferBar" style="width:0%"></i></div>
+      <div class="note" id="bufferNote"></div>
+    </div>
+    <div class="card">
+      <div class="lbl">Next scheduled run</div>
+      <div class="big" id="nextRun" style="font-size:1.15rem">—</div>
+      <div class="note" id="nextRunNote"></div>
+    </div>
+    <div class="card">
+      <div class="lbl">Pipeline status</div>
+      <div class="pills" id="counts"></div>
+      <div class="note" id="lastGen"></div>
+    </div>
+  </section>
+
+  <h2>Queue</h2>
+  <div id="table"></div>
+
+  <footer id="footer"></footer>
+</div>
+
 <script>
+const LABELS = {
+  site: "Live site", repo: "Repo", prs: "Pull requests",
+  routine: "Run / routine", backlog: "Topic backlog", queue: "Content queue"
+};
+
+function nextRunFromSchedule(sched) {
+  // cron fires daily at a fixed UTC hour:minute. Find the next future occurrence.
+  const now = new Date();
+  const t = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(),
+                              sched.cron_utc_hour, sched.cron_utc_minute || 0, 0));
+  if (t <= now) t.setUTCDate(t.getUTCDate() + 1);
+  return t;
+}
+
+function fmtSofia(d) {
+  return d.toLocaleString('bg-BG', { timeZone: 'Europe/Sofia', weekday: 'short',
+    hour: '2-digit', minute: '2-digit', day: '2-digit', month: 'short' });
+}
+
+function humanIn(ms) {
+  const m = Math.round(ms / 60000);
+  if (m < 60) return `in ${m} min`;
+  const h = Math.floor(m / 60), mm = m % 60;
+  if (h < 24) return `in ${h}h ${mm}m`;
+  return `in ${Math.round(h / 24)}d`;
+}
+
 async function load() {
-  const r = await fetch('./data/status.json?_=' + Date.now());
-  const s = await r.json();
+  let s;
+  try { s = await (await fetch('./data/status.json?_=' + Date.now())).json(); }
+  catch (e) { document.getElementById('bufferBig').textContent = 'no data'; return; }
+
+  const meta = s.meta || {};
+  const links = meta.links || {};
+  document.getElementById('site').textContent = meta.brand ? meta.brand + ' · vsichkikazina.bg' : '';
+  document.getElementById('links').innerHTML = Object.entries(links)
+    .map(([k, v]) => `<a href="${v}" target="_blank" rel="noopener">${LABELS[k] || k} ↗</a>`).join('');
+
+  // Buffer
   const b = s.buffer;
-  const g = document.getElementById('gauge');
-  g.className = 'gauge ' + (b.ok ? 'ok' : 'low');
-  g.textContent = `Buffer ${b.count} / ${b.target}` + (b.ok ? ' ✓' : ` (need ${b.deficit})`);
-  document.getElementById('counts').innerHTML =
-    Object.entries(s.counts).map(([k, v]) => `<span class="s-${k}">${k}: <b>${v}</b></span>`).join('');
+  const card = document.getElementById('bufferCard');
+  card.className = 'card buffer ' + (b.ok ? 'ok' : 'low');
+  document.getElementById('bufferBig').textContent = `${b.count} / ${b.target}`;
+  document.getElementById('bufferBar').style.width = Math.min(100, 100 * b.count / b.target) + '%';
+  document.getElementById('bufferNote').textContent = b.ok ? '✓ Buffer full' : `Need ${b.deficit} more`;
+
+  // Next run
+  const sched = meta.schedule;
+  if (sched) {
+    const nr = nextRunFromSchedule(sched);
+    document.getElementById('nextRun').textContent = fmtSofia(nr);
+    document.getElementById('nextRunNote').textContent = (sched.label || '') + ' · ' + humanIn(nr - new Date());
+  } else {
+    document.getElementById('nextRun').textContent = 'not scheduled';
+  }
+
+  // Counts
+  document.getElementById('counts').innerHTML = Object.entries(s.counts)
+    .map(([k, v]) => `<span class="pill">${k}: <b>${v}</b></span>`).join('');
+  document.getElementById('lastGen').textContent = 'Data ' + (s.generated_utc || '');
+
+  // Table
   const cols = ['id','status','type','query','source','drafted_date','posted_date','pr','notes'];
-  const rows = s.rows.map(row =>
-    '<tr>' + cols.map(c => {
-      let v = row[c] || '';
-      if (c === 'status') v = `<span class="s-${v}">${v}</span>`;
-      if (c === 'pr' && v.startsWith('#')) v = `<a href="../../../pulls">${v}</a>`;
+  if (!s.rows || !s.rows.length) {
+    document.getElementById('table').innerHTML =
+      '<div class="empty">No articles yet — the first run will populate this.</div>';
+  } else {
+    const rows = s.rows.map(r => '<tr>' + cols.map(c => {
+      let v = r[c] || '';
+      if (c === 'status') v = `<span class="st st-${v}">${v}</span>`;
+      if (c === 'pr' && v.startsWith('#')) v = `<a href="${links.prs || '#'}" target="_blank">${v}</a>`;
       return `<td>${v}</td>`;
     }).join('') + '</tr>').join('');
-  document.getElementById('table').innerHTML =
-    `<table><thead><tr>${cols.map(c => `<th>${c}</th>`).join('')}</tr></thead><tbody>${rows}</tbody></table>`;
-  document.getElementById('ts').textContent = 'Generated ' + s.generated_utc;
+    document.getElementById('table').innerHTML =
+      `<table><thead><tr>${cols.map(c => `<th>${c}</th>`).join('')}</tr></thead><tbody>${rows}</tbody></table>`;
+  }
+
+  document.getElementById('footer').textContent =
+    'Autopilot keeps ≥10 written-but-unposted articles ready · dashboard regenerates each run.';
 }
-load().catch(e => document.getElementById('gauge').textContent = 'No status.json yet');
+load();
+setInterval(load, 60000); // refresh next-run countdown + data each minute
 </script>
 </body>
 </html>

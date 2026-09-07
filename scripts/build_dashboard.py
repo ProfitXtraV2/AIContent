@@ -14,6 +14,20 @@ ALL_STATES = ["in-progress", "drafted", "approved", "posted", "failed"]
 COLUMNS = ["id", "status", "type", "query", "keywords_or_terms",
            "source", "drafted_date", "posted_date", "pr", "notes"]
 
+# Schedule: the daily cron fires at this UTC hour (04:00 UTC ≈ 07:00 Europe/Sofia).
+SCHEDULE = {"cron_utc_hour": 4, "cron_utc_minute": 0,
+            "label": "Daily · 07:00 Europe/Sofia"}
+
+# Maintain all dashboard links in one place.
+LINKS = {
+    "site": "https://vsichkikazina.bg",
+    "repo": "https://github.com/ProfitXtraV2/AIContent",
+    "prs": "https://github.com/ProfitXtraV2/AIContent/pulls",
+    "routine": "https://claude.ai/code/routines/trig_011f3su1Brcj5QHNCo4zqBEY",
+    "backlog": "https://github.com/ProfitXtraV2/AIContent/blob/main/VsichkiKazina/topic-backlog.md",
+    "queue": "https://github.com/ProfitXtraV2/AIContent/blob/main/VsichkiKazina/content-queue.md",
+}
+
 
 def parse_queue(md_text):
     """Parse the markdown table into a list of row dicts (data rows only)."""
@@ -50,6 +64,11 @@ def build_status(rows, target=10):
         },
         "counts": counts,
         "rows": rows,
+        "meta": {
+            "brand": "VsichkiKazina",
+            "schedule": SCHEDULE,
+            "links": LINKS,
+        },
     }
 
 
