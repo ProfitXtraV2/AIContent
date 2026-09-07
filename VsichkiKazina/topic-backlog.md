@@ -10,4 +10,4 @@ yet started. Add NeuronWriter terms in `keywords_or_terms` for high-value pieces
 | priority | type | query | keywords_or_terms | status | notes |
 |---|---|---|---|---|---|
 | 1 | guide | Как работи изискването за разиграване (wagering) | разиграване, wagering, бонус условия | written | drafted → PR #1 |
-| 2 | comparison | Най-добри казино бонуси за добре дошли 2026 | бонус за добре дошли, welcome bonus | open | retry: web egress now Full; prior attempt (PR #2) closed |
+| 2 | comparison | Най-добри казино бонуси за добре дошли 2026 | бонус за добре дошли, welcome bonus | failed | 07.09 retry failed: egress full but operator T&C + НАП register block foreign/automated traffic (403/reset). Needs BG-resident route or human-pasted T&C + licence №s |

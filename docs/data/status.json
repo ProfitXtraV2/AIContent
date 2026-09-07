@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-07T15:44:02Z",
+  "generated_utc": "2026-09-07T15:54:15Z",
   "buffer": {
     "count": 1,
     "target": 10,
@@ -11,7 +11,7 @@
     "drafted": 1,
     "approved": 0,
     "posted": 0,
-    "failed": 0
+    "failed": 1
   },
   "rows": [
     {
@@ -26,6 +26,19 @@
       "folder": "2026-09-07-kak-raboti-razigravaneto",
       "pr": "#1",
       "notes": "gate 89/100; HUMAN-LIKE; 0 flags"
+    },
+    {
+      "id": "vk-0002",
+      "status": "failed",
+      "type": "comparison",
+      "query": "Най-добри казино бонуси за добре дошли 2026",
+      "keywords_or_terms": "бонус за добре дошли, welcome bonus",
+      "source": "backlog",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-07-najdobri-bonusi-za-dobre-doshli-2026",
+      "pr": "#3",
+      "notes": "primary sources unreachable: operator T&C 403 geo-block, НАП register conn reset; full egress on but sites block foreign traffic; can't build like-for-like превъртане bases + licence №s without fabricating"
     }
   ],
   "backlog": [
@@ -42,11 +55,52 @@
       "type": "comparison",
       "query": "Най-добри казино бонуси за добре дошли 2026",
       "keywords_or_terms": "бонус за добре дошли, welcome bonus",
-      "status": "open",
-      "notes": "retry: web egress now Full; prior attempt (PR #2) closed"
+      "status": "failed",
+      "notes": "07.09 retry failed: egress full but operator T&C + НАП register block foreign/automated traffic (403/reset). Needs BG-resident route or human-pasted T&C + licence №s"
     }
   ],
-  "research": [],
+  "research": [
+    {
+      "type": "guide",
+      "query": "Принос на игрите към превъртането: защо ротативки 100%, а маси и на живо по-малко",
+      "researched_keywords": "принос на игрите, слотове 100%, маси, казино на живо, превъртане",
+      "source_rationale": "Method/education piece with worked € math; needs NO blocked operator/НАП primary source, so writable under current source-reachability constraint. Fills a real gap the welcome-bonus comparison exposed",
+      "status": "candidate",
+      "date_researched": "2026-09-07"
+    },
+    {
+      "type": "guide",
+      "query": "Максимално теглене от бонус (max cashout): скритият таван на печалбата",
+      "researched_keywords": "макс. теглене, max cashout, таван на печалбата, бонус условия",
+      "source_rationale": "The catch secondary comparison sites omit; pure educational math, no operator-specific primary data required",
+      "status": "candidate",
+      "date_researched": "2026-09-07"
+    },
+    {
+      "type": "guide",
+      "query": "Срок за разиграване: как 7, 14 или 30 дни променят реалната цена на бонуса",
+      "researched_keywords": "срок за разиграване, 30 дни, превъртане, реална цена",
+      "source_rationale": "Companion to the wagering guide (vk-0001); worked € examples only, no blocked source needed",
+      "status": "candidate",
+      "date_researched": "2026-09-07"
+    },
+    {
+      "type": "guide",
+      "query": "Бонус без депозит 2026: какво наистина получавате",
+      "researched_keywords": "бонус без депозит, no deposit, безплатни завъртания, превъртане",
+      "source_rationale": "High-intent query; can be written as method/expectations education without operator-specific primary data",
+      "status": "candidate",
+      "date_researched": "2026-09-07"
+    },
+    {
+      "type": "guide",
+      "query": "RTP и волатилност: как да четете число, което не е обещание",
+      "researched_keywords": "RTP, волатилност, домашно предимство, дългосрочна статистика",
+      "source_rationale": "Definitional/education; no blocked primary source; brand-differentiating honesty angle",
+      "status": "candidate",
+      "date_researched": "2026-09-07"
+    }
+  ],
   "articles_base_url": "https://github.com/ProfitXtraV2/AIContent/tree/main/VsichkiKazina/articles/",
   "meta": {
     "brand": "VsichkiKazina",
