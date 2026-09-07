@@ -1,20 +1,16 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-07T16:33:57Z",
-  "run_finished_utc": "2026-09-07T17:19:45Z",
-  "articles_written": 3,
-  "prs_opened": [
-    4,
-    5,
-    6
-  ],
+  "state": "running",
+  "run_started_utc": "2026-09-07T18:10:39Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
   "run_url": "https://claude.ai/code/routines/trig_011f3su1Brcj5QHNCo4zqBEY",
-  "note": "3 guides drafted (MAX_PER_RUN=3 override): безплатни казино игри (PR #4), бонус без депозит (PR #5), ново онлайн казино evaluation-framework (PR #6). All PASS WITH FIXES 90-91/100, HUMAN-LIKE, 0 flags. 7 research rows → used (3 pillars + 4 folds). Anti-cannibal notes left for human. Ahrefs+sitemap reachable this run.",
+  "note": "daily run",
   "progress": {
-    "phase": "done",
-    "article_index": 3,
-    "article_total": 3,
-    "article_slug": "2026-09-07-novo-onlajn-kazino",
+    "phase": "selecting",
+    "article_index": null,
+    "article_total": 6,
+    "article_slug": null,
     "stages": [
       "Synthesis",
       "Outline",
