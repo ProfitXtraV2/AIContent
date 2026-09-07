@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-07T15:12:11Z",
+  "generated_utc": "2026-09-07T15:36:20Z",
   "buffer": {
     "count": 1,
     "target": 10,
@@ -11,7 +11,7 @@
     "drafted": 1,
     "approved": 0,
     "posted": 0,
-    "failed": 1
+    "failed": 0
   },
   "rows": [
     {
@@ -26,19 +26,6 @@
       "folder": "2026-09-07-kak-raboti-razigravaneto",
       "pr": "#1",
       "notes": "gate 89/100; HUMAN-LIKE; 0 flags"
-    },
-    {
-      "id": "vk-0002",
-      "status": "failed",
-      "type": "comparison",
-      "query": "Най-добри казино бонуси за добре дошли 2026",
-      "keywords_or_terms": "бонус за добре дошли, welcome bonus",
-      "source": "backlog",
-      "drafted_date": "",
-      "posted_date": "",
-      "folder": "2026-09-07-bonusi-za-dobre-doshli-2026",
-      "pr": "#2",
-      "notes": "blocked: web egress; refused to fabricate"
     }
   ],
   "backlog": [
@@ -55,8 +42,8 @@
       "type": "comparison",
       "query": "Най-добри казино бонуси за добре дошли 2026",
       "keywords_or_terms": "бонус за добре дошли, welcome bonus",
-      "status": "failed",
-      "notes": "PR #2 — blocked by web egress; retry after Full network access"
+      "status": "open",
+      "notes": "retry: web egress now Full; prior attempt (PR #2) closed"
     }
   ],
   "research": [],
