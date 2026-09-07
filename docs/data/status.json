@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-07T16:10:39Z",
+  "generated_utc": "2026-09-07T16:21:19Z",
   "buffer": {
     "count": 1,
     "target": 10,
@@ -47,11 +47,11 @@
       "type": "guide",
       "query": "Как работи изискването за разиграване (wagering)",
       "keywords_or_terms": "разиграване, wagering, бонус условия",
-      "volume": "",
+      "volume": "20",
       "kd": "",
-      "intent": "",
-      "checked": "none",
-      "ahrefs_note": "",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "слаб директен обем ('разиграване' ~0, 'wagering' ~20); темата е образователна и нискочестотна. По-силен вход: свържи с 'бонус без депозит' (5400, kd61) или 'казино без депозит' (2900) като притегляща страница",
       "status": "written",
       "notes": "drafted → PR #1",
       "opportunity": null
@@ -61,11 +61,11 @@
       "type": "comparison",
       "query": "Най-добри казино бонуси за добре дошли 2026",
       "keywords_or_terms": "бонус за добре дошли, welcome bonus",
-      "volume": "",
+      "volume": "20",
       "kd": "",
-      "intent": "",
-      "checked": "none",
-      "ahrefs_note": "",
+      "intent": "commercial",
+      "checked": "ahrefs",
+      "ahrefs_note": "слаб директен обем ('welcome bonus' ~20, 'бонус за добре дошли' ~0). По-силна алтернатива за същия интент: 'казино бонус без депозит' (3400, kd66) или 'бонус без депозит' (5400, kd61)",
       "status": "failed",
       "notes": "07.09 retry failed: operator T&C + НАП register block foreign/automated traffic (403/reset). Needs BG-resident route or human-pasted T&C + licence №s",
       "opportunity": null
@@ -76,12 +76,12 @@
       "type": "guide",
       "query": "Принос на игрите към превъртането: защо ротативки 100%, а маси и на живо по-малко",
       "researched_keywords": "принос на игрите, слотове 100%, маси, казино на живо, превъртане",
-      "volume": "",
+      "volume": "30",
       "kd": "",
       "intent": "informational",
-      "trend": "",
-      "checked": "none",
-      "suggestion": "pending Ahrefs check; education piece, no blocked source",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "слаб директен обем ('превъртане' ~30, 'принос на игрите' ~0); нишова образователна тема, ниска конкуренция — дълга опашка към бонус-гайдовете",
       "status": "candidate",
       "date_researched": "2026-09-07",
       "opportunity": null
@@ -94,8 +94,8 @@
       "kd": "",
       "intent": "informational",
       "trend": "",
-      "checked": "none",
-      "suggestion": "pending Ahrefs check; the catch competitors omit",
+      "checked": "ahrefs",
+      "suggestion": "нулев измерим обем в BG (Ahrefs: max cashout/теглене от казино = 0); силен образователен ъгъл — таргетирай като раздел в бонус-гайд, не самостоятелна цел",
       "status": "candidate",
       "date_researched": "2026-09-07",
       "opportunity": null
@@ -108,8 +108,8 @@
       "kd": "",
       "intent": "informational",
       "trend": "",
-      "checked": "none",
-      "suggestion": "pending Ahrefs check; companion to vk-0001",
+      "checked": "ahrefs",
+      "suggestion": "нулев измерим обем ('срок за разиграване' = 0); поддържащ раздел към vk-0001, не отделна страница",
       "status": "candidate",
       "date_researched": "2026-09-07",
       "opportunity": null
@@ -118,29 +118,154 @@
       "type": "guide",
       "query": "Бонус без депозит 2026: какво наистина получавате",
       "researched_keywords": "бонус без депозит, no deposit, безплатни завъртания, превъртане",
-      "volume": "",
-      "kd": "",
-      "intent": "commercial",
-      "trend": "",
-      "checked": "none",
-      "suggestion": "pending Ahrefs check; high-intent query",
+      "volume": "5400",
+      "kd": "61",
+      "intent": "transactional",
+      "trend": "flat",
+      "checked": "ahrefs",
+      "suggestion": "силен: голям обем (5400), постижима трудност (kd61), висок транзакционен интент — приоритет №1 сред кандидатите",
       "status": "candidate",
       "date_researched": "2026-09-07",
-      "opportunity": null
+      "opportunity": {
+        "score": 76,
+        "band": "Strong"
+      }
     },
     {
       "type": "guide",
       "query": "RTP и волатилност: как да четете число, което не е обещание",
       "researched_keywords": "RTP, волатилност, домашно предимство, дългосрочна статистика",
-      "volume": "",
-      "kd": "",
+      "volume": "40",
+      "kd": "57",
       "intent": "informational",
-      "trend": "",
-      "checked": "none",
-      "suggestion": "pending Ahrefs check; brand-differentiating honesty angle",
+      "trend": "up",
+      "checked": "ahrefs",
+      "suggestion": "нисък пряк обем за 'rtp' (40, kd57, възходящ); 'волатилност' носи ~500 при kd0 (смесен интент — финанси) — комбинирай; бранд-диференциращ образователен ъгъл",
       "status": "candidate",
       "date_researched": "2026-09-07",
-      "opportunity": null
+      "opportunity": {
+        "score": 19,
+        "band": "Weak"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Безплатни казино игри: демо режим, RTP и капаните на \"безплатното\"",
+      "researched_keywords": "безплатно казино игри, безплатни казино игри, демо, ротативки",
+      "volume": "11000",
+      "kd": "45",
+      "intent": "commercial",
+      "trend": "up",
+      "checked": "ahrefs",
+      "suggestion": "силен: огромен обем (11000) при ниска трудност (kd45) — най-добрата възможност в бенчмарка; възходящ тренд",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": {
+        "score": 82,
+        "band": "Strong"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Ново онлайн казино: как да оцените новооткрит оператор (лиценз, условия, RTP)",
+      "researched_keywords": "ново онлайн казино, нови казино, лиценз, оценка на оператор",
+      "volume": "2200",
+      "kd": "57",
+      "intent": "transactional",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "силен обем (2200), средна трудност (kd57); трендът леко надолу — публикувай със свеж списък и дата",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": {
+        "score": 77,
+        "band": "Strong"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Нови казино игри 2026: кои заглавия и доставчици да следите",
+      "researched_keywords": "нови казино игри, нови слотове, доставчици, заглавия",
+      "volume": "1700",
+      "kd": "56",
+      "intent": "transactional",
+      "trend": "flat",
+      "checked": "ahrefs",
+      "suggestion": "силен: добър обем (1700), постижим kd56; изисква периодично обновяване (evergreen списък)",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": {
+        "score": 78,
+        "band": "Strong"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Казино без депозит: как работи и какви са реалните условия",
+      "researched_keywords": "казино без депозит, бонус без депозит, условия",
+      "volume": "2900",
+      "kd": "63",
+      "intent": "transactional",
+      "trend": "up",
+      "checked": "ahrefs",
+      "suggestion": "силен: висок обем (2900), възходящ тренд, висок интент; kd63 постижим с ясен €-разчет",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": {
+        "score": 75,
+        "band": "Strong"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Казино бонус без депозит в България: локализиран разбор на условията",
+      "researched_keywords": "казино бонус без депозит българия, НАП, лиценз",
+      "volume": "1600",
+      "kd": "61",
+      "intent": "transactional",
+      "trend": "up",
+      "checked": "ahrefs",
+      "suggestion": "силен и локализиран: обем 1600, възходящ, kd61; BG-специфичен ъгъл (лиценз/НАП) е диференциатор",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": {
+        "score": 76,
+        "band": "Strong"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Безплатни завъртания без депозит: стойност, превъртане и таван",
+      "researched_keywords": "безплатни завъртания без депозит, free spins, превъртане",
+      "volume": "1100",
+      "kd": "61",
+      "intent": "transactional",
+      "trend": "flat",
+      "checked": "ahrefs",
+      "suggestion": "силен: обем 1100, висок транзакционен интент, kd61; естествено се свързва с бонус-гайдовете",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": {
+        "score": 71,
+        "band": "Strong"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Безплатни казино игри с ротативки: как демо режимът отразява реалния RTP",
+      "researched_keywords": "безплатни казино игри ротативки, демо, RTP, волатилност",
+      "volume": "1600",
+      "kd": "65",
+      "intent": "informational",
+      "trend": "up",
+      "checked": "ahrefs",
+      "suggestion": "силен обем (1600), възходящ; информационен интент — водещ към ревюта/сравнения като конверсия",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": {
+        "score": 74,
+        "band": "Strong"
+      }
     }
   ],
   "articles_base_url": "https://github.com/ProfitXtraV2/AIContent/tree/main/VsichkiKazina/articles/",
