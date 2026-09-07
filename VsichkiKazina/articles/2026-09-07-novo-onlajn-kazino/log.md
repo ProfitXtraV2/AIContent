@@ -40,3 +40,16 @@
   links, no strays; key numbers (150%/300 €/200 €/500 €/35×/17 500 €/14 дни/20 €) present and
   consistent; превъртане base stated (депозит+бонус).
 - Status → drafted. drafted_date 07.09.2026. Not posted, not merged; human owns Step 6/publish.
+- 2026-09-07 · Step 7 BACKFILL (external Gemini cross-model check — article predated the Gemini step).
+  Model gemini-3.1-pro-preview (scripts/gemini_check.py). Pass 1 (as-delivered 05b): "Shows AI patterns"
+  75% → below 80. Applied Gemini's flagged style recs via TWO fresh Humaniser passes, no untouchable
+  altered. Pass 1 fixes: grounded the poetic intro (cut „запълва празнотата"/„блясъкът"), removed the
+  „Ето през какво минаваме…" signpost, softened the illusion-vs-reality antithesis in the bonus-math
+  section (kept 150%/300 €/200 €/500 €/35×/17 500 €/14 дни exactly), and de-tautologised the withdrawal
+  section. Relocated the trailing process meta-notes out of 05b into this log + 07-gemini-check-*.md. Pass 2
+  check: "Shows AI patterns" 85% (deeper critique: aphoristic wrap-ups, „вместо" contrasts, translated
+  metaphors). Pass 2 fixes: flattened the „вместо" contrasts, replaced translated metaphors („говори езика",
+  „очертава картина"), trimmed didactic openers and moral-of-the-story endings. Pass 3 check: "Likely
+  human-written, 85% confidence" → PASS (≥80). All numbers, the 4 internal links, operator/payment names
+  (Revolut, EasyPay, Cashterminal), verbatim 18+/RG lines, dates and affiliate disclosure UNTOUCHED;
+  [VERIFY] flags not resolved; not posted, not merged. content-queue gemini = human 85.
