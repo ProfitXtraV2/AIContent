@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-07T18:07:19Z",
+  "generated_utc": "2026-09-07T18:16:56Z",
   "buffer": {
     "count": 4,
     "target": 10,
@@ -7,7 +7,7 @@
     "ok": false
   },
   "counts": {
-    "in-progress": 0,
+    "in-progress": 6,
     "drafted": 4,
     "approved": 0,
     "posted": 0,
@@ -106,6 +106,120 @@
       "opportunity": {
         "score": 77,
         "band": "Strong"
+      }
+    },
+    {
+      "id": "vk-0006",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "RTP и волатилност: как да четете число, което не е обещание",
+      "keywords_or_terms": "rtp, волатилност, домашно предимство, дългосрочна статистика",
+      "volume": "40",
+      "kd": "57",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-07-rtp-i-volatilnost",
+      "pr": "",
+      "gemini": "",
+      "notes": "concept pillar; „rtp\" 40/kd57/up (casino intent); „волатилност\" 500/kd0 mixed-intent (finance) — record casino kw honestly; anti-cannibal vs listing /slot-igri/visok-rtp/",
+      "opportunity": {
+        "score": 19,
+        "band": "Weak"
+      }
+    },
+    {
+      "id": "vk-0007",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Прогресивни джакпоти: как работят и какви са реалните шансове",
+      "keywords_or_terms": "джакпот, прогресивен джакпот, джакпот казино, семена-джакпот",
+      "volume": "500",
+      "kd": "0",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-07-progresivni-dzhakpoti",
+      "pr": "",
+      "gemini": "",
+      "notes": "„джакпот\" 500/kd0/up + „джакпот казино\" 200/commercial/up; no existing jackpot page — clean pillar",
+      "opportunity": {
+        "score": 65,
+        "band": "Good"
+      }
+    },
+    {
+      "id": "vk-0008",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Как се играе покер в казино: видове игри и основни правила",
+      "keywords_or_terms": "как се играе покер, казино покер, видео покер, казино холдем",
+      "volume": "200",
+      "kd": "51",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-07-kak-se-igrae-poker-kazino",
+      "pr": "",
+      "gemini": "",
+      "notes": "„как се играе покер\" 200/kd51/informational/up; no poker page in sitemap — clean pillar; casino-poker framing",
+      "opportunity": {
+        "score": 30,
+        "band": "Moderate"
+      }
+    },
+    {
+      "id": "vk-0009",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Блекджек: правила и основна стратегия за по-малко предимство на казиното",
+      "keywords_or_terms": "как се играе блекджек, блекджек стратегия, основна стратегия, домашно предимство",
+      "volume": "90",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-07-blekdzhak-pravila-strategiya",
+      "pr": "",
+      "gemini": "",
+      "notes": "„как се играе блекджек\" 90/informational + „блекджек стратегия\" 20; rules+strategy guide, distinct from listing /kazino-igri/blakdzhak/ (anti-cannibal note)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0010",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Кешбек и лоялни програми в казиното: как работят точките, нивата и връщането",
+      "keywords_or_terms": "кешбек казино, казино кешбек, vip казино, лоялна програма",
+      "volume": "80",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-07-keshbek-i-loyalni-programi",
+      "pr": "",
+      "gemini": "",
+      "notes": "„кешбек казино\" 80 + „казино кешбек\" 70 + „vip казино\" 10 (cluster ~160); no loyalty/cashback page — clean pillar",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0011",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Митове за казиното: какво наистина можете да очаквате от печалбите",
+      "keywords_or_terms": "как да спечелим от казино, митове за казино, домашно предимство, реалност на печалбите",
+      "volume": "40",
+      "kd": "13",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-07-mitove-za-kazinoto",
+      "pr": "",
+      "gemini": "",
+      "notes": "„как да спечелим от казино\" 40/kd13/commercial — reframed as myth-busting/reality (brand RG doctrine); no existing myths page",
+      "opportunity": {
+        "score": 37,
+        "band": "Moderate"
       }
     }
   ],
@@ -333,6 +447,85 @@
       "opportunity": {
         "score": 74,
         "band": "Strong"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Прогресивни джакпоти: как работят и какви са реалните шансове",
+      "researched_keywords": "джакпот, прогресивен джакпот, джакпот казино",
+      "volume": "500",
+      "kd": "0",
+      "intent": "informational",
+      "trend": "up",
+      "checked": "ahrefs",
+      "suggestion": "силен образователен ъгъл: „джакпот\" 500/kd0/възходящ + „джакпот казино\" 200/commercial/up; няма джакпот страница на сайта — чист pillar (vk-0007)",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": {
+        "score": 65,
+        "band": "Good"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Как се играе покер в казино: видове игри и основни правила",
+      "researched_keywords": "как се играе покер, казино покер, видео покер, казино холдем",
+      "volume": "200",
+      "kd": "51",
+      "intent": "informational",
+      "trend": "up",
+      "checked": "ahrefs",
+      "suggestion": "силен: „как се играе покер\" 200/kd51/възходящ; няма покер страница в sitemap — чист образователен pillar с казино рамка (vk-0008)",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": {
+        "score": 30,
+        "band": "Moderate"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Блекджек: правила и основна стратегия за по-малко предимство на казиното",
+      "researched_keywords": "как се играе блекджек, блекджек стратегия, основна стратегия",
+      "volume": "90",
+      "kd": "",
+      "intent": "informational",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "„как се играе блекджек\" 90/informational + „блекджек стратегия\" 20; правила+стратегия гайд, отделен интент от листинга /kazino-igri/blakdzhak/ (anti-cannibal) (vk-0009)",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Кешбек и лоялни програми в казиното: как работят точките, нивата и връщането",
+      "researched_keywords": "кешбек казино, казино кешбек, vip казино, лоялна програма",
+      "volume": "80",
+      "kd": "",
+      "intent": "commercial",
+      "trend": "flat",
+      "checked": "ahrefs",
+      "suggestion": "клъстер ~160 ('кешбек казино' 80 + 'казино кешбек' 70 + 'vip казино' 10); няма страница за лоялност/кешбек — чист pillar (vk-0010)",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Митове за казиното: какво наистина можете да очаквате от печалбите",
+      "researched_keywords": "как да спечелим от казино, митове за казино, домашно предимство",
+      "volume": "40",
+      "kd": "13",
+      "intent": "commercial",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "„как да спечелим от казино\" 40/kd13 (ниска трудност); преформулиран като развенчаване на митове/реалност — бранд-диференциращ RG ъгъл („хазартът не е финансова стратегия\") (vk-0011)",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": {
+        "score": 37,
+        "band": "Moderate"
       }
     }
   ],
