@@ -63,6 +63,13 @@ dashboard reads this file fresh via the GitHub API). Use the exact stage names a
 3. **Select `deficit` topics:**
    a. Take up to `deficit` rows with `status: open` from `topic-backlog.md`, in priority
       order (do NOT change their status yet — only the write outcome sets it, step 5).
+      **Backlog is a commitment:** every `open` backlog keyword MUST eventually become a
+      written article (it should show up in "Articles for review"). Prioritise the backlog
+      ahead of research candidates and keep attempting its open rows across runs until each
+      reaches `written` (with its PR noted). Never silently drop an open backlog item; if
+      current scope/sourcing blocks it (e.g. a review needing operator data under the
+      guides-only scope), keep it `open` with a `blocked: <reason>` note so it is revisited
+      the moment it is unblocked.
    b. If fewer than `deficit`, top up from `research-topics.md` `status: candidate` rows.
    c. If still short, research more (НАП register, competitor BG sites, BG gambling news)
       and append candidates to `research-topics.md`. NEVER invent weak topics to hit the
@@ -134,6 +141,14 @@ dashboard reads this file fresh via the GitHub API). Use the exact stage names a
    date_researched`. `suggestion` is a one-line rating/verdict (e.g., "силен: голям обем,
    ниска трудност" or "слаб обем, пробвай дълга опашка X"). The dashboard computes the
    Opportunity band/score from volume+kd, so keep those accurate.
+
+   **Apply anti-cannibalization WHEN RESEARCHING (not just when writing):** cluster every
+   new keyword by primary intent and keep only **one pillar candidate per cluster** in the
+   bank. DROP a candidate outright if its cluster is already covered by (i) an existing or
+   queued article (`content-queue.md` / the live sitemap), (ii) an `open` human backlog
+   keyword, or (iii) a pillar already in this bank. Near-duplicates are recorded in the
+   pillar's `suggestion` as "fold-in: <kw>", never added as separate candidate rows. The
+   bank must never accumulate two candidates that would compete for the same query.
 
    **b. Analyse the human backlog (`topic-backlog.md`, enriched 11-col):** for every row
    with `status: open`, look the keyword up (Ahrefs, else web) and fill `volume, kd,
