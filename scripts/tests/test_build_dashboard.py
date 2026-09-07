@@ -27,6 +27,20 @@ RESEARCH_SAMPLE = """# Research Topics Bank
 | review | Palms Bet | palms bet казино | НАП register | candidate | 2026-09-07 |
 """
 
+# Enriched (Ahrefs) layouts — 11 columns
+RESEARCH_ENRICHED = """# Research Topics Bank
+| type | query | researched_keywords | volume | kd | intent | trend | checked | suggestion | status | date_researched |
+|---|---|---|---|---|---|---|---|---|---|---|
+| guide | Как да четем RTP | rtp, връщане | 1300 | 8 | informational | up | ahrefs | strong: high vol, low KD | candidate | 2026-09-07 |
+| guide | Волатилност слотове | волатилност | 90 | 55 | informational | flat | web | weak; try long-tail | candidate | 2026-09-07 |
+"""
+
+BACKLOG_ENRICHED = """# Topic Backlog
+| priority | type | query | keywords_or_terms | volume | kd | intent | checked | ahrefs_note | status | notes |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | guide | Wagering | wagering | 500 | 15 | informational | ahrefs | good pick | open | x |
+"""
+
 
 def test_parse_queue_row_count():
     rows = bd.parse_queue(SAMPLE)
@@ -87,3 +101,38 @@ def test_build_status_includes_meta_schedule_and_links():
     assert status["meta"]["schedule"]["cron_utc_hour"] == 4
     assert status["meta"]["links"]["repo"].startswith("https://github.com/")
     assert "routine" in status["meta"]["links"]
+
+
+def test_opportunity_scoring():
+    strong = bd.opportunity(1300, 8)      # high volume, low KD
+    weak = bd.opportunity(90, 55)         # low volume, high KD
+    assert strong["band"] == "Strong" and strong["score"] >= 70
+    assert weak["band"] in ("Weak", "Moderate") and weak["score"] < strong["score"]
+    assert bd.opportunity("", "") is None            # no data
+    assert bd.opportunity("1,300", "8")["band"] == "Strong"  # comma/str tolerated
+
+
+def test_parse_research_enriched_and_checked():
+    r = bd.parse_research(RESEARCH_ENRICHED)
+    assert len(r) == 2
+    assert r[0]["volume"] == "1300" and r[0]["kd"] == "8"
+    assert r[0]["checked"] == "ahrefs"
+    assert r[1]["checked"] == "web"
+    status = bd.build_status(bd.parse_queue(SAMPLE), research=r, target=10)
+    assert status["research"][0]["opportunity"]["band"] == "Strong"
+
+
+def test_parse_backlog_enriched_has_opportunity():
+    bl = bd.parse_backlog(BACKLOG_ENRICHED)
+    assert bl[0]["checked"] == "ahrefs" and bl[0]["volume"] == "500"
+    status = bd.build_status(bd.parse_queue(SAMPLE), backlog=bl, target=10)
+    assert status["backlog"][0]["opportunity"]["score"] >= 45  # good/strong
+
+
+def test_legacy_rows_still_parse_with_empty_metrics():
+    bl = bd.parse_backlog(BACKLOG_SAMPLE)     # legacy 6-col
+    r = bd.parse_research(RESEARCH_SAMPLE)    # legacy 6-col
+    assert bl[0]["volume"] == "" and bl[0]["checked"] == ""
+    assert r[0]["volume"] == "" and r[0]["checked"] == ""
+    status = bd.build_status(bd.parse_queue(SAMPLE), backlog=bl, research=r, target=10)
+    assert status["backlog"][0]["opportunity"] is None

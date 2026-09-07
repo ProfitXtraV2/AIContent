@@ -73,6 +73,17 @@
   .st-posted { background: #eef1f6; color: #64748b; }
   .st-failed { background: #fdeaea; color: #c0392b; }
   .st-in-progress { background: #fef3e2; color: #b3730a; }
+  .op { font-size: .72rem; padding: .14rem .45rem; border-radius: 6px; font-weight: 600; white-space: nowrap; }
+  .op-Strong { background: #e7f8ee; color: #0f8a4d; }
+  .op-Good { background: #e4f1ff; color: #1668c7; }
+  .op-Moderate { background: #fef3e2; color: #b3730a; }
+  .op-Weak { background: #f1f4f9; color: #64748b; }
+  .chk { font-size: .68rem; padding: .12rem .42rem; border-radius: 999px; white-space: nowrap; }
+  .chk-ahrefs { background: #e7f8ee; color: #0f8a4d; }
+  .chk-web { background: #e4f1ff; color: #1668c7; }
+  .chk-none { background: #f1f4f9; color: #94a3b8; }
+  td .sugg { color: var(--muted); font-size: .82rem; }
+  .num { text-align: right; font-variant-numeric: tabular-nums; }
   .empty { color: var(--muted); padding: 1.25rem .2rem; }
 
   .tabs { display: flex; flex-wrap: wrap; gap: .3rem; border-bottom: 1px solid var(--line);
@@ -352,14 +363,30 @@ async function load() {
     return `<table><thead><tr>${cols.map(([, h]) => `<th>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table>`;
   }
 
+  function opChip(o) {
+    if (!o) return '<span class="op op-Weak">n/a</span>';
+    return `<span class="op op-${o.band}">${o.band} · ${o.score}</span>`;
+  }
+  function chkBadge(v) {
+    v = (v || 'none').toLowerCase();
+    if (v === 'ahrefs') return '<span class="chk chk-ahrefs">✓ Ahrefs</span>';
+    if (v === 'web') return '<span class="chk chk-web">web</span>';
+    return '<span class="chk chk-none">unchecked</span>';
+  }
+  const byOpp = (a, b) => (b.opportunity ? b.opportunity.score : -1) - (a.opportunity ? a.opportunity.score : -1);
+
   function renderBacklog(rows) {
     if (!rows.length) return '<div class="empty">No pending backlog keywords — add topics to topic-backlog.md.</div>';
-    const cols = [['priority','#'],['type','Type'],['query','Topic'],
-      ['keywords_or_terms','Keywords'],['status','Status'],['notes','Notes']];
-    const body = rows.map(r => '<tr>' + cols.map(([c]) => {
-      let v = r[c] || '';
-      if (c === 'status') v = `<span class="st st-${v === 'failed' ? 'failed' : 'in-progress'}">${v || 'open'}</span>`;
-      return `<td>${v}</td>`;
+    const cols = [['priority','#'],['type','Type'],['query','Topic'],['keywords_or_terms','Keywords'],
+      ['volume','Vol'],['kd','KD'],['opportunity','Opportunity'],['checked','Checked'],
+      ['ahrefs_note','Ahrefs verdict / suggestion'],['status','Status']];
+    const body = [...rows].sort(byOpp).map(r => '<tr>' + cols.map(([c]) => {
+      if (c === 'opportunity') return `<td>${opChip(r.opportunity)}</td>`;
+      if (c === 'checked') return `<td>${chkBadge(r.checked)}</td>`;
+      if (c === 'ahrefs_note') return `<td class="sugg">${r.ahrefs_note || ''}</td>`;
+      if (c === 'status') return `<td><span class="st st-${r.status === 'failed' ? 'failed' : 'in-progress'}">${r.status || 'open'}</span></td>`;
+      const cls = (c === 'volume' || c === 'kd') ? ' class="num"' : '';
+      return `<td${cls}>${r[c] || ''}</td>`;
     }).join('') + '</tr>').join('');
     return `<table><thead><tr>${cols.map(([, h]) => `<th>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table>`;
   }
@@ -367,8 +394,15 @@ async function load() {
   function renderResearch(rows) {
     if (!rows.length) return '<div class="empty">No AI-researched topics yet — the run refreshes this bank each day.</div>';
     const cols = [['type','Type'],['query','Topic'],['researched_keywords','Keywords'],
-      ['source_rationale','Why / source'],['status','Status'],['date_researched','Found']];
-    const body = rows.map(r => '<tr>' + cols.map(([c]) => `<td>${r[c] || ''}</td>`).join('') + '</tr>').join('');
+      ['volume','Vol'],['kd','KD'],['opportunity','Opportunity'],['trend','Trend'],
+      ['checked','Checked'],['suggestion','Rating / suggestion'],['status','Status']];
+    const body = [...rows].sort(byOpp).map(r => '<tr>' + cols.map(([c]) => {
+      if (c === 'opportunity') return `<td>${opChip(r.opportunity)}</td>`;
+      if (c === 'checked') return `<td>${chkBadge(r.checked)}</td>`;
+      if (c === 'suggestion') return `<td class="sugg">${r.suggestion || r.source_rationale || ''}</td>`;
+      const cls = (c === 'volume' || c === 'kd') ? ' class="num"' : '';
+      return `<td${cls}>${r[c] || ''}</td>`;
+    }).join('') + '</tr>').join('');
     return `<table><thead><tr>${cols.map(([, h]) => `<th>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table>`;
   }
 

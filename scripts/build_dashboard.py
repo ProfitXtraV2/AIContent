@@ -11,29 +11,72 @@ from pathlib import Path
 
 BUFFER_STATES = {"drafted", "approved"}
 ALL_STATES = ["in-progress", "drafted", "approved", "posted", "failed"]
+
 COLUMNS = ["id", "status", "type", "query", "keywords_or_terms",
            "source", "drafted_date", "posted_date", "folder", "pr", "notes"]
-BACKLOG_COLUMNS = ["priority", "type", "query", "keywords_or_terms", "status", "notes"]
-RESEARCH_COLUMNS = ["type", "query", "researched_keywords", "source_rationale",
-                    "status", "date_researched"]
+COLUMNS_LEGACY = [c for c in COLUMNS if c != "folder"]  # pre-`folder` 10-col
+
+# Human backlog. Ahrefs metrics (volume/kd/intent/checked/ahrefs_note) are enriched by the
+# run; the human only fills priority/type/query/keywords/status/notes (legacy 6-col parses).
+# `checked` ∈ ahrefs | web | none — how the metrics were obtained (web = Ahrefs-unavailable fallback).
+BACKLOG_COLUMNS = ["priority", "type", "query", "keywords_or_terms",
+                   "volume", "kd", "intent", "checked", "ahrefs_note", "status", "notes"]
+BACKLOG_COLUMNS_LEGACY = ["priority", "type", "query", "keywords_or_terms", "status", "notes"]
+
+# AI research bank. Ahrefs-driven metrics + a suggestion. Legacy 6-col still parses.
+# `checked` ∈ ahrefs | web | none.
+RESEARCH_COLUMNS = ["type", "query", "researched_keywords", "volume", "kd", "intent",
+                    "trend", "checked", "suggestion", "status", "date_researched"]
+RESEARCH_COLUMNS_LEGACY = ["type", "query", "researched_keywords", "source_rationale",
+                           "status", "date_researched"]
 
 
-def _parse_table(md_text, columns):
-    """Parse a markdown table with the given column order into row dicts."""
+def _parse_tolerant(md_text, specs):
+    """Parse a markdown table, matching each data row to whichever column spec has the
+    same cell count (specs[0] is the richest/current layout). Missing richer fields are
+    filled empty so downstream code can rely on every key existing."""
+    by_len = {len(c): c for c in specs}
+    richest = specs[0]
     rows = []
     for line in md_text.splitlines():
         line = line.strip()
         if not line.startswith("|"):
             continue
         cells = [c.strip() for c in line.strip("|").split("|")]
-        if len(cells) != len(columns):
+        cols = by_len.get(len(cells))
+        if not cols:
             continue
-        if cells[0].lower() == columns[0].lower():   # header row
+        if cells[0].lower() == cols[0].lower():        # header row
             continue
-        if set(cells[0]) <= set("-: "):               # separator row
+        if set(cells[0]) <= set("-: "):                 # separator row
             continue
-        rows.append(dict(zip(columns, cells)))
+        row = dict(zip(cols, cells))
+        for c in richest:
+            row.setdefault(c, "")
+        rows.append(row)
     return rows
+
+
+def _num(v):
+    """Parse a numeric cell ('1,300', ' 42 ') to float, or None."""
+    try:
+        return float(str(v).replace(",", "").replace("%", "").strip())
+    except (ValueError, AttributeError):
+        return None
+
+
+def opportunity(volume, kd):
+    """Deterministic 0-100 opportunity score from search volume + keyword difficulty,
+    plus a band. Higher volume and lower KD score better. None if data missing."""
+    v, k = _num(volume), _num(kd)
+    if v is None or k is None:
+        return None
+    vol_score = min(60.0, v / 20.0)          # 1200+ volume saturates at 60
+    kd_score = max(0.0, 40.0 - k * 0.4)      # KD 0 → 40, KD 100 → 0
+    score = int(round(vol_score + kd_score))
+    band = ("Strong" if score >= 70 else "Good" if score >= 45
+            else "Moderate" if score >= 25 else "Weak")
+    return {"score": score, "band": band}
 
 # Schedule: the daily cron fires at this UTC hour (04:00 UTC ≈ 07:00 Europe/Sofia).
 SCHEDULE = {"cron_utc_hour": 4, "cron_utc_minute": 0,
@@ -50,40 +93,26 @@ LINKS = {
 }
 
 
-# Legacy 10-column queue (pre-`folder`). Parsed for backward compatibility.
-COLUMNS_LEGACY = [c for c in COLUMNS if c != "folder"]
-
-
 def parse_queue(md_text):
-    """Parse the content-queue table, tolerating both the 11-column (with `folder`)
-    and legacy 10-column layouts. Legacy rows get an empty `folder`."""
-    rows = []
-    for line in md_text.splitlines():
-        line = line.strip()
-        if not line.startswith("|"):
-            continue
-        cells = [c.strip() for c in line.strip("|").split("|")]
-        if cells and cells[0].lower() == "id":          # header row
-            continue
-        if cells and set(cells[0]) <= set("-: "):         # separator row
-            continue
-        if len(cells) == len(COLUMNS):
-            rows.append(dict(zip(COLUMNS, cells)))
-        elif len(cells) == len(COLUMNS_LEGACY):
-            row = dict(zip(COLUMNS_LEGACY, cells))
-            row["folder"] = ""
-            rows.append(row)
-    return rows
+    """Parse the content-queue table (11-col with `folder`, or legacy 10-col)."""
+    return _parse_tolerant(md_text, [COLUMNS, COLUMNS_LEGACY])
 
 
 def parse_backlog(md_text):
-    """Parse the topic-backlog markdown table into row dicts (data rows only)."""
-    return _parse_table(md_text, BACKLOG_COLUMNS)
+    """Parse the topic-backlog table (enriched 11-col, or legacy human 6-col)."""
+    return _parse_tolerant(md_text, [BACKLOG_COLUMNS, BACKLOG_COLUMNS_LEGACY])
 
 
 def parse_research(md_text):
-    """Parse the research-topics (AI backlog) markdown table into row dicts."""
-    return _parse_table(md_text, RESEARCH_COLUMNS)
+    """Parse the research-topics table (enriched 11-col, or legacy 6-col)."""
+    return _parse_tolerant(md_text, [RESEARCH_COLUMNS, RESEARCH_COLUMNS_LEGACY])
+
+
+def _with_opportunity(rows):
+    """Attach a computed opportunity {score, band} to each row from volume + kd."""
+    for r in rows:
+        r["opportunity"] = opportunity(r.get("volume"), r.get("kd"))
+    return rows
 
 
 def build_status(rows, backlog=None, research=None, target=10):
@@ -93,6 +122,8 @@ def build_status(rows, backlog=None, research=None, target=10):
         if st in counts:
             counts[st] += 1
     buffer_count = counts["drafted"] + counts["approved"]
+    backlog = _with_opportunity(backlog or [])
+    research = _with_opportunity(research or [])
     return {
         "generated_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "buffer": {

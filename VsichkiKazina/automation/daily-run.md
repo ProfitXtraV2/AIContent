@@ -86,8 +86,35 @@ dashboard reads this file fresh via the GitHub API). Use the exact stage names a
      backlog, set that backlog row `status: failed` (stays visible, flagged for retry).
    - **Do NOT resolve flags, post, or merge.** The human owns Step 6 and publishing.
 
-6. **Refresh research + dashboard.** Extend `research-topics.md` with fresh candidates for
-   future runs. Run `python3 scripts/build_dashboard.py` to regenerate `status.json`.
+6. **Keyword research + analysis (Ahrefs, with web fallback) → refresh dashboard.**
+
+   **Data source, in order (never halt on failure):**
+   - PREFERRED — **Ahrefs API**: base `https://api.ahrefs.com/v3`, header
+     `Authorization: Bearer $AHREFS_API_KEY`, market **country = `bg`**. (If unsure of the
+     exact endpoint/field names, read `https://docs.ahrefs.com` at runtime — do not invent
+     endpoints.) For each keyword pull: search **volume**, **keyword difficulty (kd)**,
+     search **intent**, and a **trend** signal (up/flat/down from volume history). Mark
+     `checked = ahrefs`.
+   - FALLBACK — if `$AHREFS_API_KEY` is unset, or Ahrefs returns errors / is unreachable /
+     out of units: **DO NOT STOP**. Estimate via web research (WebSearch/WebFetch: related
+     searches, autosuggest, competitor headings, People-Also-Ask). Fill what you can; mark
+     `checked = web`; leave `volume`/`kd` blank if you cannot estimate them credibly (never
+     fabricate precise numbers — an estimate must be labelled as such in the suggestion).
+
+   **a. AI backlog (`research-topics.md`, 11-col schema):** discover/refresh candidate
+   BG gambling keywords (data-first, casino-weighted). For each row fill `type, query,
+   researched_keywords, volume, kd, intent, trend, checked, suggestion, status,
+   date_researched`. `suggestion` is a one-line rating/verdict (e.g., "силен: голям обем,
+   ниска трудност" or "слаб обем, пробвай дълга опашка X"). The dashboard computes the
+   Opportunity band/score from volume+kd, so keep those accurate.
+
+   **b. Analyse the human backlog (`topic-backlog.md`, enriched 11-col):** for every row
+   with `status: open`, look the keyword up (Ahrefs, else web) and fill `volume, kd,
+   intent, checked` and `ahrefs_note` — a short verdict + suggestion ("добър избор" /
+   "нисък обем; обмисли '<по-силна алтернатива>'"). NEVER change the human's `priority`,
+   `type`, `query`, `keywords_or_terms`, or `status` — only enrich the metric columns.
+
+   Then run `python3 scripts/build_dashboard.py` to regenerate `status.json`.
 
 7. **Open one PR per written article — content only.** Branch `content/<TODAY>-<slug>`
    contains ONLY `VsichkiKazina/articles/<slug>/*` (the article). PR title = the article
