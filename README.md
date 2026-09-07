@@ -49,8 +49,16 @@ design (see [Adding a brand](#adding-a-new-brand)).
 - **Cross-model AI-detection gate (Gemini, Step 7).** Each finished draft is scored by
   **Gemini** (a different model family) for AI-writing tells. If it's below the target
   ("human-written ≥ 80%"), the run applies Gemini's *style* recommendations through a fresh
-  Humaniser pass (facts untouched) and re-checks — up to 2 passes. The verdict shows on the
-  dashboard as a per-article rating/approval badge. Skips gracefully if the key is unset.
+  Humaniser pass (facts untouched) and re-checks — up to 2 passes, **keeping the
+  highest-scoring version** (a pass can lower the score, so it never keeps a worse "latest").
+  Every iteration is its own commit (`07-gemini-check-N.md` persisted) for an auditable PR
+  trail. The verdict shows on the dashboard as a per-article rating/approval badge. Skips
+  gracefully if the key is unset.
+- **Learns over time.** A periodic **learn run** (`automation/learn-run.md`) mines the
+  patterns Gemini flags *repeatedly* across articles and proposes them as permanent rules in
+  the BG **AI-TELL DICTIONARY** (via an approval PR) — so future first drafts avoid them and
+  pass Gemini sooner. The pipeline itself doesn't learn between runs; this loop updates its
+  instructions.
 - **Never fabricates.** Unverifiable facts stay as `[VERIFY]` flags for the human; the run
   refuses to invent operator terms, licences, or figures. Gemini is style-only — it never
   touches facts, RG language, disclosures, or flags.

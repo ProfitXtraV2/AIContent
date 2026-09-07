@@ -126,13 +126,20 @@ stage you are STARTING now>,"stage":"<that stage's name>"}`.
        down): DO NOT halt — log `external check: skipped (Gemini unavailable)` and continue.
      · **PASS** when the verdict is "human-written" with confidence **≥ GEMINI_TARGET_CONFIDENCE
        (80)** — log `external check: Gemini <verdict>` and continue.
-     · **Otherwise** (shows AI patterns, or human-written < 80): apply Gemini's flagged
-       recommendations through a FRESH Humaniser pass using
+     · **Otherwise** (shows AI patterns, or human-written < 80): iterate to improve. Each
+       pass: apply Gemini's flagged recommendations through a FRESH Humaniser pass using
        `pipeline/prompts/step-7b-apply-gemini-recs.md` (preserve EVERY untouchable: numbers,
        links, RG lines, 18+, disclosures, dates, byline, brand; never paste Gemini's text),
        then a quick Brand Gate re-check, then re-run `gemini_check.py`. Repeat up to
-       `MAX_GEMINI_PASSES` (2). If still < 80 after the cap, keep the best-scoring version and
-       log `external check: Gemini <verdict> after N passes (below 80 target)`.
+       `MAX_GEMINI_PASSES` (2).
+     · **KEEP THE BEST STATE (mandatory).** Record the score of the INITIAL draft and of
+       EVERY pass (the `07-gemini-check-<pass>.md` files preserve them). A Humaniser pass can
+       *lower* the score (e.g. 75 → 70 → 65). When the loop ends — by PASS or by hitting the
+       cap — the final `05b` MUST be the **highest-scoring version seen**, even if that is the
+       untouched original or an earlier pass. NEVER keep a later, lower-scoring version just
+       because it came last. Commit the winner as
+       `content(<slug>): keep best version (pass <k>, <conf>%)` and put that score in the
+       `gemini` column (`human <conf>` if ≥80, else `ai <conf>`).
      · Gemini must NEVER touch facts, RG language, disclosures, or `[VERIFY]` flags — it is
        style-only; recommendations only.
      · **Commit-history discipline (audit trail on the PR branch).** Keep every iteration as
