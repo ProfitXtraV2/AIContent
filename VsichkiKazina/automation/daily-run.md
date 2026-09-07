@@ -7,7 +7,22 @@ pipeline in `VsichkiKazina/pipeline/` VERBATIM — never paraphrase its agent fi
 
 ## Constants
 - BUFFER_TARGET = 10
-- MAX_PER_RUN = 10
+- MAX_PER_RUN = 3   (small batches: less likely to hit the account rate limit; the buffer
+  fills over a few runs, and the multi-fire schedule + resume step below cover any failure)
+
+## Resume / idempotency (a failed run must self-heal on the next fire)
+This run may be re-fired at any time (schedule fires 3×/day; a prior run may have died on a
+429 rate limit). It MUST be safe to re-run and MUST continue, not restart:
+- **First, reconcile leftovers.** Before selecting new topics, look for `content-queue.md`
+  rows with `status: in-progress` (an article a previous run started but didn't finish).
+  For each: if its `content/<slug>` branch already has a complete `05b`, finish it (Gemini
+  Step-7 → PR → set `drafted`); otherwise complete the writing from where it left off. Only
+  after all in-progress rows are resolved do you select NEW topics for any remaining deficit.
+- **Never duplicate.** An article already `drafted`/`approved`/`posted` (or with an open PR)
+  is done — never rewrite it. Dedup every new candidate against the queue + sitemap as usual.
+- **Rate-limit behavior.** If you hit a 429 mid-run, commit whatever is safely complete
+  (drafted rows + their PRs), leave the rest `in-progress`, end the heartbeat as `idle`, and
+  STOP cleanly — the next scheduled fire resumes from the in-progress rows.
 - GEMINI_TARGET_CONFIDENCE = 80   (Step 7 accepts at "human-written ≥ 80%"; 80 is acceptable)
 - MAX_GEMINI_PASSES = 2            (max Humaniser re-passes driven by Gemini before handing to human)
 
