@@ -26,3 +26,9 @@ FINAL GREP-VERIFICATION (05b-final-draft.md)
 - превъртане: used; base ALWAYS stated = само сумата на кешбека (изрично „не депозит плюс кешбек"). RTP/волатилност not used (loyalty topic).
 
 ANTI-CANNIBALIZATION NOTE (for human): no loyalty/VIP/cashback page exists on the live site. This is a clean concept pillar for the кешбек/лоялна програма cluster (informational intent) with no existing page to overlap or dilute. Nothing to exclude from linking; no live listing to avoid. When cluster pages appear later, this guide is the intended hub to cross-link from.
+
+## Step 6/7 (orchestrator, post-writer)
+- Step 6 prep: assembled 06-verification.md (0 flags; illustrative-number table; cashback base + превъртане recalculations; verbatim-untouchables spot-check; anti-cannibalization note). No flags in text.
+- Step 7 (Gemini cross-model, gemini-3.1-pro-preview): pass 1 (as-delivered) "Likely AI-generated 75%" → hl 25. Humaniser pass 1 (strip 3 example-hedges keeping hypothetical framing, condense the „not a gift" lecture, rapid-fire checklist conclusion, vary signpost openers) → pass 2 "Likely human-written 85%" → hl 85 → PASS. Kept pass-1 revision. content-queue gemini = human 85. Numbers/links/RG/18+/dates/byline/brand + превъртане base UNTOUCHED; no [VERIFY] resolved; not posted, not merged.
+- 07-gemini-check-1.md / -2.md persisted as the audit trail.
+- Status → drafted. drafted_date 07.09.2026. Human owns Step 6/publish.
