@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="bg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>VsichkiKazina — Content Autopilot</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 2rem; color: #1a1a1a; }
+  h1 { font-size: 1.4rem; }
+  .gauge { font-size: 2rem; font-weight: 700; padding: .5rem 1rem; border-radius: .5rem;
+           display: inline-block; }
+  .ok { background: #d8f5d8; color: #0a5c0a; }
+  .low { background: #fdeecb; color: #8a5a00; }
+  .counts span { display: inline-block; margin-right: 1rem; }
+  table { border-collapse: collapse; margin-top: 1rem; width: 100%; font-size: .9rem; }
+  th, td { border: 1px solid #ddd; padding: .35rem .5rem; text-align: left; }
+  th { background: #f4f4f4; }
+  .muted { color: #777; font-size: .8rem; }
+  .s-drafted { color: #0a5c0a; } .s-approved { color: #05628a; }
+  .s-posted { color: #555; } .s-failed { color: #b00; } .s-in-progress { color: #8a5a00; }
+</style>
+</head>
+<body>
+<h1>VsichkiKazina — Content Autopilot</h1>
+<div id="gauge"></div>
+<div class="counts" id="counts"></div>
+<div id="table"></div>
+<p class="muted" id="ts"></p>
+<script>
+async function load() {
+  const r = await fetch('./data/status.json?_=' + Date.now());
+  const s = await r.json();
+  const b = s.buffer;
+  const g = document.getElementById('gauge');
+  g.className = 'gauge ' + (b.ok ? 'ok' : 'low');
+  g.textContent = `Buffer ${b.count} / ${b.target}` + (b.ok ? ' ✓' : ` (need ${b.deficit})`);
+  document.getElementById('counts').innerHTML =
+    Object.entries(s.counts).map(([k, v]) => `<span class="s-${k}">${k}: <b>${v}</b></span>`).join('');
+  const cols = ['id','status','type','query','source','drafted_date','posted_date','pr','notes'];
+  const rows = s.rows.map(row =>
+    '<tr>' + cols.map(c => {
+      let v = row[c] || '';
+      if (c === 'status') v = `<span class="s-${v}">${v}</span>`;
+      if (c === 'pr' && v.startsWith('#')) v = `<a href="../../../pulls">${v}</a>`;
+      return `<td>${v}</td>`;
+    }).join('') + '</tr>').join('');
+  document.getElementById('table').innerHTML =
+    `<table><thead><tr>${cols.map(c => `<th>${c}</th>`).join('')}</tr></thead><tbody>${rows}</tbody></table>`;
+  document.getElementById('ts').textContent = 'Generated ' + s.generated_utc;
+}
+load().catch(e => document.getElementById('gauge').textContent = 'No status.json yet');
+</script>
+</body>
+</html>
