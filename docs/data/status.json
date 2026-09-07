@@ -1,35 +1,62 @@
 {
-  "generated_utc": "2026-09-07T14:42:39Z",
+  "generated_utc": "2026-09-07T15:12:11Z",
   "buffer": {
-    "count": 0,
+    "count": 1,
     "target": 10,
-    "deficit": 10,
+    "deficit": 9,
     "ok": false
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 0,
+    "drafted": 1,
     "approved": 0,
     "posted": 0,
-    "failed": 0
+    "failed": 1
   },
-  "rows": [],
+  "rows": [
+    {
+      "id": "vk-0001",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Как работи изискването за разиграване (wagering)",
+      "keywords_or_terms": "разиграване, wagering, бонус условия",
+      "source": "backlog",
+      "drafted_date": "2026-09-07",
+      "posted_date": "",
+      "folder": "2026-09-07-kak-raboti-razigravaneto",
+      "pr": "#1",
+      "notes": "gate 89/100; HUMAN-LIKE; 0 flags"
+    },
+    {
+      "id": "vk-0002",
+      "status": "failed",
+      "type": "comparison",
+      "query": "Най-добри казино бонуси за добре дошли 2026",
+      "keywords_or_terms": "бонус за добре дошли, welcome bonus",
+      "source": "backlog",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-07-bonusi-za-dobre-doshli-2026",
+      "pr": "#2",
+      "notes": "blocked: web egress; refused to fabricate"
+    }
+  ],
   "backlog": [
     {
       "priority": "1",
       "type": "guide",
       "query": "Как работи изискването за разиграване (wagering)",
       "keywords_or_terms": "разиграване, wagering, бонус условия",
-      "status": "open",
-      "notes": "evergreen explainer"
+      "status": "written",
+      "notes": "drafted → PR #1"
     },
     {
       "priority": "2",
       "type": "comparison",
       "query": "Най-добри казино бонуси за добре дошли 2026",
       "keywords_or_terms": "бонус за добре дошли, welcome bonus",
-      "status": "open",
-      "notes": "links /bonus-category/welcome-bonus/"
+      "status": "failed",
+      "notes": "PR #2 — blocked by web egress; retry after Full network access"
     }
   ],
   "research": [],

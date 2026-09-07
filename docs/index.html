@@ -312,41 +312,37 @@ async function load() {
     .map(([k, v]) => `<span class="pill">${k}: <b>${v}</b></span>`).join('');
   document.getElementById('lastGen').textContent = 'Data ' + (s.generated_utc || '');
 
-  // Open PRs (drafts for review) — fetched throttled to respect GitHub's unauth API limit.
-  TICK++;
-  if (PR_CACHE === null || TICK % 3 === 0) {
-    const fresh = await fetchOpenPRs();
-    if (fresh) PR_CACHE = fresh;
-  }
-  const prs = PR_CACHE || [];
-
-  // Tabs — ordered by importance (most actionable first)
+  // Everything is driven from main's content-queue.md + topic-backlog.md (via status.json).
   const allRows = s.rows || [];
   const backlog = s.backlog || [];
   const research = s.research || [];
   const base = s.articles_base_url || '';
+  const repo = (meta.links && meta.links.repo) || 'https://github.com/ProfitXtraV2/AIContent';
+  const REVIEW_STATES = ['in-progress', 'drafted', 'failed'];   // need attention before deploy
+  const HIDE_BACKLOG = ['written', 'used', 'queued'];           // consumed → drop from backlog
   const TABS = [
     { key: 'deploy', cls: 'deploy', label: 'Articles ready to deploy',
       rows: allRows.filter(r => r.status === 'approved'), kind: 'article' },
     { key: 'review', cls: 'review', label: 'Articles for review',
-      rows: prs, kind: 'prs' },
+      rows: allRows.filter(r => REVIEW_STATES.includes(r.status)), kind: 'article' },
     { key: 'backlog', cls: '', label: 'Backlog keywords',
-      rows: backlog.filter(r => (r.status || 'open') !== 'used'), kind: 'backlog' },
+      rows: backlog.filter(r => !HIDE_BACKLOG.includes((r.status || 'open').toLowerCase())), kind: 'backlog' },
     { key: 'research', cls: '', label: 'AI backlog keywords',
       rows: research.filter(r => (r.status || 'candidate') !== 'used'), kind: 'research' },
   ];
 
   function articleLinks(r) {
     const parts = [];
+    if (r.pr && r.pr.startsWith('#'))
+      parts.push(`<a href="${repo}/pull/${r.pr.slice(1)}" target="_blank" rel="noopener">PR ${r.pr}</a>`);
     if (r.folder && base) parts.push(`<a href="${base}${r.folder}" target="_blank" rel="noopener">📁 files</a>`);
-    if (r.pr && r.pr.startsWith('#')) parts.push(`<a href="${links.prs || '#'}" target="_blank">PR ${r.pr}</a>`);
     return `<span class="rlinks">${parts.join('') || '—'}</span>`;
   }
 
   function renderArticles(rows) {
     if (!rows.length) return '<div class="empty">Nothing here right now.</div>';
     const cols = [['status','Status'],['type','Type'],['query','Article'],
-      ['drafted_date','Drafted'],['posted_date','Posted'],['source','Source'],['links','Links']];
+      ['keywords_or_terms','Keywords used'],['source','Source'],['links','Links']];
     const body = rows.map(r => '<tr>' + cols.map(([c]) => {
       if (c === 'links') return `<td>${articleLinks(r)}</td>`;
       let v = r[c] || '';
@@ -357,10 +353,14 @@ async function load() {
   }
 
   function renderBacklog(rows) {
-    if (!rows.length) return '<div class="empty">Backlog is empty — add topics to topic-backlog.md.</div>';
+    if (!rows.length) return '<div class="empty">No pending backlog keywords — add topics to topic-backlog.md.</div>';
     const cols = [['priority','#'],['type','Type'],['query','Topic'],
       ['keywords_or_terms','Keywords'],['status','Status'],['notes','Notes']];
-    const body = rows.map(r => '<tr>' + cols.map(([c]) => `<td>${r[c] || ''}</td>`).join('') + '</tr>').join('');
+    const body = rows.map(r => '<tr>' + cols.map(([c]) => {
+      let v = r[c] || '';
+      if (c === 'status') v = `<span class="st st-${v === 'failed' ? 'failed' : 'in-progress'}">${v || 'open'}</span>`;
+      return `<td>${v}</td>`;
+    }).join('') + '</tr>').join('');
     return `<table><thead><tr>${cols.map(([, h]) => `<th>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table>`;
   }
 
