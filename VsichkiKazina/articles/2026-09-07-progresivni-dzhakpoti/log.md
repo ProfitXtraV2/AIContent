@@ -29,3 +29,9 @@ NOTE: RESUME run — предишният старт беше прекъснат
 - Превъртане: НЕ се използва в тази статия (не е бонус гайд) → няма база за деклариране. RTP навсякъде рамкиран като дългосрочна статистика, не обещание за сесия.
 
 STATUS: complete (артефакти 00 → 05b + log.md). Готово за STEP 6 (human verification) — извън обхвата на този run.
+
+## Step 6/7 (orchestrator, post-writer)
+- Step 6 prep: assembled 06-verification.md (0 flags; 0 time-sensitive operator claims; illustrative-number table; pool-share/session/odds recalculations; verbatim-untouchables spot-check; anti-cannibalization note). No flags in text.
+- Step 7 (Gemini cross-model, gemini-3.1-pro-preview): pass 1 (as-delivered) "Shows AI patterns 75%" → hl 25. Humaniser pass 1 (remove signposts „Изводът е прост:"/„Има и нюанс:", break „не A, а B" wrap-ups §1/§5/§7/§9, de-symmetrise network-odds sentence, soften staccato close) → pass 2 "Likely human-written 85%" → hl 85 → PASS. Kept pass-1 revision. content-queue gemini = human 85. Numbers/links/RG/18+/dates/byline/brand UNTOUCHED; no [VERIFY] resolved; not posted, not merged.
+- 07-gemini-check-1.md / -2.md persisted as the audit trail.
+- Status → drafted. drafted_date 07.09.2026. Human owns Step 6/publish.
