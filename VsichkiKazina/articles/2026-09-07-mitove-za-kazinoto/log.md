@@ -29,3 +29,9 @@ ANTI-CANNIBALIZATION NOTE (for human):
 - Няма съществуваща „митове за казино" страница — тази заема свободна ниша (myth-busting / reality guide).
 - /otgovorna-igra/ е RG-инструменти страницата (различен job: лимити/самоизключване/регистър). Линквана като ресурс, не се дублира по интент.
 - vk-0006 „RTP и волатилност" е дълбокото ръководство за RTP/волатилност. ТУК RTP е само ЕДИН мит, третиран накратко (RTP не е обещание за сесия), без да се разгръща в пълно RTP ръководство — за да няма припокриване по интент. Препратката „сме разписали отделно" е нарочно НЕ-линкната (URL извън одобрения набор); при публикация човек може да добави един контекстуален cross-link към vk-0006 ако желае. Илюстративните числа (96% / 4% / €1 000 → €40) са държани съгласувани с vk-0006 нарочно.
+
+## Step 6/7 (orchestrator, post-writer)
+- Step 6 prep: assembled 06-verification.md (0 flags; illustrative-number table; Martingale/expected-loss/bonus recalculations; verbatim-untouchables spot-check; anti-cannibalization note). No flags in text.
+- Step 7 (Gemini cross-model, gemini-3.1-pro-preview): pass 1 "Shows strong AI patterns 85%" → hl 15. Humaniser pass 1 (rework honest-answer hook, flatten „има име:" reveal, remove „две стени" metaphor + First/Second numbering, delete narrated evaluations, break „не X, а Y" wrap-ups) → pass 2 "Likely AI-written 80%" → hl 20. Humaniser pass 2 (fix 2 translated idioms, combine antithesis pairs, delete pop-psychology + meta-commentary, cut circular RTP restatements) → pass 3 "Likely human-written 85%" → hl 85 → PASS. MAX_GEMINI_PASSES=2 reached; kept pass 2. content-queue gemini = human 85. Numbers/links/RG/18+/dates/byline/brand + превъртане base UNTOUCHED; no [VERIFY] resolved; not posted, not merged.
+- 07-gemini-check-1.md / -2.md / -3.md persisted as the audit trail.
+- Status → drafted. drafted_date 07.09.2026. Human owns Step 6/publish.
