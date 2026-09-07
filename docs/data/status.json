@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-07T20:38:36Z",
+  "generated_utc": "2026-09-07T21:03:58Z",
   "buffer": {
     "count": 10,
     "target": 10,
@@ -527,6 +527,396 @@
         "score": 37,
         "band": "Moderate"
       }
+    },
+    {
+      "type": "guide",
+      "query": "Бакара: правила и как се играе в казино",
+      "researched_keywords": "бакара, как се играе бакара, бакара правила, бакара онлайн",
+      "volume": "500",
+      "kd": "0",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "ahrefs",
+      "suggestion": "СИЛЕН: kd0, стабилен обем 500 (recent 500 vs base 471); няма бакара страница (само блекджек-гайд + рулетка/блекджек листинги) — чист образователен pillar",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": {
+        "score": 65,
+        "band": "Good"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Кено: правила, изплащания и реални шансове",
+      "researched_keywords": "кено, кено правила, как се играе кено",
+      "volume": "200",
+      "kd": "0",
+      "intent": "informational",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "добър: kd0; лек спад (174 vs 226); ниша, но чист pillar (няма кено страница) — свържи с table-games хъб",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": {
+        "score": 50,
+        "band": "Good"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Крапс (зарове): правила и залози за начинаещи",
+      "researched_keywords": "крапс, как се играе крапс, казино зарове",
+      "volume": "40",
+      "kd": "",
+      "intent": "informational",
+      "trend": "",
+      "checked": "ahrefs",
+      "suggestion": "нишов, нисък обем (~40); поддържащ раздел към table-games хъб, не самостоятелна цел",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Казино игри с карти: бакара, покер и блекджек накратко",
+      "researched_keywords": "казино игри с карти, казино игри с карти онлайн",
+      "volume": "150",
+      "kd": "",
+      "intent": "informational",
+      "trend": "",
+      "checked": "ahrefs",
+      "suggestion": "overview/хъб към отделните карти-гайдове; ВНИМАНИЕ препокриване с покер (vk-0008) и блекджек (vk-0009) — прави навигационен хъб, не дублиращ гайд",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Рулетка: правила и популярни стратегии (вкл. Мартингейл)",
+      "researched_keywords": "как се играе рулетка, рулетка стратегия, мартингейл, система мартингейл",
+      "volume": "30",
+      "kd": "",
+      "intent": "informational",
+      "trend": "",
+      "checked": "ahrefs",
+      "suggestion": "клъстер ~80; anti-cannibal vs listing /kazino-igri/ruletka/ — прави правила+стратегия гайд с RG уговорка (стратегиите не бият домашното предимство)",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Ротативки с плодове (класически слотове): как работят",
+      "researched_keywords": "ротативки с плодове, класически ротативки, плодови ротативки",
+      "volume": "200",
+      "kd": "19",
+      "intent": "commercial",
+      "trend": "flat",
+      "checked": "ahrefs",
+      "suggestion": "СИЛЕН kd19 (най-ниска трудност сред слот-темите); отделно от listing /kazino-igri/rotativki/ — образователен ъгъл за 3-барабанни/плодови машини",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": {
+        "score": 42,
+        "band": "Moderate"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Линии на печалба в ротативките: как всъщност печелите",
+      "researched_keywords": "казино игри 40 линии, линии на печалба, печеливши линии, как печелят ротативките",
+      "volume": "150",
+      "kd": "69",
+      "intent": "transactional",
+      "trend": "",
+      "checked": "ahrefs",
+      "suggestion": "образователен pillar за paylines; „казино игри 40 линии...ефбет\" носи ~1400 (brand+free-play спилоувър, не таргет); anti-cannibal vs /slot-igri/ листинги",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": {
+        "score": 20,
+        "band": "Weak"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Краш игри (Aviator): как работят и какъв е RTP",
+      "researched_keywords": "aviator, краш игри, aviator стратегия, jetx, spribe",
+      "volume": "300",
+      "kd": "60",
+      "intent": "commercial",
+      "trend": "flat",
+      "checked": "ahrefs",
+      "suggestion": "НОВ формат, няма страница на сайта; тренд стабилен (306 vs 320); образователен + RG ъгъл (много висока волатилност) — най-силният „нов формат\" pillar",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": {
+        "score": 31,
+        "band": "Moderate"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Live game shows (Crazy Time, Monopoly Live): как се играят",
+      "researched_keywords": "crazy time, monopoly live, lightning roulette, crazy time стратегия",
+      "volume": "200",
+      "kd": "76",
+      "intent": "transactional",
+      "trend": "",
+      "checked": "ahrefs",
+      "suggestion": "под-клъстер на живо казино; fold-in към /kazino-igri/kazino-na-zhivo/ — обяснителен гайд за game-show форматите, НЕ листинг; kd76 висок",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": {
+        "score": 20,
+        "band": "Weak"
+      }
+    },
+    {
+      "type": "review",
+      "query": "Sweet Bonanza: RTP, волатилност и как се играе",
+      "researched_keywords": "sweet bonanza, свит бонанза",
+      "volume": "1100",
+      "kd": "0",
+      "intent": "commercial",
+      "trend": "up",
+      "checked": "ahrefs",
+      "suggestion": "ТОП ВЪЗМОЖНОСТ: обем 1100 при kd0, възходящ (914 vs 763); чист slot-review pillar (Pragmatic); anti-cannibal vs /slot-igri/ листинг",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": {
+        "score": 95,
+        "band": "Strong"
+      }
+    },
+    {
+      "type": "review",
+      "query": "20 Super Hot: RTP и характеристики (EGT класика)",
+      "researched_keywords": "20 super hot",
+      "volume": "900",
+      "kd": "60",
+      "intent": "transactional",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "силен обем 900; EGT/Amusnet класика; лек спад (828 vs 1029); slot-review pillar — котва за EGT-клъстера",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": {
+        "score": 61,
+        "band": "Good"
+      }
+    },
+    {
+      "type": "review",
+      "query": "Gates of Olympus: RTP, волатилност и функции",
+      "researched_keywords": "gates of olympus",
+      "volume": "300",
+      "kd": "69",
+      "intent": "commercial",
+      "trend": "flat",
+      "checked": "ahrefs",
+      "suggestion": "добър обем 300; Pragmatic хит; slot-review; свързва се с Pragmatic provider-profile",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": {
+        "score": 27,
+        "band": "Moderate"
+      }
+    },
+    {
+      "type": "review",
+      "query": "40 Super Hot: RTP и джакпот функции (EGT)",
+      "researched_keywords": "40 super hot",
+      "volume": "300",
+      "kd": "62",
+      "intent": "transactional",
+      "trend": "",
+      "checked": "ahrefs",
+      "suggestion": "EGT класика; солиден обем 300; slot-review или раздел в EGT-хъб",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": {
+        "score": 30,
+        "band": "Moderate"
+      }
+    },
+    {
+      "type": "review",
+      "query": "Shining Crown: RTP и характеристики (EGT)",
+      "researched_keywords": "shining crown",
+      "volume": "200",
+      "kd": "64",
+      "intent": "transactional",
+      "trend": "",
+      "checked": "ahrefs",
+      "suggestion": "EGT; нишов но стабилен (200); fold-in кандидат към EGT-класики хъб",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": {
+        "score": 24,
+        "band": "Weak"
+      }
+    },
+    {
+      "type": "review",
+      "query": "Burning Hot: RTP и функции (EGT)",
+      "researched_keywords": "burning hot",
+      "volume": "200",
+      "kd": "62",
+      "intent": "transactional",
+      "trend": "",
+      "checked": "ahrefs",
+      "suggestion": "EGT; обем 200; fold-in кандидат към EGT-класики хъб (заедно с 20/40 Super Hot, Shining Crown)",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": {
+        "score": 25,
+        "band": "Moderate"
+      }
+    },
+    {
+      "type": "review",
+      "query": "Big Bass Bonanza: RTP и как се играе",
+      "researched_keywords": "big bass bonanza",
+      "volume": "150",
+      "kd": "70",
+      "intent": "transactional",
+      "trend": "",
+      "checked": "ahrefs",
+      "suggestion": "Pragmatic риболовна серия; обем 150, kd70; slot-review",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": {
+        "score": 20,
+        "band": "Weak"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Pragmatic Play: кои са най-добрите слотове и техните RTP",
+      "researched_keywords": "pragmatic play, pragmatic слотове",
+      "volume": "2700",
+      "kd": "62",
+      "intent": "transactional",
+      "trend": "flat",
+      "checked": "ahrefs",
+      "suggestion": "голям обем 2700; provider-profile pillar (котва за Sweet Bonanza/Gates of Olympus/Big Bass); интентът е смесен (и към демо игри) — рамкирай като профил+RTP таблица",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": {
+        "score": 75,
+        "band": "Strong"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Amusnet (EGT): профил на доставчика и топ слотове",
+      "researched_keywords": "amusnet, egt слотове, ротативки egt",
+      "volume": "2000",
+      "kd": "73",
+      "intent": "commercial",
+      "trend": "up",
+      "checked": "ahrefs",
+      "suggestion": "обем 2000, възходящ (2420 vs 1769); provider-profile (котва за 20/40 Super Hot, Shining/Burning Crown); kd73 висок",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": {
+        "score": 71,
+        "band": "Strong"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Кои са доставчиците на казино игри и защо са важни",
+      "researched_keywords": "провайдъри казино, казино софтуер",
+      "volume": "60",
+      "kd": "",
+      "intent": "transactional",
+      "trend": "",
+      "checked": "ahrefs",
+      "suggestion": "образователен хъб за софтуер/доставчици; свързва provider-profile-ите (Pragmatic/Amusnet); нисък пряк обем ~60",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Лицензирани онлайн казина в България: какво значи и как да проверите",
+      "researched_keywords": "лицензирани онлайн казина в българия, лицензирани казина в българия",
+      "volume": "2400",
+      "kd": "55",
+      "intent": "transactional",
+      "trend": "up",
+      "checked": "ahrefs",
+      "suggestion": "ВНИМАНИЕ АНТИ-КАНИБАЛИЗАЦИЯ: препокрива /zakonno-li-e/ + blog/proverka-licenz-kazino + /sravni-kazina/; обемът експлодира (recent 2141 vs base 41) — обмисли ЪПДЕЙТ на съществуваща страница, НЕ нов pillar",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": {
+        "score": 78,
+        "band": "Strong"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Бонус при регистрация: как работи и какви са условията",
+      "researched_keywords": "бонус при регистрация, онлайн казино с бонус при регистрация без депозит",
+      "volume": "450",
+      "kd": "68",
+      "intent": "transactional",
+      "trend": "",
+      "checked": "ahrefs",
+      "suggestion": "огромен head вариант („...без депозит\" = 5900); но силно препокрива no-deposit (vk-0004) + welcome listing — fold-in/раздел, НЕ отделен pillar",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": {
+        "score": 35,
+        "band": "Moderate"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Казино без регистрация (instant play / Pay N Play): как работи",
+      "researched_keywords": "казино без регистрация, казино игри без регистрация",
+      "volume": "100",
+      "kd": "70",
+      "intent": "commercial",
+      "trend": "",
+      "checked": "ahrefs",
+      "suggestion": "различен механизъм (бърза игра без регистрация); нишов (~100, kd70); малък чист pillar само ако форматът реално е наличен при BG оператори",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": {
+        "score": 17,
+        "band": "Weak"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Депозитен бонус / бонус за първи депозит: как да го използвате",
+      "researched_keywords": "депозитен бонус, бонус за първи депозит",
+      "volume": "100",
+      "kd": "",
+      "intent": "transactional",
+      "trend": "",
+      "checked": "ahrefs",
+      "suggestion": "различен от no-deposit — match/първо-зареждане бонус; fold-in към бонус-хъб, не самостоятелна цел",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Как да заредите казино сметка: методи и минимален депозит",
+      "researched_keywords": "казино депозит методи, как да заредя казино, минимален депозит казино",
+      "volume": "0",
+      "kd": "",
+      "intent": "transactional",
+      "trend": "",
+      "checked": "ahrefs",
+      "suggestion": "seed „зареди/депозит\" интент; нулев измерим обем в Ahrefs; /depoziti-i-teglenia/ вече покрива — fold-in, не самостоятелна цел",
+      "status": "candidate",
+      "date_researched": "2026-09-07",
+      "opportunity": null
     }
   ],
   "articles_base_url": "https://github.com/ProfitXtraV2/AIContent/tree/main/VsichkiKazina/articles/",
