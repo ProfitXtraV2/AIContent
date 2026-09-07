@@ -9,6 +9,18 @@ pipeline in `VsichkiKazina/pipeline/` VERBATIM — never paraphrase its agent fi
 - BUFFER_TARGET = 10
 - MAX_PER_RUN = 10
 
+## CURRENT CONTENT SCOPE (guides-only autopilot)
+Until a BG-reachable source route exists (proxy/scraping-API or human source packs), the
+cloud environment CANNOT reach operator T&C pages or the НАП register (geo-block: 403 /
+connection reset). Therefore, for now:
+- **Write only `guide`-type topics** (and any topic that needs NO operator-specific or НАП
+  primary source — evergreen education, worked-€ math, concept explainers).
+- When selecting topics (step 3), **skip `review` / `comparison` / `news`** items that
+  depend on operator terms/licence data. Do NOT attempt them (they will fail on geo-block).
+  Leave them in the backlog with a note `needs source pack / BG route`; fill the deficit
+  with guides instead. Never fabricate operator facts to force one through.
+- This scope is a single switch: when sourcing is solved, allow all types again.
+
 ## Brand conventions (every article)
 - Byline/author is ALWAYS **Георги Тодоров** — never "Екипът на Всички Казина" or a
   team/editorial byline (even editorial-voice guides are signed Георги Тодоров).
