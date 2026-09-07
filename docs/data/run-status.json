@@ -1,27 +1,17 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-07T18:10:39Z",
-  "run_finished_utc": "2026-09-07T20:38:43Z",
-  "articles_written": 6,
-  "prs_opened": [7, 8, 9, 10, 11, 12],
+  "state": "running",
+  "run_started_utc": "2026-09-07T22:12:08Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
   "run_url": "https://claude.ai/code/routines/trig_011f3su1Brcj5QHNCo4zqBEY",
-  "note": "6 guide pillars drafted → buffer 10/10 (target met). PRs: RTP/волатилност #9 (human 90), прогресивни джакпоти #8 (human 85), казино покер #7 (ai 75, kept-best after 2 passes), блекджек правила+стратегия #11 (human 85), кешбек/лоялни програми #10 (human 85), митове за печалбите #12 (human 85). All gate PASS WITH FIXES 91-95/100, 0 flags, 0 em-dashes, all € figures illustrative, превъртане base stated. Guides-only scope; anti-cannibalization applied (one pillar per cluster). NOTE: 6/6 writer subagents first hit the account session rate limit (429, reset 19:10 UTC); WIP preserved on branch wip/daily-2026-09-07 and completed after reset. Human owns Step 6 verification + publishing; nothing merged/posted.",
+  "note": "daily run (deficit 0 — buffer 10/10; research + dashboard refresh only)",
   "progress": {
-    "phase": "done",
-    "article_index": 6,
-    "article_total": 6,
-    "article_slug": "2026-09-07-mitove-za-kazinoto",
-    "stages": [
-      "Synthesis",
-      "Outline",
-      "Author",
-      "Humaniser",
-      "SEO",
-      "Brand Gate",
-      "Light re-check",
-      "Verification",
-      "PR"
-    ],
+    "phase": "research",
+    "article_index": 0,
+    "article_total": 0,
+    "article_slug": null,
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Verification","PR"],
     "stage_index": null,
     "stage": null
   }
