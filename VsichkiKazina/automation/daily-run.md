@@ -74,6 +74,11 @@ dashboard reads this file fresh via the GitHub API). Use the exact stage names a
    - DIFF ALL NUMBERS between text-editing stages; any changed/missing number → halt this
      article, mark `failed`, log why.
    - Brand Gate FAIL → fix at the failing stage and re-run forward; never hand-patch.
+   - **Affiliate links:** if the article recommends/references a specific operator (reviews,
+     comparisons, bonus/deposit pieces), link that operator's first prominent mention to its
+     `affiliate_url` from `VsichkiKazina/affiliate-links.md` (`status: active` only). If the
+     operator is missing from that registry, insert `[LINK NEEDED: <operator>]` — NEVER invent
+     an affiliate URL or link a bare operator domain. Keep the affiliate-disclosure footer.
    - Assemble `06-verification.md`: surviving flags + time-sensitive claims with
      primary-source URLs; recalculate one figure with working shown. FLAGS STAY IN THE
      TEXT. Append one line per stage to `log.md`; record `external check: skipped`.

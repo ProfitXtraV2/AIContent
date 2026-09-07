@@ -43,6 +43,7 @@ PILLAR 4 — TRUST SIGNALS & DISCLOSURES (0-15) — each missing item is a CRITI
 □ The verbatim line "18+ Хазартът може да пристрасти. Играйте отговорно." + RG signposting to /otgovorna-igra/ and the национален регистър на уязвимите лица (НАП)
 □ Affiliate disclosure where commercial links exist, incl. the verbatim 1-Aug-2026 affiliate-licensing footer (site licence: заявление подадено, очаква издаване — an "issued" claim or invented licence № for the site is CRITICAL)
 □ Type-specific: НАП licence № quoted + six-criteria scoring rubric + documented "Протокол на тегленето" (reviews) / covers-and-doesn't framing + risk statements (guides) / sourcing on all claims (news) / like-for-like превъртане bases + timestamped terms (comparisons)
+□ Affiliate links: any recommended/referenced operator (reviews/comparisons/bonus/deposit) links to its `affiliate_url` from affiliate-links.md — an invented affiliate URL, or a bare operator domain used instead of the registry link, is CRITICAL; an operator missing from the registry must carry a `[LINK NEEDED: <operator>]` flag, not a guessed link
 
 PILLAR 5 — LANGUAGE & ANTI-AI STYLE (0-15)
 - Banned promise words: "guaranteed," "sure thing," "banker," "lock," "can't lose," "risk-free," "easy money" + Bulgarian equivalents ("гарантирана печалба", "сигурни пари", "не можеш да загубиш", "без риск", "лесни пари") → CRITICAL, zero tolerance.
