@@ -26,3 +26,9 @@ FINAL GREP-VERIFICATION (05b-final-draft.md)
 - превъртане: not used (концепция-guide, без бонус). N/A base note.
 
 ANTI-CANNIBALIZATION NOTE (за човека): съществува листинг/категорийна страница /kazino-igri/blakdzhak/ (списък казина с блекджек, commercial-investigation intent). Тази статия е evergreen образователно ръководство за правила + основна стратегия (informational intent) — различна search задача, нула припокриване. Категорийната страница НЕ се линква (извън одобрения набор; не се измисля URL). Линкнат е само хъбът /kazino-igri/ от одобрения набор. При публикуване човекът може по желание да добави един контекстуален крос-линк от това ръководство към категорийния листинг.
+
+## Step 6/7 (orchestrator, post-writer)
+- Step 6 prep: assembled 06-verification.md (0 flags; illustrative/standard-number table; €1000/€5/€18 + house-edge recalculations; verbatim-untouchables spot-check; anti-cannibalization note vs /kazino-igri/blakdzhak/). No flags in text.
+- Step 7 (Gemini cross-model, gemini-3.1-pro-preview): pass 1 "Shows AI patterns 75%" → hl 25. Humaniser pass 1 (break staccato lists, remove Именно тази/Точно тази/точно затова crutches, dismantle rule-of-three, soften insurance setup) → pass 2 "Shows AI patterns 75%" → hl 25 (tied). Humaniser pass 2 (delete 2 signpost transitions, strip subjective filler, split card-counting run-on, tighten insurance) → pass 3 "Likely human-written 85%" → hl 85 → PASS. MAX_GEMINI_PASSES=2 reached; kept pass 2. content-queue gemini = human 85. Numbers/links/RG/18+/dates/byline/brand UNTOUCHED; no [VERIFY] resolved; not posted, not merged.
+- 07-gemini-check-1.md / -2.md / -3.md persisted as the audit trail.
+- Status → drafted. drafted_date 07.09.2026. Human owns Step 6/publish.
