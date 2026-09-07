@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-07T14:23:14Z",
+  "generated_utc": "2026-09-07T14:28:51Z",
   "buffer": {
     "count": 0,
     "target": 10,
@@ -14,6 +14,25 @@
     "failed": 0
   },
   "rows": [],
+  "backlog": [
+    {
+      "priority": "1",
+      "type": "guide",
+      "query": "Как работи изискването за разиграване (wagering)",
+      "keywords_or_terms": "разиграване, wagering, бонус условия",
+      "status": "open",
+      "notes": "evergreen explainer"
+    },
+    {
+      "priority": "2",
+      "type": "comparison",
+      "query": "Най-добри казино бонуси за добре дошли 2026",
+      "keywords_or_terms": "бонус за добре дошли, welcome bonus",
+      "status": "open",
+      "notes": "links /bonus-category/welcome-bonus/"
+    }
+  ],
+  "articles_base_url": "https://github.com/ProfitXtraV2/AIContent/tree/main/VsichkiKazina/articles/",
   "meta": {
     "brand": "VsichkiKazina",
     "schedule": {

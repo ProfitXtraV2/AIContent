@@ -56,6 +56,18 @@
   .st-failed { background: #3a1414; color: #ff7a7a; }
   .st-in-progress { background: #3a2a10; color: #f5b843; }
   .empty { color: var(--muted); padding: 1.5rem 0; }
+  .tabs { display: flex; flex-wrap: wrap; gap: .4rem; border-bottom: 1px solid var(--line);
+          margin: 1.5rem 0 .5rem; }
+  .tab { background: none; border: none; color: var(--muted); cursor: pointer;
+         padding: .6rem .9rem; font-size: .88rem; border-bottom: 2px solid transparent;
+         display: flex; align-items: center; gap: .45rem; }
+  .tab:hover { color: var(--ink); }
+  .tab.active { color: var(--ink); border-bottom-color: var(--accent); }
+  .tab .badge { font-size: .72rem; background: var(--line); color: var(--ink);
+                border-radius: 999px; padding: .05rem .45rem; min-width: 1.2rem; text-align: center; }
+  .tab.deploy.active { color: #4fc3f7; border-bottom-color: #4fc3f7; }
+  .tab.review.active { color: #57e08a; border-bottom-color: #57e08a; }
+  .rlinks a { margin-right: .5rem; white-space: nowrap; }
   footer { color: var(--muted); font-size: .76rem; margin-top: 1.5rem; }
   h2 { font-size: .95rem; margin: 1.5rem 0 .5rem; }
   .run-banner { display: flex; align-items: center; gap: .6rem; padding: .7rem 1rem;
@@ -100,8 +112,8 @@
     </div>
   </section>
 
-  <h2>Queue</h2>
-  <div id="table"></div>
+  <div class="tabs" id="tabs"></div>
+  <div id="tabContent"></div>
 
   <footer id="footer"></footer>
 </div>
@@ -197,21 +209,63 @@ async function load() {
     .map(([k, v]) => `<span class="pill">${k}: <b>${v}</b></span>`).join('');
   document.getElementById('lastGen').textContent = 'Data ' + (s.generated_utc || '');
 
-  // Table
-  const cols = ['id','status','type','query','source','drafted_date','posted_date','pr','notes'];
-  if (!s.rows || !s.rows.length) {
-    document.getElementById('table').innerHTML =
-      '<div class="empty">No articles yet — the first run will populate this.</div>';
-  } else {
-    const rows = s.rows.map(r => '<tr>' + cols.map(c => {
+  // Tabs — ordered by importance (most actionable first)
+  const allRows = s.rows || [];
+  const backlog = s.backlog || [];
+  const base = s.articles_base_url || '';
+  const TABS = [
+    { key: 'deploy', cls: 'deploy', label: '▶ Ready to deploy',
+      rows: allRows.filter(r => r.status === 'approved'), kind: 'article' },
+    { key: 'review', cls: 'review', label: 'Needs review',
+      rows: allRows.filter(r => r.status === 'drafted'), kind: 'article' },
+    { key: 'backlog', cls: '', label: 'Backlog',
+      rows: backlog.filter(r => (r.status || 'open') !== 'used'), kind: 'backlog' },
+    { key: 'all', cls: '', label: 'All', rows: allRows, kind: 'article' },
+  ];
+
+  function articleLinks(r) {
+    const parts = [];
+    if (r.folder && base) parts.push(`<a href="${base}${r.folder}" target="_blank" rel="noopener">📁 files</a>`);
+    if (r.pr && r.pr.startsWith('#')) parts.push(`<a href="${links.prs || '#'}" target="_blank">PR ${r.pr}</a>`);
+    return `<span class="rlinks">${parts.join('') || '—'}</span>`;
+  }
+
+  function renderArticles(rows) {
+    if (!rows.length) return '<div class="empty">Nothing here right now.</div>';
+    const cols = [['status','Status'],['type','Type'],['query','Article'],
+      ['drafted_date','Drafted'],['posted_date','Posted'],['source','Source'],['links','Links']];
+    const body = rows.map(r => '<tr>' + cols.map(([c]) => {
+      if (c === 'links') return `<td>${articleLinks(r)}</td>`;
       let v = r[c] || '';
       if (c === 'status') v = `<span class="st st-${v}">${v}</span>`;
-      if (c === 'pr' && v.startsWith('#')) v = `<a href="${links.prs || '#'}" target="_blank">${v}</a>`;
       return `<td>${v}</td>`;
     }).join('') + '</tr>').join('');
-    document.getElementById('table').innerHTML =
-      `<table><thead><tr>${cols.map(c => `<th>${c}</th>`).join('')}</tr></thead><tbody>${rows}</tbody></table>`;
+    return `<table><thead><tr>${cols.map(([, h]) => `<th>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table>`;
   }
+
+  function renderBacklog(rows) {
+    if (!rows.length) return '<div class="empty">Backlog is empty — add topics to topic-backlog.md.</div>';
+    const cols = [['priority','#'],['type','Type'],['query','Topic'],
+      ['keywords_or_terms','Keywords'],['status','Status'],['notes','Notes']];
+    const body = rows.map(r => '<tr>' + cols.map(([c]) => `<td>${r[c] || ''}</td>`).join('') + '</tr>').join('');
+    return `<table><thead><tr>${cols.map(([, h]) => `<th>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table>`;
+  }
+
+  const tabsEl = document.getElementById('tabs');
+  const contentEl = document.getElementById('tabContent');
+  function activate(key) {
+    TABS.forEach(t => {
+      document.getElementById('tab-' + t.key).classList.toggle('active', t.key === key);
+    });
+    const t = TABS.find(x => x.key === key);
+    contentEl.innerHTML = t.kind === 'backlog' ? renderBacklog(t.rows) : renderArticles(t.rows);
+  }
+  tabsEl.innerHTML = TABS.map(t =>
+    `<button class="tab ${t.cls}" id="tab-${t.key}" onclick="__activate('${t.key}')">` +
+    `${t.label}<span class="badge">${t.rows.length}</span></button>`).join('');
+  window.__activate = activate;
+  const firstNonEmpty = TABS.find(t => t.rows.length) || TABS[TABS.length - 1];
+  activate(firstNonEmpty.key);
 
   document.getElementById('footer').textContent =
     'Autopilot keeps ≥10 written-but-unposted articles ready · dashboard regenerates each run.';

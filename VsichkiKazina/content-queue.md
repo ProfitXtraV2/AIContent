@@ -6,5 +6,5 @@ A topic enters this table only once selected to write. Un-started ideas live in
 `status` ∈ in-progress | drafted | approved | posted | failed
 Buffer = count of rows with status `drafted` or `approved` (target ≥ 10).
 
-| id | status | type | query | keywords_or_terms | source | drafted_date | posted_date | pr | notes |
-|---|---|---|---|---|---|---|---|---|---|
+| id | status | type | query | keywords_or_terms | source | drafted_date | posted_date | folder | pr | notes |
+|---|---|---|---|---|---|---|---|---|---|---|

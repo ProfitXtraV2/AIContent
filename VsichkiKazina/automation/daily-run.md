@@ -39,8 +39,10 @@ still follows the "never commit to main" rule (articles go via PRs).
    d. **Dedup** every candidate against `content-queue.md` (any status) AND the live
       sitemap `https://vsichkikazina.bg/sitemap.xml` — drop anything already covered.
    e. For each selected topic, add a row to `content-queue.md` with a fresh `id`,
-      `status: in-progress`, its `type`, `query`, `keywords_or_terms`, and
-      `source` = `backlog` or `research`.
+      `status: in-progress`, its `type`, `query`, `keywords_or_terms`,
+      `source` = `backlog` or `research`, and `folder` = the article dir name you will
+      create in step 4 (`<TODAY>-<slug>`). The dashboard turns `folder` into a repo link
+      automatically, so it must exactly match the created directory.
 
 4. **Write each selected article** in its own working dir
    `VsichkiKazina/articles/<TODAY>-<slug>/` (TODAY = the run date you are given;
