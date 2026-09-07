@@ -39,14 +39,23 @@ connection reset). Therefore, for now:
   `docs/data/run-status.json`, and the `docs/` dashboard. Committing these to `main` is
   expected — it is not article content.
 
-## Live progress reporting
-Keep a `progress` object inside `run-status.json` current so the dashboard shows which
-step you are on. Before starting each pipeline stage, update+push `run-status.json` with:
+## Live progress reporting (drives the dashboard step tracker)
+Keep a `progress` object in `run-status.json` current. **This is what animates the stage
+tracker** — the dashboard hides the tracker when `stage_index` is `null`, so you MUST set
+it, not leave it null. Cadence, at EACH stage boundary of the current article (a quick,
+one-file commit + push — do this even though you're mid-article; it is cheap and expected):
+
 `progress = {"phase":"writing","article_index":<1-based>,"article_total":<deficit>,
 "article_slug":"<slug>","stages":["Synthesis","Outline","Author","Humaniser","SEO",
 "Brand Gate","Light re-check","Verification","PR"],"stage_index":<0-based index of the
-stage about to run>,"stage":"<that stage's name>"}`. One push per stage is fine (the
-dashboard reads this file fresh via the GitHub API). Use the exact stage names above.
+stage you are STARTING now>,"stage":"<that stage's name>"}`.
+
+- Set `stage_index` to `0` (Synthesis) before the first stage, then bump it to `1,2,3…`
+  as each stage completes and the next begins. Push after each bump.
+- Use the exact stage names above. The dashboard reads this file fresh via the GitHub API,
+  so updates appear within ~seconds (Pages build latency does not apply).
+- If you genuinely cannot push per stage, at minimum bump `stage_index` once per completed
+  stage; never leave it `null` for the whole article (that shows only "writing…").
 
 ## Procedure
 

@@ -254,9 +254,11 @@ function renderPRs(rows) {
 
 function renderSteps(p) {
   const el = document.getElementById('runSteps');
-  if (!p || !p.stages) { el.style.display = 'none'; return; }
+  // Only show the stage tracker when the run is actually reporting a stage; otherwise a
+  // static full row looks stuck. (Per-stage detail is best-effort — see "View run".)
+  if (!p || !p.stages || p.stage_index == null) { el.style.display = 'none'; return; }
   el.style.display = 'flex';
-  const idx = (p.stage_index != null) ? p.stage_index : -1;
+  const idx = p.stage_index;
   el.innerHTML = p.stages.map((name, i) => {
     const cls = i < idx ? 'done' : (i === idx ? 'current' : '');
     return `<span class="step ${cls}">${name}</span>`;
@@ -276,7 +278,7 @@ async function loadRunStatus() {
     let where = '';
     if (p.article_total) where += ` — article ${p.article_index || 1}/${p.article_total}`;
     if (p.article_slug) where += `: ${p.article_slug}`;
-    if (p.stage) where += ` · ${p.stage}`;
+    where += p.stage ? ` · ${p.stage}` : (p.article_total ? ' · writing…' : '');
     el.innerHTML = `<span class="live"></span><span><b>Run in progress</b>${where}` +
       `<span style="color:var(--muted)"> · started ${ago(r.run_started_utc)}</span></span>${link}`;
     renderSteps(p);
