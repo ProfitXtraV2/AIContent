@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-07T17:43:54Z",
+  "generated_utc": "2026-09-07T17:58:31Z",
   "buffer": {
     "count": 4,
     "target": 10,
@@ -25,8 +25,8 @@
       "posted_date": "",
       "folder": "2026-09-07-kak-raboti-razigravaneto",
       "pr": "#1",
-      "notes": "gate 89/100; HUMAN-LIKE; 0 flags",
-      "gemini": ""
+      "gemini": "human 85",
+      "notes": "gate 89/100; HUMAN-LIKE; 0 flags; Gemini Step-7 backfill: Humaniser ×2 → Likely human-written 85%"
     },
     {
       "id": "vk-0002",
@@ -39,8 +39,8 @@
       "posted_date": "",
       "folder": "2026-09-07-najdobri-bonusi-za-dobre-doshli-2026",
       "pr": "#3",
-      "notes": "primary sources unreachable: operator T&C 403 geo-block, НАП register conn reset; full egress on but sites block foreign traffic; can't build like-for-like превъртане bases + licence №s without fabricating",
-      "gemini": ""
+      "gemini": "",
+      "notes": "primary sources unreachable: operator T&C 403 geo-block, НАП register conn reset; full egress on but sites block foreign traffic; can't build like-for-like превъртане bases + licence №s without fabricating"
     },
     {
       "id": "vk-0003",
@@ -53,8 +53,8 @@
       "posted_date": "",
       "folder": "2026-09-07-bezplatni-kazino-igri",
       "pr": "#4",
-      "notes": "gate 90/100; HUMAN-LIKE 51/60; 0 flags; folds „с ротативки\"; anti-cannibal note vs /kazino-igri/ /slot-igri/",
-      "gemini": ""
+      "gemini": "ai 60",
+      "notes": "gate 90/100; HUMAN-LIKE 51/60; 0 flags; folds „с ротативки\"; anti-cannibal note vs /kazino-igri/ /slot-igri/; Gemini Step-7 backfill: Humaniser ×2 → best 60% AI (below-80 target)"
     },
     {
       "id": "vk-0004",
@@ -67,8 +67,8 @@
       "posted_date": "",
       "folder": "2026-09-07-bonus-bez-depozit-2026",
       "pr": "#5",
-      "notes": "gate 90/100; HUMAN-LIKE 50/60; 0 flags; no-deposit pillar; folds 3 near-dups; anti-cannibal note vs listing /bonusi/bez-depozit/",
-      "gemini": ""
+      "gemini": "human 85",
+      "notes": "gate 90/100; HUMAN-LIKE 50/60; 0 flags; no-deposit pillar; folds 3 near-dups; anti-cannibal note vs listing /bonusi/bez-depozit/; Gemini Step-7 backfill: Humaniser ×1 → Likely human-written 85%"
     },
     {
       "id": "vk-0005",
@@ -81,8 +81,8 @@
       "posted_date": "",
       "folder": "2026-09-07-novo-onlajn-kazino",
       "pr": "#6",
-      "notes": "gate 91/100; HUMAN-LIKE 51/60; 0 flags; evaluation framework (not a list); anti-cannibal note vs /novi-kazina/ + 2 blog guides",
-      "gemini": ""
+      "gemini": "human 85",
+      "notes": "gate 91/100; HUMAN-LIKE 51/60; 0 flags; evaluation framework (not a list); anti-cannibal note vs /novi-kazina/ + 2 blog guides; Gemini Step-7 backfill: Humaniser ×2 → Likely human-written 85%"
     }
   ],
   "backlog": [
