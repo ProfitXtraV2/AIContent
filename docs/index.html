@@ -212,6 +212,35 @@ async function fetchRunStatus() {
   return (await fetch('./data/run-status.json?_=' + Date.now())).json();  // Pages fallback
 }
 
+// Open content PRs = articles awaiting review (drafts live in their PR until merged).
+const PRS_API = 'https://api.github.com/repos/ProfitXtraV2/AIContent/pulls?state=open&per_page=50';
+let PR_CACHE = null, TICK = 0;
+
+async function fetchOpenPRs() {
+  try {
+    const arr = await (await fetch(PRS_API + '&_=' + Date.now())).json();
+    if (!Array.isArray(arr)) return null;   // rate-limited responses are objects
+    return arr
+      .filter(p => ((p.head && p.head.ref) || '').startsWith('content/'))
+      .map(p => ({ number: p.number, title: p.title, url: p.html_url,
+                   branch: p.head.ref, created_at: p.created_at,
+                   failed: /^\[FAILED\]/i.test(p.title || '') }));
+  } catch (e) { return null; }
+}
+
+function renderPRs(rows) {
+  if (!rows || !rows.length)
+    return '<div class="empty">No open review PRs — drafted articles awaiting your review appear here.</div>';
+  const body = rows.map(p => {
+    const chip = p.failed ? '<span class="st st-failed">failed</span>'
+                          : '<span class="st st-drafted">review</span>';
+    return `<tr><td>${chip}</td>` +
+      `<td><a href="${p.url}" target="_blank" rel="noopener">${p.title}</a></td>` +
+      `<td><a href="${p.url}" target="_blank">#${p.number}</a></td><td>${ago(p.created_at)}</td></tr>`;
+  }).join('');
+  return `<table><thead><tr><th>Status</th><th>Article (PR)</th><th>PR</th><th>Opened</th></tr></thead><tbody>${body}</tbody></table>`;
+}
+
 function renderSteps(p) {
   const el = document.getElementById('runSteps');
   if (!p || !p.stages) { el.style.display = 'none'; return; }
@@ -283,6 +312,14 @@ async function load() {
     .map(([k, v]) => `<span class="pill">${k}: <b>${v}</b></span>`).join('');
   document.getElementById('lastGen').textContent = 'Data ' + (s.generated_utc || '');
 
+  // Open PRs (drafts for review) — fetched throttled to respect GitHub's unauth API limit.
+  TICK++;
+  if (PR_CACHE === null || TICK % 3 === 0) {
+    const fresh = await fetchOpenPRs();
+    if (fresh) PR_CACHE = fresh;
+  }
+  const prs = PR_CACHE || [];
+
   // Tabs — ordered by importance (most actionable first)
   const allRows = s.rows || [];
   const backlog = s.backlog || [];
@@ -292,7 +329,7 @@ async function load() {
     { key: 'deploy', cls: 'deploy', label: 'Articles ready to deploy',
       rows: allRows.filter(r => r.status === 'approved'), kind: 'article' },
     { key: 'review', cls: 'review', label: 'Articles for review',
-      rows: allRows.filter(r => r.status === 'drafted'), kind: 'article' },
+      rows: prs, kind: 'prs' },
     { key: 'backlog', cls: '', label: 'Backlog keywords',
       rows: backlog.filter(r => (r.status || 'open') !== 'used'), kind: 'backlog' },
     { key: 'research', cls: '', label: 'AI backlog keywords',
@@ -344,6 +381,7 @@ async function load() {
     const t = TABS.find(x => x.key === key);
     contentEl.innerHTML = t.kind === 'backlog' ? renderBacklog(t.rows)
       : t.kind === 'research' ? renderResearch(t.rows)
+      : t.kind === 'prs' ? renderPRs(t.rows)
       : renderArticles(t.rows);
   }
   tabsEl.innerHTML = TABS.map(t =>
@@ -357,7 +395,9 @@ async function load() {
     'Autopilot keeps ≥10 written-but-unposted articles ready · dashboard regenerates each run.';
 }
 load();
-setInterval(load, 60000); // refresh next-run countdown + data each minute
+// 90s cadence keeps GitHub API usage (run-status every tick + PRs every 3rd tick)
+// under the 60 req/hr unauthenticated limit, with graceful fallbacks if hit.
+setInterval(load, 90000);
 </script>
 </body>
 </html>
