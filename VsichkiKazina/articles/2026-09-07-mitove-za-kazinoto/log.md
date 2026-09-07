@@ -1,0 +1,31 @@
+# LOG — vk-0011 · Митове за казиното (2026-09-07)
+
+slug: 2026-09-07-mitove-za-kazinoto · brand: vsichkikazina · market: bg · content type: guide · byline: editorial (публикуван подпис: Георги Тодоров)
+RESUME: previous run cut by rate limit; 02→05b бяха stub-ове (~217–236 думи, само отваряне + футър). 00/01/01.5 проверени: пълни и on-brief, задържани без промяна. 02→05b регенерирани наново с едно канонично тяло. Синтезният reference draft беше 910 думи (под 1000 floor), затова тялото е авторски разширено със субстанция (табло с последни числа / мит за „по-щедър час"; обратни системи Паролѝ/д'Аламбер; отделна секция „бонусът не е безплатни пари" с превъртане на база; честна бележка за броене на карти) до 1270 думи body. Всички числа държани идентични през цялата верига.
+
+- brief   — 00-brief.md попълнен от темплейта. Web-education sources: Wizard of Odds („Betting Systems", „Gambler's Fallacy"), Wikipedia „Gambler's fallacy". CONTENT TYPE=guide, BYLINE=editorial. Само илюстративни числа; нула оператор/нула игра по име/нула T&C/нула лиценз №/нула данък. Планирани линкове: /otgovorna-igra/, /kazino-igri/, /kak-ocenyavame/.
+- dedup   — myth-busting / RG-aligned reality guide (informational ядро, commercial-investigation интент). Няма съществуваща „митове" страница — заема свободна ниша. /otgovorna-igra/ е RG инструменти страница (различна работа) — линквана, не дублирана. Anti-cannib бележка за човека по-долу.
+- 1       — 01-synthesis.md: 3 източника, всички ядрени концепти corroborated. Entity union complete (домашно предимство, RNG/независими завъртания, gambler's fallacy, Мартингейл/системи, лимит на масата, банкрол, RTP дългосрочна статистика, базова стратегия, дисперсия). Seed thesis: няма система над вграденото домашно предимство в дълъг срок. Flags: 0/0/0. Suggested byline: editorial. Задържан непроменен.
+- 1.5     — 01.5-outline.md: H1 + 7 секции с ДЕЛИБЕРАТНО РАЗЛИЧНИ форми (build / 2×narrative+историческа котва / long+worked / single-tight / dense+blunt / short / verdict). Линкове: /kazino-igri/ (S2), /kak-ocenyavame/ (S5), /otgovorna-igra/ (S7). Без реторичен-въпрос отваряне; асиметричен close. Задържан непроменен.
+- 2       — 02-draft.md: пълна българска редакционна проза, всички секции. Body 1270 думи (след разширение за да мине 1000 floor и да улучи ~1300 target). CANON ADDITIONS: none. [DATA NEEDED]: none. Числа: {300/301, 1913, 26, €1/€2/€4/€8, €500, €1 024, 96%, 4%, €1 000, €40, €100+€100, 35x, €7 000, €280, 2,7%, под 1%}.
+- 3       — 03-humanised.md: Phase-1 verdict HUMAN-LIKE 52/60 (Lexical 9 · Syntactic 9 · Structural 9 · Density 8 · Experiential 9 · Rhythm 9). ≥48 → без Phase 2 rewrite; тялото минава byte-identical. Нула число/линк/RG/дата пипнати. NUMBER DIFF 02→03: identical.
+- 4       — 04-seo.md: coverage 92/100. Title tag (44 знака) + meta description (147 знака), primary kw „как да спечелим от казино" front-loaded, без em-тире. 3 одобрени линка потвърдени, нито един добавен/премахнат. RTP-препратката към vk-0006 НЕ линквана (извън одобрен набор). NUMBER DIFF 03→04: identical.
+- 5       — 05-gate-report.md: PASS WITH FIXES 92/100 (Personality 19/20 · Tone 14/15 · E-E-A-T 18/20 · Trust 14/15 · Language&Style 14/15 · RG 13/15). Единствен механичен фикс: trust футър slots вмъкнати verbatim. Maths recalc OK (100−96=4; €2×500=€1 000, 4%→€40; 35×€200=€7 000, 4%→€280; 2^10=€1 024>€500; 1/37≈2,7%; блекджек под 1%). Нула unresolved criticals, нула VERIFY. NUMBER DIFF 04→05: identical.
+- 5b      — 05b-final-draft.md: light em-dash/signposting/table/list pass — нищо за смяна (тялото вече чисто, без таблици/списъци). Финално body 1270 думи. NUMBER DIFF 05→05b: identical.
+
+FINAL GREP-VERIFICATION (05b-final-draft.md)
+- em-dashes (—): 0 (вкл. meta description и цялото тяло). En-dash „–": 1, само в verbatim футър „10:00–17:00" (allowed hard-coded string).
+- banned AI connectives (освен това / в допълнение / в заключение / заслужава да се отбележи / важно е да се отбележи / в днешно време / нещо повече / в обобщение / не на последно място): 0.
+- banned promise/hype (гарантирана печалба / сигурни пари / не можеш да загубиш / без риск / лесни пари / най-доброто / революционен / ексклузивна тайна): 0.
+- verbatim „18+ Хазартът може да пристрасти. Играйте отговорно." в body RG докосването: yes. Доктрина „хазартът не е финансова стратегия": yes. Футър RG блок + /otgovorna-igra/ + регистър на уязвимите лица + „Солидарност" 0888 99 18 66: yes.
+- affiliate disclosure (Разкриване на партньорства, 1 август 2026 / ДВ бр. 69 от 31.07.2026): present verbatim. Нула site-licence „issued" claim; нула измислен лиценз №.
+- byline Георги Тодоров + Публикувано 07.09.2026 · Последна редакция 07.09.2026: present. Brand „Всички Казина" изписан правилно, 1 път в тялото + футър slots, never transliterated, never promotional.
+- internal links (3 уникални, all approved): /kazino-igri/ (S2) · /kak-ocenyavame/ (S5) · /otgovorna-igra/ (S7, повтаря се във футър RG блока). ≤4. Нула out-of-set links.
+- flags в финалното тяло: 0 [VERIFY] / 0 [DATA NEEDED] / 0 [CONFLICT].
+- key numbers (illustrative, непроменени 02→05b): RTP 96% → домашно предимство 4%; €2 × 500 залога = €1 000 оборот → очаквана цена ≈ €40; Мартингейл база €1, таван €500 → 11-и залог €1 024; бонус €100+€100 @ 35x върху депозит+бонус = €7 000 оборот → ≈ €280; европейска рулетка ≈ 2,7% на залог; блекджек с базова стратегия под 1%; Монте Карло 1913, черно 26 пъти.
+- превъртане: споменато веднъж (секция за бонуса), ВИНАГИ с базата (депозит+бонус). Base note: депозит+бонус.
+
+ANTI-CANNIBALIZATION NOTE (for human):
+- Няма съществуваща „митове за казино" страница — тази заема свободна ниша (myth-busting / reality guide).
+- /otgovorna-igra/ е RG-инструменти страницата (различен job: лимити/самоизключване/регистър). Линквана като ресурс, не се дублира по интент.
+- vk-0006 „RTP и волатилност" е дълбокото ръководство за RTP/волатилност. ТУК RTP е само ЕДИН мит, третиран накратко (RTP не е обещание за сесия), без да се разгръща в пълно RTP ръководство — за да няма припокриване по интент. Препратката „сме разписали отделно" е нарочно НЕ-линкната (URL извън одобрения набор); при публикация човек може да добави един контекстуален cross-link към vk-0006 ако желае. Илюстративните числа (96% / 4% / €1 000 → €40) са държани съгласувани с vk-0006 нарочно.
