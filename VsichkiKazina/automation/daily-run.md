@@ -9,6 +9,16 @@ pipeline in `VsichkiKazina/pipeline/` VERBATIM — never paraphrase its agent fi
 - BUFFER_TARGET = 10
 - MAX_PER_RUN = 10
 
+## Brand conventions (every article)
+- Byline/author is ALWAYS **Георги Тодоров** — never "Екипът на Всички Казина" or a
+  team/editorial byline (even editorial-voice guides are signed Георги Тодоров).
+- Write the brand name exactly **Всички Казина** in published copy (no transliteration).
+- If an article reads as over-structured / AI-patterned, apply
+  `pipeline/prompts/step-7b-apply-gemini-recs.md` through a fresh Humaniser pass (break
+  symmetry, drop narrative signposts, de-count headers/lists, cut synthesizing summaries),
+  preserving every number, link, RG line, disclosure and date. The Brand Gate enforces
+  the byline and brand-name rules.
+
 ## What goes where (data model)
 - **Article content** (`VsichkiKazina/articles/<slug>/*`) goes on a **PR branch** only,
   for human review. Never commit article files to `main`.
