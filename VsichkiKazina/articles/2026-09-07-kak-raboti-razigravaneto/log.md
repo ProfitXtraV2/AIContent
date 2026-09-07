@@ -44,3 +44,17 @@
   Солидарност + регистър present; exactly 4 approved internal links, no strays; key numbers
   (€3,000/€6,000/€30,000/€860/€500/x30/x35/x40) all present and consistent.
 - Status → drafted. drafted_date 07.09.2026. Not posted, not merged; human owns Step 6/publish.
+- 2026-09-07 · Step 7 BACKFILL (external Gemini cross-model check — this article predates the Gemini step).
+  Model gemini-3.1-pro-preview (scripts/gemini_check.py). Pass 1 (as-delivered 05b): "Shows AI patterns"
+  ~70–75% → below 80. Applied Gemini's flagged recommendations via a FRESH Humaniser pass (no untouchable
+  altered): flattened dramatic contrast/"mic-drop" summaries; converted the bolded-term pseudo-list under
+  "Каквото банерът пропуска" to prose; softened didactic imperatives; removed the "уловката, която мнозина
+  пропускат" signpost; renamed the echoing header; fixed genuine translationese flagged by Gemini
+  (тежим→претегляме, "в едро"→"с едър шрифт", "идва с часовник"→"има времево ограничение"). Pass 2 check:
+  "Shows AI patterns" 65%. Pass 3 check (after 2nd Humaniser pass): 75% — Gemini repeatedly cited the
+  trailing PROCESS meta-notes ("run through humanizer prompts") as the dominant tell. Those notes are
+  process metadata, not article content; relocated their record here + to 07-gemini-check-*.md so 05b is a
+  clean final draft. Pass 4 (clean article, content unchanged from pass 2): "Likely human-written, 85%
+  confidence" → PASS (≥80). Kept version = clean 05b. Verbatim verdicts: 07-gemini-check-1..4.md.
+  Facts/numbers, the 4 internal links, verbatim 18+/RG lines, dates and affiliate disclosure UNTOUCHED;
+  [VERIFY] flags not resolved; not posted, not merged. content-queue gemini = human 85.
