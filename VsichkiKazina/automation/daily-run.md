@@ -67,8 +67,18 @@ dashboard reads this file fresh via the GitHub API). Use the exact stage names a
    c. If still short, research more (НАП register, competitor BG sites, BG gambling news)
       and append candidates to `research-topics.md`. NEVER invent weak topics to hit the
       number — write fewer instead.
-   d. **Dedup** each candidate against `content-queue.md` (any status) AND the live
+   d. **Dedup (exact)** each candidate against `content-queue.md` (any status) AND the live
       sitemap `https://vsichkikazina.bg/sitemap.xml` — drop anything already covered.
+   d2. **Anti-cannibalization (keyword-cluster, not just URL).** Do NOT create a new article
+      that targets essentially the same primary keyword / search intent as an existing or
+      already-queued article, or as another candidate in this same batch. Group candidates
+      into keyword clusters (e.g. all "без депозит" variants, or "безплатни казино игри"
+      variants) and write **ONE pillar per cluster**, choosing the highest-opportunity
+      member; the near-duplicates become sections or internal links inside that pillar, not
+      separate pages. Also skip candidates that overlap heavily with an existing article
+      (e.g. a "срок за разиграване" standalone when the wagering guide already covers it) —
+      route them as a section/link instead. When unsure, prefer fewer, clearly distinct
+      pillars over many overlapping ones.
    e. For each selected topic add a `content-queue.md` row: fresh `id`, `status: in-progress`,
       `type`, `query`, `keywords_or_terms` (the keywords you will actually target),
       `source` = `backlog` or `research`, `folder` = `<TODAY>-<slug>`.
