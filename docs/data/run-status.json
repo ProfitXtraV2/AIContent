@@ -1,13 +1,13 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-09-07T22:12:08Z",
-  "run_finished_utc": null,
-  "articles_written": null,
+  "run_finished_utc": "2026-09-07T22:12:53Z",
+  "articles_written": 0,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/routines/trig_011f3su1Brcj5QHNCo4zqBEY",
-  "note": "daily run (deficit 0 — buffer 10/10; research + dashboard refresh only)",
+  "note": "No-op daily run: buffer already 10/10 (target met), deficit 0 → wrote nothing. All 10 drafted PRs (#1,#4-#12) still open/unmerged; #3 remains the failed comparison. No in-progress rows to reconcile. No open human-backlog rows to enrich (row1 written, row2 failed/blocked). Research bank already refreshed today (24 Ahrefs candidates); skipped a same-day re-pull to conserve limited Ahrefs units. Dashboard rebuilt. Human owns Step 6 verification + publishing.",
   "progress": {
-    "phase": "research",
+    "phase": "done",
     "article_index": 0,
     "article_total": 0,
     "article_slug": null,
