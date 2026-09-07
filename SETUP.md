@@ -1,38 +1,47 @@
-# One-time setup (human-owned)
+# One-time setup
 
-These steps need your GitHub/org access and the Claude Code cloud routine UI.
+Everything the daily automation needs. Do this once; after that, runs are
+laptop-independent. See `README.md` for the full architecture.
 
-## 1. Install GitHub CLI (if missing)
-    brew install gh
-    gh auth login          # choose GitHub.com, HTTPS, authenticate
+## 1. GitHub CLI + repo (local machine)
+```bash
+brew install gh && gh auth login          # GitHub.com, HTTPS
+# from the repo root:
+gh repo create ProfitXtraV2/AIContent --public --source=. --remote=origin --push
+```
+Public is required because GitHub Pages on a free org needs a public repo.
 
-## 2. Create the public repo under the org and push
-From the repo root (`AIContent/`):
-    gh repo create ProfitXtraV2/AIContent --public --source=. --remote=origin --push
-(Public is required because GitHub Pages on a free org needs a public repo.)
+## 2. GitHub Pages (dashboard)
+```bash
+echo '{"source":{"branch":"main","path":"/docs"}}' | \
+  gh api -X POST repos/ProfitXtraV2/AIContent/pages --input -
+```
+Dashboard → https://profitxtrav2.github.io/AIContent/  (drafts carry `noindex`).
 
-## 3. Enable GitHub Pages
-    gh api -X POST repos/ProfitXtraV2/AIContent/pages -f source.branch=main -f source.path=/docs
-Then open: https://profitxtrav2.github.io/AIContent/  (dashboard). `robots.txt`
-+ noindex meta discourage indexing of drafts.
+## 3. Give the cloud agent GitHub access
+Run **`/web-setup`** in Claude Code, or install the **Claude GitHub App**
+(https://claude.ai/code/onboarding?magic=github-app-setup) and grant
+`ProfitXtraV2/AIContent`. Without this the cloud routine cannot clone or open PRs.
 
-## 4. Provision a push credential for the cloud routine
-Create a fine-grained token scoped to ONLY `ProfitXtraV2/AIContent`, permissions
-Contents: Read/Write and Pull requests: Read/Write. Store it as the routine's
-secret (used for `git push` + `gh pr create`). This is the one thing that silently
-breaks daily pushes if missed.
+## 4. Cloud environment settings (claude.ai/code → routine → environment ⚙)
+- **Network access: Full** — the run needs egress for WebFetch and the Ahrefs API.
+- **Environment variable `AHREFS_API_KEY`** (mark as secret) — your Ahrefs API token.
+  Never commit it to the repo.
 
-## 5. Create the scheduled cloud routine
-Use the Claude Code `schedule` skill (or `/schedule`) to create a routine:
-  - Schedule: 07:00 Europe/Sofia, daily.
-  - Working repo: ProfitXtraV2/AIContent.
-  - Instruction: run `VsichkiKazina/automation/daily-run.md`.
-  - Ensure the routine env has `gh` + Python 3 and the token from step 4.
+## 5. Scheduled routine
+Create a routine (via `/schedule` or the routines API):
+- Schedule: **`0 4 * * *`** (07:00 Europe/Sofia).
+- Repo: `ProfitXtraV2/AIContent`. Model: Opus (recommended for editorial quality).
+- Instruction: run `VsichkiKazina/automation/daily-run.md`.
+- Env must have `gh` + Python 3 (standard in the CCR image).
 
 ## 6. First backfill
-The first few runs ramp the buffer from 0 → 10 (MAX_PER_RUN caps each run).
-Review the PRs, approve, post, and mark `approved → posted` to free slots.
+The first runs ramp the buffer from 0 → 10 (capped by `MAX_PER_RUN`). Review the PRs,
+approve, post, and mark rows `posted` to free slots.
 
-## Dev note
-`scripts/tests/` uses `pytest` (dev-only: `python3 -m pip install pytest`).
-The cloud routine does NOT need pytest — it only runs `scripts/build_dashboard.py`.
+## Notes
+- **Content scope is guides-only** until a BG-reachable source route (proxy/scraping API or
+  human source packs) is added — operator content geo-blocks the cloud IP. Flip the switch
+  in `automation/daily-run.md` once sourcing is solved.
+- Dev only: `scripts/tests/` uses `pytest` (`python3 -m pip install pytest`); the cloud run
+  does not need it.
