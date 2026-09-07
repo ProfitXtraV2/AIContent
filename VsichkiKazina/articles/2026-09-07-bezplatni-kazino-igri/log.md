@@ -40,3 +40,17 @@
   Солидарност + регистър present; exactly 4 approved internal links, no strays; key numbers
   (0,20 €/10 €/15 €/40×/600 €/50 €/96%/2 000 €) present and consistent; превъртане base stated.
 - Status → drafted. drafted_date 07.09.2026. Not posted, not merged; human owns Step 6/publish.
+- 2026-09-07 · Step 7 BACKFILL (external Gemini cross-model check — article predated the Gemini step).
+  Model gemini-3.1-pro-preview (scripts/gemini_check.py). Pass 1 (as-delivered 05b): "Shows AI patterns"
+  70% → below 80. Applied Gemini's flagged style recs via a FRESH Humaniser pass, no untouchable altered:
+  softened the "two things" dichotomy hook, broke rule-of-three tricolons ("RTP, волатилност, честота…";
+  "условието, срока, тавана"), removed „не A, а B" antithesis and proverbial contrasts, de-jammed the
+  didactic math cadence, cut didactic signposting ("Едно предупреждение обаче…", "втора употреба…"), and
+  replaced the summary-bow conclusion with a single forward-looking tip. Also moved the verbatim 18+ RG line
+  onto its own line for prominence (kept exactly). Relocated the trailing process meta-notes out of 05b into
+  this log + 07-gemini-check-*.md. Pass 2 check: "Likely AI-assisted" 75%. Pass 3 check (after 2nd Humaniser
+  pass): "Shows AI patterns" 60% — best (most-human) read, but still not "human-written ≥80" after the
+  MAX_GEMINI_PASSES=2 cap. Kept the best-scoring version (pass 3). All numbers (0,20 €, 50 FS, 10 €, 15 €,
+  40×, 600 €, 50 €, 96%, 96,5%/94%, 80–100, 50 пъти, 2 000 €, 7 дни, 86 €), the 4 internal links, verbatim
+  18+/RG lines, dates and affiliate disclosure UNTOUCHED; [VERIFY] flags not resolved; not posted, not
+  merged. content-queue gemini = ai 60 (below 80 target).
