@@ -380,9 +380,17 @@ async function load() {
 
   function articleLinks(r) {
     const parts = [];
+    // Article files live on the PR branch (content/<folder>) until the article is posted
+    // (then they're on main). Link accordingly so the URLs don't 404.
+    if (r.folder) {
+      const ref = r.status === 'posted' ? 'main' : ('content/' + r.folder);
+      const dir = `VsichkiKazina/articles/${r.folder}`;
+      // 📖 read = the finished draft rendered by GitHub (human-readable, for review)
+      parts.push(`<a href="${repo}/blob/${ref}/${dir}/05b-final-draft.md" target="_blank" rel="noopener">📖 read</a>`);
+      parts.push(`<a href="${repo}/tree/${ref}/${dir}" target="_blank" rel="noopener">files</a>`);
+    }
     if (r.pr && r.pr.startsWith('#'))
       parts.push(`<a href="${repo}/pull/${r.pr.slice(1)}" target="_blank" rel="noopener">PR ${r.pr}</a>`);
-    if (r.folder && base) parts.push(`<a href="${base}${r.folder}" target="_blank" rel="noopener">📁 files</a>`);
     return `<span class="rlinks">${parts.join('') || '—'}</span>`;
   }
 

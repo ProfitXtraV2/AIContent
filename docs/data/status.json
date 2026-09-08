@@ -1,16 +1,16 @@
 {
-  "generated_utc": "2026-09-08T07:06:59Z",
+  "generated_utc": "2026-09-08T13:25:23Z",
   "buffer": {
-    "count": 10,
+    "count": 15,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 10,
+    "drafted": 15,
     "approved": 0,
-    "posted": 0,
+    "posted": 1,
     "failed": 1
   },
   "rows": [
@@ -28,7 +28,7 @@
       "folder": "2026-09-07-kak-raboti-razigravaneto",
       "pr": "#1",
       "gemini": "human 85",
-      "notes": "gate 89/100; HUMAN-LIKE; 0 flags; Gemini Step-7 backfill: Humaniser ×2 → Likely human-written 85%",
+      "notes": "gate 89/100; HUMAN-LIKE; 0 flags; Gemini Step-7 backfill: Humaniser ×2 → Likely human-written 85%; img:2 (hero+infographic, score 100)",
       "opportunity": null
     },
     {
@@ -50,7 +50,7 @@
     },
     {
       "id": "vk-0003",
-      "status": "drafted",
+      "status": "posted",
       "type": "guide",
       "query": "Безплатни казино игри: демо режим, RTP и капаните на „безплатното\"",
       "keywords_or_terms": "безплатни казино игри, демо режим, RTP, безплатни завъртания",
@@ -58,11 +58,11 @@
       "kd": "45",
       "source": "research",
       "drafted_date": "2026-09-07",
-      "posted_date": "",
+      "posted_date": "2026-09-08",
       "folder": "2026-09-07-bezplatni-kazino-igri",
       "pr": "#4",
       "gemini": "human 90",
-      "notes": "gate 90/100; HUMAN-LIKE 51/60; 0 flags; folds „с ротативки\"; anti-cannibal note vs /kazino-igri/ /slot-igri/; Gemini Step-7 override run (MAX_PASSES=5): baseline HL 30 → Humaniser pass 1 → HL 90 (Likely human-written 90%), PASS in 1 pass; kept pass-1",
+      "notes": "gate 90/100; HUMAN-LIKE 51/60; 0 flags; folds „с ротативки\"; anti-cannibal note vs /kazino-igri/ /slot-igri/; Gemini Step-7 override run (MAX_PASSES=5): baseline HL 30 → Humaniser pass 1 → HL 90 (Likely human-written 90%), PASS in 1 pass; kept pass-1; approved for deploy 2026-09-08 (human review: 0 flags, Gemini human 90); posted to live site 2026-09-08",
       "opportunity": {
         "score": 82,
         "band": "Strong"
@@ -82,7 +82,7 @@
       "folder": "2026-09-07-bonus-bez-depozit-2026",
       "pr": "#5",
       "gemini": "human 85",
-      "notes": "gate 90/100; HUMAN-LIKE 50/60; 0 flags; no-deposit pillar; folds 3 near-dups; anti-cannibal note vs listing /bonusi/bez-depozit/; Gemini Step-7 backfill: Humaniser ×1 → Likely human-written 85%",
+      "notes": "gate 90/100; HUMAN-LIKE 50/60; 0 flags; no-deposit pillar; folds 3 near-dups; anti-cannibal note vs listing /bonusi/bez-depozit/; Gemini Step-7 backfill: Humaniser ×1 → Likely human-written 85%; img:2 (hero+infographic, score 100)",
       "opportunity": {
         "score": 76,
         "band": "Strong"
@@ -102,7 +102,7 @@
       "folder": "2026-09-07-novo-onlajn-kazino",
       "pr": "#6",
       "gemini": "human 85",
-      "notes": "gate 91/100; HUMAN-LIKE 51/60; 0 flags; evaluation framework (not a list); anti-cannibal note vs /novi-kazina/ + 2 blog guides; Gemini Step-7 backfill: Humaniser ×2 → Likely human-written 85%",
+      "notes": "gate 91/100; HUMAN-LIKE 51/60; 0 flags; evaluation framework (not a list); anti-cannibal note vs /novi-kazina/ + 2 blog guides; Gemini Step-7 backfill: Humaniser ×2 → Likely human-written 85%; img:2 (hero+infographic, score 100)",
       "opportunity": {
         "score": 77,
         "band": "Strong"
@@ -220,6 +220,126 @@
       "opportunity": {
         "score": 37,
         "band": "Moderate"
+      }
+    },
+    {
+      "id": "vk-0012",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Бакара: правила и как се играе в казино",
+      "keywords_or_terms": "бакара, как се играе бакара, бакара правила, бакара онлайн",
+      "volume": "500",
+      "kd": "0",
+      "source": "research",
+      "drafted_date": "2026-09-08",
+      "posted_date": "",
+      "folder": "2026-09-08-bakara-pravila",
+      "pr": "#14",
+      "gemini": "human 90",
+      "notes": "„бакара\" 500/kd0/informational/flat — clean pillar, no baccarat page in sitemap; distinct from poker (vk-0008) & blackjack (vk-0009) · gate 93/100; HUMAN-LIKE 52/60; 0 flags; Gemini ×1 → human 90 (PASS pass-1, initial kept); PR #14",
+      "opportunity": {
+        "score": 65,
+        "band": "Good"
+      }
+    },
+    {
+      "id": "vk-0013",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Ротативки с плодове (класически слотове): как работят",
+      "keywords_or_terms": "ротативки с плодове, класически ротативки, плодови ротативки",
+      "volume": "200",
+      "kd": "19",
+      "source": "research",
+      "drafted_date": "2026-09-08",
+      "posted_date": "",
+      "folder": "2026-09-08-rotativki-s-plodove",
+      "pr": "#15",
+      "gemini": "human 85",
+      "notes": "„ротативки с плодове\" 200/kd19/commercial/flat — lowest kd among slot topics; educational angle on 3-reel/fruit machines, anti-cannibal vs listing /kazino-igri/rotativki/ · gate 92/100; HUMAN-LIKE 52/60; 0 flags; Gemini ×2 → human 85 (pass-1 kept); PR #15",
+      "opportunity": {
+        "score": 42,
+        "band": "Moderate"
+      }
+    },
+    {
+      "id": "vk-0014",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Краш игри (Aviator): как работят и какъв е RTP",
+      "keywords_or_terms": "aviator, краш игри, aviator стратегия, spribe",
+      "volume": "300",
+      "kd": "60",
+      "source": "research",
+      "drafted_date": "2026-09-08",
+      "posted_date": "",
+      "folder": "2026-09-08-krash-igri-aviator",
+      "pr": "#16",
+      "gemini": "human 90",
+      "notes": "„aviator\" 300/kd60/commercial/flat — new format, no page in sitemap; education + RG angle (very high volatility) · gate 93/100; HUMAN-LIKE 53/60; 0 in-text flags (Aviator RTP 97% web-verified, in 06-verification for human confirm); Gemini ×2 → human 90 (pass-1 kept); PR #16",
+      "opportunity": {
+        "score": 31,
+        "band": "Moderate"
+      }
+    },
+    {
+      "id": "vk-0015",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Нови казино игри 2026: как да оцените ново заглавие и кои формати водят",
+      "keywords_or_terms": "нови казино игри, нови слотове, нови формати, как да оцените нова игра",
+      "volume": "1700",
+      "kd": "56",
+      "source": "research",
+      "drafted_date": "2026-09-08",
+      "posted_date": "",
+      "folder": "2026-09-08-novi-kazino-igri-2026",
+      "pr": "#17",
+      "gemini": "ai 65",
+      "notes": "Strong opp 78; evergreen evaluation-framework guide (NOT a title listing) — RTP/волатилност/механика of any new game + 2026 format landscape (crash, Megaways, cluster, hold&win, live game shows); anti-cannibal vs listing /slot-igri/novi/ (prose only) + /kazino-igri/ · gate 93/100; HUMAN-LIKE ~50/60; 1 in-text flag [VERIFY bonus-buy BG]; Gemini ×2 passes 25→15→35, kept pass 2 (ai 65, high-variance); micro-stakes RTP reframe; PR #17",
+      "opportunity": {
+        "score": 78,
+        "band": "Strong"
+      }
+    },
+    {
+      "id": "vk-0016",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Кено: правила, изплащания и реални шансове",
+      "keywords_or_terms": "кено, кено правила, как се играе кено",
+      "volume": "200",
+      "kd": "0",
+      "source": "research",
+      "drafted_date": "2026-09-08",
+      "posted_date": "",
+      "folder": "2026-09-08-keno-pravila",
+      "pr": "#18",
+      "gemini": "ai 80",
+      "notes": "Good opp 50, kd0; clean pillar — no keno page in sitemap; universal lottery game rules/odds/house-edge; honest angle = keno has one of the highest house edges (online <4%→35%+, live 20–40%, video ~5–16%) · gate 95/100; HUMAN-LIKE 50/60; 2 in-text [VERIFY] (paytable-dependent odds/return); Gemini ×2 passes 15→20→15, kept pass 1 (ai 80, high-variance; rejected removal of RG doctrine); PR #18",
+      "opportunity": {
+        "score": 50,
+        "band": "Good"
+      }
+    },
+    {
+      "id": "vk-0017",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Линии на печалба в ротативките: как всъщност печелите",
+      "keywords_or_terms": "линии на печалба, печеливши линии, как печелят ротативките, начини за печалба",
+      "volume": "150",
+      "kd": "69",
+      "source": "research",
+      "drafted_date": "2026-09-08",
+      "posted_date": "",
+      "folder": "2026-09-08-linii-na-pechalba",
+      "pr": "#19",
+      "gemini": "human 90",
+      "notes": "slots-mechanics education pillar — paylines vs ways-to-win (243=3⁵/1024=4⁵/Megaways 117 649=7⁶), why more lines ≠ better odds, losses-disguised-as-wins (Dixon 2010/Graydon 2018 58%/Jensen 2013, web-verified); anti-cannibal vs listings /slot-igri/ /kazino-igri/rotativki/ (prose only) · gate 92/100; HUMAN-LIKE; 0 flags; Gemini PASS pass-1 (human 90, initial kept); PR #19",
+      "opportunity": {
+        "score": 20,
+        "band": "Weak"
       }
     }
   ],
@@ -373,8 +493,8 @@
       "intent": "transactional",
       "trend": "flat",
       "checked": "ahrefs",
-      "suggestion": "силен: добър обем (1700), постижим kd56; изисква периодично обновяване (evergreen списък)",
-      "status": "candidate",
+      "suggestion": "силен: добър обем (1700), постижим kd56; НАПИСАН като evergreen evaluation-framework guide (не листинг с конкретни заглавия — избягва остаряване + operator/game data риск): как да оцениш RTP/волатилност/механика на всяка нова игра + 2026 форматен пейзаж (vk-0015, PR #17)",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 78,
@@ -537,8 +657,8 @@
       "intent": "informational",
       "trend": "flat",
       "checked": "ahrefs",
-      "suggestion": "СИЛЕН: kd0, стабилен обем 500 (recent 500 vs base 471); няма бакара страница (само блекджек-гайд + рулетка/блекджек листинги) — чист образователен pillar",
-      "status": "candidate",
+      "suggestion": "СИЛЕН: kd0, стабилен обем 500 (recent 500 vs base 471); няма бакара страница (само блекджек-гайд + рулетка/блекджек листинги) — чист образователен pillar (vk-0012) (drafted 08.09, PR #14)",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 65,
@@ -554,8 +674,8 @@
       "intent": "informational",
       "trend": "down",
       "checked": "ahrefs",
-      "suggestion": "добър: kd0; лек спад (174 vs 226); ниша, но чист pillar (няма кено страница) — свържи с table-games хъб",
-      "status": "candidate",
+      "suggestion": "добър: kd0; чист pillar (няма кено страница); НАПИСАН с честен ъгъл „едно от най-високите домашни предимства в казиното\" (vk-0016, PR #18)",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 50,
@@ -613,8 +733,8 @@
       "intent": "commercial",
       "trend": "flat",
       "checked": "ahrefs",
-      "suggestion": "СИЛЕН kd19 (най-ниска трудност сред слот-темите); отделно от listing /kazino-igri/rotativki/ — образователен ъгъл за 3-барабанни/плодови машини",
-      "status": "candidate",
+      "suggestion": "СИЛЕН kd19 (най-ниска трудност сред слот-темите); отделно от listing /kazino-igri/rotativki/ — образователен ъгъл за 3-барабанни/плодови машини (vk-0013) (drafted 08.09, PR #15)",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 42,
@@ -630,8 +750,8 @@
       "intent": "transactional",
       "trend": "",
       "checked": "ahrefs",
-      "suggestion": "образователен pillar за paylines; „казино игри 40 линии...ефбет\" носи ~1400 (brand+free-play спилоувър, не таргет); anti-cannibal vs /slot-igri/ листинги",
-      "status": "candidate",
+      "suggestion": "образователен pillar за paylines; НАПИСАН с честен ъгъл „повече линии ≠ по-добри шансове\" + losses-disguised-as-wins (Dixon/Graydon/Jensen, web-verified) (vk-0017, PR #19)",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 20,
@@ -647,8 +767,8 @@
       "intent": "commercial",
       "trend": "flat",
       "checked": "ahrefs",
-      "suggestion": "НОВ формат, няма страница на сайта; тренд стабилен (306 vs 320); образователен + RG ъгъл (много висока волатилност) — най-силният „нов формат\" pillar",
-      "status": "candidate",
+      "suggestion": "НОВ формат, няма страница на сайта; тренд стабилен (306 vs 320); образователен + RG ъгъл (много висока волатилност) — най-силният „нов формат\" pillar (vk-0014) (drafted 08.09, PR #16)",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 31,

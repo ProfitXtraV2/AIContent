@@ -1,18 +1,18 @@
 {
-  "state": "running",
-  "run_started_utc": "2026-09-08T07:20:00Z",
-  "run_finished_utc": null,
-  "articles_written": null,
+  "state": "idle",
+  "run_started_utc": "2026-09-08T10:00:00Z",
+  "run_finished_utc": "2026-09-08T10:45:00Z",
+  "articles_written": 0,
   "prs_opened": [],
-  "run_url": "https://claude.ai/code/session_01TYoAEc8mn8LywxWgwm8cEN",
-  "note": "daily run 2026-09-08 (recurring, 3x/day) — writing 3 new guides (buffer floor policy)",
+  "run_url": "https://claude.ai/code/session_01XzgGjdoLHyxArCtrv7nhHH",
+  "note": "backfilled images on 3 article(s): vk-0001 (razigravane, hero+SVG infographic, score 100), vk-0004 (bonus-bez-depozit, hero+SVG infographic, score 100), vk-0005 (novo-onlajn-kazino, hero+SVG infographic, score 100). All 3 PRs updated (#1, #5, #6). 12 imageless review-ready articles remain for future backfill fires.",
   "progress": {
-    "phase": "writing",
-    "article_index": 1,
-    "article_total": 3,
-    "article_slug": "2026-09-08-bakara-pravila",
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Verification","PR"],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "phase": "done",
+    "article_index": null,
+    "article_total": null,
+    "article_slug": null,
+    "stages": [],
+    "stage_index": null,
+    "stage": null
   }
 }
