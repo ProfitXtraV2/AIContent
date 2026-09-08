@@ -1,0 +1,52 @@
+# Step 8 — Article images (create)
+
+After the text of an article is final (`05b` locked, Step-7 text check passed/kept-best),
+create **at least one image** for it, then send it to Gemini for visual review
+(`step-8-image-review.md`). Multiple images per article are allowed and encouraged when they
+each earn their place. We chase great SEO: images must add real value, not decoration for
+its own sake.
+
+## What to make (prefer the highest-SEO option the article supports)
+
+1. **Data infographic — SVG, hand-authored from THIS article's own numbers (PREFERRED).**
+   Whenever the article contains figures, comparisons, steps, or a small table (wagering
+   math, RTP/volatility, a "base × multiplier = turnover" calc, a checklist), render them as
+   a compact **inline SVG**. SVG is the SEO winner: it is real text (Google reads the words
+   and numbers), tiny (usually < 10 KB → fast LCP), crisp on every screen, and renders
+   natively on GitHub. **Every number in the infographic MUST come verbatim from the
+   article's `05b`** — never introduce a figure the text does not state. If the numbers are
+   illustrative, say so on the graphic (e.g. „числата са примерни"). No operator logos/names.
+   Requires no external API — always possible for data-bearing articles.
+
+2. **Decorative AI hero — via the Gemini image API (`scripts/gemini_image_gen.py`).**
+   For engagement on top pages, an original decorative illustration (stylised slot reels,
+   abstract casino motifs, a themed flat illustration). Optional and best-effort: if the
+   image API is unavailable, skip it and ship the infographic. Keep it purely decorative.
+
+Choose per article: a how-it-works/data guide → at least one infographic (+ optional hero);
+a broad concept guide with little data → a hero and/or a simple explanatory diagram (SVG).
+When unsure, an accurate infographic beats a decorative image.
+
+## Hard hygiene rules (apply to EVERY image — infographic and AI alike)
+- **No fabrication.** No real operator logos, brand names, or UI. No invented bonus numbers,
+  licences, RTP %, or offers. Infographic numbers must trace to `05b`; if a figure cannot be
+  supported, remove it (never fake it). No fake screenshots of operator sites.
+- **No people or faces.** No photoreal gambling imagery that glamorises play.
+- **Responsible-gambling appropriate.** Neutral, non-hype; where natural, an infographic may
+  carry a small „18+ Играйте отговорно". Never depict winning/euphoria as a promise.
+- **SEO metadata (mandatory for every image):**
+  - **Filename** = descriptive, lowercase, hyphenated, Bulgarian-transliterated or topical
+    (e.g. `razigravane-mnozhitel-baza-oborot.svg`, `bezplatni-kazino-igri-demo-hero.webp`).
+  - **ALT text** = specific Bulgarian description of what the image shows (not "изображение").
+  - **Raster format** = **WebP < 100 KB** (the gen script enforces this); vector stays SVG.
+- **Placement + reference.** Save under `VsichkiKazina/articles/<slug>/images/`. Reference the
+  image from `05b-final-draft.md` at the natural spot (hero near the top under the H1; an
+  infographic beside the data it visualises) with the Bulgarian ALT and, for infographics, a
+  one-line caption. Images travel in the SAME content PR as the article.
+
+## AI-image prompt guidance (when generating a hero)
+Write the gen prompt in English for the model, and always include the hygiene as explicit
+constraints, e.g.: "flat vector-style decorative illustration of stylised online-slot reels
+with generic colourful symbols (cherry, star, bell, gem); modern, clean; NO text, NO logos,
+NO brand names, NO real casino UI, NO people or faces, NO photorealism; balanced composition,
+suitable as a lightweight hero image." Keep it decorative and generic.

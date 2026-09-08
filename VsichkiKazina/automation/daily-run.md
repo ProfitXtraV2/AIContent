@@ -27,6 +27,9 @@ This run may be re-fired at any time (schedule fires 3×/day; a prior run may ha
   STOP cleanly — the next scheduled fire resumes from the in-progress rows.
 - GEMINI_TARGET_CONFIDENCE = 80   (Step 7 accepts at "human-written ≥ 80%"; 80 is acceptable)
 - MAX_GEMINI_PASSES = 2            (max Humaniser re-passes driven by Gemini before handing to human)
+- IMAGE_MIN_PER_ARTICLE = 1        (Step 8: every article ships at least one image; more when they earn it)
+- IMAGE_TARGET_SCORE = 80          (Step 8 accepts a Gemini image-review score ≥ 80, no integrity failure)
+- MAX_IMAGE_PASSES = 2             (max regenerate/fix passes per image driven by Gemini review)
 
 ## CURRENT CONTENT SCOPE (guides-only autopilot)
 Until a BG-reachable source route exists (proxy/scraping-API or human source packs), the
@@ -77,7 +80,7 @@ one-file commit + push — do this even though you're mid-article; it is cheap a
 
 `progress = {"phase":"writing","article_index":<1-based>,"article_total":<batch size>,
 "article_slug":"<slug>","stages":["Synthesis","Outline","Author","Humaniser","SEO",
-"Brand Gate","Light re-check","Verification","PR"],"stage_index":<0-based index of the
+"Brand Gate","Light re-check","Images","Verification","PR"],"stage_index":<0-based index of the
 stage you are STARTING now>,"stage":"<that stage's name>"}`.
 
 - Set `stage_index` to `0` (Synthesis) before the first stage, then bump it to `1,2,3…`
@@ -206,6 +209,49 @@ stage you are STARTING now>,"stage":"<that stage's name>"}`.
        ended below 80 after the cap (e.g. `ai 68`), or `skipped` if Gemini was unavailable.
        The dashboard turns `human ≥80` into a green ✓ "approved by Gemini" badge (shown on
        both Articles-for-review and Articles-ready-to-deploy).
+   - **Step 8 — article images (create + Gemini visual review).** After the text is final,
+     give the article **at least `IMAGE_MIN_PER_ARTICLE` (1) image** — more when each earns
+     its place. Follow `pipeline/prompts/step-8-images.md` VERBATIM for what to make and the
+     hygiene rules. In short:
+     · **Prefer a data infographic (hand-authored SVG)** whenever the article has numbers/
+       comparisons/steps — every figure copied VERBATIM from `05b` (never introduce a number
+       the text doesn't state; label illustrative figures as примерни). SVG needs no API.
+     · **Optionally add a decorative AI hero** via `python3 scripts/gemini_image_gen.py
+       "<english decorative prompt with the hygiene constraints>" \
+       VsichkiKazina/articles/<slug>/images/<descriptive-name>.webp 100`. It writes a WebP
+       < 100 KB. If it exits non-zero / prints `GEMINI_UNAVAILABLE`/`GEMINI_ERROR`, DO NOT
+       halt — log `image gen: skipped (Gemini unavailable)` and ship the infographic alone.
+     · **Hygiene (both kinds):** no operator logos/names, no fake screenshots, no invented
+       bonus/RTP/licence numbers, no people/faces, no glamorised winning; descriptive
+       lowercase-hyphenated filename; specific Bulgarian ALT text. Save under
+       `articles/<slug>/images/` and reference each image from `05b-final-draft.md` at the
+       natural spot (hero under the H1; infographic beside its data) with the Bulgarian ALT
+       and, for infographics, a one-line caption.
+     · **Gemini visual review (per image).** Run `python3 scripts/gemini_image_review.py
+       VsichkiKazina/articles/<slug>/05b-final-draft.md <image1> [<image2> …]` (raster images
+       are reviewed as pixels; SVGs as their source so numbers are checked). It prints a
+       0–100 score + verdict + fixes.
+       · Unavailable / non-zero exit → log `image review: skipped (Gemini unavailable)` and
+         keep the image(s) (do NOT halt).
+       · **PASS** when score **≥ IMAGE_TARGET_SCORE (80)** AND no integrity failure
+         (a fabricated logo/number/screenshot, a person/face, or glamorised winning is an
+         AUTOMATIC fail even at a high score).
+       · **Otherwise** iterate: for an AI hero, regenerate with an improved prompt addressing
+         the critique; for an infographic, hand-fix the SVG (numbers still trace to `05b`).
+         Re-run the review. Repeat up to `MAX_IMAGE_PASSES` (2).
+       · **Keep-best (mandatory):** if still < 80 after the cap, keep the highest-scoring
+         version seen (never a later, lower one). **Integrity failure is the exception —
+         never ship a fabrication:** drop that image and keep the article's other image(s),
+         or ship the infographic alone.
+     · **Commit trail (audit on the PR branch), mirroring Step 7:** commit the created
+       image(s) (`content(<slug>): add image(s)`), save each Gemini image verdict verbatim to
+       `articles/<slug>/08-image-review-<pass>.md` and commit
+       (`image(<slug>): review <pass> — score <n> (<PASS|needs work>)`), then commit any fix
+       (`content(<slug>): image fix pass <pass> (apply review)`). Never squash these.
+     · **Record it:** note the final image count + best review score in `06-verification.md`
+       (e.g. `images: 2 (infographic 88, hero 82)`), and add a short `notes` mention on the
+       `content-queue.md` row (e.g. `img:2`). Never let images block the PR — an article with
+       zero shippable images still proceeds, logged as `images: none (reason)`.
    - Assemble `06-verification.md`: surviving flags + time-sensitive claims with
      primary-source URLs; recalculate one figure with working shown. FLAGS STAY IN THE
      TEXT. Record the Gemini verdict (final confidence + passes applied) in
@@ -258,9 +304,11 @@ stage you are STARTING now>,"stage":"<that stage's name>"}`.
    Then run `python3 scripts/build_dashboard.py` to regenerate `status.json`.
 
 7. **Open one PR per written article — content only.** Branch `content/<TODAY>-<slug>`
-   contains ONLY `VsichkiKazina/articles/<slug>/*` (the article). PR title = the article
-   query (prefix `[FAILED] ` if it failed) ; body summarises type, gate score, humanisation
-   verdict, surviving-flag count, and links `06-verification.md`. Request review from the
+   contains ONLY `VsichkiKazina/articles/<slug>/*` (the article + its `images/`). PR title =
+   the article query (prefix `[FAILED] ` if it failed) ; body summarises type, gate score,
+   humanisation verdict, surviving-flag count, **image count + best image-review score**, and
+   links `06-verification.md`. Embedding an image preview in the PR body is fine. Request
+   review from the
    repo owner. Then set that article's `content-queue.md` `pr` column to `#<PR number>`.
 
 8. **Commit the board to `main`** (`content-queue.md`, `topic-backlog.md`,
