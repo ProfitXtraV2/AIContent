@@ -125,23 +125,65 @@ def _ref(folder):
     return f"origin/content/{folder}"
 
 
+def _repo_root():
+    return Path(__file__).resolve().parents[1]
+
+
 def read_article_md(folder):
-    ref, path = _ref(folder), f"{ARTICLES_DIR}/{folder}/05b-final-draft.md"
-    return subprocess.run(["git", "show", f"{ref}:{path}"],
-                          capture_output=True, text=True, check=True).stdout
+    """Read the 05b-final-draft.md for the given folder. Tries origin/content/<folder>
+    branch first; falls back to the local working tree if the branch is absent (e.g.
+    after the PR was merged and the branch deleted)."""
+    ref = _ref(folder)
+    branch_path = f"{ARTICLES_DIR}/{folder}/05b-final-draft.md"
+    try:
+        return subprocess.run(["git", "show", f"{ref}:{branch_path}"],
+                              capture_output=True, text=True, check=True).stdout
+    except subprocess.CalledProcessError:
+        local = _repo_root() / ARTICLES_DIR / folder / "05b-final-draft.md"
+        if not local.exists():
+            raise FileNotFoundError(
+                f"Article not found on branch '{ref}' or locally at '{local}'"
+            )
+        return local.read_text(encoding="utf-8")
 
 
 def list_branch_images(folder):
-    ref, base = _ref(folder), f"{ARTICLES_DIR}/{folder}/images/"
-    out = subprocess.run(["git", "ls-tree", "-r", "--name-only", ref, "--", base],
-                         capture_output=True, text=True, check=True).stdout
-    return [line for line in out.splitlines() if line.strip()]
+    """List repo-relative image paths for the given folder. Tries the content branch
+    first; falls back to the local working tree images/ directory."""
+    ref = _ref(folder)
+    base = f"{ARTICLES_DIR}/{folder}/images/"
+    try:
+        out = subprocess.run(["git", "ls-tree", "-r", "--name-only", ref, "--", base],
+                             capture_output=True, text=True, check=True).stdout
+        lines = [line for line in out.splitlines() if line.strip()]
+        if lines:
+            return lines
+    except subprocess.CalledProcessError:
+        pass
+    # Fallback: read from local images/ directory
+    local_images = _repo_root() / ARTICLES_DIR / folder / "images"
+    if not local_images.is_dir():
+        return []
+    return [
+        f"{ARTICLES_DIR}/{folder}/images/{p.name}"
+        for p in sorted(local_images.iterdir())
+        if p.is_file()
+    ]
 
 
 def read_branch_bytes(folder, repo_rel_path):
+    """Read a file's bytes from the content branch, falling back to the local working tree."""
     ref = _ref(folder)
-    return subprocess.run(["git", "show", f"{ref}:{repo_rel_path}"],
-                          capture_output=True, check=True).stdout  # bytes (no text=True)
+    try:
+        return subprocess.run(["git", "show", f"{ref}:{repo_rel_path}"],
+                              capture_output=True, check=True).stdout  # bytes (no text=True)
+    except subprocess.CalledProcessError:
+        local = _repo_root() / repo_rel_path
+        if not local.exists():
+            raise FileNotFoundError(
+                f"File not found on branch '{ref}' or locally at '{local}'"
+            )
+        return local.read_bytes()
 
 
 def _existing_hash(slug_dir):

@@ -159,3 +159,29 @@ def test_write_feed_idempotent(tmp_path, monkeypatch):
 
     # _existing_hash must agree with what we wrote.
     assert bf._existing_hash(slug_dir) == meta["content_hash"]
+
+
+def test_read_article_md_fallback(tmp_path, monkeypatch):
+    """When git show raises CalledProcessError, read_article_md reads from the local working tree."""
+    import subprocess as _sp
+
+    folder = "2026-09-07-fallback-test"
+
+    # Patch subprocess.run to raise CalledProcessError for git show
+    original_run = _sp.run
+    def fake_run(args, **kwargs):
+        if isinstance(args, list) and len(args) >= 2 and args[0] == "git" and args[1] == "show":
+            raise _sp.CalledProcessError(128, args, output=b"", stderr=b"fatal: not a git repo")
+        return original_run(args, **kwargs)
+    monkeypatch.setattr(_sp, "run", fake_run)
+
+    # Monkeypatch _repo_root so the fallback path uses tmp_path (isolated, no real-tree pollution)
+    monkeypatch.setattr(bf, "_repo_root", lambda: tmp_path)
+
+    # Create the local fallback file under tmp_path
+    local_path = tmp_path / bf.ARTICLES_DIR / folder / "05b-final-draft.md"
+    local_path.parent.mkdir(parents=True, exist_ok=True)
+    local_path.write_text("# Fallback content\n\nLocal body.", encoding="utf-8")
+
+    result = bf.read_article_md(folder)
+    assert "# Fallback content" in result
