@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-08T07:39:50Z",
+  "generated_utc": "2026-09-08T07:52:23Z",
   "buffer": {
-    "count": 12,
+    "count": 13,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 1,
-    "drafted": 12,
+    "in-progress": 0,
+    "drafted": 13,
     "approved": 0,
     "posted": 0,
     "failed": 1
@@ -264,19 +264,19 @@
     },
     {
       "id": "vk-0014",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Краш игри (Aviator): как работят и какъв е RTP",
       "keywords_or_terms": "aviator, краш игри, aviator стратегия, spribe",
       "volume": "300",
       "kd": "60",
       "source": "research",
-      "drafted_date": "",
+      "drafted_date": "2026-09-08",
       "posted_date": "",
       "folder": "2026-09-08-krash-igri-aviator",
-      "pr": "",
-      "gemini": "",
-      "notes": "„aviator\" 300/kd60/commercial/flat — new format, no page in sitemap; education + RG angle (very high volatility)",
+      "pr": "#16",
+      "gemini": "human 90",
+      "notes": "„aviator\" 300/kd60/commercial/flat — new format, no page in sitemap; education + RG angle (very high volatility) · gate 93/100; HUMAN-LIKE 53/60; 0 in-text flags (Aviator RTP 97% web-verified, in 06-verification for human confirm); Gemini ×2 → human 90 (pass-1 kept); PR #16",
       "opportunity": {
         "score": 31,
         "band": "Moderate"
@@ -707,8 +707,8 @@
       "intent": "commercial",
       "trend": "flat",
       "checked": "ahrefs",
-      "suggestion": "НОВ формат, няма страница на сайта; тренд стабилен (306 vs 320); образователен + RG ъгъл (много висока волатилност) — най-силният „нов формат\" pillar",
-      "status": "candidate",
+      "suggestion": "НОВ формат, няма страница на сайта; тренд стабилен (306 vs 320); образователен + RG ъгъл (много висока волатилност) — най-силният „нов формат\" pillar (vk-0014) (drafted 08.09, PR #16)",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 31,
