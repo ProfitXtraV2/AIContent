@@ -1,3 +1,4 @@
+import json
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -120,3 +121,41 @@ def test_build_index_shape():
     assert idx["articles"][0] == {"slug": "a", "title": "A",
                                   "date_modified": "2026-09-07",
                                   "content_hash": "h1", "status": "approved"}
+
+
+def test_write_feed_idempotent(tmp_path, monkeypatch):
+    monkeypatch.setattr(bf, "list_branch_images", lambda folder: [])
+    monkeypatch.setattr(bf, "read_branch_bytes", lambda folder, p: b"")
+
+    meta = bf.build_meta(ROW, DRAFT4, [])
+    meta["content_hash"] = bf.content_hash(DRAFT4["body"], meta)
+    entry = {"meta": meta, "body": DRAFT4["body"], "folder": ROW["folder"]}
+
+    # First write — files must be created.
+    bf.write_feed([entry], tmp_path)
+
+    slug_dir = tmp_path / meta["slug"]
+    article_path = slug_dir / "article.md"
+    meta_path = slug_dir / "meta.json"
+    index_path = tmp_path / "index.json"
+
+    assert article_path.exists()
+    assert meta_path.exists()
+    assert index_path.exists()
+
+    index_data = json.loads(index_path.read_text(encoding="utf-8"))
+    assert index_data["count"] == 1
+    assert index_data["articles"][0]["content_hash"] == meta["content_hash"]
+
+    # Trailing newline on index.json.
+    assert index_path.read_text(encoding="utf-8").endswith("\n")
+
+    # Idempotency — second call must not touch article.md.
+    mtime_before = article_path.stat().st_mtime_ns
+    bf.write_feed([entry], tmp_path)
+    assert article_path.stat().st_mtime_ns == mtime_before, (
+        "article.md was rewritten on second call despite unchanged content_hash"
+    )
+
+    # _existing_hash must agree with what we wrote.
+    assert bf._existing_hash(slug_dir) == meta["content_hash"]

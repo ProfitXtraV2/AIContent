@@ -10,6 +10,7 @@ import json
 import re
 import subprocess
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -42,7 +43,7 @@ def parse_final_draft(md_text):
             meta_description = line.split(":", 1)[1].strip()
     body_lines = rest.strip().splitlines()
     # body starts at the first H1 if present, else the whole remainder
-    start = next((i for i, l in enumerate(body_lines) if l.startswith("# ")), 0)
+    start = next((i for i, line in enumerate(body_lines) if line.startswith("# ")), 0)
     body = "\n".join(body_lines[start:]).strip()
     h1 = ""
     for line in body.splitlines():
@@ -133,17 +134,14 @@ def read_article_md(folder):
 def list_branch_images(folder):
     ref, base = _ref(folder), f"{ARTICLES_DIR}/{folder}/images/"
     out = subprocess.run(["git", "ls-tree", "-r", "--name-only", ref, "--", base],
-                         capture_output=True, text=True).stdout
-    return [l for l in out.splitlines() if l.strip()]
+                         capture_output=True, text=True, check=True).stdout
+    return [line for line in out.splitlines() if line.strip()]
 
 
 def read_branch_bytes(folder, repo_rel_path):
     ref = _ref(folder)
     return subprocess.run(["git", "show", f"{ref}:{repo_rel_path}"],
                           capture_output=True, check=True).stdout  # bytes (no text=True)
-
-
-from datetime import datetime, timezone
 
 
 def _existing_hash(slug_dir):
@@ -166,16 +164,26 @@ def write_feed(entries, out_root):
         if _existing_hash(slug_dir) == meta["content_hash"]:
             continue                                   # unchanged → skip
         (slug_dir / "images").mkdir(parents=True, exist_ok=True)
-        (slug_dir / "article.md").write_text(body, encoding="utf-8")
+        (slug_dir / "article.md").write_text(body + "\n", encoding="utf-8")
         (slug_dir / "meta.json").write_text(
-            json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
-        for repo_path in list_branch_images(folder):
-            (slug_dir / "images" / Path(repo_path).name).write_bytes(
+            json.dumps(meta, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        # Images are expected to be flat within images/ — check for basename collisions.
+        image_paths = list_branch_images(folder)
+        seen_basenames: dict[str, str] = {}
+        for repo_path in image_paths:
+            basename = Path(repo_path).name
+            if basename in seen_basenames:
+                raise ValueError(
+                    f"Image basename collision in article '{meta['slug']}': "
+                    f"'{seen_basenames[basename]}' and '{repo_path}' both resolve to '{basename}'"
+                )
+            seen_basenames[basename] = repo_path
+            (slug_dir / "images" / basename).write_bytes(
                 read_branch_bytes(folder, repo_path))
     index = build_index(entries)
     index["generated_utc"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     (out_root / "index.json").write_text(
-        json.dumps(index, ensure_ascii=False, indent=2), encoding="utf-8")
+        json.dumps(index, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def main():
