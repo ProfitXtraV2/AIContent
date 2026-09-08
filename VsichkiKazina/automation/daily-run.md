@@ -316,6 +316,10 @@ stage you are STARTING now>,"stage":"<that stage's name>"}`.
    `{"state":"idle", "run_started_utc":"<start>","run_finished_utc":"<now>",
    "articles_written":<N drafted>,"prs_opened":[<pr numbers>],"run_url":"<url>",
    "note":"<summary>","progress":{...,"phase":"done","stage":null}}`. Push to `main`.
+   - **Refresh the published feed.** Run `git fetch origin -q && python3 scripts/build_feed.py`
+     and commit `published/` alongside the board — this exposes every `approved` article to
+     consumers (the target-site publisher). It only ever includes `approved` (ready-to-deploy)
+     articles; approving an article (status → approved) is what adds it to the feed.
 
 ## Never
 - Never commit article files to `main` (they go via PR). Never present `05b` as final,
