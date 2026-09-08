@@ -14,9 +14,10 @@ jobs:
           ref: main
           fetch-depth: 0
       - name: Approve merged article + rebuild feed
+        env:
+          BRANCH: ${{ github.event.pull_request.head.ref }}
         run: |
           set -euo pipefail
-          BRANCH="${{ github.event.pull_request.head.ref }}"
           FOLDER="${BRANCH#content/}"
           echo "Approving folder: $FOLDER"
           git fetch origin -q || true
@@ -25,7 +26,8 @@ jobs:
           python3 scripts/build_dashboard.py
           git config user.name "VK Approver"
           git config user.email "approver@vsichkikazina.local"
-          git add VsichkiKazina/content-queue.md docs/data published/ || true
+          git add VsichkiKazina/content-queue.md || true
+          git add docs/data published/ 2>/dev/null || true
           git commit -m "board($FOLDER): approve on PR merge -> feed" \
             && (git push || (git pull --no-rebase --no-edit && git push)) \
             || echo "nothing to approve (already approved/posted)"

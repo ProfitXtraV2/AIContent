@@ -175,16 +175,13 @@ def test_read_article_md_fallback(tmp_path, monkeypatch):
         return original_run(args, **kwargs)
     monkeypatch.setattr(_sp, "run", fake_run)
 
-    # Create the local fallback file at the path read_article_md will try
-    root = Path(bf.__file__).resolve().parents[1]
-    local_path = root / bf.ARTICLES_DIR / folder / "05b-final-draft.md"
+    # Monkeypatch _repo_root so the fallback path uses tmp_path (isolated, no real-tree pollution)
+    monkeypatch.setattr(bf, "_repo_root", lambda: tmp_path)
+
+    # Create the local fallback file under tmp_path
+    local_path = tmp_path / bf.ARTICLES_DIR / folder / "05b-final-draft.md"
     local_path.parent.mkdir(parents=True, exist_ok=True)
     local_path.write_text("# Fallback content\n\nLocal body.", encoding="utf-8")
 
-    try:
-        result = bf.read_article_md(folder)
-        assert "# Fallback content" in result
-    finally:
-        # Clean up the created file/dir
-        import shutil
-        shutil.rmtree(root / bf.ARTICLES_DIR / folder, ignore_errors=True)
+    result = bf.read_article_md(folder)
+    assert "# Fallback content" in result
