@@ -98,3 +98,25 @@ def test_content_hash_is_deterministic_and_hash_key_independent():
     assert h1 == h2 and len(h1) == 64
     h3 = bf.content_hash(DRAFT4["body"] + " changed", meta)
     assert h3 != h1
+
+
+QUEUE_MD = """# Content Queue
+| id | status | type | query | keywords_or_terms | volume | kd | source | drafted_date | posted_date | folder | pr | gemini | notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | approved | guide | A | a | 100 | 10 | research | 2026-09-07 |  | 2026-09-07-a | #1 | human 85 |  |
+| 2 | drafted | guide | B | b | 200 | 20 | research | 2026-09-07 |  | 2026-09-07-b | #2 | human 84 |  |
+| 3 | approved | review | C | c | 300 | 30 | research | 2026-09-06 |  | 2026-09-06-c | #3 | human 90 |  |
+"""
+
+def test_select_approved_only():
+    rows = bf.select_approved(QUEUE_MD)
+    assert [r["folder"] for r in rows] == ["2026-09-07-a", "2026-09-06-c"]
+
+def test_build_index_shape():
+    entries = [{"meta": {"slug": "a", "title": "A", "date_modified": "2026-09-07",
+                         "content_hash": "h1", "status": "approved"}}]
+    idx = bf.build_index(entries)
+    assert idx["schema_version"] == 1 and idx["count"] == 1
+    assert idx["articles"][0] == {"slug": "a", "title": "A",
+                                  "date_modified": "2026-09-07",
+                                  "content_hash": "h1", "status": "approved"}

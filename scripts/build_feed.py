@@ -98,3 +98,23 @@ def content_hash(body, meta):
     m = {k: v for k, v in meta.items() if k != "content_hash"}
     payload = json.dumps(m, ensure_ascii=False, sort_keys=True) + "\n" + body
     return hashlib.sha256(payload.encode("utf-8")).hexdigest()
+
+
+def select_approved(queue_md):
+    """Content-queue rows that are ready to deploy: status == approved and have a folder."""
+    return [r for r in bd.parse_queue(queue_md)
+            if r.get("status", "").lower() == "approved" and r.get("folder")]
+
+
+def build_index(entries):
+    """Manifest of the feed: one lightweight row per article for cheap diffing."""
+    return {
+        "schema_version": SCHEMA_VERSION,
+        "count": len(entries),
+        "articles": [
+            {"slug": e["meta"]["slug"], "title": e["meta"]["title"],
+             "date_modified": e["meta"]["date_modified"],
+             "content_hash": e["meta"]["content_hash"], "status": e["meta"]["status"]}
+            for e in entries
+        ],
+    }
