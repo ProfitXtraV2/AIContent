@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 860" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" role="img" aria-label="Инфографика: как множител по база дава оборот при разиграване">
+  <defs>
+    <style>
+      .bg      { fill: #F6F4EE; }
+      .ink     { fill: #10393B; }
+      .muted   { fill: #4E6567; }
+      .card    { fill: #FFFFFF; }
+      .teal    { fill: #10393B; }
+      .gold    { fill: #E0A83B; }
+      .goldsoft{ fill: #FBF1DC; }
+      .line    { stroke: #D8D3C6; stroke-width: 1; }
+      .b       { font-weight: 700; }
+      .xb      { font-weight: 800; }
+    </style>
+  </defs>
+
+  <!-- background -->
+  <rect class="bg" x="0" y="0" width="900" height="860" rx="0"/>
+
+  <!-- header -->
+  <rect class="teal" x="0" y="0" width="900" height="96"/>
+  <text class="xb" x="48" y="52" font-size="30" fill="#FFFFFF">Как се смята разиграването</text>
+  <text x="48" y="80" font-size="16" fill="#CFE0E0">множител × база = оборот, който трябва да завъртиш</text>
+  <rect class="gold" x="0" y="96" width="900" height="5"/>
+
+  <!-- formula strip -->
+  <g transform="translate(0,140)">
+    <rect class="goldsoft" x="48" y="0" width="804" height="86" rx="12"/>
+    <text class="xb ink" x="120" y="52" font-size="34" text-anchor="middle">множител</text>
+    <text class="xb gold" x="272" y="54" font-size="40" text-anchor="middle">×</text>
+    <text class="xb ink" x="400" y="52" font-size="34" text-anchor="middle">база</text>
+    <text class="xb gold" x="560" y="54" font-size="40" text-anchor="middle">=</text>
+    <text class="xb ink" x="720" y="52" font-size="34" text-anchor="middle">оборот</text>
+  </g>
+
+  <!-- example line -->
+  <g transform="translate(0,262)">
+    <text x="48" y="18" font-size="17"><tspan class="b muted">Пример от статията: </tspan><tspan class="ink">депозит €100 + 100% бонус (още €100) · множител </tspan><tspan class="b ink">x30</tspan></text>
+  </g>
+
+  <!-- two scenario cards -->
+  <!-- Card A: only bonus -->
+  <g transform="translate(48,300)">
+    <rect class="card" x="0" y="0" width="390" height="240" rx="14"/>
+    <rect class="line" x="0.5" y="0.5" width="389" height="239" rx="14" fill="none"/>
+    <rect class="teal" x="0" y="0" width="390" height="52" rx="14"/>
+    <rect class="teal" x="0" y="20" width="390" height="32"/>
+    <text class="b" x="24" y="33" font-size="18" fill="#FFFFFF">База = само бонус</text>
+
+    <text class="ink" x="24" y="102" font-size="20"><tspan class="xb">30</tspan> × <tspan class="xb">€100</tspan></text>
+    <text class="muted" x="24" y="128" font-size="14">множител × само бонусът</text>
+
+    <line class="line" x1="24" y1="150" x2="366" y2="150"/>
+    <text class="muted" x="24" y="188" font-size="15">Изискван оборот</text>
+    <text class="xb gold" x="366" y="212" font-size="46" text-anchor="end">€3 000</text>
+  </g>
+
+  <!-- Card B: deposit + bonus -->
+  <g transform="translate(462,300)">
+    <rect class="card" x="0" y="0" width="390" height="240" rx="14"/>
+    <rect class="line" x="0.5" y="0.5" width="389" height="239" rx="14" fill="none"/>
+    <rect class="gold" x="0" y="0" width="390" height="52" rx="14"/>
+    <rect class="gold" x="0" y="20" width="390" height="32"/>
+    <text class="b" x="24" y="33" font-size="18" fill="#3A2A05">База = депозит + бонус</text>
+
+    <text class="ink" x="24" y="102" font-size="20"><tspan class="xb">30</tspan> × <tspan class="xb">€200</tspan></text>
+    <text class="muted" x="24" y="128" font-size="14">множител × (депозит + бонус)</text>
+
+    <line class="line" x1="24" y1="150" x2="366" y2="150"/>
+    <text class="muted" x="24" y="188" font-size="15">Изискван оборот</text>
+    <text class="xb teal" x="366" y="212" font-size="46" text-anchor="end">€6 000</text>
+  </g>
+
+  <!-- note between -->
+  <text class="b muted" x="450" y="576" font-size="15" text-anchor="middle">Един и същ множител x30 — двойна разлика, само защото базата е различна.</text>
+
+  <!-- contribution row -->
+  <g transform="translate(48,612)">
+    <text class="xb ink" x="0" y="20" font-size="19">Принос на игрите към оборота</text>
+    <text class="muted" x="0" y="42" font-size="14">Колко от всеки €1 залог се зачита срещу разиграването</text>
+
+    <!-- slots -->
+    <g transform="translate(0,60)">
+      <rect class="card" x="0" y="0" width="390" height="120" rx="14"/>
+      <rect class="line" x="0.5" y="0.5" width="389" height="119" rx="14" fill="none"/>
+      <text class="b ink" x="24" y="40" font-size="17">Ротативки</text>
+      <text class="xb gold" x="366" y="46" font-size="36" text-anchor="end">100%</text>
+      <rect x="24" y="72" width="342" height="18" rx="9" fill="#EFEBE0"/>
+      <rect x="24" y="72" width="342" height="18" rx="9" class="gold"/>
+      <text class="muted" x="24" y="112" font-size="13">€1 залог = €1 свален от изискването</text>
+    </g>
+
+    <!-- tables/live -->
+    <g transform="translate(414,60)">
+      <rect class="card" x="0" y="0" width="390" height="120" rx="14"/>
+      <rect class="line" x="0.5" y="0.5" width="389" height="119" rx="14" fill="none"/>
+      <text class="b ink" x="24" y="40" font-size="17">Маси / на живо</text>
+      <text class="xb teal" x="366" y="44" font-size="30" text-anchor="end">10–20%</text>
+      <rect x="24" y="72" width="342" height="18" rx="9" fill="#EFEBE0"/>
+      <rect x="24" y="72" width="60" height="18" rx="9" class="teal"/>
+      <text class="muted" x="24" y="112" font-size="13">€1 залог ≈ €0,10–0,20 свалени · често ограничени</text>
+    </g>
+  </g>
+
+  <!-- footer -->
+  <line class="line" x1="48" y1="818" x2="852" y2="818"/>
+  <text class="muted" x="48" y="842" font-size="13">Числата са примерни, за илюстрация на изчислението. 18+ Играйте отговорно.</text>
+  <text class="b muted" x="852" y="842" font-size="13" text-anchor="end">Всички Казина</text>
+</svg>
