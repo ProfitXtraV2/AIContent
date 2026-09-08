@@ -63,3 +63,38 @@ def test_extract_images_md_and_html_deduped():
 
 def test_extract_images_none():
     assert bf.extract_images("# Няма изображения\n\nтекст") == []
+
+
+ROW = {
+    "status": "approved", "type": "guide",
+    "query": "Как работи изискването за разиграване (wagering)",
+    "keywords_or_terms": "разиграване, wagering, бонус условия",
+    "drafted_date": "2026-09-07", "folder": "2026-09-07-kak-raboti-razigravaneto",
+}
+DRAFT4 = {"title_tag": "Как работи разиграването",
+          "meta_description": "Кратко описание.", "h1": "Как работи разиграването",
+          "body": "# Как работи разиграването\n\nтекст €3,000"}
+IMAGES4 = [{"path": "images/x.svg", "alt": "инфографика"}]
+
+def test_build_meta_fields():
+    meta = bf.build_meta(ROW, DRAFT4, IMAGES4)
+    assert meta["schema_version"] == 1
+    assert meta["slug"] == "kak-raboti-razigravaneto"
+    assert meta["title"] == "Как работи разиграването"     # title_tag wins
+    assert meta["meta_description"] == "Кратко описание."
+    assert meta["author"] == "Георги Тодоров"
+    assert meta["date_published"] == "2026-09-07"
+    assert meta["keywords"] == ["разиграване", "wagering", "бонус условия"]
+    assert meta["images"] == IMAGES4
+    assert meta["section_hint"] == "guide"                 # generic type, not a site category
+    assert meta["status"] == "approved"
+    assert meta["body_path"] == "article.md"
+
+def test_content_hash_is_deterministic_and_hash_key_independent():
+    meta = bf.build_meta(ROW, DRAFT4, IMAGES4)
+    h1 = bf.content_hash(DRAFT4["body"], meta)
+    meta_with_hash = dict(meta, content_hash="ignored")
+    h2 = bf.content_hash(DRAFT4["body"], meta_with_hash)
+    assert h1 == h2 and len(h1) == 64
+    h3 = bf.content_hash(DRAFT4["body"] + " changed", meta)
+    assert h3 != h1

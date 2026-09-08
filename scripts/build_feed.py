@@ -71,3 +71,30 @@ def extract_images(body_markdown):
         seen.add(img["path"])
         out.append(img)
     return out
+
+
+def build_meta(row, draft, images):
+    """Assemble the per-article meta.json (without content_hash) from a queue row + draft."""
+    title = draft.get("title_tag") or draft.get("h1") or row.get("query", "")
+    kws = [k.strip() for k in (row.get("keywords_or_terms", "") or "").split(",") if k.strip()]
+    return {
+        "schema_version": SCHEMA_VERSION,
+        "slug": slug_from_folder(row["folder"]),
+        "title": title,
+        "meta_description": draft.get("meta_description", ""),
+        "body_path": "article.md",
+        "author": AUTHOR,
+        "date_published": row.get("drafted_date", ""),
+        "date_modified": row.get("drafted_date", ""),
+        "keywords": kws,
+        "images": images,
+        "section_hint": row.get("type", ""),
+        "status": "approved",
+    }
+
+
+def content_hash(body, meta):
+    """Deterministic sha256 over (meta without content_hash) + body."""
+    m = {k: v for k, v in meta.items() if k != "content_hash"}
+    payload = json.dumps(m, ensure_ascii=False, sort_keys=True) + "\n" + body
+    return hashlib.sha256(payload.encode("utf-8")).hexdigest()
