@@ -27,8 +27,13 @@ time, until every review-ready article has matching imagery. Then it no-ops.
    branch) AND **no images yet** — i.e. the article's `images/` folder is missing/empty on its
    branch and `05b-final-draft.md` contains no image reference. Exclude `failed`/`posted`/
    `in-progress`.
-3. Order **oldest first** (ascending `id`, then `drafted_date`). Take the first
-   `BACKFILL_PER_RUN` (3). If the candidate list is empty, write a run-status note
+3. Order **most valuable first** — by the computed **Opportunity** score DESCENDING. Read it
+   from `docs/data/status.json` (each article row carries `opportunity.score`/`band`, derived
+   from its target keyword's search volume × ease); Strong before Good before Moderate before
+   Weak. Break ties by higher `volume`. Rows with no volume/kd (no Opportunity) go LAST. Take
+   the first `BACKFILL_PER_RUN` (3) so the highest-traffic pages get illustrated first. (Every
+   review-ready article still eventually gets images across runs — this only sets the order.)
+   If the candidate list is empty, write a run-status note
    `backfill: nothing to do (all review-ready articles have images)` and STOP cleanly — the
    job is done (you may leave it to no-op on future fires; the human can disable it).
 
