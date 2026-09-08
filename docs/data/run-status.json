@@ -1,17 +1,17 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-08T14:30:00Z",
-  "run_finished_utc": "2026-09-08T15:15:00Z",
-  "articles_written": 0,
+  "state": "running",
+  "run_started_utc": "2026-09-08T22:14:27Z",
+  "run_finished_utc": null,
+  "articles_written": null,
   "prs_opened": [],
-  "run_url": "https://claude.ai/code/session_01BWSFqZiJnvW6xuYsNokcos",
-  "note": "backfilled images on 3 article(s): vk-0016 (keno-pravila, SVG RTP comparison chart, score 100; hero dropped after 2 passes — AI grid-count hallucination), vk-0013 (rotativki-s-plodove, hero+SVG infographic, score 98), vk-0011 (mitove-za-kazinoto, SVG Martingale infographic; hero dropped — integrity failure). PRs updated: #18, #15, #12. Image model: gemini-3-pro-image. 6 imageless review-ready articles remain for future backfill fires.",
+  "run_url": "https://claude.ai/code/session_01S1Na6N2WM1dkJYp17ehQBT",
+  "note": "daily run (recurring); reconciled: 0 in-progress; selecting new batch",
   "progress": {
-    "phase": "done",
+    "phase": "selecting",
     "article_index": null,
     "article_total": null,
     "article_slug": null,
-    "stages": [],
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
     "stage_index": null,
     "stage": null
   }
