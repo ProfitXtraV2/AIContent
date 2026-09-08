@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-08T11:18:51Z",
+  "generated_utc": "2026-09-08T13:25:23Z",
   "buffer": {
     "count": 15,
     "target": 10,
@@ -28,7 +28,7 @@
       "folder": "2026-09-07-kak-raboti-razigravaneto",
       "pr": "#1",
       "gemini": "human 85",
-      "notes": "gate 89/100; HUMAN-LIKE; 0 flags; Gemini Step-7 backfill: Humaniser ×2 → Likely human-written 85%",
+      "notes": "gate 89/100; HUMAN-LIKE; 0 flags; Gemini Step-7 backfill: Humaniser ×2 → Likely human-written 85%; img:2 (hero+infographic, score 100)",
       "opportunity": null
     },
     {
@@ -82,7 +82,7 @@
       "folder": "2026-09-07-bonus-bez-depozit-2026",
       "pr": "#5",
       "gemini": "human 85",
-      "notes": "gate 90/100; HUMAN-LIKE 50/60; 0 flags; no-deposit pillar; folds 3 near-dups; anti-cannibal note vs listing /bonusi/bez-depozit/; Gemini Step-7 backfill: Humaniser ×1 → Likely human-written 85%",
+      "notes": "gate 90/100; HUMAN-LIKE 50/60; 0 flags; no-deposit pillar; folds 3 near-dups; anti-cannibal note vs listing /bonusi/bez-depozit/; Gemini Step-7 backfill: Humaniser ×1 → Likely human-written 85%; img:2 (hero+infographic, score 100)",
       "opportunity": {
         "score": 76,
         "band": "Strong"
@@ -102,7 +102,7 @@
       "folder": "2026-09-07-novo-onlajn-kazino",
       "pr": "#6",
       "gemini": "human 85",
-      "notes": "gate 91/100; HUMAN-LIKE 51/60; 0 flags; evaluation framework (not a list); anti-cannibal note vs /novi-kazina/ + 2 blog guides; Gemini Step-7 backfill: Humaniser ×2 → Likely human-written 85%",
+      "notes": "gate 91/100; HUMAN-LIKE 51/60; 0 flags; evaluation framework (not a list); anti-cannibal note vs /novi-kazina/ + 2 blog guides; Gemini Step-7 backfill: Humaniser ×2 → Likely human-written 85%; img:2 (hero+infographic, score 100)",
       "opportunity": {
         "score": 77,
         "band": "Strong"
