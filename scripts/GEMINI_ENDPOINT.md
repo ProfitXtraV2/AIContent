@@ -78,3 +78,19 @@ language, 18+ markers, and disclosures were correctly left untouched.)
   PASS threshold**.
 - **Result: WOULD NOT PASS → triggers a Humaniser pass** (`step-7b-apply-gemini-recs.md`),
   then re-check, per `daily-run.md` Step-7 accept/iterate policy (up to `MAX_GEMINI_PASSES`).
+
+## Image generation + review (Step 8) — added 2026-09-08
+
+The image test run confirmed the same `GEMINI_API_KEY` also does **image generation** and
+**multimodal review**.
+
+| Purpose | Script | Model (env override) | Notes |
+|---------|--------|----------------------|-------|
+| Generate decorative hero | `gemini_image_gen.py` | **`gemini-3-pro-image`** (`GEMINI_IMAGE_MODEL`); falls back to `gemini-2.5-flash-image` if unavailable | Returns inline base64 image via `:generateContent`; converted to WebP < 100 KB with Pillow. |
+| Visual review of image(s) | `gemini_image_review.py` | `gemini-3.1-pro-preview` (`GEMINI_VISION_MODEL`) | Raster sent as `inline_data`; SVG sent as source text so numbers are checkable. |
+
+Notes:
+- The gen script sends `generationConfig.responseModalities:["TEXT","IMAGE"]`; if a model
+  rejects it (HTTP 400) it retries once without. Inline-image extraction tolerates both
+  `inlineData`/`mimeType` (camelCase) and `inline_data`/`mime_type` (snake_case) shapes.
+- Infographics are hand-authored SVG (no API) — the API is only for the optional AI hero.
