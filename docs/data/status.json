@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-08T15:37:22Z",
+  "generated_utc": "2026-09-08T19:22:22Z",
   "buffer": {
     "count": 15,
     "target": 10,
@@ -162,7 +162,7 @@
       "folder": "2026-09-07-kak-se-igrae-poker-kazino",
       "pr": "#7",
       "gemini": "human 85",
-      "notes": "„как се играе покер\" 200/kd51/informational/up; no poker page in sitemap — clean pillar; casino-poker framing · gate 95/100; HUMAN-LIKE ~50/60; 0 flags; Gemini Step-7 override run (MAX_PASSES=5): baseline noisy HL 25–90 → Humaniser pass 4 removed all structural tells (info-dump list, mid-article summary, textbook RTP defs, matchmaker close) → PASS (official 85, fresh read 90); pass-5 polish measurably lowered HL → reverted; kept pass-4, human 85 (score high-variance 25–90, mean ~53, cleared ≥80 3/9 reads); PR #7",
+      "notes": "„как се играе покер\" 200/kd51/informational/up; no poker page in sitemap — clean pillar; casino-poker framing · gate 95/100; HUMAN-LIKE ~50/60; 0 flags; Gemini Step-7 override run (MAX_PASSES=5): baseline noisy HL 25–90 → Humaniser pass 4 removed all structural tells (info-dump list, mid-article summary, textbook RTP defs, matchmaker close) → PASS (official 85, fresh read 90); pass-5 polish measurably lowered HL → reverted; kept pass-4, human 85 (score high-variance 25–90, mean ~53, cleared ≥80 3/9 reads); PR #7; img:3 (hero+2 infographics, best score 75 — SVGs 90+100 PASS, hero 75 MAX_PASSES)",
       "opportunity": {
         "score": 30,
         "band": "Moderate"
@@ -276,7 +276,7 @@
       "folder": "2026-09-08-krash-igri-aviator",
       "pr": "#16",
       "gemini": "human 90",
-      "notes": "„aviator\" 300/kd60/commercial/flat — new format, no page in sitemap; education + RG angle (very high volatility) · gate 93/100; HUMAN-LIKE 53/60; 0 in-text flags (Aviator RTP 97% web-verified, in 06-verification for human confirm); Gemini ×2 → human 90 (pass-1 kept); PR #16",
+      "notes": "„aviator\" 300/kd60/commercial/flat — new format, no page in sitemap; education + RG angle (very high volatility) · gate 93/100; HUMAN-LIKE 53/60; 0 in-text flags (Aviator RTP 97% web-verified, in 06-verification for human confirm); Gemini ×2 → human 90 (pass-1 kept); PR #16; img:2 (hero+infographic, best score 85)",
       "opportunity": {
         "score": 31,
         "band": "Moderate"
@@ -336,7 +336,7 @@
       "folder": "2026-09-08-linii-na-pechalba",
       "pr": "#19",
       "gemini": "human 90",
-      "notes": "slots-mechanics education pillar — paylines vs ways-to-win (243=3⁵/1024=4⁵/Megaways 117 649=7⁶), why more lines ≠ better odds, losses-disguised-as-wins (Dixon 2010/Graydon 2018 58%/Jensen 2013, web-verified); anti-cannibal vs listings /slot-igri/ /kazino-igri/rotativki/ (prose only) · gate 92/100; HUMAN-LIKE; 0 flags; Gemini PASS pass-1 (human 90, initial kept); PR #19",
+      "notes": "slots-mechanics education pillar — paylines vs ways-to-win (243=3⁵/1024=4⁵/Megaways 117 649=7⁶), why more lines ≠ better odds, losses-disguised-as-wins (Dixon 2010/Graydon 2018 58%/Jensen 2013, web-verified); anti-cannibal vs listings /slot-igri/ /kazino-igri/rotativki/ (prose only) · gate 92/100; HUMAN-LIKE; 0 flags; Gemini PASS pass-1 (human 90, initial kept); PR #19; img:3 (hero+2 infographics, best score 85)",
       "opportunity": {
         "score": 20,
         "band": "Weak"
