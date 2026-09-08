@@ -103,7 +103,13 @@ stage you are STARTING now>,"stage":"<that stage's name>"}`.
       current scope/sourcing blocks it (e.g. a review needing operator data under the
       guides-only scope), keep it `open` with a `blocked: <reason>` note so it is revisited
       the moment it is unblocked.
-   b. If fewer than `batch`, top up from `research-topics.md` `status: candidate` rows.
+   b. If fewer than `batch`, top up from `research-topics.md` `status: candidate` rows,
+      **highest-Opportunity first**. Read the computed Opportunity from `docs/data/status.json`
+      (each research row has `opportunity.score`/`band`) and pick candidates in DESCENDING
+      opportunity order — Strong before Good before Moderate before Weak; break ties by
+      higher `volume`. (Rows with no volume/kd → no Opportunity → lowest priority; write them
+      only when nothing scored is left.) This still respects dedup + anti-cannibalization
+      (step d/d2) — skip a high-opportunity candidate if its cluster is already covered.
    c. If still short, research more (НАП register, competitor BG sites, BG gambling news)
       and append candidates to `research-topics.md`. NEVER invent weak topics to hit the
       number — write fewer instead.
