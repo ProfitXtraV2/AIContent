@@ -6,9 +6,11 @@ inside this repo. Brand is hard-locked: `BRAND: vsichkikazina` (Bulgarian output
 pipeline in `VsichkiKazina/pipeline/` VERBATIM — never paraphrase its agent files.
 
 ## Constants
-- BUFFER_TARGET = 10
-- MAX_PER_RUN = 3   (small batches: less likely to hit the account rate limit; the buffer
-  fills over a few runs, and the multi-fire schedule + resume step below cover any failure)
+- BUFFER_MINIMUM = 10   (a FLOOR, not a cap — the buffer of written-but-unposted articles
+  should never sit below this. There is NO upper limit: keep producing quality content and
+  let the library grow. The buffer only guides urgency, never stops production.)
+- MAX_PER_RUN = 3       (new articles to write per run — always aim for this many, every run,
+  regardless of how full the buffer already is; small batches keep clear of the rate limit)
 
 ## Resume / idempotency (a failed run must self-heal on the next fire)
 This run may be re-fired at any time (schedule fires 3×/day; a prior run may have died on a
@@ -17,7 +19,7 @@ This run may be re-fired at any time (schedule fires 3×/day; a prior run may ha
   rows with `status: in-progress` (an article a previous run started but didn't finish).
   For each: if its `content/<slug>` branch already has a complete `05b`, finish it (Gemini
   Step-7 → PR → set `drafted`); otherwise complete the writing from where it left off. Only
-  after all in-progress rows are resolved do you select NEW topics for any remaining deficit.
+  after all in-progress rows are resolved do you select NEW topics for this run's batch.
 - **Never duplicate.** An article already `drafted`/`approved`/`posted` (or with an open PR)
   is done — never rewrite it. Dedup every new candidate against the queue + sitemap as usual.
 - **Rate-limit behavior.** If you hit a 429 mid-run, commit whatever is safely complete
@@ -34,7 +36,7 @@ connection reset). Therefore, for now:
   primary source — evergreen education, worked-€ math, concept explainers).
 - When selecting topics (step 3), **skip `review` / `comparison` / `news`** items that
   depend on operator terms/licence data. Do NOT attempt them (they will fail on geo-block).
-  Leave them in the backlog with a note `needs source pack / BG route`; fill the deficit
+  Leave them in the backlog with a note `needs source pack / BG route`; fill the batch
   with guides instead. Never fabricate operator facts to force one through.
 - This scope is a single switch: when sourcing is solved, allow all types again.
 
@@ -62,7 +64,7 @@ tracker** — the dashboard hides the tracker when `stage_index` is `null`, so y
 it, not leave it null. Cadence, at EACH stage boundary of the current article (a quick,
 one-file commit + push — do this even though you're mid-article; it is cheap and expected):
 
-`progress = {"phase":"writing","article_index":<1-based>,"article_total":<deficit>,
+`progress = {"phase":"writing","article_index":<1-based>,"article_total":<batch size>,
 "article_slug":"<slug>","stages":["Synthesis","Outline","Author","Humaniser","SEO",
 "Brand Gate","Light re-check","Verification","PR"],"stage_index":<0-based index of the
 stage you are STARTING now>,"stage":"<that stage's name>"}`.
@@ -82,12 +84,17 @@ stage you are STARTING now>,"stage":"<that stage's name>"}`.
    "articles_written":null,"prs_opened":[],"run_url":"<this run's URL if known>",
    "note":"daily run","progress":{...as above, stage null}}` and push to `main`.
 
-2. **Measure the buffer.** Run `python3 scripts/build_dashboard.py` and read
-   `docs/data/status.json`. `deficit = min(BUFFER_TARGET - buffer.count, MAX_PER_RUN)`.
-   If `deficit <= 0`: skip to step 6 (refresh research + dashboard only; write nothing).
+2. **Set the batch size.** Run `python3 scripts/build_dashboard.py` and read
+   `docs/data/status.json`. This run writes **`batch = MAX_PER_RUN` NEW articles**, ALWAYS —
+   even if the buffer is already ≥ BUFFER_MINIMUM. The minimum is a floor, NOT a cap: never
+   stop producing just because the buffer is "full". The ONLY thing that lowers the count is
+   quality — if there aren't `MAX_PER_RUN` genuinely distinct, non-cannibalizing, on-strategy
+   topics available after dedup/research, write fewer (quality over quota; never pad). If the
+   buffer is BELOW the minimum, treat filling it as extra-urgent but still cap this run at
+   MAX_PER_RUN. (Only skip writing if there are truly zero valid distinct topics left.)
 
-3. **Select `deficit` topics:**
-   a. Take up to `deficit` rows with `status: open` from `topic-backlog.md`, in priority
+3. **Select up to `batch` topics:**
+   a. Take up to `batch` rows with `status: open` from `topic-backlog.md`, in priority
       order (do NOT change their status yet — only the write outcome sets it, step 5).
       **Backlog is a commitment:** every `open` backlog keyword MUST eventually become a
       written article (it should show up in "Articles for review"). Prioritise the backlog
@@ -96,7 +103,7 @@ stage you are STARTING now>,"stage":"<that stage's name>"}`.
       current scope/sourcing blocks it (e.g. a review needing operator data under the
       guides-only scope), keep it `open` with a `blocked: <reason>` note so it is revisited
       the moment it is unblocked.
-   b. If fewer than `deficit`, top up from `research-topics.md` `status: candidate` rows.
+   b. If fewer than `batch`, top up from `research-topics.md` `status: candidate` rows.
    c. If still short, research more (НАП register, competitor BG sites, BG gambling news)
       and append candidates to `research-topics.md`. NEVER invent weak topics to hit the
       number — write fewer instead.

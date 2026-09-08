@@ -341,7 +341,8 @@ async function load() {
   card.className = 'card buffer ' + (b.ok ? 'ok' : 'low');
   document.getElementById('bufferBig').textContent = `${b.count} / ${b.target}`;
   document.getElementById('bufferBar').style.width = Math.min(100, 100 * b.count / b.target) + '%';
-  document.getElementById('bufferNote').textContent = b.ok ? '✓ Buffer full' : `Need ${b.deficit} more`;
+  document.getElementById('bufferNote').textContent =
+    b.ok ? `✓ ${b.count} ready (min ${b.target})` : `below minimum — need ${b.deficit} more`;
 
   // Next run
   const sched = meta.schedule;
