@@ -1,18 +1,18 @@
 {
-  "state": "running",
-  "run_started_utc": "2026-09-08T07:20:00Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [14],
-  "run_url": "https://claude.ai/code/session_01TYoAEc8mn8LywxWgwm8cEN",
-  "note": "daily run 2026-09-08 (recurring, 3x/day) — writing 3 new guides (buffer floor policy). vk-0012 бакара drafted (PR #14, Gemini human 90).",
+  "state": "idle",
+  "run_started_utc": "2026-09-08T13:30:00Z",
+  "run_finished_utc": "2026-09-08T14:15:00Z",
+  "articles_written": 0,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01SV7nBQRELREE514GmPqcbL",
+  "note": "backfilled images on 3 article(s): vk-0015 (novi-kazino-igri-2026, hero+SVG infographic, score 100), vk-0007 (progresivni-dzhakpoti, hero+SVG infographic, best score 95), vk-0012 (bakara-pravila, hero+SVG infographic, score 100). PRs updated: #17, #8, #14. Image model: gemini-3-pro-image. 9 imageless review-ready articles remain for future backfill fires.",
   "progress": {
-    "phase": "writing",
-    "article_index": 2,
-    "article_total": 3,
-    "article_slug": "2026-09-08-rotativki-s-plodove",
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Verification","PR"],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "phase": "done",
+    "article_index": null,
+    "article_total": null,
+    "article_slug": null,
+    "stages": [],
+    "stage_index": null,
+    "stage": null
   }
 }
