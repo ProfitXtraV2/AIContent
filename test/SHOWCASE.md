@@ -22,7 +22,7 @@
 
 ## 2) AI изображение (декоративен hero, чрез Gemini image API) — за статията за безплатни игри
 
-![Декоративен hero: стилизирани барабани на онлайн слот с цветни казино символи, плоска илюстрация](images/bezplatni-kazino-igri-demo-hero.webp)
+<img src="images/bezplatni-kazino-igri-demo-hero.webp" alt="Декоративен hero: стилизирани барабани на онлайн слот с цветни казино символи, плоска илюстрация" width="600">
 
 - **За коя статия:** `content/2026-09-07-bezplatni-kazino-igri` — водачът за безплатни/демо казино игри.
 - **Файл:** `test/images/bezplatni-kazino-igri-demo-hero.webp`
