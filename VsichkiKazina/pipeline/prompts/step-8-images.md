@@ -17,11 +17,18 @@ its own sake.
    article's `05b`** — never introduce a figure the text does not state. If the numbers are
    illustrative, say so on the graphic (e.g. „числата са примерни"). No operator logos/names.
    Requires no external API — always possible for data-bearing articles.
+   **Match the article's exact number formatting** (e.g. if `05b` writes `€3,000`, the graphic
+   uses `€3,000`, not `€3 000`) so the review's accuracy check passes cleanly.
 
 2. **Decorative AI hero — via the Gemini image API (`scripts/gemini_image_gen.py`).**
    For engagement on top pages, an original decorative illustration (stylised slot reels,
    abstract casino motifs, a themed flat illustration). Optional and best-effort: if the
    image API is unavailable, skip it and ship the infographic. Keep it purely decorative.
+   **Make it evocative of THIS article's topic, not generic filler** — a generic decorative
+   image tends to score low in review (~55). For a data/mechanics-heavy article, an
+   infographic is strongly preferred over a decorative hero; add a hero only when it genuinely
+   helps. (The gen script auto-installs Pillow if the environment lacks it, so it can always
+   deliver a WebP < 100 KB; if conversion still fails it warns and you ship the infographic.)
 
 Choose per article: a how-it-works/data guide → at least one infographic (+ optional hero);
 a broad concept guide with little data → a hero and/or a simple explanatory diagram (SVG).
