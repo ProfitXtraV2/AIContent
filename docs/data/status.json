@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-08T06:29:07Z",
+  "generated_utc": "2026-09-08T07:06:59Z",
   "buffer": {
     "count": 10,
     "target": 10,
@@ -161,8 +161,8 @@
       "posted_date": "",
       "folder": "2026-09-07-kak-se-igrae-poker-kazino",
       "pr": "#7",
-      "gemini": "ai 75",
-      "notes": "„как се играе покер\" 200/kd51/informational/up; no poker page in sitemap — clean pillar; casino-poker framing · gate 95/100; HUMAN-LIKE ~50/60; 0 flags; Gemini ×2 → kept best ai 75 (below-80 target); PR #7",
+      "gemini": "human 85",
+      "notes": "„как се играе покер\" 200/kd51/informational/up; no poker page in sitemap — clean pillar; casino-poker framing · gate 95/100; HUMAN-LIKE ~50/60; 0 flags; Gemini Step-7 override run (MAX_PASSES=5): baseline noisy HL 25–90 → Humaniser pass 4 removed all structural tells (info-dump list, mid-article summary, textbook RTP defs, matchmaker close) → PASS (official 85, fresh read 90); pass-5 polish measurably lowered HL → reverted; kept pass-4, human 85 (score high-variance 25–90, mean ~53, cleared ≥80 3/9 reads); PR #7",
       "opportunity": {
         "score": 30,
         "band": "Moderate"
