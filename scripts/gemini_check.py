@@ -19,7 +19,7 @@ import urllib.request
 from pathlib import Path
 
 # Endpoint/model confirmed by the validation run (see scripts/GEMINI_ENDPOINT.md).
-DEFAULT_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-pro")
+DEFAULT_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.1-pro-preview")
 API_TMPL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 
 PROMPT_FILE = Path(__file__).resolve().parents[1] / \
