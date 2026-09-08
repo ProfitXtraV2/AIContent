@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-08T22:46:05Z",
+  "generated_utc": "2026-09-08T22:58:27Z",
   "buffer": {
-    "count": 16,
+    "count": 17,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 1,
-    "drafted": 14,
+    "in-progress": 0,
+    "drafted": 15,
     "approved": 2,
     "posted": 2,
     "failed": 1
@@ -384,7 +384,7 @@
     },
     {
       "id": "vk-0020",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "20 Super Hot: RTP и характеристики (EGT/Amusnet класика)",
       "keywords_or_terms": "20 super hot, 20 супер хот",
@@ -394,9 +394,9 @@
       "drafted_date": "2026-09-08",
       "posted_date": "",
       "folder": "2026-09-08-20-super-hot",
-      "pr": "",
-      "gemini": "",
-      "notes": "900/kd60/transactional; EGT/Amusnet classic slot-explainer; distinct cluster from Pragmatic titles; RTP 95.79% web-verified; Jackpot Cards + fixed 20 paylines",
+      "pr": "#26",
+      "gemini": "ai 75",
+      "notes": "900/kd60/transactional; EGT/Amusnet classic slot-explainer; distinct cluster from Pragmatic titles; RTP 95.79% web-verified; Jackpot Cards + fixed 20 paylines · gate 93/100; HUMAN-LIKE; 1 in-text [VERIFY] (release year); Gemini high-variance HL 15→25→25, kept pass 2 (ai 75; fixed „люлките\" anglicism); PR #26; img:2 (hero+infographic, best score 82)",
       "opportunity": {
         "score": 61,
         "band": "Good"
@@ -870,7 +870,7 @@
       }
     },
     {
-      "type": "review",
+      "type": "guide",
       "query": "20 Super Hot: RTP и характеристики (EGT класика)",
       "researched_keywords": "20 super hot",
       "volume": "900",
@@ -878,8 +878,8 @@
       "intent": "transactional",
       "trend": "down",
       "checked": "ahrefs",
-      "suggestion": "силен обем 900; EGT/Amusnet класика; лек спад (828 vs 1029); slot-review pillar — котва за EGT-клъстера",
-      "status": "candidate",
+      "suggestion": "силен обем 900; EGT/Amusnet класика; НАПИСАН като slot-explainer guide (5x20 fixed, 7=wild/звезда scatter, гембъл, Jackpot Cards); честен ъгъл RTP 95.79% под средното + прогресивът не подобрява базовите шансове (vk-0020, PR #26)",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 61,
