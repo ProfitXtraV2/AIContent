@@ -1,13 +1,13 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-09-08T03:10:07Z",
-  "run_finished_utc": null,
-  "articles_written": null,
+  "run_finished_utc": "2026-09-08T03:11:26Z",
+  "articles_written": 0,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01JYSYso4o8LyrDrhcKaWBEA",
-  "note": "daily run 2026-09-08",
+  "note": "No-op daily run 2026-09-08: buffer already 10/10 (target met), deficit 0 -> wrote nothing. No in-progress rows to reconcile. All 11 PRs still open/unmerged (#1 drafted, #3 the failed comparison, #4-#12 drafted); human owns Step 6 + merge. No open human-backlog rows to enrich (row1 written, row2 failed/geo-blocked). Skipped Ahrefs discovery re-pull to conserve units: only ~8080/100000 workspace units remain (91920 used, reset 2026-10-02); research bank already fresh (28 distinct candidates from 2026-09-07). Guides-only scope unchanged (operator/НАП sources still geo-blocked). Dashboard rebuilt.",
   "progress": {
-    "phase": "measuring",
+    "phase": "done",
     "article_index": 0,
     "article_total": 0,
     "article_slug": null,
