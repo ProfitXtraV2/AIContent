@@ -137,7 +137,7 @@ def test_build_status_is_json_serialisable():
 
 def test_build_status_includes_meta_schedule_and_links():
     status = bd.build_status(bd.parse_queue(SAMPLE), target=10)
-    assert status["meta"]["schedule"]["cron_utc_hour"] == 4
+    assert status["meta"]["schedule"]["cron_utc_hours"] == [3, 7, 22]
     assert status["meta"]["links"]["repo"].startswith("https://github.com/")
     assert "routine" in status["meta"]["links"]
 
