@@ -54,17 +54,38 @@ def _request(url, key, prompt, with_modalities):
         return json.load(resp)
 
 
-def _to_webp(png_bytes, out_path, max_kb):
-    """Convert PNG bytes to a WebP <= max_kb using Pillow. Returns True on success."""
+def _ensure_pil():
+    """Return PIL.Image, importing it — and pip-installing Pillow if the cloud image
+    doesn't ship it (the validation run showed Pillow may be absent). None if unavailable."""
     try:
-        import io
         from PIL import Image
+        return Image
     except Exception:
+        pass
+    try:
+        import subprocess
+        subprocess.run([sys.executable, "-m", "pip", "install", "--quiet",
+                        "--disable-pip-version-check", "Pillow"],
+                       check=True, timeout=240)
+        from PIL import Image
+        return Image
+    except Exception as e:  # noqa: BLE001
+        print(f"WARN: Pillow unavailable ({e}); cannot convert/compress to WebP",
+              file=sys.stderr)
+        return None
+
+
+def _to_webp(png_bytes, out_path, max_kb):
+    """Convert PNG bytes to a WebP <= max_kb using Pillow (auto-installed if missing).
+    Returns True if a WebP was written, False if Pillow is unavailable (caller keeps PNG)."""
+    Image = _ensure_pil()
+    if Image is None:
         return False
+    import io
     img = Image.open(io.BytesIO(png_bytes)).convert("RGB")
     if max(img.size) > 1024:                      # keep heroes reasonable
         img.thumbnail((1024, 1024))
-    for q in (82, 72, 62, 52, 42):
+    for q in (82, 72, 62, 52, 42, 32):
         img.save(out_path, "WEBP", quality=q, method=6)
         if out_path.stat().st_size <= max_kb * 1024:
             return True
@@ -117,6 +138,10 @@ def main():
         png.write_bytes(raw)
         out = png
     kb = out.stat().st_size / 1024
+    if kb > max_kb:
+        print(f"WARN: {out.name} is {kb:.0f} KB (> {max_kb} KB cap) — Pillow/WebP conversion "
+              f"failed; prefer the SVG infographic or re-run once Pillow is available.",
+              file=sys.stderr)
     print(f"{out}  ({kb:.1f} KB)")
     return 0
 
