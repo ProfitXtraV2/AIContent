@@ -1,18 +1,18 @@
 {
-  "state": "running",
-  "run_started_utc": "2026-09-08T08:10:00Z",
-  "run_finished_utc": null,
-  "articles_written": null,
+  "state": "idle",
+  "run_started_utc": "2026-09-08T13:30:00Z",
+  "run_finished_utc": "2026-09-08T14:15:00Z",
+  "articles_written": 0,
   "prs_opened": [],
-  "run_url": "https://claude.ai/code/session_0195pZhtkPTykAGRBUoYnKoh",
-  "note": "daily run (recurring 3x/day) — no in-progress rows to reconcile; buffer 13/10 (floor is not a cap). Writing 3 NEW distinct guide pillars this run: vk-0015 Нови казино игри 2026 (Strong 78), vk-0016 Кено (Good 50, kd0), vk-0017 Линии на печалба в ротативките (Weak 20). Guides-only scope; drained from AI research bank (no open human backlog).",
+  "run_url": "https://claude.ai/code/session_01SV7nBQRELREE514GmPqcbL",
+  "note": "backfilled images on 3 article(s): vk-0015 (novi-kazino-igri-2026, hero+SVG infographic, score 100), vk-0007 (progresivni-dzhakpoti, hero+SVG infographic, best score 95), vk-0012 (bakara-pravila, hero+SVG infographic, score 100). PRs updated: #17, #8, #14. Image model: gemini-3-pro-image. 9 imageless review-ready articles remain for future backfill fires.",
   "progress": {
-    "phase": "writing",
-    "article_index": 2,
-    "article_total": 3,
-    "article_slug": "2026-09-08-keno-pravila",
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Verification","PR"],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "phase": "done",
+    "article_index": null,
+    "article_total": null,
+    "article_slug": null,
+    "stages": [],
+    "stage_index": null,
+    "stage": null
   }
 }
