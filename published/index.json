@@ -1,6 +1,14 @@
 {
   "schema_version": 1,
-  "count": 0,
-  "articles": [],
-  "generated_utc": "2026-09-08T19:50:00Z"
+  "count": 1,
+  "articles": [
+    {
+      "slug": "bonus-bez-depozit-2026",
+      "title": "Бонус без депозит 2026: какво наистина получавате",
+      "date_modified": "2026-09-07",
+      "content_hash": "daf46c302238dad9ab5739cba22c04ae404ac9fda97f4d36c8e9209dee673f87",
+      "status": "approved"
+    }
+  ],
+  "generated_utc": "2026-09-08T21:35:08Z"
 }
