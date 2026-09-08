@@ -61,6 +61,12 @@ published/
 `index.json` lists every entry with `slug`, `title`, `date_modified`, `content_hash`,
 `status` so a consumer can diff cheaply without reading every article.
 
+**Only `status: approved` articles appear in the feed** — i.e. "articles ready to deploy".
+Lifecycle: `drafted` (in review, NOT in feed) → human approves → `approved` (in feed, ready to
+deploy) → publisher deploys → `posted` (= deployed/live, drops out of the feed). The human
+approval (set `approved` + merge the content PR) is the trigger that makes an article eligible;
+the publisher NEVER deploys a `drafted` article.
+
 **Producer component:** `scripts/build_feed.py` (deterministic, stdlib-only) — reads the
 approved/merged articles + board, writes `published/` and `index.json`. Runs after approval
 (hook into the existing flow or a tiny scheduled step). Unit-tested for schema stability.
@@ -74,8 +80,10 @@ A **scheduled AI-agent** (cloud routine) orchestration doc `publish-run.md` driv
    from the latest live state (the site may have hand edits). Abort the run cleanly if the
    pull fails or the tree is dirty — never build on a stale/conflicted base. All later commits
    use the pull-then-push pattern to survive races.
-1. **Pull the feed.** Fetch `published/index.json` + any new/changed `<slug>/` from the public
-   AIContent repo (raw/API). "New/changed" = `content_hash` differs from `.published-state.json`.
+1. **Pull the feed (ready-to-deploy only).** Fetch `published/index.json` + any new/changed
+   `<slug>/` from the public AIContent repo (raw/API). Only entries with `status: approved`
+   are in the feed by construction; deploy nothing else. "New/changed" = `content_hash`
+   differs from `.published-state.json`.
 2. **Render each article (hybrid):**
    - **Chrome = deterministic template.** Fill `templates/blog-post.html` (extracted from a
      real post) with head/meta/canonical/OG, **JSON-LD Article + BreadcrumbList**, site
@@ -107,6 +115,13 @@ A **scheduled AI-agent** (cloud routine) orchestration doc `publish-run.md` driv
 5. **Commit** the rendered files to WebPortals (audit trail / versioning).
 6. **FTP-upload** only the changed files to production (`ftplib`/`lftp`, creds from secrets).
 7. **Update `.published-state.json`** (slug → content_hash → deployed timestamp).
+8. **Write status back to AIContent (feedback loop).** ONLY for articles whose FTP upload
+   fully succeeded: clone/pull AIContent, set each article's `content-queue` row
+   `status: posted` (= deployed/live) with `posted_date = <deploy date>`, re-run
+   `build_dashboard.py`, and commit/push to AIContent `main` (pull-then-push). This both
+   records the deploy on the dashboard AND removes the article from the feed (it's no longer
+   `approved`), so it can't be re-deployed. Requires an AIContent write token (secret). If a
+   given article failed to upload, leave it `approved` so the next run retries it.
 
 ## 4. Components
 
@@ -155,18 +170,24 @@ Target (scheduled): pull feed → diff vs state
   post before the first real FTP upload.
 
 ## 8. Runtime & schedule
-- Target publisher = **AI cloud routine** on a cron (default **daily ~08:00 UTC**, after the
-  07:00 UTC AIContent run), laptop-independent. FTP creds + `GEMINI_API_KEY` as env secrets.
-- AIContent `build_feed.py` runs at approval/merge (or a tiny daily step) so the feed is fresh.
+- Target publisher = **AI cloud routine**, laptop-independent (runs in the cloud on the GitHub
+  repos, not the local folder). **Schedule: Tue–Fri, 09:30 Europe/Sofia** — cron
+  `30 6 * * 2-5` in summer (UTC+3), shifting to `30 7 * * 2-5` in winter (UTC+2). Rationale:
+  midweek SEO sweet spot, Friday primes the weekend casino surge, skip low-attention Monday.
+  Each run no-ops if nothing is `approved`.
+- Secrets on the target routine's environment: **FTP host/user/pass**, **`GEMINI_API_KEY`**,
+  and an **AIContent write token** (for the status write-back). Never committed.
+- AIContent `build_feed.py` runs at approval (or a tiny daily step) so the feed is fresh.
 
 ## 9. Decisions (locked) & open items
-- **Locked:** git-native `published/` feed; markdown body in the contract; target pulls +
-  renders + FTP-deploys; AI agent for brand/backlinks/SEO; deterministic chrome template;
-  brand book derived from the live site; SEO inspection via Gemini before deploy.
-- **Defaults (change on request):** route to `blog/<slug>/`; tooling in
-  `VsichkiKazina/_publisher/`; schedule daily ~08:00 UTC.
-- **To confirm at build time:** exact FTP target dir on the server; whether the AIContent feed
-  build is a merge-time hook vs a small scheduled step.
+- **Locked:** git-native `published/` feed (**`approved`-only = ready-to-deploy**); markdown
+  body in the contract; target pulls + renders + FTP-deploys; AI agent for brand/backlinks/SEO;
+  deterministic chrome template; brand book derived from the live site; SEO inspection via
+  Gemini before deploy; **status write-back to `posted` in AIContent after a successful deploy**;
+  **schedule Tue–Fri 09:30 Europe/Sofia**; sync target `main` first each run.
+- **Defaults (change on request):** route to `blog/<slug>/`; tooling in `VsichkiKazina/_publisher/`.
+- **To confirm at build time:** exact FTP target dir on the server; the AIContent write token
+  for status write-back; whether the feed build is a merge-time hook vs a small scheduled step.
 
 ## 10. Decomposition (for the plan)
 Two sub-projects, built in order (the contract first, since both depend on it):
