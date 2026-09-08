@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-08T22:33:24Z",
+  "generated_utc": "2026-09-08T22:46:05Z",
   "buffer": {
-    "count": 15,
+    "count": 16,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 2,
-    "drafted": 13,
+    "in-progress": 1,
+    "drafted": 14,
     "approved": 2,
     "posted": 2,
     "failed": 1
@@ -364,7 +364,7 @@
     },
     {
       "id": "vk-0019",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Pragmatic Play: профил на доставчика, механики и топ слотове",
       "keywords_or_terms": "pragmatic play, pragmatic слотове, pragmatic play слотове",
@@ -374,9 +374,9 @@
       "drafted_date": "2026-09-08",
       "posted_date": "",
       "folder": "2026-09-08-pragmatic-play-provajdar",
-      "pr": "",
-      "gemini": "",
-      "notes": "highest volume 2700/kd62; provider-profile pillar (hub, anchors Sweet Bonanza vk-0018); anti-cannibal vs /blog/games-providers/ (Pragmatic-specific profile, distinct primary kw); web-verified provider facts",
+      "pr": "#25",
+      "gemini": "human 85",
+      "notes": "highest volume 2700/kd62; provider-profile pillar (hub, anchors Sweet Bonanza vk-0018); anti-cannibal vs /blog/games-providers/ (Pragmatic-specific profile, distinct primary kw); web-verified provider facts · gate 93/100; HUMAN-LIKE; 1 in-text [VERIFY] (HQ Malta/Gibraltar); Gemini HL 25→35→85 PASS pass 2 (human 85); PR #25; img:2 (hero 82+infographic 85)",
       "opportunity": {
         "score": 75,
         "band": "Strong"
@@ -980,8 +980,8 @@
       "intent": "transactional",
       "trend": "flat",
       "checked": "ahrefs",
-      "suggestion": "голям обем 2700; provider-profile pillar (котва за Sweet Bonanza/Gates of Olympus/Big Bass); интентът е смесен (и към демо игри) — рамкирай като профил+RTP таблица",
-      "status": "candidate",
+      "suggestion": "голям обем 2700; НАПИСАН като provider-profile pillar (осн. 2015, MGA/UKGC/GLI, 500+ заглавия, механики, топ слотове); честен ъгъл лиценз≠предимство + конфигурируем RTP; hub към /blog/games-providers/ (vk-0019, PR #25)",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 75,

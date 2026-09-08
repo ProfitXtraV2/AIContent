@@ -4,15 +4,16 @@
   "run_finished_utc": null,
   "articles_written": null,
   "prs_opened": [
-    24
+    24,
+    25
   ],
   "run_url": "https://claude.ai/code/session_01S1Na6N2WM1dkJYp17ehQBT",
-  "note": "daily run (recurring); article 1/3 Sweet Bonanza drafted (PR #24); writing article 2/3",
+  "note": "daily run (recurring); articles 1-2 drafted (PR #24 Sweet Bonanza, #25 Pragmatic Play); writing article 3/3 (20 Super Hot)",
   "progress": {
     "phase": "writing",
-    "article_index": 2,
+    "article_index": 3,
     "article_total": 3,
-    "article_slug": "2026-09-08-pragmatic-play-provajdar",
+    "article_slug": "2026-09-08-20-super-hot",
     "stages": [
       "Synthesis",
       "Outline",
