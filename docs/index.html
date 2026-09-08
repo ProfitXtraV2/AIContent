@@ -61,6 +61,7 @@
   th, td { padding: .6rem .65rem; text-align: left; border-bottom: 1px solid var(--line); }
   th { color: var(--muted); font-weight: 600; font-size: .7rem; text-transform: uppercase;
        letter-spacing: .06em; background: #f7f9fc; }
+  th[title] { cursor: help; text-decoration: underline dotted; text-underline-offset: 3px; }
   thead th:first-child { border-top-left-radius: 8px; }
   thead th:last-child { border-top-right-radius: 8px; }
   tbody tr:hover { background: #f5f8ff; }
@@ -173,13 +174,40 @@ const LABELS = {
   routine: "Run / routine", backlog: "Topic backlog", queue: "Content queue"
 };
 
+// Hover explanations for table column headers (shown as native tooltips).
+const TIPS = {
+  volume: "Vol — monthly search volume in Bulgaria (Ahrefs): how many people search this keyword per month. Higher = more demand / potential traffic.",
+  kd: "KD — Keyword Difficulty 0–100 (Ahrefs): how hard it is to rank #1. Higher = more competition.",
+  opportunity: "Opportunity — our combined score from Vol × (1−KD): high volume + achievable difficulty = Strong. In short: is it worth writing?",
+  gemini: "Gemini — cross-model AI-detection score. Green ✓ = ≥80% human-likeness (passed); amber = below the 80 target; '— not run' = not yet checked.",
+  checked: "Checked — how the metrics were obtained: ✓ Ahrefs (real API data), web (fallback estimate), or unchecked.",
+  intent: "Intent — search intent (Ahrefs): informational / commercial / transactional / navigational.",
+  trend: "Trend — search-volume direction over time (up / flat / down).",
+  source: "Source — where the topic came from: your backlog or the AI research bank.",
+  keywords_or_terms: "The keywords this article/topic targets.",
+  researched_keywords: "The keywords researched for this candidate.",
+  status: "Lifecycle status of the article.",
+  ahrefs_note: "Ahrefs verdict + a stronger-variant suggestion if the keyword is weak.",
+  suggestion: "One-line rating / verdict for the keyword.",
+  priority: "Your priority order (lower = written first).",
+  query: "The article title / topic.",
+  pr: "Pull request number.",
+  links: "Links to the PR and the article's files in the repo.",
+};
+
 function nextRunFromSchedule(sched) {
-  // cron fires daily at a fixed UTC hour:minute. Find the next future occurrence.
+  // cron fires at one or more fixed UTC hours/day. Find the next future occurrence.
   const now = new Date();
-  const t = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(),
-                              sched.cron_utc_hour, sched.cron_utc_minute || 0, 0));
-  if (t <= now) t.setUTCDate(t.getUTCDate() + 1);
-  return t;
+  const hours = sched.cron_utc_hours || [sched.cron_utc_hour];
+  let best = null;
+  for (let d = 0; d < 2; d++) {
+    for (const h of hours) {
+      const t = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(),
+                                  now.getUTCDate() + d, h, sched.cron_utc_minute || 0, 0));
+      if (t > now && (!best || t < best)) best = t;
+    }
+  }
+  return best;
 }
 
 function fmtSofia(d) {
@@ -313,7 +341,8 @@ async function load() {
   card.className = 'card buffer ' + (b.ok ? 'ok' : 'low');
   document.getElementById('bufferBig').textContent = `${b.count} / ${b.target}`;
   document.getElementById('bufferBar').style.width = Math.min(100, 100 * b.count / b.target) + '%';
-  document.getElementById('bufferNote').textContent = b.ok ? '✓ Buffer full' : `Need ${b.deficit} more`;
+  document.getElementById('bufferNote').textContent =
+    b.ok ? `✓ ${b.count} ready (min ${b.target})` : `below minimum — need ${b.deficit} more`;
 
   // Next run
   const sched = meta.schedule;
@@ -351,9 +380,17 @@ async function load() {
 
   function articleLinks(r) {
     const parts = [];
+    // Article files live on the PR branch (content/<folder>) until the article is posted
+    // (then they're on main). Link accordingly so the URLs don't 404.
+    if (r.folder) {
+      const ref = r.status === 'posted' ? 'main' : ('content/' + r.folder);
+      const dir = `VsichkiKazina/articles/${r.folder}`;
+      // 📖 read = the finished draft rendered by GitHub (human-readable, for review)
+      parts.push(`<a href="${repo}/blob/${ref}/${dir}/05b-final-draft.md" target="_blank" rel="noopener">📖 read</a>`);
+      parts.push(`<a href="${repo}/tree/${ref}/${dir}" target="_blank" rel="noopener">files</a>`);
+    }
     if (r.pr && r.pr.startsWith('#'))
       parts.push(`<a href="${repo}/pull/${r.pr.slice(1)}" target="_blank" rel="noopener">PR ${r.pr}</a>`);
-    if (r.folder && base) parts.push(`<a href="${base}${r.folder}" target="_blank" rel="noopener">📁 files</a>`);
     return `<span class="rlinks">${parts.join('') || '—'}</span>`;
   }
 
@@ -383,7 +420,7 @@ async function load() {
       const cls = (c === 'volume' || c === 'kd') ? ' class="num"' : '';
       return `<td${cls}>${v}</td>`;
     }).join('') + '</tr>').join('');
-    return `<table><thead><tr>${cols.map(([, h]) => `<th>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table>`;
+    return `<table><thead><tr>${cols.map(([c, h]) => `<th${TIPS[c] ? ' title="' + TIPS[c] + '"' : ''}>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table>`;
   }
 
   function opChip(o) {
@@ -411,7 +448,7 @@ async function load() {
       const cls = (c === 'volume' || c === 'kd') ? ' class="num"' : '';
       return `<td${cls}>${r[c] || ''}</td>`;
     }).join('') + '</tr>').join('');
-    return `<table><thead><tr>${cols.map(([, h]) => `<th>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table>`;
+    return `<table><thead><tr>${cols.map(([c, h]) => `<th${TIPS[c] ? ' title="' + TIPS[c] + '"' : ''}>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table>`;
   }
 
   function renderResearch(rows) {
@@ -426,7 +463,7 @@ async function load() {
       const cls = (c === 'volume' || c === 'kd') ? ' class="num"' : '';
       return `<td${cls}>${r[c] || ''}</td>`;
     }).join('') + '</tr>').join('');
-    return `<table><thead><tr>${cols.map(([, h]) => `<th>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table>`;
+    return `<table><thead><tr>${cols.map(([c, h]) => `<th${TIPS[c] ? ' title="' + TIPS[c] + '"' : ''}>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table>`;
   }
 
   const tabsEl = document.getElementById('tabs');
