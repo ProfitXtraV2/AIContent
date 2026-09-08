@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="320" viewBox="0 0 480 320">
+  <rect width="480" height="320" rx="12" fill="#1a1a2e"/>
+  <text x="240" y="38" font-family="Arial,sans-serif" font-size="17" font-weight="bold" fill="#f0c040" text-anchor="middle">Изискване за разиграване — пример</text>
+
+  <!-- Row: multiplier -->
+  <rect x="32" y="58" width="416" height="44" rx="8" fill="#16213e"/>
+  <text x="60" y="85" font-family="Arial,sans-serif" font-size="14" fill="#a0b4d0">Множител</text>
+  <text x="420" y="85" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#f0c040" text-anchor="end">x30</text>
+
+  <!-- Row: base -->
+  <rect x="32" y="110" width="416" height="44" rx="8" fill="#16213e"/>
+  <text x="60" y="137" font-family="Arial,sans-serif" font-size="14" fill="#a0b4d0">База (само бонус)</text>
+  <text x="420" y="137" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#4fc3f7" text-anchor="end">€100</text>
+
+  <!-- Row: result -->
+  <rect x="32" y="162" width="416" height="52" rx="8" fill="#0f3460"/>
+  <text x="60" y="191" font-family="Arial,sans-serif" font-size="14" fill="#a0b4d0">Оборот (x30 × €100)</text>
+  <text x="420" y="194" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#4ade80" text-anchor="end">€3 000</text>
+
+  <!-- Formula note -->
+  <text x="240" y="238" font-family="Arial,sans-serif" font-size="12" fill="#607080" text-anchor="middle">При депозит €100 + 100% бонус (€100) и множител x30</text>
+  <text x="240" y="257" font-family="Arial,sans-serif" font-size="12" fill="#607080" text-anchor="middle">базата е само бонусът → 30 × €100 = €3 000 оборот</text>
+
+  <!-- Responsible gambling -->
+  <rect x="0" y="284" width="480" height="36" rx="0" fill="#111122"/>
+  <text x="240" y="307" font-family="Arial,sans-serif" font-size="12" fill="#a0a0b0" text-anchor="middle">18+ Играйте отговорно · Хазартът може да причини зависимост</text>
+</svg>
