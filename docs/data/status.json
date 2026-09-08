@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-08T07:52:53Z",
+  "generated_utc": "2026-09-08T08:51:45Z",
   "buffer": {
-    "count": 13,
+    "count": 14,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
-    "drafted": 13,
+    "in-progress": 2,
+    "drafted": 14,
     "approved": 0,
     "posted": 0,
     "failed": 1
@@ -281,6 +281,66 @@
         "score": 31,
         "band": "Moderate"
       }
+    },
+    {
+      "id": "vk-0015",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Нови казино игри 2026: как да оцените ново заглавие и кои формати водят",
+      "keywords_or_terms": "нови казино игри, нови слотове, нови формати, как да оцените нова игра",
+      "volume": "1700",
+      "kd": "56",
+      "source": "research",
+      "drafted_date": "2026-09-08",
+      "posted_date": "",
+      "folder": "2026-09-08-novi-kazino-igri-2026",
+      "pr": "#17",
+      "gemini": "ai 65",
+      "notes": "Strong opp 78; evergreen evaluation-framework guide (NOT a title listing) — RTP/волатилност/механика of any new game + 2026 format landscape (crash, Megaways, cluster, hold&win, live game shows); anti-cannibal vs listing /slot-igri/novi/ (prose only) + /kazino-igri/ · gate 93/100; HUMAN-LIKE ~50/60; 1 in-text flag [VERIFY bonus-buy BG]; Gemini ×2 passes 25→15→35, kept pass 2 (ai 65, high-variance); micro-stakes RTP reframe; PR #17",
+      "opportunity": {
+        "score": 78,
+        "band": "Strong"
+      }
+    },
+    {
+      "id": "vk-0016",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Кено: правила, изплащания и реални шансове",
+      "keywords_or_terms": "кено, кено правила, как се играе кено",
+      "volume": "200",
+      "kd": "0",
+      "source": "research",
+      "drafted_date": "2026-09-08",
+      "posted_date": "",
+      "folder": "2026-09-08-keno-pravila",
+      "pr": "",
+      "gemini": "",
+      "notes": "Good opp 50, kd0; clean pillar — no keno page in sitemap; universal lottery-style game rules/odds/house-edge math; table-games set completion",
+      "opportunity": {
+        "score": 50,
+        "band": "Good"
+      }
+    },
+    {
+      "id": "vk-0017",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Линии на печалба в ротативките: как всъщност печелите",
+      "keywords_or_terms": "линии на печалба, печеливши линии, как печелят ротативките, начини за печалба",
+      "volume": "150",
+      "kd": "69",
+      "source": "research",
+      "drafted_date": "2026-09-08",
+      "posted_date": "",
+      "folder": "2026-09-08-linii-na-pechalba",
+      "pr": "",
+      "gemini": "",
+      "notes": "slots-mechanics education pillar — paylines vs ways-to-win (243/Megaways), why more lines ≠ better odds; anti-cannibal vs listings /slot-igri/ /kazino-igri/rotativki/",
+      "opportunity": {
+        "score": 20,
+        "band": "Weak"
+      }
     }
   ],
   "backlog": [
@@ -433,8 +493,8 @@
       "intent": "transactional",
       "trend": "flat",
       "checked": "ahrefs",
-      "suggestion": "силен: добър обем (1700), постижим kd56; изисква периодично обновяване (evergreen списък)",
-      "status": "candidate",
+      "suggestion": "силен: добър обем (1700), постижим kd56; НАПИСАН като evergreen evaluation-framework guide (не листинг с конкретни заглавия — избягва остаряване + operator/game data риск): как да оцениш RTP/волатилност/механика на всяка нова игра + 2026 форматен пейзаж (vk-0015, PR #17)",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 78,

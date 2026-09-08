@@ -8,9 +8,9 @@
   "note": "daily run (recurring 3x/day) — no in-progress rows to reconcile; buffer 13/10 (floor is not a cap). Writing 3 NEW distinct guide pillars this run: vk-0015 Нови казино игри 2026 (Strong 78), vk-0016 Кено (Good 50, kd0), vk-0017 Линии на печалба в ротативките (Weak 20). Guides-only scope; drained from AI research bank (no open human backlog).",
   "progress": {
     "phase": "writing",
-    "article_index": 1,
+    "article_index": 2,
     "article_total": 3,
-    "article_slug": "2026-09-08-novi-kazino-igri-2026",
+    "article_slug": "2026-09-08-keno-pravila",
     "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Verification","PR"],
     "stage_index": 0,
     "stage": "Synthesis"
