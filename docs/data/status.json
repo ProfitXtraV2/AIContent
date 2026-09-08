@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-08T08:51:45Z",
+  "generated_utc": "2026-09-08T09:23:55Z",
   "buffer": {
-    "count": 14,
+    "count": 15,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 2,
-    "drafted": 14,
+    "in-progress": 1,
+    "drafted": 15,
     "approved": 0,
     "posted": 0,
     "failed": 1
@@ -304,7 +304,7 @@
     },
     {
       "id": "vk-0016",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Кено: правила, изплащания и реални шансове",
       "keywords_or_terms": "кено, кено правила, как се играе кено",
@@ -314,9 +314,9 @@
       "drafted_date": "2026-09-08",
       "posted_date": "",
       "folder": "2026-09-08-keno-pravila",
-      "pr": "",
-      "gemini": "",
-      "notes": "Good opp 50, kd0; clean pillar — no keno page in sitemap; universal lottery-style game rules/odds/house-edge math; table-games set completion",
+      "pr": "#18",
+      "gemini": "ai 80",
+      "notes": "Good opp 50, kd0; clean pillar — no keno page in sitemap; universal lottery game rules/odds/house-edge; honest angle = keno has one of the highest house edges (online <4%→35%+, live 20–40%, video ~5–16%) · gate 95/100; HUMAN-LIKE 50/60; 2 in-text [VERIFY] (paytable-dependent odds/return); Gemini ×2 passes 15→20→15, kept pass 1 (ai 80, high-variance; rejected removal of RG doctrine); PR #18",
       "opportunity": {
         "score": 50,
         "band": "Good"
@@ -674,8 +674,8 @@
       "intent": "informational",
       "trend": "down",
       "checked": "ahrefs",
-      "suggestion": "добър: kd0; лек спад (174 vs 226); ниша, но чист pillar (няма кено страница) — свържи с table-games хъб",
-      "status": "candidate",
+      "suggestion": "добър: kd0; чист pillar (няма кено страница); НАПИСАН с честен ъгъл „едно от най-високите домашни предимства в казиното\" (vk-0016, PR #18)",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 50,
