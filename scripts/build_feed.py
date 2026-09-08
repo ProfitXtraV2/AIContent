@@ -118,3 +118,26 @@ def build_index(entries):
             for e in entries
         ],
     }
+
+
+def _ref(folder):
+    return f"origin/content/{folder}"
+
+
+def read_article_md(folder):
+    ref, path = _ref(folder), f"{ARTICLES_DIR}/{folder}/05b-final-draft.md"
+    return subprocess.run(["git", "show", f"{ref}:{path}"],
+                          capture_output=True, text=True, check=True).stdout
+
+
+def list_branch_images(folder):
+    ref, base = _ref(folder), f"{ARTICLES_DIR}/{folder}/images/"
+    out = subprocess.run(["git", "ls-tree", "-r", "--name-only", ref, "--", base],
+                         capture_output=True, text=True).stdout
+    return [l for l in out.splitlines() if l.strip()]
+
+
+def read_branch_bytes(folder, repo_rel_path):
+    ref = _ref(folder)
+    return subprocess.run(["git", "show", f"{ref}:{repo_rel_path}"],
+                          capture_output=True, check=True).stdout  # bytes (no text=True)
