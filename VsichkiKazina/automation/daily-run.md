@@ -27,6 +27,9 @@ This run may be re-fired at any time (schedule fires 3×/day; a prior run may ha
   STOP cleanly — the next scheduled fire resumes from the in-progress rows.
 - GEMINI_TARGET_CONFIDENCE = 80   (Step 7 accepts at "human-written ≥ 80%"; 80 is acceptable)
 - MAX_GEMINI_PASSES = 2            (max Humaniser re-passes driven by Gemini before handing to human)
+- IMAGE_MIN_PER_ARTICLE = 1        (Step 8: every article ships at least one image; more when they earn it)
+- IMAGE_TARGET_SCORE = 80          (Step 8 accepts a Gemini image-review score ≥ 80, no integrity failure)
+- MAX_IMAGE_PASSES = 2             (max regenerate/fix passes per image driven by Gemini review)
 
 ## CURRENT CONTENT SCOPE (guides-only autopilot)
 Until a BG-reachable source route exists (proxy/scraping-API or human source packs), the
@@ -38,7 +41,18 @@ connection reset). Therefore, for now:
   depend on operator terms/licence data. Do NOT attempt them (they will fail on geo-block).
   Leave them in the backlog with a note `needs source pack / BG route`; fill the batch
   with guides instead. Never fabricate operator facts to force one through.
-- This scope is a single switch: when sourcing is solved, allow all types again.
+- **Game & provider explainers ARE in scope — do NOT defer them.** Specific slots (e.g.
+  „Sweet Bonanza", „20 Super Hot"), game types (бакара, кено, крас игри), and provider
+  profiles (Pragmatic Play, Amusnet/EGT) are `guide`-type and writable. Their facts — RTP,
+  volatility band, mechanics/features, max win, provider background — come from the
+  **provider's own site + international game databases**, NOT from geo-blocked BG operator
+  T&C or the НАП register. Write them as educational how-it-works guides (they are NOT
+  operator reviews and need no operator licensing/bonus terms). Source every specific figure
+  (e.g. an exact RTP %) from a reachable page; if one cannot be verified, mark it `[VERIFY]`
+  — never fabricate. So high-opportunity slot/provider keywords should be WRITTEN, not
+  skipped. (Only truly operator/НАП-list-dependent topics like a ranked "лицензирани казина"
+  table are deferred — but the same intent can be a writable "how to check a licence" guide.)
+- This scope is a single switch: when full operator sourcing is solved, allow all types again.
 
 ## Brand conventions (every article)
 - Byline/author is ALWAYS **Георги Тодоров** — never "Екипът на Всички Казина" or a
@@ -66,7 +80,7 @@ one-file commit + push — do this even though you're mid-article; it is cheap a
 
 `progress = {"phase":"writing","article_index":<1-based>,"article_total":<batch size>,
 "article_slug":"<slug>","stages":["Synthesis","Outline","Author","Humaniser","SEO",
-"Brand Gate","Light re-check","Verification","PR"],"stage_index":<0-based index of the
+"Brand Gate","Light re-check","Images","Verification","PR"],"stage_index":<0-based index of the
 stage you are STARTING now>,"stage":"<that stage's name>"}`.
 
 - Set `stage_index` to `0` (Synthesis) before the first stage, then bump it to `1,2,3…`
@@ -103,7 +117,13 @@ stage you are STARTING now>,"stage":"<that stage's name>"}`.
       current scope/sourcing blocks it (e.g. a review needing operator data under the
       guides-only scope), keep it `open` with a `blocked: <reason>` note so it is revisited
       the moment it is unblocked.
-   b. If fewer than `batch`, top up from `research-topics.md` `status: candidate` rows.
+   b. If fewer than `batch`, top up from `research-topics.md` `status: candidate` rows,
+      **highest-Opportunity first**. Read the computed Opportunity from `docs/data/status.json`
+      (each research row has `opportunity.score`/`band`) and pick candidates in DESCENDING
+      opportunity order — Strong before Good before Moderate before Weak; break ties by
+      higher `volume`. (Rows with no volume/kd → no Opportunity → lowest priority; write them
+      only when nothing scored is left.) This still respects dedup + anti-cannibalization
+      (step d/d2) — skip a high-opportunity candidate if its cluster is already covered.
    c. If still short, research more (НАП register, competitor BG sites, BG gambling news)
       and append candidates to `research-topics.md`. NEVER invent weak topics to hit the
       number — write fewer instead.
@@ -189,6 +209,49 @@ stage you are STARTING now>,"stage":"<that stage's name>"}`.
        ended below 80 after the cap (e.g. `ai 68`), or `skipped` if Gemini was unavailable.
        The dashboard turns `human ≥80` into a green ✓ "approved by Gemini" badge (shown on
        both Articles-for-review and Articles-ready-to-deploy).
+   - **Step 8 — article images (create + Gemini visual review).** After the text is final,
+     give the article **at least `IMAGE_MIN_PER_ARTICLE` (1) image** — more when each earns
+     its place. Follow `pipeline/prompts/step-8-images.md` VERBATIM for what to make and the
+     hygiene rules. In short:
+     · **Prefer a data infographic (hand-authored SVG)** whenever the article has numbers/
+       comparisons/steps — every figure copied VERBATIM from `05b` (never introduce a number
+       the text doesn't state; label illustrative figures as примерни). SVG needs no API.
+     · **Optionally add a decorative AI hero** via `python3 scripts/gemini_image_gen.py
+       "<english decorative prompt with the hygiene constraints>" \
+       VsichkiKazina/articles/<slug>/images/<descriptive-name>.webp 100`. It writes a WebP
+       < 100 KB. If it exits non-zero / prints `GEMINI_UNAVAILABLE`/`GEMINI_ERROR`, DO NOT
+       halt — log `image gen: skipped (Gemini unavailable)` and ship the infographic alone.
+     · **Hygiene (both kinds):** no operator logos/names, no fake screenshots, no invented
+       bonus/RTP/licence numbers, no people/faces, no glamorised winning; descriptive
+       lowercase-hyphenated filename; specific Bulgarian ALT text. Save under
+       `articles/<slug>/images/` and reference each image from `05b-final-draft.md` at the
+       natural spot (hero under the H1; infographic beside its data) with the Bulgarian ALT
+       and, for infographics, a one-line caption.
+     · **Gemini visual review (per image).** Run `python3 scripts/gemini_image_review.py
+       VsichkiKazina/articles/<slug>/05b-final-draft.md <image1> [<image2> …]` (raster images
+       are reviewed as pixels; SVGs as their source so numbers are checked). It prints a
+       0–100 score + verdict + fixes.
+       · Unavailable / non-zero exit → log `image review: skipped (Gemini unavailable)` and
+         keep the image(s) (do NOT halt).
+       · **PASS** when score **≥ IMAGE_TARGET_SCORE (80)** AND no integrity failure
+         (a fabricated logo/number/screenshot, a person/face, or glamorised winning is an
+         AUTOMATIC fail even at a high score).
+       · **Otherwise** iterate: for an AI hero, regenerate with an improved prompt addressing
+         the critique; for an infographic, hand-fix the SVG (numbers still trace to `05b`).
+         Re-run the review. Repeat up to `MAX_IMAGE_PASSES` (2).
+       · **Keep-best (mandatory):** if still < 80 after the cap, keep the highest-scoring
+         version seen (never a later, lower one). **Integrity failure is the exception —
+         never ship a fabrication:** drop that image and keep the article's other image(s),
+         or ship the infographic alone.
+     · **Commit trail (audit on the PR branch), mirroring Step 7:** commit the created
+       image(s) (`content(<slug>): add image(s)`), save each Gemini image verdict verbatim to
+       `articles/<slug>/08-image-review-<pass>.md` and commit
+       (`image(<slug>): review <pass> — score <n> (<PASS|needs work>)`), then commit any fix
+       (`content(<slug>): image fix pass <pass> (apply review)`). Never squash these.
+     · **Record it:** note the final image count + best review score in `06-verification.md`
+       (e.g. `images: 2 (infographic 88, hero 82)`), and add a short `notes` mention on the
+       `content-queue.md` row (e.g. `img:2`). Never let images block the PR — an article with
+       zero shippable images still proceeds, logged as `images: none (reason)`.
    - Assemble `06-verification.md`: surviving flags + time-sensitive claims with
      primary-source URLs; recalculate one figure with working shown. FLAGS STAY IN THE
      TEXT. Record the Gemini verdict (final confidence + passes applied) in
@@ -241,9 +304,11 @@ stage you are STARTING now>,"stage":"<that stage's name>"}`.
    Then run `python3 scripts/build_dashboard.py` to regenerate `status.json`.
 
 7. **Open one PR per written article — content only.** Branch `content/<TODAY>-<slug>`
-   contains ONLY `VsichkiKazina/articles/<slug>/*` (the article). PR title = the article
-   query (prefix `[FAILED] ` if it failed) ; body summarises type, gate score, humanisation
-   verdict, surviving-flag count, and links `06-verification.md`. Request review from the
+   contains ONLY `VsichkiKazina/articles/<slug>/*` (the article + its `images/`). PR title =
+   the article query (prefix `[FAILED] ` if it failed) ; body summarises type, gate score,
+   humanisation verdict, surviving-flag count, **image count + best image-review score**, and
+   links `06-verification.md`. Embedding an image preview in the PR body is fine. Request
+   review from the
    repo owner. Then set that article's `content-queue.md` `pr` column to `#<PR number>`.
 
 8. **Commit the board to `main`** (`content-queue.md`, `topic-backlog.md`,
@@ -251,6 +316,10 @@ stage you are STARTING now>,"stage":"<that stage's name>"}`.
    `{"state":"idle", "run_started_utc":"<start>","run_finished_utc":"<now>",
    "articles_written":<N drafted>,"prs_opened":[<pr numbers>],"run_url":"<url>",
    "note":"<summary>","progress":{...,"phase":"done","stage":null}}`. Push to `main`.
+   - **Refresh the published feed.** Run `git fetch origin -q && python3 scripts/build_feed.py`
+     and commit `published/` alongside the board — this exposes every `approved` article to
+     consumers (the target-site publisher). It only ever includes `approved` (ready-to-deploy)
+     articles; approving an article (status → approved) is what adds it to the feed.
 
 ## Never
 - Never commit article files to `main` (they go via PR). Never present `05b` as final,
