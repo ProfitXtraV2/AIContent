@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-08T13:47:42Z",
+  "generated_utc": "2026-09-08T15:37:22Z",
   "buffer": {
     "count": 15,
     "target": 10,
@@ -216,7 +216,7 @@
       "folder": "2026-09-07-mitove-za-kazinoto",
       "pr": "#12",
       "gemini": "human 85",
-      "notes": "„как да спечелим от казино\" 40/kd13/commercial — reframed as myth-busting/reality (brand RG doctrine); no existing myths page · gate 92/100; HUMAN-LIKE 52/60; 0 flags; Gemini ×2 → human 85; PR #12",
+      "notes": "„как да спечелим от казино\" 40/kd13/commercial — reframed as myth-busting/reality (brand RG doctrine); no existing myths page · gate 92/100; HUMAN-LIKE 52/60; 0 flags; Gemini ×2 → human 85; PR #12; img:1 (SVG Martingale infographic; hero dropped-integrity)",
       "opportunity": {
         "score": 37,
         "band": "Moderate"
@@ -256,7 +256,7 @@
       "folder": "2026-09-08-rotativki-s-plodove",
       "pr": "#15",
       "gemini": "human 85",
-      "notes": "„ротативки с плодове\" 200/kd19/commercial/flat — lowest kd among slot topics; educational angle on 3-reel/fruit machines, anti-cannibal vs listing /kazino-igri/rotativki/ · gate 92/100; HUMAN-LIKE 52/60; 0 flags; Gemini ×2 → human 85 (pass-1 kept); PR #15",
+      "notes": "„ротативки с плодове\" 200/kd19/commercial/flat — lowest kd among slot topics; educational angle on 3-reel/fruit machines, anti-cannibal vs listing /kazino-igri/rotativki/ · gate 92/100; HUMAN-LIKE 52/60; 0 flags; Gemini ×2 → human 85 (pass-1 kept); PR #15; img:2 (hero+infographic, score 98)",
       "opportunity": {
         "score": 42,
         "band": "Moderate"
@@ -316,7 +316,7 @@
       "folder": "2026-09-08-keno-pravila",
       "pr": "#18",
       "gemini": "ai 80",
-      "notes": "Good opp 50, kd0; clean pillar — no keno page in sitemap; universal lottery game rules/odds/house-edge; honest angle = keno has one of the highest house edges (online <4%→35%+, live 20–40%, video ~5–16%) · gate 95/100; HUMAN-LIKE 50/60; 2 in-text [VERIFY] (paytable-dependent odds/return); Gemini ×2 passes 15→20→15, kept pass 1 (ai 80, high-variance; rejected removal of RG doctrine); PR #18",
+      "notes": "Good opp 50, kd0; clean pillar — no keno page in sitemap; universal lottery game rules/odds/house-edge; honest angle = keno has one of the highest house edges (online <4%→35%+, live 20–40%, video ~5–16%) · gate 95/100; HUMAN-LIKE 50/60; 2 in-text [VERIFY] (paytable-dependent odds/return); Gemini ×2 passes 15→20→15, kept pass 1 (ai 80, high-variance; rejected removal of RG doctrine); PR #18; img:1 (SVG RTP comparison; hero dropped-grid-hallucination, best 70)",
       "opportunity": {
         "score": 50,
         "band": "Good"

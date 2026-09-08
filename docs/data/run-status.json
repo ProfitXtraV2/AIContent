@@ -1,11 +1,11 @@
 {
   "state": "idle",
-  "run_started_utc": "2026-09-08T13:30:00Z",
-  "run_finished_utc": "2026-09-08T14:15:00Z",
+  "run_started_utc": "2026-09-08T14:30:00Z",
+  "run_finished_utc": "2026-09-08T15:15:00Z",
   "articles_written": 0,
   "prs_opened": [],
-  "run_url": "https://claude.ai/code/session_01SV7nBQRELREE514GmPqcbL",
-  "note": "backfilled images on 3 article(s): vk-0015 (novi-kazino-igri-2026, hero+SVG infographic, score 100), vk-0007 (progresivni-dzhakpoti, hero+SVG infographic, best score 95), vk-0012 (bakara-pravila, hero+SVG infographic, score 100). PRs updated: #17, #8, #14. Image model: gemini-3-pro-image. 9 imageless review-ready articles remain for future backfill fires.",
+  "run_url": "https://claude.ai/code/session_01BWSFqZiJnvW6xuYsNokcos",
+  "note": "backfilled images on 3 article(s): vk-0016 (keno-pravila, SVG RTP comparison chart, score 100; hero dropped after 2 passes — AI grid-count hallucination), vk-0013 (rotativki-s-plodove, hero+SVG infographic, score 98), vk-0011 (mitove-za-kazinoto, SVG Martingale infographic; hero dropped — integrity failure). PRs updated: #18, #15, #12. Image model: gemini-3-pro-image. 6 imageless review-ready articles remain for future backfill fires.",
   "progress": {
     "phase": "done",
     "article_index": null,
