@@ -1,4 +1,7 @@
 # 06 — VERIFICATION · vk-0016 · Кено: правила, изплащания и реални шансове
+*For the human at Step 6. FLAGS STAY IN THE TEXT — this file only helps you verify fast. Nothing here is resolved by the autopilot.*
+
+Type: guide · byline: editorial (signed Георги Тодоров) · gate: PASS 95/100 · humanisation: HUMAN-LIKE 50/60 · Gemini Step-7: **ai 80** (hl 20, kept pass 1 after MAX_GEMINI_PASSES=2; high-variance reads 15/20/15) · run date: 08.09.2026
 
 ## SURVIVING IN-TEXT FLAGS: 2 (both [VERIFY], intentionally left in text — not resolved by the pipeline)
 1. Section „Изплащанията" — [VERIFY: диапазонът 60%–95% за pick-6 е илюстративен ориентир от game-education източник и зависи от конкретната таблица]
@@ -53,9 +56,17 @@ Cross-check, house edge from RTP: video keno 84% return → edge = 100% − 84% 
 ## ANTI-CANNIBALIZATION NOTE
 No кено page exists in the vsichkikazina.bg sitemap (confirmed: content-queue.md vk-0016 „no keno page in sitemap"; research-topics.md „чист pillar — няма кено страница"). This is a clean pillar guide. It links out to the games hub /kazino-igri/ and does not compete with or duplicate an existing page. Secondary keyword variants („кено правила", „кено изплащания") are covered by close variants, not exact-match doorways, so no internal competition with future table-games pages.
 
+## EXTERNAL CHECK (Step 7 — Gemini cross-model)
+Model gemini-3.1-pro-preview. Three reads (07-gemini-check-1/-2/-3.md persist as the audit trail):
+- initial 05b → "Likely AI-written, 85%" → hl 15
+- Humaniser pass 1 (fixed the „casino floor" calque → native BG, removed signposting lead-ins, de-dramatized wrap-ups, broke the seesaw conclusion) → "Shows AI patterns, 80%" → **hl 20 (highest) → KEPT**
+- Humaniser pass 2 (broke rule-of-three + „и двата" repetition, fixed meta anglicism/„За перспектива"/fluff transition) → "Shows AI patterns, 85%" → hl 15
+
+MAX_GEMINI_PASSES=2 reached; kept the highest-hl version (pass 1) — pass 2 scored lower (noise band), so 05b was reverted to pass 1. Ends below 80 → gemini column `ai 80`. Gemini's score is low and high-variance here (15/20/15) while the internal Brand Gate passed it 95/100 (zero criticals) and the Humaniser rated it 50/60. Gemini's request to remove the site RG doctrine „Хазартът не е финансова стратегия" was REJECTED (untouchable); both [VERIFY] flags kept (Gemini agreed). All numbers, links, RG lines, 18+, disclosures, dates, byline and brand preserved across every pass; nothing here resolved a flag.
+
 ## HUMAN-ACTION LIST (before publish)
-1. Confirm or replace the two [VERIFY] figures: (a) the pick-6 60%–95% illustrative return range, (b) the small-catch odds 1 на 4 / 17 / 73 — both depend on the exact paytable; keep as approximate or cite a specific verified table. Sources above.
-2. Confirm the About Всички Казина boilerplate wording matches the live site's standard boilerplate (drafted here from the brand bible; swap for the canonical block if one exists).
+1. Resolve or replace the two [VERIFY] figures: (a) the pick-6 60%–95% illustrative return range, (b) the small-catch odds 1 на 4 / 17 / 73 — both depend on the exact paytable; keep as approximate or cite a specific verified table. Sources above. Edit 05b in place, then delete the flags.
+2. Fill the `[About Всички Казина boilerplate]` placeholder slot at publish (Step 8) with the canonical block.
 3. Confirm final published/updated dates (currently 08.09.2026) at publish time.
 4. Guide needs no affiliate link and no НАП licence № — confirm none is expected to be added.
-5. Optional: cross-model (Gemini) pass is out of scope for this run and was not executed.
+5. Do NOT publish 05b as-is: two [VERIFY] flags are still in the text by design.
