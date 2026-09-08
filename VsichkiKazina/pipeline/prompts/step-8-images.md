@@ -52,8 +52,23 @@ When unsure, an accurate infographic beats a decorative image.
   one-line caption. Images travel in the SAME content PR as the article.
 
 ## AI-image prompt guidance (when generating a hero)
-Write the gen prompt in English for the model, and always include the hygiene as explicit
-constraints, e.g.: "flat vector-style decorative illustration of stylised online-slot reels
-with generic colourful symbols (cherry, star, bell, gem); modern, clean; NO text, NO logos,
-NO brand names, NO real casino UI, NO people or faces, NO photorealism; balanced composition,
-suitable as a lightweight hero image." Keep it decorative and generic.
+Write the gen prompt in English for the model. **Depict a VISUAL METAPHOR of the article's
+core idea — not generic casino imagery.** Live testing on the wagering guide proved this: a
+generic "stylised slot reels" hero scored **55–65/100 (NEEDS WORK)**, while a concept metaphor
+("a padlock on a stack of chips with circular arrows = the bonus is locked until money cycles
+through / turnover") scored **85/100 (PASS)** — a +30 jump for the same effort. So:
+
+1. Name the article's ONE central concept, then a concrete textless metaphor for it, e.g.
+   wagering/turnover → padlock on chips with looping arrows, or a coin travelling a looped
+   track to an open padlock; volatility → a jagged vs smooth line/wave; RTP → a split
+   proportion / pie; bankroll management → a wallet with a measured/portioned meter.
+2. Always append the hygiene as explicit constraints, verbatim-style:
+   "Flat vector editorial illustration. Clean modern flat design, limited premium palette,
+   soft shadows, balanced composition, generous negative space, lightweight hero banner.
+   Absolutely NO text, NO numbers, NO letters, NO logos, NO brand names, NO real casino
+   interface, NO people or faces, NO photorealism."
+3. Because text/numbers are banned (and image models garble them anyway), NEVER ask for a
+   „x30", a percentage, or any label in the image — carry all numbers in the SVG infographic
+   instead. If a hero scores < 80 in review, the usual fix is a stronger metaphor, not more
+   decoration. Keep the SVG infographic as the primary illustration for data articles; the AI
+   hero is the optional visual entry-point at the top.
