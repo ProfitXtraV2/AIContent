@@ -141,3 +141,58 @@ def read_branch_bytes(folder, repo_rel_path):
     ref = _ref(folder)
     return subprocess.run(["git", "show", f"{ref}:{repo_rel_path}"],
                           capture_output=True, check=True).stdout  # bytes (no text=True)
+
+
+from datetime import datetime, timezone
+
+
+def _existing_hash(slug_dir):
+    meta = slug_dir / "meta.json"
+    if meta.exists():
+        try:
+            return json.loads(meta.read_text(encoding="utf-8")).get("content_hash")
+        except (ValueError, OSError):
+            return None
+    return None
+
+
+def write_feed(entries, out_root):
+    """Write published/<slug>/{article.md,meta.json,images/*} + index.json. Idempotent:
+    an article whose content_hash is unchanged is skipped (no needless churn)."""
+    out_root.mkdir(parents=True, exist_ok=True)
+    for e in entries:
+        meta, body, folder = e["meta"], e["body"], e["folder"]
+        slug_dir = out_root / meta["slug"]
+        if _existing_hash(slug_dir) == meta["content_hash"]:
+            continue                                   # unchanged → skip
+        (slug_dir / "images").mkdir(parents=True, exist_ok=True)
+        (slug_dir / "article.md").write_text(body, encoding="utf-8")
+        (slug_dir / "meta.json").write_text(
+            json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
+        for repo_path in list_branch_images(folder):
+            (slug_dir / "images" / Path(repo_path).name).write_bytes(
+                read_branch_bytes(folder, repo_path))
+    index = build_index(entries)
+    index["generated_utc"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    (out_root / "index.json").write_text(
+        json.dumps(index, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def main():
+    root = Path(__file__).resolve().parents[1]
+    queue = (root / "VsichkiKazina" / "content-queue.md").read_text(encoding="utf-8")
+    entries = []
+    for row in select_approved(queue):
+        folder = row["folder"]
+        draft = parse_final_draft(read_article_md(folder))
+        images = extract_images(draft["body"])
+        meta = build_meta(row, draft, images)
+        meta["content_hash"] = content_hash(draft["body"], meta)
+        entries.append({"meta": meta, "body": draft["body"], "folder": folder})
+    write_feed(entries, root / "published")
+    print(f"feed: {len(entries)} approved article(s) written to published/")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
