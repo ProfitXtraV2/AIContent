@@ -41,3 +41,25 @@ def test_parse_final_draft_no_header():
     assert d["title_tag"] == ""
     assert d["h1"] == "Само заглавие"
     assert d["body"].startswith("# Само заглавие")
+
+
+BODY_IMG = '''# Заглавие
+
+![Инфографика за разиграване](images/razigravane.svg)
+
+Текст.
+
+<img src="images/hero.webp" alt="Декоративен банер" width="600">
+
+![дубликат](images/razigravane.svg)
+'''
+
+def test_extract_images_md_and_html_deduped():
+    imgs = bf.extract_images(BODY_IMG)
+    assert imgs == [
+        {"path": "images/razigravane.svg", "alt": "Инфографика за разиграване"},
+        {"path": "images/hero.webp", "alt": "Декоративен банер"},
+    ]
+
+def test_extract_images_none():
+    assert bf.extract_images("# Няма изображения\n\nтекст") == []

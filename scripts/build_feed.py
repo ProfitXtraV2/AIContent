@@ -51,3 +51,23 @@ def parse_final_draft(md_text):
             break
     return {"title_tag": title_tag, "meta_description": meta_description,
             "h1": h1, "body": body}
+
+
+_MD_IMG = re.compile(r"!\[([^\]]*)\]\((images/[^)]+)\)")
+_HTML_IMG = re.compile(r'<img[^>]*?src="(images/[^"]+)"[^>]*?alt="([^"]*)"')
+
+
+def extract_images(body_markdown):
+    """All local image refs (markdown + <img>), ordered, de-duped by path."""
+    found = []
+    for m in _MD_IMG.finditer(body_markdown):
+        found.append({"path": m.group(2).strip(), "alt": m.group(1).strip()})
+    for m in _HTML_IMG.finditer(body_markdown):
+        found.append({"path": m.group(1).strip(), "alt": m.group(2).strip()})
+    seen, out = set(), []
+    for img in found:
+        if img["path"] in seen:
+            continue
+        seen.add(img["path"])
+        out.append(img)
+    return out
