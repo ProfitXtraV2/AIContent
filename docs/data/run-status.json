@@ -3,14 +3,14 @@
   "run_started_utc": "2026-09-08T07:20:00Z",
   "run_finished_utc": null,
   "articles_written": null,
-  "prs_opened": [],
+  "prs_opened": [14],
   "run_url": "https://claude.ai/code/session_01TYoAEc8mn8LywxWgwm8cEN",
-  "note": "daily run 2026-09-08 (recurring, 3x/day) — writing 3 new guides (buffer floor policy)",
+  "note": "daily run 2026-09-08 (recurring, 3x/day) — writing 3 new guides (buffer floor policy). vk-0012 бакара drafted (PR #14, Gemini human 90).",
   "progress": {
     "phase": "writing",
-    "article_index": 1,
+    "article_index": 2,
     "article_total": 3,
-    "article_slug": "2026-09-08-bakara-pravila",
+    "article_slug": "2026-09-08-rotativki-s-plodove",
     "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Verification","PR"],
     "stage_index": 0,
     "stage": "Synthesis"

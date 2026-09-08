@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-08T07:06:59Z",
+  "generated_utc": "2026-09-08T07:27:36Z",
   "buffer": {
-    "count": 10,
+    "count": 11,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
-    "drafted": 10,
+    "in-progress": 2,
+    "drafted": 11,
     "approved": 0,
     "posted": 0,
     "failed": 1
@@ -219,6 +219,66 @@
       "notes": "„как да спечелим от казино\" 40/kd13/commercial — reframed as myth-busting/reality (brand RG doctrine); no existing myths page · gate 92/100; HUMAN-LIKE 52/60; 0 flags; Gemini ×2 → human 85; PR #12",
       "opportunity": {
         "score": 37,
+        "band": "Moderate"
+      }
+    },
+    {
+      "id": "vk-0012",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Бакара: правила и как се играе в казино",
+      "keywords_or_terms": "бакара, как се играе бакара, бакара правила, бакара онлайн",
+      "volume": "500",
+      "kd": "0",
+      "source": "research",
+      "drafted_date": "2026-09-08",
+      "posted_date": "",
+      "folder": "2026-09-08-bakara-pravila",
+      "pr": "#14",
+      "gemini": "human 90",
+      "notes": "„бакара\" 500/kd0/informational/flat — clean pillar, no baccarat page in sitemap; distinct from poker (vk-0008) & blackjack (vk-0009) · gate 93/100; HUMAN-LIKE 52/60; 0 flags; Gemini ×1 → human 90 (PASS pass-1, initial kept); PR #14",
+      "opportunity": {
+        "score": 65,
+        "band": "Good"
+      }
+    },
+    {
+      "id": "vk-0013",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Ротативки с плодове (класически слотове): как работят",
+      "keywords_or_terms": "ротативки с плодове, класически ротативки, плодови ротативки",
+      "volume": "200",
+      "kd": "19",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-08-rotativki-s-plodove",
+      "pr": "",
+      "gemini": "",
+      "notes": "„ротативки с плодове\" 200/kd19/commercial/flat — lowest kd among slot topics; educational angle on 3-reel/fruit machines, anti-cannibal vs listing /kazino-igri/rotativki/",
+      "opportunity": {
+        "score": 42,
+        "band": "Moderate"
+      }
+    },
+    {
+      "id": "vk-0014",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Краш игри (Aviator): как работят и какъв е RTP",
+      "keywords_or_terms": "aviator, краш игри, aviator стратегия, spribe",
+      "volume": "300",
+      "kd": "60",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-08-krash-igri-aviator",
+      "pr": "",
+      "gemini": "",
+      "notes": "„aviator\" 300/kd60/commercial/flat — new format, no page in sitemap; education + RG angle (very high volatility)",
+      "opportunity": {
+        "score": 31,
         "band": "Moderate"
       }
     }
@@ -537,8 +597,8 @@
       "intent": "informational",
       "trend": "flat",
       "checked": "ahrefs",
-      "suggestion": "СИЛЕН: kd0, стабилен обем 500 (recent 500 vs base 471); няма бакара страница (само блекджек-гайд + рулетка/блекджек листинги) — чист образователен pillar",
-      "status": "candidate",
+      "suggestion": "СИЛЕН: kd0, стабилен обем 500 (recent 500 vs base 471); няма бакара страница (само блекджек-гайд + рулетка/блекджек листинги) — чист образователен pillar (vk-0012) (drafted 08.09, PR #14)",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 65,
