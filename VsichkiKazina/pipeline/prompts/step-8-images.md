@@ -30,9 +30,32 @@ its own sake.
    helps. (The gen script auto-installs Pillow if the environment lacks it, so it can always
    deliver a WebP < 100 KB; if conversion still fails it warns and you ship the infographic.)
 
-Choose per article: a how-it-works/data guide → at least one infographic (+ optional hero);
-a broad concept guide with little data → a hero and/or a simple explanatory diagram (SVG).
-When unsure, an accurate infographic beats a decorative image.
+## How many images per article (SEO + UX policy — apply this)
+Aim for the count that best serves SEO *and* reading experience, not a fixed number. Each
+image must earn its place; never pad, never invent data to justify a graphic. Use this rubric:
+
+- **Always: exactly one concept hero (WebP)** at the top, under the H1 — the visual entry
+  point / dwell-time and social-share (OG) image. One only; a second decorative image adds
+  page weight without SEO value.
+- **Then one data infographic (SVG) per DISTINCT data block the article genuinely contains**
+  — a comparison, a formula/calc, a step sequence, a paytable/stat set, a "how it works"
+  flow. Scale to the article, and cap for UX:
+  - **Short / one data block** (≈ up to 800 words) → **1 infographic**.
+  - **Medium / two data blocks** (≈ 800–1500 words) → **up to 2 infographics**.
+  - **Long pillar / three+ data blocks** (≈ 1500+ words) → **up to 3 infographics**.
+- **Hard UX cap: ≤ 4 images total per article** (1 hero + up to 3 infographics). More than
+  that clutters the read and slows the page — stop before the cap unless every graphic is
+  clearly pulling weight.
+- **Pure-concept article with no real data** → the hero, plus **at most one** simple
+  explanatory diagram (SVG) only if it genuinely aids understanding. Do NOT force an
+  infographic where there are no numbers.
+- **Spacing (UX):** don't stack images; separate each with enough body text that it sits
+  beside the content it illustrates. One infographic per major section at most.
+- When unsure, prefer FEWER, higher-value graphics — an accurate infographic beats a
+  decorative image, and one strong infographic beats three weak ones.
+
+Rule of thumb: **1 hero + 1–3 infographics**, matched to how many real data blocks the piece
+has. Most guides land at 2–3 images total; a rich pillar may reach the 4-image cap.
 
 ## Hard hygiene rules (apply to EVERY image — infographic and AI alike)
 - **No fabrication.** No real operator logos, brand names, or UI. No invented bonus numbers,
