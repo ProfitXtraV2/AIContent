@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-08T22:14:28Z",
+  "generated_utc": "2026-09-08T22:16:30Z",
   "buffer": {
     "count": 14,
     "target": 10,
@@ -7,7 +7,7 @@
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
+    "in-progress": 3,
     "drafted": 12,
     "approved": 2,
     "posted": 2,
@@ -340,6 +340,66 @@
       "opportunity": {
         "score": 20,
         "band": "Weak"
+      }
+    },
+    {
+      "id": "vk-0018",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Sweet Bonanza: RTP, волатилност и как се играе",
+      "keywords_or_terms": "sweet bonanza, свит бонанза, sweet bonanza rtp",
+      "volume": "1100",
+      "kd": "0",
+      "source": "research",
+      "drafted_date": "2026-09-08",
+      "posted_date": "",
+      "folder": "2026-09-08-sweet-bonanza",
+      "pr": "",
+      "gemini": "",
+      "notes": "TOP opp: 1100/kd0/commercial/up — clean slot-explainer pillar (Pragmatic), no page in sitemap; game-explainer scope (public game data, not operator T&C); RTP 96.48% default (configurable builds) web-verified",
+      "opportunity": {
+        "score": 95,
+        "band": "Strong"
+      }
+    },
+    {
+      "id": "vk-0019",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Pragmatic Play: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "pragmatic play, pragmatic слотове, pragmatic play слотове",
+      "volume": "2700",
+      "kd": "62",
+      "source": "research",
+      "drafted_date": "2026-09-08",
+      "posted_date": "",
+      "folder": "2026-09-08-pragmatic-play-provajdar",
+      "pr": "",
+      "gemini": "",
+      "notes": "highest volume 2700/kd62; provider-profile pillar (hub, anchors Sweet Bonanza vk-0018); anti-cannibal vs /blog/games-providers/ (Pragmatic-specific profile, distinct primary kw); web-verified provider facts",
+      "opportunity": {
+        "score": 75,
+        "band": "Strong"
+      }
+    },
+    {
+      "id": "vk-0020",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "20 Super Hot: RTP и характеристики (EGT/Amusnet класика)",
+      "keywords_or_terms": "20 super hot, 20 супер хот",
+      "volume": "900",
+      "kd": "60",
+      "source": "research",
+      "drafted_date": "2026-09-08",
+      "posted_date": "",
+      "folder": "2026-09-08-20-super-hot",
+      "pr": "",
+      "gemini": "",
+      "notes": "900/kd60/transactional; EGT/Amusnet classic slot-explainer; distinct cluster from Pragmatic titles; RTP 95.79% web-verified; Jackpot Cards + fixed 20 paylines",
+      "opportunity": {
+        "score": 61,
+        "band": "Good"
       }
     }
   ],
