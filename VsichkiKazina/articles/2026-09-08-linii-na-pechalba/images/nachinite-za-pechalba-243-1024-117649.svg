@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" role="img" aria-label="Начини за печалба: 243 начина (3⁵ = 5 барабана × 3 реда), 1024 начина (4⁵ = 5 барабана × 4 реда), Megaways до 117 649 начина (7⁶ = 6 барабана × 7 символа)">
+  <title>Начини за печалба: 243, 1024 и 117 649 (Megaways)</title>
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+    <linearGradient id="bar243" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0891b2"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="bar1024" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="barMega" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="320" rx="12" ry="12" fill="url(#bg4)"/>
+
+  <text x="300" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#1e3a5f" text-anchor="middle">Начини за печалба: мащабът расте</text>
+  <text x="300" y="52" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">Повече начини ≠ по-добри шансове — таблицата на изплащанията се преразпределя</text>
+
+  <!-- Row 1: 243 ways -->
+  <!-- Bar: 243 / 117649 × 460 = ~0.95px — too small, use log scale -->
+  <!-- Use proportional log bars: log(243)=5.49, log(1024)=6.93, log(117649)=11.67 -->
+  <!-- Normalize to max 460px: 243→5.49/11.67*460=216, 1024→6.93/11.67*460=273, 117649→460 -->
+
+  <text x="50" y="84" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#0e7490">243 начина</text>
+  <text x="550" y="84" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="end">3⁵ (5 барабана × 3 символа на ред)</text>
+  <rect x="50" y="90" width="216" height="36" rx="6" fill="url(#bar243)"/>
+  <text x="276" y="114" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#0e7490">243</text>
+
+  <!-- Row 2: 1024 ways -->
+  <text x="50" y="152" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#5b21b6">1 024 начина</text>
+  <text x="550" y="152" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="end">4⁵ (5 барабана × 4 символа на ред)</text>
+  <rect x="50" y="158" width="273" height="36" rx="6" fill="url(#bar1024)"/>
+  <text x="332" y="182" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#5b21b6">1 024</text>
+
+  <!-- Row 3: 117649 Megaways -->
+  <text x="50" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#b91c1c">117 649 начина</text>
+  <text x="550" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="end">7⁶ (Megaways: 6 барабана × до 7 символа)</text>
+  <rect x="50" y="226" width="460" height="36" rx="6" fill="url(#barMega)"/>
+  <text x="220" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">117 649</text>
+
+  <!-- Note -->
+  <text x="300" y="286" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">Мащабът е логаритмичен. При Megaways броят се преизчислява на всяко завъртане.</text>
+  <text x="300" y="304" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">18+ Играйте отговорно</text>
+</svg>

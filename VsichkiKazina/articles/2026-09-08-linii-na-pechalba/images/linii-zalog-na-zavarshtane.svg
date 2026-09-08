@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280" width="600" height="280" role="img" aria-label="Цена на завъртане: при €0,02 на линия × 20 линии = €0,40 на завъртане; при €0,02 × 40 линии = €0,80 на завъртане (числата са илюстративни)">
+  <title>Цена на завъртане: повече линии = по-скъпо завъртане, не по-добри шансове</title>
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+    <linearGradient id="bar20" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0891b2"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="bar40" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="280" rx="12" ry="12" fill="url(#bg5)"/>
+
+  <text x="300" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700" fill="#1e3a5f" text-anchor="middle">Повече линии = по-скъпо завъртане</text>
+  <text x="300" y="52" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle" font-style="italic">Числата са илюстративни; аритметиката е универсална</text>
+
+  <!-- Scenario 1: 20 lines -->
+  <rect x="30" y="65" width="540" height="72" rx="8" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="1"/>
+  <text x="50" y="87" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#0369a1" font-weight="700">€0,02 на линия  ×  20 линии</text>
+  <!-- bar: 20/40 = 50% of 440px = 220px -->
+  <rect x="50" y="95" width="220" height="28" rx="5" fill="url(#bar20)"/>
+  <text x="280" y="114" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="800" fill="#0369a1">= €0,40 на завъртане</text>
+
+  <!-- Scenario 2: 40 lines -->
+  <rect x="30" y="148" width="540" height="72" rx="8" fill="#fff7ed" stroke="#f97316" stroke-width="1"/>
+  <text x="50" y="170" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#c2410c" font-weight="700">€0,02 на линия  ×  40 линии</text>
+  <!-- bar: 40/40 = 100% of 440px = 440px -->
+  <rect x="50" y="178" width="440" height="28" rx="5" fill="url(#bar40)"/>
+  <text x="570" y="197" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="800" fill="#ffffff" text-anchor="end">= €0,80 на завъртане</text>
+
+  <!-- Key message -->
+  <rect x="30" y="232" width="540" height="36" rx="6" fill="#fef9c3" stroke="#fbbf24" stroke-width="1"/>
+  <text x="300" y="249" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#92400e" font-weight="700" text-anchor="middle">Двойно повече линии → двойно по-бързо се стопява бюджетът</text>
+  <text x="300" y="263" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#b45309" text-anchor="middle">RTP не се мърда — купили сте по-чести, но по-дребни изплащания</text>
+</svg>
