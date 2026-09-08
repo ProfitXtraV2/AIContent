@@ -224,6 +224,10 @@ Each morning a PR (or several) is waiting. Per PR:
    links + a recalculated figure).
 2. Resolve every `[VERIFY]/[DATA NEEDED]/[CONFLICT]` flag against sources; edit `05b`.
 3. Set the queue row `drafted → approved`; merge the PR.
+   **Approval automation:** merging a `content/<folder>` PR triggers the `approve-on-merge`
+   GitHub Actions workflow, which sets that article's status to `approved` in
+   `content-queue.md` and rebuilds the published feed — so **merge = approve = ready to
+   deploy**. No manual queue edit needed after merge.
 4. **Post the article to the live site manually**, then mark the row `approved → posted`
    (this frees a buffer slot; the next run refills it).
 5. Steer future topics by adding rows to `topic-backlog.md` — the run enriches + writes them.
