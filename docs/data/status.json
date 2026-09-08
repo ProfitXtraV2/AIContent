@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-08T09:23:55Z",
+  "generated_utc": "2026-09-08T09:49:57Z",
   "buffer": {
-    "count": 15,
+    "count": 16,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 1,
-    "drafted": 15,
+    "in-progress": 0,
+    "drafted": 16,
     "approved": 0,
     "posted": 0,
     "failed": 1
@@ -324,7 +324,7 @@
     },
     {
       "id": "vk-0017",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Линии на печалба в ротативките: как всъщност печелите",
       "keywords_or_terms": "линии на печалба, печеливши линии, как печелят ротативките, начини за печалба",
@@ -334,9 +334,9 @@
       "drafted_date": "2026-09-08",
       "posted_date": "",
       "folder": "2026-09-08-linii-na-pechalba",
-      "pr": "",
-      "gemini": "",
-      "notes": "slots-mechanics education pillar — paylines vs ways-to-win (243/Megaways), why more lines ≠ better odds; anti-cannibal vs listings /slot-igri/ /kazino-igri/rotativki/",
+      "pr": "#19",
+      "gemini": "human 90",
+      "notes": "slots-mechanics education pillar — paylines vs ways-to-win (243=3⁵/1024=4⁵/Megaways 117 649=7⁶), why more lines ≠ better odds, losses-disguised-as-wins (Dixon 2010/Graydon 2018 58%/Jensen 2013, web-verified); anti-cannibal vs listings /slot-igri/ /kazino-igri/rotativki/ (prose only) · gate 92/100; HUMAN-LIKE; 0 flags; Gemini PASS pass-1 (human 90, initial kept); PR #19",
       "opportunity": {
         "score": 20,
         "band": "Weak"
@@ -750,8 +750,8 @@
       "intent": "transactional",
       "trend": "",
       "checked": "ahrefs",
-      "suggestion": "образователен pillar за paylines; „казино игри 40 линии...ефбет\" носи ~1400 (brand+free-play спилоувър, не таргет); anti-cannibal vs /slot-igri/ листинги",
-      "status": "candidate",
+      "suggestion": "образователен pillar за paylines; НАПИСАН с честен ъгъл „повече линии ≠ по-добри шансове\" + losses-disguised-as-wins (Dixon/Graydon/Jensen, web-verified) (vk-0017, PR #19)",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 20,
