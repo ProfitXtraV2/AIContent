@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-08T19:28:11Z",
+  "generated_utc": "2026-09-08T19:50:00Z",
   "buffer": {
-    "count": 15,
+    "count": 14,
     "target": 10,
     "deficit": 0,
     "ok": true
@@ -9,14 +9,14 @@
   "counts": {
     "in-progress": 0,
     "drafted": 14,
-    "approved": 1,
-    "posted": 1,
+    "approved": 0,
+    "posted": 2,
     "failed": 1
   },
   "rows": [
     {
       "id": "vk-0001",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Как работи изискването за разиграване (wagering)",
       "keywords_or_terms": "разиграване, wagering, бонус условия",
@@ -24,7 +24,7 @@
       "kd": "",
       "source": "backlog",
       "drafted_date": "2026-09-07",
-      "posted_date": "",
+      "posted_date": "2026-09-08",
       "folder": "2026-09-07-kak-raboti-razigravaneto",
       "pr": "#1",
       "gemini": "human 85",
