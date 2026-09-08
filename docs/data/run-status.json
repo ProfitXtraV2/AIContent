@@ -1,18 +1,18 @@
 {
-  "state": "running",
-  "run_started_utc": "2026-09-08T08:10:00Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [17, 18],
-  "run_url": "https://claude.ai/code/session_0195pZhtkPTykAGRBUoYnKoh",
-  "note": "daily run (recurring 3x/day) — no in-progress rows to reconcile; buffer 13/10 (floor is not a cap). Writing 3 NEW distinct guide pillars: vk-0015 Нови казино игри 2026 (drafted, PR #17, Gemini ai 65), vk-0016 Кено (drafted, PR #18, Gemini ai 80), vk-0017 Линии на печалба в ротативките (in progress). Guides-only scope; drained from AI research bank (no open human backlog).",
+  "state": "idle",
+  "run_started_utc": "2026-09-08T14:30:00Z",
+  "run_finished_utc": "2026-09-08T15:15:00Z",
+  "articles_written": 0,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01BWSFqZiJnvW6xuYsNokcos",
+  "note": "backfilled images on 3 article(s): vk-0016 (keno-pravila, SVG RTP comparison chart, score 100; hero dropped after 2 passes — AI grid-count hallucination), vk-0013 (rotativki-s-plodove, hero+SVG infographic, score 98), vk-0011 (mitove-za-kazinoto, SVG Martingale infographic; hero dropped — integrity failure). PRs updated: #18, #15, #12. Image model: gemini-3-pro-image. 6 imageless review-ready articles remain for future backfill fires.",
   "progress": {
-    "phase": "writing",
-    "article_index": 3,
-    "article_total": 3,
-    "article_slug": "2026-09-08-linii-na-pechalba",
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Verification","PR"],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "phase": "done",
+    "article_index": null,
+    "article_total": null,
+    "article_slug": null,
+    "stages": [],
+    "stage_index": null,
+    "stage": null
   }
 }
