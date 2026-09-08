@@ -2,6 +2,8 @@
 ## Нови казино игри 2026: как да оцените ново заглавие
 Status: PRE-PUBLISH. FLAGS STAY IN THE TEXT until the human resolves them. This file makes the human's check fast; it does not resolve anything.
 
+Type: guide · byline: editorial (signed Георги Тодоров) · gate: PASS WITH FIXES 93/100 · humanisation: HUMAN-LIKE ~50/60 · Gemini Step-7: **ai 65** (hl 35, kept pass 2 after MAX_GEMINI_PASSES=2; high-variance reads 25/15/35) · run date: 08.09.2026
+
 ## SURVIVING IN-TEXT FLAGS: 1
 | # | Flag (verbatim, in text) | Section | Owner action |
 |---|---|---|---|
@@ -25,13 +27,13 @@ All claims are stable public-knowledge about game FORMATS and well-known provide
 ## ILLUSTRATIVE (HYPOTHETICAL) NUMBERS — clearly generic, not operator facts
 | Figure in text | Nature | Basis |
 |---|---|---|
-| Залог €100 → ~€96 върнати; ~€4 предимство | ILLUSTRATIVE, hypothetical | Demonstrates ~96% RTP as a long-run concept; explicitly „хипотетични €100", „средно… в дългосрочен план" |
+| Хиляди завъртания по €0.20 при ~96% RTP → връщат близо 96% от вложеното само като обща сметка за дългата серия; отделна вечер от няколкостотин микрозалога свършва далеч над/под тази граница | ILLUSTRATIVE, hypothetical (micro-stakes reframe, Gemini pass-2 de-cliché of the €100/€96/€4 trope) | Demonstrates ~96% RTP as a long-run average that only converges over a very large number of spins; a session does not track it |
 | ~96% RTP | concept/range, not a specific-slot claim | Industry benchmark spoken about as a range, never asserted as one game's fixed RTP |
 | до 117 649 начина за печалба | fixed mathematical fact (7^6) | Six-reel Megaways maximum; not fragile/time-sensitive |
 | множител от 1.00x; кръгове 5–30 сек; клъстер 5+ символа | format definitions | Stable mechanic descriptions from sources above |
 
 ## ONE RECALCULATION SHOWN
-RTP illustrative example: at ~96% RTP, €100 staked returns 0.96 × €100 = €96 on average over the long run; house edge = 100% − 96% = 4%, i.e. 0.04 × €100 = €4. The €96 + €4 = €100 reconciles. Consistent in every stage (02→05b). No specific-slot RTP presented as fact.
+RTP illustrative example (micro-stakes framing in the final text): at ~96% RTP the long-run expected return is 0.96 of turnover. Over a large series — e.g. 10 000 spins × €0.20 = €2 000 turnover — the average return converges toward 0.96 × €2 000 = €1 920, with ~4% (€80) retained as house edge; the point in the text is that this convergence needs the whole long series, while any single session of a few hundred spins lands far above or below. No fixed €-return figure is asserted in the body (only the ~96% share and the €0.20 unit stake), so nothing here is a specific-slot claim. Number set consistent across stages; the €100/€96/€4 triple present in the initial draft was deliberately reframed at Gemini pass 2 (recorded in 07-gemini-check-2/-3.md).
 
 ## COMPLIANCE SPOT-CHECK
 - Em-dashes (—) in the published article + footer: 0 (verified). En-dash „–" appears only in „10:00–17:00" (allowed).
@@ -45,6 +47,14 @@ RTP illustrative example: at ~96% RTP, €100 staked returns 0.96 × €100 = �
 - Banned promise/hype/FOMO words: none. Banned AI connectives: none. ✓
 - RG doctrine: хазартът = платено развлечение, не финансова стратегия; budget you can lose entirely; лимити before first deposit. ✓
 - No fabricated operator fact, release date, jackpot figure, or specific-slot RTP. ✓
+
+## EXTERNAL CHECK (Step 7 — Gemini cross-model)
+Model gemini-3.1-pro-preview. Three reads (07-gemini-check-1/-2/-3.md persist as the audit trail):
+- initial 05b → "Shows AI patterns, 75%" → hl 25
+- Humaniser pass 1 (compliant style recs) → "Shows strong AI patterns, 85%" → hl 15
+- Humaniser pass 2 (info-dump split, micro-stakes RTP reframe, softened tone, trimmed recap) → "Shows AI patterns, 65%" → **hl 35 (highest) → KEPT**
+
+MAX_GEMINI_PASSES=2 reached; kept the highest-hl version (pass 2). Ends below 80 → gemini column `ai 65`. Gemini's score is low and high-variance on this piece (25/15/35), while the internal Brand Gate passed it 93/100 (zero criticals) and the Humaniser rated it ~50/60. Rejected as non-compliant across the loop: adding bullets/inline subheads, removing the required worked € example, and removing the [VERIFY] flag. All numbers, links, RG lines, 18+, disclosures, dates, byline and brand were preserved across every pass; nothing here resolved a flag.
 
 ## ANTI-CANNIBALIZATION NOTE
 This is the site's evaluation-framework guide for judging ANY new title (RTP/волатилност/механика/провайдер/демо) plus a stable 2026 format overview. It targets „нови казино игри / как да оцените нова игра" and routes UP to /kazino-igri/ (hub) and across to /kak-ocenyavame/ (methodology), so it complements rather than competes with them. It deliberately does NOT target operator/review or single-format deep-dive queries. Overlap with a dedicated crash-games explainer (e.g. „Краш игри и Aviator") is limited to a few sentences of format context inside a broader multi-format frame; the crash piece owns the mechanic deep-dive, this piece owns the cross-format „how to judge a new game" intent. No two site pages should chase this evaluation-framework query; keep this as the canonical one.
