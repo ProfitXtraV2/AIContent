@@ -95,10 +95,18 @@ A **scheduled AI-agent** (cloud routine) orchestration doc `publish-run.md` driv
      + each page's title/H1), insert **3–6 contextual links**: natural anchors, **≥1 to a
      category/money page**, only to pages that exist (validated), no duplicate targets, no
      over-linking.
-   - Copy images into the site (`blog/<slug>/images/` or `/assets/...`) and rewrite paths;
-     keep descriptive filenames + Bulgarian alt.
-   - Route to `blog/<slug>/index.html` (v1; `section_hint` may route others later).
-3. **Update site indexes.** Add the post to `blog/index.html` listing and to `sitemap.xml`.
+   - **Category routing (careful + accurate).** Choose the CORRECT existing site category from
+     the article's topic / `section_hint` / keywords against the site's **category map** (e.g.
+     `blog/` = news/education, `kazino-igri/` or `slot-igri/` = game/provider guides,
+     `bonusi/` = bonus topics, etc.). Output path = `<category>/<slug>/index.html`. When
+     genuinely unsure, default to `blog/` — never guess an article into a money/category page.
+     **Record the chosen path in `.published-state.json` so it is STABLE** — an article never
+     moves or gets a second copy across runs.
+   - Copy images into `<category>/<slug>/images/` and rewrite paths; descriptive filenames +
+     Bulgarian alt.
+3. **Update site indexes (idempotent upsert by slug).** Add/refresh the post in the relevant
+   category listing (e.g. `blog/index.html`) and in `sitemap.xml`, matched by `slug` — update
+   in place if it already exists; never append a duplicate row/entry.
 4. **🔎 Gemini SEO inspection (of the rendered HTML).** Send the built page to the Gemini API
    with an SEO-audit prompt: title tag length (~≤60), meta description (~120–160), exactly one
    H1 + logical H2/H3 order, primary-keyword coverage without stuffing, internal links present
@@ -134,6 +142,9 @@ A **scheduled AI-agent** (cloud routine) orchestration doc `publish-run.md` driv
 - `templates/blog-post.html` — chrome template extracted from an existing post, with
   placeholders (`{{title}}`, `{{meta_description}}`, `{{jsonld}}`, `{{body}}`, `{{date}}`, …).
 - `link-map.json` (regenerated each run from `sitemap.xml` + titles) — backlink candidates.
+- `category-map.json` — the site's sections (`blog`, `kazino-igri`, `slot-igri`, `bonusi`,
+  `casino`, `novi-kazina`, …) with routing hints; used to place each article in the correct
+  category. The resolved per-article path is then pinned in `.published-state.json`.
 - `publish-run.md` — the agent orchestration (the run in §3), the analogue of `daily-run.md`.
 - `seo_inspect.py` — calls Gemini with the SEO-audit prompt (stdlib urllib; graceful exit 2);
   `prompts/seo-inspect.md` holds the verbatim prompt + accept/iterate policy.
@@ -154,6 +165,13 @@ Target (scheduled): pull feed → diff vs state
 
 ## 6. Error handling & safety
 - **Idempotent:** content-hash state; only new/changed articles render/upload.
+- **No duplicates, ever (failure-safe):** everything is keyed by stable `slug` + the
+  `<category>/<slug>/` path recorded in `.published-state.json`. Re-runs UPDATE that same page,
+  blog-index row, and sitemap entry in place — never a second copy, even if the category map
+  later changes (the recorded path wins). **If FTP fails or partially fails, the affected
+  article stays `approved` with NO status write-back**, so the next run retries the SAME
+  slug/path; already-uploaded files are simply overwritten. Skip no-op re-uploads when the
+  target's content-hash is unchanged.
 - **Never deploy broken:** render/validation failure, broken internal link, missing
   canonical/H1, unresolved `[VERIFY]`, or SEO score < floor → stage + log, skip FTP.
 - **Dry-run mode:** render + commit, skip upload — used for first runs and template tuning.
