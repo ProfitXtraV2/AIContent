@@ -89,6 +89,10 @@ images land in the SAME open PR.
 - Heartbeat: update `run-status.json` `note` at the start (`backfilling images (0/<n>)`) and
   end (`backfilled images on <n> article(s)`); keep `progress.stage_index` null (this job is
   not the article writer). Push.
+- **Record the image model** in the end note AND each PR comment: read the `[model: ...]` tag
+  `gemini_image_gen.py` prints and state which model produced the hero(s), e.g.
+  `image model: gemini-3-pro-image`; if it fell back, say `image model: gemini-2.5-flash-image
+  (fallback from gemini-3-pro-image)`.
 
 ## Rate-limit behavior
 If a 429 hits mid-run: commit whatever image work is safely complete (pushed to the relevant
