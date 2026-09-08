@@ -28,3 +28,9 @@ Target query: „Линии на печалба в ротативките: ка�
 - Surviving in-text flags ([VERIFY]/[DATA NEEDED]/[CONFLICT]) → 0 (all figures verified from stable public game-math; no operator/НАП/tax claim)
 - Banned AI connectives (освен това / в допълнение / в заключение / заслужава да се отбележи / важно е да се отбележи / в днешно време) → 0 PASS
 - Promise/hype/FOMO words → 0 PASS
+
+## Step 6/7 (orchestrator, post-writer)
+- Step 6 prep: 06-verification.md — 0 in-text flags; universal game-math + LDW-research confirm-list with source URLs; illustrative-numbers table; recalcs (cost-per-spin €0.02×20=€0.40, ×40=€0.80; LDW net €0.20−€0.40=−€0.20; 3⁵=243, 4⁵=1024, 7⁶=117 649); untouchables spot-check; anti-cannibalization (no paylines page in sitemap); human-action list.
+- Orchestrator fact-verification of the two precise research claims before commit: WebFetch confirmed Dixon et al. 2010 (skin-conductance parity for LDWs) and Graydon et al. 2018 "58% chose the 115% PB LDW game" (PMC6209046). Both accurate; kept as sourced facts, no [VERIFY] needed.
+- Step 7 (Gemini, gemini-3.1-pro-preview): check 1 on the initial 05b → "Highly likely human-written, 90%" → human-likeness 90 → PASS (≥80) on pass 1. No Humaniser re-pass run/needed. content-queue gemini = human 90. Gemini's optional style suggestions not applied (already ≥80). Numbers/links/RG/18+/dates/byline/brand untouched; no flag resolved; not posted, not merged. 07-gemini-check-1.md persisted.
+- Status → drafted. drafted_date 08.09.2026. Human owns Step 6 confirm + publish.

@@ -1,5 +1,6 @@
 # 06 — VERIFICATION (Step 6, human-owned) · vk-0017
 Article: Линии на печалба в ротативките: как всъщност печелите · guide · signed Георги Тодоров · checked 08.09.2026
+gate: PASS 92/100 · humanisation: HUMAN-LIKE (Stage 3 45/60 → rewrite → HUMAN-LIKE) · Gemini Step-7: **human 90** (PASS on pass 1, initial kept)
 
 ## SURVIVING FLAGS
 Count: 0. No [VERIFY], [DATA NEEDED] or [CONFLICT] flag remains in the text. Every asserted figure is universal, stable public game-math or a published behavioural-science finding, cited below. No Bulgarian operator T&C, НАП register data, named-game payline count/RTP, jackpot, or tax claim appears in the piece, so nothing needs operator-level verification. The human still confirms the claims-to-confirm table below against the primary sources before publish.
@@ -47,6 +48,9 @@ This is the dedicated deep-dive on the payline / ways-to-win mechanic and the �
 - „Нови казино игри 2026" guide (which only briefly listed Megaways/cluster in a broad new-games frame): here Megaways and cluster-pays are cross-referenced as further variants and NOT deep-dived; the reader is routed to the games hub (/kazino-igri/) for individual titles.
 - Fruit-slots guide and the /slot-igri/, /slot-igri/visok-rtp/, /slot-igri/novi/, /kazino-igri/rotativki/ listings: referenced in prose, never linked, so this pillar does not compete with the listing pages.
 - SITEMAP CHECK (08.09.2026): the sitemap has the /slot-igri/, /slot-igri/visok-rtp/, /slot-igri/novi/ and /kazino-igri/rotativki/ listings but NO mechanics pillar page for paylines/ways-to-win. This article fills that gap; no existing page targets „линии на печалба" as its primary query.
+
+## EXTERNAL CHECK (Step 7 — Gemini cross-model)
+Model gemini-3.1-pro-preview. Initial 05b → "Highly likely human-written, 90%" → human-likeness 90 → **PASS on pass 1** (≥ target 80); no Humaniser re-pass run. gemini column = human 90. 07-gemini-check-1.md persists as the record. Gemini's optional style suggestions (actionable-pivot subhead, citation clustering, aphoristic close, math rhythm) were NOT applied — the piece already cleared the threshold and each change carried regression risk. Orchestrator additionally web-verified the two precise research claims: Dixon et al. 2010 (skin-conductance parity for LDWs) and Graydon et al. 2018 ("58% chose the 115% PB LDW game", PMC6209046) both confirmed accurate; nothing resolved a flag (there are none).
 
 ## HUMAN-ACTION LIST (before publish)
 1. Confirm claims 1–9 against the source URLs above (2–3 min: universal game-math + the PMC LDW findings). All are stable, non-time-sensitive facts.
