@@ -3,14 +3,16 @@
   "run_started_utc": "2026-09-08T22:14:27Z",
   "run_finished_utc": null,
   "articles_written": null,
-  "prs_opened": [],
+  "prs_opened": [
+    24
+  ],
   "run_url": "https://claude.ai/code/session_01S1Na6N2WM1dkJYp17ehQBT",
-  "note": "daily run (recurring); batch=3; writing article 1/3 (Sweet Bonanza)",
+  "note": "daily run (recurring); article 1/3 Sweet Bonanza drafted (PR #24); writing article 2/3",
   "progress": {
     "phase": "writing",
-    "article_index": 1,
+    "article_index": 2,
     "article_total": 3,
-    "article_slug": "2026-09-08-sweet-bonanza",
+    "article_slug": "2026-09-08-pragmatic-play-provajdar",
     "stages": [
       "Synthesis",
       "Outline",

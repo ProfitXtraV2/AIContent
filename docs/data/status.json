@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-08T22:16:30Z",
+  "generated_utc": "2026-09-08T22:33:24Z",
   "buffer": {
-    "count": 14,
+    "count": 15,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 3,
-    "drafted": 12,
+    "in-progress": 2,
+    "drafted": 13,
     "approved": 2,
     "posted": 2,
     "failed": 1
@@ -344,7 +344,7 @@
     },
     {
       "id": "vk-0018",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Sweet Bonanza: RTP, волатилност и как се играе",
       "keywords_or_terms": "sweet bonanza, свит бонанза, sweet bonanza rtp",
@@ -354,9 +354,9 @@
       "drafted_date": "2026-09-08",
       "posted_date": "",
       "folder": "2026-09-08-sweet-bonanza",
-      "pr": "",
-      "gemini": "",
-      "notes": "TOP opp: 1100/kd0/commercial/up — clean slot-explainer pillar (Pragmatic), no page in sitemap; game-explainer scope (public game data, not operator T&C); RTP 96.48% default (configurable builds) web-verified",
+      "pr": "#24",
+      "gemini": "ai 25",
+      "notes": "TOP opp: 1100/kd0/commercial/up — clean slot-explainer pillar (Pragmatic), no page in sitemap; game-explainer scope (public game data, not operator T&C); RTP 96.48% default (configurable builds) web-verified · gate 93/100; HUMAN-LIKE; 1 in-text [VERIFY] (bonus-buy BG); Gemini high-variance HL 15→75→20, kept pass 1 (ai 25); PR #24; img:2 (hero+infographic, best score 98)",
       "opportunity": {
         "score": 95,
         "band": "Strong"
@@ -853,7 +853,7 @@
       }
     },
     {
-      "type": "review",
+      "type": "guide",
       "query": "Sweet Bonanza: RTP, волатилност и как се играе",
       "researched_keywords": "sweet bonanza, свит бонанза",
       "volume": "1100",
@@ -861,8 +861,8 @@
       "intent": "commercial",
       "trend": "up",
       "checked": "ahrefs",
-      "suggestion": "ТОП ВЪЗМОЖНОСТ: обем 1100 при kd0, възходящ (914 vs 763); чист slot-review pillar (Pragmatic); anti-cannibal vs /slot-igri/ листинг",
-      "status": "candidate",
+      "suggestion": "ТОП ВЪЗМОЖНОСТ: обем 1100 при kd0, възходящ (914 vs 763); НАПИСАН като slot-explainer guide (публична игрална информация, не оператор review) — RTP 96.48%+конфиг. версии, pay-anywhere/tumble/множители, честен ъгъл за конфигурируем RTP + bonus buy (vk-0018, PR #24)",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 95,
