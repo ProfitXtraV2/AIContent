@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 520" width="600" height="520" role="img" aria-label="Стълбица на покер ръцете от най-слабата (висока карта) до най-силната (роял флъш)">
+  <title>Стълбица на покер ръцете: от висока карта до роял флъш</title>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="520" rx="12" ry="12" fill="url(#bg2)"/>
+
+  <!-- Title -->
+  <text x="300" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#1e3a5f" text-anchor="middle">Стълбица на ръцете (слабо → силно)</text>
+  <text x="300" y="52" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">Важи за всички формати на казино покер</text>
+
+  <!-- Hand rows — 10 rows, starting weak -->
+  <!-- Row 1: висока карта -->
+  <rect x="30" y="64" width="540" height="38" rx="6" fill="#f1f5f9"/>
+  <rect x="30" y="64" width="8" height="38" rx="3" fill="#94a3b8"/>
+  <text x="50" y="82" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#374151">1</text>
+  <text x="70" y="82" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#374151">Висока карта</text>
+  <text x="70" y="96" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280">Няма комбинация — печели най-голямата карта</text>
+  <text x="570" y="86" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#94a3b8" text-anchor="end">най-слабо</text>
+
+  <!-- Row 2: чифт -->
+  <rect x="30" y="108" width="540" height="38" rx="6" fill="#f1f5f9"/>
+  <rect x="30" y="108" width="8" height="38" rx="3" fill="#64748b"/>
+  <text x="50" y="126" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#374151">2</text>
+  <text x="70" y="126" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#374151">Чифт</text>
+  <text x="70" y="140" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280">Две еднакви карти</text>
+
+  <!-- Row 3: два чифта -->
+  <rect x="30" y="152" width="540" height="38" rx="6" fill="#f1f5f9"/>
+  <rect x="30" y="152" width="8" height="38" rx="3" fill="#475569"/>
+  <text x="50" y="170" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#374151">3</text>
+  <text x="70" y="170" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#374151">Два чифта</text>
+  <text x="70" y="184" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280">Два отделни чифта</text>
+
+  <!-- Row 4: трипс -->
+  <rect x="30" y="196" width="540" height="38" rx="6" fill="#eff6ff"/>
+  <rect x="30" y="196" width="8" height="38" rx="3" fill="#3b82f6"/>
+  <text x="50" y="214" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#374151">4</text>
+  <text x="70" y="214" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#1d4ed8">Трипс</text>
+  <text x="70" y="228" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280">Три еднакви карти</text>
+
+  <!-- Row 5: кента -->
+  <rect x="30" y="240" width="540" height="38" rx="6" fill="#eff6ff"/>
+  <rect x="30" y="240" width="8" height="38" rx="3" fill="#2563eb"/>
+  <text x="50" y="258" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#374151">5</text>
+  <text x="70" y="258" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#1d4ed8">Кента</text>
+  <text x="70" y="272" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280">Пет поредни от смесени бои</text>
+
+  <!-- Row 6: флъш -->
+  <rect x="30" y="284" width="540" height="38" rx="6" fill="#eff6ff"/>
+  <rect x="30" y="284" width="8" height="38" rx="3" fill="#1d4ed8"/>
+  <text x="50" y="302" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#374151">6</text>
+  <text x="70" y="302" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#1d4ed8">Флъш</text>
+  <text x="70" y="316" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280">Пет от една боя</text>
+
+  <!-- Row 7: фул хаус -->
+  <rect x="30" y="328" width="540" height="38" rx="6" fill="#fef3c7"/>
+  <rect x="30" y="328" width="8" height="38" rx="3" fill="#d97706"/>
+  <text x="50" y="346" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#374151">7</text>
+  <text x="70" y="346" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#b45309">Фул хаус</text>
+  <text x="70" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280">Трипс и чифт заедно</text>
+
+  <!-- Row 8: каре -->
+  <rect x="30" y="372" width="540" height="38" rx="6" fill="#fef3c7"/>
+  <rect x="30" y="372" width="8" height="38" rx="3" fill="#b45309"/>
+  <text x="50" y="390" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#374151">8</text>
+  <text x="70" y="390" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#b45309">Каре</text>
+  <text x="70" y="404" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280">Четири еднакви карти</text>
+
+  <!-- Row 9: стрейт флъш -->
+  <rect x="30" y="416" width="540" height="38" rx="6" fill="#fdf4ff"/>
+  <rect x="30" y="416" width="8" height="38" rx="3" fill="#9333ea"/>
+  <text x="50" y="434" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#374151">9</text>
+  <text x="70" y="434" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#7e22ce">Стрейт флъш</text>
+  <text x="70" y="448" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280">Пет поредни от една боя</text>
+
+  <!-- Row 10: роял флъш -->
+  <rect x="30" y="460" width="540" height="48" rx="6" fill="#fdf4ff" stroke="#9333ea" stroke-width="1.5"/>
+  <rect x="30" y="460" width="8" height="48" rx="3" fill="#6d28d9"/>
+  <text x="50" y="481" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#374151">10</text>
+  <text x="70" y="481" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="800" fill="#6d28d9">Роял флъш</text>
+  <text x="70" y="497" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280">Десетка, вале, дама, поп и асо от една боя</text>
+  <text x="570" y="487" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9333ea" font-weight="700" text-anchor="end">най-силно</text>
+</svg>
