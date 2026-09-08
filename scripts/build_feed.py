@@ -23,3 +23,31 @@ ARTICLES_DIR = "VsichkiKazina/articles"
 def slug_from_folder(folder):
     """Article slug = folder with any leading YYYY-MM-DD- stripped."""
     return re.sub(r"^\d{4}-\d{2}-\d{2}-", "", folder.strip())
+
+
+def parse_final_draft(md_text):
+    """Split a 05b draft into its 'Title tag:'/'Meta description:' header and the body
+    (from the first H1 on). Missing header fields return empty strings."""
+    parts = md_text.split("\n---\n", 1)
+    if len(parts) == 2:
+        head, rest = parts
+    else:
+        head, rest = "", md_text
+    title_tag = meta_description = ""
+    for line in head.splitlines():
+        low = line.lower()
+        if low.startswith("title tag:"):
+            title_tag = line.split(":", 1)[1].strip()
+        elif low.startswith("meta description:"):
+            meta_description = line.split(":", 1)[1].strip()
+    body_lines = rest.strip().splitlines()
+    # body starts at the first H1 if present, else the whole remainder
+    start = next((i for i, l in enumerate(body_lines) if l.startswith("# ")), 0)
+    body = "\n".join(body_lines[start:]).strip()
+    h1 = ""
+    for line in body.splitlines():
+        if line.startswith("# "):
+            h1 = line[2:].strip()
+            break
+    return {"title_tag": title_tag, "meta_description": meta_description,
+            "h1": h1, "body": body}
