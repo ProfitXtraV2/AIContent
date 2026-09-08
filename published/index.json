@@ -1,6 +1,14 @@
 {
   "schema_version": 1,
-  "count": 0,
-  "articles": [],
-  "generated_utc": "2026-09-08T18:02:16Z"
+  "count": 1,
+  "articles": [
+    {
+      "slug": "kak-raboti-razigravaneto",
+      "title": "Как работи изискването за разиграване (wagering)",
+      "date_modified": "2026-09-07",
+      "content_hash": "e78339d5580b8b0be22ec7b777cd185b2697a02be5fff35947566bcfdac1bdc6",
+      "status": "approved"
+    }
+  ],
+  "generated_utc": "2026-09-08T19:28:11Z"
 }
