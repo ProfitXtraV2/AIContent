@@ -86,7 +86,7 @@ The image test run confirmed the same `GEMINI_API_KEY` also does **image generat
 
 | Purpose | Script | Model (env override) | Notes |
 |---------|--------|----------------------|-------|
-| Generate decorative hero | `gemini_image_gen.py` | `gemini-2.5-flash-image` (`GEMINI_IMAGE_MODEL`) | Returns inline base64 `image/png` via `:generateContent`; converted to WebP < 100 KB with Pillow. |
+| Generate decorative hero | `gemini_image_gen.py` | **`gemini-3-pro-image`** (`GEMINI_IMAGE_MODEL`); falls back to `gemini-2.5-flash-image` if unavailable | Returns inline base64 image via `:generateContent`; converted to WebP < 100 KB with Pillow. |
 | Visual review of image(s) | `gemini_image_review.py` | `gemini-3.1-pro-preview` (`GEMINI_VISION_MODEL`) | Raster sent as `inline_data`; SVG sent as source text so numbers are checkable. |
 
 Notes:

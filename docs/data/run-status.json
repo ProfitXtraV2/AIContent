@@ -1,17 +1,17 @@
 {
   "state": "idle",
-  "run_started_utc": "2026-09-08T08:10:00Z",
-  "run_finished_utc": "2026-09-08T09:49:41Z",
-  "articles_written": 3,
-  "prs_opened": [17, 18, 19],
-  "run_url": "https://claude.ai/code/session_0195pZhtkPTykAGRBUoYnKoh",
-  "note": "Daily run 2026-09-08 (recurring fire #2): wrote 3 NEW distinct guide pillars per the buffer-floor policy (buffer was 13/10; floor is not a cap). vk-0015 Нови казино игри 2026 (PR #17, Gemini ai 65 — evergreen evaluation-framework reframe, micro-stakes RTP; 1 [VERIFY] bonus-buy BG), vk-0016 Кено (PR #18, Gemini ai 80 — honest 'highest house edge' angle; 2 [VERIFY] paytable odds), vk-0017 Линии на печалба (PR #19, Gemini human 90 PASS pass-1 — paylines vs ways-to-win, losses-disguised-as-wins with web-verified research; 0 flags). All drafted, editorial voice signed Георги Тодоров, gate 92-95/100, full Gemini Step-7 audit trail (keep-best applied on vk-0015/16). No in-progress rows to reconcile at start; no open human-backlog rows to enrich. No Ahrefs re-pull (bank 1 day old, ample candidates; ~8080 units conserved). Noted human scope-expansion (commit 9a5f410): provider/game explainers + slot-title review-guides now writable — unblocks Sweet Bonanza/Pragmatic/Amusnet etc. for next fires. Buffer now 16/10. Human owns Step 6 + publishing; nothing posted/merged/resolved. Auto-subscribed to PR #18 (no CI, no comments — nothing to drive).",
+  "run_started_utc": "2026-09-08T13:30:00Z",
+  "run_finished_utc": "2026-09-08T14:15:00Z",
+  "articles_written": 0,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01SV7nBQRELREE514GmPqcbL",
+  "note": "backfilled images on 3 article(s): vk-0015 (novi-kazino-igri-2026, hero+SVG infographic, score 100), vk-0007 (progresivni-dzhakpoti, hero+SVG infographic, best score 95), vk-0012 (bakara-pravila, hero+SVG infographic, score 100). PRs updated: #17, #8, #14. Image model: gemini-3-pro-image. 9 imageless review-ready articles remain for future backfill fires.",
   "progress": {
     "phase": "done",
-    "article_index": 3,
-    "article_total": 3,
+    "article_index": null,
+    "article_total": null,
     "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Verification","PR"],
+    "stages": [],
     "stage_index": null,
     "stage": null
   }

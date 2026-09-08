@@ -24,8 +24,13 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
-# Image model confirmed working by the image test run (see scripts/GEMINI_ENDPOINT.md).
-DEFAULT_MODEL = os.environ.get("GEMINI_IMAGE_MODEL", "gemini-2.5-flash-image")
+# Image model (see scripts/GEMINI_ENDPOINT.md). Default is the Gemini 3 Pro image model per
+# request; override with GEMINI_IMAGE_MODEL. (gemini-2.5-flash-image / "Nano Banana" was the
+# previously validated default and remains a working fallback if a run needs it.)
+DEFAULT_MODEL = os.environ.get("GEMINI_IMAGE_MODEL", "gemini-3-pro-image")
+# Proven fallback if the primary model id is unavailable on the key (so a run still gets an
+# image rather than none). Skipped when it equals the primary.
+FALLBACK_MODEL = "gemini-2.5-flash-image"
 API_TMPL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 
 
@@ -103,32 +108,42 @@ def main():
     prompt = sys.argv[1]
     out = Path(sys.argv[2])
     max_kb = int(sys.argv[3]) if len(sys.argv) > 3 else 100
-    url = API_TMPL.format(model=DEFAULT_MODEL)
 
-    data = None
-    try:
-        data = _request(url, key, prompt, with_modalities=True)
-    except urllib.error.HTTPError as e:
-        # Some models reject responseModalities; retry once without it before giving up.
-        if e.code == 400:
+    # Try the primary model, then the proven fallback, so a run still gets an image if the
+    # primary id is unavailable on the key.
+    models = [DEFAULT_MODEL] + ([FALLBACK_MODEL] if FALLBACK_MODEL != DEFAULT_MODEL else [])
+    raw, used, errors = None, None, []
+    for model in models:
+        url = API_TMPL.format(model=model)
+        try:
             try:
-                data = _request(url, key, prompt, with_modalities=False)
-            except Exception as e2:  # noqa: BLE001
-                print(f"GEMINI_ERROR: HTTP retry failed {e2}", file=sys.stderr)
-                return 2
-        else:
-            print(f"GEMINI_ERROR: HTTP {e.code} {e.read()[:300]!r}", file=sys.stderr)
-            return 2
-    except Exception as e:  # noqa: BLE001
-        print(f"GEMINI_ERROR: {e}", file=sys.stderr)
-        return 2
+                data = _request(url, key, prompt, with_modalities=True)
+            except urllib.error.HTTPError as e:
+                # Some models reject responseModalities; retry once without it.
+                if e.code == 400:
+                    data = _request(url, key, prompt, with_modalities=False)
+                else:
+                    raise
+        except urllib.error.HTTPError as e:
+            errors.append(f"{model}: HTTP {e.code} {e.read()[:200]!r}")
+            continue
+        except Exception as e:  # noqa: BLE001
+            errors.append(f"{model}: {e}")
+            continue
+        found = _find_inline_image(data)
+        if found:
+            _mime, raw = found
+            used = model
+            break
+        errors.append(f"{model}: no inline image (text-only response)")
 
-    found = _find_inline_image(data)
-    if not found:
-        print("GEMINI_ERROR: no inline image in response (model returned text only)",
+    if raw is None:
+        print("GEMINI_ERROR: image gen failed for all models: " + " | ".join(errors),
               file=sys.stderr)
         return 2
-    _mime, raw = found
+    if used != DEFAULT_MODEL:
+        print(f"WARN: primary model {DEFAULT_MODEL} unavailable; used fallback {used}",
+              file=sys.stderr)
 
     out.parent.mkdir(parents=True, exist_ok=True)
     if out.suffix.lower() == ".webp" and _to_webp(raw, out, max_kb):
@@ -142,7 +157,7 @@ def main():
         print(f"WARN: {out.name} is {kb:.0f} KB (> {max_kb} KB cap) — Pillow/WebP conversion "
               f"failed; prefer the SVG infographic or re-run once Pillow is available.",
               file=sys.stderr)
-    print(f"{out}  ({kb:.1f} KB)")
+    print(f"{out}  ({kb:.1f} KB)  [model: {used}]")
     return 0
 
 

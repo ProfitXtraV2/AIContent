@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-08T11:18:51Z",
+  "generated_utc": "2026-09-08T13:47:42Z",
   "buffer": {
     "count": 15,
     "target": 10,
@@ -28,7 +28,7 @@
       "folder": "2026-09-07-kak-raboti-razigravaneto",
       "pr": "#1",
       "gemini": "human 85",
-      "notes": "gate 89/100; HUMAN-LIKE; 0 flags; Gemini Step-7 backfill: Humaniser ×2 → Likely human-written 85%",
+      "notes": "gate 89/100; HUMAN-LIKE; 0 flags; Gemini Step-7 backfill: Humaniser ×2 → Likely human-written 85%; img:2 (hero+infographic, score 100)",
       "opportunity": null
     },
     {
@@ -82,7 +82,7 @@
       "folder": "2026-09-07-bonus-bez-depozit-2026",
       "pr": "#5",
       "gemini": "human 85",
-      "notes": "gate 90/100; HUMAN-LIKE 50/60; 0 flags; no-deposit pillar; folds 3 near-dups; anti-cannibal note vs listing /bonusi/bez-depozit/; Gemini Step-7 backfill: Humaniser ×1 → Likely human-written 85%",
+      "notes": "gate 90/100; HUMAN-LIKE 50/60; 0 flags; no-deposit pillar; folds 3 near-dups; anti-cannibal note vs listing /bonusi/bez-depozit/; Gemini Step-7 backfill: Humaniser ×1 → Likely human-written 85%; img:2 (hero+infographic, score 100)",
       "opportunity": {
         "score": 76,
         "band": "Strong"
@@ -102,7 +102,7 @@
       "folder": "2026-09-07-novo-onlajn-kazino",
       "pr": "#6",
       "gemini": "human 85",
-      "notes": "gate 91/100; HUMAN-LIKE 51/60; 0 flags; evaluation framework (not a list); anti-cannibal note vs /novi-kazina/ + 2 blog guides; Gemini Step-7 backfill: Humaniser ×2 → Likely human-written 85%",
+      "notes": "gate 91/100; HUMAN-LIKE 51/60; 0 flags; evaluation framework (not a list); anti-cannibal note vs /novi-kazina/ + 2 blog guides; Gemini Step-7 backfill: Humaniser ×2 → Likely human-written 85%; img:2 (hero+infographic, score 100)",
       "opportunity": {
         "score": 77,
         "band": "Strong"
@@ -142,7 +142,7 @@
       "folder": "2026-09-07-progresivni-dzhakpoti",
       "pr": "#8",
       "gemini": "human 85",
-      "notes": "„джакпот\" 500/kd0/up + „джакпот казино\" 200/commercial/up; no existing jackpot page — clean pillar · gate 95/100; HUMAN-LIKE 51/60; 0 flags; Gemini ×1 → human 85; PR #8",
+      "notes": "„джакпот\" 500/kd0/up + „джакпот казино\" 200/commercial/up; no existing jackpot page — clean pillar · gate 95/100; HUMAN-LIKE 51/60; 0 flags; Gemini ×1 → human 85; PR #8; img:2 (hero+infographic, best score 95)",
       "opportunity": {
         "score": 65,
         "band": "Good"
@@ -236,7 +236,7 @@
       "folder": "2026-09-08-bakara-pravila",
       "pr": "#14",
       "gemini": "human 90",
-      "notes": "„бакара\" 500/kd0/informational/flat — clean pillar, no baccarat page in sitemap; distinct from poker (vk-0008) & blackjack (vk-0009) · gate 93/100; HUMAN-LIKE 52/60; 0 flags; Gemini ×1 → human 90 (PASS pass-1, initial kept); PR #14",
+      "notes": "„бакара\" 500/kd0/informational/flat — clean pillar, no baccarat page in sitemap; distinct from poker (vk-0008) & blackjack (vk-0009) · gate 93/100; HUMAN-LIKE 52/60; 0 flags; Gemini ×1 → human 90 (PASS pass-1, initial kept); PR #14; img:2 (hero+infographic, score 100)",
       "opportunity": {
         "score": 65,
         "band": "Good"
@@ -296,7 +296,7 @@
       "folder": "2026-09-08-novi-kazino-igri-2026",
       "pr": "#17",
       "gemini": "ai 65",
-      "notes": "Strong opp 78; evergreen evaluation-framework guide (NOT a title listing) — RTP/волатилност/механика of any new game + 2026 format landscape (crash, Megaways, cluster, hold&win, live game shows); anti-cannibal vs listing /slot-igri/novi/ (prose only) + /kazino-igri/ · gate 93/100; HUMAN-LIKE ~50/60; 1 in-text flag [VERIFY bonus-buy BG]; Gemini ×2 passes 25→15→35, kept pass 2 (ai 65, high-variance); micro-stakes RTP reframe; PR #17",
+      "notes": "Strong opp 78; evergreen evaluation-framework guide (NOT a title listing) — RTP/волатилност/механика of any new game + 2026 format landscape (crash, Megaways, cluster, hold&win, live game shows); anti-cannibal vs listing /slot-igri/novi/ (prose only) + /kazino-igri/ · gate 93/100; HUMAN-LIKE ~50/60; 1 in-text flag [VERIFY bonus-buy BG]; Gemini ×2 passes 25→15→35, kept pass 2 (ai 65, high-variance); micro-stakes RTP reframe; PR #17; img:2 (hero+infographic, score 100)",
       "opportunity": {
         "score": 78,
         "band": "Strong"
