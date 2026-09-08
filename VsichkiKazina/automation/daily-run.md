@@ -38,7 +38,18 @@ connection reset). Therefore, for now:
   depend on operator terms/licence data. Do NOT attempt them (they will fail on geo-block).
   Leave them in the backlog with a note `needs source pack / BG route`; fill the batch
   with guides instead. Never fabricate operator facts to force one through.
-- This scope is a single switch: when sourcing is solved, allow all types again.
+- **Game & provider explainers ARE in scope — do NOT defer them.** Specific slots (e.g.
+  „Sweet Bonanza", „20 Super Hot"), game types (бакара, кено, крас игри), and provider
+  profiles (Pragmatic Play, Amusnet/EGT) are `guide`-type and writable. Their facts — RTP,
+  volatility band, mechanics/features, max win, provider background — come from the
+  **provider's own site + international game databases**, NOT from geo-blocked BG operator
+  T&C or the НАП register. Write them as educational how-it-works guides (they are NOT
+  operator reviews and need no operator licensing/bonus terms). Source every specific figure
+  (e.g. an exact RTP %) from a reachable page; if one cannot be verified, mark it `[VERIFY]`
+  — never fabricate. So high-opportunity slot/provider keywords should be WRITTEN, not
+  skipped. (Only truly operator/НАП-list-dependent topics like a ranked "лицензирани казина"
+  table are deferred — but the same intent can be a writable "how to check a licence" guide.)
+- This scope is a single switch: when full operator sourcing is solved, allow all types again.
 
 ## Brand conventions (every article)
 - Byline/author is ALWAYS **Георги Тодоров** — never "Екипът на Всички Казина" or a
