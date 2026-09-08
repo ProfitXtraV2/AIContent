@@ -61,6 +61,7 @@
   th, td { padding: .6rem .65rem; text-align: left; border-bottom: 1px solid var(--line); }
   th { color: var(--muted); font-weight: 600; font-size: .7rem; text-transform: uppercase;
        letter-spacing: .06em; background: #f7f9fc; }
+  th[title] { cursor: help; text-decoration: underline dotted; text-underline-offset: 3px; }
   thead th:first-child { border-top-left-radius: 8px; }
   thead th:last-child { border-top-right-radius: 8px; }
   tbody tr:hover { background: #f5f8ff; }
@@ -73,6 +74,20 @@
   .st-posted { background: #eef1f6; color: #64748b; }
   .st-failed { background: #fdeaea; color: #c0392b; }
   .st-in-progress { background: #fef3e2; color: #b3730a; }
+  .op { font-size: .72rem; padding: .14rem .45rem; border-radius: 6px; font-weight: 600; white-space: nowrap; }
+  .op-Strong { background: #e7f8ee; color: #0f8a4d; }
+  .op-Good { background: #e4f1ff; color: #1668c7; }
+  .op-Moderate { background: #fef3e2; color: #b3730a; }
+  .op-Weak { background: #f1f4f9; color: #64748b; }
+  .chk { font-size: .68rem; padding: .12rem .42rem; border-radius: 999px; white-space: nowrap; }
+  .chk-ahrefs { background: #e7f8ee; color: #0f8a4d; }
+  .chk-web { background: #e4f1ff; color: #1668c7; }
+  .chk-none { background: #f1f4f9; color: #94a3b8; }
+  .gem { font-size: .7rem; padding: .14rem .5rem; border-radius: 999px; font-weight: 600; white-space: nowrap; }
+  .gem-pass { background: #e7f8ee; color: #0f8a4d; }
+  .gem-warn { background: #fef3e2; color: #b3730a; }
+  td .sugg { color: var(--muted); font-size: .82rem; }
+  .num { text-align: right; font-variant-numeric: tabular-nums; }
   .empty { color: var(--muted); padding: 1.25rem .2rem; }
 
   .tabs { display: flex; flex-wrap: wrap; gap: .3rem; border-bottom: 1px solid var(--line);
@@ -159,13 +174,40 @@ const LABELS = {
   routine: "Run / routine", backlog: "Topic backlog", queue: "Content queue"
 };
 
+// Hover explanations for table column headers (shown as native tooltips).
+const TIPS = {
+  volume: "Vol — monthly search volume in Bulgaria (Ahrefs): how many people search this keyword per month. Higher = more demand / potential traffic.",
+  kd: "KD — Keyword Difficulty 0–100 (Ahrefs): how hard it is to rank #1. Higher = more competition.",
+  opportunity: "Opportunity — our combined score from Vol × (1−KD): high volume + achievable difficulty = Strong. In short: is it worth writing?",
+  gemini: "Gemini — cross-model AI-detection score. Green ✓ = ≥80% human-likeness (passed); amber = below the 80 target; '— not run' = not yet checked.",
+  checked: "Checked — how the metrics were obtained: ✓ Ahrefs (real API data), web (fallback estimate), or unchecked.",
+  intent: "Intent — search intent (Ahrefs): informational / commercial / transactional / navigational.",
+  trend: "Trend — search-volume direction over time (up / flat / down).",
+  source: "Source — where the topic came from: your backlog or the AI research bank.",
+  keywords_or_terms: "The keywords this article/topic targets.",
+  researched_keywords: "The keywords researched for this candidate.",
+  status: "Lifecycle status of the article.",
+  ahrefs_note: "Ahrefs verdict + a stronger-variant suggestion if the keyword is weak.",
+  suggestion: "One-line rating / verdict for the keyword.",
+  priority: "Your priority order (lower = written first).",
+  query: "The article title / topic.",
+  pr: "Pull request number.",
+  links: "Links to the PR and the article's files in the repo.",
+};
+
 function nextRunFromSchedule(sched) {
-  // cron fires daily at a fixed UTC hour:minute. Find the next future occurrence.
+  // cron fires at one or more fixed UTC hours/day. Find the next future occurrence.
   const now = new Date();
-  const t = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(),
-                              sched.cron_utc_hour, sched.cron_utc_minute || 0, 0));
-  if (t <= now) t.setUTCDate(t.getUTCDate() + 1);
-  return t;
+  const hours = sched.cron_utc_hours || [sched.cron_utc_hour];
+  let best = null;
+  for (let d = 0; d < 2; d++) {
+    for (const h of hours) {
+      const t = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(),
+                                  now.getUTCDate() + d, h, sched.cron_utc_minute || 0, 0));
+      if (t > now && (!best || t < best)) best = t;
+    }
+  }
+  return best;
 }
 
 function fmtSofia(d) {
@@ -212,11 +254,42 @@ async function fetchRunStatus() {
   return (await fetch('./data/run-status.json?_=' + Date.now())).json();  // Pages fallback
 }
 
+// Open content PRs = articles awaiting review (drafts live in their PR until merged).
+const PRS_API = 'https://api.github.com/repos/ProfitXtraV2/AIContent/pulls?state=open&per_page=50';
+let PR_CACHE = null, TICK = 0;
+
+async function fetchOpenPRs() {
+  try {
+    const arr = await (await fetch(PRS_API + '&_=' + Date.now())).json();
+    if (!Array.isArray(arr)) return null;   // rate-limited responses are objects
+    return arr
+      .filter(p => ((p.head && p.head.ref) || '').startsWith('content/'))
+      .map(p => ({ number: p.number, title: p.title, url: p.html_url,
+                   branch: p.head.ref, created_at: p.created_at,
+                   failed: /^\[FAILED\]/i.test(p.title || '') }));
+  } catch (e) { return null; }
+}
+
+function renderPRs(rows) {
+  if (!rows || !rows.length)
+    return '<div class="empty">No open review PRs — drafted articles awaiting your review appear here.</div>';
+  const body = rows.map(p => {
+    const chip = p.failed ? '<span class="st st-failed">failed</span>'
+                          : '<span class="st st-drafted">review</span>';
+    return `<tr><td>${chip}</td>` +
+      `<td><a href="${p.url}" target="_blank" rel="noopener">${p.title}</a></td>` +
+      `<td><a href="${p.url}" target="_blank">#${p.number}</a></td><td>${ago(p.created_at)}</td></tr>`;
+  }).join('');
+  return `<table><thead><tr><th>Status</th><th>Article (PR)</th><th>PR</th><th>Opened</th></tr></thead><tbody>${body}</tbody></table>`;
+}
+
 function renderSteps(p) {
   const el = document.getElementById('runSteps');
-  if (!p || !p.stages) { el.style.display = 'none'; return; }
+  // Only show the stage tracker when the run is actually reporting a stage; otherwise a
+  // static full row looks stuck. (Per-stage detail is best-effort — see "View run".)
+  if (!p || !p.stages || p.stage_index == null) { el.style.display = 'none'; return; }
   el.style.display = 'flex';
-  const idx = (p.stage_index != null) ? p.stage_index : -1;
+  const idx = p.stage_index;
   el.innerHTML = p.stages.map((name, i) => {
     const cls = i < idx ? 'done' : (i === idx ? 'current' : '');
     return `<span class="step ${cls}">${name}</span>`;
@@ -229,14 +302,16 @@ async function loadRunStatus() {
   try { r = await fetchRunStatus(); }
   catch (e) { el.style.display = 'none'; document.getElementById('runSteps').style.display = 'none'; return; }
   el.style.display = 'flex';
-  const link = r.run_url ? `<a href="${r.run_url}" target="_blank" rel="noopener">View run ↗</a>` : '';
+  // Each run is its own routine and can't reliably know its own URL, so link to the
+  // Routines list (the running one is highlighted there) rather than a stale per-run URL.
+  const link = `<a href="https://claude.ai/code/routines/trig_019cfW1QpXykZkwG8XrotCtQ" target="_blank" rel="noopener">View run ↗</a>`;
   if (r.state === 'running') {
     el.className = 'run-banner running';
     const p = r.progress || {};
     let where = '';
     if (p.article_total) where += ` — article ${p.article_index || 1}/${p.article_total}`;
     if (p.article_slug) where += `: ${p.article_slug}`;
-    if (p.stage) where += ` · ${p.stage}`;
+    where += p.stage ? ` · ${p.stage}` : (p.article_total ? ' · writing…' : '');
     el.innerHTML = `<span class="live"></span><span><b>Run in progress</b>${where}` +
       `<span style="color:var(--muted)"> · started ${ago(r.run_started_utc)}</span></span>${link}`;
     renderSteps(p);
@@ -266,7 +341,8 @@ async function load() {
   card.className = 'card buffer ' + (b.ok ? 'ok' : 'low');
   document.getElementById('bufferBig').textContent = `${b.count} / ${b.target}`;
   document.getElementById('bufferBar').style.width = Math.min(100, 100 * b.count / b.target) + '%';
-  document.getElementById('bufferNote').textContent = b.ok ? '✓ Buffer full' : `Need ${b.deficit} more`;
+  document.getElementById('bufferNote').textContent =
+    b.ok ? `✓ ${b.count} ready (min ${b.target})` : `below minimum — need ${b.deficit} more`;
 
   // Next run
   const sched = meta.schedule;
@@ -283,56 +359,111 @@ async function load() {
     .map(([k, v]) => `<span class="pill">${k}: <b>${v}</b></span>`).join('');
   document.getElementById('lastGen').textContent = 'Data ' + (s.generated_utc || '');
 
-  // Tabs — ordered by importance (most actionable first)
+  // Everything is driven from main's content-queue.md + topic-backlog.md (via status.json).
   const allRows = s.rows || [];
   const backlog = s.backlog || [];
   const research = s.research || [];
   const base = s.articles_base_url || '';
+  const repo = (meta.links && meta.links.repo) || 'https://github.com/ProfitXtraV2/AIContent';
+  const REVIEW_STATES = ['in-progress', 'drafted', 'failed'];   // need attention before deploy
+  const HIDE_BACKLOG = ['written', 'used', 'queued'];           // consumed → drop from backlog
   const TABS = [
     { key: 'deploy', cls: 'deploy', label: 'Articles ready to deploy',
       rows: allRows.filter(r => r.status === 'approved'), kind: 'article' },
     { key: 'review', cls: 'review', label: 'Articles for review',
-      rows: allRows.filter(r => r.status === 'drafted'), kind: 'article' },
+      rows: allRows.filter(r => REVIEW_STATES.includes(r.status)), kind: 'article' },
     { key: 'backlog', cls: '', label: 'Backlog keywords',
-      rows: backlog.filter(r => (r.status || 'open') !== 'used'), kind: 'backlog' },
+      rows: backlog.filter(r => !HIDE_BACKLOG.includes((r.status || 'open').toLowerCase())), kind: 'backlog' },
     { key: 'research', cls: '', label: 'AI backlog keywords',
       rows: research.filter(r => (r.status || 'candidate') !== 'used'), kind: 'research' },
   ];
 
   function articleLinks(r) {
     const parts = [];
-    if (r.folder && base) parts.push(`<a href="${base}${r.folder}" target="_blank" rel="noopener">📁 files</a>`);
-    if (r.pr && r.pr.startsWith('#')) parts.push(`<a href="${links.prs || '#'}" target="_blank">PR ${r.pr}</a>`);
+    // Article files live on the PR branch (content/<folder>) until the article is posted
+    // (then they're on main). Link accordingly so the URLs don't 404.
+    if (r.folder) {
+      const ref = r.status === 'posted' ? 'main' : ('content/' + r.folder);
+      const dir = `VsichkiKazina/articles/${r.folder}`;
+      // 📖 read = the finished draft rendered by GitHub (human-readable, for review)
+      parts.push(`<a href="${repo}/blob/${ref}/${dir}/05b-final-draft.md" target="_blank" rel="noopener">📖 read</a>`);
+      parts.push(`<a href="${repo}/tree/${ref}/${dir}" target="_blank" rel="noopener">files</a>`);
+    }
+    if (r.pr && r.pr.startsWith('#'))
+      parts.push(`<a href="${repo}/pull/${r.pr.slice(1)}" target="_blank" rel="noopener">PR ${r.pr}</a>`);
     return `<span class="rlinks">${parts.join('') || '—'}</span>`;
+  }
+
+  function geminiBadge(v) {
+    v = (v || '').trim().toLowerCase();
+    if (!v) return '<span class="chk chk-none">— not run</span>';
+    if (v.startsWith('skip')) return '<span class="chk chk-none">skipped</span>';
+    const n = parseInt(((v.match(/(\d+)/) || [])[1]));
+    if (isNaN(n)) return `<span class="chk chk-none">${v}</span>`;
+    // normalise to human-likeness (higher = better); "ai Y" means Y% AI ⇒ 100−Y human.
+    const hl = v.startsWith('ai') ? (100 - n) : n;
+    const pass = hl >= 80;
+    return `<span class="gem ${pass ? 'gem-pass' : 'gem-warn'}">${pass ? '✓ ' : ''}${hl}% human</span>`;
   }
 
   function renderArticles(rows) {
     if (!rows.length) return '<div class="empty">Nothing here right now.</div>';
     const cols = [['status','Status'],['type','Type'],['query','Article'],
-      ['drafted_date','Drafted'],['posted_date','Posted'],['source','Source'],['links','Links']];
+      ['keywords_or_terms','Keywords used'],['volume','Vol'],['kd','KD'],['opportunity','Opportunity'],
+      ['source','Source'],['gemini','Gemini'],['links','Links']];
     const body = rows.map(r => '<tr>' + cols.map(([c]) => {
       if (c === 'links') return `<td>${articleLinks(r)}</td>`;
+      if (c === 'gemini') return `<td>${geminiBadge(r.gemini)}</td>`;
+      if (c === 'opportunity') return `<td>${opChip(r.opportunity)}</td>`;
       let v = r[c] || '';
       if (c === 'status') v = `<span class="st st-${v}">${v}</span>`;
-      return `<td>${v}</td>`;
+      const cls = (c === 'volume' || c === 'kd') ? ' class="num"' : '';
+      return `<td${cls}>${v}</td>`;
     }).join('') + '</tr>').join('');
-    return `<table><thead><tr>${cols.map(([, h]) => `<th>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table>`;
+    return `<table><thead><tr>${cols.map(([c, h]) => `<th${TIPS[c] ? ' title="' + TIPS[c] + '"' : ''}>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table>`;
   }
 
+  function opChip(o) {
+    if (!o) return '<span class="op op-Weak">n/a</span>';
+    return `<span class="op op-${o.band}">${o.band} · ${o.score}</span>`;
+  }
+  function chkBadge(v) {
+    v = (v || 'none').toLowerCase();
+    if (v === 'ahrefs') return '<span class="chk chk-ahrefs">✓ Ahrefs</span>';
+    if (v === 'web') return '<span class="chk chk-web">web</span>';
+    return '<span class="chk chk-none">unchecked</span>';
+  }
+  const byOpp = (a, b) => (b.opportunity ? b.opportunity.score : -1) - (a.opportunity ? a.opportunity.score : -1);
+
   function renderBacklog(rows) {
-    if (!rows.length) return '<div class="empty">Backlog is empty — add topics to topic-backlog.md.</div>';
-    const cols = [['priority','#'],['type','Type'],['query','Topic'],
-      ['keywords_or_terms','Keywords'],['status','Status'],['notes','Notes']];
-    const body = rows.map(r => '<tr>' + cols.map(([c]) => `<td>${r[c] || ''}</td>`).join('') + '</tr>').join('');
-    return `<table><thead><tr>${cols.map(([, h]) => `<th>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table>`;
+    if (!rows.length) return '<div class="empty">No pending backlog keywords — add topics to topic-backlog.md.</div>';
+    const cols = [['priority','#'],['type','Type'],['query','Topic'],['keywords_or_terms','Keywords'],
+      ['volume','Vol'],['kd','KD'],['opportunity','Opportunity'],['checked','Checked'],
+      ['ahrefs_note','Ahrefs verdict / suggestion'],['status','Status']];
+    const body = [...rows].sort(byOpp).map(r => '<tr>' + cols.map(([c]) => {
+      if (c === 'opportunity') return `<td>${opChip(r.opportunity)}</td>`;
+      if (c === 'checked') return `<td>${chkBadge(r.checked)}</td>`;
+      if (c === 'ahrefs_note') return `<td class="sugg">${r.ahrefs_note || ''}</td>`;
+      if (c === 'status') return `<td><span class="st st-${r.status === 'failed' ? 'failed' : 'in-progress'}">${r.status || 'open'}</span></td>`;
+      const cls = (c === 'volume' || c === 'kd') ? ' class="num"' : '';
+      return `<td${cls}>${r[c] || ''}</td>`;
+    }).join('') + '</tr>').join('');
+    return `<table><thead><tr>${cols.map(([c, h]) => `<th${TIPS[c] ? ' title="' + TIPS[c] + '"' : ''}>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table>`;
   }
 
   function renderResearch(rows) {
     if (!rows.length) return '<div class="empty">No AI-researched topics yet — the run refreshes this bank each day.</div>';
     const cols = [['type','Type'],['query','Topic'],['researched_keywords','Keywords'],
-      ['source_rationale','Why / source'],['status','Status'],['date_researched','Found']];
-    const body = rows.map(r => '<tr>' + cols.map(([c]) => `<td>${r[c] || ''}</td>`).join('') + '</tr>').join('');
-    return `<table><thead><tr>${cols.map(([, h]) => `<th>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table>`;
+      ['volume','Vol'],['kd','KD'],['opportunity','Opportunity'],['trend','Trend'],
+      ['checked','Checked'],['suggestion','Rating / suggestion'],['status','Status']];
+    const body = [...rows].sort(byOpp).map(r => '<tr>' + cols.map(([c]) => {
+      if (c === 'opportunity') return `<td>${opChip(r.opportunity)}</td>`;
+      if (c === 'checked') return `<td>${chkBadge(r.checked)}</td>`;
+      if (c === 'suggestion') return `<td class="sugg">${r.suggestion || r.source_rationale || ''}</td>`;
+      const cls = (c === 'volume' || c === 'kd') ? ' class="num"' : '';
+      return `<td${cls}>${r[c] || ''}</td>`;
+    }).join('') + '</tr>').join('');
+    return `<table><thead><tr>${cols.map(([c, h]) => `<th${TIPS[c] ? ' title="' + TIPS[c] + '"' : ''}>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table>`;
   }
 
   const tabsEl = document.getElementById('tabs');
@@ -344,6 +475,7 @@ async function load() {
     const t = TABS.find(x => x.key === key);
     contentEl.innerHTML = t.kind === 'backlog' ? renderBacklog(t.rows)
       : t.kind === 'research' ? renderResearch(t.rows)
+      : t.kind === 'prs' ? renderPRs(t.rows)
       : renderArticles(t.rows);
   }
   tabsEl.innerHTML = TABS.map(t =>
@@ -357,7 +489,9 @@ async function load() {
     'Autopilot keeps ≥10 written-but-unposted articles ready · dashboard regenerates each run.';
 }
 load();
-setInterval(load, 60000); // refresh next-run countdown + data each minute
+// 90s cadence keeps GitHub API usage (run-status every tick + PRs every 3rd tick)
+// under the 60 req/hr unauthenticated limit, with graceful fallbacks if hit.
+setInterval(load, 90000);
 </script>
 </body>
 </html>

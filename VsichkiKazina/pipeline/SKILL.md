@@ -54,6 +54,11 @@ BRAND = vsichkikazina (Всички Казина — vsichkikazina.bg):
   and NO sports predictions of any kind; a brief requesting match tips under
   this brand is out of scope and is returned, not run.
 - Output language: Bulgarian. Currency €. Regulator НАП.
+- Brand name: always written exactly **Всички Казина** in published copy (never a
+  transliteration like "Vsichki Kazina" or a variant/all-caps form).
+- Byline/author: ALWAYS **Георги Тодоров** — never "Екипът на Всички Казина" or any
+  team/editorial byline. Editorial voice may still be used for guides/news/comparisons,
+  but the piece is signed Георги Тодоров. The Brand Gate flags any other byline.
 - Content types: review / guide / news / comparison.
 - Internal links come from this approved set only: /kak-ocenyavame/
   /zakonno-li-e/ /otgovorna-igra/ /depoziti-i-teglenia/

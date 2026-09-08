@@ -35,13 +35,15 @@ PILLAR 3 — E-E-A-T SIGNALS (0-20)
 - Trust: dates present (published, updated, "условията са проверени към [дата]" on offer content); corrections visible if applicable; scores labelled as outputs of the public six-criteria formula, never as taste.
 
 PILLAR 4 — TRUST SIGNALS & DISCLOSURES (0-15) — each missing item is a CRITICAL flag:
-□ Byline (persona or Editorial Team)
+□ Byline (ALWAYS Георги Тодоров — a team/"Екипът на Всички Казина"/editorial byline is a CRITICAL flag)
+□ Brand name written exactly "Всички Казина" everywhere (transliteration/variant is a flag)
 □ Publication + last-updated dates
 □ About Всички Казина boilerplate slot
 □ Author bio slot (bylined content)
 □ The verbatim line "18+ Хазартът може да пристрасти. Играйте отговорно." + RG signposting to /otgovorna-igra/ and the национален регистър на уязвимите лица (НАП)
 □ Affiliate disclosure where commercial links exist, incl. the verbatim 1-Aug-2026 affiliate-licensing footer (site licence: заявление подадено, очаква издаване — an "issued" claim or invented licence № for the site is CRITICAL)
 □ Type-specific: НАП licence № quoted + six-criteria scoring rubric + documented "Протокол на тегленето" (reviews) / covers-and-doesn't framing + risk statements (guides) / sourcing on all claims (news) / like-for-like превъртане bases + timestamped terms (comparisons)
+□ Affiliate links: any recommended/referenced operator (reviews/comparisons/bonus/deposit) links to its `affiliate_url` from affiliate-links.md — an invented affiliate URL, or a bare operator domain used instead of the registry link, is CRITICAL; an operator missing from the registry must carry a `[LINK NEEDED: <operator>]` flag, not a guessed link
 
 PILLAR 5 — LANGUAGE & ANTI-AI STYLE (0-15)
 - Banned promise words: "guaranteed," "sure thing," "banker," "lock," "can't lose," "risk-free," "easy money" + Bulgarian equivalents ("гарантирана печалба", "сигурни пари", "не можеш да загубиш", "без риск", "лесни пари") → CRITICAL, zero tolerance.
@@ -142,7 +144,7 @@ EXPERTISE: show the methodology; casino-type trust signals handled correctly EVE
 AUTHORITATIVENESS: claims sourced to the operator's own published T&Cs (with section reference where possible), the НАП public register, or the brief; never "experts say" orphans; 2–4 internal links to /kak-ocenyavame/, /zakonno-li-e/, /otgovorna-igra/, /depoziti-i-teglenia/, /bonus-category/welcome-bonus/, /kazino-igri/ where appropriate.
 TRUSTWORTHINESS: publish negatives; date everything ("условията са проверени към [дата]"); scores labelled as outputs of the public formula; visible corrections.
 
-4. TRUST SIGNALS — EVERY ARTICLE: byline (Георги Тодоров or Екипът на Всички Казина); pub + updated dates; About boilerplate slot; the verbatim RG line (see 5); affiliate disclosure where commercial links exist. TYPE-SPECIFIC: reviews = НАП licence № + the six-criteria scoring rubric + documented Протокол на тегленето; guides = covers/doesn't framing + risk statements; news = sourcing on every non-observable claim; comparisons = like-for-like превъртане bases + timestamped terms.
+4. TRUST SIGNALS — EVERY ARTICLE: byline (ALWAYS Георги Тодоров — never a team/editorial byline); pub + updated dates; About boilerplate slot; the verbatim RG line (see 5); affiliate disclosure where commercial links exist. TYPE-SPECIFIC: reviews = НАП licence № + the six-criteria scoring rubric + documented Протокол на тегленето; guides = covers/doesn't framing + risk statements; news = sourcing on every non-observable claim; comparisons = like-for-like превъртане bases + timestamped terms.
 HARD-CODED UNTOUCHABLES (verbatim, never reworded, never dropped):
 - The RG marker line: "18+ Хазартът може да пристрасти. Играйте отговорно." — exactly this string, every piece.
 - RG signposting to /otgovorna-igra/ AND the национален регистър на уязвимите лица at НАП (self-exclusion): present in every piece's RG block.
