@@ -1,16 +1,16 @@
 {
-  "generated_utc": "2026-09-08T09:49:57Z",
+  "generated_utc": "2026-09-08T11:18:51Z",
   "buffer": {
-    "count": 16,
+    "count": 15,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 16,
+    "drafted": 15,
     "approved": 0,
-    "posted": 0,
+    "posted": 1,
     "failed": 1
   },
   "rows": [
@@ -50,7 +50,7 @@
     },
     {
       "id": "vk-0003",
-      "status": "drafted",
+      "status": "posted",
       "type": "guide",
       "query": "Безплатни казино игри: демо режим, RTP и капаните на „безплатното\"",
       "keywords_or_terms": "безплатни казино игри, демо режим, RTP, безплатни завъртания",
@@ -58,11 +58,11 @@
       "kd": "45",
       "source": "research",
       "drafted_date": "2026-09-07",
-      "posted_date": "",
+      "posted_date": "2026-09-08",
       "folder": "2026-09-07-bezplatni-kazino-igri",
       "pr": "#4",
       "gemini": "human 90",
-      "notes": "gate 90/100; HUMAN-LIKE 51/60; 0 flags; folds „с ротативки\"; anti-cannibal note vs /kazino-igri/ /slot-igri/; Gemini Step-7 override run (MAX_PASSES=5): baseline HL 30 → Humaniser pass 1 → HL 90 (Likely human-written 90%), PASS in 1 pass; kept pass-1",
+      "notes": "gate 90/100; HUMAN-LIKE 51/60; 0 flags; folds „с ротативки\"; anti-cannibal note vs /kazino-igri/ /slot-igri/; Gemini Step-7 override run (MAX_PASSES=5): baseline HL 30 → Humaniser pass 1 → HL 90 (Likely human-written 90%), PASS in 1 pass; kept pass-1; approved for deploy 2026-09-08 (human review: 0 flags, Gemini human 90); posted to live site 2026-09-08",
       "opportunity": {
         "score": 82,
         "band": "Strong"
