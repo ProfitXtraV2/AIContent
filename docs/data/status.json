@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-09T11:38:27Z",
+  "generated_utc": "2026-09-09T13:26:53Z",
   "buffer": {
     "count": 21,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 21,
-    "approved": 0,
+    "drafted": 20,
+    "approved": 1,
     "posted": 4,
     "failed": 1
   },
@@ -90,7 +90,7 @@
     },
     {
       "id": "vk-0005",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Ново онлайн казино: как да оцените новооткрит оператор",
       "keywords_or_terms": "ново онлайн казино, оценка на оператор, лиценз от НАП",
@@ -102,7 +102,7 @@
       "folder": "2026-09-07-novo-onlajn-kazino",
       "pr": "#6",
       "gemini": "human 85",
-      "notes": "gate 91/100; HUMAN-LIKE 51/60; 0 flags; evaluation framework (not a list); anti-cannibal note vs /novi-kazina/ + 2 blog guides; Gemini Step-7 backfill: Humaniser ×2 → Likely human-written 85%; img:2 (hero+infographic, score 100)",
+      "notes": "gate 91/100; HUMAN-LIKE 51/60; 0 flags; evaluation framework (not a list); anti-cannibal note vs /novi-kazina/ + 2 blog guides; Gemini Step-7 backfill: Humaniser ×2 → Likely human-written 85%; img:2 (hero+infographic, score 100); approved for deploy 2026-09-09 (human review: 0 flags, Gemini human 85, image review 100 PASS)",
       "opportunity": {
         "score": 77,
         "band": "Strong"
