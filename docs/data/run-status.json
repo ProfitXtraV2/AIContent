@@ -2,17 +2,18 @@
   "state": "running",
   "run_started_utc": "2026-09-09T22:14:42Z",
   "run_finished_utc": null,
-  "articles_written": 1,
+  "articles_written": 2,
   "prs_opened": [
-    33
+    33,
+    34
   ],
   "run_url": "https://claude.ai/code/session_012yS1tzRN4UGbmwsR2d8wcW",
-  "note": "recurring run 2026-09-09 (fire #5): article 1/3 drafted — крапс (PR #33, human 85). Writing article 2/3: Burning Hot.",
+  "note": "recurring run 2026-09-09 (fire #5): 2/3 drafted — крапс (PR #33, human 85), Burning Hot (PR #34, human 85). Writing article 3/3: Big Bass Bonanza.",
   "progress": {
     "phase": "writing",
-    "article_index": 2,
+    "article_index": 3,
     "article_total": 3,
-    "article_slug": "2026-09-09-burning-hot",
+    "article_slug": "2026-09-09-big-bass-bonanza",
     "stages": [
       "Synthesis",
       "Outline",
