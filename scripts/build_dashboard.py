@@ -80,9 +80,10 @@ def opportunity(volume, kd):
             else "Moderate" if score >= 25 else "Weak")
     return {"score": score, "band": band}
 
-# Schedule: the daily cron fires at this UTC hour (04:00 UTC ≈ 07:00 Europe/Sofia).
-SCHEDULE = {"cron_utc_hour": 4, "cron_utc_minute": 0,
-            "label": "Daily · 07:00 Europe/Sofia"}
+# Schedule: cron fires 3×/day at these UTC hours (22:00/03:00/07:00 UTC ≈ 01:00/06:00/10:00
+# Europe/Sofia in summer; drifts −1h in winter since cron is fixed-UTC).
+SCHEDULE = {"cron_utc_hours": [3, 7, 22],
+            "label": "3×/day · 01:00, 06:00, 10:00 Europe/Sofia"}
 
 # Maintain all dashboard links in one place.
 LINKS = {

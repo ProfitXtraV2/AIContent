@@ -1,0 +1,14 @@
+{
+  "job": "backfill-images",
+  "brand": "VsichkiKazina",
+  "started_utc": "2026-09-08T00:00:00Z",
+  "note": "backfilled images on 3 article(s): vk-0014 (Aviator, img:2, score 85, gemini-3-pro-image), vk-0008 (Покер, img:3, best score 75 — SVGs PASS, hero 75 MAX_PASSES), vk-0017 (Линии на печалба, img:3, score 85, gemini-3-pro-image)",
+  "progress": {
+    "stage_index": null,
+    "articles": [
+      {"id": "vk-0014", "folder": "2026-09-08-krash-igri-aviator", "images": 2, "best_score": 85, "image_model": "gemini-3-pro-image"},
+      {"id": "vk-0008", "folder": "2026-09-07-kak-se-igrae-poker-kazino", "images": 3, "best_score": 75, "image_model": "gemini-3-pro-image"},
+      {"id": "vk-0017", "folder": "2026-09-08-linii-na-pechalba", "images": 3, "best_score": 85, "image_model": "gemini-3-pro-image"}
+    ]
+  }
+}
