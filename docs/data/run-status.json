@@ -1,22 +1,18 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-08T22:14:27Z",
-  "run_finished_utc": "2026-09-08T22:58:27Z",
-  "articles_written": 3,
-  "prs_opened": [
-    24,
-    25,
-    26
-  ],
-  "run_url": "https://claude.ai/code/session_01S1Na6N2WM1dkJYp17ehQBT",
-  "note": "recurring fire #3 complete: 3 new game/provider explainers drafted — vk-0018 Sweet Bonanza (PR #24, ai 25, img:2 sc98), vk-0019 Pragmatic Play profile (PR #25, human 85 PASS, img:2 sc85), vk-0020 20 Super Hot (PR #26, ai 75, img:2 sc82). Game/provider-explainer scope (public game data). Buffer 14->17. 0 in-progress leftover; 0 open backlog rows; research bank still holds >=3 distinct candidates (no Ahrefs re-pull, conserving units).",
+  "state": "running",
+  "run_started_utc": "2026-09-09T03:13:05Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01EejbEPJEZn6bru83uViDL2",
+  "note": "daily run (recurring) 2026-09-09: 0 in-progress leftovers, 0 open backlog rows; selecting 3 game/provider explainer pillars from research bank (Amusnet/EGT profile 2000, Gates of Olympus 300, 40 Super Hot 300).",
   "progress": {
-    "phase": "done",
-    "article_index": null,
-    "article_total": null,
-    "article_slug": null,
-    "stages": [],
-    "stage_index": null,
-    "stage": null
+    "phase": "writing",
+    "article_index": 1,
+    "article_total": 3,
+    "article_slug": "2026-09-09-amusnet-egt-provajdar",
+    "stages": ["Synthesis", "Outline", "Author", "Humaniser", "SEO", "Brand Gate", "Light re-check", "Images", "Verification", "PR"],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }

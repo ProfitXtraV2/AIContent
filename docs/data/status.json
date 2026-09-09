@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-08T22:58:27Z",
+  "generated_utc": "2026-09-09T03:13:37Z",
   "buffer": {
     "count": 17,
     "target": 10,
@@ -7,7 +7,7 @@
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
+    "in-progress": 3,
     "drafted": 15,
     "approved": 2,
     "posted": 2,
@@ -400,6 +400,66 @@
       "opportunity": {
         "score": 61,
         "band": "Good"
+      }
+    },
+    {
+      "id": "vk-0021",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Amusnet (EGT): профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "amusnet, egt слотове, ротативки egt",
+      "volume": "2000",
+      "kd": "73",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-09-amusnet-egt-provajdar",
+      "pr": "",
+      "gemini": "",
+      "notes": "highest-volume bank candidate 2000/kd73/commercial/up; provider-profile pillar (hub, anchors EGT classics 20/40 Super Hot, Shining/Burning Crown); anti-cannibal vs /blog/games-providers/ (Amusnet-specific profile, distinct primary kw); public provider facts (site + game DBs), NOT geo-blocked operator T&C",
+      "opportunity": {
+        "score": 71,
+        "band": "Strong"
+      }
+    },
+    {
+      "id": "vk-0022",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Gates of Olympus: RTP, волатилност и как се играе",
+      "keywords_or_terms": "gates of olympus, гейтс ъв олимпус",
+      "volume": "300",
+      "kd": "69",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-09-gates-of-olympus",
+      "pr": "",
+      "gemini": "",
+      "notes": "300/kd69/commercial; Pragmatic hit slot-explainer, clean pillar (no page in sitemap); anchors to Pragmatic profile (vk-0019); public game data (pay-anywhere/tumble/Zeus множители/висока волатилност); RTP web-verify + [VERIFY] configurable build",
+      "opportunity": {
+        "score": 27,
+        "band": "Moderate"
+      }
+    },
+    {
+      "id": "vk-0023",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "40 Super Hot: RTP и джакпот функции (EGT/Amusnet)",
+      "keywords_or_terms": "40 super hot, 40 супер хот",
+      "volume": "300",
+      "kd": "62",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-09-40-super-hot",
+      "pr": "",
+      "gemini": "",
+      "notes": "300/kd62/transactional; EGT/Amusnet classic slot-explainer; distinct game+kw from 20 Super Hot (vk-0020) — 5x40 fixed lines vs 5x20; anchors to Amusnet profile (vk-0021 same batch); RTP 95.79% web-verify; Jackpot Cards + gamble",
+      "opportunity": {
+        "score": 30,
+        "band": "Moderate"
       }
     }
   ],
