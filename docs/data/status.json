@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-09T06:49:45Z",
+  "generated_utc": "2026-09-09T07:15:34Z",
   "buffer": {
     "count": 18,
     "target": 10,
@@ -7,7 +7,7 @@
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
+    "in-progress": 3,
     "drafted": 18,
     "approved": 0,
     "posted": 4,
@@ -460,6 +460,63 @@
       "opportunity": {
         "score": 30,
         "band": "Moderate"
+      }
+    },
+    {
+      "id": "vk-0024",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Рулетка: правила и популярни стратегии (вкл. Мартингейл)",
+      "keywords_or_terms": "как се играе рулетка, рулетка стратегия, мартингейл, система мартингейл",
+      "volume": "30",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-09-ruletka-pravila-strategii",
+      "pr": "",
+      "gemini": "",
+      "notes": "table-game rules+strategy pillar; cluster ~80; anti-cannibal vs listing /kazino-igri/ruletka/ (prose only); honest RG angle — strategies don't beat house edge",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0025",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Live game shows (Crazy Time, Monopoly Live): как се играят",
+      "keywords_or_terms": "crazy time, monopoly live, lightning roulette, live game show",
+      "volume": "200",
+      "kd": "76",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-09-live-game-shows",
+      "pr": "",
+      "gemini": "",
+      "notes": "live-dealer game-show format explainer (public game data); distinct format pillar; anti-cannibal vs listing /kazino-igri/kazino-na-zhivo/ (prose, not a listing)",
+      "opportunity": {
+        "score": 20,
+        "band": "Weak"
+      }
+    },
+    {
+      "id": "vk-0026",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Shining Crown: RTP и характеристики (EGT/Amusnet)",
+      "keywords_or_terms": "shining crown, шайнинг краун",
+      "volume": "200",
+      "kd": "64",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-09-shining-crown",
+      "pr": "",
+      "gemini": "",
+      "notes": "EGT/Amusnet classic slot-explainer (public game data, NOT operator T&C); clean pillar (no page in sitemap); anchors to Amusnet profile (vk-0021)",
+      "opportunity": {
+        "score": 24,
+        "band": "Weak"
       }
     }
   ],

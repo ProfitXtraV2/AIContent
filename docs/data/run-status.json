@@ -1,17 +1,17 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-09T03:13:05Z",
-  "run_finished_utc": "2026-09-09T03:50:01Z",
-  "articles_written": 3,
-  "prs_opened": [27, 28, 29],
-  "run_url": "https://claude.ai/code/session_01EejbEPJEZn6bru83uViDL2",
-  "note": "recurring run 2026-09-09 complete: 3 new game/provider explainers drafted — vk-0021 Amusnet/EGT profile (PR #27, human 85, img best 100), vk-0022 Gates of Olympus (PR #28, human 90, img 85), vk-0023 40 Super Hot (PR #29, human 85, img 82). Public game/provider data (provider sites + game DBs), NOT geo-blocked operator T&C/НАП. Buffer 17->20. 0 in-progress leftover; 0 open backlog rows; research bank still holds >=3 distinct candidates (no Ahrefs re-pull, conserving units).",
+  "state": "running",
+  "run_started_utc": "2026-09-09T07:14:39Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01T5UefzpN7w5wcUVJrEQSxj",
+  "note": "recurring run 2026-09-09 (fire #4): 0 in-progress leftovers, buffer 20 (floor 10 — keep building). Writing 3 new distinct pillars: рулетка правила+стратегия (vk-0024), live game shows (vk-0025), Shining Crown EGT explainer (vk-0026).",
   "progress": {
-    "phase": "done",
+    "phase": "starting",
     "article_index": null,
-    "article_total": null,
+    "article_total": 3,
     "article_slug": null,
-    "stages": [],
+    "stages": ["Synthesis", "Outline", "Author", "Humaniser", "SEO", "Brand Gate", "Light re-check", "Images", "Verification", "PR"],
     "stage_index": null,
     "stage": null
   }
