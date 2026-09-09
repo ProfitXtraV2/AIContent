@@ -8,13 +8,13 @@
   <text x="40" y="112" fill="#ffffff" font-size="19" font-weight="700">Домашно предимство по вид</text>
 
   <!-- European -->
-  <text x="40" y="150" fill="#cfe8dc" font-size="15">Европейска (37 джоба, един нул)</text>
+  <text x="40" y="150" fill="#cfe8dc" font-size="15">Европейска (37 джоба, една нула)</text>
   <rect x="40" y="160" width="700" height="26" rx="4" fill="#13533f"/>
   <rect x="40" y="160" width="189" height="26" rx="4" fill="#4caf7d"/>
   <text x="748" y="179" fill="#ffffff" font-size="16" font-weight="700" text-anchor="end">2.70%</text>
 
   <!-- American -->
-  <text x="40" y="214" fill="#cfe8dc" font-size="15">Американска (38 джоба, нул и двойна нула)</text>
+  <text x="40" y="214" fill="#cfe8dc" font-size="15">Американска (38 джоба, нула и двойна нула)</text>
   <rect x="40" y="224" width="700" height="26" rx="4" fill="#13533f"/>
   <rect x="40" y="224" width="368" height="26" rx="4" fill="#e06b54"/>
   <text x="748" y="243" fill="#ffffff" font-size="16" font-weight="700" text-anchor="end">5.26%</text>
