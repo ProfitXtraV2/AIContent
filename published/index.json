@@ -1,14 +1,7 @@
 {
   "schema_version": 1,
-  "count": 2,
+  "count": 1,
   "articles": [
-    {
-      "slug": "bonus-bez-depozit-2026",
-      "title": "Бонус без депозит 2026: какво наистина получавате",
-      "date_modified": "2026-09-07",
-      "content_hash": "daf46c302238dad9ab5739cba22c04ae404ac9fda97f4d36c8e9209dee673f87",
-      "status": "approved"
-    },
     {
       "slug": "progresivni-dzhakpoti",
       "title": "Прогресивни джакпоти: как работят и реалните шансове",
@@ -17,5 +10,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-09-09T03:50:12Z"
+  "generated_utc": "2026-09-09T06:26:49Z"
 }

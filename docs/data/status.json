@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-09T03:50:11Z",
+  "generated_utc": "2026-09-09T06:26:49Z",
   "buffer": {
-    "count": 20,
+    "count": 19,
     "target": 10,
     "deficit": 0,
     "ok": true
@@ -9,8 +9,8 @@
   "counts": {
     "in-progress": 0,
     "drafted": 18,
-    "approved": 2,
-    "posted": 2,
+    "approved": 1,
+    "posted": 3,
     "failed": 1
   },
   "rows": [
@@ -70,7 +70,7 @@
     },
     {
       "id": "vk-0004",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Бонус без депозит 2026: какво наистина получавате",
       "keywords_or_terms": "бонус без депозит, казино без депозит, безплатни завъртания без депозит",
@@ -78,7 +78,7 @@
       "kd": "61",
       "source": "research",
       "drafted_date": "2026-09-07",
-      "posted_date": "",
+      "posted_date": "2026-09-09",
       "folder": "2026-09-07-bonus-bez-depozit-2026",
       "pr": "#5",
       "gemini": "human 85",
