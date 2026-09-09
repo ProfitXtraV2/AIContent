@@ -16,7 +16,7 @@
   "images": [
     {
       "path": "images/novi-kazino-igri-ocenka-hero.webp",
-      "alt": "Лупа, изследваща светеща иконка на казино игра, с икони за отметки наоколо — концепция за оценяване на ново заглавие преди игра"
+      "alt": "Лупа, изследваща светеща иконка на казино игра, с икони за отметки наоколо, концепция за оценяване на ново заглавие преди игра"
     },
     {
       "path": "images/novi-igri-formati-mehanika.svg",
@@ -25,5 +25,5 @@
   ],
   "section_hint": "guide",
   "status": "approved",
-  "content_hash": "bf2be72841883fe7bb8e3af976b8432a6d14c91c22cb22d7562a2f2bd2c2c56c"
+  "content_hash": "3367495ed04f54d42a46798c9c49b13c818401daa2270b72506d8262ecd46c71"
 }

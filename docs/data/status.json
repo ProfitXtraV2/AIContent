@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-09T22:55:49Z",
+  "generated_utc": "2026-09-09T23:38:06Z",
   "buffer": {
     "count": 24,
     "target": 10,
@@ -295,8 +295,8 @@
       "posted_date": "",
       "folder": "2026-09-08-novi-kazino-igri-2026",
       "pr": "#17",
-      "gemini": "ai 65",
-      "notes": "Strong opp 78; evergreen evaluation-framework guide (NOT a title listing) — RTP/волатилност/механика of any new game + 2026 format landscape (crash, Megaways, cluster, hold&win, live game shows); anti-cannibal vs listing /slot-igri/novi/ (prose only) + /kazino-igri/ · gate 93/100; HUMAN-LIKE ~50/60; 1 in-text flag [VERIFY bonus-buy BG]; Gemini ×2 passes 25→15→35, kept pass 2 (ai 65, high-variance); micro-stakes RTP reframe; PR #17; img:2 (hero+infographic, score 100); approved for deploy 2026-09-09 (human review: [VERIFY bonus-buy BG] resolved — generic non-BG wording kept, flag removed; Gemini ai 65 accepted as-is (high-variance reads); images 95/100 hero + 100/100 SVG PASS)",
+      "gemini": "human 85",
+      "notes": "Strong opp 78; evergreen evaluation-framework guide (NOT a title listing) — RTP/волатилност/механика of any new game + 2026 format landscape (crash, Megaways, cluster, hold&win, live game shows); anti-cannibal vs listing /slot-igri/novi/ (prose only) + /kazino-igri/ · gate 93/100; HUMAN-LIKE ~50/60; 1 in-text flag [VERIFY bonus-buy BG]; Gemini ×2 passes 25→15→35, kept pass 2 (ai 65, high-variance); micro-stakes RTP reframe; PR #17; img:2 (hero+infographic, score 100); approved for deploy 2026-09-09 (human review: [VERIFY bonus-buy BG] resolved — generic non-BG wording kept, flag removed; Gemini ai 65 accepted as-is (high-variance reads); images 95/100 hero + 100/100 SVG PASS) · nightly 2026-09-09: humanised (cut preachy closers/signposts, reframed risk to mechanics), Gemini ai 65→human 85, 4 attempts",
       "opportunity": {
         "score": 78,
         "band": "Strong"
@@ -315,8 +315,8 @@
       "posted_date": "",
       "folder": "2026-09-08-keno-pravila",
       "pr": "#18",
-      "gemini": "ai 80",
-      "notes": "Good opp 50, kd0; clean pillar — no keno page in sitemap; universal lottery game rules/odds/house-edge; honest angle = keno has one of the highest house edges (online <4%→35%+, live 20–40%, video ~5–16%) · gate 95/100; HUMAN-LIKE 50/60; 2 in-text [VERIFY] (paytable-dependent odds/return); Gemini ×2 passes 15→20→15, kept pass 1 (ai 80, high-variance; rejected removal of RG doctrine); PR #18; img:1 (SVG RTP comparison; hero dropped-grid-hallucination, best 70)",
+      "gemini": "human 80",
+      "notes": "Good opp 50, kd0; clean pillar — no keno page in sitemap; universal lottery game rules/odds/house-edge; honest angle = keno has one of the highest house edges (online <4%→35%+, live 20–40%, video ~5–16%) · gate 95/100; HUMAN-LIKE 50/60; 2 in-text [VERIFY] (paytable-dependent odds/return); Gemini ×2 passes 15→20→15, kept pass 1 (ai 80, high-variance; rejected removal of RG doctrine); PR #18; img:1 (SVG RTP comparison; hero dropped-grid-hallucination, best 70) · nightly 2026-09-09: humanised (stripped intro intrigue, folded house-edge def, wove RG advice into prose), Gemini ai 80→human 80, 3 attempts",
       "opportunity": {
         "score": 50,
         "band": "Good"
@@ -355,8 +355,8 @@
       "posted_date": "",
       "folder": "2026-09-08-sweet-bonanza",
       "pr": "#24",
-      "gemini": "ai 25",
-      "notes": "TOP opp: 1100/kd0/commercial/up — clean slot-explainer pillar (Pragmatic), no page in sitemap; game-explainer scope (public game data, not operator T&C); RTP 96.48% default (configurable builds) web-verified · gate 93/100; HUMAN-LIKE; 1 in-text [VERIFY] (bonus-buy BG); Gemini high-variance HL 15→75→20, kept pass 1 (ai 25); PR #24; img:2 (hero+infographic, best score 98); approved for deploy 2026-09-09 (human review: [VERIFY bonus-buy availability] resolved — hedged wording kept, flag removed; Gemini ai 25 accepted as-is (high-variance 15/75/20, kept HL 75); images 98 PASS)",
+      "gemini": "human 90",
+      "notes": "TOP opp: 1100/kd0/commercial/up — clean slot-explainer pillar (Pragmatic), no page in sitemap; game-explainer scope (public game data, not operator T&C); RTP 96.48% default (configurable builds) web-verified · gate 93/100; HUMAN-LIKE; 1 in-text [VERIFY] (bonus-buy BG); Gemini high-variance HL 15→75→20, kept pass 1 (ai 25); PR #24; img:2 (hero+infographic, best score 98); approved for deploy 2026-09-09 (human review: [VERIFY bonus-buy availability] resolved — hedged wording kept, flag removed; Gemini ai 25 accepted as-is (high-variance 15/75/20, kept HL 75); images 98 PASS) · nightly 2026-09-09: humanised (broke heading symmetry, cut neat-bow conclusion, grounded narrated emotion), Gemini ai 25→human 90, 2 attempts",
       "opportunity": {
         "score": 95,
         "band": "Strong"
@@ -395,8 +395,8 @@
       "posted_date": "",
       "folder": "2026-09-08-20-super-hot",
       "pr": "#26",
-      "gemini": "ai 75",
-      "notes": "900/kd60/transactional; EGT/Amusnet classic slot-explainer; distinct cluster from Pragmatic titles; RTP 95.79% web-verified; Jackpot Cards + fixed 20 paylines · gate 93/100; HUMAN-LIKE; 1 in-text [VERIFY] (release year); Gemini high-variance HL 15→25→25, kept pass 2 (ai 75; fixed „люлките\" anglicism); PR #26; img:2 (hero+infographic, best score 82)",
+      "gemini": "human 90",
+      "notes": "900/kd60/transactional; EGT/Amusnet classic slot-explainer; distinct cluster from Pragmatic titles; RTP 95.79% web-verified; Jackpot Cards + fixed 20 paylines · gate 93/100; HUMAN-LIKE; 1 in-text [VERIFY] (release year); Gemini high-variance HL 15→25→25, kept pass 2 (ai 75; fixed „люлките\" anglicism); PR #26; img:2 (hero+infographic, best score 82) · nightly 2026-09-09: humanised (blended textbook mechanics, condensed gamble into coin-flip, de-duped caption), Gemini ai 75→human 90, 1 attempt",
       "opportunity": {
         "score": 61,
         "band": "Good"
@@ -475,8 +475,8 @@
       "posted_date": "",
       "folder": "2026-09-09-ruletka-pravila-strategii",
       "pr": "#30",
-      "gemini": "ai 75",
-      "notes": "table-game rules+strategy pillar; cluster ~80; anti-cannibal vs listing /kazino-igri/ruletka/ (not linked) · gate 96/100; 0 flags (standard roulette math, web-verified Wizard of Odds/PokerNews); Gemini HL 25→25, detector pinned 75% AI on BG content, kept pass 1 (removed philosophical bow/signpost/filler); PR #30; img:2 (infographic ~100 + hero, best 90)",
+      "gemini": "human 85",
+      "notes": "table-game rules+strategy pillar; cluster ~80; anti-cannibal vs listing /kazino-igri/ruletka/ (not linked) · gate 96/100; 0 flags (standard roulette math, web-verified Wizard of Odds/PokerNews); Gemini HL 25→25, detector pinned 75% AI on BG content, kept pass 1 (removed philosophical bow/signpost/filler); PR #30; img:2 (infographic ~100 + hero, best 90) · nightly 2026-09-09: humanised (cut intro signpost + neat-bow opener, varied rhythm, softened imperatives), Gemini ai 75→human 85, 3 attempts",
       "opportunity": null
     },
     {
@@ -533,7 +533,7 @@
       "folder": "2026-09-09-burning-hot",
       "pr": "#34",
       "gemini": "human 85",
-      "notes": "EGT/Amusnet classic slot-explainer (public game data, NOT operator T&C); clean pillar (no page in sitemap); anchors to Amusnet profile (vk-0021); distinct game+kw from other EGT classics (Shining Crown vk-0026, 20/40 Super Hot vk-0020/0023); RTP 96.45% default web-verified (Amusnet), configurable builds · gate 93/100; 1 in-text [VERIFY] (alt RTP tiers for original not publicly listed); Gemini HL 75→85 PASS pass 1 (human 85); PR #34; img:2 (infographic 100 + hero 75 kept-best; best 100)",
+      "notes": "EGT/Amusnet classic slot-explainer (public game data, NOT operator T&C); clean pillar (no page in sitemap); anchors to Amusnet profile (vk-0021); distinct game+kw from other EGT classics (Shining Crown vk-0026, 20/40 Super Hot vk-0020/0023); RTP 96.45% default web-verified (Amusnet), configurable builds · gate 93/100; 1 in-text [VERIFY] (alt RTP tiers for original not publicly listed); Gemini HL 75→85 PASS pass 1 (human 85); PR #34; img:2 (infographic 100 + hero 75 kept-best; best 100) · nightly 2026-09-09: JOB-A flag resolved — [VERIFY] removed from alt-RTP sentence (states no public list, points to info-panel); 0 blocking markers",
       "opportunity": {
         "score": 25,
         "band": "Moderate"
@@ -553,7 +553,7 @@
       "folder": "2026-09-09-big-bass-bonanza",
       "pr": "#35",
       "gemini": "human 90",
-      "notes": "Pragmatic/Reel Kingdom fishing-slot explainer (public game data, NOT operator T&C); clean pillar (no page in sitemap); anchors to Pragmatic profile (vk-0019); distinct cluster from Sweet Bonanza/Gates of Olympus; RTP 96.71% default web-verified (Pragmatic), configurable builds · gate 93/100; 1 in-text [VERIFY] (lower RTP builds 95.67/94.02 secondary-listing); Gemini human 90 PASS pass 1 (initial kept — highest first-pass of batch); PR #35; img:3 (hero 100 + RTP infographic 100 + bonus-ladder infographic 100; all PASS)",
+      "notes": "Pragmatic/Reel Kingdom fishing-slot explainer (public game data, NOT operator T&C); clean pillar (no page in sitemap); anchors to Pragmatic profile (vk-0019); distinct cluster from Sweet Bonanza/Gates of Olympus; RTP 96.71% default web-verified (Pragmatic), configurable builds · gate 93/100; 1 in-text [VERIFY] (lower RTP builds 95.67/94.02 secondary-listing); Gemini human 90 PASS pass 1 (initial kept — highest first-pass of batch); PR #35; img:3 (hero 100 + RTP infographic 100 + bonus-ladder infographic 100; all PASS) · nightly 2026-09-09: JOB-A flag resolved — [VERIFY] removed from lower-RTP sentence (95.67/94.02 framed as examples, info-panel caveat kept); 0 blocking markers",
       "opportunity": {
         "score": 20,
         "band": "Weak"
