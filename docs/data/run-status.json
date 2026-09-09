@@ -1,17 +1,17 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-09T07:14:39Z",
-  "run_finished_utc": "2026-09-09T08:05:00Z",
-  "articles_written": 3,
-  "prs_opened": [30, 31, 32],
-  "run_url": "https://claude.ai/code/session_01T5UefzpN7w5wcUVJrEQSxj",
-  "note": "recurring run 2026-09-09 (fire #4) complete: 3 new distinct guide pillars drafted — vk-0024 Рулетка правила+стратегия (PR #30, gate 96, ai 75, img 90), vk-0025 Live game shows Crazy Time/Monopoly Live/Lightning (PR #32, gate 94, human 85, img 95), vk-0026 Shining Crown EGT/Amusnet explainer (PR #31, gate 95, human 85, img 100). Evergreen game math + public game/provider data (Wizard of Odds/Evolution/Amusnet/game DBs), NOT geo-blocked operator T&C/НАП. Buffer 20->23 (floor 10; keep building). 0 in-progress leftover; 0 open backlog rows; research bank still holds >=3 distinct candidates (Burning Hot, Big Bass Bonanza, крапс, card-games hub, доставчици overview) — no Ahrefs re-pull, conserving units. 1 surviving [VERIFY] (vk-0025 Monopoly Live lower RTP bound).",
+  "state": "running",
+  "run_started_utc": "2026-09-09T22:14:42Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_012yS1tzRN4UGbmwsR2d8wcW",
+  "note": "recurring run 2026-09-09 (fire #5): selecting 3 distinct guide/explainer pillars from research bank (Burning Hot, Big Bass Bonanza, крапс). 0 in-progress leftovers; human backlog drained.",
   "progress": {
-    "phase": "done",
+    "phase": "writing",
     "article_index": null,
-    "article_total": null,
+    "article_total": 3,
     "article_slug": null,
-    "stages": [],
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
     "stage_index": null,
     "stage": null
   }
