@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-09T06:26:49Z",
+  "generated_utc": "2026-09-09T06:49:45Z",
   "buffer": {
-    "count": 19,
+    "count": 18,
     "target": 10,
     "deficit": 0,
     "ok": true
@@ -9,8 +9,8 @@
   "counts": {
     "in-progress": 0,
     "drafted": 18,
-    "approved": 1,
-    "posted": 3,
+    "approved": 0,
+    "posted": 4,
     "failed": 1
   },
   "rows": [
@@ -130,7 +130,7 @@
     },
     {
       "id": "vk-0007",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Прогресивни джакпоти: как работят и какви са реалните шансове",
       "keywords_or_terms": "джакпот, прогресивен джакпот, джакпот казино, семена-джакпот",
@@ -138,7 +138,7 @@
       "kd": "0",
       "source": "research",
       "drafted_date": "2026-09-07",
-      "posted_date": "",
+      "posted_date": "2026-09-09",
       "folder": "2026-09-07-progresivni-dzhakpoti",
       "pr": "#8",
       "gemini": "human 85",

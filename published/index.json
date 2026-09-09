@@ -1,14 +1,6 @@
 {
   "schema_version": 1,
-  "count": 1,
-  "articles": [
-    {
-      "slug": "progresivni-dzhakpoti",
-      "title": "Прогресивни джакпоти: как работят и реалните шансове",
-      "date_modified": "2026-09-07",
-      "content_hash": "3b8fbb39794a6b34c7102191de1a525e3d5900abb01b5e11e9288e497332f53e",
-      "status": "approved"
-    }
-  ],
-  "generated_utc": "2026-09-09T06:26:49Z"
+  "count": 0,
+  "articles": [],
+  "generated_utc": "2026-09-09T06:49:45Z"
 }
