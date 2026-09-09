@@ -10,3 +10,12 @@
 - Number diff 02→03→04→05b: 96.50/3.50/€965/€35/5000/2–500/15/25/100/6x5/8 — identical across stages. Zero em-dashes in body (1 replaced with colon).
 - Step 7 (Gemini): see below.
 - Step 8 (images): see below.
+
+## Step 7 result
+Gemini HL: initial 90 (PASS pass 1, initial kept). gemini = human 90.
+
+## Step 8 result
+images: 2 (infographic gates-of-olympus-rtp.svg 85 PASS; hero gates-of-olympus-hero.webp 85 PASS). Best 85. No integrity failures. Referenced from 05b (hero under H1, infographic beside the RTP data).
+
+## Outcome
+05b final (human 90). 06-verification assembled. Ready for PR. Board: content-queue vk-0022 → drafted; research-topics Gates row → used.
