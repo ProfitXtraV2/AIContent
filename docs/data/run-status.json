@@ -3,14 +3,14 @@
   "run_started_utc": "2026-09-09T03:13:05Z",
   "run_finished_utc": null,
   "articles_written": null,
-  "prs_opened": [],
+  "prs_opened": [27],
   "run_url": "https://claude.ai/code/session_01EejbEPJEZn6bru83uViDL2",
-  "note": "daily run (recurring) 2026-09-09: 0 in-progress leftovers, 0 open backlog rows; selecting 3 game/provider explainer pillars from research bank (Amusnet/EGT profile 2000, Gates of Olympus 300, 40 Super Hot 300).",
+  "note": "recurring run 2026-09-09: vk-0021 Amusnet/EGT profile drafted (PR #27, human 85, img:2 best 100). Writing article 2/3 (Gates of Olympus).",
   "progress": {
     "phase": "writing",
-    "article_index": 1,
+    "article_index": 2,
     "article_total": 3,
-    "article_slug": "2026-09-09-amusnet-egt-provajdar",
+    "article_slug": "2026-09-09-gates-of-olympus",
     "stages": ["Synthesis", "Outline", "Author", "Humaniser", "SEO", "Brand Gate", "Light re-check", "Images", "Verification", "PR"],
     "stage_index": 0,
     "stage": "Synthesis"

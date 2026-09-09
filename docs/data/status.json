@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-09T03:13:37Z",
+  "generated_utc": "2026-09-09T03:33:59Z",
   "buffer": {
-    "count": 17,
+    "count": 18,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 3,
-    "drafted": 15,
+    "in-progress": 2,
+    "drafted": 16,
     "approved": 2,
     "posted": 2,
     "failed": 1
@@ -404,19 +404,19 @@
     },
     {
       "id": "vk-0021",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Amusnet (EGT): профил на доставчика, механики и топ слотове",
       "keywords_or_terms": "amusnet, egt слотове, ротативки egt",
       "volume": "2000",
       "kd": "73",
       "source": "research",
-      "drafted_date": "",
+      "drafted_date": "2026-09-09",
       "posted_date": "",
       "folder": "2026-09-09-amusnet-egt-provajdar",
-      "pr": "",
-      "gemini": "",
-      "notes": "highest-volume bank candidate 2000/kd73/commercial/up; provider-profile pillar (hub, anchors EGT classics 20/40 Super Hot, Shining/Burning Crown); anti-cannibal vs /blog/games-providers/ (Amusnet-specific profile, distinct primary kw); public provider facts (site + game DBs), NOT geo-blocked operator T&C",
+      "pr": "#27",
+      "gemini": "human 85",
+      "notes": "highest-volume bank candidate 2000/kd73/commercial/up; provider-profile pillar (hub, anchors EGT classics 20/40 Super Hot, Shining/Burning Crown); anti-cannibal vs /blog/games-providers/ (Amusnet-specific profile, distinct primary kw); public provider facts (site + game DBs), NOT geo-blocked operator T&C · gate 93/100; HUMAN-LIKE; 1 in-text [VERIFY] (online-arm founding/EGT relationship, hedged); Gemini HL 15→75→85 PASS pass 2 (human 85); RTP band 96.37/95.81/95.79/95.53 web-verified (Wizard of Odds); PR #27; img:2 (infographic 100 + hero 82, best 100)",
       "opportunity": {
         "score": 71,
         "band": "Strong"
@@ -1057,8 +1057,8 @@
       "intent": "commercial",
       "trend": "up",
       "checked": "ahrefs",
-      "suggestion": "обем 2000, възходящ (2420 vs 1769); provider-profile (котва за 20/40 Super Hot, Shining/Burning Crown); kd73 висок",
-      "status": "candidate",
+      "suggestion": "обем 2000, възходящ (2420 vs 1769); НАПИСАН като provider-profile pillar (котва за 20/40 Super Hot, Shining/Burning Crown); честен ъгъл RTP на класиките под средното + конфигурируем RTP + сертификат≠предимство (vk-0021, PR #27)",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 71,
