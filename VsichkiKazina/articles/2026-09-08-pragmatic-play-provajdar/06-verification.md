@@ -4,6 +4,8 @@
 Article: **Pragmatic Play: профил на доставчика, механики и топ слотове** · type: guide (provider profile) · byline: editorial (signed Георги Тодоров) · gate: PASS WITH FIXES 93/100 · humanisation: HUMAN-LIKE · Gemini Step-7: human 85 (PASS, pass 2 kept; HL 25→35→85) · images: 2 (infographic 85, hero 82) · run date: 08.09.2026
 
 ## Surviving flags
+**RESOLVED 09.09.2026 (human, Step 6).** The in-text [VERIFY] marker was removed: the copy is hedged and asserts nothing the flag contests, so it needs no primary source. Original autopilot note below, kept for the audit trail.
+
 **1** in-text [VERIFY]: exact HQ cited variably as Malta or Gibraltar (text speaks of „offices", not one seat). No [CONFLICT]/[DATA NEEDED]. Public provider-information profile; no BG operator, no licence number, no bonus terms. Every € figure is ILLUSTRATIVE.
 
 ## Time-sensitive / provider claims to confirm at publish (source URLs below)
