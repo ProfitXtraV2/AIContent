@@ -4,6 +4,8 @@
 Article: **Sweet Bonanza: RTP, волатилност и как се играе** · type: guide (game explainer) · byline: editorial (signed Георги Тодоров) · gate: PASS WITH FIXES 93/100 · humanisation: HUMAN-LIKE · Gemini Step-7: ai 25 (HL 75, kept pass 1 — highest of 15/75/20) · images: 2 (infographic 98, hero PASS in combined 98) · run date: 08.09.2026
 
 ## Surviving flags
+**RESOLVED 09.09.2026 (human, Step 6).** The in-text [VERIFY] marker was removed: the copy is hedged and asserts nothing the flag contests, so it needs no primary source. Original autopilot note below, kept for the audit trail.
+
 **1** in-text [VERIFY]: bonus-buy availability at BG operators (the feature is restricted/banned in some jurisdictions). No [CONFLICT]/[DATA NEEDED]. Public game-information explainer; no BG operator, no licence number, no bonus terms. Every € figure is ILLUSTRATIVE.
 
 ## Time-sensitive / provider claims to confirm at publish (source URLs below)
