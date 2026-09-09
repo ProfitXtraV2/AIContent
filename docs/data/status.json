@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-09T07:42:10Z",
+  "generated_utc": "2026-09-09T07:53:28Z",
   "buffer": {
-    "count": 19,
+    "count": 20,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 2,
-    "drafted": 19,
+    "in-progress": 1,
+    "drafted": 20,
     "approved": 0,
     "posted": 4,
     "failed": 1
@@ -501,19 +501,19 @@
     },
     {
       "id": "vk-0026",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Shining Crown: RTP и характеристики (EGT/Amusnet)",
       "keywords_or_terms": "shining crown, шайнинг краун",
       "volume": "200",
       "kd": "64",
       "source": "research",
-      "drafted_date": "",
+      "drafted_date": "2026-09-09",
       "posted_date": "",
       "folder": "2026-09-09-shining-crown",
-      "pr": "",
-      "gemini": "",
-      "notes": "EGT/Amusnet classic slot-explainer (public game data, NOT operator T&C); clean pillar (no page in sitemap); anchors to Amusnet profile (vk-0021)",
+      "pr": "#31",
+      "gemini": "human 85",
+      "notes": "EGT/Amusnet classic slot-explainer (public game data, NOT operator T&C); clean pillar (no page in sitemap); anchors to Amusnet profile (vk-0021) · gate 95/100; 0 flags (RTP 96.37% default, configurable builds; web-verified); Gemini HL 25→85 PASS pass 1 (human 85); PR #31; img:2 (infographic 100 + hero 90; first hero dropped fake-UI integrity, regenerated abstract; best 100)",
       "opportunity": {
         "score": 24,
         "band": "Weak"
@@ -1038,7 +1038,7 @@
       }
     },
     {
-      "type": "review",
+      "type": "guide",
       "query": "Shining Crown: RTP и характеристики (EGT)",
       "researched_keywords": "shining crown",
       "volume": "200",
@@ -1046,8 +1046,8 @@
       "intent": "transactional",
       "trend": "",
       "checked": "ahrefs",
-      "suggestion": "EGT; нишов но стабилен (200); fold-in кандидат към EGT-класики хъб",
-      "status": "candidate",
+      "suggestion": "EGT/Amusnet класика; обем 200; НАПИСАН като slot-explainer (5x3, 10 линии, RTP 96.37% default + конфигурируем, wild корона разтяга, звезда/долар скатери, Gamble, Jackpot Cards прогресив); честен ъгъл — конфигурируем RTP + прогресив/гембъл не подобряват базовите шансове; котва към Amusnet profile (vk-0026, PR #31)",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 24,
