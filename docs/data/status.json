@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-09T07:15:34Z",
+  "generated_utc": "2026-09-09T07:42:10Z",
   "buffer": {
-    "count": 18,
+    "count": 19,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 3,
-    "drafted": 18,
+    "in-progress": 2,
+    "drafted": 19,
     "approved": 0,
     "posted": 4,
     "failed": 1
@@ -464,19 +464,19 @@
     },
     {
       "id": "vk-0024",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Рулетка: правила и популярни стратегии (вкл. Мартингейл)",
       "keywords_or_terms": "как се играе рулетка, рулетка стратегия, мартингейл, система мартингейл",
       "volume": "30",
       "kd": "",
       "source": "research",
-      "drafted_date": "",
+      "drafted_date": "2026-09-09",
       "posted_date": "",
       "folder": "2026-09-09-ruletka-pravila-strategii",
-      "pr": "",
-      "gemini": "",
-      "notes": "table-game rules+strategy pillar; cluster ~80; anti-cannibal vs listing /kazino-igri/ruletka/ (prose only); honest RG angle — strategies don't beat house edge",
+      "pr": "#30",
+      "gemini": "ai 75",
+      "notes": "table-game rules+strategy pillar; cluster ~80; anti-cannibal vs listing /kazino-igri/ruletka/ (not linked) · gate 96/100; 0 flags (standard roulette math, web-verified Wizard of Odds/PokerNews); Gemini HL 25→25, detector pinned 75% AI on BG content, kept pass 1 (removed philosophical bow/signpost/filler); PR #30; img:2 (infographic ~100 + hero, best 90)",
       "opportunity": null
     },
     {
@@ -896,8 +896,8 @@
       "intent": "informational",
       "trend": "",
       "checked": "ahrefs",
-      "suggestion": "клъстер ~80; anti-cannibal vs listing /kazino-igri/ruletka/ — прави правила+стратегия гайд с RG уговорка (стратегиите не бият домашното предимство)",
-      "status": "candidate",
+      "suggestion": "клъстер ~80; НАПИСАН като правила+стратегия гайд с RG уговорка (стратегиите не бият домашното предимство); честен ъгъл — предимството е в изплащанията (35:1 при 37 джоба); anti-cannibal vs listing /kazino-igri/ruletka/ (не линкнат) (vk-0024, PR #30)",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": null
     },

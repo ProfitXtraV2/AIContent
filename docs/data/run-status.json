@@ -5,12 +5,12 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01T5UefzpN7w5wcUVJrEQSxj",
-  "note": "recurring run 2026-09-09 (fire #4): writing 3 new pillars. vk-0024 рулетка drafted (gate 96, 0 flags) — now Gemini check + images + PR.",
+  "note": "recurring run 2026-09-09 (fire #4): vk-0024 рулетка DRAFTED (gate 96, ai 75, img best 90, PR #30). Now processing vk-0026 Shining Crown; vk-0025 live game shows queued.",
   "progress": {
     "phase": "writing",
-    "article_index": 1,
+    "article_index": 2,
     "article_total": 3,
-    "article_slug": "2026-09-09-ruletka-pravila-strategii",
+    "article_slug": "2026-09-09-shining-crown",
     "stages": ["Synthesis", "Outline", "Author", "Humaniser", "SEO", "Brand Gate", "Light re-check", "Images", "Verification", "PR"],
     "stage_index": 6,
     "stage": "Light re-check"
