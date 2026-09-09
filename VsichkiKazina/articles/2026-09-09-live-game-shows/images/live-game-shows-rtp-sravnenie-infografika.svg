@@ -1,0 +1,54 @@
+<svg viewBox="0 0 640 440" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect width="640" height="440" fill="#F8F6F2" rx="12"/>
+
+  <!-- Title -->
+  <text x="320" y="32" font-size="16" font-weight="700" fill="#1A1A2E" text-anchor="middle">Кой залог какъв RTP връща</text>
+  <text x="320" y="52" font-size="10" fill="#999" text-anchor="middle">Ориентировъчни дългосрочни RTP диапазони по заглавие - реалният RTP зависи от избрания залог</text>
+
+  <!-- Gridlines (axis area y 88-345) -->
+  <line x1="194" y1="88" x2="194" y2="345" stroke="#E4E1DA" stroke-width="1"/>
+  <line x1="304" y1="88" x2="304" y2="345" stroke="#E4E1DA" stroke-width="1"/>
+  <line x1="414" y1="88" x2="414" y2="345" stroke="#E4E1DA" stroke-width="1"/>
+  <line x1="524" y1="88" x2="524" y2="345" stroke="#E4E1DA" stroke-width="1"/>
+
+  <!-- Baseline -->
+  <line x1="150" y1="345" x2="590" y2="345" stroke="#CCC" stroke-width="1"/>
+
+  <!-- Gridline labels -->
+  <text x="194" y="360" font-size="9" fill="#AAA" text-anchor="middle">80%</text>
+  <text x="304" y="360" font-size="9" fill="#AAA" text-anchor="middle">85%</text>
+  <text x="414" y="360" font-size="9" fill="#AAA" text-anchor="middle">90%</text>
+  <text x="524" y="360" font-size="9" fill="#AAA" text-anchor="middle">95%</text>
+
+  <!-- ===== ROW 1: Crazy Time ===== -->
+  <text x="22" y="108" font-size="12" font-weight="700" fill="#1A1A2E">Crazy Time</text>
+  <text x="22" y="124" font-size="9.5" fill="#999">число 1 &#8596; бонус</text>
+  <!-- Range bar 94.33 - 96.08 -->
+  <rect x="509" y="98" width="39" height="26" fill="#F5D060" rx="5"/>
+  <text x="504" y="115" font-size="10.5" font-weight="700" fill="#8A6D00" text-anchor="end">94.33%</text>
+  <text x="553" y="115" font-size="10.5" font-weight="700" fill="#1A1A2E" text-anchor="start">96.08%</text>
+
+  <!-- ===== ROW 2: Monopoly Live ===== -->
+  <text x="22" y="183" font-size="12" font-weight="700" fill="#1A1A2E">Monopoly Live</text>
+  <text x="22" y="199" font-size="9.5" fill="#999">числа &#8596; 2/4 Rolls</text>
+  <!-- Range bar ~80 - 96.23 -->
+  <rect x="194" y="173" width="357" height="26" fill="#2952C7" rx="5"/>
+  <text x="189" y="190" font-size="10.5" font-weight="700" fill="#2952C7" text-anchor="end">~80%</text>
+  <text x="556" y="190" font-size="10.5" font-weight="700" fill="#1A1A2E" text-anchor="start">96.23%</text>
+
+  <!-- ===== ROW 3: Lightning Roulette ===== -->
+  <text x="22" y="258" font-size="12" font-weight="700" fill="#1A1A2E">Lightning Roulette</text>
+  <text x="22" y="274" font-size="9.5" fill="#999">равни &#8596; число</text>
+  <!-- Range bar 97.10 - 97.30 (narrow, min width) -->
+  <rect x="566" y="248" width="14" height="26" fill="#2E9E6B" rx="5"/>
+  <text x="560" y="292" font-size="10.5" font-weight="700" fill="#1F7A50" text-anchor="middle">97.10% - 97.30%</text>
+
+  <!-- Insight box -->
+  <rect x="28" y="372" width="584" height="40" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" rx="6"/>
+  <text x="320" y="388" font-size="10.5" fill="#555" text-anchor="middle">Един и същ принцип при трите: бонус залозите и зрелищните сегменти връщат</text>
+  <text x="320" y="403" font-size="10.5" fill="#555" text-anchor="middle">по-нисък дългосрочен RTP от числата и равните залози.</text>
+
+  <!-- Footer -->
+  <text x="320" y="430" font-size="9" fill="#BBBBBB" text-anchor="middle">18+ Играйте отговорно · vsichkikazina.bg · числата са по публични данни на доставчика</text>
+</svg>
