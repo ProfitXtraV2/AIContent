@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-09T13:27:21Z",
+  "generated_utc": "2026-09-09T13:31:04Z",
   "buffer": {
     "count": 21,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 20,
-    "approved": 1,
+    "drafted": 19,
+    "approved": 2,
     "posted": 4,
     "failed": 1
   },
@@ -284,7 +284,7 @@
     },
     {
       "id": "vk-0015",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Нови казино игри 2026: как да оцените ново заглавие и кои формати водят",
       "keywords_or_terms": "нови казино игри, нови слотове, нови формати, как да оцените нова игра",
@@ -296,7 +296,7 @@
       "folder": "2026-09-08-novi-kazino-igri-2026",
       "pr": "#17",
       "gemini": "ai 65",
-      "notes": "Strong opp 78; evergreen evaluation-framework guide (NOT a title listing) — RTP/волатилност/механика of any new game + 2026 format landscape (crash, Megaways, cluster, hold&win, live game shows); anti-cannibal vs listing /slot-igri/novi/ (prose only) + /kazino-igri/ · gate 93/100; HUMAN-LIKE ~50/60; 1 in-text flag [VERIFY bonus-buy BG]; Gemini ×2 passes 25→15→35, kept pass 2 (ai 65, high-variance); micro-stakes RTP reframe; PR #17; img:2 (hero+infographic, score 100)",
+      "notes": "Strong opp 78; evergreen evaluation-framework guide (NOT a title listing) — RTP/волатилност/механика of any new game + 2026 format landscape (crash, Megaways, cluster, hold&win, live game shows); anti-cannibal vs listing /slot-igri/novi/ (prose only) + /kazino-igri/ · gate 93/100; HUMAN-LIKE ~50/60; 1 in-text flag [VERIFY bonus-buy BG]; Gemini ×2 passes 25→15→35, kept pass 2 (ai 65, high-variance); micro-stakes RTP reframe; PR #17; img:2 (hero+infographic, score 100); approved for deploy 2026-09-09 (human review: [VERIFY bonus-buy BG] resolved — generic non-BG wording kept, flag removed; Gemini ai 65 accepted as-is (high-variance reads); images 95/100 hero + 100/100 SVG PASS)",
       "opportunity": {
         "score": 78,
         "band": "Strong"
