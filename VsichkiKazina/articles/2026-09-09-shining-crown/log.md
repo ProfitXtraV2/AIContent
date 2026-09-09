@@ -28,3 +28,15 @@ Type: guide (game explainer) | Byline: persona (публикуван подпи�
 - Превъртане: НЕ се използва (не е бонус гайд) → няма база за деклариране. RTP навсякъде рамкиран като дългосрочна статистика, не обещание за сесия.
 
 STATUS: complete (артефакти 00 → 05b + log.md). Изображенията (hero .webp + инфографика .svg) са препратени по пътища, но не са генерирани в този run. Готово за STEP 6 (human verification) — извън обхвата.
+
+## Step 7 — Gemini text check (cross-model)
+- Initial: HL 25 (Shows AI patterns 75%). 07-gemini-check-1.md.
+- Humaniser pass 1 (break end-of-paragraph reality-check rhythm, delete conclusion summary sentence, soften parental line, разпръснати→скатери): HL 85 (Likely human-written 85%) PASS. Kept pass 1. content-queue gemini = human 85. 07-gemini-check-2.md.
+
+## Step 8 — Images + Gemini visual review
+- Infographic SVG (spec card; all numbers from 05b) + decorative hero WebP.
+- Review pass 1: 35 — hero fabricated a slot-machine UI (integrity failure); SVG flawless (100). Regenerated hero as abstract fruit/crown composition (no reels/UI), corrected its alt.
+- Review pass 2: infographic 100, hero 90, PASS, no integrity failure. images: 2 (best 100).
+
+## Step 6 — Verification
+- 0 surviving flags; house edge 3.63% recalculated from RTP 96.37%. 06-verification.md written. Human owns approval + publishing.
