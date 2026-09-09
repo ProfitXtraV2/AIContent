@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 1,
+  "count": 2,
   "articles": [
     {
       "slug": "novo-onlajn-kazino",
@@ -8,7 +8,14 @@
       "date_modified": "2026-09-07",
       "content_hash": "af07d1f79f2240f97b9bf2adf4b71a5a7db78f93ef91bb24ccb3ce81a3a7ce60",
       "status": "approved"
+    },
+    {
+      "slug": "novi-kazino-igri-2026",
+      "title": "Нови казино игри 2026: как да оцените ново заглавие",
+      "date_modified": "2026-09-08",
+      "content_hash": "bf2be72841883fe7bb8e3af976b8432a6d14c91c22cb22d7562a2f2bd2c2c56c",
+      "status": "approved"
     }
   ],
-  "generated_utc": "2026-09-09T13:27:21Z"
+  "generated_utc": "2026-09-09T13:31:47Z"
 }
