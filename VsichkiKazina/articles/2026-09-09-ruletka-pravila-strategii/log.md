@@ -39,3 +39,15 @@ Type: guide | Byline: editorial (публикуван подпис Георги 
 - Математика на предимството: 37 джоба, честно би било 36:1, реално 35:1.
 
 STATUS: complete (артефакти 00 → 05b + log.md). Готово за STEP 6 (human verification) — извън обхвата на този writer run. Git/PR/скриптове НЕ са пипани (по указание).
+
+## Step 7 — Gemini text check (cross-model)
+- Initial: HL 25 (Shows AI patterns 75%). 07-gemini-check-1.md.
+- Humaniser pass 1 (apply recs: smoothed staccato, cut signpost before table, softened inside/outside triad, cut contradictory filler, cut philosophical bow). 07-gemini-check-2.md: HL 25 again (detector pinned on BG content). Kept pass 1 (tied-best). content-queue gemini = ai 75.
+
+## Step 8 — Images + Gemini visual review
+- Created infographic SVG (house edge by variant + payouts, numbers from 05b) + decorative hero WebP (35.7 KB).
+- Review pass 1: 70 (grammar "нула"; hero alt over-promised). Fixed SVG grammar + rewrote hero alt to match the abstract image.
+- Review pass 2: 90 PASS, no integrity failures. images: 2 (infographic ~100, hero ok — best 90).
+
+## Step 6 — Verification
+- 0 surviving flags; recalculated European edge (−1/37 = −2.70%) and Martingale €630/€10. 06-verification.md written. Human owns approval + publishing.
