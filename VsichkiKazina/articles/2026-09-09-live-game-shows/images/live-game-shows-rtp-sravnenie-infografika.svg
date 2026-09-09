@@ -41,7 +41,7 @@
   <text x="22" y="258" font-size="12" font-weight="700" fill="#1A1A2E">Lightning Roulette</text>
   <text x="22" y="274" font-size="9.5" fill="#999">равни &#8596; число</text>
   <!-- Range bar 97.10 - 97.30 (narrow, min width) -->
-  <rect x="566" y="248" width="14" height="26" fill="#2E9E6B" rx="5"/>
+  <rect x="570" y="248" width="14" height="26" fill="#2E9E6B" rx="5"/>
   <text x="560" y="292" font-size="10.5" font-weight="700" fill="#1F7A50" text-anchor="middle">97.10% - 97.30%</text>
 
   <!-- Insight box -->

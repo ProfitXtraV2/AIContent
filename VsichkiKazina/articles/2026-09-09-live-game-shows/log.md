@@ -44,3 +44,13 @@ Type: guide | Byline: editorial (публикуван подпис Георги 
 - images/live-game-shows-rtp-sravnenie-infografika.svg — създадена: dumbbell/range чарт с RTP диапазоните на трите заглавия (Crazy Time 94.33%–96.08%; Monopoly Live ~80%–96.23%; Lightning Roulette 97.10%–97.30%), без em-dash, footer „18+ Играйте отговорно · vsichkikazina.bg".
 
 STATUS: complete (артефакти 00 → 05b + log.md + инфографика SVG). Остава за orchestrator/human: Step 6 (human verification на 1 [VERIFY] — долна RTP граница на Monopoly Live), Step 7 (Gemini), hero .webp генериране, публикуване. Извън обхвата на този writer run (без git, без скриптове, без PR).
+
+## Step 7 — Gemini text check (cross-model)
+- Initial draft: HL 85 (Likely human-written 85%) PASS on first check. Kept initial (no Humaniser pass). content-queue gemini = human 85. 07-gemini-check-1.md.
+
+## Step 8 — Images + Gemini visual review
+- Infographic SVG (RTP ranges per title; numbers from 05b) + decorative hero WebP (gemini-3-pro-image, 37.3 KB).
+- Review pass 1: 95 PASS, no integrity failure. Cosmetic fixes: dropped "множители" from hero alt (wheel shows empty segments); nudged one SVG bar x for scale precision (no value changed). images: 2 (best 95).
+
+## Step 6 — Verification
+- 1 surviving [VERIFY] (Monopoly Live lower RTP bound; top ~96.23% confirmed). Lightning straight-bet 29:1 vs 35:1 trade-off recalculated. 06-verification.md written. Human owns flag resolution + approval + publishing.
