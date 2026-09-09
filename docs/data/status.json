@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-09T03:40:58Z",
+  "generated_utc": "2026-09-09T03:50:11Z",
   "buffer": {
-    "count": 19,
+    "count": 20,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 1,
-    "drafted": 17,
+    "in-progress": 0,
+    "drafted": 18,
     "approved": 2,
     "posted": 2,
     "failed": 1
@@ -444,19 +444,19 @@
     },
     {
       "id": "vk-0023",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "40 Super Hot: RTP и джакпот функции (EGT/Amusnet)",
       "keywords_or_terms": "40 super hot, 40 супер хот",
       "volume": "300",
       "kd": "62",
       "source": "research",
-      "drafted_date": "",
+      "drafted_date": "2026-09-09",
       "posted_date": "",
       "folder": "2026-09-09-40-super-hot",
-      "pr": "",
-      "gemini": "",
-      "notes": "300/kd62/transactional; EGT/Amusnet classic slot-explainer; distinct game+kw from 20 Super Hot (vk-0020) — 5x40 fixed lines vs 5x20; anchors to Amusnet profile (vk-0021 same batch); RTP 95.79% web-verify; Jackpot Cards + gamble",
+      "pr": "#29",
+      "gemini": "human 85",
+      "notes": "300/kd62/transactional; EGT/Amusnet classic slot-explainer; distinct game+kw from 20 Super Hot (vk-0020) — 5x4/40 fixed lines vs 5x3/20; anchors to Amusnet profile (vk-0021 same batch) · gate 93/100; HUMAN-LIKE; 1 in-text [VERIFY] (per-casino RTP build); RTP 95.81% web-verified (corrected from 95.79%=20SH); Jackpot Cards + gamble; honest 40-vs-20-lines angle; Gemini HL 15→85 PASS pass 1 (human 85); PR #29; img:2 (infographic + hero, best 82)",
       "opportunity": {
         "score": 30,
         "band": "Moderate"
@@ -964,7 +964,7 @@
       }
     },
     {
-      "type": "review",
+      "type": "guide",
       "query": "40 Super Hot: RTP и джакпот функции (EGT)",
       "researched_keywords": "40 super hot",
       "volume": "300",
@@ -972,8 +972,8 @@
       "intent": "transactional",
       "trend": "",
       "checked": "ahrefs",
-      "suggestion": "EGT класика; солиден обем 300; slot-review или раздел в EGT-хъб",
-      "status": "candidate",
+      "suggestion": "EGT класика; солиден обем 300; НАПИСАН като slot-explainer guide (5x4/40 фикс. линии, RTP 95.81%, Jackpot Cards, гембъл); честен ъгъл повече линии ≠ по-добри шансове + RTP под средното; котва към Amusnet profile (vk-0023, PR #29)",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 30,
