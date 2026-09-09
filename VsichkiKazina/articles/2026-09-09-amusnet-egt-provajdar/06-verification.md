@@ -4,6 +4,8 @@
 Article: **Amusnet (EGT): профил на доставчика, механики и топ слотове** · type: guide (provider profile) · byline: editorial (signed Георги Тодоров) · gate: PASS WITH FIXES 93/100 · humanisation: HUMAN-LIKE · Gemini Step-7: human 85 (HL 15 → 75 → 85, kept pass 2, PASS) · images: 2 (infographic 100, hero 82; best 100) · run date: 09.09.2026
 
 ## Surviving flags
+**RESOLVED 09.09.2026 (human, Step 6).** The in-text [VERIFY] marker was removed: the copy is hedged and asserts nothing the flag contests, so it needs no primary source. Original autopilot note below, kept for the audit trail.
+
 **1** in-text [VERIFY]: the exact founding year of the online arm (EGT Interactive) and the precise corporate relationship to the EGT group are described differently across sources (≈2008–2010 vs ≈2016; subsidiary vs separately-owned licensor). The text hedges to "исторически произход" and does not assert a fixed corporate structure. No [CONFLICT]/[DATA NEEDED]. Provider profile: no BG operator, no licence number, no bonus terms.
 
 ## Time-sensitive / provider claims to confirm at publish (source URLs below)
