@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-09T13:31:47Z",
+  "generated_utc": "2026-09-09T13:36:37Z",
   "buffer": {
     "count": 21,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 19,
-    "approved": 2,
+    "drafted": 15,
+    "approved": 6,
     "posted": 4,
     "failed": 1
   },
@@ -224,7 +224,7 @@
     },
     {
       "id": "vk-0012",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Бакара: правила и как се играе в казино",
       "keywords_or_terms": "бакара, как се играе бакара, бакара правила, бакара онлайн",
@@ -236,7 +236,7 @@
       "folder": "2026-09-08-bakara-pravila",
       "pr": "#14",
       "gemini": "human 90",
-      "notes": "„бакара\" 500/kd0/informational/flat — clean pillar, no baccarat page in sitemap; distinct from poker (vk-0008) & blackjack (vk-0009) · gate 93/100; HUMAN-LIKE 52/60; 0 flags; Gemini ×1 → human 90 (PASS pass-1, initial kept); PR #14; img:2 (hero+infographic, score 100)",
+      "notes": "„бакара\" 500/kd0/informational/flat — clean pillar, no baccarat page in sitemap; distinct from poker (vk-0008) & blackjack (vk-0009) · gate 93/100; HUMAN-LIKE 52/60; 0 flags; Gemini ×1 → human 90 (PASS pass-1, initial kept); PR #14; img:2 (hero+infographic, score 100); approved for deploy 2026-09-09 (human review: 0 flags, Gemini human 90, images 100/100 both PASS)",
       "opportunity": {
         "score": 65,
         "band": "Good"
@@ -344,7 +344,7 @@
     },
     {
       "id": "vk-0018",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Sweet Bonanza: RTP, волатилност и как се играе",
       "keywords_or_terms": "sweet bonanza, свит бонанза, sweet bonanza rtp",
@@ -356,7 +356,7 @@
       "folder": "2026-09-08-sweet-bonanza",
       "pr": "#24",
       "gemini": "ai 25",
-      "notes": "TOP opp: 1100/kd0/commercial/up — clean slot-explainer pillar (Pragmatic), no page in sitemap; game-explainer scope (public game data, not operator T&C); RTP 96.48% default (configurable builds) web-verified · gate 93/100; HUMAN-LIKE; 1 in-text [VERIFY] (bonus-buy BG); Gemini high-variance HL 15→75→20, kept pass 1 (ai 25); PR #24; img:2 (hero+infographic, best score 98)",
+      "notes": "TOP opp: 1100/kd0/commercial/up — clean slot-explainer pillar (Pragmatic), no page in sitemap; game-explainer scope (public game data, not operator T&C); RTP 96.48% default (configurable builds) web-verified · gate 93/100; HUMAN-LIKE; 1 in-text [VERIFY] (bonus-buy BG); Gemini high-variance HL 15→75→20, kept pass 1 (ai 25); PR #24; img:2 (hero+infographic, best score 98); approved for deploy 2026-09-09 (human review: [VERIFY bonus-buy availability] resolved — hedged wording kept, flag removed; Gemini ai 25 accepted as-is (high-variance 15/75/20, kept HL 75); images 98 PASS)",
       "opportunity": {
         "score": 95,
         "band": "Strong"
@@ -364,7 +364,7 @@
     },
     {
       "id": "vk-0019",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Pragmatic Play: профил на доставчика, механики и топ слотове",
       "keywords_or_terms": "pragmatic play, pragmatic слотове, pragmatic play слотове",
@@ -376,7 +376,7 @@
       "folder": "2026-09-08-pragmatic-play-provajdar",
       "pr": "#25",
       "gemini": "human 85",
-      "notes": "highest volume 2700/kd62; provider-profile pillar (hub, anchors Sweet Bonanza vk-0018); anti-cannibal vs /blog/games-providers/ (Pragmatic-specific profile, distinct primary kw); web-verified provider facts · gate 93/100; HUMAN-LIKE; 1 in-text [VERIFY] (HQ Malta/Gibraltar); Gemini HL 25→35→85 PASS pass 2 (human 85); PR #25; img:2 (hero 82+infographic 85)",
+      "notes": "highest volume 2700/kd62; provider-profile pillar (hub, anchors Sweet Bonanza vk-0018); anti-cannibal vs /blog/games-providers/ (Pragmatic-specific profile, distinct primary kw); web-verified provider facts · gate 93/100; HUMAN-LIKE; 1 in-text [VERIFY] (HQ Malta/Gibraltar); Gemini HL 25→35→85 PASS pass 2 (human 85); PR #25; img:2 (hero 82+infographic 85); approved for deploy 2026-09-09 (human review: [VERIFY HQ Malta/Gibraltar] resolved — text says offices not one seat, flag removed; Gemini human 85; images 85/82 PASS)",
       "opportunity": {
         "score": 75,
         "band": "Strong"
@@ -404,7 +404,7 @@
     },
     {
       "id": "vk-0021",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Amusnet (EGT): профил на доставчика, механики и топ слотове",
       "keywords_or_terms": "amusnet, egt слотове, ротативки egt",
@@ -416,7 +416,7 @@
       "folder": "2026-09-09-amusnet-egt-provajdar",
       "pr": "#27",
       "gemini": "human 85",
-      "notes": "highest-volume bank candidate 2000/kd73/commercial/up; provider-profile pillar (hub, anchors EGT classics 20/40 Super Hot, Shining/Burning Crown); anti-cannibal vs /blog/games-providers/ (Amusnet-specific profile, distinct primary kw); public provider facts (site + game DBs), NOT geo-blocked operator T&C · gate 93/100; HUMAN-LIKE; 1 in-text [VERIFY] (online-arm founding/EGT relationship, hedged); Gemini HL 15→75→85 PASS pass 2 (human 85); RTP band 96.37/95.81/95.79/95.53 web-verified (Wizard of Odds); PR #27; img:2 (infographic 100 + hero 82, best 100)",
+      "notes": "highest-volume bank candidate 2000/kd73/commercial/up; provider-profile pillar (hub, anchors EGT classics 20/40 Super Hot, Shining/Burning Crown); anti-cannibal vs /blog/games-providers/ (Amusnet-specific profile, distinct primary kw); public provider facts (site + game DBs), NOT geo-blocked operator T&C · gate 93/100; HUMAN-LIKE; 1 in-text [VERIFY] (online-arm founding/EGT relationship, hedged); Gemini HL 15→75→85 PASS pass 2 (human 85); RTP band 96.37/95.81/95.79/95.53 web-verified (Wizard of Odds); PR #27; img:2 (infographic 100 + hero 82, best 100); approved for deploy 2026-09-09 (human review: [VERIFY online-arm founding year / EGT relationship] resolved — text hedges to historical origin, flag removed; Gemini human 85; images 100/82 PASS)",
       "opportunity": {
         "score": 71,
         "band": "Strong"
