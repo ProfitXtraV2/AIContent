@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" width="680" height="400" role="img" aria-label="Инфографика: как базата и множителят определят изискването за разиграване">
+  <title>Разиграване: база × множител = оборот</title>
+  <defs>
+    <style>
+      text { font-family: 'Segoe UI', Arial, sans-serif; }
+      .label { font-size: 12px; fill: #555; }
+      .value { font-size: 18px; font-weight: 700; }
+      .heading { font-size: 13px; font-weight: 700; fill: #222; }
+      .note { font-size: 10px; fill: #888; }
+      .rg { font-size: 9px; fill: #aaa; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="680" height="400" rx="12" ry="12" fill="#f9f9fb"/>
+
+  <!-- Title -->
+  <text x="340" y="34" text-anchor="middle" font-size="15" font-weight="700" fill="#1a1a2e">Как базата и множителят решават изискването за разиграване</text>
+  <text x="340" y="52" text-anchor="middle" font-size="11" fill="#888">Депозит €100 + 100% бонус (€100) · множител ×30 · числата са примерни</text>
+
+  <!-- Divider line -->
+  <line x1="40" y1="64" x2="640" y2="64" stroke="#e0e0e8" stroke-width="1"/>
+
+  <!-- ===== LEFT COLUMN: Scenario A — bonus only ===== -->
+  <rect x="40" y="78" width="280" height="200" rx="10" fill="#eef4ff" stroke="#b8d0f8" stroke-width="1.5"/>
+  <text x="180" y="100" text-anchor="middle" font-size="13" font-weight="700" fill="#1a5ac8">Сценарий А: база = само бонус</text>
+
+  <!-- formula -->
+  <text x="180" y="130" text-anchor="middle" font-size="12" fill="#444">×30</text>
+  <text x="180" y="148" text-anchor="middle" font-size="11" fill="#666">€100 (бонус)</text>
+
+  <!-- equals bar -->
+  <line x1="100" y1="158" x2="260" y2="158" stroke="#1a5ac8" stroke-width="2"/>
+  <text x="180" y="176" text-anchor="middle" font-size="22" font-weight="700" fill="#1a5ac8">€3,000</text>
+  <text x="180" y="195" text-anchor="middle" font-size="11" fill="#555">изискван оборот</text>
+
+  <!-- game contribution sub-row -->
+  <line x1="70" y1="208" x2="290" y2="208" stroke="#c5d8f8" stroke-width="1"/>
+  <text x="180" y="224" text-anchor="middle" font-size="11" fill="#444">Ротативки (100%): <tspan font-weight="700">€3,000</tspan> залози</text>
+  <text x="180" y="240" text-anchor="middle" font-size="11" fill="#888">Маси 10%: <tspan font-weight="700">€30,000</tspan> залози</text>
+  <text x="180" y="260" text-anchor="middle" font-size="10" fill="#aaa">при едни и същи условия</text>
+
+  <!-- ===== RIGHT COLUMN: Scenario B — deposit + bonus ===== -->
+  <rect x="360" y="78" width="280" height="200" rx="10" fill="#fff5ec" stroke="#f5c07a" stroke-width="1.5"/>
+  <text x="500" y="100" text-anchor="middle" font-size="13" font-weight="700" fill="#b35a00">Сценарий Б: база = депозит + бонус</text>
+
+  <!-- formula -->
+  <text x="500" y="130" text-anchor="middle" font-size="12" fill="#444">×30</text>
+  <text x="500" y="148" text-anchor="middle" font-size="11" fill="#666">€200 (депозит + бонус)</text>
+
+  <!-- equals bar -->
+  <line x1="380" y1="158" x2="620" y2="158" stroke="#b35a00" stroke-width="2"/>
+  <text x="500" y="176" text-anchor="middle" font-size="22" font-weight="700" fill="#b35a00">€6,000</text>
+  <text x="500" y="195" text-anchor="middle" font-size="11" fill="#555">изискван оборот</text>
+
+  <!-- game contribution sub-row -->
+  <line x1="390" y1="208" x2="610" y2="208" stroke="#f5d9a8" stroke-width="1"/>
+  <text x="500" y="224" text-anchor="middle" font-size="11" fill="#444">Ротативки (100%): <tspan font-weight="700">€6,000</tspan> залози</text>
+  <text x="500" y="242" text-anchor="middle" font-size="10" fill="#888">Маси с 10% принос: 10× повече залози</text>
+
+  <!-- VS badge -->
+  <circle cx="340" cy="178" r="20" fill="#fff" stroke="#dde" stroke-width="1.5"/>
+  <text x="340" y="183" text-anchor="middle" font-size="13" font-weight="700" fill="#888">VS</text>
+
+  <!-- ===== Time row ===== -->
+  <rect x="40" y="294" width="600" height="68" rx="10" fill="#f3f3fa" stroke="#d0d0e0" stroke-width="1"/>
+  <text x="340" y="314" text-anchor="middle" font-size="12" font-weight="700" fill="#333">Срокът: €6,000 изискване</text>
+
+  <rect x="80" y="323" width="230" height="28" rx="6" fill="#dbeafe" stroke="#93c5fd" stroke-width="1"/>
+  <text x="195" y="341" text-anchor="middle" font-size="11" fill="#1d4ed8">7 дни → ≈ €860 / ден</text>
+
+  <rect x="370" y="323" width="230" height="28" rx="6" fill="#d1fae5" stroke="#6ee7b7" stroke-width="1"/>
+  <text x="485" y="341" text-anchor="middle" font-size="11" fill="#065f46">30 дни → ≈ €200 / ден</text>
+
+  <!-- RG note -->
+  <text x="340" y="382" text-anchor="middle" class="rg">18+ Играйте отговорно · числата са примерни за целите на илюстрацията</text>
+</svg>

@@ -204,7 +204,7 @@ the **cloud environment / routine**, not in the repo.
 | 4 | Cloud environment network | claude.ai/code → routine → env ⚙ | **Network access: Full** (WebFetch/Ahrefs need egress) |
 | 5 | Ahrefs key | same env ⚙ → Environment variables | secret **`AHREFS_API_KEY`** (never commit it) |
 | 6 | Gemini key (optional) | same env ⚙ → Environment variables | secret **`GEMINI_API_KEY`** for the Step-7 cross-model check (skips gracefully if unset) |
-| 7 | Scheduled routine | `/schedule` / routines API | cron **`0 4 * * *`** (07:00 Europe/Sofia), model, run `automation/daily-run.md` |
+| 7 | Scheduled routine | `/schedule` / routines API | cron **`0 3,7,22 * * *`** (01:00, 06:00, 10:00 Europe/Sofia), model, run `automation/daily-run.md` |
 
 **Tunable constants** (top of `automation/daily-run.md`):
 
@@ -212,7 +212,7 @@ the **cloud environment / routine**, not in the repo.
 |---|---|---|
 | `BUFFER_TARGET` | 10 | desired written-but-unposted articles |
 | `MAX_PER_RUN` | 10 | safety cap on articles per run (first backfill) |
-| `RUN_TIME` | 07:00 Europe/Sofia | cron fire time (UTC in the routine: `0 4 * * *`) |
+| `RUN_TIME` | 07:00 Europe/Sofia | cron fire time (UTC in the routine: `0 3,7,22 * * *`) |
 | `GEMINI_TARGET_CONFIDENCE` | 80 | Step-7 accepts at "human-written ≥ this" |
 | `MAX_GEMINI_PASSES` | 2 | max Humaniser re-passes Gemini can drive before handing to human |
 | **Content scope** | guides-only | single switch — see limits below |
@@ -224,6 +224,10 @@ Each morning a PR (or several) is waiting. Per PR:
    links + a recalculated figure).
 2. Resolve every `[VERIFY]/[DATA NEEDED]/[CONFLICT]` flag against sources; edit `05b`.
 3. Set the queue row `drafted → approved`; merge the PR.
+   **Approval automation:** merging a `content/<folder>` PR triggers the `approve-on-merge`
+   GitHub Actions workflow, which sets that article's status to `approved` in
+   `content-queue.md` and rebuilds the published feed — so **merge = approve = ready to
+   deploy**. No manual queue edit needed after merge.
 4. **Post the article to the live site manually**, then mark the row `approved → posted`
    (this frees a buffer slot; the next run refills it).
 5. Steer future topics by adding rows to `topic-backlog.md` — the run enriches + writes them.

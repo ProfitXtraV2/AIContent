@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "slug": "amusnet-egt-provajdar",
+  "title": "Amusnet (EGT): профил на доставчика, механики и топ слотове",
+  "meta_description": "Кой е Amusnet (бившият EGT Interactive), какви игри прави и кои са топ слотовете му. Защо RTP на класиките е под средното, защо сертификатът не е предимство и как да го проверите.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-09",
+  "date_modified": "2026-09-09",
+  "keywords": [
+    "amusnet",
+    "egt слотове",
+    "ротативки egt"
+  ],
+  "images": [
+    {
+      "path": "images/amusnet-egt-hero.webp",
+      "alt": "Абстрактен фон с плодови символи, седмица и звезда, вдъхновен от класическите ротативки на доставчик като Amusnet"
+    },
+    {
+      "path": "images/amusnet-egt-rtp.svg",
+      "alt": "Обявени RTP на класически заглавия на Amusnet: Shining Crown 96.37%, 40 Super Hot 95.81%, 20 Super Hot 95.79%, Flaming Hot 95.53%, спрямо средното за модерните слотове около 96%"
+    }
+  ],
+  "section_hint": "guide",
+  "status": "approved",
+  "content_hash": "028af30c94ff12cc474984984663b56aee85d9c19b01498cafe07f473028fb9e"
+}

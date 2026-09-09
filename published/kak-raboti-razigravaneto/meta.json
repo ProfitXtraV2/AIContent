@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "slug": "kak-raboti-razigravaneto",
+  "title": "Как работи изискването за разиграване (wagering)",
+  "meta_description": "Разиграването (wagering) е задача, не число на банера. Виж как множителят, базата, приносът на игрите и срокът решават дали бонусът си струва.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-07",
+  "date_modified": "2026-09-07",
+  "keywords": [
+    "разиграване",
+    "wagering",
+    "бонус условия"
+  ],
+  "images": [
+    {
+      "path": "images/razigravane-hero.webp",
+      "alt": "Ключалка върху купчина чипове с кръгови стрелки — символ на заключения бонус, чакащ оборот преди изтегляне"
+    },
+    {
+      "path": "images/razigravane-baza-mnozhitel.svg",
+      "alt": "Инфографика: два сценария за изчисляване на изискването за разиграване — база само бонус (€3,000) срещу база депозит+бонус (€6,000), с разбивка по приноса на игрите и срока"
+    }
+  ],
+  "section_hint": "guide",
+  "status": "approved",
+  "content_hash": "e78339d5580b8b0be22ec7b777cd185b2697a02be5fff35947566bcfdac1bdc6"
+}
