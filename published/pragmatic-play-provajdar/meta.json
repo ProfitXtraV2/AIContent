@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "slug": "pragmatic-play-provajdar",
+  "title": "Pragmatic Play: профил на доставчика, механики и топ слотове",
+  "meta_description": "Кой е Pragmatic Play, какви игри и механики прави и кои са топ слотовете. Защо лицензът не маха домашното предимство и защо RTP се проверява в инфо-панела.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-08",
+  "date_modified": "2026-09-08",
+  "keywords": [
+    "pragmatic play",
+    "pragmatic слотове",
+    "pragmatic play слотове"
+  ],
+  "images": [
+    {
+      "path": "images/pragmatic-play-hero.webp",
+      "alt": "Абстрактен фон с игрални символи и геометрични форми, вдъхновен от слот механиките на доставчик като Pragmatic Play"
+    },
+    {
+      "path": "images/pragmatic-play-rtp.svg",
+      "alt": "Илюстративно: при обявен RTP около 96% и €1000 оборот средно ~€960 се връщат на играча, ~€40 остават за казиното; реалната стойност зависи от заглавието и версията"
+    }
+  ],
+  "section_hint": "guide",
+  "status": "approved",
+  "content_hash": "660f4dad2f0c4fbcf4ef472b59fe8b2bd66c556c12822afb3f0755db4fbb6f1a"
+}
