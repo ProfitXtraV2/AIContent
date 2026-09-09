@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-09T19:06:14Z",
+  "generated_utc": "2026-09-09T22:55:49Z",
   "buffer": {
-    "count": 21,
+    "count": 24,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 15,
+    "drafted": 18,
     "approved": 6,
     "posted": 4,
     "failed": 1
@@ -518,6 +518,63 @@
         "score": 24,
         "band": "Weak"
       }
+    },
+    {
+      "id": "vk-0027",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Burning Hot: RTP и характеристики (EGT/Amusnet класика)",
+      "keywords_or_terms": "burning hot, бърнинг хот",
+      "volume": "200",
+      "kd": "62",
+      "source": "research",
+      "drafted_date": "2026-09-09",
+      "posted_date": "",
+      "folder": "2026-09-09-burning-hot",
+      "pr": "#34",
+      "gemini": "human 85",
+      "notes": "EGT/Amusnet classic slot-explainer (public game data, NOT operator T&C); clean pillar (no page in sitemap); anchors to Amusnet profile (vk-0021); distinct game+kw from other EGT classics (Shining Crown vk-0026, 20/40 Super Hot vk-0020/0023); RTP 96.45% default web-verified (Amusnet), configurable builds · gate 93/100; 1 in-text [VERIFY] (alt RTP tiers for original not publicly listed); Gemini HL 75→85 PASS pass 1 (human 85); PR #34; img:2 (infographic 100 + hero 75 kept-best; best 100)",
+      "opportunity": {
+        "score": 25,
+        "band": "Moderate"
+      }
+    },
+    {
+      "id": "vk-0028",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Big Bass Bonanza: RTP, волатилност и как се играе",
+      "keywords_or_terms": "big bass bonanza, биг бас бонанза",
+      "volume": "150",
+      "kd": "70",
+      "source": "research",
+      "drafted_date": "2026-09-09",
+      "posted_date": "",
+      "folder": "2026-09-09-big-bass-bonanza",
+      "pr": "#35",
+      "gemini": "human 90",
+      "notes": "Pragmatic/Reel Kingdom fishing-slot explainer (public game data, NOT operator T&C); clean pillar (no page in sitemap); anchors to Pragmatic profile (vk-0019); distinct cluster from Sweet Bonanza/Gates of Olympus; RTP 96.71% default web-verified (Pragmatic), configurable builds · gate 93/100; 1 in-text [VERIFY] (lower RTP builds 95.67/94.02 secondary-listing); Gemini human 90 PASS pass 1 (initial kept — highest first-pass of batch); PR #35; img:3 (hero 100 + RTP infographic 100 + bonus-ladder infographic 100; all PASS)",
+      "opportunity": {
+        "score": 20,
+        "band": "Weak"
+      }
+    },
+    {
+      "id": "vk-0029",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Крапс (зарове): правила и залози за начинаещи",
+      "keywords_or_terms": "крапс, как се играе крапс, казино зарове",
+      "volume": "40",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-09",
+      "posted_date": "",
+      "folder": "2026-09-09-kraps-pravila",
+      "pr": "#33",
+      "gemini": "human 85",
+      "notes": "table-game rules pillar (evergreen game math, Wizard of Odds); no craps page in sitemap; completes table/dice-games set (blackjack vk-0009, baccarat vk-0012, roulette vk-0024, poker vk-0008, keno vk-0016); honest house-edge angle (pass 1.41%/don't pass 1.36% + 0% odds bet vs Any 7 16.67%) · gate 96/100; 0 flags; Gemini HL 20→25→85 PASS pass 2 (human 85); PR #33; img:2 (infographic 100 + hero 60 kept-best; best 100)",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -868,8 +925,8 @@
       "intent": "informational",
       "trend": "",
       "checked": "ahrefs",
-      "suggestion": "нишов, нисък обем (~40); поддържащ раздел към table-games хъб, не самостоятелна цел",
-      "status": "candidate",
+      "suggestion": "нишов обем (~40), но чист distinct table-game pillar (няма крапс страница в sitemap); НАПИСАН с честен house-edge ъгъл — pass 1.41%/don't pass 1.36% + залог за коефициент 0% vs централните капани (Any 7 16.67%); допълва table-games сета (blackjack/baccarat/roulette/poker/keno) (vk-0029, PR #33)",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": null
     },
@@ -1055,16 +1112,16 @@
       }
     },
     {
-      "type": "review",
-      "query": "Burning Hot: RTP и функции (EGT)",
+      "type": "guide",
+      "query": "Burning Hot: RTP и характеристики (EGT/Amusnet класика)",
       "researched_keywords": "burning hot",
       "volume": "200",
       "kd": "62",
       "intent": "transactional",
       "trend": "",
       "checked": "ahrefs",
-      "suggestion": "EGT; обем 200; fold-in кандидат към EGT-класики хъб (заедно с 20/40 Super Hot, Shining Crown)",
-      "status": "candidate",
+      "suggestion": "EGT/Amusnet класика; обем 200/kd62; НАПИСАН като slot-explainer guide (5x3/5 fixed lines, разширяващ се wild-детелина, $ + звезда скатери, gamble, Jackpot Cards прогресив); честен ъгъл RTP 96.45% под-средно + конфигурируем; прогресив/gamble не менят базовата математика; котва към Amusnet profile (vk-0021) (vk-0027, PR #34)",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 25,
@@ -1072,16 +1129,16 @@
       }
     },
     {
-      "type": "review",
-      "query": "Big Bass Bonanza: RTP и как се играе",
+      "type": "guide",
+      "query": "Big Bass Bonanza: RTP, волатилност и как се играе",
       "researched_keywords": "big bass bonanza",
       "volume": "150",
       "kd": "70",
       "intent": "transactional",
       "trend": "",
       "checked": "ahrefs",
-      "suggestion": "Pragmatic риболовна серия; обем 150, kd70; slot-review",
-      "status": "candidate",
+      "suggestion": "Pragmatic/Reel Kingdom риболовна серия; обем 150/kd70; НАПИСАН като slot-explainer guide (5x3/10 lines, рибар wild-collector в бонуса, money-fish до 2000×, скатери 3/4/5→10/15/20 FS, множител ladder 2x/3x/10x); честен ъгъл тънка база + висока волатилност 4/5 + конфигурируем RTP 96.71%; котва към Pragmatic profile (vk-0019) (vk-0028, PR #35)",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 20,
