@@ -4,10 +4,10 @@ Status: PRE-PUBLISH. FLAGS STAY IN THE TEXT until the human resolves them. This 
 
 Type: guide · byline: editorial (signed Георги Тодоров) · gate: PASS WITH FIXES 93/100 · humanisation: HUMAN-LIKE ~50/60 · Gemini Step-7: **ai 65** (hl 35, kept pass 2 after MAX_GEMINI_PASSES=2; high-variance reads 25/15/35) · run date: 08.09.2026
 
-## SURVIVING IN-TEXT FLAGS: 1
+## SURVIVING IN-TEXT FLAGS: 0 (resolved by human at Step 6, 09.09.2026)
 | # | Flag (verbatim, in text) | Section | Owner action |
 |---|---|---|---|
-| 1 | `[VERIFY: допустимост на bonus buy при лицензирани BG оператори]` | „Механиката: линии, начини за печалба и решетки" | Confirm whether feature-buy/bonus-buy is permitted for BG-licensed operators against НАП guidance / operator T&C. The text asserts nothing either way; keep the flag until confirmed, then rephrase to a stated fact or delete the sentence. |
+| 1 | `[VERIFY: допустимост на bonus buy при лицензирани BG оператори]` | „Механиката: линии, начини за печалба и решетки" | Confirm whether feature-buy/bonus-buy is permitted for BG-licensed operators against НАП guidance / operator T&C. **RESOLVED 09.09.2026:** flag removed from 05b; sentence keeps only the generic, non-BG-specific wording „ограничена в редица юрисдикции", so the text makes no claim about BG-licensed operators and needs no primary source. |
 
 No [DATA NEEDED], no unresolved [CONFLICT], no Version A/B structure.
 
