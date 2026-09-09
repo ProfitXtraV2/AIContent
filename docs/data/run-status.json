@@ -3,14 +3,14 @@
   "run_started_utc": "2026-09-09T03:13:05Z",
   "run_finished_utc": null,
   "articles_written": null,
-  "prs_opened": [27],
+  "prs_opened": [27, 28],
   "run_url": "https://claude.ai/code/session_01EejbEPJEZn6bru83uViDL2",
-  "note": "recurring run 2026-09-09: vk-0021 Amusnet/EGT profile drafted (PR #27, human 85, img:2 best 100). Writing article 2/3 (Gates of Olympus).",
+  "note": "recurring run 2026-09-09: vk-0021 Amusnet (PR #27, human 85), vk-0022 Gates of Olympus (PR #28, human 90) drafted. Writing article 3/3 (40 Super Hot).",
   "progress": {
     "phase": "writing",
-    "article_index": 2,
+    "article_index": 3,
     "article_total": 3,
-    "article_slug": "2026-09-09-gates-of-olympus",
+    "article_slug": "2026-09-09-40-super-hot",
     "stages": ["Synthesis", "Outline", "Author", "Humaniser", "SEO", "Brand Gate", "Light re-check", "Images", "Verification", "PR"],
     "stage_index": 0,
     "stage": "Synthesis"

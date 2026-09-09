@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-09T03:33:59Z",
+  "generated_utc": "2026-09-09T03:40:58Z",
   "buffer": {
-    "count": 18,
+    "count": 19,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 2,
-    "drafted": 16,
+    "in-progress": 1,
+    "drafted": 17,
     "approved": 2,
     "posted": 2,
     "failed": 1
@@ -424,19 +424,19 @@
     },
     {
       "id": "vk-0022",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Gates of Olympus: RTP, волатилност и как се играе",
       "keywords_or_terms": "gates of olympus, гейтс ъв олимпус",
       "volume": "300",
       "kd": "69",
       "source": "research",
-      "drafted_date": "",
+      "drafted_date": "2026-09-09",
       "posted_date": "",
       "folder": "2026-09-09-gates-of-olympus",
-      "pr": "",
-      "gemini": "",
-      "notes": "300/kd69/commercial; Pragmatic hit slot-explainer, clean pillar (no page in sitemap); anchors to Pragmatic profile (vk-0019); public game data (pay-anywhere/tumble/Zeus множители/висока волатилност); RTP web-verify + [VERIFY] configurable build",
+      "pr": "#28",
+      "gemini": "human 90",
+      "notes": "300/kd69/commercial; Pragmatic hit slot-explainer, clean pillar (no page in sitemap); anchors to Pragmatic profile (vk-0019); public game data (pay-anywhere/tumble/Zeus множители/висока волатилност) · gate 93/100; HUMAN-LIKE; 2 in-text [VERIFY] (lower RTP builds; bonus-buy BG); RTP 96.50% default web-verified, max win 5000x; Gemini PASS pass 1 (human 90, initial kept); PR #28; img:2 (infographic 85 + hero 85, best 85)",
       "opportunity": {
         "score": 27,
         "band": "Moderate"
@@ -947,7 +947,7 @@
       }
     },
     {
-      "type": "review",
+      "type": "guide",
       "query": "Gates of Olympus: RTP, волатилност и функции",
       "researched_keywords": "gates of olympus",
       "volume": "300",
@@ -955,8 +955,8 @@
       "intent": "commercial",
       "trend": "flat",
       "checked": "ahrefs",
-      "suggestion": "добър обем 300; Pragmatic хит; slot-review; свързва се с Pragmatic provider-profile",
-      "status": "candidate",
+      "suggestion": "добър обем 300; Pragmatic хит; НАПИСАН като slot-explainer guide (6x5 pay-anywhere, tumble, множители на Зевс 2x–500x, RTP 96.50% по подразбиране, макс. 5000x); честен ъгъл висока волатилност + конфигурируем RTP + bonus buy ≠ по-добри шансове; котва към Pragmatic profile (vk-0022, PR #28)",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 27,
