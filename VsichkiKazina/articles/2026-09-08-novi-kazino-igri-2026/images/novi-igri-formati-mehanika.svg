@@ -1,0 +1,56 @@
+<svg viewBox="0 0 620 350" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect width="620" height="350" fill="#F8F6F2" rx="12"/>
+
+  <!-- Title -->
+  <text x="310" y="34" font-size="16" font-weight="700" fill="#1A1A2E" text-anchor="middle">Основни формати при нови казино игри 2026</text>
+  <text x="310" y="52" font-size="10" fill="#999" text-anchor="middle">данните са ориентировъчни — проверете правилата на конкретната игра</text>
+
+  <!-- Column dividers (drawn behind header) -->
+  <line x1="192" y1="62" x2="192" y2="310" stroke="#D8D8D8" stroke-width="1"/>
+  <line x1="410" y1="62" x2="410" y2="310" stroke="#D8D8D8" stroke-width="1"/>
+
+  <!-- Header bar -->
+  <rect x="20" y="62" width="580" height="30" fill="#1A1A2E" rx="6"/>
+  <text x="106" y="82" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">ФОРМАТ</text>
+  <text x="301" y="82" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">МЕХАНИКА</text>
+  <text x="510" y="82" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">КЛЮЧОВА ЧЕРТА</text>
+
+  <!-- Row 1: Megaways — light blue -->
+  <rect x="20" y="94" width="580" height="54" fill="#EEF2FF" rx="4"/>
+  <text x="106" y="116" font-size="13" font-weight="700" fill="#1A1A2E" text-anchor="middle">Megaways</text>
+  <text x="106" y="133" font-size="10" fill="#666" text-anchor="middle">(Big Time Gaming)</text>
+  <text x="301" y="115" font-size="11" fill="#333" text-anchor="middle">Барабани с произволен брой</text>
+  <text x="301" y="130" font-size="11" fill="#333" text-anchor="middle">символи при всяко завъртане</text>
+  <text x="510" y="112" font-size="15" font-weight="700" fill="#2952C7" text-anchor="middle">до 117 649</text>
+  <text x="510" y="129" font-size="10" fill="#555" text-anchor="middle">начина за печалба</text>
+  <text x="510" y="142" font-size="10" fill="#999" text-anchor="middle">(6 барабана)</text>
+
+  <!-- Row 2: Cluster pays — white -->
+  <rect x="20" y="150" width="580" height="54" fill="#FFFFFF" rx="4"/>
+  <text x="106" y="178" font-size="13" font-weight="700" fill="#1A1A2E" text-anchor="middle">Cluster pays</text>
+  <text x="301" y="173" font-size="11" fill="#333" text-anchor="middle">Групи от ≥ 5 еднакви символа,</text>
+  <text x="301" y="188" font-size="11" fill="#333" text-anchor="middle">каскадно изчезване</text>
+  <text x="510" y="178" font-size="11" fill="#555" text-anchor="middle">без фиксирани линии</text>
+
+  <!-- Row 3: Crash — light blue -->
+  <rect x="20" y="206" width="580" height="54" fill="#EEF2FF" rx="4"/>
+  <text x="106" y="234" font-size="13" font-weight="700" fill="#1A1A2E" text-anchor="middle">Крах игри</text>
+  <text x="301" y="229" font-size="11" fill="#333" text-anchor="middle">Множител от 1.00x расте</text>
+  <text x="301" y="244" font-size="11" fill="#333" text-anchor="middle">до произволен „срив"</text>
+  <text x="510" y="226" font-size="15" font-weight="700" fill="#2952C7" text-anchor="middle">5–30 сек.</text>
+  <text x="510" y="243" font-size="10" fill="#555" text-anchor="middle">на кръг</text>
+
+  <!-- Row 4: Live show — white -->
+  <rect x="20" y="262" width="580" height="47" fill="#FFFFFF" rx="4"/>
+  <text x="106" y="286" font-size="13" font-weight="700" fill="#1A1A2E" text-anchor="middle">Шоу на живо</text>
+  <text x="301" y="281" font-size="11" fill="#333" text-anchor="middle">Жив водещ в студио +</text>
+  <text x="301" y="296" font-size="11" fill="#333" text-anchor="middle">случаен изход (колело / RNG)</text>
+  <text x="510" y="286" font-size="11" fill="#555" text-anchor="middle">социален формат</text>
+
+  <!-- Table outer border -->
+  <rect x="20" y="94" width="580" height="215" fill="none" stroke="#C8C8C8" stroke-width="1" rx="4"/>
+
+  <!-- Footer -->
+  <text x="310" y="335" font-size="9.5" fill="#BBBBBB" text-anchor="middle">18+ Играйте отговорно · vsichkikazina.bg</text>
+</svg>
