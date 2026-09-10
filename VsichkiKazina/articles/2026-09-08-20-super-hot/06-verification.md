@@ -4,6 +4,9 @@
 Article: **20 Super Hot: RTP и характеристики** · type: guide (game explainer) · byline: editorial (signed Георги Тодоров) · gate: PASS WITH FIXES 93/100 · humanisation: HUMAN-LIKE · Gemini Step-7: ai 75 (HL 25, kept pass 2 — tied-highest, cleaner Bulgarian; HL 15→25→25) · images: 2 (best score 82) · run date: 08.09.2026
 
 ## Surviving flags
+
+**RESOLVED — 0 surviving flags as of 10.09.2026.** The [VERIFY] marker(s) described below were resolved in commit `55b89bd` by rewriting the sentences to hedge rather than assert; 05b now contains no [VERIFY]/[DATA NEEDED]/[CONFLICT]. Verified at human approval. The original autopilot note is kept below for the audit trail.
+
 **1** in-text [VERIFY]: exact release year cited variably (2014/2016). No [CONFLICT]/[DATA NEEDED]. Public game-information explainer; no BG operator, no licence number, no bonus terms. Every € figure is ILLUSTRATIVE.
 
 ## Time-sensitive / provider claims to confirm at publish (source URLs below)
