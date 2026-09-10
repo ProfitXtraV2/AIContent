@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" role="img" aria-label="Как работи бонусът на Book of Ra: 3 или повече книги дават 10 безплатни игри, преди които се тегли случаен символ, който през целия бонус се разширява върху цял барабан и плаща на всяка позиция; авантюристът плаща 5,000 пъти залога на линия при 5 в редица">
+  <title>Book of Ra: как работи бонусът от 10 безплатни игри</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="300" rx="12" ry="12" fill="url(#bg)"/>
+  <text x="300" y="36" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="#78350f" text-anchor="middle">Book of Ra: как се стига до голямата печалба</text>
+
+  <!-- Step 1 -->
+  <rect x="26" y="70" width="165" height="96" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+  <text x="108" y="98" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#92400e" text-anchor="middle">1. Три или повече</text>
+  <text x="108" y="118" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#92400e" text-anchor="middle">книги (скатер)</text>
+  <text x="108" y="144" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">Книгата е и wild.</text>
+
+  <!-- Arrow -->
+  <text x="205" y="126" font-family="system-ui, -apple-system, sans-serif" font-size="26" fill="#9ca3af" text-anchor="middle">→</text>
+
+  <!-- Step 2 -->
+  <rect x="220" y="70" width="165" height="96" rx="10" fill="#fef9c3" stroke="#ca8a04" stroke-width="1.5"/>
+  <text x="302" y="98" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#854d0e" text-anchor="middle">2. 10 безплатни</text>
+  <text x="302" y="118" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#854d0e" text-anchor="middle">игри</text>
+  <text x="302" y="144" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">Презадействат се.</text>
+
+  <!-- Arrow -->
+  <text x="399" y="126" font-family="system-ui, -apple-system, sans-serif" font-size="26" fill="#9ca3af" text-anchor="middle">→</text>
+
+  <!-- Step 3 -->
+  <rect x="414" y="70" width="165" height="96" rx="10" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="496" y="94" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#78350f" text-anchor="middle">3. Изтеглен символ</text>
+  <text x="496" y="112" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#78350f" text-anchor="middle">се разширява</text>
+  <text x="496" y="136" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" fill="#6b7280" text-anchor="middle">Покрива цял барабан,</text>
+  <text x="496" y="152" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" fill="#6b7280" text-anchor="middle">плаща на всяка позиция.</text>
+
+  <line x1="30" y1="196" x2="570" y2="196" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="300" y="224" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151" text-anchor="middle">Най-скъпият редовен символ, авантюристът, плаща <tspan font-weight="800" fill="#b45309">5,000× залога на линия</tspan> при 5 в редица.</text>
+  <text x="300" y="252" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#6b7280" text-anchor="middle" font-style="italic">Голямото почти винаги идва през бонуса — основната игра рядко държи темпото сама.</text>
+  <text x="300" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">Висока волатилност. 18+ Играйте отговорно.</text>
+</svg>
