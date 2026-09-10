@@ -44,8 +44,8 @@
 
     <!-- Row 5: volatility -->
     <text x="40" y="302" font-size="13" fill="#374151" font-weight="600">Волатилност</text>
-    <text x="330" y="302" font-size="13" font-weight="700" fill="#6b7280" text-anchor="middle">5/5 (много висока)</text>
-    <text x="500" y="302" font-size="13" font-weight="700" fill="#6b7280" text-anchor="middle">5/5 (висока)</text>
+    <text x="330" y="302" font-size="13" font-weight="700" fill="#6b7280" text-anchor="middle">5/5 (най-висока)</text>
+    <text x="500" y="302" font-size="13" font-weight="700" fill="#6b7280" text-anchor="middle">по-мека</text>
   </g>
 
   <text x="300" y="336" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">По-висок таван значи по-рядка голяма печалба, не по-добри шансове.</text>
