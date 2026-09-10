@@ -6,9 +6,15 @@ through a multi-stage editorial pipeline, and delivers each one as a GitHub Pull
 for a human to review and publish — keeping a **rolling buffer of ready-to-post drafts** at
 all times.
 
-It is currently configured for one brand — **Всички Казина** (`vsichkikazina.bg`, an
-independent Bulgarian online-casino comparison site) — but the layout is multi-brand by
-design (see [Adding a brand](#adding-a-new-brand)).
+It is currently configured for two brands:
+
+- **Всички Казина** (`vsichkikazina.bg`, Bulgarian online-casino comparison) — fully
+  automated; a scheduled cloud routine runs daily at 07:00 Europe/Sofia.
+- **Dentalvia** (`dentalvia.de`, German dental-tourism mediation) — **manual trigger
+  only** (no routine registered); German-language output; English comes via a future
+  publisher-side translation step.
+
+The layout is multi-brand by design (see [Adding a brand](#adding-a-new-brand)).
 
 > **Status:** operational. Daily automation runs in the cloud (laptop-independent). Human
 > review + publishing stays manual by design.
@@ -152,16 +158,25 @@ AIContent/
 │   ├── AHREFS_ENDPOINTS.md       # recorded working Ahrefs v3 endpoints (for scripting)
 │   ├── GEMINI_ENDPOINT.md        # recorded working Gemini model/endpoint
 │   └── tests/test_build_dashboard.py
-└── VsichkiKazina/                # ── one folder per brand ──
-    ├── pipeline/                 # the editorial pipeline (agents, prompts, markets, gate)
+├── VsichkiKazina/                # ── one folder per brand ──
+│   ├── pipeline/                 # the editorial pipeline (agents, prompts, markets, gate)
+│   ├── automation/
+│   │   ├── daily-run.md          # THE run instructions (executed by the cloud routine)
+│   │   └── build-dashboard.md    # how to rebuild the dashboard
+│   ├── content-queue.md          # article lifecycle board  (tracking)
+│   ├── topic-backlog.md          # HUMAN keyword backlog     (you add; run enriches)
+│   ├── research-topics.md        # AI keyword bank           (Ahrefs-driven)
+│   ├── affiliate-links.md        # operator → affiliate URL registry (reuse site links)
+│   └── articles/<YYYY-MM-DD-slug>/# per-article working dir (00-brief … 06-verification, log)
+└── DentalVia/                    # ── second brand (German dental-tourism) ──
+    ├── pipeline/                 # German-market editorial pipeline
     ├── automation/
-    │   ├── daily-run.md          # THE run instructions (executed by the cloud routine)
-    │   └── build-dashboard.md    # how to rebuild the dashboard
-    ├── content-queue.md          # article lifecycle board  (tracking)
-    ├── topic-backlog.md          # HUMAN keyword backlog     (you add; run enriches)
-    ├── research-topics.md        # AI keyword bank           (Ahrefs-driven)
-    ├── affiliate-links.md        # operator → affiliate URL registry (reuse site links)
-    └── articles/<YYYY-MM-DD-slug>/# per-article working dir (00-brief … 06-verification, log)
+    │   └── daily-run.md          # MANUAL TRIGGER ONLY — not scheduled; run via Claude Code
+    ├── content-queue.md          # article lifecycle board
+    ├── topic-backlog.md          # human keyword backlog
+    ├── research-topics.md        # AI keyword bank (Ahrefs country=de)
+    ├── conversion-links.md       # internal-link / CTA registry
+    └── articles/<YYYY-MM-DD-slug>/# per-article working dir
 ```
 
 ## Data model & schemas
@@ -248,6 +263,16 @@ Static, data-driven (`docs/index.html` reads `docs/data/status.json` + `run-stat
   opportunity, with Vol/KD/Opportunity + `✓ Ahrefs`/`web` badge).
 - Regenerated every run by `build_dashboard.py`.
 
+**Dashboard URLs:**
+
+| Brand | URL |
+|-------|-----|
+| Всички Казина | https://profitxtrav2.github.io/AIContent/ |
+| Dentalvia | https://profitxtrav2.github.io/AIContent/dentalvia/ |
+
+Rebuild either dashboard: `python3 scripts/build_dashboard.py` (VsichkiKazina) or
+`python3 scripts/build_dashboard.py dentalvia` (Dentalvia).
+
 ## Local development
 
 ```bash
@@ -282,16 +307,21 @@ counting, opportunity scoring, and the meta/links block.
 ## Adding a new brand
 
 The pipeline is multi-brand (`pipeline/SKILL.md` binds brand-specific gate/author/market
-files). To onboard another site:
+files). **DentalVia** (`DentalVia/`) is the worked example — a German dental-tourism brand
+onboarded as a manual-trigger-only brand alongside the fully-scheduled VsichkiKazina.
+
+To onboard another site:
 1. Create a sibling folder (e.g. `NewBrand/`) mirroring `VsichkiKazina/` — its own
    `pipeline/` (or a shared one with brand bindings), `automation/daily-run.md`,
-   `content-queue.md`, `topic-backlog.md`, `research-topics.md`, `affiliate-links.md`,
-   `articles/`.
+   `content-queue.md`, `topic-backlog.md`, `research-topics.md`, `affiliate-links.md`
+   (or `conversion-links.md` for non-affiliate brands), `articles/`.
 2. Set the brand constants in `SKILL.md` (name, market/currency/regulator, content types,
    approved internal-link set, byline, gate + author bindings).
-3. Add the brand's seed backlog and its affiliate registry.
-4. Point a new scheduled routine at `NewBrand/automation/daily-run.md`; the dashboard can be
-   extended to aggregate brands.
+3. Add the brand's seed backlog and its link registry.
+4. Decide on automation: either point a new scheduled routine at
+   `NewBrand/automation/daily-run.md`, or mark the run **MANUAL TRIGGER ONLY** (as
+   DentalVia does) and trigger it manually from a Claude Code session. The dashboard can be
+   extended to aggregate brands (`python3 scripts/build_dashboard.py <brand-key>`).
 
 ## Non-negotiable principles
 
