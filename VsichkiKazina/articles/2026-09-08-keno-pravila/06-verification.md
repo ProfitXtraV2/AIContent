@@ -4,6 +4,9 @@
 Type: guide · byline: editorial (signed Георги Тодоров) · gate: PASS 95/100 · humanisation: HUMAN-LIKE 50/60 · Gemini Step-7: **ai 80** (hl 20, kept pass 1 after MAX_GEMINI_PASSES=2; high-variance reads 15/20/15) · run date: 08.09.2026
 
 ## SURVIVING IN-TEXT FLAGS: 2 (both [VERIFY], intentionally left in text — not resolved by the pipeline)
+
+**RESOLVED — 0 surviving flags as of 10.09.2026.** The [VERIFY] marker(s) described below were resolved in commit `cb3e047` by rewriting the sentences to hedge rather than assert; 05b now contains no [VERIFY]/[DATA NEEDED]/[CONFLICT]. Verified at human approval. The original autopilot note is kept below for the audit trail.
+
 1. Section „Изплащанията" — [VERIFY: диапазонът 60%–95% за pick-6 е илюстративен ориентир от game-education източник и зависи от конкретната таблица]
 2. Section „Реалните шансове" — [VERIFY: тези стойности са приблизителни (1 на 4 / 17 / 73), точната зависи от броя избрани числа и от таблицата]
 No [DATA NEEDED], no [CONFLICT]. No operator/НАП/tax claim in the article, so no operator [VERIFY].
