@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "slug": "gates-of-olympus",
+  "title": "Gates of Olympus: RTP, волатилност и как се играе",
+  "meta_description": "Как работи Gates of Olympus на Pragmatic Play: мрежа 6x5, печалби от 8 символа, каскади, множителите на Зевс до 500x, RTP 96.50% и защо високата волатилност значи дълги сухи серии.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-09",
+  "date_modified": "2026-09-09",
+  "keywords": [
+    "gates of olympus",
+    "гейтс ъв олимпус"
+  ],
+  "images": [
+    {
+      "path": "images/gates-of-olympus-hero.webp",
+      "alt": "Абстрактен фон с антични колони, мълнии и светещи сфери с множители, вдъхновен от темата на Gates of Olympus"
+    },
+    {
+      "path": "images/gates-of-olympus-rtp.svg",
+      "alt": "Gates of Olympus RTP 96.50% и домашно предимство 3.50%: при €1000 оборот средно €965 се връщат на играча, €35 остават за казиното; висока волатилност, макс. печалба 5000x"
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": 27,
+  "status": "approved",
+  "content_hash": "f927e473edab0e34a535c6b040263fd3efe83a814ccf61241b39dca30d485fe0"
+}

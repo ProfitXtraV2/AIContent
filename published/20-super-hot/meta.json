@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "slug": "20-super-hot",
+  "title": "20 Super Hot: RTP и характеристики (EGT/Amusnet)",
+  "meta_description": "Как работи 20 Super Hot на Amusnet (EGT): 5 барабана, 20 фиксирани линии, RTP 95.79%, Jackpot Cards и гембъл. Защо RTP е под средното и защо джакпотът не мени шансовете.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-08",
+  "date_modified": "2026-09-08",
+  "keywords": [
+    "20 super hot",
+    "20 супер хот"
+  ],
+  "images": [
+    {
+      "path": "images/20-super-hot-hero.webp",
+      "alt": "Абстрактен фон с плодови символи и звезда, вдъхновен от класическа ротативка като 20 Super Hot"
+    },
+    {
+      "path": "images/20-super-hot-rtp.svg",
+      "alt": "20 Super Hot RTP 95.79% и домашно предимство 4.21%: при €1000 оборот средно €958 се връщат на играча, €42 остават за казиното"
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": 61,
+  "status": "approved",
+  "content_hash": "e2eeed6dc0ccbbc276c58de99b820908d2beef93de1041db351247ddcb38dd2c"
+}

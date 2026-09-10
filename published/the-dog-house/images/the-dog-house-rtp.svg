@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" role="img" aria-label="The Dog House RTP 96.51% и домашно предимство 3.49%: при €1000 оборот средно €965 се връщат на играча, €35 остават за казиното">
+  <title>The Dog House: RTP 96.51% и домашно предимство 3.49%</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+    <linearGradient id="playerBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#b45309"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="houseBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#f87171"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="320" rx="12" ry="12" fill="url(#bg)"/>
+
+  <text x="300" y="38" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="#78350f" text-anchor="middle">The Dog House: RTP и домашно предимство</text>
+
+  <text x="50" y="80" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151" font-weight="600">Връщане към играча (RTP)</text>
+  <text x="550" y="80" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151" font-weight="600" text-anchor="end">Домашно предимство</text>
+
+  <rect x="50" y="90" width="500" height="48" rx="8" fill="#e5e7eb"/>
+  <!-- Player 96.51% fills the track; house 3.49% overlays the right ~17px -->
+  <rect x="50" y="90" width="500" height="48" rx="8" fill="url(#playerBar)"/>
+  <!-- House portion: 3.49% of 500px = 17.45 ≈ 17px, flush right -->
+  <rect x="533" y="90" width="17" height="48" rx="4" fill="url(#houseBar)"/>
+
+  <text x="291" y="120" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">96.51%</text>
+  <text x="541" y="82" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#b91c1c" text-anchor="middle">3.49%</text>
+
+  <line x1="50" y1="165" x2="550" y2="165" stroke="#d1d5db" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <text x="300" y="192" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6b7280" text-anchor="middle" font-style="italic">Пример: €1000 оборот (версия по подразбиране 96.51%)</text>
+
+  <rect x="50" y="205" width="220" height="76" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="160" y="232" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#92400e" text-anchor="middle" font-weight="600">Обратно към играча</text>
+  <text x="160" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#b45309" text-anchor="middle">~€965</text>
+  <text x="160" y="275" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#d97706" text-anchor="middle">(средно, дългосрочно)</text>
+
+  <rect x="330" y="205" width="220" height="76" rx="10" fill="#fef2f2" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="440" y="232" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#b91c1c" text-anchor="middle" font-weight="600">За казиното</text>
+  <text x="440" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#dc2626" text-anchor="middle">~€35</text>
+  <text x="440" y="275" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#ef4444" text-anchor="middle">(домашно предимство 3.49%)</text>
+
+  <text x="300" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#9ca3af" text-anchor="middle">+</text>
+
+  <text x="300" y="308" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">18+ Играйте отговорно · Операторът може да пусне по-нисък RTP, провери инфо-панела</text>
+</svg>

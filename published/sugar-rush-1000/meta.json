@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "slug": "sugar-rush-1000",
+  "title": "Sugar Rush 1000: какво променя версията 1000",
+  "meta_description": "Sugar Rush 1000 качва тавана на точките от x128 на x1,024 и максимума от 5,000x на 25,000x. Защо това значи повече волатилност, а не по-добри шансове, и кой RTP реално получаваш.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-10",
+  "date_modified": "2026-09-10",
+  "keywords": [
+    "sugar rush 1000",
+    "сугар ръш 1000"
+  ],
+  "images": [
+    {
+      "path": "images/sugar-rush-1000-hero.webp",
+      "alt": "Абстрактна розова мрежа от светещи желирани бонбони, падащи в колона, по темата на Sugar Rush 1000"
+    },
+    {
+      "path": "images/sugar-rush-1000-rtp.svg",
+      "alt": "Sugar Rush 1000 RTP: версия по подразбиране 96.53% връща средно €965.30 на €1000 оборот, €34.70 остават за казиното; възможни са версии 97.50% и 95.50%"
+    },
+    {
+      "path": "images/sugar-rush-1000-sravnenie.svg",
+      "alt": "Сравнение Sugar Rush 1000 и оригинала: таван на точката 1,024x срещу 128x, максимум 25,000x срещу 5,000x, RTP по подразбиране 96.53% срещу 96.50%, и двете 7×7 cluster pays"
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": -1,
+  "status": "approved",
+  "content_hash": "1c5888b2731f657e305b2f77dcea3db6bd1725e520b6e12e19662d12328d5c84"
+}
