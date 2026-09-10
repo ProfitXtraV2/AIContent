@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" role="img" aria-label="Сравнение Gates of Olympus 1000 и оригиналния Gates of Olympus: таван на сферата 1,000x срещу 500x, максимална печалба 15,000x срещу 5,000x, RTP по подразбиране 96.50% и в двете, и двете 6×5 pay anywhere с каскади">
+  <title>Gates of Olympus 1000 срещу оригинала</title>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="360" rx="12" ry="12" fill="url(#bg2)"/>
+  <text x="300" y="36" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="#78350f" text-anchor="middle">Gates of Olympus 1000 срещу оригинала</text>
+
+  <rect x="250" y="54" width="170" height="34" rx="8" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="335" y="76" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="700" fill="#78350f" text-anchor="middle">Gates of Olympus 1000</text>
+  <rect x="435" y="54" width="140" height="34" rx="8" fill="#e0e7ff" stroke="#4338ca" stroke-width="1.5"/>
+  <text x="505" y="76" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#3730a3" text-anchor="middle">Оригинал</text>
+
+  <g font-family="system-ui, -apple-system, sans-serif">
+    <text x="40" y="118" font-size="13" fill="#374151" font-weight="600">Таван на сферата (множител)</text>
+    <text x="335" y="118" font-size="18" font-weight="800" fill="#b45309" text-anchor="middle">1,000x</text>
+    <text x="505" y="118" font-size="18" font-weight="800" fill="#4338ca" text-anchor="middle">500x</text>
+    <line x1="40" y1="132" x2="575" y2="132" stroke="#e5e7eb" stroke-width="1"/>
+
+    <text x="40" y="164" font-size="13" fill="#374151" font-weight="600">Максимална печалба</text>
+    <text x="335" y="164" font-size="18" font-weight="800" fill="#b45309" text-anchor="middle">15,000x</text>
+    <text x="505" y="164" font-size="18" font-weight="800" fill="#4338ca" text-anchor="middle">5,000x</text>
+    <line x1="40" y1="178" x2="575" y2="178" stroke="#e5e7eb" stroke-width="1"/>
+
+    <text x="40" y="210" font-size="13" fill="#374151" font-weight="600">RTP по подразбиране</text>
+    <text x="335" y="210" font-size="18" font-weight="800" fill="#059669" text-anchor="middle">96.50%</text>
+    <text x="505" y="210" font-size="18" font-weight="800" fill="#059669" text-anchor="middle">96.50%</text>
+    <line x1="40" y1="224" x2="575" y2="224" stroke="#e5e7eb" stroke-width="1"/>
+
+    <text x="40" y="256" font-size="13" fill="#374151" font-weight="600">Поле и механика</text>
+    <text x="335" y="256" font-size="12.5" font-weight="700" fill="#6b7280" text-anchor="middle">6×5 · pay anywhere · каскади</text>
+    <text x="505" y="256" font-size="12.5" font-weight="700" fill="#6b7280" text-anchor="middle">6×5 · pay anywhere</text>
+    <line x1="40" y1="270" x2="575" y2="270" stroke="#e5e7eb" stroke-width="1"/>
+
+    <text x="40" y="302" font-size="13" fill="#374151" font-weight="600">Ритъм</text>
+    <text x="335" y="302" font-size="13" font-weight="700" fill="#6b7280" text-anchor="middle">висока волатилност</text>
+    <text x="505" y="302" font-size="13" font-weight="700" fill="#6b7280" text-anchor="middle">по-спокоен</text>
+  </g>
+
+  <text x="300" y="336" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">Еднакво RTP по подразбиране: по-високият таван значи по-волатилна, не по-щедра игра.</text>
+  <text x="300" y="353" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">18+ Играйте отговорно.</text>
+</svg>
