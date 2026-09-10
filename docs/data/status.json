@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-10T07:38:39Z",
+  "generated_utc": "2026-09-10T07:48:04Z",
   "buffer": {
-    "count": 23,
+    "count": 24,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 1,
-    "drafted": 23,
+    "in-progress": 0,
+    "drafted": 24,
     "approved": 0,
     "posted": 10,
     "failed": 1
@@ -672,7 +672,7 @@
     },
     {
       "id": "vk-0035",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Book of Ra: RTP, характеристики и как се играе",
       "keywords_or_terms": "book of ra, бук ъв ра",
@@ -682,9 +682,9 @@
       "drafted_date": "2026-09-10",
       "posted_date": "",
       "folder": "2026-09-10-book-of-ra",
-      "pr": "",
-      "gemini": "",
-      "notes": "Novomatic/Greentube classic Egyptian slot-explainer (public game/provider data, NOT operator T&C) — NEW provider coverage beyond EGT/Pragmatic; clean pillar (no page in sitemap); opportunity Good (vol 150/kd73)",
+      "pr": "#41",
+      "gemini": "human 90",
+      "notes": "Novomatic/Greentube classic Egyptian slot-explainer (public game/provider data, NOT operator T&C) — NEW provider coverage beyond EGT/Pragmatic; clean pillar (no page in sitemap); opportunity Good (vol 150/kd73) · gate 95/100; 0 flags (no invented max-win; 5,000× line-bet public); honest below-avg-RTP angle (orig 92.13% / Deluxe 95.10%); Gemini PASS on initial draft (HL 90 human 90; anti-AI applied proactively); PR #41; img:3 (hero 100 + RTP infographic 100 + bonus-flow infographic 100; all PASS)",
       "opportunity": {
         "score": 18,
         "band": "Weak"
@@ -1474,8 +1474,8 @@
       "intent": "transactional",
       "trend": "down",
       "checked": "ahrefs",
-      "suggestion": "класика на Novomatic/Greentube (нов провайдър извън EGT/Pragmatic) — writable game-explainer от provider/game DBs; kd висок (73), но branded; чист pillar (няма страница)",
-      "status": "candidate",
+      "suggestion": "класика на Novomatic/Greentube (НОВ провайдър извън EGT/Pragmatic); НАПИСАН като slot-explainer (5×3, разширяващ се символ, 3+ книги→10 безплатни игри, авантюрист 5,000× на линия); честен ъгъл RTP под нормата (оригинал 92.13% / Deluxe 95.10%); чист pillar (vk-0035, PR #41)",
+      "status": "used",
       "date_researched": "2026-09-10",
       "opportunity": {
         "score": 18,
@@ -1532,6 +1532,76 @@
         "score": 15,
         "band": "Weak"
       }
+    },
+    {
+      "type": "guide",
+      "query": "Book of Dead: RTP, характеристики и как се играе",
+      "researched_keywords": "book of dead",
+      "volume": "",
+      "kd": "",
+      "intent": "transactional",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "НОВ провайдър Play'n GO (извън EGT/Pragmatic/Novomatic); много популярно заглавие в BG (web: сред топ игрите за BG играчи, casino.org/casinofreak); „book\" египетски слот като Book of Ra (vk-0035) — DISTINCT branded title/провайдър, НЕ канибализира (fold-in линк към vk-0035 като жанров събрат); RTP 94.25% (web-verify преди писане); чист pillar. Web-оценка на обема — потвърди при следващ Ahrefs reset",
+      "status": "candidate",
+      "date_researched": "2026-09-10",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Starburst: защо е класика с ниска волатилност",
+      "researched_keywords": "starburst",
+      "volume": "",
+      "kd": "",
+      "intent": "transactional",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "НОВ провайдър NetEnt; емблематичен нискорисков слот (both-ways, разширяващ се wild); web: разпознаваемо заглавие в BG (casinofreak); ДОБЪР контраст пункт спрямо високоволатилните заглавия, които покрихме — честен ъгъл „ниска волатилност = чести дребни, малък таван\"; чист pillar. Web-оценка на обема",
+      "status": "candidate",
+      "date_researched": "2026-09-10",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Sizzling Hot: RTP и характеристики (Novomatic класика)",
+      "researched_keywords": "sizzling hot",
+      "volume": "",
+      "kd": "",
+      "intent": "transactional",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "Novomatic/Greentube плодова класика (котва към новото Novomatic покритие, vk-0035); distinct от EGT класиките (Burning/Shining/20-40 Super Hot) — друг провайдър; web: популярно ретро заглавие в BG; чист pillar; RTP ~95.66% (web-verify преди писане). Web-оценка на обема",
+      "status": "candidate",
+      "date_researched": "2026-09-10",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Megaways: как работят и защо броят на начините се променя",
+      "researched_keywords": "megaways, мегауейс",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "Игрален-механизъм explainer (evergreen), НЕ листинг; distinct от „линии на печалба\" (vk-0017) — обяснява променливия брой начини (до 117 649) и защо повече начини ≠ по-добри шансове; фолд-ин към vk-0017; чист образователен pillar. Web-оценка на обема",
+      "status": "candidate",
+      "date_researched": "2026-09-10",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Купуване на бонус (bonus buy): как работи и струва ли си",
+      "researched_keywords": "купуване на бонус, bonus buy, feature buy",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "Игрален-механизъм explainer с честен математически ъгъл (цената на бонуса vs очаквано връщане; купуването НЕ подобрява RTP, обикновено го изравнява/влошава); writable без да твърди BG наличност при оператори (образователен, не оператор-специфичен); distinct pillar; фолд-ин към слот-explainer-ите. Web-оценка на обема",
+      "status": "candidate",
+      "date_researched": "2026-09-10",
+      "opportunity": null
     }
   ],
   "articles_base_url": "https://github.com/ProfitXtraV2/AIContent/tree/main/VsichkiKazina/articles/",
