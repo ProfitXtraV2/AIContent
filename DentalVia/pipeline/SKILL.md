@@ -80,7 +80,7 @@ This distinction is load-bearing and never blurred in copy.
 
 articles/{article-slug}/
   00-brief.md            (input — human-provided or assembled with approval)
-  01-synthesis.md        (report + draft + persona suggestion)
+  01-synthesis.md        (report + draft)
   01.5-outline.md
   02-draft.md            (+ CANON ADDITIONS noted at the bottom)
   03-humanised.md        (+ fingerprint report)
