@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "slug": "krash-igri-aviator",
+  "title": "Краш игри и Aviator: как работят и какъв е RTP",
+  "meta_description": "Как работят краш игрите и Aviator: множител, кешаут, provably fair и RTP 97%. Защо „системите\" не свалят 3% предимство и защо темпото е рискът.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-08",
+  "date_modified": "2026-09-08",
+  "keywords": [
+    "aviator",
+    "краш игри",
+    "aviator стратегия",
+    "spribe"
+  ],
+  "images": [
+    {
+      "path": "images/krash-igri-aviator-hero.webp",
+      "alt": "Краш игри и Aviator: нарастващ множител с точка на изход преди внезапния срив"
+    },
+    {
+      "path": "images/aviator-rtp-domashno-predimstvo.svg",
+      "alt": "Авиатор RTP 97% и домашно предимство 3%: при €1000 оборот €970 се връщат на играча, €30 остават за казиното"
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": 31,
+  "status": "approved",
+  "content_hash": "6fcd9c5d1ee472587bf89492481ef44b086e3863cd3ebaf5dd594dbc3a1ac900"
+}

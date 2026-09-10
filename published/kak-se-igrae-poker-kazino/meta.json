@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "slug": "kak-se-igrae-poker-kazino",
+  "title": "Как се играе покер в казино: видове игри и правила",
+  "meta_description": "Как се играе покер в казино: видео покер, казино холдем, три карти покер, Caribbean Stud, правилата, ръцете и домашното предимство.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-07",
+  "date_modified": "2026-09-07",
+  "keywords": [
+    "как се играе покер",
+    "казино покер",
+    "видео покер",
+    "казино холдем"
+  ],
+  "images": [
+    {
+      "path": "images/kazino-poker-igri-hero.webp",
+      "alt": "Казино покер: ветрило от карти с абстрактни символи на бои на изчистен зелен фон"
+    },
+    {
+      "path": "images/poker-stalbitsa-na-ratsete.svg",
+      "alt": "Стълбица на покер ръцете: от висока карта (най-слабо) до роял флъш (най-силно) с всичките 10 комбинации"
+    },
+    {
+      "path": "images/poker-rtp-domashno-predimstvo.svg",
+      "alt": "Покер RTP и домашно предимство: при хипотетичен RTP 98% на €100 залог ≈€2 остават за казиното; числата са илюстративни"
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": 30,
+  "status": "approved",
+  "content_hash": "fcbd70996e3db369b25f78c8981b147bb164c96357d83474a7bb422faac00d45"
+}

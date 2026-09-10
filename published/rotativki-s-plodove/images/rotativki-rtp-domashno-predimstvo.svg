@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="Инфографика: при RTP 96% от €1000 оборот ротативката връща €960 на играча, а €40 остават за казиното (домашно предимство 4%). При €0,20 на завъртане: 5000 завъртания = €1000 оборот.">
+  <title>RTP на ротативката с плодове: €960 обратно, €40 за казиното</title>
+
+  <!-- Background -->
+  <rect width="640" height="360" rx="12" fill="#fdf9f0"/>
+
+  <!-- Header bar -->
+  <rect x="0" y="0" width="640" height="58" rx="12" fill="#b85c00"/>
+  <rect x="0" y="46" width="640" height="12" fill="#b85c00"/>
+  <text x="320" y="24" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">Как работи RTP при ротативките с плодове</text>
+  <text x="320" y="44" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffe5c0">Хипотетичен пример при RTP 96% (числата са от текста)</text>
+
+  <!-- LEFT PANEL: €1000 total flow -->
+  <rect x="20" y="76" width="280" height="200" rx="10" fill="#ffffff" stroke="#e0d0b0" stroke-width="1.5"/>
+  <text x="160" y="100" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#4a3000">Общ оборот: €1 000</text>
+
+  <!-- Large green bar: €960 -->
+  <rect x="40" y="112" width="220" height="54" rx="6" fill="#27ae60" opacity="0.92"/>
+  <text x="150" y="135" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">€960</text>
+  <text x="150" y="155" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#d4f7e4">→ връща се на играча (96%)</text>
+
+  <!-- Small red bar: €40 -->
+  <rect x="40" y="175" width="220" height="26" rx="6" fill="#e74c3c" opacity="0.88"/>
+  <text x="150" y="193" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#ffffff">€40 → остават за казиното (4%)</text>
+
+  <!-- RTP label -->
+  <rect x="40" y="212" width="100" height="40" rx="6" fill="#e8f8ef" stroke="#27ae60" stroke-width="1.5"/>
+  <text x="90" y="228" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1a6b3a">RTP</text>
+  <text x="90" y="246" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#27ae60">96%</text>
+
+  <!-- House edge label -->
+  <rect x="160" y="212" width="100" height="40" rx="6" fill="#fdecea" stroke="#e74c3c" stroke-width="1.5"/>
+  <text x="210" y="228" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#8b0000">Дом. предимство</text>
+  <text x="210" y="246" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#e74c3c">4%</text>
+
+  <!-- Divider -->
+  <line x1="320" y1="76" x2="320" y2="276" stroke="#e0d0b0" stroke-width="1.5" stroke-dasharray="5,3"/>
+
+  <!-- RIGHT PANEL: Spin count example -->
+  <rect x="340" y="76" width="280" height="200" rx="10" fill="#ffffff" stroke="#e0d0b0" stroke-width="1.5"/>
+  <text x="480" y="100" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#4a3000">Колко завъртания = €1 000 оборот?</text>
+
+  <!-- Formula visual -->
+  <!-- Box: €0,20 / завъртане -->
+  <rect x="360" y="112" width="110" height="46" rx="6" fill="#fff3e0" stroke="#b85c00" stroke-width="1.5"/>
+  <text x="415" y="130" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#7a3800">залог</text>
+  <text x="415" y="150" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#b85c00">€0,20</text>
+
+  <!-- × symbol -->
+  <text x="488" y="142" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#7a6040">×</text>
+
+  <!-- Box: 5000 завъртания -->
+  <rect x="502" y="112" width="100" height="46" rx="6" fill="#fff3e0" stroke="#b85c00" stroke-width="1.5"/>
+  <text x="552" y="130" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#7a3800">завъртания</text>
+  <text x="552" y="150" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#b85c00">5 000</text>
+
+  <!-- = arrow down -->
+  <line x1="480" y1="166" x2="480" y2="182" stroke="#b85c00" stroke-width="2" marker-end="url(#arr)"/>
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#b85c00"/>
+    </marker>
+  </defs>
+  <text x="480" y="178" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#b85c00">=</text>
+
+  <!-- Result box -->
+  <rect x="380" y="188" width="200" height="42" rx="8" fill="#b85c00"/>
+  <text x="480" y="207" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffe5c0">Общ оборот</text>
+  <text x="480" y="225" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">€1 000</text>
+
+  <!-- Note about volatility -->
+  <rect x="340" y="240" width="280" height="36" rx="6" fill="#fdf6ec"/>
+  <text x="480" y="255" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#7a5a30">При ниска волатилност: чести дребни печалби.</text>
+  <text x="480" y="270" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#7a5a30">Балансът се топи по-меко, но пак се топи.</text>
+
+  <!-- Bottom note -->
+  <rect x="20" y="288" width="600" height="34" rx="6" fill="#f5efe0"/>
+  <text x="320" y="303" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#7a6040">RTP е дългосрочна статистика върху милиони завъртания — не е прогноза за твоята сесия.</text>
+  <text x="320" y="317" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#9a7a50">Проверявай RTP за конкретното заглавие. Числата са примерни за RTP 96%.</text>
+
+  <!-- RG note -->
+  <text x="320" y="345" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#a08060">18+ Играйте отговорно</text>
+</svg>

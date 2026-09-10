@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" width="680" height="420" role="img" aria-label="Сравнение на RTP и домашното предимство при кено и други казино игри">
+  <title>Кено: домашно предимство спрямо другите игри</title>
+
+  <!-- Background -->
+  <rect width="680" height="420" rx="12" fill="#f8f5ff"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="680" height="64" rx="12" fill="#4c2885"/>
+  <rect x="0" y="52" width="680" height="12" fill="#4c2885"/>
+  <text x="340" y="26" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" fill="#ffffff">Домашното предимство при кено</text>
+  <text x="340" y="48" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#d4b8ff">спрямо другите казино игри (RTP %)</text>
+
+  <!-- Y-axis label -->
+  <text x="18" y="330" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#7b6a95" transform="rotate(-90 18 270)" text-anchor="middle">RTP %</text>
+
+  <!-- Grid lines and Y-axis labels -->
+  <!-- 100% line -->
+  <line x1="90" y1="88" x2="650" y2="88" stroke="#d4cce8" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="82" y="92" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#7b6a95">100%</text>
+  <!-- 80% line -->
+  <line x1="90" y1="148" x2="650" y2="148" stroke="#d4cce8" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="82" y="152" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#7b6a95">80%</text>
+  <!-- 60% line -->
+  <line x1="90" y1="208" x2="650" y2="208" stroke="#d4cce8" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="82" y="212" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#7b6a95">60%</text>
+  <!-- 40% line -->
+  <line x1="90" y1="268" x2="650" y2="268" stroke="#d4cce8" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="82" y="272" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#7b6a95">40%</text>
+  <!-- 0% line (baseline) -->
+  <line x1="90" y1="328" x2="650" y2="328" stroke="#7b6a95" stroke-width="1.5"/>
+  <text x="82" y="332" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#7b6a95">0%</text>
+
+  <!-- === Игри на маса (правилна игра): >95% RTP → <5% house edge === -->
+  <!-- Bar: from RTP 95% = y=91 to baseline y=328, height=237 -->
+  <rect x="110" y="91" width="72" height="237" rx="4" fill="#27ae60" opacity="0.9"/>
+  <!-- Range marker top: 95%+ -->
+  <line x1="110" y1="91" x2="182" y2="91" stroke="#1e8449" stroke-width="2"/>
+  <text x="146" y="84" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#1e8449">&gt;95%</text>
+  <text x="146" y="350" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#333" dominant-baseline="auto">Игри на маса</text>
+  <text x="146" y="363" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#555">(правилна игра)</text>
+
+  <!-- === Добри ротативки: ~96% RTP === -->
+  <!-- 96% RTP → y = 88 + (100-96)/100*300 = 88+12 = 100... let me recalculate:
+       100% → y=88, 0% → y=328, range=240
+       96% → 88 + (100-96)/100 * 240 = 88 + 9.6 = 97.6 ≈ 98
+       bar height = 98 → 328-98=230 wait: bar goes from y=98 down to 328 = height 230 -->
+  <rect x="204" y="98" width="72" height="230" rx="4" fill="#27ae60" opacity="0.9"/>
+  <line x1="204" y1="98" x2="276" y2="98" stroke="#1e8449" stroke-width="2"/>
+  <text x="240" y="91" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#1e8449">~96%</text>
+  <text x="240" y="350" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#333">Добри</text>
+  <text x="240" y="363" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#555">ротативки</text>
+
+  <!-- === Видео кено: 84%–95% RTP === -->
+  <!-- 95%→ y=88+12=100 (top), 84%→ y=88+(100-84)/100*240=88+38.4=126.4≈126 (bottom of this range) -->
+  <!-- but we draw bar from lowest RTP (84%) to baseline: 84% → bar top y=126
+       and mark the range: 84%-95% -->
+  <!-- show range: top at 95% (y=100), bottom at 84% (y=127) — show full range bar: 84% to 0% -->
+  <rect x="298" y="127" width="72" height="201" rx="4" fill="#f39c12" opacity="0.9"/>
+  <!-- range top (best case 95%) shown as lighter extension -->
+  <rect x="298" y="100" width="72" height="27" rx="4" fill="#f39c12" opacity="0.4"/>
+  <line x1="298" y1="100" x2="370" y2="100" stroke="#e67e22" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <line x1="298" y1="127" x2="370" y2="127" stroke="#e67e22" stroke-width="2"/>
+  <text x="334" y="93" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#e67e22">84%–95%</text>
+  <text x="334" y="350" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#333">Видео кено</text>
+  <text x="334" y="363" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#555">(RTP ~84%–95%)</text>
+
+  <!-- === Наземно/Живо кено: RTP 50%–80% === -->
+  <!-- 80% → y=88+(100-80)/100*240=88+48=136 (top of range)
+       50% → y=88+(100-50)/100*240=88+120=208 (bottom of range) -->
+  <rect x="392" y="208" width="72" height="120" rx="4" fill="#e74c3c" opacity="0.9"/>
+  <!-- lighter range 50-80 -->
+  <rect x="392" y="136" width="72" height="72" rx="4" fill="#e74c3c" opacity="0.4"/>
+  <line x1="392" y1="136" x2="464" y2="136" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <line x1="392" y1="208" x2="464" y2="208" stroke="#c0392b" stroke-width="2"/>
+  <text x="428" y="129" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#c0392b">50%–80%</text>
+  <text x="428" y="350" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#333">Наземно/</text>
+  <text x="428" y="363" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#555">живо кено</text>
+
+  <!-- === Онлайн кено (тежка таблица): до под 65% RTP (>35% house edge) === -->
+  <!-- Show worst-case: 65% → y=88+(100-65)/100*240=88+84=172 to baseline 328, height 156 -->
+  <!-- and dashed top for best case: 96%+ RTP (under 4% house edge) -->
+  <rect x="486" y="172" width="72" height="156" rx="4" fill="#e74c3c" opacity="0.9"/>
+  <!-- dashed to show wide range -->
+  <rect x="486" y="100" width="72" height="72" rx="4" fill="#e74c3c" opacity="0.25"/>
+  <line x1="486" y1="100" x2="558" y2="100" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <line x1="486" y1="172" x2="558" y2="172" stroke="#c0392b" stroke-width="2"/>
+  <text x="522" y="93" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#c0392b">&lt;65%–&gt;96%</text>
+  <text x="522" y="350" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#333">Онлайн кено</text>
+  <text x="522" y="363" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#555">(по таблица)</text>
+
+  <!-- Legend box -->
+  <rect x="90" y="376" width="560" height="38" rx="6" fill="#ede8f8"/>
+  <rect x="100" y="387" width="14" height="10" rx="2" fill="#27ae60" opacity="0.9"/>
+  <text x="118" y="396" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#333">По-висок RTP = по-малко скъпо</text>
+  <rect x="260" y="387" width="14" height="10" rx="2" fill="#e74c3c" opacity="0.9"/>
+  <text x="278" y="396" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#333">По-нисък RTP = по-скъпо</text>
+  <text x="450" y="396" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#7b6a95">* числата са приблизителни; зависят от конкретната таблица</text>
+
+  <!-- RG note -->
+  <text x="340" y="414" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#9b8ab4">18+ Играйте отговорно</text>
+</svg>

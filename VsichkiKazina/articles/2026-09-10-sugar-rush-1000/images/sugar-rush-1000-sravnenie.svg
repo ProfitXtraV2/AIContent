@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" role="img" aria-label="Сравнение Sugar Rush 1000 и оригиналния Sugar Rush: таван на точката 1,024x срещу 128x, максимална печалба 25,000x срещу 5,000x, RTP по подразбиране 96.53% срещу 96.50%, и двете 7×7 cluster pays с tumble">
+  <title>Sugar Rush 1000 срещу оригинала</title>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="360" rx="12" ry="12" fill="url(#bg2)"/>
+  <text x="300" y="36" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="#831843" text-anchor="middle">Sugar Rush 1000 срещу оригинала</text>
+
+  <!-- Column headers -->
+  <rect x="250" y="54" width="160" height="34" rx="8" fill="#fce7f3" stroke="#db2777" stroke-width="1.5"/>
+  <text x="330" y="76" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#9d174d" text-anchor="middle">Sugar Rush 1000</text>
+  <rect x="425" y="54" width="150" height="34" rx="8" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="500" y="76" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#5b21b6" text-anchor="middle">Оригинал</text>
+
+  <!-- Rows -->
+  <g font-family="system-ui, -apple-system, sans-serif">
+    <!-- Row 1: multiplier cap -->
+    <text x="40" y="118" font-size="13" fill="#374151" font-weight="600">Таван на множителя (точка)</text>
+    <text x="330" y="118" font-size="18" font-weight="800" fill="#db2777" text-anchor="middle">x1,024</text>
+    <text x="500" y="118" font-size="18" font-weight="800" fill="#7c3aed" text-anchor="middle">x128</text>
+    <line x1="40" y1="132" x2="575" y2="132" stroke="#e5e7eb" stroke-width="1"/>
+
+    <!-- Row 2: max win -->
+    <text x="40" y="164" font-size="13" fill="#374151" font-weight="600">Максимална печалба</text>
+    <text x="330" y="164" font-size="18" font-weight="800" fill="#db2777" text-anchor="middle">25,000x</text>
+    <text x="500" y="164" font-size="18" font-weight="800" fill="#7c3aed" text-anchor="middle">5,000x</text>
+    <line x1="40" y1="178" x2="575" y2="178" stroke="#e5e7eb" stroke-width="1"/>
+
+    <!-- Row 3: RTP default -->
+    <text x="40" y="210" font-size="13" fill="#374151" font-weight="600">RTP по подразбиране</text>
+    <text x="330" y="210" font-size="18" font-weight="800" fill="#db2777" text-anchor="middle">96.53%</text>
+    <text x="500" y="210" font-size="18" font-weight="800" fill="#7c3aed" text-anchor="middle">96.50%</text>
+    <line x1="40" y1="224" x2="575" y2="224" stroke="#e5e7eb" stroke-width="1"/>
+
+    <!-- Row 4: grid/mechanic (same) -->
+    <text x="40" y="256" font-size="13" fill="#374151" font-weight="600">Поле и механика</text>
+    <text x="330" y="256" font-size="13" font-weight="700" fill="#6b7280" text-anchor="middle">7×7 · cluster · tumble</text>
+    <text x="500" y="256" font-size="13" font-weight="700" fill="#6b7280" text-anchor="middle">7×7 · cluster · tumble</text>
+    <line x1="40" y1="270" x2="575" y2="270" stroke="#e5e7eb" stroke-width="1"/>
+
+    <!-- Row 5: volatility -->
+    <text x="40" y="302" font-size="13" fill="#374151" font-weight="600">Волатилност</text>
+    <text x="330" y="302" font-size="13" font-weight="700" fill="#6b7280" text-anchor="middle">5/5 (най-висока)</text>
+    <text x="500" y="302" font-size="13" font-weight="700" fill="#6b7280" text-anchor="middle">по-мека</text>
+  </g>
+
+  <text x="300" y="336" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">По-висок таван значи по-рядка голяма печалба, не по-добри шансове.</text>
+  <text x="300" y="353" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">18+ Играйте отговорно.</text>
+</svg>
