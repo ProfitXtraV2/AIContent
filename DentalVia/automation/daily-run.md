@@ -41,7 +41,7 @@ It MUST be safe to re-run and MUST continue, not restart:
   article, tracked in `DentalVia/content-queue.md`. The next article takes whichever name the
   most recent queue row did NOT use; the very first article uses **Georgi Todorov**. See the
   byline step in the per-article procedure below.
-- Write the brand name exactly **DentalVia** in published copy.
+- Write the brand name exactly **Dentalvia** in published copy (site casing).
 - Both authors are patient coordinators, NOT dentists. Never a team/editorial byline; never
   a clinical credential or fabricated treatment experience for either author.
 - Compliance lines (verbatim, never reworded, never dropped) — see

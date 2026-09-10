@@ -54,7 +54,8 @@ This distinction is load-bearing and never blurred in copy.
 - Output language: German only, formal address ("Sie" form), matching the live
   site. Currency €. Reference market: Germany (statutory-insurance context
   KZBV/GKV; professional bodies DGI/DGZMK).
-- Brand name: always written exactly **DentalVia** in published copy.
+- Brand name: always written exactly **Dentalvia** in published copy (site casing —
+  never „DentalVia“ or „DENTALVIA“; the repo folder name DentalVia/ is unaffected).
 - Content types: guide | comparison | howto | news.
 - Byline/author rotation: ALWAYS one of **Georgi Todorov** or **Mario Yordanov**,
   alternating per article and tracked in `DentalVia/content-queue.md` — the next

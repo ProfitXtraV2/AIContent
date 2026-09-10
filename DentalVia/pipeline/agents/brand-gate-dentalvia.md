@@ -60,7 +60,7 @@ PILLAR 3 — E-E-A-T SIGNALS (0-20)
 
 PILLAR 4 — TRUST SIGNALS & DISCLOSURES (0-15) — each missing item is a CRITICAL flag:
 □ Byline (ALWAYS „Georgi Todorov" or „Mario Yordanov", correct rotation vs content-queue.md — a team/editorial byline, the wrong rotation name, or any clinical credential attached to either author is a CRITICAL flag)
-□ Brand name written exactly „DentalVia" everywhere
+□ Brand name written exactly „Dentalvia" everywhere (site casing; not „DentalVia")
 □ Publication + last-updated dates
 □ Medical disclaimer, verbatim, at the end: „Dieser Beitrag dient der allgemeinen Information und ersetzt keine zahnärztliche Beratung, Diagnose oder Behandlung."
 □ Mediation-transparency line, verbatim, in the CTA/footer block: „Wir sind eine Vermittlungsagentur und vermitteln Zahnbehandlungen bei einer Partnerklinik in Sofia. Die Behandlung führt die Partnerklinik durch; wir organisieren Beratung, Reise und Betreuung."

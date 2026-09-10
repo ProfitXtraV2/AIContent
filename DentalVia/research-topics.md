@@ -7,7 +7,7 @@ The dashboard computes an **Opportunity** band/score from `volume` + `kd`.
 
 `status` ∈ candidate | queued | used · `checked` ∈ ahrefs | web | none
 
-Primary keyword families (from Dentalvia brand spec): (1) **Implantate**: zahnimplantate kosten, zahnimplantate erfahrungen, zahnimplantate dauer; (2) **Zahnersatz**: zahnersatz kosten, zahnersatz arten, festsitzender zahnersatz; (3) **Behandlungen**: zahnbehandlung im ausland, wurzelbehandlung kosten, knochenaufbau; (4) **Reisepraktiken**: zahnbehandlung ungarn, zahnbehandlung türkei, zahnbehandlung bulgarien; (5) **Entscheidungshilfen**: zahnimplantat oder brücke, zahnprothese oder implantat, wurzelbehandlung oder implantat.
+Primary keyword families (from the Dentalvia brand spec, by conversion value): (1) **Treatment + cost/abroad** (money): zahnimplantate kosten, all-on-4 kosten, zähne machen lassen im ausland, veneers bulgarien preise; (2) **Destination comparisons**: zahnimplantate türkei risiken, zahnersatz ungarn erfahrungen — capture Ungarn/Türkei demand, make Bulgaria's case honestly; (3) **Trust & safety**: zahnarzt ausland seriös, gewährleistung zahnersatz ausland; (4) **Insurance/reimbursement**: heil- und kostenplan im ausland, krankenkasse zuschuss zahnersatz ausland; (5) **Treatment education (TOFU)**: knochenaufbau ablauf, wurzelbehandlung oder implantat.
 
 | type | query | researched_keywords | volume | kd | intent | trend | checked | suggestion | status | date_researched |
 |---|---|---|---|---|---|---|---|---|---|---|

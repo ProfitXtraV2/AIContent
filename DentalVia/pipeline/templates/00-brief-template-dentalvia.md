@@ -1,12 +1,12 @@
 # 00-BRIEF TEMPLATE — DentalVia (copy per article into articles/{slug}/00-brief.md)
 
 MARKET: de — German-speaking (Germany / Austria / Switzerland)
-CONTENT TYPE: [review / guide / news / comparison]
+CONTENT TYPE: [guide / comparison / howto / news]
 BYLINE: [Georgi Todorov / Mario Yordanov — per content-queue.md rotation; patient coordinator, not dentist]
 TARGET QUERY: [primary German search query]
 TARGET KEYWORD + AHREFS METRICS: [keyword | monthly volume | KD | current position or "none"]
 SECONDARY TERMS: [NeuronWriter export or "none provided" — human decision]
-LENGTH: [guide 1,000-1,800 / comparison 600-1,400 / news 250-500]
+LENGTH: [guide 1,000-1,800 / comparison 800-1,400 / howto 800-1,400 / news 250-500]
 
 ## ANTI-CANNIBALISATION NOTES
 List any overlapping live page from `DentalVia/conversion-links.md` that covers the same

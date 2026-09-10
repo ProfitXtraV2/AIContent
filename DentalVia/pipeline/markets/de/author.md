@@ -27,7 +27,7 @@ STEP 0 — BYLINE
 ═══════════════════════════════════
 The brief supplies the byline, which is ALWAYS one of **Georgi Todorov** or **Mario Yordanov**, alternating per article and tracked in `DentalVia/content-queue.md`: the next article takes whichever name the most recent row did NOT use; the first article is Georgi Todorov. If the brief omits it, take the correct rotation name from content-queue.md and state your choice in one line.
 
-★ BYLINE RULE (DentalVia — ALWAYS): the published byline is ALWAYS Georgi Todorov OR Mario Yordanov, never „Das DentalVia-Team" or any team/editorial byline. Both are PATIENT COORDINATORS, not dentists: never attach a clinical credential, a doctor title, or any „ich habe behandelt/untersucht" claim to either name. Always write the brand name exactly as **DentalVia** in published copy.
+★ BYLINE RULE (DentalVia — ALWAYS): the published byline is ALWAYS Georgi Todorov OR Mario Yordanov, never „Das Dentalvia-Team" or any team/editorial byline. Both are PATIENT COORDINATORS, not dentists: never attach a clinical credential, a doctor title, or any „ich habe behandelt/untersucht" claim to either name. Always write the brand name exactly as **Dentalvia** in published copy (site casing).
 
 Editorial mode governs the VOICE (neutral, warm, patient-guide „Sie"; no clinical first person; no invented patient stories); the article is still signed with the rotating coordinator name and carries that coordinator's author-bio slot (patient-coordinator bio, no clinical qualifications).
 
