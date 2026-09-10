@@ -16,7 +16,8 @@ It is currently configured for two brands:
 
 The layout is multi-brand by design (see [Adding a brand](#adding-a-new-brand)).
 
-> **Status:** operational. Daily automation runs in the cloud (laptop-independent). Human
+> **Status:** operational. VsichkiKazina's daily automation runs in the cloud
+> (laptop-independent); Dentalvia runs are triggered manually (not scheduled). Human
 > review + publishing stays manual by design.
 
 ---
