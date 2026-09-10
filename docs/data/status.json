@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-10T22:54:24Z",
+  "generated_utc": "2026-09-10T23:17:40Z",
   "buffer": {
     "count": 27,
     "target": 10,
@@ -609,8 +609,8 @@
       "posted_date": "",
       "folder": "2026-09-10-the-dog-house",
       "pr": "#37",
-      "gemini": "ai 75",
-      "notes": "Pragmatic Play sticky-wild slot-explainer (public game data + Pragmatic official, NOT operator T&C); clean pillar (no page in sitemap); anchors to Pragmatic profile (vk-0019); distinct game+kw from other Pragmatic slots + kept distinct from Dog House Megaways; opportunity Good (vol 100/kd33) · gate 94/100; 0 flags; Gemini HL 25→20→25 kept pass 2 (ai 75; detector high-variance, copy factual+compliant, optional human polish); PR #37; img:2 (infographic 85 + hero 85; both PASS); approved for deploy 2026-09-10 (human review: The Dog House — 0 flags, figures web-verified, Gemini ai 75 accepted as-is, images 85/85 PASS)",
+      "gemini": "human 90",
+      "notes": "Pragmatic Play sticky-wild slot-explainer (public game data + Pragmatic official, NOT operator T&C); clean pillar (no page in sitemap); anchors to Pragmatic profile (vk-0019); distinct game+kw from other Pragmatic slots + kept distinct from Dog House Megaways; opportunity Good (vol 100/kd33) · gate 94/100; 0 flags; Gemini HL 25→20→25 kept pass 2 (ai 75; detector high-variance, copy factual+compliant, optional human polish); PR #37; img:2 (infographic 85 + hero 85; both PASS); approved for deploy 2026-09-10 (human review: The Dog House — 0 flags, figures web-verified, Gemini ai 75 accepted as-is, images 85/85 PASS) · nightly 2026-09-10: humanised (fixed BG ти/вие RG register, отпред→предварително, cut „По този начин\" signpost + spec/caption redundancy, reframed persona-binary close & templated header), Gemini ai 75→human 90 (HL 20–90 across 5 runs, 3/5 human ≥85), 2 edit passes; no fact changes",
       "opportunity": {
         "score": 32,
         "band": "Moderate"

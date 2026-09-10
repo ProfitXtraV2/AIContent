@@ -8,6 +8,52 @@ Facts, numbers, licence/RTP/tax figures, dates, byline (Георги Тодор�
 
 ---
 
+## 2026-09-10
+
+### JOB A — publish-blocking flags
+Scanned every `content/*` branch's `05b-final-draft.md` for blocking markers
+(`[VERIFY]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`, `[AUTHOR]`, `[BRAND]`,
+`[EDITORIAL]`, `[уточни]`, `[провери]`). **Zero blocking flags across all 37 draft
+branches** — prior nights resolved them; idempotent, nothing to change. (The
+`[About Всички Казина boilerplate]` token is a publisher-expanded template placeholder,
+present in posted articles too — not a blocking marker, left untouched.)
+
+### JOB B — low Gemini score humanised (1 target)
+Only one row qualified (status ∈ {drafted, approved} AND `ai <n>` or `human <n>` with
+n<80): **vk-0031**. All other drafted/approved rows are already `human ≥80`; left
+untouched (idempotent).
+
+| # | folder | PR | before | after | attempts | result |
+|---|---|---|---|---|---|---|
+| vk-0031 | 2026-09-10-the-dog-house | #37 | ai 75 | human 90 | 2 | PASS |
+
+Technique applied (rephrasing only, all facts/odds/RTP/€ figures/links/RG lines/18+/
+disclosures/byline preserved):
+- **the-dog-house**: fixed a BG ти/вие (T-V) register inconsistency in the in-body RG
+  sentence („усетите/вижте"→„усетиш/виж") to match the article's informal voice and the
+  footer boilerplate (RG message + link + „Играйте отговорно" slogan kept verbatim);
+  replaced anglicism „Плащаш отпред"→„Плащаш предварително"; removed a „По този начин"
+  signpost; de-duplicated the 5×3/20-line spec restatement (dimensions remain in intro +
+  heading); trimmed the RTP-infographic caption echo of the €1000/€965/€35 math (figures
+  remain in body, image and alt-text); reframed the templated „За кого е тази игра" header
+  → „Струва ли си високият риск"; replaced the persona-binary conclusion with a single
+  core-mechanic close (RTP-info-panel + bankroll advice kept).
+- Detector (`gemini-3.1-pro-preview`) extremely high-variance on this text: HL
+  **20 · 25 · 85 · 90 · 90** across 5 runs (3/5 human ≥85). Kept the fully-edited version
+  per keep-best (ceiling human 90 vs original best 85; objectively cleaner craft).
+  content-queue `ai 75` → `human 90`. See `07-gemini-check-4.md`.
+
+### Still flagged after 5 attempts
+None.
+
+### POSTED — needs human review
+None. All `posted` rows are rated human 85–90; none edited (live content untouched).
+
+### Deferred (over nightly cap of 10)
+None — only 1 target qualified; processed this run.
+
+---
+
 ## 2026-09-09
 
 ### JOB A — flags resolved (2)
