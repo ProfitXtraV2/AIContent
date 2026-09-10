@@ -198,3 +198,25 @@ def test_read_article_md_fallback(tmp_path, monkeypatch):
 
     result = bf.read_article_md(folder)
     assert "# Fallback content" in result
+
+
+def test_dv_meta_uses_row_byline():
+    row = {"folder": "2026-09-11-veneers-kosten", "query": "Veneers-Kosten 2026",
+           "keywords_or_terms": "veneers kosten", "byline": "Georgi Todorov",
+           "type": "comparison", "volume": "7500", "kd": "30", "drafted_date": "2026-09-11"}
+    draft = {"title_tag": "Veneers-Kosten 2026", "meta_description": "x", "h1": "H", "body": "# H"}
+    meta = bf.build_meta(row, draft, [], author=row["byline"])
+    assert meta["author"] == "Georgi Todorov"
+    assert meta["opportunity"] == bf.opportunity_score("7500", "30")
+
+
+def test_feed_brands_config_shapes():
+    assert bf.FEED_BRANDS["vsichkikazina"]["out"] == "published"
+    assert bf.FEED_BRANDS["dentalvia"]["branch_prefix"] == "dv-content/"
+
+
+def test_default_meta_author_unchanged():
+    row = {"folder": "2026-09-01-x", "query": "q", "keywords_or_terms": "k",
+           "type": "guide", "volume": "", "kd": "", "drafted_date": "2026-09-01"}
+    draft = {"title_tag": "t", "meta_description": "m", "h1": "h", "body": "# h"}
+    assert bf.build_meta(row, draft, [])["author"] == bf.AUTHOR
