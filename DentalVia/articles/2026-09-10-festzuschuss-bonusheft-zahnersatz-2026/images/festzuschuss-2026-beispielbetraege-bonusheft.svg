@@ -4,7 +4,7 @@
   <text x="24" y="62" font-size="12.5" fill="#64748b">Anteil an der Regelversorgung &#183; Beispielwerte, Stand 2026</text>
 
   <!-- 75% column highlight -->
-  <rect x="617" y="82" width="127" height="140" rx="6" fill="#e6f4f3"/>
+  <rect x="617" y="82" width="127" height="148" rx="6" fill="#e6f4f3"/>
 
   <!-- header -->
   <g font-size="12.5" font-weight="700" fill="#334155">
