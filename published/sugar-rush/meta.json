@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "slug": "sugar-rush",
+  "title": "Sugar Rush: RTP, волатилност и как се играе",
+  "meta_description": "Как работи Sugar Rush на Pragmatic Play: мрежа 7×7, cluster pays, tumble, точки с множители до 128x и безплатни завъртания. Защо RTP 96.50% се проверява и защо таванът 5000x е рядкост.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-10",
+  "date_modified": "2026-09-10",
+  "keywords": [
+    "sugar rush",
+    "сугар ръш"
+  ],
+  "images": [
+    {
+      "path": "images/sugar-rush-hero.webp",
+      "alt": "Абстрактен розов фон с бонбони и желирани фигури върху квадратна мрежа по темата на Sugar Rush"
+    },
+    {
+      "path": "images/sugar-rush-rtp.svg",
+      "alt": "Sugar Rush RTP: при €1000 оборот и версия 96.50% на играча се връщат средно €965, а €35 остават за казиното; операторът може да пусне и по-нисък RTP"
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": 42,
+  "status": "approved",
+  "content_hash": "9e5882252ac3cc5fdbc5fcc5636be15eaabb7488b31c764876026faf147d9bc3"
+}

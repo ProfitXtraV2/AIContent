@@ -1,6 +1,77 @@
 {
   "schema_version": 1,
-  "count": 0,
-  "articles": [],
-  "generated_utc": "2026-09-10T07:48:04Z"
+  "count": 10,
+  "articles": [
+    {
+      "slug": "kak-se-igrae-poker-kazino",
+      "title": "Как се играе покер в казино: видове игри и правила",
+      "date_modified": "2026-09-07",
+      "content_hash": "fcbd70996e3db369b25f78c8981b147bb164c96357d83474a7bb422faac00d45",
+      "status": "approved"
+    },
+    {
+      "slug": "rotativki-s-plodove",
+      "title": "Класически ротативки с плодове: как работят слотовете",
+      "date_modified": "2026-09-08",
+      "content_hash": "1aed0cfcb0554023cbf6c94ab73a6ba483b9a3396e0a510fc70289427988b245",
+      "status": "approved"
+    },
+    {
+      "slug": "krash-igri-aviator",
+      "title": "Краш игри и Aviator: как работят и какъв е RTP",
+      "date_modified": "2026-09-08",
+      "content_hash": "6fcd9c5d1ee472587bf89492481ef44b086e3863cd3ebaf5dd594dbc3a1ac900",
+      "status": "approved"
+    },
+    {
+      "slug": "keno-pravila",
+      "title": "Кено: правила, изплащания и реални шансове",
+      "date_modified": "2026-09-08",
+      "content_hash": "0e6b3677bcf59895695c009b28fb1ae816a096d152572b3b32cb17c4d0ee9d49",
+      "status": "approved"
+    },
+    {
+      "slug": "20-super-hot",
+      "title": "20 Super Hot: RTP и характеристики (EGT/Amusnet)",
+      "date_modified": "2026-09-08",
+      "content_hash": "e2eeed6dc0ccbbc276c58de99b820908d2beef93de1041db351247ddcb38dd2c",
+      "status": "approved"
+    },
+    {
+      "slug": "gates-of-olympus",
+      "title": "Gates of Olympus: RTP, волатилност и как се играе",
+      "date_modified": "2026-09-09",
+      "content_hash": "f927e473edab0e34a535c6b040263fd3efe83a814ccf61241b39dca30d485fe0",
+      "status": "approved"
+    },
+    {
+      "slug": "40-super-hot",
+      "title": "40 Super Hot: RTP и джакпот функции (EGT/Amusnet)",
+      "date_modified": "2026-09-09",
+      "content_hash": "bb0e28e148b66ad9f9e82c599f618169e0d41b7cdb0ca90f8089dc711ff96e69",
+      "status": "approved"
+    },
+    {
+      "slug": "sugar-rush",
+      "title": "Sugar Rush: RTP, волатилност и как се играе",
+      "date_modified": "2026-09-10",
+      "content_hash": "9e5882252ac3cc5fdbc5fcc5636be15eaabb7488b31c764876026faf147d9bc3",
+      "status": "approved"
+    },
+    {
+      "slug": "the-dog-house",
+      "title": "The Dog House: RTP, волатилност и как се играе",
+      "date_modified": "2026-09-10",
+      "content_hash": "6b846c2d4f651fcc109aa809bbdfd1e9e82e8833aff1d75779f6d72c881496e3",
+      "status": "approved"
+    },
+    {
+      "slug": "sugar-rush-1000",
+      "title": "Sugar Rush 1000: какво променя версията 1000",
+      "date_modified": "2026-09-10",
+      "content_hash": "1c5888b2731f657e305b2f77dcea3db6bd1725e520b6e12e19662d12328d5c84",
+      "status": "approved"
+    }
+  ],
+  "generated_utc": "2026-09-10T17:27:05Z"
 }
