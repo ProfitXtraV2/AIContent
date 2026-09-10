@@ -1,0 +1,175 @@
+{
+  "generated_utc": "2026-09-10T19:54:50Z",
+  "buffer": {
+    "count": 0,
+    "target": 10,
+    "deficit": 10,
+    "ok": false
+  },
+  "counts": {
+    "in-progress": 0,
+    "drafted": 0,
+    "approved": 0,
+    "posted": 0,
+    "failed": 0
+  },
+  "rows": [],
+  "backlog": [
+    {
+      "priority": "1",
+      "type": "guide",
+      "query": "All-on-4 Kosten und Erfahrungen: feste Zähne auf vier Implantaten",
+      "keywords_or_terms": "all-on-4 kosten, feste zähne auf 4 implantaten, all-on-4 erfahrungen",
+      "volume": "",
+      "kd": "",
+      "intent": "",
+      "checked": "none",
+      "ahrefs_note": "",
+      "status": "open",
+      "notes": "money keyword; site has /festsitzender-zahnersatz/ treatment page — Ratgeber angle: Kosten/Ablauf/für wen, link treatment page as CTA",
+      "opportunity": null
+    },
+    {
+      "priority": "2",
+      "type": "comparison",
+      "query": "Zahnimplantate in der Türkei: Kosten, Risiken und die EU-Alternative",
+      "keywords_or_terms": "zahnimplantate türkei, zahnimplantate türkei erfahrungen, zahnimplantate türkei risiken",
+      "volume": "",
+      "kd": "",
+      "intent": "",
+      "checked": "none",
+      "ahrefs_note": "",
+      "status": "open",
+      "notes": "capture Türkei demand, make the EU/Bulgaria case honestly (patient rights, Gewährleistung, proximity) — no bashing",
+      "opportunity": null
+    },
+    {
+      "priority": "3",
+      "type": "comparison",
+      "query": "Zahnersatz in Ungarn oder Bulgarien? Der nüchterne Vergleich",
+      "keywords_or_terms": "zahnersatz ungarn, zahnersatz ungarn erfahrungen, zahnersatz ungarn kosten",
+      "volume": "",
+      "kd": "",
+      "intent": "",
+      "checked": "none",
+      "ahrefs_note": "",
+      "status": "open",
+      "notes": "Ungarn is the classic DE dental-tourism destination; fair comparison, Bulgaria advantages where true",
+      "opportunity": null
+    },
+    {
+      "priority": "4",
+      "type": "guide",
+      "query": "Wurzelbehandlung oder Implantat: wann sich welcher Weg lohnt",
+      "keywords_or_terms": "wurzelbehandlung oder implantat, zahn ziehen oder wurzelbehandlung",
+      "volume": "",
+      "kd": "",
+      "intent": "",
+      "checked": "none",
+      "ahrefs_note": "",
+      "status": "open",
+      "notes": "decision guide; links /wurzelbehandlung/ and /zahnimplantate/; strictly neutral, risks both ways",
+      "opportunity": null
+    },
+    {
+      "priority": "5",
+      "type": "guide",
+      "query": "Knochenaufbau beim Zahnarzt: Ablauf, Dauer und was es kostet",
+      "keywords_or_terms": "knochenaufbau kiefer, knochenaufbau kiefer kosten, sinuslift",
+      "volume": "",
+      "kd": "",
+      "intent": "",
+      "checked": "none",
+      "ahrefs_note": "",
+      "status": "open",
+      "notes": "educational depth vs the commercial /knochenaufbau/ page — anti-cannibal note required in brief",
+      "opportunity": null
+    },
+    {
+      "priority": "6",
+      "type": "howto",
+      "query": "Zahnarztkosten von der Steuer absetzen — auch bei Behandlung im Ausland",
+      "keywords_or_terms": "zahnarztkosten steuer absetzen, zahnbehandlung steuer",
+      "volume": "",
+      "kd": "",
+      "intent": "",
+      "checked": "none",
+      "ahrefs_note": "",
+      "status": "open",
+      "notes": "außergewöhnliche Belastung, § 33 EStG; strong trust topic; [VERIFY] all tax figures",
+      "opportunity": null
+    },
+    {
+      "priority": "7",
+      "type": "guide",
+      "query": "Zahnbehandlung unter Sedierung oder Vollnarkose: Möglichkeiten und Kosten",
+      "keywords_or_terms": "zahnbehandlung vollnarkose, dämmerschlaf zahnarzt, sedierung zahnarzt kosten",
+      "volume": "",
+      "kd": "",
+      "intent": "",
+      "checked": "none",
+      "ahrefs_note": "",
+      "status": "open",
+      "notes": "Angstpatienten angle; medical risks section mandatory",
+      "opportunity": null
+    },
+    {
+      "priority": "8",
+      "type": "guide",
+      "query": "Provisorium und Übergangszeit: Leben zwischen zwei Behandlungsterminen",
+      "keywords_or_terms": "provisorium zähne, provisorium wie lange, langzeitprovisorium",
+      "volume": "",
+      "kd": "",
+      "intent": "",
+      "checked": "none",
+      "ahrefs_note": "",
+      "status": "open",
+      "notes": "pairs with the two-visit treatment model; links /ablauf/ and /reise/",
+      "opportunity": null
+    },
+    {
+      "priority": "9",
+      "type": "comparison",
+      "query": "Zahnprothese oder Implantat: was im Alter wirklich passt",
+      "keywords_or_terms": "zahnprothese oder implantat, herausnehmbarer zahnersatz oder implantat",
+      "volume": "",
+      "kd": "",
+      "intent": "",
+      "checked": "none",
+      "ahrefs_note": "",
+      "status": "open",
+      "notes": "60+ audience; neutral decision framework; links /zahnprothesen/ /zahnimplantate/",
+      "opportunity": null
+    },
+    {
+      "priority": "10",
+      "type": "comparison",
+      "query": "Veneers-Kosten 2026: Deutschland und Ausland im Vergleich",
+      "keywords_or_terms": "veneers kosten, veneers kosten deutschland, veneers ausland",
+      "volume": "",
+      "kd": "",
+      "intent": "",
+      "checked": "none",
+      "ahrefs_note": "",
+      "status": "open",
+      "notes": "price comparison with dated example prices; anti-cannibal vs /veneers/ (commercial) and /kosten/",
+      "opportunity": null
+    }
+  ],
+  "research": [],
+  "articles_base_url": "https://github.com/ProfitXtraV2/AIContent/tree/main/DentalVia/articles/",
+  "meta": {
+    "brand": "DentalVia",
+    "schedule": {
+      "note": "manual runs only — not scheduled"
+    },
+    "links": {
+      "site": "https://vsichkikazina.bg",
+      "repo": "https://github.com/ProfitXtraV2/AIContent",
+      "prs": "https://github.com/ProfitXtraV2/AIContent/pulls",
+      "routine": "https://claude.ai/code/routines/trig_019cfW1QpXykZkwG8XrotCtQ",
+      "backlog": "https://github.com/ProfitXtraV2/AIContent/blob/main/DentalVia/topic-backlog.md",
+      "queue": "https://github.com/ProfitXtraV2/AIContent/blob/main/DentalVia/content-queue.md"
+    }
+  }
+}

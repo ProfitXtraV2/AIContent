@@ -2,7 +2,8 @@
 """Build docs/data/status.json from VsichkiKazina/content-queue.md.
 
 Deterministic, stdlib-only. Run from repo root:
-    python3 scripts/build_dashboard.py
+    python3 scripts/build_dashboard.py [brand]
+where brand ∈ vsichkikazina (default) | dentalvia.
 """
 import json
 import sys
@@ -17,6 +18,16 @@ COLUMNS = ["id", "status", "type", "query", "keywords_or_terms", "volume", "kd",
 COLUMNS_L12 = [c for c in COLUMNS if c not in ("volume", "kd")]                # gemini, no vol/kd
 COLUMNS_L11 = [c for c in COLUMNS if c not in ("volume", "kd", "gemini")]      # folder, no gemini
 COLUMNS_L10 = [c for c in COLUMNS if c not in ("volume", "kd", "gemini", "folder")]  # oldest
+
+# DentalVia 15-col layout: same as COLUMNS but with "byline" after "type"
+COLUMNS_DV = COLUMNS[:3] + ["byline"] + COLUMNS[3:]
+
+BRANDS = {
+    "vsichkikazina": {"dir": "VsichkiKazina", "brand": "VsichkiKazina",
+                      "out": ("docs", "data", "status.json")},
+    "dentalvia":     {"dir": "DentalVia", "brand": "DentalVia",
+                      "out": ("docs", "data", "dentalvia", "status.json")},
+}
 
 # Human backlog. Ahrefs metrics (volume/kd/intent/checked/ahrefs_note) are enriched by the
 # run; the human only fills priority/type/query/keywords/status/notes (legacy 6-col parses).
@@ -96,8 +107,14 @@ LINKS = {
 }
 
 
-def parse_queue(md_text):
-    """Parse the content-queue table (14-col with vol/kd, or 12/11/10-col legacy)."""
+def parse_queue(md_text, brand="vsichkikazina"):
+    """Parse the content-queue table.
+
+    brand="vsichkikazina" (default): 14-col with vol/kd, or 12/11/10-col legacy.
+    brand="dentalvia": 15-col with byline after type.
+    """
+    if brand == "dentalvia":
+        return _parse_tolerant(md_text, [COLUMNS_DV])
     return _parse_tolerant(md_text, [COLUMNS, COLUMNS_L12, COLUMNS_L11, COLUMNS_L10])
 
 
@@ -118,7 +135,8 @@ def _with_opportunity(rows):
     return rows
 
 
-def build_status(rows, backlog=None, research=None, target=10):
+def build_status(rows, backlog=None, research=None, target=10, brand="vsichkikazina"):
+    brand_cfg = BRANDS[brand]
     counts = {s: 0 for s in ALL_STATES}
     for r in rows:
         st = r.get("status", "").lower()
@@ -128,6 +146,16 @@ def build_status(rows, backlog=None, research=None, target=10):
     rows = _with_opportunity(rows)          # articles carry their target keyword's vol/kd
     backlog = _with_opportunity(backlog or [])
     research = _with_opportunity(research or [])
+    repo = LINKS["repo"]
+    brand_dir = brand_cfg["dir"]
+    if brand == "dentalvia":
+        schedule_meta = {"note": "manual runs only — not scheduled"}
+        links = {**LINKS,
+                 "backlog": f"{repo}/blob/main/{brand_dir}/topic-backlog.md",
+                 "queue": f"{repo}/blob/main/{brand_dir}/content-queue.md"}
+    else:
+        schedule_meta = SCHEDULE
+        links = LINKS
     return {
         "generated_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "buffer": {
@@ -140,26 +168,31 @@ def build_status(rows, backlog=None, research=None, target=10):
         "rows": rows,
         "backlog": backlog or [],
         "research": research or [],
-        "articles_base_url": LINKS["repo"] + "/tree/main/VsichkiKazina/articles/",
+        "articles_base_url": repo + f"/tree/main/{brand_dir}/articles/",
         "meta": {
-            "brand": "VsichkiKazina",
-            "schedule": SCHEDULE,
-            "links": LINKS,
+            "brand": brand_cfg["brand"],
+            "schedule": schedule_meta,
+            "links": links,
         },
     }
 
 
 def main():
+    brand = sys.argv[1].lower() if len(sys.argv) > 1 else "vsichkikazina"
+    if brand not in BRANDS:
+        sys.exit(f"unknown brand {brand!r} — must be one of: {', '.join(BRANDS)}")
+    brand_cfg = BRANDS[brand]
     root = Path(__file__).resolve().parents[1]
-    queue = root / "VsichkiKazina" / "content-queue.md"
-    backlog_f = root / "VsichkiKazina" / "topic-backlog.md"
-    research_f = root / "VsichkiKazina" / "research-topics.md"
-    out = root / "docs" / "data" / "status.json"
+    brand_dir = brand_cfg["dir"]
+    queue = root / brand_dir / "content-queue.md"
+    backlog_f = root / brand_dir / "topic-backlog.md"
+    research_f = root / brand_dir / "research-topics.md"
+    out = root.joinpath(*brand_cfg["out"])
     md = queue.read_text(encoding="utf-8") if queue.exists() else ""
     bl = backlog_f.read_text(encoding="utf-8") if backlog_f.exists() else ""
     rs = research_f.read_text(encoding="utf-8") if research_f.exists() else ""
-    status = build_status(parse_queue(md), backlog=parse_backlog(bl),
-                          research=parse_research(rs), target=10)
+    status = build_status(parse_queue(md, brand=brand), backlog=parse_backlog(bl),
+                          research=parse_research(rs), target=10, brand=brand)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(status, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"wrote {out} — buffer {status['buffer']['count']}/{status['buffer']['target']}")
