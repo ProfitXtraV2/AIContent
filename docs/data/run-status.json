@@ -1,22 +1,18 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-09T22:14:42Z",
-  "run_finished_utc": "2026-09-09T22:56:20Z",
-  "articles_written": 3,
-  "prs_opened": [
-    33,
-    34,
-    35
-  ],
-  "run_url": "https://claude.ai/code/session_012yS1tzRN4UGbmwsR2d8wcW",
-  "note": "recurring run 2026-09-09 (fire #5) complete: 3 new distinct pillars drafted — vk-0029 Крапс table-game rules (PR #33, gate 96, human 85, img 100), vk-0027 Burning Hot EGT/Amusnet slot-explainer (PR #34, gate 93, human 85, img 100), vk-0028 Big Bass Bonanza Pragmatic slot-explainer (PR #35, gate 93, human 90, img 3x100 all PASS). Public game math + game/provider data (Wizard of Odds; Amusnet/Pragmatic official + game DBs), NOT geo-blocked operator T&C/НАП. Buffer 21->24 (floor 10; keep building). 0 in-progress leftovers; 0 open backlog rows; research bank now nearly drained of clean distinct pillars — NEXT FIRE should run a fresh Ahrefs re-pull to replenish (remaining candidates are mostly fold-ins/anti-cannibal overlaps). 2 surviving [VERIFY] (vk-0027 & vk-0028 lower/alt RTP builds). Content PRs have no pre-merge CI (only post-merge approve workflow); human owns Step 6/merge.",
+  "state": "running",
+  "run_started_utc": "2026-09-10T03:14:03Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_016sG7QRQ81aRzB2guHwRJ9r",
+  "note": "recurring run 2026-09-10 (fire #6): batch=3 new slot explainers (Sugar Rush, The Dog House, Rise of Ra); bank was drained of clean pillars, fresh Ahrefs pull done",
   "progress": {
-    "phase": "done",
-    "article_index": null,
-    "article_total": null,
-    "article_slug": null,
-    "stages": [],
-    "stage_index": null,
-    "stage": null
+    "phase": "writing",
+    "article_index": 1,
+    "article_total": 3,
+    "article_slug": "2026-09-10-sugar-rush",
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }

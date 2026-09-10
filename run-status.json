@@ -1,10 +1,18 @@
 {
-  "job": "backfill-images",
-  "brand": "VsichkiKazina",
-  "started_utc": "2026-09-09T15:45:00Z",
-  "note": "backfill: nothing to do (all review-ready articles have images)",
+  "state": "running",
+  "run_started_utc": "2026-09-10T03:14:03Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_016sG7QRQ81aRzB2guHwRJ9r",
+  "note": "recurring run 2026-09-10 (fire #6): batch=3 new slot explainers (Sugar Rush, The Dog House, Rise of Ra); bank was drained of clean pillars, fresh Ahrefs pull done",
   "progress": {
-    "stage_index": null,
-    "articles": []
+    "phase": "writing",
+    "article_index": 1,
+    "article_total": 3,
+    "article_slug": "2026-09-10-sugar-rush",
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
