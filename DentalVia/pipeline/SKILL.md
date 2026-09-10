@@ -113,7 +113,7 @@ check.
 Stage → agent file → prompt template:
 1    agents/synthesis.md          prompts/step-1-synthesis.md
 1.5  agents/outline-architect.md  prompts/step-1.5-outline.md
-2    markets/de/author.md         prompts/step-2-editorial.md
+2    markets/de/author.md         prompts/step-2-author-editorial.md
 3    agents/humaniser.md          prompts/step-3-humaniser.md
 4    agents/seo-copywriter.md     prompts/step-4-seo.md
 5    agents/brand-gate-dentalvia.md  prompts/step-5-brand-gate.md
