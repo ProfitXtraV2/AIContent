@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-10T07:13:44Z",
+  "generated_utc": "2026-09-10T07:30:12Z",
   "buffer": {
-    "count": 21,
+    "count": 22,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 3,
-    "drafted": 21,
+    "in-progress": 2,
+    "drafted": 22,
     "approved": 0,
     "posted": 10,
     "failed": 1
@@ -638,7 +638,7 @@
     },
     {
       "id": "vk-0033",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Sugar Rush 1000: какво променя версията 1000",
       "keywords_or_terms": "sugar rush 1000, сугар ръш 1000",
@@ -648,9 +648,9 @@
       "drafted_date": "2026-09-10",
       "posted_date": "",
       "folder": "2026-09-10-sugar-rush-1000",
-      "pr": "",
-      "gemini": "",
-      "notes": "Pragmatic Play cluster-pays sequel slot-explainer (public game data + Pragmatic official, NOT operator T&C); distinct branded intent from Sugar Rush (vk-0030) — higher multiplier cap/volatility → own pillar with anti-cannibal fold-in link to vk-0030; opportunity Strong (vol 400, up trend)",
+      "pr": "#39",
+      "gemini": "human 90",
+      "notes": "Pragmatic Play cluster-pays sequel slot-explainer (public game data + Pragmatic official, NOT operator T&C); distinct branded intent from Sugar Rush (vk-0030) — higher multiplier cap/volatility → own pillar with anti-cannibal fold-in link to vk-0030; opportunity Strong (vol 400, up trend) · gate 94/100; 0 flags; Gemini HL 25→75→90 PASS pass 2 (human 90); PR #39; img:3 (hero 95 + RTP infographic 100 + comparison infographic 100; all PASS)",
       "opportunity": null
     },
     {
@@ -1446,8 +1446,8 @@
       "intent": "transactional",
       "trend": "up",
       "checked": "ahrefs",
-      "suggestion": "СИЛЕН: голям обем (400), възходящ тренд; ОТДЕЛНА игра-сиквел от Sugar Rush (vk-0030) с по-висока волатилност/различен множител — самостоятелен pillar, добави anti-cannibal линк към vk-0030; провери RTP/max win от Pragmatic official",
-      "status": "candidate",
+      "suggestion": "СИЛЕН: голям обем (400), възходящ тренд; ОТДЕЛНА игра-сиквел от Sugar Rush (vk-0030); НАПИСАН като slot-explainer (таван на точката x1,024 vs x128, макс. 25,000× vs 5,000×, RTP конфиг. 97.50/96.53/95.50, волатилност 5/5); честен ъгъл по-висок таван ≠ по-добри шансове; fold-in линк към vk-0030 (vk-0033, PR #39)",
+      "status": "used",
       "date_researched": "2026-09-10",
       "opportunity": null
     },
