@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" width="640" height="340" role="img" aria-label="Стълба на множителя в безплатните завъртания на Big Bass Splash: четири нива, на всеки 4-ти събран рибар се качва ниво с нови 10 завъртания и множител 1x, 2x, 3x и 10x">
+  <title>Big Bass Splash: стълба на множителя в безплатните завъртания</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f2f9ff"/>
+      <stop offset="100%" stop-color="#e8f2fb"/>
+    </linearGradient>
+    <linearGradient id="step" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <linearGradient id="stepTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="340" rx="12" ry="12" fill="url(#bg)"/>
+
+  <text x="320" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="#075985" text-anchor="middle">Стълба на множителя (безплатни завъртания)</text>
+  <text x="320" y="56" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">на всеки 4-ти събран рибар: ново ниво + 10 завъртания</text>
+
+  <!-- baseline -->
+  <line x1="30" y1="296" x2="610" y2="296" stroke="#cfe3f2" stroke-width="2"/>
+
+  <!-- Step 1: height 70, top y=226 -->
+  <rect x="40" y="226" width="128" height="70" rx="8" fill="url(#step)"/>
+  <text x="104" y="266" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="800" fill="#ffffff" text-anchor="middle">1x</text>
+  <text x="104" y="286" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#e0f2fe" text-anchor="middle">Ниво 1</text>
+
+  <!-- Step 2: height 105, top y=191 -->
+  <rect x="192" y="191" width="128" height="105" rx="8" fill="url(#step)"/>
+  <text x="256" y="248" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="800" fill="#ffffff" text-anchor="middle">2x</text>
+  <text x="256" y="268" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#e0f2fe" text-anchor="middle">Ниво 2</text>
+  <text x="256" y="286" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#bae6fd" text-anchor="middle">+10 завъртания</text>
+
+  <!-- Step 3: height 140, top y=156 -->
+  <rect x="344" y="156" width="128" height="140" rx="8" fill="url(#step)"/>
+  <text x="408" y="222" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="800" fill="#ffffff" text-anchor="middle">3x</text>
+  <text x="408" y="242" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#e0f2fe" text-anchor="middle">Ниво 3</text>
+  <text x="408" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#bae6fd" text-anchor="middle">+10 завъртания</text>
+
+  <!-- Step 4: height 186, top y=110 (top level = amber) -->
+  <rect x="496" y="110" width="128" height="186" rx="8" fill="url(#stepTop)"/>
+  <text x="560" y="190" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="800" fill="#ffffff" text-anchor="middle">10x</text>
+  <text x="560" y="212" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#fff7ed" text-anchor="middle">Ниво 4</text>
+  <text x="560" y="230" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#ffedd5" text-anchor="middle">+10 завъртания</text>
+  <text x="560" y="256" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#fff7ed" text-anchor="middle">най-високият</text>
+  <text x="560" y="270" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#fff7ed" text-anchor="middle">множител</text>
+
+  <text x="320" y="322" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">Числата са по данни на провайдъра · 18+ Играйте отговорно</text>
+</svg>
