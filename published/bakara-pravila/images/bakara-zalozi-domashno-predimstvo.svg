@@ -11,7 +11,7 @@
   <text x="120" y="82" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">ЗАЛОГ</text>
   <text x="285" y="82" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">ИЗПЛАЩАНЕ</text>
   <text x="430" y="82" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">ДОМАШНО ПРЕДИМСТВО</text>
-  <text x="565" y="82" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">ОЦЕНКА</text>
+  <text x="550" y="82" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">ОЦЕНКА</text>
 
   <!-- Row 1: Banco — best bet, green-tinted -->
   <rect x="20" y="94" width="580" height="58" fill="#E8F5E9" rx="4"/>
@@ -21,7 +21,7 @@
   <text x="285" y="133" font-size="10" fill="#666" text-anchor="middle">минус 5% комисиона</text>
   <text x="285" y="146" font-size="10" fill="#888" text-anchor="middle">€20 → €19 чисто</text>
   <text x="430" y="123" font-size="16" font-weight="700" fill="#2E7D32" text-anchor="middle">~1,06%</text>
-  <text x="565" y="123" font-size="12" font-weight="700" fill="#2E7D32" text-anchor="middle">✓ Най-добър</text>
+  <text x="550" y="123" font-size="11" font-weight="700" fill="#2E7D32" text-anchor="middle">✓ Най-добър</text>
 
   <!-- Row 2: Punto -->
   <rect x="20" y="154" width="580" height="54" fill="#FFFFFF" rx="4"/>
@@ -30,7 +30,7 @@
   <text x="285" y="181" font-size="13" font-weight="700" fill="#1A1A2E" text-anchor="middle">1:1</text>
   <text x="285" y="196" font-size="10" fill="#888" text-anchor="middle">без комисиона</text>
   <text x="430" y="181" font-size="16" font-weight="700" fill="#1565C0" text-anchor="middle">~1,24%</text>
-  <text x="565" y="181" font-size="12" fill="#555" text-anchor="middle">✓ Добър</text>
+  <text x="550" y="181" font-size="11" fill="#555" text-anchor="middle">✓ Добър</text>
 
   <!-- Row 3: Tie — danger-red -->
   <rect x="20" y="210" width="580" height="58" fill="#FFF3F3" rx="4"/>
@@ -38,7 +38,7 @@
   <text x="285" y="228" font-size="13" font-weight="700" fill="#1A1A2E" text-anchor="middle">8:1</text>
   <text x="285" y="244" font-size="10" fill="#999" text-anchor="middle">изплащането мами окото</text>
   <text x="430" y="234" font-size="16" font-weight="700" fill="#C62828" text-anchor="middle">~14,36%</text>
-  <text x="565" y="231" font-size="12" font-weight="700" fill="#C62828" text-anchor="middle">✗ Избягвай</text>
+  <text x="550" y="231" font-size="11" font-weight="700" fill="#C62828" text-anchor="middle">✗ Избягвай</text>
 
   <!-- Table outer border -->
   <rect x="20" y="94" width="580" height="174" fill="none" stroke="#D0D0D0" stroke-width="1" rx="4"/>
@@ -46,7 +46,7 @@
   <!-- Column dividers -->
   <line x1="200" y1="94" x2="200" y2="268" stroke="#E0E0E0" stroke-width="1"/>
   <line x1="370" y1="94" x2="370" y2="268" stroke="#E0E0E0" stroke-width="1"/>
-  <line x1="510" y1="94" x2="510" y2="268" stroke="#E0E0E0" stroke-width="1"/>
+  <line x1="500" y1="94" x2="500" y2="268" stroke="#E0E0E0" stroke-width="1"/>
 
   <!-- Example callout -->
   <rect x="20" y="280" width="580" height="36" fill="#FFFBEE" stroke="#DCC050" stroke-width="1" rx="6"/>
