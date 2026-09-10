@@ -1,9 +1,12 @@
 # Step 8 — External image review (Gemini, multimodal)
 
-Canonical prompt sent to a multimodal Gemini model to review each article image (raster
-images are sent as pixels; SVG infographics are sent as their source so the numbers can be
-checked). **Recommendations + a score only** — the image is regenerated (AI hero) or the SVG
-is hand-fixed (infographic) by our own pipeline, never by Gemini.
+Canonical prompt sent to a multimodal Gemini model to review each article image. Raster images
+are sent as pixels. **SVG infographics are sent BOTH ways: rendered to a PNG at the display
+width (so overlap, clipping and legibility are actually visible) AND as their source (so the
+numbers can be checked).** Rendering the SVG to pixels is mandatory — a source-only review
+cannot see that text overlaps or is cut off at the edge. **Recommendations + a score only** —
+the image is regenerated (AI hero) or the SVG is hand-fixed (infographic) by our own pipeline,
+never by Gemini.
 
 ## PROMPT (verbatim — send with the article text + image(s) appended)
 
@@ -15,6 +18,7 @@ Act as a senior SEO editor and art director reviewing an image that will accompa
 - **Responsible gambling** — is the tone neutral and non-hype, appropriate for an 18+ responsible-gambling context?
 - **SEO metadata** — is the filename descriptive/lowercase/hyphenated and is the Bulgarian ALT text specific and accurate to what the image shows?
 - **Technical quality** — legibility, clarity, composition, aspect ratio, and (for raster) that it looks clean at web sizes.
+- **Layout integrity (infographics — inspect the RENDERED pixels, and zoom every corner and column)** — NO text may overlap another text or element, NO text may be clipped or cut off by the canvas/card edge, and NO text may touch an edge. Every label, number and word must be fully visible and comfortably legible at the display width, with clear margins. A single overlapping or cut-off character is a defect. Call out the exact label and where it collides/clips.
 
 Give me:
 
@@ -30,7 +34,9 @@ Hard rules:
 ## Accept / iterate policy (used by daily-run.md Step 8)
 - **PASS** when the score is **>= IMAGE_TARGET_SCORE (80)** AND there is no integrity failure
   (a fabricated logo/number/screenshot, a person/face, or glamorised winning is an automatic
-  fail even at a high score — fix it before shipping).
+  fail even at a high score — fix it before shipping) AND no layout defect (any overlapping or
+  clipped/edge-touching text is an automatic NEEDS WORK even at a high score — fix the SVG
+  layout before shipping).
 - **Otherwise:** apply Gemini's fixes — regenerate the AI hero with an improved prompt, or
   hand-correct the SVG (numbers must still trace to `05b`) — then re-run this review. Repeat
   up to `MAX_IMAGE_PASSES` (default 2).
