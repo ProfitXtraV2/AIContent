@@ -106,6 +106,43 @@ per article. Falls back to web research when Ahrefs is unavailable.
 trigger instructions; scheduling later = pointing a new routine at
 `DentalVia/automation/daily-run.md`.
 
+## Keyword strategy
+
+Mechanism inherited unchanged from the VsichkiKazina run: Ahrefs v3
+(`country=de`) → volume/KD/intent/trend → deterministic Opportunity score;
+web-research fallback (`checked=web`, never halt, never fabricate); human
+`topic-backlog.md` enriched but never overridden; AI bank in
+`research-topics.md`; anti-cannibalization clustering at research time (one
+pillar per intent cluster, near-dupes folded in).
+
+DentalVia-specific weighting — research targets five German dental-tourism
+keyword families, by conversion value:
+
+1. **Treatment + cost/abroad** (money): "Zahnimplantate Kosten",
+   "All-on-4 Kosten", "Zähne machen lassen im Ausland", "Veneers Bulgarien
+   Preise".
+2. **Destination comparisons**: capture existing Ungarn/Türkei demand
+   ("Zahnimplantate Türkei Risiken", "Zahnersatz Ungarn Erfahrungen") and make
+   Bulgaria's case (EU, patient rights, prices, proximity).
+3. **Trust & safety**: "Zahnarzt Ausland seriös", "Gewährleistung Zahnersatz
+   Ausland".
+4. **Insurance/reimbursement**: "Heil- und Kostenplan im Ausland",
+   "Krankenkasse Zuschuss Zahnersatz Ausland".
+5. **Treatment education** (TOFU): "Knochenaufbau Ablauf", "Wurzelbehandlung
+   oder Implantat".
+
+Adjustments for the vertical:
+- **German compounding/synonyms**: cluster variant forms as one intent
+  ("Zahnimplantat"/"Implantat"/"Zahnersatz"/"dritte Zähne"; "Kosten"/"Preise"/
+  "Erfahrungen" modifiers) so the cannibalization guard holds.
+- **Young-domain bias**: dentalvia.de has low authority — prioritise low-KD
+  long-tail first; high-KD head terms stay in the bank as long-term pillars
+  rather than being written early.
+- **English**: no autonomous keyword research; `en` articles on request only.
+
+The seed `topic-backlog.md` is written from these families; the first manual
+run validates it against live Ahrefs `country=de` data.
+
 ## Dashboard
 
 DentalVia gets its own page on the existing GitHub Pages site:
