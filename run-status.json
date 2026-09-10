@@ -5,7 +5,7 @@
   "articles_written": 3,
   "prs_opened": [39, 40, 41],
   "run_url": "https://claude.ai/code/session_01SxJzFwPCSwwePCgrHMoJ41",
-  "note": "backfill: nothing to do (all 24 review-ready articles have images) — checked 2026-09-10 image backfill run",
+  "note": "backfill: nothing to do (all 24 review-ready articles have images) — confirmed 2026-09-10 image backfill run #2",
   "progress": {
     "phase": "done",
     "article_index": null,
