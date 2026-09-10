@@ -1,0 +1,18 @@
+{
+  "state": "running",
+  "run_started_utc": "2026-09-10T20:59:21Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01FL4gb5G7yFRgYGh899oeUe",
+  "note": "daily run — fixed top-3 batch (veneers-kosten, festzuschuss, steuer-absetzen)",
+  "progress": {
+    "phase": "writing",
+    "article_index": 1,
+    "article_total": 3,
+    "article_slug": "2026-09-10-veneers-kosten-deutschland-ausland",
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
+    "stage_index": null,
+    "stage": null
+  }
+}
