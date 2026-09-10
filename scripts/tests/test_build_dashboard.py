@@ -202,3 +202,34 @@ def test_default_brand_unchanged():
     status = bd.build_status(rows, target=10)
     assert status["meta"]["brand"] == "VsichkiKazina"
     assert "byline" not in rows[0]
+
+
+# --- Per-brand links isolation tests ---
+
+def test_dentalvia_links_no_vk_site_or_routine():
+    """DentalVia status must NOT contain vsichkikazina.bg or the VK routine URL."""
+    status = bd.build_status(bd.parse_queue(DV_SAMPLE, brand="dentalvia"),
+                             target=10, brand="dentalvia")
+    links = status["meta"]["links"]
+    assert links["site"] == "https://www.dentalvia.de", \
+        f"Expected dentalvia.de, got {links['site']!r}"
+    assert "routine" not in links, \
+        f"'routine' key must be absent from dentalvia links, got: {links}"
+    # Shared infra links should still be present and correct
+    assert links["repo"].startswith("https://github.com/")
+    assert links["prs"].startswith("https://github.com/")
+    assert "DentalVia" in links["backlog"]
+    assert "DentalVia" in links["queue"]
+
+
+def test_vsichkikazina_links_unchanged():
+    """VsichkiKazina meta.links must keep site vsichkikazina.bg and routine present."""
+    rows = bd.parse_queue(SAMPLE)
+    status = bd.build_status(rows, target=10, brand="vsichkikazina")
+    links = status["meta"]["links"]
+    assert links["site"] == "https://vsichkikazina.bg", \
+        f"Expected vsichkikazina.bg, got {links['site']!r}"
+    assert "routine" in links and links["routine"].startswith("https://"), \
+        f"'routine' key must be present in vsichkikazina links, got: {links}"
+    assert "VsichkiKazina" in links["backlog"]
+    assert "VsichkiKazina" in links["queue"]

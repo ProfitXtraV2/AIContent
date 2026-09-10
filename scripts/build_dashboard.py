@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Build docs/data/status.json from VsichkiKazina/content-queue.md.
+"""Build per-brand status.json (VsichkiKazina, DentalVia) from each brand's content-queue.md.
 
-Deterministic, stdlib-only. Run from repo root:
+Brand-aware, deterministic, stdlib-only. Run from repo root:
     python3 scripts/build_dashboard.py [brand]
 where brand ∈ vsichkikazina (default) | dentalvia.
 """
@@ -24,9 +24,12 @@ COLUMNS_DV = COLUMNS[:3] + ["byline"] + COLUMNS[3:]
 
 BRANDS = {
     "vsichkikazina": {"dir": "VsichkiKazina", "brand": "VsichkiKazina",
-                      "out": ("docs", "data", "status.json")},
+                      "out": ("docs", "data", "status.json"),
+                      "links": {"site": "https://vsichkikazina.bg",
+                                "routine": "https://claude.ai/code/routines/trig_019cfW1QpXykZkwG8XrotCtQ"}},
     "dentalvia":     {"dir": "DentalVia", "brand": "DentalVia",
-                      "out": ("docs", "data", "dentalvia", "status.json")},
+                      "out": ("docs", "data", "dentalvia", "status.json"),
+                      "links": {"site": "https://www.dentalvia.de"}},
 }
 
 # Human backlog. Ahrefs metrics (volume/kd/intent/checked/ahrefs_note) are enriched by the
@@ -148,14 +151,20 @@ def build_status(rows, backlog=None, research=None, target=10, brand="vsichkikaz
     research = _with_opportunity(research or [])
     repo = LINKS["repo"]
     brand_dir = brand_cfg["dir"]
+    # Build per-brand links: start from shared keys, apply brand-specific overrides
+    # (site, routine), then compute dynamic backlog/queue URLs for this brand.
+    brand_link_overrides = brand_cfg["links"]
+    links = {
+        "repo": repo,
+        "prs": LINKS["prs"],
+        **brand_link_overrides,
+        "backlog": f"{repo}/blob/main/{brand_dir}/topic-backlog.md",
+        "queue": f"{repo}/blob/main/{brand_dir}/content-queue.md",
+    }
     if brand == "dentalvia":
         schedule_meta = {"note": "manual runs only — not scheduled"}
-        links = {**LINKS,
-                 "backlog": f"{repo}/blob/main/{brand_dir}/topic-backlog.md",
-                 "queue": f"{repo}/blob/main/{brand_dir}/content-queue.md"}
     else:
         schedule_meta = SCHEDULE
-        links = LINKS
     return {
         "generated_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "buffer": {
@@ -194,7 +203,7 @@ def main():
     status = build_status(parse_queue(md, brand=brand), backlog=parse_backlog(bl),
                           research=parse_research(rs), target=10, brand=brand)
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps(status, ensure_ascii=False, indent=2), encoding="utf-8")
+    out.write_text(json.dumps(status, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"wrote {out} — buffer {status['buffer']['count']}/{status['buffer']['target']}")
 
 
