@@ -8,13 +8,11 @@ Der Betrag, den die gesetzliche Krankenkasse zum Zahnersatz beisteuert, richtet 
 
 Seit 2005 läuft die gesetzliche Zahnersatzversorgung in Deutschland über den befundorientierten Festzuschuss, geregelt in § 55 SGB V [VERIFY]. Für jeden Befund, für jede Lücke und jeden geschädigten Zahn also, legt die Kasse eine Regelversorgung fest. Das ist die wirtschaftlich ausreichende Standardlösung, mit der sich der Befund zweckmäßig und dauerhaft versorgen lässt. Den Maßstab bildet diese zweckmäßige Versorgung. Die teuerste denkbare Variante bleibt außen vor.
 
-An den durchschnittlichen Kosten dieser Regelversorgung bemisst sich Ihr Zuschuss. Der Betrag steht fest, sobald der Befund feststeht, und er bleibt gleich, gleichgültig für welche Versorgung Sie sich anschließend entscheiden. Wählen Sie etwas Aufwendigeres als die Regelversorgung, überweist die Kasse trotzdem nur den befundbezogenen Festzuschuss. Alles, was darüber liegt, zahlen Sie als Eigenanteil selbst.
+An den durchschnittlichen Kosten dieser Regelversorgung bemisst sich Ihr Zuschuss. Sobald Ihr Befund feststeht, ist auch die Höhe des Zuschusses fixiert, egal für welche Versorgung Sie sich danach entscheiden. Wählen Sie etwas Aufwendigeres als die Regelversorgung, überweist die Kasse trotzdem nur den befundbezogenen Festzuschuss. Alles, was darüber liegt, zahlen Sie als Eigenanteil selbst.
 
 ## Das Bonusheft: 60, 70 oder 75 Prozent
 
 Wie groß der Anteil ausfällt, den die Kasse an der Regelversorgung übernimmt, hängt von Ihrem Bonusheft ab. Ohne Heft oder mit Lücken bleibt es bei 60 % der durchschnittlichen Kosten der Regelversorgung [VERIFY]. Fünf Jahre lückenlos geführtes Heft heben den Anteil auf 70 % [VERIFY], nach zehn lückenlosen Jahren sind es 75 % [VERIFY].
-
-Ein volles Bonusheft hebt damit den Zuschuss.
 
 Für Versicherte mit geringem Einkommen greift zusätzlich die Härtefallregelung. Der Festzuschuss verdoppelt sich dann und kann bis zu 100 % der Regelversorgung erreichen [VERIFY]. Ob Sie die maßgebliche Einkommensgrenze erreichen, entscheidet allein Ihre Krankenkasse anhand fester Grenzwerte.
 
@@ -38,7 +36,7 @@ Die folgenden Beispielwerte (Stand 2026) machen die Größenordnung greifbar; ve
 
 ## Regelversorgung, gleichartig, andersartig: was den Eigenanteil bestimmt
 
-Wie hoch Ihr Eigenanteil ausfällt, hängt davon ab, welchen Versorgungsweg Sie wählen. Die Regelversorgung ist die Standardlösung, an der sich der Zuschuss bemisst. Eine gleichartige Versorgung bleibt auf demselben Behandlungsweg, ergänzt ihn aber um private Zusatzleistungen, etwa eine Vollverblendung, für die Sie aufzahlen. Eine andersartige Versorgung schlägt einen ganz anderen Weg ein, zum Beispiel ein Implantat anstelle der vorgesehenen Brücke.
+Wie hoch Ihr Eigenanteil ausfällt, hängt davon ab, welchen Versorgungsweg Sie wählen. Die Regelversorgung ist die Standardlösung, an der sich der Zuschuss bemisst. Wer auf diesem Weg bleibt, ihn aber um private Zusatzleistungen wie eine Vollverblendung ergänzt und dafür aufzahlt, wählt eine gleichartige Versorgung. Entscheiden Sie sich dagegen für eine ganz andere Methode, etwa ein Implantat anstelle der vorgesehenen Brücke, spricht man von einer andersartigen Versorgung.
 
 Was Sie selbst tragen, folgt einer einzigen Rechnung: die [LINK: Gesamtkosten der gewählten Versorgung → /kosten/] minus Festzuschuss ergeben Ihren Eigenanteil.
 
@@ -52,9 +50,7 @@ Am Anfang steht immer der Heil- und Kostenplan, den Ihr Zahnarzt erstellt und de
 
 Der befundbezogene Festzuschuss ist nicht an eine Behandlung in Deutschland gebunden. Grundsätzlich gilt er auch für Zahnersatz, der im EU-Ausland erbracht wird, sofern die Versorgung einer deutschen GKV-Abrechnung standhält und der Heil- und Kostenplan vorab genehmigt wurde [VERIFY]. Wer eine Behandlung etwa in Sofia erwägt, nimmt den Kassenzuschuss also mit; und weil die Behandlungskosten dort oft niedriger liegen, fällt der Eigenanteil entsprechend geringer aus. Die genauen Voraussetzungen und den Ablauf der Erstattung behandelt [LINK: unser Ratgeber zum Zuschuss der Krankenkasse bei Zahnersatz im Ausland → /ratgeber/zahnersatz-ausland-zuschuss-krankenkasse/]. Über die Höhe entscheidet auch hier allein Ihre Krankenkasse.
 
-## Was Sie selbst in der Hand haben
-
-Der Festzuschuss ist planbar und hängt am Befund; teurer werdende Behandlungen ziehen ihn nicht mit nach oben. Ein lückenlos geführtes Bonusheft bringt am Ende 75 % [VERIFY] statt 60 % [VERIFY], und das ist bares Geld. Und der Heil- und Kostenplan muss vor Behandlungsbeginn bei der Kasse genehmigt sein, sonst steht der Zuschuss auf dem Spiel. Weil er auch ins EU-Ausland mitreist, senkt dort jede günstigere Versorgung Ihren Eigenanteil unmittelbar.
+Der nächste Schritt liegt bei Ihnen: Führen Sie Ihr Bonusheft lückenlos weiter und lassen Sie den Heil- und Kostenplan von Ihrer Kasse genehmigen, bevor Sie sich auf eine Versorgung festlegen.
 
 [AUTHOR BIO BLOCK - patient coordinator]
 
