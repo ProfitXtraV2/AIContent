@@ -1,0 +1,2 @@
+# 02-DRAFT — Rise of Ra (author stage)
+Editorial-voice draft from 00-brief facts + 01.5 outline. Figures verbatim (5 reels/15 lines, RTP 95.97%/house 4.03%, medium-high vol 4/5, wild scarab doubles multi-wild wins, FS 3+ scatter=15 all ×3, gamble <10,500 coins, Jackpot Cards 4-suit mystery random/separate, €1000→~€960/~€40). NO fabricated total max-win multiplier (sources inconsistent). Links /kak-ocenyavame/, /slot-igri/, /otgovorna-igra/. RG + footers. Byline Георги Тодоров; brand Всички Казина. → Humaniser.
