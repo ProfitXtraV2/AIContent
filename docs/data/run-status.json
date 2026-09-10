@@ -3,14 +3,14 @@
   "run_started_utc": "2026-09-10T22:12:20Z",
   "run_finished_utc": null,
   "articles_written": null,
-  "prs_opened": [51],
+  "prs_opened": [51, 52],
   "run_url": "https://claude.ai/code/session_01VHnDBptg5f23LMNNgdswzD",
-  "note": "daily run 2026-09-10 (fire #8): article 1/3 done — vk-0036 Бонус при регистрация drafted (PR #51, gate 93, Gemini human 85 PASS pass 1, img:2 best 100). Writing 2/3 Flaming Hot, then 3/3 Big Bass Splash. Buffer 25.",
+  "note": "daily run 2026-09-10 (fire #8): 2/3 done — vk-0036 Бонус при регистрация (PR #51, human 85, img 100), vk-0037 Flaming Hot (PR #52, human 90 PASS initial, img 85). Writing 3/3 Big Bass Splash. Buffer 26.",
   "progress": {
     "phase": "writing",
-    "article_index": 2,
+    "article_index": 3,
     "article_total": 3,
-    "article_slug": "2026-09-10-flaming-hot",
+    "article_slug": "2026-09-10-big-bass-splash",
     "stages": ["Synthesis", "Outline", "Author", "Humaniser", "SEO", "Brand Gate", "Light re-check", "Images", "Verification", "PR"],
     "stage_index": 0,
     "stage": "Synthesis"

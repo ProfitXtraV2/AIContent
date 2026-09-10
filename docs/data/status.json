@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-10T22:35:21Z",
+  "generated_utc": "2026-09-10T22:43:11Z",
   "buffer": {
-    "count": 25,
+    "count": 26,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 2,
-    "drafted": 15,
+    "in-progress": 1,
+    "drafted": 16,
     "approved": 10,
     "posted": 10,
     "failed": 1
@@ -712,19 +712,19 @@
     },
     {
       "id": "vk-0037",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Flaming Hot: RTP и характеристики (EGT/Amusnet класика)",
       "keywords_or_terms": "flaming hot, флейминг хот, egt flaming hot",
       "volume": "60",
       "kd": "63",
       "source": "research",
-      "drafted_date": "",
+      "drafted_date": "2026-09-10",
       "posted_date": "",
       "folder": "2026-09-10-flaming-hot",
-      "pr": "",
-      "gemini": "",
-      "notes": "EGT/Amusnet 40-line fruit-slot explainer (public game data + Amusnet official, NOT operator T&C); clean pillar (no page in sitemap); anchors to Amusnet profile (vk-0021); distinct game+kw from 20/40 Super Hot/Shining Crown/Burning Hot/Rise of Ra; opportunity Weak (vol 60/kd63)",
+      "pr": "#52",
+      "gemini": "human 90",
+      "notes": "EGT/Amusnet 40-line fruit-slot explainer (public game data + Amusnet official, NOT operator T&C); clean pillar (no page in sitemap); anchors to Amusnet profile (vk-0021); distinct game+kw from 20/40 Super Hot/Shining Crown/Burning Hot/Rise of Ra; opportunity Weak (vol 60/kd63) · gate 94/100; 0 flags (release year not stated); Gemini PASS on initial draft (HL 90 human 90; anti-AI applied proactively, only 1-word typo fix); PR #52; img:2 (RTP infographic + hero 85; PASS, no integrity failure)",
       "opportunity": {
         "score": 18,
         "band": "Weak"
@@ -1569,7 +1569,7 @@
       "trend": "flat",
       "checked": "ahrefs",
       "suggestion": "EGT/Amusnet класика, distinct от Burning Hot/Shining Crown/20-40 Super Hot; чист pillar (няма страница); умерена възможност",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-10",
       "opportunity": {
         "score": 18,
