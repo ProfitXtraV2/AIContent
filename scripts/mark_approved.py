@@ -2,14 +2,15 @@
 """Mark content-queue rows as approved by folder name.
 
 Usage:
-    python3 scripts/mark_approved.py <folder> [<folder>...]
+    python3 scripts/mark_approved.py <folder> [<folder>...] [--brand <brand>]
 
-Reads VsichkiKazina/content-queue.md, sets status=approved for each drafted row
-whose folder matches one of the given folders, writes the file back, and prints
-which folders were updated (or "no rows updated").
+Reads <brand>/content-queue.md (default brand: vsichkikazina), sets status=approved
+for each drafted row whose folder matches one of the given folders, writes the file
+back, and prints which folders were updated (or "no rows updated").
 """
 import sys
 from pathlib import Path
+import build_dashboard as bd
 
 
 def mark_approved(md_text: str, folders: set) -> tuple:
@@ -79,17 +80,45 @@ def mark_approved(md_text: str, folders: set) -> tuple:
     return "".join(result_lines), sorted(updated_folders)
 
 
-def main():
-    if len(sys.argv) < 2:
-        print("Usage: mark_approved.py <folder> [<folder>...]", file=sys.stderr)
+def repo_root():
+    """Return the repository root directory."""
+    return Path(__file__).resolve().parents[1]
+
+
+def main(argv=None):
+    if argv is None:
+        argv = sys.argv[1:]
+
+    if len(argv) < 1:
+        print("Usage: mark_approved.py <folder> [<folder>...] [--brand <brand>]", file=sys.stderr)
         return 1
 
-    folders = set(sys.argv[1:])
-    root = Path(__file__).resolve().parents[1]
-    queue_path = root / "VsichkiKazina" / "content-queue.md"
+    # Parse arguments: extract --brand if present, rest are folders
+    folders = []
+    brand = "vsichkikazina"
+    i = 0
+    while i < len(argv):
+        if argv[i] == "--brand" and i + 1 < len(argv):
+            brand = argv[i + 1]
+            i += 2
+        else:
+            folders.append(argv[i])
+            i += 1
+
+    if not folders:
+        print("Usage: mark_approved.py <folder> [<folder>...] [--brand <brand>]", file=sys.stderr)
+        return 1
+
+    # Validate brand
+    if brand not in bd.BRANDS:
+        print(f"Unknown brand: {brand}. Available: {', '.join(bd.BRANDS.keys())}", file=sys.stderr)
+        sys.exit(1)
+
+    root = repo_root()
+    queue_path = root / bd.BRANDS[brand]["dir"] / "content-queue.md"
     md_text = queue_path.read_text(encoding="utf-8")
 
-    new_md, updated = mark_approved(md_text, folders)
+    new_md, updated = mark_approved(md_text, set(folders))
 
     queue_path.write_text(new_md, encoding="utf-8")
 
