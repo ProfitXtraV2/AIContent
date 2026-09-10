@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 344" width="640" height="344" role="img" aria-label="Превъртане и база: депозит €100 плюс 100% бонус €100 дава игрален баланс €200; при 35x върху депозит+бонус се дължи €7,000 оборот, а при 35x само върху бонуса — €3,500 оборот; числата са примерни">
-  <title>Превъртане: една база, двойна разлика (числата са примерни)</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 344" width="640" height="344" role="img" aria-label="Превъртане и база: депозит €100 плюс 100% бонус €100 дава игрален баланс €200; при 35x върху депозит+бонус се дължи €7,000 оборот, а при 35x само върху бонуса е €3,500 оборот; числата са примерни">
+  <title>Превъртане: различна база, двойна разлика (числата са примерни)</title>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#f8f9fb"/>
@@ -9,7 +9,7 @@
 
   <rect width="640" height="344" rx="12" ry="12" fill="url(#bg)"/>
 
-  <text x="320" y="36" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="#1e3a5f" text-anchor="middle">Превъртане: една база, двойна разлика</text>
+  <text x="320" y="36" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="#1e3a5f" text-anchor="middle">Превъртане: различна база, двойна разлика</text>
   <text x="320" y="60" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">Депозит €100 + 100% бонус €100 = €200 игрален баланс</text>
 
   <!-- Left box: depozit+bonus base -->
