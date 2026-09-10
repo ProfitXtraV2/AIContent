@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-10T03:46:40Z",
+  "generated_utc": "2026-09-10T06:58:01Z",
   "buffer": {
-    "count": 27,
+    "count": 21,
     "target": 10,
     "deficit": 0,
     "ok": true
@@ -9,8 +9,8 @@
   "counts": {
     "in-progress": 0,
     "drafted": 21,
-    "approved": 6,
-    "posted": 4,
+    "approved": 0,
+    "posted": 10,
     "failed": 1
   },
   "rows": [
@@ -90,7 +90,7 @@
     },
     {
       "id": "vk-0005",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Ново онлайн казино: как да оцените новооткрит оператор",
       "keywords_or_terms": "ново онлайн казино, оценка на оператор, лиценз от НАП",
@@ -98,7 +98,7 @@
       "kd": "57",
       "source": "research",
       "drafted_date": "2026-09-07",
-      "posted_date": "",
+      "posted_date": "2026-09-10",
       "folder": "2026-09-07-novo-onlajn-kazino",
       "pr": "#6",
       "gemini": "human 85",
@@ -224,7 +224,7 @@
     },
     {
       "id": "vk-0012",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Бакара: правила и как се играе в казино",
       "keywords_or_terms": "бакара, как се играе бакара, бакара правила, бакара онлайн",
@@ -232,7 +232,7 @@
       "kd": "0",
       "source": "research",
       "drafted_date": "2026-09-08",
-      "posted_date": "",
+      "posted_date": "2026-09-10",
       "folder": "2026-09-08-bakara-pravila",
       "pr": "#14",
       "gemini": "human 90",
@@ -284,7 +284,7 @@
     },
     {
       "id": "vk-0015",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Нови казино игри 2026: как да оцените ново заглавие и кои формати водят",
       "keywords_or_terms": "нови казино игри, нови слотове, нови формати, как да оцените нова игра",
@@ -292,7 +292,7 @@
       "kd": "56",
       "source": "research",
       "drafted_date": "2026-09-08",
-      "posted_date": "",
+      "posted_date": "2026-09-10",
       "folder": "2026-09-08-novi-kazino-igri-2026",
       "pr": "#17",
       "gemini": "human 85",
@@ -344,7 +344,7 @@
     },
     {
       "id": "vk-0018",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Sweet Bonanza: RTP, волатилност и как се играе",
       "keywords_or_terms": "sweet bonanza, свит бонанза, sweet bonanza rtp",
@@ -352,7 +352,7 @@
       "kd": "0",
       "source": "research",
       "drafted_date": "2026-09-08",
-      "posted_date": "",
+      "posted_date": "2026-09-10",
       "folder": "2026-09-08-sweet-bonanza",
       "pr": "#24",
       "gemini": "human 90",
@@ -364,7 +364,7 @@
     },
     {
       "id": "vk-0019",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Pragmatic Play: профил на доставчика, механики и топ слотове",
       "keywords_or_terms": "pragmatic play, pragmatic слотове, pragmatic play слотове",
@@ -372,7 +372,7 @@
       "kd": "62",
       "source": "research",
       "drafted_date": "2026-09-08",
-      "posted_date": "",
+      "posted_date": "2026-09-10",
       "folder": "2026-09-08-pragmatic-play-provajdar",
       "pr": "#25",
       "gemini": "human 85",
@@ -404,7 +404,7 @@
     },
     {
       "id": "vk-0021",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Amusnet (EGT): профил на доставчика, механики и топ слотове",
       "keywords_or_terms": "amusnet, egt слотове, ротативки egt",
@@ -412,7 +412,7 @@
       "kd": "73",
       "source": "research",
       "drafted_date": "2026-09-09",
-      "posted_date": "",
+      "posted_date": "2026-09-10",
       "folder": "2026-09-09-amusnet-egt-provajdar",
       "pr": "#27",
       "gemini": "human 85",

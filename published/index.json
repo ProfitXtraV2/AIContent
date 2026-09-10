@@ -1,49 +1,6 @@
 {
   "schema_version": 1,
-  "count": 6,
-  "articles": [
-    {
-      "slug": "novo-onlajn-kazino",
-      "title": "Ново онлайн казино: как да оцените новооткрит оператор",
-      "date_modified": "2026-09-07",
-      "content_hash": "af07d1f79f2240f97b9bf2adf4b71a5a7db78f93ef91bb24ccb3ce81a3a7ce60",
-      "status": "approved"
-    },
-    {
-      "slug": "bakara-pravila",
-      "title": "Бакара: правила, залози и как се играе в казино",
-      "date_modified": "2026-09-08",
-      "content_hash": "e3ebf856d37dadb92f7ba5ae8767e565829ca46da86c7a7a5c8d4710c221c0a4",
-      "status": "approved"
-    },
-    {
-      "slug": "novi-kazino-igri-2026",
-      "title": "Нови казино игри 2026: как да оцените ново заглавие",
-      "date_modified": "2026-09-08",
-      "content_hash": "3367495ed04f54d42a46798c9c49b13c818401daa2270b72506d8262ecd46c71",
-      "status": "approved"
-    },
-    {
-      "slug": "sweet-bonanza",
-      "title": "Sweet Bonanza: RTP, волатилност и как се играе",
-      "date_modified": "2026-09-08",
-      "content_hash": "664485d4e1bf1b96b2a7bce421312c8fceaed6ca4c0e49ca49ff5a0f34c75045",
-      "status": "approved"
-    },
-    {
-      "slug": "pragmatic-play-provajdar",
-      "title": "Pragmatic Play: профил на доставчика, механики и топ слотове",
-      "date_modified": "2026-09-08",
-      "content_hash": "660f4dad2f0c4fbcf4ef472b59fe8b2bd66c556c12822afb3f0755db4fbb6f1a",
-      "status": "approved"
-    },
-    {
-      "slug": "amusnet-egt-provajdar",
-      "title": "Amusnet (EGT): профил на доставчика, механики и топ слотове",
-      "date_modified": "2026-09-09",
-      "content_hash": "028af30c94ff12cc474984984663b56aee85d9c19b01498cafe07f473028fb9e",
-      "status": "approved"
-    }
-  ],
-  "generated_utc": "2026-09-10T03:46:55Z"
+  "count": 0,
+  "articles": [],
+  "generated_utc": "2026-09-10T06:58:01Z"
 }
