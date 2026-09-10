@@ -1,19 +1,83 @@
 {
-  "generated_utc": "2026-09-10T20:41:56Z",
+  "generated_utc": "2026-09-10T22:47:16Z",
   "buffer": {
-    "count": 0,
+    "count": 3,
     "target": 10,
-    "deficit": 10,
+    "deficit": 7,
     "ok": false
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 0,
+    "drafted": 3,
     "approved": 0,
     "posted": 0,
     "failed": 0
   },
-  "rows": [],
+  "rows": [
+    {
+      "id": "dv-0001",
+      "status": "drafted",
+      "type": "comparison",
+      "byline": "Georgi Todorov",
+      "query": "Veneers-Kosten 2026: Deutschland und Ausland im Vergleich",
+      "keywords_or_terms": "veneers kosten, veneers kosten deutschland, veneers ausland",
+      "volume": "7500",
+      "kd": "30",
+      "source": "backlog",
+      "drafted_date": "2026-09-10",
+      "posted_date": "",
+      "folder": "2026-09-10-veneers-kosten-deutschland-ausland",
+      "pr": "#49",
+      "gemini": "ai 15",
+      "notes": "anti-cannibal vs /veneers/ + /kosten/; dated example prices; img:3 (hero+2 infogr., review 90); gate 93/100",
+      "opportunity": {
+        "score": 88,
+        "band": "Strong"
+      }
+    },
+    {
+      "id": "dv-0002",
+      "status": "drafted",
+      "type": "guide",
+      "byline": "Mario Yordanov",
+      "query": "Festzuschuss und Bonusheft: was die Krankenkasse 2026 beim Zahnersatz zahlt",
+      "keywords_or_terms": "festzuschuss zahnersatz 2026, bonusheft zahnarzt, festzuschuss tabelle",
+      "volume": "3000",
+      "kd": "28",
+      "source": "research",
+      "drafted_date": "2026-09-10",
+      "posted_date": "",
+      "folder": "2026-09-10-festzuschuss-bonusheft-zahnersatz-2026",
+      "pr": "#50",
+      "gemini": "ai 25",
+      "notes": "GKV basics; links live /ratgeber/zahnersatz-ausland-zuschuss-krankenkasse/; all GKV figures [VERIFY]; img:2 (hero+infogr., review 95); gate 96/100",
+      "opportunity": {
+        "score": 89,
+        "band": "Strong"
+      }
+    },
+    {
+      "id": "dv-0003",
+      "status": "drafted",
+      "type": "howto",
+      "byline": "Georgi Todorov",
+      "query": "Zahnarztkosten von der Steuer absetzen — auch bei Behandlung im Ausland",
+      "keywords_or_terms": "zahnarztkosten steuer absetzen, zahnbehandlung steuer",
+      "volume": "2500",
+      "kd": "20",
+      "source": "backlog",
+      "drafted_date": "2026-09-10",
+      "posted_date": "",
+      "folder": "2026-09-10-zahnarztkosten-steuer-absetzen",
+      "pr": "#53",
+      "gemini": "ai 25",
+      "notes": "§ 33 EStG außergewöhnliche Belastung; all tax figures [VERIFY]; img:2 (hero+infogr., review 75); gate 92/100",
+      "opportunity": {
+        "score": 92,
+        "band": "Strong"
+      }
+    }
+  ],
   "backlog": [
     {
       "priority": "1",
@@ -110,8 +174,8 @@
       "intent": "informativ",
       "checked": "web",
       "ahrefs_note": "Web-Schätzung ~2.500/Monat (saisonal stark, Q1 zur Steuererklärung); KD mittel ~20 (Finanztip u.a. konkurrieren). Hoher Trust-Wert; § 33 EStG, außergewöhnliche Belastung — alle Steuerzahlen [VERIFY].",
-      "status": "open",
-      "notes": "außergewöhnliche Belastung, § 33 EStG; strong trust topic; [VERIFY] all tax figures",
+      "status": "written",
+      "notes": "außergewöhnliche Belastung, § 33 EStG; strong trust topic; [VERIFY] all tax figures — written 2026-09-10, PR #53 (dv-0003)",
       "opportunity": {
         "score": 92,
         "band": "Strong"
@@ -178,8 +242,8 @@
       "intent": "kommerziell",
       "checked": "ahrefs",
       "ahrefs_note": "Ahrefs country=de: 7.500/Monat — mit Abstand stärkstes Volumen im Backlog; KD auf Lite-Plan nicht geliefert, geschätzt ~30 (kompetitiv). Top-Money-Keyword; Anti-Kannibalisierung vs /veneers/ (kommerziell) und /kosten/ nötig, dated Beispielpreise verwenden.",
-      "status": "open",
-      "notes": "price comparison with dated example prices; anti-cannibal vs /veneers/ (commercial) and /kosten/",
+      "status": "written",
+      "notes": "price comparison with dated example prices; anti-cannibal vs /veneers/ (commercial) and /kosten/ — written 2026-09-10, PR #49 (dv-0001)",
       "opportunity": {
         "score": 88,
         "band": "Strong"
@@ -299,7 +363,7 @@
       "trend": "—",
       "checked": "web",
       "suggestion": "Hohes Volumen, Deutschland-Grundlagen (inländische Basis, distinkt vom Ausland-Zuschuss-Ratgeber → als Basis-Guide der dorthin verlinkt, kein Kannibalisierungs-Risiko). KD ~28. fold-in: bonusheft zahnarzt, heil- und kostenplan grundlagen. Alle GKV-Zahlen [VERIFY]. Web-Schätzung.",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-10",
       "opportunity": {
         "score": 89,
