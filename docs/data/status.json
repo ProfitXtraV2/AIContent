@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-10T07:48:04Z",
+  "generated_utc": "2026-09-10T17:26:31Z",
   "buffer": {
     "count": 24,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 24,
-    "approved": 0,
+    "drafted": 14,
+    "approved": 10,
     "posted": 10,
     "failed": 1
   },
@@ -150,7 +150,7 @@
     },
     {
       "id": "vk-0008",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Как се играе покер в казино: видове игри и основни правила",
       "keywords_or_terms": "как се играе покер, казино покер, видео покер, казино холдем",
@@ -162,7 +162,7 @@
       "folder": "2026-09-07-kak-se-igrae-poker-kazino",
       "pr": "#7",
       "gemini": "human 85",
-      "notes": "„как се играе покер\" 200/kd51/informational/up; no poker page in sitemap — clean pillar; casino-poker framing · gate 95/100; HUMAN-LIKE ~50/60; 0 flags; Gemini Step-7 override run (MAX_PASSES=5): baseline noisy HL 25–90 → Humaniser pass 4 removed all structural tells (info-dump list, mid-article summary, textbook RTP defs, matchmaker close) → PASS (official 85, fresh read 90); pass-5 polish measurably lowered HL → reverted; kept pass-4, human 85 (score high-variance 25–90, mean ~53, cleared ≥80 3/9 reads); PR #7; img:3 (hero+2 infographics, best score 75 — SVGs 90+100 PASS, hero 75 MAX_PASSES)",
+      "notes": "„как се играе покер\" 200/kd51/informational/up; no poker page in sitemap — clean pillar; casino-poker framing · gate 95/100; HUMAN-LIKE ~50/60; 0 flags; Gemini Step-7 override run (MAX_PASSES=5): baseline noisy HL 25–90 → Humaniser pass 4 removed all structural tells (info-dump list, mid-article summary, textbook RTP defs, matchmaker close) → PASS (official 85, fresh read 90); pass-5 polish measurably lowered HL → reverted; kept pass-4, human 85 (score high-variance 25–90, mean ~53, cleared ≥80 3/9 reads); PR #7; img:3 (hero+2 infographics, best score 75 — SVGs 90+100 PASS, hero 75 MAX_PASSES); approved for deploy 2026-09-10 (human review: Как се играе покер — 0 flags, Gemini human 85, images 75 (best, MAX_PASSES))",
       "opportunity": {
         "score": 30,
         "band": "Moderate"
@@ -244,7 +244,7 @@
     },
     {
       "id": "vk-0013",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Ротативки с плодове (класически слотове): как работят",
       "keywords_or_terms": "ротативки с плодове, класически ротативки, плодови ротативки",
@@ -256,7 +256,7 @@
       "folder": "2026-09-08-rotativki-s-plodove",
       "pr": "#15",
       "gemini": "human 85",
-      "notes": "„ротативки с плодове\" 200/kd19/commercial/flat — lowest kd among slot topics; educational angle on 3-reel/fruit machines, anti-cannibal vs listing /kazino-igri/rotativki/ · gate 92/100; HUMAN-LIKE 52/60; 0 flags; Gemini ×2 → human 85 (pass-1 kept); PR #15; img:2 (hero+infographic, score 98)",
+      "notes": "„ротативки с плодове\" 200/kd19/commercial/flat — lowest kd among slot topics; educational angle on 3-reel/fruit machines, anti-cannibal vs listing /kazino-igri/rotativki/ · gate 92/100; HUMAN-LIKE 52/60; 0 flags; Gemini ×2 → human 85 (pass-1 kept); PR #15; img:2 (hero+infographic, score 98); approved for deploy 2026-09-10 (human review: Ротативки с плодове — 0 flags, Gemini human 85, images 98 PASS)",
       "opportunity": {
         "score": 42,
         "band": "Moderate"
@@ -264,7 +264,7 @@
     },
     {
       "id": "vk-0014",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Краш игри (Aviator): как работят и какъв е RTP",
       "keywords_or_terms": "aviator, краш игри, aviator стратегия, spribe",
@@ -276,7 +276,7 @@
       "folder": "2026-09-08-krash-igri-aviator",
       "pr": "#16",
       "gemini": "human 90",
-      "notes": "„aviator\" 300/kd60/commercial/flat — new format, no page in sitemap; education + RG angle (very high volatility) · gate 93/100; HUMAN-LIKE 53/60; 0 in-text flags (Aviator RTP 97% web-verified, in 06-verification for human confirm); Gemini ×2 → human 90 (pass-1 kept); PR #16; img:2 (hero+infographic, best score 85)",
+      "notes": "„aviator\" 300/kd60/commercial/flat — new format, no page in sitemap; education + RG angle (very high volatility) · gate 93/100; HUMAN-LIKE 53/60; 0 in-text flags (Aviator RTP 97% web-verified, in 06-verification for human confirm); Gemini ×2 → human 90 (pass-1 kept); PR #16; img:2 (hero+infographic, best score 85); approved for deploy 2026-09-10 (human review: Краш игри (Aviator) — 0 flags, Gemini human 90, images 85 PASS)",
       "opportunity": {
         "score": 31,
         "band": "Moderate"
@@ -304,7 +304,7 @@
     },
     {
       "id": "vk-0016",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Кено: правила, изплащания и реални шансове",
       "keywords_or_terms": "кено, кено правила, как се играе кено",
@@ -316,7 +316,7 @@
       "folder": "2026-09-08-keno-pravila",
       "pr": "#18",
       "gemini": "human 80",
-      "notes": "Good opp 50, kd0; clean pillar — no keno page in sitemap; universal lottery game rules/odds/house-edge; honest angle = keno has one of the highest house edges (online <4%→35%+, live 20–40%, video ~5–16%) · gate 95/100; HUMAN-LIKE 50/60; 2 in-text [VERIFY] (paytable-dependent odds/return); Gemini ×2 passes 15→20→15, kept pass 1 (ai 80, high-variance; rejected removal of RG doctrine); PR #18; img:1 (SVG RTP comparison; hero dropped-grid-hallucination, best 70) · nightly 2026-09-09: humanised (stripped intro intrigue, folded house-edge def, wove RG advice into prose), Gemini ai 80→human 80, 3 attempts",
+      "notes": "Good opp 50, kd0; clean pillar — no keno page in sitemap; universal lottery game rules/odds/house-edge; honest angle = keno has one of the highest house edges (online <4%→35%+, live 20–40%, video ~5–16%) · gate 95/100; HUMAN-LIKE 50/60; 2 in-text [VERIFY] (paytable-dependent odds/return); Gemini ×2 passes 15→20→15, kept pass 1 (ai 80, high-variance; rejected removal of RG doctrine); PR #18; img:1 (SVG RTP comparison; hero dropped-grid-hallucination, best 70) · nightly 2026-09-09: humanised (stripped intro intrigue, folded house-edge def, wove RG advice into prose), Gemini ai 80→human 80, 3 attempts; approved for deploy 2026-09-10 (human review: Кено — 0 flags (2 [VERIFY] resolved in cb3e047), Gemini human 80, SVG 100 PASS)",
       "opportunity": {
         "score": 50,
         "band": "Good"
@@ -384,7 +384,7 @@
     },
     {
       "id": "vk-0020",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "20 Super Hot: RTP и характеристики (EGT/Amusnet класика)",
       "keywords_or_terms": "20 super hot, 20 супер хот",
@@ -396,7 +396,7 @@
       "folder": "2026-09-08-20-super-hot",
       "pr": "#26",
       "gemini": "human 90",
-      "notes": "900/kd60/transactional; EGT/Amusnet classic slot-explainer; distinct cluster from Pragmatic titles; RTP 95.79% web-verified; Jackpot Cards + fixed 20 paylines · gate 93/100; HUMAN-LIKE; 1 in-text [VERIFY] (release year); Gemini high-variance HL 15→25→25, kept pass 2 (ai 75; fixed „люлките\" anglicism); PR #26; img:2 (hero+infographic, best score 82) · nightly 2026-09-09: humanised (blended textbook mechanics, condensed gamble into coin-flip, de-duped caption), Gemini ai 75→human 90, 1 attempt",
+      "notes": "900/kd60/transactional; EGT/Amusnet classic slot-explainer; distinct cluster from Pragmatic titles; RTP 95.79% web-verified; Jackpot Cards + fixed 20 paylines · gate 93/100; HUMAN-LIKE; 1 in-text [VERIFY] (release year); Gemini high-variance HL 15→25→25, kept pass 2 (ai 75; fixed „люлките\" anglicism); PR #26; img:2 (hero+infographic, best score 82) · nightly 2026-09-09: humanised (blended textbook mechanics, condensed gamble into coin-flip, de-duped caption), Gemini ai 75→human 90, 1 attempt; approved for deploy 2026-09-10 (human review: 20 Super Hot — 0 flags ([VERIFY] release year resolved in 55b89bd, hedged), Gemini human 90)",
       "opportunity": {
         "score": 61,
         "band": "Good"
@@ -424,7 +424,7 @@
     },
     {
       "id": "vk-0022",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Gates of Olympus: RTP, волатилност и как се играе",
       "keywords_or_terms": "gates of olympus, гейтс ъв олимпус",
@@ -436,7 +436,7 @@
       "folder": "2026-09-09-gates-of-olympus",
       "pr": "#28",
       "gemini": "human 90",
-      "notes": "300/kd69/commercial; Pragmatic hit slot-explainer, clean pillar (no page in sitemap); anchors to Pragmatic profile (vk-0019); public game data (pay-anywhere/tumble/Zeus множители/висока волатилност) · gate 93/100; HUMAN-LIKE; 2 in-text [VERIFY] (lower RTP builds; bonus-buy BG); RTP 96.50% default web-verified, max win 5000x; Gemini PASS pass 1 (human 90, initial kept); PR #28; img:2 (infographic 85 + hero 85, best 85)",
+      "notes": "300/kd69/commercial; Pragmatic hit slot-explainer, clean pillar (no page in sitemap); anchors to Pragmatic profile (vk-0019); public game data (pay-anywhere/tumble/Zeus множители/висока волатилност) · gate 93/100; HUMAN-LIKE; 2 in-text [VERIFY] (lower RTP builds; bonus-buy BG); RTP 96.50% default web-verified, max win 5000x; Gemini PASS pass 1 (human 90, initial kept); PR #28; img:2 (infographic 85 + hero 85, best 85); approved for deploy 2026-09-10 (human review: Gates of Olympus — 0 flags (2 [VERIFY] resolved in 9b6da5e), Gemini human 90, images 85 PASS)",
       "opportunity": {
         "score": 27,
         "band": "Moderate"
@@ -444,7 +444,7 @@
     },
     {
       "id": "vk-0023",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "40 Super Hot: RTP и джакпот функции (EGT/Amusnet)",
       "keywords_or_terms": "40 super hot, 40 супер хот",
@@ -456,7 +456,7 @@
       "folder": "2026-09-09-40-super-hot",
       "pr": "#29",
       "gemini": "human 85",
-      "notes": "300/kd62/transactional; EGT/Amusnet classic slot-explainer; distinct game+kw from 20 Super Hot (vk-0020) — 5x4/40 fixed lines vs 5x3/20; anchors to Amusnet profile (vk-0021 same batch) · gate 93/100; HUMAN-LIKE; 1 in-text [VERIFY] (per-casino RTP build); RTP 95.81% web-verified (corrected from 95.79%=20SH); Jackpot Cards + gamble; honest 40-vs-20-lines angle; Gemini HL 15→85 PASS pass 1 (human 85); PR #29; img:2 (infographic + hero, best 82)",
+      "notes": "300/kd62/transactional; EGT/Amusnet classic slot-explainer; distinct game+kw from 20 Super Hot (vk-0020) — 5x4/40 fixed lines vs 5x3/20; anchors to Amusnet profile (vk-0021 same batch) · gate 93/100; HUMAN-LIKE; 1 in-text [VERIFY] (per-casino RTP build); RTP 95.81% web-verified (corrected from 95.79%=20SH); Jackpot Cards + gamble; honest 40-vs-20-lines angle; Gemini HL 15→85 PASS pass 1 (human 85); PR #29; img:2 (infographic + hero, best 82); approved for deploy 2026-09-10 (human review: 40 Super Hot — 0 flags ([VERIFY] RTP build resolved in e86aafc), Gemini human 85, images 82 PASS)",
       "opportunity": {
         "score": 30,
         "band": "Moderate"
@@ -578,7 +578,7 @@
     },
     {
       "id": "vk-0030",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Sugar Rush: RTP, волатилност и как се играе",
       "keywords_or_terms": "sugar rush, сугар ръш",
@@ -590,7 +590,7 @@
       "folder": "2026-09-10-sugar-rush",
       "pr": "#36",
       "gemini": "human 85",
-      "notes": "Pragmatic Play cluster-pays slot-explainer (public game data + Pragmatic official, NOT operator T&C); clean pillar (no page in sitemap); anchors to Pragmatic profile (vk-0019); distinct game+cluster from Sweet Bonanza/Gates of Olympus/Big Bass; opportunity Strong (vol 150/kd13) · gate 94/100; 0 flags; Gemini HL 55→25→85 PASS pass 2 (human 85); PR #36; img:2 (infographic 100 + hero 95; both PASS)",
+      "notes": "Pragmatic Play cluster-pays slot-explainer (public game data + Pragmatic official, NOT operator T&C); clean pillar (no page in sitemap); anchors to Pragmatic profile (vk-0019); distinct game+cluster from Sweet Bonanza/Gates of Olympus/Big Bass; opportunity Strong (vol 150/kd13) · gate 94/100; 0 flags; Gemini HL 55→25→85 PASS pass 2 (human 85); PR #36; img:2 (infographic 100 + hero 95; both PASS); approved for deploy 2026-09-10 (human review: Sugar Rush — 0 flags, figures web-verified, Gemini human 85)",
       "opportunity": {
         "score": 42,
         "band": "Moderate"
@@ -598,7 +598,7 @@
     },
     {
       "id": "vk-0031",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "The Dog House: RTP, волатилност и как се играе",
       "keywords_or_terms": "the dog house, дог хаус слот",
@@ -610,7 +610,7 @@
       "folder": "2026-09-10-the-dog-house",
       "pr": "#37",
       "gemini": "ai 75",
-      "notes": "Pragmatic Play sticky-wild slot-explainer (public game data + Pragmatic official, NOT operator T&C); clean pillar (no page in sitemap); anchors to Pragmatic profile (vk-0019); distinct game+kw from other Pragmatic slots + kept distinct from Dog House Megaways; opportunity Good (vol 100/kd33) · gate 94/100; 0 flags; Gemini HL 25→20→25 kept pass 2 (ai 75; detector high-variance, copy factual+compliant, optional human polish); PR #37; img:2 (infographic 85 + hero 85; both PASS)",
+      "notes": "Pragmatic Play sticky-wild slot-explainer (public game data + Pragmatic official, NOT operator T&C); clean pillar (no page in sitemap); anchors to Pragmatic profile (vk-0019); distinct game+kw from other Pragmatic slots + kept distinct from Dog House Megaways; opportunity Good (vol 100/kd33) · gate 94/100; 0 flags; Gemini HL 25→20→25 kept pass 2 (ai 75; detector high-variance, copy factual+compliant, optional human polish); PR #37; img:2 (infographic 85 + hero 85; both PASS); approved for deploy 2026-09-10 (human review: The Dog House — 0 flags, figures web-verified, Gemini ai 75 accepted as-is, images 85/85 PASS)",
       "opportunity": {
         "score": 32,
         "band": "Moderate"
@@ -638,7 +638,7 @@
     },
     {
       "id": "vk-0033",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Sugar Rush 1000: какво променя версията 1000",
       "keywords_or_terms": "sugar rush 1000, сугар ръш 1000",
@@ -650,7 +650,7 @@
       "folder": "2026-09-10-sugar-rush-1000",
       "pr": "#39",
       "gemini": "human 90",
-      "notes": "Pragmatic Play cluster-pays sequel slot-explainer (public game data + Pragmatic official, NOT operator T&C); distinct branded intent from Sugar Rush (vk-0030) — higher multiplier cap/volatility → own pillar with anti-cannibal fold-in link to vk-0030; opportunity Strong (vol 400, up trend) · gate 94/100; 0 flags; Gemini HL 25→75→90 PASS pass 2 (human 90); PR #39; img:3 (hero 95 + RTP infographic 100 + comparison infographic 100; all PASS)",
+      "notes": "Pragmatic Play cluster-pays sequel slot-explainer (public game data + Pragmatic official, NOT operator T&C); distinct branded intent from Sugar Rush (vk-0030) — higher multiplier cap/volatility → own pillar with anti-cannibal fold-in link to vk-0030; opportunity Strong (vol 400, up trend) · gate 94/100; 0 flags; Gemini HL 25→75→90 PASS pass 2 (human 90); PR #39; img:3 (hero 95 + RTP infographic 100 + comparison infographic 100; all PASS); approved for deploy 2026-09-10 (human review: Sugar Rush 1000 — 0 flags, Gemini human 90, images PASS)",
       "opportunity": null
     },
     {
