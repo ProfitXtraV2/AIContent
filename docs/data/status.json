@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-10T07:30:12Z",
+  "generated_utc": "2026-09-10T07:38:39Z",
   "buffer": {
-    "count": 22,
+    "count": 23,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 2,
-    "drafted": 22,
+    "in-progress": 1,
+    "drafted": 23,
     "approved": 0,
     "posted": 10,
     "failed": 1
@@ -655,7 +655,7 @@
     },
     {
       "id": "vk-0034",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Gates of Olympus 1000: какво променя версията 1000",
       "keywords_or_terms": "gates of olympus 1000, гейтс ъв олимпус 1000",
@@ -665,9 +665,9 @@
       "drafted_date": "2026-09-10",
       "posted_date": "",
       "folder": "2026-09-10-gates-of-olympus-1000",
-      "pr": "",
-      "gemini": "",
-      "notes": "Pragmatic Play pay-anywhere sequel slot-explainer (public game data + Pragmatic official, NOT operator T&C); distinct branded intent from Gates of Olympus (vk-0022) → own pillar with fold-in link to vk-0022; opportunity Good (vol 150)",
+      "pr": "#40",
+      "gemini": "human 90",
+      "notes": "Pragmatic Play pay-anywhere sequel slot-explainer (public game data + Pragmatic official, NOT operator T&C); distinct branded intent from Gates of Olympus (vk-0022) → own pillar with fold-in link to vk-0022; opportunity Good (vol 150) · gate 94/100; 0 flags; Gemini PASS on initial draft (HL 85/90 human 90; anti-AI applied proactively, no Humaniser pass); PR #40; img:3 (hero 95 + RTP infographic 100 + comparison infographic 100; all PASS)",
       "opportunity": null
     },
     {
@@ -1460,8 +1460,8 @@
       "intent": "informational",
       "trend": "down",
       "checked": "ahrefs",
-      "suggestion": "добър: сиквел на Gates of Olympus (vk-0022); отделно branded intent → самостоятелен pillar с fold-in линк към vk-0022",
-      "status": "candidate",
+      "suggestion": "сиквел на Gates of Olympus (vk-0022); НАПИСАН като slot-explainer (таван на сферата 1,000× vs 500×, макс. 15,000× vs 5,000×, RTP по подразбиране 96.50% == оригинала, hit 28.57%); честен ъгъл по-волатилна, не по-щедра; fold-in към vk-0022 (vk-0034, PR #40)",
+      "status": "used",
       "date_researched": "2026-09-10",
       "opportunity": null
     },
