@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" width="760" height="330" font-family="Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="Acht Keramik-Veneers als Beispielpaket im Ländervergleich, Beispielwerte Stand 09/2026">
+  <rect x="4" y="4" width="752" height="322" rx="14" fill="#f7f9fb" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="24" y="40" font-size="19" font-weight="700" fill="#0f172a">8 Keramik-Veneers: Beispielpaket im Ländervergleich</text>
+  <text x="24" y="63" font-size="12.5" fill="#64748b">Beispielwerte &#183; Stand 09/2026</text>
+
+  <!-- scale: 400 px = 7000 €, bar start x=160 -->
+  <g font-size="13.5">
+    <text x="150" y="115" text-anchor="end" fill="#334155">Türkei</text>
+    <rect x="160" y="102" width="103" height="22" rx="3" fill="#14a3a0"/>
+    <text x="271" y="118" font-size="13" fill="#0f172a">ab ca. 1.800 €</text>
+
+    <text x="150" y="153" text-anchor="end" fill="#334155">Kroatien</text>
+    <rect x="160" y="140" width="151" height="22" rx="3" fill="#14a3a0"/>
+    <text x="319" y="156" font-size="13" fill="#0f172a">ab ca. 2.650 €</text>
+
+    <text x="150" y="191" text-anchor="end" fill="#334155">Ungarn</text>
+    <rect x="160" y="178" width="177" height="22" rx="3" fill="#14a3a0"/>
+    <text x="345" y="194" font-size="13" fill="#0f172a">ab ca. 3.100 €</text>
+
+    <text x="150" y="229" text-anchor="end" fill="#334155">Deutschland</text>
+    <rect x="160" y="216" width="274" height="22" rx="3" fill="#e08a3c"/>
+    <text x="442" y="232" font-size="13" fill="#0f172a">ab ca. 4.800 €</text>
+
+    <text x="150" y="267" text-anchor="end" fill="#334155">England</text>
+    <rect x="160" y="254" width="371" height="22" rx="3" fill="#94a3b8"/>
+    <text x="539" y="270" font-size="13" fill="#0f172a">ab ca. 6.500 €</text>
+  </g>
+
+  <line x1="160" y1="290" x2="560" y2="290" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="24" y="312" font-size="11" fill="#94a3b8">Deutschland als Referenz hervorgehoben. Gleiche Zahnzahl, gleiches Material vorausgesetzt; dated Beispiele, kein Festpreis.</text>
+</svg>
