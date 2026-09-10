@@ -5,14 +5,14 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01VHnDBptg5f23LMNNgdswzD",
-  "note": "daily run 2026-09-10 (fire #8) started: reconciling leftovers (0 in-progress), 0 open backlog rows; selecting up to 3 new guide topics from research bank (highest opportunity, guides-only scope).",
+  "note": "daily run 2026-09-10 (fire #8): 0 in-progress leftovers, 0 open backlog rows. Selected 3 guides from research bank after dedup+sitemap+anti-cannibal: vk-0036 Бонус при регистрация (Moderate 450/68), vk-0037 Flaming Hot (EGT), vk-0038 Big Bass Splash (Pragmatic). Dropped top 'Лицензирани казина' candidate — cannibalizes live /blog/proverka-licenz-kazino/ (writable angle covered; ranked-list angle НАП-deferred). Buffer 24 (floor 10; keep building).",
   "progress": {
-    "phase": "select",
-    "article_index": null,
-    "article_total": null,
-    "article_slug": null,
+    "phase": "writing",
+    "article_index": 1,
+    "article_total": 3,
+    "article_slug": "2026-09-10-bonus-pri-registraciya",
     "stages": ["Synthesis", "Outline", "Author", "Humaniser", "SEO", "Brand Gate", "Light re-check", "Images", "Verification", "PR"],
-    "stage_index": null,
-    "stage": null
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
