@@ -91,6 +91,19 @@ def test_build_meta_fields():
     assert meta["status"] == "approved"
     assert meta["body_path"] == "article.md"
 
+def test_opportunity_score_formula():
+    assert bf.opportunity_score("1200", "0") == 100    # 60 + 40
+    assert bf.opportunity_score("600", "50") == 50     # 30 + 20
+    assert bf.opportunity_score("1,200", "10") == 96   # commas tolerated; 60 + 36
+    assert bf.opportunity_score("", None) == -1        # missing → -1 (sorts last)
+    assert bf.opportunity_score("abc", "x") == -1
+
+def test_build_meta_includes_opportunity():
+    scored = bf.build_meta({**ROW, "volume": "1200", "kd": "0"}, DRAFT4, IMAGES4)
+    assert scored["opportunity"] == 100
+    # ROW has no volume/kd → unscored sentinel
+    assert bf.build_meta(ROW, DRAFT4, IMAGES4)["opportunity"] == -1
+
 def test_content_hash_is_deterministic_and_hash_key_independent():
     meta = bf.build_meta(ROW, DRAFT4, IMAGES4)
     h1 = bf.content_hash(DRAFT4["body"], meta)

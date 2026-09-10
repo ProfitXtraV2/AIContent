@@ -74,6 +74,20 @@ def extract_images(body_markdown):
     return out
 
 
+def opportunity_score(volume, kd):
+    """0–100 opportunity from the target keyword's volume + KD, mirroring
+    build_dashboard.opportunity. Returns -1 when metrics are missing/unparseable so
+    the publisher (which sorts by opportunity desc) puts unscored articles last."""
+    try:
+        v = float(str(volume).replace(",", "").strip())
+        k = float(str(kd).replace(",", "").strip())
+    except (TypeError, ValueError):
+        return -1
+    vol_score = min(60.0, v / 20.0)          # 1200+ volume saturates at 60
+    kd_score = max(0.0, 40.0 - k * 0.4)      # KD 0 → 40, KD 100 → 0
+    return int(round(vol_score + kd_score))
+
+
 def build_meta(row, draft, images):
     """Assemble the per-article meta.json (without content_hash) from a queue row + draft."""
     title = draft.get("title_tag") or draft.get("h1") or row.get("query", "")
@@ -90,6 +104,7 @@ def build_meta(row, draft, images):
         "keywords": kws,
         "images": images,
         "section_hint": row.get("type", ""),
+        "opportunity": opportunity_score(row.get("volume"), row.get("kd")),
         "status": "approved",
     }
 
