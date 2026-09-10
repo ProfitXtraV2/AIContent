@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-09T23:38:06Z",
+  "generated_utc": "2026-09-10T03:46:40Z",
   "buffer": {
-    "count": 24,
+    "count": 27,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 18,
+    "drafted": 21,
     "approved": 6,
     "posted": 4,
     "failed": 1
@@ -575,6 +575,66 @@
       "gemini": "human 85",
       "notes": "table-game rules pillar (evergreen game math, Wizard of Odds); no craps page in sitemap; completes table/dice-games set (blackjack vk-0009, baccarat vk-0012, roulette vk-0024, poker vk-0008, keno vk-0016); honest house-edge angle (pass 1.41%/don't pass 1.36% + 0% odds bet vs Any 7 16.67%) · gate 96/100; 0 flags; Gemini HL 20→25→85 PASS pass 2 (human 85); PR #33; img:2 (infographic 100 + hero 60 kept-best; best 100)",
       "opportunity": null
+    },
+    {
+      "id": "vk-0030",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Sugar Rush: RTP, волатилност и как се играе",
+      "keywords_or_terms": "sugar rush, сугар ръш",
+      "volume": "150",
+      "kd": "13",
+      "source": "research",
+      "drafted_date": "2026-09-10",
+      "posted_date": "",
+      "folder": "2026-09-10-sugar-rush",
+      "pr": "#36",
+      "gemini": "human 85",
+      "notes": "Pragmatic Play cluster-pays slot-explainer (public game data + Pragmatic official, NOT operator T&C); clean pillar (no page in sitemap); anchors to Pragmatic profile (vk-0019); distinct game+cluster from Sweet Bonanza/Gates of Olympus/Big Bass; opportunity Strong (vol 150/kd13) · gate 94/100; 0 flags; Gemini HL 55→25→85 PASS pass 2 (human 85); PR #36; img:2 (infographic 100 + hero 95; both PASS)",
+      "opportunity": {
+        "score": 42,
+        "band": "Moderate"
+      }
+    },
+    {
+      "id": "vk-0031",
+      "status": "drafted",
+      "type": "guide",
+      "query": "The Dog House: RTP, волатилност и как се играе",
+      "keywords_or_terms": "the dog house, дог хаус слот",
+      "volume": "100",
+      "kd": "33",
+      "source": "research",
+      "drafted_date": "2026-09-10",
+      "posted_date": "",
+      "folder": "2026-09-10-the-dog-house",
+      "pr": "#37",
+      "gemini": "ai 75",
+      "notes": "Pragmatic Play sticky-wild slot-explainer (public game data + Pragmatic official, NOT operator T&C); clean pillar (no page in sitemap); anchors to Pragmatic profile (vk-0019); distinct game+kw from other Pragmatic slots + kept distinct from Dog House Megaways; opportunity Good (vol 100/kd33) · gate 94/100; 0 flags; Gemini HL 25→20→25 kept pass 2 (ai 75; detector high-variance, copy factual+compliant, optional human polish); PR #37; img:2 (infographic 85 + hero 85; both PASS)",
+      "opportunity": {
+        "score": 32,
+        "band": "Moderate"
+      }
+    },
+    {
+      "id": "vk-0032",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Rise of Ra: RTP, характеристики и Jackpot Cards",
+      "keywords_or_terms": "rise of ra, райз оф ра",
+      "volume": "60",
+      "kd": "56",
+      "source": "research",
+      "drafted_date": "2026-09-10",
+      "posted_date": "",
+      "folder": "2026-09-10-rise-of-ra",
+      "pr": "#38",
+      "gemini": "human 85",
+      "notes": "EGT/Amusnet classic Egyptian slot-explainer + honest progressive-jackpot angle (public game data + Amusnet official, NOT operator T&C); clean pillar (no page in sitemap); anchors to Amusnet profile (vk-0021); distinct from Shining Crown/Burning Hot/20-40 Super Hot; opportunity Moderate (vol 60/kd56) · gate 95/100; 0 flags (no fabricated max-win); Gemini HL 40→85 PASS pass 1 (human 85); PR #38; img:2 (infographic 85 + hero 85; both PASS)",
+      "opportunity": {
+        "score": 21,
+        "band": "Weak"
+      }
     }
   ],
   "backlog": [
@@ -1271,6 +1331,153 @@
       "status": "candidate",
       "date_researched": "2026-09-07",
       "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Sugar Rush: RTP, волатилност и как се играе",
+      "researched_keywords": "sugar rush, сугар ръш",
+      "volume": "150",
+      "kd": "13",
+      "intent": "informational",
+      "trend": "up",
+      "checked": "ahrefs",
+      "suggestion": "силен: голям обем/ниска трудност за branded slot; чист pillar → vk-0030",
+      "status": "used",
+      "date_researched": "2026-09-10",
+      "opportunity": {
+        "score": 42,
+        "band": "Moderate"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "The Dog House: RTP, волатилност и как се играе",
+      "researched_keywords": "the dog house, дог хаус слот",
+      "volume": "100",
+      "kd": "33",
+      "intent": "informational",
+      "trend": "",
+      "checked": "ahrefs",
+      "suggestion": "добър branded slot pillar (5×3 original, NOT Megaways); чист → vk-0031",
+      "status": "used",
+      "date_researched": "2026-09-10",
+      "opportunity": {
+        "score": 32,
+        "band": "Moderate"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Rise of Ra: RTP, характеристики и Jackpot Cards",
+      "researched_keywords": "rise of ra, райз оф ра",
+      "volume": "60",
+      "kd": "56",
+      "intent": "commercial",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "EGT класика + честен ъгъл за mystery-джакпота; чист pillar → vk-0032",
+      "status": "used",
+      "date_researched": "2026-09-10",
+      "opportunity": {
+        "score": 21,
+        "band": "Weak"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Sugar Rush 1000: какво променя версията 1000",
+      "researched_keywords": "sugar rush 1000",
+      "volume": "400",
+      "kd": "",
+      "intent": "transactional",
+      "trend": "up",
+      "checked": "ahrefs",
+      "suggestion": "СИЛЕН: голям обем (400), възходящ тренд; ОТДЕЛНА игра-сиквел от Sugar Rush (vk-0030) с по-висока волатилност/различен множител — самостоятелен pillar, добави anti-cannibal линк към vk-0030; провери RTP/max win от Pragmatic official",
+      "status": "candidate",
+      "date_researched": "2026-09-10",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Gates of Olympus 1000: какво променя версията 1000",
+      "researched_keywords": "gates of olympus 1000",
+      "volume": "150",
+      "kd": "",
+      "intent": "informational",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "добър: сиквел на Gates of Olympus (vk-0022); отделно branded intent → самостоятелен pillar с fold-in линк към vk-0022",
+      "status": "candidate",
+      "date_researched": "2026-09-10",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Book of Ra: RTP, характеристики и как се играе",
+      "researched_keywords": "book of ra",
+      "volume": "150",
+      "kd": "73",
+      "intent": "transactional",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "класика на Novomatic/Greentube (нов провайдър извън EGT/Pragmatic) — writable game-explainer от provider/game DBs; kd висок (73), но branded; чист pillar (няма страница)",
+      "status": "candidate",
+      "date_researched": "2026-09-10",
+      "opportunity": {
+        "score": 18,
+        "band": "Weak"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Big Bass Splash: RTP, волатилност и как се играе",
+      "researched_keywords": "big bass splash",
+      "volume": "100",
+      "kd": "71",
+      "intent": "commercial",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "Pragmatic/Reel Kingdom Big Bass сиквел (Big Bass Bonanza = vk-0028); отделен branded title → самостоятелен pillar с fold-in към vk-0028",
+      "status": "candidate",
+      "date_researched": "2026-09-10",
+      "opportunity": {
+        "score": 17,
+        "band": "Weak"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Flaming Hot: RTP и характеристики (EGT/Amusnet класика)",
+      "researched_keywords": "flaming hot",
+      "volume": "60",
+      "kd": "63",
+      "intent": "commercial",
+      "trend": "flat",
+      "checked": "ahrefs",
+      "suggestion": "EGT/Amusnet класика, distinct от Burning Hot/Shining Crown/20-40 Super Hot; чист pillar (няма страница); умерена възможност",
+      "status": "candidate",
+      "date_researched": "2026-09-10",
+      "opportunity": {
+        "score": 18,
+        "band": "Weak"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Starlight Princess: RTP, волатилност и как се играе",
+      "researched_keywords": "starlight princess",
+      "volume": "40",
+      "kd": "68",
+      "intent": "transactional",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "Pragmatic „pay-anywhere\" сестра на Gates of Olympus; distinct branded title; по-нисък обем (40) → по-нисък приоритет",
+      "status": "candidate",
+      "date_researched": "2026-09-10",
+      "opportunity": {
+        "score": 15,
+        "band": "Weak"
+      }
     }
   ],
   "articles_base_url": "https://github.com/ProfitXtraV2/AIContent/tree/main/VsichkiKazina/articles/",
