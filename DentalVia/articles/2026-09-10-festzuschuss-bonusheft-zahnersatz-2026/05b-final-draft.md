@@ -2,6 +2,8 @@
 
 *Von Mario Yordanov, Patientenkoordinator bei Dentalvia*
 
+![Flache Illustration eines Heil- und Kostenplans mit einem Genehmigungs-Häkchen und einem kleinen Stapel Euro-Münzen – Symbol für den befundbezogenen Festzuschuss der gesetzlichen Krankenkasse zum Zahnersatz.](images/festzuschuss-krankenkasse-zuschuss-hero.webp)
+
 Der Betrag, den die gesetzliche Krankenkasse zum Zahnersatz beisteuert, richtet sich nach Ihrem zahnmedizinischen Befund. Wie teuer die Behandlung am Ende wird, spielt für seine Höhe keine Rolle. Zum 1. Januar 2026 ist dieser Festzuschuss um 4,34 % [VERIFY] gestiegen. Wer sich für eine aufwendigere Versorgung entscheidet, bekommt deswegen keinen Cent mehr und trägt den Aufpreis selbst.
 
 ## Der Festzuschuss folgt dem Befund, nicht der Rechnung
@@ -31,6 +33,9 @@ Die folgenden Beispielwerte (Stand 2026) machen die Größenordnung greifbar; ve
 | Einzelkrone | rund 280 € [VERIFY] | 168 € [VERIFY] | 196 € [VERIFY] | 210 € [VERIFY] |
 | Dreigliedrige Brücke | rund 530 € [VERIFY] | 318 € [VERIFY] | 371 € [VERIFY] | 398 € [VERIFY] |
 | Vollprothese (je Kiefer) | rund 500 € [VERIFY] | 300 € [VERIFY] | 350 € [VERIFY] | 375 € [VERIFY] |
+
+![Tabellen-Grafik der Festzuschuss-Beispielbeträge 2026 nach Bonusheft: Einzelkrone Regelversorgung rund 280 €, Festzuschuss 168 € (60 %), 196 € (70 %), 210 € (75 %); dreigliedrige Brücke rund 530 € → 318/371/398 €; Vollprothese je Kiefer rund 500 € → 300/350/375 €. Beispielwerte, Stand 2026.](images/festzuschuss-2026-beispielbetraege-bonusheft.svg)
+*Festzuschuss nach Bonusheft (60/70/75 % der Regelversorgung), Beispielwerte Stand 2026.*
 
 Über alle Befunde hinweg reicht der befundbezogene Festzuschuss von rund 17 € [VERIFY] bis etwa 965,93 € [VERIFY], je nachdem, wie aufwendig die Regelversorgung im Einzelfall ausfällt.
 
