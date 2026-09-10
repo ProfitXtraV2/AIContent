@@ -175,3 +175,61 @@ def test_legacy_rows_still_parse_with_empty_metrics():
     assert r[0]["volume"] == "" and r[0]["checked"] == ""
     status = bd.build_status(bd.parse_queue(SAMPLE), backlog=bl, research=r, target=10)
     assert status["backlog"][0]["opportunity"] is None
+
+
+DV_SAMPLE = """# Content Queue — DentalVia
+| id | status | type | byline | query | keywords_or_terms | volume | kd | source | drafted_date | posted_date | folder | pr | gemini | notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| dv-0001 | drafted | guide | Georgi Todorov | All-on-4 Kosten | all-on-4 kosten | 1300 | 12 | backlog | 2026-09-10 |  | 2026-09-10-all-on-4-kosten | #90 | human 85 |  |
+| dv-0002 | in-progress | comparison | Mario Yordanov | Zahnersatz Ungarn oder Bulgarien | zahnersatz ungarn | 700 | 25 | research |  |  | 2026-09-10-zahnersatz-ungarn |  |  |  |
+"""
+
+def test_dentalvia_queue_parses_byline():
+    rows = bd.parse_queue(DV_SAMPLE, brand="dentalvia")
+    assert rows[0]["byline"] == "Georgi Todorov"
+    assert rows[1]["byline"] == "Mario Yordanov"
+    assert rows[0]["volume"] == "1300"
+
+def test_dentalvia_status_meta_and_paths():
+    status = bd.build_status(bd.parse_queue(DV_SAMPLE, brand="dentalvia"),
+                             target=10, brand="dentalvia")
+    assert status["meta"]["brand"] == "DentalVia"
+    assert status["articles_base_url"].endswith("/tree/main/DentalVia/articles/")
+    assert status["buffer"]["count"] == 1
+
+def test_default_brand_unchanged():
+    rows = bd.parse_queue(SAMPLE)               # no brand arg — VK layout
+    status = bd.build_status(rows, target=10)
+    assert status["meta"]["brand"] == "VsichkiKazina"
+    assert "byline" not in rows[0]
+
+
+# --- Per-brand links isolation tests ---
+
+def test_dentalvia_links_no_vk_site_or_routine():
+    """DentalVia status must NOT contain vsichkikazina.bg or the VK routine URL."""
+    status = bd.build_status(bd.parse_queue(DV_SAMPLE, brand="dentalvia"),
+                             target=10, brand="dentalvia")
+    links = status["meta"]["links"]
+    assert links["site"] == "https://www.dentalvia.de", \
+        f"Expected dentalvia.de, got {links['site']!r}"
+    assert "routine" not in links, \
+        f"'routine' key must be absent from dentalvia links, got: {links}"
+    # Shared infra links should still be present and correct
+    assert links["repo"].startswith("https://github.com/")
+    assert links["prs"].startswith("https://github.com/")
+    assert "DentalVia" in links["backlog"]
+    assert "DentalVia" in links["queue"]
+
+
+def test_vsichkikazina_links_unchanged():
+    """VsichkiKazina meta.links must keep site vsichkikazina.bg and routine present."""
+    rows = bd.parse_queue(SAMPLE)
+    status = bd.build_status(rows, target=10, brand="vsichkikazina")
+    links = status["meta"]["links"]
+    assert links["site"] == "https://vsichkikazina.bg", \
+        f"Expected vsichkikazina.bg, got {links['site']!r}"
+    assert "routine" in links and links["routine"].startswith("https://"), \
+        f"'routine' key must be present in vsichkikazina links, got: {links}"
+    assert "VsichkiKazina" in links["backlog"]
+    assert "VsichkiKazina" in links["queue"]

@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="bg">
+<html lang="de">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>VsichkiKazina — Content Autopilot</title>
+<title>DentalVia — Content Dashboard</title>
 <style>
   :root {
     --bg: #eef1f7; --card: #ffffff; --line: #e3e8f0; --ink: #1f2a3d;
@@ -127,6 +127,11 @@
   .step.done::before { content: "✓ "; }
   .step.current { color: #0f6b3d; border-color: #16b866; background: #d8f5e6;
                   animation: pulse 1.4s infinite; font-weight: 600; }
+
+  .switcher { font-size: .8rem; color: var(--muted); }
+  .switcher a { color: var(--muted); text-decoration: none; }
+  .switcher a:hover { color: var(--accent); text-decoration: underline; }
+  .switcher .current { color: var(--ink); font-weight: 600; }
 </style>
 </head>
 <body>
@@ -134,9 +139,9 @@
   <div id="runBanner" class="run-banner" style="display:none"></div>
   <div id="runSteps" class="steps" style="display:none"></div>
   <header>
-    <h1><span class="dot">●</span> VsichkiKazina — Content Autopilot</h1>
+    <h1><span class="dot">●</span> DentalVia — Content Dashboard</h1>
     <div style="display:flex;align-items:baseline;gap:1rem;flex-wrap:wrap;">
-      <span style="font-size:.8rem;color:var(--muted)"><span style="color:var(--ink);font-weight:600">VsichkiKazina</span> · <a href="./dentalvia/" style="color:var(--muted);text-decoration:none;" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--muted)'">DentalVia</a></span>
+      <span class="switcher"><a href="../">VsichkiKazina</a> · <span class="current">DentalVia</span></span>
       <div class="sub" id="site"></div>
     </div>
   </header>
@@ -151,7 +156,7 @@
       <div class="note" id="bufferNote"></div>
     </div>
     <div class="card">
-      <div class="lbl">Next scheduled run</div>
+      <div class="lbl">Schedule</div>
       <div class="big" id="nextRun" style="font-size:1.15rem">—</div>
       <div class="note" id="nextRunNote"></div>
     </div>
@@ -179,7 +184,7 @@ const LABELS = {
 
 // Hover explanations for table column headers (shown as native tooltips).
 const TIPS = {
-  volume: "Vol — monthly search volume in Bulgaria (Ahrefs): how many people search this keyword per month. Higher = more demand / potential traffic.",
+  volume: "Vol — monthly search volume (Ahrefs): how many people search this keyword per month. Higher = more demand / potential traffic.",
   kd: "KD — Keyword Difficulty 0–100 (Ahrefs): how hard it is to rank #1. Higher = more competition.",
   opportunity: "Opportunity — our combined score from Vol × (1−KD): high volume + achievable difficulty = Strong. In short: is it worth writing?",
   gemini: "Gemini — cross-model AI-detection score. Green ✓ = ≥80% human-likeness (passed); amber = below the 80 target; '— not run' = not yet checked.",
@@ -198,32 +203,9 @@ const TIPS = {
   links: "Links to the PR and the article's files in the repo.",
 };
 
-function nextRunFromSchedule(sched) {
-  // cron fires at one or more fixed UTC hours/day. Find the next future occurrence.
-  const now = new Date();
-  const hours = sched.cron_utc_hours || [sched.cron_utc_hour];
-  let best = null;
-  for (let d = 0; d < 2; d++) {
-    for (const h of hours) {
-      const t = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(),
-                                  now.getUTCDate() + d, h, sched.cron_utc_minute || 0, 0));
-      if (t > now && (!best || t < best)) best = t;
-    }
-  }
-  return best;
-}
-
 function fmtSofia(d) {
-  return d.toLocaleString('bg-BG', { timeZone: 'Europe/Sofia', weekday: 'short',
+  return d.toLocaleString('de-DE', { timeZone: 'Europe/Berlin', weekday: 'short',
     hour: '2-digit', minute: '2-digit', day: '2-digit', month: 'short' });
-}
-
-function humanIn(ms) {
-  const m = Math.round(ms / 60000);
-  if (m < 60) return `in ${m} min`;
-  const h = Math.floor(m / 60), mm = m % 60;
-  if (h < 24) return `in ${h}h ${mm}m`;
-  return `in ${Math.round(h / 24)}d`;
 }
 
 function ago(iso) {
@@ -239,7 +221,7 @@ function ago(iso) {
 // GitHub API contents endpoint is not CDN-cached, so run-status is fresh within
 // seconds of a push (Pages copy is the fallback if the API is unavailable/rate-limited).
 const RUNSTATUS_API =
-  'https://api.github.com/repos/ProfitXtraV2/AIContent/contents/docs/data/run-status.json?ref=main';
+  'https://api.github.com/repos/ProfitXtraV2/AIContent/contents/docs/data/dentalvia/run-status.json?ref=main';
 
 function b64utf8(b64) {
   const bin = atob(b64.replace(/\n/g, ''));
@@ -254,10 +236,11 @@ async function fetchRunStatus() {
     if (j && j.content) return JSON.parse(b64utf8(j.content));  // default JSON response
     if (j && j.state) return j;                                  // raw media type response
   } catch (e) { /* fall through */ }
-  return (await fetch('./data/run-status.json?_=' + Date.now())).json();  // Pages fallback
+  // Pages fallback — also 404 until the first DentalVia run; let outer try/catch handle it.
+  return (await fetch('../data/dentalvia/run-status.json?_=' + Date.now())).json();
 }
 
-// Open content PRs = articles awaiting review (drafts live in their PR until merged).
+// Open content PRs filtered to DentalVia branches (dv-content/<date>-<slug>).
 const PRS_API = 'https://api.github.com/repos/ProfitXtraV2/AIContent/pulls?state=open&per_page=50';
 let PR_CACHE = null, TICK = 0;
 
@@ -266,7 +249,7 @@ async function fetchOpenPRs() {
     const arr = await (await fetch(PRS_API + '&_=' + Date.now())).json();
     if (!Array.isArray(arr)) return null;   // rate-limited responses are objects
     return arr
-      .filter(p => ((p.head && p.head.ref) || '').startsWith('content/'))
+      .filter(p => ((p.head && p.head.ref) || '').startsWith('dv-content/'))
       .map(p => ({ number: p.number, title: p.title, url: p.html_url,
                    branch: p.head.ref, created_at: p.created_at,
                    failed: /^\[FAILED\]/i.test(p.title || '') }));
@@ -305,9 +288,7 @@ async function loadRunStatus() {
   try { r = await fetchRunStatus(); }
   catch (e) { el.style.display = 'none'; document.getElementById('runSteps').style.display = 'none'; return; }
   el.style.display = 'flex';
-  // Each run is its own routine and can't reliably know its own URL, so link to the
-  // Routines list (the running one is highlighted there) rather than a stale per-run URL.
-  const link = `<a href="https://claude.ai/code/routines/trig_019cfW1QpXykZkwG8XrotCtQ" target="_blank" rel="noopener">View run ↗</a>`;
+  const link = `<a href="https://claude.ai/code/routines" target="_blank" rel="noopener">View run ↗</a>`;
   if (r.state === 'running') {
     el.className = 'run-banner running';
     const p = r.progress || {};
@@ -329,12 +310,12 @@ async function loadRunStatus() {
 async function load() {
   loadRunStatus();
   let s;
-  try { s = await (await fetch('./data/status.json?_=' + Date.now())).json(); }
+  try { s = await (await fetch('../data/dentalvia/status.json?_=' + Date.now())).json(); }
   catch (e) { document.getElementById('bufferBig').textContent = 'no data'; return; }
 
   const meta = s.meta || {};
   const links = meta.links || {};
-  document.getElementById('site').textContent = meta.brand ? meta.brand + ' · vsichkikazina.bg' : '';
+  document.getElementById('site').textContent = meta.brand || '';
   document.getElementById('links').innerHTML = Object.entries(links)
     .map(([k, v]) => `<a href="${v}" target="_blank" rel="noopener">${LABELS[k] || k} ↗</a>`).join('');
 
@@ -347,12 +328,28 @@ async function load() {
   document.getElementById('bufferNote').textContent =
     b.ok ? `✓ ${b.count} ready (min ${b.target})` : `below minimum — need ${b.deficit} more`;
 
-  // Next run
+  // Schedule — DentalVia may have a note-only schedule (no cron fields).
   const sched = meta.schedule;
-  if (sched) {
-    const nr = nextRunFromSchedule(sched);
-    document.getElementById('nextRun').textContent = fmtSofia(nr);
-    document.getElementById('nextRunNote').textContent = (sched.label || '') + ' · ' + humanIn(nr - new Date());
+  if (sched && (sched.cron_utc_hours || sched.cron_utc_hour != null)) {
+    // Compute next run from cron definition.
+    const now = new Date();
+    const hours = sched.cron_utc_hours || [sched.cron_utc_hour];
+    let best = null;
+    for (let d = 0; d < 2; d++) {
+      for (const h of hours) {
+        const t = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(),
+                                    now.getUTCDate() + d, h, sched.cron_utc_minute || 0, 0));
+        if (t > now && (!best || t < best)) best = t;
+      }
+    }
+    if (best) {
+      const hIn = ms => { const m = Math.round(ms/60000); if (m<60) return `in ${m} min`; const h=Math.floor(m/60),mm=m%60; return h<24?`in ${h}h ${mm}m`:`in ${Math.round(h/24)}d`; };
+      document.getElementById('nextRun').textContent = fmtSofia(best);
+      document.getElementById('nextRunNote').textContent = (sched.label || '') + ' · ' + hIn(best - now);
+    }
+  } else if (sched && sched.note) {
+    document.getElementById('nextRun').textContent = 'manual';
+    document.getElementById('nextRunNote').textContent = sched.note;
   } else {
     document.getElementById('nextRun').textContent = 'not scheduled';
   }
@@ -383,12 +380,9 @@ async function load() {
 
   function articleLinks(r) {
     const parts = [];
-    // Article files live on the PR branch (content/<folder>) until the article is posted
-    // (then they're on main). Link accordingly so the URLs don't 404.
     if (r.folder) {
-      const ref = r.status === 'posted' ? 'main' : ('content/' + r.folder);
-      const dir = `VsichkiKazina/articles/${r.folder}`;
-      // 📖 read = the finished draft rendered by GitHub (human-readable, for review)
+      const ref = r.status === 'posted' ? 'main' : ('dv-content/' + r.folder);
+      const dir = `DentalVia/articles/${r.folder}`;
       parts.push(`<a href="${repo}/blob/${ref}/${dir}/05b-final-draft.md" target="_blank" rel="noopener">📖 read</a>`);
       parts.push(`<a href="${repo}/tree/${ref}/${dir}" target="_blank" rel="noopener">files</a>`);
     }
@@ -489,7 +483,7 @@ async function load() {
   activate(firstNonEmpty.key);
 
   document.getElementById('footer').textContent =
-    'Autopilot keeps ≥10 written-but-unposted articles ready · dashboard regenerates each run.';
+    'Dashboard regenerates on each manual run.';
 }
 load();
 // 90s cadence keeps GitHub API usage (run-status every tick + PRs every 3rd tick)

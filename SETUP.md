@@ -48,3 +48,39 @@ approve, post, and mark rows `posted` to free slots.
   in `automation/daily-run.md` once sourcing is solved.
 - Dev only: `scripts/tests/` uses `pytest` (`python3 -m pip install pytest`); the cloud run
   does not need it.
+
+---
+
+## DentalVia brand — additional notes
+
+DentalVia (`dentalvia.de`) is a **manual-trigger-only** brand. **No routine is registered
+for it** — do not create a scheduled cloud routine for DentalVia.
+
+### Env keys
+DentalVia uses the **same secrets** already set in the VsichkiKazina environment — no new
+environment variables are needed:
+
+| Key | Purpose |
+|-----|---------|
+| `AHREFS_API_KEY` | Keyword research (market `country=de`) |
+| `GEMINI_API_KEY` | Step-7 cross-model check (optional; skips if unset) |
+
+### Running DentalVia manually
+Open a Claude Code session in the repo and say:
+
+```
+run DentalVia/automation/daily-run.md
+```
+
+The run is idempotent — it is safe to re-fire after a failure. It will reconcile any
+in-progress articles from the previous run before selecting new topics.
+
+PR branches follow the pattern `dv-content/<YYYY-MM-DD>-<slug>`. The DentalVia dashboard
+is at https://profitxtrav2.github.io/AIContent/dentalvia/ and is rebuilt by:
+
+```bash
+python3 scripts/build_dashboard.py dentalvia
+```
+
+Output is **German-only**; English content comes via a future publisher-side translation
+step and is not part of this pipeline.
