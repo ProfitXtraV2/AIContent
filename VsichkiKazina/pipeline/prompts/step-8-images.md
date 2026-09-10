@@ -74,6 +74,35 @@ has. Most guides land at 2–3 images total; a rich pillar may reach the 4-image
   infographic beside the data it visualises) with the Bulgarian ALT and, for infographics, a
   one-line caption. Images travel in the SAME content PR as the article.
 
+## SVG layout safety — nothing overlaps, nothing clips, everything is readable
+
+Every infographic SVG MUST be visually clean at its display size. These are hard
+requirements, not preferences — a single overlapping or clipped character is a defect:
+
+- **Fits the canvas with margin.** Keep a ≥ 16 px inner padding on all four sides of the
+  `viewBox`; NO stroke, box, or text may cross or touch the `viewBox` edge (or, if there is a
+  rounded card/background rect, that card's edge).
+- **Estimate every text width before you place it.** Rendered width ≈ `chars × font-size × 0.62`
+  for Cyrillic/mixed text (`× 0.55` for pure Latin/digits). Account for `text-anchor`:
+  `start` grows right from `x`, `end` grows left from `x`, `middle` grows both ways by half.
+  The resulting box must sit fully inside its container/column with ≥ 8 px slack.
+- **No two elements overlap.** A right-anchored header label (e.g. „Домашно предимство") must
+  NOT collide with an adjacent badge/percentage/value. If they share a row and the estimated
+  boxes would touch, put them on separate rows (different `y`) or move the small value onto the
+  graphic it annotates (e.g. inside the bar segment) — never stack a number on top of a label.
+- **Tables / columns.** Compute each column's center so the WIDEST cell text in that column
+  fits within the column width with padding. The rightmost column's text must END ≥ 16 px
+  before the card's right edge. If the widest label (header or any cell, incl. „✓ Най-добър",
+  „✗ Избягвай") does not fit: WIDEN the `viewBox`, narrow other columns, or reduce that
+  column's font — do NOT let it clip. Left/right-anchor edge columns inward instead of
+  centering them tight against the border when space is short.
+- **Prefer width + smaller type over cramming.** A wider `viewBox` (e.g. 700–760) with breathing
+  room beats a 600-wide canvas with text jammed to the edges.
+- **Verify before locking.** After authoring, (a) re-check every `<text>`'s estimated extent
+  against its container per the formula above, then (b) RENDER the SVG to PNG at the display
+  width and eyeball all four corners and every column — confirm no character is cut off, no two
+  texts overlap, and nothing touches an edge. Only then reference it from `05b`.
+
 ## AI-image prompt guidance (when generating a hero)
 Write the gen prompt in English for the model. **Depict a VISUAL METAPHOR of the article's
 core idea — not generic casino imagery.** Live testing on the wagering guide proved this: a
