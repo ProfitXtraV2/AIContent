@@ -14,7 +14,7 @@ built but **not scheduled**; the user triggers runs manually for now.
 | Scope | Full autonomous clone of the VsichkiKazina setup, minus scheduling |
 | Repo layout | Sibling folder `DentalVia/` inside AIContent (per README "Adding a new brand") |
 | Pipeline | **Own pipeline copy** under `DentalVia/pipeline/` — not shared bindings. Dental is a different vertical (health/YMYL, not gambling) |
-| Languages | German (primary market `de`), English (secondary market `en`, on request only) |
+| Languages | Pipeline writes **German only**. English = translation of the approved German article, done later by the publisher at deploy time (site has DE/EN) |
 | Byline | Rotates between **Georgi Todorov** and **Mario Yordanov**, alternating per article |
 | Publishing | Out of scope — pipeline ends at approved markdown after PR merge; site is not ready |
 | Scheduling | Out of scope — no cloud routine created; manual trigger documented |
@@ -29,7 +29,7 @@ DentalVia/
                                    seo-copywriter, external-check-gemini,
                                    brand-gate-dentalvia (NEW — see Compliance)
     markets/de/author.md           German dental patient-guide voice + inline canon
-    markets/en/author.md           English counterpart
+                                   (single market — no EN authoring; see Languages)
     prompts/                       step-1 … step-8 templates, adapted
     templates/00-brief-template-dentalvia.md
   automation/
@@ -54,9 +54,10 @@ feed conventions, PR-per-article review flow (merge = approve).
 - **Brand:** DentalVia (dentalvia.de). Mediation agency, not a clinic: arranges
   consultation, travel, accommodation, aftercare; treatment by Elle Dental
   Clinic, Sofia. Fixed prices guaranteed in writing is the core promise.
-- **Markets:** `de` primary — Ahrefs `country=de`, German keywords, German copy.
-  `en` secondary — no autonomous keyword research; written only when a brief
-  requests it.
+- **Market:** `de` only — Ahrefs `country=de`, German keywords, German copy.
+  English versions are NOT authored in this pipeline: the future publisher
+  translates each approved German article at deploy time (fidelity rule:
+  prices, dates, disclaimers, risks, byline carry over unchanged).
 - **Content types:** treatment guides (implants, All-on-4/All-on-6, crowns,
   bridges, veneers, root canal, bone augmentation, dentures, whitening), cost
   comparisons DE↔BG, dental-tourism how-tos (travel, logistics, aftercare),
@@ -106,6 +107,27 @@ per article. Falls back to web research when Ahrefs is unavailable.
 trigger instructions; scheduling later = pointing a new routine at
 `DentalVia/automation/daily-run.md`.
 
+## Images (step 8 — same system as VsichkiKazina)
+
+Every article gets images via the proven step-8 flow (`step-8-images.md` +
+Gemini visual review + `backfill-images.md`), adapted to dental:
+
+- **Exactly one concept hero (WebP)** under the H1 per article — this is the
+  social-share / **OG image**. Generated with `scripts/gemini_image_gen.py`;
+  dental visual motifs (flat illustrations: implants, travel, smile concepts),
+  not casino imagery.
+- **1–3 inline data infographics (SVG)** per article, one per genuine data
+  block — DE↔BG price comparisons, treatment-step sequences ("Ablauf in 3
+  Besuchen"), cost breakdowns, checklists. Every number verbatim from the
+  final draft; German labels; hard cap 4 images/article.
+- **Dental-specific hygiene rules:** no realistic before/after teeth imagery
+  and no graphic clinical photos (HWG-sensitive + AI-photorealism risk) —
+  stylised flat illustration only; price infographics carry the same "Stand
+  MM/YYYY" dating as the text.
+- Gemini image review scores/approves each image exactly as for VsichkiKazina;
+  `automation/backfill-images.md` covers articles that predate images or
+  failed generation.
+
 ## Keyword strategy
 
 Mechanism inherited unchanged from the VsichkiKazina run: Ahrefs v3
@@ -138,7 +160,8 @@ Adjustments for the vertical:
 - **Young-domain bias**: dentalvia.de has low authority — prioritise low-KD
   long-tail first; high-KD head terms stay in the bank as long-term pillars
   rather than being written early.
-- **English**: no autonomous keyword research; `en` articles on request only.
+- **English**: no keyword research and no EN authoring — English is a
+  publisher-side translation of approved German articles (see Languages).
 
 The seed `topic-backlog.md` is written from these families; the first manual
 run validates it against live Ahrefs `country=de` data.
@@ -168,7 +191,9 @@ DentalVia gets its own page on the existing GitHub Pages site:
 
 ## Out of scope
 
-- Publishing/deploy (renderer, FTP) — until the site stack is ready.
+- Publishing/deploy (renderer, FTP) — until the site stack is ready. The
+  publisher, when built, also owns the German→English translation of approved
+  articles (deploy-time, fidelity-checked).
 - A merged cross-brand dashboard view (each brand gets its own page instead).
-- English keyword research automation.
+- English authoring and English keyword research.
 - Any change to the VsichkiKazina folder, pipeline, or its scheduled routines.
