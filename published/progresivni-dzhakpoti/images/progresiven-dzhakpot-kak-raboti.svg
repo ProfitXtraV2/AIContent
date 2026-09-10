@@ -7,7 +7,7 @@
   <text x="310" y="52" font-size="10" fill="#999" text-anchor="middle">числата са примерни (ориентировъчни) — виж правилата на конкретната игра</text>
 
   <!-- ===== SECTION 1: Bet allocation ===== -->
-  <text x="28" y="78" font-size="12" font-weight="700" fill="#1A1A2E">Откъде идват парите в пула (при €1 залог, дял 2%)</text>
+  <text x="28" y="74" font-size="12" font-weight="700" fill="#1A1A2E">Откъде идват парите в пула</text>
 
   <!-- Arrow flow box -->
   <!-- Bet box -->
