@@ -8,10 +8,21 @@
   "note": "recurring run 2026-09-10 (fire #6): batch=3 new slot explainers (Sugar Rush, The Dog House, Rise of Ra); bank was drained of clean pillars, fresh Ahrefs pull done",
   "progress": {
     "phase": "writing",
-    "article_index": 1,
+    "article_index": 2,
     "article_total": 3,
-    "article_slug": "2026-09-10-sugar-rush",
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
+    "article_slug": "2026-09-10-the-dog-house",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
     "stage_index": 0,
     "stage": "Synthesis"
   }
