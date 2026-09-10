@@ -4,6 +4,9 @@
 Article: **Gates of Olympus: RTP, волатилност и как се играе** · type: guide (slot explainer) · byline: editorial (signed Георги Тодоров) · gate: PASS WITH FIXES 93/100 · humanisation: HUMAN-LIKE · Gemini Step-7: human 90 (PASS pass 1, initial kept) · images: 2 (infographic 85, hero 85; best 85) · run date: 09.09.2026
 
 ## Surviving flags
+
+**RESOLVED — 0 surviving flags as of 10.09.2026.** The [VERIFY] marker(s) described below were resolved in commit `9b6da5e` by rewriting the sentences to hedge rather than assert; 05b now contains no [VERIFY]/[DATA NEEDED]/[CONFLICT]. Verified at human approval. The original autopilot note is kept below for the audit trail.
+
 **2** in-text [VERIFY]: (1) the exact lower RTP builds (~95.51% / ~94.50%) and which build the target casino runs; (2) the availability of the buy-free-spins ("bonus buy") feature in the BG market. No [CONFLICT]/[DATA NEEDED]. Slot explainer: no BG operator, no licence number, no bonus terms. Every € figure is ILLUSTRATIVE.
 
 ## Time-sensitive / game claims to confirm at publish (source URLs below)
