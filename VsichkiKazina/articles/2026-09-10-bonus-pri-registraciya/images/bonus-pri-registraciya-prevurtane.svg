@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 344" width="640" height="344" role="img" aria-label="Превъртане и база: депозит €100 плюс 100% бонус €100 дава игрален баланс €200; при 35x върху депозит+бонус се дължи €7,000 оборот, а при 35x само върху бонуса — €3,500 оборот; числата са примерни">
+  <title>Превъртане: една база, двойна разлика (числата са примерни)</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="344" rx="12" ry="12" fill="url(#bg)"/>
+
+  <text x="320" y="36" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="#1e3a5f" text-anchor="middle">Превъртане: една база, двойна разлика</text>
+  <text x="320" y="60" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">Депозит €100 + 100% бонус €100 = €200 игрален баланс</text>
+
+  <!-- Left box: depozit+bonus base -->
+  <rect x="32" y="80" width="280" height="192" rx="10" fill="#fef2f2" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="172" y="108" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#b91c1c" text-anchor="middle">35x · база депозит+бонус</text>
+  <text x="172" y="130" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">база €200</text>
+  <text x="172" y="188" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="800" fill="#dc2626" text-anchor="middle">€7,000</text>
+  <text x="172" y="214" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">оборот за разиграване</text>
+  <text x="172" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#b91c1c" text-anchor="middle">по-тежкото изискване</text>
+
+  <!-- Right box: samo bonus base -->
+  <rect x="328" y="80" width="280" height="192" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="468" y="108" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#92400e" text-anchor="middle">35x · база само бонус</text>
+  <text x="468" y="130" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">база €100</text>
+  <text x="468" y="188" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="800" fill="#b45309" text-anchor="middle">€3,500</text>
+  <text x="468" y="214" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">оборот за разиграване</text>
+  <text x="468" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#92400e" text-anchor="middle">наполовина по-леко</text>
+
+  <text x="320" y="300" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#374151" text-anchor="middle" font-weight="600">Един и същ множител 35x, различна база = двойна разлика в оборота</text>
+  <text x="320" y="326" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">Числата са примерни · 18+ Играйте отговорно</text>
+</svg>
