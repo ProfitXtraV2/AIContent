@@ -4,6 +4,9 @@
 Article: **40 Super Hot: RTP и джакпот функции** · type: guide (game explainer) · byline: editorial (signed Георги Тодоров) · gate: PASS WITH FIXES 93/100 · humanisation: HUMAN-LIKE · Gemini Step-7: human 85 (HL 15 → 85, kept pass 1, PASS) · images: 2 (best 82) · run date: 09.09.2026
 
 ## Surviving flags
+
+**RESOLVED — 0 surviving flags as of 10.09.2026.** The [VERIFY] marker(s) described below were resolved in commit `e86aafc` by rewriting the sentences to hedge rather than assert; 05b now contains no [VERIFY]/[DATA NEEDED]/[CONFLICT]. Verified at human approval. The original autopilot note is kept below for the audit trail.
+
 **1** in-text [VERIFY]: operators sometimes ship different RTP versions; the real percentage should be confirmed in the info panel of the specific casino. No [CONFLICT]/[DATA NEEDED]. Public game-information explainer; no BG operator, no licence number, no bonus terms. Every € figure is ILLUSTRATIVE.
 
 ## Time-sensitive / provider claims to confirm at publish (source URLs below)
