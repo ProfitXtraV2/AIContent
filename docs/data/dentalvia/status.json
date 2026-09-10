@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-10T20:04:49Z",
+  "generated_utc": "2026-09-10T20:41:56Z",
   "buffer": {
     "count": 0,
     "target": 10,
@@ -20,143 +20,344 @@
       "type": "guide",
       "query": "All-on-4 Kosten und Erfahrungen: feste Zähne auf vier Implantaten",
       "keywords_or_terms": "all-on-4 kosten, feste zähne auf 4 implantaten, all-on-4 erfahrungen",
-      "volume": "",
-      "kd": "",
-      "intent": "",
-      "checked": "none",
-      "ahrefs_note": "",
+      "volume": "150",
+      "kd": "15",
+      "intent": "kommerziell",
+      "checked": "ahrefs",
+      "ahrefs_note": "Ahrefs country=de meldet 150/Monat (Lite-Plan, wirkt untererfasst — Web-Signale deuten höher); KD auf Lite-Plan nicht geliefert, geschätzt ~15 (niedrig-mittel). Gutes Money-Keyword, lohnt als Pillar.",
       "status": "open",
       "notes": "money keyword; site has /festsitzender-zahnersatz/ treatment page — Ratgeber angle: Kosten/Ablauf/für wen, link treatment page as CTA",
-      "opportunity": null
+      "opportunity": {
+        "score": 42,
+        "band": "Moderate"
+      }
     },
     {
       "priority": "2",
       "type": "comparison",
       "query": "Zahnimplantate in der Türkei: Kosten, Risiken und die EU-Alternative",
       "keywords_or_terms": "zahnimplantate türkei, zahnimplantate türkei erfahrungen, zahnimplantate türkei risiken",
-      "volume": "",
-      "kd": "",
-      "intent": "",
-      "checked": "none",
-      "ahrefs_note": "",
+      "volume": "150",
+      "kd": "25",
+      "intent": "kommerziell",
+      "checked": "ahrefs",
+      "ahrefs_note": "Ahrefs country=de: 150/Monat (Lite-Plan floored — reale DE-Nachfrage deutlich höher); KD geschätzt ~25 (stark umkämpft, viele Türkei-Anbieter). Als ehrlicher EU/Bulgarien-Vergleich trotzdem wertvoll.",
       "status": "open",
       "notes": "capture Türkei demand, make the EU/Bulgaria case honestly (patient rights, Gewährleistung, proximity) — no bashing",
-      "opportunity": null
+      "opportunity": {
+        "score": 38,
+        "band": "Moderate"
+      }
     },
     {
       "priority": "3",
       "type": "comparison",
       "query": "Zahnersatz in Ungarn oder Bulgarien? Der nüchterne Vergleich",
       "keywords_or_terms": "zahnersatz ungarn, zahnersatz ungarn erfahrungen, zahnersatz ungarn kosten",
-      "volume": "",
-      "kd": "",
-      "intent": "",
-      "checked": "none",
-      "ahrefs_note": "",
+      "volume": "300",
+      "kd": "15",
+      "intent": "kommerziell",
+      "checked": "ahrefs",
+      "ahrefs_note": "Ahrefs country=de: 300/Monat; KD auf Lite-Plan nicht geliefert, geschätzt ~15. Klassisches DE-Zahntourismus-Ziel — fairer Vergleich, Bulgarien-Vorteile wo zutreffend. Solides Comparison-Keyword.",
       "status": "open",
       "notes": "Ungarn is the classic DE dental-tourism destination; fair comparison, Bulgaria advantages where true",
-      "opportunity": null
+      "opportunity": {
+        "score": 49,
+        "band": "Good"
+      }
     },
     {
       "priority": "4",
       "type": "guide",
       "query": "Wurzelbehandlung oder Implantat: wann sich welcher Weg lohnt",
       "keywords_or_terms": "wurzelbehandlung oder implantat, zahn ziehen oder wurzelbehandlung",
-      "volume": "",
-      "kd": "",
-      "intent": "",
-      "checked": "none",
-      "ahrefs_note": "",
+      "volume": "700",
+      "kd": "10",
+      "intent": "informativ",
+      "checked": "web",
+      "ahrefs_note": "Web-Schätzung ~700/Monat (Ahrefs-Einheiten für diesen Run erschöpft); KD niedrig ~10. Starkes neutrales Entscheidungsthema, ideal für junge Domain.",
       "status": "open",
       "notes": "decision guide; links /wurzelbehandlung/ and /zahnimplantate/; strictly neutral, risks both ways",
-      "opportunity": null
+      "opportunity": {
+        "score": 71,
+        "band": "Strong"
+      }
     },
     {
       "priority": "5",
       "type": "guide",
       "query": "Knochenaufbau beim Zahnarzt: Ablauf, Dauer und was es kostet",
       "keywords_or_terms": "knochenaufbau kiefer, knochenaufbau kiefer kosten, sinuslift",
-      "volume": "",
-      "kd": "",
-      "intent": "",
-      "checked": "none",
-      "ahrefs_note": "",
+      "volume": "100",
+      "kd": "8",
+      "intent": "kommerziell",
+      "checked": "ahrefs",
+      "ahrefs_note": "Ahrefs country=de: 100/Monat (schwaches Volumen); KD auf Lite-Plan nicht geliefert, geschätzt ~8 (sehr niedrig). Long-Tail — als redaktionelle Ergänzung zur /knochenaufbau/-Seite sinnvoll; Anti-Kannibalisierung im Brief beachten.",
       "status": "open",
       "notes": "educational depth vs the commercial /knochenaufbau/ page — anti-cannibal note required in brief",
-      "opportunity": null
+      "opportunity": {
+        "score": 42,
+        "band": "Moderate"
+      }
     },
     {
       "priority": "6",
       "type": "howto",
       "query": "Zahnarztkosten von der Steuer absetzen — auch bei Behandlung im Ausland",
       "keywords_or_terms": "zahnarztkosten steuer absetzen, zahnbehandlung steuer",
-      "volume": "",
-      "kd": "",
-      "intent": "",
-      "checked": "none",
-      "ahrefs_note": "",
+      "volume": "2500",
+      "kd": "20",
+      "intent": "informativ",
+      "checked": "web",
+      "ahrefs_note": "Web-Schätzung ~2.500/Monat (saisonal stark, Q1 zur Steuererklärung); KD mittel ~20 (Finanztip u.a. konkurrieren). Hoher Trust-Wert; § 33 EStG, außergewöhnliche Belastung — alle Steuerzahlen [VERIFY].",
       "status": "open",
       "notes": "außergewöhnliche Belastung, § 33 EStG; strong trust topic; [VERIFY] all tax figures",
-      "opportunity": null
+      "opportunity": {
+        "score": 92,
+        "band": "Strong"
+      }
     },
     {
       "priority": "7",
       "type": "guide",
       "query": "Zahnbehandlung unter Sedierung oder Vollnarkose: Möglichkeiten und Kosten",
       "keywords_or_terms": "zahnbehandlung vollnarkose, dämmerschlaf zahnarzt, sedierung zahnarzt kosten",
-      "volume": "",
-      "kd": "",
-      "intent": "",
-      "checked": "none",
-      "ahrefs_note": "",
+      "volume": "1200",
+      "kd": "15",
+      "intent": "informativ",
+      "checked": "web",
+      "ahrefs_note": "Web-Schätzung ~1.200/Monat; KD ~15. Angstpatienten-Thema mit guter Nachfrage; medizinische Risiken-Sektion Pflicht.",
       "status": "open",
       "notes": "Angstpatienten angle; medical risks section mandatory",
-      "opportunity": null
+      "opportunity": {
+        "score": 94,
+        "band": "Strong"
+      }
     },
     {
       "priority": "8",
       "type": "guide",
       "query": "Provisorium und Übergangszeit: Leben zwischen zwei Behandlungsterminen",
       "keywords_or_terms": "provisorium zähne, provisorium wie lange, langzeitprovisorium",
-      "volume": "",
-      "kd": "",
-      "intent": "",
-      "checked": "none",
-      "ahrefs_note": "",
+      "volume": "900",
+      "kd": "10",
+      "intent": "informativ",
+      "checked": "web",
+      "ahrefs_note": "Web-Schätzung ~900/Monat; KD niedrig ~10. Passt exakt zum Zwei-Termin-Modell; gutes Long-Tail mit geringer Konkurrenz.",
       "status": "open",
       "notes": "pairs with the two-visit treatment model; links /ablauf/ and /reise/",
-      "opportunity": null
+      "opportunity": {
+        "score": 81,
+        "band": "Strong"
+      }
     },
     {
       "priority": "9",
       "type": "comparison",
       "query": "Zahnprothese oder Implantat: was im Alter wirklich passt",
       "keywords_or_terms": "zahnprothese oder implantat, herausnehmbarer zahnersatz oder implantat",
-      "volume": "",
-      "kd": "",
-      "intent": "",
-      "checked": "none",
-      "ahrefs_note": "",
+      "volume": "500",
+      "kd": "8",
+      "intent": "informativ",
+      "checked": "web",
+      "ahrefs_note": "Web-Schätzung ~500/Monat; KD niedrig ~8. 60+ Zielgruppe, neutrales Entscheidungsframework — geringe Konkurrenz, gut für Autoritätsaufbau.",
       "status": "open",
       "notes": "60+ audience; neutral decision framework; links /zahnprothesen/ /zahnimplantate/",
-      "opportunity": null
+      "opportunity": {
+        "score": 62,
+        "band": "Good"
+      }
     },
     {
       "priority": "10",
       "type": "comparison",
       "query": "Veneers-Kosten 2026: Deutschland und Ausland im Vergleich",
       "keywords_or_terms": "veneers kosten, veneers kosten deutschland, veneers ausland",
-      "volume": "",
-      "kd": "",
-      "intent": "",
-      "checked": "none",
-      "ahrefs_note": "",
+      "volume": "7500",
+      "kd": "30",
+      "intent": "kommerziell",
+      "checked": "ahrefs",
+      "ahrefs_note": "Ahrefs country=de: 7.500/Monat — mit Abstand stärkstes Volumen im Backlog; KD auf Lite-Plan nicht geliefert, geschätzt ~30 (kompetitiv). Top-Money-Keyword; Anti-Kannibalisierung vs /veneers/ (kommerziell) und /kosten/ nötig, dated Beispielpreise verwenden.",
       "status": "open",
       "notes": "price comparison with dated example prices; anti-cannibal vs /veneers/ (commercial) and /kosten/",
-      "opportunity": null
+      "opportunity": {
+        "score": 88,
+        "band": "Strong"
+      }
     }
   ],
-  "research": [],
+  "research": [
+    {
+      "type": "guide",
+      "query": "Zähne machen lassen im Ausland: Ablauf, Kosten und Sicherheit",
+      "researched_keywords": "zähne machen lassen im ausland, zähne im ausland machen lassen, zahnbehandlung ausland",
+      "volume": "800",
+      "kd": "35",
+      "intent": "kommerziell",
+      "trend": "—",
+      "checked": "web",
+      "suggestion": "Breites Money-/Marken-Keyword; KD hoch ~35 (viele Portale, dentolo/ERGO/Verbraucherzentrale). Pillar — auf Autorität warten; noch nicht schreiben. fold-in: zähne im ausland machen lassen erfahrungen. Web-Schätzung, Ahrefs-Einheiten erschöpft.",
+      "status": "candidate",
+      "date_researched": "2026-09-10",
+      "opportunity": {
+        "score": 66,
+        "band": "Good"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Was kostet eine Zahnkrone? Preise, Material und Zuschuss",
+      "researched_keywords": "zahnkrone kosten, was kostet eine zahnkrone, zahnkrone kosten ohne versicherung",
+      "volume": "2500",
+      "kd": "25",
+      "intent": "kommerziell",
+      "trend": "—",
+      "checked": "web",
+      "suggestion": "Starke Kosten-Nische; /zahnkronen/ ist nur Behandlungsseite, kein Ratgeber → nicht kannibalisierend. KD mittel ~25. fold-in: zahnkrone preis. Web-Schätzung.",
+      "status": "candidate",
+      "date_researched": "2026-09-10",
+      "opportunity": {
+        "score": 90,
+        "band": "Strong"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Brücke oder Implantat? Der ehrliche Vergleich zur Lückenschließung",
+      "researched_keywords": "brücke oder implantat, zahnbrücke oder implantat, lücke schließen zahn",
+      "volume": "500",
+      "kd": "12",
+      "intent": "informativ",
+      "trend": "—",
+      "checked": "web",
+      "suggestion": "Neutrale Entscheidungs-Nische, niedriger KD ~12 — ideal für junge Domain. Distinkt zu wurzelbehandlung-oder-implantat und prothese-oder-implantat. fold-in: zahnbrücke oder implantat vor und nachteile. Web-Schätzung.",
+      "status": "candidate",
+      "date_researched": "2026-09-10",
+      "opportunity": {
+        "score": 60,
+        "band": "Good"
+      }
+    },
+    {
+      "type": "comparison",
+      "query": "Zahnimplantate in Polen: Kosten, Qualität und die EU-Alternative",
+      "researched_keywords": "zahnimplantate polen, zahnersatz polen kosten, zahnarzt polen",
+      "volume": "700",
+      "kd": "22",
+      "intent": "kommerziell",
+      "trend": "—",
+      "checked": "web",
+      "suggestion": "Weiteres beliebtes DE-Zahntourismus-Ziel, im Türkei/Ungarn-Set noch nicht abgedeckt. KD ~22. fold-in: zahnersatz polen erfahrungen. Web-Schätzung.",
+      "status": "candidate",
+      "date_researched": "2026-09-10",
+      "opportunity": {
+        "score": 66,
+        "band": "Good"
+      }
+    },
+    {
+      "type": "comparison",
+      "query": "Zahnersatz in Kroatien: lohnt sich die Reise wirklich?",
+      "researched_keywords": "zahnersatz kroatien, zahnarzt kroatien, zahnimplantate kroatien",
+      "volume": "250",
+      "kd": "15",
+      "intent": "kommerziell",
+      "trend": "—",
+      "checked": "web",
+      "suggestion": "Kleineres, wenig umkämpftes Ziel (KD ~15) — gute Long-Tail-Chance. fold-in: zahnarzt kroatien erfahrungen. Web-Schätzung.",
+      "status": "candidate",
+      "date_researched": "2026-09-10",
+      "opportunity": {
+        "score": 46,
+        "band": "Good"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Gewährleistung und Garantie bei Zahnersatz aus dem Ausland",
+      "researched_keywords": "gewährleistung zahnersatz ausland, garantie zahnersatz ausland, patientenrechte zahnersatz eu",
+      "volume": "200",
+      "kd": "8",
+      "intent": "informativ",
+      "trend": "—",
+      "checked": "web",
+      "suggestion": "Hoher Trust-Wert, sehr niedriger KD ~8; /garantie/ ist Behandlungsseite und der seriöse-klinik-Ratgeber deckt Gewährleistung nicht speziell → distinkt. EU-Recht (2 Jahre, nationales Recht des Behandlungslands) [VERIFY]. fold-in: garantie zahnersatz ausland. Web-Schätzung.",
+      "status": "candidate",
+      "date_researched": "2026-09-10",
+      "opportunity": {
+        "score": 47,
+        "band": "Good"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Festzuschuss und Bonusheft: was die Krankenkasse 2026 beim Zahnersatz zahlt",
+      "researched_keywords": "festzuschuss zahnersatz 2026, bonusheft zahnarzt, festzuschuss tabelle",
+      "volume": "3000",
+      "kd": "28",
+      "intent": "informativ",
+      "trend": "—",
+      "checked": "web",
+      "suggestion": "Hohes Volumen, Deutschland-Grundlagen (inländische Basis, distinkt vom Ausland-Zuschuss-Ratgeber → als Basis-Guide der dorthin verlinkt, kein Kannibalisierungs-Risiko). KD ~28. fold-in: bonusheft zahnarzt, heil- und kostenplan grundlagen. Alle GKV-Zahlen [VERIFY]. Web-Schätzung.",
+      "status": "candidate",
+      "date_researched": "2026-09-10",
+      "opportunity": {
+        "score": 89,
+        "band": "Strong"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Feste Zähne an einem Tag: Sofortimplantate und Sofortbelastung erklärt",
+      "researched_keywords": "feste zähne an einem tag, sofortimplantat, sofortbelastung implantat",
+      "volume": "600",
+      "kd": "20",
+      "intent": "kommerziell",
+      "trend": "—",
+      "checked": "web",
+      "suggestion": "Aufklärungs-Nische mit Money-Nähe; KD ~20. fold-in: sofortimplantat, all-on-6 (Vollbogen-Variante zum All-on-4-Backlog). Web-Schätzung.",
+      "status": "candidate",
+      "date_researched": "2026-09-10",
+      "opportunity": {
+        "score": 62,
+        "band": "Good"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Wie lange hält ein Zahnimplantat? Haltbarkeit und Einflussfaktoren",
+      "researched_keywords": "wie lange hält ein zahnimplantat, zahnimplantat haltbarkeit, lebensdauer implantat",
+      "volume": "400",
+      "kd": "10",
+      "intent": "informativ",
+      "trend": "—",
+      "checked": "web",
+      "suggestion": "TOFU-Aufklärung, niedriger KD ~10 — gut für Autoritätsaufbau, keine Überschneidung mit Kosten/Material-Cluster. fold-in: zahnimplantat haltbarkeit. Web-Schätzung.",
+      "status": "candidate",
+      "date_researched": "2026-09-10",
+      "opportunity": {
+        "score": 56,
+        "band": "Good"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Zahnimplantat richtig pflegen: Reinigung und Periimplantitis vermeiden",
+      "researched_keywords": "zahnimplantat pflege, implantat reinigen, periimplantitis vorbeugen",
+      "volume": "300",
+      "kd": "8",
+      "intent": "informativ",
+      "trend": "—",
+      "checked": "web",
+      "suggestion": "Aftercare-Nische, sehr niedriger KD ~8; ergänzt die Implantat-Ratgeber ohne Kosten/Material/Ablauf-Cluster zu kannibalisieren. fold-in: periimplantitis vorbeugen. Web-Schätzung.",
+      "status": "candidate",
+      "date_researched": "2026-09-10",
+      "opportunity": {
+        "score": 52,
+        "band": "Good"
+      }
+    }
+  ],
   "articles_base_url": "https://github.com/ProfitXtraV2/AIContent/tree/main/DentalVia/articles/",
   "meta": {
     "brand": "DentalVia",
