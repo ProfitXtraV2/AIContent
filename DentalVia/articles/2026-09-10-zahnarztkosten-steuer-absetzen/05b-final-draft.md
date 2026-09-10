@@ -2,6 +2,8 @@
 
 *Von Georgi Todorov, Patientenkoordinator bei Dentalvia*
 
+![Flache Illustration eines Steuerformulars mit Stift, einem kleinen Stapel Belege und einer zurückfließenden Euro-Münze mit Erstattungspfeil – Symbol für das Absetzen medizinisch notwendiger Zahnarztkosten von der Steuer.](images/zahnarztkosten-steuer-absetzen-hero.webp)
+
 Eine Krone, ein Implantat oder eine Wurzelbehandlung, die Sie aus eigener Tasche zahlen, kann Ihre Einkommensteuer drücken. Medizinisch notwendige Zahnarztkosten lassen sich unter bestimmten Voraussetzungen von der Steuer absetzen, denn sie zählen für den Gesetzgeber zu den außergewöhnlichen Belastungen nach § 33 EStG [VERIFY: § 33 EStG]. Bevor sich das auswirkt, erwartet das Finanzamt allerdings einen Eigenanteil, die sogenannte zumutbare Belastung. Erst der Betrag, der darüber hinausgeht, senkt Ihre Steuer. Wie hoch dieser anrechenbare Betrag am Ende ausfällt, hängt von Ihrem Einkommen und Ihrer Familiensituation ab und davon, was Krankenkasse oder Zusatzversicherung schon getragen haben.
 
 ## Medizinisch notwendig oder nur Kosmetik?
@@ -25,6 +27,9 @@ Nicht der gesamte Eigenanteil senkt die Steuer, sondern nur der Teil, der Ihre p
 | 1–2 Kinder | unterste Stufe | 2 % [VERIFY] |
 
 *Beispielwerte zur Orientierung, keine feste Zusage für den Einzelfall; maßgeblich sind die aktuelle Rechtslage und das Finanzamt.*
+
+![Tabellen-Grafik der zumutbaren Belastung nach § 33 EStG (Beispiel-Sätze): Alleinstehend ohne Kinder oberste Stufe 7 %, Verheiratet ohne Kinder oberste Stufe 6 %, 1–2 Kinder oberste Stufe 4 %, mittlere Stufe 3 %, unterste Stufe 2 %. Beispielwerte; nur Kosten über dieser Grenze mindern die Steuer.](images/zumutbare-belastung-beispielsaetze-paragraph-33-estg.svg)
+*Zumutbare Belastung nach § 33 EStG – Beispiel-Sätze je Situation und Einkommensstufe (Beispielwerte).*
 
 Seit 2017 steckt hinter der Schwelle kein einziger pauschaler Prozentsatz mehr; sie wird stufenweise berechnet [VERIFY: gestaffelte Berechnung seit 2017]. Laut Finanztip senkt das die Grenze für viele Steuerpflichtige um bis zu 664,70 € (Stand 2024) [VERIFY: 664,70 €, Finanztip Stand 2024]. Schätzen Sie deshalb nicht vorschnell ab, ob sich das Absetzen lohnt: Was früher unter der Schwelle blieb, kann nach der gestaffelten Berechnung durchaus wirken.
 

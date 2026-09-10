@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 336" width="760" height="336" font-family="Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="Zumutbare Belastung: Beispiel-Sätze nach Paragraph 33 EStG, Anteil der Einkünfte je Situation und Einkommensstufe, Beispielwerte">
+  <rect x="4" y="4" width="752" height="328" rx="14" fill="#f7f9fb" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="24" y="40" font-size="19" font-weight="700" fill="#0f172a">Zumutbare Belastung: Beispiel-Sätze (§ 33 EStG)</text>
+  <text x="24" y="62" font-size="12.5" fill="#64748b">Anteil der Einkünfte je nach Situation und Einkommensstufe &#183; Beispielwerte</text>
+
+  <!-- header -->
+  <g font-size="12.5" font-weight="700" fill="#334155">
+    <text x="28" y="98">Situation</text>
+    <text x="470" y="98" text-anchor="middle">Einkommensstufe</text>
+    <text x="662" y="98" text-anchor="middle">Beispiel-Satz</text>
+  </g>
+  <line x1="24" y1="106" x2="744" y2="106" stroke="#cbd5e1" stroke-width="1.5"/>
+
+  <!-- rows -->
+  <g font-size="13" fill="#0f172a">
+    <text x="28" y="138">Alleinstehend, ohne Kinder</text>
+    <text x="470" y="138" text-anchor="middle">oberste Stufe</text>
+    <text x="662" y="138" text-anchor="middle" font-weight="700">7 %</text>
+
+    <text x="28" y="170">Verheiratet, ohne Kinder</text>
+    <text x="470" y="170" text-anchor="middle">oberste Stufe</text>
+    <text x="662" y="170" text-anchor="middle" font-weight="700">6 %</text>
+
+    <text x="28" y="202">1–2 Kinder</text>
+    <text x="470" y="202" text-anchor="middle">oberste Stufe</text>
+    <text x="662" y="202" text-anchor="middle" font-weight="700">4 %</text>
+
+    <text x="28" y="234">1–2 Kinder</text>
+    <text x="470" y="234" text-anchor="middle">mittlere Stufe</text>
+    <text x="662" y="234" text-anchor="middle" font-weight="700">3 %</text>
+
+    <text x="28" y="266">1–2 Kinder</text>
+    <text x="470" y="266" text-anchor="middle">unterste Stufe</text>
+    <text x="662" y="266" text-anchor="middle" font-weight="700">2 %</text>
+  </g>
+  <line x1="24" y1="150" x2="744" y2="150" stroke="#eef2f6" stroke-width="1"/>
+  <line x1="24" y1="182" x2="744" y2="182" stroke="#eef2f6" stroke-width="1"/>
+  <line x1="24" y1="214" x2="744" y2="214" stroke="#eef2f6" stroke-width="1"/>
+  <line x1="24" y1="246" x2="744" y2="246" stroke="#eef2f6" stroke-width="1"/>
+
+  <text x="24" y="298" font-size="11" fill="#94a3b8">Nur die Zahnarztkosten, die über dieser Grenze liegen, mindern die Steuer.</text>
+  <text x="24" y="316" font-size="11" fill="#94a3b8">Beispielwerte je nach Einkommen und Familienstand; maßgeblich sind § 33 EStG und Ihr Finanzamt.</text>
+</svg>
