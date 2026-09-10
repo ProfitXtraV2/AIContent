@@ -104,9 +104,10 @@ stage you are STARTING now>,"stage":"<that stage's name>"}`.
    pad). If the buffer is BELOW the target, treat filling it as extra-urgent but still cap
    this run at MAX_PER_RUN. (Only skip writing if there are truly zero valid distinct topics
    left.)
-   > Note: `python3 scripts/build_dashboard.py dentalvia` gains the `dentalvia` CLI argument
-   > in Task 7 — this doc references it; Task 7 implements it. If Task 7 is not yet done,
-   > run it without the argument and read from `docs/data/status.json` as a fallback.
+   > Note: DentalVia dashboard data lives at `docs/data/dentalvia/status.json` — never read
+   > the brandless `docs/data/status.json` (that is VsichkiKazina's). If
+   > `python3 scripts/build_dashboard.py dentalvia` rejects the argument (script not yet
+   > brand-aware), skip the dashboard refresh and log it — do not run the no-arg command.
 
 3. **Select up to `batch` topics:**
    a. Take up to `batch` rows with `status: open` from `DentalVia/topic-backlog.md`, in
@@ -143,7 +144,9 @@ stage you are STARTING now>,"stage":"<that stage's name>"}`.
       Preise / Erfahrungen modifiers cluster as one intent across those roots. When unsure,
       prefer fewer, clearly distinct pillars over many overlapping ones.
    e. For each selected topic add a `DentalVia/content-queue.md` row: fresh `id`,
-      `status: in-progress`, `type`, `byline` (see step 4 — determine at write time),
+      `status: in-progress`, `type`, `byline` (leave BLANK at row creation — it is filled
+      during that article's step-4 byline step, just before writing begins; the rotation
+      reads the most recent NON-EMPTY byline in the queue),
       `query`, `keywords_or_terms` (the keywords you will actually target), `volume` + `kd`
       (copy the target keyword's Ahrefs metrics from research/backlog so the dashboard can
       show Vol/KD/Opportunity per article), `source` = `backlog` or `research`, `folder` =

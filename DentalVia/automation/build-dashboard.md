@@ -12,8 +12,9 @@ This parses `DentalVia/content-queue.md` and writes `docs/data/dentalvia/status.
 (buffer count/target/deficit, per-status counts, and all rows). Commit the updated
 `docs/data/dentalvia/status.json` as part of the run's board commit to `main`.
 
-> Note: the `dentalvia` CLI argument is implemented in Task 7. Until then, run without
-> the argument and read from `docs/data/status.json` as a fallback.
+> Note: never run the script WITHOUT the `dentalvia` argument for this brand — the no-arg
+> form builds VsichkiKazina's `docs/data/status.json`. If the script rejects the argument
+> (not yet brand-aware), skip the dashboard refresh and log it.
 
 Do NOT hand-edit `status.json` or `index.html` during a run — change the queue,
 then regenerate. If `build_dashboard.py` errors, log it in the run and open the
