@@ -4,15 +4,15 @@
 
 Eine Krone, ein Implantat oder eine Wurzelbehandlung, die Sie aus eigener Tasche zahlen, kann Ihre Einkommensteuer drücken. Medizinisch notwendige Zahnarztkosten lassen sich unter bestimmten Voraussetzungen von der Steuer absetzen, denn sie zählen für den Gesetzgeber zu den außergewöhnlichen Belastungen nach § 33 EStG [VERIFY: § 33 EStG]. Bevor sich das auswirkt, erwartet das Finanzamt allerdings einen Eigenanteil, die sogenannte zumutbare Belastung. Erst der Betrag, der darüber hinausgeht, senkt Ihre Steuer. Wie hoch dieser anrechenbare Betrag am Ende ausfällt, hängt von Ihrem Einkommen und Ihrer Familiensituation ab und davon, was Krankenkasse oder Zusatzversicherung schon getragen haben.
 
-## Wann das Finanzamt die Kosten anerkennt
+## Medizinisch notwendig oder nur Kosmetik?
 
-Absetzbar ist nur, was medizinisch notwendig ist. Kronen, Brücken, Prothesen, Implantate und eine Wurzelbehandlung gehören zu den typischen Krankheitskosten rund um Zahnersatz und Zahnerhalt, die das Finanzamt anerkennt. Rein ästhetische Eingriffe ohne medizinische Indikation fallen dagegen heraus. Ein Bleaching an gesunden Zähnen bleibt außen vor, kosmetische Veneers ohne Krankheitswert ebenso. Ausschlaggebend ist der Grund, nicht die Bezeichnung. Wird ein Zahn aus funktionalen oder gesundheitlichen Gründen versorgt, spricht das für die Absetzbarkeit. Rein kosmetische Eingriffe an gesunden Zähnen zählen dagegen nicht. Halten Sie die Notwendigkeit schriftlich fest, am besten über den Heil- und Kostenplan oder eine kurze zahnärztliche Begründung.
+Absetzbar ist nur, was medizinisch notwendig ist. Kronen, Brücken, Prothesen, Implantate und eine Wurzelbehandlung gehören zu den typischen Krankheitskosten rund um Zahnersatz und Zahnerhalt, die das Finanzamt anerkennt. Rein ästhetische Eingriffe ohne medizinische Indikation fallen dagegen heraus: ein Bleaching an gesunden Zähnen ebenso wie kosmetische Veneers ohne Krankheitswert. Ausschlaggebend ist der Grund, nicht die Bezeichnung. Wird ein Zahn aus funktionalen oder gesundheitlichen Gründen versorgt, spricht das für die Absetzbarkeit. Halten Sie die Notwendigkeit schriftlich fest, am besten über den Heil- und Kostenplan oder eine kurze zahnärztliche Begründung.
 
 ## Nur der selbst getragene Anteil zählt
 
-Steuerlich zählt allein der Anteil, den Sie am Ende wirklich selbst getragen haben. Vom Rechnungsbetrag der [LINK: Behandlungskosten → /kosten/] geht deshalb zuerst alles ab, was zurückfließt: der Festzuschuss der gesetzlichen Krankenkasse gehört dazu, ebenso alles, was eine private Krankenversicherung oder Zahnzusatzversicherung erstattet, und schließlich jede sonstige Kostenübernahme. Was danach übrig bleibt, ist Ihr Eigenanteil, und mit diesem Betrag rechnen alle weiteren Schritte.
+Steuerlich zählt allein der Anteil, den Sie am Ende wirklich selbst getragen haben. Vom Rechnungsbetrag der [LINK: Behandlungskosten → /kosten/] geht deshalb zuerst alles ab, was zurückfließt. Dazu gehört der Festzuschuss der gesetzlichen Krankenkasse, ebenso alles, was eine private Krankenversicherung oder Zahnzusatzversicherung erstattet, und schließlich jede sonstige Kostenübernahme. Was danach übrig bleibt, ist Ihr Eigenanteil, und mit diesem Betrag rechnen alle weiteren Schritte.
 
-## Wie hoch Ihre zumutbare Belastung ausfällt
+## Die Grenze der zumutbaren Belastung
 
 Nicht der gesamte Eigenanteil senkt die Steuer, sondern nur der Teil, der Ihre persönliche zumutbare Belastung übersteigt. Diese Schwelle liegt je nach Fall zwischen 1 und 7 % des Gesamtbetrags Ihrer Einkünfte [VERIFY: 1–7 %] und ist nach drei Einkommensstufen [VERIFY: 3 Einkommensstufen] sowie nach Familienstand und Kinderzahl gestaffelt. Je nach Familienstand und Einkommen bewegt sich der Satz zwischen diesen Beispielwerten:
 
@@ -28,7 +28,7 @@ Nicht der gesamte Eigenanteil senkt die Steuer, sondern nur der Teil, der Ihre p
 
 Seit 2017 steckt hinter der Schwelle kein einziger pauschaler Prozentsatz mehr; sie wird stufenweise berechnet [VERIFY: gestaffelte Berechnung seit 2017]. Laut Finanztip senkt das die Grenze für viele Steuerpflichtige um bis zu 664,70 € (Stand 2024) [VERIFY: 664,70 €, Finanztip Stand 2024]. Schätzen Sie deshalb nicht vorschnell ab, ob sich das Absetzen lohnt: Was früher unter der Schwelle blieb, kann nach der gestaffelten Berechnung durchaus wirken.
 
-## Warum das Timing der Zahlung zählt
+## Zahlungen bündeln: das Kalenderjahr entscheidet
 
 Weil die zumutbare Belastung in jedem Kalenderjahr neu abgezogen wird, kann es sich lohnen, planbare Behandlungen zeitlich zu bündeln. Stehen ohnehin mehrere Maßnahmen an, sprechen gute Gründe dafür, sie im selben Kalenderjahr abzuschließen und zu bezahlen. So wird die zumutbare Belastung nur einmal abgezogen, und ein größerer Teil der Kosten bleibt absetzbar. Gerade bei größerem Zahnersatz entscheidet das oft darüber, ob überhaupt ein absetzbarer Betrag übrig bleibt. Wie schnell die Beträge dabei zusammenkommen, zeigt schon [LINK: der Kostenrahmen für ein Zahnimplantat → /ratgeber/was-kostet-ein-zahnimplantat/]. Maßgeblich ist das Datum der Zahlung, nicht das der Behandlung.
 
@@ -46,7 +46,7 @@ Vor der Behandlung lohnt zusätzlich der Blick auf den [LINK: Kassen-Zuschuss f�
 
 ## Im Zweifel fragen
 
-Bei medizinisch notwendigem Zahnersatz lohnt der Versuch fast immer, denn die gestaffelte Berechnung lässt heute mehr durchgehen, als die meisten vorab annehmen. Was hier steht, sind die allgemeinen Regeln und keine Steuerberatung. Ob und in welcher Höhe sich Ihre Zahnarztkosten auswirken, entscheidet der Einzelfall; die genannten Prozentsätze und Beträge sind änderbare Beispiele, verbindlich sind allein das Finanzamt und die aktuelle Rechtslage. Klären Sie Ihren Fall im Zweifel mit einem Steuerberater oder direkt beim Finanzamt, und lassen Sie sich die medizinische Notwendigkeit der Behandlung ärztlich dokumentieren.
+Die gestaffelte Berechnung lässt heute mehr durchgehen, als die meisten vorab annehmen. Was hier steht, sind die allgemeinen Regeln und keine Steuerberatung. Ob und in welcher Höhe sich Ihre Zahnarztkosten auswirken, entscheidet der Einzelfall; die genannten Prozentsätze und Beträge sind änderbare Beispiele, verbindlich sind allein das Finanzamt und die aktuelle Rechtslage. Klären Sie Ihren Fall im Zweifel mit einem Steuerberater oder direkt beim Finanzamt, und lassen Sie sich die medizinische Notwendigkeit der Behandlung ärztlich dokumentieren.
 
 ---
 
