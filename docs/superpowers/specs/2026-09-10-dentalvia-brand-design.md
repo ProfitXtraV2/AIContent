@@ -106,6 +106,20 @@ per article. Falls back to web research when Ahrefs is unavailable.
 trigger instructions; scheduling later = pointing a new routine at
 `DentalVia/automation/daily-run.md`.
 
+## Dashboard
+
+DentalVia gets its own page on the existing GitHub Pages site:
+
+- **URL: `https://profitxtrav2.github.io/AIContent/dentalvia/`**
+  (`docs/dentalvia/index.html`), same look as the VsichkiKazina dashboard at
+  the site root.
+- `scripts/build_dashboard.py` becomes brand-aware (brand → queue path + output
+  path): DentalVia data lands in `docs/data/dentalvia/status.json`; the
+  VsichkiKazina paths and page stay byte-for-byte where they are so nothing
+  breaks for the existing routine.
+- The two pages cross-link in the header (brand switcher). No merged
+  cross-brand aggregate view — each brand has its own page.
+
 ## Testing / verification
 
 - Dry-run one article end-to-end manually (brief → 05b + gate report + Gemini
@@ -118,6 +132,6 @@ trigger instructions; scheduling later = pointing a new routine at
 ## Out of scope
 
 - Publishing/deploy (renderer, FTP) — until the site stack is ready.
-- Cross-brand dashboard aggregation (extend later).
+- A merged cross-brand dashboard view (each brand gets its own page instead).
 - English keyword research automation.
 - Any change to the VsichkiKazina folder, pipeline, or its scheduled routines.
