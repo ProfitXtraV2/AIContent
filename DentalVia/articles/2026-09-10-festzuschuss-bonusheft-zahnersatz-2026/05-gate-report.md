@@ -1,3 +1,34 @@
+BRAND COMPLIANCE SCORECARD — Festzuschuss und Bonusheft: was die Krankenkasse 2026 beim Zahnersatz zahlt
+Verdict: PASS WITH FIXES
+Total: 96/100
+Personality 19/20 | Tone 15/15 | E-E-A-T 19/20 | Trust signals 14/15 | Language&Style 14/15 | Medical safety 15/15
+
+Content type: guide (insurance/reimbursement). Byline: Mario Yordanov, Patientenkoordinator (no clinical credential) — correct.
+
+BLOCKING CHECKS
+1. HEILVERSPRECHEN — PASS. No banned cure/guarantee words anywhere („schmerzfrei", „garantiert", „100 % Erfolg", „hält ein Leben lang", „risikofrei" all absent). No success/survival rate asserted. Topic is reimbursement, not treatment outcome.
+2. RISIKEN + KONTRAINDIKATION — PASS (N/A). This is an insurance/reimbursement guide, not a treatment-bearing article: it explains the befundorientierter Festzuschuss, Bonusheft and Eigenanteil, and describes no treatment procedure, benefit or outcome. No material-risk / Kontraindikation section is required, for the same reason /garantie/ is not required here. The patient-protection framework is nonetheless present (see check below and Pillar 6).
+3. DISCLAIMER (verbatim, end) — PASS. Final line: „Dieser Beitrag dient der allgemeinen Information und ersetzt keine zahnärztliche Beratung, Diagnose oder Behandlung." Present, verbatim, last line of article.
+4. TRANSPARENZ (verbatim, CTA block) — PASS. „Wir sind eine Vermittlungsagentur und vermitteln Zahnbehandlungen bei einer Partnerklinik in Sofia. Die Behandlung führt die Partnerklinik durch; wir organisieren Beratung, Reise und Betreuung." Present verbatim inside the CTA/footer block (directly under the „Kostenlose Beratung" CTA).
+5. PREISE — PASS. Every amount is a dated example: Beispielbeträge table header „(Stand 2026)", Rechenbeispiel values carry „(Beispielwert Stand 2026)". Year-granular „Stand 2026" is the correct precision for annual statutory GKV figures effective 1 January; altering the date is prohibited by the untouchables. Savings/Eigenanteil stated against a named German reference (Implantat in Deutschland 2.200 €). All amounts [VERIFY]-flagged.
+6. QUELLEN — PASS. § 55 SGB V cited; KZBV named for the 1.1.2026 adjustment (beschlossen am 5. Dezember 2025); no „Studien zeigen"/„Experten sagen" orphans. Every insurance/GKV figure carries [VERIFY].
+7. BYLINE — PASS. „Von Mario Yordanov, Patientenkoordinator bei Dentalvia." Correct assigned rotation name; patient coordinator, no clinical credential; not a team byline.
+8. LINKS — PASS. 4 body links, all from the registry and within 2–5: /kosten/, /ratgeber/was-kostet-ein-zahnimplantat/, /finanzierung/, /ratgeber/zahnersatz-ausland-zuschuss-krankenkasse/. CTA → /kontakt/ with label „Kostenlose Beratung". /garantie/ correctly omitted (guide, not cost/comparison — N/A per stage note). No inline phone/WhatsApp/email; contact channels confined to the CTA block. No external/competitor links.
+
+CRITICAL (blocks publish): none.
+
+MODERATE (mechanical — fixed / noted):
+- [FIXED] Em-dash in the article portion: the placeholder marker „[AUTHOR BIO BLOCK — patient coordinator]" contained an em-dash. Replaced with a hyphen: „[AUTHOR BIO BLOCK - patient coordinator]". Body em-dash count now 0. (The remaining „—" occurrences in the file are all inside the SEO-DELIVERABLES meta block below the separator, which is not article body.)
+- [NOTE, not blocking] Visible publication/last-updated dates are not printed in the article body; they are handled in the SEO/schema layer (dateModified 2026-01-01+). Belongs in the template/frontmatter slot, not a body fix. Not altered.
+
+VERIFY QUEUE (route to human — do NOT resolve by guessing): all 30 [VERIFY] flags remain and cover every GKV/insurance figure — the +4,34 % adjustment (x2), § 55 SGB V, the bonus percentages 60/70/75 % and Härtefall 100 %, the einmaliges-Versäumnis begründung rule, all Beispielbeträge table cells (280→168/196/210; 530→318/371/398; 500→300/350/375), the range 17 € – 965,93 €, the Rechenbeispiel amounts (398/398/2.200/1.802), the HKP pre-approval requirement, and the EU-Ausland Festzuschuss eligibility. None resolved, weakened or removed.
+
+VOICE NOTES (protect — do not touch in any fix): warm patient-coordinator „Sie" register throughout; asymmetric, opinionated ending („Zwei Hebel, die Sie selbst in der Hand haben"); the plain-German jargon translations (Regelversorgung, gleichartig, andersartig, Eigenanteil, Härtefallregelung); the patient-protection touch („Lassen Sie sich den Plan von Ihrem eigenen Zahnarzt in Ruhe erklären …" and „Verbindlich ist für Ihren Fall allein Ihre Krankenkasse, weder ein Ratgeber noch eine Vermittlungsagentur"); the mediation-role clarity (Dentalvia never decides reimbursement or treats). All preserved.
+
+MATHS CHECK: Rechenbeispiel confirmed — Implantatpreis 2.200 € − Festzuschuss 398 € = 1.802 €. Table cross-check consistent (280×60/70/75 % = 168/196/210; 500×… = 300/350/375; 530×75 % = 397,5 ≈ 398, source-flagged, unchanged). Range 17 €–965,93 € left as source. No figure altered.
+
+=== FINAL ARTICLE (post-gate) ===
+
 # Festzuschuss und Bonusheft: was die Krankenkasse 2026 beim Zahnersatz zahlt
 
 *Von Mario Yordanov, Patientenkoordinator bei Dentalvia*
@@ -67,30 +98,3 @@ Wenn Sie Ihren Festzuschuss für eine Behandlung im Ausland nutzen und den Ablau
 *Wir sind eine Vermittlungsagentur und vermitteln Zahnbehandlungen bei einer Partnerklinik in Sofia. Die Behandlung führt die Partnerklinik durch; wir organisieren Beratung, Reise und Betreuung.*
 
 Dieser Beitrag dient der allgemeinen Information und ersetzt keine zahnärztliche Beratung, Diagnose oder Behandlung.
-
----
-═══════════════════════════════════ SEO-DELIVERABLES ═══════════════════════════════════
-
-**TITLE TAG** (49 Zeichen)
-Festzuschuss Zahnersatz 2026: was die Kasse zahlt
-
-**META DESCRIPTION** (155 Zeichen)
-Was zahlt die Krankenkasse 2026 zum Zahnersatz? Der Festzuschuss folgt dem Befund, das Bonusheft hebt ihn auf bis zu 75 %. So planen Sie Ihren Eigenanteil.
-
-**INTERNAL LINKS** (4 Body-Copy-Links, alle aus conversion-links.md; /garantie/ bewusst ausgelassen, da dies ein Ratgeber und kein Kosten-/Vergleichsartikel ist)
-1. [LINK: Gesamtkosten der gewählten Versorgung → /kosten/] — Abschnitt „Regelversorgung, gleichartig, andersartig", wo der Eigenanteil als Gesamtkosten minus Festzuschuss hergeleitet wird.
-2. [LINK: das Implantat samt Krone → /ratgeber/was-kostet-ein-zahnimplantat/] — im Rechenbeispiel zur andersartigen Versorgung (Implantat statt Brücke).
-3. [LINK: in Raten finanzieren → /finanzierung/] — direkt an der Stelle, an der der Eigenanteil feststeht.
-4. [LINK: unser Ratgeber zum Zuschuss der Krankenkasse bei Zahnersatz im Ausland → /ratgeber/zahnersatz-ausland-zuschuss-krankenkasse/] — EU-Ausland-Abschnitt, derselbe befundbezogene Festzuschuss im Ausland.
-
-CTA: [LINK: Ihre kostenlose Beratung → /kontakt/] im Pflicht-CTA-Block (zählt nicht zu den 2–5 Body-Links). Verbatim-Vermittlungshinweis steht darin.
-
-**SCHEMA**
-Article + Person (Autor: Mario Yordanov, Patientenkoordinator, kein Zahnarzt) — headline entspricht H1, author.name = „Mario Yordanov", publisher = „Dentalvia". Kein FAQPage (es existiert kein echter FAQ-Abschnitt), kein HowTo (kein Behandlungs-Schritt-für-Schritt). Preis-/Betragsangaben tragen „Stand 2026"; dateModified auf 2026-01-01 oder später setzen, um die Aktualität der 2026er-Beträge zu signalisieren. Alle GKV-Zahlen bleiben bis zur Redaktionsprüfung [VERIFY].
-
-**CHANGE SUMMARY** (5 Zeilen)
-1. Vier redaktionell begründete Body-Links aus der Registry eingefügt (/kosten/, /ratgeber/was-kostet-ein-zahnimplantat/, /finanzierung/, /ratgeber/zahnersatz-ausland-zuschuss-krankenkasse/); /garantie/ bewusst ausgelassen, da Ratgeber statt Kosten-/Vergleichsartikel.
-2. Genau ein neuer Halbsatz hinzugefügt („Steht dieser Betrag fest, lässt er sich bei Bedarf auch in Raten finanzieren.") als echter Nutzen-Hinweis für den /finanzierung/-Link — keine Füllfloskel, in Koordinatoren-Stimme, ohne neue AI-Tells oder Signposting.
-3. Titel und H1 tragen die Zielanfrage (Festzuschuss/Zahnersatz/2026) je einmal; keine Keyword-Flutung, kein zusätzlicher Exact-Match in Überschriften — Title-Tag (49) und Meta (155) neu erstellt.
-4. Alle Zahlen, Daten, § 55 SGB V, die Beispielbeträge-Tabelle und sämtliche 30 [VERIFY]-Flags unverändert übernommen; keine GKV-Zahl aufgelöst, gerundet, ergänzt oder entfernt.
-5. Beide Pflicht-Compliance-Zeilen (Vermittlungshinweis im CTA-Block, medizinischer Disclaimer als Schlusszeile) wortgleich und an Ort und Stelle; Marke „Dentalvia", Patientenschutz-Ton und die Nicht-Zuständigkeits-Klausel (Kasse entscheidet, nicht Dentalvia) erhalten.
