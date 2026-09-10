@@ -1,21 +1,17 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-10T03:14:03Z",
-  "run_finished_utc": "2026-09-10T03:46:54Z",
-  "articles_written": 3,
-  "prs_opened": [
-    36,
-    37,
-    38
-  ],
-  "run_url": "https://claude.ai/code/session_016sG7QRQ81aRzB2guHwRJ9r",
-  "note": "recurring run 2026-09-10 (fire #6) complete: 3 new distinct branded slot pillars drafted — vk-0030 Sugar Rush (PR #36, gate 94, human 85, img 100/95), vk-0031 The Dog House (PR #37, gate 94, ai 75 kept pass 2, img 85/85), vk-0032 Rise of Ra + honest mystery-jackpot angle (PR #38, gate 95, human 85, img 85/85). PUBLIC game/provider data (SlotCatalog/AskGamblers; thecasinomonkey/PokerNews; VegasSlotsOnline/AboutSlots), NOT geo-blocked operator T&C/НАП. Buffer 24->27 (floor 10; keep building). 0 in-progress leftovers; 0 open backlog rows. FRESH Ahrefs re-pull done — bank replenished with 6 distinct candidates (Sugar Rush 1000 400/STRONG, Gates of Olympus 1000 150, Book of Ra 150, Big Bass Splash 100, Flaming Hot 60, Starlight Princess 40). ⚠️ Ahrefs units nearly exhausted (99,859/100,000; reset 2026-10-02) — next fires use web fallback. 0 surviving [VERIFY]. Gemini high-variance persists (vk-0031 stuck at HL 25, kept best, flagged optional human polish). Content PRs: human owns Step 6/merge.",
+  "state": "running",
+  "run_started_utc": "2026-09-10T07:13:20Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01SxJzFwPCSwwePCgrHMoJ41",
+  "note": "recurring run 2026-09-10 (fire #7): drafting 3 branded-slot pillars — Sugar Rush 1000, Gates of Olympus 1000, Book of Ra",
   "progress": {
-    "phase": "done",
-    "article_index": null,
-    "article_total": null,
-    "article_slug": null,
-    "stages": [],
+    "phase": "writing",
+    "article_index": 1,
+    "article_total": 3,
+    "article_slug": "2026-09-10-sugar-rush-1000",
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
     "stage_index": null,
     "stage": null
   }

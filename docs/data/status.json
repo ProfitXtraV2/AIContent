@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-10T06:58:01Z",
+  "generated_utc": "2026-09-10T07:13:44Z",
   "buffer": {
     "count": 21,
     "target": 10,
@@ -7,7 +7,7 @@
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
+    "in-progress": 3,
     "drafted": 21,
     "approved": 0,
     "posted": 10,
@@ -633,6 +633,60 @@
       "notes": "EGT/Amusnet classic Egyptian slot-explainer + honest progressive-jackpot angle (public game data + Amusnet official, NOT operator T&C); clean pillar (no page in sitemap); anchors to Amusnet profile (vk-0021); distinct from Shining Crown/Burning Hot/20-40 Super Hot; opportunity Moderate (vol 60/kd56) · gate 95/100; 0 flags (no fabricated max-win); Gemini HL 40→85 PASS pass 1 (human 85); PR #38; img:2 (infographic 85 + hero 85; both PASS)",
       "opportunity": {
         "score": 21,
+        "band": "Weak"
+      }
+    },
+    {
+      "id": "vk-0033",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Sugar Rush 1000: какво променя версията 1000",
+      "keywords_or_terms": "sugar rush 1000, сугар ръш 1000",
+      "volume": "400",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-10",
+      "posted_date": "",
+      "folder": "2026-09-10-sugar-rush-1000",
+      "pr": "",
+      "gemini": "",
+      "notes": "Pragmatic Play cluster-pays sequel slot-explainer (public game data + Pragmatic official, NOT operator T&C); distinct branded intent from Sugar Rush (vk-0030) — higher multiplier cap/volatility → own pillar with anti-cannibal fold-in link to vk-0030; opportunity Strong (vol 400, up trend)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0034",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Gates of Olympus 1000: какво променя версията 1000",
+      "keywords_or_terms": "gates of olympus 1000, гейтс ъв олимпус 1000",
+      "volume": "150",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-10",
+      "posted_date": "",
+      "folder": "2026-09-10-gates-of-olympus-1000",
+      "pr": "",
+      "gemini": "",
+      "notes": "Pragmatic Play pay-anywhere sequel slot-explainer (public game data + Pragmatic official, NOT operator T&C); distinct branded intent from Gates of Olympus (vk-0022) → own pillar with fold-in link to vk-0022; opportunity Good (vol 150)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0035",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Book of Ra: RTP, характеристики и как се играе",
+      "keywords_or_terms": "book of ra, бук ъв ра",
+      "volume": "150",
+      "kd": "73",
+      "source": "research",
+      "drafted_date": "2026-09-10",
+      "posted_date": "",
+      "folder": "2026-09-10-book-of-ra",
+      "pr": "",
+      "gemini": "",
+      "notes": "Novomatic/Greentube classic Egyptian slot-explainer (public game/provider data, NOT operator T&C) — NEW provider coverage beyond EGT/Pragmatic; clean pillar (no page in sitemap); opportunity Good (vol 150/kd73)",
+      "opportunity": {
+        "score": 18,
         "band": "Weak"
       }
     }
