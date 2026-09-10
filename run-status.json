@@ -5,7 +5,7 @@
   "articles_written": 3,
   "prs_opened": [39, 40, 41],
   "run_url": "https://claude.ai/code/session_01SxJzFwPCSwwePCgrHMoJ41",
-  "note": "recurring run 2026-09-10 (fire #7) complete: 3 new distinct branded slot pillars drafted — vk-0033 Sugar Rush 1000 (PR #39, gate 94, human 90, img 95/100/100), vk-0034 Gates of Olympus 1000 (PR #40, gate 94, human 90 PASS on initial, img 95/100/100), vk-0035 Book of Ra (PR #41, gate 95, human 90 PASS on initial — NEW provider Novomatic/Greentube, img 100/100/100). PUBLIC game/provider data, NOT geo-blocked operator T&C/НАП. Buffer 21->24 (floor 10; keep building). 0 in-progress leftovers; 0 open backlog rows. Anti-AI lessons from vk-0033 applied proactively -> vk-0034/vk-0035 PASSED Gemini on the INITIAL draft (no Humaniser pass). 0 surviving [VERIFY] flags. Ahrefs units near-exhausted (~141 left) -> web fallback added 5 new distinct bank candidates (Book of Dead, Starburst, Sizzling Hot, Megaways, bonus-buy). Content PRs: human owns Step 6/merge.",
+  "note": "backfill: nothing to do (all 24 review-ready articles have images) — checked 2026-09-10 image backfill run",
   "progress": {
     "phase": "done",
     "article_index": null,
