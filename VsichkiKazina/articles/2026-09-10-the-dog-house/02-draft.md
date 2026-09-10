@@ -1,0 +1,2 @@
+# 02-DRAFT — The Dog House (author stage)
+Editorial-voice draft from 00-brief facts + 01.5 outline. Figures verbatim from brief (5×3/20 lines, RTP 96.51%/house 3.49%, configurable, high vol 5/5, max 6750×, sticky wild 1x/2x/3x compound in FS, FS 3+ scatters=10 retrigger +10, bonus buy ~75×–100×, €1000→~€965/~€35). Links /kak-ocenyavame/, /slot-igri/, /otgovorna-igra/. RG + footers. Byline Георги Тодоров; brand Всички Казина. → Humaniser.
