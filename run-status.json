@@ -1,21 +1,28 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-11T03:10:28Z",
-  "run_finished_utc": "2026-09-11T03:48:15Z",
-  "articles_written": 3,
-  "prs_opened": [
-    55,
-    56,
-    57
-  ],
-  "run_url": "https://claude.ai/code/session_01B5cheLmE15rkX5XuNrqk1e",
-  "note": "recurring run 2026-09-11 (fire #9) complete: 3 new distinct guides drafted — vk-0039 Казино без регистрация/Pay N Play (PR #55, gate 95, Gemini human 85 PASS pass 1, img:2 best 82), vk-0040 Starlight Princess Pragmatic (PR #56, gate 94, human 85 after 1 improvement pass, img:3 best 85), vk-0041 Megaways mechanic explainer (PR #57, gate 95, human 95 — best of batch — after 1 improvement pass, img:3 best 100). Buffer 27->30 (floor 10; keep building, no cap). 0 in-progress leftovers; 0 open backlog rows (row2 stays failed/blocked, operator/НАП-dependent, out of guides-only scope). Anti-cannibalization DROPPED: Лицензирани казина (Strong 78, cannibalizes live /blog/proverka-licenz-kazino/), Кои са доставчиците (cannibalizes /blog/games-providers/), Депозитен бонус (folded into vk-0036), casino-card-games hub (overlaps vk-0008/0009/0012) — routed as links, not new pages. All figures public/provider-verified or arithmetic; NO operator T&C/НАП facts fabricated; 0 surviving [VERIFY]. Ahrefs units near-exhausted (reset 2026-10-02) -> web fallback added 3 distinct bank candidates (Gonzo's Quest, NetEnt profile, Reactoonz). Images 8/8 PASS, 0 integrity failures. Content PRs: human owns Step 6/merge/flag-resolution.",
+  "state": "running",
+  "run_started_utc": "2026-09-11T07:12:54Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_017MGVA2BjovixvRZLnttSb7",
+  "note": "recurring run 2026-09-11 (fire #10) start: heartbeat running. Backlog drained (row1 written, row2 blocked/out-of-scope). 0 in-progress leftovers. Batch = 3 NEW guides — NetEnt provider cluster: NetEnt profile + Starburst + Gonzo's Quest (all public provider/game data, no operator T&C/НАП; distinct primary keywords, mutually non-cannibalizing; new provider hub beyond Pragmatic/Amusnet/Novomatic).",
   "progress": {
-    "phase": "done",
+    "phase": "writing",
     "article_index": null,
-    "article_total": null,
+    "article_total": 3,
     "article_slug": null,
-    "stages": [],
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
     "stage_index": null,
     "stage": null
   }
