@@ -1,7 +1,7 @@
 {
   "state": "idle",
-  "run_started_utc": "2026-09-11T07:12:54Z",
-  "run_finished_utc": "2026-09-11T07:48:00Z",
+  "run_started_utc": "2026-09-11T11:40:00Z",
+  "run_finished_utc": "2026-09-11T11:42:00Z",
   "articles_written": 3,
   "prs_opened": [
     58,
@@ -9,7 +9,7 @@
     60
   ],
   "run_url": "https://claude.ai/code/session_017MGVA2BjovixvRZLnttSb7",
-  "note": "recurring run 2026-09-11 (fire #10) complete: 3 new distinct guides drafted — NetEnt provider profile (vk-0042, PR #58, gate 95, Gemini HL 15→85 PASS pass 1, img:2 best 82), Starburst low-volatility slot-explainer (vk-0043, PR #59, gate 94, human 85 PASS on initial, img:2 best 82), Gonzo's Quest Avalanche slot-explainer (vk-0044, PR #60, gate 95, human 85 PASS on initial, img:2 best 82). NetEnt cluster: new provider hub (3rd profile after Pragmatic/Amusnet) + two iconic games that anchor to it — distinct primary keywords, mutually non-cannibalizing. Buffer 30->33 (floor 10; keep building, no cap). 0 in-progress leftovers; 0 open backlog rows (row2 stays failed/blocked, operator/НАП-dependent, out of guides-only scope). All figures public provider data or NetEnt's OWN official game pages (Starburst 96.08%/800x; Gonzo's Quest 95.97%/2200x/Avalanche 5x-15x/Free Fall 10) — NO operator T&C/НАП facts fabricated; 0 surviving [VERIFY]. Ahrefs 403 (units exhausted, reset 2026-10-02) -> web-est vol; bank replenished with 3 new distinct NetEnt-cluster candidates (Dead or Alive 2, Mega Fortune, Twin Spin). Images 6/6 PASS, 0 integrity failures. Feed refreshed (the-dog-house approved-content sync). Content PRs: human owns Step 6/merge/flag-resolution. | backfill-images 2026-09-11: backfill: nothing to do (all review-ready articles have images) — 32 drafted/approved rows checked, all carry img:N notes; no imageless candidates remain.",
+  "note": "recurring run 2026-09-11 (fire #10) complete: 3 new distinct guides drafted — NetEnt provider profile (vk-0042, PR #58, gate 95, Gemini HL 15→85 PASS pass 1, img:2 best 82), Starburst low-volatility slot-explainer (vk-0043, PR #59, gate 94, human 85 PASS on initial, img:2 best 82), Gonzo's Quest Avalanche slot-explainer (vk-0044, PR #60, gate 95, human 85 PASS on initial, img:2 best 82). NetEnt cluster: new provider hub (3rd profile after Pragmatic/Amusnet) + two iconic games that anchor to it — distinct primary keywords, mutually non-cannibalizing. Buffer 30->33 (floor 10; keep building, no cap). 0 in-progress leftovers; 0 open backlog rows (row2 stays failed/blocked, operator/НАП-dependent, out of guides-only scope). All figures public provider data or NetEnt's OWN official game pages (Starburst 96.08%/800x; Gonzo's Quest 95.97%/2200x/Avalanche 5x-15x/Free Fall 10) — NO operator T&C/НАП facts fabricated; 0 surviving [VERIFY]. Ahrefs 403 (units exhausted, reset 2026-10-02) -> web-est vol; bank replenished with 3 new distinct NetEnt-cluster candidates (Dead or Alive 2, Mega Fortune, Twin Spin). Images 6/6 PASS, 0 integrity failures. Feed refreshed (the-dog-house approved-content sync). Content PRs: human owns Step 6/merge/flag-resolution. | backfill-images 2026-09-11 (fire #2): backfill: nothing to do (all review-ready articles have images) — 39 drafted/approved rows checked, all carry img:N notes; no imageless candidates remain.",
   "progress": {
     "phase": "done",
     "article_index": null,
