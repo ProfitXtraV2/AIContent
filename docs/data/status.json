@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-11T03:46:21Z",
+  "generated_utc": "2026-09-11T03:48:15Z",
   "buffer": {
     "count": 30,
     "target": 10,
@@ -1718,6 +1718,48 @@
       "suggestion": "Игрален-механизъм explainer с честен математически ъгъл (цената на бонуса vs очаквано връщане; купуването НЕ подобрява RTP, обикновено го изравнява/влошава); writable без да твърди BG наличност при оператори (образователен, не оператор-специфичен); distinct pillar; фолд-ин към слот-explainer-ите. Web-оценка на обема",
       "status": "candidate",
       "date_researched": "2026-09-10",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Gonzo's Quest: RTP, Avalanche механика и как се играе",
+      "researched_keywords": "gonzo's quest, гонзо куест, avalanche, каскади",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "NetEnt класика с Avalanche (каскади) — distinct branded slot pillar; pairs с Megaways/tumble образованието (vk-0041); чист (няма в sitemap/queue); анкор към бъдещ NetEnt профил. Web-оценка на обема (Ahrefs near-exhausted до 2026-10-02)",
+      "status": "candidate",
+      "date_researched": "2026-09-11",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "NetEnt: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "netent, нетент, netent слотове, доставчик",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "Нов доставчик-профил (като Pragmatic vk-0019 / Amusnet vk-0021) — distinct primary kw vs hub /blog/games-providers/; анкор-хъб за NetEnt заглавия (Starburst bank, Gonzo's Quest). Web-оценка; провери при Ahrefs reset",
+      "status": "candidate",
+      "date_researched": "2026-09-11",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Reactoonz: RTP, клъстер печалби и как се играе",
+      "researched_keywords": "reactoonz, реактунц, клъстер печалби, play'n go",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "Play'n GO клъстер-пейс слот — distinct branded pillar; анкор към Play'n GO профил (bank); чист (няма в sitemap); контраст на cluster-pays vs Megaways/линии. Web-оценка на обема",
+      "status": "candidate",
+      "date_researched": "2026-09-11",
       "opportunity": null
     },
     {
