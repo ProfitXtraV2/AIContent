@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-11T03:45:40Z",
+  "generated_utc": "2026-09-11T03:46:21Z",
   "buffer": {
-    "count": 29,
+    "count": 30,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 19,
+    "drafted": 20,
     "approved": 10,
     "posted": 10,
     "failed": 1
@@ -789,6 +789,23 @@
         "score": 15,
         "band": "Weak"
       }
+    },
+    {
+      "id": "vk-0041",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Megaways: как работят и защо броят на начините се променя",
+      "keywords_or_terms": "megaways, мегауейс, megaways как работят, начини за печалба",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-11",
+      "posted_date": "",
+      "folder": "2026-09-11-megaways-kak-rabotyat",
+      "pr": "#57",
+      "gemini": "human 95",
+      "notes": "evergreen game-mechanic explainer (public: Big Time Gaming 2016, licensed engine; key numbers are arithmetic — NOT operator T&C/НАП); internal-link hub for slot articles; distinct mechanic vs „линии на печалба\" (vk-0017 fold-in — variable ways vs fixed paylines); web-estimated vol (Ahrefs near-exhausted, reset 2026-10-02) · gate 95/100; 0 flags; 7^6=117,649 / 2^6=64 / sample 5,040 (illustrative); honest core (повече начини не значат по-добри шансове; usually high volatility); Gemini HL 85 to 95 PASS (1 improvement pass; human 95 — best of batch); PR #57; img:3 (hero 95 + counting infographic 100 + summary infographic 100; all PASS, figures verified 1:1)",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -1685,7 +1702,7 @@
       "trend": "",
       "checked": "web",
       "suggestion": "Игрален-механизъм explainer (evergreen), НЕ листинг; distinct от „линии на печалба\" (vk-0017) — обяснява променливия брой начини (до 117 649) и защо повече начини ≠ по-добри шансове; фолд-ин към vk-0017; чист образователен pillar. Web-оценка на обема",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-10",
       "opportunity": null
     },
