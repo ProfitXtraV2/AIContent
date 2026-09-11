@@ -17,11 +17,14 @@ brand line.
 ## Non-negotiable principles (never bend)
 
 1. FLAGS BLOCK PUBLISH. [VERIFY] / [DATA NEEDED] / [CONFLICT] flags pass through
-   every stage untouched. Only the HUMAN resolves them, at Step 6, against
-   primary sources. Claude never resolves a flag by guessing — not even with
-   web search. Web search may be used to PRE-ASSEMBLE a verification report
-   (find the primary-source URL for each flag), but the flag stays in the text
-   until the human confirms.
+   every stage untouched. BRAND OVERRIDE (Dentalvia only, owner-approved
+   2026-09-11): flag creation and resolution follow
+   reference/verification-policy.md — example-framed figures are not flagged
+   (Tier A); a flag whose claim is CONFIRMED by a fetched primary-source quote
+   is resolved by the verify-assist pass (Tier B); everything else stays for
+   the human (Tier C). A flag is never resolved by reasoning, memory, or a
+   secondary source, and merge (= approve) stays human. Load the policy file
+   at Stages 1, 2 and Step 6.
 2. UNTOUCHABLES at every stage: facts, prices, risk statements, contraindications,
    the medical disclaimer, the mediation-transparency line, sources, dates.
    Rephrase for voice allowed; removal never.
@@ -130,15 +133,18 @@ Stage-3 rule: rewrite only if verdict ≤ MIXED (< 48/60); HUMAN-LIKE passes thr
 Stage-5 rule: FAIL → report to the user which stage the scorecard blames, fix
 there, re-run forward. Never continue past a FAIL.
 
-STEP 6 — STOP. MANDATORY HUMAN VERIFICATION. Claude's job here is to make the
-human's 15 minutes fast, not to replace them: write 06-verification.md listing
-every surviving flag and every time-sensitive or medical claim (prices, „Stand
-MM/JJJJ" dates, success/survival rates, insurance-reimbursement figures, source
-citations) with the primary-source URL found via web search (professional body,
-manufacturer, KZBV/GKV, peer-reviewed study) and what the source currently shows.
-Recalculate one price/savings claim and show the working. Then hand over: the
-human resolves flags, edits 05b-final-draft.md, and says "verified" to continue.
-NEVER present 05b output as publishable.
+STEP 6 — VERIFY-ASSIST, THEN STOP FOR THE HUMAN. Run the verify-assist pass
+per reference/verification-policy.md as a fresh-context stage over every flag
+in 05b: fetch each claim's PRIMARY source (gesetze-im-internet.de, KZBV/GKV,
+DGI/DGZMK, manufacturer, official EU/BMG pages — never blogs or portals),
+classify by tier, resolve confirmed Tier-B flags (quote attached), remove
+stray Tier-A markers (fixing the „Stand MM/JJJJ" framing where needed), and
+keep everything else. Write 06-verification.md with RESOLVED /
+REMAINING FOR HUMAN sections (claim, source URL, quote, date each) and a
+count summary. Recalculate one price/savings claim and show the working.
+Then hand over: the human confirms the REMAINING list, edits
+05b-final-draft.md, and says "verified" to continue. NEVER present 05b
+output as publishable; merge (= approve) stays the human act.
 
 STEP 7 — EXTERNAL CHECK. The original uses a Gemini agent as a cross-model
 calibration probe. Cowork cannot call Gemini. Options, in order of fidelity:

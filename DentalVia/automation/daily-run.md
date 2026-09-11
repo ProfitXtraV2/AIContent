@@ -188,6 +188,16 @@ stage you are STARTING now>,"stage":"<that stage's name>"}`.
      insert `[LINK NEEDED: <topic>]` — NEVER invent a URL or link to an external domain.
      Keep the compliance footer blocks (disclaimer + transparency line) verbatim.
 
+   - **Verify-assist (before Step 7).** Run the flag-verification pass per
+     `DentalVia/pipeline/reference/verification-policy.md` as a FRESH-CONTEXT stage over
+     `05b`: fetch each flagged claim's PRIMARY source, resolve confirmed Tier-B flags
+     (primary-source quote attached in `06-verification.md`), remove stray Tier-A markers
+     (example-framed figures — fix the „Stand MM/JJJJ" framing where needed), keep Tier C
+     for the human. `06-verification.md` gets RESOLVED / REMAINING FOR HUMAN sections plus
+     a count summary; the PR body cites both counts. Never alter a claim to match a source
+     — mismatches become `[CONFLICT]`. (Writing stages 1–2 also load the policy file so
+     Tier-A figures are not flagged in the first place.)
+
    - **Step 7 — external Gemini check (cross-model).** After `05b` is final, run:
      `python3 scripts/gemini_check.py <article>/05b-final-draft.md`. It reads `GEMINI_API_KEY`
      and prints Gemini's verdict + recommendations.

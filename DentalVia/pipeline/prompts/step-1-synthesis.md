@@ -20,4 +20,4 @@ SOURCES:
 --- SOURCE 3 [{{url 3}}] ---
 {{Volltext von Quelle 3 einfügen}}
 
-Return: synthesis report (with conflicts, excluded-claims, and localisation-adjustments sections) + the original German draft (Sie form) + note that DentalVia is always editorial mode. All price data in the draft carries "Stand MM/JJJJ" and a [VERIFY] flag.
+Return: synthesis report (with conflicts, excluded-claims, and localisation-adjustments sections) + the original German draft (Sie form) + note that DentalVia is always editorial mode. All price data in the draft carries "Stand MM/JJJJ". Flags follow reference/verification-policy.md: figures explicitly framed as dated examples (Beispielpreis + Stand) get NO flag (Tier A); partner-clinic specifics and unframed figures get [VERIFY].

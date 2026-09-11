@@ -15,7 +15,7 @@ FACT INVENTORY — every concrete, checkable claim (numbers, dates, prices, trea
 CORROBORATED: appears in 2+ sources consistently → usable, cite-ready.
 SINGLE-SOURCE: appears once → usable only with [VERIFY: claim — source N] flag.
 CONFLICTING: sources disagree → do not pick silently; flag [CONFLICT: source A says X, source B says Y] for the human to resolve at verification. NEVER write the conflict into the draft as a formal "Version A vs Version B" / "one source says X, another says Y" two-camp structure — that reads as a machine reconciling two training datapoints live in the text, which is a strong AI tell, and the unresolved flag itself communicates the uncertainty without dramatizing it. The flag is for the human; the draft text should simply omit the disputed specific until it's resolved, or state the single most-supported value with the flag attached for verification. The ONLY exception: a brief, single-sentence practical caution is acceptable if grounded in real reader-facing uncertainty (e.g. "aktuelle Kostenvoranschläge sollten direkt bei der Klinik angefragt werden"), but never a structured two-sided debate.
-TIME-SENSITIVE: prices, insurance-reimbursement figures, success/survival rates, cited study data → always [VERIFY] regardless of corroboration; data may be stale. Price data MUST carry a "Stand MM/JJJJ" date.
+TIME-SENSITIVE: flags per reference/verification-policy.md. Price data MUST carry a "Stand MM/JJJJ" date; a price additionally framed as a Beispielpreis/Richtwert is Tier A → NO flag. Insurance-reimbursement figures, legal/tax rates, success/survival rates, cited study data → [VERIFY] (Tier B — the verify-assist pass resolves confirmed ones against primary sources). Partner-clinic specifics (prices, equipment, credentials) → always [VERIFY] (Tier C, owner-only).
 ENTITY MAP — union of all entities across sources (treatment types, materials, procedures, clinics, professional bodies, insurers, regulatory bodies, concepts) plus the relations between them. This union is your minimum coverage floor.
 INTENT & COVERAGE ANALYSIS — what the query intent is (informational / commercial-investigation / transactional / navigational), which subtopics every source covers (table stakes), which only some cover, and crucially: WHAT'S MISSING from all of them. The gap is where DentalVia wins.
 LOCALISATION NOTES — language/location: German-speaking patients (Germany, Austria, Switzerland). Which facts are jurisdiction-specific (GKV/PKV coverage, KZBV reimbursement rules, German distance-to-Sofia logistics). Which sources' facts don't transfer to the target market.
@@ -45,7 +45,7 @@ The searcher's core answer appears high on the page.
 ORIGINALITY MECHANICS:
 
 Different structure: build your own outline from the intent analysis; do not inherit any single source's section order.
-Different examples: all worked examples and illustrative scenarios use dental-tourism data in DentalVia register (€ amounts, price-comparison DE↔BG framing). For example: Einzelimplantat mit Krone — Deutschland ab 2.500–4.000 €, Bulgarien ab 900–1.500 € (Stand 09/2026 [VERIFY]). Ablauf in 2 Reisen: 1. Reise: Beratung, Diagnostik, Implantation (2.–3. Tag); Einheilzeit 3–6 Monate; 2. Reise: Abdruck + festsitzender Zahnersatz. All price data carries "Stand MM/JJJJ" and a [VERIFY] flag.
+Different examples: all worked examples and illustrative scenarios use dental-tourism data in DentalVia register (€ amounts, price-comparison DE↔BG framing). For example: Einzelimplantat mit Krone — Deutschland ab 2.500–4.000 €, Bulgarien ab 900–1.500 € (Stand 09/2026, Beispielpreise — Tier A, no flag). Ablauf in 2 Reisen: 1. Reise: Beratung, Diagnostik, Implantation (2.–3. Tag); Einheilzeit 3–6 Monate; 2. Reise: Abdruck + festsitzender Zahnersatz. All price data carries "Stand MM/JJJJ"; flag only per verification-policy.md tiers.
 Different angle: add genuine organisational-expertise value the sources lack — the logistics perspective, the coordination detail, the patient-journey friction point, the cost transparency the others gloss over.
 Phrase hygiene: if you notice a distinctive phrase from a source surfacing in your draft, rewrite the thought from scratch.
 
@@ -70,7 +70,7 @@ Entity union coverage: [complete / gaps noted]
 Gaps closed that no source covered: ...
 Source claims excluded as dubious: ...
 Localisation adjustments: ...
-THE ARTICLE — original, complete, in German (Sie form), with [VERIFY]/[CONFLICT]/[DATA NEEDED] flags inline where applicable. All price data carries "Stand MM/JJJJ". Both compliance lines present verbatim.
+THE ARTICLE — original, complete, in German (Sie form), with [VERIFY]/[CONFLICT]/[DATA NEEDED] flags inline per reference/verification-policy.md tiers. All price data carries "Stand MM/JJJJ". Both compliance lines present verbatim.
 NOTE: DentalVia is ALWAYS editorial mode — no persona suggestion needed. Byline is determined by content-queue.md rotation (Georgi Todorov / Mario Yordanov), patient coordinator, not dentist.
 
 HARD RULES:
