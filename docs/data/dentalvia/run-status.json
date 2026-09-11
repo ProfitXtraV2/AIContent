@@ -1,18 +1,18 @@
 {
   "state": "idle",
   "run_started_utc": "2026-09-10T20:59:21Z",
-  "run_finished_utc": "2026-09-10T22:47:16Z",
+  "run_finished_utc": "2026-09-10T23:55:00Z",
   "articles_written": 3,
-  "prs_opened": [49, 50, 53],
+  "prs_opened": [
+    49,
+    50,
+    53
+  ],
   "run_url": "https://claude.ai/code/session_01FL4gb5G7yFRgYGh899oeUe",
-  "note": "daily run complete — 3 articles drafted (veneers-kosten #49, festzuschuss-bonusheft #50, zahnarztkosten-steuer #53); all flags left for human Step-6 verification",
+  "note": "top-3 batch complete: veneers (#49), festzuschuss (#50), steuer (#53); board reconciled by controller — run died before final commit",
   "progress": {
     "phase": "done",
-    "article_index": 3,
-    "article_total": 3,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "stage": null,
+    "stage_index": null
   }
 }
