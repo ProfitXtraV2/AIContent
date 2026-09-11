@@ -8,9 +8,9 @@
   "note": "recurring run 2026-09-11 (fire #9) — writing 3 distinct guides (vk-0039 Казино без регистрация, vk-0040 Starlight Princess, vk-0041 Megaways)",
   "progress": {
     "phase": "writing",
-    "article_index": 2,
+    "article_index": 3,
     "article_total": 3,
-    "article_slug": "2026-09-11-starlight-princess",
+    "article_slug": "2026-09-11-megaways-kak-rabotyat",
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 9,
-    "stage": "PR"
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
