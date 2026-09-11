@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-10T23:17:40Z",
+  "generated_utc": "2026-09-11T03:29:12Z",
   "buffer": {
-    "count": 27,
+    "count": 28,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 17,
+    "drafted": 18,
     "approved": 10,
     "posted": 10,
     "failed": 1
@@ -749,6 +749,26 @@
         "score": 17,
         "band": "Weak"
       }
+    },
+    {
+      "id": "vk-0039",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Казино без регистрация (instant play / Pay N Play): как работи",
+      "keywords_or_terms": "казино без регистрация, казино игри без регистрация, pay n play, демо режим",
+      "volume": "100",
+      "kd": "70",
+      "source": "research",
+      "drafted_date": "2026-09-11",
+      "posted_date": "",
+      "folder": "2026-09-11-kazino-bez-registraciya",
+      "pr": "#55",
+      "gemini": "human 85",
+      "notes": "concept/education guide (NO operator facts; public legal framework only — KYC задължителен по закон, НАП регистър, демо = единствената реална игра без акаунт, Pay N Play = скрита регистрация); distinct primary intent vs /blog/bezplatni-kazino-igri/ (демо) + /zakonno-li-e/ (легалност) → fold-in, not dup; honest RG-forward angle (steers to licensed+demo; red flags of unlicensed) · gate 95/100; 0 flags; Gemini HL 35→85 PASS pass 1 (human 85); PR #55; img:2 (hero 82-set, regenerated no-avatar integrity-clean + comparison infographic every cell traces to 05b; best 82, no integrity fail)",
+      "opportunity": {
+        "score": 17,
+        "band": "Weak"
+      }
     }
   ],
   "backlog": [
@@ -1411,7 +1431,7 @@
       "trend": "",
       "checked": "ahrefs",
       "suggestion": "различен механизъм (бърза игра без регистрация); нишов (~100, kd70); малък чист pillar само ако форматът реално е наличен при BG оператори",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 17,
