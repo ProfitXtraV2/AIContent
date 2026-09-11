@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""Build the generic published/ feed from approved articles. Deterministic, stdlib-only.
+"""Build the published/ feed from approved articles. Deterministic, stdlib-only.
 
-Reads VsichkiKazina/content-queue.md, selects status: approved rows, pulls each article's
-final files from its content/<folder> git branch, and writes published/<slug>/ + index.json.
-Run from repo root:  python3 scripts/build_feed.py
+Brand-aware: reads <brand>/content-queue.md, selects status: approved rows, pulls each
+article's final files from its git branch, and writes the per-brand output dir + index.json.
+Run from repo root:
+    python3 scripts/build_feed.py               # VsichkiKazina (default)
+    python3 scripts/build_feed.py dentalvia     # DentalVia → published/dentalvia/
 """
 import hashlib
 import json
@@ -19,6 +21,13 @@ import build_dashboard as bd  # reuse parse_queue
 AUTHOR = "Георги Тодоров"
 SCHEMA_VERSION = 1
 ARTICLES_DIR = "VsichkiKazina/articles"
+
+FEED_BRANDS = {
+    "vsichkikazina": {"dir": "VsichkiKazina", "out": "published",
+                      "branch_prefix": "content/", "author": AUTHOR},   # fixed VK author
+    "dentalvia":     {"dir": "DentalVia", "out": "published/dentalvia",
+                      "branch_prefix": "dv-content/", "author": None},  # None → row byline
+}
 
 
 def slug_from_folder(folder):
@@ -88,8 +97,12 @@ def opportunity_score(volume, kd):
     return int(round(vol_score + kd_score))
 
 
-def build_meta(row, draft, images):
-    """Assemble the per-article meta.json (without content_hash) from a queue row + draft."""
+def build_meta(row, draft, images, author=AUTHOR):
+    """Assemble the per-article meta.json (without content_hash) from a queue row + draft.
+
+    ``author`` defaults to the module-level AUTHOR constant (VsichkiKazina); pass
+    ``row["byline"]`` for DentalVia articles where the author comes from the queue row.
+    """
     title = draft.get("title_tag") or draft.get("h1") or row.get("query", "")
     kws = [k.strip() for k in (row.get("keywords_or_terms", "") or "").split(",") if k.strip()]
     return {
@@ -98,7 +111,7 @@ def build_meta(row, draft, images):
         "title": title,
         "meta_description": draft.get("meta_description", ""),
         "body_path": "article.md",
-        "author": AUTHOR,
+        "author": author,
         "date_published": row.get("drafted_date", ""),
         "date_modified": row.get("drafted_date", ""),
         "keywords": kws,
@@ -116,9 +129,9 @@ def content_hash(body, meta):
     return hashlib.sha256(payload.encode("utf-8")).hexdigest()
 
 
-def select_approved(queue_md):
+def select_approved(queue_md, brand="vsichkikazina"):
     """Content-queue rows that are ready to deploy: status == approved and have a folder."""
-    return [r for r in bd.parse_queue(queue_md)
+    return [r for r in bd.parse_queue(queue_md, brand=brand)
             if r.get("status", "").lower() == "approved" and r.get("folder")]
 
 
@@ -136,25 +149,27 @@ def build_index(entries):
     }
 
 
-def _ref(folder):
-    return f"origin/content/{folder}"
+def _ref(folder, branch_prefix="content/"):
+    return f"origin/{branch_prefix}{folder}"
 
 
 def _repo_root():
     return Path(__file__).resolve().parents[1]
 
 
-def read_article_md(folder):
-    """Read the 05b-final-draft.md for the given folder. Tries origin/content/<folder>
+def read_article_md(folder, articles_dir=None, branch_prefix="content/"):
+    """Read the 05b-final-draft.md for the given folder. Tries origin/<branch_prefix><folder>
     branch first; falls back to the local working tree if the branch is absent (e.g.
     after the PR was merged and the branch deleted)."""
-    ref = _ref(folder)
-    branch_path = f"{ARTICLES_DIR}/{folder}/05b-final-draft.md"
+    if articles_dir is None:
+        articles_dir = ARTICLES_DIR
+    ref = _ref(folder, branch_prefix)
+    branch_path = f"{articles_dir}/{folder}/05b-final-draft.md"
     try:
         return subprocess.run(["git", "show", f"{ref}:{branch_path}"],
                               capture_output=True, text=True, check=True).stdout
     except subprocess.CalledProcessError:
-        local = _repo_root() / ARTICLES_DIR / folder / "05b-final-draft.md"
+        local = _repo_root() / articles_dir / folder / "05b-final-draft.md"
         if not local.exists():
             raise FileNotFoundError(
                 f"Article not found on branch '{ref}' or locally at '{local}'"
@@ -162,11 +177,13 @@ def read_article_md(folder):
         return local.read_text(encoding="utf-8")
 
 
-def list_branch_images(folder):
+def list_branch_images(folder, articles_dir=None, branch_prefix="content/"):
     """List repo-relative image paths for the given folder. Tries the content branch
     first; falls back to the local working tree images/ directory."""
-    ref = _ref(folder)
-    base = f"{ARTICLES_DIR}/{folder}/images/"
+    if articles_dir is None:
+        articles_dir = ARTICLES_DIR
+    ref = _ref(folder, branch_prefix)
+    base = f"{articles_dir}/{folder}/images/"
     try:
         out = subprocess.run(["git", "ls-tree", "-r", "--name-only", ref, "--", base],
                              capture_output=True, text=True, check=True).stdout
@@ -176,19 +193,19 @@ def list_branch_images(folder):
     except subprocess.CalledProcessError:
         pass
     # Fallback: read from local images/ directory
-    local_images = _repo_root() / ARTICLES_DIR / folder / "images"
+    local_images = _repo_root() / articles_dir / folder / "images"
     if not local_images.is_dir():
         return []
     return [
-        f"{ARTICLES_DIR}/{folder}/images/{p.name}"
+        f"{articles_dir}/{folder}/images/{p.name}"
         for p in sorted(local_images.iterdir())
         if p.is_file()
     ]
 
 
-def read_branch_bytes(folder, repo_rel_path):
+def read_branch_bytes(folder, repo_rel_path, branch_prefix="content/"):
     """Read a file's bytes from the content branch, falling back to the local working tree."""
-    ref = _ref(folder)
+    ref = _ref(folder, branch_prefix)
     try:
         return subprocess.run(["git", "show", f"{ref}:{repo_rel_path}"],
                               capture_output=True, check=True).stdout  # bytes (no text=True)
@@ -211,9 +228,19 @@ def _existing_hash(slug_dir):
     return None
 
 
-def write_feed(entries, out_root):
-    """Write published/<slug>/{article.md,meta.json,images/*} + index.json. Idempotent:
-    an article whose content_hash is unchanged is skipped (no needless churn)."""
+def write_feed(entries, out_root, _list_images=None, _read_bytes=None):
+    """Write <out_root>/<slug>/{article.md,meta.json,images/*} + index.json. Idempotent:
+    an article whose content_hash is unchanged is skipped (no needless churn).
+
+    ``_list_images(folder)`` and ``_read_bytes(folder, repo_rel_path)`` are optional
+    callable overrides — defaults resolve to the module-level ``list_branch_images`` /
+    ``read_branch_bytes`` so that test monkeypatching of those module-level names works
+    transparently.  Pass brand-aware bound functions from ``main`` for non-VK brands.
+    """
+    if _list_images is None:
+        _list_images = list_branch_images
+    if _read_bytes is None:
+        _read_bytes = read_branch_bytes
     out_root.mkdir(parents=True, exist_ok=True)
     for e in entries:
         meta, body, folder = e["meta"], e["body"], e["folder"]
@@ -225,7 +252,7 @@ def write_feed(entries, out_root):
         (slug_dir / "meta.json").write_text(
             json.dumps(meta, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         # Images are expected to be flat within images/ — check for basename collisions.
-        image_paths = list_branch_images(folder)
+        image_paths = _list_images(folder)
         seen_basenames: dict[str, str] = {}
         for repo_path in image_paths:
             basename = Path(repo_path).name
@@ -235,29 +262,53 @@ def write_feed(entries, out_root):
                     f"'{seen_basenames[basename]}' and '{repo_path}' both resolve to '{basename}'"
                 )
             seen_basenames[basename] = repo_path
-            (slug_dir / "images" / basename).write_bytes(
-                read_branch_bytes(folder, repo_path))
+            (slug_dir / "images" / basename).write_bytes(_read_bytes(folder, repo_path))
     index = build_index(entries)
     index["generated_utc"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     (out_root / "index.json").write_text(
         json.dumps(index, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def main():
+def main(argv=None):
+    """Entry point. Optional positional arg: brand name (default: vsichkikazina).
+
+    Examples::
+
+        python3 scripts/build_feed.py                  # VsichkiKazina (default)
+        python3 scripts/build_feed.py dentalvia        # DentalVia
+    """
+    if argv is None:
+        argv = sys.argv[1:]
+    brand = argv[0] if argv else "vsichkikazina"
+    if brand not in FEED_BRANDS:
+        print(f"error: unknown brand '{brand}'. Choose from: {', '.join(FEED_BRANDS)}",
+              file=sys.stderr)
+        sys.exit(1)
+    cfg = FEED_BRANDS[brand]
+    articles_dir = f"{cfg['dir']}/articles"
+    branch_prefix = cfg["branch_prefix"]
     root = Path(__file__).resolve().parents[1]
-    queue = (root / "VsichkiKazina" / "content-queue.md").read_text(encoding="utf-8")
+    queue = (root / cfg["dir"] / "content-queue.md").read_text(encoding="utf-8")
     entries = []
-    for row in select_approved(queue):
+    for row in select_approved(queue, brand=brand):
         folder = row["folder"]
-        draft = parse_final_draft(read_article_md(folder))
+        author = cfg["author"] if cfg["author"] is not None else row.get("byline", "")
+        draft = parse_final_draft(
+            read_article_md(folder, articles_dir=articles_dir, branch_prefix=branch_prefix))
         images = extract_images(draft["body"])
-        meta = build_meta(row, draft, images)
+        meta = build_meta(row, draft, images, author=author)
         meta["content_hash"] = content_hash(draft["body"], meta)
         entries.append({"meta": meta, "body": draft["body"], "folder": folder})
-    write_feed(entries, root / "published")
-    print(f"feed: {len(entries)} approved article(s) written to published/")
+    out_root = root / cfg["out"]
+    # Bind brand-specific image/byte helpers so write_feed stays monkeypatch-friendly.
+    _list_imgs = lambda folder: list_branch_images(  # noqa: E731
+        folder, articles_dir=articles_dir, branch_prefix=branch_prefix)
+    _read_bts = lambda folder, path: read_branch_bytes(  # noqa: E731
+        folder, path, branch_prefix=branch_prefix)
+    write_feed(entries, out_root, _list_images=_list_imgs, _read_bytes=_read_bts)
+    print(f"feed: {len(entries)} approved article(s) written to {cfg['out']}/")
     return 0
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.exit(main(sys.argv[1:]))

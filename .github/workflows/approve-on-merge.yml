@@ -6,7 +6,7 @@ permissions:
   contents: write
 jobs:
   approve:
-    if: github.event.pull_request.merged == true && startsWith(github.event.pull_request.head.ref, 'content/')
+    if: github.event.pull_request.merged == true && (startsWith(github.event.pull_request.head.ref, 'content/') || startsWith(github.event.pull_request.head.ref, 'dv-content/'))
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -18,16 +18,27 @@ jobs:
           BRANCH: ${{ github.event.pull_request.head.ref }}
         run: |
           set -euo pipefail
-          FOLDER="${BRANCH#content/}"
-          echo "Approving folder: $FOLDER"
           git fetch origin -q || true
-          python3 scripts/mark_approved.py "$FOLDER"
-          python3 scripts/build_feed.py
-          python3 scripts/build_dashboard.py
-          git config user.name "VK Approver"
-          git config user.email "approver@vsichkikazina.local"
-          git add VsichkiKazina/content-queue.md || true
-          git add docs/data published/ 2>/dev/null || true
+          if [[ "$BRANCH" == dv-content/* ]]; then
+            FOLDER="${BRANCH#dv-content/}"; BRAND=dentalvia
+            echo "Approving DentalVia folder: $FOLDER"
+            python3 scripts/mark_approved.py "$FOLDER" --brand dentalvia
+            python3 scripts/build_feed.py dentalvia
+            python3 scripts/build_dashboard.py dentalvia
+            git config user.name "DV Approver"
+            git config user.email "approver@dentalvia.local"
+            git add DentalVia/content-queue.md docs/data published/ 2>/dev/null || true
+          else
+            FOLDER="${BRANCH#content/}"; BRAND=vsichkikazina
+            echo "Approving folder: $FOLDER"
+            python3 scripts/mark_approved.py "$FOLDER"
+            python3 scripts/build_feed.py
+            python3 scripts/build_dashboard.py
+            git config user.name "VK Approver"
+            git config user.email "approver@vsichkikazina.local"
+            git add VsichkiKazina/content-queue.md || true
+            git add docs/data published/ 2>/dev/null || true
+          fi
           git commit -m "board($FOLDER): approve on PR merge -> feed" \
             && (git push || (git pull --no-rebase --no-edit && git push)) \
             || echo "nothing to approve (already approved/posted)"
