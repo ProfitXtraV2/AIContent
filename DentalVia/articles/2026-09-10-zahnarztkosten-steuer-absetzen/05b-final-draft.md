@@ -12,11 +12,11 @@ Absetzbar ist nur, was medizinisch notwendig ist. Kronen, Brücken, Prothesen, I
 
 ## Nur der selbst getragene Anteil zählt
 
-Steuerlich zählt allein der Anteil, den Sie am Ende wirklich selbst getragen haben. Vom Rechnungsbetrag der [LINK: Behandlungskosten → /kosten/] geht deshalb zuerst alles ab, was zurückfließt. Dazu gehört der Festzuschuss der gesetzlichen Krankenkasse, ebenso alles, was eine private Krankenversicherung oder Zahnzusatzversicherung erstattet, und schließlich jede sonstige Kostenübernahme. Was danach übrig bleibt, ist Ihr Eigenanteil, und mit diesem Betrag rechnen alle weiteren Schritte.
+Steuerlich zählt allein der Anteil, den Sie am Ende wirklich selbst getragen haben. Vom Rechnungsbetrag der [LINK: Behandlungskosten → /kosten/] geht deshalb zuerst alles ab, was zurückfließt. Das betrifft den Festzuschuss der gesetzlichen Krankenkasse. Genauso zählt, was eine private Krankenversicherung oder Zahnzusatzversicherung erstattet, und ebenso jede sonstige Kostenübernahme. Was danach übrig bleibt, ist Ihr Eigenanteil, und mit diesem Betrag rechnen alle weiteren Schritte.
 
 ## Die Grenze der zumutbaren Belastung
 
-Nicht der gesamte Eigenanteil senkt die Steuer, sondern nur der Teil, der Ihre persönliche zumutbare Belastung übersteigt. Diese Schwelle liegt je nach Fall zwischen 1 und 7 % des Gesamtbetrags Ihrer Einkünfte und ist nach drei Einkommensstufen sowie nach Familienstand und Kinderzahl gestaffelt. Je nach Familienstand und Einkommen bewegt sich der Satz zwischen diesen Beispielwerten:
+Nicht der gesamte Eigenanteil senkt die Steuer, sondern nur der Teil, der Ihre persönliche zumutbare Belastung übersteigt. Diese Schwelle liegt je nach Fall zwischen 1 und 7 % des Gesamtbetrags Ihrer Einkünfte und ist nach drei Einkommensstufen sowie nach Familienstand und Kinderzahl gestaffelt. Wie hoch er im Einzelfall ausfällt, richtet sich nach Familienstand und Einkommen; die folgenden Beispielwerte zeigen die Spannweite:
 
 | Situation | Einkommensstufe | Beispiel-Satz |
 |---|---|---|
@@ -45,9 +45,9 @@ Das Finanzamt erkennt nur an, was Sie belegen können. Bewahren Sie Rechnungen, 
 
 Eine medizinisch notwendige Zahnbehandlung im Ausland behandelt das deutsche Finanzamt grundsätzlich wie eine Behandlung in Deutschland: Auch sie lässt sich als außergewöhnliche Belastung geltend machen [VERIFY: Auslandsbehandlung deutsche Rechtslage/BFH]. Anrechenbar sind neben den reinen Behandlungskosten auch notwendige Reise- und gegebenenfalls Übernachtungskosten, sofern sie im Zusammenhang mit der Behandlung stehen und sich nachweisen lassen [VERIFY].
 
-Im Auslandsfall wiegt der Nachweis der Notwendigkeit besonders schwer. In der täglichen Koordination bewährt sich ein festes Vorgehen: die Behandlung vorab dokumentieren lassen, die Rechnung der Klinik, die Zahlungsbelege und den Behandlungsplan sammeln und festhalten, welche Reisekosten tatsächlich für die Behandlung angefallen sind. Fremdsprachige Belege lassen Sie bei Bedarf übersetzen. Planen Sie eine mehrstufige Behandlung in zwei Reisen, gilt wieder die Bündelung: Für sie zählt allein, in welchem Kalenderjahr Sie zahlen.
+Bei einer Behandlung im Ausland schaut das Finanzamt beim Nachweis der Notwendigkeit genauer hin. In der täglichen Koordination bewährt sich ein festes Vorgehen: die Behandlung vorab dokumentieren lassen, die Rechnung der Klinik, die Zahlungsbelege und den Behandlungsplan sammeln und festhalten, welche Reisekosten tatsächlich für die Behandlung angefallen sind. Fremdsprachige Belege lassen Sie bei Bedarf übersetzen. Planen Sie eine mehrstufige Behandlung in zwei Reisen, gilt wieder die Bündelung: Für sie zählt allein, in welchem Kalenderjahr Sie zahlen.
 
-Vor der Behandlung lohnt zusätzlich der Blick auf den [LINK: Kassen-Zuschuss für Zahnersatz im Ausland → /ratgeber/zahnersatz-ausland-zuschuss-krankenkasse/]. Was die gesetzliche Krankenkasse übernimmt, mindert Ihren Eigenanteil und damit den Betrag, den Sie absetzen können. Klären Sie den Heil- und Kostenplan deshalb schon vor Behandlungsbeginn mit Ihrer Krankenkasse. Bleibt danach ein größerer Eigenanteil, lässt er sich bei Bedarf auch [LINK: in Raten finanzieren → /finanzierung/].
+Vor der Behandlung lohnt zusätzlich der Blick auf den [LINK: Kassen-Zuschuss für Zahnersatz im Ausland → /ratgeber/zahnersatz-ausland-zuschuss-krankenkasse/]. Was die gesetzliche Krankenkasse übernimmt, mindert Ihren Eigenanteil und damit den Betrag, den Sie absetzen können. Klären Sie den Heil- und Kostenplan deshalb schon vor Behandlungsbeginn mit Ihrer Krankenkasse. Was danach an Eigenanteil übrig bleibt, lässt sich bei größeren Beträgen [LINK: in Raten finanzieren → /finanzierung/].
 
 ## Im Zweifel fragen
 
