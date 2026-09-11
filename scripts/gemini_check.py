@@ -6,7 +6,7 @@ article to Gemini with the Step-7 prompt and prints Gemini's raw verdict + recom
 to stdout. The caller (daily-run.md Step 7) reads the verdict, decides whether to apply the
 recommendations through a fresh Humaniser pass, and re-checks.
 
-Usage:  python3 scripts/gemini_check.py <article_file> [model]
+Usage:  python3 scripts/gemini_check.py <article_file> [model] [--brand dentalvia]
 Exit:   0 = ok (verdict on stdout) · 2 = unavailable/error (caller falls back to skip)
 
 stdlib-only (urllib) so no pip is needed in the cloud image.
@@ -22,13 +22,21 @@ from pathlib import Path
 DEFAULT_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.1-pro-preview")
 API_TMPL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 
-PROMPT_FILE = Path(__file__).resolve().parents[1] / \
-    "VsichkiKazina/pipeline/prompts/step-7-gemini-check.md"
+BRAND_PROMPTS = {
+    "vsichkikazina": "VsichkiKazina/pipeline/prompts/step-7-gemini-check.md",
+    "dentalvia": "DentalVia/pipeline/prompts/step-7-gemini-check.md",
+}
 
 
-def _prompt():
-    """Extract the verbatim PROMPT block from the Step-7 prompt file."""
-    text = PROMPT_FILE.read_text(encoding="utf-8")
+def prompt_file(brand="vsichkikazina"):
+    if brand not in BRAND_PROMPTS:
+        sys.exit(f"unknown brand {brand!r} — must be one of: {', '.join(BRAND_PROMPTS)}")
+    return Path(__file__).resolve().parents[1] / BRAND_PROMPTS[brand]
+
+
+def _prompt(brand="vsichkikazina"):
+    """Extract the verbatim PROMPT block from the brand's Step-7 prompt file."""
+    text = prompt_file(brand).read_text(encoding="utf-8")
     marker = "## PROMPT (verbatim"
     if marker in text:
         body = text.split(marker, 1)[1].split("\n", 1)[1]
@@ -46,15 +54,24 @@ def main():
     if not key:
         print("GEMINI_UNAVAILABLE: GEMINI_API_KEY not set", file=sys.stderr)
         return 2
-    if len(sys.argv) < 2:
-        print("usage: gemini_check.py <article_file> [model]", file=sys.stderr)
+    args = list(sys.argv[1:])
+    brand = "vsichkikazina"
+    if "--brand" in args:
+        i = args.index("--brand")
+        if i + 1 >= len(args):
+            print("usage: gemini_check.py <article_file> [model] [--brand <brand>]", file=sys.stderr)
+            return 2
+        brand = args[i + 1].lower()
+        del args[i:i + 2]
+    if not args:
+        print("usage: gemini_check.py <article_file> [model] [--brand <brand>]", file=sys.stderr)
         return 2
-    model = sys.argv[2] if len(sys.argv) > 2 else DEFAULT_MODEL
-    article = Path(sys.argv[1]).read_text(encoding="utf-8")
+    model = args[1] if len(args) > 1 else DEFAULT_MODEL
+    article = Path(args[0]).read_text(encoding="utf-8")
 
     url = API_TMPL.format(model=model)
     payload = json.dumps({
-        "contents": [{"parts": [{"text": _prompt() + "\n\n---ARTICLE---\n\n" + article}]}],
+        "contents": [{"parts": [{"text": _prompt(brand) + "\n\n---ARTICLE---\n\n" + article}]}],
         "generationConfig": {"temperature": 0.2},
     }).encode("utf-8")
     req = urllib.request.Request(
