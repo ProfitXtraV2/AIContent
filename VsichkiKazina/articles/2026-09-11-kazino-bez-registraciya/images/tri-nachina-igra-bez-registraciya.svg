@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 452" font-family="'DejaVu Sans','Segoe UI',Arial,sans-serif" role="img" aria-label="Сравнение на три начина да играеш: демо без регистрация, лицензирано казино с регистрация и нелицензиран сайт без регистрация">
+  <rect x="8" y="8" width="764" height="436" rx="16" fill="#faf9fc" stroke="#e3e0ec" stroke-width="1.5"/>
+  <text x="28" y="44" font-size="21" font-weight="700" fill="#241b46">Три начина да стигнеш до игрите</text>
+  <text x="28" y="68" font-size="13" fill="#6b6580">Само лицензираното казино дава реална игра със защита от НАП.</text>
+
+  <!-- column header tints -->
+  <rect x="284" y="86" width="120" height="52" rx="8" fill="#eceaf3"/>
+  <rect x="444" y="86" width="120" height="52" rx="8" fill="#e3f4ea"/>
+  <rect x="604" y="86" width="120" height="52" rx="8" fill="#fbe9e7"/>
+
+  <text x="344" y="110" font-size="15" font-weight="700" fill="#3a3358" text-anchor="middle">Демо</text>
+  <text x="344" y="128" font-size="11.5" fill="#6b6580" text-anchor="middle">безплатна игра</text>
+  <text x="504" y="110" font-size="15" font-weight="700" fill="#1f7a4d" text-anchor="middle">Лицензирано</text>
+  <text x="504" y="128" font-size="11.5" fill="#6b6580" text-anchor="middle">с регистрация</text>
+  <text x="664" y="110" font-size="14" font-weight="700" fill="#b23a2e" text-anchor="middle">Нелицензирано</text>
+  <text x="664" y="128" font-size="11.5" fill="#6b6580" text-anchor="middle">„без регистрация"</text>
+
+  <line x1="28" y1="150" x2="752" y2="150" stroke="#e3e0ec" stroke-width="1.5"/>
+
+  <!-- rows -->
+  <g font-size="13.5" fill="#241b46">
+    <text x="28" y="186">Реални залози и печалби</text>
+    <text x="28" y="238">Регистрация и KYC</text>
+    <text x="28" y="290">Лиценз от НАП</text>
+    <text x="28" y="342">Защита и самоизключване</text>
+    <text x="28" y="394">Правен изход при спор</text>
+  </g>
+  <g font-size="14" font-weight="700" text-anchor="middle">
+    <!-- Демо -->
+    <text x="344" y="186" fill="#8a8499">Не</text>
+    <text x="344" y="238" fill="#8a8499">Не</text>
+    <text x="344" y="290" fill="#8a8499">—</text>
+    <text x="344" y="342" fill="#8a8499">—</text>
+    <text x="344" y="394" fill="#8a8499">—</text>
+    <!-- Лицензирано -->
+    <text x="504" y="186" fill="#1f7a4d">Да</text>
+    <text x="504" y="238" fill="#1f7a4d">Да</text>
+    <text x="504" y="290" fill="#1f7a4d">Да</text>
+    <text x="504" y="342" fill="#1f7a4d">Да</text>
+    <text x="504" y="394" fill="#1f7a4d">Да</text>
+    <!-- Нелицензирано -->
+    <text x="664" y="186" fill="#b23a2e">Да</text>
+    <text x="664" y="238" fill="#b23a2e">Не</text>
+    <text x="664" y="290" fill="#b23a2e">Не</text>
+    <text x="664" y="342" fill="#b23a2e">Не</text>
+    <text x="664" y="394" fill="#b23a2e">Не</text>
+  </g>
+  <g stroke="#eeecf3" stroke-width="1">
+    <line x1="28" y1="202" x2="752" y2="202"/>
+    <line x1="28" y1="254" x2="752" y2="254"/>
+    <line x1="28" y1="306" x2="752" y2="306"/>
+    <line x1="28" y1="358" x2="752" y2="358"/>
+  </g>
+
+  <text x="28" y="430" font-size="11" fill="#8a8499">18+ Играйте отговорно · Демо е без реални печалби. Реалната игра при лицензиран оператор изисква регистрация.</text>
+</svg>
