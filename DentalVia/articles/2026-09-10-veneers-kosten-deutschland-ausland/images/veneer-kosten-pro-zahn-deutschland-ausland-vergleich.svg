@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" font-family="Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="Keramik-Veneer pro Zahn: Startpreise in Deutschland und im Ausland, Beispielwerte Stand 09/2026">
+  <rect x="4" y="4" width="752" height="392" rx="14" fill="#f7f9fb" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="24" y="40" font-size="19" font-weight="700" fill="#0f172a">Keramik-Veneer pro Zahn im Ländervergleich</text>
+  <text x="24" y="63" font-size="12.5" fill="#64748b">Balken = Startpreis (ab ca.). Beispielwerte &#183; Stand 09/2026</text>
+
+  <!-- rows: y baseline for label, bar centered on same line -->
+  <!-- scale: 350 px = 1500 €, bar start x=206 -->
+  <!-- Türkei 250 -> 58 -->
+  <g font-size="13">
+    <text x="196" y="115" text-anchor="end" fill="#334155">Türkei</text>
+    <rect x="206" y="103" width="58" height="20" rx="3" fill="#14a3a0"/>
+    <text x="272" y="118" fill="#0f172a">ab ca. 250–350 €</text>
+
+    <text x="196" y="155" text-anchor="end" fill="#334155">Ungarn</text>
+    <rect x="206" y="143" width="58" height="20" rx="3" fill="#14a3a0"/>
+    <text x="272" y="158" fill="#0f172a">ab ca. 250–350 € <tspan fill="#64748b" font-size="11">(teils bis 800 €)</tspan></text>
+
+    <text x="196" y="195" text-anchor="end" fill="#334155">Polen</text>
+    <rect x="206" y="183" width="77" height="20" rx="3" fill="#14a3a0"/>
+    <text x="291" y="198" fill="#0f172a">ab ca. 330–550 €</text>
+
+    <text x="196" y="235" text-anchor="end" fill="#334155">Kroatien / Tschechien</text>
+    <rect x="206" y="223" width="82" height="20" rx="3" fill="#14a3a0"/>
+    <text x="296" y="238" fill="#0f172a">ab ca. 350–580 €</text>
+
+    <text x="196" y="275" text-anchor="end" fill="#334155">Sofia (Bulgarien)</text>
+    <rect x="206" y="263" width="82" height="20" rx="3" fill="#0d7c7a"/>
+    <text x="296" y="278" fill="#0f172a">ab ca. 350–500 €</text>
+
+    <text x="196" y="315" text-anchor="end" fill="#334155">Deutschland (Referenz)</text>
+    <rect x="206" y="303" width="163" height="20" rx="3" fill="#e08a3c"/>
+    <text x="377" y="318" fill="#0f172a">ab ca. 700–1.500 €</text>
+  </g>
+
+  <line x1="206" y1="336" x2="556" y2="336" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="24" y="360" font-size="11" fill="#94a3b8">Sofia (Bulgarien) hervorgehoben; Deutschland als Referenzwert. Alle Preise sind Beispielwerte</text>
+  <text x="24" y="378" font-size="11" fill="#94a3b8">und müssen vor jeder Entscheidung als aktueller Kostenvoranschlag geprüft werden.</text>
+</svg>
