@@ -25,28 +25,28 @@
   <text x="138" y="94" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#15803d" font-weight="600" text-anchor="end">по подразбиране</text>
   <rect x="150" y="80" width="410" height="22" rx="5" fill="#e5e7eb"/>
   <rect x="150" y="80" width="391" height="22" rx="5" fill="url(#hi)"/>
-  <text x="549" y="96" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="800" fill="#15803d" text-anchor="start">96.21%</text>
+  <text x="570" y="96" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="800" fill="#15803d" text-anchor="start">96.21%</text>
 
   <!-- Row 2: 94.25% -> (14.25/17)*410 = 344 -->
   <rect x="150" y="120" width="410" height="22" rx="5" fill="#e5e7eb"/>
   <rect x="150" y="120" width="344" height="22" rx="5" fill="url(#lo)"/>
-  <text x="502" y="136" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="800" fill="#b45309" text-anchor="start">94.25%</text>
+  <text x="570" y="136" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="800" fill="#b45309" text-anchor="start">94.25%</text>
 
   <!-- Row 3: 91.25% -> (11.25/17)*410 = 271 -->
   <rect x="150" y="160" width="410" height="22" rx="5" fill="#e5e7eb"/>
   <rect x="150" y="160" width="271" height="22" rx="5" fill="url(#lo)"/>
-  <text x="429" y="176" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="800" fill="#b45309" text-anchor="start">91.25%</text>
+  <text x="570" y="176" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="800" fill="#b45309" text-anchor="start">91.25%</text>
 
   <!-- Row 4: 87.25% -> (7.25/17)*410 = 175 -->
   <rect x="150" y="200" width="410" height="22" rx="5" fill="#e5e7eb"/>
   <rect x="150" y="200" width="175" height="22" rx="5" fill="url(#lo)"/>
-  <text x="333" y="216" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="800" fill="#b45309" text-anchor="start">87.25%</text>
+  <text x="570" y="216" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="800" fill="#b45309" text-anchor="start">87.25%</text>
 
   <!-- Row 5: 84.18% -> (4.18/17)*410 = 101 -->
   <text x="138" y="254" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#b45309" font-weight="600" text-anchor="end">най-ниска</text>
   <rect x="150" y="240" width="410" height="22" rx="5" fill="#e5e7eb"/>
   <rect x="150" y="240" width="101" height="22" rx="5" fill="url(#lo)"/>
-  <text x="259" y="256" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="800" fill="#b45309" text-anchor="start">84.18%</text>
+  <text x="570" y="256" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="800" fill="#b45309" text-anchor="start">84.18%</text>
 
   <line x1="60" y1="292" x2="580" y2="292" stroke="#d1d5db" stroke-width="1"/>
   <text x="320" y="314" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">Само версията с 96.21% е над средното за модерните слотове (~96%) · източник: SlotCatalog</text>
