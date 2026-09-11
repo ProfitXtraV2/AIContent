@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 10,
+  "count": 9,
   "articles": [
     {
       "slug": "kak-se-igrae-poker-kazino",
@@ -31,13 +31,6 @@
       "status": "approved"
     },
     {
-      "slug": "20-super-hot",
-      "title": "20 Super Hot: RTP и характеристики (EGT/Amusnet)",
-      "date_modified": "2026-09-08",
-      "content_hash": "e2eeed6dc0ccbbc276c58de99b820908d2beef93de1041db351247ddcb38dd2c",
-      "status": "approved"
-    },
-    {
       "slug": "gates-of-olympus",
       "title": "Gates of Olympus: RTP, волатилност и как се играе",
       "date_modified": "2026-09-09",
@@ -62,7 +55,7 @@
       "slug": "the-dog-house",
       "title": "The Dog House: RTP, волатилност и как се играе",
       "date_modified": "2026-09-10",
-      "content_hash": "a105961dc21aa3b7a0f5020d7b6c45627a8b6bc4ef1caa78420a11d030405c51",
+      "content_hash": "6b846c2d4f651fcc109aa809bbdfd1e9e82e8833aff1d75779f6d72c881496e3",
       "status": "approved"
     },
     {
@@ -73,5 +66,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-09-11T03:48:16Z"
+  "generated_utc": "2026-09-11T06:41:29Z"
 }
