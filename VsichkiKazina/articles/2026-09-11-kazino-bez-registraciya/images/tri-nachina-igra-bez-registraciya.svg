@@ -4,9 +4,9 @@
   <text x="28" y="68" font-size="13" fill="#6b6580">Само лицензираното казино дава реална игра със защита от НАП.</text>
 
   <!-- column header tints -->
-  <rect x="284" y="86" width="120" height="52" rx="8" fill="#eceaf3"/>
-  <rect x="444" y="86" width="120" height="52" rx="8" fill="#e3f4ea"/>
-  <rect x="604" y="86" width="120" height="52" rx="8" fill="#fbe9e7"/>
+  <rect x="278" y="86" width="132" height="52" rx="8" fill="#eceaf3"/>
+  <rect x="438" y="86" width="132" height="52" rx="8" fill="#e3f4ea"/>
+  <rect x="598" y="86" width="132" height="52" rx="8" fill="#fbe9e7"/>
 
   <text x="344" y="110" font-size="15" font-weight="700" fill="#3a3358" text-anchor="middle">Демо</text>
   <text x="344" y="128" font-size="11.5" fill="#6b6580" text-anchor="middle">безплатна игра</text>
