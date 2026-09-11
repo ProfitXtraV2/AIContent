@@ -5,12 +5,12 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01B5cheLmE15rkX5XuNrqk1e",
-  "note": "recurring run 2026-09-11 (fire #9) started — guides-only autopilot; reconciling then selecting up to 3 new distinct guides from research bank",
+  "note": "recurring run 2026-09-11 (fire #9) — writing 3 distinct guides (vk-0039 Казино без регистрация, vk-0040 Starlight Princess, vk-0041 Megaways)",
   "progress": {
-    "phase": "selecting",
-    "article_index": null,
-    "article_total": null,
-    "article_slug": null,
+    "phase": "writing",
+    "article_index": 1,
+    "article_total": 3,
+    "article_slug": "2026-09-11-kazino-bez-registraciya",
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": null,
-    "stage": null
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
