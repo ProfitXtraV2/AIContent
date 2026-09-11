@@ -8,13 +8,13 @@ Der Betrag, den die gesetzliche Krankenkasse zum Zahnersatz beisteuert, richtet 
 
 ## Der Festzuschuss folgt dem Befund, nicht der Rechnung
 
-Seit 2005 läuft die gesetzliche Zahnersatzversorgung in Deutschland über den befundorientierten Festzuschuss, geregelt in § 55 SGB V [VERIFY]. Für jeden Befund, für jede Lücke und jeden geschädigten Zahn also, legt die Kasse eine Regelversorgung fest. Das ist die wirtschaftlich ausreichende Standardlösung, mit der sich der Befund zweckmäßig und dauerhaft versorgen lässt. Den Maßstab bildet diese zweckmäßige Versorgung. Die teuerste denkbare Variante bleibt außen vor.
+Seit 2005 läuft die gesetzliche Zahnersatzversorgung in Deutschland über den befundorientierten Festzuschuss, geregelt in § 55 SGB V. Für jeden Befund, für jede Lücke und jeden geschädigten Zahn also, legt die Kasse eine Regelversorgung fest. Das ist die wirtschaftlich ausreichende Standardlösung, mit der sich der Befund zweckmäßig und dauerhaft versorgen lässt. Den Maßstab bildet diese zweckmäßige Versorgung. Die teuerste denkbare Variante bleibt außen vor.
 
 An den durchschnittlichen Kosten dieser Regelversorgung bemisst sich Ihr Zuschuss. Sobald Ihr Befund feststeht, ist auch die Höhe des Zuschusses fixiert, egal für welche Versorgung Sie sich danach entscheiden. Wählen Sie etwas Aufwendigeres als die Regelversorgung, überweist die Kasse trotzdem nur den befundbezogenen Festzuschuss. Alles, was darüber liegt, zahlen Sie als Eigenanteil selbst.
 
 ## Das Bonusheft: 60, 70 oder 75 Prozent
 
-Wie groß der Anteil ausfällt, den die Kasse an der Regelversorgung übernimmt, hängt von Ihrem Bonusheft ab. Ohne Heft oder mit Lücken bleibt es bei 60 % der durchschnittlichen Kosten der Regelversorgung [VERIFY]. Fünf Jahre lückenlos geführtes Heft heben den Anteil auf 70 % [VERIFY], nach zehn lückenlosen Jahren sind es 75 % [VERIFY].
+Wie groß der Anteil ausfällt, den die Kasse an der Regelversorgung übernimmt, hängt von Ihrem Bonusheft ab. Ohne Heft oder mit Lücken bleibt es bei 60 % der durchschnittlichen Kosten der Regelversorgung. Fünf Jahre lückenlos geführtes Heft heben den Anteil auf 70 %, nach zehn lückenlosen Jahren sind es 75 %.
 
 Für Versicherte mit geringem Einkommen greift zusätzlich die Härtefallregelung. Der Festzuschuss verdoppelt sich dann und kann bis zu 100 % der Regelversorgung erreichen [VERIFY]. Ob Sie die maßgebliche Einkommensgrenze erreichen, entscheidet allein Ihre Krankenkasse anhand fester Grenzwerte.
 
@@ -30,9 +30,9 @@ Die folgenden Beispielwerte (Stand 2026) machen die Größenordnung greifbar; ve
 
 | Befund | Regelversorgung | Festzuschuss 60 % | Festzuschuss 70 % | Festzuschuss 75 % |
 |---|---|---|---|---|
-| Einzelkrone | rund 280 € [VERIFY] | 168 € [VERIFY] | 196 € [VERIFY] | 210 € [VERIFY] |
-| Dreigliedrige Brücke | rund 530 € [VERIFY] | 318 € [VERIFY] | 371 € [VERIFY] | 398 € [VERIFY] |
-| Vollprothese (je Kiefer) | rund 500 € [VERIFY] | 300 € [VERIFY] | 350 € [VERIFY] | 375 € [VERIFY] |
+| Einzelkrone | rund 280 € | 168 € | 196 € | 210 € |
+| Dreigliedrige Brücke | rund 530 € | 318 € | 371 € | 398 € |
+| Vollprothese (je Kiefer) | rund 500 € | 300 € | 350 € | 375 € |
 
 ![Tabellen-Grafik der Festzuschuss-Beispielbeträge 2026 nach Bonusheft: Einzelkrone Regelversorgung rund 280 €, Festzuschuss 168 € (60 %), 196 € (70 %), 210 € (75 %); dreigliedrige Brücke rund 530 € → 318/371/398 €; Vollprothese je Kiefer rund 500 € → 300/350/375 €. Beispielwerte, Stand 2026.](images/festzuschuss-2026-beispielbetraege-bonusheft.svg)
 *Festzuschuss nach Bonusheft (60/70/75 % der Regelversorgung), Beispielwerte Stand 2026.*
@@ -45,7 +45,7 @@ Wie hoch Ihr Eigenanteil ausfällt, hängt davon ab, welchen Versorgungsweg Sie 
 
 Was Sie selbst tragen, folgt einer einzigen Rechnung: die [LINK: Gesamtkosten der gewählten Versorgung → /kosten/] minus Festzuschuss ergeben Ihren Eigenanteil.
 
-Ein Beispiel: Für eine einzelne Zahnlücke sieht die Regelversorgung eine dreigliedrige Brücke vor, und Ihr Bonusheft steht bei zehn lückenlosen Jahren. Der Festzuschuss liegt dann bei rund 398 € (75 %, Beispielwert Stand 2026) [VERIFY]. Sie entscheiden sich stattdessen für ein Implantat, also für eine andersartige Versorgung. Am Zuschuss ändert das nichts, er bleibt bei 398 € [VERIFY]. Kostet [LINK: das Implantat samt Krone → /ratgeber/was-kostet-ein-zahnimplantat/] in Deutschland beispielsweise 2.200 € (Beispielwert Stand 2026) [VERIFY], bleibt ein Eigenanteil von rund 1.802 € [VERIFY]. Wird die Behandlung günstiger, sinkt Ihr Eigenanteil im gleichen Maß, während der Zuschuss unangetastet bleibt. Sobald der Preis der gewählten Versorgung feststeht, steht auch Ihr Eigenanteil fest und lässt sich bei Bedarf [LINK: in Raten finanzieren → /finanzierung/].
+Ein Beispiel: Für eine einzelne Zahnlücke sieht die Regelversorgung eine dreigliedrige Brücke vor, und Ihr Bonusheft steht bei zehn lückenlosen Jahren. Der Festzuschuss liegt dann bei rund 398 € (75 %, Beispielwert Stand 2026). Sie entscheiden sich stattdessen für ein Implantat, also für eine andersartige Versorgung. Am Zuschuss ändert das nichts, er bleibt bei 398 €. Kostet [LINK: das Implantat samt Krone → /ratgeber/was-kostet-ein-zahnimplantat/] in Deutschland beispielsweise 2.200 € (Beispielwert Stand 2026), bleibt ein Eigenanteil von rund 1.802 €. Wird die Behandlung günstiger, sinkt Ihr Eigenanteil im gleichen Maß, während der Zuschuss unangetastet bleibt. Sobald der Preis der gewählten Versorgung feststeht, steht auch Ihr Eigenanteil fest und lässt sich bei Bedarf [LINK: in Raten finanzieren → /finanzierung/].
 
 ## Erst der Heil- und Kostenplan, dann die Behandlung
 
