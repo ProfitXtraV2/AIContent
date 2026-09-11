@@ -111,3 +111,31 @@ None. All `posted` rows are rated human 85–90; none edited (live content untou
 ### Deferred (over nightly cap of 10)
 None — only 5 targets qualified (status ∈ {drafted, approved} AND `ai <n>` or
 `human <n>` with n<80); all processed this run.
+
+## 2026-09-11 — nightly flag+score fixes
+
+### Job A — publish-blocking flags resolved
+- **bonus-pri-registraciya** (vk-0036, PR #51): removed a `[VERIFY:]` editorial
+  note on the tax treatment of gambling winnings. The sentence already directed
+  readers to a счетоводител/НАП without asserting any tax figure (per the tax
+  rule), so the bracket was the sole blocker; prose left unchanged. Re-scan: 0
+  blocking markers. Committed & pushed on its branch.
+
+Scan covered all 47 `content/*` branches' `05b-final-draft.md`; only the one
+branch above carried a blocking marker. (The `[About Всички Казина boilerplate]`
+token appears in every article, posted ones included, so it is a tolerated
+template placeholder, not a blocking flag — left untouched.)
+
+### Job B — low Gemini score improvements
+No targets. Every row with status ∈ {drafted, approved} is rated `human ≥80`
+(lowest is vk-0016 keno-pravila at exactly human 80, which is not `<80`); no
+`ai <n>` rows exist. Nothing to humanise.
+
+### Still flagged after 5 attempts
+None.
+
+### POSTED — needs human review
+None. All `posted` rows are rated human 85–90; live content untouched.
+
+### Deferred (over nightly cap of 10)
+None — Job B had zero qualifying targets.
