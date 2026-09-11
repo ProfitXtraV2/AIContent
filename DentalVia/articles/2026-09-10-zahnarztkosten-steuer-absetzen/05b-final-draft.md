@@ -4,7 +4,7 @@
 
 ![Flache Illustration eines Steuerformulars mit Stift, einem kleinen Stapel Belege und einer zurückfließenden Euro-Münze mit Erstattungspfeil – Symbol für das Absetzen medizinisch notwendiger Zahnarztkosten von der Steuer.](images/zahnarztkosten-steuer-absetzen-hero.webp)
 
-Eine Krone, ein Implantat oder eine Wurzelbehandlung, die Sie aus eigener Tasche zahlen, kann Ihre Einkommensteuer drücken. Medizinisch notwendige Zahnarztkosten lassen sich unter bestimmten Voraussetzungen von der Steuer absetzen, denn sie zählen für den Gesetzgeber zu den außergewöhnlichen Belastungen nach § 33 EStG [VERIFY: § 33 EStG]. Bevor sich das auswirkt, erwartet das Finanzamt allerdings einen Eigenanteil, die sogenannte zumutbare Belastung. Erst der Betrag, der darüber hinausgeht, senkt Ihre Steuer. Wie hoch dieser anrechenbare Betrag am Ende ausfällt, hängt von Ihrem Einkommen und Ihrer Familiensituation ab und davon, was Krankenkasse oder Zusatzversicherung schon getragen haben.
+Eine Krone, ein Implantat oder eine Wurzelbehandlung, die Sie aus eigener Tasche zahlen, kann Ihre Einkommensteuer drücken. Medizinisch notwendige Zahnarztkosten lassen sich unter bestimmten Voraussetzungen von der Steuer absetzen, denn sie zählen für den Gesetzgeber zu den außergewöhnlichen Belastungen nach § 33 EStG. Bevor sich das auswirkt, erwartet das Finanzamt allerdings einen Eigenanteil, die sogenannte zumutbare Belastung. Erst der Betrag, der darüber hinausgeht, senkt Ihre Steuer. Wie hoch dieser anrechenbare Betrag am Ende ausfällt, hängt von Ihrem Einkommen und Ihrer Familiensituation ab und davon, was Krankenkasse oder Zusatzversicherung schon getragen haben.
 
 ## Medizinisch notwendig oder nur Kosmetik?
 
@@ -16,15 +16,15 @@ Steuerlich zählt allein der Anteil, den Sie am Ende wirklich selbst getragen ha
 
 ## Die Grenze der zumutbaren Belastung
 
-Nicht der gesamte Eigenanteil senkt die Steuer, sondern nur der Teil, der Ihre persönliche zumutbare Belastung übersteigt. Diese Schwelle liegt je nach Fall zwischen 1 und 7 % des Gesamtbetrags Ihrer Einkünfte [VERIFY: 1–7 %] und ist nach drei Einkommensstufen [VERIFY: 3 Einkommensstufen] sowie nach Familienstand und Kinderzahl gestaffelt. Je nach Familienstand und Einkommen bewegt sich der Satz zwischen diesen Beispielwerten:
+Nicht der gesamte Eigenanteil senkt die Steuer, sondern nur der Teil, der Ihre persönliche zumutbare Belastung übersteigt. Diese Schwelle liegt je nach Fall zwischen 1 und 7 % des Gesamtbetrags Ihrer Einkünfte und ist nach drei Einkommensstufen sowie nach Familienstand und Kinderzahl gestaffelt. Je nach Familienstand und Einkommen bewegt sich der Satz zwischen diesen Beispielwerten:
 
 | Situation | Einkommensstufe | Beispiel-Satz |
 |---|---|---|
-| Alleinstehend, ohne Kinder | oberste Stufe | 7 % [VERIFY] |
-| Verheiratet, ohne Kinder | oberste Stufe | 6 % [VERIFY] |
-| 1–2 Kinder | oberste Stufe | 4 % [VERIFY] |
-| 1–2 Kinder | mittlere Stufe | 3 % [VERIFY] |
-| 1–2 Kinder | unterste Stufe | 2 % [VERIFY] |
+| Alleinstehend, ohne Kinder | oberste Stufe | 7 % |
+| Verheiratet, ohne Kinder | oberste Stufe | 6 % |
+| 1–2 Kinder | oberste Stufe | 4 % |
+| 1–2 Kinder | mittlere Stufe | 3 % |
+| 1–2 Kinder | unterste Stufe | 2 % |
 
 *Beispielwerte zur Orientierung, keine feste Zusage für den Einzelfall; maßgeblich sind die aktuelle Rechtslage und das Finanzamt.*
 
