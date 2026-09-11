@@ -1,17 +1,28 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-10T07:13:20Z",
-  "run_finished_utc": "2026-09-10T07:48:03Z",
-  "articles_written": 3,
-  "prs_opened": [39, 40, 41],
-  "run_url": "https://claude.ai/code/session_01SxJzFwPCSwwePCgrHMoJ41",
-  "note": "backfill: nothing to do (all 24 review-ready articles have images) — confirmed 2026-09-10 image backfill run #2",
+  "state": "running",
+  "run_started_utc": "2026-09-11T03:10:28Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01B5cheLmE15rkX5XuNrqk1e",
+  "note": "recurring run 2026-09-11 (fire #9) started — guides-only autopilot; reconciling then selecting up to 3 new distinct guides from research bank",
   "progress": {
-    "phase": "done",
+    "phase": "selecting",
     "article_index": null,
     "article_total": null,
     "article_slug": null,
-    "stages": [],
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
     "stage_index": null,
     "stage": null
   }

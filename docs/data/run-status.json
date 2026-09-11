@@ -1,17 +1,28 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-10T22:12:20Z",
-  "run_finished_utc": "2026-09-10T23:05:00Z",
-  "articles_written": 3,
-  "prs_opened": [51, 52, 54],
-  "run_url": "https://claude.ai/code/session_01VHnDBptg5f23LMNNgdswzD",
-  "note": "recurring run 2026-09-10 (fire #8) complete: 3 new distinct guides drafted — vk-0036 Бонус при регистрация (PR #51, gate 93, Gemini human 85 PASS pass 1, img:2 best 100; 1 in-text [VERIFY] tax), vk-0037 Flaming Hot EGT/Amusnet (PR #52, gate 94, human 90 PASS initial, img:2 best 85), vk-0038 Big Bass Splash Pragmatic (PR #54, gate 94, human 85 PASS initial, img:3 best 98). Buffer 24->27 (floor 10; keep building). 0 in-progress leftovers; 0 open backlog rows (row 2 stays failed/blocked — operator/НАП-dependent, out of guides-only scope). Anti-cannibalization: DROPPED top 'Лицензирани казина' candidate (Strong 78) — cannibalizes live /blog/proverka-licenz-kazino/ (writable how-to-check angle already covered; ranked-list angle is НАП-deferred). All © figures illustrative/provider-verified; no operator T&C/НАП facts fabricated. Ahrefs units exhausted (28/100000 left, reset 2026-10-02) -> web fallback added 3 distinct bank candidates (Wolf Gold, Play'n GO profile, Fire Joker). Content PRs: human owns Step 6/merge/flag-resolution.",
+  "state": "running",
+  "run_started_utc": "2026-09-11T03:10:28Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01B5cheLmE15rkX5XuNrqk1e",
+  "note": "recurring run 2026-09-11 (fire #9) started — guides-only autopilot; reconciling then selecting up to 3 new distinct guides from research bank",
   "progress": {
-    "phase": "done",
+    "phase": "selecting",
     "article_index": null,
     "article_total": null,
     "article_slug": null,
-    "stages": [],
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
     "stage_index": null,
     "stage": null
   }
