@@ -5,12 +5,12 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_017MGVA2BjovixvRZLnttSb7",
-  "note": "recurring run 2026-09-11 (fire #10): writing NetEnt-cluster batch (3 guides). Art 1/3 NetEnt profile — Synthesis.",
+  "note": "recurring run 2026-09-11 (fire #10): art 1/3 NetEnt profile drafted (PR #58). Art 2/3 Starburst — Synthesis.",
   "progress": {
     "phase": "writing",
-    "article_index": 1,
+    "article_index": 2,
     "article_total": 3,
-    "article_slug": "2026-09-11-netent-provajdar",
+    "article_slug": "2026-09-11-starburst",
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 7,
-    "stage": "Images"
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
