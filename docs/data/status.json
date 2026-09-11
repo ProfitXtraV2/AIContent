@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-11T23:08:43Z",
+  "generated_utc": "2026-09-11T23:40:17Z",
   "buffer": {
-    "count": 34,
+    "count": 35,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 1,
-    "drafted": 25,
+    "in-progress": 0,
+    "drafted": 26,
     "approved": 9,
     "posted": 11,
     "failed": 1
@@ -894,7 +894,7 @@
     },
     {
       "id": "vk-0047",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Reactoonz: RTP, клъстер печалби и как се играе",
       "keywords_or_terms": "reactoonz, реактунц, клъстер печалби",
@@ -904,9 +904,9 @@
       "drafted_date": "2026-09-11",
       "posted_date": "",
       "folder": "2026-09-11-reactoonz",
-      "pr": "",
-      "gemini": "",
-      "notes": "web-est vol; Play'n GO cluster-pays grid slot explainer (public game/provider data, NOT operator T&C); anchors to Play'n GO profile (vk-0045); distinct mechanic vs Book of Dead line-slot (7x7 grid/cluster vs 5x3 lines)",
+      "pr": "#63",
+      "gemini": "human 90",
+      "notes": "web-est vol; Play'n GO cluster-pays grid slot explainer (public game/provider data, NOT operator T&C); anchors to Play'n GO profile (vk-0045); mechanically distinct vs Book of Dead (7x7 grid/cluster/no FS vs 5x3 lines/expanding symbol) · gate 95/100; 0 flags; RTP 96.51% default (~94.51/~91.49 builds), max 4570x, Gargantoon 3x3→2x2→1x1, Quantum Leap, NO free-spins round (SlotCatalog/PokerNews/OLBG web-verified); Gemini human 90 PASS on initial draft; PR #63; img:2 (Gargantoon infographic 100 + hero 100; best 100, 0 integrity fail)",
       "opportunity": null
     }
   ],
@@ -1860,7 +1860,7 @@
       "trend": "",
       "checked": "web",
       "suggestion": "Play'n GO клъстер-пейс слот — distinct branded pillar; анкор към Play'n GO профил (bank); чист (няма в sitemap); контраст на cluster-pays vs Megaways/линии. Web-оценка на обема",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-11",
       "opportunity": null
     },
@@ -1946,6 +1946,48 @@
       "suggestion": "Play'n GO 3x3 плодова класика с Wheel of Multipliers + respin на пълни редове; distinct game/kw (различен провайдър от EGT Hot серията); котва към Play'n GO профил; чист pillar (няма в sitemap); RTP ~96.15% (web-verify преди писане). Web-оценка на обема",
       "status": "candidate",
       "date_researched": "2026-09-10",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Moon Princess: RTP, клъстер механика и как се играе",
+      "researched_keywords": "moon princess, муун принцес, play'n go",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "Play'n GO grid/cluster слот с три принцеси (Girl Power функции) — distinct branded pillar; котва към новия Play'n GO профил (vk-0045); механично различен от Reactoonz (принцеса-модификатори vs Quantum Leap) и от Book of Dead (grid vs линии); чист (няма в sitemap). Web-оценка на обема (Ahrefs 28 units left, reset 2026-10-02)",
+      "status": "candidate",
+      "date_researched": "2026-09-11",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Legacy of Dead: RTP, разширяващ се символ и как се играе",
+      "researched_keywords": "legacy of dead, легаси ъв дед, play'n go",
+      "volume": "",
+      "kd": "",
+      "intent": "transactional",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "Play'n GO египетски „book\" слот-наследник — distinct branded title/kw; котва към Play'n GO профил (vk-0045); СЪЩА механика като Book of Dead (vk-0046) → fold-in линк като жанров събрат, НЕ дублира (различна игра/RTP band); чист (няма в sitemap). Web-оценка на обема",
+      "status": "candidate",
+      "date_researched": "2026-09-11",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Rise of Olympus: RTP, каскади и как се играе",
+      "researched_keywords": "rise of olympus, райз ъв олимпус, play'n go",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "Play'n GO grid/cluster слот с гръцки богове (Zeus/Poseidon/Hades модификатори) — distinct branded pillar; котва към Play'n GO профил (vk-0045); grid-cluster като Reactoonz/Moon Princess но различни модификатори → own pillar; чист (няма в sitemap). Web-оценка на обема",
+      "status": "candidate",
+      "date_researched": "2026-09-11",
       "opportunity": null
     }
   ],
