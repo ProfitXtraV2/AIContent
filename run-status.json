@@ -3,14 +3,16 @@
   "run_started_utc": "2026-09-11T22:11:00Z",
   "run_finished_utc": null,
   "articles_written": null,
-  "prs_opened": [],
+  "prs_opened": [
+    61
+  ],
   "run_url": "https://claude.ai/code/session_01ATYHXnmg18posZ67PDhZFx",
-  "note": "daily run 2026-09-11 (fire #11) — Play'n GO cluster (vk-0045/46/47); researching + writing",
+  "note": "daily run 2026-09-11 (fire #11) — vk-0045 Play'n GO profile DRAFTED (PR #61, human 90, img 85/85). Writing 2/3 Book of Dead.",
   "progress": {
     "phase": "writing",
-    "article_index": 1,
+    "article_index": 2,
     "article_total": 3,
-    "article_slug": "2026-09-11-playn-go-provajdar",
+    "article_slug": "2026-09-11-book-of-dead",
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 7,
-    "stage": "Images"
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
