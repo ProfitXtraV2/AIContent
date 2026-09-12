@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 540" width="640" height="540" role="img" aria-label="Jack and the Beanstalk спецификации: RTP 96.28%, домашно предимство 3.72%, 5x3 барабана, 20 линии, средна волатилност, hit frequency около 34%, макс. 7100 пъти залога; walking wild утроява печалбите и се мести един барабан наляво при всеки респин">
+  <title>Jack and the Beanstalk: RTP 96.28% и walking wild</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f4f9f4"/>
+      <stop offset="100%" stop-color="#e7f0e7"/>
+    </linearGradient>
+    <linearGradient id="playerBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#15803d"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+    <linearGradient id="houseBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#f87171"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="540" rx="14" ry="14" fill="url(#bg)"/>
+
+  <text x="320" y="36" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="800" fill="#14532d" text-anchor="middle">Jack and the Beanstalk: RTP и walking wild</text>
+
+  <!-- RTP bar -->
+  <text x="24" y="68" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151" font-weight="600">Връщане към играча (RTP)</text>
+  <text x="616" y="68" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151" font-weight="600" text-anchor="end">Домашно предимство</text>
+
+  <rect x="24" y="80" width="592" height="44" rx="8" fill="#dbe7db"/>
+  <rect x="24" y="80" width="592" height="44" rx="8" fill="url(#playerBar)"/>
+  <!-- house segment: 3.72% of 592 = 22px, flush right -->
+  <rect x="594" y="80" width="22" height="44" rx="4" fill="url(#houseBar)"/>
+  <text x="309" y="108" font-family="system-ui, -apple-system, sans-serif" font-size="21" font-weight="800" fill="#ffffff" text-anchor="middle">96.28%</text>
+
+  <!-- example -->
+  <text x="320" y="150" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle" font-style="italic">Пример: €1000 оборот, версия 96.28% (сметката е примерна)</text>
+
+  <rect x="24" y="160" width="286" height="60" rx="10" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="167" y="184" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#166534" text-anchor="middle" font-weight="600">Обратно към играча</text>
+  <text x="167" y="209" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" fill="#15803d" text-anchor="middle">~€962.80</text>
+
+  <text x="320" y="197" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#9ca3af" text-anchor="middle">+</text>
+
+  <rect x="330" y="160" width="286" height="60" rx="10" fill="#fef2f2" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="473" y="184" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#b91c1c" text-anchor="middle" font-weight="600">За казиното (предимство 3.72%)</text>
+  <text x="473" y="209" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" fill="#dc2626" text-anchor="middle">~€37.20</text>
+
+  <line x1="24" y1="244" x2="616" y2="244" stroke="#c9dcc9" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- spec strip -->
+  <text x="320" y="266" font-family="system-ui, -apple-system, sans-serif" font-size="13.5" fill="#14532d" text-anchor="middle" font-weight="700">5×3 барабана · 20 фиксирани линии · средна волатилност</text>
+  <text x="320" y="289" font-family="system-ui, -apple-system, sans-serif" font-size="13.5" fill="#14532d" text-anchor="middle" font-weight="700">hit frequency ~34% · максимална печалба 7,100× залог</text>
+
+  <line x1="24" y1="310" x2="616" y2="310" stroke="#c9dcc9" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- walking wild flow -->
+  <text x="320" y="333" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#374151" text-anchor="middle" font-weight="600">Walking wild: мести се 1 барабан наляво при всеки респин (×3 утроени печалби)</text>
+
+  <!-- Spin 1: wild on reel 3 -->
+  <text x="24" y="373" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280" font-weight="600">Спин 1</text>
+  <g>
+    <rect x="100" y="352" width="94" height="34" rx="5" fill="#eef4ee" stroke="#c9dcc9"/>
+    <rect x="196" y="352" width="94" height="34" rx="5" fill="#eef4ee" stroke="#c9dcc9"/>
+    <rect x="292" y="352" width="94" height="34" rx="5" fill="#15803d" stroke="#14532d"/>
+    <rect x="388" y="352" width="94" height="34" rx="5" fill="#eef4ee" stroke="#c9dcc9"/>
+    <rect x="484" y="352" width="94" height="34" rx="5" fill="#eef4ee" stroke="#c9dcc9"/>
+    <text x="339" y="374" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">W ×3</text>
+  </g>
+
+  <!-- Spin 2: wild on reel 2 -->
+  <text x="24" y="419" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280" font-weight="600">Спин 2</text>
+  <g>
+    <rect x="100" y="398" width="94" height="34" rx="5" fill="#eef4ee" stroke="#c9dcc9"/>
+    <rect x="196" y="398" width="94" height="34" rx="5" fill="#15803d" stroke="#14532d"/>
+    <rect x="292" y="398" width="94" height="34" rx="5" fill="#eef4ee" stroke="#c9dcc9"/>
+    <rect x="388" y="398" width="94" height="34" rx="5" fill="#eef4ee" stroke="#c9dcc9"/>
+    <rect x="484" y="398" width="94" height="34" rx="5" fill="#eef4ee" stroke="#c9dcc9"/>
+    <text x="243" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">W ×3</text>
+  </g>
+
+  <!-- Spin 3: wild on reel 1 -->
+  <text x="24" y="465" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280" font-weight="600">Спин 3</text>
+  <g>
+    <rect x="100" y="444" width="94" height="34" rx="5" fill="#15803d" stroke="#14532d"/>
+    <rect x="196" y="444" width="94" height="34" rx="5" fill="#eef4ee" stroke="#c9dcc9"/>
+    <rect x="292" y="444" width="94" height="34" rx="5" fill="#eef4ee" stroke="#c9dcc9"/>
+    <rect x="388" y="444" width="94" height="34" rx="5" fill="#eef4ee" stroke="#c9dcc9"/>
+    <rect x="484" y="444" width="94" height="34" rx="5" fill="#eef4ee" stroke="#c9dcc9"/>
+    <text x="147" y="466" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">W ×3</text>
+  </g>
+
+  <text x="596" y="419" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#15803d" text-anchor="middle" font-weight="800">←</text>
+
+  <text x="320" y="512" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">18+ Играйте отговорно · vsichkikazina.bg · реалният RTP е в инфо-панела на казиното</text>
+</svg>
