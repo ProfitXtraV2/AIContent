@@ -17,3 +17,20 @@ Type: guide (evergreen game-mechanic hub) · Byline: Георги Тодоров
   links (progresivni-dzhakpoti contrast, rechnik-kazino-termini, slot-igri, otgovorna-igra).
 - Step 5 Brand Gate: PASS WITH FIXES 95/100, zero criticals. Reviews-only checks N/A (guide).
 - Step 5b: final draft locked. All € / multipliers explicitly примерни; 0 [VERIFY] flags.
+- Step 7 Gemini (gemini-3.1-pro-preview): human-likeness 25 → 25 → 80.
+  · Check 1 (initial 05b): Shows AI patterns 75% (hl 25). Flags: repeated „(пример)" hedging,
+    poetic wrap-up, summary pivot, strawman transition, rigid „Или…Или…".
+  · Humaniser pass 1 (kept illustrative markings via natural language per brand rule).
+  · Check 2: Shows AI patterns 75% (hl 25) — detector noisy, new nitpicks.
+  · Humaniser pass 2 (colon setup, Илюстративно→Например, anaphora, binary branch, didactic line).
+  · Check 3: Likely human-written 80% (hl 80) → PASS. KEPT pass 2 (highest hl). Numbers/links/RG/
+    disclosures/dates/byline/brand unchanged across all passes.
+- Step 8 Images: 2 shipped.
+  · SVG infographic (lock-respin flow + примерна fixed jackpot ladder) — numbers trace to 05b;
+    rendered to PNG, layout clean. Reviews: 92 → 100.
+  · Hero WebP (coins locking with padlocks into a grid). Review 1 = 92 flagged a real ETH crypto
+    logo (brand-mark hygiene) → regenerated with blank coins (fix pass 1) → Review 2 = 100.
+    No integrity drop (the brand mark was removed, not shipped).
+- Step 6 Verification: 06-verification.md assembled. 0 surviving [VERIFY]; recalcs shown
+  (5x+2x+500x=507x; 5×3=15). Compliance untouchables confirmed present.
+- Outcome: guide complete. Branch content/2026-09-12-hold-and-win; commit trail kept unsquashed.
