@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 410" width="720" height="410" role="img" aria-label="Илюстративно как расте Twin Reel механиката на Twin Spin върху 5 барабана: завъртането стартира с 2 свързани идентични барабана, които могат да се разраснат до 3, после 4 и накрая до всичките 5 еднакви барабана; свързаните барабани показват еднакъв символ, позициите са примерни">
+  <title>Twin Spin: Twin Reel механиката, 2 до 5 свързани барабана</title>
+  <defs>
+    <linearGradient id="trbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="720" height="410" rx="12" ry="12" fill="url(#trbg)"/>
+
+  <text x="360" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#3730a3" text-anchor="middle">Twin Spin: как расте Twin Reel механиката</text>
+  <text x="360" y="54" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">всяко завъртане тръгва с 2 свързани идентични барабана; блокът може да стигне до 5 (позициите са примерни)</text>
+
+  <!-- Row 1: 2 linked -->
+  <text x="20" y="103" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151" font-weight="600">2 свързани</text>
+  <text x="20" y="119" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#6b7280">старт</text>
+  <rect x="180" y="80" width="56" height="48" rx="6" fill="#d1fae5" stroke="#10b981" stroke-width="2"/><text x="208" y="112" font-family="system-ui" font-size="22" fill="#059669" text-anchor="middle">◆</text>
+  <rect x="244" y="80" width="56" height="48" rx="6" fill="#d1fae5" stroke="#10b981" stroke-width="2"/><text x="272" y="112" font-family="system-ui" font-size="22" fill="#059669" text-anchor="middle">◆</text>
+  <rect x="308" y="80" width="56" height="48" rx="6" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/><circle cx="336" cy="104" r="5" fill="#cbd5e1"/>
+  <rect x="372" y="80" width="56" height="48" rx="6" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/><circle cx="400" cy="104" r="5" fill="#cbd5e1"/>
+  <rect x="436" y="80" width="56" height="48" rx="6" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/><circle cx="464" cy="104" r="5" fill="#cbd5e1"/>
+
+  <!-- Row 2: 3 linked -->
+  <text x="20" y="173" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151" font-weight="600">3 свързани</text>
+  <rect x="180" y="150" width="56" height="48" rx="6" fill="#a7f3d0" stroke="#10b981" stroke-width="2"/><text x="208" y="182" font-family="system-ui" font-size="22" fill="#047857" text-anchor="middle">◆</text>
+  <rect x="244" y="150" width="56" height="48" rx="6" fill="#a7f3d0" stroke="#10b981" stroke-width="2"/><text x="272" y="182" font-family="system-ui" font-size="22" fill="#047857" text-anchor="middle">◆</text>
+  <rect x="308" y="150" width="56" height="48" rx="6" fill="#a7f3d0" stroke="#10b981" stroke-width="2"/><text x="336" y="182" font-family="system-ui" font-size="22" fill="#047857" text-anchor="middle">◆</text>
+  <rect x="372" y="150" width="56" height="48" rx="6" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/><circle cx="400" cy="174" r="5" fill="#cbd5e1"/>
+  <rect x="436" y="150" width="56" height="48" rx="6" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/><circle cx="464" cy="174" r="5" fill="#cbd5e1"/>
+
+  <!-- Row 3: 4 linked -->
+  <text x="20" y="243" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151" font-weight="600">4 свързани</text>
+  <rect x="180" y="220" width="56" height="48" rx="6" fill="#6ee7b7" stroke="#059669" stroke-width="2"/><text x="208" y="252" font-family="system-ui" font-size="22" fill="#065f46" text-anchor="middle">◆</text>
+  <rect x="244" y="220" width="56" height="48" rx="6" fill="#6ee7b7" stroke="#059669" stroke-width="2"/><text x="272" y="252" font-family="system-ui" font-size="22" fill="#065f46" text-anchor="middle">◆</text>
+  <rect x="308" y="220" width="56" height="48" rx="6" fill="#6ee7b7" stroke="#059669" stroke-width="2"/><text x="336" y="252" font-family="system-ui" font-size="22" fill="#065f46" text-anchor="middle">◆</text>
+  <rect x="372" y="220" width="56" height="48" rx="6" fill="#6ee7b7" stroke="#059669" stroke-width="2"/><text x="400" y="252" font-family="system-ui" font-size="22" fill="#065f46" text-anchor="middle">◆</text>
+  <rect x="436" y="220" width="56" height="48" rx="6" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/><circle cx="464" cy="244" r="5" fill="#cbd5e1"/>
+
+  <!-- Row 4: 5 linked -->
+  <text x="20" y="313" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151" font-weight="600">5 свързани</text>
+  <text x="20" y="329" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#6b7280">всички барабани</text>
+  <rect x="180" y="290" width="56" height="48" rx="6" fill="#34d399" stroke="#047857" stroke-width="2"/><text x="208" y="322" font-family="system-ui" font-size="22" fill="#064e3b" text-anchor="middle">◆</text>
+  <rect x="244" y="290" width="56" height="48" rx="6" fill="#34d399" stroke="#047857" stroke-width="2"/><text x="272" y="322" font-family="system-ui" font-size="22" fill="#064e3b" text-anchor="middle">◆</text>
+  <rect x="308" y="290" width="56" height="48" rx="6" fill="#34d399" stroke="#047857" stroke-width="2"/><text x="336" y="322" font-family="system-ui" font-size="22" fill="#064e3b" text-anchor="middle">◆</text>
+  <rect x="372" y="290" width="56" height="48" rx="6" fill="#34d399" stroke="#047857" stroke-width="2"/><text x="400" y="322" font-family="system-ui" font-size="22" fill="#064e3b" text-anchor="middle">◆</text>
+  <rect x="436" y="290" width="56" height="48" rx="6" fill="#34d399" stroke="#047857" stroke-width="2"/><text x="464" y="322" font-family="system-ui" font-size="22" fill="#064e3b" text-anchor="middle">◆</text>
+
+  <text x="520" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280" text-anchor="start">повече</text>
+  <text x="520" y="218" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280" text-anchor="start">съвпадащи</text>
+  <text x="520" y="236" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280" text-anchor="start">линии,</text>
+  <text x="520" y="254" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280" text-anchor="start">но същото</text>
+  <text x="520" y="272" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280" text-anchor="start">RTP</text>
+
+  <text x="360" y="376" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">Свързаните барабани показват еднакъв символ · вдигат шанса за съвпадения, не променят домашното предимство</text>
+  <text x="360" y="396" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">18+ Играйте отговорно · без фрий спинове, без бонус игра</text>
+</svg>
