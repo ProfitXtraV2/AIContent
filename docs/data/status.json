@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-12T03:38:38Z",
+  "generated_utc": "2026-09-12T04:09:05Z",
   "buffer": {
-    "count": 36,
+    "count": 37,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 2,
-    "drafted": 27,
+    "in-progress": 1,
+    "drafted": 28,
     "approved": 9,
     "posted": 11,
     "failed": 1
@@ -928,19 +928,19 @@
     },
     {
       "id": "vk-0049",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Dead or Alive 2: RTP, висока волатилност и как се играе",
       "keywords_or_terms": "dead or alive 2, dead or alive 2 rtp, dead or alive слот, доа 2",
       "volume": "",
       "kd": "",
       "source": "research",
-      "drafted_date": "",
+      "drafted_date": "2026-09-12",
       "posted_date": "",
       "folder": "2026-09-12-dead-or-alive-2",
-      "pr": "",
-      "gemini": "",
-      "notes": "NetEnt extreme high-volatility slot explainer (3 free-spins modes; public game/provider data + netent.com/game DBs, NOT operator T&C); anchors NetEnt profile (vk-0042); distinct branded kw + honest volatility angle vs Starburst (low-vol, vk-0043)/Gonzo's (vk-0044); clean pillar (no sitemap page); web-est vol",
+      "pr": "#65",
+      "gemini": "human 85",
+      "notes": "NetEnt extreme high-volatility Western slot explainer (public: netent.com + SlotCatalog/AskGamblers, NOT operator T&C); anchors NetEnt profile (vk-0042, /blog/netent-provajdar/); distinct branded kw + honest extreme-vol angle vs Starburst low-vol (vk-0043)/Gonzo's (vk-0044, plain-text mentions); clean pillar (no sitemap page); RTP 96.80% (68.6% base/28.2% FS), 5x3/9 lines, 3 FS modes×12 (Old Saloon 2x/High Noon 2x-3x/Train Heist up to 16x), theoretical max ~100000x vs NetEnt Max-Win field 1600x (both stated honestly); gate 95/100; 0 flags; Gemini HL 70→75→85 PASS pass 2 (human 85, 2 Humaniser passes); PR #65; img:3 (RTP-split infographic + 3-mode infographic + hero; review 100/100 all, 0 integrity fail); vol/kd web-est (Ahrefs exhausted, reset 2026-10-02)",
       "opportunity": null
     },
     {
@@ -1925,7 +1925,7 @@
       "trend": "",
       "checked": "web",
       "suggestion": "NetEnt екстремно-волатилна класика (dueling free spins) — distinct branded pillar; котва към новия NetEnt профил (vk-0042); честен ъгъл „висока волатилност = дълги сухи серии + рядък едър хит\" (контраст на Starburst vk-0043). Web-оценка на обема (Ahrefs 403, reset 2026-10-02)",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-11",
       "opportunity": null
     },
