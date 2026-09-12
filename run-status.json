@@ -1,18 +1,22 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-09-12T07:10:42Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-09-12T07:46:13Z",
+  "articles_written": 3,
+  "prs_opened": [
+    67,
+    68,
+    69
+  ],
   "run_url": "https://claude.ai/code/session_01QS2nBhKY66LxeWMaVMorfY",
-  "note": "recurring run 2026-09-12 (fire #13): 3 in-progress rows created (vk-0051 Hold & Win hub, vk-0052 Cascade/tumble hub, vk-0053 Jack and the Beanstalk). Writing batch.",
+  "note": "recurring run 2026-09-12 (fire #13) complete: 3 new distinct guides drafted — Hold & Win mechanic hub (vk-0051, PR #69, lock&respin + FIXED coin jackpots vs progressive, gate 95, Gemini HL 25->25->80 PASS pass 2 kept-best, img:2 100/100), Cascade/tumble mechanic hub (vk-0052, PR #68, tumble/cascade/Avalanche drop-and-refill, gate 94, Gemini HL 15->90 PASS pass 1, img:3 85/100/100), Jack and the Beanstalk (vk-0053, PR #67, NetEnt walking-wilds branded, RTP 96.28% confirmed 2dp netent.com, gate 93, Gemini human 85 PASS on initial, img:2 100/100). PUBLIC data only (mechanic knowledge + provider/game-DB facts: BGaming/Playson/VegasSlotsOnline, SlotCatalog/PokerNews, netent.com official); NO operator T&C/НАП facts fabricated; 0 surviving [VERIFY] across all 3. Honest angles: Hold&Win coin jackpots are FIXED (not progressive) -> cross-link not overlap with vk-0007; cascades redistribute wins into streaks (high vol) but don't change RTP; walking wilds don't move house edge. Anti-cannibalization: two mechanic hubs mutually distinct + distinct from Megaways vk-0041/paylines vk-0017/progressive vk-0007 (lock&respin vs drop&refill); J&B distinct NetEnt title anchoring NetEnt profile vk-0042 (plain text, not yet live). All 3 clean pillars (absent from sitemap+queue). Buffer 37->40 drafted+approved (floor 10; no cap, keep building). 0 in-progress leftovers reconciled at start; 0 open human-backlog rows (row1 written, row2 stays failed/geo-blocked operator-dependent). Ahrefs units exhausted (reset 2026-10-02) -> web-est vol; bank replenished via web fallback with 3 new distinct candidates (Wild-symbols mechanic hub = PARENT of walking-wilds vk-0053, Scatter/bonus-trigger mechanic hub, Fruit Party Pragmatic cluster-pays branded). Images 7/7 PASS, 0 integrity failures (Hold&Win hero regenerated to drop a real Ethereum logo -> hygiene-clean; cascade infographic 1 clearance fix 70->100). Feed refreshed (8 approved unchanged - new articles are drafted, human owns approval). Content PRs #67-69 (no CI; auto-subscriptions removed - human owns Step 6/merge/flag-resolution).",
   "progress": {
-    "phase": "writing",
-    "article_index": 1,
-    "article_total": 3,
-    "article_slug": "2026-09-12-hold-and-win",
-    "stages": ["Synthesis", "Outline", "Author", "Humaniser", "SEO", "Brand Gate", "Light re-check", "Images", "Verification", "PR"],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "phase": "done",
+    "article_index": null,
+    "article_total": null,
+    "article_slug": null,
+    "stages": [],
+    "stage_index": null,
+    "stage": null
   }
 }
