@@ -24,3 +24,16 @@ Every numeric figure introduced in 02-draft.md (3/4/5 illustrative tiers, Sweet 
 
 ## Outcome
 PASS, 96/100, zero CRITICAL, zero MODERATE outstanding, zero [VERIFY]/[DATA NEEDED]. Ready to publish. No images produced or referenced, per task scope.
+
+## Step 7 — Gemini text check (gemini-3.1-pro-preview)
+- initial draft: Shows strong AI patterns 85% → human-likeness 15 (07-gemini-check-1.md)
+- humaniser pass 1 (removed forced first-person ending, broke 2 run-on comma splices, cut "размива границата"/"С други думи", trimmed didactic Starburst summary): Shows AI patterns 75% → HL 25 (07-gemini-check-2.md)
+- humaniser pass 2 (colon/semicolon punctuation sweep, de-"X, not Y" headers, integrated internal links mid-sentence, broke "some do X/others do Y" symmetry, split 18+ RG line into own paragraph): Shows AI patterns 75% → HL 25 (07-gemini-check-3.md)
+- Cap reached; kept pass 2 (tied-highest HL 25). Recorded gemini = ai 75. All numbers/links/RG preserved every pass.
+
+## Step 8 — Images + Gemini visual review
+- Created hero (webp metaphor) + 2 infographics (bonus-trigger + scatter-vs-wild). SVG numbers trace 1:1 to 05b.
+- Gemini image review pass 1: hero 82, bonus-trigger 81, scatter-vs-wild 83 — all PASS, 0 integrity fail, 0 layout defect. FS-abbreviation nit fixed. (08-image-review-1.md)
+
+## PR
+- Branch content/2026-09-12-scatter-simvoli; content-only PR opened for human review.
