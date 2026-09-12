@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-12T22:58:18Z",
+  "generated_utc": "2026-09-12T23:11:30Z",
   "buffer": {
-    "count": 42,
+    "count": 43,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 1,
-    "drafted": 34,
+    "in-progress": 0,
+    "drafted": 35,
     "approved": 8,
     "posted": 12,
     "failed": 1
@@ -1013,19 +1013,19 @@
     },
     {
       "id": "vk-0054",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Кои са доставчиците на казино игри и защо са важни",
       "keywords_or_terms": "доставчици казино игри, провайдъри казино, казино софтуер",
       "volume": "60",
       "kd": "",
       "source": "research",
-      "drafted_date": "",
+      "drafted_date": "2026-09-12",
       "posted_date": "",
       "folder": "2026-09-12-dostavchici-kazino-igri",
-      "pr": "",
-      "gemini": "",
-      "notes": "educational concept hub — what a game provider is, why it matters, RTP set by provider but configurable by operator, certification (GLI/eCOGRA), supplier≠operator; distinct from provider PROFILES (Pragmatic vk-0019/Amusnet vk-0021) and the /blog/games-providers/ category; anchors to live Pragmatic+Amusnet profiles; vol 60 (Ahrefs, transactional/informational)",
+      "pr": "#72",
+      "gemini": "ai 65",
+      "notes": "educational concept hub (provider vs operator; RTP set by provider, operator picks build; RNG certification ≠ advantage); distinct from provider PROFILES (vk-0019/vk-0021) + /blog/games-providers/ category; links live Pragmatic+Amusnet profiles · gate 94/100; 0 flags; provider/lab history web-verified (Pragmatic 2015, Amusnet/EGT 2002/rename 2022, NetEnt 1996, Play'n GO 1997, Novomatic 1980; GLI/eCOGRA 2003/iTech 2004→GLI 2023/BMM 1981); RTP 96%/€1000/€960/€40 примерни; Gemini HL 25→35→30 reverted to pass 1 (ai 65; pass 2 lowered; model high-variance); PR #72; img:3 (hero + доставчик-vs-оператор + RTP; review 100 PASS, 0 integrity fail); 975w, 0 em-dashes",
       "opportunity": null
     },
     {
@@ -1675,7 +1675,7 @@
       "trend": "",
       "checked": "ahrefs",
       "suggestion": "образователен хъб за софтуер/доставчици; свързва provider-profile-ите (Pragmatic/Amusnet); нисък пряк обем ~60",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-07",
       "opportunity": null
     },
@@ -2223,6 +2223,48 @@
       "trend": "",
       "checked": "web",
       "suggestion": "Pragmatic Play cluster-pays (7x7, 8+ съседни) branded slot-explainer с random множители в бонуса — distinct branded title/kw vs Sugar Rush/Reactoonz (cluster-pays събратя, fold-in plain text); котва към Pragmatic профил (vk-0019); публична игрална информация (не оператор T&C/НАП); RTP ~96.5% (web-verify преди писане); чист pillar (няма в sitemap); web-оценка на обема",
+      "status": "candidate",
+      "date_researched": "2026-09-12",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Мултипликатори (множители) в ротативките: как работят и кога умножават",
+      "researched_keywords": "множители слот, мултипликатори, множител в безплатни завъртания, растящ множител",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "символ-механик хъб — всички видове множители (базов, в безплатни завъртания, прогресивен/растящ в каскади, множител-символ); PARENT на множител-wild (vk-0055 fold-in) и на растящите множители в каскадния хъб (vk-0052 fold-in); distinct primary intent „множители слот\"; конкурентно покритие (jenite.bg разбивка на символите); честен ъгъл: множителите увеличават дисперсията, RTP-то е вече калкулирано; чист хъб (няма в sitemap); web-оценка на обема (Ahrefs изчерпан, reset 2026-10-02)",
+      "status": "candidate",
+      "date_researched": "2026-09-12",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Как да четеш таблицата с изплащания (paytable) в слот",
+      "researched_keywords": "таблица с изплащания, paytable, пейтабъл, стойност на символите слот",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "практически how-to — къде е бутонът „i\", как се четат стойностите на символите, специалните символи, правилата на бонуса и обявеният RTP; distinct vs „линии на печалба\" (vk-0017, къде печелиш) и rechnik речник (дефиниции) — тук е четенето на конкретния екран; fold-in към всички слот-explainer-и; чист pillar (няма в sitemap); web-оценка",
+      "status": "candidate",
+      "date_researched": "2026-09-12",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Hacksaw Gaming: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "hacksaw gaming, хаксоу, hacksaw слотове",
+      "volume": "",
+      "kd": "",
+      "intent": "transactional",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "нов-ген провайдър хъб (модерни високоволатилни механики, feature buy, Chaos Crew/Wanted Dead or a Wild); distinct от петте вече покрити профила (Pragmatic vk-0019/Amusnet vk-0021/Novomatic vk-0035/NetEnt vk-0042/Play'n GO vk-0045); публична provider/game-DB data (NOT operator T&C/НАП); котва към новия „доставчици\" концепт-хъб (vk-0054); чист (няма в sitemap); web-оценка",
       "status": "candidate",
       "date_researched": "2026-09-12",
       "opportunity": null
