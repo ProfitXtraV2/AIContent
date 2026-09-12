@@ -27,6 +27,9 @@ Source URLs:
 - https://www.racingpost.com/online-casino/slots/jack-and-the-beanstalk/
 - https://slotcatalog.com/en/slots/Jack-and-the-Beanstalk-Remastered (Remastered alt-RTP context)
 
+## Internal links (4 in-body, from confirmed-live set; brief target 2–4)
+/kak-ocenyavame/ · /slot-igri/visok-rtp/ · /kazino-igri/rotativki/ · /otgovorna-igra/ (the footer /otgovorna-igra/ is the mandated RG boilerplate, not counted). NetEnt profile / Starburst / Gonzo's Quest / Twin Spin / Dead or Alive 2 mentioned plain-text only (pages not yet live).
+
 ## Recalculation (working shown)
 - RTP → house edge: 100.00% − 96.28% = 3.72%. ✓
 - €1000 example turnover at 96.28%: 1000 × 0.9628 = €962.80 back to player; 1000 × 0.0372 = €37.20 to house; 962.80 + 37.20 = 1000.00. ✓ (labelled примерна in-text and on the SVG.)
