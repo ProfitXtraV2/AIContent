@@ -1,17 +1,28 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-11T22:11:00Z",
-  "run_finished_utc": "2026-09-11T22:45:00Z",
-  "articles_written": 3,
-  "prs_opened": [61, 62, 63],
-  "run_url": "https://claude.ai/code/session_01ATYHXnmg18posZ67PDhZFx",
-  "note": "recurring run 2026-09-11 (fire #11) complete: 3 new distinct Play'n GO-cluster guides drafted — Play'n GO provider profile (vk-0045, PR #61, gate 95, Gemini HL 35->90 PASS pass 1, img 85/85), Book of Dead flagship expanding-symbol slot (vk-0046, PR #62, gate 94, human 85 PASS on initial, img infographic 95 + hero 82), Reactoonz cluster-pays grid slot (vk-0047, PR #63, gate 95, human 90 PASS on initial, img 100/100). Hub-and-spoke: new 4th provider profile (after Pragmatic/Amusnet/Novomatic/NetEnt) + two mutually-distinct Play'n GO games anchored to it. Buffer 32->35 (floor 10; keep building, no cap). 0 in-progress leftovers; 0 open backlog rows (row2 stays failed/blocked, operator/НАП-dependent). All figures public provider data + international game DBs (playngo.com, UKGC register, SlotCatalog, PokerNews, OLBG, CasinoBeats) — Book of Dead 96.21%/5000x/5x3-10lines/10FS expanding symbol; Reactoonz 96.51%/4570x/7x7 cluster/Gargantoon 3x3->2x2->1x1/no free spins; NO operator T&C/НАП facts fabricated; 0 surviving [VERIFY]. Ahrefs units exhausted (28 left of 100000, overview ~31/kw, reset 2026-10-02; probed live 400 not 403) -> web-est vol; bank replenished with 3 new distinct Play'n GO-cluster candidates (Moon Princess, Legacy of Dead fold-in, Rise of Olympus). Images 6/6 PASS, 0 integrity failures. Feed refreshed (9 approved). Content PRs: human owns Step 6/merge/flag-resolution.",
+  "state": "running",
+  "run_started_utc": "2026-09-12T03:10:19Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01XJY4baH9Ecu4ZjEis1jPS6",
+  "note": "daily run 2026-09-12 (fire #12) started",
   "progress": {
-    "phase": "done",
+    "phase": "selecting",
     "article_index": null,
     "article_total": null,
     "article_slug": null,
-    "stages": [],
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
     "stage_index": null,
     "stage": null
   }
