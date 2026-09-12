@@ -40,7 +40,7 @@ Source URLs:
 Clean pillar: no existing sitemap page for this game; primary keyword cluster ("jack and the beanstalk", "walking wild", "вървящи wild") not targeted by any queued/existing article. Anchors the (not-yet-live) NetEnt provider profile in plain text; mechanic explicitly distinguished from Starburst / Gonzo's Quest / Twin Spin / Dead or Alive 2 (plain text, no links). No overlap with Sweet Bonanza (Pragmatic, tumble) or progresivni-dzhakpoti pillars.
 
 ## Gemini text check (Step 7)
-[to be filled after gemini_check.py runs]
+Pass 1: "Likely human-written, 85% confidence" → human-likeness **85** ≥ 80 → **PASS on first pass** (0 humaniser re-passes). Kept version = initial draft (85). Queue `gemini` column: `human 85`. Gemini praised the RG-woven-into-mechanics copy; flagged 3 style-only translated idioms + one thematic echo (non-blocking, left for the human editor). See 07-gemini-check-1.md.
 
 ## Images (Step 8)
 [to be filled: count + best review scores + any integrity drops]

@@ -7,6 +7,6 @@
 - Step 4 (SEO): title tag 50 chars; meta trimmed 191→138 chars (≤155). 4 internal links from confirmed-live set. No facts added. NUMBER DIFF: none.
 - Step 5 (Brand Gate): PASS 93/100, zero criticals. Byline/brand/dates/RG/affiliate footer all present. No operator/НАП facts (out of scope). NUMBER DIFF vs Step 4: none.
 - Step 5b (Light re-check): em-dashes 0, no signposting, no banned connectives, no forced tables/lists. No change needed.
-- Step 7 (Gemini text check): see 07-gemini-check-*.md. [to be filled]
+- Step 7 (Gemini text check): pass 1 → "Likely human-written, 85%" → human-likeness 85 ≥ 80 → PASS on first pass. No re-pass needed; keep-best winner = initial draft (85). Gemini flagged 3 style-only idioms + one echo (non-blocking, logged for human). See 07-gemini-check-1.md.
 - Step 8 (Images): see 08-image-review-*.md. [to be filled]
 - Step 6 (Verification): see 06-verification.md.
