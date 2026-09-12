@@ -20,3 +20,13 @@
 - Step 5b: em-dashes now 0 everywhere; meta trimmed. Final draft locked.
 - DIFF numbers 02→03→04→05→05b: 96% RTP, 1x/2x/3x/5x, Free Fall 3x/6x/9x/15x (10 spins),
   2x–100x — identical across all stages. None added/dropped.
+- Step 7 Gemini: check 1 (initial) = "Shows AI patterns 85%" → HL 15; humaniser pass 1
+  applied recs (killed „Затова" bows, colon-drop hooks, „Пример:"/„учебникарски пример:"
+  signposting, aphorisms; asymmetric close); check 2 = "Likely human-written 90%" → HL 90 =
+  PASS. Keep-best = pass 1. Word count 915 (0 em-dashes). No API step skipped.
+- Step 8 Images: 3 images. Hero via gemini_image_gen.py (24 KB WebP, exit 0). Two hand-SVGs
+  from 05b numbers. Review 1: hero 85 PASS, ladder 82 PASS, cascade-RTP 70 (text clip). Fix
+  pass 1 (RTP-box clearance + arrow margins). Review 2: 100/100 PASS, 0 integrity drops.
+- Step 6 Verification: 0 surviving flags; recalculated 4% edge / €960 return on €1000 (illus.).
+- Commit trail: initial draft → gemini check 1 → humaniser pass 1 → gemini check 2 (PASS) →
+  add images → image review 1 → image fix 1 → image review 2 → verification/log.
