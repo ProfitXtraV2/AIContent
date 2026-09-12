@@ -5,12 +5,12 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01XJY4baH9Ecu4ZjEis1jPS6",
-  "note": "daily run 2026-09-12 (fire #12) started",
+  "note": "daily run 2026-09-12 (fire #12): 3 in-progress rows added (vk-0048 Wolf Gold, vk-0049 Dead or Alive 2, vk-0050 Twin Spin); writing batch",
   "progress": {
-    "phase": "selecting",
-    "article_index": null,
-    "article_total": null,
-    "article_slug": null,
+    "phase": "writing",
+    "article_index": 1,
+    "article_total": 3,
+    "article_slug": "2026-09-12-wolf-gold",
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": null,
-    "stage": null
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
