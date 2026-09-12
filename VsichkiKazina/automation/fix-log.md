@@ -139,3 +139,43 @@ None. All `posted` rows are rated human 85–90; live content untouched.
 
 ### Deferred (over nightly cap of 10)
 None — Job B had zero qualifying targets.
+
+## 2026-09-12 — nightly flag+score fixes
+
+### Job A — publish-blocking flags resolved
+None. Scanned all 56 `content/*` branches' `05b-final-draft.md` for blocking
+markers (`[VERIFY]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`, `[AUTHOR]`,
+`[BRAND]`, `[EDITORIAL]`, `[уточни]`, `[провери]`) — zero found. (Two `![...]`
+image-alt matches on blekdzhak and playn-go were false positives: `€18` and
+`84.18%` inside alt text, not flags. The `[About Всички Казина boilerplate]`
+token remains a tolerated template placeholder, not a blocker — left untouched.)
+
+### Job B — low Gemini score improvements
+Two qualifying targets (status ∈ {drafted, approved} with `ai <n>` or `human <n>`
+n<80), both processed to `human ≥80`:
+
+- **wild-simvoli** (vk-0055, PR #70): baseline `ai 75`. 2 humaniser passes —
+  removed formulaic signposting lead-ins ("Общото между всички:", "Оттук
+  нататък…"), didactic/second-person framing ("Полезно е да държиш…", "твоята
+  единствена сесия…"), staccato sequencing (Jack and the Beanstalk walk), and
+  forced internal-link integration. Re-check: **human 85**. Committed & pushed.
+- **scatter-simvoli** (vk-0056, PR #71): baseline `ai 75` (noisy grader
+  oscillated ai 65 / ai 80 / human 80 across passes). 4 humaniser passes —
+  smoothed staccato intro, cut apologetic hedging/disclaimers, dropped empty
+  pivots and "neat-bow" wrap-ups, removed injected budget-advice, fixed an
+  anglicism ("отгоре него"), broke long contrast sentences, reduced
+  colon/semicolon density. Final re-check: **human 85** (confirmed on two runs).
+  Committed & pushed.
+
+All edits rephrasing only — no facts, numbers, links, RG line or byline changed.
+Sweet Bonanza (4–6 scatter → 10 FS, retrigger 3+ → +5) and Starburst (reels
+2/3/4) figures preserved verbatim.
+
+### Still flagged after 5 attempts
+None.
+
+### POSTED — needs human review
+None. All 12 `posted` rows are rated human 85–90; live content untouched.
+
+### Deferred (over nightly cap of 10)
+None — only 2 qualifying targets, both processed this run.

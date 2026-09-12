@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-12T23:11:30Z",
+  "generated_utc": "2026-09-12T23:22:13Z",
   "buffer": {
     "count": 43,
     "target": 10,
@@ -1041,8 +1041,8 @@
       "posted_date": "",
       "folder": "2026-09-12-wild-simvoli",
       "pr": "#70",
-      "gemini": "ai 75",
-      "notes": "symbol-mechanic hub (all wild types; honest angle: wilds don't change RTP/house edge); PARENT of walking-wild vk-0053; deep pillar vs rechnik glossary; clean (no sitemap); web-est vol (Ahrefs exhausted, reset 2026-10-02) · gate 97/100; 0 flags; Gemini HL 20→25→25 kept pass 2 (ai 75; model harsh cf. rotativki HL30); PR #70; img:3 (hero + types infographic + RTP-reality infographic; review 85 PASS, 0 integrity fail); 883w, 0 em-dashes",
+      "gemini": "human 85",
+      "notes": "symbol-mechanic hub (all wild types; honest angle: wilds don't change RTP/house edge); PARENT of walking-wild vk-0053; deep pillar vs rechnik glossary; clean (no sitemap); web-est vol (Ahrefs exhausted, reset 2026-10-02) · gate 97/100; 0 flags; Gemini HL 20→25→25 kept pass 2 (ai 75; model harsh cf. rotativki HL30); PR #70; img:3 (hero + types infographic + RTP-reality infographic; review 85 PASS, 0 integrity fail); 883w, 0 em-dashes; nightly-fix 2026-09-12: humanised ai 75→human 85 (2 Gemini passes; removed signposting/didactic framing/staccato/forced link-integration; rephrasing only)",
       "opportunity": null
     },
     {
@@ -1058,8 +1058,8 @@
       "posted_date": "",
       "folder": "2026-09-12-scatter-simvoli",
       "pr": "#71",
-      "gemini": "ai 75",
-      "notes": "symbol-mechanic hub (scatter pays/triggers anywhere; honest angle: more scatter = more frequent bonus, not better RTP); companion to wild hub vk-0055; deep pillar vs rechnik glossary; clean (no sitemap); web-est vol · gate 96/100; 0 flags; Sweet Bonanza 4 до 6→10 FS, ретригър 3+→+5 + Starburst reels 2/3/4 web-verified; Gemini HL 15→25→25 kept pass 2 (ai 75; model harsh cf. rotativki HL30); PR #71; img:3 (hero 82 + bonus-trigger 81 + scatter-vs-wild 83; all PASS, 0 integrity fail); 879w, 0 em-dashes",
+      "gemini": "human 85",
+      "notes": "symbol-mechanic hub (scatter pays/triggers anywhere; honest angle: more scatter = more frequent bonus, not better RTP); companion to wild hub vk-0055; deep pillar vs rechnik glossary; clean (no sitemap); web-est vol · gate 96/100; 0 flags; Sweet Bonanza 4 до 6→10 FS, ретригър 3+→+5 + Starburst reels 2/3/4 web-verified; Gemini HL 15→25→25 kept pass 2 (ai 75; model harsh cf. rotativki HL30); PR #71; img:3 (hero 82 + bonus-trigger 81 + scatter-vs-wild 83; all PASS, 0 integrity fail); 879w, 0 em-dashes; nightly-fix 2026-09-12: humanised ai 75→human 85 (4 Gemini passes; removed hedging/didactic contrast/neat-bow wrap-ups/injected budget-advice/anglicism, broke long contrasts; rephrasing only)",
       "opportunity": null
     }
   ],
