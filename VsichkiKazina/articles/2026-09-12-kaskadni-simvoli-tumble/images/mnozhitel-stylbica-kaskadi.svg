@@ -18,15 +18,15 @@
   <!-- chip 1 -->
   <rect x="118" y="94" width="74" height="44" fill="#FFF8DC" stroke="#C7A020" stroke-width="1.5" rx="8"/>
   <text x="155" y="122" font-size="16" font-weight="700" fill="#C7A020" text-anchor="middle">1x</text>
-  <line x1="196" y1="116" x2="224" y2="116" stroke="#999999" stroke-width="2" marker-end="url(#mx)"/>
+  <line x1="201" y1="116" x2="219" y2="116" stroke="#999999" stroke-width="2" marker-end="url(#mx)"/>
   <!-- chip 2 -->
   <rect x="228" y="94" width="74" height="44" fill="#F5D060" rx="8"/>
   <text x="265" y="122" font-size="16" font-weight="700" fill="#1A1A2E" text-anchor="middle">2x</text>
-  <line x1="306" y1="116" x2="334" y2="116" stroke="#999999" stroke-width="2" marker-end="url(#mx)"/>
+  <line x1="311" y1="116" x2="329" y2="116" stroke="#999999" stroke-width="2" marker-end="url(#mx)"/>
   <!-- chip 3 -->
   <rect x="338" y="94" width="74" height="44" fill="#F5D060" rx="8"/>
   <text x="375" y="122" font-size="16" font-weight="700" fill="#1A1A2E" text-anchor="middle">3x</text>
-  <line x1="416" y1="116" x2="444" y2="116" stroke="#999999" stroke-width="2" marker-end="url(#mx)"/>
+  <line x1="421" y1="116" x2="439" y2="116" stroke="#999999" stroke-width="2" marker-end="url(#mx)"/>
   <!-- chip 4 -->
   <rect x="448" y="94" width="74" height="44" fill="#C7A020" rx="8"/>
   <text x="485" y="122" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">5x</text>
@@ -37,13 +37,13 @@
   <!-- chips row 2 (y 192..236) -->
   <rect x="118" y="192" width="74" height="44" fill="#FFF8DC" stroke="#C7A020" stroke-width="1.5" rx="8"/>
   <text x="155" y="220" font-size="16" font-weight="700" fill="#C7A020" text-anchor="middle">3x</text>
-  <line x1="196" y1="214" x2="224" y2="214" stroke="#999999" stroke-width="2" marker-end="url(#mx)"/>
+  <line x1="201" y1="214" x2="219" y2="214" stroke="#999999" stroke-width="2" marker-end="url(#mx)"/>
   <rect x="228" y="192" width="74" height="44" fill="#F5D060" rx="8"/>
   <text x="265" y="220" font-size="16" font-weight="700" fill="#1A1A2E" text-anchor="middle">6x</text>
-  <line x1="306" y1="214" x2="334" y2="214" stroke="#999999" stroke-width="2" marker-end="url(#mx)"/>
+  <line x1="311" y1="214" x2="329" y2="214" stroke="#999999" stroke-width="2" marker-end="url(#mx)"/>
   <rect x="338" y="192" width="74" height="44" fill="#F5D060" rx="8"/>
   <text x="375" y="220" font-size="16" font-weight="700" fill="#1A1A2E" text-anchor="middle">9x</text>
-  <line x1="416" y1="214" x2="444" y2="214" stroke="#999999" stroke-width="2" marker-end="url(#mx)"/>
+  <line x1="421" y1="214" x2="439" y2="214" stroke="#999999" stroke-width="2" marker-end="url(#mx)"/>
   <rect x="448" y="192" width="74" height="44" fill="#C7A020" rx="8"/>
   <text x="485" y="220" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">15x</text>
 

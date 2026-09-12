@@ -1,5 +1,5 @@
-<svg viewBox="0 0 640 384" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
-  <rect width="640" height="384" fill="#F8F6F2" rx="12"/>
+<svg viewBox="0 0 640 394" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <rect width="640" height="394" fill="#F8F6F2" rx="12"/>
 
   <!-- Title -->
   <text x="320" y="34" font-size="16" font-weight="700" fill="#1A1A2E" text-anchor="middle">Как работи каскадата (tumble)</text>
@@ -36,11 +36,11 @@
   <line x1="28" y1="272" x2="612" y2="272" stroke="#DDDDDD" stroke-width="1"/>
 
   <!-- RTP note box -->
-  <rect x="28" y="288" width="584" height="60" fill="#EEF2FF" stroke="#2952C7" stroke-width="1.5" rx="8"/>
-  <text x="320" y="312" font-size="12.5" font-weight="700" fill="#2952C7" text-anchor="middle">Каскадата не добавя пари извън RTP-то</text>
-  <text x="320" y="332" font-size="11" fill="#333333" text-anchor="middle">Обявеният RTP не се променя от механиката: слот с 96% връща тези 96%</text>
-  <text x="320" y="346" font-size="11" fill="#333333" text-anchor="middle">в дългосрочен план със или без каскади, само на по-накъсани серии.</text>
+  <rect x="28" y="286" width="584" height="74" fill="#EEF2FF" stroke="#2952C7" stroke-width="1.5" rx="8"/>
+  <text x="320" y="309" font-size="12.5" font-weight="700" fill="#2952C7" text-anchor="middle">Каскадата не добавя пари извън RTP-то</text>
+  <text x="320" y="330" font-size="11" fill="#333333" text-anchor="middle">Обявеният RTP не се променя от механиката: слот с 96% връща тези 96%</text>
+  <text x="320" y="347" font-size="11" fill="#333333" text-anchor="middle">в дългосрочен план със или без каскади, само на по-накъсани серии.</text>
 
   <!-- Footer -->
-  <text x="320" y="374" font-size="9.5" fill="#BBBBBB" text-anchor="middle">18+ Играйте отговорно · vsichkikazina.bg</text>
+  <text x="320" y="378" font-size="9.5" fill="#BBBBBB" text-anchor="middle">18+ Играйте отговорно · vsichkikazina.bg</text>
 </svg>
