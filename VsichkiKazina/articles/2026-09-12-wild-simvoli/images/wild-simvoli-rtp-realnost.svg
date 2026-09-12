@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-label="Инфографика: wild символите не променят RTP-то — при RTP 96% от €100 оборот се връщат средно €96, останалото остава дългосрочно за казиното; числата са примерни.">
+  <rect x="4" y="4" width="712" height="312" rx="16" fill="#f7f8fb" stroke="#e2e6ee" stroke-width="1.5"/>
+  <text x="36" y="52" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="23" font-weight="700" fill="#1c2433">Wild символите не променят RTP-то</text>
+  <text x="36" y="80" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14.5" fill="#5b6472">RTP е зашит в математиката на играта, преди първото завъртане.</text>
+
+  <text x="36" y="122" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" font-weight="600" fill="#3a4252">Оборот €100</text>
+
+  <rect x="36" y="134" width="648" height="52" rx="8" fill="#e7eaf1"/>
+  <rect x="36" y="134" width="622" height="52" rx="8" fill="#2f9e6f"/>
+  <rect x="36" y="134" width="648" height="52" rx="8" fill="none" stroke="#cfd5e0" stroke-width="1.2"/>
+  <text x="54" y="167" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="17" font-weight="700" fill="#ffffff">Средно връщане €96 (RTP 96%)</text>
+
+  <text x="36" y="220" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="13.5" fill="#5b6472">Останалото от оборота остава дългосрочно за казиното.</text>
+  <text x="36" y="242" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="13.5" fill="#5b6472">Разширяващ, залепващ или вървящ wild: числото не мърда.</text>
+  <text x="36" y="264" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="13.5" fill="#5b6472">Важи за милиони завъртания напред, не за една сесия.</text>
+
+  <text x="36" y="300" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="12" fill="#96a0b0">Числата са примерни (RTP 96%, оборот €100).</text>
+  <text x="684" y="300" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="12" font-weight="600" fill="#96a0b0" text-anchor="end">18+ Играйте отговорно</text>
+</svg>

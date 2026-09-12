@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 404" role="img" aria-label="Инфографика: видовете wild символи — стандартен, разширяващ се, залепващ, вървящ, натрупан и множител-wild — с кратко описание какво прави всеки тип.">
+  <rect x="4" y="4" width="712" height="396" rx="16" fill="#f7f8fb" stroke="#e2e6ee" stroke-width="1.5"/>
+  <text x="36" y="46" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="23" font-weight="700" fill="#1c2433">Видове wild символи</text>
+  <text x="36" y="72" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" fill="#5b6472">Всеки замества други символи; типът добавя движение или множител.</text>
+
+  <!-- rows -->
+  <rect x="36" y="94" width="12" height="12" rx="3" fill="#3a6ea5"/>
+  <text x="62" y="105" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#26303f">Стандартен</text>
+  <text x="212" y="105" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="13" fill="#4c5666">Замества по активна линия, без добавка отгоре.</text>
+
+  <rect x="36" y="140" width="12" height="12" rx="3" fill="#2f9e6f"/>
+  <text x="62" y="151" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#26303f">Разширяващ се</text>
+  <text x="212" y="151" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="13" fill="#4c5666">Покрива целия си барабан и дава повторно завъртане.</text>
+
+  <rect x="36" y="186" width="12" height="12" rx="3" fill="#c98a26"/>
+  <text x="62" y="197" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#26303f">Залепващ</text>
+  <text x="212" y="197" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="13" fill="#4c5666">Стои няколко завъртания, най-често в бонус рунда.</text>
+
+  <rect x="36" y="232" width="12" height="12" rx="3" fill="#8e5bb5"/>
+  <text x="62" y="243" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#26303f">Вървящ</text>
+  <text x="212" y="243" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="13" fill="#4c5666">Мести се барабан по барабан с повторни завъртания.</text>
+
+  <rect x="36" y="278" width="12" height="12" rx="3" fill="#b5495b"/>
+  <text x="62" y="289" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#26303f">Натрупан</text>
+  <text x="212" y="289" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="13" fill="#4c5666">Няколко wild един върху друг на един барабан.</text>
+
+  <rect x="36" y="324" width="12" height="12" rx="3" fill="#3a4252"/>
+  <text x="62" y="335" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#26303f">Множител-wild</text>
+  <text x="212" y="335" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="13" fill="#4c5666">Умножава печалбата, най-често по 2 или по 3.</text>
+
+  <text x="36" y="378" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="12" fill="#96a0b0">Едно и също име може да се държи различно в различните игри.</text>
+  <text x="684" y="378" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="12" font-weight="600" fill="#96a0b0" text-anchor="end">18+ Играйте отговорно</text>
+</svg>
