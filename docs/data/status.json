@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-12T22:17:08Z",
+  "generated_utc": "2026-09-12T22:46:26Z",
   "buffer": {
-    "count": 40,
+    "count": 41,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 3,
-    "drafted": 32,
+    "in-progress": 2,
+    "drafted": 33,
     "approved": 8,
     "posted": 12,
     "failed": 1
@@ -1030,19 +1030,19 @@
     },
     {
       "id": "vk-0055",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Wild символи в ротативките: видове и как работят",
       "keywords_or_terms": "wild символи, wild ротативки, разширяващ се wild, залепващ wild, вървящ wild",
       "volume": "",
       "kd": "",
       "source": "research",
-      "drafted_date": "",
+      "drafted_date": "2026-09-12",
       "posted_date": "",
       "folder": "2026-09-12-wild-simvoli",
-      "pr": "",
-      "gemini": "",
-      "notes": "symbol-mechanic hub — all wild types (стандартен/разширяващ се/залепващ/вървящ/stacked) + honest angle (wild-овете правят печалбите по-чести, не менят домашното предимство); PARENT of branded walking-wild vk-0053 (J&B, fold-in); deep how-it-works pillar distinct from /blog/rechnik-kazino-termini/ glossary; clean (no sitemap page); web-est vol (Ahrefs exhausted, reset 2026-10-02)",
+      "pr": "#70",
+      "gemini": "ai 75",
+      "notes": "symbol-mechanic hub (all wild types; honest angle: wilds don't change RTP/house edge); PARENT of walking-wild vk-0053; deep pillar vs rechnik glossary; clean (no sitemap); web-est vol (Ahrefs exhausted, reset 2026-10-02) · gate 97/100; 0 flags; Gemini HL 20→25→25 kept pass 2 (ai 75; model harsh cf. rotativki HL30); PR #70; img:3 (hero + types infographic + RTP-reality infographic; review 85 PASS, 0 integrity fail); 883w, 0 em-dashes",
       "opportunity": null
     },
     {
@@ -2195,7 +2195,7 @@
       "trend": "",
       "checked": "web",
       "suggestion": "символ-механик хъб — обяснява всички типове wild (стандартен/разширяващ се/залепващ/вървящ/stacked) и че wild-овете правят печалбите по-чести, но не менят домашното предимство; PARENT на branded walking-wild (vk-0053, fold-in), distinct vs rechnik речник (дълбок how-it-works pillar, не дефиниции); чист хъб (няма страница в sitemap); web-оценка на обема (Ahrefs изчерпан, reset 2026-10-02)",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-12",
       "opportunity": null
     },
