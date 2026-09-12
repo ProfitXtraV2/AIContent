@@ -7,7 +7,7 @@
 
   <rect x="36" y="120" width="200" height="80" rx="10" fill="#eef2f8" stroke="#d5deea" stroke-width="1.2"/>
   <text x="136" y="152" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="17" font-weight="700" fill="#26303f" text-anchor="middle">3 scatter</text>
-  <text x="136" y="176" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="12.5" fill="#4c5666" text-anchor="middle">по-малък пакет FS</text>
+  <text x="136" y="176" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="12.5" fill="#4c5666" text-anchor="middle">по-малък пакет</text>
 
   <text x="249" y="166" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="20" fill="#9aa4b2" text-anchor="middle">›</text>
 
