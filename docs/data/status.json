@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-12T14:59:54Z",
+  "generated_utc": "2026-09-12T22:17:08Z",
   "buffer": {
     "count": 40,
     "target": 10,
@@ -7,7 +7,7 @@
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
+    "in-progress": 3,
     "drafted": 32,
     "approved": 8,
     "posted": 12,
@@ -1009,6 +1009,57 @@
       "pr": "#67",
       "gemini": "human 85",
       "notes": "NetEnt walking-wilds slot explainer (public: netent.com + game DBs, NOT operator T&C); RTP 96.28% confirmed 2dp (NetEnt official), max 7,100×, 5×3/20 lines, FS 3+ scatter→10, walking wild ×3 shift-left, Treasure Collection; medium vol (listings vary, noted); mechanic distinct vs Starburst/Gonzo's/Twin Spin/DoA2 (plain text); anchors NetEnt profile vk-0042 (not yet live); clean pillar (no sitemap page); web-est vol · gate 93/100; 0 flags; Gemini human 85 PASS on initial; PR #67; img:2 (infographic 100 + hero 100; 0 integrity fail); 865w, 0 [VERIFY]",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0054",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Кои са доставчиците на казино игри и защо са важни",
+      "keywords_or_terms": "доставчици казино игри, провайдъри казино, казино софтуер",
+      "volume": "60",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-12-dostavchici-kazino-igri",
+      "pr": "",
+      "gemini": "",
+      "notes": "educational concept hub — what a game provider is, why it matters, RTP set by provider but configurable by operator, certification (GLI/eCOGRA), supplier≠operator; distinct from provider PROFILES (Pragmatic vk-0019/Amusnet vk-0021) and the /blog/games-providers/ category; anchors to live Pragmatic+Amusnet profiles; vol 60 (Ahrefs, transactional/informational)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0055",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Wild символи в ротативките: видове и как работят",
+      "keywords_or_terms": "wild символи, wild ротативки, разширяващ се wild, залепващ wild, вървящ wild",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-12-wild-simvoli",
+      "pr": "",
+      "gemini": "",
+      "notes": "symbol-mechanic hub — all wild types (стандартен/разширяващ се/залепващ/вървящ/stacked) + honest angle (wild-овете правят печалбите по-чести, не менят домашното предимство); PARENT of branded walking-wild vk-0053 (J&B, fold-in); deep how-it-works pillar distinct from /blog/rechnik-kazino-termini/ glossary; clean (no sitemap page); web-est vol (Ahrefs exhausted, reset 2026-10-02)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0056",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Scatter символи и bonus trigger: как се задействат безплатните завъртания",
+      "keywords_or_terms": "scatter символи, скатер, bonus trigger, безплатни завъртания как се печелят",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-12-scatter-simvoli",
+      "pr": "",
+      "gemini": "",
+      "notes": "symbol-mechanic hub — scatter плаща където и да падне + задейства FS/бонус (distinct from wild vk-0055 same batch); honest angle (повече scatter = по-чест бонус, не по-добро RTP); fold-in to slot-explainers (3+ scatter→FS); deep pillar distinct from rechnik glossary; clean (no sitemap page); web-est vol",
       "opportunity": null
     }
   ],
