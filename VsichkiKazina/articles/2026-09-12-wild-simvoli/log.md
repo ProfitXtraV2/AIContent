@@ -38,3 +38,16 @@ None. Both named-game facts were WebSearch-verified before drafting; no unverifi
 - Affiliate-disclosure footer present verbatim (1-Aug-2026 regime text), no "issued" claim, no invented site licence number.
 - Brand name "Всички Казина" written exactly, in the footer (matches both live exemplars' pattern — brand name not required in-body for this content type).
 - No images in 05b, per task instruction (image sourcing is a later pipeline step, out of scope here).
+
+## Step 7 — Gemini text check (gemini-3.1-pro-preview)
+- initial draft: Shows AI patterns 80% → human-likeness 20 (07-gemini-check-1.md)
+- humaniser pass 1 (dropped "Представи си" hook, inlined link CTAs, cut "textbook example"/"foundation" tells, simplified metaphor, reworked first-person): Shows AI patterns 75% → HL 25 (07-gemini-check-2.md)
+- humaniser pass 2 (removed redundant scatter sentence, converted type paragraph to bulleted list, softened maxim, de-bolted first-person): Shows AI patterns 75% → HL 25 (07-gemini-check-3.md)
+- Cap reached; kept pass 2 (tied-highest HL 25). Recorded gemini = ai 75. All numbers/links/RG preserved every pass.
+
+## Step 8 — Images + Gemini visual review
+- Created hero (webp metaphor) + 2 infographics (types + RTP reality). Numbers on SVGs trace 1:1 to 05b.
+- Gemini image review pass 1: 85/100 PASS, 0 integrity fail, 0 layout defect. Hero ALT nit fixed. (08-image-review-1.md)
+
+## PR
+- Branch content/2026-09-12-wild-simvoli; content-only PR opened for human review.
