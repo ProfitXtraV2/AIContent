@@ -8,5 +8,5 @@
 - Step 5 (Brand Gate): PASS 93/100, zero criticals. Byline/brand/dates/RG/affiliate footer all present. No operator/НАП facts (out of scope). NUMBER DIFF vs Step 4: none.
 - Step 5b (Light re-check): em-dashes 0, no signposting, no banned connectives, no forced tables/lists. No change needed.
 - Step 7 (Gemini text check): pass 1 → "Likely human-written, 85%" → human-likeness 85 ≥ 80 → PASS on first pass. No re-pass needed; keep-best winner = initial draft (85). Gemini flagged 3 style-only idioms + one echo (non-blocking, logged for human). See 07-gemini-check-1.md.
-- Step 8 (Images): see 08-image-review-*.md. [to be filled]
-- Step 6 (Verification): see 06-verification.md.
+- Step 8 (Images): 2 images. Hand-authored SVG spec+walking-wild infographic (numbers trace to 05b; rendered + eyeballed clean) and a decorative green-beanstalk AI hero (gemini_image_gen, 15.7 KB, clean hygiene). Gemini image review pass 1 = 100/100 PASS, no integrity failure, no fixes. See 08-image-review-1.md.
+- Step 6 (Verification): see 06-verification.md. 0 surviving [VERIFY]; RTP confirmed 96.28% (NetEnt official). images: 2 (infographic 100, hero 100).

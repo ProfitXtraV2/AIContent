@@ -43,4 +43,6 @@ Clean pillar: no existing sitemap page for this game; primary keyword cluster ("
 Pass 1: "Likely human-written, 85% confidence" → human-likeness **85** ≥ 80 → **PASS on first pass** (0 humaniser re-passes). Kept version = initial draft (85). Queue `gemini` column: `human 85`. Gemini praised the RG-woven-into-mechanics copy; flagged 3 style-only translated idioms + one thematic echo (non-blocking, left for the human editor). See 07-gemini-check-1.md.
 
 ## Images (Step 8)
-[to be filled: count + best review scores + any integrity drops]
+images: 2 (infographic 100, hero 100). Gemini image review pass 1 = 100/100 PASS, no integrity failure, no fixes required, no integrity drops.
+- `images/jack-and-the-beanstalk-spec.svg` — hand-authored spec + walking-wild flow; every figure traces to 05b (RTP 96.28% / 3.72%, €1000→€962.80/€37.20 labelled примерна, 5×3, 20 линии, средна волатилност, hit frequency ~34%, макс. 7,100×, wild reel 3→2→1 ×3). Rendered to PNG and eyeballed: no overlap/clip, 16px+ margins.
+- `images/jack-and-the-beanstalk-hero.webp` — decorative green-beanstalk metaphor with tiles trailing left (15.7 KB); no text/numbers/logos/people/faces/UI.
