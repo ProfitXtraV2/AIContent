@@ -67,3 +67,16 @@
 - Status → drafted. drafted_date 12.09.2026. Not posted, not merged; images,
   Step 6 verification, and external Gemini check are out of scope for this
   run per task instructions (stages 1→5b only).
+
+## Step 7 — Gemini text check (gemini-3.1-pro-preview)
+- initial draft: Shows AI patterns 75% → human-likeness 25 (07-gemini-check-1.md)
+- humaniser pass 1 (cut "чертожната дъска" idiom, "преди да заложиш и стотинка" flourish, "изникват отново и отново", the "misconception" signpost, two bow-tie summaries; converted ' - ' dashes to natural punctuation): Shows AI patterns 65% → HL 35 (07-gemini-check-2.md)
+- humaniser pass 2 (Wikipedia-dump provider rewrite, bulleted trait list, synthesized lab sentence): Shows AI patterns 70% → HL 30 — LOWERED (07-gemini-check-3.md)
+- Pass 2 measurably worse; REVERTED 05b to pass 1 (HL 35, best seen) per keep-best. Recorded gemini = ai 65. All numbers/links/RG preserved every pass. Model high-variance (pass-1 re-read 80%); not chased.
+
+## Step 8 — Images + Gemini visual review
+- Created hero (webp metaphor: one provider→many operators) + 2 infographics (доставчик vs оператор + RTP пример). SVG numbers trace 1:1 to 05b.
+- Gemini image review pass 1: 100/100 PASS all, 0 integrity fail, 0 layout defect. (08-image-review-1.md)
+
+## PR
+- Branch content/2026-09-12-dostavchici-kazino-igri; content-only PR opened for human review.
