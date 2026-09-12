@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-label="Инфографика: разликата между scatter и wild символ — scatter се брои навсякъде по екрана, не му трябва активна линия и задейства безплатните завъртания; wild замества други символи само по активна линия и обикновено не отваря бонус.">
+  <rect x="4" y="4" width="712" height="292" rx="16" fill="#f7f8fb" stroke="#e2e6ee" stroke-width="1.5"/>
+  <text x="36" y="46" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="21" font-weight="700" fill="#1c2433">Scatter или wild: два различни символа</text>
+
+  <rect x="36" y="66" width="318" height="200" rx="12" fill="#eef4f2" stroke="#cfe0d8" stroke-width="1.3"/>
+  <text x="56" y="98" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f7d57">SCATTER</text>
+  <line x1="56" y1="112" x2="334" y2="112" stroke="#cfe0d8" stroke-width="1.2"/>
+  <circle cx="60" cy="144" r="3.5" fill="#2f9e6f"/>
+  <text x="74" y="149" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" fill="#3a4252">Брои се навсякъде по екрана</text>
+  <circle cx="60" cy="180" r="3.5" fill="#2f9e6f"/>
+  <text x="74" y="185" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" fill="#3a4252">Не му трябва активна линия</text>
+  <circle cx="60" cy="216" r="3.5" fill="#2f9e6f"/>
+  <text x="74" y="221" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" fill="#3a4252">Задейства безплатните завъртания</text>
+
+  <rect x="366" y="66" width="318" height="200" rx="12" fill="#f4f0e8" stroke="#e4d8c4" stroke-width="1.3"/>
+  <text x="386" y="98" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="16" font-weight="700" fill="#b07d24">WILD</text>
+  <line x1="386" y1="112" x2="664" y2="112" stroke="#e4d8c4" stroke-width="1.2"/>
+  <circle cx="390" cy="144" r="3.5" fill="#c98a26"/>
+  <text x="404" y="149" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" fill="#3a4252">Замества други символи</text>
+  <circle cx="390" cy="180" r="3.5" fill="#c98a26"/>
+  <text x="404" y="185" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" fill="#3a4252">Работи само по активна линия</text>
+  <circle cx="390" cy="216" r="3.5" fill="#c98a26"/>
+  <text x="404" y="221" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" fill="#3a4252">Обикновено не отваря бонус</text>
+
+  <text x="36" y="286" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="12" fill="#96a0b0">Двата символа често се бъркат, но вършат различни неща.</text>
+  <text x="684" y="286" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="12" font-weight="600" fill="#96a0b0" text-anchor="end">18+ Играйте отговорно</text>
+</svg>

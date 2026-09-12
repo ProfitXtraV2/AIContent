@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 376" role="img" aria-label="Инфографика: как scatter символите задействат безплатните завъртания — примерно 3, 4 или 5 scatter отварят все по-щедър бонус; в Sweet Bonanza 4 до 6 scatter дават 10 безплатни завъртания, а 3 или повече по време на бонуса добавят още 5.">
+  <rect x="4" y="4" width="712" height="368" rx="16" fill="#f7f8fb" stroke="#e2e6ee" stroke-width="1.5"/>
+  <text x="36" y="46" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="21" font-weight="700" fill="#1c2433">Как scatter-ите задействат безплатните завъртания</text>
+  <text x="36" y="72" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="13.5" fill="#5b6472">Прагът варира по игра; повече scatter обикновено значи по-щедър старт.</text>
+
+  <text x="36" y="108" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#7a8290">ОБЩО ПРАВИЛО (ПРИМЕРНО)</text>
+
+  <rect x="36" y="120" width="200" height="80" rx="10" fill="#eef2f8" stroke="#d5deea" stroke-width="1.2"/>
+  <text x="136" y="152" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="17" font-weight="700" fill="#26303f" text-anchor="middle">3 scatter</text>
+  <text x="136" y="176" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="12.5" fill="#4c5666" text-anchor="middle">по-малък пакет FS</text>
+
+  <text x="249" y="166" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="20" fill="#9aa4b2" text-anchor="middle">›</text>
+
+  <rect x="262" y="120" width="200" height="80" rx="10" fill="#eaf4ef" stroke="#c9e2d5" stroke-width="1.2"/>
+  <text x="362" y="152" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="17" font-weight="700" fill="#26303f" text-anchor="middle">4 scatter</text>
+  <text x="362" y="176" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="12.5" fill="#4c5666" text-anchor="middle">още завъртания</text>
+
+  <text x="475" y="166" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="20" fill="#9aa4b2" text-anchor="middle">›</text>
+
+  <rect x="488" y="120" width="192" height="80" rx="10" fill="#f3eee6" stroke="#e3d6c2" stroke-width="1.2"/>
+  <text x="584" y="152" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="17" font-weight="700" fill="#26303f" text-anchor="middle">5 scatter</text>
+  <text x="584" y="176" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="12.5" fill="#4c5666" text-anchor="middle">най-голям старт</text>
+
+  <line x1="36" y1="230" x2="684" y2="230" stroke="#e2e6ee" stroke-width="1.2"/>
+  <text x="36" y="262" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#7a8290">ПРИМЕР: SWEET BONANZA</text>
+
+  <circle cx="44" cy="290" r="4" fill="#2f9e6f"/>
+  <text x="60" y="295" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14.5" fill="#3a4252">4 до 6 scatter отварят 10 безплатни завъртания.</text>
+  <circle cx="44" cy="320" r="4" fill="#2f9e6f"/>
+  <text x="60" y="325" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14.5" fill="#3a4252">Ретригър: 3 или повече scatter по време на бонуса добавят още 5 завъртания.</text>
+
+  <text x="36" y="356" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="11.5" fill="#96a0b0">Общите числа са примерни; стойностите за Sweet Bonanza са конкретни за играта.</text>
+  <text x="684" y="356" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#96a0b0" text-anchor="end">18+ Играйте отговорно</text>
+</svg>
