@@ -5,14 +5,14 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01QS2nBhKY66LxeWMaVMorfY",
-  "note": "recurring run 2026-09-12 (fire #13) started: reconcile leftovers (0 in-progress), select up to 3 distinct on-strategy topics, write batch",
+  "note": "recurring run 2026-09-12 (fire #13): 3 in-progress rows created (vk-0051 Hold & Win hub, vk-0052 Cascade/tumble hub, vk-0053 Jack and the Beanstalk). Writing batch.",
   "progress": {
-    "phase": "selecting",
-    "article_index": null,
-    "article_total": null,
-    "article_slug": null,
-    "stages": [],
-    "stage_index": null,
-    "stage": null
+    "phase": "writing",
+    "article_index": 1,
+    "article_total": 3,
+    "article_slug": "2026-09-12-hold-and-win",
+    "stages": ["Synthesis", "Outline", "Author", "Humaniser", "SEO", "Brand Gate", "Light re-check", "Images", "Verification", "PR"],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }

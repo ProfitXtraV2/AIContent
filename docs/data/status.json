@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-12T06:45:04Z",
+  "generated_utc": "2026-09-12T07:14:35Z",
   "buffer": {
     "count": 37,
     "target": 10,
@@ -7,7 +7,7 @@
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
+    "in-progress": 3,
     "drafted": 29,
     "approved": 8,
     "posted": 12,
@@ -958,6 +958,57 @@
       "pr": "#66",
       "gemini": "human 85",
       "notes": "NetEnt synchronized/linked-reels slot explainer (public: netent.com + SlotCatalog/PokerNews, NOT operator T&C); anchors NetEnt profile (vk-0042, /blog/netent-provajdar/); mechanic distinct vs wild+respin (Starburst)/Avalanche (Gonzo's)/extreme-vol (Dead or Alive 2) — all plain-text; clean pillar (no sitemap page); RTP 96.55%, 5x3/243 ways L-R, low-med vol, Twin Reel 2→3→4→5 linked, NO bonus/FS, max 1000x (NetEnt field)/1080x (DBs) both stated; gate 95/100; 0 flags; Gemini human 85 PASS pass 1 (initial kept); PR #66; img:3 (RTP infographic + Twin-Reel infographic + hero; review 100/100 all, 0 integrity fail); vol/kd web-est (Ahrefs exhausted, reset 2026-10-02)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0051",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Hold & Win (Hold and Spin): как работят респините с монети и джакпоти",
+      "keywords_or_terms": "hold and win, hold & win, hold and spin, респин механика, монети джакпот",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-12",
+      "posted_date": "",
+      "folder": "2026-09-12-hold-and-win",
+      "pr": "",
+      "gemini": "",
+      "notes": "mechanic hub (like Megaways vk-0041 / paylines vk-0017); explains lock&respin + fixed coin jackpots; fold-in Wolf Gold (vk-0048)/Dog House (vk-0031, plain text — not yet live); clean hub (no sitemap page); web-est vol (Ahrefs exhausted, reset 2026-10-02)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0052",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Каскадни/падащи символи (tumble/cascade): как работят падащите печалби",
+      "keywords_or_terms": "каскадни символи, tumble, падащи символи, cascade слот, каскади",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-12",
+      "posted_date": "",
+      "folder": "2026-09-12-kaskadni-simvoli-tumble",
+      "pr": "",
+      "gemini": "",
+      "notes": "mechanic hub; explains tumble/cascade/Avalanche (winning symbols removed, new drop same spin); fold-in Sweet Bonanza (/blog/sweet-bonanza/ live)/Sugar Rush/Gonzo's/Reactoonz; clean hub (no sitemap page); web-est vol",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0053",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Jack and the Beanstalk: RTP, вървящи wild-ове (walking wilds) и как се играе",
+      "keywords_or_terms": "jack and the beanstalk, netent walking wild, вървящи wild",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-12",
+      "posted_date": "",
+      "folder": "2026-09-12-jack-and-the-beanstalk",
+      "pr": "",
+      "gemini": "",
+      "notes": "NetEnt walking-wilds branded slot explainer (public: netent.com + game DBs, NOT operator T&C); anchors NetEnt profile (vk-0042, plain text — not yet live); mechanic distinct vs Starburst/Gonzo's/Twin Spin/DoA2; clean pillar (no sitemap page); web-est vol",
       "opportunity": null
     }
   ],
