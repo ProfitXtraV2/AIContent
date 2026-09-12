@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-11T23:41:07Z",
+  "generated_utc": "2026-09-12T03:19:02Z",
   "buffer": {
     "count": 35,
     "target": 10,
@@ -7,7 +7,7 @@
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
+    "in-progress": 3,
     "drafted": 26,
     "approved": 9,
     "posted": 11,
@@ -907,6 +907,57 @@
       "pr": "#63",
       "gemini": "human 90",
       "notes": "web-est vol; Play'n GO cluster-pays grid slot explainer (public game/provider data, NOT operator T&C); anchors to Play'n GO profile (vk-0045); mechanically distinct vs Book of Dead (7x7 grid/cluster/no FS vs 5x3 lines/expanding symbol) · gate 95/100; 0 flags; RTP 96.51% default (~94.51/~91.49 builds), max 4570x, Gargantoon 3x3→2x2→1x1, Quantum Leap, NO free-spins round (SlotCatalog/PokerNews/OLBG web-verified); Gemini human 90 PASS on initial draft; PR #63; img:2 (Gargantoon infographic 100 + hero 100; best 100, 0 integrity fail)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0048",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Wolf Gold: RTP, волатилност и Money Respin джакпоти (Pragmatic)",
+      "keywords_or_terms": "wolf gold, волф голд, wolf gold rtp, wolf gold pragmatic",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-12-wolf-gold",
+      "pr": "",
+      "gemini": "",
+      "notes": "Pragmatic Play Money Respin + 3 фиксирани джакпота (Mini/Major/Mega) explainer (public game/provider data + game DBs, NOT operator T&C); anchors Pragmatic profile (vk-0019); distinct game/kw vs Sweet Bonanza/Gates/Sugar Rush/Big Bass; clean pillar (no sitemap page); fixed (NOT progressive) jackpots → no overlap with vk-0007 progressive pillar; web-est vol (Ahrefs units exhausted, reset 2026-10-02)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0049",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Dead or Alive 2: RTP, висока волатилност и как се играе",
+      "keywords_or_terms": "dead or alive 2, dead or alive 2 rtp, dead or alive слот, доа 2",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-12-dead-or-alive-2",
+      "pr": "",
+      "gemini": "",
+      "notes": "NetEnt extreme high-volatility slot explainer (3 free-spins modes; public game/provider data + netent.com/game DBs, NOT operator T&C); anchors NetEnt profile (vk-0042); distinct branded kw + honest volatility angle vs Starburst (low-vol, vk-0043)/Gonzo's (vk-0044); clean pillar (no sitemap page); web-est vol",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0050",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Twin Spin: RTP, свързани барабани и как се играе",
+      "keywords_or_terms": "twin spin, туин спин, twin spin rtp, netent twin spin",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-12-twin-spin",
+      "pr": "",
+      "gemini": "",
+      "notes": "NetEnt synchronized/linked-reels slot explainer (public game/provider data + netent.com/game DBs, NOT operator T&C); anchors NetEnt profile (vk-0042); mechanic distinct vs wild+respin (Starburst)/Avalanche (Gonzo's)/extreme-vol (Dead or Alive 2 same batch); clean pillar (no sitemap page); web-est vol",
       "opportunity": null
     }
   ],
