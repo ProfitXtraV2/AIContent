@@ -4,15 +4,16 @@
   "run_finished_utc": null,
   "articles_written": null,
   "prs_opened": [
-    70
+    70,
+    71
   ],
   "run_url": "https://claude.ai/code/session_01GPr1cv8LfM6oVAYEwXXu8T",
-  "note": "daily run 2026-09-12 (fire #14) — 1/3 drafted (vk-0055 wild-symbols hub, PR #70); writing remaining 2",
+  "note": "daily run 2026-09-12 (fire #14) — 2/3 drafted (vk-0055 wild-symbols PR #70, vk-0056 scatter PR #71); writing vk-0054 providers hub",
   "progress": {
     "phase": "writing",
-    "article_index": 2,
+    "article_index": 3,
     "article_total": 3,
-    "article_slug": "2026-09-12-scatter-simvoli",
+    "article_slug": "2026-09-12-dostavchici-kazino-igri",
     "stages": [
       "Synthesis",
       "Outline",

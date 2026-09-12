@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-12T22:46:26Z",
+  "generated_utc": "2026-09-12T22:58:18Z",
   "buffer": {
-    "count": 41,
+    "count": 42,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 2,
-    "drafted": 33,
+    "in-progress": 1,
+    "drafted": 34,
     "approved": 8,
     "posted": 12,
     "failed": 1
@@ -1047,19 +1047,19 @@
     },
     {
       "id": "vk-0056",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Scatter символи и bonus trigger: как се задействат безплатните завъртания",
       "keywords_or_terms": "scatter символи, скатер, bonus trigger, безплатни завъртания как се печелят",
       "volume": "",
       "kd": "",
       "source": "research",
-      "drafted_date": "",
+      "drafted_date": "2026-09-12",
       "posted_date": "",
       "folder": "2026-09-12-scatter-simvoli",
-      "pr": "",
-      "gemini": "",
-      "notes": "symbol-mechanic hub — scatter плаща където и да падне + задейства FS/бонус (distinct from wild vk-0055 same batch); honest angle (повече scatter = по-чест бонус, не по-добро RTP); fold-in to slot-explainers (3+ scatter→FS); deep pillar distinct from rechnik glossary; clean (no sitemap page); web-est vol",
+      "pr": "#71",
+      "gemini": "ai 75",
+      "notes": "symbol-mechanic hub (scatter pays/triggers anywhere; honest angle: more scatter = more frequent bonus, not better RTP); companion to wild hub vk-0055; deep pillar vs rechnik glossary; clean (no sitemap); web-est vol · gate 96/100; 0 flags; Sweet Bonanza 4 до 6→10 FS, ретригър 3+→+5 + Starburst reels 2/3/4 web-verified; Gemini HL 15→25→25 kept pass 2 (ai 75; model harsh cf. rotativki HL30); PR #71; img:3 (hero 82 + bonus-trigger 81 + scatter-vs-wild 83; all PASS, 0 integrity fail); 879w, 0 em-dashes",
       "opportunity": null
     }
   ],
@@ -2209,7 +2209,7 @@
       "trend": "",
       "checked": "web",
       "suggestion": "символ-механик хъб — scatter плаща където и да падне и задейства FS/бонус (различен от wild); distinct primary intent vs wilds хъб и rechnik речник; fold-in към повечето слот-explainer-и (3+ scatter → FS); честен ъгъл: повече scatter-и = по-чест бонус, не по-добро RTP; чист хъб (няма в sitemap); web-оценка на обема",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-12",
       "opportunity": null
     },
