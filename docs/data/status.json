@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-12T04:09:05Z",
+  "generated_utc": "2026-09-12T04:31:51Z",
   "buffer": {
-    "count": 37,
+    "count": 38,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 1,
-    "drafted": 28,
+    "in-progress": 0,
+    "drafted": 29,
     "approved": 9,
     "posted": 11,
     "failed": 1
@@ -945,19 +945,19 @@
     },
     {
       "id": "vk-0050",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Twin Spin: RTP, свързани барабани и как се играе",
       "keywords_or_terms": "twin spin, туин спин, twin spin rtp, netent twin spin",
       "volume": "",
       "kd": "",
       "source": "research",
-      "drafted_date": "",
+      "drafted_date": "2026-09-12",
       "posted_date": "",
       "folder": "2026-09-12-twin-spin",
-      "pr": "",
-      "gemini": "",
-      "notes": "NetEnt synchronized/linked-reels slot explainer (public game/provider data + netent.com/game DBs, NOT operator T&C); anchors NetEnt profile (vk-0042); mechanic distinct vs wild+respin (Starburst)/Avalanche (Gonzo's)/extreme-vol (Dead or Alive 2 same batch); clean pillar (no sitemap page); web-est vol",
+      "pr": "#66",
+      "gemini": "human 85",
+      "notes": "NetEnt synchronized/linked-reels slot explainer (public: netent.com + SlotCatalog/PokerNews, NOT operator T&C); anchors NetEnt profile (vk-0042, /blog/netent-provajdar/); mechanic distinct vs wild+respin (Starburst)/Avalanche (Gonzo's)/extreme-vol (Dead or Alive 2) — all plain-text; clean pillar (no sitemap page); RTP 96.55%, 5x3/243 ways L-R, low-med vol, Twin Reel 2→3→4→5 linked, NO bonus/FS, max 1000x (NetEnt field)/1080x (DBs) both stated; gate 95/100; 0 flags; Gemini human 85 PASS pass 1 (initial kept); PR #66; img:3 (RTP infographic + Twin-Reel infographic + hero; review 100/100 all, 0 integrity fail); vol/kd web-est (Ahrefs exhausted, reset 2026-10-02)",
       "opportunity": null
     }
   ],
@@ -1953,7 +1953,7 @@
       "trend": "",
       "checked": "web",
       "suggestion": "NetEnt класика със синхронизирани (свързани) барабани — distinct branded pillar; котва към NetEnt профил (vk-0042); механика, различна от wild+respin (Starburst) и Avalanche (Gonzo's Quest). Web-оценка на обема",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-11",
       "opportunity": null
     },
@@ -2039,6 +2039,48 @@
       "suggestion": "Play'n GO grid/cluster слот с гръцки богове (Zeus/Poseidon/Hades модификатори) — distinct branded pillar; котва към Play'n GO профил (vk-0045); grid-cluster като Reactoonz/Moon Princess но различни модификатори → own pillar; чист (няма в sitemap). Web-оценка на обема",
       "status": "candidate",
       "date_researched": "2026-09-11",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Hold & Win (Hold and Spin): как работят респините с монети и джакпоти",
+      "researched_keywords": "hold and win, hold & win, hold and spin, респин механика, монети джакпот",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "механик-хъб (като Megaways vk-0041/линии vk-0017) — обяснява lock&respin + фиксирани джакпоти; distinct primary intent vs branded игри; fold-in: Wolf Gold (vk-0048), The Dog House (vk-0031); чист хъб, няма страница в sitemap; котва към slot-хъб; web-оценка на обема (Ahrefs изчерпан, reset 2026-10-02)",
+      "status": "candidate",
+      "date_researched": "2026-09-12",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Каскадни/падащи символи (tumble/cascade): как работят падащите печалби",
+      "researched_keywords": "каскадни символи, tumble, падащи символи, cascade слот, каскади",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "механик-хъб — обяснява tumble/cascade/Avalanche (печелившите символи изчезват, падат нови в същото завъртане); distinct primary intent vs branded игри; fold-in: Sweet Bonanza, Sugar Rush (vk-0030), Gonzo's Quest Avalanche (vk-0044), Reactoonz (vk-0047); чист хъб, няма в sitemap; web-оценка на обема",
+      "status": "candidate",
+      "date_researched": "2026-09-12",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Jack and the Beanstalk: RTP, вървящи wild-ове (walking wilds) и как се играе",
+      "researched_keywords": "jack and the beanstalk, netent walking wild, вървящи wild",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "NetEnt класика с walking wilds механика — механично distinct vs Starburst (wild+respin)/Gonzo's (Avalanche)/Twin Spin (свързани барабани)/Dead or Alive 2 (extreme vol); котва към NetEnt профил (vk-0042); distinct branded kw; чист pillar (няма в sitemap); RTP ~96.3% (web-verify преди писане); web-оценка на обема",
+      "status": "candidate",
+      "date_researched": "2026-09-12",
       "opportunity": null
     }
   ],

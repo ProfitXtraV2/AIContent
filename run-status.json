@@ -1,32 +1,22 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-09-12T03:10:19Z",
-  "run_finished_utc": null,
-  "articles_written": 2,
+  "run_finished_utc": "2026-09-12T04:31:51Z",
+  "articles_written": 3,
   "prs_opened": [
     64,
-    65
+    65,
+    66
   ],
   "run_url": "https://claude.ai/code/session_01XJY4baH9Ecu4ZjEis1jPS6",
-  "note": "fire #12: vk-0048 Wolf Gold (PR #64) + vk-0049 Dead or Alive 2 (PR #65) drafted; writing 3/3 Twin Spin",
+  "note": "recurring run 2026-09-12 (fire #12) complete: 3 new distinct branded game-explainer guides drafted — Wolf Gold (vk-0048, PR #64, Pragmatic Money Respin + FIXED Mini30x/Major100x/Mega1000x jackpots, gate 96, Gemini human 85 PASS on initial, img:3 rev100), Dead or Alive 2 (vk-0049, PR #65, NetEnt extreme high-volatility Western, RTP 96.80%, 3 FS modes, gate 95, Gemini HL 70->75->85 PASS pass 2, img:3 rev100), Twin Spin (vk-0050, PR #66, NetEnt linked reels 243 ways no-bonus, RTP 96.55%, gate 95, Gemini human 85 PASS on initial, img:3 rev100). Hub-and-spoke: Wolf Gold anchors Pragmatic profile (vk-0019); DoA2 + Twin Spin anchor NetEnt profile (vk-0042). Buffer 35->38 (floor 10; no cap, keep building). 0 in-progress leftovers reconciled at start; 0 open backlog rows (row2 stays failed/blocked, operator/НАП-dependent). All figures public provider data (pragmaticplay.com, netent.com) + international game DBs (SlotCatalog/AskGamblers/PokerNews); NO operator T&C/НАП facts fabricated; 0 surviving [VERIFY] across all 3. Honest angles: Wolf Gold FIXED (not progressive) jackpots -> no overlap with vk-0007; DoA2 ~100000x theoretical vs NetEnt Max-Win field 1600x both stated; Twin Spin linked reels dont change house edge. Ahrefs units exhausted (reset 2026-10-02) -> web-est vol; bank replenished with 3 new distinct candidates (Hold&Win mechanic hub, Cascade/tumble mechanic hub, Jack and the Beanstalk), dropped Divine Fortune (anti-cannibal cluster with existing Mega Fortune). Images 9/9 PASS, 0 integrity failures. Feed refreshed (9 approved unchanged — new articles are drafted, human owns approval). Content PRs #64-66 (no CI on content PRs); human owns Step 6/merge/flag-resolution.",
   "progress": {
-    "phase": "writing",
-    "article_index": 3,
-    "article_total": 3,
-    "article_slug": "2026-09-12-twin-spin",
-    "stages": [
-      "Synthesis",
-      "Outline",
-      "Author",
-      "Humaniser",
-      "SEO",
-      "Brand Gate",
-      "Light re-check",
-      "Images",
-      "Verification",
-      "PR"
-    ],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "phase": "done",
+    "article_index": null,
+    "article_total": null,
+    "article_slug": null,
+    "stages": [],
+    "stage_index": null,
+    "stage": null
   }
 }
