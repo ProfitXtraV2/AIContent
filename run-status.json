@@ -2,15 +2,17 @@
   "state": "running",
   "run_started_utc": "2026-09-12T03:10:19Z",
   "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "articles_written": 1,
+  "prs_opened": [
+    64
+  ],
   "run_url": "https://claude.ai/code/session_01XJY4baH9Ecu4ZjEis1jPS6",
-  "note": "daily run 2026-09-12 (fire #12): 3 in-progress rows added (vk-0048 Wolf Gold, vk-0049 Dead or Alive 2, vk-0050 Twin Spin); writing batch",
+  "note": "fire #12: vk-0048 Wolf Gold drafted (PR #64, gate 96, human 85, img3 rev100); writing 2/3 Dead or Alive 2",
   "progress": {
     "phase": "writing",
-    "article_index": 1,
+    "article_index": 2,
     "article_total": 3,
-    "article_slug": "2026-09-12-wolf-gold",
+    "article_slug": "2026-09-12-dead-or-alive-2",
     "stages": [
       "Synthesis",
       "Outline",

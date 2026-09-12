@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-12T03:19:02Z",
+  "generated_utc": "2026-09-12T03:38:38Z",
   "buffer": {
-    "count": 35,
+    "count": 36,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 3,
-    "drafted": 26,
+    "in-progress": 2,
+    "drafted": 27,
     "approved": 9,
     "posted": 11,
     "failed": 1
@@ -911,19 +911,19 @@
     },
     {
       "id": "vk-0048",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Wolf Gold: RTP, волатилност и Money Respin джакпоти (Pragmatic)",
       "keywords_or_terms": "wolf gold, волф голд, wolf gold rtp, wolf gold pragmatic",
       "volume": "",
       "kd": "",
       "source": "research",
-      "drafted_date": "",
+      "drafted_date": "2026-09-12",
       "posted_date": "",
       "folder": "2026-09-12-wolf-gold",
-      "pr": "",
-      "gemini": "",
-      "notes": "Pragmatic Play Money Respin + 3 фиксирани джакпота (Mini/Major/Mega) explainer (public game/provider data + game DBs, NOT operator T&C); anchors Pragmatic profile (vk-0019); distinct game/kw vs Sweet Bonanza/Gates/Sugar Rush/Big Bass; clean pillar (no sitemap page); fixed (NOT progressive) jackpots → no overlap with vk-0007 progressive pillar; web-est vol (Ahrefs units exhausted, reset 2026-10-02)",
+      "pr": "#64",
+      "gemini": "human 85",
+      "notes": "Pragmatic Play Money Respin (hold&win) + 3 FIXED джакпота Mini 30x/Major 100x/Mega 1000x explainer (public game/provider data: pragmaticplay.com primary + SlotCatalog/AskGamblers, NOT operator T&C); anchors Pragmatic profile (vk-0019, /blog/pragmatic-play-provajdar/); distinct game/kw vs Sweet Bonanza/Gates/Sugar Rush/Big Bass; clean pillar (no sitemap page); FIXED (NOT progressive) jackpots funded from turnover → honest angle, no overlap with vk-0007 progressive pillar; RTP 96.01% default (operator-configurable builds), 5x3/25 lines, medium vol, 5 FS giant symbol, max 2500x; gate 96/100; 0 flags; Gemini human 85 PASS on initial draft (0 Humaniser passes, initial kept); PR #64; img:3 (RTP infographic + jackpot-ladder infographic + hero; best review 100, 0 integrity fail); vol/kd web-est (Ahrefs exhausted, reset 2026-10-02)",
       "opportunity": null
     },
     {
@@ -1967,7 +1967,7 @@
       "trend": "",
       "checked": "web",
       "suggestion": "Pragmatic Play класика с Money Respin + 3 фиксирани джакпота (Mini/Major/Mega) — честен ъгъл: джакпотите се финансират от оборота, не подобряват базовите шансове; котва към Pragmatic профил (vk-0019); distinct game/kw от Sweet Bonanza/Gates/Sugar Rush/Big Bass; чист pillar (няма в sitemap); RTP ~96.01% (web-verify преди писане). Web-оценка на обема",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-10",
       "opportunity": null
     },
