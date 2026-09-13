@@ -1,21 +1,17 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-12T22:14:38Z",
-  "run_finished_utc": "2026-09-12T23:11:30Z",
-  "articles_written": 3,
-  "prs_opened": [
-    70,
-    71,
-    72
-  ],
-  "run_url": "https://claude.ai/code/session_01GPr1cv8LfM6oVAYEwXXu8T",
-  "note": "recurring run 2026-09-12 (fire #14) complete: 3 new distinct guides drafted — Providers concept-hub (vk-0054, PR #72, gate 94, Gemini HL 25→35→30 reverted to pass 1 = ai 65, img:3 100 PASS), Wild-symbols mechanic hub (vk-0055, PR #70, gate 97, Gemini HL 20→25→25 = ai 75, img:3 best 85 PASS), Scatter/bonus-trigger mechanic hub (vk-0056, PR #71, gate 96, Gemini HL 15→25→25 = ai 75, img:3 best 83 PASS). PUBLIC concept/mechanic + provider-history data only (provider/lab founding years web-verified; Sweet Bonanza 4-6→10 FS/ретригър 3+→+5 & Starburst reels 2/3/4 verified; RTP examples примерни); NO operator T&C/НАП facts; 0 surviving [VERIFY] across all 3. Honest angles: wilds/scatters don't change RTP/house edge; certification ≠ advantage; provider sets RTP but operator picks the certified build (same game, different RTP per casino). Anti-cannibalization: wild vs scatter mutually distinct + parent of walking-wild vk-0053/fold-ins; providers CONCEPT hub distinct from provider PROFILES (vk-0019/0021) + /blog/games-providers/ category. All 3 clean pillars (absent from sitemap+queue). Backlog 0 open (row1 written, row2 stays failed/geo-blocked). Gemini gemini-3.1-pro-preview rates these guides harshly + high-variance even after 2 humaniser passes each — kept best-scoring version per policy, honestly recorded ai 65-75; human owns final approval/flag-resolution/merge. Images 9/9 PASS, 0 integrity failures (all SVG numbers trace 1:1 to 05b; heroes are abstract metaphors, no logos/faces/text). Buffer 40→43 drafted+approved (floor 10; no cap, keep building). Ahrefs exhausted (reset 2026-10-02) → web-est vol; bank replenished with 3 new distinct candidates (Multipliers hub, Paytable how-to, Hacksaw provider). Feed refreshed (8 approved unchanged). Content PRs #70-72 (no CI; human owns Step 6/merge).",
+  "state": "running",
+  "run_started_utc": "2026-09-13T03:10:59Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01Dsr3h1D6rZy7XQ2KQF33Sy",
+  "note": "recurring run 2026-09-13 (fire #15) start — heartbeat running; reconciled 0 in-progress; selecting batch",
   "progress": {
-    "phase": "done",
+    "phase": "selecting",
     "article_index": null,
     "article_total": null,
     "article_slug": null,
-    "stages": [],
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
     "stage_index": null,
     "stage": null
   }
