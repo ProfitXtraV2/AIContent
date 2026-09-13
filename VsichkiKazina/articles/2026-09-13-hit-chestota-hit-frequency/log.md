@@ -13,5 +13,6 @@
 - 05 gate: PASS 95/100, 0 criticals, 0 [VERIFY].
 - 05b: final locked. Body ~690 words, 0 em-dashes.
 - NUMBER DIFF (02→03→05b): identical (25%, 3–40%, 96%, €1/€0.40/€0.60). No change/loss.
-- 07 gemini: (see 07-gemini-check-*.md)
-- 08 images: (see 08-image-review-*.md)
+- 07 gemini: initial HL 25 → humaniser pass 1 → HL 90 (Likely human-written 90%) PASS; kept pass 1.
+- 08 images: 2 (hero webp + three-numbers svg); review 1 = 95 PASS, 0 integrity fail; applied inset-bar polish.
+- 06 verification: 0 surviving flags; one recalculation shown (€0.40 hit on €1 spin = net −€0.60; series still loses).
