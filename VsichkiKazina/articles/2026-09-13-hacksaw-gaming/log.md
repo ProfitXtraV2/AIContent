@@ -12,7 +12,18 @@
 - Body word count: ~810 (within ~800–1100 profile range). Zero em-dashes.
 
 ## Step 7 — Gemini text check
-(recorded below as it runs)
+- Pass 1: "Likely human-written, 90%" → HL 90 (an earlier run of same file: 85%). PASS ≥80 first check.
+- No humaniser pass required. KEEP-BEST: pass 1, HL 90%.
 
 ## Step 8 — Images
-(recorded below)
+- 2 images: hacksaw-gaming-maks-pechalba.svg (titles → max-win, numbers verbatim from 05b) +
+  hacksaw-gaming-hero.webp (11 KB, textless high-volatility/feature-buy metaphor).
+- Image review 1: 85/100 PASS, no integrity failures. No fixes needed. Rendered SVG checked (cairosvg) — clean.
+
+## 06-verification
+- No surviving [VERIFY]/[DATA NEEDED] in body. Chaos Crew exact RTP intentionally omitted (source range).
+- RTP maths recalculated and confirmed.
+
+## Final
+- 429 rate-limit: none encountered.
+
