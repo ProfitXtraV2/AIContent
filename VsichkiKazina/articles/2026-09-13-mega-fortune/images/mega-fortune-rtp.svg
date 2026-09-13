@@ -17,6 +17,9 @@
       <stop offset="0%" stop-color="#ef4444"/>
       <stop offset="100%" stop-color="#f87171"/>
     </linearGradient>
+    <clipPath id="barClip">
+      <rect x="40" y="98" width="640" height="44" rx="8" ry="8"/>
+    </clipPath>
   </defs>
 
   <rect width="720" height="360" rx="12" ry="12" fill="url(#bg)"/>
@@ -28,9 +31,11 @@
 
   <!-- segmented bar: base 89% (569.6px) + pool 7.6% (48.64px) + house 3.4% (21.76px) of 640px -->
   <rect x="40" y="98" width="640" height="44" rx="8" fill="#e5e7eb"/>
-  <rect x="40" y="98" width="569.6" height="44" fill="url(#baseBar)"/>
-  <rect x="609.6" y="98" width="48.64" height="44" fill="url(#poolBar)"/>
-  <rect x="658.24" y="98" width="21.76" height="44" rx="0" fill="url(#houseBar)"/>
+  <g clip-path="url(#barClip)">
+    <rect x="40" y="98" width="569.6" height="44" fill="url(#baseBar)"/>
+    <rect x="609.6" y="98" width="48.64" height="44" fill="url(#poolBar)"/>
+    <rect x="658.24" y="98" width="21.76" height="44" fill="url(#houseBar)"/>
+  </g>
   <rect x="40" y="98" width="640" height="44" rx="8" fill="none" stroke="#d1d5db" stroke-width="1"/>
   <text x="324" y="126" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">~€890 · 89%</text>
 
