@@ -5,6 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01Hwa5xiAjCMvC8G677Wd35C",
-  "note": "daily run (3x/day) — selecting topics",
-  "progress": {"phase":"selecting","article_index":null,"article_total":null,"article_slug":null,"stages":["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],"stage_index":null,"stage":null}
+  "note": "daily run — writing 3 articles in parallel (Sizzling Hot, Mega Fortune, Hacksaw Gaming)",
+  "progress": {
+    "phase": "writing",
+    "article_index": null,
+    "article_total": 3,
+    "article_slug": "batch (3 parallel)",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 2,
+    "stage": "Author"
+  }
 }
