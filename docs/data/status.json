@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-13T12:07:49Z",
+  "generated_utc": "2026-09-13T12:11:28Z",
   "buffer": {
-    "count": 48,
+    "count": 50,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 2,
-    "drafted": 41,
+    "in-progress": 0,
+    "drafted": 43,
     "approved": 7,
     "posted": 13,
     "failed": 1
@@ -1149,7 +1149,7 @@
     },
     {
       "id": "vk-0064",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "NV Casino бонус: какво реално означава 100% до €2000 при x40",
       "keywords_or_terms": "nv casino бонус, nv casino bonus",
@@ -1160,13 +1160,13 @@
       "posted_date": "",
       "folder": "2026-09-13-nv-casino-bonus-usloviya",
       "pr": "#80",
-      "gemini": "skipped",
-      "notes": "branded bonus-hunter intent; wagering-math angle vs Betano x25; anti-cannibal: links vk-0001 wagering guide + /casino/nv-casino/; in-session local run; human edit 2026-09-13: 6 flags → 0, source attribution removed (own-research voice), not-recommended + non-affiliation notice added, em-dash fixed; back to in-progress for Gemini Step-7",
+      "gemini": "human 85",
+      "notes": "branded bonus-hunter intent; wagering-math angle vs Betano x25; anti-cannibal: links vk-0001 wagering guide + /casino/nv-casino/; in-session local run; human edit 2026-09-13: 6 flags → 0, source attribution removed (own-research voice), not-recommended + non-affiliation notice added, em-dash fixed; Gemini Step-7 cloud backfill 2026-09-13: Humaniser ×1 (voice-only, on the human draft; facts/links/flags/RG untouched) → Likely human-written 85% (HL 85), PASS",
       "opportunity": null
     },
     {
       "id": "vk-0063",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "NV Casino — законно ли е в България?",
       "keywords_or_terms": "nv casino, нв казино, nv casino законно ли е",
@@ -1177,8 +1177,8 @@
       "posted_date": "",
       "folder": "2026-09-13-nv-casino-zakonno-li-e",
       "pr": "#79",
-      "gemini": "skipped",
-      "notes": "branded-capture warning guide; global EN vol 408K/kd31 (BG vol unknown, Ahrefs exhausted); funnels to /casino/nv-casino/ review + Betano; in-session local run (no geo-block); human edit 2026-09-13: 5 flags cleaned out (no values invented), alt-text em-dashes removed; back to in-progress for Gemini Step-7",
+      "gemini": "ai 85",
+      "notes": "branded-capture warning guide; global EN vol 408K/kd31 (BG vol unknown, Ahrefs exhausted); funnels to /casino/nv-casino/ review + Betano; in-session local run (no geo-block); human edit 2026-09-13: 5 flags cleaned out (no values invented), alt-text em-dashes removed; Gemini Step-7 cloud backfill 2026-09-13: Humaniser ×2, HL flat 15 across all versions (Shows AI patterns 85%; high-variance/noisy detector), KEEP-BEST kept pass-2; NB run was on pushed branch f0b918d, which still carries the 5 [VERIFY]/[DATA NEEDED] flags (this run preserved them per brief) — reconcile with the human's separate flag-clean",
       "opportunity": null
     },
     {
