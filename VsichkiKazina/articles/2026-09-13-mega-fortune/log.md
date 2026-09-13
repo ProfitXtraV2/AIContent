@@ -12,10 +12,10 @@
 - Step 8 (images): see below.
 
 ## Step 7 result
-(pending)
+Gemini HL: initial **95** („Highly likely human-written, 95% confidence", PASS pass 1). Initial kept (no Humaniser pass — HL 95 already very high; keep-best keeps highest). gemini = human 95. External check available (exit 0). Untouchables intact.
 
 ## Step 8 result
-(pending)
+images: 2 (infographic mega-fortune-rtp.svg — pass 1 72 needs work [corner-bleed] → clipPath fix → pass 2 **98 PASS**; hero mega-fortune-hero.webp 44.9 KB **82 PASS** pass 1). Best 98. No integrity failures. Referenced from 05b (hero under H1, infographic beside the RTP data).
 
 ## Outcome
-(pending)
+05b final (human 95). 06-verification assembled; 0 surviving flags. Ready for PR. Branch: content/2026-09-13-mega-fortune. Board untouched (branch = article dir only). Queue vk-0066.
