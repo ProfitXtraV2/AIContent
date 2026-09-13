@@ -1,16 +1,20 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-09-13T22:10:48Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-09-13T22:42:19Z",
+  "articles_written": 3,
+  "prs_opened": [
+    81,
+    82,
+    83
+  ],
   "run_url": "https://claude.ai/code/session_01Hwa5xiAjCMvC8G677Wd35C",
-  "note": "daily run — writing 3 articles in parallel (Sizzling Hot, Mega Fortune, Hacksaw Gaming)",
+  "note": "daily run complete: 3 new guide articles drafted — Sizzling Hot (vk-0065, PR #83, gate 93, Gemini HL 95, img best 92, 1 [VERIFY] max-win), Mega Fortune (vk-0066, PR #82, gate 93, HL 95, img best 98), Hacksaw Gaming (vk-0067, PR #81, gate 92, HL 90, img best 85). Backlog drained (0 open); Ahrefs exhausted (reset 2026-10-02) so web-est vol; bank refreshed (dropped 2 cannibalizing/dup, added 4 distinct). Buffer 47->50. Human owns Step 6/merge/publish.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": null,
     "article_total": 3,
-    "article_slug": "batch (3 parallel)",
+    "article_slug": null,
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +27,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 2,
-    "stage": "Author"
+    "stage_index": null,
+    "stage": null
   }
 }

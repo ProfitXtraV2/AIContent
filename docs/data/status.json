@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-13T22:36:06Z",
+  "generated_utc": "2026-09-13T22:42:19Z",
   "buffer": {
-    "count": 49,
+    "count": 50,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 1,
-    "drafted": 43,
+    "in-progress": 0,
+    "drafted": 44,
     "approved": 6,
     "posted": 16,
     "failed": 1
@@ -1200,7 +1200,7 @@
     },
     {
       "id": "vk-0065",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Sizzling Hot: RTP и характеристики (Novomatic класика)",
       "keywords_or_terms": "sizzling hot, сизлинг хот",
@@ -1210,9 +1210,9 @@
       "drafted_date": "2026-09-13",
       "posted_date": "",
       "folder": "2026-09-13-sizzling-hot",
-      "pr": "",
-      "gemini": "",
-      "notes": "Novomatic/Greentube плодова класика; anchor към Novomatic профил (vk-0035) + /blog/games-providers/; distinct от EGT класиките (Burning/Shining/20-40 Super Hot — друг провайдър); публична provider/game-DB data (NOT operator T&C/НАП); web-est vol (Ahrefs exhausted, reset 2026-10-02)",
+      "pr": "#83",
+      "gemini": "human 95",
+      "notes": "Novomatic/Greentube плодова класика; anchor към Novomatic профил (vk-0035) + /blog/games-providers/; distinct от EGT класиките (Burning/Shining/20-40 Super Hot — друг провайдър); публична provider/game-DB data (NOT operator T&C/НАП); web-est vol (Ahrefs exhausted, reset 2026-10-02); RTP 95.66%, 5x3/5 фикс. линии, звезда-скатер+гамбъл, без FS/бонус; gate 93/100, 0 criticals; Gemini HL 75→95 PASS pass 1; 1 surviving [VERIFY] (макс. печалба/версия — source conflict 1000x vs 5000x, за човешко решение Step 6); img:2 (RTP infographic 92 + hero 19.2KB 92, 0 integrity); ~721w, 0 em-dashes; PR #83",
       "opportunity": null
     },
     {
@@ -2101,8 +2101,8 @@
       "intent": "transactional",
       "trend": "",
       "checked": "web",
-      "suggestion": "Novomatic/Greentube плодова класика (котва към новото Novomatic покритие, vk-0035); distinct от EGT класиките (Burning/Shining/20-40 Super Hot) — друг провайдър; web: популярно ретро заглавие в BG; чист pillar; RTP ~95.66% (web-verify преди писане). Web-оценка на обема",
-      "status": "candidate",
+      "suggestion": "Novomatic/Greentube плодова класика (котва към новото Novomatic покритие, vk-0035); distinct от EGT класиките (Burning/Shining/20-40 Super Hot) — друг провайдър; web: популярно ретро заглавие в BG; чист pillar; RTP ~95.66% (web-verify преди писане). Web-оценка на обема → НАПИСАН vk-0065 (PR #83, gate 93, Gemini HL 95 PASS, img:2 best 92, 1 [VERIFY] макс.печалба)",
+      "status": "used",
       "date_researched": "2026-09-10",
       "opportunity": null
     },
