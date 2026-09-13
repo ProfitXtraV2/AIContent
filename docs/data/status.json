@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-13T14:39:22Z",
+  "generated_utc": "2026-09-13T16:32:00Z",
   "buffer": {
-    "count": 49,
+    "count": 47,
     "target": 10,
     "deficit": 0,
     "ok": true
@@ -9,8 +9,8 @@
   "counts": {
     "in-progress": 0,
     "drafted": 41,
-    "approved": 8,
-    "posted": 14,
+    "approved": 6,
+    "posted": 16,
     "failed": 1
   },
   "rows": [
@@ -1149,7 +1149,7 @@
     },
     {
       "id": "vk-0064",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "NV Casino бонус: какво реално означава 100% до €2000 при x40",
       "keywords_or_terms": "nv casino бонус, nv casino bonus",
@@ -1157,7 +1157,7 @@
       "kd": "",
       "source": "backlog",
       "drafted_date": "2026-09-13",
-      "posted_date": "",
+      "posted_date": "2026-09-13",
       "folder": "2026-09-13-nv-casino-bonus-usloviya",
       "pr": "#80",
       "gemini": "human 85",
@@ -1166,7 +1166,7 @@
     },
     {
       "id": "vk-0063",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "NV Casino — законно ли е в България?",
       "keywords_or_terms": "nv casino, нв казино, nv casino законно ли е",
@@ -1174,7 +1174,7 @@
       "kd": "",
       "source": "backlog",
       "drafted_date": "2026-09-13",
-      "posted_date": "",
+      "posted_date": "2026-09-13",
       "folder": "2026-09-13-nv-casino-zakonno-li-e",
       "pr": "#79",
       "gemini": "ai 75",
