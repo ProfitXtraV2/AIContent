@@ -5,7 +5,7 @@
   <!-- Card A -->
   <rect x="32" y="86" width="172" height="104" rx="12" fill="#152238" stroke="#2b3d59" stroke-width="1"/>
   <text x="118" y="126" fill="#9fb4d0" font-size="15" text-anchor="middle">Залог</text>
-  <text x="118" y="158" fill="#f4f7fb" font-size="26" font-weight="700" text-anchor="middle">€0,50</text>
+  <text x="118" y="158" fill="#f4f7fb" font-size="26" font-weight="700" text-anchor="middle">€0.50</text>
 
   <!-- Arrow A->B -->
   <line x1="212" y1="138" x2="282" y2="138" stroke="#e0a43b" stroke-width="3"/>
