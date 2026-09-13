@@ -14,5 +14,6 @@
 - 05 gate: PASS 94/100, 0 criticals, 0 [VERIFY].
 - 05b: final locked. Body ~817 words, 0 em-dashes.
 - NUMBER DIFF (02→03→05b): identical (5–8, 9, 6×5, 6×6, 7×7, 8×8, 5×3, 2016, 96.42%). No change/loss.
-- 07 gemini: (see 07-gemini-check-*.md)
-- 08 images: (see 08-image-review-*.md)
+- 07 gemini: initial HL 30 (Shows AI 70%) → humaniser pass 1 → HL 85 (Likely human 85%) PASS; kept pass 1.
+- 08 images: 2 (hero webp + infographic svg); review 75 → SVG spacing fix → 72/82 → hero regen ≥5 gems → 85 PASS, 0 integrity fail.
+- 06 verification: 0 surviving flags; one recalculation shown (€1000 oborot → €960/€40 at RTP 96%).
