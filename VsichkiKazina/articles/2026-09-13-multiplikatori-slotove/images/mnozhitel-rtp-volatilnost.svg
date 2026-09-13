@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" width="720" height="350" font-family="'Segoe UI',Roboto,Arial,sans-serif" role="img" aria-label="По-голям таван на множителя не сваля предимството на казиното, а вдига волатилността: по-редки и по-едри печалби">
+  <rect x="0" y="0" width="720" height="350" rx="16" fill="#0f1b2d"/>
+  <text x="40" y="48" fill="#f4f7fb" font-size="21" font-weight="700">По-голям таван, същото предимство</text>
+  <text x="40" y="72" fill="#8aa0be" font-size="13">Висок таван (напр. до 500x) не сваля предимството на казиното</text>
+
+  <!-- Low cap timeline -->
+  <text x="40" y="108" fill="#4fa3d1" font-size="14" font-weight="600">Нисък таван: чести дребни печалби</text>
+  <polyline points="60,150 110,140 160,152 210,138 260,150 310,142 360,151 410,139 460,150 510,143 560,150 610,141 660,150" fill="none" stroke="#4fa3d1" stroke-width="2.5"/>
+
+  <!-- High cap timeline -->
+  <text x="40" y="212" fill="#57b98a" font-size="14" font-weight="600">Висок таван (до 500x): редки, но едри</text>
+  <polyline points="60,285 110,283 160,286 210,284 260,285 310,215 360,285 410,284 460,286 510,283 560,285 610,284 660,285" fill="none" stroke="#57b98a" stroke-width="2.5"/>
+  <text x="310" y="205" fill="#9fd8b8" font-size="12" text-anchor="middle">рядко попадение</text>
+
+  <!-- Badges -->
+  <rect x="440" y="92" width="120" height="30" rx="15" fill="#1b2c44"/>
+  <text x="500" y="112" fill="#cfe0f2" font-size="13" font-weight="600" text-anchor="middle">RTP: еднакъв</text>
+  <rect x="566" y="92" width="128" height="30" rx="15" fill="#2a2036"/>
+  <text x="630" y="112" fill="#e6c9f2" font-size="13" font-weight="600" text-anchor="middle">волатилност ↑</text>
+
+  <text x="40" y="330" fill="#6f86a6" font-size="12">Средната възвръщаемост е една и съща · числата са примерни · 18+</text>
+</svg>
