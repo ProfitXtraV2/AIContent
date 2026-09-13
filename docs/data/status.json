@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-13T07:47:49Z",
+  "generated_utc": "2026-09-13T08:01:23Z",
   "buffer": {
-    "count": 47,
+    "count": 48,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 1,
-    "drafted": 40,
+    "in-progress": 0,
+    "drafted": 41,
     "approved": 7,
     "posted": 13,
     "failed": 1
@@ -1149,7 +1149,7 @@
     },
     {
       "id": "vk-0062",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Хит честота (hit frequency): колко често пада печалба и защо не е RTP",
       "keywords_or_terms": "хит честота, hit frequency, честота на печалба",
@@ -1159,9 +1159,9 @@
       "drafted_date": "2026-09-13",
       "posted_date": "",
       "folder": "2026-09-13-hit-chestota-hit-frequency",
-      "pr": "",
-      "gemini": "",
-      "notes": "concept explainer — % завъртания с печалба; distinct от RTP (размер) и волатилност (разсейване); честен ъгъл: висока хит честота != печеливша; web-est",
+      "pr": "#78",
+      "gemini": "human 90",
+      "notes": "concept explainer — % завъртания с каквато и да е печалба (25%≈1/4; диапазон 3–40%); печалба под залога също е попадение; distinct от RTP (размер) и волатилност (разсейване); честен ъгъл: висока хит честота != печеливша игра, RTP решава изхода; complements paytable vk-0058; web-est · gate 95/100; 0 flags; Gemini HL 25→90 PASS pass 1; PR #78; img:2 (three-numbers infographic 95 + hero; review 95 PASS, 0 integrity fail); ~626w, 0 em-dashes",
       "opportunity": null
     }
   ],
@@ -2353,7 +2353,7 @@
       "trend": "",
       "checked": "web",
       "suggestion": "concept explainer — процент завъртания с някаква печалба; distinct от RTP (размер на връщането) и волатилност (разсейване) — трите заедно; честен ъгъл: висока хит честота не значи печеливша игра (често връща под залога); complements paytable vk-0058 + rechnik; чист pillar; web-оценка",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-13",
       "opportunity": null
     },
@@ -2369,6 +2369,48 @@
       "suggestion": "нов-ген провайдър хъб (модерни високоволатилни механики, feature buy, Chaos Crew/Wanted Dead or a Wild); distinct от петте вече покрити профила (Pragmatic vk-0019/Amusnet vk-0021/Novomatic vk-0035/NetEnt vk-0042/Play'n GO vk-0045); публична provider/game-DB data (NOT operator T&C/НАП); котва към новия „доставчици\" концепт-хъб (vk-0054); чист (няма в sitemap); web-оценка",
       "status": "candidate",
       "date_researched": "2026-09-12",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Начини на печалба (243/1024 ways): как се печели без фиксирани линии",
+      "researched_keywords": "начини на печалба, 243 начина, 1024 начина, ways to win, печалба без линии",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "mechanic hub — печалба при еднакви символи на съседни колони отляво надясно, без фиксирани линии; distinct vs линии vk-0017 (фиксирани пътечки), клъстъри vk-0060 (група по допир), Megaways vk-0041 (динамични ways, fold-in линк като разширение на концепцията); честен ъгъл: повече начини != по-добри шансове, RTP непроменен; чист хъб (няма в sitemap); web-оценка (Ahrefs изчерпан, reset 2026-10-02)",
+      "status": "candidate",
+      "date_researched": "2026-09-13",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Бонус колело (wheel bonus): как колелото определя наградата",
+      "researched_keywords": "бонус колело, колело на късмета, wheel bonus, колело за награди",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "bonus-feature механик хъб — как се задейства и как секторите/теглилките определят наградата; distinct vs progresivni-dzhakpoti (концепция за пул) и branded wheel-игри (Mega Fortune/Fire Joker кандидати, fold-in); честен ъгъл: секторите са претеглени, голямата награда е рядкият сектор; чист хъб (няма в sitemap); web-оценка",
+      "status": "candidate",
+      "date_researched": "2026-09-13",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Задържи и завърти (hold and win): как работят джакпот/пари символите",
+      "researched_keywords": "hold and win, задържи и завърти, hold & win, пари символи, money collect",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "mechanic hub — специални символи се заключват и рестартират брояч на завъртания (respin), често с фиксирани/прогресивни джакпоти; distinct vs безплатни завъртания и клъстър/каскади; PARENT на branded money-collect игри (напр. Big Bass money-collect vk-0028, fold-in); честен ъгъл: усещане за контрол, но RTP решава; чист хъб (няма в sitemap); web-оценка",
+      "status": "candidate",
+      "date_researched": "2026-09-13",
       "opportunity": null
     }
   ],

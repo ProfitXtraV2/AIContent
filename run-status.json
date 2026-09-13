@@ -1,32 +1,22 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-09-13T07:10:31Z",
-  "run_finished_utc": null,
-  "articles_written": null,
+  "run_finished_utc": "2026-09-13T08:01:19Z",
+  "articles_written": 3,
   "prs_opened": [
     76,
-    77
+    77,
+    78
   ],
   "run_url": "https://claude.ai/code/session_01Vcf9qvLVMsxmGUvVH1aipE",
-  "note": "recurring run 2026-09-13 (fire #16) — vk-0060 cluster-pays (PR #76, human 85), vk-0061 autoplay (PR #77, ai 75 kept-best) drafted. Writing vk-0062 hit-frequency.",
+  "note": "recurring run 2026-09-13 (fire #16) complete: 3 new distinct guides drafted — Cluster-pays mechanic hub (vk-0060, PR #76, gate 94, Gemini HL 30→85 PASS pass1 = human 85, img 85), Autoplay feature guide (vk-0061, PR #77, gate 94, Gemini HL 15→25→25 MAX passes kept-best pass2 = ai 75 [BG detector floor ~75% AI, flagged for nightly lift], img 85), Hit-frequency concept explainer (vk-0062, PR #78, gate 95, Gemini HL 25→90 PASS pass1 = human 90, img 95). PUBLIC game-mechanic + provider game-DB data only (cluster pays: Aloha! 2016/6×5/min9/RTP96.42%, min 5–8 general, grids 6×5/7×7/8×8; autoplay: UKGC ban 31.10.2021 + <2.5s, loss/single-win stops, €1/50/€30/€100 example; hit frequency: 25%≈1/4, range 3–40%, below-stake wins count, two 96% RTP slots feel different — all web-verified). NO operator T&C/НАП facts. Honest angles: counting method (cluster/ways) does not change RTP; autoplay's built-in stops ARE the control, it speeds spending on unchanged math; high hit frequency != winning game. Surviving flags: 0 on all three. No operator recommended → no affiliate links. Images 6/6 PASS, 0 integrity failures (cluster hero regenerated to ≥5-gem cluster 72→85; autoplay + hit-freq SVGs polished for contrast/corners; all infographic numbers trace to 05b). Anti-cannibalization: 3 research candidates marked used (cluster-pays hub, autoplay, hit-frequency); bank replenished with 3 new distinct mechanic hubs (243/1024 ways-to-win, wheel bonus, hold-and-win). Bank 12 candidates. 0 open backlog rows to enrich. Ahrefs exhausted (~28 units left, reset 2026-10-02) → web-est vol/kd. Buffer 45→48 drafted+approved (floor 10; no cap, keep building). Feed refreshed. Content PRs #76-78 (no CI; human owns Step 6/merge/flag-resolution). 0 in-progress leftovers.",
   "progress": {
-    "phase": "writing",
-    "article_index": 3,
-    "article_total": 3,
-    "article_slug": "2026-09-13-hit-chestota-hit-frequency",
-    "stages": [
-      "Synthesis",
-      "Outline",
-      "Author",
-      "Humaniser",
-      "SEO",
-      "Brand Gate",
-      "Light re-check",
-      "Images",
-      "Verification",
-      "PR"
-    ],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "phase": "done",
+    "article_index": null,
+    "article_total": null,
+    "article_slug": null,
+    "stages": [],
+    "stage_index": null,
+    "stage": null
   }
 }
