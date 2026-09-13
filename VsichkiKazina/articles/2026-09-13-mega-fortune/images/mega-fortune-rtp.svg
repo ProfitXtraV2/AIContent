@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="720" height="360" role="img" aria-label="Mega Fortune: обявеният RTP от 96.6% включва 7.6%, които захранват джакпот пула; реалната база е около 89%, а предимството на казиното е 3.4%. При €1000 оборот около €890 се връщат в играта, около €76 отиват в пула и около €34 остават за казиното">
+  <title>Mega Fortune: обявен RTP 96.6% срещу реална база ~89%</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+    <linearGradient id="baseBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="poolBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="houseBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#f87171"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="720" height="360" rx="12" ry="12" fill="url(#bg)"/>
+
+  <text x="360" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="#1e3a8a" text-anchor="middle">Mega Fortune: обявен RTP срещу реалната база</text>
+  <text x="360" y="55" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">обявеният RTP от 96.6% включва 7.6%, които захранват джакпот пула</text>
+
+  <text x="40" y="88" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#374151">При €1000 оборот залог</text>
+
+  <!-- segmented bar: base 89% (569.6px) + pool 7.6% (48.64px) + house 3.4% (21.76px) of 640px -->
+  <rect x="40" y="98" width="640" height="44" rx="8" fill="#e5e7eb"/>
+  <rect x="40" y="98" width="569.6" height="44" fill="url(#baseBar)"/>
+  <rect x="609.6" y="98" width="48.64" height="44" fill="url(#poolBar)"/>
+  <rect x="658.24" y="98" width="21.76" height="44" rx="0" fill="url(#houseBar)"/>
+  <rect x="40" y="98" width="640" height="44" rx="8" fill="none" stroke="#d1d5db" stroke-width="1"/>
+  <text x="324" y="126" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">~€890 · 89%</text>
+
+  <!-- three stat cards -->
+  <rect x="40" y="168" width="206" height="80" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="143" y="194" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#1e40af" text-anchor="middle">В играта</text>
+  <text x="143" y="226" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="800" fill="#1d4ed8" text-anchor="middle">~€890</text>
+  <text x="143" y="242" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#3b82f6" text-anchor="middle">89% · базов RTP</text>
+
+  <rect x="257" y="168" width="206" height="80" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="360" y="194" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#92400e" text-anchor="middle">В джакпот пула</text>
+  <text x="360" y="226" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="800" fill="#d97706" text-anchor="middle">~€76</text>
+  <text x="360" y="242" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#b45309" text-anchor="middle">7.6% · рядко печелен</text>
+
+  <rect x="474" y="168" width="206" height="80" rx="10" fill="#fef2f2" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="577" y="194" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#b91c1c" text-anchor="middle">За казиното</text>
+  <text x="577" y="226" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="800" fill="#dc2626" text-anchor="middle">~€34</text>
+  <text x="577" y="242" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#ef4444" text-anchor="middle">3.4% · предимство</text>
+
+  <line x1="40" y1="272" x2="680" y2="272" stroke="#d1d5db" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <text x="360" y="296" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#4b5563" text-anchor="middle">Обявените ~€966 връщане включват €76 за пула, които виждаш само при джакпот.</text>
+
+  <text x="360" y="326" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">Числата са примерни · при €1000 оборот · 18+ Играйте отговорно</text>
+  <text x="360" y="344" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">RTP е дългосрочна статистика над милиони завъртания, не прогноза за сесия</text>
+</svg>
