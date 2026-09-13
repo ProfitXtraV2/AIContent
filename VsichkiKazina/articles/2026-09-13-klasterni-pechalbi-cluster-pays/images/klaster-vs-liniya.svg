@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 412" font-family="'Segoe UI',Roboto,Arial,sans-serif">
-<rect x="6" y="6" width="708" height="400" rx="18" fill="#0f2340"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="'Segoe UI',Roboto,Arial,sans-serif">
+<rect x="6" y="6" width="708" height="408" rx="18" fill="#0f2340"/>
 <text x="28" y="42" fill="#eaf1fb" font-size="23" font-weight="700">Как се брои клъстърна печалба</text>
 <text x="28" y="68" fill="#8fa6c4" font-size="14.5">Печалбата е група съседни еднакви символи, не подредба в линия</text>
 <rect x="28" y="96" width="34" height="34" rx="7" fill="#1c3a5e"/>
@@ -57,7 +57,7 @@
 <rect x="103" y="171" width="36" height="36" rx="8" fill="none" stroke="#ffe0a3" stroke-width="2"/>
 <rect x="65" y="133" width="36" height="36" rx="8" fill="none" stroke="#ffe0a3" stroke-width="2"/>
 <rect x="141" y="171" width="36" height="36" rx="8" fill="none" stroke="#ffe0a3" stroke-width="2"/>
-<text x="28" y="384" fill="#7fe3d6" font-size="14" font-weight="600">Мрежа 7×7 (пример) · свети само свързаната група</text>
+<text x="28" y="372" fill="#7fe3d6" font-size="14" font-weight="600" data-cap="1">Мрежа 7×7 (пример)</text>
 <text x="340" y="120" fill="#eaf1fb" font-size="16.5" font-weight="700">Правилата на групата</text>
 <circle cx="346" cy="147" r="4" fill="#f5a623"/>
 <text x="360" y="152" fill="#f5a623" font-size="14.5">Свързаната цветна група плаща</text>
@@ -74,5 +74,5 @@
 <rect x="340" y="334" width="356" height="46" rx="9" fill="#13294a" stroke="#24406a" stroke-width="1"/>
 <text x="354" y="355" fill="#cdd9ec" font-size="13.5">Начинът на броене не мени RTP-то:</text>
 <text x="354" y="372" fill="#cdd9ec" font-size="13.5">96% при клъстър = 96% при линеен слот.</text>
-<text x="28" y="396" fill="#6f86a6" font-size="12">18+ Играйте отговорно · vsichkikazina.bg</text>
+<text x="28" y="402" fill="#6f86a6" font-size="12">18+ Играйте отговорно · vsichkikazina.bg</text>
 </svg>
