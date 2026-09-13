@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "slug": "nv-casino-bonus-usloviya",
-  "title": "NV Casino бонус: какво реално означава 100% до €2000 при x40",
-  "meta_description": "",
+  "title": "NV Casino бонус: колко наистина струва €2 000",
+  "meta_description": "NV Casino бонус до €2 000 + 225 FS: реалната цена на x40 превъртането в евро, липсата на НАП лиценз и защо лицензирана къща излиза по-евтино.",
   "body_path": "article.md",
   "author": "Георги Тодоров",
   "date_published": "2026-09-13",
@@ -11,9 +11,14 @@
     "nv casino бонус",
     "nv casino bonus"
   ],
-  "images": [],
+  "images": [
+    {
+      "path": "images/oborot-za-100-evro-bonus-sravnenie.svg",
+      "alt": "Сравнение на изисквания оборот за €100 бонус: NV Casino x40 само върху бонуса = €4 000, NV Casino x40 върху депозит + бонус = €8 000, Betano x25 върху депозит + бонус = €5 000"
+    }
+  ],
   "section_hint": "guide",
   "opportunity": -1,
   "status": "approved",
-  "content_hash": "20b88865190094e9b2937adf14c45ab257b5241e9257d06a0b9745660142f738"
+  "content_hash": "1d0ab8741f85421f13346d82b788be21f8f202659ceb385c5f0c08fe1fcd5532"
 }
