@@ -12,7 +12,10 @@
 - Step 8 (images): see below.
 
 ## Step 7 result
-(pending)
+Gemini HL: initial 75 (below target) → humaniser pass 1 → 95 (PASS, pass 2). Kept pass-1 version (95). gemini = human 95. 1 humaniser pass applied (staccato triple merged; philosophical intro trimmed; preachy line → plain fact). [VERIFY] preserved.
 
 ## Step 8 result
-(pending)
+images: 2. infographic sizzling-hot-rtp.svg (92 PASS, „ready to publish", numbers trace to 05b) + hero sizzling-hot-hero.webp (regen 65→92 to fix 3-reel vs 5-reel mismatch; 19.2 KB). Best 92. No integrity failures. Referenced from 05b (hero under H1, infographic beside the RTP data). Applied trivial SVG margin fix post-review.
+
+## Outcome
+05b final (human 95). 06-verification assembled. Ready for PR. Branch content/2026-09-13-sizzling-hot, article-only.
