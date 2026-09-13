@@ -183,3 +183,79 @@ None — only 2 qualifying targets, both processed this run.
 ## 2026-09-13 (one-off) — JOB B vk-0063 humanise
 
 - vk-0063 · 2026-09-13-nv-casino-zakonno-li-e · PR #79 · `ai 85` → `ai 75` (HL 25) · 3 humaniser passes (checks 07-gemini-check-4..7) · HL flat 25 across baseline+all passes (Shows AI patterns 75%; noisy whack-a-mole detector, goalposts relocate each pass) · KEEP-BEST kept pass-5 · 4/5 attempts · facts/links/RG/18+/disclosures/byline (Георги Тодоров)/brand (Всички Казина) preserved verbatim, no [VERIFY]/[DATA NEEDED] flags touched.
+
+---
+
+## 2026-09-13 (nightly run — flags + score)
+
+### JOB A — publish-blocking flags
+Scanned every `content/*` branch's own `05b-final-draft.md` for blocking markers
+(`[VERIFY]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`, `[AUTHOR]`, `[BRAND]`,
+`[EDITORIAL]`, `[уточни]`, `[провери]`). **4 flagged branches found** (new since the
+last run — introduced by drafts added after it):
+
+Resolved (drafts — rewritten publish-ready, re-scanned to ZERO markers, committed & pushed):
+- **sizzling-hot** (vk-0065, PR #83): `[VERIFY: точна максимална печалба / коя версия]`.
+  Author already declined to state a number; folded the caveat into natural prose
+  pointing to the game info-panel ("…провериш конкретната стойност в инфо-панела на
+  самата игра"). No figure invented.
+- **kupuvane-na-bonus-bonus-buy** (vk-0059, PR #75): `[VERIFY: наличност на „купи
+  бонус" при лицензирани в България оператори]`. Kept the safe claim (availability
+  depends on operator + game version) and pointed the reader to the casino's game
+  menu. No fact invented.
+
+NOT touched — POSTED/live (hard rule); logged for human review below:
+- **nv-casino-bonus-usloviya** (vk-0064, PR #80, status=posted): still contains
+  `[AUTHOR BIO BLOCK: Георги Тодоров] [BRAND BOILERPLATE: Всички Казина] [18+ / RG LINE]`.
+- **nv-casino-zakonno-li-e** (vk-0063, PR #79, status=posted): still contains
+  `[AUTHOR BIO BLOCK: Георги Тодоров] [About Всички Казина boilerplate]`.
+
+The `[About Всички Казина boilerplate]` token (present in ~64 drafts and in posted
+articles) remains a build-time template placeholder, NOT a blocking marker — left
+untouched, consistent with prior nights. Confirmed: the newest drafts (e.g. autoplay)
+already ship the FILLED "За Всички Казина" block in its place.
+
+### JOB B — low Gemini score improvements
+Two qualifying targets (status ∈ {drafted, approved} with `ai <n>` or `human <n>`
+n<80), worst first:
+
+| # | folder | PR | before | after | attempts | result |
+|---|---|---|---|---|---|---|
+| vk-0061 | 2026-09-13-avtomatichno-zavartane-autoplay | #77 | ai 65 | human 85 | 1 | PASS |
+| vk-0054 | 2026-09-12-dostavchici-kazino-igri | #72 | ai 65 | ai ~75 (noise-bound) | 4 | STILL-FLAGGED |
+
+- **autoplay** (vk-0061): 1 humaniser pass on Gemini's Step-7b recs — made the two
+  "catch"/imperative headings objective/descriptive, cut the robotic restatement
+  sentence ("По същество прехвърляш управлението…"), converted the bossy imperative
+  opening of the stops section into a descriptive one, removed the dramatic "идват с
+  тази цена" wrap-up, and deleted the redundant "philosophical summary" final section.
+  Re-check: **Likely human-written 85%**. Beat its prior "MAX passes" ceiling (HL 25).
+- **dostavchici** (vk-0054): 4 humaniser passes addressing every concrete tell Gemini
+  named across rounds — didactic signposting, the defensive hedge, in-paragraph
+  redundancy, operator/provider A-B symmetry, the intro rule-of-three, a calque idiom
+  ("Обратното също говори"), the five-provider data-dump density (split + narrativised)
+  and the staccato lab-name list. Verdict stayed **noise-bound ai 65-75** with no
+  crossing to human≥80 (grader is high-variance on this fact-dense hub; it even cited
+  clichés absent from the text). Kept the best/cleanest prose; board gemini left at
+  best-observed `ai 65`. Flagged for human review.
+
+All Job B edits rephrasing only — every date, city, company name, RTP/€ figure, link,
+the RG line and byline (Георги Тодоров) preserved verbatim (UKGC 31.10.2021, 2.5s,
+€1/50/€30/€100; Pragmatic 2015, Amusnet/EGT 2002→2022, NetEnt 1996, Play'n GO 1997,
+Novomatic 1980; GLI/eCOGRA 2003/iTech 2004→GLI 2023/BMM 1981; RTP 96%/€1000/€960/€40).
+
+### Still flagged after attempts
+- **vk-0054** dostavchici-kazino-igri — 4 passes, detector noise-bound ai 65-75, needs
+  human eye (or accept as detector floor on a heavily fact-dense provider hub).
+
+### POSTED — needs human review
+- **vk-0063** nv-casino-zakonno-li-e (PR #79, `ai 75`, posted): low-rated AND still
+  carries `[AUTHOR BIO BLOCK]` / `[About …boilerplate]` placeholders on its branch.
+- **vk-0064** nv-casino-bonus-usloviya (PR #80, posted): still carries
+  `[AUTHOR BIO BLOCK]` / `[BRAND BOILERPLATE]` / `[18+ / RG LINE]` placeholders.
+  Both left untouched (hard rule: never edit posted/live). ACTION: confirm the live
+  pages don't render raw brackets; if the author-bio/brand/RG blocks are genuinely
+  unfilled, a human should fill them (or the board `posted` status is stale).
+
+### Deferred (over nightly cap of 10)
+None — only 2 qualifying Job-B targets, both processed this run.

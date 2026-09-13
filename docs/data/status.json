@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-13T22:42:19Z",
+  "generated_utc": "2026-09-13T23:25:00Z",
   "buffer": {
     "count": 50,
     "target": 10,
@@ -1025,7 +1025,7 @@
       "folder": "2026-09-12-dostavchici-kazino-igri",
       "pr": "#72",
       "gemini": "ai 65",
-      "notes": "educational concept hub (provider vs operator; RTP set by provider, operator picks build; RNG certification ≠ advantage); distinct from provider PROFILES (vk-0019/vk-0021) + /blog/games-providers/ category; links live Pragmatic+Amusnet profiles · gate 94/100; 0 flags; provider/lab history web-verified (Pragmatic 2015, Amusnet/EGT 2002/rename 2022, NetEnt 1996, Play'n GO 1997, Novomatic 1980; GLI/eCOGRA 2003/iTech 2004→GLI 2023/BMM 1981); RTP 96%/€1000/€960/€40 примерни; Gemini HL 25→35→30 reverted to pass 1 (ai 65; pass 2 lowered; model high-variance); PR #72; img:3 (hero + доставчик-vs-оператор + RTP; review 100 PASS, 0 integrity fail); 975w, 0 em-dashes",
+      "notes": "educational concept hub (provider vs operator; RTP set by provider, operator picks build; RNG certification ≠ advantage); distinct from provider PROFILES (vk-0019/vk-0021) + /blog/games-providers/ category; links live Pragmatic+Amusnet profiles · gate 94/100; 0 flags; provider/lab history web-verified (Pragmatic 2015, Amusnet/EGT 2002/rename 2022, NetEnt 1996, Play'n GO 1997, Novomatic 1980; GLI/eCOGRA 2003/iTech 2004→GLI 2023/BMM 1981); RTP 96%/€1000/€960/€40 примерни; Gemini HL 25→35→30 reverted to pass 1 (ai 65; pass 2 lowered; model high-variance); NIGHTLY 2026-09-13: 4 humaniser passes (signposting/hedge/redundancy/calque idiom/A-B symmetry/rule-of-three/data-dump density all fixed) — verdict noise-bound ai 65-75, no crossing to human>=80; kept best (cleanest) prose, flagged for human; PR #72; img:3 (hero + доставчик-vs-оператор + RTP; review 100 PASS, 0 integrity fail); 975w, 0 em-dashes",
       "opportunity": null
     },
     {
@@ -1143,8 +1143,8 @@
       "posted_date": "",
       "folder": "2026-09-13-avtomatichno-zavartane-autoplay",
       "pr": "#77",
-      "gemini": "ai 75",
-      "notes": "feature how-to — брой/залог + стоп при загуба/единична печалба (пример €1/50/€30/€100); UKGC забрана за UK слотове 31.10.2021 (юрисдикция назована, не BG правило); honest angle: вградените стопове са контролът, темпото ускорява същата математика; RG-forward; distinct feature guide; web-est · gate 94/100; 0 flags; Gemini HL 15→25→25 MAX passes, kept best pass 2 (ai 75, detector floor ~75% AI on BG като vk-0024, flagged for nightly lift); PR #77; img:2 (settings infographic 85 + hero; review 85 PASS, 0 integrity fail); ~745w, 0 em-dashes",
+      "gemini": "human 85",
+      "notes": "feature how-to — брой/залог + стоп при загуба/единична печалба (пример €1/50/€30/€100); UKGC забрана за UK слотове 31.10.2021 (юрисдикция назована, не BG правило); honest angle: вградените стопове са контролът, темпото ускорява същата математика; RG-forward; distinct feature guide; web-est · gate 94/100; 0 flags; Gemini HL 15→25→25 MAX passes; NIGHTLY LIFT 2026-09-13: 1 humaniser pass (objective headings, cut robotic restatement, de-imperative stops section, removed redundant summary section) → Likely human-written 85% (ai 75→human 85); PR #77; img:2 (settings infographic 85 + hero; review 85 PASS, 0 integrity fail); ~730w, 0 em-dashes",
       "opportunity": null
     },
     {
