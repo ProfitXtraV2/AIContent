@@ -295,6 +295,19 @@ stage you are STARTING now>,"stage":"<that stage's name>"}`.
    pillar's `suggestion` as "fold-in: <kw>", never added as separate candidate rows. The
    bank must never accumulate two candidates that would compete for the same query.
 
+   **Zero-volume rule (skip or reword — no dead rows in the bank):** if Ahrefs was
+   queried and returns no measurable volume (blank or 0) for the query and all its
+   `researched_keywords` variants, do NOT add/keep it as a candidate row. First try to
+   **REWORD**: use matching-terms / related-keywords discovery to find a same-intent
+   variant with real measured volume and record THAT as the candidate (still one pillar
+   per cluster). If no variant in the cluster has measurable volume, **SKIP** the topic
+   entirely — at most leave a "fold-in: <kw>" note on an existing volume-bearing pillar.
+   Existing `candidate` rows that are `checked = ahrefs` with blank/0 volume are removed
+   under the same rule (`used`/`queued` rows stay for the record). `checked = web` rows
+   with a credible web-estimated volume may stay while Ahrefs units are exhausted, but
+   MUST be re-verified at the next Ahrefs reset — any that then show no measurable
+   volume are reworded or dropped the same way.
+
    **b. Analyse the human backlog (`topic-backlog.md`, enriched 11-col):** for every row
    with `status: open`, look the keyword up (Ahrefs, else web) and fill `volume, kd,
    intent, checked` and `ahrefs_note` — a short verdict + suggestion ("добър избор" /
