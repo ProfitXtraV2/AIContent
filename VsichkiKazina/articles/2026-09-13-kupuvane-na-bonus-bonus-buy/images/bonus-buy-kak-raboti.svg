@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" font-family="'Segoe UI',Roboto,Arial,sans-serif" role="img" aria-label="Как работи купуването на бонус: залогът, умножен по около 100, купува директен вход в бонус рунда">
+  <rect x="0" y="0" width="760" height="300" rx="16" fill="#0f1b2d"/>
+  <text x="40" y="52" fill="#f4f7fb" font-size="22" font-weight="700">Как работи купуването на бонус</text>
+
+  <!-- Card A -->
+  <rect x="32" y="86" width="172" height="104" rx="12" fill="#152238" stroke="#2b3d59" stroke-width="1"/>
+  <text x="118" y="126" fill="#9fb4d0" font-size="15" text-anchor="middle">Залог</text>
+  <text x="118" y="158" fill="#f4f7fb" font-size="26" font-weight="700" text-anchor="middle">€0.50</text>
+
+  <!-- Arrow A->B -->
+  <line x1="212" y1="138" x2="282" y2="138" stroke="#e0a43b" stroke-width="3"/>
+  <polygon points="282,132 294,138 282,144" fill="#e0a43b"/>
+  <text x="247" y="126" fill="#e0a43b" font-size="14" font-weight="600" text-anchor="middle">×~100</text>
+
+  <!-- Card B -->
+  <rect x="294" y="86" width="172" height="104" rx="12" fill="#152238" stroke="#2b3d59" stroke-width="1"/>
+  <text x="380" y="126" fill="#9fb4d0" font-size="15" text-anchor="middle">Цена за откуп</text>
+  <text x="380" y="158" fill="#f4f7fb" font-size="26" font-weight="700" text-anchor="middle">€50</text>
+
+  <!-- Arrow B->C -->
+  <line x1="474" y1="138" x2="544" y2="138" stroke="#57b98a" stroke-width="3"/>
+  <polygon points="544,132 556,138 544,144" fill="#57b98a"/>
+
+  <!-- Card C -->
+  <rect x="556" y="86" width="172" height="104" rx="12" fill="#173026" stroke="#2f6b4f" stroke-width="1"/>
+  <text x="642" y="122" fill="#9fd8b8" font-size="15" text-anchor="middle">Право в бонуса</text>
+  <text x="642" y="150" fill="#f4f7fb" font-size="17" font-weight="700" text-anchor="middle">без чакане</text>
+  <text x="642" y="172" fill="#9fb4d0" font-size="12.5" text-anchor="middle">безплатни завъртания</text>
+
+  <text x="40" y="230" fill="#9fb4d0" font-size="13.5">Обичайна цена за откуп ≈ 100× залога.</text>
+  <text x="40" y="252" fill="#9fb4d0" font-size="13.5">При Sweet Bonanza 100× залога гарантира поне 4 scatter на завъртането.</text>
+  <text x="40" y="278" fill="#6f86a6" font-size="12">Числата са примерни · 18+ Играйте отговорно</text>
+</svg>
