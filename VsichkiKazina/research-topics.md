@@ -7,10 +7,11 @@ The dashboard computes an **Opportunity** band/score from `volume` + `kd`.
 
 `status` ∈ candidate | queued | used · `checked` ∈ ahrefs | web | none
 
-**Zero-volume rule:** no candidate row may sit here with Ahrefs-confirmed zero/blank
-volume — such topics are reworded to a same-intent variant with real volume, or skipped
-(at most a "fold-in" note on a volume-bearing pillar). `checked=web` rows are provisional
-and must be re-verified (then kept, reworded or dropped) at the next Ahrefs unit reset.
+**Zero-volume rule:** applies only to rows that have gone through Ahrefs (`checked=ahrefs`).
+If Ahrefs confirms zero/blank volume, the row is SKIPPED (removed if candidate; at most a
+"fold-in" note on a volume-bearing pillar) and REPLACED with newly discovered keywords that
+have real measured volume. `checked=web` rows have NOT been judged yet — they wait for the
+next Ahrefs unit reset, get re-pulled, and only then face the same skip-and-replace rule.
 
 | type | query | researched_keywords | volume | kd | intent | trend | checked | suggestion | status | date_researched |
 |---|---|---|---|---|---|---|---|---|---|---|

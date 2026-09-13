@@ -295,18 +295,19 @@ stage you are STARTING now>,"stage":"<that stage's name>"}`.
    pillar's `suggestion` as "fold-in: <kw>", never added as separate candidate rows. The
    bank must never accumulate two candidates that would compete for the same query.
 
-   **Zero-volume rule (skip or reword — no dead rows in the bank):** if Ahrefs was
-   queried and returns no measurable volume (blank or 0) for the query and all its
-   `researched_keywords` variants, do NOT add/keep it as a candidate row. First try to
-   **REWORD**: use matching-terms / related-keywords discovery to find a same-intent
-   variant with real measured volume and record THAT as the candidate (still one pillar
-   per cluster). If no variant in the cluster has measurable volume, **SKIP** the topic
-   entirely — at most leave a "fold-in: <kw>" note on an existing volume-bearing pillar.
-   Existing `candidate` rows that are `checked = ahrefs` with blank/0 volume are removed
-   under the same rule (`used`/`queued` rows stay for the record). `checked = web` rows
-   with a credible web-estimated volume may stay while Ahrefs units are exhausted, but
-   MUST be re-verified at the next Ahrefs reset — any that then show no measurable
-   volume are reworded or dropped the same way.
+   **Zero-volume rule (Ahrefs is the referee — skip confirmed-zero, replace with new
+   words):** the rule only applies to rows that have actually GONE THROUGH Ahrefs
+   (`checked = ahrefs`). If Ahrefs returns no measurable volume (blank or 0) for the
+   query and all its `researched_keywords` variants, **SKIP** it: do not add it, remove
+   it if it already sits as a `candidate` row (`used`/`queued` rows stay for the
+   record), leaving at most a "fold-in: <kw>" note on an existing volume-bearing
+   pillar. Every skipped row must be **REPLACED by new keyword discovery** (matching
+   terms / related keywords, same or different cluster) so the bank's candidate buffer
+   never shrinks — record only replacements with real measured volume. Rows that have
+   NOT yet gone through Ahrefs (`checked = web`, added while units were exhausted) are
+   NOT judged by this rule — they WAIT for the next Ahrefs unit reset; at the reset,
+   re-pull them and then apply the same skip-and-replace rule to any that Ahrefs
+   confirms have no volume.
 
    **b. Analyse the human backlog (`topic-backlog.md`, enriched 11-col):** for every row
    with `status: open`, look the keyword up (Ahrefs, else web) and fill `volume, kd,
