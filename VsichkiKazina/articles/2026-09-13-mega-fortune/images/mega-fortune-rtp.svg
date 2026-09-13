@@ -27,7 +27,7 @@
   <text x="360" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="#1e3a8a" text-anchor="middle">Mega Fortune: обявен RTP срещу реалната база</text>
   <text x="360" y="55" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">обявеният RTP от 96.6% включва 7.6%, които захранват джакпот пула</text>
 
-  <text x="40" y="88" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#374151">При €1000 оборот залог</text>
+  <text x="40" y="88" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#374151">При €1000 оборот</text>
 
   <!-- segmented bar: base 89% (569.6px) + pool 7.6% (48.64px) + house 3.4% (21.76px) of 640px -->
   <rect x="40" y="98" width="640" height="44" rx="8" fill="#e5e7eb"/>
