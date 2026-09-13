@@ -15,7 +15,7 @@
 
   <!-- High cap timeline -->
   <text x="40" y="236" fill="#57b98a" font-size="14" font-weight="600">Висок таван: редки, но едри печалби</text>
-  <polyline points="60,306 110,304 160,307 210,305 260,306 470,262 480,306 530,304 560,307 610,305 660,306" fill="none" stroke="#57b98a" stroke-width="2.5"/>
+  <polyline points="60,306 110,304 160,307 210,305 260,306 310,305 360,307 410,304 460,306 470,262 480,306 530,304 560,307 610,305 660,306" fill="none" stroke="#57b98a" stroke-width="2.5"/>
   <text x="475" y="254" fill="#9fd8b8" font-size="12" text-anchor="middle">рядко попадение</text>
 
   <text x="40" y="342" fill="#6f86a6" font-size="12">Средната възвръщаемост е една и съща · числата са примерни · 18+</text>
