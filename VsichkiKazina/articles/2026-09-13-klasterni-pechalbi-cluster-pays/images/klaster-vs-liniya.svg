@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 412" font-family="'Segoe UI',Roboto,Arial,sans-serif">
+<rect x="6" y="6" width="708" height="400" rx="18" fill="#0f2340"/>
+<text x="28" y="42" fill="#eaf1fb" font-size="23" font-weight="700">Как се брои клъстърна печалба</text>
+<text x="28" y="68" fill="#8fa6c4" font-size="14.5">Печалбата е група съседни еднакви символи, не подредба в линия</text>
+<rect x="28" y="96" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="66" y="96" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="104" y="96" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="142" y="96" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="180" y="96" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="218" y="96" width="34" height="34" rx="7" fill="#f5a623" opacity="0.28"/>
+<rect x="256" y="96" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="28" y="134" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="66" y="134" width="34" height="34" rx="7" fill="#f5a623"/>
+<rect x="104" y="134" width="34" height="34" rx="7" fill="#f5a623"/>
+<rect x="142" y="134" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="180" y="134" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="218" y="134" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="256" y="134" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="28" y="172" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="66" y="172" width="34" height="34" rx="7" fill="#f5a623"/>
+<rect x="104" y="172" width="34" height="34" rx="7" fill="#f5a623"/>
+<rect x="142" y="172" width="34" height="34" rx="7" fill="#f5a623"/>
+<rect x="180" y="172" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="218" y="172" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="256" y="172" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="28" y="210" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="66" y="210" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="104" y="210" width="34" height="34" rx="7" fill="#f5a623"/>
+<rect x="142" y="210" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="180" y="210" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="218" y="210" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="256" y="210" width="34" height="34" rx="7" fill="#f5a623" opacity="0.28"/>
+<rect x="28" y="248" width="34" height="34" rx="7" fill="#f5a623" opacity="0.28"/>
+<rect x="66" y="248" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="104" y="248" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="142" y="248" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="180" y="248" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="218" y="248" width="34" height="34" rx="7" fill="#f5a623" opacity="0.28"/>
+<rect x="256" y="248" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="28" y="286" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="66" y="286" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="104" y="286" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="142" y="286" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="180" y="286" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="218" y="286" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="256" y="286" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="28" y="324" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="66" y="324" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="104" y="324" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="142" y="324" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="180" y="324" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="218" y="324" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="256" y="324" width="34" height="34" rx="7" fill="#1c3a5e"/>
+<rect x="103" y="209" width="36" height="36" rx="8" fill="none" stroke="#ffe0a3" stroke-width="2"/>
+<rect x="65" y="171" width="36" height="36" rx="8" fill="none" stroke="#ffe0a3" stroke-width="2"/>
+<rect x="103" y="133" width="36" height="36" rx="8" fill="none" stroke="#ffe0a3" stroke-width="2"/>
+<rect x="103" y="171" width="36" height="36" rx="8" fill="none" stroke="#ffe0a3" stroke-width="2"/>
+<rect x="65" y="133" width="36" height="36" rx="8" fill="none" stroke="#ffe0a3" stroke-width="2"/>
+<rect x="141" y="171" width="36" height="36" rx="8" fill="none" stroke="#ffe0a3" stroke-width="2"/>
+<text x="28" y="384" fill="#7fe3d6" font-size="14" font-weight="600">Мрежа 7×7 (пример) · свети само свързаната група</text>
+<text x="340" y="120" fill="#eaf1fb" font-size="16.5" font-weight="700">Правилата на групата</text>
+<circle cx="346" cy="147" r="4" fill="#f5a623"/>
+<text x="360" y="152" fill="#f5a623" font-size="14.5">Свързаната цветна група плаща</text>
+<circle cx="346" cy="177" r="4" fill="#e2e9f4"/>
+<text x="360" y="182" fill="#e2e9f4" font-size="14.5">Допир хоризонтално или вертикално</text>
+<circle cx="346" cy="207" r="4" fill="#e2e9f4"/>
+<text x="360" y="212" fill="#e2e9f4" font-size="14.5">Диагоналният допир не се брои</text>
+<circle cx="346" cy="237" r="4" fill="#e2e9f4"/>
+<text x="360" y="242" fill="#e2e9f4" font-size="14.5">Минимум обикновено 5–8 символа</text>
+<circle cx="346" cy="267" r="4" fill="#8fa6c4"/>
+<text x="360" y="272" fill="#8fa6c4" font-size="14.5">(при някои игри 9 или повече)</text>
+<circle cx="346" cy="297" r="4" fill="#f5a623"/>
+<text x="360" y="302" fill="#f5a623" font-size="14.5">Разпръснатите еднакви символи не се броят</text>
+<rect x="340" y="334" width="356" height="46" rx="9" fill="#13294a" stroke="#24406a" stroke-width="1"/>
+<text x="354" y="355" fill="#cdd9ec" font-size="13.5">Начинът на броене не мени RTP-то:</text>
+<text x="354" y="372" fill="#cdd9ec" font-size="13.5">96% при клъстър = 96% при линеен слот.</text>
+<text x="28" y="396" fill="#6f86a6" font-size="12">18+ Играйте отговорно · vsichkikazina.bg</text>
+</svg>
