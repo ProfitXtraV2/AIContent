@@ -179,3 +179,7 @@ None. All 12 `posted` rows are rated human 85–90; live content untouched.
 
 ### Deferred (over nightly cap of 10)
 None — only 2 qualifying targets, both processed this run.
+
+## 2026-09-13 (one-off) — JOB B vk-0063 humanise
+
+- vk-0063 · 2026-09-13-nv-casino-zakonno-li-e · PR #79 · `ai 85` → `ai 75` (HL 25) · 3 humaniser passes (checks 07-gemini-check-4..7) · HL flat 25 across baseline+all passes (Shows AI patterns 75%; noisy whack-a-mole detector, goalposts relocate each pass) · KEEP-BEST kept pass-5 · 4/5 attempts · facts/links/RG/18+/disclosures/byline (Георги Тодоров)/brand (Всички Казина) preserved verbatim, no [VERIFY]/[DATA NEEDED] flags touched.

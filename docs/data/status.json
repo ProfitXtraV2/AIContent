@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-13T12:18:56Z",
+  "generated_utc": "2026-09-13T12:29:23Z",
   "buffer": {
     "count": 50,
     "target": 10,
@@ -1177,8 +1177,8 @@
       "posted_date": "",
       "folder": "2026-09-13-nv-casino-zakonno-li-e",
       "pr": "#79",
-      "gemini": "ai 85",
-      "notes": "branded-capture warning guide; global EN vol 408K/kd31 (BG vol unknown, Ahrefs exhausted); funnels to /casino/nv-casino/ review + Betano; in-session local run (no geo-block); human edit 2026-09-13: 5 flags cleaned out (no values invented), alt-text em-dashes removed; Gemini Step-7 cloud backfill 2026-09-13: Humaniser ×2, HL flat 15 across all versions (Shows AI patterns 85%; high-variance/noisy detector), KEEP-BEST kept pass-2; NB run was on pushed branch f0b918d, which still carries the 5 [VERIFY]/[DATA NEEDED] flags (this run preserved them per brief) — reconcile with the human's separate flag-clean",
+      "gemini": "ai 75",
+      "notes": "branded-capture warning guide; global EN vol 408K/kd31 (BG vol unknown, Ahrefs exhausted); funnels to /casino/nv-casino/ review + Betano; in-session local run (no geo-block); human edit 2026-09-13: 5 flags cleaned out (no values invented), alt-text em-dashes removed; Gemini Step-7 cloud backfill 2026-09-13: Humaniser ×2, HL flat 15 across all versions (Shows AI patterns 85%; high-variance/noisy detector), KEEP-BEST kept pass-2; NB run was on pushed branch f0b918d, which still carries the 5 [VERIFY]/[DATA NEEDED] flags (this run preserved them per brief) — reconcile with the human's separate flag-clean; one-off cloud humanise 2026-09-13: 3 humaniser passes on the flag-cleaned draft (checks 07-gemini-check-4..7), HL flat 25 across baseline+all passes (Shows AI patterns 75%; noisy whack-a-mole detector, goalposts relocate each pass), KEEP-BEST kept pass-5 (most-flattened); 4 of 5 attempts used",
       "opportunity": null
     },
     {
