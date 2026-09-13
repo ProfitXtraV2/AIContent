@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 372" font-family="'Segoe UI',Roboto,Arial,sans-serif">
+<rect x="6" y="6" width="708" height="360" rx="18" fill="#0f2340"/>
+<text x="32" y="46" fill="#eaf1fb" font-size="22" font-weight="700">Панел на автозавъртане</text>
+<text x="32" y="70" fill="#8fa6c4" font-size="14">Примерни настройки · четирите неща, които избираш преди старт</text>
+<rect x="32" y="92" width="656" height="46" rx="10" fill="#16305a"/>
+<circle cx="54" cy="115" r="5" fill="#2ec5b6"/>
+<text x="72" y="120" fill="#dce6f4" font-size="16">Залог на завъртане</text>
+<rect x="622" y="100" width="52" height="30" rx="8" fill="#2ec5b6"/>
+<text x="648" y="121" fill="#0f2340" font-size="18" font-weight="700" text-anchor="middle">€1</text>
+<rect x="32" y="148" width="656" height="46" rx="10" fill="#16305a"/>
+<circle cx="54" cy="171" r="5" fill="#2ec5b6"/>
+<text x="72" y="176" fill="#dce6f4" font-size="16">Брой автозавъртания</text>
+<rect x="622" y="156" width="52" height="30" rx="8" fill="#2ec5b6"/>
+<text x="648" y="177" fill="#0f2340" font-size="18" font-weight="700" text-anchor="middle">50</text>
+<rect x="32" y="204" width="656" height="46" rx="10" fill="#16305a"/>
+<circle cx="54" cy="227" r="5" fill="#e0685a"/>
+<text x="72" y="232" fill="#dce6f4" font-size="16">Стоп при загуба</text>
+<rect x="618" y="212" width="56" height="30" rx="8" fill="#e0685a"/>
+<text x="646" y="233" fill="#ffffff" font-size="18" font-weight="700" text-anchor="middle">€30</text>
+<rect x="32" y="260" width="656" height="46" rx="10" fill="#16305a"/>
+<circle cx="54" cy="283" r="5" fill="#42b98a"/>
+<text x="72" y="288" fill="#dce6f4" font-size="16">Стоп при единична печалба</text>
+<rect x="609" y="268" width="65" height="30" rx="8" fill="#42b98a"/>
+<text x="641" y="289" fill="#0f2340" font-size="18" font-weight="700" text-anchor="middle">€100</text>
+<text x="32" y="332" fill="#7fe3d6" font-size="14.5" font-weight="600">Първият достигнат праг спира поредицата преди края.</text>
+<text x="32" y="356" fill="#6f86a6" font-size="12">18+ Играйте отговорно · vsichkikazina.bg</text>
+</svg>
