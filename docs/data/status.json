@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-13T11:48:04Z",
+  "generated_utc": "2026-09-13T11:51:10Z",
   "buffer": {
-    "count": 50,
+    "count": 49,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
-    "drafted": 43,
+    "in-progress": 1,
+    "drafted": 42,
     "approved": 7,
     "posted": 13,
     "failed": 1
@@ -1149,7 +1149,7 @@
     },
     {
       "id": "vk-0064",
-      "status": "drafted",
+      "status": "in-progress",
       "type": "guide",
       "query": "NV Casino бонус: какво реално означава 100% до €2000 при x40",
       "keywords_or_terms": "nv casino бонус, nv casino bonus",
@@ -1161,7 +1161,7 @@
       "folder": "2026-09-13-nv-casino-bonus-usloviya",
       "pr": "#80",
       "gemini": "skipped",
-      "notes": "branded bonus-hunter intent; wagering-math angle vs Betano x25; anti-cannibal: links vk-0001 wagering guide + /casino/nv-casino/; in-session local run",
+      "notes": "branded bonus-hunter intent; wagering-math angle vs Betano x25; anti-cannibal: links vk-0001 wagering guide + /casino/nv-casino/; in-session local run; human edit 2026-09-13: 6 flags → 0, source attribution removed (own-research voice), not-recommended + non-affiliation notice added, em-dash fixed; back to in-progress for Gemini Step-7",
       "opportunity": null
     },
     {
