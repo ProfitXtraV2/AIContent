@@ -13,5 +13,7 @@
 - 05 gate: PASS 94/100, 0 criticals, 0 [VERIFY].
 - 05b: final locked. Body ~753 words, 0 em-dashes.
 - NUMBER DIFF (02→03→05b): identical (€1, 50, €30, €100, 31.10.2021, 2.5 сек). No change/loss.
-- 07 gemini: (see 07-gemini-check-*.md)
-- 08 images: (see 08-image-review-*.md)
+- 07 gemini: initial HL 15 → pass 1 HL 25 → pass 2 HL 25; MAX passes; kept best (pass 2, 25); ai 75.
+  Detector floor ~75% AI on BG content (as with vk-0024); article de-patterned, flagged for nightly lift.
+- 08 images: 2 (hero webp + settings svg); review 1 = 85 PASS, 0 integrity fail; applied subtitle-contrast polish.
+- 06 verification: 0 surviving flags; one recalculation shown (€50 turnover → ~€2 expected loss at RTP 96%).
