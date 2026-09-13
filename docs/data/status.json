@@ -1,15 +1,15 @@
 {
-  "generated_utc": "2026-09-13T12:36:52Z",
+  "generated_utc": "2026-09-13T12:48:22Z",
   "buffer": {
-    "count": 49,
+    "count": 50,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 1,
+    "in-progress": 0,
     "drafted": 41,
-    "approved": 8,
+    "approved": 9,
     "posted": 13,
     "failed": 1
   },
@@ -1166,7 +1166,7 @@
     },
     {
       "id": "vk-0063",
-      "status": "in-progress",
+      "status": "approved",
       "type": "guide",
       "query": "NV Casino — законно ли е в България?",
       "keywords_or_terms": "nv casino, нв казино, nv casino законно ли е",

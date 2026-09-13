@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 8,
+  "count": 9,
   "articles": [
     {
       "slug": "kak-se-igrae-poker-kazino",
@@ -57,7 +57,14 @@
       "date_modified": "2026-09-13",
       "content_hash": "20b88865190094e9b2937adf14c45ab257b5241e9257d06a0b9745660142f738",
       "status": "approved"
+    },
+    {
+      "slug": "nv-casino-zakonno-li-e",
+      "title": "NV Casino — законно ли е в България?",
+      "date_modified": "2026-09-13",
+      "content_hash": "202edc49c16c25f10cd8727b59e71492b427ec574d4385493e62332e02b4e8db",
+      "status": "approved"
     }
   ],
-  "generated_utc": "2026-09-13T12:34:55Z"
+  "generated_utc": "2026-09-13T12:48:21Z"
 }
