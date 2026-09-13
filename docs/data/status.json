@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-13T07:33:52Z",
+  "generated_utc": "2026-09-13T07:47:49Z",
   "buffer": {
-    "count": 46,
+    "count": 47,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 2,
-    "drafted": 39,
+    "in-progress": 1,
+    "drafted": 40,
     "approved": 7,
     "posted": 13,
     "failed": 1
@@ -1132,7 +1132,7 @@
     },
     {
       "id": "vk-0061",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Автоматично завъртане (autoplay) в ротативките: настройки и рискове",
       "keywords_or_terms": "автоматично завъртане, autoplay, авто спин, лимити на загуба",
@@ -1142,9 +1142,9 @@
       "drafted_date": "2026-09-13",
       "posted_date": "",
       "folder": "2026-09-13-avtomatichno-zavartane-autoplay",
-      "pr": "",
-      "gemini": "",
-      "notes": "feature how-to — пускане/спиране, лимити загуба/печалба/брой; RG-ъгъл темпо на харчене; distinct feature guide; web-est",
+      "pr": "#77",
+      "gemini": "ai 75",
+      "notes": "feature how-to — брой/залог + стоп при загуба/единична печалба (пример €1/50/€30/€100); UKGC забрана за UK слотове 31.10.2021 (юрисдикция назована, не BG правило); honest angle: вградените стопове са контролът, темпото ускорява същата математика; RG-forward; distinct feature guide; web-est · gate 94/100; 0 flags; Gemini HL 15→25→25 MAX passes, kept best pass 2 (ai 75, detector floor ~75% AI on BG като vk-0024, flagged for nightly lift); PR #77; img:2 (settings infographic 85 + hero; review 85 PASS, 0 integrity fail); ~745w, 0 em-dashes",
       "opportunity": null
     },
     {
@@ -1206,34 +1206,6 @@
       "trend": "down",
       "checked": "ahrefs",
       "suggestion": "слаб директен обем ('превъртане' ~30, 'принос на игрите' ~0); нишова образователна тема, ниска конкуренция — дълга опашка към бонус-гайдовете",
-      "status": "candidate",
-      "date_researched": "2026-09-07",
-      "opportunity": null
-    },
-    {
-      "type": "guide",
-      "query": "Максимално теглене от бонус (max cashout): скритият таван на печалбата",
-      "researched_keywords": "макс. теглене, max cashout, таван на печалбата, бонус условия",
-      "volume": "",
-      "kd": "",
-      "intent": "informational",
-      "trend": "",
-      "checked": "ahrefs",
-      "suggestion": "нулев измерим обем в BG (Ahrefs: max cashout/теглене от казино = 0); силен образователен ъгъл — таргетирай като раздел в бонус-гайд, не самостоятелна цел",
-      "status": "candidate",
-      "date_researched": "2026-09-07",
-      "opportunity": null
-    },
-    {
-      "type": "guide",
-      "query": "Срок за разиграване: как 7, 14 или 30 дни променят реалната цена на бонуса",
-      "researched_keywords": "срок за разиграване, 30 дни, превъртане, реална цена",
-      "volume": "",
-      "kd": "",
-      "intent": "informational",
-      "trend": "",
-      "checked": "ahrefs",
-      "suggestion": "нулев измерим обем ('срок за разиграване' = 0); поддържащ раздел към vk-0001, не отделна страница",
       "status": "candidate",
       "date_researched": "2026-09-07",
       "opportunity": null
@@ -1848,20 +1820,6 @@
     },
     {
       "type": "guide",
-      "query": "Как да заредите казино сметка: методи и минимален депозит",
-      "researched_keywords": "казино депозит методи, как да заредя казино, минимален депозит казино",
-      "volume": "0",
-      "kd": "",
-      "intent": "transactional",
-      "trend": "",
-      "checked": "ahrefs",
-      "suggestion": "seed „зареди/депозит\" интент; нулев измерим обем в Ahrefs; /depoziti-i-teglenia/ вече покрива — fold-in, не самостоятелна цел",
-      "status": "candidate",
-      "date_researched": "2026-09-07",
-      "opportunity": null
-    },
-    {
-      "type": "guide",
       "query": "Sugar Rush: RTP, волатилност и как се играе",
       "researched_keywords": "sugar rush, сугар ръш",
       "volume": "150",
@@ -2381,7 +2339,7 @@
       "trend": "",
       "checked": "web",
       "suggestion": "feature how-to — как се пуска/спира, лимити за загуба/печалба/брой завъртания, защо настройките за отговорна игра на autoplay са важни (темпо на харчене); distinct feature guide (не механика на печалба); естествен RG-ъгъл; чист pillar; web-оценка",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-13",
       "opportunity": null
     },
