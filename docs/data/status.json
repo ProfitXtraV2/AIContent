@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-13T11:59:54Z",
+  "generated_utc": "2026-09-13T12:06:52Z",
   "buffer": {
-    "count": 49,
+    "count": 48,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 1,
-    "drafted": 42,
+    "in-progress": 2,
+    "drafted": 41,
     "approved": 7,
     "posted": 13,
     "failed": 1
@@ -1166,7 +1166,7 @@
     },
     {
       "id": "vk-0063",
-      "status": "drafted",
+      "status": "in-progress",
       "type": "guide",
       "query": "NV Casino — законно ли е в България?",
       "keywords_or_terms": "nv casino, нв казино, nv casino законно ли е",
@@ -1178,7 +1178,7 @@
       "folder": "2026-09-13-nv-casino-zakonno-li-e",
       "pr": "#79",
       "gemini": "skipped",
-      "notes": "branded-capture warning guide; global EN vol 408K/kd31 (BG vol unknown, Ahrefs exhausted); funnels to /casino/nv-casino/ review + Betano; in-session local run (no geo-block)",
+      "notes": "branded-capture warning guide; global EN vol 408K/kd31 (BG vol unknown, Ahrefs exhausted); funnels to /casino/nv-casino/ review + Betano; in-session local run (no geo-block); human edit 2026-09-13: 5 flags cleaned out (no values invented), alt-text em-dashes removed; back to in-progress for Gemini Step-7",
       "opportunity": null
     },
     {
