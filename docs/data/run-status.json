@@ -1,29 +1,22 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-09-13T03:10:59Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-09-13T04:12:44Z",
+  "articles_written": 3,
+  "prs_opened": [
+    73,
+    74,
+    75
+  ],
   "run_url": "https://claude.ai/code/session_01Dsr3h1D6rZy7XQ2KQF33Sy",
-  "note": "fire#15 — writing article 1/3 vk-0057 multipliers hub",
+  "note": "recurring run 2026-09-13 (fire #15) complete: 3 new distinct guides drafted — Multipliers mechanic hub (vk-0057, PR #73, gate 93, Gemini HL 25→35→85 PASS pass2 = human 85, img:3 best 100), Paytable how-to (vk-0058, PR #74, gate 89, Gemini human 90 PASS initial, img:3 best ~95), Bonus-buy feature explainer (vk-0059, PR #75, gate 94, Gemini human 85 PASS initial, img:3 best 100). PUBLIC game-mechanic + provider game-DB data only (Gonzo's Quest 1x/2x/3x/5x + Free Falls 3x/6x/9x/15x/RTP 95.97%; Sweet Bonanza bombs 2x-100x/2019 + buy 100×/4+ scatter; Gates orbs to 500x/6×5/8+; Sweet Bonanza 1000 RTP 94.51 base/94.53 buy — all web-verified). NO operator T&C/НАП facts. Honest angles: multiplier baked into RTP (bigger cap=higher volatility, not lower edge); paytable is the contract behind the banner; bonus-buy is RTP-neutral (you pay for the moment + take higher variance). Surviving flags: 0 on vk-0057/0058; 1 kept [VERIFY] (BG bonus-buy availability) on vk-0059. Anti-cannibalization DROPS (marked used): 'Лицензирани онлайн казина' (Strong 78/vol 2400) covered by live /blog/proverka-licenz-kazino/; card-games hub overlaps poker vk-0008/blackjack vk-0009/baccarat vk-0012; deposit-bonus folded into vk-0036. Ahrefs near-exhausted (99,972/100,000 units, reset 2026-10-02) → web-est vol; bank replenished with 3 new distinct candidates (cluster-pays hub, autoplay guide, hit-frequency concept). Images 9/9 PASS, 0 integrity failures (2 heroes' ALT corrected to match abstract images; rtp/volatility + rtp/variance infographics hand-fixed for layout + decimal format). Buffer 43→46 drafted+approved (floor 10; no cap, keep building). Feed refreshed (8 approved unchanged). Content PRs #73-75 (no CI; human owns Step 6/merge/flag-resolution). 0 in-progress leftovers; 0 open backlog rows.",
   "progress": {
-    "phase": "writing",
-    "article_index": 1,
-    "article_total": 3,
-    "article_slug": "2026-09-13-multiplikatori-slotove",
-    "stages": [
-      "Synthesis",
-      "Outline",
-      "Author",
-      "Humaniser",
-      "SEO",
-      "Brand Gate",
-      "Light re-check",
-      "Images",
-      "Verification",
-      "PR"
-    ],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "phase": "done",
+    "article_index": null,
+    "article_total": null,
+    "article_slug": null,
+    "stages": [],
+    "stage_index": null,
+    "stage": null
   }
 }
