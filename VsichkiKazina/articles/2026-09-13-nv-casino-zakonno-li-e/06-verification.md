@@ -2,9 +2,22 @@
 
 Article: `05b-final-draft.md`
 Assembled: 2026-09-13
-Flags total: **5** (3 × [VERIFY], 2 × [DATA NEEDED])
+Flags total: **5** (3 × [VERIFY], 2 × [DATA NEEDED]) → **0** after human edit 13.09.2026 (see §0)
 
 ---
+
+## 0. Human edit — 13.09.2026 (flags: 5 → 0)
+
+Human decision: the missing information is not available, so the flags were cleaned out of the text rather than resolved with new data. **No values were invented.**
+
+| # | Resolution in 05b |
+|---|---|
+| V1 | Kept the claim, framed as our own check: „При нашата проверка на регистъра NV Casino не фигурира…" |
+| V2 | Removed the unconfirmed „€45 при част от методите" detail entirely |
+| V3 | Kept the bonus figures (same as sister article vk-0064), dated „Към 13.09.2026" |
+| D1 + D2 | Replaced with „Срокът за разиграване и приносът на игрите… не открихме ясно публикувани." |
+
+Also removed 2 em-dashes from the infographic alt text (brand gate: zero at publish). Sources below remain as the internal audit trail. Row set back to `in-progress` for Gemini Step-7.
 
 ## 1. Surviving flags — human check table
 

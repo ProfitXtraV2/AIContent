@@ -8,3 +8,5 @@ stage 5 gate: 88/100, PASS WITH FIXES
 stage 5b light re-check: DONE — 0 edits needed (no em-dashes, no signposting/banned connectives, no tables, no bullet lists, no repeated-parallel/both-sides tells); all 4 flags + numbers/links/RG/18+/byline/dates intact; 05b-final-draft.md produced
 step 8 images: infographic 1 (SVG, hand-authored); hero skipped (Gemini unavailable); image review skipped (Gemini unavailable)
 step 6 verification file assembled (flags: 5)
+
+human edit 2026-09-13: flags 5 → 0 (cleaned out, no values invented; €45 withdrawal detail dropped; bonus figures dated 13.09.2026; deadline/contribution stated as not found published); 2 alt-text em-dashes removed. Row set back to in-progress so the cloud run performs Gemini Step-7.
