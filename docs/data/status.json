@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-13T22:21:05Z",
+  "generated_utc": "2026-09-13T22:34:37Z",
   "buffer": {
-    "count": 47,
+    "count": 48,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 3,
-    "drafted": 41,
+    "in-progress": 2,
+    "drafted": 42,
     "approved": 6,
     "posted": 16,
     "failed": 1
@@ -1234,7 +1234,7 @@
     },
     {
       "id": "vk-0067",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Hacksaw Gaming: профил на доставчика, механики и топ слотове",
       "keywords_or_terms": "hacksaw gaming, хаксоу, hacksaw слотове",
@@ -1244,9 +1244,9 @@
       "drafted_date": "2026-09-13",
       "posted_date": "",
       "folder": "2026-09-13-hacksaw-gaming",
-      "pr": "",
-      "gemini": "",
-      "notes": "нов-ген provider профил (6-и след Pragmatic/Amusnet/Novomatic/NetEnt/Play'n GO); модерни високоволатилни механики, feature buy; публична provider/game-DB data (NOT operator T&C/НАП); anchor към „доставчици\" хъб (vk-0054) + /blog/games-providers/; web-est vol",
+      "pr": "#81",
+      "gemini": "human 90",
+      "notes": "нов-ген provider профил (6-и след Pragmatic/Amusnet/Novomatic/NetEnt/Play'n GO); модерни високоволатилни механики, feature buy; публична provider/game-DB data (NOT operator T&C/НАП); anchor към „доставчици\" хъб (vk-0054) + /blog/games-providers/; web-est vol; gate 92/100, 0 criticals; Gemini HL 90 PASS pass 1 (no humaniser); 0 surviving flags (Chaos Crew RTP left unstated where sources disagree); img:2 (max-win infographic + hero 11KB, review 85 PASS, 0 integrity); ~809w, 0 em-dashes; PR #81",
       "opportunity": null
     }
   ],
@@ -2465,8 +2465,8 @@
       "intent": "transactional",
       "trend": "",
       "checked": "web",
-      "suggestion": "нов-ген провайдър хъб (модерни високоволатилни механики, feature buy, Chaos Crew/Wanted Dead or a Wild); distinct от петте вече покрити профила (Pragmatic vk-0019/Amusnet vk-0021/Novomatic vk-0035/NetEnt vk-0042/Play'n GO vk-0045); публична provider/game-DB data (NOT operator T&C/НАП); котва към новия „доставчици\" концепт-хъб (vk-0054); чист (няма в sitemap); web-оценка",
-      "status": "candidate",
+      "suggestion": "нов-ген провайдър хъб (модерни високоволатилни механики, feature buy, Chaos Crew/Wanted Dead or a Wild); distinct от петте вече покрити профила (Pragmatic vk-0019/Amusnet vk-0021/Novomatic vk-0035/NetEnt vk-0042/Play'n GO vk-0045); публична provider/game-DB data (NOT operator T&C/НАП); котва към новия „доставчици\" концепт-хъб (vk-0054); чист (няма в sitemap); web-оценка → НАПИСАН vk-0067 (PR #81, gate 92, Gemini HL 90 PASS, img:2 best 85)",
+      "status": "used",
       "date_researched": "2026-09-12",
       "opportunity": null
     },
