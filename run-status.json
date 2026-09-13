@@ -1,18 +1,10 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-13T16:39:00Z",
-  "run_finished_utc": "2026-09-13T16:39:00Z",
-  "articles_written": 0,
+  "state": "running",
+  "run_started_utc": "2026-09-13T22:10:48Z",
+  "run_finished_utc": null,
+  "articles_written": null,
   "prs_opened": [],
-  "run_url": "https://claude.ai/code/session_01V3GWRNsaXq7tBYDYnJ1F8G",
-  "note": "backfill: nothing to do (all review-ready articles have images) — checked 2026-09-13T16:39Z; all 47 drafted/approved rows carry img:N notes (0 imageless candidates found). Job no-ops until new imageless articles appear.",
-  "progress": {
-    "phase": "done",
-    "article_index": null,
-    "article_total": null,
-    "article_slug": null,
-    "stages": [],
-    "stage_index": null,
-    "stage": null
-  }
+  "run_url": "https://claude.ai/code/session_01Hwa5xiAjCMvC8G677Wd35C",
+  "note": "daily run (3x/day) — selecting topics",
+  "progress": {"phase":"selecting","article_index":null,"article_total":null,"article_slug":null,"stages":["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],"stage_index":null,"stage":null}
 }
