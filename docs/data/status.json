@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-13T08:01:23Z",
+  "generated_utc": "2026-09-13T11:24:25Z",
   "buffer": {
-    "count": 48,
+    "count": 50,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 41,
+    "drafted": 43,
     "approved": 7,
     "posted": 13,
     "failed": 1
@@ -1148,6 +1148,40 @@
       "opportunity": null
     },
     {
+      "id": "vk-0064",
+      "status": "drafted",
+      "type": "guide",
+      "query": "NV Casino бонус: какво реално означава 100% до €2000 при x40",
+      "keywords_or_terms": "nv casino бонус, nv casino bonus",
+      "volume": "",
+      "kd": "",
+      "source": "backlog",
+      "drafted_date": "2026-09-13",
+      "posted_date": "",
+      "folder": "2026-09-13-nv-casino-bonus-usloviya",
+      "pr": "#80",
+      "gemini": "skipped",
+      "notes": "branded bonus-hunter intent; wagering-math angle vs Betano x25; anti-cannibal: links vk-0001 wagering guide + /casino/nv-casino/; in-session local run",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0063",
+      "status": "drafted",
+      "type": "guide",
+      "query": "NV Casino — законно ли е в България?",
+      "keywords_or_terms": "nv casino, нв казино, nv casino законно ли е",
+      "volume": "",
+      "kd": "",
+      "source": "backlog",
+      "drafted_date": "2026-09-13",
+      "posted_date": "",
+      "folder": "2026-09-13-nv-casino-zakonno-li-e",
+      "pr": "#79",
+      "gemini": "skipped",
+      "notes": "branded-capture warning guide; global EN vol 408K/kd31 (BG vol unknown, Ahrefs exhausted); funnels to /casino/nv-casino/ review + Betano; in-session local run (no geo-block)",
+      "opportunity": null
+    },
+    {
       "id": "vk-0062",
       "status": "drafted",
       "type": "guide",
@@ -1192,6 +1226,34 @@
       "ahrefs_note": "слаб директен обем ('welcome bonus' ~20, 'бонус за добре дошли' ~0). По-силна алтернатива за същия интент: 'казино бонус без депозит' (3400, kd66) или 'бонус без депозит' (5400, kd61)",
       "status": "failed",
       "notes": "07.09 retry failed: operator T&C + НАП register block foreign/automated traffic (403/reset). Needs BG-resident route or human-pasted T&C + licence №s",
+      "opportunity": null
+    },
+    {
+      "priority": "3",
+      "type": "guide",
+      "query": "NV Casino — законно ли е в България",
+      "keywords_or_terms": "nv casino, нв казино, nv casino законно ли е",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "checked": "web",
+      "ahrefs_note": "branded cluster: global EN 'nv casino' 408K/kd31, 'nvcasino' 210K/kd26 (Ahrefs UI 13.09); BG volume unknown (units exhausted до 02.10); huge branded demand, slotcatalog ranks top-3 with a bare catalog page",
+      "status": "written",
+      "notes": "in-session 13.09 → PR #79; Gemini skipped (no local key) — cloud backfill",
+      "opportunity": null
+    },
+    {
+      "priority": "4",
+      "type": "guide",
+      "query": "NV Casino бонус: какво реално означава 100% до €2000 при x40",
+      "keywords_or_terms": "nv casino бонус, nv casino bonus",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial",
+      "checked": "web",
+      "ahrefs_note": "branded bonus intent; global data only (Ahrefs units exhausted); wagering-math angle vs Betano x25",
+      "status": "written",
+      "notes": "in-session 13.09 → PR #80; Gemini skipped (no local key) — cloud backfill",
       "opportunity": null
     }
   ],
