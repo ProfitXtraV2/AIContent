@@ -3,14 +3,16 @@
   "run_started_utc": "2026-09-13T07:10:31Z",
   "run_finished_utc": null,
   "articles_written": null,
-  "prs_opened": [],
+  "prs_opened": [
+    76
+  ],
   "run_url": "https://claude.ai/code/session_01Vcf9qvLVMsxmGUvVH1aipE",
-  "note": "recurring run 2026-09-13 (fire #16) — batch selected: vk-0060 cluster-pays hub, vk-0061 autoplay, vk-0062 hit-frequency (all guides, non-cannibalizing, web-est vol). Writing.",
+  "note": "recurring run 2026-09-13 (fire #16) — vk-0060 cluster-pays hub drafted (PR #76, gate 94, Gemini human 85, img 85 PASS). Writing vk-0061 autoplay.",
   "progress": {
     "phase": "writing",
-    "article_index": 1,
+    "article_index": 2,
     "article_total": 3,
-    "article_slug": "2026-09-13-klasterni-pechalbi-cluster-pays",
+    "article_slug": "2026-09-13-avtomatichno-zavartane-autoplay",
     "stages": [
       "Synthesis",
       "Outline",

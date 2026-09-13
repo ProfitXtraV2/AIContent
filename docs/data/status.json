@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-13T06:43:45Z",
+  "generated_utc": "2026-09-13T07:33:52Z",
   "buffer": {
-    "count": 45,
+    "count": 46,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
-    "drafted": 38,
+    "in-progress": 2,
+    "drafted": 39,
     "approved": 7,
     "posted": 13,
     "failed": 1
@@ -1111,6 +1111,57 @@
       "pr": "#75",
       "gemini": "human 85",
       "notes": "feature explainer — как работи „купи бонус\" + струва ли си; honest angle: остойностен спрямо EV на бонуса → RTP почти неутрален (Sweet Bonanza 1000 94.51/94.53), плащаш за момента + поемаш по-остра волатилност (~100× на опит); Sweet Bonanza buy 100×/4+ scatter web-verified; UK-licensed-site ban (без дата, източниците се разминават); distinct vs bonus-terms vk-0036/no-deposit vk-0004 (in-game feature, не welcome bonus); pillar за scatter vk-0056/Gates/Sweet Bonanza fold-ins; clean pillar · gate 94/100; 1 [VERIFY] (BG наличност, kept); Gemini human 85 PASS on initial (v0 kept); PR #75; img:3 (hero 82 + kak-raboti 85 + rtp-variance 100; all PASS, 0 integrity fail); ~851w, 0 em-dashes",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0060",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Клъстърни печалби (cluster pays): как се печели без линии",
+      "keywords_or_terms": "клъстърни печалби, cluster pays, клъстър слот, печалба без линии",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-13",
+      "posted_date": "",
+      "folder": "2026-09-13-klasterni-pechalbi-cluster-pays",
+      "pr": "#76",
+      "gemini": "human 85",
+      "notes": "mechanic hub — печалба чрез група съседни еднакви символи (допир хор./верт., не диагонал; минимум обикновено 5–8, Aloha! 9); parent на Reactoonz/Sugar Rush/Fruit Party; honest angle: начинът на броене не мени RTP; distinct vs линии vk-0017/Megaways vk-0041/каскади vk-0052; web-est vol · gate 94/100; 0 flags; Gemini HL 30→85 PASS pass 1; PR #76; img:2 (infographic 82 + hero; final review 85 PASS, 0 integrity fail); ~817w, 0 em-dashes",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0061",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Автоматично завъртане (autoplay) в ротативките: настройки и рискове",
+      "keywords_or_terms": "автоматично завъртане, autoplay, авто спин, лимити на загуба",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-13",
+      "posted_date": "",
+      "folder": "2026-09-13-avtomatichno-zavartane-autoplay",
+      "pr": "",
+      "gemini": "",
+      "notes": "feature how-to — пускане/спиране, лимити загуба/печалба/брой; RG-ъгъл темпо на харчене; distinct feature guide; web-est",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0062",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Хит честота (hit frequency): колко често пада печалба и защо не е RTP",
+      "keywords_or_terms": "хит честота, hit frequency, честота на печалба",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-13",
+      "posted_date": "",
+      "folder": "2026-09-13-hit-chestota-hit-frequency",
+      "pr": "",
+      "gemini": "",
+      "notes": "concept explainer — % завъртания с печалба; distinct от RTP (размер) и волатилност (разсейване); честен ъгъл: висока хит честота != печеливша; web-est",
       "opportunity": null
     }
   ],
@@ -2316,7 +2367,7 @@
       "trend": "",
       "checked": "web",
       "suggestion": "mechanic hub — печалба чрез група съседни еднакви символи вместо линии/начини; distinct vs линии vk-0017, Megaways vk-0041, каскади vk-0052 (често се комбинира с каскади, но е отделна механика); PARENT на Reactoonz/Fruit Party cluster-games; чист хъб (няма в sitemap); web-оценка (Ahrefs изчерпан, reset 2026-10-02)",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-13",
       "opportunity": null
     },
