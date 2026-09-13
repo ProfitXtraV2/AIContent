@@ -61,3 +61,8 @@ Sibling discovery endpoints (same shape): `related-terms`, `search-suggestions`.
 - `matching-terms` bills per returned row — batch seeds, small `limit`.
 - Not all endpoints on the docs are available on the Lite plan; the four above are.
 - Helper script that drives #2 + #3 for a keyword list: `scripts/ahrefs_enrich.py`.
+- `ahrefs_enrich.py` caches results in `docs/data/ahrefs-cache.json` for 30 days
+  (`AHREFS_CACHE_TTL_DAYS`) — volumes are monthly figures, so a repeat lookup within
+  the month is free. It also runs the #1 units check before any paid call and skips
+  them below `AHREFS_MIN_UNITS` (default 20000), printing blank metrics instead of
+  halting. Commit the cache file so cloud-routine runs inherit it.
