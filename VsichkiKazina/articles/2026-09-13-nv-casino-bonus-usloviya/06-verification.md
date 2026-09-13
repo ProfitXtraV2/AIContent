@@ -1,0 +1,75 @@
+# 06 — Верификационен файл
+Article: NV Casino бонус: колко наистина струва €2 000-ната оферта
+Date assembled: 2026-09-13
+Source draft: 05b-final-draft.md
+
+---
+
+## 1. Флагове за ръчна проверка
+
+| # | Флаг (текст от статията) | Първичен извор (URL) | Какво показва изворът / статус |
+|---|--------------------------|----------------------|-------------------------------|
+| 1 | `[VERIFY]` — бонус тиерове; препоръчва се ре-верификация директно на nv-casino.io/promotions | https://nv-casino.io/promotions | Потвърдено индиректно от slotcatalog.com/en/casino/nv-casino (task-3-report); директна T&C страница на оператора не е верифицирана при писане — **нужна ръчна проверка на nv-casino.io/promotions** |
+| 2 | `[VERIFY коефициент и база за FS]` — x30 за печалби от FS | https://nv-casino.io/terms-and-conditions | Slotcatalog посочва x30 за FS печалби без уточнение на базата; **нужна ръчна проверка в NV T&C** |
+| 3 | `[VERIFY срок]` — срок за разиграване не е посочен в изворите | https://nv-casino.io/terms-and-conditions | Не е посочен в task-3-report нито в slotcatalog; **нужна ръчна проверка в NV T&C** |
+| 4 | `[DATA NEEDED: принос на игрите]` — % принос на слотове, маси, live | https://nv-casino.io/terms-and-conditions | Не е намерен в никой извор; **нужна ръчна проверка в NV T&C** |
+| 5 | `[VERIFY база на x40: само бонус vs депозит+бонус]` — wagering base | https://nv-casino.io/terms-and-conditions | Slotcatalog посочва само „x40 бонус", без да уточнява базата; **wagering base bonus-only vs deposit+bonus неразрешен — нужни ръчни очи върху NV T&C**; статията представя честно и двата сценария (€4 000 / €8 000) |
+| 6 | `[VERIFY лимити по метод]` — теглене €10–€45 варира по метод | https://nv-casino.io/banking | Slotcatalog посочва диапазон €10–€45; конкретните лимити по метод не са разбити; **нужна ръчна проверка в NV banking/T&C** |
+
+**Брой флагове: 6**
+
+---
+
+## 2. Времечувствителни твърдения към 13.09.2026
+
+| Твърдение | Извор (URL) | Статус към 13.09.2026 |
+|-----------|-------------|----------------------|
+| Welcome бонус: до €2 000 + 225 FS (3-стъпална стълба) | https://slotcatalog.com/en/casino/nv-casino | Потвърдено от slotcatalog; директна проверка на nv-casino.io/promotions препоръчителна |
+| 1-ви депозит: 100% до €500 + 100 FS | https://slotcatalog.com/en/casino/nv-casino | Потвърдено от slotcatalog |
+| 2-ри депозит: 125% до €500 + 50 FS | https://slotcatalog.com/en/casino/nv-casino | Потвърдено от slotcatalog |
+| 3-ти депозит: 120% до €1 000 + 75 FS | https://slotcatalog.com/en/casino/nv-casino | Потвърдено от slotcatalog |
+| Лиценз: GCB 8048/JAZ (Кюрасао); без НАП лиценз | https://slotcatalog.com/en/casino/nv-casino | Потвърдено от slotcatalog + task-3-report; НАП регистър не е показал Kaurum Limited |
+| Оператор: Kaurum Limited, Кипър | https://slotcatalog.com/en/casino/nv-casino | Потвърдено |
+| Превъртане: x40; FS печалби x30 | https://slotcatalog.com/en/casino/nv-casino | Потвърдено от slotcatalog; база за x40 неуточнена [VERIFY] |
+| Минимален депозит: €10 | https://slotcatalog.com/en/casino/nv-casino | Потвърдено |
+| Теглене: от €10 до €45 по метод | https://slotcatalog.com/en/casino/nv-casino | Потвърдено от slotcatalog; разбивка по метод [VERIFY] |
+| Betano: x25 (депозит+бонус), 30 дни, min €5, до €1 500 + 150 FS, НАП лиценз активен | https://vsichkikazina.bg/casino/betano/ | Потвърдено от live страница на сайта |
+| Афилиейт лицензиране от 1 август 2026 (ДВ, бр. 69/31.07.2026) | https://dv.parliament.bg/DVWeb/showMaterialHtml.jsp?idMat=253058 | Потвърдено от brief (statutory reference); препоръчва се проверка на ДВ страницата |
+
+---
+
+## 3. Преизчисление на математиката (worked math)
+
+Статията съдържа три числа в основния worked-math блок. Проверка:
+
+**Сценарий A — x40 само върху бонуса:**
+€100 (бонус) × 40 = **€4 000** оборот
+
+**Сценарий Б — x40 върху депозит + бонус:**
+(€100 депозит + €100 бонус) × 40 = €200 × 40 = **€8 000** оборот
+
+**Betano — x25 върху депозит + бонус:**
+(€100 депозит + €100 бонус) × 25 = €200 × 25 = **€5 000** оборот
+
+Проверка спрямо статията (05b-final-draft.md):
+- „€100 × 40 = €4 000 оборот" ✓ съвпада
+- „(€100 + €100) × 40 = €8 000 оборот" ✓ съвпада
+- „€200 × 25 = €5 000 оборот" ✓ съвпада
+
+**Резултат: и трите числа съвпадат с текста на статията.**
+
+---
+
+## 4. Технически статус
+
+- `external check: skipped (Gemini unavailable locally — flag for cloud backfill)`
+- `images: 1 (SVG bar-comparison infographic oborot-za-100-evro-bonus-sravnenie.svg; hero + auto-review skipped, Gemini unavailable; controller visual check passed)`
+
+---
+
+## 5. Бележки за верификатора
+
+- **Приоритет:** Флаг #5 (wagering base bonus-only vs deposit+bonus) е най-критичен — решава дали NV излиза по-изгодно (€4 000) или по-скъпо (€8 000) от Betano (€5 000); цялата аргументация на статията зависи от честното представяне на двата сценария.
+- Флагове #3 и #4 (срок + принос на игрите) са в T&C на nv-casino.io; ако страницата е достъпна, проверете и двете в един визит.
+- Флаг #6 (withdrawal limits by method) може да се верифицира от banking страницата или support chat на NV.
+- При намиране на конкретни стойности: попълнете тази таблица и актуализирайте 05b-final-draft.md (заменете флаговете с потвърдените данни или бележка „не е публично достъпно в T&C").

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 340" width="700" height="340" role="img" aria-label="Инфографика: колко залози изисква €100 бонус — NV Casino x40 само върху бонуса = €4 000; NV Casino x40 върху депозит + бонус = €8 000; Betano x25 върху депозит + бонус = €5 000">
+  <title>Оборот за €100 бонус: NV Casino x40 срещу Betano x25</title>
+  <defs>
+    <style>
+      text { font-family: 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="700" height="340" rx="12" ry="12" fill="#FAF8F3"/>
+
+  <!-- Title -->
+  <text x="350" y="32" text-anchor="middle" font-size="16" font-weight="700" fill="#1a1a2e">Колко залози изисква €100 бонус</text>
+  <text x="350" y="52" text-anchor="middle" font-size="11" fill="#8a8578">Изискван оборот в евро при €100 бонус · базата при NV остава непотвърдена</text>
+  <line x1="30" y1="64" x2="670" y2="64" stroke="#e3ddd0" stroke-width="1"/>
+
+  <!-- Bar 1: NV x40 only bonus = 4000 (210px) -->
+  <text x="30" y="98" font-size="12" font-weight="700" fill="#333">NV Casino · x40 само върху бонуса</text>
+  <text x="30" y="114" font-size="10" fill="#8a8578">€100 × 40</text>
+  <rect x="30" y="122" width="640" height="24" rx="5" fill="#efe9dd"/>
+  <rect x="30" y="122" width="210" height="24" rx="5" fill="#c8a24a"/>
+  <text x="250" y="139" font-size="14" font-weight="700" fill="#7a5c15">€4 000 оборот</text>
+
+  <!-- Bar 2: NV x40 deposit+bonus = 8000 (420px) -->
+  <text x="30" y="182" font-size="12" font-weight="700" fill="#333">NV Casino · x40 върху депозит + бонус</text>
+  <text x="30" y="198" font-size="10" fill="#8a8578">(€100 + €100) × 40</text>
+  <rect x="30" y="206" width="640" height="24" rx="5" fill="#efe9dd"/>
+  <rect x="30" y="206" width="420" height="24" rx="5" fill="#b3541e"/>
+  <text x="460" y="223" font-size="14" font-weight="700" fill="#8a3c12">€8 000 оборот</text>
+
+  <!-- Bar 3: Betano x25 deposit+bonus = 5000 (263px) -->
+  <text x="30" y="266" font-size="12" font-weight="700" fill="#333">Betano · x25 върху депозит + бонус</text>
+  <text x="30" y="282" font-size="10" fill="#8a8578">€200 × 25</text>
+  <rect x="30" y="290" width="640" height="24" rx="5" fill="#efe9dd"/>
+  <rect x="30" y="290" width="263" height="24" rx="5" fill="#2f6b4f"/>
+  <text x="303" y="307" font-size="14" font-weight="700" fill="#204d38">€5 000 оборот</text>
+
+  <!-- RG footer -->
+  <text x="350" y="330" text-anchor="middle" font-size="9" fill="#b5ae9e">18+ Играйте отговорно · оборот за €100 бонус, скалата е пропорционална</text>
+</svg>
