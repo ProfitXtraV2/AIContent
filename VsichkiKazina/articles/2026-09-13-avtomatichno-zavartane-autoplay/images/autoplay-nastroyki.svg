@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 372" font-family="'Segoe UI',Roboto,Arial,sans-serif">
 <rect x="6" y="6" width="708" height="360" rx="18" fill="#0f2340"/>
 <text x="32" y="46" fill="#eaf1fb" font-size="22" font-weight="700">Панел на автозавъртане</text>
-<text x="32" y="70" fill="#8fa6c4" font-size="14">Примерни настройки · четирите неща, които избираш преди старт</text>
+<text x="32" y="70" fill="#b3c6de" font-size="14">Примерни настройки · четирите неща, които избираш преди старт</text>
 <rect x="32" y="92" width="656" height="46" rx="10" fill="#16305a"/>
 <circle cx="54" cy="115" r="5" fill="#2ec5b6"/>
 <text x="72" y="120" fill="#dce6f4" font-size="16">Залог на завъртане</text>
