@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-13T22:34:37Z",
+  "generated_utc": "2026-09-13T22:36:06Z",
   "buffer": {
-    "count": 48,
+    "count": 49,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 2,
-    "drafted": 42,
+    "in-progress": 1,
+    "drafted": 43,
     "approved": 6,
     "posted": 16,
     "failed": 1
@@ -1217,7 +1217,7 @@
     },
     {
       "id": "vk-0066",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Mega Fortune: прогресивният джакпот на NetEnt и как работи",
       "keywords_or_terms": "mega fortune, мега форчън, прогресивен джакпот netent",
@@ -1227,9 +1227,9 @@
       "drafted_date": "2026-09-13",
       "posted_date": "",
       "folder": "2026-09-13-mega-fortune",
-      "pr": "",
-      "gemini": "",
-      "notes": "NetEnt мрежов прогресив на три нива (Rapid/Major/Mega) през бонус колело; specific-game pillar, fold-in линк към /blog/progresivni-dzhakpoti/ (конкретна игра vs концепция, НЕ дублира); anchor към NetEnt профил (vk-0042); честен ъгъл: джакпотът е финансиран от залозите, шансът е нищожен; web-est vol",
+      "pr": "#82",
+      "gemini": "human 95",
+      "notes": "NetEnt мрежов прогресив на три нива (Rapid/Major/Mega) през бонус колело; specific-game pillar, fold-in линк към /blog/progresivni-dzhakpoti/ (конкретна игра vs концепция, НЕ дублира); anchor към NetEnt профил (vk-0042); честен ъгъл: джакпотът е финансиран от залозите (RTP 96.6% вкл. 7.6% за пула; реална база ~89%), шансът е нищожен; €17.8m 2013 рекорд като контекст; gate 93/100, 0 criticals; Gemini HL 95 PASS pass 1; 0 flags; img:2 (RTP infographic 98 след clipPath fix + hero 44.9KB 82, 0 integrity); ~700w, 0 em-dashes; PR #82",
       "opportunity": null
     },
     {
@@ -2199,8 +2199,8 @@
       "intent": "informational",
       "trend": "",
       "checked": "web",
-      "suggestion": "NetEnt мрежов прогресив на три нива (Rapid/Major/Mega) през бонус колело — distinct branded pillar; котва към NetEnt профил (vk-0042); fold-in линк към /blog/progresivni-dzhakpoti/ (общ хъб, НЕ дублира: конкретна игра vs концепция); честен ъгъл „джакпотът е финансиран от залозите, шансът е нищожен\". Web-оценка",
-      "status": "candidate",
+      "suggestion": "NetEnt мрежов прогресив на три нива (Rapid/Major/Mega) през бонус колело — distinct branded pillar; котва към NetEnt профил (vk-0042); fold-in линк към /blog/progresivni-dzhakpoti/ (общ хъб, НЕ дублира: конкретна игра vs концепция); честен ъгъл „джакпотът е финансиран от залозите, шансът е нищожен\". Web-оценка → НАПИСАН vk-0066 (PR #82, gate 93, Gemini HL 95 PASS, img:2 best 98)",
+      "status": "used",
       "date_researched": "2026-09-11",
       "opportunity": null
     },
