@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="Серия Money Train на Relax Gaming: таван 50 000x при RTP 96.40% за Money Train 2, 100 000x при RTP 96.10% за Money Train 3 и 150 000x за Money Train 4; всичко теоретични максимуми">
+  <title>Серия Money Train: тавани на печалбата (теоретични максимуми)</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0d9488"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="712" height="392" rx="14" ry="14" fill="url(#bg)"/>
+
+  <text x="32" y="44" font-family="system-ui, -apple-system, sans-serif" font-size="21" font-weight="800" fill="#134e4a">Серия Money Train: тавани на печалбата</text>
+  <text x="32" y="68" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6b7280">Теоретични максимуми, не типичен резултат от една сесия.</text>
+
+  <!-- Row 1: Money Train 2 -->
+  <text x="32" y="116" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700" fill="#374151">Money Train 2</text>
+  <text x="32" y="135" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280">RTP 96.40%</text>
+  <rect x="200" y="104" width="380" height="30" rx="6" fill="#e5e7eb"/>
+  <rect x="200" y="104" width="127" height="30" rx="6" fill="url(#bar)"/>
+  <text x="339" y="124" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="800" fill="#0f766e">50 000x</text>
+
+  <!-- Row 2: Money Train 3 -->
+  <text x="32" y="186" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700" fill="#374151">Money Train 3</text>
+  <text x="32" y="205" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280">RTP 96.10%</text>
+  <rect x="200" y="174" width="380" height="30" rx="6" fill="#e5e7eb"/>
+  <rect x="200" y="174" width="253" height="30" rx="6" fill="url(#bar)"/>
+  <text x="465" y="194" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="800" fill="#0f766e">100 000x</text>
+
+  <!-- Row 3: Money Train 4 -->
+  <text x="32" y="256" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700" fill="#374151">Money Train 4</text>
+  <text x="32" y="275" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280">2023 г.</text>
+  <rect x="200" y="244" width="380" height="30" rx="6" fill="#e5e7eb"/>
+  <rect x="200" y="244" width="380" height="30" rx="6" fill="url(#bar)"/>
+  <text x="592" y="264" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="800" fill="#0f766e">150 000x</text>
+
+  <line x1="32" y1="312" x2="688" y2="312" stroke="#d1d5db" stroke-width="1"/>
+  <text x="32" y="338" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#6b7280">Реалният RTP се проверява в инфо-панела на конкретното казино.</text>
+  <text x="32" y="366" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" fill="#9ca3af">Данни: Relax Gaming, обявени стойности на игрите</text>
+  <text x="688" y="366" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="700" fill="#0f766e" text-anchor="end">18+ Играйте отговорно</text>
+</svg>
