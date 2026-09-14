@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-14T07:45:24Z",
+  "generated_utc": "2026-09-14T22:14:17Z",
   "buffer": {
     "count": 55,
     "target": 10,
@@ -7,7 +7,7 @@
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
+    "in-progress": 3,
     "drafted": 50,
     "approved": 5,
     "posted": 17,
@@ -1349,6 +1349,57 @@
       "pr": "#89",
       "gemini": "human 85",
       "notes": "Pragmatic cluster-pays branded slot-explainer (7x7, cluster 5+ съседни, random множители x2 база / x2-x4 FS → таван 256x, 3+ scatter→10 FS ретригър до 14, Buy Feature 100x, макс 5000x, released May 2020); anchors LIVE Pragmatic профил vk-0019 (/blog/pragmatic-play-provajdar/) + fold-in Sugar Rush (live /blog/sugar-rush/), Reactoonz plain text; RTP 96.50% default (конфиг. ~95.50/~94.50; DB tiers 96.47/95.48/94.45 в 06-verif), house edge 3.50%; public game-DB data (NOT operator T&C/НАП); gate 93/100, 0 criticals; Gemini human 85 PASS pass 1 (0 humaniser); 1 [VERIFY] (волатилност band medium vs high); img:3 (RTP infographic 85 + множители infographic 85 + hero 65 kept-best; 2 PASS, 0 integrity); ~798w, 0 em-dashes; PR #89; web-est vol",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0074",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Jammin' Jars (Push Gaming): RTP, cluster pays и Rainbow множители",
+      "keywords_or_terms": "jammin jars, джамин джарс, jammin jars rtp",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-14-jammin-jars",
+      "pr": "",
+      "gemini": "",
+      "notes": "втори флагман на Push Gaming; anchor към Push профил vk-0071; cluster pays 8x8 + каскади + Rainbow feature с растящ множител; public provider/game-DB data (NOT operator T&C/НАП); web-est vol (Ahrefs exhausted, reset 2026-10-02)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0075",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Wanted Dead or a Wild (Hacksaw Gaming): RTP и трите бонус режима",
+      "keywords_or_terms": "wanted dead or a wild, уонтед дед, wanted dead or a wild rtp",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-14-wanted-dead-or-a-wild",
+      "pr": "",
+      "gemini": "",
+      "notes": "екстремно-волатилен branded title; anchor към Hacksaw профил vk-0067; три бонус режима, feature buy; public provider/game-DB data (NOT operator T&C/НАП); web-est vol (Ahrefs exhausted, reset 2026-10-02)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0076",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Money Train 3 (Relax Gaming): какво променя третата част",
+      "keywords_or_terms": "money train 3, мъни трейн 3, money train 3 rtp",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-14-money-train-3",
+      "pr": "",
+      "gemini": "",
+      "notes": "branded сиквел-explainer (distinct kw vs Money Train 2 vk-0069); anchor към Relax профил vk-0068 + fold-in линк vk-0069; разширен Money Cart, по-висок таван; public provider/game-DB data (NOT operator T&C/НАП); web-est vol (Ahrefs exhausted, reset 2026-10-02)",
       "opportunity": null
     }
   ],
