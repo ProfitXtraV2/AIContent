@@ -39,7 +39,7 @@ All infographic numbers trace to these and to 05b verbatim.
 - Exact hit-rate / bonus-trigger frequency %: unverified → omitted.
 
 ## Gemini text check (Step 7)
-Final human-likeness (HL): <TBD> · passes applied: <TBD> · verdicts saved in 07-gemini-check-*.md.
+Final human-likeness (HL): 90 (PASS) · passes applied: 0 (initial draft passed) · verdict saved in 07-gemini-check-1.md.
 
 ## Images (Step 8)
 images: <TBD>
