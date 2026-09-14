@@ -14,10 +14,10 @@
 - Step 8 (images): see below.
 
 ## Step 7 result
-(pending — see below)
+Gemini HL: 90 („Highly likely human-written, 90% confidence", PASS pass 1, initial kept). gemini = human 90. 07-gemini-check-1.md saved verbatim.
 
 ## Step 8 result
-(pending — see below)
+images: 2 (infographic fire-joker-rtp.svg 85 PASS pass 1; hero fire-joker-hero.webp 75 pass 1 ALT-only → ALT fixed → 100 PASS pass 2). Best 100. No integrity failures. Referenced from 05b (hero under H1, infographic beside the RTP data). 08-image-review-1/2.md saved.
 
 ## Outcome
-(pending)
+05b final (human 90, gate 92, ~806 words). 06-verification assembled with primary-source URLs. 1 surviving [VERIFY] (live RTP build). Ready for PR.
