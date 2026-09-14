@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-14T03:49:22Z",
+  "generated_utc": "2026-09-14T06:43:35Z",
   "buffer": {
-    "count": 53,
+    "count": 52,
     "target": 10,
     "deficit": 0,
     "ok": true
@@ -9,8 +9,8 @@
   "counts": {
     "in-progress": 0,
     "drafted": 47,
-    "approved": 6,
-    "posted": 16,
+    "approved": 5,
+    "posted": 17,
     "failed": 1
   },
   "rows": [
@@ -598,7 +598,7 @@
     },
     {
       "id": "vk-0031",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "The Dog House: RTP, волатилност и как се играе",
       "keywords_or_terms": "the dog house, дог хаус слот",
@@ -606,7 +606,7 @@
       "kd": "33",
       "source": "research",
       "drafted_date": "2026-09-10",
-      "posted_date": "",
+      "posted_date": "2026-09-14",
       "folder": "2026-09-10-the-dog-house",
       "pr": "#37",
       "gemini": "human 90",
