@@ -42,4 +42,4 @@ All infographic numbers trace to these and to 05b verbatim.
 Final human-likeness (HL): 90 (PASS) · passes applied: 0 (initial draft passed) · verdict saved in 07-gemini-check-1.md.
 
 ## Images (Step 8)
-images: <TBD>
+images: 2 (infographic 85 PASS, hero 95 PASS). Hero regenerated twice: pass1 35 (RG growth-arrow fail) → pass2 65 (mismatched cluster glow) → pass3 95 (uniform 8×8 grid, no glow/arrow). No integrity failure in the shipped set. Applied hero ALT fix (jar singular + 8×8).
