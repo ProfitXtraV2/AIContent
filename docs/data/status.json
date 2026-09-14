@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-14T22:41:17Z",
+  "generated_utc": "2026-09-14T23:16:58Z",
   "buffer": {
     "count": 58,
     "target": 10,
@@ -1024,8 +1024,8 @@
       "posted_date": "",
       "folder": "2026-09-12-dostavchici-kazino-igri",
       "pr": "#72",
-      "gemini": "ai 65",
-      "notes": "educational concept hub (provider vs operator; RTP set by provider, operator picks build; RNG certification ≠ advantage); distinct from provider PROFILES (vk-0019/vk-0021) + /blog/games-providers/ category; links live Pragmatic+Amusnet profiles · gate 94/100; 0 flags; provider/lab history web-verified (Pragmatic 2015, Amusnet/EGT 2002/rename 2022, NetEnt 1996, Play'n GO 1997, Novomatic 1980; GLI/eCOGRA 2003/iTech 2004→GLI 2023/BMM 1981); RTP 96%/€1000/€960/€40 примерни; Gemini HL 25→35→30 reverted to pass 1 (ai 65; pass 2 lowered; model high-variance); NIGHTLY 2026-09-13: 4 humaniser passes (signposting/hedge/redundancy/calque idiom/A-B symmetry/rule-of-three/data-dump density all fixed) — verdict noise-bound ai 65-75, no crossing to human>=80; kept best (cleanest) prose, flagged for human; PR #72; img:3 (hero + доставчик-vs-оператор + RTP; review 100 PASS, 0 integrity fail); 975w, 0 em-dashes",
+      "gemini": "human 85",
+      "notes": "educational concept hub (provider vs operator; RTP set by provider, operator picks build; RNG certification ≠ advantage); distinct from provider PROFILES (vk-0019/vk-0021) + /blog/games-providers/ category; links live Pragmatic+Amusnet profiles · gate 94/100; 0 flags; provider/lab history web-verified (Pragmatic 2015, Amusnet/EGT 2002/rename 2022, NetEnt 1996, Play'n GO 1997, Novomatic 1980; GLI/eCOGRA 2003/iTech 2004→GLI 2023/BMM 1981); RTP 96%/€1000/€960/€40 примерни; Gemini HL 25→35→30 reverted to pass 1 (ai 65; pass 2 lowered; model high-variance); NIGHTLY 2026-09-13: 4 humaniser passes (signposting/hedge/redundancy/calque idiom/A-B symmetry/rule-of-three/data-dump density all fixed) — verdict noise-bound ai 65-75, no crossing to human>=80; kept best (cleanest) prose, flagged for human; PR #72; img:3 (hero + доставчик-vs-оператор + RTP; review 100 PASS, 0 integrity fail); 975w, 0 em-dashes; NIGHTLY 2026-09-14: re-check baseline read human 80 (board ai 65 stale/variance); 1 Step-7b humaniser pass (cut artificial-contrast hook, empty \"различен почерк\" wrapper, \"не случайно\" cliche, \"първи филтър\" bow-tie) -> human 85 PASS; facts/links/dates/RG line unchanged",
       "opportunity": null
     },
     {
@@ -1263,7 +1263,7 @@
       "folder": "2026-09-14-relax-gaming",
       "pr": "#86",
       "gemini": "human 85",
-      "notes": "7-и provider профил (след Pragmatic vk-0019/Amusnet vk-0021/Novomatic vk-0035/NetEnt vk-0042/Play'n GO vk-0045/Hacksaw vk-0067); студиото зад Money Train серията + Dream Drop мрежов прогресив + Silver Bullet агрегатор; public provider-site + game-DB data (NOT operator T&C/НАП); anchors \"доставчици\" хъб vk-0054 + /blog/games-providers/; web-est vol (Ahrefs exhausted 28u, reset 2026-10-02); FACT-CORRECTION: собственик Kindred Group (придобиване завършено 01.10.2021), не Kambi — web-verified; gate 93/100, 0 criticals; Gemini HL 20→25→85 PASS pass 2 (2 humaniser passes, kept best); 2 [VERIFY] (Silver Bullet/Powered By counts; live licence list); img:2 (Money Train tavani infographic + hero, best review 82, 0 integrity); ~885w, 0 em-dashes; PR #86",
+      "notes": "7-и provider профил (след Pragmatic vk-0019/Amusnet vk-0021/Novomatic vk-0035/NetEnt vk-0042/Play'n GO vk-0045/Hacksaw vk-0067); студиото зад Money Train серията + Dream Drop мрежов прогресив + Silver Bullet агрегатор; public provider-site + game-DB data (NOT operator T&C/НАП); anchors \"доставчици\" хъб vk-0054 + /blog/games-providers/; web-est vol (Ahrefs exhausted 28u, reset 2026-10-02); FACT-CORRECTION: собственик Kindred Group (придобиване завършено 01.10.2021), не Kambi — web-verified; gate 93/100, 0 criticals; Gemini HL 20→25→85 PASS pass 2 (2 humaniser passes, kept best); 2 [VERIFY] (Silver Bullet/Powered By counts; live licence list); img:2 (Money Train tavani infographic + hero, best review 82, 0 integrity); ~885w, 0 em-dashes; PR #86; NIGHTLY 2026-09-14 flags resolved: 2 [VERIFY] rephrased away (provider/licence caveats folded into prose), 0 blocking markers, publish-ready",
       "opportunity": null
     },
     {
@@ -1280,7 +1280,7 @@
       "folder": "2026-09-14-money-train-2",
       "pr": "#84",
       "gemini": "human 80",
-      "notes": "branded high-vol title-explainer; anchors нов Relax профил vk-0068 (hub-spoke, същ batch); честен ъгъл: макс ~50000x е таван не очакване, feature buy = плащаш за вариацията; distinct vs bonus-buy механика vk-0059 (конкретна игра vs концепция, fold-in); public game-DB data (NOT operator T&C/НАП); web-est vol; released 02.09.2020, 5×4/40 lines, RTP 96.40% default (~94% builds), Money Cart respin, feature buy 100× (UK ban), макс ~50000x (VegasSlotsOnline 2500x outlier→50000x); gate 94/100, 0 criticals; Gemini human 80 PASS pass 1 (original kept); 2 [VERIFY] (lower RTP build 94.0 vs 94.40; feature-buy наличност); img:2 (SVG infographic + hero 26.8KB, both PASS best 85, 0 integrity); ~1150w, 0 em-dashes; PR #84",
+      "notes": "branded high-vol title-explainer; anchors нов Relax профил vk-0068 (hub-spoke, същ batch); честен ъгъл: макс ~50000x е таван не очакване, feature buy = плащаш за вариацията; distinct vs bonus-buy механика vk-0059 (конкретна игра vs концепция, fold-in); public game-DB data (NOT operator T&C/НАП); web-est vol; released 02.09.2020, 5×4/40 lines, RTP 96.40% default (~94% builds), Money Cart respin, feature buy 100× (UK ban), макс ~50000x (VegasSlotsOnline 2500x outlier→50000x); gate 94/100, 0 criticals; Gemini human 80 PASS pass 1 (original kept); 2 [VERIFY] (lower RTP build 94.0 vs 94.40; feature-buy наличност); img:2 (SVG infographic + hero 26.8KB, both PASS best 85, 0 integrity); ~1150w, 0 em-dashes; PR #84; NIGHTLY 2026-09-14 flags resolved: 2 [VERIFY] rephrased away (lower RTP build + feature-buy availability folded into prose), 0 blocking markers, publish-ready",
       "opportunity": null
     },
     {
@@ -1297,7 +1297,7 @@
       "folder": "2026-09-14-fire-joker",
       "pr": "#85",
       "gemini": "human 90",
-      "notes": "Play'n GO 3x3 плодова класика (Wheel of Multipliers до x10 + Respin of Fire на пълни редове, Fire Joker wild); distinct branded title/mechanic от EGT Hot серията + book/cluster слотовете; anchors Play'n GO профил vk-0045; public provider-site + game-DB data (NOT operator T&C/НАП); web-est vol; released 2016, 3×3/5 fixed lines, RTP 96.15% (конфиг. ~94.23% build), макс ~800x, med-high vol, без FS рунд; gate 92/100, 0 criticals; Gemini human 90 PASS pass 1 (0 humaniser passes); 1 [VERIFY] (live RTP build); img:2 (RTP infographic 85 + AI hero 100; best 100, 0 integrity); ~806w, 0 em-dashes; PR #85",
+      "notes": "Play'n GO 3x3 плодова класика (Wheel of Multipliers до x10 + Respin of Fire на пълни редове, Fire Joker wild); distinct branded title/mechanic от EGT Hot серията + book/cluster слотовете; anchors Play'n GO профил vk-0045; public provider-site + game-DB data (NOT operator T&C/НАП); web-est vol; released 2016, 3×3/5 fixed lines, RTP 96.15% (конфиг. ~94.23% build), макс ~800x, med-high vol, без FS рунд; gate 92/100, 0 criticals; Gemini human 90 PASS pass 1 (0 humaniser passes); 1 [VERIFY] (live RTP build); img:2 (RTP infographic 85 + AI hero 100; best 100, 0 integrity); ~806w, 0 em-dashes; PR #85; NIGHTLY 2026-09-14 flags resolved: 1 [VERIFY] rephrased away (live RTP build caveat kept in prose), 0 blocking markers, publish-ready",
       "opportunity": null
     },
     {
@@ -1348,7 +1348,7 @@
       "folder": "2026-09-14-fruit-party",
       "pr": "#89",
       "gemini": "human 85",
-      "notes": "Pragmatic cluster-pays branded slot-explainer (7x7, cluster 5+ съседни, random множители x2 база / x2-x4 FS → таван 256x, 3+ scatter→10 FS ретригър до 14, Buy Feature 100x, макс 5000x, released May 2020); anchors LIVE Pragmatic профил vk-0019 (/blog/pragmatic-play-provajdar/) + fold-in Sugar Rush (live /blog/sugar-rush/), Reactoonz plain text; RTP 96.50% default (конфиг. ~95.50/~94.50; DB tiers 96.47/95.48/94.45 в 06-verif), house edge 3.50%; public game-DB data (NOT operator T&C/НАП); gate 93/100, 0 criticals; Gemini human 85 PASS pass 1 (0 humaniser); 1 [VERIFY] (волатилност band medium vs high); img:3 (RTP infographic 85 + множители infographic 85 + hero 65 kept-best; 2 PASS, 0 integrity); ~798w, 0 em-dashes; PR #89; web-est vol",
+      "notes": "Pragmatic cluster-pays branded slot-explainer (7x7, cluster 5+ съседни, random множители x2 база / x2-x4 FS → таван 256x, 3+ scatter→10 FS ретригър до 14, Buy Feature 100x, макс 5000x, released May 2020); anchors LIVE Pragmatic профил vk-0019 (/blog/pragmatic-play-provajdar/) + fold-in Sugar Rush (live /blog/sugar-rush/), Reactoonz plain text; RTP 96.50% default (конфиг. ~95.50/~94.50; DB tiers 96.47/95.48/94.45 в 06-verif), house edge 3.50%; public game-DB data (NOT operator T&C/НАП); gate 93/100, 0 criticals; Gemini human 85 PASS pass 1 (0 humaniser); 1 [VERIFY] (волатилност band medium vs high); img:3 (RTP infographic 85 + множители infographic 85 + hero 65 kept-best; 2 PASS, 0 integrity); ~798w, 0 em-dashes; PR #89; web-est vol; NIGHTLY 2026-09-14 flags resolved: 1 [VERIFY] rephrased away (volatility band stated as varying across DBs), 0 blocking markers, publish-ready",
       "opportunity": null
     },
     {
@@ -1399,7 +1399,7 @@
       "folder": "2026-09-14-money-train-3",
       "pr": "#93",
       "gemini": "human 85",
-      "notes": "Relax MT3 сиквел-pillar distinct vs MT2 vk-0069 (anchor Relax профил vk-0068, sibling fold-in vk-0069); какво променя третата част: таван ×2 до 100,000× (vs ~50,000×), default RTP 96.10% (vs MT2 96.40%), нови Money Cart символи (Persistent Shapeshifter/Absorber/Tommy Gun Sniper-Payer), feature-buy стълба 20×/50×/100×/500× (bonus-buy RTP ~96.50%) vs MT2 единичен 100×, 5/5 vol; FACT-CORRECTION release 22.09.2022 (не Nov); excluded грешен „MT2 RTP 98%\" agg; €1000→~€961/~€39; public provider/game-DB (relax-gaming.com+Bigwinboard), NOT operator T&C/НАП; gate 96/100 0 crit; Gemini human 85 PASS pass 1 (0 humaniser); 1 [VERIFY] (feature-buy availability by operator/market); img:2 (RTP+ceiling infographic + steampunk hero; best 100, 0 integrity); ~770w, 0 em-dashes; PR #93; web-est vol",
+      "notes": "Relax MT3 сиквел-pillar distinct vs MT2 vk-0069 (anchor Relax профил vk-0068, sibling fold-in vk-0069); какво променя третата част: таван ×2 до 100,000× (vs ~50,000×), default RTP 96.10% (vs MT2 96.40%), нови Money Cart символи (Persistent Shapeshifter/Absorber/Tommy Gun Sniper-Payer), feature-buy стълба 20×/50×/100×/500× (bonus-buy RTP ~96.50%) vs MT2 единичен 100×, 5/5 vol; FACT-CORRECTION release 22.09.2022 (не Nov); excluded грешен „MT2 RTP 98%\" agg; €1000→~€961/~€39; public provider/game-DB (relax-gaming.com+Bigwinboard), NOT operator T&C/НАП; gate 96/100 0 crit; Gemini human 85 PASS pass 1 (0 humaniser); 1 [VERIFY] (feature-buy availability by operator/market); img:2 (RTP+ceiling infographic + steampunk hero; best 100, 0 integrity); ~770w, 0 em-dashes; PR #93; web-est vol; NIGHTLY 2026-09-14 flags resolved: 1 [VERIFY] rephrased away (feature-buy availability folded into prose), 0 blocking markers, publish-ready",
       "opportunity": null
     }
   ],

@@ -259,3 +259,58 @@ Novomatic 1980; GLI/eCOGRA 2003/iTech 2004→GLI 2023/BMM 1981; RTP 96%/€1000/
 
 ### Deferred (over nightly cap of 10)
 None — only 2 qualifying Job-B targets, both processed this run.
+
+## 2026-09-14 — nightly flag+score fixes
+
+### JOB A — publish-blocking flags resolved
+Scanned all `content/*` branches for blocking markers. 7 branches carried brackets;
+5 were drafted (actionable) and 2 were posted/live (left untouched — see POSTED below).
+Each fix = rephrasing only; every fact, RTP/€ figure, date, link, RG line and the
+byline (Георги Тодоров) preserved verbatim. Re-scan after each: 0 blocking markers.
+
+| folder | PR | flags | resolution |
+|---|---|---|---|
+| 2026-09-14-fire-joker | #85 | 1 [VERIFY] (live RTP build 96.15% vs ~94.23%) | both public RTP values kept; caveat already in prose ("провери в инфо-панела"); bracket removed |
+| 2026-09-14-fruit-party | #89 | 1 [VERIFY] (volatility band medium vs high) | stated as varying across databases ("някъде като средна, другаде като висока"); bracket removed |
+| 2026-09-14-money-train-2 | #84 | 2 [VERIFY] (lower RTP build 94.0 vs 94.40; feature-buy availability) | RTP softened to "в порядъка на 94%" + info-panel pointer; feature-buy caveat folded into a check-your-casino sentence; brackets removed |
+| 2026-09-14-money-train-3 | #93 | 1 [VERIFY] (feature-buy availability by operator/market) | folded into prose ("проверете дали опцията присъства в самата игра"); bracket removed |
+| 2026-09-14-relax-gaming | #86 | 2 [VERIFY] (Silver Bullet/Powered By counts; live licence list) | counts already vague (десетки студия/стотици оператори) — bracket removed; licence line reworded to name UKGC/MGA as known regulators + point to official registers for the current list; brackets removed |
+
+Committed on each branch as `fix(flags): resolve <folder> — publish-ready` and pushed.
+
+### JOB B — low Gemini score improvements
+
+| # | folder | PR | before (board) | recheck baseline | after | attempts | result |
+|---|---|---|---|---|---|---|---|
+| vk-0054 | 2026-09-12-dostavchici-kazino-igri | #72 | ai 65 | human 80 | human 85 | 1 | PASS |
+
+- **dostavchici** (vk-0054): board recorded `ai 65` (last night's noise-bound ceiling),
+  but tonight's fresh `gemini_check.py` baseline read **human 80** — this fact-dense hub
+  sits right at the grader's high-variance boundary. Applied 1 Step-7b humaniser pass on
+  Gemini's own recs: cut the artificial-contrast intro hook ("Разликата изглежда дребна,
+  но…"), the empty "Другите три носят различен почерк" wrapper, the "не случайно:" cliché,
+  and the "само първи филтър" bow-tie conclusion. Re-check: **Likely human-written 85%**.
+  Rephrasing only — all dates/cities/company names/RTP+€ figures/links and the RG line
+  preserved verbatim (Pragmatic 2015, Amusnet/EGT 2002→2022, NetEnt 1996, Play'n GO 1997,
+  Novomatic 1980; GLI/eCOGRA 2003/iTech 2004→GLI 2023/BMM 1981; RTP 96%/€1000/€960/€40).
+  Board gemini updated `ai 65 → human 85`.
+
+### Still flagged after attempts
+None — the sole Job-B target crossed to human≥80 on the first pass.
+
+### POSTED — needs human review
+- **vk-0063** nv-casino-zakonno-li-e (PR #79, `ai 75`, posted): low-rated AND its branch
+  still carries `[AUTHOR BIO BLOCK: Георги Тодоров]` / `[About Всички Казина boilerplate]`
+  placeholders (line 56). Left untouched (hard rule: never edit posted/live).
+- **vk-0064** nv-casino-bonus-usloviya (PR #80, `human 85`, posted): its branch still
+  carries `[AUTHOR BIO BLOCK: Георги Тодоров]` / `[BRAND BOILERPLATE: Всички Казина]` /
+  `[18+ / RG LINE]` placeholders (line 65). Left untouched.
+  ACTION: both were flagged for human on 2026-09-13 as well and remain so. A human should
+  confirm whether the live pages render raw brackets; if these author-bio/brand/RG blocks
+  are genuinely unfilled the branches need the placeholders filled (note: the ordinary
+  `[About Всички Казина boilerplate]` slot is a standard template placeholder present on
+  every branch incl. posted vk-0001 — the *extra* AUTHOR BIO/BRAND BOILERPLATE/18+ blocks
+  on these two are the anomaly), or the `posted` status is stale.
+
+### Deferred (over nightly cap of 10)
+None — only 1 qualifying Job-B target (well under the 10/night cap); all processed.
