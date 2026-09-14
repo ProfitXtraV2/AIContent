@@ -5,12 +5,12 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01PKs3ErSDnRBTik6dEeXRf8",
-  "note": "daily run (recurring fire 2026-09-14): reconciled 0 in-progress; 0 open backlog; Ahrefs exhausted (28 units, reset 2026-10-02) -> web-est. Selecting 3 distinct guide pillars from research bank.",
+  "note": "daily run 2026-09-14: writing 3 guide pillars in parallel — vk-0068 Relax Gaming profile, vk-0069 Money Train 2, vk-0070 Fire Joker. Ahrefs exhausted -> web-est. Guides-only scope, public provider/game-DB data.",
   "progress": {
-    "phase": "selecting",
-    "article_index": null,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 3,
-    "article_slug": null,
+    "article_slug": "2026-09-14-relax-gaming",
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": null,
-    "stage": null
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
