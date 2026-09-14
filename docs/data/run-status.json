@@ -1,32 +1,17 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-14T07:12:48Z",
-  "run_finished_utc": "2026-09-14T07:45:31Z",
-  "articles_written": 3,
-  "prs_opened": [
-    88,
-    89,
-    90
-  ],
-  "run_url": "https://claude.ai/code/session_01MXPxwPFyLHU9zF5Yvs3axY",
-  "note": "daily run complete 2026-09-14 (recurring fire): 3 new guide pillars drafted — Push Gaming provider profile (vk-0071, PR #90, gate 93, Gemini human 85 PASS pass 1, img best 100, 0 [VERIFY]; 'Dynamic Payways' unverifiable -> excluded not fabricated), Razor Shark (vk-0072, PR #88, gate 93, Gemini HL 20->85 PASS pass 1, img best 85, 0 [VERIFY]), Fruit Party (vk-0073, PR #89, gate 93, Gemini human 85 PASS pass 1, img best 85, 1 [VERIFY] volatility band). All PASS Gemini (HL>=85); 7/7 images shippable (0 integrity fails); all facts web-sourced (Ahrefs exhausted, reset 2026-10-02). Buffer 53->56 (floor 10, no cap). 0 in-progress reconciled; 0 open backlog. Hub-spoke: Push Gaming profile + Razor Shark same batch; Fruit Party anchors live Pragmatic profile. Bank replenished +3 (Jammin' Jars, Sweet Bonanza 1000, Immortal Romance). Human owns Step 6/merge/flag-resolution.",
+  "state": "running",
+  "run_started_utc": "2026-09-14T22:11:42Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01Sf8JcyxDURsaqXRG7UqqVj",
+  "note": "daily run (recurring fire) 2026-09-14 — reconcile + select batch",
   "progress": {
-    "phase": "done",
+    "phase": "reconcile",
     "article_index": null,
     "article_total": 3,
     "article_slug": null,
-    "stages": [
-      "Synthesis",
-      "Outline",
-      "Author",
-      "Humaniser",
-      "SEO",
-      "Brand Gate",
-      "Light re-check",
-      "Images",
-      "Verification",
-      "PR"
-    ],
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
     "stage_index": null,
     "stage": null
   }
