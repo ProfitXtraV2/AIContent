@@ -12,10 +12,10 @@
 - Word count: ~1,150 tokens total (~720 body), within guide range 1,000–1,500; not padded.
 
 ## Step 7 result (Gemini)
-(see below)
+gemini-3.1-pro-preview, exit 0. „Likely human-written, 80%" → HL 80 → PASS on pass 1. Original kept (keep-best; rewrite risks dropping below the 80 threshold). 07-gemini-check-1.md saved.
 
 ## Step 8 result (images)
-(see below)
+2 images, both PASS pass 1 (score 85; gemini-3.1-pro-preview). infographic money-train-2-rtp.svg (every figure traces to 05b; no layout defect); hero money-train-2-hero.webp (steampunk-cart + volatility-graph metaphor, 26.8 KB, gemini-3-pro-image). Best 85. No integrity failures. Referenced from 05b (hero under H1, infographic after the RTP section). 08-image-review-1.md saved.
 
 ## Outcome
-(see below)
+05b final (HL 80). 06-verification assembled (2 surviving [VERIFY]; max-win conflict resolved to 50 000x per provider, VSO 2,500x logged as outlier). Ready for PR.
