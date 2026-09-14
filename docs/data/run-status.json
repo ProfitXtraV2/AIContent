@@ -5,14 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01Sf8JcyxDURsaqXRG7UqqVj",
-  "note": "daily run (recurring fire) 2026-09-14 — reconcile + select batch",
+  "note": "daily run (recurring fire) 2026-09-14 — writing 3 guides in parallel (Jammin' Jars vk-0074, Wanted Dead or a Wild vk-0075, Money Train 3 vk-0076)",
   "progress": {
-    "phase": "reconcile",
-    "article_index": null,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 3,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "article_slug": "batch (3 parallel: jammin-jars, wanted-dead-or-a-wild, money-train-3)",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
