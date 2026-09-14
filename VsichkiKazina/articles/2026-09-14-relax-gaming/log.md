@@ -13,7 +13,10 @@
 - Step 8 (images): see below.
 
 ## Step 7 result
-(pending)
+Gemini HL: initial 20 („Shows AI patterns 80%") → humaniser pass 1 → 25 („Shows AI patterns 75%") → humaniser pass 2 → 85 („Likely human-written 85%", PASS). Kept pass 2 (highest). gemini = human 85. 07-gemini-check-1/-3.md persist. Numbers/links/RG/18+/flags/dates/byline/brand untouched across all passes (re-verified via grep after each pass).
 
 ## Step 8 result
-(pending)
+images: 2 (infographic money-train-serija-tavani.svg + hero relax-gaming-hero.webp). Combined Gemini review 82/100 PASS pass 1, no integrity failure, no layout defect. Best score 82. Every infographic number traces to 05b; hero is textless flat-vector (train + volatility peak), no logos/UI/people/winning. 08-image-review-1.md persists.
+
+## Outcome
+05b final (human 85). 06-verification assembled. Ready for PR. KEY: owner corrected to Kindred Group (not Kambi, as brief guessed) — web-verified.
