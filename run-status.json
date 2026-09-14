@@ -1,16 +1,20 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-09-14T03:12:59Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-09-14T03:49:37Z",
+  "articles_written": 3,
+  "prs_opened": [
+    84,
+    85,
+    86
+  ],
   "run_url": "https://claude.ai/code/session_01PKs3ErSDnRBTik6dEeXRf8",
-  "note": "daily run 2026-09-14: writing 3 guide pillars in parallel — vk-0068 Relax Gaming profile, vk-0069 Money Train 2, vk-0070 Fire Joker. Ahrefs exhausted -> web-est. Guides-only scope, public provider/game-DB data.",
+  "note": "daily run complete 2026-09-14: 3 new guide pillars drafted — Relax Gaming profile (vk-0068, PR #86, gate 93, Gemini HL 85, img best 82, 2 [VERIFY]; owner corrected Kindred not Kambi), Money Train 2 (vk-0069, PR #84, gate 94, HL 80, img best 85, 2 [VERIFY]), Fire Joker (vk-0070, PR #85, gate 92, HL 90, img best 100, 1 [VERIFY]). All PASS Gemini (HL>=80), 6/6 images clean (0 integrity fails), all facts web-sourced (Ahrefs exhausted, reset 2026-10-02). Buffer 50->53 (floor 10, no cap). 0 in-progress reconciled; 0 open backlog. Anti-cannibal: dropped '243/1024 ways' (covered by vk-0017); bank replenished +3 (Push Gaming profile, Wanted Dead or a Wild, Money Train 3). Human owns Step 6/merge/flag-resolution.",
   "progress": {
-    "phase": "writing",
-    "article_index": 1,
+    "phase": "done",
+    "article_index": null,
     "article_total": 3,
-    "article_slug": "2026-09-14-relax-gaming",
+    "article_slug": null,
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +27,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "stage_index": null,
+    "stage": null
   }
 }

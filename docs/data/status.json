@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-14T03:10:42Z",
+  "generated_utc": "2026-09-14T03:49:22Z",
   "buffer": {
-    "count": 50,
+    "count": 53,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 44,
+    "drafted": 47,
     "approved": 6,
     "posted": 16,
     "failed": 1
@@ -1248,6 +1248,57 @@
       "gemini": "human 90",
       "notes": "нов-ген provider профил (6-и след Pragmatic/Amusnet/Novomatic/NetEnt/Play'n GO); модерни високоволатилни механики, feature buy; публична provider/game-DB data (NOT operator T&C/НАП); anchor към „доставчици\" хъб (vk-0054) + /blog/games-providers/; web-est vol; gate 92/100, 0 criticals; Gemini HL 90 PASS pass 1 (no humaniser); 0 surviving flags (Chaos Crew RTP left unstated where sources disagree); img:2 (max-win infographic + hero 11KB, review 85 PASS, 0 integrity); ~809w, 0 em-dashes; PR #81",
       "opportunity": null
+    },
+    {
+      "id": "vk-0068",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Relax Gaming: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "relax gaming, релакс гейминг, relax слотове",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-14",
+      "posted_date": "",
+      "folder": "2026-09-14-relax-gaming",
+      "pr": "#86",
+      "gemini": "human 85",
+      "notes": "7-и provider профил (след Pragmatic vk-0019/Amusnet vk-0021/Novomatic vk-0035/NetEnt vk-0042/Play'n GO vk-0045/Hacksaw vk-0067); студиото зад Money Train серията + Dream Drop мрежов прогресив + Silver Bullet агрегатор; public provider-site + game-DB data (NOT operator T&C/НАП); anchors \"доставчици\" хъб vk-0054 + /blog/games-providers/; web-est vol (Ahrefs exhausted 28u, reset 2026-10-02); FACT-CORRECTION: собственик Kindred Group (придобиване завършено 01.10.2021), не Kambi — web-verified; gate 93/100, 0 criticals; Gemini HL 20→25→85 PASS pass 2 (2 humaniser passes, kept best); 2 [VERIFY] (Silver Bullet/Powered By counts; live licence list); img:2 (Money Train tavani infographic + hero, best review 82, 0 integrity); ~885w, 0 em-dashes; PR #86",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0069",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Money Train 2 (Relax Gaming): RTP, висока волатилност и feature buy",
+      "keywords_or_terms": "money train 2, мъни трейн 2, money train rtp",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-14",
+      "posted_date": "",
+      "folder": "2026-09-14-money-train-2",
+      "pr": "#84",
+      "gemini": "human 80",
+      "notes": "branded high-vol title-explainer; anchors нов Relax профил vk-0068 (hub-spoke, същ batch); честен ъгъл: макс ~50000x е таван не очакване, feature buy = плащаш за вариацията; distinct vs bonus-buy механика vk-0059 (конкретна игра vs концепция, fold-in); public game-DB data (NOT operator T&C/НАП); web-est vol; released 02.09.2020, 5×4/40 lines, RTP 96.40% default (~94% builds), Money Cart respin, feature buy 100× (UK ban), макс ~50000x (VegasSlotsOnline 2500x outlier→50000x); gate 94/100, 0 criticals; Gemini human 80 PASS pass 1 (original kept); 2 [VERIFY] (lower RTP build 94.0 vs 94.40; feature-buy наличност); img:2 (SVG infographic + hero 26.8KB, both PASS best 85, 0 integrity); ~1150w, 0 em-dashes; PR #84",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0070",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Fire Joker: RTP и характеристики (Play'n GO класика)",
+      "keywords_or_terms": "fire joker, файър джокер",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-14",
+      "posted_date": "",
+      "folder": "2026-09-14-fire-joker",
+      "pr": "#85",
+      "gemini": "human 90",
+      "notes": "Play'n GO 3x3 плодова класика (Wheel of Multipliers до x10 + Respin of Fire на пълни редове, Fire Joker wild); distinct branded title/mechanic от EGT Hot серията + book/cluster слотовете; anchors Play'n GO профил vk-0045; public provider-site + game-DB data (NOT operator T&C/НАП); web-est vol; released 2016, 3×3/5 fixed lines, RTP 96.15% (конфиг. ~94.23% build), макс ~800x, med-high vol, без FS рунд; gate 92/100, 0 criticals; Gemini human 90 PASS pass 1 (0 humaniser passes); 1 [VERIFY] (live RTP build); img:2 (RTP infographic 85 + AI hero 100; best 100, 0 integrity); ~806w, 0 em-dashes; PR #85",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -2255,8 +2306,8 @@
       "intent": "transactional",
       "trend": "",
       "checked": "web",
-      "suggestion": "Play'n GO 3x3 плодова класика с Wheel of Multipliers + respin на пълни редове; distinct game/kw (различен провайдър от EGT Hot серията); котва към Play'n GO профил; чист pillar (няма в sitemap); RTP ~96.15% (web-verify преди писане). Web-оценка на обема",
-      "status": "candidate",
+      "suggestion": "Play'n GO 3x3 плодова класика с Wheel of Multipliers + respin на пълни редове; distinct game/kw (различен провайдър от EGT Hot серията); котва към Play'n GO профил (vk-0045); чист pillar (няма в sitemap); RTP 96.15% (конфиг. ~94.23% build), 3×3/5 fixed lines, Wheel of Multipliers до x10, макс ~800x. Web-оценка на обема → НАПИСАН vk-0070 (PR #85, gate 92, Gemini human 90 PASS pass 1, img:2 best 100, 1 [VERIFY] live RTP build)",
+      "status": "used",
       "date_researched": "2026-09-10",
       "opportunity": null
     },
@@ -2479,8 +2530,8 @@
       "intent": "informational",
       "trend": "",
       "checked": "web",
-      "suggestion": "mechanic hub — печалба при еднакви символи на съседни колони отляво надясно, без фиксирани линии; distinct vs линии vk-0017 (фиксирани пътечки), клъстъри vk-0060 (група по допир), Megaways vk-0041 (динамични ways, fold-in линк като разширение на концепцията); честен ъгъл: повече начини != по-добри шансове, RTP непроменен; чист хъб (няма в sitemap); web-оценка (Ahrefs изчерпан, reset 2026-10-02)",
-      "status": "candidate",
+      "suggestion": "mechanic hub — печалба при еднакви символи на съседни колони отляво надясно, без фиксирани линии; distinct vs линии vk-0017 (фиксирани пътечки), клъстъри vk-0060 (група по допир), Megaways vk-0041 (динамични ways, fold-in линк като разширение на концепцията); честен ъгъл: повече начини != по-добри шансове, RTP непроменен; чист хъб (няма в sitemap); web-оценка (Ahrefs изчерпан, reset 2026-10-02) · DROP (cannibalization 14.09): covered by vk-0017 „Линии на печалба\" which already explains ways-to-win 243=3⁵/1024=4⁵/Megaways 117 649=7⁶ and „повече линии/начини != по-добри шансове\" — route as fold-in section/link inside vk-0017, not a new page",
+      "status": "used",
       "date_researched": "2026-09-13",
       "opportunity": null
     },
@@ -2507,8 +2558,8 @@
       "intent": "transactional",
       "trend": "",
       "checked": "web",
-      "suggestion": "7-и provider профил (distinct от Pragmatic vk-0019/Amusnet vk-0021/Novomatic vk-0035/NetEnt vk-0042/Play'n GO vk-0045/Hacksaw vk-0067); студиото зад Money Train серията + Dream Drop мрежов прогресив + агрегатор Silver Bullet; публична provider/game-DB data (NOT operator T&C/НАП); котва към „доставчици\" хъб (vk-0054) + /blog/games-providers/; чист (няма в sitemap); web-оценка (Ahrefs 28 units, reset 2026-10-02)",
-      "status": "candidate",
+      "suggestion": "7-и provider профил (distinct от Pragmatic vk-0019/Amusnet vk-0021/Novomatic vk-0035/NetEnt vk-0042/Play'n GO vk-0045/Hacksaw vk-0067); студиото зад Money Train серията + Dream Drop мрежов прогресив + агрегатор Silver Bullet; публична provider/game-DB data (NOT operator T&C/НАП); котва към „доставчици\" хъб (vk-0054) + /blog/games-providers/; чист (няма в sitemap); собственик Kindred Group (01.10.2021), не Kambi (web-corrected); осн. 2010, HQ Malta, Dream Drop (03.2022, Mega до €10m), Money Train серия. Web-оценка (Ahrefs изчерпан, reset 2026-10-02) → НАПИСАН vk-0068 (PR #86, gate 93, Gemini HL 20→25→85 PASS pass 2, img:2 best 82, 2 [VERIFY])",
+      "status": "used",
       "date_researched": "2026-09-13",
       "opportunity": null
     },
@@ -2521,8 +2572,8 @@
       "intent": "transactional",
       "trend": "",
       "checked": "web",
-      "suggestion": "branded high-vol title-explainer; котва към Relax профил (нов кандидат); честен ъгъл: макс. печалба ~50000x е таван, не очакване; feature buy = плащаш за вариацията, не за по-добри шансове; distinct vs bonus-buy концепцията vk-0059 (конкретна игра vs механика, fold-in); RTP ~96.4% + по-ниски версии (web-verify преди писане); чист pillar; web-оценка",
-      "status": "candidate",
+      "suggestion": "branded high-vol title-explainer; котва към Relax профил (нов кандидат); честен ъгъл: макс. печалба ~50000x е таван, не очакване; feature buy = плащаш за вариацията, не за по-добри шансове; distinct vs bonus-buy концепцията vk-0059 (конкретна игра vs механика, fold-in); RTP 96.40% default (~94% builds), 5×4/40 lines, Money Cart respin, feature buy 100× (UK ban), макс ~50000x; котва към Relax профил vk-0068 (същ batch). Web-оценка → НАПИСАН vk-0069 (PR #84, gate 94, Gemini human 80 PASS pass 1, img:2 best 85, 2 [VERIFY])",
+      "status": "used",
       "date_researched": "2026-09-13",
       "opportunity": null
     },
@@ -2552,6 +2603,48 @@
       "suggestion": "provider профил — UK/Merkur студио зад Fishin' Frenzy и лицензираните Rainbow Riches/Megaways адаптации; distinct от вече покритите профили; Jackpot King мрежов прогресив; публична provider/game-DB data (NOT operator T&C/НАП); котва към „доставчици\" хъб (vk-0054); чист (няма в sitemap); web-оценка",
       "status": "candidate",
       "date_researched": "2026-09-13",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Push Gaming: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "push gaming, пуш гейминг, push gaming слотове",
+      "volume": "",
+      "kd": "",
+      "intent": "transactional",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "8-и provider профил (distinct от Pragmatic vk-0019/Amusnet vk-0021/Novomatic vk-0035/NetEnt vk-0042/Play'n GO vk-0045/Hacksaw vk-0067/Relax vk-0068); студиото зад Razor Shark/Jammin' Jars + Dynamic Payways/Mystery Stacks механики; публична provider/game-DB data (NOT operator T&C/НАП); котва към „доставчици\" хъб (vk-0054) + /blog/games-providers/; анкор-хъб за Razor Shark кандидата; чист (няма в sitemap); web-оценка (Ahrefs изчерпан, reset 2026-10-02)",
+      "status": "candidate",
+      "date_researched": "2026-09-14",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Wanted Dead or a Wild (Hacksaw Gaming): RTP и трите режима",
+      "researched_keywords": "wanted dead or a wild, hacksaw, уонтед дед",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "branded екстремно-волатилен title-explainer; котва към Hacksaw профил (vk-0067); три бонус режима (The Great Train Robbery/A Fistful of Multipliers/Dead Man's Hand), макс ~12500x, feature buy; distinct механика vs Money Train (Relax) и Chaos Crew; честен ъгъл: много висока волатилност, дълги сухи серии; RTP web-verify преди писане; чист pillar (няма в sitemap); web-оценка",
+      "status": "candidate",
+      "date_researched": "2026-09-14",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Money Train 3 (Relax Gaming): какво променя третата част",
+      "researched_keywords": "money train 3, мъни трейн 3, money train 3 rtp",
+      "volume": "",
+      "kd": "",
+      "intent": "transactional",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "branded сиквел-explainer (distinct kw от Money Train 2 vk-0069, като Sugar Rush 1000 vs Sugar Rush); по-висок таван (макс ~100000x) + разширен Money Cart; котва към Relax профил (vk-0068) + fold-in линк към vk-0069; честен ъгъл: по-висок таван != по-добри шансове, по-остра волатилност; RTP ~96.10% web-verify преди писане; чист pillar (няма в sitemap); web-оценка",
+      "status": "candidate",
+      "date_researched": "2026-09-14",
       "opportunity": null
     }
   ],
