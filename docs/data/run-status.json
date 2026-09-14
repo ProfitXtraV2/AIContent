@@ -1,16 +1,20 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-09-14T22:11:42Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-09-14T22:41:29Z",
+  "articles_written": 3,
+  "prs_opened": [
+    91,
+    92,
+    93
+  ],
   "run_url": "https://claude.ai/code/session_01Sf8JcyxDURsaqXRG7UqqVj",
-  "note": "daily run (recurring fire) 2026-09-14 — writing 3 guides in parallel (Jammin' Jars vk-0074, Wanted Dead or a Wild vk-0075, Money Train 3 vk-0076)",
+  "note": "daily run complete 2026-09-14 (recurring fire #17): 3 new distinct guide pillars drafted — Jammin' Jars (vk-0074, PR #92, gate 96, Gemini human 90 PASS pass 1, img:2 best 95, 0 [VERIFY]), Wanted Dead or a Wild (vk-0075, PR #91, gate 93, Gemini human 95 PASS pass 1, img:2 best 82, 0 [VERIFY]; FACT-CORRECTION middle mode 'Duel at Dawn'), Money Train 3 (vk-0076, PR #93, gate 96, Gemini human 85 PASS pass 1, img:2 best 100, 1 [VERIFY] feature-buy availability). All PASS Gemini (HL>=85); 6/6 images shippable (0 integrity fails); all facts web-sourced (Ahrefs exhausted, reset 2026-10-02), unverifiable figures excluded/[VERIFY], 0 fabricated. Hub-spoke: flagship game per already-profiled provider (Push vk-0071/Hacksaw vk-0067/Relax vk-0068). Buffer 55->58 (floor 10, no cap). 0 in-progress reconciled; 0 open backlog. Bank replenished +3 (Bonanza Megaways, Mega Moolah, Le Bandit). Repo runs no CI on open PRs (post-merge feed workflow only); PRs clean/mergeable. Human owns Step 6/merge/flag-resolution.",
   "progress": {
-    "phase": "writing",
-    "article_index": 1,
+    "phase": "done",
+    "article_index": null,
     "article_total": 3,
-    "article_slug": "batch (3 parallel: jammin-jars, wanted-dead-or-a-wild, money-train-3)",
+    "article_slug": null,
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +27,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "stage_index": null,
+    "stage": null
   }
 }
