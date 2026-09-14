@@ -17,7 +17,7 @@
   <text x="300" y="50" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">повечето седят около и малко над средното за модерните слотове (~96%)</text>
 
   <!-- 96% reference line: track 120..520 maps RTP 95.50..97.00; 96.00 at x = 120 + (96.00-95.50)*266.67 = 253 -->
-  <line x1="253" y1="70" x2="253" y2="250" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <line x1="253" y1="70" x2="253" y2="220" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="5,4"/>
   <text x="253" y="64" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#4b5563" text-anchor="middle">~96%</text>
 
   <!-- Row 1: Jammin' Jars 96.83% -> width = (96.83-95.50)*266.67 = 355 -->
