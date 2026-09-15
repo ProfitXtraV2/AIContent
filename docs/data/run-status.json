@@ -5,14 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01LRSJKqb2GJ2G7ZjJi6kvAa",
-  "note": "daily run 2026-09-15 (recurring fire): reconciled 0 in-progress, 0 open backlog; drawing batch of 3 from research bank",
+  "note": "daily run 2026-09-15: writing batch of 3 (Bonanza Megaways, Mega Moolah, Le Bandit)",
   "progress": {
-    "phase": "selecting",
-    "article_index": null,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 3,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "article_slug": "2026-09-15-bonanza-megaways",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
