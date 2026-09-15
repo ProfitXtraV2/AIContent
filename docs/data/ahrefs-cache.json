@@ -1,0 +1,76 @@
+{
+"bg|nv casino": {
+"fetched": "2026-09-16",
+"row": {
+"cpc": 3,
+"difficulty": 30,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "nv casino",
+"volume": 140000
+},
+"trend": "up"
+},
+"bg|nv casino вход": {
+"fetched": "2026-09-16",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "nv casino вход",
+"volume": 10
+},
+"trend": "up"
+},
+"bg|nv casino измама": {
+"fetched": "2026-09-16",
+"row": {}
+},
+"bg|nv casino мнения": {
+"fetched": "2026-09-16",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "nv casino мнения",
+"volume": 150
+},
+"trend": "flat"
+},
+"bg|nv casino не работи": {
+"fetched": "2026-09-16",
+"row": {}
+},
+"bg|nv casino промо код": {
+"fetched": "2026-09-16",
+"row": {}
+},
+"bg|nv casino теглене": {
+"fetched": "2026-09-16",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "nv casino теглене",
+"volume": 40
+},
+"trend": "up"
+},
+"bg|казина като nv casino": {
+"fetched": "2026-09-16",
+"row": {}
+}
+}
