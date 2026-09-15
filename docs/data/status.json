@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-14T23:16:58Z",
+  "generated_utc": "2026-09-15T03:16:56Z",
   "buffer": {
     "count": 58,
     "target": 10,
@@ -7,7 +7,7 @@
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
+    "in-progress": 3,
     "drafted": 53,
     "approved": 5,
     "posted": 17,
@@ -1400,6 +1400,57 @@
       "pr": "#93",
       "gemini": "human 85",
       "notes": "Relax MT3 сиквел-pillar distinct vs MT2 vk-0069 (anchor Relax профил vk-0068, sibling fold-in vk-0069); какво променя третата част: таван ×2 до 100,000× (vs ~50,000×), default RTP 96.10% (vs MT2 96.40%), нови Money Cart символи (Persistent Shapeshifter/Absorber/Tommy Gun Sniper-Payer), feature-buy стълба 20×/50×/100×/500× (bonus-buy RTP ~96.50%) vs MT2 единичен 100×, 5/5 vol; FACT-CORRECTION release 22.09.2022 (не Nov); excluded грешен „MT2 RTP 98%\" agg; €1000→~€961/~€39; public provider/game-DB (relax-gaming.com+Bigwinboard), NOT operator T&C/НАП; gate 96/100 0 crit; Gemini human 85 PASS pass 1 (0 humaniser); 1 [VERIFY] (feature-buy availability by operator/market); img:2 (RTP+ceiling infographic + steampunk hero; best 100, 0 integrity); ~770w, 0 em-dashes; PR #93; web-est vol; NIGHTLY 2026-09-14 flags resolved: 1 [VERIFY] rephrased away (feature-buy availability folded into prose), 0 blocking markers, publish-ready",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0077",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Bonanza Megaways (Big Time Gaming): RTP, 117 649 начина и неограничен множител",
+      "keywords_or_terms": "bonanza megaways, бонанза megaways, big time gaming, bonanza rtp",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-15-bonanza-megaways",
+      "pr": "",
+      "gemini": "",
+      "notes": "ОРИГИНАЛНИЯТ Megaways слот (BTG, 07.12.2016); web-est vol (Ahrefs exhausted, reset 2026-10-02)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0078",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Mega Moolah (Microgaming): как работи прогресивният джакпот",
+      "keywords_or_terms": "mega moolah, мега мулах, mega moolah джакпот, прогресивен джакпот",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-15-mega-moolah",
+      "pr": "",
+      "gemini": "",
+      "notes": "рекордъор-прогресив (Microgaming, 28.11.2006); anchor /blog/progresivni-dzhakpoti/; web-est vol",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0079",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Le Bandit (Hacksaw Gaming): RTP, cluster pays и Golden Squares",
+      "keywords_or_terms": "le bandit, ле бандит, hacksaw le bandit, le bandit rtp",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-15-le-bandit",
+      "pr": "",
+      "gemini": "",
+      "notes": "Hacksaw cluster-pays хит (24.08.2023); FACT-CORRECT: cluster pays/medium vol/парижки обир (не Wild West); anchor Hacksaw профил vk-0067; web-est vol",
       "opportunity": null
     }
   ],
