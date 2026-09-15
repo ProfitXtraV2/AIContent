@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 390" width="660" height="390" role="img" aria-label="Двата бонус режима на The Dog House Megaways: Sticky Wilds дава 7 завъртания при 3 лапи и 20 при 6 лапи, множители 1x до 3x, wild-ове по колони 2 до 5, които залепват; Raining Wilds дава 15 завъртания при 3 лапи и 30 при 6 лапи, множители 2x до 3x, които валят на всяко завъртане">
+  <title>The Dog House Megaways: Sticky Wilds срещу Raining Wilds</title>
+  <defs>
+    <linearGradient id="bgm" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="660" height="390" rx="12" ry="12" fill="url(#bgm)"/>
+  <text x="330" y="36" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="#78350f" text-anchor="middle">The Dog House Megaways: двата бонус режима</text>
+
+  <!-- Column headers -->
+  <rect x="290" y="52" width="170" height="34" rx="8" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="375" y="74" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#92400e" text-anchor="middle">Sticky Wilds</text>
+  <rect x="470" y="52" width="170" height="34" rx="8" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="555" y="74" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#1e40af" text-anchor="middle">Raining Wilds</text>
+
+  <g font-family="system-ui, -apple-system, sans-serif">
+    <!-- Row 1: 3 paws -->
+    <text x="32" y="116" font-size="13" fill="#374151" font-weight="600">При 3 лапи</text>
+    <text x="375" y="116" font-size="15" font-weight="800" fill="#b45309" text-anchor="middle">7 завъртания</text>
+    <text x="555" y="116" font-size="15" font-weight="800" fill="#1d4ed8" text-anchor="middle">15 завъртания</text>
+    <line x1="32" y1="132" x2="640" y2="132" stroke="#e5e7eb" stroke-width="1"/>
+
+    <!-- Row 2: 6 paws -->
+    <text x="32" y="162" font-size="13" fill="#374151" font-weight="600">При 6 лапи</text>
+    <text x="375" y="162" font-size="15" font-weight="800" fill="#b45309" text-anchor="middle">20 завъртания</text>
+    <text x="555" y="162" font-size="15" font-weight="800" fill="#1d4ed8" text-anchor="middle">30 завъртания</text>
+    <line x1="32" y1="178" x2="640" y2="178" stroke="#e5e7eb" stroke-width="1"/>
+
+    <!-- Row 3: multipliers -->
+    <text x="32" y="208" font-size="13" fill="#374151" font-weight="600">Множители на wild</text>
+    <text x="375" y="208" font-size="15" font-weight="800" fill="#b45309" text-anchor="middle">1x – 3x</text>
+    <text x="555" y="208" font-size="15" font-weight="800" fill="#1d4ed8" text-anchor="middle">2x – 3x</text>
+    <line x1="32" y1="224" x2="640" y2="224" stroke="#e5e7eb" stroke-width="1"/>
+
+    <!-- Row 4: behaviour -->
+    <text x="32" y="254" font-size="13" fill="#374151" font-weight="600">Как се държат wild-овете</text>
+    <text x="375" y="254" font-size="12" font-weight="700" fill="#6b7280" text-anchor="middle">залепват до края</text>
+    <text x="555" y="254" font-size="12" font-weight="700" fill="#6b7280" text-anchor="middle">валят всяко завъртане</text>
+    <line x1="32" y1="270" x2="640" y2="270" stroke="#e5e7eb" stroke-width="1"/>
+
+    <!-- Row 5: appearance -->
+    <text x="32" y="300" font-size="13" fill="#374151" font-weight="600">Поява</text>
+    <text x="375" y="300" font-size="12" font-weight="700" fill="#6b7280" text-anchor="middle">колони 2 – 5</text>
+    <text x="555" y="300" font-size="12" font-weight="700" fill="#6b7280" text-anchor="middle">случайни места</text>
+  </g>
+
+  <text x="330" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">Няколко wild множителя в една печалба се умножават: 3x · 3x = 9x.</text>
+  <text x="330" y="362" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">18+ Играйте отговорно.</text>
+</svg>
