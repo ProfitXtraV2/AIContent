@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-15T22:12:48Z",
+  "generated_utc": "2026-09-15T22:24:01Z",
   "buffer": {
-    "count": 63,
+    "count": 64,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 3,
-    "drafted": 59,
+    "in-progress": 2,
+    "drafted": 60,
     "approved": 4,
     "posted": 18,
     "failed": 1
@@ -1509,7 +1509,7 @@
     },
     {
       "id": "vk-0083",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Sweet Bonanza Xmas (Pragmatic): какво променя коледната версия",
       "keywords_or_terms": "sweet bonanza xmas, свит бонанза коледа, sweet bonanza xmas rtp",
@@ -1519,9 +1519,9 @@
       "drafted_date": "2026-09-15",
       "posted_date": "",
       "folder": "2026-09-15-sweet-bonanza-xmas",
-      "pr": "",
-      "gemini": "",
-      "notes": "seasonal-variant pillar vs base Sweet Bonanza (vk-0018 posted); distinct kw (свит бонанза коледа); Pragmatic public game-DB; angle „какво сменя коледната версия != по-добри шансове\"; Ahrefs vol 150",
+      "pr": "#100",
+      "gemini": "skipped",
+      "notes": "seasonal-variant pillar vs base Sweet Bonanza (vk-0018 posted); distinct kw (свит бонанза коледа); Pragmatic public game-DB; angle „какво сменя коледната версия != по-добри шансове\"; RTP ~96.5% configurable (source conflict 96.48/96.51 + max win 21 100/21 175 -> hedged + [VERIFY]); gate 94/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (vs-baza + rtp svg, review skipped 429, 0 integrity); 1 [VERIFY]; Ahrefs vol 150",
       "opportunity": null
     },
     {
@@ -3190,7 +3190,7 @@
       "trend": "flat",
       "checked": "ahrefs",
       "suggestion": "сезонен вариант на Sweet Bonanza (vk-0018) — distinct branded kw като SB1000 (vk-0080)/Sugar Rush 1000 (vk-0033); fold-in към базата; ъгъл „какво сменя коледната версия != по-добри шансове\"; public game-DB (NOT operator T&C/НАП); чист (няма в sitemap). Ahrefs BG vol 150, kd n/a, checked 15.09.2026",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-15",
       "opportunity": null
     },
