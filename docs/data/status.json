@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-15T03:27:27Z",
+  "generated_utc": "2026-09-15T03:38:55Z",
   "buffer": {
-    "count": 59,
+    "count": 60,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 2,
-    "drafted": 54,
+    "in-progress": 1,
+    "drafted": 55,
     "approved": 5,
     "posted": 17,
     "failed": 1
@@ -1421,19 +1421,19 @@
     },
     {
       "id": "vk-0078",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Mega Moolah (Microgaming): как работи прогресивният джакпот",
       "keywords_or_terms": "mega moolah, мега мулах, mega moolah джакпот, прогресивен джакпот",
       "volume": "",
       "kd": "",
       "source": "research",
-      "drafted_date": "",
+      "drafted_date": "2026-09-15",
       "posted_date": "",
       "folder": "2026-09-15-mega-moolah",
-      "pr": "",
-      "gemini": "",
-      "notes": "рекордъор-прогресив (Microgaming, 28.11.2006); anchor /blog/progresivni-dzhakpoti/; web-est vol",
+      "pr": "#95",
+      "gemini": "human 85",
+      "notes": "рекордъор-прогресив (Microgaming, 28.11.2006); четири нива Mini/Minor/Major/Mega (Mega сийд €1 000 000), колело 20 сектора на случаен принцип, лъв wild ×2/×3, маймуна scatter 3→15 FS ×3; честен ъгъл: базов RTP 88.12% е нисък, защото оборотът пълни пула, джакпотът е лотария (€881/€119 при €1000); рекорд €18 915 872.81 (09.2018); залог €0.01–€6.25; anchor концепт-хъб /blog/progresivni-dzhakpoti/ (конкретна игра vs концепция, distinct vs Mega Fortune vk-0066 NetEnt); public game-DB (slotcatalog+casinoreviews/thecasinomonkey), NOT operator T&C/НАП; gate 95/100 0 crit; Gemini human 85 PASS pass 1 (0 humaniser; bullet-list rec declined per brand); 0 [VERIFY]; img:2 (infographic 82 PASS + hero 68 kept keep-best, 0 integrity; hero 19.2KB); ~759w, 0 em-dashes; web-est vol (Ahrefs exhausted, reset 2026-10-02)",
       "opportunity": null
     },
     {
@@ -2866,7 +2866,7 @@
       "trend": "",
       "checked": "web",
       "suggestion": "рекордъор-прогресив (Microgaming, 2006) — 4-степенен мрежов джакпот (Mini/Minor/Major/Mega) + Jackpot Wheel; distinct branded title; котва към концепт-хъба „Прогресивни джакпоти\" (vk-0007) + Microgaming клъстер (пар с Immortal Romance кандидата → бъдещ Microgaming профил); честен ъгъл: нисък базов RTP заради пула, джакпотът е лотариен; RTP ~88.12% base web-verify преди писане; чист pillar (няма в sitemap); web-оценка",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-14",
       "opportunity": null
     },
