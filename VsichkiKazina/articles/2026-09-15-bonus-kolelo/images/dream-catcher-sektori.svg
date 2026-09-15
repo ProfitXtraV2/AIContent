@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" role="img" aria-label="Разпределение на 54-те сектора на колелото Dream Catcher: числото 1 заема 23 сектора, 2 заема 15, 5 заема 7, 10 заема 4, 20 заема 2, голямото 40 заема само 1 сектор, а множителите 2x и 7x заемат 2 сектора">
+  <title>Dream Catcher: разпределение на 54-те сектора по стойност</title>
+  <rect width="600" height="360" rx="12" ry="12" fill="#f8fafc"/>
+  <text x="300" y="32" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#1f2937" text-anchor="middle">Dream Catcher: колко сектора заема всяка стойност (от 54)</text>
+
+  <!-- scale: 16.5px per segment, bars start x=150 -->
+  <!-- 1 -> 23 -->
+  <text x="140" y="72" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151" text-anchor="end" font-weight="600">1</text>
+  <rect x="150" y="60" width="379.5" height="20" rx="4" fill="#3b82f6"/>
+  <text x="537" y="75" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#1e3a8a">23 (~42.6%)</text>
+  <!-- 2 -> 15 -->
+  <text x="140" y="104" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151" text-anchor="end" font-weight="600">2</text>
+  <rect x="150" y="92" width="247.5" height="20" rx="4" fill="#3b82f6"/>
+  <text x="405" y="107" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#1e3a8a">15 (~27.8%)</text>
+  <!-- 5 -> 7 -->
+  <text x="140" y="136" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151" text-anchor="end" font-weight="600">5</text>
+  <rect x="150" y="124" width="115.5" height="20" rx="4" fill="#60a5fa"/>
+  <text x="273" y="139" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#1e3a8a">7 (~13.0%)</text>
+  <!-- 10 -> 4 -->
+  <text x="140" y="168" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151" text-anchor="end" font-weight="600">10</text>
+  <rect x="150" y="156" width="66" height="20" rx="4" fill="#60a5fa"/>
+  <text x="224" y="171" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#1e3a8a">4 (~7.4%)</text>
+  <!-- 20 -> 2 -->
+  <text x="140" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151" text-anchor="end" font-weight="600">20</text>
+  <rect x="150" y="188" width="33" height="20" rx="4" fill="#93c5fd"/>
+  <text x="191" y="203" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#1e3a8a">2 (~3.7%)</text>
+  <!-- 40 -> 1 (highlight) -->
+  <text x="140" y="232" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#b91c1c" text-anchor="end" font-weight="700">40</text>
+  <rect x="150" y="220" width="16.5" height="20" rx="4" fill="#dc2626"/>
+  <text x="175" y="235" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#b91c1c" font-weight="700">1 (~1.9%) — голямата награда</text>
+  <!-- multipliers -> 2 -->
+  <text x="140" y="264" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151" text-anchor="end" font-weight="600">2x / 7x</text>
+  <rect x="150" y="252" width="33" height="20" rx="4" fill="#a78bfa"/>
+  <text x="191" y="267" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#5b21b6">2 множител-сектора (~3.7%)</text>
+
+  <line x1="150" y1="288" x2="550" y2="288" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="150" y="312" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#374151">Общо 54 сектора · RTP по залог: „1" ~95.69%, „40" ~92.72%, кумулативно 96.58%</text>
+  <text x="300" y="344" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">18+ Играйте отговорно · Голямата стойност стои на най-редкия сектор и връща най-малко средно</text>
+</svg>
