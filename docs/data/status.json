@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-15T22:30:13Z",
+  "generated_utc": "2026-09-15T22:30:36Z",
   "buffer": {
-    "count": 64,
+    "count": 65,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 2,
-    "drafted": 60,
+    "in-progress": 1,
+    "drafted": 61,
     "approved": 4,
     "posted": 18,
     "failed": 1
@@ -1526,7 +1526,7 @@
     },
     {
       "id": "vk-0084",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Бонус колело (wheel bonus): как колелото определя наградата",
       "keywords_or_terms": "бонус колело, колело на късмета, wheel bonus, колело за награди",
@@ -1536,9 +1536,9 @@
       "drafted_date": "2026-09-15",
       "posted_date": "",
       "folder": "2026-09-15-bonus-kolelo",
-      "pr": "",
-      "gemini": "",
-      "notes": "bonus-feature concept hub; distinct vs progresivni-dzhakpoti (pool concept) + branded wheel games (Mega Fortune vk-0066/Fire Joker vk-0070 fold-in); honest angle „секторите са претеглени, голямата награда е рядкият сектор\"; Ahrefs vol 60",
+      "pr": "#101",
+      "gemini": "skipped",
+      "notes": "bonus-feature concept hub; distinct vs progresivni-dzhakpoti (pool concept) + branded wheel games (Mega Fortune vk-0066/Fire Joker vk-0070 fold-in); honest angle „секторите са претеглени, голямата награда е рядкият сектор\"; sourced Dream Catcher example (54 сектора, 40 на 1 сектор ~1.9%, RTP по залог 95.69/92.72/96.58); gate 94/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (koncept + dream-catcher svg, review skipped 429, 0 integrity); 0 [VERIFY]; Ahrefs vol 60",
       "opportunity": null
     },
     {
@@ -2949,7 +2949,7 @@
       "trend": "flat",
       "checked": "ahrefs",
       "suggestion": "bonus-feature механик хъб — как се задейства и как секторите/теглилките определят наградата; distinct vs progresivni-dzhakpoti (концепция за пул) и branded wheel-игри (Mega Fortune/Fire Joker кандидати, fold-in); честен ъгъл: секторите са претеглени, голямата награда е рядкият сектор; чист хъб (няма в sitemap); web-оценка · Ahrefs BG vol 60 (kd n/a за BG), checked 15.09.2026",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-13",
       "opportunity": null
     },
