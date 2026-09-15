@@ -1,0 +1,12 @@
+# log — 2026-09-15-sweet-bonanza-1000
+- 00-brief: facts (askgamblers, racingpost, freeslots99, bigwinboard — public Pragmatic game data). guide/game-explainer; версията „1000", НЕ базовият Sweet Bonanza. in-scope.
+- 01-synthesis: intent (знае оригинала, иска разликите на 1000) + thesis (по-висок таван = повече волатилност, не по-добри шансове; рекламен ≠ реален RTP).
+- 01.5-outline: H1 + 8 H2 секции; без hero; две инфографики (RTP + сравнение); links /kak-ocenyavame/, /slot-igri/, /otgovorna-igra/.
+- 02-author (persona-signed, teacher lane) → 03-humaniser (махнат signposting „Ето какво значи в евро:", разбита „не A, а B" антитеза, тримнат демонстративен усилвател) → 04-seo (title 47 знака, meta 153 знака, keyword/link cover) → 05-gate (PASS 94/100, 0 CRITICAL) → 05b.
+- Number diff across stages (02/03/04/05b): IDENTICAL at every hop (verified programmatically).
+- Step 8: две ръчно-авторски inline SVG инфографики под images/, референцирани от 05b с BG ALT + italic caption. Text widths проверени по формулата (Cyrillic ≈ chars×font×0.62); без клип/overlap. Няма render tool (rsvg/convert) в средата.
+- Word count тяло: ~950 (guide цел 850–1050). Em-dashes: 0. Surviving [VERIFY]: none.
+- 07 gemini: external check SKIPPED (Gemini unavailable — HTTP 429 prepayment credits depleted); gemini column = skipped; no halt per daily-run.md.
+- 08 images: 2 hand-authored SVG infographics; AI hero SKIPPED (Gemini 429); Gemini visual review SKIPPED (429) → images kept; 0 integrity concerns (numbers trace to 05b).
+- 06 verification: 0 surviving flags; RTP recalc verified; sources logged (public game DBs).
+- Outcome: drafted → PR (content branch). Board updated on main. Human owns Step 6/merge.

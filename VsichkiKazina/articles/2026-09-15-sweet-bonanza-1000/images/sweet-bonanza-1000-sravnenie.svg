@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 336" width="600" height="336" role="img" aria-label="Сравнение Sweet Bonanza 1000 и оригиналния Sweet Bonanza: множители-бомби до 1,000x срещу 100x, максимална печалба 25,000x срещу 21,100x, RTP по подразбиране 95.52% срещу 96.48%, и двете 6×5 с pay anywhere и tumble">
+  <title>Sweet Bonanza 1000 срещу оригинала</title>
+  <defs>
+    <linearGradient id="sbcmp" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="336" rx="12" ry="12" fill="url(#sbcmp)"/>
+  <text x="300" y="36" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="#831843" text-anchor="middle">Sweet Bonanza 1000 срещу оригинала</text>
+
+  <!-- Column headers -->
+  <rect x="248" y="54" width="154" height="34" rx="8" fill="#fce7f3" stroke="#db2777" stroke-width="1.5"/>
+  <text x="325" y="76" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="700" fill="#9d174d" text-anchor="middle">Sweet Bonanza 1000</text>
+  <rect x="413" y="54" width="154" height="34" rx="8" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="490" y="76" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#5b21b6" text-anchor="middle">Оригинал</text>
+
+  <g font-family="system-ui, -apple-system, sans-serif">
+    <!-- Row 1: multiplier bomb cap -->
+    <text x="40" y="118" font-size="13" fill="#374151" font-weight="600">Множители-бомби (таван)</text>
+    <text x="325" y="118" font-size="18" font-weight="800" fill="#db2777" text-anchor="middle">1,000x</text>
+    <text x="490" y="118" font-size="18" font-weight="800" fill="#7c3aed" text-anchor="middle">100x</text>
+    <line x1="40" y1="132" x2="567" y2="132" stroke="#e5e7eb" stroke-width="1"/>
+
+    <!-- Row 2: max win -->
+    <text x="40" y="164" font-size="13" fill="#374151" font-weight="600">Максимална печалба</text>
+    <text x="325" y="164" font-size="18" font-weight="800" fill="#db2777" text-anchor="middle">25,000x</text>
+    <text x="490" y="164" font-size="18" font-weight="800" fill="#7c3aed" text-anchor="middle">21,100x</text>
+    <line x1="40" y1="178" x2="567" y2="178" stroke="#e5e7eb" stroke-width="1"/>
+
+    <!-- Row 3: RTP default -->
+    <text x="40" y="210" font-size="13" fill="#374151" font-weight="600">RTP по подразбиране</text>
+    <text x="325" y="210" font-size="18" font-weight="800" fill="#db2777" text-anchor="middle">95.52%</text>
+    <text x="490" y="210" font-size="18" font-weight="800" fill="#7c3aed" text-anchor="middle">96.48%</text>
+    <line x1="40" y1="224" x2="567" y2="224" stroke="#e5e7eb" stroke-width="1"/>
+
+    <!-- Row 4: grid/mechanic (same) -->
+    <text x="40" y="256" font-size="13" fill="#374151" font-weight="600">Поле и механика</text>
+    <text x="325" y="256" font-size="12" font-weight="700" fill="#6b7280" text-anchor="middle">6×5 · pay anywhere · tumble</text>
+    <text x="490" y="256" font-size="12" font-weight="700" fill="#6b7280" text-anchor="middle">6×5 · pay anywhere · tumble</text>
+    <line x1="40" y1="270" x2="567" y2="270" stroke="#e5e7eb" stroke-width="1"/>
+  </g>
+
+  <text x="300" y="298" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">По-висок таван значи по-рядка голяма печалба, не по-добри шансове.</text>
+  <text x="300" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">18+ Играйте отговорно.</text>
+</svg>
