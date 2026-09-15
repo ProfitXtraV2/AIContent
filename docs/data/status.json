@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-15T06:46:10Z",
+  "generated_utc": "2026-09-15T07:36:48Z",
   "buffer": {
-    "count": 60,
+    "count": 63,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 56,
+    "drafted": 59,
     "approved": 4,
     "posted": 18,
     "failed": 1
@@ -1452,6 +1452,60 @@
       "gemini": "human 90",
       "notes": "Hacksaw cluster-pays хит (24.08.2023); FACT-CORRECT vs брифа: cluster pays / средна вол. (3/5) / френски обир тема (не Wild West/collect/екстремна вол.) — web-verified bigwinboard+racingpost; 6×5 cluster 5+, Super Cascade, подпис Golden Squares (Bronze 0.2×–4×/Silver 5×–20×/Gold 25×–500×) + Rainbow trigger, FS 8/12/12, Four-Leaf Clover ×2–×10, bonus buy 3×/50×/100×/250× (операторо-зависим); RTP 96.34% default (builds 94.23/92.17/88.36; €963/€37 при €1000), макс. 10 000× (~1 към 14 млн.), залог €0.10–€100; anchor Hacksaw профил vk-0067, distinct vs Wanted Dead vk-0075; public game-DB, NOT operator T&C/НАП; gate 95/100 0 crit; Gemini human 90 PASS pass 1 (0 humaniser); 0 [VERIFY]; img:2 (infographic 100 + hero 100 PASS pass 2, 0 integrity; hero 31.8KB); ~707w, 0 em-dashes; web-est vol (Ahrefs exhausted, reset 2026-10-02)",
       "opportunity": null
+    },
+    {
+      "id": "vk-0080",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Sweet Bonanza 1000: какво променя версията 1000",
+      "keywords_or_terms": "sweet bonanza 1000, свит бонанза 1000, sweet bonanza 1000 rtp",
+      "volume": "250",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-15",
+      "posted_date": "",
+      "folder": "2026-09-15-sweet-bonanza-1000",
+      "pr": "#97",
+      "gemini": "skipped",
+      "notes": "version-explainer pillar vs base Sweet Bonanza (vk-0018 posted); distinct kw (свит бонанза 1000); Pragmatic public game-DB; angle „по-висок таван ≠ по-добри шансове\"; gate 94/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp+sravnenie svg, review skipped 429, 0 integrity); 0 [VERIFY]; Ahrefs vol 250",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0081",
+      "status": "drafted",
+      "type": "guide",
+      "query": "The Dog House Megaways: RTP, 117 649 начина и двата бонус режима",
+      "keywords_or_terms": "dog house megaways, дог хаус megaways, the dog house megaways rtp",
+      "volume": "90",
+      "kd": "72",
+      "source": "research",
+      "drafted_date": "2026-09-15",
+      "posted_date": "",
+      "folder": "2026-09-15-dog-house-megaways",
+      "pr": "#98",
+      "gemini": "skipped",
+      "notes": "Megaways-version pillar vs base The Dog House (vk-0031 posted); distinct engine (variable ways, 2 FS modes); Pragmatic public game-DB; gate 93/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp+rezhimi svg, review skipped 429, 0 integrity); 0 [VERIFY]; Ahrefs vol 90/kd 72",
+      "opportunity": {
+        "score": 16,
+        "band": "Weak"
+      }
+    },
+    {
+      "id": "vk-0082",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Extra Stars: RTP, разширяваща се звезда и Jackpot Cards",
+      "keywords_or_terms": "extra stars, екстра старс, egt extra stars",
+      "volume": "70",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-15",
+      "posted_date": "",
+      "folder": "2026-09-15-extra-stars",
+      "pr": "#99",
+      "gemini": "skipped",
+      "notes": "novel EGT/Amusnet classic-slot pillar (no existing coverage); expanding-star respin + 4-level Jackpot Cards; RTP 95.78%; max-win source-conflicted -> figure OMITTED (no fabrication); gate 95/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp+jackpot-cards svg, review skipped 429, 0 integrity); 0 [VERIFY]; Ahrefs vol 70",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -2824,8 +2878,8 @@
       "trend": "flat",
       "checked": "ahrefs",
       "suggestion": "сиквел-explainer на Sweet Bonanza (vk-0018, live /blog/sweet-bonanza/) — distinct branded kw като Sugar Rush 1000 (vk-0033)/Gates 1000 (vk-0034); по-висок таван на множителите + по-остра волатилност; fold-in линк към vk-0018; честен ъгъл: по-висок таван != по-добри шансове; RTP 96.53/94.53 (buy) web-verify преди писане; котва към Pragmatic профил (vk-0019); чист pillar (няма в sitemap); web-оценка · Ahrefs BG vol 250 (kd n/a за BG), checked 15.09.2026",
-      "status": "candidate",
-      "date_researched": "2026-09-14",
+      "status": "used",
+      "date_researched": "2026-09-15",
       "opportunity": null
     },
     {
@@ -2894,7 +2948,7 @@
       "trend": "flat",
       "checked": "ahrefs",
       "suggestion": "Pragmatic Megaways вариант на The Dog House — DISTINCT branded kw от The Dog House (vk-0031, вече написан; там изрично отделен като различен слот); Megaways + sticky wild множители + FS; котва към Pragmatic профил (vk-0019, LIVE) + fold-in към vk-0031; public game-DB (NOT operator T&C/НАП); чист (няма в sitemap). Ahrefs BG vol 90 / kd 72, checked 15.09.2026",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-15",
       "opportunity": {
         "score": 16,
@@ -2911,7 +2965,7 @@
       "trend": "flat",
       "checked": "ahrefs",
       "suggestion": "EGT/Amusnet плодова класика с добавена звезда-wild + Jackpot Cards прогресив; DISTINCT branded kw от Shining Crown/Burning Hot/Flaming Hot/40 Super Hot (всеки собствен pillar по установена практика); котва към Amusnet профил (vk-0021); public game-DB (NOT operator T&C/НАП); чист (няма в sitemap). Ahrefs BG vol 70 / kd 0 (силна възможност: нулева трудност), checked 15.09.2026",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-15",
       "opportunity": null
     },
@@ -2925,6 +2979,62 @@
       "trend": "flat",
       "checked": "ahrefs",
       "suggestion": "EGT/Amusnet 100-линиен вариант на Burning Hot + Jackpot Cards; DISTINCT branded kw от Burning Hot (vk-0027, 40-линиен) — различен слот/брой линии; котва към Amusnet профил (vk-0021); public game-DB (NOT operator T&C/НАП); чист (няма в sitemap). Ahrefs BG vol 40 / kd 0 (ниска трудност), checked 15.09.2026",
+      "status": "candidate",
+      "date_researched": "2026-09-15",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Sweet Bonanza Xmas (Pragmatic): какво променя коледната версия",
+      "researched_keywords": "sweet bonanza xmas, свит бонанза коледа",
+      "volume": "150",
+      "kd": "",
+      "intent": "transactional",
+      "trend": "flat",
+      "checked": "ahrefs",
+      "suggestion": "сезонен вариант на Sweet Bonanza (vk-0018) — distinct branded kw като SB1000 (vk-0080)/Sugar Rush 1000 (vk-0033); fold-in към базата; ъгъл „какво сменя коледната версия != по-добри шансове\"; public game-DB (NOT operator T&C/НАП); чист (няма в sitemap). Ahrefs BG vol 150, kd n/a, checked 15.09.2026",
+      "status": "candidate",
+      "date_researched": "2026-09-15",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Zeus vs Hades (Pragmatic): RTP, God Mode и как се играе",
+      "researched_keywords": "zeus vs hades, зевс срещу хадес",
+      "volume": "30",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "ahrefs",
+      "suggestion": "самостоятелен Pragmatic слот, непокрит; котва към Pragmatic профил (vk-0019); public game-DB; чист. Ahrefs BG vol 30, kd n/a, checked 15.09.2026",
+      "status": "candidate",
+      "date_researched": "2026-09-15",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Big Bass Bonanza Megaways (Reel Kingdom/Pragmatic): какво добавя Megaways",
+      "researched_keywords": "big bass bonanza megaways, биг бас megaways",
+      "volume": "20",
+      "kd": "",
+      "intent": "transactional",
+      "trend": "flat",
+      "checked": "ahrefs",
+      "suggestion": "Megaways вариант на Big Bass Bonanza (vk-0028) — distinct engine/kw; fold-in към базата; public game-DB; чист. Ahrefs BG vol 20, kd n/a, checked 15.09.2026",
+      "status": "candidate",
+      "date_researched": "2026-09-15",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Money Train 4 (Relax Gaming): какво променя четвъртата част",
+      "researched_keywords": "money train 4, мъни трейн 4",
+      "volume": "10",
+      "kd": "",
+      "intent": "transactional",
+      "trend": "flat",
+      "checked": "ahrefs",
+      "suggestion": "сиквел на Money Train 3 (vk-0076) — distinct kw; fold-in към vk-0076; public game-DB; чист. Ahrefs BG vol 10, kd n/a, checked 15.09.2026",
       "status": "candidate",
       "date_researched": "2026-09-15",
       "opportunity": null
