@@ -8,6 +8,62 @@ Facts, numbers, licence/RTP/tax figures, dates, byline (Георги Тодор�
 
 ---
 
+## 2026-09-15
+
+### JOB A — publish-blocking flags
+Scanned every `content/*` branch's **own** `VsichkiKazina/articles/<folder>/05b-final-draft.md`
+for blocking markers (`[VERIFY]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`,
+`[AUTHOR]`, `[BRAND]`, `[EDITORIAL]`, `[уточни]`, `[провери]`). 4 branches carried a
+blocking marker; 2 are on `drafted` branches (resolved below), 2 are on `posted`
+branches (left untouched — see POSTED-needs-review). The `[About Всички Казина boilerplate]`
+token is a publisher-expanded template placeholder present on every branch (incl. posted
+vk-0001) — not a blocking marker, left untouched.
+
+- **vk-0083** sweet-bonanza-xmas (PR #100, drafted): line 31 held `` `[VERIFY]` `` on the
+  config-dependent RTP. Folded the caveat into natural prose — „Проверете точната версия,
+  както и максималната печалба (таванът е от порядъка на 21 100 пъти залога), в инфо-панела
+  на конкретното казино." RTP 96.5%, house edge 3.5%, €965/€35 split, max-win 21 100×, all
+  links and the RG line preserved verbatim. Re-scan: **0 blocking markers**. Committed +
+  pushed `fix(flags): resolve … — publish-ready`. **success**.
+- **vk-0085** 100-burning-hot (PR #102, drafted): line 23 held `` `[VERIFY]` `` on the
+  config-dependent RTP. Folded into prose — „…така че проверете точното число в инфо-панела
+  на твоето казино (някои източници цитират и по-висок процент)." RTP 95.89%, house edge
+  4.11%, €959/€41 split, all links and the RG line preserved verbatim. Re-scan:
+  **0 blocking markers**. Committed + pushed. **success**.
+
+### JOB B — low Gemini score humanised (0 targets)
+No row qualified: no `ai <n>` verdicts, and every `human <n>` row is ≥80 (lowest are
+vk-0051 and vk-0069 at exactly `human 80`, not below the <80 threshold). Nothing to
+humanise — idempotent, left untouched.
+
+### Gemini scoring UNAVAILABLE — billing blocked
+`scripts/gemini_check.py` returns **HTTP 429 RESOURCE_EXHAUSTED — "prepayment credits are
+depleted"** for every request. This is a persistent billing failure, not a transient rate
+limit; retrying does not help. Consequence: the 6 `drafted` rows still marked `gemini =
+skipped` from earlier 429s (**vk-0080** sweet-bonanza-1000, **vk-0081** dog-house-megaways,
+**vk-0082** extra-stars, **vk-0083** sweet-bonanza-xmas, **vk-0084** bonus-kolelo,
+**vk-0085** 100-burning-hot) could not be scored tonight and remain unscored. The Step-7
+human-likeness gate will stay down for all new drafts until the Gemini API credits are
+topped up at AI Studio (https://ai.studio/projects → billing). ACTION: top up credits, then
+a subsequent nightly run will score the 6 skipped rows.
+
+### POSTED — needs human review (never edited; live)
+- **vk-0063** nv-casino-zakonno-li-e (PR #79, `ai 75`, posted): branch still carries
+  `[AUTHOR BIO BLOCK: Георги Тодоров]` at line 56. Left untouched (hard rule: never edit
+  posted/live). Recurs from prior nights.
+- **vk-0064** nv-casino-bonus-usloviya (PR #80, `human 85`, posted): branch still carries
+  `[AUTHOR BIO BLOCK: Георги Тодоров] [BRAND BOILERPLATE: Всички Казина] [18+ / RG LINE]`
+  at line 65. Left untouched. Recurs from prior nights.
+  ACTION: the publisher now hard-blocks any article containing a blocking marker, so if
+  either page is ever re-published it will be blocked. A human should confirm whether the
+  live pages render raw brackets and either fill these author-bio/brand/RG blocks or confirm
+  the `posted` status is correct and the live HTML is clean.
+
+### Deferred (over nightly cap of 10)
+None — 0 Job-B targets, well under the 10/night cap.
+
+---
+
 ## 2026-09-10
 
 ### JOB A — publish-blocking flags
