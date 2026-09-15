@@ -1,32 +1,17 @@
 {
   "state": "idle",
-  "run_started_utc": "2026-09-15T07:12:00Z",
-  "run_finished_utc": "2026-09-15T07:45:00Z",
-  "articles_written": 3,
-  "prs_opened": [
-    97,
-    98,
-    99
-  ],
-  "run_url": "https://claude.ai/code/session_01STMG6mje3qnJGKy2Y3kh54",
-  "note": "daily run complete 2026-09-15 (2nd fire): 0 in-progress reconciled, 0 open backlog; 3 new distinct guide pillars drafted from research bank (highest opportunity) — Sweet Bonanza 1000 (vk-0080, PR #97, gate 94, 0 flags, img:2), The Dog House Megaways (vk-0081, PR #98, gate 93, 0 flags, img:2), Extra Stars/Amusnet-EGT (vk-0082, PR #99, gate 95, 0 flags, img:2). All 3 = version/novel pillars, distinct from bases (SB vk-0018, Dog House vk-0031); all facts public game-DB sourced, 0 fabricated; Extra Stars max-win OMITTED (source conflict x1000/x20000, no fabrication). GEMINI DOWN this run: gemini_check.py -> HTTP 429 prepayment credits depleted -> Step-7 text check + AI hero gen + image review all SKIPPED per playbook (gemini col = skipped, ship SVG infographics only, 0 halts); 6/6 SVG infographics numbers trace to 05b, 0 integrity concerns. Ahrefs ONLINE: pulled BG vol for used candidates + replenished bank +4 measured uncovered (sweet bonanza xmas 150, zeus vs hades 30, big bass bonanza megaways 20, money train 4 10); confirmed nearly all high-vol BG slot kws already covered (20/40 super hot, gates of olympus incl 1000, book of dead/ra, big bass, starlight, reactoonz, jammin jars, razor shark, fruit party, wanted dead all have pillars). Bank 7->11 candidates. Buffer 60->63 (floor 10, no cap). Repo runs no CI on open PRs (post-merge feed workflow only); content PRs are for human review, not watched. Human owns Step 6/merge/flag-resolution.",
+  "run_started_utc": "2026-09-15T07:40:00Z",
+  "run_finished_utc": "2026-09-15T07:41:00Z",
+  "articles_written": 0,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_015vG7BmhCzfSGD4jQu2VgPA",
+  "note": "backfill: nothing to do (all review-ready articles have images)",
   "progress": {
     "phase": "done",
-    "article_index": 3,
-    "article_total": 3,
+    "article_index": null,
+    "article_total": null,
     "article_slug": null,
-    "stages": [
-      "Synthesis",
-      "Outline",
-      "Author",
-      "Humaniser",
-      "SEO",
-      "Brand Gate",
-      "Light re-check",
-      "Images",
-      "Verification",
-      "PR"
-    ],
+    "stages": [],
     "stage_index": null,
     "stage": null
   }
