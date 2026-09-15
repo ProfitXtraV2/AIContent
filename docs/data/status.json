@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-15T03:52:05Z",
+  "generated_utc": "2026-09-15T06:46:10Z",
   "buffer": {
-    "count": 61,
+    "count": 60,
     "target": 10,
     "deficit": 0,
     "ok": true
@@ -9,8 +9,8 @@
   "counts": {
     "in-progress": 0,
     "drafted": 56,
-    "approved": 5,
-    "posted": 17,
+    "approved": 4,
+    "posted": 18,
     "failed": 1
   },
   "rows": [
@@ -264,7 +264,7 @@
     },
     {
       "id": "vk-0014",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Краш игри (Aviator): как работят и какъв е RTP",
       "keywords_or_terms": "aviator, краш игри, aviator стратегия, spribe",
@@ -272,7 +272,7 @@
       "kd": "60",
       "source": "research",
       "drafted_date": "2026-09-08",
-      "posted_date": "",
+      "posted_date": "2026-09-15",
       "folder": "2026-09-08-krash-igri-aviator",
       "pr": "#16",
       "gemini": "human 90",

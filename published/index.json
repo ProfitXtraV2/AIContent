@@ -1,19 +1,12 @@
 {
   "schema_version": 1,
-  "count": 5,
+  "count": 4,
   "articles": [
     {
       "slug": "kak-se-igrae-poker-kazino",
       "title": "Как се играе покер в казино: видове игри и правила",
       "date_modified": "2026-09-07",
       "content_hash": "fcbd70996e3db369b25f78c8981b147bb164c96357d83474a7bb422faac00d45",
-      "status": "approved"
-    },
-    {
-      "slug": "krash-igri-aviator",
-      "title": "Краш игри и Aviator: как работят и какъв е RTP",
-      "date_modified": "2026-09-08",
-      "content_hash": "6fcd9c5d1ee472587bf89492481ef44b086e3863cd3ebaf5dd594dbc3a1ac900",
       "status": "approved"
     },
     {
@@ -38,5 +31,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-09-15T03:52:23Z"
+  "generated_utc": "2026-09-15T06:46:11Z"
 }
