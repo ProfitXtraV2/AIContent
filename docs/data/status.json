@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-15T22:30:36Z",
+  "generated_utc": "2026-09-15T22:39:54Z",
   "buffer": {
-    "count": 65,
+    "count": 66,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 1,
-    "drafted": 61,
+    "in-progress": 0,
+    "drafted": 62,
     "approved": 4,
     "posted": 18,
     "failed": 1
@@ -1543,7 +1543,7 @@
     },
     {
       "id": "vk-0085",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "100 Burning Hot (Amusnet/EGT): RTP, характеристики и Jackpot Cards",
       "keywords_or_terms": "100 burning hot, 100 бърнинг хот, egt 100 burning hot",
@@ -1553,9 +1553,9 @@
       "drafted_date": "2026-09-15",
       "posted_date": "",
       "folder": "2026-09-15-100-burning-hot",
-      "pr": "",
-      "gemini": "",
-      "notes": "EGT/Amusnet 100-line variant vs Burning Hot (vk-0027, 40-line) — different slot/line count; anchor Amusnet profile (vk-0021); public game-DB; Ahrefs vol 40/kd 0",
+      "pr": "#102",
+      "gemini": "skipped",
+      "notes": "EGT/Amusnet 100-line variant vs Burning Hot (vk-0027, 5-line, low vol) — different slot/line count; 5x4, RTP 95.89% official (source conflict 96.45 -> [VERIFY]); Clover wild + $/star scatters; Jackpot Cards 4-level mystery; anchor Amusnet profile (vk-0021); public game-DB; gate 94/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (vs-baza + rtp svg, review skipped 429, 0 integrity); 1 [VERIFY]; Ahrefs vol 40/kd 0",
       "opportunity": {
         "score": 42,
         "band": "Moderate"
@@ -1630,7 +1630,7 @@
       "checked": "ahrefs",
       "ahrefs_note": "'nv casino мнения' 150/мес (flat); 'отзиви' и 'нв казино мнения' без данни. Главното 'nv casino' е 140K/мес kd30 ↑ — trust клъстерът носи от branded деманда. Добър избор",
       "status": "open",
-      "notes": "branded trust query; SERP е само собствени промо-огледала на NV + 1 форумна тема (kasinoguru) + parasite page на union-ivkoni.bg; източник за оплаквания: форума — бавна верификация, лимити на теглене",
+      "notes": "branded trust query; SERP е само собствени промо-огледала на NV + 1 форумна тема (kasinoguru) + parasite page на union-ivkoni.bg; източник за оплаквания: форума — бавна верификация, лимити на теглене · blocked: operator source pack / BG route needed (NV Casino T&C + complaints geo-blocked 403; guides-only scope) — revisit when operator sourcing solved.",
       "opportunity": null
     },
     {
@@ -1644,7 +1644,7 @@
       "checked": "ahrefs",
       "ahrefs_note": "'nv casino теглене' 40/мес ↑; 'изплаща ли' без данни. Нисък директен обем, но pain-point интентът конвертира и расте с бранда (140K ↑)",
       "status": "open",
-      "notes": "pain-point интент №1 за офшорни казина; ъгъл: 96ч верификация, скрити max-win лимити, без НАП лиценз няма правна защита → лицензирана алтернатива",
+      "notes": "pain-point интент №1 за офшорни казина; ъгъл: 96ч верификация, скрити max-win лимити, без НАП лиценз няма правна защита → лицензирана алтернатива · blocked: operator source pack / BG route needed (NV Casino T&C + complaints geo-blocked 403; guides-only scope) — revisit when operator sourcing solved.",
       "opportunity": null
     },
     {
@@ -1658,7 +1658,7 @@
       "checked": "ahrefs",
       "ahrefs_note": "'nv casino измама' без данни, 'scam' ~0. Без измерим обем — стойността е конверсионна (fear → лицензирана алтернатива), не трафик",
       "status": "open",
-      "notes": "отделен fear-driven интент от 'законно ли е' (PR #79); фактологичен тон, Curaçao лиценз ≠ защита в БГ; конвертира силно",
+      "notes": "отделен fear-driven интент от 'законно ли е' (PR #79); фактологичен тон, Curaçao лиценз ≠ защита в БГ; конвертира силно · blocked: operator source pack / BG route needed (NV Casino T&C + complaints geo-blocked 403; guides-only scope) — revisit when operator sourcing solved.",
       "opportunity": null
     },
     {
@@ -1672,7 +1672,7 @@
       "checked": "ahrefs",
       "ahrefs_note": "'nv casino вход' 10/мес ↑; 'не работи'/'огледален сайт' без данни сега — спайква при НАП блокировка на домейна. Навигационен interception, дръж готова",
       "status": "open",
-      "notes": "navigational interception при НАП блокировка; ВАЖНО compliance: НЕ линквай и НЕ посочвай огледални домейни — само обясни механизма на блокиране и рисковете",
+      "notes": "navigational interception при НАП блокировка; ВАЖНО compliance: НЕ линквай и НЕ посочвай огледални домейни — само обясни механизма на блокиране и рисковете · blocked: operator source pack / BG route needed (NV Casino T&C + complaints geo-blocked 403; guides-only scope) — revisit when operator sourcing solved.",
       "opportunity": null
     },
     {
@@ -1686,7 +1686,7 @@
       "checked": "ahrefs",
       "ahrefs_note": "'промо код'/'бонус код' без данни в BG — рано е; branded код-заявките растат с бранда (nv casino 140K ↑)",
       "status": "open",
-      "notes": "code-hunting интент, отделен от бонус-условията (PR #80); вътрешни линкове към двете съществуващи NV статии",
+      "notes": "code-hunting интент, отделен от бонус-условията (PR #80); вътрешни линкове към двете съществуващи NV статии · blocked: operator source pack / BG route needed (NV Casino T&C + complaints geo-blocked 403; guides-only scope) — revisit when operator sourcing solved.",
       "opportunity": null
     },
     {
@@ -1700,7 +1700,7 @@
       "checked": "ahrefs",
       "ahrefs_note": "'nv casino free spins' 200/мес kd42 ↑ (transactional); BG 'безплатни завъртания' без данни. Реален обем + търговски интент — добър избор",
       "status": "open",
-      "notes": "продължение на branded bonus клъстера; wagering математика като в PR #80",
+      "notes": "продължение на branded bonus клъстера; wagering математика като в PR #80 · blocked: operator source pack / BG route needed (NV Casino T&C + complaints geo-blocked 403; guides-only scope) — revisit when operator sourcing solved.",
       "opportunity": {
         "score": 33,
         "band": "Moderate"
@@ -1717,7 +1717,7 @@
       "checked": "ahrefs",
       "ahrefs_note": "Без измерим обем; образователна тема — стойността е E-E-A-T + вътрешен линк към danaci-pechalbi-onlajn-kazino",
       "status": "open",
-      "notes": "печалби от нелицензиран оператор се третират различно от лицензиран (чл. 13 ЗДДФЛ ъгъл); свържи със съществуващата статия danaci-pechalbi-onlajn-kazino",
+      "notes": "печалби от нелицензиран оператор се третират различно от лицензиран (чл. 13 ЗДДФЛ ъгъл); свържи със съществуващата статия danaci-pechalbi-onlajn-kazino · blocked: NV-branded; writable tax angle risks cannibalizing danaci-pechalbi-onlajn-kazino + needs NV licence-status context — revisit with a distinct non-cannibalizing angle.",
       "opportunity": null
     },
     {
@@ -1731,7 +1731,7 @@
       "checked": "ahrefs",
       "ahrefs_note": "'оплаквания'/'проблеми'/'не изплаща' без данни; consumer-help, конверсионна стойност при зрял бранд трафик",
       "status": "open",
-      "notes": "consumer-help ъгъл; честният отговор (почти нищо — Curaçao) е най-силният аргумент за лицензиран оператор; линк към /zhalbi/",
+      "notes": "consumer-help ъгъл; честният отговор (почти нищо — Curaçao) е най-силният аргумент за лицензиран оператор; линк към /zhalbi/ · blocked: operator source pack / BG route needed (NV Casino T&C + complaints geo-blocked 403; guides-only scope) — revisit when operator sourcing solved.",
       "opportunity": null
     },
     {
@@ -1745,7 +1745,7 @@
       "checked": "ahrefs",
       "ahrefs_note": "'vs betano' без данни още; brand-vs-brand заявките се появяват след ръст на бранда — изпревари ги",
       "status": "open",
-      "notes": "brand-vs-brand; сравнение по защита, данъци, гаранции за теглене; Betano е партньор №1 в класацията",
+      "notes": "brand-vs-brand; сравнение по защита, данъци, гаранции за теглене; Betano е партньор №1 в класацията · blocked: operator source pack / BG route needed (NV Casino T&C + complaints geo-blocked 403; guides-only scope) — revisit when operator sourcing solved.",
       "opportunity": null
     },
     {
@@ -1759,7 +1759,7 @@
       "checked": "ahrefs",
       "ahrefs_note": "'казина като nv casino'/'алтернативи' без данни; мостова страница от NV трафика към топ-листата",
       "status": "open",
-      "notes": "'similar to' интент; мост от NV трафика към топ-листата; линкове към сравнителната страница",
+      "notes": "'similar to' интент; мост от NV трафика към топ-листата; линкове към сравнителната страница · blocked: operator source pack / BG route needed (NV Casino T&C + complaints geo-blocked 403; guides-only scope) — revisit when operator sourcing solved.",
       "opportunity": null
     }
   ],
@@ -3176,7 +3176,7 @@
       "trend": "flat",
       "checked": "ahrefs",
       "suggestion": "EGT/Amusnet 100-линиен вариант на Burning Hot + Jackpot Cards; DISTINCT branded kw от Burning Hot (vk-0027, 40-линиен) — различен слот/брой линии; котва към Amusnet профил (vk-0021); public game-DB (NOT operator T&C/НАП); чист (няма в sitemap). Ahrefs BG vol 40 / kd 0 (ниска трудност), checked 15.09.2026",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-15",
       "opportunity": null
     },
@@ -3235,6 +3235,51 @@
       "status": "candidate",
       "date_researched": "2026-09-15",
       "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Book of Ra Deluxe (Novomatic): RTP, разширяващ се символ и как се играе",
+      "researched_keywords": "book of ra deluxe, бук ъв ра делукс",
+      "volume": "50",
+      "kd": "",
+      "intent": "commercial",
+      "trend": "up",
+      "checked": "ahrefs",
+      "suggestion": "Novomatic „book\" класика — DELUXE версията (10 линии/5x3) е distinct branded kw от базовия Book of Ra (vk-0035); fold-in към vk-0035 като версия-събрат (различен слот/линии/RTP band); public game-DB (NOT operator T&C/НАП); чист (няма в sitemap). Ahrefs BG vol 50 (up тренд, commercial), kd n/a, checked 15.09.2026",
+      "status": "candidate",
+      "date_researched": "2026-09-15",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Buffalo King (Pragmatic): RTP, волатилност и как се играе",
+      "researched_keywords": "buffalo king, бъфало кинг",
+      "volume": "40",
+      "kd": "",
+      "intent": "",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "самостоятелен Pragmatic слот (4096 начина, buffalo Money бонус), непокрит — distinct branded kw; котва към Pragmatic профил (vk-0019); public game-DB; чист (няма в sitemap). Ahrefs BG vol 40 (down тренд), kd n/a, checked 15.09.2026",
+      "status": "candidate",
+      "date_researched": "2026-09-15",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Bigger Bass Bonanza (Reel Kingdom/Pragmatic): какво добавя „Bigger\" версията",
+      "researched_keywords": "bigger bass bonanza, бигър бас бонанза",
+      "volume": "30",
+      "kd": "70",
+      "intent": "commercial",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "„Bigger\" вариант в Big Bass серията — distinct branded kw/слот от Big Bass Bonanza (vk-0028)/Splash (vk-0038)/Megaways (кандидат); fold-in към базата; public game-DB; чист. Ahrefs BG vol 30/kd 70 (down тренд, commercial), checked 15.09.2026",
+      "status": "candidate",
+      "date_researched": "2026-09-15",
+      "opportunity": {
+        "score": 14,
+        "band": "Weak"
+      }
     }
   ],
   "articles_base_url": "https://github.com/ProfitXtraV2/AIContent/tree/main/VsichkiKazina/articles/",

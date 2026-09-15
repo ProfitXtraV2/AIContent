@@ -1,4 +1,51 @@
 {
+"bg|bigger bass bonanza": {
+"fetched": "2026-09-15",
+"row": {
+"cpc": 60,
+"difficulty": 70,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "bigger bass bonanza",
+"volume": 30
+},
+"trend": "down"
+},
+"bg|book of ra deluxe": {
+"fetched": "2026-09-15",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "book of ra deluxe",
+"volume": 50
+},
+"trend": "up"
+},
+"bg|buffalo king": {
+"fetched": "2026-09-15",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "buffalo king",
+"volume": 40
+},
+"trend": "down"
+},
 "bg|nv casino": {
 "fetched": "2026-09-16",
 "row": {
