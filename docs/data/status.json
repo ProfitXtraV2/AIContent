@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-15T03:16:56Z",
+  "generated_utc": "2026-09-15T03:27:27Z",
   "buffer": {
-    "count": 58,
+    "count": 59,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 3,
-    "drafted": 53,
+    "in-progress": 2,
+    "drafted": 54,
     "approved": 5,
     "posted": 17,
     "failed": 1
@@ -1404,19 +1404,19 @@
     },
     {
       "id": "vk-0077",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Bonanza Megaways (Big Time Gaming): RTP, 117 649 начина и неограничен множител",
       "keywords_or_terms": "bonanza megaways, бонанза megaways, big time gaming, bonanza rtp",
       "volume": "",
       "kd": "",
       "source": "research",
-      "drafted_date": "",
+      "drafted_date": "2026-09-15",
       "posted_date": "",
       "folder": "2026-09-15-bonanza-megaways",
-      "pr": "",
-      "gemini": "",
-      "notes": "ОРИГИНАЛНИЯТ Megaways слот (BTG, 07.12.2016); web-est vol (Ahrefs exhausted, reset 2026-10-02)",
+      "pr": "#94",
+      "gemini": "human 90",
+      "notes": "ОРИГИНАЛНИЯТ Megaways слот (BTG, 07.12.2016) — направи механиката масова; 6 барабана 2–7 симв.+горна лента, до 117 649 начина (7⁶); Reactions каскади; FS 4+ GOLD→12 (+5/extra); неограничен множител (+1/каскада, без таван) само в бонуса; RTP 96.00% (домашно предимство 4.00%, €960/€40 при €1000), висока вол., макс. 26 000×, залог €0.20–€20; public game-DB (aboutslots+WSN/gmblrs/slotsmate), NOT operator T&C/НАП; anchor Megaways хъб /blog/megaways-kak-rabotyat/; gate 95/100 0 crit; Gemini human 90 PASS pass 1 (0 humaniser); 0 [VERIFY]; img:2 (RTP infographic + hero 28.2KB; review 82 PASS, 0 integrity); ~702w, 0 em-dashes; web-est vol (Ahrefs exhausted, reset 2026-10-02)",
       "opportunity": null
     },
     {
@@ -2852,7 +2852,7 @@
       "trend": "",
       "checked": "web",
       "suggestion": "ОРИГИНАЛНИЯТ Megaways слот (BTG, 2016) — до 117 649 начина, tumble/каскади, unlimited множител в FS; distinct branded title, въвежда BTG като провайдър; fold-in към Megaways-математиката в „Линии на печалба\" vk-0017 (117 649=7⁶) — не дублира концепцията, а branded игра; RTP ~96.0% web-verify преди писане; чист pillar (няма в sitemap); web-оценка (Ahrefs изчерпан, reset 2026-10-02)",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-14",
       "opportunity": null
     },

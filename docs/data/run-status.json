@@ -3,14 +3,16 @@
   "run_started_utc": "2026-09-15T03:11:25Z",
   "run_finished_utc": null,
   "articles_written": null,
-  "prs_opened": [],
+  "prs_opened": [
+    94
+  ],
   "run_url": "https://claude.ai/code/session_01LRSJKqb2GJ2G7ZjJi6kvAa",
   "note": "daily run 2026-09-15: writing batch of 3 (Bonanza Megaways, Mega Moolah, Le Bandit)",
   "progress": {
     "phase": "writing",
-    "article_index": 1,
+    "article_index": 2,
     "article_total": 3,
-    "article_slug": "2026-09-15-bonanza-megaways",
+    "article_slug": "2026-09-15-mega-moolah",
     "stages": [
       "Synthesis",
       "Outline",
