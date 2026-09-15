@@ -17,6 +17,50 @@
 },
 "trend": "up"
 },
+"bg|nv casino free spins": {
+"fetched": "2026-09-16",
+"row": {
+"cpc": null,
+"difficulty": 42,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "nv casino free spins",
+"volume": 200
+},
+"trend": "up"
+},
+"bg|nv casino scam": {
+"fetched": "2026-09-16",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "nv casino scam",
+"volume": 0
+}
+},
+"bg|nv casino vs betano": {
+"fetched": "2026-09-16",
+"row": {}
+},
+"bg|nv casino алтернативи": {
+"fetched": "2026-09-16",
+"row": {}
+},
+"bg|nv casino безплатни завъртания": {
+"fetched": "2026-09-16",
+"row": {}
+},
+"bg|nv casino бонус код": {
+"fetched": "2026-09-16",
+"row": {}
+},
 "bg|nv casino вход": {
 "fetched": "2026-09-16",
 "row": {
@@ -28,7 +72,19 @@
 },
 "trend": "up"
 },
+"bg|nv casino данък": {
+"fetched": "2026-09-16",
+"row": {}
+},
 "bg|nv casino измама": {
+"fetched": "2026-09-16",
+"row": {}
+},
+"bg|nv casino изплаща ли": {
+"fetched": "2026-09-16",
+"row": {}
+},
+"bg|nv casino или betano": {
 "fetched": "2026-09-16",
 "row": {}
 },
@@ -50,7 +106,27 @@
 },
 "trend": "flat"
 },
+"bg|nv casino не изплаща": {
+"fetched": "2026-09-16",
+"row": {}
+},
 "bg|nv casino не работи": {
+"fetched": "2026-09-16",
+"row": {}
+},
+"bg|nv casino огледален сайт": {
+"fetched": "2026-09-16",
+"row": {}
+},
+"bg|nv casino оплаквания": {
+"fetched": "2026-09-16",
+"row": {}
+},
+"bg|nv casino отзиви": {
+"fetched": "2026-09-16",
+"row": {}
+},
+"bg|nv casino проблеми": {
 "fetched": "2026-09-16",
 "row": {}
 },
@@ -69,7 +145,15 @@
 },
 "trend": "up"
 },
+"bg|данък печалба нелицензирано казино": {
+"fetched": "2026-09-16",
+"row": {}
+},
 "bg|казина като nv casino": {
+"fetched": "2026-09-16",
+"row": {}
+},
+"bg|нв казино мнения": {
 "fetched": "2026-09-16",
 "row": {}
 }
