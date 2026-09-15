@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-15T21:41:58Z",
+  "generated_utc": "2026-09-15T22:12:48Z",
   "buffer": {
     "count": 63,
     "target": 10,
@@ -7,7 +7,7 @@
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
+    "in-progress": 3,
     "drafted": 59,
     "approved": 4,
     "posted": 18,
@@ -1506,6 +1506,60 @@
       "gemini": "skipped",
       "notes": "novel EGT/Amusnet classic-slot pillar (no existing coverage); expanding-star respin + 4-level Jackpot Cards; RTP 95.78%; max-win source-conflicted -> figure OMITTED (no fabrication); gate 95/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp+jackpot-cards svg, review skipped 429, 0 integrity); 0 [VERIFY]; Ahrefs vol 70",
       "opportunity": null
+    },
+    {
+      "id": "vk-0083",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Sweet Bonanza Xmas (Pragmatic): какво променя коледната версия",
+      "keywords_or_terms": "sweet bonanza xmas, свит бонанза коледа, sweet bonanza xmas rtp",
+      "volume": "150",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-15",
+      "posted_date": "",
+      "folder": "2026-09-15-sweet-bonanza-xmas",
+      "pr": "",
+      "gemini": "",
+      "notes": "seasonal-variant pillar vs base Sweet Bonanza (vk-0018 posted); distinct kw (свит бонанза коледа); Pragmatic public game-DB; angle „какво сменя коледната версия != по-добри шансове\"; Ahrefs vol 150",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0084",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Бонус колело (wheel bonus): как колелото определя наградата",
+      "keywords_or_terms": "бонус колело, колело на късмета, wheel bonus, колело за награди",
+      "volume": "60",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-15",
+      "posted_date": "",
+      "folder": "2026-09-15-bonus-kolelo",
+      "pr": "",
+      "gemini": "",
+      "notes": "bonus-feature concept hub; distinct vs progresivni-dzhakpoti (pool concept) + branded wheel games (Mega Fortune vk-0066/Fire Joker vk-0070 fold-in); honest angle „секторите са претеглени, голямата награда е рядкият сектор\"; Ahrefs vol 60",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0085",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "100 Burning Hot (Amusnet/EGT): RTP, характеристики и Jackpot Cards",
+      "keywords_or_terms": "100 burning hot, 100 бърнинг хот, egt 100 burning hot",
+      "volume": "40",
+      "kd": "0",
+      "source": "research",
+      "drafted_date": "2026-09-15",
+      "posted_date": "",
+      "folder": "2026-09-15-100-burning-hot",
+      "pr": "",
+      "gemini": "",
+      "notes": "EGT/Amusnet 100-line variant vs Burning Hot (vk-0027, 40-line) — different slot/line count; anchor Amusnet profile (vk-0021); public game-DB; Ahrefs vol 40/kd 0",
+      "opportunity": {
+        "score": 42,
+        "band": "Moderate"
+      }
     }
   ],
   "backlog": [

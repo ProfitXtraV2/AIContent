@@ -1,17 +1,13 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-14T03:12:59Z",
-  "run_finished_utc": "2026-09-14T03:49:37Z",
-  "articles_written": 3,
-  "prs_opened": [
-    84,
-    85,
-    86
-  ],
-  "run_url": "https://claude.ai/code/session_01PKs3ErSDnRBTik6dEeXRf8",
-  "note": "backfill: nothing to do (all review-ready articles have images) — 2026-09-14T07:46Z: checked all 55 drafted/approved articles; every queue row carries img:N notes and every content branch has an images/ folder. Backfill queue is fully drained.",
+  "state": "running",
+  "run_started_utc": "2026-09-15T22:12:19Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01R4eqsGSTv22eZTG6r9XqwM",
+  "note": "daily run 2026-09-15 (3rd fire): writing 3 guides",
   "progress": {
-    "phase": "done",
+    "phase": "selecting",
     "article_index": null,
     "article_total": 3,
     "article_slug": null,

@@ -1,17 +1,28 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-15T19:01:00Z",
-  "run_finished_utc": "2026-09-15T19:01:00Z",
-  "articles_written": 0,
+  "state": "running",
+  "run_started_utc": "2026-09-15T22:12:19Z",
+  "run_finished_utc": null,
+  "articles_written": null,
   "prs_opened": [],
-  "run_url": "https://claude.ai/code/session_01CU4XzSvekkEf5eX1Apgvo9",
-  "note": "backfill: nothing to do (all review-ready articles have images)",
+  "run_url": "https://claude.ai/code/session_01R4eqsGSTv22eZTG6r9XqwM",
+  "note": "daily run 2026-09-15 (3rd fire): writing 3 guides",
   "progress": {
-    "phase": "done",
+    "phase": "selecting",
     "article_index": null,
-    "article_total": null,
+    "article_total": 3,
     "article_slug": null,
-    "stages": [],
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
     "stage_index": null,
     "stage": null
   }
