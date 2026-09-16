@@ -1,7 +1,7 @@
 {
   "state": "idle",
-  "run_started_utc": "2026-09-16T07:14:10Z",
-  "run_finished_utc": "2026-09-16T07:37:34Z",
+  "run_started_utc": "2026-09-16T15:09:13Z",
+  "run_finished_utc": "2026-09-16T15:09:13Z",
   "articles_written": 3,
   "prs_opened": [
     106,
@@ -9,7 +9,7 @@
     108
   ],
   "run_url": "https://claude.ai/code/session_01Fq9uiS8fRwW9YoHBqjKcNx",
-  "note": "daily run 2026-09-16 (later fire): 3 guides drafted — Fire in the Hole xBomb/Nolimit City (vk-0089 #106), Legacy of Dead/Play'n GO (vk-0090 #107), Aztec Gems/Pragmatic (vk-0091 #108). Gemini STILL 429 (credits depleted) -> Step-7 + image gen/review SKIPPED per daily-run; each ships 2 hand-authored SVG infographics, 0 integrity issues. Flags: Fire-in-the-Hole 3 [VERIFY], Aztec 1, Legacy 0. Fire-in-the-Hole xWays angle dropped (verified absent, not fabricated). Ahrefs online: bank replenished +3 (Eye of Horus 200/kd38, Juicy Fruits 100/kd36, Big Bamboo 30/kd14), 18 zero-vol probes skipped. 10 NV-Casino backlog rows stay blocked (guides-only scope). RECOMMEND re-running Gemini on vk-0086..0091 once credits reset.",
+  "note": "backfill: nothing to do (all review-ready articles have images) — 71 drafted/approved rows checked, all carry img: in notes",
   "progress": {
     "phase": "done",
     "article_index": 3,
