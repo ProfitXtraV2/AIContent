@@ -8,3 +8,12 @@
 - 04-seo.md: added title tag (45 chars) and meta description (158 chars); inserted "бук оф ра делукс" secondary term naturally in the opening line; confirmed "book of ra deluxe rtp", "book of ra deluxe разлика" and "разширяващ се символ" coverage without stuffing; confirmed 3 internal links from the approved set, all present and correctly targeted.
 - 05-gate-report.md: brand-gate self-check, 93/100, PASS, zero criticals; verified byline, brand spelling, RG verbatim line, affiliate disclosure, currency/date format, no fabricated operator facts, [VERIFY] max-win flag preserved, no release year stated.
 - 05b-final-draft.md: humaniser-light pass applied — the one remaining em-dash removed (0 em-dashes at publish per step-5b rule); title tag + meta description lines added on top per the dog-house reference format; footer block reproduced exactly (byline, dates 16.09.2026, About placeholder, verbatim RG paragraph, verbatim affiliate-licensing paragraph). No images or image placeholders inserted, as instructed. Final body ~1,061 words.
+
+## Step 7 — external Gemini check
+external check: skipped (Gemini unavailable) — HTTP 429 RESOURCE_EXHAUSTED (credits depleted). 05b stands; gemini=skipped.
+
+## Step 8 — images
+images: 2 SVG infographics (rtp, bonus-flow), hand-authored, numbers verbatim from 05b. Gemini image review skipped (unavailable). No AI hero (gen would 429). Rendered + eyeballed: no overlap/clipping.
+
+## Step 6 — verification
+1 surviving [VERIFY] flag (max-win taван, sources differ). €1000×95,10%=€951/€49 recalculated OK. Brand gate 93/100 PASS 0 crit.
