@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-16T03:10:14Z",
+  "generated_utc": "2026-09-16T03:34:21Z",
   "buffer": {
-    "count": 66,
+    "count": 67,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
-    "drafted": 62,
+    "in-progress": 2,
+    "drafted": 63,
     "approved": 4,
     "posted": 18,
     "failed": 1
@@ -1560,6 +1560,57 @@
         "score": 42,
         "band": "Moderate"
       }
+    },
+    {
+      "id": "vk-0086",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Book of Ra Deluxe (Novomatic): RTP, разширяващ се символ и как се играе",
+      "keywords_or_terms": "book of ra deluxe, бук оф ра делукс, book of ra deluxe rtp",
+      "volume": "50",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-16",
+      "posted_date": "",
+      "folder": "2026-09-16-book-of-ra-deluxe",
+      "pr": "#103",
+      "gemini": "skipped",
+      "notes": "Novomatic/Greentube; deluxe-версия pillar vs base Book of Ra (vk-0035); 5x3 до 10 линии; Book=wild+scatter; случаен разширяващ се символ = бонусът; RTP 95,10% станд./94,26% по-ниска (конфиг.); public game-DB (VSO/slotsmate), NOT operator T&C/НАП; gate 93/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp + bonus-flow SVG, review skipped 429, 0 integrity); 1 [VERIFY] (max win taван, sources differ); Ahrefs vol 50 up",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0087",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Buffalo King (Pragmatic): RTP, волатилност и как се играе",
+      "keywords_or_terms": "buffalo king, бъфало кинг, buffalo king rtp",
+      "volume": "40",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-16",
+      "posted_date": "",
+      "folder": "2026-09-16-buffalo-king",
+      "pr": "",
+      "gemini": "",
+      "notes": "selected 2026-09-16",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0088",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Zeus vs Hades — Gods of War (Pragmatic): RTP, God Mode и как се играе",
+      "keywords_or_terms": "zeus vs hades, зевс срещу хадес, gods of war",
+      "volume": "30",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-16",
+      "posted_date": "",
+      "folder": "2026-09-16-zeus-vs-hades",
+      "pr": "",
+      "gemini": "",
+      "notes": "selected 2026-09-16",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -3246,7 +3297,7 @@
       "trend": "up",
       "checked": "ahrefs",
       "suggestion": "Novomatic „book\" класика — DELUXE версията (10 линии/5x3) е distinct branded kw от базовия Book of Ra (vk-0035); fold-in към vk-0035 като версия-събрат (различен слот/линии/RTP band); public game-DB (NOT operator T&C/НАП); чист (няма в sitemap). Ahrefs BG vol 50 (up тренд, commercial), kd n/a, checked 15.09.2026",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-15",
       "opportunity": null
     },

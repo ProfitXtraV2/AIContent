@@ -3,14 +3,16 @@
   "run_started_utc": "2026-09-16T03:10:14Z",
   "run_finished_utc": null,
   "articles_written": null,
-  "prs_opened": [],
+  "prs_opened": [
+    103
+  ],
   "run_url": "https://claude.ai/code/session_014YyPqkx1QfJAQmSDB3CrHJ",
   "note": "daily run 2026-09-16",
   "progress": {
     "phase": "writing",
-    "article_index": 1,
+    "article_index": 2,
     "article_total": 3,
-    "article_slug": "2026-09-16-book-of-ra-deluxe",
+    "article_slug": "2026-09-16-buffalo-king",
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "stage_index": 9,
+    "stage": "PR"
   }
 }
