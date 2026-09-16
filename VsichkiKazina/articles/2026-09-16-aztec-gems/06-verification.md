@@ -1,7 +1,7 @@
 # 06-VERIFICATION — Всички Казина · 2026-09-16-aztec-gems
 *For the human at Step 6. FLAGS STAY IN THE TEXT — this file only helps you verify fast. Nothing here has been resolved by the autopilot.*
 
-Article: **Aztec Gems: RTP, множителят до 15x и защо „просто" не значи по-добри шансове** · type: guide (game explainer) · byline: editorial (signed Георги Тодоров) · gate: PASS 93/100, 0 critical · humanisation: applied proactively in stages 3 + 5b · external check: skipped (Gemini unavailable — 429 credits depleted) · images: pending (Step 8) · run date: 16.09.2026
+Article: **Aztec Gems: RTP, множителят до 15x и защо „просто" не значи по-добри шансове** · type: guide (game explainer) · byline: editorial (signed Георги Тодоров) · gate: PASS 93/100, 0 critical · humanisation: applied proactively in stages 3 + 5b · external check: skipped (Gemini unavailable — 429 credits depleted) · images: 2 (SVG infographics; Gemini review skipped — 429) · run date: 16.09.2026
 
 ## Surviving flags
 **1 in-text [VERIFY].**
@@ -48,7 +48,10 @@ Every € figure is ILLUSTRATIVE (no BG operator, no licence №, no bonus terms
 external check: skipped (Gemini unavailable — 429 credits depleted). Anti-AI humanisation applied PROACTIVELY at stage 3 (removed one of two „X, не Y" mic-drop closers; deleted the „точно тук" demonstrative crutch; varied rhythm) and re-checked at stage 5b (zero em-dashes, no signposting lead-ins, no banned connectives, no over-polished tables/lists). No 07-gemini-check files created.
 
 ## Images (Step 8)
-images: pending (Step 8 — added in the follow-up commit)
+images: 2 (SVG infographics; Gemini review skipped — 429)
+- `images/aztec-gems-rtp.svg` — hand-authored RTP / house-edge bar with the €1000 worked example; every figure traces to 05b (96.52% / 3.48% / €1000 / ~€965.20 / ~€34.80) + 18+/RG + "operator may load a lower RTP" note. Manually eyeballed: viewBox 0 0 600 320, no overlapping/clipped text, house bar flush right, readable.
+- `images/aztec-gems-multipliers.svg` — hand-authored multiplier-reel ladder (1x/2x/3x/5x/10x/15x, 15x highlighted as the cap → 375x); every value traces to 05b. Manually eyeballed: viewBox 0 0 600 340, bars scaled value/15, 15x caption inside its bar, footer within canvas, readable.
+- Integrity: NO operator logos/names, NO fake screenshots, NO invented numbers, NO people/faces, NO glamorised winning. Both PASS integrity.
 
 ## Anti-cannibalization note (Step-6 human check)
 No Aztec Gems page in the sitemap at write time. Clean slot-explainer pillar, distinct primary keyword (aztec gems / ацтек джемс). Distinct from the Pragmatic Play provider hub (/blog/games-providers/, linked here) and from other Pragmatic slot pillars (e.g. Sugar Rush). Distinct from /slot-igri/ and /kazino-igri/rotativki/ navigational listings. Game explainer, not an operator review → no affiliate link; no operator/licence № invented.
