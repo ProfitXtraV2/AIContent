@@ -9,3 +9,12 @@
 - Step 5 (brand gate): 05-gate-report.md — full six-pillar scorecard, 96/100, verdict PASS, 0 CRITICAL, 0 MODERATE requiring action, maths re-verified (4^6=4096, house edge 3.94%, €961/€39 split, ×15/×125/×3125 wild compositions, €5,625,000 max-win illustration), all trust/RG/disclosure elements confirmed present and verbatim.
 - Step 5b: not separately run as a distinct file — em-dash/signposting/connective/table/list checks already at zero in Steps 3–5; no additional fixes triggered.
 - Final: 05b-final-draft.md — published-format file with title tag, meta description, H1 + body (no image tags, per instruction), and the dog-house-format footer (byline, dates 16.09.2026, About boilerplate slot, verbatim RG paragraph, verbatim affiliate-disclosure paragraph incl. the 1 Aug 2026 pending-licence sentence).
+
+## Step 7 — external Gemini check
+external check: skipped (Gemini unavailable) — HTTP 429 RESOURCE_EXHAUSTED. 05b stands; gemini=skipped.
+
+## Step 8 — images
+images: 2 SVG infographics (rtp, free-spins table), numbers verbatim from 05b. Gemini image review skipped (unavailable). No AI hero (429). Rendered + eyeballed: no overlap/clipping (removed 3,94% overlay after 1st render).
+
+## Step 6 — verification
+0 surviving flags. €1000×96,06%=€961/€39; 5⁵=3125; 4⁶=4096; €60×93750=€5,625,000 all recalculated OK. Brand gate PASS 0 crit.
