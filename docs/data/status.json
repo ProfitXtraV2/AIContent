@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-16T03:34:21Z",
+  "generated_utc": "2026-09-16T03:38:25Z",
   "buffer": {
-    "count": 67,
+    "count": 68,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 2,
-    "drafted": 63,
+    "in-progress": 1,
+    "drafted": 64,
     "approved": 4,
     "posted": 18,
     "failed": 1
@@ -1580,7 +1580,7 @@
     },
     {
       "id": "vk-0087",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Buffalo King (Pragmatic): RTP, волатилност и как се играе",
       "keywords_or_terms": "buffalo king, бъфало кинг, buffalo king rtp",
@@ -1590,9 +1590,9 @@
       "drafted_date": "2026-09-16",
       "posted_date": "",
       "folder": "2026-09-16-buffalo-king",
-      "pr": "",
-      "gemini": "",
-      "notes": "selected 2026-09-16",
+      "pr": "#104",
+      "gemini": "skipped",
+      "notes": "Pragmatic base (vs Megaways, разграничено); 6x4 4096 ways; wild ×2/×3/×5 само кол.2-6, умножават до ×3125 (5⁵); FS 8/15/25/100 (3/4/5/6), ретригер до 200; RTP 96,06%/95,53%/94,55%; max win 93 750×; public game-DB (bigwinboard), NOT operator T&C/НАП; gate PASS 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp + fs-table SVG, review skipped 429, 0 integrity); 0 [VERIFY]; Ahrefs vol 40",
       "opportunity": null
     },
     {
@@ -3311,7 +3311,7 @@
       "trend": "down",
       "checked": "ahrefs",
       "suggestion": "самостоятелен Pragmatic слот (4096 начина, buffalo Money бонус), непокрит — distinct branded kw; котва към Pragmatic профил (vk-0019); public game-DB; чист (няма в sitemap). Ahrefs BG vol 40 (down тренд), kd n/a, checked 15.09.2026",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-15",
       "opportunity": null
     },
