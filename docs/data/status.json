@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-16T22:33:14Z",
+  "generated_utc": "2026-09-16T23:14:30Z",
   "buffer": {
     "count": 74,
     "target": 10,
@@ -1575,7 +1575,7 @@
       "folder": "2026-09-16-book-of-ra-deluxe",
       "pr": "#103",
       "gemini": "skipped",
-      "notes": "Novomatic/Greentube; deluxe-версия pillar vs base Book of Ra (vk-0035); 5x3 до 10 линии; Book=wild+scatter; случаен разширяващ се символ = бонусът; RTP 95,10% станд./94,26% по-ниска (конфиг.); public game-DB (VSO/slotsmate), NOT operator T&C/НАП; gate 93/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp + bonus-flow SVG, review skipped 429, 0 integrity); 1 [VERIFY] (max win taван, sources differ); Ahrefs vol 50 up",
+      "notes": "Novomatic/Greentube; deluxe-версия pillar vs base Book of Ra (vk-0035); 5x3 до 10 линии; Book=wild+scatter; случаен разширяващ се символ = бонусът; RTP 95,10% станд./94,26% по-ниска (конфиг.); public game-DB (VSO/slotsmate), NOT operator T&C/НАП; gate 93/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp + bonus-flow SVG, review skipped 429, 0 integrity); 1 [VERIFY] (max win taван, sources differ); Ahrefs vol 50 up · nightly 2026-09-16: JOB-A flags resolved — 1 [VERIFY] cleared by rephrase only (no facts invented/changed), 0 blocking markers, publish-ready; JOB-B Gemini Step-7 deferred (429 credits depleted)",
       "opportunity": null
     },
     {
@@ -1626,7 +1626,7 @@
       "folder": "2026-09-16-fire-in-the-hole",
       "pr": "#106",
       "gemini": "skipped",
-      "notes": "NEW провайдър Nolimit City (Стокхолм 2014, придобит от Evolution 01.07.2022); миньорска ротативка с xBomb +1 множител, Collapsing Mine, Lucky Wagon Spins; xWays НЕ се ползва (проверено, ъгълът махнат не измислен); RTP 96,06% (билдове 94,11%/90,02%), 6 барабана 64 до 46656 начина, max 60000x, extreme 10/10; bonus buy 60x/157x/500x; public game-DB (nolimitcity/bigwinboard/askgamblers), NOT operator T&C/НАП; gate 93/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp + xbomb SVG, review skipped 429, 0 integrity); 3 [VERIFY] (bonus freq ~1/200, по-ниски RTP билдове, max-win шанс ~1/2.4млн, single-source); Ahrefs vol 30/kd36",
+      "notes": "NEW провайдър Nolimit City (Стокхолм 2014, придобит от Evolution 01.07.2022); миньорска ротативка с xBomb +1 множител, Collapsing Mine, Lucky Wagon Spins; xWays НЕ се ползва (проверено, ъгълът махнат не измислен); RTP 96,06% (билдове 94,11%/90,02%), 6 барабана 64 до 46656 начина, max 60000x, extreme 10/10; bonus buy 60x/157x/500x; public game-DB (nolimitcity/bigwinboard/askgamblers), NOT operator T&C/НАП; gate 93/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp + xbomb SVG, review skipped 429, 0 integrity); 3 [VERIFY] (bonus freq ~1/200, по-ниски RTP билдове, max-win шанс ~1/2.4млн, single-source); Ahrefs vol 30/kd36 · nightly 2026-09-16: JOB-A flags resolved — 3 [VERIFY] cleared by rephrase only (no facts invented/changed), 0 blocking markers, publish-ready; JOB-B Gemini Step-7 deferred (429 credits depleted)",
       "opportunity": {
         "score": 27,
         "band": "Moderate"
@@ -1663,7 +1663,7 @@
       "folder": "2026-09-16-aztec-gems",
       "pr": "#108",
       "gemini": "skipped",
-      "notes": "Pragmatic Play (2018) прост 3x3 / 5 фикс. линии + отделна множителна ролка 1x/2x/3x/5x/10x/15x (нулира се всяко завъртане), без free spins/бонус; RTP 96,52% (edge 3,48%), таван 375x (топ линия x15), средна волатилност; ъгъл: просто мени темпото, не шансовете; anchor Pragmatic /blog/games-providers/; public game-DB (pragmaticplay/slotcatalog/bigwinboard), NOT operator T&C/НАП; gate 93/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp + multipliers SVG, review skipped 429, 0 integrity); 1 [VERIFY] (точни по-ниски RTP билдове на оригинала; Deluxe 95,50/94,50 умишлено не внесени); Ahrefs vol 20",
+      "notes": "Pragmatic Play (2018) прост 3x3 / 5 фикс. линии + отделна множителна ролка 1x/2x/3x/5x/10x/15x (нулира се всяко завъртане), без free spins/бонус; RTP 96,52% (edge 3,48%), таван 375x (топ линия x15), средна волатилност; ъгъл: просто мени темпото, не шансовете; anchor Pragmatic /blog/games-providers/; public game-DB (pragmaticplay/slotcatalog/bigwinboard), NOT operator T&C/НАП; gate 93/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp + multipliers SVG, review skipped 429, 0 integrity); 1 [VERIFY] (точни по-ниски RTP билдове на оригинала; Deluxe 95,50/94,50 умишлено не внесени); Ahrefs vol 20 · nightly 2026-09-16: JOB-A flags resolved — 1 [VERIFY] cleared by rephrase only (no facts invented/changed), 0 blocking markers, publish-ready; JOB-B Gemini Step-7 deferred (429 credits depleted)",
       "opportunity": null
     },
     {
@@ -1680,7 +1680,7 @@
       "folder": "2026-09-16-big-bamboo",
       "pr": "#109",
       "gemini": "skipped",
-      "notes": "Push Gaming (2022); 5×6, 50 начина; RTP 96.13% (multi-source), висока волатилност, макс. 50 000x; Golden Bamboo (Instant Prize 1x–5000x, множители до 10x); scatter reels 2/3/4; angle „спокойният дизайн лъже за риска\"; public game-DB (bigwinboard/askgamblers/slotcatalog/clashofslots/racingpost), NOT operator T&C/НАП; gate 93/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp + golden-bamboo SVG, review skipped 429, 0 integrity); 3 [VERIFY] (по-ниски RTP билдове, брой FS, bonus-buy цени); Ahrefs vol 30/kd14",
+      "notes": "Push Gaming (2022); 5×6, 50 начина; RTP 96.13% (multi-source), висока волатилност, макс. 50 000x; Golden Bamboo (Instant Prize 1x–5000x, множители до 10x); scatter reels 2/3/4; angle „спокойният дизайн лъже за риска\"; public game-DB (bigwinboard/askgamblers/slotcatalog/clashofslots/racingpost), NOT operator T&C/НАП; gate 93/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp + golden-bamboo SVG, review skipped 429, 0 integrity); 3 [VERIFY] (по-ниски RTP билдове, брой FS, bonus-buy цени); Ahrefs vol 30/kd14 · nightly 2026-09-16: JOB-A flags resolved — 3 [VERIFY] cleared by rephrase only (no facts invented/changed), 0 blocking markers, publish-ready; JOB-B Gemini Step-7 deferred (429 credits depleted)",
       "opportunity": {
         "score": 36,
         "band": "Moderate"
@@ -1700,7 +1700,7 @@
       "folder": "2026-09-16-eye-of-horus",
       "pr": "#110",
       "gemini": "skipped",
-      "notes": "ОРИГИНАЛ Eye of Horus (Reel Time Gaming engine, дистрибуция Merkur/Blueprint, 2016), разграничен от Megaways/Fortune Play; 5×3, 10 линии; RTP 96.31% (multi-source); разширяващ се Хор wild + book-style зареждащи се плочи → надграждане към Око на Хор в 12-те FS; angle „една силна book-слот идея\"; public game-DB (askgamblers/slotcatalog/racingpost/great/gamesandcasino), NOT operator T&C/НАП; gate 94/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp + free-spins SVG, review skipped 429, 0 integrity); 3 [VERIFY] (по-ниски RTP билдове, схема на ретригер, волатилност + противоречив макс. таван — макс. таван НЕ е посочен като едно число); Ahrefs vol 200/kd38",
+      "notes": "ОРИГИНАЛ Eye of Horus (Reel Time Gaming engine, дистрибуция Merkur/Blueprint, 2016), разграничен от Megaways/Fortune Play; 5×3, 10 линии; RTP 96.31% (multi-source); разширяващ се Хор wild + book-style зареждащи се плочи → надграждане към Око на Хор в 12-те FS; angle „една силна book-слот идея\"; public game-DB (askgamblers/slotcatalog/racingpost/great/gamesandcasino), NOT operator T&C/НАП; gate 94/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp + free-spins SVG, review skipped 429, 0 integrity); 3 [VERIFY] (по-ниски RTP билдове, схема на ретригер, волатилност + противоречив макс. таван — макс. таван НЕ е посочен като едно число); Ahrefs vol 200/kd38 · nightly 2026-09-16: JOB-A flags resolved — 3 [VERIFY] cleared by rephrase only (no facts invented/changed), 0 blocking markers, publish-ready; JOB-B Gemini Step-7 deferred (429 credits depleted)",
       "opportunity": {
         "score": 35,
         "band": "Moderate"
@@ -1720,7 +1720,7 @@
       "folder": "2026-09-16-juicy-fruits",
       "pr": "#111",
       "gemini": "skipped",
-      "notes": "Pragmatic Play (2021); ПОПРАВКА vs bank: НЕ е cluster pays — базова е 5×5/50 линии линийна ротативка (без клъстери/каскади); RTP 96.51% (по-ниски билдове 95.54/94.50); разширяваща се Crown wild (пълен екран ~1200x), 6 FS със събиране на диаманти (+1–3 spins + уголемяване), висока волатилност, макс. 5000x, bonus buy 100x; разграничена от Juicy Fruits Multihold; public game-DB (bigwinboard/slotcatalog/askgamblers), NOT operator T&C/НАП; gate 93/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp + free-spins SVG, review skipped 429, 0 integrity); 2 [VERIFY] (RTP 96.51 vs 96.52 закръгляне, макс. залог); Ahrefs vol 100/kd36",
+      "notes": "Pragmatic Play (2021); ПОПРАВКА vs bank: НЕ е cluster pays — базова е 5×5/50 линии линийна ротативка (без клъстери/каскади); RTP 96.51% (по-ниски билдове 95.54/94.50); разширяваща се Crown wild (пълен екран ~1200x), 6 FS със събиране на диаманти (+1–3 spins + уголемяване), висока волатилност, макс. 5000x, bonus buy 100x; разграничена от Juicy Fruits Multihold; public game-DB (bigwinboard/slotcatalog/askgamblers), NOT operator T&C/НАП; gate 93/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp + free-spins SVG, review skipped 429, 0 integrity); 2 [VERIFY] (RTP 96.51 vs 96.52 закръгляне, макс. залог); Ahrefs vol 100/kd36 · nightly 2026-09-16: JOB-A flags resolved — 2 [VERIFY] cleared by rephrase only (no facts invented/changed), 0 blocking markers, publish-ready; JOB-B Gemini Step-7 deferred (429 credits depleted)",
       "opportunity": {
         "score": 31,
         "band": "Moderate"

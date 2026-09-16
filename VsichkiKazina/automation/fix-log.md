@@ -8,6 +8,66 @@ Facts, numbers, licence/RTP/tax figures, dates, byline (Георги Тодор�
 
 ---
 
+## 2026-09-16
+
+### JOB A — publish-blocking flags
+Scanned every `content/*` branch's own `VsichkiKazina/articles/<folder>/05b-final-draft.md`
+for blocking markers (`[VERIFY]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`,
+`[AUTHOR]`, `[BRAND]`, `[EDITORIAL]`, `[уточни]`, `[провери]`). 8 branches carried a
+blocking marker: 6 on `drafted` branches (resolved below), 2 on `posted` branches
+(left untouched — see POSTED-needs-review). The `[About Всички Казина boilerplate]`
+token is a publisher-expanded template placeholder present on many branches (incl.
+posted articles) — not a blocking marker, left untouched. All fixes are rephrasing
+only; no fact/number/RTP/date invented or changed; byline and RG lines preserved.
+
+- **vk-0086** book-of-ra-deluxe (drafted): 1 `[VERIFY]` on the max-win cap. Removed the
+  redundant bracket — the sentence already hedges (различни бази цитират различни тавани,
+  „няма едно число"). Kept ~5 000× figure. Re-scan **0 markers**. `fix(flags): … — publish-ready` pushed. **success**.
+- **vk-0091** aztec-gems (drafted): 1 `[VERIFY]` on lower RTP configs. Folded caveat into
+  prose — kept confirmed 96.52%, pointed to the casino info-panel for any lower builds.
+  Re-scan **0 markers**. pushed. **success**.
+- **vk-0092** big-bamboo (PR #109, drafted): 3 `[VERIFY]` — lower RTP builds (single-source
+  95.11/94.08 dropped, primary 96.13% kept, info-panel caveat), free-spins count (stated
+  „не е предварително фиксиран", single-source 7–10 dropped), bonus-buy prices (kept
+  availability, single-aggregator 99/179/300/608× dropped, points to in-game). Re-scan
+  **0 markers**. pushed. **success**.
+- **vk-0093** eye-of-horus (PR #110, drafted): 4 `[VERIFY]` across 3 lines — lower RTP
+  configs (single-source tiers dropped, primary 96.31% kept), extra-spins scheme
+  (single-source +1/+3/+5 dropped, mechanic kept), volatility class + max-win range
+  (honest hedging kept: 500x–50 000x, „не даваме едно число", Megaways caveat kept).
+  Re-scan **0 markers**. pushed. **success**.
+- **vk-0089** fire-in-the-hole (drafted): 3 `[VERIFY]` — bonus frequency (~1/200) and
+  max-win odds (~1/2.4M) kept as Nolimit City developer data (attributed inline);
+  lower RTP builds softened (primary 96.06% kept, single-source 94.11/90.02 dropped,
+  info-panel). Max-win 60 000× kept. Re-scan **0 markers**. pushed. **success**.
+- **vk-0094** juicy-fruits (PR #111, drafted): 2 `[VERIFY]` — trivial 96.51-vs-96.52
+  rounding note removed (96.51% kept); bonus-buy price kept approximate (~100×),
+  disputed ante-bet max-bet figures dropped. Re-scan **0 markers**. pushed. **success**.
+
+### JOB B — low Gemini score
+**Deferred — Gemini API unavailable (HTTP 429, „prepayment credits are depleted").**
+`scripts/gemini_check.py` returns exit 2 for every article; the autopilot hit the same
+429 during today's drafting (Step-7 SKIPPED on vk-0086/0089/0091/0092/0093/0094). No
+scoring or humanising was possible tonight. There were **0 board targets** with a
+`ai <n>` / `human <n<80>` verdict among `drafted`/`approved` rows regardless. The 6
+flag-fixed drafts keep `gemini = skipped`; they need a Step-7 re-check once API credits
+are restored. **Action needed: top up the Gemini API billing.**
+
+### POSTED — needs human review
+Two `posted`/live articles' `content/*` branches still carry blocking markers. Not edited
+(hard rule: never touch posted/live content). A human should verify the live pages and,
+if needed, re-clean and re-deploy:
+- **vk-0064** nv-casino-bonus-usloviya (posted 2026-09-13): trailing unfilled template line
+  `[AUTHOR BIO BLOCK: Георги Тодоров] [BRAND BOILERPLATE: Всички Казина] [18+ / RG LINE]`
+  (the body already contains a proper RG line + affiliate disclosure above it).
+- **vk-0063** nv-casino-zakonno-li-e (posted 2026-09-13): trailing
+  `[AUTHOR BIO BLOCK: Георги Тодоров]` before the accepted `[About … boilerplate]` token.
+
+### Deferred
+- JOB-B Step-7 scoring for vk-0086/0089/0091/0092/0093/0094 — blocked on Gemini API credits.
+
+---
+
 ## 2026-09-15
 
 ### JOB A — publish-blocking flags
