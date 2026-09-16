@@ -10,3 +10,12 @@
 - 05b-final-draft.md: Step 5b light re-check applied (confirmed zero em-dashes, no signposting, no banned connectives) — final formatted article published with title tag, meta description, H1, body (no images), and the exact dog-house-reference footer block with byline Георги Тодоров and dates 16.09.2026.
 
 Final word count: 1,109 words. No [VERIFY] / [DATA NEEDED] / [CONFLICT] flags remain.
+
+## Step 7 — external Gemini check
+external check: skipped (Gemini unavailable) — HTTP 429 RESOURCE_EXHAUSTED. 05b stands; gemini=skipped.
+
+## Step 8 — images
+images: 2 SVG infographics (rtp, God Mode comparison), numbers verbatim from 05b. Gemini image review skipped (unavailable). No AI hero (429). Rendered + eyeballed: no overlap/clipping (banner font 12,5→11,5).
+
+## Step 6 — verification
+0 surviving flags. €1000×96,07%=€961/€39; €50→€48; €1×15000=€15000 recalculated OK. Brand gate 95/100 PASS 0 crit.
