@@ -31,8 +31,11 @@ Diffed core figures across 02 → 03 → 04 → 05b: the distinct-value set is i
 (96.58, 3.42, 965.80, 34.20, 94.51, 91.51, 87.56, 84.55, 2x/20x/200x, 5000, €0.10, €100, 2005, 2019, 2020, 400).
 No number changed or disappeared. NOT halted.
 
-## images: pending (SVG infographics added in the next commit)
-(Images and their 05b references land in commit 2 — see the SVG-infographics note there.)
+## images: 2 (SVG infographics; Gemini review skipped — 429)
+- images/legacy-of-dead-rtp.svg — RTP 96.58% / домашно предимство 3.42% bar + €1000 worked example (~€965.80 / ~€34.20), lower builds noted. Every figure copied verbatim from 05b.
+- images/legacy-of-dead-free-spins.svg — expanding-symbol / free-spins mechanic: 3+ скатера = 10 завъртания, 1 случаен символ покрива цял барабан, повторно задействане добавя символ до всичките 9. Illustrative grid labelled примерна.
+- Gemini image review (scripts/gemini_image_review.py) NOT run (429). Manual eyeball: both viewBox correct (600x320 and 600x360), XML well-formed, no overlapping/clipped text, readable, zero em-dashes.
+- Integrity: no operator logos/names, no fake screenshots, no invented numbers, no people/faces, no glamorised winning. Book glyphs are abstract stylised rectangles.
 
 ## GATE
 Brand Gate: 92/100, 0 critical (see 05-gate-report.md).
