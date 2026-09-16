@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 350" width="560" height="350" role="img" aria-label="Таблица за безплатните завъртания в Buffalo King: 3 златни бивола дават 8 завъртания, 4 дават 15, 5 дават 25, 6 дават 100; ретригерите могат да качат общия брой до 200">
+  <title>Buffalo King: безплатни завъртания по брой бонус символи</title>
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+  </defs>
+  <rect width="560" height="350" rx="12" ry="12" fill="url(#bg3)"/>
+  <text x="280" y="38" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#78350f" text-anchor="middle">Buffalo King: безплатни завъртания</text>
+
+  <!-- header row -->
+  <rect x="40" y="62" width="480" height="40" rx="8" fill="#b45309"/>
+  <text x="165" y="87" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Златни биволи</text>
+  <text x="400" y="87" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Безплатни завъртания</text>
+
+  <!-- rows -->
+  <rect x="40" y="106" width="480" height="38" fill="#fffbeb"/>
+  <text x="165" y="131" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#92400e" text-anchor="middle">3</text>
+  <text x="400" y="131" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#b45309" text-anchor="middle">8</text>
+
+  <rect x="40" y="144" width="480" height="38" fill="#fef9c3"/>
+  <text x="165" y="169" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#92400e" text-anchor="middle">4</text>
+  <text x="400" y="169" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#b45309" text-anchor="middle">15</text>
+
+  <rect x="40" y="182" width="480" height="38" fill="#fffbeb"/>
+  <text x="165" y="207" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#92400e" text-anchor="middle">5</text>
+  <text x="400" y="207" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#b45309" text-anchor="middle">25</text>
+
+  <rect x="40" y="220" width="480" height="38" rx="0" fill="#fef9c3"/>
+  <text x="165" y="245" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#92400e" text-anchor="middle">6</text>
+  <text x="400" y="245" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#b45309" text-anchor="middle">100</text>
+
+  <!-- column divider -->
+  <line x1="290" y1="62" x2="290" y2="258" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="40" y="62" width="480" height="196" rx="8" fill="none" stroke="#f59e0b" stroke-width="1.5"/>
+
+  <text x="280" y="290" font-family="system-ui, sans-serif" font-size="12.5" fill="#6b7280" text-anchor="middle">Ретригер по време на бонуса добавя завъртания — общо до 200 (рядкост).</text>
+  <text x="280" y="332" font-family="system-ui, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">18+ Играйте отговорно · висока волатилност — бонусът идва рядко</text>
+</svg>
