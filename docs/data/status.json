@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-16T03:44:26Z",
+  "generated_utc": "2026-09-16T06:44:51Z",
   "buffer": {
-    "count": 69,
+    "count": 68,
     "target": 10,
     "deficit": 0,
     "ok": true
@@ -9,8 +9,8 @@
   "counts": {
     "in-progress": 0,
     "drafted": 65,
-    "approved": 4,
-    "posted": 18,
+    "approved": 3,
+    "posted": 19,
     "failed": 1
   },
   "rows": [
@@ -150,7 +150,7 @@
     },
     {
       "id": "vk-0008",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Как се играе покер в казино: видове игри и основни правила",
       "keywords_or_terms": "как се играе покер, казино покер, видео покер, казино холдем",
@@ -158,7 +158,7 @@
       "kd": "51",
       "source": "research",
       "drafted_date": "2026-09-07",
-      "posted_date": "",
+      "posted_date": "2026-09-16",
       "folder": "2026-09-07-kak-se-igrae-poker-kazino",
       "pr": "#7",
       "gemini": "human 85",
