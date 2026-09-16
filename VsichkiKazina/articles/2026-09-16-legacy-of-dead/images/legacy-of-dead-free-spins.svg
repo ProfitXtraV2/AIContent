@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" role="img" aria-label="Legacy of Dead безплатни завъртания: 3 или повече скатера дават 10 завъртания, а един случаен символ се разширява и покрива цял барабан; повторните задействания добавят нови символи до всичките 9">
+  <title>Legacy of Dead: разширяващ се символ в безплатните завъртания</title>
+  <defs>
+    <linearGradient id="bgf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#faf7f0"/>
+      <stop offset="100%" stop-color="#f0e9db"/>
+    </linearGradient>
+    <linearGradient id="expand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d4a017"/>
+      <stop offset="100%" stop-color="#b8860b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="360" rx="12" ry="12" fill="url(#bgf)"/>
+
+  <text x="300" y="36" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="#7c2d12" text-anchor="middle">Legacy of Dead: разширяващият се символ</text>
+  <text x="300" y="58" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#6b7280" text-anchor="middle">3 или повече скатера отварят 10 безплатни завъртания</text>
+
+  <!-- 5x3 reel grid: cells 64x46, gap 8, start x=124 y=86 -->
+  <!-- Row 1 -->
+  <rect x="124" y="86" width="64" height="46" rx="6" fill="#efe7d6" stroke="#d6c9ac" stroke-width="1"/>
+  <rect x="196" y="86" width="64" height="46" rx="6" fill="#efe7d6" stroke="#d6c9ac" stroke-width="1"/>
+  <rect x="340" y="86" width="64" height="46" rx="6" fill="#efe7d6" stroke="#d6c9ac" stroke-width="1"/>
+  <rect x="412" y="86" width="64" height="46" rx="6" fill="#efe7d6" stroke="#d6c9ac" stroke-width="1"/>
+  <!-- Row 2 -->
+  <rect x="124" y="140" width="64" height="46" rx="6" fill="#efe7d6" stroke="#d6c9ac" stroke-width="1"/>
+  <rect x="196" y="140" width="64" height="46" rx="6" fill="#efe7d6" stroke="#d6c9ac" stroke-width="1"/>
+  <rect x="340" y="140" width="64" height="46" rx="6" fill="#efe7d6" stroke="#d6c9ac" stroke-width="1"/>
+  <rect x="412" y="140" width="64" height="46" rx="6" fill="#efe7d6" stroke="#d6c9ac" stroke-width="1"/>
+  <!-- Row 3 -->
+  <rect x="124" y="194" width="64" height="46" rx="6" fill="#efe7d6" stroke="#d6c9ac" stroke-width="1"/>
+  <rect x="196" y="194" width="64" height="46" rx="6" fill="#efe7d6" stroke="#d6c9ac" stroke-width="1"/>
+  <rect x="340" y="194" width="64" height="46" rx="6" fill="#efe7d6" stroke="#d6c9ac" stroke-width="1"/>
+  <rect x="412" y="194" width="64" height="46" rx="6" fill="#efe7d6" stroke="#d6c9ac" stroke-width="1"/>
+
+  <!-- Simple stylised "book" glyphs on the non-expanding tiles (abstract, no logos/faces) -->
+  <g stroke="#b0a184" stroke-width="2" fill="none">
+    <rect x="146" y="100" width="20" height="18" rx="2"/><line x1="156" y1="100" x2="156" y2="118"/>
+    <rect x="218" y="100" width="20" height="18" rx="2"/><line x1="228" y1="100" x2="228" y2="118"/>
+    <rect x="362" y="100" width="20" height="18" rx="2"/><line x1="372" y1="100" x2="372" y2="118"/>
+    <rect x="434" y="100" width="20" height="18" rx="2"/><line x1="444" y1="100" x2="444" y2="118"/>
+    <rect x="146" y="154" width="20" height="18" rx="2"/><line x1="156" y1="154" x2="156" y2="172"/>
+    <rect x="218" y="154" width="20" height="18" rx="2"/><line x1="228" y1="154" x2="228" y2="172"/>
+    <rect x="362" y="154" width="20" height="18" rx="2"/><line x1="372" y1="154" x2="372" y2="172"/>
+    <rect x="434" y="154" width="20" height="18" rx="2"/><line x1="444" y1="154" x2="444" y2="172"/>
+    <rect x="146" y="208" width="20" height="18" rx="2"/><line x1="156" y1="208" x2="156" y2="226"/>
+    <rect x="218" y="208" width="20" height="18" rx="2"/><line x1="228" y1="208" x2="228" y2="226"/>
+    <rect x="362" y="208" width="20" height="18" rx="2"/><line x1="372" y1="208" x2="372" y2="226"/>
+    <rect x="434" y="208" width="20" height="18" rx="2"/><line x1="444" y1="208" x2="444" y2="226"/>
+  </g>
+
+  <!-- Expanding symbol filling the whole middle reel (column 3): x=268, spans all 3 rows -->
+  <rect x="268" y="86" width="64" height="154" rx="6" fill="url(#expand)" stroke="#7c2d12" stroke-width="1.5"/>
+  <text x="300" y="150" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">разширяващ</text>
+  <text x="300" y="166" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">се символ</text>
+
+  <!-- Callouts -->
+  <rect x="40" y="270" width="250" height="60" rx="10" fill="#fdf6e3" stroke="#d4a017" stroke-width="1.5"/>
+  <text x="165" y="292" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#92400e" text-anchor="middle" font-weight="700">1 случаен символ</text>
+  <text x="165" y="311" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#7c2d12" text-anchor="middle">се разширява и покрива цял барабан</text>
+
+  <rect x="310" y="270" width="250" height="60" rx="10" fill="#fbeee6" stroke="#b45309" stroke-width="1.5"/>
+  <text x="435" y="292" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#7c2d12" text-anchor="middle" font-weight="700">повторно задействане</text>
+  <text x="435" y="311" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#9a3412" text-anchor="middle">добавя нов символ, до всичките 9</text>
+
+  <text x="300" y="349" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#9ca3af" text-anchor="middle">18+ Играйте отговорно · схемата е примерна и илюстрира механиката, не реален резултат</text>
+</svg>
