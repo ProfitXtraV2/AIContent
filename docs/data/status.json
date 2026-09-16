@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-16T07:11:19Z",
+  "generated_utc": "2026-09-16T07:37:23Z",
   "buffer": {
-    "count": 68,
+    "count": 71,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 65,
+    "drafted": 68,
     "approved": 3,
     "posted": 19,
     "failed": 1
@@ -1611,6 +1611,60 @@
       "gemini": "skipped",
       "notes": "Pragmatic, май 2023; 5x5 10 линии; God Mode = темперамент (Olympus по-често/по-нисък, Hades по-рядко/по-висок), НЕ по-добри шансове, еднакво RTP; hit-rates 1/1 335 113 (Hades) 1/1 766 784 (Olympus); exp. wilds до ×100; 3 scatter→10 FS лепкави; RTP 96,07/95,05/94,05; max win 15 000×; provider site + slotcatalog; gate 95/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp + god-mode SVG, review skipped 429, 0 integrity); 0 [VERIFY]; Ahrefs vol 30",
       "opportunity": null
+    },
+    {
+      "id": "vk-0089",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Fire in the Hole xBomb (Nolimit City): RTP, xBomb множител и как се играе",
+      "keywords_or_terms": "fire in the hole, файър ин дъ хол, nolimit fire in the hole",
+      "volume": "30",
+      "kd": "36",
+      "source": "research",
+      "drafted_date": "2026-09-16",
+      "posted_date": "",
+      "folder": "2026-09-16-fire-in-the-hole",
+      "pr": "#106",
+      "gemini": "skipped",
+      "notes": "NEW провайдър Nolimit City (Стокхолм 2014, придобит от Evolution 01.07.2022); миньорска ротативка с xBomb +1 множител, Collapsing Mine, Lucky Wagon Spins; xWays НЕ се ползва (проверено, ъгълът махнат не измислен); RTP 96,06% (билдове 94,11%/90,02%), 6 барабана 64 до 46656 начина, max 60000x, extreme 10/10; bonus buy 60x/157x/500x; public game-DB (nolimitcity/bigwinboard/askgamblers), NOT operator T&C/НАП; gate 93/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp + xbomb SVG, review skipped 429, 0 integrity); 3 [VERIFY] (bonus freq ~1/200, по-ниски RTP билдове, max-win шанс ~1/2.4млн, single-source); Ahrefs vol 30/kd36",
+      "opportunity": {
+        "score": 27,
+        "band": "Moderate"
+      }
+    },
+    {
+      "id": "vk-0090",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Legacy of Dead (Play'n GO): RTP, разширяващ се символ и как се играе",
+      "keywords_or_terms": "legacy of dead, легаси ъв дед, play'n go",
+      "volume": "20",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-16",
+      "posted_date": "",
+      "folder": "2026-09-16-legacy-of-dead",
+      "pr": "#107",
+      "gemini": "skipped",
+      "notes": "Play'n GO (Векшо 2005) египетски book-слот; случаен разширяващ се символ в бонуса (до 9 символа), 3+ скатера=10 безпл. завъртания (3/4/5 плащат 2x/20x/200x, ретригер), book=wild+scatter; RTP 96,58% (билдове 94,51/91,51/87,56/84,55), 5x3/10 линии, вол. висока, max 5000x; distinct pillar vs Book of Dead vk-0046 (genre-sibling fold-in, не дубликат); public game-DB (playngo/slotcatalog/bigwinboard), NOT operator T&C/НАП; gate 92/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp + free-spins SVG, review skipped 429, 0 integrity); 0 [VERIFY]; Ahrefs vol 20",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0091",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Aztec Gems (Pragmatic): RTP, множителят до 15x и как се играе",
+      "keywords_or_terms": "aztec gems, ацтек джемс",
+      "volume": "20",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-16",
+      "posted_date": "",
+      "folder": "2026-09-16-aztec-gems",
+      "pr": "#108",
+      "gemini": "skipped",
+      "notes": "Pragmatic Play (2018) прост 3x3 / 5 фикс. линии + отделна множителна ролка 1x/2x/3x/5x/10x/15x (нулира се всяко завъртане), без free spins/бонус; RTP 96,52% (edge 3,48%), таван 375x (топ линия x15), средна волатилност; ъгъл: просто мени темпото, не шансовете; anchor Pragmatic /blog/games-providers/; public game-DB (pragmaticplay/slotcatalog/bigwinboard), NOT operator T&C/НАП; gate 93/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp + multipliers SVG, review skipped 429, 0 integrity); 1 [VERIFY] (точни по-ниски RTP билдове на оригинала; Deluxe 95,50/94,50 умишлено не внесени); Ahrefs vol 20",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -2790,7 +2844,7 @@
       "trend": "flat",
       "checked": "ahrefs",
       "suggestion": "Play'n GO египетски „book\" слот-наследник — distinct branded title/kw; котва към Play'n GO профил (vk-0045); СЪЩА механика като Book of Dead (vk-0046) → fold-in линк като жанров събрат, НЕ дублира (различна игра/RTP band); чист (няма в sitemap). Web-оценка на обема · Ahrefs BG vol 20 (kd n/a за BG), checked 15.09.2026",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-11",
       "opportunity": null
     },
@@ -3342,7 +3396,7 @@
       "trend": "up",
       "checked": "ahrefs",
       "suggestion": "Nolimit City класика (xBomb, xWays, bonus buy) — НОВ доставчик в банката, непокрит distinct kw; public game-DB (NOT operator T&C/НАП); чист (няма в sitemap). Ahrefs BG vol 30/kd 36 (up тренд, informational) — moderate opportunity, добър избор",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-16",
       "opportunity": {
         "score": 27,
@@ -3359,9 +3413,60 @@
       "trend": "down",
       "checked": "ahrefs",
       "suggestion": "прост 3x3 Pragmatic слот с множители до x15 — непокрит distinct kw; котва към Pragmatic профил (vk-0019); public game-DB; чист. Ahrefs BG vol 20 (down тренд), kd n/a — нисък обем, evergreen",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-16",
       "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Eye of Horus: RTP, разширяващ се символ Око на Хор и как се играе",
+      "researched_keywords": "eye of horus, ай ъв хорус, eye of horus слот",
+      "volume": "200",
+      "kd": "38",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "ahrefs",
+      "suggestion": "Египетски класик (Reel Time Gaming/Merkur; Blueprint дистрибуция) - непокрит distinct kw, силна възможност (обем 200, постижима kd38); различен провайдър/енджин спрямо Book of Dead/Legacy of Dead; public game-DB; чист (няма в sitemap). Ahrefs BG vol 200/kd38, checked 16.09.2026 (провери провайдъра при писане)",
+      "status": "candidate",
+      "date_researched": "2026-09-16",
+      "opportunity": {
+        "score": 35,
+        "band": "Moderate"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Juicy Fruits (Pragmatic): RTP, cluster pays и как се играе",
+      "researched_keywords": "juicy fruits, джуси фрутс, juicy fruits pragmatic",
+      "volume": "100",
+      "kd": "36",
+      "intent": "commercial",
+      "trend": "flat",
+      "checked": "ahrefs",
+      "suggestion": "Pragmatic плодов cluster-pays слот - непокрит distinct branded kw, добра възможност (обем 100, kd36); fold-in към концепцията ротативки с плодове, не дубликат; котва Pragmatic; public game-DB; чист. Ahrefs BG vol 100/kd36, checked 16.09.2026",
+      "status": "candidate",
+      "date_researched": "2026-09-16",
+      "opportunity": {
+        "score": 31,
+        "band": "Moderate"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Big Bamboo (Push Gaming): RTP, множители и как се играе",
+      "researched_keywords": "big bamboo, биг бамбу, big bamboo push",
+      "volume": "30",
+      "kd": "14",
+      "intent": "commercial",
+      "trend": "flat",
+      "checked": "ahrefs",
+      "suggestion": "Push Gaming хит - непокрит distinct kw, ниска трудност (kd14) = добра възможност при обем 30; котва Push Gaming профил; public game-DB; чист. Ahrefs BG vol 30/kd14, checked 16.09.2026",
+      "status": "candidate",
+      "date_researched": "2026-09-16",
+      "opportunity": {
+        "score": 36,
+        "band": "Moderate"
+      }
     },
     {
       "type": "guide",
