@@ -5,12 +5,12 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01Fq9uiS8fRwW9YoHBqjKcNx",
-  "note": "daily run 2026-09-16 (later fire): starting; selecting 3 guides from research bank",
+  "note": "daily run 2026-09-16 (later fire): writing 3 guides in parallel (Fire in the Hole/Legacy of Dead/Aztec Gems); Gemini 429 -> Step-7 + image gen/review skipped, SVG infographics only",
   "progress": {
-    "phase": "selecting",
-    "article_index": 0,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 3,
-    "article_slug": null,
+    "article_slug": "parallel: fire-in-the-hole / legacy-of-dead / aztec-gems",
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": null,
-    "stage": null
+    "stage_index": 2,
+    "stage": "Author"
   }
 }
