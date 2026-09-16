@@ -28,4 +28,7 @@ external check: skipped (Gemini unavailable — 429 credits depleted)
 - Bonus buy среден пакет: BigWinBoard 157x vs AskGamblers 158x → взето 157x (BigWinBoard).
 
 ## Images
-images: pending (SVG infographics добавени в отделен image commit)
+images: 2 (SVG infographics; Gemini review skipped — 429)
+- `images/fire-in-the-hole-rtp.svg` — RTP 96.06% / домашно предимство 3.94% бар + €1000 работен пример (€960.60 / €39.40); бележка за по-ниски билдове 94.11%/90.02%.
+- `images/fire-in-the-hole-xbomb.svg` — xBomb множител стълбица: +1 на всяка експлозия (x2, x3 по данни; x4/x5 маркирани примерни).
+Ръчна проверка (без scripts/gemini_image_review.py, 429): и двата SVG са well-formed XML; viewBox с ≥16px вътрешен отстъп; проверени ширини на текста спрямо колоните, коригирани 2 потенциални застъпвания (RTP „3.94%" преместен под бара; xBomb footer скъсен да не излиза от картата). Integrity: няма операторски лога/имена, няма фалшиви скрийншоти, няма измислени числа (всички от 05b или маркирани „примерно"), няма хора/лица, няма глорификация на печалба.
