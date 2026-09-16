@@ -1,4 +1,33 @@
 {
+"bg|aztec gems": {
+"fetched": "2026-09-16",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "aztec gems",
+"volume": 20
+},
+"trend": "down"
+},
+"bg|big bass splash": {
+"fetched": "2026-09-16",
+"row": {
+"cpc": 15,
+"difficulty": 71,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "big bass splash",
+"volume": 90
+},
+"trend": "down"
+},
 "bg|bigger bass bonanza": {
 "fetched": "2026-09-15",
 "row": {
@@ -43,6 +72,90 @@
 "intents": {},
 "keyword": "buffalo king",
 "volume": 40
+},
+"trend": "down"
+},
+"bg|fire in the hole": {
+"fetched": "2026-09-16",
+"row": {
+"cpc": null,
+"difficulty": 36,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "fire in the hole",
+"volume": 30
+},
+"trend": "up"
+},
+"bg|floating dragon": {
+"fetched": "2026-09-16",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "floating dragon",
+"volume": 0
+}
+},
+"bg|gates of gatot kaca": {
+"fetched": "2026-09-16",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "gates of gatot kaca",
+"volume": 0
+}
+},
+"bg|gates of olympus 1000": {
+"fetched": "2026-09-16",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": true,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "gates of olympus 1000",
+"volume": 150
+},
+"trend": "down"
+},
+"bg|great rhino": {
+"fetched": "2026-09-16",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "great rhino",
+"volume": 0
+}
+},
+"bg|hand of midas": {
+"fetched": "2026-09-16",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": true,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "hand of midas",
+"volume": 10
 },
 "trend": "down"
 },
@@ -191,6 +304,107 @@
 "volume": 40
 },
 "trend": "up"
+},
+"bg|power of thor megaways": {
+"fetched": "2026-09-16",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "power of thor megaways",
+"volume": 0
+}
+},
+"bg|rich wilde": {
+"fetched": "2026-09-16",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "rich wilde",
+"volume": 0
+}
+},
+"bg|starlight princess 1000": {
+"fetched": "2026-09-16",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "starlight princess 1000",
+"volume": 50
+},
+"trend": "up"
+},
+"bg|sun of egypt 3": {
+"fetched": "2026-09-16",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "sun of egypt 3",
+"volume": 10
+},
+"trend": "up"
+},
+"bg|the dog house multihold": {
+"fetched": "2026-09-16",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "the dog house multihold",
+"volume": 0
+}
+},
+"bg|the wild machine": {
+"fetched": "2026-09-16",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "the wild machine",
+"volume": 0
+}
+},
+"bg|tomb of the scarab queen": {
+"fetched": "2026-09-16",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "tomb of the scarab queen",
+"volume": 0
+}
+},
+"bg|wild west gold": {
+"fetched": "2026-09-16",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "wild west gold",
+"volume": 10
+},
+"trend": "up"
+},
+"bg|wild wild riches": {
+"fetched": "2026-09-16",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "wild wild riches",
+"volume": 10
+},
+"trend": "down"
 },
 "bg|данък печалба нелицензирано казино": {
 "fetched": "2026-09-16",

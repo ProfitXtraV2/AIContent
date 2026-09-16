@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-16T03:38:25Z",
+  "generated_utc": "2026-09-16T03:44:26Z",
   "buffer": {
-    "count": 68,
+    "count": 69,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 1,
-    "drafted": 64,
+    "in-progress": 0,
+    "drafted": 65,
     "approved": 4,
     "posted": 18,
     "failed": 1
@@ -1597,7 +1597,7 @@
     },
     {
       "id": "vk-0088",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Zeus vs Hades — Gods of War (Pragmatic): RTP, God Mode и как се играе",
       "keywords_or_terms": "zeus vs hades, зевс срещу хадес, gods of war",
@@ -1607,9 +1607,9 @@
       "drafted_date": "2026-09-16",
       "posted_date": "",
       "folder": "2026-09-16-zeus-vs-hades",
-      "pr": "",
-      "gemini": "",
-      "notes": "selected 2026-09-16",
+      "pr": "#105",
+      "gemini": "skipped",
+      "notes": "Pragmatic, май 2023; 5x5 10 линии; God Mode = темперамент (Olympus по-често/по-нисък, Hades по-рядко/по-висок), НЕ по-добри шансове, еднакво RTP; hit-rates 1/1 335 113 (Hades) 1/1 766 784 (Olympus); exp. wilds до ×100; 3 scatter→10 FS лепкави; RTP 96,07/95,05/94,05; max win 15 000×; provider site + slotcatalog; gate 95/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp + god-mode SVG, review skipped 429, 0 integrity); 0 [VERIFY]; Ahrefs vol 30",
       "opportunity": null
     }
   ],
@@ -3255,7 +3255,7 @@
       "trend": "flat",
       "checked": "ahrefs",
       "suggestion": "самостоятелен Pragmatic слот, непокрит; котва към Pragmatic профил (vk-0019); public game-DB; чист. Ahrefs BG vol 30, kd n/a, checked 15.09.2026",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-15",
       "opportunity": null
     },
@@ -3331,6 +3331,51 @@
         "score": 14,
         "band": "Weak"
       }
+    },
+    {
+      "type": "guide",
+      "query": "Fire in the Hole xBomb (Nolimit City): RTP, xWays и как се играе",
+      "researched_keywords": "fire in the hole, файър ин дъ хол, nolimit fire in the hole",
+      "volume": "30",
+      "kd": "36",
+      "intent": "informational",
+      "trend": "up",
+      "checked": "ahrefs",
+      "suggestion": "Nolimit City класика (xBomb, xWays, bonus buy) — НОВ доставчик в банката, непокрит distinct kw; public game-DB (NOT operator T&C/НАП); чист (няма в sitemap). Ahrefs BG vol 30/kd 36 (up тренд, informational) — moderate opportunity, добър избор",
+      "status": "candidate",
+      "date_researched": "2026-09-16",
+      "opportunity": {
+        "score": 27,
+        "band": "Moderate"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Aztec Gems (Pragmatic): RTP, множители и как се играе",
+      "researched_keywords": "aztec gems, ацтек джемс",
+      "volume": "20",
+      "kd": "",
+      "intent": "",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "прост 3x3 Pragmatic слот с множители до x15 — непокрит distinct kw; котва към Pragmatic профил (vk-0019); public game-DB; чист. Ahrefs BG vol 20 (down тренд), kd n/a — нисък обем, evergreen",
+      "status": "candidate",
+      "date_researched": "2026-09-16",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Wild West Gold (Pragmatic): RTP, sticky wilds и как се играе",
+      "researched_keywords": "wild west gold, уайлд уест голд",
+      "volume": "10",
+      "kd": "",
+      "intent": "",
+      "trend": "up",
+      "checked": "ahrefs",
+      "suggestion": "Pragmatic western слот (sticky wild множители в бонуса) — непокрит distinct kw; котва към Pragmatic профил (vk-0019); public game-DB; чист. Ahrefs BG vol 10 (up тренд), kd n/a — нисък обем, дълга опашка",
+      "status": "candidate",
+      "date_researched": "2026-09-16",
+      "opportunity": null
     }
   ],
   "articles_base_url": "https://github.com/ProfitXtraV2/AIContent/tree/main/VsichkiKazina/articles/",
