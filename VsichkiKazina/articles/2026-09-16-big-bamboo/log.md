@@ -1,0 +1,12 @@
+# LOG — big-bamboo (2026-09-16)
+- 00-brief: assembled; guides-only scope, facts from public game DBs (no operator/НАП source).
+- 01-synthesis: distilled verified facts; honesty angle = calm design hides high volatility.
+- 01.5-outline: 7 sections; approved internal links mapped.
+- 02-author: prose-first draft, worked €1000 example, [VERIFY] flags preserved.
+- 03-humaniser: symmetry broken, connectives/signposts removed, zero em-dashes.
+- 04-seo: title/meta/H1 keyworded; image ALT in BG.
+- 05-brand-gate: PASS 93/100, 0 critical; fixes applied at stage.
+- 05b: locked. 311 wc-words (in line with recent slot guides).
+- 07-gemini (Step-7): external check skipped (Gemini unavailable — 429 credits depleted); no halt per policy.
+- 08-images (Step-8): 2 SVG infographics created (RTP + Golden Bamboo); numbers verbatim from 05b; Gemini image review skipped (429); infographics ship alone per policy. images: 2 (infographic RTP + infographic Golden Bamboo; review skipped 429, 0 integrity issues).
+- 06-verification: 3 [VERIFY] flags documented; recalcs shown.
