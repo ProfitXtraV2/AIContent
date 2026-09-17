@@ -4,6 +4,9 @@
 Article: **Big Bass Bonanza: RTP, волатилност и как се играе** · type: guide (slot explainer) · byline: editorial (signed Георги Тодоров) · gate: PASS WITH FIXES 93/100 · humanisation: HUMAN-LIKE · Gemini Step-7: **human 90** (PASS on the initial check, kept) · images: 3 (hero 100, RTP infographic 100, bonus infographic 100) · run date: 09.09.2026
 
 ## Surviving flags
+
+**RESOLVED — 0 surviving flags as of 17.09.2026.** The [VERIFY] described below was resolved in commit `2a6291d`: the disputed value is no longer asserted in the text. 05b now contains no [VERIFY]/[DATA NEEDED]/[CONFLICT]. Verified at human approval; the original autopilot note is kept below for the audit trail.
+
 **1** in-text [VERIFY]: the exact lower RTP builds (≈95.67% and 94.02%) come from a secondary listing; only the default 96.71% is universally confirmed. Text states 96.71% (default) + "operator may run a lower configuration, check the info panel" and flags the lower figures. No [CONFLICT]/[DATA NEEDED]. Public game-information explainer; no BG operator, no licence number, no bonus terms. (The "x4" multiplier step some sources mention is NOT included — verified sources give only x2/x3/x10.)
 
 ## Provider/game claims to confirm at publish (source URLs)
