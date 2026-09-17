@@ -3,12 +3,14 @@
   "run_started_utc": "2026-09-17T22:11:24Z",
   "run_finished_utc": null,
   "articles_written": null,
-  "prs_opened": [],
+  "prs_opened": [
+    118
+  ],
   "run_url": "https://claude.ai/code/session_01As8DzatvdnT5X6jSH7xPny",
   "note": "daily run (3rd fire 2026-09-17): guides-only; backlog all blocked (NV Casino operator-dependent); batch from research bank — ELK Studios provider profile (150), Gems Bonanza (30/69), Big Bass Bonanza Megaways (20)",
   "progress": {
     "phase": "writing",
-    "article_index": 1,
+    "article_index": 2,
     "article_total": 3,
     "article_slug": "2026-09-17-elk-studios",
     "stages": [
