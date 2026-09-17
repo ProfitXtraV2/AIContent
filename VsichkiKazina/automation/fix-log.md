@@ -8,6 +8,64 @@ Facts, numbers, licence/RTP/tax figures, dates, byline (Георги Тодор�
 
 ---
 
+## 2026-09-17
+
+### JOB A — publish-blocking flags
+Scanned every `content/*` branch's own `VsichkiKazina/articles/<folder>/05b-final-draft.md`
+for blocking markers (`[VERIFY]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`,
+`[AUTHOR]`, `[BRAND]`, `[EDITORIAL]`, `[уточни]`, `[провери]`). 6 branches carried a
+blocking marker: 4 on `drafted` branches (today's 2026-09-17 batch, resolved below),
+2 on `posted` branches (left untouched — see POSTED-needs-review). The
+`[About Всички Казина boilerplate]` token is a publisher-expanded template placeholder
+present on ~90 branches incl. already-posted articles — not a blocking marker, left
+untouched (idempotent). All fixes are rephrasing only; no fact/number/RTP/date invented
+or changed; byline (Георги Тодоров) and RG lines preserved.
+
+- **vk-0103** big-bass-bonanza-megaways (PR #120, drafted): 2 `[VERIFY]` — exact RTP build
+  (kept 96.70% default + lower builds 95.66/94.62, info-panel caveat already in prose) and
+  bonus-buy availability (100× залога; „зависи от пазара и оператора" kept). Removed the two
+  trailing brackets; sentences already publish-ready. Re-scan **0 markers**. `fix(flags): … — publish-ready` pushed. **success**.
+- **vk-0101** elk-studios (PR #119, drafted): 2 `[VERIFY]` on one line — which BG-licensed RTP
+  version loads, and X-iter buy availability by market. Both caveats already stated in prose
+  (провери в инфо-панела). Removed brackets. Re-scan **0 markers**. pushed. **success**.
+- **vk-0102** gems-bonanza (PR #118, drafted): 3 `[VERIFY]` — exact RTP build (96.51% official
+  + builds 96.55/95.54/94.53 kept), win-frequency ~1/3 (kept single-source with its own „приемай
+  като ориентир, не като гаранция" hedge already in text), bonus-buy availability (100× kept).
+  Removed brackets. Re-scan **0 markers**. pushed. **success**.
+- **vk-0100** pirots-2 (PR #117, drafted): 2 `[VERIFY]` — lower RTP version at the operator
+  (94.0% default kept, info-panel caveat in prose) and X-iter buy availability by market.
+  Removed brackets. Re-scan **0 markers**. pushed. **success**.
+
+### JOB B — low Gemini score
+**No work possible / none needed.** (1) There were **0 board targets** — every `drafted`/
+`approved` row with an actual Step-7 verdict scores `human ≥80` (58 rows); none are `ai <n>`
+or `human <n<80>`. (2) The remaining ~24 recent drafts (vk-0080…vk-0103) carry
+`gemini = skipped` and could **not** be scored: `scripts/gemini_check.py` still returns
+**HTTP 429 RESOURCE_EXHAUSTED — „prepayment credits are depleted"** for every request. This is
+the same persistent billing failure logged 2026-09-15 and 2026-09-16, not a transient rate
+limit. No scoring, humanising, or Step-7 gate is possible for any new draft until the Gemini
+API credits are topped up at AI Studio (https://ai.studio/projects → billing).
+**Action needed: top up the Gemini API billing**, then re-run Step-7 on the skipped drafts.
+
+### POSTED — needs human review
+Two `posted`/live articles' `content/*` branches still carry blocking markers. Not edited
+(hard rule: never touch posted/live content); unchanged since 2026-09-13/16 logs.
+- **vk-0063** nv-casino-zakonno-li-e (PR #79, `ai 75`, posted): low-rated *and* its branch
+  still carries `[AUTHOR BIO BLOCK: Георги Тодоров]` before the accepted `[About … boilerplate]`
+  token (line 56). Low Gemini score on a posted article → logged only, never re-humanised.
+- **vk-0064** nv-casino-bonus-usloviya (PR #80, `human 85`, posted): trailing unfilled template
+  line `[AUTHOR BIO BLOCK: Георги Тодоров] [BRAND BOILERPLATE: Всички Казина] [18+ / RG LINE]`
+  (line 65; the body already has a proper RG line + affiliate disclosure above it).
+  ACTION: a human should confirm whether the live pages render raw brackets or the `posted`
+  status is stale; if genuinely unfilled, the two branches need the AUTHOR-BIO/BRAND/18+ blocks
+  filled and re-deployed.
+
+### Deferred (over nightly cap of 10)
+None hit the cap. **Blocked, not deferred:** Step-7 scoring + any humanising for the ~24
+`skipped` drafts (vk-0080…vk-0103) — all blocked on the depleted Gemini API credits above.
+
+---
+
 ## 2026-09-16
 
 ### JOB A — publish-blocking flags
