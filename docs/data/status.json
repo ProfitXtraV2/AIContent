@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-17T03:40:35Z",
+  "generated_utc": "2026-09-17T06:44:24Z",
   "buffer": {
-    "count": 77,
+    "count": 76,
     "target": 10,
     "deficit": 0,
     "ok": true
@@ -9,8 +9,8 @@
   "counts": {
     "in-progress": 0,
     "drafted": 74,
-    "approved": 3,
-    "posted": 19,
+    "approved": 2,
+    "posted": 20,
     "failed": 1
   },
   "rows": [
@@ -444,7 +444,7 @@
     },
     {
       "id": "vk-0023",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "40 Super Hot: RTP и джакпот функции (EGT/Amusnet)",
       "keywords_or_terms": "40 super hot, 40 супер хот",
@@ -452,7 +452,7 @@
       "kd": "62",
       "source": "research",
       "drafted_date": "2026-09-09",
-      "posted_date": "",
+      "posted_date": "2026-09-17",
       "folder": "2026-09-09-40-super-hot",
       "pr": "#29",
       "gemini": "human 85",

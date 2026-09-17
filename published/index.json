@@ -1,19 +1,12 @@
 {
   "schema_version": 1,
-  "count": 3,
+  "count": 2,
   "articles": [
     {
       "slug": "gates-of-olympus",
       "title": "Gates of Olympus: RTP, волатилност и как се играе",
       "date_modified": "2026-09-09",
       "content_hash": "f927e473edab0e34a535c6b040263fd3efe83a814ccf61241b39dca30d485fe0",
-      "status": "approved"
-    },
-    {
-      "slug": "40-super-hot",
-      "title": "40 Super Hot: RTP и джакпот функции (EGT/Amusnet)",
-      "date_modified": "2026-09-09",
-      "content_hash": "bb0e28e148b66ad9f9e82c599f618169e0d41b7cdb0ca90f8089dc711ff96e69",
       "status": "approved"
     },
     {
@@ -24,5 +17,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-09-17T03:40:45Z"
+  "generated_utc": "2026-09-17T06:44:24Z"
 }
