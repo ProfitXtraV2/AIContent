@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" role="img" aria-label="Бонусът на Big Bass Bonanza: 3 скатера дават 10 завъртания, 4 дават 15, 5 дават 20; на всеки 4 събрани рибари множителят се качва 2x при 4, 3x при 8 и 10x при 12, всеки път с още 10 завъртания">
+  <title>Big Bass Bonanza: как работи бонусът</title>
+  <defs>
+    <linearGradient id="bgbn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0f9ff"/>
+      <stop offset="100%" stop-color="#e0f2fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" rx="12" ry="12" fill="url(#bgbn)"/>
+  <text x="300" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="#075985" text-anchor="middle">Big Bass Bonanza: как работи бонусът</text>
+
+  <!-- Panel 1: scatters -> free spins -->
+  <text x="40" y="70" font-family="system-ui, -apple-system, sans-serif" font-size="13.5" font-weight="700" fill="#0369a1">Скатери → безплатни завъртания</text>
+
+  <g font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">
+    <rect x="40" y="82" width="160" height="60" rx="10" fill="#ffffff" stroke="#7dd3fc" stroke-width="1.5"/>
+    <text x="120" y="108" font-size="15" font-weight="700" fill="#0f172a">3 скатера</text>
+    <text x="120" y="130" font-size="15" font-weight="800" fill="#0369a1">10 завъртания</text>
+
+    <rect x="220" y="82" width="160" height="60" rx="10" fill="#ffffff" stroke="#7dd3fc" stroke-width="1.5"/>
+    <text x="300" y="108" font-size="15" font-weight="700" fill="#0f172a">4 скатера</text>
+    <text x="300" y="130" font-size="15" font-weight="800" fill="#0369a1">15 завъртания</text>
+
+    <rect x="400" y="82" width="160" height="60" rx="10" fill="#ffffff" stroke="#7dd3fc" stroke-width="1.5"/>
+    <text x="480" y="108" font-size="15" font-weight="700" fill="#0f172a">5 скатера</text>
+    <text x="480" y="130" font-size="15" font-weight="800" fill="#0369a1">20 завъртания</text>
+  </g>
+
+  <line x1="40" y1="165" x2="560" y2="165" stroke="#bae6fd" stroke-width="1"/>
+
+  <!-- Panel 2: collected fishermen -> multiplier -->
+  <text x="40" y="196" font-family="system-ui, -apple-system, sans-serif" font-size="13.5" font-weight="700" fill="#b45309">Събрани рибари → множител (и по +10 завъртания)</text>
+
+  <g font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">
+    <rect x="40" y="210" width="150" height="86" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="115" y="236" font-size="14" font-weight="700" fill="#0f172a">4 рибари</text>
+    <text x="115" y="268" font-size="26" font-weight="800" fill="#d97706">2x</text>
+    <text x="115" y="286" font-size="11" fill="#b45309">+10 завъртания</text>
+
+    <text x="205" y="258" font-size="22" fill="#94a3b8" text-anchor="middle">→</text>
+
+    <rect x="225" y="210" width="150" height="86" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="300" y="236" font-size="14" font-weight="700" fill="#0f172a">8 рибари</text>
+    <text x="300" y="268" font-size="26" font-weight="800" fill="#d97706">3x</text>
+    <text x="300" y="286" font-size="11" fill="#b45309">+10 завъртания</text>
+
+    <text x="390" y="258" font-size="22" fill="#94a3b8" text-anchor="middle">→</text>
+
+    <rect x="410" y="210" width="150" height="86" rx="10" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+    <text x="485" y="236" font-size="14" font-weight="700" fill="#0f172a">12 рибари</text>
+    <text x="485" y="268" font-size="26" font-weight="800" fill="#ea580c">10x</text>
+    <text x="485" y="286" font-size="11" fill="#c2410c">+10 завъртания</text>
+  </g>
+
+  <text x="300" y="330" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" fill="#64748b" text-anchor="middle" font-style="italic">Рибарят wild събира парите-риби само в бонуса (единичен символ до 2000x залога).</text>
+  <text x="300" y="348" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">18+ Играйте отговорно · по публична игрална информация</text>
+</svg>
