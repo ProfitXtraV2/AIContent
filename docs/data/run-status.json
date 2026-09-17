@@ -3,16 +3,29 @@
   "run_started_utc": "2026-09-17T03:12:14Z",
   "run_finished_utc": null,
   "articles_written": null,
-  "prs_opened": [],
+  "prs_opened": [
+    112
+  ],
   "run_url": "https://claude.ai/code/session_01UCunbAZ2iYqfz9nKdLGxGh",
   "note": "daily run 2026-09-17 (first fire): 3 guides planned from research bank (Bigger Bass Bonanza, Tome of Madness, San Quentin xWays). Gemini 429 (billing depleted) -> Step-7/8 Gemini skipped; SVG infographics only.",
   "progress": {
     "phase": "writing",
-    "article_index": 1,
+    "article_index": 2,
     "article_total": 3,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "article_slug": "2026-09-17-tome-of-madness",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
