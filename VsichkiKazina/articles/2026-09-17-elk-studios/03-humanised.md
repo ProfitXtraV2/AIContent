@@ -1,0 +1,3 @@
+# 03-HUMANISED — ELK Studios
+
+Humaniser pass over 02-draft: varied section shapes (short intro, ownership+families section, one dense mechanics paragraph, recognisability section, table + prose breakdown, RTP-policy takeaway, closing). Removed signposting lead-ins, varied sentence length, asymmetric honest ending ("ориентир, не обещание… рядкост, не очакване"), no rhetorical-question openers, no restating summary. NO number touched. Untouchables preserved: 18+ line, RG block, affiliate footer, byline, brand, both [VERIFY] flags. Kept the top-slots data as a genuine comparison (infographic) + prose, not a bullet list. → 04-seo.
