@@ -75,6 +75,45 @@
 },
 "trend": "down"
 },
+"bg|cash bonanza": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "cash bonanza",
+"volume": 0
+}
+},
+"bg|cleocatra": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "cleocatra",
+"volume": 60
+},
+"trend": "down"
+},
+"bg|deadwood": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": 2,
+"difficulty": 94,
+"intents": {
+"branded": true,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "deadwood",
+"volume": 50
+},
+"trend": "down"
+},
 "bg|fire in the hole": {
 "fetched": "2026-09-16",
 "row": {
@@ -131,6 +170,16 @@
 },
 "trend": "down"
 },
+"bg|gold blitz": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "gold blitz",
+"volume": 0
+}
+},
 "bg|great rhino": {
 "fetched": "2026-09-16",
 "row": {
@@ -158,6 +207,28 @@
 "volume": 10
 },
 "trend": "down"
+},
+"bg|immortal romance": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "immortal romance",
+"volume": 10
+},
+"trend": "down"
+},
+"bg|le pharaoh": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "le pharaoh",
+"volume": 20
+},
+"trend": "up"
 },
 "bg|nv casino": {
 "fetched": "2026-09-16",
@@ -305,6 +376,17 @@
 },
 "trend": "up"
 },
+"bg|pirots 2": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "pirots 2",
+"volume": 30
+},
+"trend": "up"
+},
 "bg|power of thor megaways": {
 "fetched": "2026-09-16",
 "row": {
@@ -315,6 +397,24 @@
 "volume": 0
 }
 },
+"bg|reactoonz 2": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "reactoonz 2",
+"volume": 10
+},
+"trend": "up"
+},
 "bg|rich wilde": {
 "fetched": "2026-09-16",
 "row": {
@@ -324,6 +424,17 @@
 "keyword": "rich wilde",
 "volume": 0
 }
+},
+"bg|san quentin": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "san quentin",
+"volume": 20
+},
+"trend": "up"
 },
 "bg|starlight princess 1000": {
 "fetched": "2026-09-16",
@@ -340,6 +451,24 @@
 },
 "keyword": "starlight princess 1000",
 "volume": 50
+},
+"trend": "up"
+},
+"bg|sugar rush 1000": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": 35,
+"difficulty": null,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "sugar rush 1000",
+"volume": 400
 },
 "trend": "up"
 },
@@ -384,6 +513,42 @@
 "volume": 0
 }
 },
+"bg|tombstone": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": 5,
+"difficulty": 59,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "tombstone",
+"volume": 150
+},
+"trend": "flat"
+},
+"bg|tome of madness": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "tome of madness",
+"volume": 20
+},
+"trend": "down"
+},
 "bg|wild west gold": {
 "fetched": "2026-09-16",
 "row": {
@@ -394,6 +559,16 @@
 "volume": 10
 },
 "trend": "up"
+},
+"bg|wild west gold megaways": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "wild west gold megaways",
+"volume": 0
+}
 },
 "bg|wild wild riches": {
 "fetched": "2026-09-16",

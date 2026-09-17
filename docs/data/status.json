@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-16T23:14:30Z",
+  "generated_utc": "2026-09-17T03:40:35Z",
   "buffer": {
-    "count": 74,
+    "count": 77,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 71,
+    "drafted": 74,
     "approved": 3,
     "posted": 19,
     "failed": 1
@@ -1725,6 +1725,60 @@
         "score": 31,
         "band": "Moderate"
       }
+    },
+    {
+      "id": "vk-0095",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Bigger Bass Bonanza (Reel Kingdom/Pragmatic): какво добавя „Bigger\" версията",
+      "keywords_or_terms": "bigger bass bonanza, бигър бас бонанза, bigger bass bonanza rtp",
+      "volume": "30",
+      "kd": "70",
+      "source": "research",
+      "drafted_date": "2026-09-17",
+      "posted_date": "",
+      "folder": "2026-09-17-bigger-bass-bonanza",
+      "pr": "#112",
+      "gemini": "skipped",
+      "notes": "Big Bass серия вариант, distinct от база Big Bass Bonanza (vk-0028)/Splash (vk-0038); Reel Kingdom/Pragmatic 16.09.2021; 5×4/12 линии (база 5×3/10), RTP 96.71% (билдове 95.67/94.62), вол. 5/5 (база 4/5), max 4000× (база ~2100×), FS 10/15/20, рибар Money Collect, ретригер x2/x3/x10 макс 3; без bonus buy/Ante в базата; public game-DB (bigwinboard/slotcatalog/clashofslots/gamblingzone), NOT operator T&C/НАП; gate 94/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp + retrigger-ladder SVG, review skipped 429, 0 integrity); 0 [VERIFY]; Ahrefs vol 30/kd70 commercial down",
+      "opportunity": {
+        "score": 14,
+        "band": "Weak"
+      }
+    },
+    {
+      "id": "vk-0096",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Tome of Madness (Play'n GO): RTP, клъстер печалби и Portal Meter",
+      "keywords_or_terms": "tome of madness, том ъв маднес, tome of madness rtp",
+      "volume": "20",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-17",
+      "posted_date": "",
+      "folder": "2026-09-17-tome-of-madness",
+      "pr": "#113",
+      "gemini": "skipped",
+      "notes": "Play'n GO „Rich Wilde and the Tome of Madness\" 27.06.2019; 5×5 клъстер 4+ (H/V), RTP 96.59% (билдове 94.52/91.59/87.52/84.50), вол. висока 10/10, max 2000×, залог €0.10–€100; каскади + Portal Meter прагове 7(2 wild)/14(Abyss)/27(Void)/42(Other World Free Round); Rich Wilde wild ×2, Mega Wild в бонуса; без bonus buy; NON-FABRICATION: research-bank „Pandora's Keys/Voidgates/Insanity meter\" непотвърдими → изхвърлени, само проверения Portal Meter; distinct vs Reactoonz; public game-DB (bigwinboard/slotcatalog/clashofslots/askgamblers), NOT operator T&C/НАП; gate 94/100 0 crit; Gemini Step-7 SKIPPED (429); img:2 (rtp + portal-meter SVG, review skipped 429, 0 integrity); 0 [VERIFY]; Ahrefs vol 20 transactional down",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0097",
+      "status": "drafted",
+      "type": "guide",
+      "query": "San Quentin xWays (Nolimit City): RTP, xWays/Razor Split и как се играе",
+      "keywords_or_terms": "san quentin, сан куентин, nolimit san quentin",
+      "volume": "20",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-17",
+      "posted_date": "",
+      "folder": "2026-09-17-san-quentin",
+      "pr": "#114",
+      "gemini": "skipped",
+      "notes": "Nolimit City 12.01.2021; 5×3, 243 начина разширяеми чрез xWays (2–4 копия) + Razor Split; Enhancer Cells (заключени клетки, определят бр. завъртания); RTP 96.03% офиц. (билдове 94.11/90.11), вол. екстремна 10/10, max 150000×, залог €0.20–€32; НЕ xNudge → Jumping Wilds; Lockdown Spins 3/4/5 скатера→1/2/3 JW, JW на Razor Split реел удвоява множителя до ×512; bonus buy 100/400/2000× (пазарно-зависим/забранен); distinct vs Fire in the Hole xBomb vk-0089 (разширяване начини vs каскади/xBomb); public game-DB (nolimitcity/bigwinboard/slotcatalog/racingpost), NOT operator T&C/НАП; gate 93/100 0 crit; Gemini Step-7 SKIPPED (429); img:2 (rtp + lockdown-spins SVG, review skipped 429, 0 integrity, bonus buy not glamorised); 2 [VERIFY] (макс. брой начини 13млрд vs 3125; по-ниски RTP билдове/етикет) hedged; Ahrefs vol 20 up",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -3438,8 +3492,8 @@
       "intent": "commercial",
       "trend": "down",
       "checked": "ahrefs",
-      "suggestion": "„Bigger\" вариант в Big Bass серията — distinct branded kw/слот от Big Bass Bonanza (vk-0028)/Splash (vk-0038)/Megaways (кандидат); fold-in към базата; public game-DB; чист. Ahrefs BG vol 30/kd 70 (down тренд, commercial), checked 15.09.2026",
-      "status": "candidate",
+      "suggestion": "„Bigger\" вариант в Big Bass серията — distinct branded kw/слот от Big Bass Bonanza (vk-0028)/Splash (vk-0038)/Megaways (кандидат); fold-in към базата; public game-DB; чист. Ahrefs BG vol 30/kd 70 (down тренд, commercial), checked 15.09.2026 · written 17.09.2026 (vk-0095, PR #112)",
+      "status": "used",
       "date_researched": "2026-09-15",
       "opportunity": {
         "score": 14,
@@ -3551,8 +3605,8 @@
       "intent": "commercial",
       "trend": "flat",
       "checked": "ahrefs",
-      "suggestion": "Play'n GO Lovecraft клъстер-слот (Pandora's Keys / Voidgates); непокрит distinct kw; котва към Play'n GO профил (vk-0045), distinct vs Reactoonz cluster (vk-0047 е Play'n GO друг слот) — fold-in към клъстер концепция vk-0060; public game-DB; чист. Ahrefs BG vol 20, kd n/a, checked 16.09.2026",
-      "status": "candidate",
+      "suggestion": "Play'n GO Lovecraft клъстер-слот (Pandora's Keys / Voidgates); непокрит distinct kw; котва към Play'n GO профил (vk-0045), distinct vs Reactoonz cluster (vk-0047 е Play'n GO друг слот) — fold-in към клъстер концепция vk-0060; public game-DB; чист. Ahrefs BG vol 20, kd n/a, checked 16.09.2026 · written 17.09.2026 (vk-0096, PR #113; mechanic = Portal Meter, „Pandora's Keys\" from bank was unverified/dropped)",
+      "status": "used",
       "date_researched": "2026-09-16",
       "opportunity": null
     },
@@ -3565,8 +3619,8 @@
       "intent": "informational",
       "trend": "flat",
       "checked": "ahrefs",
-      "suggestion": "Nolimit City затворнически хай-вол слот (xWays/xSplit/xNudge, Enhancer Cells); непокрит distinct kw; различен слот от Fire in the Hole (vk-0089, също Nolimit) → котва към Nolimit провайдър; public game-DB; чист. RE-MEASURED 16.09.2026: Ahrefs BG vol 20 (предишен пробен четен 0 на 15.09 — сега измерим, добавен), kd n/a",
-      "status": "candidate",
+      "suggestion": "Nolimit City затворнически хай-вол слот (xWays/xSplit/xNudge, Enhancer Cells); непокрит distinct kw; различен слот от Fire in the Hole (vk-0089, също Nolimit) → котва към Nolimit провайдър; public game-DB; чист. RE-MEASURED 16.09.2026: Ahrefs BG vol 20 (предишен пробен четен 0 на 15.09 — сега измерим, добавен), kd n/a · written 17.09.2026 (vk-0097, PR #114; xNudge dropped as unverified, Jumping Wilds written)",
+      "status": "used",
       "date_researched": "2026-09-16",
       "opportunity": null
     },
@@ -3582,6 +3636,51 @@
       "suggestion": "Pragmatic гръцки митология слот (Midas/Money Collect респин); непокрит distinct kw; котва към Pragmatic профил (vk-0019); public game-DB; чист. Ahrefs BG vol 10, kd n/a — нисък обем, дълга опашка",
       "status": "candidate",
       "date_researched": "2026-09-16",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Tombstone R.I.P. (Nolimit City): RTP, xNudge/xWays и как се играе",
+      "researched_keywords": "tombstone, тумбстоун, tombstone rip, nolimit tombstone",
+      "volume": "150",
+      "kd": "59",
+      "intent": "commercial",
+      "trend": "flat",
+      "checked": "ahrefs",
+      "suggestion": "Nolimit City western/гробищен хай-вол слот; различен слот от San Quentin (vk-0097) и Fire in the Hole (vk-0089) → котва към Nolimit провайдър; distinct branded kw; public game-DB (NOT operator T&C/НАП); чист (няма в sitemap). Ahrefs BG vol 150/kd 59 commercial — силен обем; провери мех. (xNudge множещи wild-ове) преди писане, НЕ фабрикувай",
+      "status": "candidate",
+      "date_researched": "2026-09-17",
+      "opportunity": {
+        "score": 24,
+        "band": "Weak"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Cleocatra (Pragmatic): RTP, разширяващи се wild-ове и как се играе",
+      "researched_keywords": "cleocatra, клеокатра, pragmatic cleocatra",
+      "volume": "60",
+      "kd": "",
+      "intent": "commercial",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "Pragmatic Play египетски слот (разширяващи се wild в бонуса) — непокрит distinct kw; котва към Pragmatic профил (vk-0019); public game-DB; чист. Ahrefs BG vol 60 (down тренд), kd n/a. Проверявай механика web преди писане",
+      "status": "candidate",
+      "date_researched": "2026-09-17",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Pirots 2 (ELK Studios): RTP, collection механика и как се играе",
+      "researched_keywords": "pirots 2, пиротс 2, elk pirots",
+      "volume": "30",
+      "kd": "",
+      "intent": "transactional",
+      "trend": "up",
+      "checked": "ahrefs",
+      "suggestion": "въвежда НОВ провайдър ELK Studios (извън покритите Pragmatic/Amusnet/Novomatic/NetEnt/Play'n GO/Hacksaw/Relax/Push/Nolimit); grid/collection слот с птици-collectors; distinct branded kw/провайдър; котва към „доставчици\" хъб (vk-0054) + /blog/games-providers/; public game-DB; чист. Ahrefs BG vol 30 (up тренд), kd n/a",
+      "status": "candidate",
+      "date_researched": "2026-09-17",
       "opportunity": null
     }
   ],

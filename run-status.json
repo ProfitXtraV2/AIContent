@@ -1,19 +1,20 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-09-17T03:12:14Z",
-  "run_finished_utc": null,
-  "articles_written": null,
+  "run_finished_utc": "2026-09-17T03:40:45Z",
+  "articles_written": 3,
   "prs_opened": [
     112,
-    113
+    113,
+    114
   ],
   "run_url": "https://claude.ai/code/session_01UCunbAZ2iYqfz9nKdLGxGh",
-  "note": "daily run 2026-09-17 (first fire): 3 guides planned from research bank (Bigger Bass Bonanza, Tome of Madness, San Quentin xWays). Gemini 429 (billing depleted) -> Step-7/8 Gemini skipped; SVG infographics only.",
+  "note": "first fire 2026-09-17: 3 guides drafted (vk-0095 Bigger Bass Bonanza #112, vk-0096 Tome of Madness #113, vk-0097 San Quentin xWays #114). Gemini 429 (billing depleted since 14.09) -> Step-7/8 Gemini skipped, 2 SVG infographics each, 0 integrity issues. Ahrefs healthy. Bank 11 candidates (replenished Tombstone/Cleocatra/Pirots 2). Fact-corrections: Tome of Madness=Portal Meter (not bank's Pandora's Keys); San Quentin=Jumping Wilds (not xNudge).",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 3,
     "article_total": 3,
-    "article_slug": "2026-09-17-san-quentin",
+    "article_slug": null,
     "stages": [
       "Synthesis",
       "Outline",
@@ -26,7 +27,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "stage_index": null,
+    "stage": null
   }
 }
