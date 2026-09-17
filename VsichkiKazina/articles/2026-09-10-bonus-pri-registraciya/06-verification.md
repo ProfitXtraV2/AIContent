@@ -4,6 +4,9 @@
 Article: **Бонус при регистрация: как работи и какви са условията** · type: guide (bonus-mechanics education) · byline: editorial (signed Георги Тодоров) · gate: PASS WITH FIXES 93/100 · humanisation: HUMAN-LIKE · Gemini Step-7: human 85 (HL 35→85, PASS pass 1) · images: 2 (best score 100) · run date: 10.09.2026
 
 ## Surviving flags
+
+**RESOLVED — 0 surviving flags as of 17.09.2026.** The [VERIFY] described below was resolved in commit `741d69a`: the disputed value is no longer asserted in the text. 05b now contains no [VERIFY]/[DATA NEEDED]/[CONFLICT]. Verified at human approval; the original autopilot note is kept below for the audit trail.
+
 **1** in-text [VERIFY]: данъчен режим на печалбите от хазарт (насочено към счетоводител/НАП, НЕ твърдяно). No [CONFLICT]/[DATA NEEDED]. Няма конкретен оператор, няма licence №, няма конкретна оферта. Всяко € число е ИЛЮСТРАТИВНО (маркирано „примерни" в текста и в инфографиката).
 
 ## Nature of the content (why no operator/НАП source needed)
