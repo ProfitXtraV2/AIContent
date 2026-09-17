@@ -4,6 +4,9 @@
 Article: **Burning Hot: RTP и характеристики (EGT/Amusnet класика)** · type: guide (slot explainer) · byline: editorial (signed Георги Тодоров) · gate: PASS WITH FIXES 93/100 · humanisation: HUMAN-LIKE · Gemini Step-7: **human 85** (HL 75 → 85 PASS, pass 1 kept) · images: 2 (infographic 100, hero 75 kept-best) · run date: 09.09.2026
 
 ## Surviving flags
+
+**RESOLVED — 0 surviving flags as of 17.09.2026.** The [VERIFY] described below was resolved in commit `49cb24c`: the disputed value is no longer asserted in the text. 05b now contains no [VERIFY]/[DATA NEEDED]/[CONFLICT]. Verified at human approval; the original autopilot note is kept below for the audit trail.
+
 **1** in-text [VERIFY]: the exact alternate RTP configurations for the *original* Burning Hot are not publicly listed. The announced/default RTP is 96.45%; EGT/Amusnet is known to ship operator-selectable RTP builds, but no reachable page enumerates the specific tiers for this title (one source, clashofslots, lists the original at 95.97%). The text asserts only 96.45% (default) + „operator may run a different configuration, check the info panel" — nothing fabricated. No [CONFLICT]/[DATA NEEDED]. Public game-information explainer; no BG operator, no licence number, no bonus terms.
 
 ## Provider/game claims to confirm at publish (source URLs)
