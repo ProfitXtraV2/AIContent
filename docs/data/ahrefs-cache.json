@@ -1,4 +1,15 @@
 {
+"bg|5 lions megaways": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": 50,
+"difficulty": null,
+"intents": {},
+"keyword": "5 lions megaways",
+"volume": 30
+},
+"trend": "up"
+},
 "bg|aztec gems": {
 "fetched": "2026-09-16",
 "row": {
@@ -174,6 +185,24 @@
 "volume": 0
 }
 },
+"bg|duck hunters": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": true,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "duck hunters",
+"volume": 50
+},
+"trend": "up"
+},
 "bg|elk studios": {
 "fetched": "2026-09-17",
 "row": {
@@ -337,6 +366,24 @@
 },
 "trend": "up"
 },
+"bg|le bandit": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "le bandit",
+"volume": 100
+},
+"trend": "down"
+},
 "bg|le pharaoh": {
 "fetched": "2026-09-17",
 "row": {
@@ -373,6 +420,24 @@
 },
 "keyword": "money train 3",
 "volume": 10
+},
+"trend": "down"
+},
+"bg|nolimit city": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": 250,
+"difficulty": 67,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": true,
+"transactional": true
+},
+"keyword": "nolimit city",
+"volume": 350
 },
 "trend": "down"
 },
@@ -638,6 +703,24 @@
 },
 "trend": "up"
 },
+"bg|sugar rush": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": 2,
+"difficulty": 13,
+"intents": {
+"branded": false,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "sugar rush",
+"volume": 150
+},
+"trend": "flat"
+},
 "bg|sugar rush 1000": {
 "fetched": "2026-09-17",
 "row": {
@@ -666,6 +749,24 @@
 "volume": 10
 },
 "trend": "up"
+},
+"bg|sweet bonanza 1000": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": 30,
+"difficulty": null,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "sweet bonanza 1000",
+"volume": 250
+},
+"trend": "down"
 },
 "bg|sweet bonanza super scatter": {
 "fetched": "2026-09-17",
@@ -754,6 +855,24 @@
 },
 "trend": "down"
 },
+"bg|wanted dead or a wild": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": 50,
+"difficulty": 51,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "wanted dead or a wild",
+"volume": 150
+},
+"trend": "down"
+},
 "bg|wild west gold": {
 "fetched": "2026-09-16",
 "row": {
@@ -807,6 +926,24 @@
 "volume": 10
 },
 "trend": "down"
+},
+"bg|yggdrasil": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": 2,
+"difficulty": 72,
+"intents": {
+"branded": false,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "yggdrasil",
+"volume": 90
+},
+"trend": "flat"
 },
 "bg|данък печалба нелицензирано казино": {
 "fetched": "2026-09-16",

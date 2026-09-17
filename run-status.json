@@ -1,19 +1,20 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-09-17T22:11:24Z",
-  "run_finished_utc": null,
-  "articles_written": null,
+  "run_finished_utc": "2026-09-17T22:44:08Z",
+  "articles_written": 3,
   "prs_opened": [
     118,
-    119
+    119,
+    120
   ],
   "run_url": "https://claude.ai/code/session_01As8DzatvdnT5X6jSH7xPny",
-  "note": "daily run (3rd fire 2026-09-17): guides-only; backlog all blocked (NV Casino operator-dependent); batch from research bank — ELK Studios provider profile (150), Gems Bonanza (30/69), Big Bass Bonanza Megaways (20)",
+  "note": "3rd recurring fire 2026-09-17: 3 guides drafted — Gems Bonanza/Pragmatic (vk-0102 #118, gate 93, cluster-pays+Gold Fever corrected vs bank, 3 [VERIFY]), ELK Studios provider profile (vk-0101 #119, gate 93, top-slots infographic, 2 [VERIFY]), Big Bass Bonanza Megaways/Reel Kingdom (vk-0103 #120, gate 93, engine-variant differentiator, 2 [VERIFY]). Selection: backlog all blocked (10 NV Casino operator/НАП rows, guides-only scope) -> research bank by opportunity/volume: ELK 150, Gems Bonanza 30/69, Big Bass Megaways 20. All dedup+anti-cannibalization clean. GEMINI STILL DOWN (HTTP 429 RESOURCE_EXHAUSTED, prepayment credits depleted — probed live, 5th day since 14.09): Step-7 text check + Step-8 image review SKIPPED (gemini=skipped on all 3), AI hero skipped; each article ships 2 hand-authored SVGs (1 data infographic + 1 concept hero), every figure traced verbatim to 05b, manual integrity check 0 fabrications, all rendered clean (cairosvg). Non-fabrication wins: Gems Bonanza fake feature names rejected (Alexander the Great/Money Spins); ELK founders unnamed + Sword of Ares excluded (Pragmatic not ELK); Big Bass Megaways disputed/single-source facts omitted (top reel, 6-scatter/25 FS, Super buy 300x). AHREFS HEALTHY (workspace 13.2k/200k, key 11.6k/25k, reset 15.10): probed ~14 kw; replenished 3 used candidates with Nolimit City provider profile (350/kd67 STRONG), 5 Lions Megaways (30), Duck Hunters (50). Zero-volume confirmed (not added): the dog house multihold, the wild machine. Bank ~11 candidates. Buffer 79->82 (floor 10, no cap). Board on main; 3 content PRs (#118/#119/#120, article-dir only). Human owns Step 6 flag-resolution/merge/publish. RECOMMEND: top up Gemini prepayment credits, then re-run gemini_check + gemini_image_review on vk-0080..0103.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 3,
     "article_total": 3,
-    "article_slug": "2026-09-17-big-bass-bonanza-megaways",
+    "article_slug": null,
     "stages": [
       "Synthesis",
       "Outline",
@@ -26,7 +27,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "stage_index": null,
+    "stage": null
   }
 }
