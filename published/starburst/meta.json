@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "slug": "starburst",
+  "title": "Starburst: защо е класика с ниска волатилност",
+  "meta_description": "Starburst на NetEnt с RTP 96.08%, ниска волатилност и една-единствена функция: разширяващ се wild с respin. Защо няма бонус игра и за кого е подходяща.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-11",
+  "date_modified": "2026-09-11",
+  "keywords": [
+    "starburst",
+    "старбърст",
+    "starburst rtp",
+    "starburst слот"
+  ],
+  "images": [
+    {
+      "path": "images/starburst-hero.webp",
+      "alt": "Абстрактна космическа композиция от светещи разноцветни кристали и звезди на тъмносин фон, вдъхновена от визуалния стил на слота Starburst"
+    },
+    {
+      "path": "images/starburst-rtp.svg",
+      "alt": "Илюстративно: при обявен RTP около 96% и €1000 оборот средно ~€960 се връщат на играча, ~€40 остават за казиното; официалният RTP на Starburst е 96.08% и се проверява в инфо-панела"
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": -1,
+  "status": "approved",
+  "content_hash": "db33a1fb732333e06afff8643dd9a4498accad8ebbcb93434a5abaf5455aa13a"
+}

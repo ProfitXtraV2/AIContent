@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "slug": "live-game-shows",
+  "title": "Live game shows: Crazy Time, Monopoly Live, Lightning",
+  "meta_description": "Как се играят live game shows Crazy Time, Monopoly Live и Lightning Roulette: механика, бонус игри, множители и честната истина за RTP по залог.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-09",
+  "date_modified": "2026-09-09",
+  "keywords": [
+    "crazy time",
+    "monopoly live",
+    "lightning roulette",
+    "live game show"
+  ],
+  "images": [
+    {
+      "path": "images/live-game-show-koleloto-hero.webp",
+      "alt": "Колело на телевизионно казино шоу на живо с ярки цветни сегменти, декоративна метафора за формата game show"
+    },
+    {
+      "path": "images/live-game-shows-rtp-sravnenie-infografika.svg",
+      "alt": "RTP диапазони на популярни live game shows: Crazy Time, Monopoly Live, Lightning Roulette, и защо залогът определя реалния RTP"
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": 20,
+  "status": "approved",
+  "content_hash": "a86c5810ae914863f0342588a3b65ca4e72a288f974f69ec8f646e01bedb0e26"
+}

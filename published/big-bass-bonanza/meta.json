@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "slug": "big-bass-bonanza",
+  "title": "Big Bass Bonanza: RTP, волатилност и как се играе",
+  "meta_description": "Как работи Big Bass Bonanza на Pragmatic Play: рибарят wild събира парите-риби, безплатни завъртания с множители до 10x, RTP 96.71% и висока волатилност.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-09",
+  "date_modified": "2026-09-09",
+  "keywords": [
+    "big bass bonanza",
+    "биг бас бонанза"
+  ],
+  "images": [
+    {
+      "path": "images/big-bass-bonanza-hero.webp",
+      "alt": "Абстрактна илюстрация на риболовна тема с плувка, риба и вълни по мотива на Big Bass Bonanza, без лого или интерфейс на оператор"
+    },
+    {
+      "path": "images/big-bass-bonanza-rtp.svg",
+      "alt": "Big Bass Bonanza RTP: при €1000 оборот и версия 96.71% на играча се връщат средно €967.10, а €32.90 остават за казиното; операторът може да пусне и по-нисък RTP"
+    },
+    {
+      "path": "images/big-bass-bonanza-bonus.svg",
+      "alt": "Инфографика за бонуса на Big Bass Bonanza: 3 скатера дават 10 завъртания, 4 дават 15, 5 дават 20; на всеки 4 събрани рибари множителят се качва 2x, 3x, 10x с по още 10 завъртания"
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": 20,
+  "status": "approved",
+  "content_hash": "ea0dc164c2c4d3e39d5960067205e4d7434be91eb8949003096f8b8930ac053e"
+}

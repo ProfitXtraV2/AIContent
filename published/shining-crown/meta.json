@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "slug": "shining-crown",
+  "title": "Shining Crown: RTP, линии и характеристики (EGT)",
+  "meta_description": "Shining Crown на EGT/Amusnet: 5x3, 10 линии, RTP 96.37% (конфигурируем). Обясняваме wild короната, скатерите, Gamble и Jackpot Cards прогресива.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-09",
+  "date_modified": "2026-09-09",
+  "keywords": [
+    "shining crown",
+    "шайнинг краун"
+  ],
+  "images": [
+    {
+      "path": "images/shining-crown-plodov-slot-hero.webp",
+      "alt": "Стилизирани летящи плодови символи, корона и звезда на тъмен фон, декоративна метафора за слота Shining Crown"
+    },
+    {
+      "path": "images/shining-crown-harakteristiki-infografika.svg",
+      "alt": "Shining Crown накратко: 5x3 барабана, 10 линии, RTP ~96.37%, ниска-до-средна волатилност, wild корона, scatter звезда, Gamble и Jackpot Cards прогресив"
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": 24,
+  "status": "approved",
+  "content_hash": "514eadb0eef4f6a62f83d3ec4cac87984d6ca92bf69a923dc8c48e559d2154bf"
+}

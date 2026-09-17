@@ -1,7 +1,14 @@
 {
   "schema_version": 1,
-  "count": 2,
+  "count": 9,
   "articles": [
+    {
+      "slug": "linii-na-pechalba",
+      "title": "Линии на печалба в ротативките: как печелите",
+      "date_modified": "2026-09-08",
+      "content_hash": "234dfe68ed885ff0aea4b0121d3f9eecf68343ae4c55f9875eed21a2532a5f28",
+      "status": "approved"
+    },
     {
       "slug": "gates-of-olympus",
       "title": "Gates of Olympus: RTP, волатилност и как се играе",
@@ -10,12 +17,54 @@
       "status": "approved"
     },
     {
+      "slug": "live-game-shows",
+      "title": "Live game shows: Crazy Time, Monopoly Live, Lightning",
+      "date_modified": "2026-09-09",
+      "content_hash": "a86c5810ae914863f0342588a3b65ca4e72a288f974f69ec8f646e01bedb0e26",
+      "status": "approved"
+    },
+    {
+      "slug": "shining-crown",
+      "title": "Shining Crown: RTP, линии и характеристики (EGT)",
+      "date_modified": "2026-09-09",
+      "content_hash": "514eadb0eef4f6a62f83d3ec4cac87984d6ca92bf69a923dc8c48e559d2154bf",
+      "status": "approved"
+    },
+    {
+      "slug": "burning-hot",
+      "title": "Burning Hot: RTP и характеристики (EGT/Amusnet)",
+      "date_modified": "2026-09-09",
+      "content_hash": "10484619d27068acd2fa4f1563dbcb0a078e623eb966698050c72924a3466292",
+      "status": "approved"
+    },
+    {
+      "slug": "big-bass-bonanza",
+      "title": "Big Bass Bonanza: RTP, волатилност и как се играе",
+      "date_modified": "2026-09-09",
+      "content_hash": "ea0dc164c2c4d3e39d5960067205e4d7434be91eb8949003096f8b8930ac053e",
+      "status": "approved"
+    },
+    {
       "slug": "sugar-rush-1000",
       "title": "Sugar Rush 1000: какво променя версията 1000",
       "date_modified": "2026-09-10",
       "content_hash": "1c5888b2731f657e305b2f77dcea3db6bd1725e520b6e12e19662d12328d5c84",
       "status": "approved"
+    },
+    {
+      "slug": "bonus-pri-registraciya",
+      "title": "Бонус при регистрация: как работи и условията",
+      "date_modified": "2026-09-10",
+      "content_hash": "c98666b44fa58760c9d7634429c8fc70f6520933d644abfd54524421afe5fe2c",
+      "status": "approved"
+    },
+    {
+      "slug": "starburst",
+      "title": "Starburst: защо е класика с ниска волатилност",
+      "date_modified": "2026-09-11",
+      "content_hash": "db33a1fb732333e06afff8643dd9a4498accad8ebbcb93434a5abaf5455aa13a",
+      "status": "approved"
     }
   ],
-  "generated_utc": "2026-09-17T07:34:39Z"
+  "generated_utc": "2026-09-17T19:12:41Z"
 }

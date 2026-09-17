@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "slug": "burning-hot",
+  "title": "Burning Hot: RTP и характеристики (EGT/Amusnet)",
+  "meta_description": "Как работи Burning Hot на EGT/Amusnet: 5 фиксирани линии, разширяващ се wild, два скатера, Jackpot Cards прогресив и RTP 96.45%. Защо прогресивът не сваля предимството.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-09",
+  "date_modified": "2026-09-09",
+  "keywords": [
+    "burning hot",
+    "бърнинг хот"
+  ],
+  "images": [
+    {
+      "path": "images/burning-hot-hero.webp",
+      "alt": "Абстрактна илюстрация в стил класическа ротативка с пламъци и стилизирани плодове по темата на Burning Hot, без лого или интерфейс на оператор"
+    },
+    {
+      "path": "images/burning-hot-rtp.svg",
+      "alt": "Burning Hot RTP: при €1000 оборот и версия 96.45% на играча се връщат средно €964.50, а €35.50 остават за казиното; операторът може да пусне и друга RTP конфигурация"
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": 25,
+  "status": "approved",
+  "content_hash": "10484619d27068acd2fa4f1563dbcb0a078e623eb966698050c72924a3466292"
+}
