@@ -10,6 +10,17 @@
 },
 "trend": "down"
 },
+"bg|big bass halloween": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "big bass halloween",
+"volume": 10
+},
+"trend": "down"
+},
 "bg|big bass splash": {
 "fetched": "2026-09-16",
 "row": {
@@ -64,6 +75,24 @@
 },
 "trend": "up"
 },
+"bg|book of shadows": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "book of shadows",
+"volume": 20
+},
+"trend": "down"
+},
 "bg|buffalo king": {
 "fetched": "2026-09-15",
 "row": {
@@ -85,6 +114,16 @@
 "volume": 0
 }
 },
+"bg|chaos crew": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "chaos crew",
+"volume": 0
+}
+},
 "bg|cleocatra": {
 "fetched": "2026-09-17",
 "row": {
@@ -95,6 +134,17 @@
 "volume": 60
 },
 "trend": "down"
+},
+"bg|coin volcano": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "coin volcano",
+"volume": 10
+},
+"trend": "up"
 },
 "bg|deadwood": {
 "fetched": "2026-09-17",
@@ -111,6 +161,34 @@
 },
 "keyword": "deadwood",
 "volume": 50
+},
+"trend": "down"
+},
+"bg|deadwood slot": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "deadwood slot",
+"volume": 0
+}
+},
+"bg|elk studios": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": 35,
+"difficulty": null,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "elk studios",
+"volume": 150
 },
 "trend": "down"
 },
@@ -152,6 +230,17 @@
 "volume": 0
 }
 },
+"bg|gates of hades": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "gates of hades",
+"volume": 10
+},
+"trend": "down"
+},
 "bg|gates of olympus 1000": {
 "fetched": "2026-09-16",
 "row": {
@@ -167,6 +256,24 @@
 },
 "keyword": "gates of olympus 1000",
 "volume": 150
+},
+"trend": "down"
+},
+"bg|gems bonanza": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": null,
+"difficulty": 69,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "gems bonanza",
+"volume": 30
 },
 "trend": "down"
 },
@@ -219,6 +326,17 @@
 },
 "trend": "down"
 },
+"bg|immortal romance slot": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "immortal romance slot",
+"volume": 10
+},
+"trend": "up"
+},
 "bg|le pharaoh": {
 "fetched": "2026-09-17",
 "row": {
@@ -229,6 +347,34 @@
 "volume": 20
 },
 "trend": "up"
+},
+"bg|mental nolimit": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "mental nolimit",
+"volume": 0
+}
+},
+"bg|money train 3": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": 90,
+"difficulty": 65,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "money train 3",
+"volume": 10
+},
+"trend": "down"
 },
 "bg|nv casino": {
 "fetched": "2026-09-16",
@@ -387,6 +533,16 @@
 },
 "trend": "up"
 },
+"bg|power of merlin": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "power of merlin",
+"volume": 0
+}
+},
 "bg|power of thor megaways": {
 "fetched": "2026-09-16",
 "row": {
@@ -436,6 +592,34 @@
 },
 "trend": "up"
 },
+"bg|santa's great gifts": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "santa's great gifts",
+"volume": 0
+}
+},
+"bg|starburst": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": null,
+"difficulty": 37,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "starburst",
+"volume": 100
+},
+"trend": "down"
+},
 "bg|starlight princess 1000": {
 "fetched": "2026-09-16",
 "row": {
@@ -483,6 +667,17 @@
 },
 "trend": "up"
 },
+"bg|sweet bonanza super scatter": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "sweet bonanza super scatter",
+"volume": 20
+},
+"trend": "down"
+},
 "bg|the dog house multihold": {
 "fetched": "2026-09-16",
 "row": {
@@ -490,6 +685,16 @@
 "difficulty": null,
 "intents": {},
 "keyword": "the dog house multihold",
+"volume": 0
+}
+},
+"bg|the hand of midas": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "the hand of midas",
 "volume": 0
 }
 },
@@ -577,6 +782,28 @@
 "difficulty": null,
 "intents": {},
 "keyword": "wild wild riches",
+"volume": 10
+},
+"trend": "down"
+},
+"bg|wisdom of athena": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "wisdom of athena",
+"volume": 20
+},
+"trend": "down"
+},
+"bg|wisdom of athena 1000": {
+"fetched": "2026-09-17",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "wisdom of athena 1000",
 "volume": 10
 },
 "trend": "down"
