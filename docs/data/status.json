@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-17T07:34:26Z",
+  "generated_utc": "2026-09-17T19:12:24Z",
   "buffer": {
     "count": 79,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 77,
-    "approved": 2,
+    "drafted": 70,
+    "approved": 9,
     "posted": 20,
     "failed": 1
   },
@@ -324,7 +324,7 @@
     },
     {
       "id": "vk-0017",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Линии на печалба в ротативките: как всъщност печелите",
       "keywords_or_terms": "линии на печалба, печеливши линии, как печелят ротативките, начини за печалба",
@@ -336,7 +336,7 @@
       "folder": "2026-09-08-linii-na-pechalba",
       "pr": "#19",
       "gemini": "human 90",
-      "notes": "slots-mechanics education pillar — paylines vs ways-to-win (243=3⁵/1024=4⁵/Megaways 117 649=7⁶), why more lines ≠ better odds, losses-disguised-as-wins (Dixon 2010/Graydon 2018 58%/Jensen 2013, web-verified); anti-cannibal vs listings /slot-igri/ /kazino-igri/rotativki/ (prose only) · gate 92/100; HUMAN-LIKE; 0 flags; Gemini PASS pass-1 (human 90, initial kept); PR #19; img:3 (hero+2 infographics, best score 85)",
+      "notes": "slots-mechanics education pillar — paylines vs ways-to-win (243=3⁵/1024=4⁵/Megaways 117 649=7⁶), why more lines ≠ better odds, losses-disguised-as-wins (Dixon 2010/Graydon 2018 58%/Jensen 2013, web-verified); anti-cannibal vs listings /slot-igri/ /kazino-igri/rotativki/ (prose only) · gate 92/100; HUMAN-LIKE; 0 flags; Gemini PASS pass-1 (human 90, initial kept); PR #19; img:3 (hero+2 infographics, best score 85); approved for deploy 2026-09-17 (human review: Линии на печалба — 0 flags, Gemini human 90; 6 em-dashes removed from alt/caption + infographics at approval)",
       "opportunity": {
         "score": 20,
         "band": "Weak"
@@ -481,7 +481,7 @@
     },
     {
       "id": "vk-0025",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Live game shows (Crazy Time, Monopoly Live): как се играят",
       "keywords_or_terms": "crazy time, monopoly live, lightning roulette, live game show",
@@ -493,7 +493,7 @@
       "folder": "2026-09-09-live-game-shows",
       "pr": "#32",
       "gemini": "human 85",
-      "notes": "live-dealer game-show format explainer (public game data); distinct format pillar; anti-cannibal vs listing /kazino-igri/kazino-na-zhivo/ (not linked) · gate 94/100; 1 in-text [VERIFY] (Monopoly Live lower RTP bound; top ~96.23% confirmed); honest angle „няма RTP на играта, има RTP на залога\"; Gemini HL 85 PASS pass 1 (human 85, initial kept); PR #32; img:2 (infographic + hero, best 95)",
+      "notes": "live-dealer game-show format explainer (public game data); distinct format pillar; anti-cannibal vs listing /kazino-igri/kazino-na-zhivo/ (not linked) · gate 94/100; 1 in-text [VERIFY] (Monopoly Live lower RTP bound; top ~96.23% confirmed); honest angle „няма RTP на играта, има RTP на залога\"; Gemini HL 85 PASS pass 1 (human 85, initial kept); PR #32; img:2 (infographic + hero, best 95); approved for deploy 2026-09-17 (human review: Live game shows — 0 flags ([VERIFY] Monopoly Live RTP floor resolved in 31e4a77), Gemini human 85)",
       "opportunity": {
         "score": 20,
         "band": "Weak"
@@ -501,7 +501,7 @@
     },
     {
       "id": "vk-0026",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Shining Crown: RTP и характеристики (EGT/Amusnet)",
       "keywords_or_terms": "shining crown, шайнинг краун",
@@ -513,7 +513,7 @@
       "folder": "2026-09-09-shining-crown",
       "pr": "#31",
       "gemini": "human 85",
-      "notes": "EGT/Amusnet classic slot-explainer (public game data, NOT operator T&C); clean pillar (no page in sitemap); anchors to Amusnet profile (vk-0021) · gate 95/100; 0 flags (RTP 96.37% default, configurable builds; web-verified); Gemini HL 25→85 PASS pass 1 (human 85); PR #31; img:2 (infographic 100 + hero 90; first hero dropped fake-UI integrity, regenerated abstract; best 100)",
+      "notes": "EGT/Amusnet classic slot-explainer (public game data, NOT operator T&C); clean pillar (no page in sitemap); anchors to Amusnet profile (vk-0021) · gate 95/100; 0 flags (RTP 96.37% default, configurable builds; web-verified); Gemini HL 25→85 PASS pass 1 (human 85); PR #31; img:2 (infographic 100 + hero 90; first hero dropped fake-UI integrity, regenerated abstract; best 100); approved for deploy 2026-09-17 (human review: Shining Crown — 0 flags (volatility ambiguity stated as a range in-text), Gemini human 85)",
       "opportunity": {
         "score": 24,
         "band": "Weak"
@@ -521,7 +521,7 @@
     },
     {
       "id": "vk-0027",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Burning Hot: RTP и характеристики (EGT/Amusnet класика)",
       "keywords_or_terms": "burning hot, бърнинг хот",
@@ -533,7 +533,7 @@
       "folder": "2026-09-09-burning-hot",
       "pr": "#34",
       "gemini": "human 85",
-      "notes": "EGT/Amusnet classic slot-explainer (public game data, NOT operator T&C); clean pillar (no page in sitemap); anchors to Amusnet profile (vk-0021); distinct game+kw from other EGT classics (Shining Crown vk-0026, 20/40 Super Hot vk-0020/0023); RTP 96.45% default web-verified (Amusnet), configurable builds · gate 93/100; 1 in-text [VERIFY] (alt RTP tiers for original not publicly listed); Gemini HL 75→85 PASS pass 1 (human 85); PR #34; img:2 (infographic 100 + hero 75 kept-best; best 100) · nightly 2026-09-09: JOB-A flag resolved — [VERIFY] removed from alt-RTP sentence (states no public list, points to info-panel); 0 blocking markers",
+      "notes": "EGT/Amusnet classic slot-explainer (public game data, NOT operator T&C); clean pillar (no page in sitemap); anchors to Amusnet profile (vk-0021); distinct game+kw from other EGT classics (Shining Crown vk-0026, 20/40 Super Hot vk-0020/0023); RTP 96.45% default web-verified (Amusnet), configurable builds · gate 93/100; 1 in-text [VERIFY] (alt RTP tiers for original not publicly listed); Gemini HL 75→85 PASS pass 1 (human 85); PR #34; img:2 (infographic 100 + hero 75 kept-best; best 100) · nightly 2026-09-09: JOB-A flag resolved — [VERIFY] removed from alt-RTP sentence (states no public list, points to info-panel); 0 blocking markers; approved for deploy 2026-09-17 (human review: Burning Hot — 0 flags ([VERIFY] alt RTP builds resolved in 49cb24c), Gemini human 85)",
       "opportunity": {
         "score": 25,
         "band": "Moderate"
@@ -541,7 +541,7 @@
     },
     {
       "id": "vk-0028",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Big Bass Bonanza: RTP, волатилност и как се играе",
       "keywords_or_terms": "big bass bonanza, биг бас бонанза",
@@ -553,7 +553,7 @@
       "folder": "2026-09-09-big-bass-bonanza",
       "pr": "#35",
       "gemini": "human 90",
-      "notes": "Pragmatic/Reel Kingdom fishing-slot explainer (public game data, NOT operator T&C); clean pillar (no page in sitemap); anchors to Pragmatic profile (vk-0019); distinct cluster from Sweet Bonanza/Gates of Olympus; RTP 96.71% default web-verified (Pragmatic), configurable builds · gate 93/100; 1 in-text [VERIFY] (lower RTP builds 95.67/94.02 secondary-listing); Gemini human 90 PASS pass 1 (initial kept — highest first-pass of batch); PR #35; img:3 (hero 100 + RTP infographic 100 + bonus-ladder infographic 100; all PASS) · nightly 2026-09-09: JOB-A flag resolved — [VERIFY] removed from lower-RTP sentence (95.67/94.02 framed as examples, info-panel caveat kept); 0 blocking markers",
+      "notes": "Pragmatic/Reel Kingdom fishing-slot explainer (public game data, NOT operator T&C); clean pillar (no page in sitemap); anchors to Pragmatic profile (vk-0019); distinct cluster from Sweet Bonanza/Gates of Olympus; RTP 96.71% default web-verified (Pragmatic), configurable builds · gate 93/100; 1 in-text [VERIFY] (lower RTP builds 95.67/94.02 secondary-listing); Gemini human 90 PASS pass 1 (initial kept — highest first-pass of batch); PR #35; img:3 (hero 100 + RTP infographic 100 + bonus-ladder infographic 100; all PASS) · nightly 2026-09-09: JOB-A flag resolved — [VERIFY] removed from lower-RTP sentence (95.67/94.02 framed as examples, info-panel caveat kept); 0 blocking markers; approved for deploy 2026-09-17 (human review: Big Bass Bonanza — 0 flags ([VERIFY] lower RTP builds resolved in 2a6291d), Gemini human 90)",
       "opportunity": {
         "score": 20,
         "band": "Weak"
@@ -692,7 +692,7 @@
     },
     {
       "id": "vk-0036",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Бонус при регистрация: как работи и какви са условията",
       "keywords_or_terms": "бонус при регистрация, начален бонус, депозитен бонус, welcome бонус",
@@ -704,7 +704,7 @@
       "folder": "2026-09-10-bonus-pri-registraciya",
       "pr": "#51",
       "gemini": "human 85",
-      "notes": "bonus-mechanics pillar (evergreen education; deposit-match welcome bonus mechanics — NOT operator-specific T&C); folds „депозитен бонус/бонус за първи депозит\" cluster; distinct from no-deposit pillar vk-0004 + navigational /bonus-category/welcome-bonus/; opportunity Moderate (vol 450/kd68) · gate 93/100; 1 in-text [VERIFY] (данъци); Gemini HL 35→85 PASS pass 1 (human 85); PR #51; img:2 (infographic 100 + hero 100; both PASS)",
+      "notes": "bonus-mechanics pillar (evergreen education; deposit-match welcome bonus mechanics — NOT operator-specific T&C); folds „депозитен бонус/бонус за първи депозит\" cluster; distinct from no-deposit pillar vk-0004 + navigational /bonus-category/welcome-bonus/; opportunity Moderate (vol 450/kd68) · gate 93/100; 1 in-text [VERIFY] (данъци); Gemini HL 35→85 PASS pass 1 (human 85); PR #51; img:2 (infographic 100 + hero 100; both PASS); approved for deploy 2026-09-17 (human review: Бонус при регистрация — 0 flags (tax [VERIFY] resolved in 741d69a; text asserts no tax fact, points to счетоводител/НАП), Gemini human 85)",
       "opportunity": {
         "score": 35,
         "band": "Moderate"
@@ -826,7 +826,7 @@
     },
     {
       "id": "vk-0043",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Starburst: защо е класика с ниска волатилност",
       "keywords_or_terms": "starburst, старбърст, starburst rtp, starburst слот",
@@ -838,7 +838,7 @@
       "folder": "2026-09-11-starburst",
       "pr": "#59",
       "gemini": "human 85",
-      "notes": "web-est vol; NetEnt iconic low-volatility both-ways slot explainer (public game/provider data, NOT operator T&C); clean pillar (no sitemap page); anchors to NetEnt profile (vk-0042 same batch); distinct branded kw · gate 94/100; 0 flags; RTP 96.08% + max win 800х (netent.com official first-source); Gemini human 85 PASS on initial draft; PR #59; img:2 (infographic + hero; review 82 PASS, 0 integrity fail)",
+      "notes": "web-est vol; NetEnt iconic low-volatility both-ways slot explainer (public game/provider data, NOT operator T&C); clean pillar (no sitemap page); anchors to NetEnt profile (vk-0042 same batch); distinct branded kw · gate 94/100; 0 flags; RTP 96.08% + max win 800х (netent.com official first-source); Gemini human 85 PASS on initial draft; PR #59; img:2 (infographic + hero; review 82 PASS, 0 integrity fail); approved for deploy 2026-09-17 (human review: Starburst — 0 flags, Gemini human 85)",
       "opportunity": null
     },
     {
