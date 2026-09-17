@@ -22,10 +22,10 @@
   <rect width="600" height="320" rx="12" ry="12" fill="url(#bg4)"/>
 
   <text x="300" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#1e3a5f" text-anchor="middle">Начини за печалба: мащабът расте</text>
-  <text x="300" y="52" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">Повече начини ≠ по-добри шансове — таблицата на изплащанията се преразпределя</text>
+  <text x="300" y="52" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">Повече начини ≠ по-добри шансове: таблицата на изплащанията се преразпределя</text>
 
   <!-- Row 1: 243 ways -->
-  <!-- Bar: 243 / 117649 × 460 = ~0.95px — too small, use log scale -->
+  <!-- Bar: 243 / 117649 × 460 = ~0.95px: too small, use log scale -->
   <!-- Use proportional log bars: log(243)=5.49, log(1024)=6.93, log(117649)=11.67 -->
   <!-- Normalize to max 460px: 243→5.49/11.67*460=216, 1024→6.93/11.67*460=273, 117649→460 -->
 
