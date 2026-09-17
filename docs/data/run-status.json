@@ -1,32 +1,17 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-16T07:14:10Z",
-  "run_finished_utc": "2026-09-16T07:37:34Z",
-  "articles_written": 3,
-  "prs_opened": [
-    106,
-    107,
-    108
-  ],
-  "run_url": "https://claude.ai/code/session_01Fq9uiS8fRwW9YoHBqjKcNx",
-  "note": "daily run 2026-09-16 (later fire): 3 guides drafted — Fire in the Hole xBomb/Nolimit City (vk-0089 #106), Legacy of Dead/Play'n GO (vk-0090 #107), Aztec Gems/Pragmatic (vk-0091 #108). Gemini STILL 429 (credits depleted) -> Step-7 + image gen/review SKIPPED per daily-run; each ships 2 hand-authored SVG infographics, 0 integrity issues. Flags: Fire-in-the-Hole 3 [VERIFY], Aztec 1, Legacy 0. Fire-in-the-Hole xWays angle dropped (verified absent, not fabricated). Ahrefs online: bank replenished +3 (Eye of Horus 200/kd38, Juicy Fruits 100/kd36, Big Bamboo 30/kd14), 18 zero-vol probes skipped. 10 NV-Casino backlog rows stay blocked (guides-only scope). RECOMMEND re-running Gemini on vk-0086..0091 once credits reset.",
+  "state": "running",
+  "run_started_utc": "2026-09-17T03:12:14Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01UCunbAZ2iYqfz9nKdLGxGh",
+  "note": "daily run 2026-09-17 (first fire): 3 guides planned from research bank (Bigger Bass Bonanza, Tome of Madness, San Quentin xWays). Gemini 429 (billing depleted) -> Step-7/8 Gemini skipped; SVG infographics only.",
   "progress": {
-    "phase": "done",
-    "article_index": 3,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 3,
     "article_slug": null,
-    "stages": [
-      "Synthesis",
-      "Outline",
-      "Author",
-      "Humaniser",
-      "SEO",
-      "Brand Gate",
-      "Light re-check",
-      "Images",
-      "Verification",
-      "PR"
-    ],
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
     "stage_index": null,
     "stage": null
   }
