@@ -3,6 +3,9 @@
 vk-0025 · type: guide (live game-show format explainer, public game data) · byline: Георги Тодоров · brand: Всички Казина
 
 ## Surviving flags
+
+**RESOLVED — 0 surviving flags as of 17.09.2026.** The [VERIFY] described below was resolved in commit `31e4a77`: the disputed value is no longer asserted in the text. 05b now contains no [VERIFY]/[DATA NEEDED]/[CONFLICT]. Verified at human approval; the original autopilot note is kept below for the audit trail.
+
 **1 in-text `[VERIFY]`** (Monopoly Live, §"Monopoly Live"): the exact *lower* RTP bound by bet. The top figure (~96.23% on the number bets) is solidly corroborated across sources; public game databases diverge on the bonus-bet floor (some cite low-90s, others the ~80s). The text states "по публични оценки към 80-те процента" and flags the ambiguity for the human team. Crazy Time and Lightning Roulette figures are fully verified (no flags). No operator T&C / НАП data used (format explainer on public game data).
 
 ## Time-sensitive / factual claims + sources (web-verified, Evolution titles)
