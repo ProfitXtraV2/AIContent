@@ -9,7 +9,7 @@
     126
   ],
   "run_url": "https://claude.ai/code/session_01VnedtTU2AHgwYUsByEic2h",
-  "note": "backfill-images 2026-09-18T15:14Z: backfill: nothing to do (all review-ready articles have images). Scanned 87 drafted/approved rows — every row carries img: in notes and verified images/ folder present on sampled branches (rtp-i-volatilnost img:3, linii-na-pechalba img:3). No candidates remain; job no-ops.",
+  "note": "backfill-images 2026-09-18T20:09Z: backfill: nothing to do (all review-ready articles have images). Scanned drafted/approved rows — every row carries img: in notes. No candidates remain; job no-ops.",
   "progress": {
     "phase": "done",
     "article_index": 3,
