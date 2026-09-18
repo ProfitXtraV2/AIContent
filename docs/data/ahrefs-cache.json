@@ -96,6 +96,17 @@
 },
 "trend": "down"
 },
+"bg|blueprint gaming": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "blueprint gaming",
+"volume": 10
+},
+"trend": "down"
+},
 "bg|book of dead": {
 "fetched": "2026-09-18",
 "row": {
@@ -321,6 +332,16 @@
 },
 "trend": "up"
 },
+"bg|fire in the hole 2": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "fire in the hole 2",
+"volume": 0
+}
+},
 "bg|floating dragon": {
 "fetched": "2026-09-16",
 "row": {
@@ -436,6 +457,17 @@
 "volume": 0
 }
 },
+"bg|gold party": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "gold party",
+"volume": 40
+},
+"trend": "down"
+},
 "bg|great rhino": {
 "fetched": "2026-09-16",
 "row": {
@@ -514,6 +546,34 @@
 "volume": 10
 },
 "trend": "up"
+},
+"bg|jammin jars": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": null,
+"difficulty": 51,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "jammin jars",
+"volume": 100
+},
+"trend": "up"
+},
+"bg|jammin jars 2": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "jammin jars 2",
+"volume": 0
+}
 },
 "bg|le bandit": {
 "fetched": "2026-09-17",
