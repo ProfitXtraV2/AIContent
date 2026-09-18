@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320" role="img" aria-label="Абстрактна композиция: златни монети, подредени по извита примка към стилизирана мишена с концентрични вълни, метафора за събирането и множителите в слота Duck Hunters">
+  <title>Duck Hunters: абстрактна метафора за събиране и множители</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f2027"/>
+      <stop offset="55%" stop-color="#16323b"/>
+      <stop offset="100%" stop-color="#1d3d47"/>
+    </linearGradient>
+    <radialGradient id="coin" cx="38%" cy="34%" r="72%">
+      <stop offset="0%" stop-color="#ffe9a3"/>
+      <stop offset="55%" stop-color="#f5c542"/>
+      <stop offset="100%" stop-color="#c8901a"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3fd6c0" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3fd6c0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="320" rx="18" ry="18" fill="url(#sky)"/>
+
+  <!-- ripple glow behind target -->
+  <circle cx="608" cy="150" r="120" fill="url(#glow)"/>
+
+  <!-- concentric target / ripple motif -->
+  <g fill="none" stroke="#3fd6c0" stroke-opacity="0.9">
+    <circle cx="608" cy="150" r="74" stroke-width="2.5" stroke-opacity="0.28"/>
+    <circle cx="608" cy="150" r="56" stroke-width="2.5" stroke-opacity="0.45"/>
+    <circle cx="608" cy="150" r="38" stroke-width="3" stroke-opacity="0.7"/>
+  </g>
+  <circle cx="608" cy="150" r="18" fill="#3fd6c0"/>
+  <circle cx="608" cy="150" r="7" fill="#0f2027"/>
+
+  <!-- looping path along which coins are collected -->
+  <path d="M60 232 C 150 300, 250 150, 330 176 S 470 250, 560 158" fill="none" stroke="#f5c542" stroke-opacity="0.35" stroke-width="3" stroke-dasharray="2,10" stroke-linecap="round"/>
+
+  <!-- coins collected along the path, growing toward the target (multiplier metaphor) -->
+  <g stroke="#8a5a06" stroke-width="1.5">
+    <circle cx="72" cy="228" r="15" fill="url(#coin)"/>
+    <circle cx="150" cy="248" r="17" fill="url(#coin)"/>
+    <circle cx="236" cy="196" r="19" fill="url(#coin)"/>
+    <circle cx="326" cy="176" r="22" fill="url(#coin)"/>
+    <circle cx="418" cy="204" r="25" fill="url(#coin)"/>
+    <circle cx="502" cy="182" r="29" fill="url(#coin)"/>
+  </g>
+  <!-- coin sheen accents (no text symbols) -->
+  <g fill="#fff6d8" fill-opacity="0.75">
+    <circle cx="66" cy="222" r="4"/>
+    <circle cx="143" cy="241" r="4.5"/>
+    <circle cx="229" cy="189" r="5"/>
+    <circle cx="318" cy="168" r="6"/>
+    <circle cx="409" cy="195" r="7"/>
+    <circle cx="492" cy="172" r="8"/>
+  </g>
+
+  <!-- small stylised ascending bars (multiplier growth), abstract -->
+  <g fill="#3fd6c0" fill-opacity="0.5">
+    <rect x="640" y="250" width="14" height="26" rx="3"/>
+    <rect x="662" y="236" width="14" height="40" rx="3"/>
+    <rect x="684" y="216" width="14" height="60" rx="3"/>
+  </g>
+
+  <text x="34" y="294" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#9fb4bb">18+ Играйте отговорно</text>
+</svg>
