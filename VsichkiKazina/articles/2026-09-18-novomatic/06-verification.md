@@ -38,7 +38,9 @@ Claim: „RTP от 92.13% ... доста под средното връщане.
 - gemini column value: human 85
 
 ## Images (Step 8)
-- <pending — Step 8>
+- images: 2 (top-slots infographic 100, hero 100) — both PASS pass 1, 0 integrity failures, 0 layout defects.
+- Both hand-authored SVG. Infographic numbers all trace to 05b (92.13/95.10/95.66/95.13, 2005/2008/2007/2009,
+  висока/средна). Hero is abstract (open book + expanding symbol + reels), no logos/numbers/faces.
 
 ## Compliance summary
 - Brand Gate: 94/100 PASS, 0 criticals, 0 surviving [VERIFY]. Zero em-dashes. Byline Георги Тодоров. Brand „Всички Казина".

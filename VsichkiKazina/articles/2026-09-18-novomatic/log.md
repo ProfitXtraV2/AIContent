@@ -11,4 +11,5 @@
 - number diff 02→05b: PASS (no changed/missing figure; only added Cyrillic gloss).
 - 06-verification: sources + recalc + flags (0 surviving).
 - Step 7 gemini: initial HL 75 → humaniser pass 1 → HL 85 PASS; kept best (85); gemini=human 85.
-- Step 8 images: <pending>
+- Step 8 images: 2 SVG (top-slots infographic + hero); Gemini review 100/100 PASS both, 0 integrity, 0 layout defects.
+- final: branch content/2026-09-18-novomatic; gate 94 PASS; gemini human 85; images 100/100; 0 [VERIFY]; 0 em-dashes.
