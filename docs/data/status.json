@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-18T06:43:05Z",
+  "generated_utc": "2026-09-18T07:14:15Z",
   "buffer": {
     "count": 84,
     "target": 10,
@@ -7,7 +7,7 @@
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
+    "in-progress": 3,
     "drafted": 76,
     "approved": 8,
     "posted": 21,
@@ -1941,6 +1941,66 @@
       "gemini": "skipped",
       "notes": "game explainer; distinct engine-вариант (Megaways до 200704 начина + каскади) vs база 5 Lions (2018, fix 243)/5 Lions Gold (2019, 243+джакпот); release corrected 2021, множител-wild до 40x (не 'unlimited'); RTP 96.5% (builds 95.52/94.54, house edge 3.5/5.46), max 5000x, вол.5/5, залог 0.20-125, ante +25%, bonus buy 100x region-dep; public game-DB, NOT operator T&C/НАП; gate 95/100 0 crit; Gemini Step-7 SKIPPED (429); img:3 (hero + RTP + features SVG, review skipped 429, 0 integrity); 4 [VERIFY] hedged (ways 200704 vs 117649; RTP build; дата; bonus-buy БГ); Ahrefs vol 30",
       "opportunity": null
+    },
+    {
+      "id": "vk-0107",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Playtech: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "playtech, плейтек, playtech слотове, playtech казино игри",
+      "volume": "500",
+      "kd": "72",
+      "source": "research",
+      "drafted_date": "2026-09-18",
+      "posted_date": "",
+      "folder": "2026-09-18-playtech",
+      "pr": "",
+      "gemini": "",
+      "notes": "provider-hub pillar; НАЙ-СИЛЕН нов провайдър (500/commercial kd72); распознат за Age of Gods/Buffalo Blitz; provider licences на студиото, NOT operator T&C/НАП",
+      "opportunity": {
+        "score": 36,
+        "band": "Moderate"
+      }
+    },
+    {
+      "id": "vk-0108",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Spaceman (Pragmatic): RTP, cash-out механика и как се играе",
+      "keywords_or_terms": "spaceman, спейсмен, pragmatic spaceman, spaceman rtp",
+      "volume": "30",
+      "kd": "37",
+      "source": "research",
+      "drafted_date": "2026-09-18",
+      "posted_date": "",
+      "folder": "2026-09-18-spaceman",
+      "pr": "",
+      "gemini": "",
+      "notes": "crash/multiplier explainer; distinct от Aviator (krash-igri vk-0018); auto/двоен cash-out; provider site + game-DB, NOT operator T&C/НАП",
+      "opportunity": {
+        "score": 27,
+        "band": "Moderate"
+      }
+    },
+    {
+      "id": "vk-0109",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Wazdan: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "wazdan, уаздан, wazdan слотове, wazdan казино игри",
+      "volume": "30",
+      "kd": "36",
+      "source": "research",
+      "drafted_date": "2026-09-18",
+      "posted_date": "",
+      "folder": "2026-09-18-wazdan",
+      "pr": "",
+      "gemini": "",
+      "notes": "provider-hub pillar; Unique features (Volatility Levels/Energy Saving Mode); kd36 добра възможност; provider licences на студиото, NOT operator T&C/НАП",
+      "opportunity": {
+        "score": 27,
+        "band": "Moderate"
+      }
     }
   ],
   "backlog": [

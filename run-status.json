@@ -1,18 +1,14 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-18T03:13:14Z",
-  "run_finished_utc": "2026-09-18T03:33:40Z",
-  "articles_written": 3,
-  "prs_opened": [
-    121,
-    122,
-    123
-  ],
-  "run_url": "https://claude.ai/code/session_017dk5ygZw6mpWuygKCRLrrG",
-  "note": "daily run 2026-09-18 (recurring fire): 3 guides drafted — Nolimit City provider profile (vk-0104 #121, gate 94, Evolution acq date corrected to Aug 2022, top-slots infographic from provider site, 0 in-text VERIFY), Duck Hunters game explainer (vk-0105 #122, gate 94; NON-FABRICATION: provider corrected to Nolimit City not Hacksaw, false kw dropped; 0 VERIFY), 5 Lions Megaways (vk-0106 #123, gate 95; base/Gold/Megaways kept distinct, release+multiplier corrected; 4 VERIFY hedged). Selection: backlog all blocked (10 NV Casino operator/НАП rows, guides-only scope) -> research bank by opportunity — Nolimit City 350/kd67, Duck Hunters 50, 5 Lions Megaways 30. All dedup+anti-cannibalization clean (game explainers distinct from provider hub). GEMINI STILL DOWN (HTTP 429 RESOURCE_EXHAUSTED, prepayment credits depleted — probed live, 6th day since 14.09): Step-7 text check + Step-8 image review SKIPPED (gemini=skipped on all 3), AI hero skipped; each article ships hand-authored SVGs (Nolimit 2, Duck Hunters 2, 5 Lions 3), every figure traced verbatim to 05b, manual integrity 0 fabrications, all render clean (cairosvg). AHREFS HEALTHY (workspace 15k/200k, key 13.4k/25k, reset 15.10): probed ~30 kw; replenished 3 used candidates with +5 new (Playtech 500/kd72 STRONGEST, Yggdrasil 90/kd72, Spaceman 30/kd37, Red Tiger 40/kd83, Wazdan 30/kd36). Zero-volume confirmed & skipped: the hand of midas, gates of gatotkaca, gigantoonz, temple tumble, cash bonanza, deadwood slot, power of thor megaways, floating dragon, sun of egypt. Also found already-covered (not re-added): hacksaw gaming vk-0067, le bandit vk-0079, gates of olympus 1000 vk-0034, starlight princess vk-0040. Bank ~13 candidates. Buffer 82->85 (floor 10, no cap). Board on main; 3 content PRs (#121/#122/#123, article-dir only). Human owns Step 6 flag-resolution/merge/publish. RECOMMEND: top up Gemini prepayment credits, then re-run gemini_check + gemini_image_review on vk-0080..0106.",
+  "state": "running",
+  "run_started_utc": "2026-09-18T12:00:00Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01VnedtTU2AHgwYUsByEic2h",
+  "note": "daily run 2026-09-18 (2nd recurring fire): reconciled — 0 in-progress rows; backlog all NV Casino operator/НАП-blocked (guides-only scope), left open; selected 3 research candidates by opportunity — Playtech hub (vk-0107, vol500/kd72, Moderate 36), Spaceman (vk-0108, vol30/kd37, Moderate 27), Wazdan hub (vk-0109, vol30/kd36, Moderate 27); dedup+anti-cannibalization clean vs queue+sitemap. Writing 3 guides in parallel.",
   "progress": {
-    "phase": "done",
-    "article_index": 3,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 3,
     "article_slug": null,
     "stages": [
@@ -27,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": null,
-    "stage": null
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
