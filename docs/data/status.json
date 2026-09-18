@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-18T03:33:17Z",
+  "generated_utc": "2026-09-18T06:43:05Z",
   "buffer": {
-    "count": 85,
+    "count": 84,
     "target": 10,
     "deficit": 0,
     "ok": true
@@ -9,8 +9,8 @@
   "counts": {
     "in-progress": 0,
     "drafted": 76,
-    "approved": 9,
-    "posted": 20,
+    "approved": 8,
+    "posted": 21,
     "failed": 1
   },
   "rows": [
@@ -692,7 +692,7 @@
     },
     {
       "id": "vk-0036",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Бонус при регистрация: как работи и какви са условията",
       "keywords_or_terms": "бонус при регистрация, начален бонус, депозитен бонус, welcome бонус",
@@ -700,7 +700,7 @@
       "kd": "68",
       "source": "research",
       "drafted_date": "2026-09-10",
-      "posted_date": "",
+      "posted_date": "2026-09-18",
       "folder": "2026-09-10-bonus-pri-registraciya",
       "pr": "#51",
       "gemini": "human 85",
