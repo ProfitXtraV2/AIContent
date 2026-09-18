@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-18T07:19:09Z",
+  "generated_utc": "2026-09-18T07:38:36Z",
   "buffer": {
-    "count": 84,
+    "count": 87,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 3,
-    "drafted": 76,
+    "in-progress": 0,
+    "drafted": 79,
     "approved": 8,
     "posted": 21,
     "failed": 1
@@ -1944,7 +1944,7 @@
     },
     {
       "id": "vk-0107",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Playtech: профил на доставчика, механики и топ слотове",
       "keywords_or_terms": "playtech, плейтек, playtech слотове, playtech казино игри",
@@ -1954,9 +1954,9 @@
       "drafted_date": "2026-09-18",
       "posted_date": "",
       "folder": "2026-09-18-playtech",
-      "pr": "",
-      "gemini": "",
-      "notes": "provider-hub pillar; НАЙ-СИЛЕН нов провайдър (500/commercial kd72); распознат за Age of Gods/Buffalo Blitz; provider licences на студиото, NOT operator T&C/НАП",
+      "pr": "#124",
+      "gemini": "skipped",
+      "notes": "provider-hub pillar; НАЙ-СИЛЕН нов провайдър (500/commercial kd72); founded 1999 Tartu/Teddy Sagi, LSE/FTSE-250, 2021 Aristocrat bid НЕ се осъществи (corrected); Age of the Gods прогресив honest pool-funded; multi-RTP-build reality; gate 93/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted 7th day); img:3 (hero + AoG jackpot-tiers + top-slots SVG, review skipped 429, 0 integrity/fabrication); 2 [VERIFY] hedged (ownership status; live RTP build); provider licences на студиото, NOT operator T&C/НАП",
       "opportunity": {
         "score": 36,
         "band": "Moderate"
@@ -1964,7 +1964,7 @@
     },
     {
       "id": "vk-0108",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Spaceman (Pragmatic): RTP, cash-out механика и как се играе",
       "keywords_or_terms": "spaceman, спейсмен, pragmatic spaceman, spaceman rtp",
@@ -1974,9 +1974,9 @@
       "drafted_date": "2026-09-18",
       "posted_date": "",
       "folder": "2026-09-18-spaceman",
-      "pr": "",
-      "gemini": "",
-      "notes": "crash/multiplier explainer; distinct от Aviator (krash-igri vk-0018); auto/двоен cash-out; provider site + game-DB, NOT operator T&C/НАП",
+      "pr": "#125",
+      "gemini": "skipped",
+      "notes": "crash/multiplier explainer; distinct от Aviator (krash-igri vk-0018); RTP 96.50%, max 5000x, залог €1-€100, авто/50% cash-out, два залога; gate 94/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (hero + cash-out SVG, review skipped 429, 0 integrity); 0 [VERIFY] in-text (рекламен таван/RTP версии hedged); provider site + game-DB, NOT operator T&C/НАП",
       "opportunity": {
         "score": 27,
         "band": "Moderate"
@@ -1984,7 +1984,7 @@
     },
     {
       "id": "vk-0109",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Wazdan: профил на доставчика, механики и топ слотове",
       "keywords_or_terms": "wazdan, уаздан, wazdan слотове, wazdan казино игри",
@@ -1994,9 +1994,9 @@
       "drafted_date": "2026-09-18",
       "posted_date": "",
       "folder": "2026-09-18-wazdan",
-      "pr": "",
-      "gemini": "",
-      "notes": "provider-hub pillar; Unique features (Volatility Levels/Energy Saving Mode); kd36 добра възможност; provider licences на студиото, NOT operator T&C/НАП",
+      "pr": "#126",
+      "gemini": "skipped",
+      "notes": "provider-hub pillar; Полски корени/Malta HQ (Wazdan Holding, осн. 2010), MGA/UKGC B2B; Unique/Freedom of Choice + Volatility Levels (променя формата на дисперсия, НЕ RTP), Hold the Jackpot; NON-FABRICATION: 'Sto Zł' непотвърдим→заменен с 9 Coins, 'Cards & Collectibles' махнат; gate 93/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (volatility-selector hero + top-slots SVG, review skipped 429, 0 integrity); 0 [VERIFY] in-text (RTP build/дата hedged); provider licences на студиото, NOT operator T&C/НАП",
       "opportunity": {
         "score": 27,
         "band": "Moderate"
@@ -2260,7 +2260,7 @@
       "trend": "flat",
       "checked": "ahrefs",
       "suggestion": "НАЙ-СИЛЕН нов провайдър-хъб (500/commercial): Playtech непокрит; голям обем, kd72 висок но branded provider-query; хъбът е котва към доставчици-хъб + бъдещи Playtech game explainer-и (Buffalo Blitz, Age of the Gods серия); provider licences на студиото, НЕ казино НАП; provider site + game-DB, NOT operator T&C/НАП. Топ приоритет",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-18",
       "opportunity": {
         "score": 36,
@@ -2294,7 +2294,7 @@
       "trend": "down",
       "checked": "ahrefs",
       "suggestion": "Crash/multiplier игра на Pragmatic, distinct kw непокрит (queue/sitemap 0); kd37 нисък = добра възможност; distinct от Aviator (krash-igri vk-0018) като branded вариант, auto/двоен cash-out; в scope (не оператор/НАП); provider site + game-DB. Провери RTP/max multiplier web",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-18",
       "opportunity": {
         "score": 27,
@@ -2328,7 +2328,7 @@
       "trend": "down",
       "checked": "ahrefs",
       "suggestion": "Провайдър-хъб непокрит (30/commercial, kd36 нисък = добра възможност); Unique Features (Volatility Levels, Energy Saving Mode), Hold the Jackpot серия; котва към доставчици-хъб; provider licences на студиото; provider site + game-DB, NOT operator T&C/НАП",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-18",
       "opportunity": {
         "score": 27,
