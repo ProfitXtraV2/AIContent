@@ -1,7 +1,7 @@
 {
   "state": "idle",
-  "run_started_utc": "2026-09-18T12:00:00Z",
-  "run_finished_utc": "2026-09-18T12:45:00Z",
+  "run_started_utc": "2026-09-18T15:14:29Z",
+  "run_finished_utc": "2026-09-18T15:14:29Z",
   "articles_written": 3,
   "prs_opened": [
     124,
@@ -9,7 +9,7 @@
     126
   ],
   "run_url": "https://claude.ai/code/session_01VnedtTU2AHgwYUsByEic2h",
-  "note": "daily run 2026-09-18 (2nd recurring fire): 3 guides drafted — Playtech provider hub (vk-0107 #124, gate 93, corrected: 2021 Aristocrat bid NOT completed / Playtech remains independent LSE, Age of the Gods framed as pool-funded, no invented jackpot €; img:3 SVG), Spaceman crash explainer (vk-0108 #125, gate 94, RTP 96.50%/max 5000x/€1-€100, distinct from Aviator & general crash page; 0 in-text VERIFY; img:2 SVG), Wazdan provider hub (vk-0109 #126, gate 93; NON-FABRICATION: unverifiable 'Sto Zł' dropped->9 Coins, 'Cards & Collectibles' omitted, Polish roots+Malta HQ; Volatility Levels changes variance shape not RTP; img:2 SVG). Selection: backlog all NV Casino operator/НАП-blocked (guides-only scope, left open); research bank by opportunity — Playtech 500/kd72 (Moderate 36), Spaceman 30/kd37 (Moderate 27), Wazdan 30/kd36 (Moderate 27). Dedup+anti-cannibalization clean vs queue+sitemap (78 URLs). GEMINI STILL DOWN (HTTP 429 RESOURCE_EXHAUSTED, prepayment credits depleted, 7th day): Step-7 text check + Step-8 image review SKIPPED (gemini=skipped on all 3), AI hero skipped; each article ships hand-authored SVGs (Playtech 3, Spaceman 2, Wazdan 2), every figure traced verbatim to 05b, manual integrity 0 fabrications, all pass xmllint. AHREFS HEALTHY: probed 12 kw, replenished 3 used with +8 new (Book of Dead 150/kd56, Wanted Dead or a Wild 150/kd51, Book of Ra 150/kd73, Sizzling Hot 70/kd67, Microgaming 70/kd74, NetEnt 50/kd69, Novomatic 50/kd62, Play'n GO 50); low-vol folded (reactoonz/legacy of dead/thunderkick/money train 3); no zero-vol skips this round. Bank 18 candidates. Buffer 84->87 (floor 10, no cap). INFRA NOTE: subagent worktree isolation did NOT apply — 3 writers shared one working tree and raced (clobbered branches + reset origin/main); fully recovered from local git objects — rebuilt all 3 content branches clean (one article dir each, correct commit trails), restored main with research commit, verified byline/brand/files on each. Board on main; 3 content PRs (#124/#125/#126, article-dir only). Human owns Step 6 flag-resolution/merge/publish. RECOMMEND: top up Gemini prepayment credits, then re-run gemini_check + gemini_image_review on the vk-0080..0109 backlog; and investigate why Agent worktree isolation fell back to the shared checkout (fix before next parallel run or serialize writers).",
+  "note": "backfill-images 2026-09-18T15:14Z: backfill: nothing to do (all review-ready articles have images). Scanned 87 drafted/approved rows — every row carries img: in notes and verified images/ folder present on sampled branches (rtp-i-volatilnost img:3, linii-na-pechalba img:3). No candidates remain; job no-ops.",
   "progress": {
     "phase": "done",
     "article_index": 3,
