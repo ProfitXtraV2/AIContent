@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" role="img" aria-label="Функциите на 5 Lions Megaways: три или повече скатера задействат безплатни завъртания с избор от конфигурации и wild множители до 40 пъти; платените входове са ante bet с плюс 25 процента залог за удвоен шанс и bonus buy за 100 пъти залога, чието наличие зависи от региона">
+  <title>5 Lions Megaways: бонус и платени функции</title>
+  <defs>
+    <linearGradient id="bgf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff7ed"/>
+      <stop offset="100%" stop-color="#ffedd5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="760" height="340" rx="14" fill="url(#bgf)"/>
+
+  <text x="380" y="38" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="800" fill="#7c2d12" text-anchor="middle">Как се стига до бонуса</text>
+
+  <text x="40" y="70" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#9a3412">Пътят до безплатните завъртания</text>
+
+  <g font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">
+    <rect x="40" y="80" width="206" height="80" rx="10" fill="#ffffff" stroke="#f97316" stroke-width="1.5"/>
+    <text x="143" y="112" font-size="15" font-weight="700" fill="#0f172a">3+ скатера</text>
+    <text x="143" y="136" font-size="12" fill="#78716c">задействат бонуса</text>
+
+    <text x="262" y="126" font-size="26" fill="#f97316">→</text>
+
+    <rect x="278" y="80" width="206" height="80" rx="10" fill="#ffffff" stroke="#f97316" stroke-width="1.5"/>
+    <text x="381" y="108" font-size="14" font-weight="700" fill="#0f172a">безплатни завъртания</text>
+    <text x="381" y="132" font-size="12" fill="#78716c">избор от конфигурации</text>
+    <text x="381" y="150" font-size="11" fill="#a8a29e">спинове срещу множител</text>
+
+    <text x="500" y="126" font-size="26" fill="#f97316">→</text>
+
+    <rect x="514" y="80" width="206" height="80" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+    <text x="617" y="112" font-size="14" font-weight="700" fill="#0f172a">wild множители</text>
+    <text x="617" y="140" font-size="22" font-weight="800" fill="#b45309">до 40x</text>
+  </g>
+
+  <line x1="40" y1="186" x2="720" y2="186" stroke="#fed7aa" stroke-width="1.5"/>
+
+  <text x="40" y="212" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#9a3412">Платени входове (зависят от региона и оператора)</text>
+
+  <g font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">
+    <rect x="40" y="224" width="336" height="82" rx="10" fill="#ffffff" stroke="#0369a1" stroke-width="1.5"/>
+    <text x="208" y="250" font-size="15" font-weight="800" fill="#075985">Ante bet</text>
+    <text x="208" y="276" font-size="13" fill="#334155">+25% залог на завъртане</text>
+    <text x="208" y="296" font-size="12" fill="#64748b">удвоява шанса за бонус</text>
+
+    <rect x="384" y="224" width="336" height="82" rx="10" fill="#ffffff" stroke="#7c3aed" stroke-width="1.5"/>
+    <text x="552" y="250" font-size="15" font-weight="800" fill="#5b21b6">Bonus buy</text>
+    <text x="552" y="276" font-size="13" fill="#334155">100x залога за директен бонус</text>
+    <text x="552" y="296" font-size="12" fill="#64748b">не се предлага навсякъде</text>
+  </g>
+
+  <text x="380" y="328" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#a8a29e" text-anchor="middle">18+ Играйте отговорно · провери наличните функции в самата игра</text>
+</svg>
