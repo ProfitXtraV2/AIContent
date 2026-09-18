@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-18T22:40:32Z",
+  "generated_utc": "2026-09-18T23:10:29Z",
   "buffer": {
-    "count": 88,
+    "count": 89,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 2,
-    "drafted": 80,
+    "in-progress": 1,
+    "drafted": 81,
     "approved": 8,
     "posted": 21,
     "failed": 1
@@ -2024,19 +2024,19 @@
     },
     {
       "id": "vk-0111",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Yggdrasil Gaming: профил на доставчика, механики и топ слотове",
       "keywords_or_terms": "yggdrasil, игдрасил, yggdrasil gaming, yggdrasil слотове",
       "volume": "90",
       "kd": "72",
       "source": "research",
-      "drafted_date": "",
+      "drafted_date": "2026-09-18",
       "posted_date": "",
       "folder": "2026-09-18-yggdrasil",
-      "pr": "",
-      "gemini": "",
-      "notes": "provider-hub pillar; started 2026-09-18 (recurring); GEMIX/Vikings, Gigablox двигател, Multiplier Wilds; котва към доставчици-хъб; provider licences на студиото, NOT operator T&C/НАП",
+      "pr": "#128",
+      "gemini": "human 80",
+      "notes": "provider-hub pillar; GATI/Gigablox/Multiplier Wilds/Splitz; Vikings/Valley of the Gods топ слотове; NON-FABRICATION: GEMIX изключен (Play'n GO не Yggdrasil), конфликтни max-win пропуснати (Vikings Go Berzerk орig.), Jokerizer RTP hedged до 98%; gate 93/100 0 crit; Gemini Step-7 ONLINE: HL 15→25→80 PASS (human 80, 2 humaniser passes, 0 number-drift); img:2 (concept hero + top-slots SVG, review 100/100 PASS both, 0 integrity); 0 [VERIFY]; provider licences на студиото, NOT operator T&C/НАП",
       "opportunity": {
         "score": 16,
         "band": "Weak"
