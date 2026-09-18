@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-18T22:12:05Z",
+  "generated_utc": "2026-09-18T22:40:32Z",
   "buffer": {
-    "count": 87,
+    "count": 88,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
-    "drafted": 79,
+    "in-progress": 2,
+    "drafted": 80,
     "approved": 8,
     "posted": 21,
     "failed": 1
@@ -2000,6 +2000,66 @@
       "opportunity": {
         "score": 27,
         "band": "Moderate"
+      }
+    },
+    {
+      "id": "vk-0110",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Novomatic: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "novomatic, новоматик, novomatic слотове, greentube",
+      "volume": "50",
+      "kd": "62",
+      "source": "research",
+      "drafted_date": "2026-09-18",
+      "posted_date": "",
+      "folder": "2026-09-18-novomatic",
+      "pr": "#127",
+      "gemini": "human 85",
+      "notes": "provider-hub pillar; distinct от Amusnet/EGT hub vk-0021 (Novomatic=австрийска, осн. 1980 Йохан Граф Gumpoldskirchen; онлайн Greentube), EGT=българска осн. 2002; котва Book of Ra vk-0035/Deluxe vk-0086, Sizzling Hot vk-0065; gate 94/100 0 crit; Gemini Step-7 ONLINE: HL 75→pass1 85 PASS (human 85); img:2 (top-slots + concept hero SVG, review 100/100 PASS both, 0 integrity); 0 [VERIFY] (конфликтни max-win пропуснати от инфографиката); RTP билдове от slotcatalog; provider licences на студиото, NOT operator T&C/НАП",
+      "opportunity": {
+        "score": 18,
+        "band": "Weak"
+      }
+    },
+    {
+      "id": "vk-0111",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Yggdrasil Gaming: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "yggdrasil, игдрасил, yggdrasil gaming, yggdrasil слотове",
+      "volume": "90",
+      "kd": "72",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-18-yggdrasil",
+      "pr": "",
+      "gemini": "",
+      "notes": "provider-hub pillar; started 2026-09-18 (recurring); GEMIX/Vikings, Gigablox двигател, Multiplier Wilds; котва към доставчици-хъб; provider licences на студиото, NOT operator T&C/НАП",
+      "opportunity": {
+        "score": 16,
+        "band": "Weak"
+      }
+    },
+    {
+      "id": "vk-0112",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Microgaming: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "microgaming, майкрогейминг, microgaming слотове, games global",
+      "volume": "70",
+      "kd": "74",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-18-microgaming",
+      "pr": "",
+      "gemini": "",
+      "notes": "provider-hub pillar; started 2026-09-18 (recurring); пионер (Mega Moolah прогресив vk-0078 fold-in, 243/Megaways дистрибуция), сега Games Global; котва към доставчици-хъб; provider licences на студиото, NOT operator T&C/НАП",
+      "opportunity": {
+        "score": 14,
+        "band": "Weak"
       }
     }
   ],
