@@ -10,7 +10,7 @@
     "phase": "writing",
     "article_index": 1,
     "article_total": 3,
-    "article_slug": null,
+    "article_slug": "2026-09-18-nolimit-city",
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": null,
-    "stage": null
+    "stage_index": 2,
+    "stage": "Author"
   }
 }
