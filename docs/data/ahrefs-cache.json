@@ -1,4 +1,14 @@
 {
+"bg|--help": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "--help",
+"volume": 0
+}
+},
 "bg|5 lions megaways": {
 "fetched": "2026-09-17",
 "row": {
@@ -83,6 +93,42 @@
 },
 "keyword": "bigger bass bonanza",
 "volume": 30
+},
+"trend": "down"
+},
+"bg|book of dead": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": null,
+"difficulty": 56,
+"intents": {
+"branded": false,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "book of dead",
+"volume": 150
+},
+"trend": "up"
+},
+"bg|book of ra": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": 80,
+"difficulty": 73,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "book of ra",
+"volume": 150
 },
 "trend": "down"
 },
@@ -498,6 +544,17 @@
 },
 "trend": "up"
 },
+"bg|legacy of dead": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "legacy of dead",
+"volume": 20
+},
+"trend": "up"
+},
 "bg|mental nolimit": {
 "fetched": "2026-09-17",
 "row": {
@@ -519,6 +576,24 @@
 },
 "trend": "up"
 },
+"bg|microgaming": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": 2,
+"difficulty": 74,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "microgaming",
+"volume": 70
+},
+"trend": "down"
+},
 "bg|money train 3": {
 "fetched": "2026-09-17",
 "row": {
@@ -537,6 +612,24 @@
 },
 "trend": "down"
 },
+"bg|netent": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": 60,
+"difficulty": 69,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": true,
+"transactional": true
+},
+"keyword": "netent",
+"volume": 50
+},
+"trend": "up"
+},
 "bg|nolimit city": {
 "fetched": "2026-09-17",
 "row": {
@@ -552,6 +645,24 @@
 },
 "keyword": "nolimit city",
 "volume": 350
+},
+"trend": "down"
+},
+"bg|novomatic": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": 50,
+"difficulty": 62,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": true,
+"transactional": false
+},
+"keyword": "novomatic",
+"volume": 50
 },
 "trend": "down"
 },
@@ -712,6 +823,17 @@
 },
 "trend": "up"
 },
+"bg|play'n go": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": 110,
+"difficulty": null,
+"intents": {},
+"keyword": "play'n go",
+"volume": 50
+},
+"trend": "down"
+},
 "bg|playtech": {
 "fetched": "2026-09-18",
 "row": {
@@ -758,6 +880,17 @@
 "intents": {},
 "keyword": "quickspin",
 "volume": 20
+},
+"trend": "down"
+},
+"bg|reactoonz": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "reactoonz",
+"volume": 10
 },
 "trend": "down"
 },
@@ -845,6 +978,24 @@
 "keyword": "santa's great gifts",
 "volume": 0
 }
+},
+"bg|sizzling hot": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": 100,
+"difficulty": 67,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "sizzling hot",
+"volume": 70
+},
+"trend": "down"
 },
 "bg|spaceman": {
 "fetched": "2026-09-18",

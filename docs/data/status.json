@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-18T07:14:15Z",
+  "generated_utc": "2026-09-18T07:19:09Z",
   "buffer": {
     "count": 84,
     "target": 10,
@@ -4078,6 +4078,139 @@
       "suggestion": "Pragmatic гръцка тема, pay-anywhere/tumble + Athena wild с растящ множител; непокрит distinct kw; vol 20 (down); fold-in: wisdom of athena 1000 (10). Котва към Pragmatic профил; public game-DB; чист. Провери механика преди писане",
       "status": "candidate",
       "date_researched": "2026-09-17",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Book of Dead (Play'n GO): RTP, разширяващ се символ и как се играе",
+      "researched_keywords": "book of dead, бук ъв дед, play'n go book of dead, book of dead rtp",
+      "volume": "150",
+      "kd": "56",
+      "intent": "commercial",
+      "trend": "up",
+      "checked": "ahrefs",
+      "suggestion": "СИЛЕН нов game-explainer (150/commercial ↑, kd56); Play'n GO флагман, разширяващ се символ + 10 FS; distinct kw непокрит (queue/sitemap 0); provider site + game-DB, NOT operator T&C/НАП. Топ приоритет — провери RTP билдове/макс. win web",
+      "status": "candidate",
+      "date_researched": "2026-09-18",
+      "opportunity": {
+        "score": 25,
+        "band": "Moderate"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Wanted Dead or a Wild (Hacksaw): RTP, три бонуса и как се играе",
+      "researched_keywords": "wanted dead or a wild, hacksaw wanted, wanted dead or a wild rtp",
+      "volume": "150",
+      "kd": "51",
+      "intent": "transactional",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "СИЛЕН game-explainer (150/kd51); Hacksaw Gaming (hub vk-0067), Duel/Dead/Wild FS + wanted мултипликатори, екстремна вол.; distinct kw непокрит; provider site + game-DB, NOT operator T&C/НАП. Провери макс. win/RTP web",
+      "status": "candidate",
+      "date_researched": "2026-09-18",
+      "opportunity": {
+        "score": 27,
+        "band": "Moderate"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Book of Ra (Novomatic): RTP, разширяващ се символ и версии",
+      "researched_keywords": "book of ra, бук оф ра, novomatic book of ra, book of ra deluxe",
+      "volume": "150",
+      "kd": "73",
+      "intent": "transactional",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "Класически Novomatic game-explainer (150/kd73 висок но branded classic, голям БГ интерес); разграничи Classic/Deluxe/Deluxe 6/Magic; distinct kw непокрит; provider site + game-DB, NOT operator T&C/НАП. Провери RTP по версии web",
+      "status": "candidate",
+      "date_researched": "2026-09-18",
+      "opportunity": {
+        "score": 18,
+        "band": "Weak"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Sizzling Hot (Novomatic/EGT): RTP, скатер и как се играе",
+      "researched_keywords": "sizzling hot, сизлинг хот, sizzling hot quattro, sizzling hot rtp",
+      "volume": "70",
+      "kd": "67",
+      "intent": "transactional",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "Класически fruit game-explainer (70/kd67); Novomatic оригинал, разграничи от EGT клонинги; scatter звезда, без FS; distinct kw непокрит; provider site + game-DB, NOT operator T&C/НАП. Провери RTP/версии web",
+      "status": "candidate",
+      "date_researched": "2026-09-18",
+      "opportunity": {
+        "score": 17,
+        "band": "Weak"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Microgaming: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "microgaming, майкрогейминг, microgaming слотове, games global",
+      "volume": "70",
+      "kd": "74",
+      "intent": "transactional",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "Провайдър-хъб непокрит (70/kd74 висок но branded provider); пионер (Mega Moolah прогресив, 243/Megaways дистрибуция), сега Games Global; котва към доставчици-хъб; provider licences на студиото, NOT operator T&C/НАП. Добър избор",
+      "status": "candidate",
+      "date_researched": "2026-09-18",
+      "opportunity": {
+        "score": 14,
+        "band": "Weak"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "NetEnt: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "netent, нетент, netent слотове, netent казино игри",
+      "volume": "50",
+      "kd": "69",
+      "intent": "transactional",
+      "trend": "up",
+      "checked": "ahrefs",
+      "suggestion": "Провайдър-хъб непокрит (50/kd69 ↑); Starburst (vk-0080?)/Gonzo's Quest/Dead or Alive, Avalanche/кластери; част от Evolution групата; котва към доставчици-хъб; provider licences на студиото, NOT operator T&C/НАП. Добър избор",
+      "status": "candidate",
+      "date_researched": "2026-09-18",
+      "opportunity": {
+        "score": 15,
+        "band": "Weak"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Novomatic: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "novomatic, новоматик, novomatic слотове, greentube",
+      "volume": "50",
+      "kd": "62",
+      "intent": "commercial",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "Провайдър-хъб непокрит (50/kd62); Greentube онлайн подразделение, Book of Ra/Sizzling Hot класики; котва към game-explainer-ите Book of Ra/Sizzling Hot; provider licences на студиото, NOT operator T&C/НАП. fold-in: book of ra game / sizzling hot game са отделни pillar-и",
+      "status": "candidate",
+      "date_researched": "2026-09-18",
+      "opportunity": {
+        "score": 18,
+        "band": "Weak"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Play'n GO: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "play'n go, плейн гоу, playn go, play n go слотове",
+      "volume": "50",
+      "kd": "",
+      "intent": "commercial",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "Провайдър-хъб непокрит (50, kd n/a); Book of Dead/Reactoonz/Rise of Olympus/Moon Princess, book-механика + клъстери; котва към game explainer-ите; provider licences на студиото, NOT operator T&C/НАП. fold-in: reactoonz(10)/legacy of dead(20) като секции; добър избор",
+      "status": "candidate",
+      "date_researched": "2026-09-18",
       "opportunity": null
     }
   ],
