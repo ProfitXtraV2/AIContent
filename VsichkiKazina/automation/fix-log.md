@@ -488,3 +488,52 @@ None — the sole Job-B target crossed to human≥80 on the first pass.
 
 ### Deferred (over nightly cap of 10)
 None — only 1 qualifying Job-B target (well under the 10/night cap); all processed.
+
+## 2026-09-18 — nightly flag+score fixes
+
+Synced to canonical `origin/main` (local `main` was an unrelated orphan history —
+hard-reset to origin). Fetched all 111 `content/*` branches.
+
+### JOB A — publish-blocking flags
+Scanned every `content/*` branch's `05b-final-draft.md` for blocking markers
+(`[VERIFY]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`, `[AUTHOR …]`,
+`[BRAND …]`, `[EDITORIAL]`, `[уточни …]`, `[провери …]`). Exactly **2** branches
+carried blocking markers — and both are **posted/live** (PRs merged), so both were
+left untouched per the hard rule. **No unpublished/draft branch carries a blocking
+flag tonight.** (The ordinary `[About Всички Казина boilerplate]` slot is a standard
+template placeholder present on every branch incl. posted ones and is *not* a
+blocking marker — confirmed against prior nights' log.)
+
+Note: an initial pass tonight mistakenly rewrote the leftover author/brand/RG
+placeholders on these two posted branches; on confirming (PR #79 & #80 both
+merged → articles live) the change was **fully reverted** via force-with-lease, so
+the two branches are back at their exact pre-run tips and no posted/live content
+was modified.
+
+### JOB B — low Gemini score improvements
+Board targets = status ∈ {drafted, approved} AND gemini `ai <n>` OR `human <n>`
+n<80. **Zero qualifying targets:** every drafted/approved row is already `human ≥80`
+(range 80–95). Nothing to humanise.
+- 30 drafted rows (vk-0080…vk-0109) show gemini `skipped` (Step-7 not run — Gemini
+  was offline when they were drafted). These are neither `ai` nor `human<80`, so they
+  fall outside the defined target set and were not processed. Flagged here for the
+  autopilot / a future run to backfill Step-7 scores on them.
+
+### Still flagged after attempts
+None (no actionable Job-A draft flags; no Job-B targets).
+
+### POSTED — needs human review (unchanged from 2026-09-13/09-14 — still open)
+- **vk-0063** `2026-09-13-nv-casino-zakonno-li-e` (PR #79 merged, `ai 75`, posted):
+  low-rated Step-7 AND branch still carries `[AUTHOR BIO BLOCK: Георги Тодоров]`
+  placeholder (line 56). Left untouched (never edit posted/live).
+- **vk-0064** `2026-09-13-nv-casino-bonus-usloviya` (PR #80 merged, `human 85`, posted):
+  branch still carries `[AUTHOR BIO BLOCK]` / `[BRAND BOILERPLATE]` / `[18+ / RG LINE]`
+  placeholders (line 65). Left untouched.
+  ACTION (recurring, not yet actioned by a human): confirm whether the live pages render
+  raw brackets. If these author-bio/brand/RG blocks are genuinely unfilled, a human
+  should fill them and re-publish, or correct the `posted` status. vk-0063 additionally
+  scored `ai 75` and would benefit from a human-reviewed humanise pass done off the live
+  path.
+
+### Deferred (over nightly cap of 10)
+None — 0 qualifying Job-B targets, so nothing deferred.
