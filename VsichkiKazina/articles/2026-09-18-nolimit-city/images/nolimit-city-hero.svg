@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320" role="img" aria-label="Абстрактна метафора за идентичността на Nolimit City: разширяваща се решетка от клетки и назъбена крива на висока волатилност с резки върхове и спадове">
+  <title>Nolimit City: разширяваща се решетка и назъбена крива на висока волатилност</title>
+  <defs>
+    <linearGradient id="bgg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="100%" stop-color="#1b1030"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="55%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="cell" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="760" height="320" rx="16" ry="16" fill="url(#bgg)"/>
+
+  <!-- expanding grid of cells, growing left to right (expanding-ways / enhancer-cells motif) -->
+  <g opacity="0.9">
+    <rect x="40" y="150" width="20" height="20" rx="3" fill="url(#cell)" opacity="0.45"/>
+    <rect x="40" y="126" width="20" height="20" rx="3" fill="url(#cell)" opacity="0.45"/>
+    <rect x="40" y="174" width="20" height="20" rx="3" fill="url(#cell)" opacity="0.45"/>
+
+    <rect x="92" y="126" width="26" height="26" rx="4" fill="url(#cell)" opacity="0.55"/>
+    <rect x="92" y="158" width="26" height="26" rx="4" fill="url(#cell)" opacity="0.55"/>
+    <rect x="92" y="190" width="26" height="26" rx="4" fill="url(#cell)" opacity="0.55"/>
+    <rect x="92" y="94" width="26" height="26" rx="4" fill="url(#cell)" opacity="0.55"/>
+
+    <rect x="150" y="94" width="34" height="34" rx="5" fill="url(#cell)" opacity="0.7"/>
+    <rect x="150" y="134" width="34" height="34" rx="5" fill="url(#cell)" opacity="0.7"/>
+    <rect x="150" y="174" width="34" height="34" rx="5" fill="url(#cell)" opacity="0.7"/>
+    <rect x="150" y="214" width="34" height="34" rx="5" fill="url(#cell)" opacity="0.7"/>
+
+    <rect x="200" y="72" width="44" height="44" rx="6" fill="url(#cell)" opacity="0.85"/>
+    <rect x="200" y="124" width="44" height="44" rx="6" fill="url(#cell)" opacity="0.85"/>
+    <rect x="200" y="176" width="44" height="44" rx="6" fill="url(#cell)" opacity="0.85"/>
+    <rect x="200" y="228" width="44" height="44" rx="6" fill="url(#cell)" opacity="0.4"/>
+  </g>
+
+  <!-- jagged high-volatility waveform: long flat stretches, rare violent spikes -->
+  <polyline points="272,200 300,200 320,205 348,203 360,60 372,205 400,204 430,206 452,208 470,150 486,208 520,210 560,210 588,212 604,96 620,214 660,214 700,212 720,212"
+            fill="none" stroke="url(#wave)" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="272" y1="248" x2="720" y2="248" stroke="#334155" stroke-width="1.5" stroke-dasharray="4,5"/>
+
+  <text x="272" y="44" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" fill="#f8fafc">Nolimit City</text>
+  <text x="272" y="70" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#cbd5e1">разширяващи се механики, екстремна волатилност</text>
+
+  <text x="720" y="300" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#94a3b8" text-anchor="end">18+ Играйте отговорно</text>
+</svg>
