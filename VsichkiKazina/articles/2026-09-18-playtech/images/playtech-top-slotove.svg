@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 374" width="760" height="374" role="img" aria-label="Таблица с топ слотове на Playtech: Age of the Gods 95.02% RTP, макс. 10 000x, 2016; Gladiator: Road to Rome 95.05%, 150 000x, 2019; Jackpot Giant 94.22%, 50 000x, 2014; Great Blue 94.30%, 10 000x, 2013; Buffalo Blitz 95.96%, 300x, 2016">
+  <title>Топ слотове на Playtech: RTP, максимална печалба и година</title>
+  <defs>
+    <linearGradient id="hbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="760" height="374" rx="14" ry="14" fill="url(#hbg)"/>
+
+  <text x="32" y="38" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="800" fill="#1e3a8a">Топ слотове на Playtech</text>
+  <text x="32" y="59" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" fill="#6b7280">числата са от racingpost; операторът може да зареди друга RTP версия</text>
+
+  <!-- header row -->
+  <rect x="24" y="76" width="712" height="34" rx="6" fill="#1e3a8a"/>
+  <text x="40" y="98" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="start">Слот</text>
+  <text x="360" y="98" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">RTP</text>
+  <text x="530" y="98" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Макс. печалба</text>
+  <text x="690" y="98" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Година</text>
+
+  <!-- rows -->
+  <g font-family="system-ui, -apple-system, sans-serif">
+    <!-- Row 1 -->
+    <rect x="24" y="112" width="712" height="40" fill="#ffffff"/>
+    <text x="40" y="137" font-size="14" font-weight="600" fill="#111827" text-anchor="start">Age of the Gods</text>
+    <text x="360" y="137" font-size="14" fill="#374151" text-anchor="middle">95.02%</text>
+    <text x="530" y="137" font-size="14" font-weight="700" fill="#1d4ed8" text-anchor="middle">10 000x</text>
+    <text x="690" y="137" font-size="14" fill="#374151" text-anchor="middle">2016</text>
+
+    <!-- Row 2 -->
+    <rect x="24" y="152" width="712" height="40" fill="#f3f4f6"/>
+    <text x="40" y="177" font-size="14" font-weight="600" fill="#111827" text-anchor="start">Gladiator: Road to Rome</text>
+    <text x="360" y="177" font-size="14" fill="#374151" text-anchor="middle">95.05%</text>
+    <text x="530" y="177" font-size="14" font-weight="700" fill="#1d4ed8" text-anchor="middle">150 000x</text>
+    <text x="690" y="177" font-size="14" fill="#374151" text-anchor="middle">2019</text>
+
+    <!-- Row 3 -->
+    <rect x="24" y="192" width="712" height="40" fill="#ffffff"/>
+    <text x="40" y="217" font-size="14" font-weight="600" fill="#111827" text-anchor="start">Jackpot Giant</text>
+    <text x="360" y="217" font-size="14" fill="#374151" text-anchor="middle">94.22%</text>
+    <text x="530" y="217" font-size="14" font-weight="700" fill="#1d4ed8" text-anchor="middle">50 000x</text>
+    <text x="690" y="217" font-size="14" fill="#374151" text-anchor="middle">2014</text>
+
+    <!-- Row 4 -->
+    <rect x="24" y="232" width="712" height="40" fill="#f3f4f6"/>
+    <text x="40" y="257" font-size="14" font-weight="600" fill="#111827" text-anchor="start">Great Blue</text>
+    <text x="360" y="257" font-size="14" fill="#374151" text-anchor="middle">94.30%</text>
+    <text x="530" y="257" font-size="14" font-weight="700" fill="#1d4ed8" text-anchor="middle">10 000x</text>
+    <text x="690" y="257" font-size="14" fill="#374151" text-anchor="middle">2013</text>
+
+    <!-- Row 5 -->
+    <rect x="24" y="272" width="712" height="40" fill="#ffffff"/>
+    <text x="40" y="297" font-size="14" font-weight="600" fill="#111827" text-anchor="start">Buffalo Blitz</text>
+    <text x="360" y="297" font-size="14" fill="#374151" text-anchor="middle">95.96%</text>
+    <text x="530" y="297" font-size="14" font-weight="700" fill="#1d4ed8" text-anchor="middle">300x</text>
+    <text x="690" y="297" font-size="14" fill="#374151" text-anchor="middle">2016</text>
+  </g>
+
+  <line x1="24" y1="312" x2="736" y2="312" stroke="#d1d5db" stroke-width="1"/>
+  <text x="32" y="334" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280">Макс. печалба = теоретичен таван, не обещание · при джакпот игрите реалната голяма печалба е мрежовият прогресив</text>
+  <text x="32" y="351" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280">Buffalo Blitz: макс. печалба е спорна (racingpost 300x; други бази до 10 000x) · провери реалния RTP в инфо-панела</text>
+  <text x="32" y="368" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af">18+ Играйте отговорно · източник: racingpost.com</text>
+</svg>
