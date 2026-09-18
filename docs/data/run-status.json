@@ -5,14 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_016ohVukw7X4PqEqWRvnANta",
-  "note": "daily run 2026-09-18 (recurring fire) — start; reconciled in-progress (none); Gemini probed LIVE and BACK ONLINE (was 429 for 7d).",
+  "note": "daily run 2026-09-18 (recurring): writing 3 provider-hub guides — vk-0110 Novomatic, vk-0111 Yggdrasil, vk-0112 Microgaming. Gemini back online (text+image checks live). Backlog all blocked (NV/НАП, guides-only). Research bank found stale (5 already-covered candidates) — will reconcile in Step 6.",
   "progress": {
-    "phase": "selecting",
-    "article_index": 0,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 3,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "article_slug": "2026-09-18-novomatic",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
