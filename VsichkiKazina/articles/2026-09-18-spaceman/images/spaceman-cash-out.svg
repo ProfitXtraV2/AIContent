@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 360" width="740" height="360" role="img" aria-label="Стат карта за Spaceman на Pragmatic Play: RTP 96.50% с алтернативна версия около 95%, домашно предимство 3.50%, максимална печалба 5000x залога (€500 000 при €100), залог €1 - €100, crash формат с множител от 1.00x, авто-кешаут 1.01x - 4999.99x и 50% частичен cash-out; операторът може да зареди по-нисък RTP, проверявай в инфо-панела">
+  <title>Spaceman (Pragmatic Play): ключови числа</title>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7f9fc"/>
+      <stop offset="100%" stop-color="#eaeef7"/>
+    </linearGradient>
+    <linearGradient id="rtpBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4338ca"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="edgeBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#f87171"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="740" height="360" rx="14" ry="14" fill="url(#bg2)"/>
+
+  <text x="370" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="700" fill="#3730a3" text-anchor="middle">Spaceman (Pragmatic Play): ключови числа</text>
+  <text x="370" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" fill="#6b7280" text-anchor="middle">операторът може да зареди по-нисък RTP, провери реалната версия в инфо-панела</text>
+
+  <text x="40" y="96" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#374151" font-weight="600">Връщане към играча (RTP)</text>
+  <text x="700" y="96" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#374151" font-weight="600" text-anchor="end">Домашно предимство</text>
+
+  <rect x="40" y="108" width="660" height="46" rx="8" fill="#e5e7eb"/>
+  <!-- RTP 96.50% -> 0.9650*660 = 637px; house 23px; 637+23=660 flush, no overlap -->
+  <rect x="40" y="108" width="637" height="46" rx="8" fill="url(#rtpBar)"/>
+  <rect x="677" y="108" width="23" height="46" rx="4" fill="url(#edgeBar)"/>
+  <text x="358" y="137" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">96.50%</text>
+
+  <text x="370" y="184" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">алтернативна версия около 95% · домашно предимство при 96.50% е 3.50%</text>
+
+  <!-- four stat tiles: x=40,209,378,547 ; w=151 ; gap 18 ; ends at 698 -->
+  <g font-family="system-ui, -apple-system, sans-serif">
+    <rect x="40" y="202" width="151" height="104" rx="10" fill="#ffffff" stroke="#cbd0e0" stroke-width="1.5"/>
+    <text x="115.5" y="230" font-size="12" fill="#6b7280" text-anchor="middle">Макс. печалба</text>
+    <text x="115.5" y="264" font-size="21" font-weight="800" fill="#3730a3" text-anchor="middle">5000x</text>
+    <text x="115.5" y="290" font-size="10.5" fill="#9ca3af" text-anchor="middle">€500 000 при €100</text>
+
+    <rect x="209" y="202" width="151" height="104" rx="10" fill="#ffffff" stroke="#cbd0e0" stroke-width="1.5"/>
+    <text x="284.5" y="230" font-size="12" fill="#6b7280" text-anchor="middle">Формат</text>
+    <text x="284.5" y="264" font-size="21" font-weight="800" fill="#3730a3" text-anchor="middle">crash</text>
+    <text x="284.5" y="290" font-size="10.5" fill="#9ca3af" text-anchor="middle">множител от 1.00x</text>
+
+    <rect x="378" y="202" width="151" height="104" rx="10" fill="#ffffff" stroke="#cbd0e0" stroke-width="1.5"/>
+    <text x="453.5" y="230" font-size="12" fill="#6b7280" text-anchor="middle">Залог</text>
+    <text x="453.5" y="264" font-size="19" font-weight="800" fill="#3730a3" text-anchor="middle">€1 - €100</text>
+    <text x="453.5" y="290" font-size="10.5" fill="#9ca3af" text-anchor="middle">Pragmatic Play, 2022</text>
+
+    <rect x="547" y="202" width="151" height="104" rx="10" fill="#ffffff" stroke="#cbd0e0" stroke-width="1.5"/>
+    <text x="622.5" y="230" font-size="12" fill="#6b7280" text-anchor="middle">Cash-out</text>
+    <text x="622.5" y="264" font-size="17" font-weight="800" fill="#3730a3" text-anchor="middle">50% + авто</text>
+    <text x="622.5" y="290" font-size="10.5" fill="#9ca3af" text-anchor="middle">авто 1.01x - 4999.99x</text>
+  </g>
+
+  <text x="370" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">18+ Играйте отговорно · Провери реалния RTP в инфо-панела на конкретното казино</text>
+</svg>
