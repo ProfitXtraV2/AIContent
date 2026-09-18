@@ -50,6 +50,24 @@
 },
 "trend": "down"
 },
+"bg|big time gaming": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": null,
+"difficulty": 88,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "big time gaming",
+"volume": 20
+},
+"trend": "down"
+},
 "bg|bigger bass bonanza": {
 "fetched": "2026-09-15",
 "row": {
@@ -112,6 +130,24 @@
 "intents": {},
 "keyword": "buffalo king",
 "volume": 40
+},
+"trend": "down"
+},
+"bg|buffalo king megaways": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": 120,
+"difficulty": 49,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "buffalo king megaways",
+"volume": 20
 },
 "trend": "down"
 },
@@ -249,6 +285,24 @@
 "volume": 0
 }
 },
+"bg|fruit party": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "fruit party",
+"volume": 10
+},
+"trend": "down"
+},
 "bg|gates of gatot kaca": {
 "fetched": "2026-09-16",
 "row": {
@@ -256,6 +310,16 @@
 "difficulty": null,
 "intents": {},
 "keyword": "gates of gatot kaca",
+"volume": 0
+}
+},
+"bg|gates of gatotkaca": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "gates of gatotkaca",
 "volume": 0
 }
 },
@@ -306,6 +370,16 @@
 },
 "trend": "down"
 },
+"bg|gigantoonz": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "gigantoonz",
+"volume": 0
+}
+},
 "bg|gold blitz": {
 "fetched": "2026-09-17",
 "row": {
@@ -325,6 +399,35 @@
 "keyword": "great rhino",
 "volume": 0
 }
+},
+"bg|hacksaw gaming": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": 45,
+"difficulty": 74,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": true,
+"transactional": true
+},
+"keyword": "hacksaw gaming",
+"volume": 300
+},
+"trend": "up"
+},
+"bg|hand of anubis": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "hand of anubis",
+"volume": 10
+},
+"trend": "flat"
 },
 "bg|hand of midas": {
 "fetched": "2026-09-16",
@@ -404,6 +507,17 @@
 "keyword": "mental nolimit",
 "volume": 0
 }
+},
+"bg|mental slot": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "mental slot",
+"volume": 30
+},
+"trend": "up"
 },
 "bg|money train 3": {
 "fetched": "2026-09-17",
@@ -598,6 +712,24 @@
 },
 "trend": "up"
 },
+"bg|playtech": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": 25,
+"difficulty": 72,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "playtech",
+"volume": 500
+},
+"trend": "flat"
+},
 "bg|power of merlin": {
 "fetched": "2026-09-17",
 "row": {
@@ -618,6 +750,17 @@
 "volume": 0
 }
 },
+"bg|quickspin": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "quickspin",
+"volume": 20
+},
+"trend": "down"
+},
 "bg|reactoonz 2": {
 "fetched": "2026-09-17",
 "row": {
@@ -635,6 +778,42 @@
 "volume": 10
 },
 "trend": "up"
+},
+"bg|red tiger": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": 25,
+"difficulty": 83,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": true,
+"transactional": true
+},
+"keyword": "red tiger",
+"volume": 40
+},
+"trend": "down"
+},
+"bg|release the kraken": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "release the kraken",
+"volume": 10
+},
+"trend": "down"
 },
 "bg|rich wilde": {
 "fetched": "2026-09-16",
@@ -667,6 +846,24 @@
 "volume": 0
 }
 },
+"bg|spaceman": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": null,
+"difficulty": 37,
+"intents": {
+"branded": true,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "spaceman",
+"volume": 30
+},
+"trend": "down"
+},
 "bg|starburst": {
 "fetched": "2026-09-17",
 "row": {
@@ -682,6 +879,24 @@
 },
 "keyword": "starburst",
 "volume": 100
+},
+"trend": "down"
+},
+"bg|starlight princess": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": null,
+"difficulty": 68,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "starlight princess",
+"volume": 40
 },
 "trend": "down"
 },
@@ -739,6 +954,16 @@
 },
 "trend": "up"
 },
+"bg|sun of egypt": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "sun of egypt",
+"volume": 0
+}
+},
 "bg|sun of egypt 3": {
 "fetched": "2026-09-16",
 "row": {
@@ -779,6 +1004,34 @@
 },
 "trend": "down"
 },
+"bg|sweet bonanza xmas": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": 35,
+"difficulty": null,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "sweet bonanza xmas",
+"volume": 150
+},
+"trend": "down"
+},
+"bg|temple tumble": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "temple tumble",
+"volume": 0
+}
+},
 "bg|the dog house multihold": {
 "fetched": "2026-09-16",
 "row": {
@@ -808,6 +1061,17 @@
 "keyword": "the wild machine",
 "volume": 0
 }
+},
+"bg|thunderkick": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "thunderkick",
+"volume": 20
+},
+"trend": "down"
 },
 "bg|tomb of the scarab queen": {
 "fetched": "2026-09-16",
@@ -873,6 +1137,24 @@
 },
 "trend": "down"
 },
+"bg|wazdan": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": 35,
+"difficulty": 36,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": true,
+"transactional": false
+},
+"keyword": "wazdan",
+"volume": 30
+},
+"trend": "down"
+},
 "bg|wild west gold": {
 "fetched": "2026-09-16",
 "row": {
@@ -927,6 +1209,17 @@
 },
 "trend": "down"
 },
+"bg|wolf gold": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "wolf gold",
+"volume": 20
+},
+"trend": "down"
+},
 "bg|yggdrasil": {
 "fetched": "2026-09-17",
 "row": {
@@ -944,6 +1237,17 @@
 "volume": 90
 },
 "trend": "flat"
+},
+"bg|zeus vs hades": {
+"fetched": "2026-09-18",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "zeus vs hades",
+"volume": 30
+},
+"trend": "down"
 },
 "bg|данък печалба нелицензирано казино": {
 "fetched": "2026-09-16",
