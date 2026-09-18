@@ -31,10 +31,11 @@ Claim: „RTP от 92.13% ... доста под средното връщане.
 и изводът „под средното" са консистентни. (Числото 3.87 е контекстна проверка, не се публикува в текста.)
 
 ## Gemini text check (Step 7)
-- Initial human-likeness: <pending — Step 7>
-- Passes: <pending>
-- Final KEPT human-likeness: <pending>
-- gemini column value: <pending>
+- Initial human-likeness: 75 ("Likely human-written, 75%").
+- Pass 1 (humaniser, apply recs): 85 ("Highly likely human-written, 85%") → PASS (≥80).
+- Passes applied: 1 humaniser pass.
+- Final KEPT human-likeness: 85 (highest seen; current 05b = pass-1 version).
+- gemini column value: human 85
 
 ## Images (Step 8)
 - <pending — Step 8>

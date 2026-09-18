@@ -10,5 +10,5 @@
 - 05b-final: locked; numbers diffed vs 02 (identical); 0 em-dashes; 4 approved links; footers verbatim.
 - number diff 02→05b: PASS (no changed/missing figure; only added Cyrillic gloss).
 - 06-verification: sources + recalc + flags (0 surviving).
-- Step 7 gemini: <pending>
+- Step 7 gemini: initial HL 75 → humaniser pass 1 → HL 85 PASS; kept best (85); gemini=human 85.
 - Step 8 images: <pending>
