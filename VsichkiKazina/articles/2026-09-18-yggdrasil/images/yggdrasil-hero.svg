@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320" role="img" aria-label="Абстрактна метафора за Yggdrasil: стилизирано разклонено дърво-платформа, чиито възли по клоните захранват три стилизирани барабана вдясно, без лога и без числа">
+  <title>Yggdrasil: студиото като платформа, която захранва игрите</title>
+  <defs>
+    <linearGradient id="bgg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#08131a"/>
+      <stop offset="100%" stop-color="#0d2b24"/>
+    </linearGradient>
+    <linearGradient id="reel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="branch" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="760" height="320" rx="16" ry="16" fill="url(#bgg)"/>
+
+  <!-- stylised world-tree / platform: trunk + branches ending in nodes -->
+  <g fill="none" stroke="url(#branch)" stroke-width="3" stroke-linecap="round" opacity="0.9">
+    <path d="M150 288 L150 150"/>
+    <path d="M150 176 C150 150, 196 150, 210 122"/>
+    <path d="M150 158 C150 132, 200 128, 232 168"/>
+    <path d="M150 150 C150 118, 118 112, 104 138"/>
+    <path d="M150 200 C150 178, 112 176, 96 196"/>
+    <path d="M150 150 L150 118"/>
+  </g>
+  <!-- roots -->
+  <g fill="none" stroke="#0f766e" stroke-width="3" stroke-linecap="round" opacity="0.7">
+    <path d="M150 288 C150 300, 120 300, 108 308"/>
+    <path d="M150 288 C150 300, 182 300, 196 308"/>
+  </g>
+  <!-- node dots on the branches (the platform distributing to partners) -->
+  <g>
+    <circle cx="210" cy="122" r="8" fill="#5eead4"/>
+    <circle cx="232" cy="168" r="8" fill="#5eead4"/>
+    <circle cx="104" cy="138" r="7" fill="#22d3ee" opacity="0.85"/>
+    <circle cx="96" cy="196" r="7" fill="#22d3ee" opacity="0.85"/>
+    <circle cx="150" cy="118" r="9" fill="#a7f3d0"/>
+  </g>
+
+  <!-- connectors: nodes feed the reels -->
+  <g stroke="#5eead4" stroke-width="2" stroke-dasharray="4 6" opacity="0.55" fill="none">
+    <path d="M232 168 C320 172, 380 170, 452 176"/>
+    <path d="M210 122 C330 120, 380 150, 452 150"/>
+  </g>
+
+  <!-- three stylised reel columns (abstract, no symbols/logos/numbers) -->
+  <g opacity="0.95">
+    <rect x="470" y="120" width="70" height="150" rx="10" fill="url(#reel)" opacity="0.55"/>
+    <rect x="556" y="104" width="70" height="166" rx="10" fill="url(#reel)" opacity="0.7"/>
+    <rect x="642" y="120" width="70" height="150" rx="10" fill="url(#reel)" opacity="0.55"/>
+    <!-- abstract cells -->
+    <rect x="488" y="140" width="34" height="30" rx="6" fill="#d1fae5" opacity="0.75"/>
+    <rect x="488" y="186" width="34" height="30" rx="6" fill="#d1fae5" opacity="0.5"/>
+    <rect x="574" y="130" width="34" height="30" rx="6" fill="#ecfdf5" opacity="0.9"/>
+    <rect x="574" y="176" width="34" height="30" rx="6" fill="#d1fae5" opacity="0.6"/>
+    <rect x="660" y="140" width="34" height="30" rx="6" fill="#d1fae5" opacity="0.7"/>
+    <rect x="660" y="186" width="34" height="30" rx="6" fill="#d1fae5" opacity="0.5"/>
+  </g>
+
+  <text x="40" y="52" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="800" fill="#f0fdfa">Yggdrasil</text>
+  <text x="40" y="78" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#99f6e4">студиото като платформа за игри</text>
+
+  <text x="720" y="300" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#5eead4" text-anchor="end">18+ Играйте отговорно</text>
+</svg>
