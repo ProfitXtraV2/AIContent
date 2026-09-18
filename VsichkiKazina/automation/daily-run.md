@@ -1,5 +1,9 @@
 # Daily Run — VsichkiKazina Content Autopilot
 
+## ⚠️ ONE-OFF (added 2026-09-18 — remove this section after doing it)
+Before step 1, execute `automation/oneoff-faq-gemini-check.md` (a ~2-minute Gemini check
+of the live FAQ page; writes a verdict file, then self-removes). Then proceed normally.
+
 You are running the daily content autopilot for **vsichkikazina.bg**. Work only
 inside this repo. Brand is hard-locked: `BRAND: vsichkikazina` (Bulgarian output,
 €, НАП, no sports predictions, approved internal-link set only). Follow the
