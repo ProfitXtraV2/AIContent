@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-18T03:10:40Z",
+  "generated_utc": "2026-09-18T03:33:17Z",
   "buffer": {
-    "count": 82,
+    "count": 85,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 73,
+    "drafted": 76,
     "approved": 9,
     "posted": 20,
     "failed": 1
@@ -1887,6 +1887,60 @@
       "gemini": "skipped",
       "notes": "distinct engine-вариант pillar (Megaways ways-двигател) vs база Big Bass Bonanza (vk-0028)/Splash (vk-0038)/Bigger (vk-0095); собствен kw „big bass bonanza megaways\"; Reel Kingdom/Pragmatic 18.11.2021; 6 барабана 2–7 симв. до 46 656 начина + каскади; RTP 96.70% (билдове 95.66/94.62), дом. предимство 3.30%, вол. 5/5, max 4000× (база ~2100×); FS 3/4/5=10/15/20, рибар collect, стълбица x2/x3/x10; Megaways-only Динамит+Базука; bonus buy 100×; honest „равен RTP спрямо базата ~96.71, различен риск\"; NON-FABRICATION: disputed/single-source пропуснати (top horizontal reel, 6-scatter/25 FS, Super buy 300×); public game-DB (pragmaticplay/slotcatalog/racingpost/fruityslots/gamblingzone), NOT operator T&C/НАП; gate 93/100 0 crit; Gemini Step-7 SKIPPED (429); img:2 (base-vs-Megaways comparison + concept hero SVG, review skipped 429, 0 integrity); 2 [VERIFY] (RTP билд; bonus-buy БГ); Ahrefs vol 20 transactional · nightly 2026-09-17: JOB-A flags resolved on branch (2× [VERIFY] removed, folded caveats into prose, publish-ready 0 markers); gemini still `skipped` — Gemini API credits depleted, no Step-7 possible",
       "opportunity": null
+    },
+    {
+      "id": "vk-0104",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Nolimit City: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "nolimit city, нолимит сити, nolimit games",
+      "volume": "350",
+      "kd": "67",
+      "source": "research",
+      "drafted_date": "2026-09-18",
+      "posted_date": "",
+      "folder": "2026-09-18-nolimit-city",
+      "pr": "#121",
+      "gemini": "skipped",
+      "notes": "provider-hub pillar (distinct от game explainers Fire in the Hole vk-0089/San Quentin vk-0097/Tombstone vk-0098); ownership Evolution corrected (обявена юни, завършена авг. 2022, не 01.07.2022); top-slots инфографика 6 игри числата от nolimitcity.com; gate 94/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (concept hero + top-slots SVG, review skipped 429, 0 integrity); 0 [VERIFY] in-text (date/RTP build hedged); Ahrefs vol 350/kd67",
+      "opportunity": {
+        "score": 31,
+        "band": "Moderate"
+      }
+    },
+    {
+      "id": "vk-0105",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Duck Hunters (Nolimit City): RTP, collection и как се играе",
+      "keywords_or_terms": "duck hunters, дък хънтърс, nolimit duck hunters",
+      "volume": "50",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-18",
+      "posted_date": "",
+      "folder": "2026-09-18-duck-hunters",
+      "pr": "#122",
+      "gemini": "skipped",
+      "notes": "game explainer; NON-FABRICATION: provider CORRECTED to Nolimit City (не Hacksaw — Hacksaw няма такова заглавие; released 11.02.2025), false kw 'hacksaw duck hunters' dropped, reader disambiguation note added; distinct game pillar vs Nolimit hub vk-0104; RTP 96.05% (builds 94.03/92.04), max 30000x, extreme vol, 6x5 scatter-pays, pos. multipliers to x8192; public game-DB, NOT operator T&C/НАП; gate 94/100 0 crit; Gemini Step-7 SKIPPED (429); img:2 (concept hero + RTP SVG, review skipped 429, 0 integrity); 0 [VERIFY] in-text; Ahrefs vol 50",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0106",
+      "status": "drafted",
+      "type": "guide",
+      "query": "5 Lions Megaways (Pragmatic): RTP, начини и как се играе",
+      "keywords_or_terms": "5 lions megaways, файв лайънс megaways, pragmatic 5 lions",
+      "volume": "30",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-18",
+      "posted_date": "",
+      "folder": "2026-09-18-5-lions-megaways",
+      "pr": "#123",
+      "gemini": "skipped",
+      "notes": "game explainer; distinct engine-вариант (Megaways до 200704 начина + каскади) vs база 5 Lions (2018, fix 243)/5 Lions Gold (2019, 243+джакпот); release corrected 2021, множител-wild до 40x (не 'unlimited'); RTP 96.5% (builds 95.52/94.54, house edge 3.5/5.46), max 5000x, вол.5/5, залог 0.20-125, ante +25%, bonus buy 100x region-dep; public game-DB, NOT operator T&C/НАП; gate 95/100 0 crit; Gemini Step-7 SKIPPED (429); img:3 (hero + RTP + features SVG, review skipped 429, 0 integrity); 4 [VERIFY] hedged (ways 200704 vs 117649; RTP build; дата; bonus-buy БГ); Ahrefs vol 30",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -2101,8 +2155,8 @@
       "trend": "down",
       "checked": "ahrefs",
       "suggestion": "СИЛЕН провайдър-хъб (350/commercial-transactional): Nolimit City непокрит като ПРОФИЛ, но вече имаме 3+ негови игри (Fire in the Hole vk-0089, San Quentin vk-0097, Tombstone vk-0098) — профилът е естествената котва + „доставчици\" хъб, точно както ELK профилът тази серия (vk-0101); distinct provider-query cluster (НЕ игра, не канибализира game explainer-ите); механики xWays/xNudge/xSplit/xBomb/Enhancer Cells, extreme волатилност, feature buy; provider site + game-DB, NOT operator T&C/НАП. Силен избор за следваща серия",
-      "status": "candidate",
-      "date_researched": "2026-09-17",
+      "status": "used",
+      "date_researched": "2026-09-18",
       "opportunity": {
         "score": 31,
         "band": "Moderate"
@@ -2118,8 +2172,8 @@
       "trend": "up",
       "checked": "ahrefs",
       "suggestion": "Pragmatic Megaways branded slot, distinct kw непокрит (queue/sitemap 0); vol 30 възходящ; котва към Pragmatic профил (vk-0019); distinct engine vs линийните 5 Lions; public game-DB, NOT operator T&C/НАП. Провери ways/RTP web преди писане",
-      "status": "candidate",
-      "date_researched": "2026-09-17",
+      "status": "used",
+      "date_researched": "2026-09-18",
       "opportunity": null
     },
     {
@@ -2132,9 +2186,94 @@
       "trend": "up",
       "checked": "ahrefs",
       "suggestion": "Hacksaw Gaming collection-стил слот, distinct kw непокрит (queue/sitemap 0); vol 50 възходящ informational; котва към Hacksaw профил (vk-0067); distinct game vs Chaos Crew/Wanted (fold-in към профила); public game-DB, NOT operator T&C/НАП",
-      "status": "candidate",
-      "date_researched": "2026-09-17",
+      "status": "used",
+      "date_researched": "2026-09-18",
       "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Playtech: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "playtech, плейтек, playtech слотове, playtech казино игри",
+      "volume": "500",
+      "kd": "72",
+      "intent": "commercial",
+      "trend": "flat",
+      "checked": "ahrefs",
+      "suggestion": "НАЙ-СИЛЕН нов провайдър-хъб (500/commercial): Playtech непокрит; голям обем, kd72 висок но branded provider-query; хъбът е котва към доставчици-хъб + бъдещи Playtech game explainer-и (Buffalo Blitz, Age of the Gods серия); provider licences на студиото, НЕ казино НАП; provider site + game-DB, NOT operator T&C/НАП. Топ приоритет",
+      "status": "candidate",
+      "date_researched": "2026-09-18",
+      "opportunity": {
+        "score": 36,
+        "band": "Moderate"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Yggdrasil Gaming: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "yggdrasil, игдрасил, yggdrasil gaming, yggdrasil слотове",
+      "volume": "90",
+      "kd": "72",
+      "intent": "commercial",
+      "trend": "flat",
+      "checked": "ahrefs",
+      "suggestion": "Провайдър-хъб непокрит (90/commercial flat); GEMIX/Vikings, Gigablox двигател, Multiplier Wilds; котва към доставчици-хъб като ELK/Hacksaw профилите; provider licences на студиото; provider site + game-DB, NOT operator T&C/НАП. Добър избор",
+      "status": "candidate",
+      "date_researched": "2026-09-18",
+      "opportunity": {
+        "score": 16,
+        "band": "Weak"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Spaceman (Pragmatic): RTP, cash-out механика и как се играе",
+      "researched_keywords": "spaceman, спейсмен, pragmatic spaceman, spaceman rtp",
+      "volume": "30",
+      "kd": "37",
+      "intent": "informational",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "Crash/multiplier игра на Pragmatic, distinct kw непокрит (queue/sitemap 0); kd37 нисък = добра възможност; distinct от Aviator (krash-igri vk-0018) като branded вариант, auto/двоен cash-out; в scope (не оператор/НАП); provider site + game-DB. Провери RTP/max multiplier web",
+      "status": "candidate",
+      "date_researched": "2026-09-18",
+      "opportunity": {
+        "score": 27,
+        "band": "Moderate"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Red Tiger: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "red tiger, ред тайгър, red tiger gaming, red tiger слотове",
+      "volume": "40",
+      "kd": "83",
+      "intent": "transactional",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "Провайдър-хъб непокрит (40/transactional, kd83 висок); daily jackpots, Dragons Fire; част от Evolution групата; котва към доставчици-хъб; provider licences на студиото; provider site + game-DB, NOT operator T&C/НАП. По-нисък приоритет заради kd",
+      "status": "candidate",
+      "date_researched": "2026-09-18",
+      "opportunity": {
+        "score": 9,
+        "band": "Weak"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Wazdan: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "wazdan, ваздан, wazdan слотове, wazdan казино",
+      "volume": "30",
+      "kd": "36",
+      "intent": "commercial",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "Провайдър-хъб непокрит (30/commercial, kd36 нисък = добра възможност); Unique Features (Volatility Levels, Energy Saving Mode), Hold the Jackpot серия; котва към доставчици-хъб; provider licences на студиото; provider site + game-DB, NOT operator T&C/НАП",
+      "status": "candidate",
+      "date_researched": "2026-09-18",
+      "opportunity": {
+        "score": 27,
+        "band": "Moderate"
+      }
     },
     {
       "type": "guide",
