@@ -70,6 +70,24 @@
 },
 "trend": "down"
 },
+"bg|big bass bonanza": {
+"fetched": "2026-09-19",
+"row": {
+"cpc": 60,
+"difficulty": 70,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "big bass bonanza",
+"volume": 150
+},
+"trend": "down"
+},
 "bg|big bass halloween": {
 "fetched": "2026-09-17",
 "row": {
@@ -1013,6 +1031,17 @@
 },
 "trend": "down"
 },
+"bg|razor shark": {
+"fetched": "2026-09-19",
+"row": {
+"cpc": 25,
+"difficulty": null,
+"intents": {},
+"keyword": "razor shark",
+"volume": 20
+},
+"trend": "down"
+},
 "bg|reactoonz": {
 "fetched": "2026-09-18",
 "row": {
@@ -1246,6 +1275,16 @@
 },
 "trend": "up"
 },
+"bg|sugar rush xmas": {
+"fetched": "2026-09-19",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "sugar rush xmas",
+"volume": 0
+}
+},
 "bg|sun of egypt": {
 "fetched": "2026-09-18",
 "row": {
@@ -1324,6 +1363,24 @@
 "volume": 0
 }
 },
+"bg|the dog house megaways": {
+"fetched": "2026-09-19",
+"row": {
+"cpc": 100,
+"difficulty": null,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": true,
+"navigational": false,
+"transactional": false
+},
+"keyword": "the dog house megaways",
+"volume": 150
+},
+"trend": "down"
+},
 "bg|the dog house multihold": {
 "fetched": "2026-09-16",
 "row": {
@@ -1341,6 +1398,16 @@
 "difficulty": null,
 "intents": {},
 "keyword": "the hand of midas",
+"volume": 0
+}
+},
+"bg|the wild gang": {
+"fetched": "2026-09-19",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "the wild gang",
 "volume": 0
 }
 },
@@ -1465,6 +1532,16 @@
 "difficulty": null,
 "intents": {},
 "keyword": "wild west gold megaways",
+"volume": 0
+}
+},
+"bg|wild wild bananas": {
+"fetched": "2026-09-19",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "wild wild bananas",
 "volume": 0
 }
 },

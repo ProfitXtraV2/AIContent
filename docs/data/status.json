@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-19T22:35:34Z",
+  "generated_utc": "2026-09-19T22:51:31Z",
   "buffer": {
-    "count": 102,
+    "count": 103,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 90,
+    "drafted": 91,
     "approved": 12,
     "posted": 22,
     "failed": 1
@@ -2291,6 +2291,23 @@
         "score": 20,
         "band": "Weak"
       }
+    },
+    {
+      "id": "vk-0126",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Betsoft: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "betsoft, бетсофт, betsoft слотове",
+      "volume": "20",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-19",
+      "posted_date": "",
+      "folder": "2026-09-19-betsoft-provajdar",
+      "pr": "#143",
+      "gemini": "human 85",
+      "notes": "provider-profile pillar; distinct primary kw „betsoft\" 20/informational; PUBLIC provider-site + game-DB facts (betsoft.com/about-us, Wizard of Odds, VegasSlotsOnline, AskGamblers), NOT operator T&C/НАП; осн. 2006, седалище Малта; ADM + GLI/Quinel (MGA/Curaçao НЕ твърдени — само databases); ~200 заглавия; central honest angle = кинематографичната 3D визия (SLOTS3) е представяне, не по-добри шансове (RTP/предимство непроменени); сертифицирана игра ≠ легално казино (НАП); Max Quest аркаден шутър формат + Buy Feature обективно; top titles A Night in Paris 96.92%/Take the Bank 96.10%/Good Girl Bad Girl 97.3–97.79% (dual-mode)/Take Olympus; CORRECTIONS дроп „Shift & Spin\"+„provably fair\", без operator-число (конфликт 500+/200+); gate 93/100 0 crit; Gemini Step-7 HL 15→85 PASS pass1 (1 humaniser, kept pass1); img:2 (infographic 92→100 fix + hero 100, 0 integrity); 0 [VERIFY]; Ahrefs vol 20",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -4689,8 +4706,8 @@
       "intent": "informational",
       "trend": "down",
       "checked": "ahrefs",
-      "suggestion": "Provider-хъб непокрит (20, down); пионер в 3D/кинематографичните слотове (Slots3, серия Gods, A Night in Paris); distinct cluster; provider site + game-DB, NOT operator T&C/НАП. По-нисък приоритет заради обем",
-      "status": "candidate",
+      "suggestion": "Provider-хъб (3D/кинематографични слотове SLOTS3, серия Gods, A Night in Paris); distinct cluster; provider site + game-DB, NOT operator T&C/НАП. NB: дроп „provably fair\" (сертифициран RNG, не blockchain); само ADM/GLI/Quinel потвърдени. Написан vk-0126 PR #143",
+      "status": "used",
       "date_researched": "2026-09-19",
       "opportunity": null
     },
@@ -4718,6 +4735,34 @@
       "trend": "up",
       "checked": "ahrefs",
       "suggestion": "Game-explainer непокрит (10, up-тренд); 3 Oaks/Booongo египетска hold-and-win серия; distinct branded title; game-DB, NOT operator T&C/НАП. Провери RTP/механика преди писане",
+      "status": "candidate",
+      "date_researched": "2026-09-19",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Sweet Bonanza Super Scatter (Pragmatic): какво променя Super Scatter",
+      "researched_keywords": "sweet bonanza super scatter, суит бонанза супер скатер",
+      "volume": "20",
+      "kd": "",
+      "intent": "informational",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "Distinct НОВО заглавие (2024), НЕ вариант-fold-in — Super Scatter механика различна от оригиналната Sweet Bonanza (vk-0018, /blog/sweet-bonanza/); отделен primary kw 20; game-DB, NOT operator T&C/НАП. Провери RTP/механика преди писане",
+      "status": "candidate",
+      "date_researched": "2026-09-19",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Gates of Hades (Pragmatic): RTP, множители и как се играе",
+      "researched_keywords": "gates of hades, гейтс ъв хейдис",
+      "volume": "10",
+      "kd": "",
+      "intent": "informational",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "Distinct заглавие, различно от Gates of Olympus (/blog/gates-of-olympus/) — Хадес тема, own mechanics; отделен primary kw 10 (по-нисък приоритет); game-DB, NOT operator T&C/НАП",
       "status": "candidate",
       "date_researched": "2026-09-19",
       "opportunity": null
