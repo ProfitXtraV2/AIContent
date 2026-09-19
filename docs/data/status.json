@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-19T15:05:46Z",
+  "generated_utc": "2026-09-19T16:48:41Z",
   "buffer": {
     "count": 100,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 93,
-    "approved": 7,
+    "drafted": 88,
+    "approved": 12,
     "posted": 22,
     "failed": 1
   },
@@ -2169,7 +2169,7 @@
     },
     {
       "id": "vk-0119",
-      "status": "drafted",
+      "status": "approved",
       "type": "hub-intro",
       "query": "HUB INTRO: Казино плащания — интро за /blog/casino-payments/",
       "keywords_or_terms": "казино плащания, депозити и тегления казино",
@@ -2181,12 +2181,12 @@
       "folder": "2026-09-19-hub-intro-casino-payments",
       "pr": "#140",
       "gemini": "human 85",
-      "notes": "hub-intro one-off run: 364-word category-page intro for /blog/casino-payments/; no H1, 2 subheads, no images/FAQ/tables per spec; internal links money page /casino/betano/ + category articles /blog/evro-hazart-depoziti/ + /depoziti-i-teglenia/; gate 96/100 0 crit; Gemini Step-7 HL 25→85 PASS pass2 (1 humaniser); 0 [VERIFY]; Ahrefs/dedup/anti-cannibal skipped per one-off override (target page exists by design)",
+      "notes": "hub-intro one-off run: 364-word category-page intro for /blog/casino-payments/; no H1, 2 subheads, no images/FAQ/tables per spec; internal links money page /casino/betano/ + category articles /blog/evro-hazart-depoziti/ + /depoziti-i-teglenia/; gate 96/100 0 crit; Gemini Step-7 HL 25→85 PASS pass2 (1 humaniser); 0 [VERIFY]; Ahrefs/dedup/anti-cannibal skipped per one-off override (target page exists by design); approved for deploy 2026-09-19 (human review: hub intro casino-payments — 0 flags, Gemini human 85)",
       "opportunity": null
     },
     {
       "id": "vk-0120",
-      "status": "drafted",
+      "status": "approved",
       "type": "hub-intro",
       "query": "HUB INTRO: Казино бонуси и VIP — интро за /blog/bonuses-vip/",
       "keywords_or_terms": "казино бонуси, vip програма казино",
@@ -2198,12 +2198,12 @@
       "folder": "2026-09-19-hub-intro-bonuses-vip",
       "pr": "#136",
       "gemini": "human 80",
-      "notes": "hub-intro one-off run: 361-word category-page intro for /blog/bonuses-vip/; no H1, 2 subheads, no images/FAQ/tables per spec; internal links money page /bonusi/bez-depozit/ + category articles /blog/kak-raboti-razigravaneto/ + /blog/bonus-bez-depozit-2026/; gate 93/100 0 crit; Gemini Step-7 human 80 PASS pass1 (0 humaniser); 0 [VERIFY]; Ahrefs/dedup/anti-cannibal skipped per one-off override (target page exists by design)",
+      "notes": "hub-intro one-off run: 361-word category-page intro for /blog/bonuses-vip/; no H1, 2 subheads, no images/FAQ/tables per spec; internal links money page /bonusi/bez-depozit/ + category articles /blog/kak-raboti-razigravaneto/ + /blog/bonus-bez-depozit-2026/; gate 93/100 0 crit; Gemini Step-7 human 80 PASS pass1 (0 humaniser); 0 [VERIFY]; Ahrefs/dedup/anti-cannibal skipped per one-off override (target page exists by design); approved for deploy 2026-09-19 (human review: hub intro bonuses-vip — 0 flags, Gemini human 80)",
       "opportunity": null
     },
     {
       "id": "vk-0121",
-      "status": "drafted",
+      "status": "approved",
       "type": "hub-intro",
       "query": "HUB INTRO: Регулации и данъци — интро за /blog/regulations-taxes/",
       "keywords_or_terms": "хазартни закони българия, данък върху хазартни печалби",
@@ -2215,12 +2215,12 @@
       "folder": "2026-09-19-hub-intro-regulations-taxes",
       "pr": "#138",
       "gemini": "human 85",
-      "notes": "hub-intro one-off run: 401-word category-page intro for /blog/regulations-taxes/; no H1, 2 subheads, no images/FAQ/tables per spec; internal links money page /casino/betano/ (licensed-operator framing) + category articles /blog/proverka-licenz-kazino/ + /blog/danaci-pechalbi-onlajn-kazino/; gate 90/100 0 crit; Gemini Step-7 HL 25→85 PASS pass2 (1 humaniser); 1 [VERIFY] (чл. 13 ЗДДФЛ exact tax treatment — intentional hedge, never asserts a tax rate/exemption as settled fact; needs human/НАП-sourced resolution); Ahrefs/dedup/anti-cannibal skipped per one-off override",
+      "notes": "hub-intro one-off run: 401-word category-page intro for /blog/regulations-taxes/; no H1, 2 subheads, no images/FAQ/tables per spec; internal links money page /casino/betano/ (licensed-operator framing) + category articles /blog/proverka-licenz-kazino/ + /blog/danaci-pechalbi-onlajn-kazino/; gate 90/100 0 crit; Gemini Step-7 HL 25→85 PASS pass2 (1 humaniser); 1 [VERIFY] (чл. 13 ЗДДФЛ exact tax treatment — intentional hedge, never asserts a tax rate/exemption as settled fact; needs human/НАП-sourced resolution); Ahrefs/dedup/anti-cannibal skipped per one-off override; approved for deploy 2026-09-19 (human review: hub intro regulations-taxes — tax [VERIFY] resolved by removing the ЗДДФЛ чл. 13 assertion it guarded (no tax fact asserted), missing 18+ line added; Gemini human 85)",
       "opportunity": null
     },
     {
       "id": "vk-0122",
-      "status": "drafted",
+      "status": "approved",
       "type": "hub-intro",
       "query": "HUB INTRO: Сравнения и новини — интро за /blog/comparisons-news/",
       "keywords_or_terms": "сравнение на онлайн казина, кое казино да избера",
@@ -2232,12 +2232,12 @@
       "folder": "2026-09-19-hub-intro-comparisons-news",
       "pr": "#137",
       "gemini": "human 85",
-      "notes": "hub-intro one-off run: 350-word category-page intro for /blog/comparisons-news/; no H1, 2 subheads, no images/FAQ/tables per spec (comparison criteria in prose, no table); internal links money page /casino/winbet/ + category articles /sravni-kazina/ + /blog/koe-kazino-da-izberete/; gate 91/100 0 crit; Gemini Step-7 HL 25→85 PASS pass2 (1 humaniser); 0 [VERIFY]; Ahrefs/dedup/anti-cannibal skipped per one-off override",
+      "notes": "hub-intro one-off run: 350-word category-page intro for /blog/comparisons-news/; no H1, 2 subheads, no images/FAQ/tables per spec (comparison criteria in prose, no table); internal links money page /casino/winbet/ + category articles /sravni-kazina/ + /blog/koe-kazino-da-izberete/; gate 91/100 0 crit; Gemini Step-7 HL 25→85 PASS pass2 (1 humaniser); 0 [VERIFY]; Ahrefs/dedup/anti-cannibal skipped per one-off override; approved for deploy 2026-09-19 (human review: hub intro comparisons-news — 0 flags, Gemini human 85; body 344 words (6 under the 350 floor, not padded))",
       "opportunity": null
     },
     {
       "id": "vk-0123",
-      "status": "drafted",
+      "status": "approved",
       "type": "hub-intro",
       "query": "HUB INTRO: Отговорна игра — интро за /blog/responsible-gambling/",
       "keywords_or_terms": "отговорна игра, хазартна зависимост помощ",
@@ -2249,7 +2249,7 @@
       "folder": "2026-09-19-hub-intro-responsible-gambling",
       "pr": "#139",
       "gemini": "human 85",
-      "notes": "hub-intro one-off run: 358-word category-page intro for /blog/responsible-gambling/; no H1, 2 subheads, no images/FAQ/tables per spec; internal links money page /casino/betano/ (licensed-operator = self-exclusion tools framing, non-promotional) + category articles /otgovorna-igra/ + /zhalbi/; no specific helpline name/number invented (generic phrasing); gate 92/100 0 crit; Gemini Step-7 human 85 PASS pass1 (0 humaniser); 0 [VERIFY]; Ahrefs/dedup/anti-cannibal skipped per one-off override",
+      "notes": "hub-intro one-off run: 358-word category-page intro for /blog/responsible-gambling/; no H1, 2 subheads, no images/FAQ/tables per spec; internal links money page /casino/betano/ (licensed-operator = self-exclusion tools framing, non-promotional) + category articles /otgovorna-igra/ + /zhalbi/; no specific helpline name/number invented (generic phrasing); gate 92/100 0 crit; Gemini Step-7 human 85 PASS pass1 (0 humaniser); 0 [VERIFY]; Ahrefs/dedup/anti-cannibal skipped per one-off override; approved for deploy 2026-09-19 (human review: hub intro responsible-gambling — 0 flags, Gemini human 85)",
       "opportunity": null
     }
   ],
