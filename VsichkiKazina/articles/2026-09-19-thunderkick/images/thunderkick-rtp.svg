@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 360" width="660" height="360" role="img" aria-label="Обявени RTP на топ заглавия на Thunderkick: Esqueleto Explosivo 2 96.13%, Pink Elephants 2 96.13%, Beat the Beast Kraken's Lair 96.12%, Midas Golden Touch 96.1% и чувствително по-ниският Midas Golden Touch 2 с 94.27%. Мащабът е между 93% и 97%.">
+  <title>Thunderkick: обявени RTP на топ заглавия</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+    <linearGradient id="barHi" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="barLo" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="660" height="360" rx="12" ry="12" fill="url(#bg)"/>
+
+  <text x="330" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#1e3a8a" text-anchor="middle">Thunderkick: обявени RTP на топ заглавия</text>
+  <text x="330" y="52" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">мащаб 93%–97% · реалната стойност зависи от версията, която операторът пуска</text>
+
+  <!-- axis baseline at x=260 (=93%), per 1% = 92.5px, x=630 = 97% -->
+  <line x1="260" y1="76" x2="260" y2="300" stroke="#cbd5e1" stroke-width="1"/>
+
+  <!-- Row 1: Esqueleto Explosivo 2 = 96.13% -->
+  <text x="18" y="102" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#374151" font-weight="600">Esqueleto Explosivo 2</text>
+  <rect x="260" y="90" width="290" height="22" rx="4" fill="url(#barHi)"/>
+  <text x="558" y="106" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#1d4ed8">96.13%</text>
+
+  <!-- Row 2: Pink Elephants 2 = 96.13% -->
+  <text x="18" y="146" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#374151" font-weight="600">Pink Elephants 2</text>
+  <rect x="260" y="134" width="290" height="22" rx="4" fill="url(#barHi)"/>
+  <text x="558" y="150" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#1d4ed8">96.13%</text>
+
+  <!-- Row 3: Beat the Beast: Kraken's Lair = 96.12% -->
+  <text x="18" y="190" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#374151" font-weight="600">Beat the Beast: Kraken's Lair</text>
+  <rect x="260" y="178" width="289" height="22" rx="4" fill="url(#barHi)"/>
+  <text x="557" y="194" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#1d4ed8">96.12%</text>
+
+  <!-- Row 4: Midas Golden Touch = 96.1% -->
+  <text x="18" y="234" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#374151" font-weight="600">Midas Golden Touch</text>
+  <rect x="260" y="222" width="287" height="22" rx="4" fill="url(#barHi)"/>
+  <text x="555" y="238" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#1d4ed8">~96.1%</text>
+
+  <!-- Row 5: Midas Golden Touch 2 = 94.27% (low outlier) -->
+  <text x="18" y="278" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#374151" font-weight="600">Midas Golden Touch 2</text>
+  <rect x="260" y="266" width="117" height="22" rx="4" fill="url(#barLo)"/>
+  <text x="385" y="282" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#b45309">94.27%</text>
+
+  <line x1="260" y1="300" x2="630" y2="300" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="260" y="316" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#9ca3af">93%</text>
+  <text x="630" y="316" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#9ca3af" text-anchor="end">97%</text>
+
+  <text x="330" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">RTP е дългосрочна статистика, не прогноза · 18+ Играйте отговорно</text>
+</svg>
