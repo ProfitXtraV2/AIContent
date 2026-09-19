@@ -3,14 +3,16 @@
   "run_started_utc": "2026-09-19T03:11:02Z",
   "run_finished_utc": null,
   "articles_written": null,
-  "prs_opened": [],
+  "prs_opened": [
+    130
+  ],
   "run_url": "https://claude.ai/code/session_01KAtvAZeospva7ELZLhRFkk",
-  "note": "daily run 2026-09-19: selected 3 topics (vk-0113 Red Tiger provider hub, vk-0114 Gold Party, vk-0115 Le Pharaoh) in-progress; backlog all blocked (NV/НАП guides-only), picked from research bank by opportunity",
+  "note": "daily run 2026-09-19: vk-0115 Le Pharaoh DRAFTED (PR #130, Gemini ai 65 keep-best, img 95). Processing vk-0114 Gold Party.",
   "progress": {
     "phase": "writing",
-    "article_index": 1,
+    "article_index": 2,
     "article_total": 3,
-    "article_slug": "2026-09-19-red-tiger",
+    "article_slug": "2026-09-19-gold-party",
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "stage_index": 6,
+    "stage": "Light re-check"
   }
 }
