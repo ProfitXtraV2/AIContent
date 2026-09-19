@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-19T07:32:16Z",
+  "generated_utc": "2026-09-19T07:42:34Z",
   "buffer": {
-    "count": 94,
+    "count": 95,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 1,
-    "drafted": 87,
+    "in-progress": 0,
+    "drafted": 88,
     "approved": 7,
     "posted": 22,
     "failed": 1
@@ -2118,7 +2118,7 @@
     },
     {
       "id": "vk-0116",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Peter & Sons: профил на доставчика, механики и топ слотове",
       "keywords_or_terms": "peter and sons, peter & sons, peter sons слотове",
@@ -2128,9 +2128,9 @@
       "drafted_date": "2026-09-19",
       "posted_date": "",
       "folder": "2026-09-19-peter-and-sons",
-      "pr": "",
-      "gemini": "",
-      "notes": "provider-hub pillar; art-focused studio; batch 2026-09-19 2nd fire",
+      "pr": "#135",
+      "gemini": "human 85",
+      "notes": "provider-hub pillar; young Armenian art studio (2019 Yerevan, comic-book identity, ~1 release/mo); reaches players via Relax Gaming Silver Bullet (2022) + Yggdrasil YGS Masters aggregation; B2B licences (studio+partners) MGA/UKGC; signature cascades + progressive multiplier in FS + expanding ways 243->7776 + mystery stacks + bonus buy; high/very-high vol; top slots Xibalba 96.2%/20000x, Voodoo Hex 96.3% builds 94/90.5/86.1 /9400x, Dragon Blox GigaBlox 95.9%/10000x, Steamworks 96.17%/2500x, Barbarossa: Dragon Empire 96.57% builds 94/91 /40000x; ATTRIBUTION DISCIPLINE: Le Bandit/Wanted Dead/Respinners (Hacksaw), Coins of Fortune (Nolimit), Peaky Blinders (Pragmatic) verified NOT P&S -> kept out; founder names/SkillOnNet stake/BG-cert UNVERIFIED->omitted; public studio data, NOT operator T&C/НАП; gate 93/100 0 crit; Gemini Step-7 HL 25->85 PASS pass2 (1 humaniser, 0 number-drift); img:2 (RTP infographic 100 + hero 100, best 100, 0 integrity); 0 [VERIFY]; PR #135; Ahrefs vol 30",
       "opportunity": null
     },
     {
@@ -2394,7 +2394,7 @@
       "trend": "flat",
       "checked": "ahrefs",
       "suggestion": "Провайдър-хъб непокрит (30, flat); арт-фокусирано студио, distinct provider-query cluster; котва към доставчици-хъб; provider licences на студиото; provider site + game-DB, NOT operator T&C/НАП",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-19",
       "opportunity": null
     },
@@ -4449,6 +4449,82 @@
       "suggestion": "Слаб но растящ game-explainer (20/transactional up); Hacksaw Gaming (hub vk-0067), coin-collect/множители; distinct kw непокрит; provider site + game-DB, NOT operator T&C/НАП. Провери RTP/макс. win web",
       "status": "used",
       "date_researched": "2026-09-18",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "BGaming: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "bgaming, бигейминг, bgaming слотове, bgaming казино игри",
+      "volume": "80",
+      "kd": "61",
+      "intent": "transactional",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "НАЙ-СИЛЕН нов provider-хъб (80/kd61 transactional); непокрит distinct provider-query cluster; crypto-friendly студио, provably fair + класики (Elvis Frog, Dig Dig Digger, Aztec Magic); provider licences на студиото; provider site + game-DB, NOT operator T&C/НАП. Провери facts преди писане",
+      "status": "candidate",
+      "date_researched": "2026-09-19",
+      "opportunity": {
+        "score": 20,
+        "band": "Weak"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Spinomenal: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "spinomenal, спиномена, spinomenal слотове",
+      "volume": "30",
+      "kd": "0",
+      "intent": "informational",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "Provider-хъб непокрит (30/kd0 — ниска трудност); израелско студио с голям каталог + Kingdom прогресив линкед мрежа; distinct cluster; provider site + game-DB, NOT operator T&C/НАП",
+      "status": "candidate",
+      "date_researched": "2026-09-19",
+      "opportunity": {
+        "score": 42,
+        "band": "Moderate"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Betsoft: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "betsoft, бетсофт, betsoft слотове",
+      "volume": "20",
+      "kd": "",
+      "intent": "informational",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "Provider-хъб непокрит (20, down); пионер в 3D/кинематографичните слотове (Slots3, серия Gods, A Night in Paris); distinct cluster; provider site + game-DB, NOT operator T&C/НАП. По-нисък приоритет заради обем",
+      "status": "candidate",
+      "date_researched": "2026-09-19",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Quickspin: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "quickspin, куикспин, quickspin слотове",
+      "volume": "20",
+      "kd": "",
+      "intent": "informational",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "Provider-хъб непокрит (20, down); шведско студио (част от Playtech), Achievements/Bonus mechanics, Big Bad Wolf/Sakura Fortune; distinct cluster; provider site + game-DB, NOT operator T&C/НАП. По-нисък приоритет заради обем",
+      "status": "candidate",
+      "date_researched": "2026-09-19",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Sun of Egypt 3 (3 Oaks): RTP, Hold-and-Spin и как се играе",
+      "researched_keywords": "sun of egypt 3, сън ъв иджипт 3, 3 oaks sun of egypt 3",
+      "volume": "10",
+      "kd": "",
+      "intent": "informational",
+      "trend": "up",
+      "checked": "ahrefs",
+      "suggestion": "Game-explainer непокрит (10, up-тренд); 3 Oaks/Booongo египетска hold-and-win серия; distinct branded title; game-DB, NOT operator T&C/НАП. Провери RTP/механика преди писане",
+      "status": "candidate",
+      "date_researched": "2026-09-19",
       "opportunity": null
     }
   ],

@@ -20,6 +20,16 @@
 },
 "trend": "up"
 },
+"bg|888 dragons": {
+"fetched": "2026-09-19",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "888 dragons",
+"volume": 0
+}
+},
 "bg|aztec gems": {
 "fetched": "2026-09-16",
 "row": {
@@ -28,6 +38,35 @@
 "intents": {},
 "keyword": "aztec gems",
 "volume": 20
+},
+"trend": "down"
+},
+"bg|betsoft": {
+"fetched": "2026-09-19",
+"row": {
+"cpc": 110,
+"difficulty": null,
+"intents": {},
+"keyword": "betsoft",
+"volume": 20
+},
+"trend": "down"
+},
+"bg|bgaming": {
+"fetched": "2026-09-19",
+"row": {
+"cpc": null,
+"difficulty": 61,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "bgaming",
+"volume": 80
 },
 "trend": "down"
 },
@@ -1102,6 +1141,17 @@
 "transactional": false
 },
 "keyword": "spaceman",
+"volume": 30
+},
+"trend": "down"
+},
+"bg|spinomenal": {
+"fetched": "2026-09-19",
+"row": {
+"cpc": 60,
+"difficulty": 0,
+"intents": {},
+"keyword": "spinomenal",
 "volume": 30
 },
 "trend": "down"
