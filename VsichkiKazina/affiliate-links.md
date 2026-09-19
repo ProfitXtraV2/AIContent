@@ -22,6 +22,7 @@ links are already public on the site, so keeping them in this (public) repo is f
 | operator | affiliate_url | landing | status | source_page | last_checked |
 |---|---|---|---|---|---|
 | Betano | https://vsichkikazina.bg/go/betano/ | welcome bonus | active | /casino/betano/ | 2026-09-13 |
+| Elitbet | https://vsichkikazina.bg/go/elitbet/ | 200 free spins | active | /casino/elitbet/ | 2026-09-19 |
 <!-- Populated by the affiliate-link extraction run from vsichkikazina.bg, then human-verified.
      Example row shape:
      | Spin City | https://vsichkikazina.bg/go/spin-city | welcome bonus | active | /kazino/spin-city/ | 2026-09-07 | -->
