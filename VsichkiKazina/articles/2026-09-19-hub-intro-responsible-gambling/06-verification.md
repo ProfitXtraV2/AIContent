@@ -36,5 +36,7 @@
 - Brand Gate (Step 5): PASS, 92/100, zero criticals (see 05-gate-report.md).
 - Step 5b light humaniser re-check: nothing to fix (em-dashes/signposting/tables/lists/
   other tells all absent) — article returned unchanged.
-- Step 7 Gemini external check: see 07-gemini-check-*.md files and log.md for the verdict
-  and pass count.
+- Step 7 Gemini external check: pass 1 → human-likeness 85 ("Likely human-written, 85%
+  confidence") → PASS (≥80, GEMINI_TARGET_CONFIDENCE). 1 pass needed, 0 Humaniser
+  re-passes required. Kept version: 05b-final-draft.md unchanged (only/highest
+  human-likeness seen: 85). See 07-gemini-check-1.md for the verbatim verdict.

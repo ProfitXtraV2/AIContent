@@ -18,4 +18,6 @@
   unchanged from Step 4. Final body: 358 words, 0 em-dashes, 2 H2s, 0 H1, 3 internal
   links, RG line verbatim present.
 - Step 8 (images): SKIPPED ENTIRELY per hub-intro spec — no images/ folder created.
-- Step 7 (external Gemini check): see entries below, appended as they run.
+- Step 7 (external Gemini check), pass 1: human-likeness 85 ("Likely human-written, 85%
+  confidence") → PASS (≥80). No Humaniser re-pass needed. 05b-final-draft.md kept
+  unchanged (highest/only human-likeness seen: 85). See 07-gemini-check-1.md.
