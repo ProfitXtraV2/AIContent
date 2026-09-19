@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-19T03:49:16Z",
+  "generated_utc": "2026-09-19T06:46:03Z",
   "buffer": {
-    "count": 93,
+    "count": 92,
     "target": 10,
     "deficit": 0,
     "ok": true
@@ -9,8 +9,8 @@
   "counts": {
     "in-progress": 0,
     "drafted": 85,
-    "approved": 8,
-    "posted": 21,
+    "approved": 7,
+    "posted": 22,
     "failed": 1
   },
   "rows": [
@@ -424,7 +424,7 @@
     },
     {
       "id": "vk-0022",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Gates of Olympus: RTP, волатилност и как се играе",
       "keywords_or_terms": "gates of olympus, гейтс ъв олимпус",
@@ -432,7 +432,7 @@
       "kd": "69",
       "source": "research",
       "drafted_date": "2026-09-09",
-      "posted_date": "",
+      "posted_date": "2026-09-19",
       "folder": "2026-09-09-gates-of-olympus",
       "pr": "#28",
       "gemini": "human 90",
