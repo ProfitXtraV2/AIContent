@@ -1,32 +1,17 @@
 {
   "state": "idle",
-  "run_started_utc": "2026-09-19T07:10:18Z",
-  "run_finished_utc": "2026-09-19T07:10:18Z",
-  "articles_written": 3,
-  "prs_opened": [
-    133,
-    134,
-    135
-  ],
-  "run_url": "https://claude.ai/code/session_01C4UtWyoEB6xkyuasKi8EeC",
-  "note": "daily run 2026-09-19 (2nd fire) complete — 3 guides drafted: Peter & Sons #135, Thunderkick #134, Wisdom of Athena #133. Gemini online (text human 80/85/85 + images 100/95/100, 0 integrity). Research bank +5 (BGaming/Spinomenal/Betsoft/Quickspin/Sun of Egypt 3), dropped stale Jammin' Jars dup. Buffer 95. Human owns flag-resolution/merge/publish.",
+  "run_started_utc": "2026-09-19T09:40:00Z",
+  "run_finished_utc": "2026-09-19T09:40:00Z",
+  "articles_written": 0,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01V8MkQS9p2qgVKMGSfpihdb",
+  "note": "backfill: nothing to do — all 95 guide/comparison articles have images; the 5 remaining imageless drafted rows (vk-0119–vk-0123) are hub-intro category-page intros spec'd without images (no images/FAQ/tables per their brief). No imageless review-ready guides found.",
   "progress": {
     "phase": "done",
-    "article_index": 3,
-    "article_total": 3,
+    "article_index": 0,
+    "article_total": 0,
     "article_slug": null,
-    "stages": [
-      "Synthesis",
-      "Outline",
-      "Author",
-      "Humaniser",
-      "SEO",
-      "Brand Gate",
-      "Light re-check",
-      "Images",
-      "Verification",
-      "PR"
-    ],
+    "stages": [],
     "stage_index": null,
     "stage": null
   }
