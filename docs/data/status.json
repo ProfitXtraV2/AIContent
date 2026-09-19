@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-19T07:10:33Z",
+  "generated_utc": "2026-09-19T07:23:30Z",
   "buffer": {
-    "count": 92,
+    "count": 93,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
-    "drafted": 85,
+    "in-progress": 2,
+    "drafted": 86,
     "approved": 7,
     "posted": 22,
     "failed": 1
@@ -2115,6 +2115,57 @@
       "gemini": "ai 65",
       "notes": "slot explainer; Hacksaw Egyptian slot; game-DB/provider data (BigWinBoard/Hacksaw), NOT operator T&C/НАП; RTP 96.18% (builds 94.33/92.26/88.24), max win 15 000x, coins bronze/silver/gold + clovers x2-x20, bet €0.10-€100; gate 93/100 0 crit; Gemini Step-7 HL 25→35→25 keep-best pass1 (ai 65, noisy detector, 0 number-drift); img:2 (infographic 95 + hero 95, best 95, 0 integrity, 1 fix pass); 0 [VERIFY]; PR #130",
       "opportunity": null
+    },
+    {
+      "id": "vk-0116",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Peter & Sons: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "peter and sons, peter & sons, peter sons слотове",
+      "volume": "30",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-19",
+      "posted_date": "",
+      "folder": "2026-09-19-peter-and-sons",
+      "pr": "",
+      "gemini": "",
+      "notes": "provider-hub pillar; art-focused studio; batch 2026-09-19 2nd fire",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0117",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Thunderkick: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "thunderkick, тъндъркик, thunderkick слотове",
+      "volume": "20",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-19",
+      "posted_date": "",
+      "folder": "2026-09-19-thunderkick",
+      "pr": "",
+      "gemini": "",
+      "notes": "provider-hub pillar; Swedish studio; batch 2026-09-19 2nd fire",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0118",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Wisdom of Athena (Pragmatic): RTP, множители и как се играе",
+      "keywords_or_terms": "wisdom of athena, уиздъм ъв атина, pragmatic wisdom of athena",
+      "volume": "20",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-19",
+      "posted_date": "",
+      "folder": "2026-09-19-wisdom-of-athena",
+      "pr": "#133",
+      "gemini": "human 80",
+      "notes": "game explainer; Pragmatic pay-anywhere 6x5 (min 8 symbols) + tumble + progressive grid unlock; FACT-CORRECTION: NO 'Athena wild' — mechanic is summed multiplier symbols x2-x500 (held in FS), corrected from bank note; RTP 96.07% default (builds 95.09/94.09), house edge 3.93%, €1000->~€961/~€39, max 5000x, high vol, ante +25%, buy 100x; WoA 1000 (2024) noted as distinct title; public game-DB (pragmaticplay/BigWinBoard/ClashOfSlots/SlotCatalog), NOT operator T&C/НАП; gate 94/100 0 crit; Gemini Step-7 human 80 PASS pass1 (0 humaniser); img:2 (infographic 100 + hero 100, best 100, 0 integrity); 0 [VERIFY]; PR #133; Ahrefs vol 20",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -4218,7 +4269,7 @@
       "trend": "down",
       "checked": "ahrefs",
       "suggestion": "Pragmatic гръцка тема, pay-anywhere/tumble + Athena wild с растящ множител; непокрит distinct kw; vol 20 (down); fold-in: wisdom of athena 1000 (10). Котва към Pragmatic профил; public game-DB; чист. Провери механика преди писане",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-17",
       "opportunity": null
     },
@@ -4364,8 +4415,8 @@
       "intent": "transactional",
       "trend": "up",
       "checked": "ahrefs",
-      "suggestion": "СИЛЕН нов game-explainer (100/kd51 transactional ↑ — най-добрата нова находка); Push Gaming cluster-pays 8×8 + буркани-wild с множители, Rainbow feature; distinct kw непокрит (queue/sitemap 0); разграничи от Jammin' Jars 2 (0 vol → fold-in); provider site + game-DB, NOT operator T&C/НАП. Провери RTP билдове/макс. win web преди писане",
-      "status": "candidate",
+      "suggestion": "СИЛЕН нов game-explainer (100/kd51 transactional ↑ — най-добрата нова находка); Push Gaming cluster-pays 8×8 + буркани-wild с множители, Rainbow feature; distinct kw непокрит (queue/sitemap 0); разграничи от Jammin' Jars 2 (0 vol → fold-in); provider site + game-DB, NOT operator T&C/НАП. Провери RTP билдове/макс. win web преди писане  DEDUP: already written vk-0074 PR #92 (drop)",
+      "status": "used",
       "date_researched": "2026-09-18",
       "opportunity": {
         "score": 25,
