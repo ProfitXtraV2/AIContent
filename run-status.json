@@ -1,11 +1,11 @@
 {
   "state": "idle",
-  "run_started_utc": "2026-09-19T09:40:00Z",
-  "run_finished_utc": "2026-09-19T09:40:00Z",
+  "run_started_utc": "2026-09-19T17:00:00Z",
+  "run_finished_utc": "2026-09-19T17:00:00Z",
   "articles_written": 0,
   "prs_opened": [],
-  "run_url": "https://claude.ai/code/session_01V8MkQS9p2qgVKMGSfpihdb",
-  "note": "backfill: nothing to do — all 95 guide/comparison articles have images; the 5 remaining imageless drafted rows (vk-0119–vk-0123) are hub-intro category-page intros spec'd without images (no images/FAQ/tables per their brief). No imageless review-ready guides found.",
+  "run_url": "https://claude.ai/code/session_01VnzLaG3vWajwSQBoYkb3TT",
+  "note": "backfill: nothing to do — all 95 guide/comparison articles have images; the 5 remaining imageless rows (vk-0119–vk-0123) are hub-intro category-page intros spec'd without images (no images/FAQ/tables per their brief). No imageless review-ready guides found.",
   "progress": {
     "phase": "done",
     "article_index": 0,
