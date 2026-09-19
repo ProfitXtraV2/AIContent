@@ -5,12 +5,12 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01KAtvAZeospva7ELZLhRFkk",
-  "note": "daily run 2026-09-19 (recurring) — starting; synced main, no in-progress rows to reconcile",
+  "note": "daily run 2026-09-19: selected 3 topics (vk-0113 Red Tiger provider hub, vk-0114 Gold Party, vk-0115 Le Pharaoh) in-progress; backlog all blocked (NV/НАП guides-only), picked from research bank by opportunity",
   "progress": {
     "phase": "writing",
-    "article_index": null,
+    "article_index": 1,
     "article_total": 3,
-    "article_slug": null,
+    "article_slug": "2026-09-19-red-tiger",
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": null,
-    "stage": null
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
