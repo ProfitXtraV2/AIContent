@@ -1,19 +1,20 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-09-19T03:11:02Z",
-  "run_finished_utc": null,
-  "articles_written": null,
+  "run_finished_utc": "2026-09-19T03:49:30Z",
+  "articles_written": 3,
   "prs_opened": [
     130,
-    131
+    131,
+    132
   ],
   "run_url": "https://claude.ai/code/session_01KAtvAZeospva7ELZLhRFkk",
-  "note": "daily run 2026-09-19: vk-0115 Le Pharaoh (#130, ai 65) + vk-0114 Gold Party (#131, human 90) DRAFTED. Processing vk-0113 Red Tiger.",
+  "note": "daily run 2026-09-19 (recurring): 3 guides drafted — vk-0115 Le Pharaoh (#130, gate 93, Gemini ai 65 keep-best pass1 [HL 25→35→25, noisy detector], img:2 95/95, 0 VERIFY), vk-0114 Gold Party (#131, gate 93, Gemini human 90 PASS pass1, img:2 100/100, 0 VERIFY), vk-0113 Red Tiger provider hub (#132, gate 94, Gemini human 85 PASS initial draft, img:2 100/100, 0 VERIFY). Selection: backlog rows 5-14 all NV-branded/operator-НАП-dependent → stay open+blocked (guides-only scope); picked from research bank by opportunity (dropped stale already-covered candidate Jammin' Jars=vk-0074). AHREFS healthy (key ~4.7k units left, reset 15.10): replenished bank +2 measured provider hubs (Thunderkick 20↓, Peter & Sons 30 flat), zero-vol skipped power-of-merlin/sun-of-egypt/elvis-frog. GEMINI ONLINE (text + image checks real). Buffer 90→93 (floor 10, no cap). Board on main; 3 content PRs (article-dir only). Human owns Step 6 flag-resolution/merge/publish.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 3,
     "article_total": 3,
-    "article_slug": "2026-09-19-red-tiger",
+    "article_slug": null,
     "stages": [
       "Synthesis",
       "Outline",
@@ -26,7 +27,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 6,
-    "stage": "Light re-check"
+    "stage_index": null,
+    "stage": null
   }
 }

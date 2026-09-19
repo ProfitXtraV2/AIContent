@@ -314,6 +314,16 @@
 },
 "trend": "down"
 },
+"bg|elvis frog in vegas": {
+"fetched": "2026-09-19",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "elvis frog in vegas",
+"volume": 0
+}
+},
 "bg|fire in the hole": {
 "fetched": "2026-09-16",
 "row": {
@@ -872,6 +882,17 @@
 },
 "trend": "up"
 },
+"bg|peter and sons": {
+"fetched": "2026-09-19",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "peter and sons",
+"volume": 30
+},
+"trend": "flat"
+},
 "bg|pirots 2": {
 "fetched": "2026-09-17",
 "row": {
@@ -919,6 +940,16 @@
 "difficulty": null,
 "intents": {},
 "keyword": "power of merlin",
+"volume": 0
+}
+},
+"bg|power of merlin megaways": {
+"fetched": "2026-09-19",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "power of merlin megaways",
 "volume": 0
 }
 },

@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-19T03:11:18Z",
+  "generated_utc": "2026-09-19T03:49:16Z",
   "buffer": {
-    "count": 90,
+    "count": 93,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 82,
+    "drafted": 85,
     "approved": 8,
     "posted": 21,
     "failed": 1
@@ -2061,6 +2061,60 @@
         "score": 14,
         "band": "Weak"
       }
+    },
+    {
+      "id": "vk-0113",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Red Tiger: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "red tiger, ред тайгър, red tiger gaming, red tiger слотове",
+      "volume": "40",
+      "kd": "83",
+      "source": "research",
+      "drafted_date": "2026-09-19",
+      "posted_date": "",
+      "folder": "2026-09-19-red-tiger",
+      "pr": "#132",
+      "gemini": "human 85",
+      "notes": "provider-hub pillar; Red Tiger Gaming осн. 2014, NetEnt придобива 2019, в Evolution края на 2020; Daily Drop timed jackpots; топ слотове Dragon's Fire 96.07%/10 366x, Gems Gone Wild 96.14%/1 706x, Mystery Reels 96.24%/4 991x; studio site + game-DB/iGaming press, NOT operator T&C/НАП; NON-FABRICATION: deal price (~£197m/£220m конфликт) пропуснат, Pirates' Plenty RTP (95.7% vs 96.12% версии) без число само като пример; gate 94/100 0 crit; Gemini Step-7 human 85 PASS pass1 (0 humaniser); img:2 (infographic 100 + hero 100, best 100, 0 integrity); 0 [VERIFY]; PR #132",
+      "opportunity": {
+        "score": 9,
+        "band": "Weak"
+      }
+    },
+    {
+      "id": "vk-0114",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Gold Party (Pragmatic): RTP, Hold-and-Spin и как се играе",
+      "keywords_or_terms": "gold party, gold party pragmatic, gold party rtp",
+      "volume": "40",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-19",
+      "posted_date": "",
+      "folder": "2026-09-19-gold-party",
+      "pr": "#131",
+      "gemini": "human 90",
+      "notes": "slot explainer; Pragmatic Play Money Respin (Hold & Spin); game-DB/provider data (Pragmatic/BigWinBoard/slotcatalog), NOT operator T&C/НАП; RTP 96.50% (builds 95.48/94.47), max win 5163x, bet €0.25-€125, ≥6 symbols/8 respins/4 fields, jackpots Mini20x/Minor50x/Major200x/Grand5000x, vol 4.5/5; gate 93/100 0 crit; Gemini Step-7 HL 25→90 PASS pass1 (human 90); img:2 (infographic 100 + hero 100, best 100, 0 integrity); 0 [VERIFY]; PR #131",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0115",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Le Pharaoh (Hacksaw Gaming): RTP, механики и как се играе",
+      "keywords_or_terms": "le pharaoh, le pharaoh hacksaw, le pharaoh rtp",
+      "volume": "20",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-19",
+      "posted_date": "",
+      "folder": "2026-09-19-le-pharaoh",
+      "pr": "#130",
+      "gemini": "ai 65",
+      "notes": "slot explainer; Hacksaw Egyptian slot; game-DB/provider data (BigWinBoard/Hacksaw), NOT operator T&C/НАП; RTP 96.18% (builds 94.33/92.26/88.24), max win 15 000x, coins bronze/silver/gold + clovers x2-x20, bet €0.10-€100; gate 93/100 0 crit; Gemini Step-7 HL 25→35→25 keep-best pass1 (ai 65, noisy detector, 0 number-drift); img:2 (infographic 95 + hero 95, best 95, 0 integrity, 1 fix pass); 0 [VERIFY]; PR #130",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -2267,6 +2321,34 @@
   "research": [
     {
       "type": "guide",
+      "query": "Thunderkick: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "thunderkick, тъндъркик, thunderkick слотове",
+      "volume": "20",
+      "kd": "",
+      "intent": "",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "Провайдър-хъб непокрит (20, ↓; слаб но нишов); шведско студио с иновативни механики; distinct от покритите хъбове; provider licences на студиото; provider site + game-DB, NOT operator T&C/НАП. По-нисък приоритет заради обем",
+      "status": "candidate",
+      "date_researched": "2026-09-19",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Peter & Sons: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "peter and sons, peter & sons, peter sons слотове",
+      "volume": "30",
+      "kd": "",
+      "intent": "",
+      "trend": "flat",
+      "checked": "ahrefs",
+      "suggestion": "Провайдър-хъб непокрит (30, flat); арт-фокусирано студио, distinct provider-query cluster; котва към доставчици-хъб; provider licences на студиото; provider site + game-DB, NOT operator T&C/НАП",
+      "status": "candidate",
+      "date_researched": "2026-09-19",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
       "query": "Nolimit City: профил на доставчика, механики и топ слотове",
       "researched_keywords": "nolimit city, нолимит сити, nolimit слотове, xways xnudge",
       "volume": "350",
@@ -2371,7 +2453,7 @@
       "trend": "down",
       "checked": "ahrefs",
       "suggestion": "Провайдър-хъб непокрит (40/transactional, kd83 висок); daily jackpots, Dragons Fire; част от Evolution групата; котва към доставчици-хъб; provider licences на студиото; provider site + game-DB, NOT operator T&C/НАП. По-нисък приоритет заради kd",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-18",
       "opportunity": {
         "score": 9,
@@ -4300,7 +4382,7 @@
       "trend": "down",
       "checked": "ahrefs",
       "suggestion": "Умерен game-explainer (40/commercial down); Pragmatic Hold & Spin/money-collect механика; distinct kw непокрит; provider site + game-DB, NOT operator T&C/НАП. Провери RTP/макс. win web",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-18",
       "opportunity": null
     },
@@ -4314,7 +4396,7 @@
       "trend": "up",
       "checked": "ahrefs",
       "suggestion": "Слаб но растящ game-explainer (20/transactional up); Hacksaw Gaming (hub vk-0067), coin-collect/множители; distinct kw непокрит; provider site + game-DB, NOT operator T&C/НАП. Провери RTP/макс. win web",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-18",
       "opportunity": null
     }
