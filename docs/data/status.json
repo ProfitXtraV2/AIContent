@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-19T22:26:27Z",
+  "generated_utc": "2026-09-19T22:35:34Z",
   "buffer": {
-    "count": 101,
+    "count": 102,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 89,
+    "drafted": 90,
     "approved": 12,
     "posted": 22,
     "failed": 1
@@ -2270,6 +2270,26 @@
       "opportunity": {
         "score": 42,
         "band": "Moderate"
+      }
+    },
+    {
+      "id": "vk-0125",
+      "status": "drafted",
+      "type": "guide",
+      "query": "BGaming: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "bgaming, бигейминг, bgaming слотове, bgaming казино игри",
+      "volume": "80",
+      "kd": "61",
+      "source": "research",
+      "drafted_date": "2026-09-19",
+      "posted_date": "",
+      "folder": "2026-09-19-bgaming-provajdar",
+      "pr": "#142",
+      "gemini": "human 90",
+      "notes": "provider-profile pillar; distinct primary kw „bgaming\" 80/kd61/transactional (най-силен нов provider-хъб от батча); PUBLIC provider-site + game-DB facts (bgaming.com/about + /news/mga, Wizard of Odds, SlotCatalog), NOT operator T&C/НАП; отделя се 2018 от SoftSwiss, Stable Games Ltd Малта; MGA B2B No. MGA/B2B/785/2020 (18.03.2021), iTech Labs/BMM; ~250 заглавия, 3000+ платформи (provider claim); central honest angle = provably fair доказва завъртането, но НЕ маха домашното предимство; втора точка = конфигурируем RTP 96%/94%; разграничение лиценз на доставчика ≠ лиценз на казиното (НАП); top titles Elvis Frog 96%/Aztec Magic Bonanza 96% max 10200x/Dig Dig Digger ~95.5%/Book of Pyramids ~97.13%; CORRECTIONS Book of Sirens е Spinomenal (дроп), Dig Dig Digger 95.5% (не 94.94%), без GLI; gate 93/100 0 crit; Gemini Step-7 human 90 PASS on initial (0 humaniser); img:2 (infographic 85 + hero 85, 0 integrity); 0 [VERIFY]; Ahrefs vol 80/kd 61",
+      "opportunity": {
+        "score": 20,
+        "band": "Weak"
       }
     }
   ],
@@ -4635,8 +4655,8 @@
       "intent": "transactional",
       "trend": "down",
       "checked": "ahrefs",
-      "suggestion": "НАЙ-СИЛЕН нов provider-хъб (80/kd61 transactional); непокрит distinct provider-query cluster; crypto-friendly студио, provably fair + класики (Elvis Frog, Dig Dig Digger, Aztec Magic); provider licences на студиото; provider site + game-DB, NOT operator T&C/НАП. Провери facts преди писане",
-      "status": "candidate",
+      "suggestion": "НАЙ-СИЛЕН нов provider-хъб (80/kd61 transactional); crypto-friendly студио, provably fair + класики (Elvis Frog, Dig Dig Digger, Aztec Magic); provider site + game-DB, NOT operator T&C/НАП. NB: Book of Sirens е Spinomenal (не BGaming); без GLI. Написан vk-0125 PR #142",
+      "status": "used",
       "date_researched": "2026-09-19",
       "opportunity": {
         "score": 20,
