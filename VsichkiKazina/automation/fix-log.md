@@ -8,6 +8,60 @@ Facts, numbers, licence/RTP/tax figures, dates, byline (Георги Тодор�
 
 ---
 
+## 2026-09-19
+
+### JOB A — publish-blocking flags
+Scanned every `content/*` branch's own `VsichkiKazina/articles/<folder>/05b-final-draft.md`
+(127 content branches) for blocking markers (`[VERIFY]`, `[DATA NEEDED]`, `[CONFLICT]`,
+`[18+ / RG LINE]`, `[AUTHOR]`, `[BRAND]`, `[EDITORIAL]`, `[уточни]`, `[провери]`). Exactly
+**2** branches carried a blocking marker — and **both are posted/live** (PRs merged), so both
+were left untouched per the hard rule. **No drafted/approved branch carries a blocking flag
+tonight** (all 91 drafted + 12 approved branches scanned clean). The
+`[About Всички Казина boilerplate]` token is a publisher-expanded template placeholder present
+on ~all branches incl. already-posted/live articles — not a blocking marker, left untouched
+(idempotent, consistent with prior nights and with it rendering fine on live posted pages).
+
+### JOB B — low Gemini score improvements
+Board targets = status ∈ {drafted, approved} AND gemini `ai <n>` OR `human <n>` with n<80.
+**Exactly 1 qualifying target:** vk-0115. Every other drafted/approved row is either
+`human ≥80` (range 80–95) or `skipped` (Step-7 never run — outside the defined target set).
+
+- **vk-0115** `2026-09-19-le-pharaoh` (PR #130, drafted, was `ai 65`): applied Step-7b +
+  Step-3/5b humaniser technique, **style-only** (0 fact/number/RTP/date/link/RG/byline/brand
+  change — identical number set verified). Removed detector-flagged AI-tells: artificial-contrast
+  intro + forced „защото", wrap-up „bow" sentence, hyperbolic „епичният", the „различни бюджети"
+  cliché, translationese („идва през" / „докато поредицата спре да се подобрява" / „Върху тях
+  идват детелините." / „колко от тях паднат решава"), staccato cataloging, a 40-word volatility
+  run-on, and a semicolon-jammed link. **5 gemini checks used** (cap): HL reads 25 → 25 → **90** →
+  30 → **75**; verdict flipped from a consistent „Shows AI patterns" to „Likely human-written"
+  on the final reads. Recorded `human 75` (final read of committed text; best-seen 90).
+  High-variance detector for this dry compliance niche (documented whack-a-mole, cf. vk-0063/vk-0008).
+  Committed `fix(quality): humanise 2026-09-19-le-pharaoh (gemini ai 65 -> human 75)`, pushed to
+  PR #130. **improved (verdict ai→human), borderline <80 → left best version + logged for human.**
+
+### Still flagged after attempts
+None on drafted/approved branches (Job A clean; the single Job-B target improved to `human 75`,
+borderline, no residual flags).
+
+### POSTED — needs human review (recurring — unchanged since 2026-09-13/09-14, still open)
+- **vk-0063** `2026-09-13-nv-casino-zakonno-li-e` (PR #79 merged, `ai 75`, posted): branch still
+  carries `[AUTHOR BIO BLOCK: Георги Тодоров] [About Всички Казина boilerplate]` (line 56).
+  Left untouched (never edit posted/live).
+- **vk-0064** `2026-09-13-nv-casino-bonus-usloviya` (PR #80 merged, `human 85`, posted): branch
+  still carries `[AUTHOR BIO BLOCK: Георги Тодоров] [BRAND BOILERPLATE: Всички Казина] [18+ / RG LINE]`
+  (line 65). Left untouched.
+  ACTION (recurring, not yet actioned by a human): confirm whether the live pages render raw
+  brackets. If these author-bio/brand/RG blocks are genuinely unfilled, a human should fill them
+  and re-publish, or correct the `posted` status. vk-0063 additionally scored `ai 75` and would
+  benefit from a human-reviewed humanise pass done off the live path.
+
+### Deferred (over nightly cap of 10)
+None — only 1 qualifying Job-B target, processed in full. The ~30 `skipped`-gemini drafted rows
+(vk-0080…vk-0109) remain outside the target set (neither `ai` nor `human<80`); flagged again here
+for the autopilot / a future run to backfill Step-7 scores.
+
+---
+
 ## 2026-09-17
 
 ### JOB A — publish-blocking flags

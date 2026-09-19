@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-19T22:51:31Z",
+  "generated_utc": "2026-09-19T23:17:05Z",
   "buffer": {
     "count": 103,
     "target": 10,
@@ -2112,8 +2112,8 @@
       "posted_date": "",
       "folder": "2026-09-19-le-pharaoh",
       "pr": "#130",
-      "gemini": "ai 65",
-      "notes": "slot explainer; Hacksaw Egyptian slot; game-DB/provider data (BigWinBoard/Hacksaw), NOT operator T&C/НАП; RTP 96.18% (builds 94.33/92.26/88.24), max win 15 000x, coins bronze/silver/gold + clovers x2-x20, bet €0.10-€100; gate 93/100 0 crit; Gemini Step-7 HL 25→35→25 keep-best pass1 (ai 65, noisy detector, 0 number-drift); img:2 (infographic 95 + hero 95, best 95, 0 integrity, 1 fix pass); 0 [VERIFY]; PR #130",
+      "gemini": "human 75",
+      "notes": "slot explainer; Hacksaw Egyptian slot; game-DB/provider data (BigWinBoard/Hacksaw), NOT operator T&C/НАП; RTP 96.18% (builds 94.33/92.26/88.24), max win 15 000x, coins bronze/silver/gold + clovers x2-x20, bet €0.10-€100; gate 93/100 0 crit; Gemini Step-7 HL 25→35→25 keep-best pass1 (ai 65); NIGHTLY 2026-09-19 humanise (Step-7b+3/5b, style-only, 0 number-drift): verdict flipped ai→human, reads 25/25/90/30/75, recorded human 75 (best-seen 90, high-variance detector, borderline<80 → logged for human); img:2 (infographic 95 + hero 95, best 95, 0 integrity, 1 fix pass); 0 [VERIFY]; PR #130",
       "opportunity": null
     },
     {
