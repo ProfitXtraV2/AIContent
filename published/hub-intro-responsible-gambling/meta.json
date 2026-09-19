@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "slug": "hub-intro-responsible-gambling",
+  "title": "Отговорна игра: лимити, самоизключване, помощ",
+  "meta_description": "Какво включва отговорната игра: лимити на депозит/загуба/време, самоизключване, признаци на проблем и какво да провериш преди да заложиш.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-19",
+  "date_modified": "2026-09-19",
+  "keywords": [
+    "отговорна игра",
+    "хазартна зависимост помощ"
+  ],
+  "images": [],
+  "section_hint": "hub-intro",
+  "opportunity": -1,
+  "status": "approved",
+  "content_hash": "616a5694058a49614a53c343beefb7de06f84d915dbc74b459b845b1dac20d4b"
+}
