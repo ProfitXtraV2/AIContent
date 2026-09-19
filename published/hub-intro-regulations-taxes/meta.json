@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "slug": "hub-intro-regulations-taxes",
+  "title": "Регулации и данъци в онлайн хазарта в България",
+  "meta_description": "Кои са хазартните закони в България, какво значи лиценз от НАП и как стои въпросът с данъка върху хазартни печалби, преди да заложиш и стотинка.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-19",
+  "date_modified": "2026-09-19",
+  "keywords": [
+    "хазартни закони българия",
+    "данък върху хазартни печалби"
+  ],
+  "images": [],
+  "section_hint": "hub-intro",
+  "opportunity": -1,
+  "status": "approved",
+  "content_hash": "92ce1f91d0244e2d7df7e647022cf908e199375e0665ec72f35924036977f634"
+}

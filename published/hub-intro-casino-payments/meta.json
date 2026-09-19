@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "slug": "hub-intro-casino-payments",
+  "title": "Казино плащания: депозити и тегления в БГ казина",
+  "meta_description": "Как работят депозитите и тегленията в българските онлайн казина: методи, срокове, верификация и какво да провериш преди да избереш начин на плащане.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-19",
+  "date_modified": "2026-09-19",
+  "keywords": [
+    "казино плащания",
+    "депозити и тегления казино"
+  ],
+  "images": [],
+  "section_hint": "hub-intro",
+  "opportunity": -1,
+  "status": "approved",
+  "content_hash": "a65fd26321d0131c74639026f3f6cc8c5dce8be8b078075a25e4b416d1925f61"
+}

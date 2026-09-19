@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 7,
+  "count": 12,
   "articles": [
     {
       "slug": "linii-na-pechalba",
@@ -50,7 +50,42 @@
       "date_modified": "2026-09-11",
       "content_hash": "db33a1fb732333e06afff8643dd9a4498accad8ebbcb93434a5abaf5455aa13a",
       "status": "approved"
+    },
+    {
+      "slug": "hub-intro-casino-payments",
+      "title": "Казино плащания: депозити и тегления в БГ казина",
+      "date_modified": "2026-09-19",
+      "content_hash": "a65fd26321d0131c74639026f3f6cc8c5dce8be8b078075a25e4b416d1925f61",
+      "status": "approved"
+    },
+    {
+      "slug": "hub-intro-bonuses-vip",
+      "title": "Казино бонуси и VIP: какво да проверите",
+      "date_modified": "2026-09-19",
+      "content_hash": "9aca2849280b239225072fb5f96b87367129ceb351677d25073b8a36ec89cc35",
+      "status": "approved"
+    },
+    {
+      "slug": "hub-intro-regulations-taxes",
+      "title": "Регулации и данъци в онлайн хазарта в България",
+      "date_modified": "2026-09-19",
+      "content_hash": "92ce1f91d0244e2d7df7e647022cf908e199375e0665ec72f35924036977f634",
+      "status": "approved"
+    },
+    {
+      "slug": "hub-intro-comparisons-news",
+      "title": "HUB INTRO: Сравнения и новини — интро за /blog/comparisons-news/",
+      "date_modified": "2026-09-19",
+      "content_hash": "ad07d26c47bea24a8cbf013b92835b1c394bd122943463d05e14672bcd719223",
+      "status": "approved"
+    },
+    {
+      "slug": "hub-intro-responsible-gambling",
+      "title": "Отговорна игра: лимити, самоизключване, помощ",
+      "date_modified": "2026-09-19",
+      "content_hash": "616a5694058a49614a53c343beefb7de06f84d915dbc74b459b845b1dac20d4b",
+      "status": "approved"
     }
   ],
-  "generated_utc": "2026-09-19T15:05:58Z"
+  "generated_utc": "2026-09-19T16:48:41Z"
 }
