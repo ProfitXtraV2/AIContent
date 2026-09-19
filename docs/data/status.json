@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-19T20:15:38Z",
+  "generated_utc": "2026-09-19T22:26:27Z",
   "buffer": {
-    "count": 100,
+    "count": 101,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 88,
+    "drafted": 89,
     "approved": 12,
     "posted": 22,
     "failed": 1
@@ -2251,6 +2251,26 @@
       "gemini": "human 85",
       "notes": "hub-intro one-off run: 358-word category-page intro for /blog/responsible-gambling/; no H1, 2 subheads, no images/FAQ/tables per spec; internal links money page /casino/betano/ (licensed-operator = self-exclusion tools framing, non-promotional) + category articles /otgovorna-igra/ + /zhalbi/; no specific helpline name/number invented (generic phrasing); gate 92/100 0 crit; Gemini Step-7 human 85 PASS pass1 (0 humaniser); 0 [VERIFY]; Ahrefs/dedup/anti-cannibal skipped per one-off override; approved for deploy 2026-09-19 (human review: hub intro responsible-gambling — 0 flags, Gemini human 85)",
       "opportunity": null
+    },
+    {
+      "id": "vk-0124",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Spinomenal: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "spinomenal, спиномена, spinomenal слотове",
+      "volume": "30",
+      "kd": "0",
+      "source": "research",
+      "drafted_date": "2026-09-19",
+      "posted_date": "",
+      "folder": "2026-09-19-spinomenal-provajdar",
+      "pr": "#141",
+      "gemini": "human 90",
+      "notes": "provider-profile pillar; distinct primary kw „spinomenal\" 30/kd0/informational; PUBLIC provider-site + game-DB facts (spinomenal.com/about-us, SlotCatalog, Sigma World, iGaming Business), NOT operator T&C/НАП; osn. 2014 израелски корени, седалище Малта; MGA/UKGC/ONJN/HGC + BMM Testlabs; ~300 собствени HTML5 + SAP ~2000+; механики book-style/Collect&Win/Hold&Hit/Mega/Bonus Buy; central honest angle = операторът избира RTP версия (~78%–над 96%), провери инфо-панела; top titles Book of Demi Gods II ~95.9%/Egyptian Rebirth II ~96.3%/Majestic King ~95.16% (configurable defaults); CORRECTION dropped bogus „Kingdom\" progressive network; gate 94/100 0 crit; Gemini Step-7 human 90 PASS on initial (0 humaniser); img:2 (infographic 100 + hero 100, 0 integrity); 0 [VERIFY]; Ahrefs vol 30/kd 0",
+      "opportunity": {
+        "score": 42,
+        "band": "Moderate"
+      }
     }
   ],
   "backlog": [
@@ -4632,8 +4652,8 @@
       "intent": "informational",
       "trend": "down",
       "checked": "ahrefs",
-      "suggestion": "Provider-хъб непокрит (30/kd0 — ниска трудност); израелско студио с голям каталог + Kingdom прогресив линкед мрежа; distinct cluster; provider site + game-DB, NOT operator T&C/НАП",
-      "status": "candidate",
+      "suggestion": "Provider-хъб непокрит (30/kd0 — ниска трудност); израелско студио с голям каталог; distinct cluster; provider site + game-DB, NOT operator T&C/НАП. NB: НЯМА „Kingdom\" прогресив мрежа (research-verified 19.09.2026) → написан vk-0124 PR #141",
+      "status": "used",
       "date_researched": "2026-09-19",
       "opportunity": {
         "score": 42,
