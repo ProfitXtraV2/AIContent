@@ -1,3 +1,5 @@
+**HUMAN EDIT 19.09.2026 — 0 surviving flags.** The tax [VERIFY] was resolved by removing the specific legal assertion it guarded ("минава през ЗДДФЛ, а конкретно през чл. 13") and neutralising "лично задължение, което не изчезва" (which implied winnings are taxed). Per the brand rule, tax treatment is no longer asserted anywhere; the text only refers the reader to the law's current text, a счетоводител, and the site's tax guide. Also added the verbatim 18+ RG line (was missing).
+
 # 06 — Verification
 
 Type: hub-intro (category-page intro copy for https://vsichkikazina.bg/blog/regulations-taxes/)
