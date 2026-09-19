@@ -117,6 +117,25 @@ stage you are STARTING now>,"stage":"<that stage's name>"}`.
       current scope/sourcing blocks it (e.g. a review needing operator data under the
       guides-only scope), keep it `open` with a `blocked: <reason>` note so it is revisited
       the moment it is unblocked.
+   a2. **Hub-intro rows (`query` starts with `HUB INTRO:`).** These produce category-page
+      intro copy for the site's blog category pages — NOT a standalone article page. Rules:
+      - Slug MUST be `hub-intro-<category-key>`, where the key is named in the row's notes
+        (one of: `regulations-taxes`, `casino-payments`, `games-providers`, `bonuses-vip`,
+        `comparisons-news`, `responsible-gambling`).
+      - Body: **350–500 words** of Markdown prose. **NO H1** (the hub page already has one);
+        at most two `##` subheadings. No images, no FAQ block, no comparison tables.
+      - Content: what the category covers for the BG player, what to check before choosing
+        (методи/лимити, бонус условия, лиценз/данъци, критерии за сравнение, инструменти за
+        самоконтрол — according to the category), woven with **2–3 natural internal links**:
+        at least 1 to a money page (`/casino/<brand>/` or `/bonusi/<offer>/`) plus 1–2 of the
+        category's own best articles. Responsible-gambling line where relevant.
+      - The `content-queue.md` row MUST carry `type: hub-intro` — `build_feed.py` copies the
+        queue row's `type` into `meta.json` `section_hint`, which is how the publisher
+        recognises the alternate path. `keywords` = the row's target keywords.
+      - The full editorial pipeline still applies (Synthesis → Outline → Author → Humaniser →
+        SEO → Brand Gate → Gemini re-check); skip only the image stages. Ahrefs enrichment,
+        dedup/anti-cannibalization checks do NOT apply (the target page already exists by
+        design). PR review flow is unchanged.
    b. If fewer than `batch`, top up from `research-topics.md` `status: candidate` rows,
       **highest-Opportunity first**. Read the computed Opportunity from `docs/data/status.json`
       (each research row has `opportunity.score`/`band`) and pick candidates in DESCENDING
