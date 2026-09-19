@@ -4,15 +4,16 @@
   "run_finished_utc": null,
   "articles_written": null,
   "prs_opened": [
-    130
+    130,
+    131
   ],
   "run_url": "https://claude.ai/code/session_01KAtvAZeospva7ELZLhRFkk",
-  "note": "daily run 2026-09-19: vk-0115 Le Pharaoh DRAFTED (PR #130, Gemini ai 65 keep-best, img 95). Processing vk-0114 Gold Party.",
+  "note": "daily run 2026-09-19: vk-0115 Le Pharaoh (#130, ai 65) + vk-0114 Gold Party (#131, human 90) DRAFTED. Processing vk-0113 Red Tiger.",
   "progress": {
     "phase": "writing",
-    "article_index": 2,
+    "article_index": 3,
     "article_total": 3,
-    "article_slug": "2026-09-19-gold-party",
+    "article_slug": "2026-09-19-red-tiger",
     "stages": [
       "Synthesis",
       "Outline",
