@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-19T07:23:30Z",
+  "generated_utc": "2026-09-19T07:32:16Z",
   "buffer": {
-    "count": 93,
+    "count": 94,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 2,
-    "drafted": 86,
+    "in-progress": 1,
+    "drafted": 87,
     "approved": 7,
     "posted": 22,
     "failed": 1
@@ -2135,7 +2135,7 @@
     },
     {
       "id": "vk-0117",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Thunderkick: профил на доставчика, механики и топ слотове",
       "keywords_or_terms": "thunderkick, тъндъркик, thunderkick слотове",
@@ -2145,9 +2145,9 @@
       "drafted_date": "2026-09-19",
       "posted_date": "",
       "folder": "2026-09-19-thunderkick",
-      "pr": "",
-      "gemini": "",
-      "notes": "provider-hub pillar; Swedish studio; batch 2026-09-19 2nd fire",
+      "pr": "#134",
+      "gemini": "human 85",
+      "notes": "provider-hub pillar; Swedish boutique studio (2012 Stockholm); B2B MGA(2013)/UKGC(2015)/Denmark(2024); signature dropping-symbol + escalating Mucho Multiplier; ways 99/243/4096; FACT-CORRECTION: Beat the Beast = thematic series, each game own ceiling (NOT shared jackpot); top-slot RTPs Esqueleto Explosivo 2 96.13%/5000x, Pink Elephants 2 96.13%/10000x/4096 ways, Midas Golden Touch ~96.1%, Kraken's Lair 96.12%, Midas Golden Touch 2 94.27% (low outlier); public studio data (thunderkick.com/UKGC register/BigWinBoard/AskGamblers/SlotCatalog), NOT operator T&C/НАП; founder names/lab/BG-cert UNVERIFIED->omitted; gate 93/100 0 crit; Gemini Step-7 HL 75->85 PASS pass2 (1 humaniser, 0 number-drift); img:2 (RTP infographic 95 + hero, best 95, 0 integrity); 0 [VERIFY]; PR #134; Ahrefs vol 20",
       "opportunity": null
     },
     {
@@ -2380,7 +2380,7 @@
       "trend": "down",
       "checked": "ahrefs",
       "suggestion": "Провайдър-хъб непокрит (20, ↓; слаб но нишов); шведско студио с иновативни механики; distinct от покритите хъбове; provider licences на студиото; provider site + game-DB, NOT operator T&C/НАП. По-нисък приоритет заради обем",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-19",
       "opportunity": null
     },
