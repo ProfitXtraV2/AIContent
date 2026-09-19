@@ -1,14 +1,20 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-09-19T14:49:06Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-09-19T15:35:00Z",
+  "articles_written": 5,
+  "prs_opened": [
+    140,
+    136,
+    138,
+    137,
+    139
+  ],
   "run_url": "https://claude.ai/code/session_015sMHP2aTj88HrgUcmi82Nf",
-  "note": "hub-intro one-off run: writing 5 category-page intro copy pieces (casino-payments, bonuses-vip, regulations-taxes, comparisons-news, responsible-gambling) from topic-backlog.md priority-0 rows",
+  "note": "hub-intro one-off run: all 5 category-page intros drafted — vk-0119 casino-payments (#140, gate 96, Gemini human 85), vk-0120 bonuses-vip (#136, gate 93, Gemini human 80), vk-0121 regulations-taxes (#138, gate 90, Gemini human 85, 1 VERIFY on tax-treatment hedge), vk-0122 comparisons-news (#137, gate 91, Gemini human 85), vk-0123 responsible-gambling (#139, gate 92, Gemini human 85). All 5 backlog rows flipped open→written. No images (hub-intro spec). Ahrefs/dedup/anti-cannibalization skipped per one-off override (target category pages exist by design). No research-topics top-up done (explicitly out of scope for this run). Board on main; 5 content PRs (article-dir only, one per row). Human owns Step 6 flag-resolution/merge/publish.",
   "progress": {
-    "phase": "writing",
-    "article_index": 0,
+    "phase": "done",
+    "article_index": 5,
     "article_total": 5,
     "article_slug": null,
     "stages": [
