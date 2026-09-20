@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-20T22:27:05Z",
+  "generated_utc": "2026-09-20T22:34:15Z",
   "buffer": {
-    "count": 109,
+    "count": 110,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 98,
+    "drafted": 99,
     "approved": 11,
     "posted": 23,
     "failed": 1
@@ -2437,6 +2437,26 @@
       "notes": "provably-fair instant/crash game-type explainer (NOT a single title); providers BGaming/Spribe/Stake, game-DB facts NOT operator T&C/НАП; guide→no affiliate; honest angle = ниво на риск сменя ВОЛАТИЛНОСТТА, не RTP; биномно/Паскалов триъгълник → центърът пада най-често; provably fair ≠ печеливша; RTP BGaming 99%/Stake 99%/Spribe 97% (house edge 1%/3%, 1000€→~990€/~970€), max mult 1000x BGaming/555x Spribe, редове 8-16 (Spribe 12/14/16); NON-FABRICATION dropped BGaming-97% (=Spribe число), Stake-10000x (single-source), центрови десетични (качествено), BC.Game RTP (омитнато); gate 94/100 0 crit; Gemini Step-7 HL 20→85 PASS pass1 (1 humaniser, 0 number-drift); img:2 (infographic 100 + hero 100, best 100, 0 integrity, 1 fix pass); 0 [VERIFY]; PR #150; Ahrefs vol 600/kd 78",
       "opportunity": {
         "score": 39,
+        "band": "Moderate"
+      }
+    },
+    {
+      "id": "vk-0134",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Bell Link (EGT Digital): как работи джакпот системата",
+      "keywords_or_terms": "bell link, бел линк, egt bell link, bell link джакпот",
+      "volume": "250",
+      "kd": "69",
+      "source": "research",
+      "drafted_date": "2026-09-20",
+      "posted_date": "",
+      "folder": "2026-09-20-bell-link",
+      "pr": "#151",
+      "gemini": "human 85",
+      "notes": "EGT Digital hold-and-win LINKED jackpot system pillar (distinct from Jackpot Cards vk-0131 + Clover Chance vk-0135); official EGT Digital + game-DB facts, NOT operator T&C/НАП; guide→no affiliate; 4 нива Mini/Minor/Major/Grand — Grand+Major прогресивни/мрежов пул, Minor+Mini фиксирани (~50×/~10× залога [VERIFY per title]); trigger 5+ звънеца (research FACT-CORRECTION: не 6+) → hold-and-win 3 повторни завъртания, нов звънец reset на 3, sticky bells; звънци 1×–100× залога; full-grid множител (без фикс. число, не на Grand/Major); games 40 Super Hot BL/40 Burning Hot BL/Flaming Hot BL/40 Shining Crown BL/Burning Hot BL; RTP per-title/configurable (40 Super Hot BL ~96.5% [VERIFY], НЕ system-wide); EGT Digital≠Amusnet framing; NON-FABRICATION no seed/contribution numbers, unverified titles omitted; gate 93/100 0 crit; Gemini Step-7 human 85 PASS initial (0 humaniser); img:2 (infographic 85 + hero 85, best 85, 0 integrity, 0 fix); 2 [VERIFY]; PR #151; Ahrefs vol 250/kd 69",
+      "opportunity": {
+        "score": 25,
         "band": "Moderate"
       }
     }
@@ -4976,7 +4996,7 @@
       "trend": "",
       "checked": "ahrefs",
       "suggestion": "Силен обем 250/kd69 (commercial); EGT Digital джакпот система, различна от Jackpot Cards (vk-0131) и Clover Chance; 4 нива (Mini/Minor фиксирани + Major/Grand прогресивни), събиране на видими звънци; dedicated pillar липсва (само спомената в vk-0131); high kd → механика/дълга опашка ъгъл; provider + game-DB, NOT operator T&C/НАП",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-20",
       "opportunity": {
         "score": 25,
