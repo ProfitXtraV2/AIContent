@@ -10,5 +10,7 @@ Query: „Money Train 4 (Relax Gaming): какво променя четвърт
 - Step 4 — SEO: relevance 92/100. Title tag (≤60) + meta (≤155) added. 4 internal links woven from approved/sitemap set (/blog/games-providers/, /slot-igri/visok-rtp/, /slot-igri/, /otgovorna-igra/). No flooding.
 - Step 5 — Brand Gate: PASS 94/100, zero criticals. Maths recalc OK (0.9610×€1 000=€961; 100×/500× at €1=€100/€500, at €6=€600/€3 000). 2 [VERIFY] flags routed to human, left in text. 5-item new-symbol list kept as genuine enumeration.
 - Step 5b — Light re-check: zero em-dashes; no signposting; no banned connectives; no over-polished tables. Footer assembled verbatim from template (dates 20.09.2026), „[About Всички Казина boilerplate]" slot kept. Number diff 04→05b body: no change/loss. Body ~1008 words (1085 incl. infographic caption).
-- Step 7 — Gemini text check: (recorded below / in 07-gemini-check-*.md)
-- Step 8 — Images: (recorded below / in 08-image-review-*.md)
+- Step 7 — Gemini text check: „Highly likely human-written, 85%" → HL 85 → PASS on initial draft. Keep-best: initial kept, no humaniser pass. 07-gemini-check-1.md.
+- Step 8 — Images: 2. Infographic (SVG, numbers trace to 05b) — pass1 85 (long subtexts), pass2 75 (descender margins) → box fix → final 100 PASS. Hero (WebP) — pass1 65 (theme mismatch) → regenerated sci-fi/neon → final 100 PASS. Both integrity-clean. 08-image-review-1.md/-2.md.
+- Step 6 — Verification assembled: 1 surviving in-text [VERIFY] (Money Cart symbol count „21/8 new"); source table + recalculation shown. Fact-correction logged (release 2023, not 2024). FLAGS STAY IN TEXT.
+- Result: drafted. PR opened content/2026-09-20-money-train-4.
