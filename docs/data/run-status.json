@@ -3,14 +3,16 @@
   "run_started_utc": "2026-09-20T22:11:18Z",
   "run_finished_utc": null,
   "articles_written": null,
-  "prs_opened": [],
+  "prs_opened": [
+    150
+  ],
   "run_url": "https://claude.ai/code/session_018wekfuftPSzTm97AVHVbLp",
   "note": "daily run (3rd fire 2026-09-20): writing 3 NEW guide pillars from research bank by descending opportunity — Plinko, Bell Link, Clover Chance",
   "progress": {
     "phase": "writing",
-    "article_index": 1,
+    "article_index": 2,
     "article_total": 3,
-    "article_slug": "2026-09-20-plinko",
+    "article_slug": "2026-09-20-bell-link",
     "stages": [
       "Synthesis",
       "Outline",

@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-20T22:10:14Z",
+  "generated_utc": "2026-09-20T22:27:05Z",
   "buffer": {
-    "count": 108,
+    "count": 109,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 97,
+    "drafted": 98,
     "approved": 11,
     "posted": 23,
     "failed": 1
@@ -2417,6 +2417,26 @@
       "notes": "EGT/Amusnet Louis-XIV/Versailles Baroque slot explainer; game-DB/provider facts (amusnet.com official + SlotCatalog/AskGamblers/SlotsMate), NOT operator T&C/НАП; guide→no affiliate; distinct primary kw „versailles gold\" 150/kd16; RTP 96.09% (house 3.91%, €1000→~€961/~€39), 5×3/10 selectable lines, vol High 4/5, max win 5000× per line, wild=Кралят-Слънце/scatter=кралски печат→12 FS (verified 12 NOT 15) with random expanding symbol, gamble red/black up to 5 capped; release 2014 official/2022 DB re-release → not hard-pinned; alt RTP versions → info-panel caveat; gate 93/100 0 crit; Gemini Step-7 human 85 PASS on initial (0 humaniser); img:2 (infographic 100 + hero 100, 0 integrity); 1 [VERIFY] (Jackpot Cards presence — DBs confirm, official summary omits)",
       "opportunity": {
         "score": 41,
+        "band": "Moderate"
+      }
+    },
+    {
+      "id": "vk-0133",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Plinko: как работи играта, RTP и рискови нива",
+      "keywords_or_terms": "plinko, плинко, plinko rtp, plinko нива на риск",
+      "volume": "600",
+      "kd": "78",
+      "source": "research",
+      "drafted_date": "2026-09-20",
+      "posted_date": "",
+      "folder": "2026-09-20-plinko",
+      "pr": "#150",
+      "gemini": "human 85",
+      "notes": "provably-fair instant/crash game-type explainer (NOT a single title); providers BGaming/Spribe/Stake, game-DB facts NOT operator T&C/НАП; guide→no affiliate; honest angle = ниво на риск сменя ВОЛАТИЛНОСТТА, не RTP; биномно/Паскалов триъгълник → центърът пада най-често; provably fair ≠ печеливша; RTP BGaming 99%/Stake 99%/Spribe 97% (house edge 1%/3%, 1000€→~990€/~970€), max mult 1000x BGaming/555x Spribe, редове 8-16 (Spribe 12/14/16); NON-FABRICATION dropped BGaming-97% (=Spribe число), Stake-10000x (single-source), центрови десетични (качествено), BC.Game RTP (омитнато); gate 94/100 0 crit; Gemini Step-7 HL 20→85 PASS pass1 (1 humaniser, 0 number-drift); img:2 (infographic 100 + hero 100, best 100, 0 integrity, 1 fix pass); 0 [VERIFY]; PR #150; Ahrefs vol 600/kd 78",
+      "opportunity": {
+        "score": 39,
         "band": "Moderate"
       }
     }
@@ -4908,7 +4928,7 @@
       "trend": "down",
       "checked": "ahrefs",
       "suggestion": "Голям обем 600 но kd78 (висока трудност) → умерена възможност; game-type/crash explainer, distinct; провери rows/risk нива/RTP версии; game-DB, NOT operator T&C/НАП",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-20",
       "opportunity": {
         "score": 39,
