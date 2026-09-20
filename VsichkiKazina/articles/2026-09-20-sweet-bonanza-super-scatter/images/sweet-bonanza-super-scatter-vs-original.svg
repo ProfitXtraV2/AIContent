@@ -32,7 +32,7 @@
   <text x="30" y="205" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" fill="#374151">Скатерът</text>
   <text x="378" y="208" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#4b5563" text-anchor="middle">само задейства бонуса</text>
   <text x="596" y="197" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#6d28d9" text-anchor="middle" font-weight="600">плаща веднага:</text>
-  <text x="596" y="215" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#6d28d9" text-anchor="middle" font-weight="600">100x / 500x / 5 000x / 50 000x</text>
+  <text x="596" y="215" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#6d28d9" text-anchor="middle" font-weight="600">100x / 500x / 5 000x / 50 000x</text>
 
   <line x1="24" y1="234" x2="696" y2="234" stroke="#e5e7eb" stroke-width="1"/>
 
