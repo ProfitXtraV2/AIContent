@@ -591,3 +591,72 @@ None (no actionable Job-A draft flags; no Job-B targets).
 
 ### Deferred (over nightly cap of 10)
 None — 0 qualifying Job-B targets, so nothing deferred.
+
+---
+
+## 2026-09-20 — nightly flag+score fixes
+
+### JOB A — publish-blocking flags
+Scanned every `content/*` branch's own `VsichkiKazina/articles/<folder>/05b-final-draft.md`
+for blocking markers (`[VERIFY]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`,
+`[AUTHOR]`, `[BRAND]`, `[EDITORIAL]`, `[уточни]`, `[провери]`). Found blocking `[VERIFY]`
+markers in **6 drafted** (status=drafted) 2026-09-20 branches — all resolved by folding
+each caveat into natural prose (public game/provider values kept, no number/date/figure
+invented, facts/links/RG line/byline Георги Тодоров/brand Всички Казина untouched), then
+committed on each branch and pushed:
+- **2026-09-20-versailles-gold** (vk-0132): 1 `[VERIFY]` (Jackpot Cards presence) → 0.
+  Reworded to "confirmed by game DBs but not itemised in Amusnet's official feature
+  summary; whether the progressive is active depends on the casino version." Success.
+- **2026-09-20-bell-link** (vk-0134): 2 `[VERIFY]` (fixed-tier multipliers ~50×/~10×;
+  per-title/configurable RTP ~96.5% for 40 Super Hot BL) → 0. Caveats folded. Success.
+- **2026-09-20-clover-chance** (vk-0135): 2 `[VERIFY]` (~15 chests/colour rules;
+  per-title RTP 95.88%/~96.5%) → 0. Folded. Success.
+- **2026-09-20-sweet-bonanza-super-scatter** (vk-0128): 2 `[VERIFY]` (feature-buy
+  ~100×/~500× + ante bet +25%; active RTP version among 96.51/95.56/94.48%) → 0. Folded. Success.
+- **2026-09-20-money-train-4** (vk-0129): 1 `[VERIFY]` (unofficial "21 функции, 8 нови"
+  count) → 0. Softened to "над 20 функции … няколко напълно нови за поредицата"
+  (unverified precise count dropped, not invented). Success.
+- **2026-09-20-quickspin-provajdar** (vk-0127): 1 `[VERIFY]` (Sticky Bandits official
+  RTP/version; ~96.58% cited) → 0. Caveat was already in prose ("реалната версия пак се
+  проверява в инфо-панела"); bracket removed. Success.
+
+The `[About Всички Казина boilerplate]` token remains on all 120 branch drafts (incl.
+autopilot's gemini-85/90 passes and the posted articles) — it is the standard
+publisher-expanded template placeholder, **not** a blocking marker, so left as-is.
+
+### JOB B — low Gemini score improvements
+Board targets (status ∈ {drafted, approved} AND gemini `ai <n>` OR `human <n>` n<80): **2 rows**.
+- **vk-0115** `2026-09-19-le-pharaoh`: gemini **human 75 → 85** (1 humaniser pass; Step-7 recs
+  applied — broke coordinating-conjunction/"а"/"докато" see-saw rhythm, active intro,
+  decoupled the feature-buy semicolon, non-formulaic wrap-up; 0 fact/number/link/RG changes).
+  PASS on attempt 1. Committed + pushed (PR #130).
+- **vk-0131** `2026-09-20-jackpot-cards`: board `human 75`, but a fresh Step-7 re-check
+  returned **human 85** (this detector is high-variance/goalpost-relocating, as prior board
+  notes record). Already ≥80 → left untouched per the stop-rule and idempotency. Board cell
+  updated to `human 85`. 0 passes.
+
+### Still flagged after attempts
+None — all 6 Job-A drafts re-scan to **0** blocking markers; both Job-B rows at `human 85`.
+
+### POSTED — needs human review (recurring, still open)
+- **vk-0063** `2026-09-13-nv-casino-zakonno-li-e` (PR #79 merged, posted, `ai 75`): still
+  carries `[AUTHOR BIO BLOCK]` placeholder (line 56) **and** is low-rated. Left untouched
+  (never edit posted/live). The raw placeholder is present on `origin/main` itself.
+- **vk-0064** `2026-09-13-nv-casino-bonus-usloviya` (PR #80 merged, posted, `human 85`):
+  still carries `[AUTHOR BIO BLOCK]` / `[BRAND BOILERPLATE]` / `[18+ / RG LINE]` placeholders
+  (line 65 on `origin/main`). Left untouched.
+  ACTION (recurring): because these blocking placeholders sit on `origin/main`, the publisher
+  would hard-block both live pages on any re-publish. A human should fill the author/brand/RG
+  blocks off the live path and re-publish, or correct the `posted` status. vk-0063 also scored
+  `ai 75` and would benefit from a human-reviewed humanise pass off the live path.
+
+### Deferred (over nightly cap of 10)
+None — 8 items processed total (6 Job-A + 2 Job-B), under the cap of 10.
+
+### Infra note (for human awareness)
+Local `main` had **diverged with unrelated history** from `origin/main` (no merge base), and
+the `content/*` branches likewise share no merge-base with `origin/main`. Reset local `main`
+to `origin/main` (authoritative — today's board, PRs #147–152) before doing FINISH work;
+content-branch fixes were pushed to their own tips (always valid) regardless of the split.
+This history divergence may make content-branch PR diffs against `main` render large — worth
+a human check on the repo's git state.

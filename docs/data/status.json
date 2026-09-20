@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-20T22:43:56Z",
+  "generated_utc": "2026-09-20T23:18:05Z",
   "buffer": {
     "count": 111,
     "target": 10,
@@ -2112,7 +2112,7 @@
       "posted_date": "",
       "folder": "2026-09-19-le-pharaoh",
       "pr": "#130",
-      "gemini": "human 75",
+      "gemini": "human 85",
       "notes": "slot explainer; Hacksaw Egyptian slot; game-DB/provider data (BigWinBoard/Hacksaw), NOT operator T&C/НАП; RTP 96.18% (builds 94.33/92.26/88.24), max win 15 000x, coins bronze/silver/gold + clovers x2-x20, bet €0.10-€100; gate 93/100 0 crit; Gemini Step-7 HL 25→35→25 keep-best pass1 (ai 65); NIGHTLY 2026-09-19 humanise (Step-7b+3/5b, style-only, 0 number-drift): verdict flipped ai→human, reads 25/25/90/30/75, recorded human 75 (best-seen 90, high-variance detector, borderline<80 → logged for human); img:2 (infographic 95 + hero 95, best 95, 0 integrity, 1 fix pass); 0 [VERIFY]; PR #130",
       "opportunity": null
     },
@@ -2393,7 +2393,7 @@
       "posted_date": "",
       "folder": "2026-09-20-jackpot-cards",
       "pr": "#148",
-      "gemini": "human 75",
+      "gemini": "human 85",
       "notes": "EGT/Amusnet mystery-jackpot MECHANIC pillar (cross-game 4-level progressive), distinct from single-slot reviews — cross-links 20/40 Super Hot + Burning Hot, does not duplicate; provider facts (egt.com/jackpot-cards + amusnet.com/jackpots), NOT operator T&C/НАП; guide→no affiliate; 4 нива Спатия<Каро<Купа<Пика, случаен старт, 12 карти събери 3 от боя, мрежов пул; contribution %/seed amounts NOT published → omitted (no fabrication); distinct от Bell Link/Clover Chance; gate 93/100 0 crit; Gemini Step-7 35→75→25 keep-best pass1 (2 humaniser, borderline<80 logged for human, noisy detector); img:2 (infographic 85→100 fix + hero 85, best 100, 0 integrity); 0 [VERIFY]; Ahrefs vol 70/kd5",
       "opportunity": {
         "score": 42,
