@@ -1,11 +1,11 @@
 {
   "state": "idle",
-  "run_started_utc": "2026-09-19T17:00:00Z",
-  "run_finished_utc": "2026-09-19T17:00:00Z",
+  "run_started_utc": "2026-09-20T09:00:00Z",
+  "run_finished_utc": "2026-09-20T09:00:00Z",
   "articles_written": 0,
   "prs_opened": [],
-  "run_url": "https://claude.ai/code/session_01VnzLaG3vWajwSQBoYkb3TT",
-  "note": "backfill: nothing to do — all 95 guide/comparison articles have images; the 5 remaining imageless rows (vk-0119–vk-0123) are hub-intro category-page intros spec'd without images (no images/FAQ/tables per their brief). No imageless review-ready guides found.",
+  "run_url": "https://claude.ai/code/session_013zzXgnXDz2t272cty2njvK",
+  "note": "backfill: nothing to do — all review-ready articles have images. Verified via git ls-tree on all drafted/approved branches: 0 imageless articles found. New articles (vk-0130 Olympus Glory, vk-0131 Jackpot Cards, vk-0132 Versailles Gold) created today already include images (score 100 each) from the daily-run Step-8 flow.",
   "progress": {
     "phase": "done",
     "article_index": 0,
