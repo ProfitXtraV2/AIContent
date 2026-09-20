@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-20T22:34:15Z",
+  "generated_utc": "2026-09-20T22:43:56Z",
   "buffer": {
-    "count": 110,
+    "count": 111,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 99,
+    "drafted": 100,
     "approved": 11,
     "posted": 23,
     "failed": 1
@@ -2459,6 +2459,23 @@
         "score": 25,
         "band": "Moderate"
       }
+    },
+    {
+      "id": "vk-0135",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Clover Chance (EGT Digital): как работи мистерия джакпотът",
+      "keywords_or_terms": "clover chance, кловър чанс, egt clover chance, clover chance джакпот",
+      "volume": "40",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-20",
+      "posted_date": "",
+      "folder": "2026-09-20-clover-chance",
+      "pr": "#152",
+      "gemini": "human 90",
+      "notes": "EGT Digital MYSTERY jackpot pillar (distinct from Jackpot Cards vk-0131 + Bell Link vk-0134); official EGT Digital + game-DB facts, NOT operator T&C/НАП; guide→no affiliate; random/mystery старт (без комбинация); 4 нива Mini/Minor/Major/Grand — ВСИЧКИ прогресивни (contrast vs Bell Link fixed lower tiers; official „four progressive levels\"); bonus = отвори сандъчета (~15 [VERIFY, не официално]), събери цветни перли, 3 от цвят=ниво, детелина=+1 ниво; games 20 Super Hot CC/20 Burning Hot CC/40 Super Hot CC/40 Mega Clover/Clover Respin/40 Clover Hit; RTP per-title (20 Burning Hot CC ~95.88%, Clover Respin ~96.5% [VERIFY configurability]), НЕ system-wide; NON-FABRICATION rejected 3-level outlier, no fixed/progressive split invented, no seed/contribution numbers, no cross-operator pooling claim, no rigid colour rules; gate 93/100 0 crit; Gemini Step-7 HL 20→90 PASS pass1 (1 humaniser, 0 number-drift); img:2 (infographic 100 + hero 100, best 100, 0 integrity, 0 fix); 2 [VERIFY]; PR #152; Ahrefs vol 40/kd n/a",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -5013,7 +5030,7 @@
       "trend": "",
       "checked": "ahrefs",
       "suggestion": "Умерен обем 40 (kd n/a); EGT Digital mystery джакпот с 4 нива (Mini/Minor/Major/Grand), събиране на 3 перли + детелина за качване на ниво; различен от Jackpot Cards и Bell Link; dedicated pillar липсва (само спомената в vk-0131); provider + game-DB, NOT operator T&C/НАП",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-20",
       "opportunity": null
     }
