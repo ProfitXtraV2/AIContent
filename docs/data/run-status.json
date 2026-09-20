@@ -5,14 +5,14 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01FboWeu1MWnCYiykdH8KQwk",
-  "note": "daily run 2026-09-20 (recurring fire) — selecting batch",
+  "note": "daily run 2026-09-20 (recurring fire) — writing batch of 3 (Quickspin vk-0127, Sweet Bonanza Super Scatter vk-0128, Money Train 4 vk-0129); Gemini text+image online",
   "progress": {
-    "phase": "selecting",
-    "article_index": 0,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 3,
-    "article_slug": null,
+    "article_slug": "2026-09-20-batch",
     "stages": ["Synthesis", "Outline", "Author", "Humaniser", "SEO", "Brand Gate", "Light re-check", "Images", "Verification", "PR"],
-    "stage_index": null,
-    "stage": null
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
