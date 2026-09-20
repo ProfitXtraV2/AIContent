@@ -9,6 +9,10 @@
 "volume": 0
 }
 },
+"bg|20 super hot xmas": {
+"fetched": "2026-09-20",
+"row": {}
+},
 "bg|40 mega clover": {
 "fetched": "2026-09-20",
 "row": {
@@ -69,6 +73,24 @@
 "volume": 20
 },
 "trend": "down"
+},
+"bg|bell link": {
+"fetched": "2026-09-20",
+"row": {
+"cpc": 20,
+"difficulty": 69,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "bell link",
+"volume": 250
+},
+"trend": ""
 },
 "bg|betsoft": {
 "fetched": "2026-09-19",
@@ -294,6 +316,17 @@
 },
 "trend": "down"
 },
+"bg|burning hot 6 reels": {
+"fetched": "2026-09-20",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "burning hot 6 reels",
+"volume": 10
+},
+"trend": ""
+},
 "bg|cash bonanza": {
 "fetched": "2026-09-17",
 "row": {
@@ -314,6 +347,16 @@
 "volume": 0
 }
 },
+"bg|circus brilliant": {
+"fetched": "2026-09-20",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "circus brilliant",
+"volume": 0
+}
+},
 "bg|cleocatra": {
 "fetched": "2026-09-17",
 "row": {
@@ -324,6 +367,21 @@
 "volume": 60
 },
 "trend": "down"
+},
+"bg|clover chance": {
+"fetched": "2026-09-20",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "clover chance",
+"volume": 40
+},
+"trend": ""
+},
+"bg|clover chance джакпот": {
+"fetched": "2026-09-20",
+"row": {}
 },
 "bg|coin volcano": {
 "fetched": "2026-09-17",
@@ -437,6 +495,24 @@
 "keyword": "fire in the hole 2",
 "volume": 0
 }
+},
+"bg|flaming hot": {
+"fetched": "2026-09-20",
+"row": {
+"cpc": 35,
+"difficulty": 63,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "flaming hot",
+"volume": 40
+},
+"trend": "up"
 },
 "bg|floating dragon": {
 "fetched": "2026-09-16",
@@ -738,6 +814,24 @@
 "volume": 20
 },
 "trend": "up"
+},
+"bg|megaways": {
+"fetched": "2026-09-20",
+"row": {
+"cpc": 80,
+"difficulty": 77,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "megaways",
+"volume": 30
+},
+"trend": ""
 },
 "bg|mental nolimit": {
 "fetched": "2026-09-17",
@@ -1241,6 +1335,24 @@
 "volume": 0
 }
 },
+"bg|shining crown": {
+"fetched": "2026-09-20",
+"row": {
+"cpc": 35,
+"difficulty": 64,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "shining crown",
+"volume": 200
+},
+"trend": "down"
+},
 "bg|sizzling hot": {
 "fetched": "2026-09-18",
 "row": {
@@ -1476,6 +1588,24 @@
 "keyword": "temple tumble",
 "volume": 0
 }
+},
+"bg|the dog house": {
+"fetched": "2026-09-20",
+"row": {
+"cpc": null,
+"difficulty": 33,
+"intents": {
+"branded": true,
+"commercial": false,
+"informational": true,
+"local": true,
+"navigational": false,
+"transactional": false
+},
+"keyword": "the dog house",
+"volume": 100
+},
+"trend": "down"
 },
 "bg|the dog house megaways": {
 "fetched": "2026-09-19",
@@ -1759,6 +1889,24 @@
 },
 "trend": "flat"
 },
+"bg|zeus": {
+"fetched": "2026-09-20",
+"row": {
+"cpc": 20,
+"difficulty": 51,
+"intents": {
+"branded": false,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "zeus",
+"volume": 1000
+},
+"trend": ""
+},
 "bg|zeus vs hades": {
 "fetched": "2026-09-18",
 "row": {
@@ -1788,6 +1936,16 @@
 "bg|казина като nv casino": {
 "fetched": "2026-09-16",
 "row": {}
+},
+"bg|купи бонус": {
+"fetched": "2026-09-20",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "купи бонус",
+"volume": 0
+}
 },
 "bg|нв казино мнения": {
 "fetched": "2026-09-16",

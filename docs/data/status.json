@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-20T07:10:30Z",
+  "generated_utc": "2026-09-20T07:50:10Z",
   "buffer": {
-    "count": 105,
+    "count": 108,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 94,
+    "drafted": 97,
     "approved": 11,
     "posted": 23,
     "failed": 1
@@ -2359,6 +2359,66 @@
       "gemini": "human 85",
       "notes": "Relax Gaming extreme-high-vol slot explainer, angle „какво променя четвъртата част\"; FACT-CORRECTION release 20.09.2023 (not 2024); RTP 96.10%/96.50% (bonus buy), max win 150000× vs MT3 100000×/MT2 50000×; base 6×6 scatter-pays (≥8 high/≥10 low) vs MT3 5×4/40; Money Cart 6×4 start; bonus buy 100×/500× stake; залог €0.10–€6; vol 5/5; NEW vs MT3: Arms Dealer/Upgrader/Unlocker/Reset Plus/Persistent Shapeshifter, Absorber removed, „21 функции, 8 нови\" [VERIFY]; game-DB facts (relax-gaming.com+bigwinboard+casinorange), guide→no affiliate; MT2/3 named not linked (not in sitemap); strong RG framing (bonus-buy €600/€3000 at max stake, 150000× tail not target); gate 94/100 0 crit; Gemini Step-7 human 85 PASS initial; img:2 (infographic 100 + hero 100, 0 integrity); 1 [VERIFY]; Ahrefs vol 10",
       "opportunity": null
+    },
+    {
+      "id": "vk-0130",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Olympus Glory (Amusnet/EGT): RTP, характеристики и как се играе",
+      "keywords_or_terms": "olympus glory, олимпус глори, olympus glory egt",
+      "volume": "100",
+      "kd": "2",
+      "source": "research",
+      "drafted_date": "2026-09-20",
+      "posted_date": "",
+      "folder": "2026-09-20-olympus-glory",
+      "pr": "#147",
+      "gemini": "human 90",
+      "notes": "EGT/Amusnet Greek-mythology slot explainer; game-DB/provider facts (amusnet.com official + SlotCatalog/VegasSlotsOnline), NOT operator T&C/НАП; guide→no affiliate; distinct primary kw „olympus glory\" 100/kd2; RTP 96.23% official (house 3.77%, €1000→~€962/~€38), 5×3/10 fixed lines, vol 5/5, max win 5000× per line, Zeus=wild+scatter→10 FS with random expanding symbol, Jackpot Cards 4-lvl progressive; provider EGT→Amusnet 06.06.2022; release 2015 official/2014 DBs → not hard-pinned; alt RTP versions → info-panel caveat (not asserted); gate 94/100 0 crit; Gemini Step-7 75→90 PASS pass1 (1 humaniser, 0 number-drift, kept pass1); img:2 (infographic 100 + hero 100, 0 integrity); 0 [VERIFY]",
+      "opportunity": {
+        "score": 44,
+        "band": "Moderate"
+      }
+    },
+    {
+      "id": "vk-0131",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Jackpot Cards (Amusnet/EGT): как работи мистерия джакпотът",
+      "keywords_or_terms": "jackpot cards, джакпот кардс, amusnet jackpot cards",
+      "volume": "70",
+      "kd": "5",
+      "source": "research",
+      "drafted_date": "2026-09-20",
+      "posted_date": "",
+      "folder": "2026-09-20-jackpot-cards",
+      "pr": "#148",
+      "gemini": "human 75",
+      "notes": "EGT/Amusnet mystery-jackpot MECHANIC pillar (cross-game 4-level progressive), distinct from single-slot reviews — cross-links 20/40 Super Hot + Burning Hot, does not duplicate; provider facts (egt.com/jackpot-cards + amusnet.com/jackpots), NOT operator T&C/НАП; guide→no affiliate; 4 нива Спатия<Каро<Купа<Пика, случаен старт, 12 карти събери 3 от боя, мрежов пул; contribution %/seed amounts NOT published → omitted (no fabrication); distinct от Bell Link/Clover Chance; gate 93/100 0 crit; Gemini Step-7 35→75→25 keep-best pass1 (2 humaniser, borderline<80 logged for human, noisy detector); img:2 (infographic 85→100 fix + hero 85, best 100, 0 integrity); 0 [VERIFY]; Ahrefs vol 70/kd5",
+      "opportunity": {
+        "score": 42,
+        "band": "Moderate"
+      }
+    },
+    {
+      "id": "vk-0132",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Versailles Gold (Amusnet/EGT): RTP, характеристики и как се играе",
+      "keywords_or_terms": "versailles gold, версайлс голд, versailles gold egt",
+      "volume": "150",
+      "kd": "16",
+      "source": "research",
+      "drafted_date": "2026-09-20",
+      "posted_date": "",
+      "folder": "2026-09-20-versailles-gold",
+      "pr": "#149",
+      "gemini": "human 85",
+      "notes": "EGT/Amusnet Louis-XIV/Versailles Baroque slot explainer; game-DB/provider facts (amusnet.com official + SlotCatalog/AskGamblers/SlotsMate), NOT operator T&C/НАП; guide→no affiliate; distinct primary kw „versailles gold\" 150/kd16; RTP 96.09% (house 3.91%, €1000→~€961/~€39), 5×3/10 selectable lines, vol High 4/5, max win 5000× per line, wild=Кралят-Слънце/scatter=кралски печат→12 FS (verified 12 NOT 15) with random expanding symbol, gamble red/black up to 5 capped; release 2014 official/2022 DB re-release → not hard-pinned; alt RTP versions → info-panel caveat; gate 93/100 0 crit; Gemini Step-7 human 85 PASS on initial (0 humaniser); img:2 (infographic 100 + hero 100, 0 integrity); 1 [VERIFY] (Jackpot Cards presence — DBs confirm, official summary omits)",
+      "opportunity": {
+        "score": 41,
+        "band": "Moderate"
+      }
     }
   ],
   "backlog": [
@@ -4814,7 +4874,7 @@
       "trend": "down",
       "checked": "ahrefs",
       "suggestion": "Силен: обем 150/kd16 (transactional, ↓); EGT класика, силно търсена в BG; distinct непокрит cluster; game-DB + Amusnet site, NOT operator T&C/НАП",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-20",
       "opportunity": {
         "score": 41,
@@ -4831,7 +4891,7 @@
       "trend": "flat",
       "checked": "ahrefs",
       "suggestion": "Силен: 100/kd2 (transactional, flat, много ниска трудност); EGT класика; distinct непокрит cluster; game-DB + Amusnet site, NOT operator T&C/НАП",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-20",
       "opportunity": {
         "score": 44,
@@ -4865,7 +4925,7 @@
       "trend": "down",
       "checked": "ahrefs",
       "suggestion": "70/kd5 (transactional, ниска трудност); EGT mystery-jackpot механика, обяснена само като под-функция в игрови статии (20/40 Super Hot, Rise of Ra, 100 Burning Hot) — няма dedicated pillar за точния query; distinct mechanic-explainer; допълва /blog/progresivni-dzhakpoti/; game-DB + Amusnet, NOT operator T&C/НАП",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-20",
       "opportunity": {
         "score": 42,
@@ -4884,6 +4944,37 @@
       "suggestion": "Distinct заглавие, различно от Gates of Olympus (/blog/gates-of-olympus/) — Хадес тема, own mechanics; отделен primary kw 10 (по-нисък приоритет); game-DB, NOT operator T&C/НАП",
       "status": "candidate",
       "date_researched": "2026-09-19",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Bell Link (EGT Digital): как работи джакпот системата",
+      "researched_keywords": "bell link, бел линк, egt bell link",
+      "volume": "250",
+      "kd": "69",
+      "intent": "commercial",
+      "trend": "",
+      "checked": "ahrefs",
+      "suggestion": "Силен обем 250/kd69 (commercial); EGT Digital джакпот система, различна от Jackpot Cards (vk-0131) и Clover Chance; 4 нива (Mini/Minor фиксирани + Major/Grand прогресивни), събиране на видими звънци; dedicated pillar липсва (само спомената в vk-0131); high kd → механика/дълга опашка ъгъл; provider + game-DB, NOT operator T&C/НАП",
+      "status": "candidate",
+      "date_researched": "2026-09-20",
+      "opportunity": {
+        "score": 25,
+        "band": "Moderate"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Clover Chance (EGT Digital): как работи мистерия джакпотът",
+      "researched_keywords": "clover chance, кловър чанс, egt clover chance",
+      "volume": "40",
+      "kd": "",
+      "intent": "",
+      "trend": "",
+      "checked": "ahrefs",
+      "suggestion": "Умерен обем 40 (kd n/a); EGT Digital mystery джакпот с 4 нива (Mini/Minor/Major/Grand), събиране на 3 перли + детелина за качване на ниво; различен от Jackpot Cards и Bell Link; dedicated pillar липсва (само спомената в vk-0131); provider + game-DB, NOT operator T&C/НАП",
+      "status": "candidate",
+      "date_researched": "2026-09-20",
       "opportunity": null
     }
   ],

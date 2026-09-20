@@ -1,7 +1,7 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-09-20T07:10:21Z",
-  "run_finished_utc": null,
+  "run_finished_utc": "2026-09-20T07:50:10Z",
   "articles_written": 3,
   "prs_opened": [
     147,
@@ -9,9 +9,9 @@
     149
   ],
   "run_url": "https://claude.ai/code/session_016tsxn4YAq4q1bcAkgtMdJg",
-  "note": "daily run 2026-09-20 — 3 EGT guides drafted: vk-0130 Olympus Glory (PR#147, human 90, img 100), vk-0131 Jackpot Cards (PR#148, human 75 keep-best, img 100), vk-0132 Versailles Gold (PR#149, human 85, img 100). Now Ahrefs research refresh + dashboard.",
+  "note": "Recurring fire 2026-09-20 (2nd): wrote 3 NEW distinct EGT/Amusnet guide pillars from the research bank by descending opportunity (buffer 105 at start, floor 10, NO cap — kept building). Olympus Glory (vk-0130, PR #147, Gemini human 90 pass1, img 100), Jackpot Cards mechanic (vk-0131, PR #148, human 75 keep-best after noisy detector, img 100), Versailles Gold (vk-0132, PR #149, human 85 initial, img 100). All dedup-clean vs queue + live sitemap (80 URLs); guides-only scope (provider + game-DB facts, NOT operator T&C/НАП). Facts via 3 parallel research subagents; every figure sourced; 1 surviving [VERIFY] (Versailles Gold Jackpot Cards presence). Reconciled 0 in-progress (vk-0063 note-only, posted). Ahrefs online (1 transient 403, retried): space deeply saturated; added 2 measured distinct uncovered candidates (Bell Link 250/kd69, Clover Chance 40 — EGT Digital jackpot pillars). Buffer 108. 10 NV-Casino backlog rows stay open+blocked. Claude GitHub App not installed → PR events won't wake session; human owns review/merge. NEVER resolved a flag/posted/merged.",
   "progress": {
-    "phase": "research",
+    "phase": "done",
     "article_index": 3,
     "article_total": 3,
     "article_slug": null,
