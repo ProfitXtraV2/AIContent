@@ -20,7 +20,7 @@
   <text x="50" y="86" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151" font-weight="600">BGaming и Stake</text>
   <text x="550" y="86" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#b91c1c" font-weight="700" text-anchor="end">домашно предимство 1%</text>
   <rect x="50" y="94" width="500" height="40" rx="8" fill="#e5e7eb"/>
-  <rect x="50" y="94" width="495" height="40" rx="8" fill="url(#rtpBar)"/>
+  <rect x="50" y="94" width="500" height="40" rx="8" fill="url(#rtpBar)"/>
   <rect x="545" y="94" width="5" height="40" rx="2" fill="#ef4444"/>
   <text x="297" y="120" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">RTP 99%</text>
 
@@ -28,7 +28,7 @@
   <text x="50" y="166" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151" font-weight="600">Spribe</text>
   <text x="550" y="166" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#b91c1c" font-weight="700" text-anchor="end">домашно предимство 3%</text>
   <rect x="50" y="174" width="500" height="40" rx="8" fill="#e5e7eb"/>
-  <rect x="50" y="174" width="485" height="40" rx="8" fill="url(#rtpBar)"/>
+  <rect x="50" y="174" width="490" height="40" rx="8" fill="url(#rtpBar)"/>
   <rect x="535" y="174" width="15" height="40" rx="2" fill="#ef4444"/>
   <text x="292" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">RTP 97%</text>
 
