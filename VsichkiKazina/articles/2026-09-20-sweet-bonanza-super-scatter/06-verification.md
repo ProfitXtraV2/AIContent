@@ -1,7 +1,7 @@
 # 06-VERIFICATION — Всички Казина · 2026-09-20-sweet-bonanza-super-scatter
 *For the human at Step 6. FLAGS STAY IN THE TEXT — this file only helps you verify fast. Nothing here has been resolved by the autopilot.*
 
-Article: **Sweet Bonanza Super Scatter: какво добавя Super Scatter към оригинала** · type: guide (game explainer) · byline: editorial (signed Георги Тодоров) · gate: PASS WITH FIXES 94/100 · humanisation: MIXED→HUMAN-LIKE (1 light pass) · Gemini Step-7: human 90 (PASS, initial kept) · images: 2 (infographic + hero, review 95 PASS) · run date: 20.09.2026
+Article: **Sweet Bonanza Super Scatter: какво добавя Super Scatter към оригинала** · type: guide (game explainer) · byline: editorial (signed Георги Тодоров) · gate: PASS WITH FIXES 94/100 · humanisation: MIXED→HUMAN-LIKE (1 light pass) · Gemini Step-7: human 90 (PASS, initial kept) · images: 2 (infographic + hero, best review 100 PASS) · run date: 20.09.2026
 
 ## Surviving flags (STAY IN TEXT)
 2 in-text [VERIFY] flags (game explainer on public provider/game-DB data; no BG operator, no licence №, no bonus/tax claims):
@@ -51,7 +51,7 @@ cross-linked, not re-explained. Distinct branded kw „sweet bonanza super scatt
 HL **90** ("Likely human-written 90%") → **PASS** on the initial draft (no Humaniser pass; keep-best = initial). content-queue gemini = `human 90`. 07-gemini-check-1.md persists. [VERIFY] tags flagged as a process point by Gemini but correctly NOT removed (stay for the human).
 
 ## Images (Step 8)
-images: 2 (infographic 95 → 95 after fix, hero 95). Both PASS, 0 integrity failures.
+images: 2 (infographic 95 pass 1 → 100 pass 2 after fix; hero PASS in both). Both PASS, 0 integrity failures. Best 100.
 - `images/sweet-bonanza-super-scatter-vs-original.svg` — hand-authored comparison infographic (оригинал vs Super Scatter); every number traces to 05b (21 100x/50 000x, 100x/500x/5 000x/50 000x, 96.48% vs 96.51%/95.56%/94.48%, 1 vs 2 нива); 18+/RG note. Pass-1 flagged a tight-margin RISK on the payout line → font-size reduced for guaranteed margin (numbers unchanged); pass 2 confirms.
 - `images/sweet-bonanza-super-scatter-hero.webp` — decorative abstract candy/fruit AI hero (gemini-3-pro-image, 24.4 KB); no UI/logos/numbers/people/winning.
 08-image-review-1.md and 08-image-review-2.md persist.
