@@ -1,0 +1,14 @@
+# log.md — 2026-09-20-sweet-bonanza-super-scatter
+
+- 00 brief: guide (game explainer), editorial voice (signed Георги Тодоров), query „Sweet Bonanza Super Scatter (Pragmatic): какво променя Super Scatter". Facts from Pragmatic Play site + game DBs (bigwinboard, slotcatalog, racingpost). Correction: release VERIFIED 31.07.2025 (brief said „2024"). No operator → no affiliate link.
+- 01 synthesis: intent informational; 4 DB + 2 official sources; ~12 corroborated facts; 2 [VERIFY] flags; angle = diff vs original Sweet Bonanza. Persona suggested: EDITORIAL.
+- 01.5 outline: H1 + 7 H2, deliberately varied section shapes (intro / short blunt / narrative build / short compare / flowing / flagged / worked-example / verdict). Flags routed to Sections 6 and 7.
+- 02 author: editorial draft, ~700 words body, anti-AI style applied at draft. All facts + 2 flags in place.
+- 03 humaniser: Phase 1 MIXED 46/60 → light rewrite (removed 2 of 3 „не A, а B" endings, varied one wrap). All numbers + flags preserved.
+- 04 seo: audit 91/100; title tag (56 chars) + meta (151 chars); query in H1/first-100/one-H2/meta once each; 4 approved internal links + RG link confirmed; no entities/filler added.
+- 05 brand gate: PASS WITH FIXES 94/100, zero criticals. Fix applied: trust footer inserted verbatim (byline, dates 20.09.2026, About slot, RG block, affiliate disclosure). Maths recalculated (960/40 €, 2,03 pp).
+- 05b light re-check: no em-dashes / tables / bullet lists / banned connectives to fix. Returned unchanged apart from being the publish-format file. Infographic referenced.
+- number diff 02→03→04→05→05b: all article numbers preserved (2019, 2025, 6/5, 8, 100x/500x/5 000x/50 000x, 21 100x, 4/5/6, 10, 15, 3x/5x/100x, +5, x2–x100, 25%, x20, 96.48/96.51/95.56/94.48%, ~96%, 1000/960/40 €). PASS.
+- 06 verification: 2 surviving [VERIFY] flags; source table; recalculation shown.
+- Step 7 (Gemini text): see 07-gemini-check-*.md (updated below).
+- Step 8 (images): see 08-image-review-*.md (updated below).
