@@ -1,7 +1,7 @@
 # 06-VERIFICATION — Всички Казина · 2026-09-20-quickspin-provajdar
 *For the human at Step 6. FLAGS STAY IN THE TEXT — this file only helps you verify fast. Nothing here has been resolved by the autopilot.*
 
-Article: **Quickspin: профил на доставчика, механики и топ слотове** · type: guide (provider profile) · byline: editorial (signed Георги Тодоров) · gate: PASS WITH FIXES 93/100 · humanisation: HUMAN-LIKE · Gemini Step-7: <pass — see 07> · images: <see Step 8> · run date: 20.09.2026 · length: ~1003 думи (body)
+Article: **Quickspin: профил на доставчика, механики и топ слотове** · type: guide (provider profile) · byline: editorial (signed Георги Тодоров) · gate: PASS WITH FIXES 93/100 · humanisation: HUMAN-LIKE · Gemini Step-7: human 85 (PASS, initial kept) · images: <see Step 8> · run date: 20.09.2026 · length: ~1003 думи (body)
 
 ## Surviving flags
 1 in-text flag:
@@ -54,7 +54,7 @@ game-DB data). No tax claim. No affiliate link (no operator recommended).
   boilerplate]" slot marker present. ✓
 
 ## External check (Step 7 — Gemini cross-model)
-See 07-gemini-check-<pass>.md (verdict recorded verbatim). Result + keep-best noted here after the run.
+gemini_check.py. HL: initial **85** ("Likely human-written 85%") → **PASS** (≥80) on the INITIAL draft (anti-AI applied proactively; no Humaniser pass needed). content-queue gemini = `human 85`. 07-gemini-check-1.md persists. Recs noted, NOT applied (keep-best; identical policy to Starburst HL 85). The [VERIFY] flag is a required surviving flag, not a proofreading miss.
 
 ## Images (Step 8)
 See 08-image-review-<pass>.md. Final count + best score recorded here after the run.

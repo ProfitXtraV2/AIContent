@@ -24,5 +24,5 @@ slug: 2026-09-20-quickspin-provajdar · brand: vsichkikazina · market: bg · co
 ## Step 6/7/8
 - Step 6: 06-verification.md (1 flag: Sticky Bandits RTP; provider/game confirm-list w/ quickspin.com URLs;
   illustrative-number table; recalcs incl. SVG bar math; untouchables; anti-cannibalization).
-- Step 7 (Gemini): <recorded after run> — 07-gemini-check-<pass>.md.
+- Step 7 (Gemini, gemini_check.py): HL 85 ("Likely human-written 85%") PASS on the INITIAL draft; recs noted, not applied (keep-best). content-queue gemini = human 85. 07-gemini-check-1.md persisted.
 - Step 8 (images): <recorded after run> — 08-image-review-<pass>.md.
