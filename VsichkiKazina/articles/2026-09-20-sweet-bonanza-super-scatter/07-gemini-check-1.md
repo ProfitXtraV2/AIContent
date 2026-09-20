@@ -1,6 +1,10 @@
-# 07 — Gemini external check, pass 1
+# 07 — Gemini external check, pass 1 (initial SHORT draft — SUPERSEDED)
 
-Normalized: verdict „Likely human-written, 90% confidence" → human-likeness = **90** → **PASS** (≥80) on the INITIAL draft.
+> SUPERSEDED: this verdict was on the initial ~684-word draft, which was under the mandatory ~1000–1500-word
+> guide length. The draft was expanded with sourced material only and re-checked — see 07-gemini-check-2.md
+> (final draft, HL 85, KEPT). This file is retained for the audit trail.
+
+Normalized: verdict „Likely human-written, 90% confidence" → human-likeness = **90** → **PASS** (≥80) on the INITIAL (short) draft.
 
 ## Keep-best ledger
 - initial draft: HL **90** ("Likely human-written 90%") ← PASS, ONLY version → KEPT.

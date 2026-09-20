@@ -1,7 +1,7 @@
 # 06-VERIFICATION — Всички Казина · 2026-09-20-sweet-bonanza-super-scatter
 *For the human at Step 6. FLAGS STAY IN THE TEXT — this file only helps you verify fast. Nothing here has been resolved by the autopilot.*
 
-Article: **Sweet Bonanza Super Scatter: какво добавя Super Scatter към оригинала** · type: guide (game explainer) · byline: editorial (signed Георги Тодоров) · gate: PASS WITH FIXES 94/100 · humanisation: MIXED→HUMAN-LIKE (1 light pass) · Gemini Step-7: human 90 (PASS, initial kept) · images: 2 (infographic + hero, best review 100 PASS) · run date: 20.09.2026
+Article: **Sweet Bonanza Super Scatter: какво добавя Super Scatter към оригинала** · type: guide (game explainer) · byline: editorial (signed Георги Тодоров) · gate: PASS WITH FIXES 94/100 · humanisation: MIXED→HUMAN-LIKE (light pass + 1 step-7b pass) · Gemini Step-7: human 85 (PASS; final expanded+style-fixed draft kept; short draft was 90 but under length) · images: 2 (infographic + hero, best review 100 PASS) · length ~1000 words · run date: 20.09.2026
 
 ## Surviving flags (STAY IN TEXT)
 2 in-text [VERIFY] flags (game explainer on public provider/game-DB data; no BG operator, no licence №, no bonus/tax claims):
@@ -26,10 +26,11 @@ Article: **Sweet Bonanza Super Scatter: какво добавя Super Scatter к
 |---|---|---|
 | RTP/edge worked example | ~96% / ~4% | example rounded; labelled „илюстративно" |
 | Worked example | 1000 € → ~960 € / ~40 € | illustrative, labelled „илюстративно" |
-| SVG player/house split | 4% = 20px of 500px (480+20 flush) | math checked |
+| Feature-buy cost at 1 € stake | 100x → 100 € · 500x → 500 € | illustrative, labelled „илюстративно" |
 
 ## Recalculation shown
 - RTP ~96% on 1000 €: 0,96 × 1000 = **960 €** back; house 0,04 × 1000 = **40 €** (4%). ✓ illustrative.
+- Feature-buy cost at 1 € stake: 100x × 1 € = **100 €**; 500x × 1 € = **500 €**. ✓ illustrative.
 - RTP version spread: 96.51% − 94.48% = **2,03 pp** → „над два процентни пункта". ✓
 - Super Scatter tiers (1/2/3/4 → 100x/500x/5 000x/50 000x) and max win 50 000x quoted from provider/DB, not computed. ✓
 - Max-win contrast: original 21 100x vs 50 000x — both quoted from source. ✓
@@ -48,7 +49,10 @@ max; one bonus buy → two-tier feature buy; 96.48% → 96.51%/95.56%/94.48% ver
 cross-linked, not re-explained. Distinct branded kw „sweet bonanza super scatter" (vol 20).
 
 ## External check (Step 7 — Gemini)
-HL **90** ("Likely human-written 90%") → **PASS** on the initial draft (no Humaniser pass; keep-best = initial). content-queue gemini = `human 90`. 07-gemini-check-1.md persists. [VERIFY] tags flagged as a process point by Gemini but correctly NOT removed (stay for the human).
+Initial short draft HL 90 (PASS) but under the mandatory ~1000-word length → expanded with sourced material only.
+Expanded draft HL 85 → one step-7b Humaniser pass (safe style recs: functional ALT, broke if/then hook, dropped a wrap bow;
+untouchables preserved) → HL 85 (PASS) KEPT (equal HL, cleaner). content-queue gemini = `human 85`.
+07-gemini-check-1.md (superseded) + 07-gemini-check-2.md (final) persist. [VERIFY] tags flagged by Gemini but correctly NOT removed (stay for the human).
 
 ## Images (Step 8)
 images: 2 (infographic 95 pass 1 → 100 pass 2 after fix; hero PASS in both). Both PASS, 0 integrity failures. Best 100.
