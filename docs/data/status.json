@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-20T03:58:30Z",
+  "generated_utc": "2026-09-20T06:48:13Z",
   "buffer": {
-    "count": 106,
+    "count": 105,
     "target": 10,
     "deficit": 0,
     "ok": true
@@ -9,8 +9,8 @@
   "counts": {
     "in-progress": 0,
     "drafted": 94,
-    "approved": 12,
-    "posted": 22,
+    "approved": 11,
+    "posted": 23,
     "failed": 1
   },
   "rows": [
@@ -521,7 +521,7 @@
     },
     {
       "id": "vk-0027",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Burning Hot: RTP и характеристики (EGT/Amusnet класика)",
       "keywords_or_terms": "burning hot, бърнинг хот",
@@ -529,7 +529,7 @@
       "kd": "62",
       "source": "research",
       "drafted_date": "2026-09-09",
-      "posted_date": "",
+      "posted_date": "2026-09-20",
       "folder": "2026-09-09-burning-hot",
       "pr": "#34",
       "gemini": "human 85",

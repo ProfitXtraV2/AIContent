@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 12,
+  "count": 11,
   "articles": [
     {
       "slug": "linii-na-pechalba",
@@ -21,13 +21,6 @@
       "title": "Shining Crown: RTP, линии и характеристики (EGT)",
       "date_modified": "2026-09-09",
       "content_hash": "514eadb0eef4f6a62f83d3ec4cac87984d6ca92bf69a923dc8c48e559d2154bf",
-      "status": "approved"
-    },
-    {
-      "slug": "burning-hot",
-      "title": "Burning Hot: RTP и характеристики (EGT/Amusnet)",
-      "date_modified": "2026-09-09",
-      "content_hash": "10484619d27068acd2fa4f1563dbcb0a078e623eb966698050c72924a3466292",
       "status": "approved"
     },
     {
@@ -87,5 +80,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-09-20T03:58:31Z"
+  "generated_utc": "2026-09-20T06:48:13Z"
 }
