@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="Сравнение оригинал спрямо Sweet Bonanza Super Scatter: максимална печалба 21 100x срещу 50 000x; скатерът само задейства бонуса срещу мигновено плащане 100x, 500x, 5 000x, 50 000x; RTP 96.48% срещу версии 96.51%, 95.56% и 94.48%; едно купуване на функцията срещу две нива 100x и 500x; волатилността и в двете е висока">
+  <title>Какво променя Super Scatter спрямо оригинала</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="720" height="400" rx="12" ry="12" fill="url(#bg)"/>
+
+  <text x="360" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="700" fill="#5b21b6" text-anchor="middle">Какво променя Super Scatter спрямо оригинала</text>
+  <text x="360" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">факти от Pragmatic Play и гейм-бази; сравнението е между двете заглавия</text>
+
+  <!-- Super Scatter column highlight -->
+  <rect x="496" y="80" width="200" height="258" rx="8" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="1"/>
+
+  <!-- Column headers -->
+  <text x="378" y="100" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="700" fill="#374151" text-anchor="middle">Оригинал (2019)</text>
+  <text x="596" y="100" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="700" fill="#6d28d9" text-anchor="middle">Super Scatter (2025)</text>
+
+  <line x1="24" y1="112" x2="696" y2="112" stroke="#d1d5db" stroke-width="1"/>
+
+  <!-- Row 1: Max win -->
+  <text x="30" y="150" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" fill="#374151">Макс. печалба</text>
+  <text x="378" y="154" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700" fill="#4b5563" text-anchor="middle">21 100x</text>
+  <text x="596" y="154" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="800" fill="#6d28d9" text-anchor="middle">50 000x</text>
+
+  <line x1="24" y1="170" x2="696" y2="170" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Row 2: Scatter -->
+  <text x="30" y="205" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" fill="#374151">Скатерът</text>
+  <text x="378" y="208" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#4b5563" text-anchor="middle">само задейства бонуса</text>
+  <text x="596" y="197" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#6d28d9" text-anchor="middle" font-weight="600">плаща веднага:</text>
+  <text x="596" y="215" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#6d28d9" text-anchor="middle" font-weight="600">100x / 500x / 5 000x / 50 000x</text>
+
+  <line x1="24" y1="234" x2="696" y2="234" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Row 3: RTP -->
+  <text x="30" y="270" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" fill="#374151">RTP (осн. версия)</text>
+  <text x="378" y="274" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#4b5563" text-anchor="middle">96.48%</text>
+  <text x="596" y="274" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#6d28d9" text-anchor="middle">96.51% / 95.56% / 94.48%</text>
+
+  <line x1="24" y1="294" x2="696" y2="294" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Row 4: Feature buy -->
+  <text x="30" y="326" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" fill="#374151">Купуване на функция</text>
+  <text x="378" y="330" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#4b5563" text-anchor="middle">1 опция</text>
+  <text x="596" y="330" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6d28d9" text-anchor="middle">2 нива (100x / 500x)</text>
+
+  <text x="360" y="378" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">18+ Играйте отговорно · Волатилността и в двете е висока · провери реалния RTP в инфо-панела</text>
+</svg>
