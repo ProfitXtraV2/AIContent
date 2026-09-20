@@ -9,6 +9,24 @@
 "volume": 0
 }
 },
+"bg|40 mega clover": {
+"fetched": "2026-09-20",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": true,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "40 mega clover",
+"volume": 10
+},
+"trend": "down"
+},
 "bg|5 lions megaways": {
 "fetched": "2026-09-17",
 "row": {
@@ -29,6 +47,17 @@
 "keyword": "888 dragons",
 "volume": 0
 }
+},
+"bg|amazons battle": {
+"fetched": "2026-09-20",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "amazons battle",
+"volume": 10
+},
+"trend": "down"
 },
 "bg|aztec gems": {
 "fetched": "2026-09-16",
@@ -592,6 +621,16 @@
 },
 "trend": "down"
 },
+"bg|hold and win": {
+"fetched": "2026-09-20",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "hold and win",
+"volume": 0
+}
+},
 "bg|immortal romance": {
 "fetched": "2026-09-17",
 "row": {
@@ -613,6 +652,24 @@
 "volume": 10
 },
 "trend": "up"
+},
+"bg|jackpot cards": {
+"fetched": "2026-09-20",
+"row": {
+"cpc": 80,
+"difficulty": 5,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "jackpot cards",
+"volume": 70
+},
+"trend": "down"
 },
 "bg|jammin jars": {
 "fetched": "2026-09-18",
@@ -939,6 +996,24 @@
 },
 "trend": "up"
 },
+"bg|olympus glory": {
+"fetched": "2026-09-20",
+"row": {
+"cpc": 60,
+"difficulty": 2,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "olympus glory",
+"volume": 100
+},
+"trend": "flat"
+},
 "bg|peter and sons": {
 "fetched": "2026-09-19",
 "row": {
@@ -989,6 +1064,24 @@
 "volume": 500
 },
 "trend": "flat"
+},
+"bg|plinko": {
+"fetched": "2026-09-20",
+"row": {
+"cpc": 40,
+"difficulty": 78,
+"intents": {
+"branded": false,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "plinko",
+"volume": 600
+},
+"trend": "down"
 },
 "bg|power of merlin": {
 "fetched": "2026-09-17",
@@ -1114,6 +1207,16 @@
 "difficulty": null,
 "intents": {},
 "keyword": "rich wilde",
+"volume": 0
+}
+},
+"bg|rich witch": {
+"fetched": "2026-09-20",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "rich witch",
 "volume": 0
 }
 },
@@ -1306,6 +1409,17 @@
 },
 "trend": "up"
 },
+"bg|supreme hot": {
+"fetched": "2026-09-20",
+"row": {
+"cpc": 45,
+"difficulty": null,
+"intents": {},
+"keyword": "supreme hot",
+"volume": 10
+},
+"trend": "down"
+},
 "bg|sweet bonanza 1000": {
 "fetched": "2026-09-17",
 "row": {
@@ -1388,6 +1502,16 @@
 "difficulty": null,
 "intents": {},
 "keyword": "the dog house multihold",
+"volume": 0
+}
+},
+"bg|the great egypt": {
+"fetched": "2026-09-20",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "the great egypt",
 "volume": 0
 }
 },
@@ -1475,6 +1599,24 @@
 },
 "keyword": "tome of madness",
 "volume": 20
+},
+"trend": "down"
+},
+"bg|versailles gold": {
+"fetched": "2026-09-20",
+"row": {
+"cpc": 100,
+"difficulty": 16,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "versailles gold",
+"volume": 150
 },
 "trend": "down"
 },
@@ -1578,6 +1720,16 @@
 },
 "trend": "down"
 },
+"bg|witches charm": {
+"fetched": "2026-09-20",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "witches charm",
+"volume": 0
+}
+},
 "bg|wolf gold": {
 "fetched": "2026-09-18",
 "row": {
@@ -1615,6 +1767,17 @@
 "intents": {},
 "keyword": "zeus vs hades",
 "volume": 30
+},
+"trend": "down"
+},
+"bg|zodiac wheel": {
+"fetched": "2026-09-20",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "zodiac wheel",
+"volume": 10
 },
 "trend": "down"
 },

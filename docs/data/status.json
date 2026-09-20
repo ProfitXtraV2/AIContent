@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-19T23:17:05Z",
+  "generated_utc": "2026-09-20T03:23:46Z",
   "buffer": {
     "count": 103,
     "target": 10,
@@ -7,7 +7,7 @@
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
+    "in-progress": 3,
     "drafted": 91,
     "approved": 12,
     "posted": 22,
@@ -2307,6 +2307,57 @@
       "pr": "#143",
       "gemini": "human 85",
       "notes": "provider-profile pillar; distinct primary kw „betsoft\" 20/informational; PUBLIC provider-site + game-DB facts (betsoft.com/about-us, Wizard of Odds, VegasSlotsOnline, AskGamblers), NOT operator T&C/НАП; осн. 2006, седалище Малта; ADM + GLI/Quinel (MGA/Curaçao НЕ твърдени — само databases); ~200 заглавия; central honest angle = кинематографичната 3D визия (SLOTS3) е представяне, не по-добри шансове (RTP/предимство непроменени); сертифицирана игра ≠ легално казино (НАП); Max Quest аркаден шутър формат + Buy Feature обективно; top titles A Night in Paris 96.92%/Take the Bank 96.10%/Good Girl Bad Girl 97.3–97.79% (dual-mode)/Take Olympus; CORRECTIONS дроп „Shift & Spin\"+„provably fair\", без operator-число (конфликт 500+/200+); gate 93/100 0 crit; Gemini Step-7 HL 15→85 PASS pass1 (1 humaniser, kept pass1); img:2 (infographic 92→100 fix + hero 100, 0 integrity); 0 [VERIFY]; Ahrefs vol 20",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0127",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Quickspin: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "quickspin, куикспин, quickspin слотове",
+      "volume": "20",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-20",
+      "posted_date": "",
+      "folder": "2026-09-20-quickspin-provajdar",
+      "pr": "",
+      "gemini": "",
+      "notes": "selected 2026-09-20 recurring fire; provider-profile pillar, distinct uncovered cluster (vol 20, informational, trend down); PUBLIC provider-site + game-DB facts only, NOT operator T&C/НАП",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0128",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Sweet Bonanza Super Scatter (Pragmatic): какво променя Super Scatter",
+      "keywords_or_terms": "sweet bonanza super scatter, суит бонанза супер скатер",
+      "volume": "20",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-20",
+      "posted_date": "",
+      "folder": "2026-09-20-sweet-bonanza-super-scatter",
+      "pr": "",
+      "gemini": "",
+      "notes": "selected 2026-09-20 recurring fire; distinct 2024 game (NOT a fold-in of vk-0018 Sweet Bonanza); primary kw 20; game-DB facts, NOT operator T&C/НАП",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0129",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Money Train 4 (Relax Gaming): какво променя четвъртата част",
+      "keywords_or_terms": "money train 4, мъни трейн 4",
+      "volume": "10",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-20",
+      "posted_date": "",
+      "folder": "2026-09-20-money-train-4",
+      "pr": "",
+      "gemini": "",
+      "notes": "selected 2026-09-20 recurring fire; sequel to Money Train 3 (vk-0076), distinct primary kw; game-DB facts, NOT operator T&C/НАП",
       "opportunity": null
     }
   ],
@@ -4752,6 +4803,74 @@
       "status": "candidate",
       "date_researched": "2026-09-19",
       "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Versailles Gold (Amusnet/EGT): RTP, характеристики и как се играе",
+      "researched_keywords": "versailles gold, версайлс голд",
+      "volume": "150",
+      "kd": "16",
+      "intent": "transactional",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "Силен: обем 150/kd16 (transactional, ↓); EGT класика, силно търсена в BG; distinct непокрит cluster; game-DB + Amusnet site, NOT operator T&C/НАП",
+      "status": "candidate",
+      "date_researched": "2026-09-20",
+      "opportunity": {
+        "score": 41,
+        "band": "Moderate"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Olympus Glory (Amusnet/EGT): RTP, характеристики и как се играе",
+      "researched_keywords": "olympus glory, олимпус глори",
+      "volume": "100",
+      "kd": "2",
+      "intent": "transactional",
+      "trend": "flat",
+      "checked": "ahrefs",
+      "suggestion": "Силен: 100/kd2 (transactional, flat, много ниска трудност); EGT класика; distinct непокрит cluster; game-DB + Amusnet site, NOT operator T&C/НАП",
+      "status": "candidate",
+      "date_researched": "2026-09-20",
+      "opportunity": {
+        "score": 44,
+        "band": "Moderate"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Plinko: как работи играта, RTP и рискови нива",
+      "researched_keywords": "plinko, плинко",
+      "volume": "600",
+      "kd": "78",
+      "intent": "transactional",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "Голям обем 600 но kd78 (висока трудност) → умерена възможност; game-type/crash explainer, distinct; провери rows/risk нива/RTP версии; game-DB, NOT operator T&C/НАП",
+      "status": "candidate",
+      "date_researched": "2026-09-20",
+      "opportunity": {
+        "score": 39,
+        "band": "Moderate"
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Jackpot Cards (Amusnet/EGT): как работи мистерия джакпотът",
+      "researched_keywords": "jackpot cards, джакпот кардс",
+      "volume": "70",
+      "kd": "5",
+      "intent": "transactional",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "70/kd5 (transactional, ниска трудност); EGT mystery-jackpot механика, обяснена само като под-функция в игрови статии (20/40 Super Hot, Rise of Ra, 100 Burning Hot) — няма dedicated pillar за точния query; distinct mechanic-explainer; допълва /blog/progresivni-dzhakpoti/; game-DB + Amusnet, NOT operator T&C/НАП",
+      "status": "candidate",
+      "date_researched": "2026-09-20",
+      "opportunity": {
+        "score": 42,
+        "band": "Moderate"
+      }
     },
     {
       "type": "guide",
