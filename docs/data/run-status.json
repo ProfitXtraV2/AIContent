@@ -5,14 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_016tsxn4YAq4q1bcAkgtMdJg",
-  "note": "daily run (recurring fire 2026-09-20) — reconcile in-progress vk-0063, then write batch of 3 new guides",
+  "note": "daily run 2026-09-20 — batch of 3 EGT guides selected (Olympus Glory, Jackpot Cards, Versailles Gold); researching facts in parallel, then authoring",
   "progress": {
-    "phase": "reconcile",
-    "article_index": 0,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 3,
-    "article_slug": null,
-    "stages": ["Synthesis", "Outline", "Author", "Humaniser", "SEO", "Brand Gate", "Light re-check", "Images", "Verification", "PR"],
-    "stage_index": null,
-    "stage": null
+    "article_slug": "2026-09-20-olympus-glory",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
