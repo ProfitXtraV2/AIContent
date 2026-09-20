@@ -1,7 +1,7 @@
 # 06-VERIFICATION — Всички Казина · 2026-09-20-quickspin-provajdar
 *For the human at Step 6. FLAGS STAY IN THE TEXT — this file only helps you verify fast. Nothing here has been resolved by the autopilot.*
 
-Article: **Quickspin: профил на доставчика, механики и топ слотове** · type: guide (provider profile) · byline: editorial (signed Георги Тодоров) · gate: PASS WITH FIXES 93/100 · humanisation: HUMAN-LIKE · Gemini Step-7: human 85 (PASS, initial kept) · images: <see Step 8> · run date: 20.09.2026 · length: ~1003 думи (body)
+Article: **Quickspin: профил на доставчика, механики и топ слотове** · type: guide (provider profile) · byline: editorial (signed Георги Тодоров) · gate: PASS WITH FIXES 93/100 · humanisation: HUMAN-LIKE · Gemini Step-7: human 85 (PASS, initial kept) · images: 2 (infographic 100, hero 100, review PASS) · run date: 20.09.2026 · length: ~1003 думи (body)
 
 ## Surviving flags
 1 in-text flag:
@@ -57,7 +57,7 @@ game-DB data). No tax claim. No affiliate link (no operator recommended).
 gemini_check.py. HL: initial **85** ("Likely human-written 85%") → **PASS** (≥80) on the INITIAL draft (anti-AI applied proactively; no Humaniser pass needed). content-queue gemini = `human 85`. 07-gemini-check-1.md persists. Recs noted, NOT applied (keep-best; identical policy to Starburst HL 85). The [VERIFY] flag is a required surviving flag, not a proofreading miss.
 
 ## Images (Step 8)
-See 08-image-review-<pass>.md. Final count + best score recorded here after the run.
+gemini_image_review.py, pass 1: BOTH 100/100 PASS, 0 integrity failures, 0 layout defects. images: 2 — `images/quickspin-rtp-versii.svg` (infographic; figures trace to 05b: ~96% / ~4% / €1000 / ~€960 / ~€40; BBW 90%/97%, Sakura 90%/96%; 18+/RG note) + `images/quickspin-hero.webp` (decorative Scandinavian AI hero, 16 KB; no UI/logos/numbers/people/winning). 08-image-review-1.md persists.
 
 ## Anti-cannibalization note
 No Quickspin page in the sitemap (checked 20.09.2026). Distinct branded kw „quickspin/куикспин".
