@@ -1,11 +1,11 @@
 {
   "state": "idle",
-  "run_started_utc": "2026-09-20T09:00:00Z",
-  "run_finished_utc": "2026-09-20T09:00:00Z",
+  "run_started_utc": "2026-09-20T18:00:00Z",
+  "run_finished_utc": "2026-09-20T18:00:00Z",
   "articles_written": 0,
   "prs_opened": [],
-  "run_url": "https://claude.ai/code/session_013zzXgnXDz2t272cty2njvK",
-  "note": "backfill: nothing to do — all review-ready articles have images. Verified via git ls-tree on all drafted/approved branches: 0 imageless articles found. New articles (vk-0130 Olympus Glory, vk-0131 Jackpot Cards, vk-0132 Versailles Gold) created today already include images (score 100 each) from the daily-run Step-8 flow.",
+  "run_url": "https://claude.ai/code/session_01WwVZELoiMGSBZnKtTALcod",
+  "note": "backfill: nothing to do — all review-ready articles have images. Verified via status.json (0 imageless non-hub-intro drafted/approved articles) and spot-checked branches (rtp-i-volatilnost: 39 img, linii-na-pechalba: 3 img). Hub-intro articles (vk-0119–0123) excluded per spec (no images). Backlog is fully imaged; job can be disabled.",
   "progress": {
     "phase": "done",
     "article_index": 0,
