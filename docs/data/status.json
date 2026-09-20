@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-20T03:23:46Z",
+  "generated_utc": "2026-09-20T03:58:30Z",
   "buffer": {
-    "count": 103,
+    "count": 106,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 3,
-    "drafted": 91,
+    "in-progress": 0,
+    "drafted": 94,
     "approved": 12,
     "posted": 22,
     "failed": 1
@@ -2311,7 +2311,7 @@
     },
     {
       "id": "vk-0127",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Quickspin: профил на доставчика, механики и топ слотове",
       "keywords_or_terms": "quickspin, куикспин, quickspin слотове",
@@ -2321,14 +2321,14 @@
       "drafted_date": "2026-09-20",
       "posted_date": "",
       "folder": "2026-09-20-quickspin-provajdar",
-      "pr": "",
-      "gemini": "",
-      "notes": "selected 2026-09-20 recurring fire; provider-profile pillar, distinct uncovered cluster (vol 20, informational, trend down); PUBLIC provider-site + game-DB facts only, NOT operator T&C/НАП",
+      "pr": "#144",
+      "gemini": "human 85",
+      "notes": "provider-profile pillar; verified осн. 2011 Стокхолм, купено от Playtech 2016, Achievements Engine (промо, не мени RTP); топ слотове Big Bad Wolf (2013, 90%/97%), Sakura Fortune (2017, 5x4/40, 90%/96%), Sticky Bandits (2017, 5x5/30, ~96.58% [VERIFY]); FACT-CORRECTION Razor Shark = Push Gaming (excluded); central angle операторът избира RTP версията; diff. от Pragmatic/Amusnet; guide→no affiliate link; gate 93/100 0 crit; Gemini Step-7 human 85 PASS initial (0 humaniser); img:2 (infographic 100 + hero 100, 0 integrity); 1 [VERIFY]; Ahrefs vol 20",
       "opportunity": null
     },
     {
       "id": "vk-0128",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Sweet Bonanza Super Scatter (Pragmatic): какво променя Super Scatter",
       "keywords_or_terms": "sweet bonanza super scatter, суит бонанза супер скатер",
@@ -2338,14 +2338,14 @@
       "drafted_date": "2026-09-20",
       "posted_date": "",
       "folder": "2026-09-20-sweet-bonanza-super-scatter",
-      "pr": "",
-      "gemini": "",
-      "notes": "selected 2026-09-20 recurring fire; distinct 2024 game (NOT a fold-in of vk-0018 Sweet Bonanza); primary kw 20; game-DB facts, NOT operator T&C/НАП",
+      "pr": "#146",
+      "gemini": "human 85",
+      "notes": "distinct game explainer, NOT fold-in of vk-0018 Sweet Bonanza; FACT-CORRECTION release 31.07.2025 (not 2024); angle = Super Scatter diff vs original (скатер плаща сам 100x/500x/5000x/50000x, max win 21100x→50000x, RTP versii 96.51/95.56/94.48% vs 96.48%, 2-tier feature buy, ante bet +25%); game-DB facts (pragmaticplay+bigwinboard+slotcatalog+racingpost), guide→no affiliate; cross-links /blog/sweet-bonanza/; gate 94/100 0 crit; Gemini Step-7 human 85 PASS (kept length-compliant version; short first draft 90 но под дължината); img:2 (comparison SVG 100 + hero 100; svg 95→100 font-fix); 2 [VERIFY]; Ahrefs vol 20",
       "opportunity": null
     },
     {
       "id": "vk-0129",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Money Train 4 (Relax Gaming): какво променя четвъртата част",
       "keywords_or_terms": "money train 4, мъни трейн 4",
@@ -2355,9 +2355,9 @@
       "drafted_date": "2026-09-20",
       "posted_date": "",
       "folder": "2026-09-20-money-train-4",
-      "pr": "",
-      "gemini": "",
-      "notes": "selected 2026-09-20 recurring fire; sequel to Money Train 3 (vk-0076), distinct primary kw; game-DB facts, NOT operator T&C/НАП",
+      "pr": "#145",
+      "gemini": "human 85",
+      "notes": "Relax Gaming extreme-high-vol slot explainer, angle „какво променя четвъртата част\"; FACT-CORRECTION release 20.09.2023 (not 2024); RTP 96.10%/96.50% (bonus buy), max win 150000× vs MT3 100000×/MT2 50000×; base 6×6 scatter-pays (≥8 high/≥10 low) vs MT3 5×4/40; Money Cart 6×4 start; bonus buy 100×/500× stake; залог €0.10–€6; vol 5/5; NEW vs MT3: Arms Dealer/Upgrader/Unlocker/Reset Plus/Persistent Shapeshifter, Absorber removed, „21 функции, 8 нови\" [VERIFY]; game-DB facts (relax-gaming.com+bigwinboard+casinorange), guide→no affiliate; MT2/3 named not linked (not in sitemap); strong RG framing (bonus-buy €600/€3000 at max stake, 150000× tail not target); gate 94/100 0 crit; Gemini Step-7 human 85 PASS initial; img:2 (infographic 100 + hero 100, 0 integrity); 1 [VERIFY]; Ahrefs vol 10",
       "opportunity": null
     }
   ],
@@ -4259,7 +4259,7 @@
       "trend": "flat",
       "checked": "ahrefs",
       "suggestion": "сиквел на Money Train 3 (vk-0076) — distinct kw; fold-in към vk-0076; public game-DB; чист. Ahrefs BG vol 10, kd n/a, checked 15.09.2026",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-15",
       "opportunity": null
     },
@@ -4772,7 +4772,7 @@
       "trend": "down",
       "checked": "ahrefs",
       "suggestion": "Provider-хъб непокрит (20, down); шведско студио (част от Playtech), Achievements/Bonus mechanics, Big Bad Wolf/Sakura Fortune; distinct cluster; provider site + game-DB, NOT operator T&C/НАП. По-нисък приоритет заради обем",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-19",
       "opportunity": null
     },
@@ -4799,8 +4799,8 @@
       "intent": "informational",
       "trend": "down",
       "checked": "ahrefs",
-      "suggestion": "Distinct НОВО заглавие (2024), НЕ вариант-fold-in — Super Scatter механика различна от оригиналната Sweet Bonanza (vk-0018, /blog/sweet-bonanza/); отделен primary kw 20; game-DB, NOT operator T&C/НАП. Провери RTP/механика преди писане",
-      "status": "candidate",
+      "suggestion": "Distinct НОВО заглавие (2024), НЕ вариант-fold-in — Super Scatter механика различна от оригиналната Sweet Bonanza (vk-0018, /blog/sweet-bonanza/); отделен primary kw 20; game-DB, NOT operator T&C/НАП. Провери RTP/механика преди писане (release verified 31.07.2025)",
+      "status": "used",
       "date_researched": "2026-09-19",
       "opportunity": null
     },
