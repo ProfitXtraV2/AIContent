@@ -10,5 +10,5 @@
 - 05b light re-check: no em-dashes / tables / bullet lists / banned connectives to fix. Returned unchanged apart from being the publish-format file. Infographic referenced.
 - number diff 02→03→04→05→05b: all article numbers preserved (2019, 2025, 6/5, 8, 100x/500x/5 000x/50 000x, 21 100x, 4/5/6, 10, 15, 3x/5x/100x, +5, x2–x100, 25%, x20, 96.48/96.51/95.56/94.48%, ~96%, 1000/960/40 €). PASS.
 - 06 verification: 2 surviving [VERIFY] flags; source table; recalculation shown.
-- Step 7 (Gemini text): see 07-gemini-check-*.md (updated below).
+- Step 7 (Gemini text, gemini_check.py): HL 90 ("Likely human-written 90%") → PASS on initial draft. No Humaniser pass (keep-best). 07-gemini-check-1.md saved.
 - Step 8 (images): see 08-image-review-*.md (updated below).

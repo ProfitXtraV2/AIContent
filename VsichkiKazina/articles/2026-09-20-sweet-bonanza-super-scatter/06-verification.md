@@ -48,7 +48,7 @@ max; one bonus buy → two-tier feature buy; 96.48% → 96.51%/95.56%/94.48% ver
 cross-linked, not re-explained. Distinct branded kw „sweet bonanza super scatter" (vol 20).
 
 ## External check (Step 7 — Gemini)
-PENDING — recorded in 07-gemini-check-*.md and updated here after the run.
+HL **90** ("Likely human-written 90%") → **PASS** on the initial draft (no Humaniser pass; keep-best = initial). content-queue gemini = `human 90`. 07-gemini-check-1.md persists. [VERIFY] tags flagged as a process point by Gemini but correctly NOT removed (stay for the human).
 
 ## Images (Step 8)
 PENDING — recorded in 08-image-review-*.md and updated here after the run.
