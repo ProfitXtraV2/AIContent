@@ -1,0 +1,5 @@
+# log — Stakelogic (vk-0141)
+- Synthesis → Outline → Author (editorial) → Humaniser (HL 49/60, light pass) → SEO (91/100) → Brand Gate (PASS 92/100, 0 crit) → Light re-check (0 em-dashes) → Step-7 Gemini → Images → Verification → PR.
+- Guides-only scope; provider profile from provider site + international game-DBs (stakelogic.com, fruityslots, casinohawks, bigwinboard, askgamblers, bestslotsjournal), NOT operator T&C/НАП. No operator recommended → no affiliate link, no НАП licence № required.
+- Fact guardrails: „Fruit Party" excluded (Pragmatic Play, not Stakelogic); „Xnudge" never introduced (Nolimit City); Super Stake verified as an optional bet-boost (×2 stake / Mega ×2.5) that raises the bonus chance but does NOT beat the house edge; HQ town NOT named (sources split Eindhoven/NL, „Reeuwijk" unconfirmed).
+- Soft [VERIFY] (hedged, none asserted): founding 2014/2015; Sega Sammy deal (July 2024, ~€130m + earn-out); Book of Adventure Super Stake Edition ~96.68%; Twin Joker 97.79% (single-source).
