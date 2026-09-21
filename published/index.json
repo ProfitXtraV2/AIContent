@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 11,
+  "count": 10,
   "articles": [
     {
       "slug": "linii-na-pechalba",
@@ -14,13 +14,6 @@
       "title": "Live game shows: Crazy Time, Monopoly Live, Lightning",
       "date_modified": "2026-09-09",
       "content_hash": "a86c5810ae914863f0342588a3b65ca4e72a288f974f69ec8f646e01bedb0e26",
-      "status": "approved"
-    },
-    {
-      "slug": "shining-crown",
-      "title": "Shining Crown: RTP, линии и характеристики (EGT)",
-      "date_modified": "2026-09-09",
-      "content_hash": "514eadb0eef4f6a62f83d3ec4cac87984d6ca92bf69a923dc8c48e559d2154bf",
       "status": "approved"
     },
     {
@@ -80,5 +73,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-09-21T03:48:49Z"
+  "generated_utc": "2026-09-21T06:44:11Z"
 }

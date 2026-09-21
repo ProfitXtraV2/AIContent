@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-21T03:48:32Z",
+  "generated_utc": "2026-09-21T06:44:11Z",
   "buffer": {
-    "count": 114,
+    "count": 113,
     "target": 10,
     "deficit": 0,
     "ok": true
@@ -9,8 +9,8 @@
   "counts": {
     "in-progress": 0,
     "drafted": 103,
-    "approved": 11,
-    "posted": 23,
+    "approved": 10,
+    "posted": 24,
     "failed": 1
   },
   "rows": [
@@ -501,7 +501,7 @@
     },
     {
       "id": "vk-0026",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Shining Crown: RTP и характеристики (EGT/Amusnet)",
       "keywords_or_terms": "shining crown, шайнинг краун",
@@ -509,7 +509,7 @@
       "kd": "64",
       "source": "research",
       "drafted_date": "2026-09-09",
-      "posted_date": "",
+      "posted_date": "2026-09-21",
       "folder": "2026-09-09-shining-crown",
       "pr": "#31",
       "gemini": "human 85",
