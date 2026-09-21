@@ -1,18 +1,18 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-20T18:00:00Z",
-  "run_finished_utc": "2026-09-20T18:00:00Z",
-  "articles_written": 0,
+  "state": "running",
+  "run_started_utc": "2026-09-21T18:05:00Z",
+  "run_finished_utc": null,
+  "articles_written": null,
   "prs_opened": [],
-  "run_url": "https://claude.ai/code/session_01WwVZELoiMGSBZnKtTALcod",
-  "note": "backfill: nothing to do — all review-ready articles have images. Verified via status.json (0 imageless non-hub-intro drafted/approved articles) and spot-checked branches (rtp-i-volatilnost: 39 img, linii-na-pechalba: 3 img). Hub-intro articles (vk-0119–0123) excluded per spec (no images). Backlog is fully imaged; job can be disabled.",
+  "run_url": "https://claude.ai/code/session_015Q8nXzir9C1JJQpUQrfzFW",
+  "note": "daily run (2026-09-21 recurring fire): backlog all NV-blocked (guides-only scope); writing 3 provider-hub pillars from research bank — 3 Oaks Gaming, Playson, Stakelogic",
   "progress": {
-    "phase": "done",
-    "article_index": 0,
-    "article_total": 0,
-    "article_slug": null,
-    "stages": [],
-    "stage_index": null,
-    "stage": null
+    "phase": "writing",
+    "article_index": 1,
+    "article_total": 3,
+    "article_slug": "2026-09-21-3-oaks-gaming",
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
