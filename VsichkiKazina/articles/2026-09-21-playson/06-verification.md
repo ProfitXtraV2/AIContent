@@ -39,7 +39,7 @@
   feature, consistent with a 5×3 grid, not independently re-derived per build.
 
 ## Gemini Step-7 (external, cross-model)
-- <PENDING — filled from 07-gemini-check-*.md after gemini_check.py: verdict + human-likeness + passes>.
+- Check 1 (initial draft): "Likely human-written, 85% confidence" → human-likeness 85 → PASS (≥ 80) on the first check, 0 Humaniser passes. Best-seen 85 (initial = final). gemini column: human 85. Recommendations were style-only (section-to-section RTP echo, hypothetical-hook intro, alt-text phrasing) and non-blocking; not applied, since the higher-scoring untouched version is kept. See 07-gemini-check-1.md.
 
 ## Step-8 images
 - images: 2 (Hold-and-Win infographic SVG + decorative hero WebP 8.6 KB). Review: <PENDING —
