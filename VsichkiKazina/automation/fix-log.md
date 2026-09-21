@@ -660,3 +660,77 @@ to `origin/main` (authoritative — today's board, PRs #147–152) before doing 
 content-branch fixes were pushed to their own tips (always valid) regardless of the split.
 This history divergence may make content-branch PR diffs against `main` render large — worth
 a human check on the repo's git state.
+
+---
+
+## 2026-09-21 — nightly flag+score fixes
+
+Start: reset local `main` to `origin/main` (local `main` had again diverged with an
+unrelated history / no merge-base — see the 2026-09-20 infra note; `origin/main` is
+authoritative). Fetched all 145 `content/*` branches.
+
+### JOB A — publish-blocking flags
+Scanned every `content/*` branch's own `VsichkiKazina/articles/<folder>/05b-final-draft.md`
+(145 content branches) for blocking markers (`[VERIFY]`, `[DATA NEEDED]`, `[CONFLICT]`,
+`[18+ / RG LINE]`, `[AUTHOR]`, `[BRAND]`, `[EDITORIAL]`, `[уточни]`, `[провери]`, `[TODO]`,
+`[TBD]`, `[PLACEHOLDER]`). **7** branches carried a blocking marker; **2** are posted/live
+(left untouched, see POSTED section) and **5** were drafted → resolved this run. All
+resolutions are rephrasing only: public game/provider data kept, uncertain specifics softened
+or pointed to the game's info-panel, no value invented. Byline (Георги Тодоров) and brand
+(Всички Казина) preserved on every branch. Each re-scanned to **0** blocking markers before
+push.
+
+- **vk-0139** `2026-09-21-3-oaks-gaming` (drafted, `human 90`): 1 flag —
+  `[VERIFY: точна дата на ребрандирането]` (line 14). Resolved: kept the existing hedge
+  „около 2022 г." and folded the caveat into prose („точната дата се сочи различно в
+  източниците… приемай като ориентир"). Commit `fix(flags): resolve …3-oaks-gaming`. → 0 markers.
+- **vk-0142** `2026-09-21-moon-princess` (drafted, `human 85`): 1 flag —
+  `[VERIFY: коя версия (96.50% или 94.51%) работи…]` (line 30). Resolved: kept both public
+  RTP values (96.50% default / 94.51% alt), folded the check-the-info-panel caveat into prose.
+  Commit `fix(flags): resolve …moon-princess`. → 0 markers.
+- **vk-0143** `2026-09-21-rise-of-olympus` (drafted, `human 85`): 1 flag —
+  `[VERIFY: реалната версия на RTP при конкретния оператор]` (line 32). Resolved: removed the
+  bracket; the preceding sentence already points the reader to the info-panel. All public RTP
+  builds (96.50/94.51/91.49/87.50/84.50) kept. Commit `fix(flags): resolve …rise-of-olympus`. → 0 markers.
+- **vk-0141** `2026-09-21-stakelogic` (drafted, `human 85`): 4 flags (lines 14, 33).
+  `[VERIFY: точна година; …2015]` → „около 2014 г. (някои източници сочат 2015 г.)".
+  `[VERIFY: сделка обявена юли 2024 г., ~130 млн. евро…]` → removed (kept only the in-prose
+  „през 2024 г. … се договаря да го придобие"; no financial figure asserted).
+  `[VERIFY: ~96.68% по игрална база]` and `[VERIFY: 97.79% по единичен източник]` → removed
+  the single-source RTP numbers, kept the soft „малко по-висок процент" / „висок обявен
+  процент" and folded a check-the-info-panel caveat. Commit `fix(flags): resolve …stakelogic`. → 0 markers.
+- **vk-0144** `2026-09-21-wild-west-gold` (drafted, `human 80`): 2 flags (lines 30, 39).
+  `[VERIFY: кой RTP билд върви…]` and `[VERIFY: наличност на bonus buy в BG]` → both removed;
+  the surrounding sentences already resolve them (info-panel for RTP builds; „провери дали
+  опцията присъства в самата игра" for bonus buy). Public RTP values (96.51/95.56/94.53) kept.
+  Commit `fix(flags): resolve …wild-west-gold`. → 0 markers.
+
+Post-run full-repo re-scan: the only remaining flagged branches are the 2 posted/live
+nv-casino ones below. All 5 drafted branches clean.
+
+### JOB B — low Gemini score improvements
+Board targets = status ∈ {drafted, approved} AND gemini `ai <n>` OR `human <n>` with n<80.
+**Zero qualifying targets tonight.** Every rated drafted/approved row is `human ≥80`
+(range 80–95). Rows vk-0080–vk-0109 are `skipped` (Step-7 never run) — outside the defined
+target set (`skipped` is neither `ai <n>` nor `human <n<80`), so not processed. No gemini
+column changes were needed (no scores changed; flag-resolution is rephrasing only).
+
+### POSTED — needs human review (recurring, still open)
+- **vk-0063** `2026-09-13-nv-casino-zakonno-li-e` (PR #79 merged, posted, `ai 75`): still
+  carries `[AUTHOR BIO BLOCK: Георги Тодоров]` + `[About Всички Казина boilerplate]`
+  placeholders (line 56) **and** is low-rated (`ai 75`). Left untouched (never edit
+  posted/live). A human should fill the author/brand blocks off the live path and re-publish,
+  and would benefit from a human-reviewed humanise pass.
+- **vk-0064** `2026-09-13-nv-casino-bonus-usloviya` (PR #80 merged, posted, `human 85`):
+  still carries `[AUTHOR BIO BLOCK: Георги Тодоров]` / `[BRAND BOILERPLATE: Всички Казина]` /
+  `[18+ / RG LINE]` placeholders (line 65). Left untouched.
+  ACTION (recurring): both blocking placeholders sit on posted branches; the publisher would
+  hard-block both live pages on any re-publish. A human should fill the author/brand/RG blocks
+  off the live path and re-publish, or correct the `posted` status.
+
+### Deferred (over nightly cap of 10)
+None — 5 Job-A branches processed (well under the cap of 10); 0 Job-B targets.
+
+### FINISH
+No gemini column changes (no score changes). Rebuilt `status.json` (dashboard) and
+`published/index.json` (feed). Committed on `main` and pushed.
