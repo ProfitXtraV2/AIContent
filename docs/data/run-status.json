@@ -1,16 +1,20 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-09-21T22:11:10Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-09-21T22:41:22Z",
+  "articles_written": 3,
+  "prs_opened": [
+    160,
+    161,
+    162
+  ],
   "run_url": "https://claude.ai/code/session_01LcPFH7dJzjaX31iGZFZEkv",
-  "note": "3rd daily run 2026-09-21 — writing 3 game explainers (Moon Princess, Rise of Olympus, Wild West Gold) in parallel",
+  "note": "3rd daily run 2026-09-21 done — drafted 3 game explainers: vk-0142 Moon Princess (PR #161, human 85), vk-0143 Rise of Olympus (PR #160, human 85), vk-0144 Wild West Gold (PR #162, human 80 pass2). All gate 93/0-crit, img 2× (best 100/100/85, 0 integrity). 4 [VERIFY] total (per-casino RTP builds + WWG bonus-buy). Backlog all NV-blocked (guides-only). 3 research candidates used; +3 uncovered provider-hub candidates (Gamomat/iSoftBet/Kalamba, web-est, await Ahrefs reset 15.10). Ahrefs exhausted. Feed refreshed (10 approved). Human owns Step 6/merge/publish.",
   "progress": {
-    "phase": "writing",
-    "article_index": 1,
+    "phase": "done",
+    "article_index": 3,
     "article_total": 3,
-    "article_slug": "2026-09-21-moon-princess",
+    "article_slug": null,
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +27,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "stage_index": null,
+    "stage": null
   }
 }
