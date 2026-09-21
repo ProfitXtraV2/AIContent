@@ -42,9 +42,12 @@
 - Check 1 (initial draft): "Likely human-written, 85% confidence" → human-likeness 85 → PASS (≥ 80) on the first check, 0 Humaniser passes. Best-seen 85 (initial = final). gemini column: human 85. Recommendations were style-only (section-to-section RTP echo, hypothetical-hook intro, alt-text phrasing) and non-blocking; not applied, since the higher-scoring untouched version is kept. See 07-gemini-check-1.md.
 
 ## Step-8 images
-- images: 2 (Hold-and-Win infographic SVG + decorative hero WebP 8.6 KB). Review: <PENDING —
-  filled from 08-image-review-*.md>. Every infographic element (6+, 3, 15, Mini/Minor/Major/
-  Grand, „не менят RTP на базовата игра", „18+ Играйте отговорно") traces to 05b.
+- images: 2 (infographic 100, hero 100). Hold-and-Win infographic (SVG) + decorative hero
+  (WebP, textless 5x3 grid + locked coin + four jackpot tokens). Review 1 = 75 → fix pass 1
+  (SVG wording, ALT) → interim 65 → fix pass 2 (hero regenerated to a 5x3/15-position grid,
+  ALT rewritten) → final 100/100 PASS both, 0 integrity/layout failures (2 fix passes, kept-best
+  100). Every infographic element (6+, 3, 15, Mini/Minor/Major/Grand, „не менят RTP на базовата
+  игра", „18+ Играйте отговорно") traces to 05b. See 08-image-review-1/2.md.
 
 ## Compliance
 - Byline Георги Тодоров; brand „Всички Казина" exact; pub + updated dates 21.09.2026; About slot;
