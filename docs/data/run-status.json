@@ -1,32 +1,17 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-21T18:05:00Z",
-  "run_finished_utc": "2026-09-21T07:45:00Z",
-  "articles_written": 3,
-  "prs_opened": [
-    157,
-    158,
-    159
-  ],
-  "run_url": "https://claude.ai/code/session_015Q8nXzir9C1JJQpUQrfzFW",
-  "note": "2nd daily run 2026-09-21 done — drafted 3 provider-hub pillars: vk-0139 3 Oaks Gaming (PR #157, human 90), vk-0140 Playson (PR #159, human 85), vk-0141 Stakelogic (PR #158, human 85); all img 2x best 100, 0 integrity; [VERIFY] 1/2/4 (human owns Step 6). Backlog all NV-blocked (guides-only). Research bank +3 candidates (Endorphina/Amatic/Habanero, web-est, await Ahrefs reset 15.10). Ahrefs exhausted (9 units). Feed refreshed.",
+  "state": "running",
+  "run_started_utc": "2026-09-21T22:11:10Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01LcPFH7dJzjaX31iGZFZEkv",
+  "note": "3rd daily run 2026-09-21 — starting; batch 3 game explainers (Moon Princess, Rise of Olympus, Wild West Gold)",
   "progress": {
-    "phase": "done",
-    "article_index": 3,
+    "phase": "starting",
+    "article_index": 0,
     "article_total": 3,
     "article_slug": null,
-    "stages": [
-      "Synthesis",
-      "Outline",
-      "Author",
-      "Humaniser",
-      "SEO",
-      "Brand Gate",
-      "Light re-check",
-      "Images",
-      "Verification",
-      "PR"
-    ],
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
     "stage_index": null,
     "stage": null
   }
