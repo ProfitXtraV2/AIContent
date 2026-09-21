@@ -3,14 +3,16 @@
   "run_started_utc": "2026-09-21T03:10:00Z",
   "run_finished_utc": null,
   "articles_written": null,
-  "prs_opened": [],
+  "prs_opened": [
+    153
+  ],
   "run_url": "https://claude.ai/code/session_01GbyfSK4EZYFcnBVSpZmgAi",
-  "note": "daily run 2026-09-21 (1st fire): reconciled 0 in-progress; backlog all NV/operator-blocked (guides-only); selected 3 research pillars vk-0136 Blueprint Gaming / vk-0137 Immortal Romance / vk-0138 Sun of Egypt 3 (in-progress). Gemini ONLINE (probe 95%). Ahrefs KEY units exhausted (59 left) though workspace pool ok -> step-6 web fallback. Research agents running.",
+  "note": "daily run 2026-09-21: article 1/3 Blueprint Gaming DONE (vk-0136, PR #153, Gemini human 90, img 100). Writing 2/3 Immortal Romance. Gemini online; Ahrefs key units exhausted (web fallback).",
   "progress": {
     "phase": "writing",
-    "article_index": 1,
+    "article_index": 2,
     "article_total": 3,
-    "article_slug": "2026-09-21-blueprint-gaming",
+    "article_slug": "2026-09-21-immortal-romance",
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "stage_index": 2,
+    "stage": "Author"
   }
 }
