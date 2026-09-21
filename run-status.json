@@ -4,15 +4,16 @@
   "run_finished_utc": null,
   "articles_written": null,
   "prs_opened": [
-    157
+    157,
+    158
   ],
   "run_url": "https://claude.ai/code/session_015Q8nXzir9C1JJQpUQrfzFW",
-  "note": "daily run (2026-09-21 recurring fire): vk-0139 3 Oaks drafted (PR #157); Playson + Stakelogic writing (parallel worktree agents)",
+  "note": "daily run (2026-09-21 recurring fire): vk-0139 3 Oaks (PR #157) + vk-0141 Stakelogic (PR #158) drafted; Playson (vk-0140) writing",
   "progress": {
     "phase": "writing",
-    "article_index": 1,
+    "article_index": 2,
     "article_total": 3,
-    "article_slug": "2026-09-21-playson + 2026-09-21-stakelogic (parallel)",
+    "article_slug": "2026-09-21-playson",
     "stages": [
       "Synthesis",
       "Outline",

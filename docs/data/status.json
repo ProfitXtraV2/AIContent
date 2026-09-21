@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-21T07:32:51Z",
+  "generated_utc": "2026-09-21T07:38:08Z",
   "buffer": {
-    "count": 114,
+    "count": 115,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 2,
-    "drafted": 104,
+    "in-progress": 1,
+    "drafted": 105,
     "approved": 10,
     "posted": 24,
     "failed": 1
@@ -2564,7 +2564,7 @@
     },
     {
       "id": "vk-0141",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Stakelogic: профил на доставчика, механики и топ слотове",
       "keywords_or_terms": "stakelogic, стейклоджик, stakelogic слотове",
@@ -2574,9 +2574,9 @@
       "drafted_date": "2026-09-21",
       "posted_date": "",
       "folder": "2026-09-21-stakelogic",
-      "pr": "",
-      "gemini": "",
-      "notes": "provider-hub pillar; Dutch supplier (Super Stake feature, Live Casino arm); verify signature mechanics before writing (no fabrication); PUBLIC provider-site + game-DB (stakelogic.com/SlotCatalog), NOT operator T&C/НАП; guide->no affiliate; Ahrefs units exhausted (web est)",
+      "pr": "#158",
+      "gemini": "human 85",
+      "notes": "provider-hub pillar; Dutch B2B (Greentube/Novomatic origin, now Sega Sammy); Super Stake feature (x2/Mega x2.5 for higher bonus chance, does NOT beat house edge) + Stakelogic Live; guides-only PUBLIC provider/game-DB, NOT operator T&C/НАП; guide->no affiliate; gate 92/100 0 crit; Gemini Step-7 human 85 PASS initial (0 humaniser); img:2 (Super Stake infographic + hero, best 100, 0 integrity, hero regen for glamorised-winning); 4 [VERIFY] (founding yr, Sega Sammy deal, Book of Adventure SSE RTP, Twin Joker RTP); GUARDRAILS Fruit Party excluded (Pragmatic), Xnudge not introduced (Nolimit), HQ city not named; links /blog/games-providers/ + /blog/proverka-licenz-kazino/ + /kak-ocenyavame/ + /otgovorna-igra/; PR #158; Ahrefs exhausted (web est)",
       "opportunity": null
     }
   ],
@@ -4793,7 +4793,7 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "provider-hub pillar; непокрит нидерландски доставчик (Book of Adventure, Fruit Party НЕ е техен — да не се бърка; Super Stake feature, Xnudge? не — да се провери преди писане), Live Casino клон; PUBLIC provider-site + game-DB data (stakelogic.com/SlotCatalog), NOT operator T&C/НАП; distinct cluster, чист (0 в queue/sitemap). Ahrefs KEY units exhausted → web-оценка, WAITS for reset; провери signature механики преди писане (без фабрикация)",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-21",
       "opportunity": null
     },
