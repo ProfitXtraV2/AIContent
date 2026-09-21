@@ -49,12 +49,12 @@
   <!-- Jackpot: Major -->
   <rect x="60" y="268" width="600" height="44" rx="9" fill="url(#step)" opacity="0.92"/>
   <text x="78" y="296" font-family="system-ui, sans-serif" font-size="16" font-weight="800" fill="#ffffff">Major</text>
-  <text x="642" y="296" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#dbeafe" text-anchor="end">голям · по-рядък</text>
+  <text x="642" y="296" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#dbeafe" text-anchor="end">по-рядък</text>
 
   <!-- Jackpot: Minor -->
   <rect x="60" y="320" width="600" height="44" rx="9" fill="url(#step)" opacity="0.82"/>
   <text x="78" y="348" font-family="system-ui, sans-serif" font-size="16" font-weight="800" fill="#ffffff">Minor</text>
-  <text x="642" y="348" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#dbeafe" text-anchor="end">среден · по-чест</text>
+  <text x="642" y="348" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#dbeafe" text-anchor="end">малък · по-чест</text>
 
   <!-- Jackpot: Mini -->
   <rect x="60" y="372" width="600" height="44" rx="9" fill="url(#step)" opacity="0.72"/>
