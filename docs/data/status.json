@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-21T07:38:08Z",
+  "generated_utc": "2026-09-21T07:43:17Z",
   "buffer": {
-    "count": 115,
+    "count": 116,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 1,
-    "drafted": 105,
+    "in-progress": 0,
+    "drafted": 106,
     "approved": 10,
     "posted": 24,
     "failed": 1
@@ -2547,7 +2547,7 @@
     },
     {
       "id": "vk-0140",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Playson: профил на доставчика, механики и топ слотове",
       "keywords_or_terms": "playson, плейсън, playson слотове",
@@ -2557,9 +2557,9 @@
       "drafted_date": "2026-09-21",
       "posted_date": "",
       "folder": "2026-09-21-playson",
-      "pr": "",
-      "gemini": "",
-      "notes": "provider-hub pillar; Maltese B2B (Solar Queen/Buffalo Power/Coin Volcano, Timeless/Giant series), MGA studio licence; PUBLIC provider-site + game-DB (playson.com/SlotCatalog), NOT operator T&C/НАП; guide->no affiliate; Ahrefs units exhausted (web est)",
+      "pr": "#159",
+      "gemini": "human 85",
+      "notes": "provider-hub pillar; Maltese B2B (Timeless/Buffalo Power Hold-and-Win, Solar Queen); MGA/UKGC studio licence (numbers not quoted); guides-only PUBLIC provider/game-DB (playson.com 403 from cloud -> secondary DBs), NOT operator T&C/НАП; guide->no affiliate; gate 93/100 0 crit; Gemini Step-7 human 85 PASS initial (0 humaniser); img:2 (Hold-and-Win infographic + hero, best 100, 0 integrity, 2 fix passes); 2 [VERIFY] (founding 2012, Buffalo Power RTP build-dependent); FACT-CORRECTIONS Coin Volcano excluded (=3 Oaks/Booongo title not Playson), Giant series omitted (unsourced); links /blog/proverka-licenz-kazino/ + /kak-ocenyavame/ + /blog/games-providers/ + /otgovorna-igra/; PR #159; Ahrefs exhausted (web est)",
       "opportunity": null
     },
     {
@@ -4779,7 +4779,7 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "provider-hub pillar; непокрит provider (22 хъба вече има, този липсва); малтийски B2B доставчик (Solar Queen/Buffalo Power/Coin Volcano, Timeless/Giant серии), MGA/UKGC студийни лицензи; PUBLIC provider-site + game-DB data (playson.com/SlotCatalog), NOT operator T&C/НАП; distinct provider cluster, чист (0 в queue/sitemap). Ahrefs KEY units exhausted → web-оценка, WAITS for reset",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-21",
       "opportunity": null
     },
