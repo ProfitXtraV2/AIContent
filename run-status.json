@@ -3,16 +3,29 @@
   "run_started_utc": "2026-09-21T18:05:00Z",
   "run_finished_utc": null,
   "articles_written": null,
-  "prs_opened": [],
+  "prs_opened": [
+    157
+  ],
   "run_url": "https://claude.ai/code/session_015Q8nXzir9C1JJQpUQrfzFW",
-  "note": "daily run (2026-09-21 recurring fire): backlog all NV-blocked (guides-only scope); writing 3 provider-hub pillars from research bank — 3 Oaks Gaming, Playson, Stakelogic",
+  "note": "daily run (2026-09-21 recurring fire): vk-0139 3 Oaks drafted (PR #157); Playson + Stakelogic writing (parallel worktree agents)",
   "progress": {
     "phase": "writing",
     "article_index": 1,
     "article_total": 3,
-    "article_slug": "2026-09-21-3-oaks-gaming",
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "article_slug": "2026-09-21-playson + 2026-09-21-stakelogic (parallel)",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 9,
+    "stage": "PR"
   }
 }

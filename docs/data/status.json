@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-21T07:11:04Z",
+  "generated_utc": "2026-09-21T07:32:51Z",
   "buffer": {
-    "count": 113,
+    "count": 114,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
-    "drafted": 103,
+    "in-progress": 2,
+    "drafted": 104,
     "approved": 10,
     "posted": 24,
     "failed": 1
@@ -2527,6 +2527,57 @@
       "gemini": "human 95",
       "notes": "game explainer; guides-only scope (3 Oaks + intl game-DB facts SlotCatalog/VSO/AskGamblers/ClashOfSlots/BigWinBoard, NOT operator T&C/НАП); guide->no affiliate; 3 Oaks ex-Booongo (rebrand 2022); 5x3 25 lines, RTP 95.61%, high vol, max 10000x (Royal full grid), rel March 2022; Hold&Win 6+ suns, cleared 15-cell grid, 3 respins reset, coins 1-15x summed; jackpot 5 FIXED tiers Mini20x/Minor50x/Major150x/Grand2000x/Royal10000x (NOT progressive); FS 3+ scatters->8 retrigger, low-pays removed; FACT-CORRECTIONS FIVE tiers not four (four=SoE2), Grand dropped 5000x->2000x, fixed not progressive, 10401x tracked not cap; series SoE1 3/1000x SoE2 4/5000x SoE3 5/10000x; gate 94/100 0 crit; Gemini Step-7 HL 95 PASS initial (0 humaniser); img:2 (jackpot infographic 80 + hero 80, best 80, 0 integrity); 2 [VERIFY] (release day, bet ceiling); PR #155; Ahrefs key units exhausted (web est vol 10)",
       "opportunity": null
+    },
+    {
+      "id": "vk-0139",
+      "status": "drafted",
+      "type": "guide",
+      "query": "3 Oaks Gaming: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "3 oaks gaming, 3 oaks, booongo, три оукс",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-21",
+      "posted_date": "",
+      "folder": "2026-09-21-3-oaks-gaming",
+      "pr": "#157",
+      "gemini": "human 90",
+      "notes": "provider-hub pillar (ex-Booongo); Hold-and-Win + Sun of Egypt series; guides-only PUBLIC provider/game-DB (SlotCatalog/ClashOfSlots/iGamingBusiness/WizardOfOdds), NOT operator T&C/НАП; guide->no affiliate; gate 92/100 0 crit; Gemini Step-7 human 90 PASS initial (0 humaniser); img:2 (Hold-and-Win+SoE3/4 infographic 100 + hero 100, 0 integrity); 1 [VERIFY] (rebrand date ~2022, sources disagree); links /blog/proverka-licenz-kazino/ + /blog/games-providers/ + /kak-ocenyavame/ + /otgovorna-igra/; PR #157; Ahrefs exhausted (web est)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0140",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Playson: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "playson, плейсън, playson слотове",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-21",
+      "posted_date": "",
+      "folder": "2026-09-21-playson",
+      "pr": "",
+      "gemini": "",
+      "notes": "provider-hub pillar; Maltese B2B (Solar Queen/Buffalo Power/Coin Volcano, Timeless/Giant series), MGA studio licence; PUBLIC provider-site + game-DB (playson.com/SlotCatalog), NOT operator T&C/НАП; guide->no affiliate; Ahrefs units exhausted (web est)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0141",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Stakelogic: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "stakelogic, стейклоджик, stakelogic слотове",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-21",
+      "posted_date": "",
+      "folder": "2026-09-21-stakelogic",
+      "pr": "",
+      "gemini": "",
+      "notes": "provider-hub pillar; Dutch supplier (Super Stake feature, Live Casino arm); verify signature mechanics before writing (no fabrication); PUBLIC provider-site + game-DB (stakelogic.com/SlotCatalog), NOT operator T&C/НАП; guide->no affiliate; Ahrefs units exhausted (web est)",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -4714,7 +4765,7 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "provider-hub pillar; допълва game-explainer-а Sun of Egypt 3 (vk-0138) с distinct provider-query cluster (както ELK хъб + Pirots 2); ex-Booongo rebrand 2022, Isle of Man лиценз; Hold-and-Win серии (Sun of Egypt, Aztec Sun, Lucky Jack), aggregation чрез 3 Oaks/партньори; PUBLIC provider-site + game-DB data (3oaks.com/SlotCatalog/BigWinBoard), NOT operator T&C/НАП; чист (само game vk-0138 в queue, няма provider hub). Ahrefs KEY units exhausted (59 left, reset 2026-10-15) → web-оценка, WAITS for reset",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-21",
       "opportunity": null
     },
@@ -5125,6 +5176,48 @@
       "suggestion": "Умерен обем 40 (kd n/a); EGT Digital mystery джакпот с 4 нива (Mini/Minor/Major/Grand), събиране на 3 перли + детелина за качване на ниво; различен от Jackpot Cards и Bell Link; dedicated pillar липсва (само спомената в vk-0131); provider + game-DB, NOT operator T&C/НАП",
       "status": "used",
       "date_researched": "2026-09-20",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Endorphina: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "endorphina, ендорфина, endorphina слотове",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "provider-hub pillar; непокрит чешки B2B доставчик (Прага), популярен в Балканите; заглавия Chance Machine/Diamond Vapor/2027 ISS/Twerk и класики; PUBLIC provider-site + game-DB (endorphina.com/SlotCatalog), NOT operator T&C/НАП; distinct cluster, чист (0 в queue/sitemap). Ahrefs KEY units exhausted (9 left, reset 2026-10-15) → web-оценка, WAITS for reset; провери сигнатурни механики + RTP преди писане (без фабрикация)",
+      "status": "candidate",
+      "date_researched": "2026-09-21",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Amatic Industries: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "amatic, аматик, amatic industries, amatic слотове",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "provider-hub pillar; непокрит австрийски доставчик, силен в наземните зали на Балканите (Hot-серии стил); заглавия Book of Aztec/Hot Scatter/Admiral Nelson/Wild Stars; собственост Novomatic (провери статуса); PUBLIC provider-site + game-DB (amatic.com/SlotCatalog), NOT operator T&C/НАП; distinct cluster, чист (0 в queue/sitemap). Ahrefs KEY units exhausted → web-оценка, WAITS for reset; провери сигнатурни механики + Novomatic връзка преди писане",
+      "status": "candidate",
+      "date_researched": "2026-09-21",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Habanero: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "habanero, хабанеро, habanero слотове",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "provider-hub pillar; непокрит азиатско-фокусиран B2B доставчик (Hold&Win + Fa Cai Shen/Koi серии); заглавия 5 Lucky Lions/Hot Hot Fruit/Lucky Durian; PUBLIC provider-site + game-DB (habanerosystems.com/SlotCatalog), NOT operator T&C/НАП; distinct cluster, чист (0 в queue/sitemap). Ahrefs KEY units exhausted → web-оценка, WAITS for reset; провери сигнатурни механики + RTP преди писане",
+      "status": "candidate",
+      "date_researched": "2026-09-21",
       "opportunity": null
     }
   ],
