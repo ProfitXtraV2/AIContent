@@ -4,15 +4,16 @@
   "run_finished_utc": null,
   "articles_written": null,
   "prs_opened": [
-    153
+    153,
+    154
   ],
   "run_url": "https://claude.ai/code/session_01GbyfSK4EZYFcnBVSpZmgAi",
-  "note": "daily run 2026-09-21: article 1/3 Blueprint Gaming DONE (vk-0136, PR #153, Gemini human 90, img 100). Writing 2/3 Immortal Romance. Gemini online; Ahrefs key units exhausted (web fallback).",
+  "note": "daily run 2026-09-21: 2/3 done — Blueprint Gaming (vk-0136 PR#153 human 90) + Immortal Romance (vk-0137 PR#154 human 85). Writing 3/3 Sun of Egypt 3.",
   "progress": {
     "phase": "writing",
-    "article_index": 2,
+    "article_index": 3,
     "article_total": 3,
-    "article_slug": "2026-09-21-immortal-romance",
+    "article_slug": "2026-09-21-sun-of-egypt-3",
     "stages": [
       "Synthesis",
       "Outline",
