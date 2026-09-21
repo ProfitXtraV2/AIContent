@@ -1,0 +1,1 @@
+# 02-draft (Sun of Egypt 3, vk-0138) — carried to 05b-final-draft.md; numbers fixed (95.61, 25, 5x3, 6+ suns, 3 respins, 1-15x, jackpots 20/50/150/2000/10000x, FS 8, series 1000/5000/10000x) and diffed unchanged.
