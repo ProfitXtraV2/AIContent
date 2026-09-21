@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-21T03:10:18Z",
+  "generated_utc": "2026-09-21T03:48:32Z",
   "buffer": {
-    "count": 111,
+    "count": 114,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 100,
+    "drafted": 103,
     "approved": 11,
     "posted": 23,
     "failed": 1
@@ -2476,6 +2476,57 @@
       "gemini": "human 90",
       "notes": "EGT Digital MYSTERY jackpot pillar (distinct from Jackpot Cards vk-0131 + Bell Link vk-0134); official EGT Digital + game-DB facts, NOT operator T&C/НАП; guide→no affiliate; random/mystery старт (без комбинация); 4 нива Mini/Minor/Major/Grand — ВСИЧКИ прогресивни (contrast vs Bell Link fixed lower tiers; official „four progressive levels\"); bonus = отвори сандъчета (~15 [VERIFY, не официално]), събери цветни перли, 3 от цвят=ниво, детелина=+1 ниво; games 20 Super Hot CC/20 Burning Hot CC/40 Super Hot CC/40 Mega Clover/Clover Respin/40 Clover Hit; RTP per-title (20 Burning Hot CC ~95.88%, Clover Respin ~96.5% [VERIFY configurability]), НЕ system-wide; NON-FABRICATION rejected 3-level outlier, no fixed/progressive split invented, no seed/contribution numbers, no cross-operator pooling claim, no rigid colour rules; gate 93/100 0 crit; Gemini Step-7 HL 20→90 PASS pass1 (1 humaniser, 0 number-drift); img:2 (infographic 100 + hero 100, best 100, 0 integrity, 0 fix); 2 [VERIFY]; PR #152; Ahrefs vol 40/kd n/a",
       "opportunity": null
+    },
+    {
+      "id": "vk-0136",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Blueprint Gaming: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "blueprint gaming, блупринт, blueprint слотове, fishin frenzy",
+      "volume": "10",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-21",
+      "posted_date": "",
+      "folder": "2026-09-21-blueprint-gaming",
+      "pr": "#153",
+      "gemini": "human 90",
+      "notes": "provider-profile pillar; guides-only scope (studio + intl game-DB facts blueprintgaming/UKGC/SlotCatalog/BigWinBoard/AskGamblers/RacingPost, NOT operator T&C/НАП); guide->no affiliate; UK/Newark studio, Gauselmann group (Merkur), B2B UKGC/MGA; Jackpot King 5 symbols->15 crowns->Wheel King->Royal/Regal(capped)/Jackpot King(uncapped), no seed/cap numbers; Megaways licensed from Big Time Gaming 2018; top slots Fishin Frenzy 96.12% (Reel Time base), FF Megaways 95.02%/10000x, Ted 95.80%, King Kong Cash ~95-96% by build, Wish Upon a Leprechaun; FACT-CORRECTIONS Rainbow Riches NOT Blueprint (Barcrest/L&W) excluded, Eye of Horus=Reel Time/Merkur origin; gate 93/100 0 crit; Gemini Step-7 HL 25->90 PASS pass1 (1 humaniser, 0 number-drift); img:2 (Jackpot King infographic 100 + hero 100, best 100, 0 integrity); soft [VERIFY] founding 2001/Gauselmann dates/UKGC entity/KKC rtp; PR #153; Ahrefs key units exhausted (web est vol 10)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0137",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Immortal Romance (Microgaming): RTP, 243 начина и Chamber of Spins",
+      "keywords_or_terms": "immortal romance, имортал романс, microgaming",
+      "volume": "10",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-21",
+      "posted_date": "",
+      "folder": "2026-09-21-immortal-romance",
+      "pr": "#154",
+      "gemini": "human 85",
+      "notes": "game explainer; guides-only scope (provider + intl game-DB facts Microgaming/GamesGlobal/SlotCatalog/WizardOfOdds/AskGamblers/VSO/BigWinBoard/casino.guru, NOT operator T&C/НАП); guide->no affiliate; 5x3 243 ways, RTP 96.86% default (+94.12%/92.1% builds), vol medium-to-high, max ~12150x (some 12000x), bet 0.30-30.00; Wild Desire 1-5 reels wild (no FS trigger); Chamber of Spins 3+ scatters, 4 tiers unlock by trigger count Amber(now/10FS/x5)/Troy(5/15/Vampire Bats 2x-3x->6x)/Michael(10/20/Rolling Reels ->5x)/Sarah(15/25/Wild Vine reel3); FACT-CORRECTIONS char->feature mapping fixed (bank wrong), lion=scatter not feature, orig 2011=Microgaming not Stormcraft, Mega Moolah 93.4% not base; distinct Mega Moolah + Immortal Romance II (Stormcraft 1024 ways 15000x); gate 93/100 0 crit; Gemini Step-7 HL 25->75->85 PASS pass2 (2 humaniser, 0 number-drift, declined bullets rec); img:2 (Chamber infographic 98 + hero 98, best 98, 0 integrity, 1 svg layout fix); 2 [VERIFY] (vol band, max win); PR #154; Ahrefs key units exhausted (web est vol 10)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0138",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Sun of Egypt 3 (3 Oaks): RTP, Hold-and-Spin и как се играе",
+      "keywords_or_terms": "sun of egypt 3, сън ъв иджипт 3, 3 oaks",
+      "volume": "10",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-21",
+      "posted_date": "",
+      "folder": "2026-09-21-sun-of-egypt-3",
+      "pr": "#155",
+      "gemini": "human 95",
+      "notes": "game explainer; guides-only scope (3 Oaks + intl game-DB facts SlotCatalog/VSO/AskGamblers/ClashOfSlots/BigWinBoard, NOT operator T&C/НАП); guide->no affiliate; 3 Oaks ex-Booongo (rebrand 2022); 5x3 25 lines, RTP 95.61%, high vol, max 10000x (Royal full grid), rel March 2022; Hold&Win 6+ suns, cleared 15-cell grid, 3 respins reset, coins 1-15x summed; jackpot 5 FIXED tiers Mini20x/Minor50x/Major150x/Grand2000x/Royal10000x (NOT progressive); FS 3+ scatters->8 retrigger, low-pays removed; FACT-CORRECTIONS FIVE tiers not four (four=SoE2), Grand dropped 5000x->2000x, fixed not progressive, 10401x tracked not cap; series SoE1 3/1000x SoE2 4/5000x SoE3 5/10000x; gate 94/100 0 crit; Gemini Step-7 HL 95 PASS initial (0 humaniser); img:2 (jackpot infographic 80 + hero 80, best 80, 0 integrity); 2 [VERIFY] (release day, bet ceiling); PR #155; Ahrefs key units exhausted (web est vol 10)",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -4149,7 +4200,7 @@
       "trend": "flat",
       "checked": "ahrefs",
       "suggestion": "provider профил — UK/Merkur студио зад Fishin' Frenzy и лицензираните Rainbow Riches/Megaways адаптации; distinct от вече покритите профили; Jackpot King мрежов прогресив; публична provider/game-DB data (NOT operator T&C/НАП); котва към „доставчици\" хъб (vk-0054); чист (няма в sitemap); web-оценка · Ahrefs BG vol 10 (kd n/a за BG), checked 15.09.2026",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-13",
       "opportunity": null
     },
@@ -4233,7 +4284,7 @@
       "trend": "flat",
       "checked": "ahrefs",
       "suggestion": "въвежда НОВ провайдър Microgaming (извън покритите Pragmatic/Amusnet/Novomatic/NetEnt/Play'n GO/Hacksaw/Relax/Push); емблематичен слот с 243 начина + четири бонус нива (Chamber of Spins) + Wild Desire; distinct branded title/провайдър; RTP ~96.86% web-verify преди писане; котва към „доставчици\" хъб (vk-0054) + /blog/games-providers/; чист pillar (няма в sitemap); web-оценка · Ahrefs BG vol 10 (kd n/a за BG), checked 15.09.2026",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-14",
       "opportunity": null
     },
@@ -4655,6 +4706,48 @@
     },
     {
       "type": "guide",
+      "query": "3 Oaks Gaming: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "3 oaks gaming, 3 oaks, booongo, три оукс",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "provider-hub pillar; допълва game-explainer-а Sun of Egypt 3 (vk-0138) с distinct provider-query cluster (както ELK хъб + Pirots 2); ex-Booongo rebrand 2022, Isle of Man лиценз; Hold-and-Win серии (Sun of Egypt, Aztec Sun, Lucky Jack), aggregation чрез 3 Oaks/партньори; PUBLIC provider-site + game-DB data (3oaks.com/SlotCatalog/BigWinBoard), NOT operator T&C/НАП; чист (само game vk-0138 в queue, няма provider hub). Ahrefs KEY units exhausted (59 left, reset 2026-10-15) → web-оценка, WAITS for reset",
+      "status": "candidate",
+      "date_researched": "2026-09-21",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Playson: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "playson, плейсън, playson слотове",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "provider-hub pillar; непокрит provider (22 хъба вече има, този липсва); малтийски B2B доставчик (Solar Queen/Buffalo Power/Coin Volcano, Timeless/Giant серии), MGA/UKGC студийни лицензи; PUBLIC provider-site + game-DB data (playson.com/SlotCatalog), NOT operator T&C/НАП; distinct provider cluster, чист (0 в queue/sitemap). Ahrefs KEY units exhausted → web-оценка, WAITS for reset",
+      "status": "candidate",
+      "date_researched": "2026-09-21",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Stakelogic: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "stakelogic, стейклоджик, stakelogic слотове",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "provider-hub pillar; непокрит нидерландски доставчик (Book of Adventure, Fruit Party НЕ е техен — да не се бърка; Super Stake feature, Xnudge? не — да се провери преди писане), Live Casino клон; PUBLIC provider-site + game-DB data (stakelogic.com/SlotCatalog), NOT operator T&C/НАП; distinct cluster, чист (0 в queue/sitemap). Ahrefs KEY units exhausted → web-оценка, WAITS for reset; провери signature механики преди писане (без фабрикация)",
+      "status": "candidate",
+      "date_researched": "2026-09-21",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
       "query": "Book of Dead (Play'n GO): RTP, разширяващ се символ и как се играе",
       "researched_keywords": "book of dead, бук ъв дед, play'n go book of dead, book of dead rtp",
       "volume": "150",
@@ -4903,7 +4996,7 @@
       "trend": "up",
       "checked": "ahrefs",
       "suggestion": "Game-explainer непокрит (10, up-тренд); 3 Oaks/Booongo египетска hold-and-win серия; distinct branded title; game-DB, NOT operator T&C/НАП. Провери RTP/механика преди писане",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-19",
       "opportunity": null
     },
