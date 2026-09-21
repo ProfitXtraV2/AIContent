@@ -1,0 +1,1 @@
+# 03-humanised (Immortal Romance, vk-0137) — carried to 05b-final-draft.md; numbers fixed (96.86/94.12/92.1, 243, 12,150/12,000, FS 10/15/20/25, triggers 5/10/15, multipliers x5/x6/x5) and diffed unchanged.
