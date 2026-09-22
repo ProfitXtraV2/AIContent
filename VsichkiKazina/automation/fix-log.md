@@ -734,3 +734,71 @@ None — 5 Job-A branches processed (well under the cap of 10); 0 Job-B targets.
 ### FINISH
 No gemini column changes (no score changes). Rebuilt `status.json` (dashboard) and
 `published/index.json` (feed). Committed on `main` and pushed.
+
+## 2026-09-22 — nightly flag + score fixes
+
+### JOB A — publish-blocking flags resolved
+Full-repo scan of every `content/*` branch's `05b-final-draft.md` for the blocking marker
+set. 11 flagged branches found: 9 drafted (all the 2026-09-22 provider/game batch) + 2
+posted/live `nv-casino` branches (logged below, never edited). All 9 drafted branches fixed
+(RTP/provider values kept, caveats folded into natural prose or dropped; nothing invented),
+re-scanned to **0 markers**, committed and pushed on each branch.
+
+- **vk-0148** `2026-09-22-amatic-provajdar` (drafted): 1 `[VERIFY]` (per-title RTP diverge,
+  line 38) → folded caveat into prose („точните проценти по заглавие се разминават… конкретната
+  версия се проверява в самото казино"); Lucky Coin ~94% and „Hot" 97–98% kept. → 0 markers.
+- **vk-0153** `2026-09-22-ct-interactive-provajdar` (drafted): 3 `[VERIFY]` → title count
+  „минава 250… по някои източници над 500"; Fire Egg 98.11 / Purple Fruits ~97 / Doctor
+  Winstein ~95 kept with „точните обявени стойности се разминават между източниците"; MGA/НАП
+  cert scope softened to „чийто точен обхват се актуализира във времето" (no figures). → 0.
+- **vk-0147** `2026-09-22-endorphina-provajdar` (drafted): 1 `[VERIFY]` (per-title RTP) →
+  folded to „Точното число… проверяваш в инфо-панела". → 0 markers.
+- **vk-0150** `2026-09-22-gamomat-provajdar` (drafted): 2 `[VERIFY]` → historic online
+  partner softened („не е еднозначно документиран"); per-casino RTP versions folded to prose;
+  2008 Berlin / Hermjohannes / ~96% kept. → 0 markers.
+- **vk-0146** `2026-09-22-gates-of-hades` (drafted): 2 `[VERIFY]` (both trailing editorial
+  notes) → removed; sentences already resolve them (info-panel for 96.52/95.47/94.47 builds;
+  „провери дали присъства в самата игра" for bonus buy). → 0 markers.
+- **vk-0149** `2026-09-22-habanero-provajdar` (drafted): 5 `[VERIFY]` → founding stated as
+  „началото на 2010-те (2010 или 2012 г.)"; Sofia office „се посочва"; Koi Gate 96.26–98.07,
+  Hot Hot Fruit 96.74, 5 Lucky Lions 96.5–97.9 kept (already source-hedged). → 0 markers.
+- **vk-0151** `2026-09-22-isoftbet-provajdar` (drafted): 2 `[VERIFY]` → IGT acquisition
+  „~€160 млн" kept as approx; QoW Megaways 96.03–96.86 range kept. → 0 markers.
+- **vk-0152** `2026-09-22-kalamba-provajdar` (drafted): 3 `[VERIFY]` → title count „около
+  деветдесет"; Blazing Bull HyperBonus 97.6–98%; Double Joker 96.96–97.21 kept (all
+  already hedged). → 0 markers.
+- **vk-0145** `2026-09-22-wild-wild-riches` (drafted): 1 `[VERIFY]` (trailing note) → removed;
+  96.77/95/90 builds + info-panel caveat already in prose. → 0 markers.
+
+Post-run full-repo re-scan: only the 2 posted `nv-casino` branches remain flagged. All
+drafted branches clean.
+
+### JOB B — low Gemini score improvements
+Targets = status ∈ {drafted, approved} AND gemini `ai <n>` OR `human <n<80}`. Two qualifying
+rows tonight (worst first); rows vk-0080–vk-0109 are `skipped` (Step-7 never run) — outside
+the target set. Well under the nightly cap of 10.
+
+- **vk-0147** `2026-09-22-endorphina-provajdar` (was `ai 25`): 1 humaniser attempt. Applied
+  Step-7b recs — cut echoes („визуален почерк", „Точното число" ×2), removed throat-clearing
+  („Повечето заглавия… споделят няколко общи черти"), removed spatial transition („До нея
+  стоят…"), condensed the didactic 3-sentence GLI-cert block, dropped a vague filler sentence.
+  No facts/RTP/links changed. Re-check → **human 90** (PASS, stopped). success.
+- **vk-0148** `2026-09-22-amatic-provajdar` (was `ai 75`): the JOB-A flag-fix rephrasing (RTP
+  caveat folded to prose) already lifted the detector; 3 confirming reads = human 90 / human /
+  human 85, all ≥80. Left untouched per the no-over-edit / idempotency rule. Recorded
+  **human 85**. success (0 extra humanise attempts).
+
+Gemini column updated for vk-0147 (ai 25→human 90) and vk-0148 (ai 75→human 85).
+
+### POSTED — needs human review (recurring, still open)
+- **vk-0063** `2026-09-13-nv-casino-zakonno-li-e` (PR #79, posted, `ai 75`): branch still
+  carries `[AUTHOR BIO BLOCK: Георги Тодоров] [About Всички Казина boilerplate]` (line 56).
+  Left untouched (never edit posted/live). A human should fill the author/brand blocks off the
+  live path and re-publish, and it would benefit from a human-reviewed humanise pass.
+- **vk-0064** `2026-09-13-nv-casino-bonus-usloviya` (PR #80, posted, `human 85`): branch still
+  carries `[AUTHOR BIO BLOCK: Георги Тодоров] [BRAND BOILERPLATE: Всички Казина] [18+ / RG LINE]`
+  (line 65). Left untouched. Both posted branches would be hard-blocked on any re-publish;
+  a human should fill the author/brand/RG blocks off the live path.
+
+### Deferred (over nightly cap of 10)
+None — 9 Job-A branches + 2 Job-B rows processed, all under the cap.
