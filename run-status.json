@@ -1,15 +1,11 @@
 {
   "state": "idle",
-  "run_started_utc": "2026-09-22T07:13:36Z",
-  "run_finished_utc": "2026-09-22T07:48:48Z",
-  "articles_written": 3,
-  "prs_opened": [
-    166,
-    167,
-    168
-  ],
-  "run_url": "https://claude.ai/code/session_01McRQrft3EraVBF2hCi3rF2",
-  "note": "backfill: nothing to do (all review-ready articles have images). Checked 3 candidates (vk-0145 wild-wild-riches PR#163, vk-0146 gates-of-hades PR#164, vk-0147 endorphina PR#165): images already present on their branches from daily-run 1st fire (queue notes lack img: annotation but images/ folders and 05b references confirmed). No articles processed.",
+  "run_started_utc": "2026-09-22T19:10:40Z",
+  "run_finished_utc": "2026-09-22T19:10:40Z",
+  "articles_written": 0,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_012dG5KQ97mdoRtEmaWFpbJZ",
+  "note": "backfill: nothing to do (all review-ready articles have images). Verified 3 imageless-queue candidates (vk-0145 wild-wild-riches PR#163, vk-0146 gates-of-hades PR#164, vk-0147 endorphina PR#165): images/ folders and 05b references confirmed on branches — already imaged by daily-run Step-8 flow.",
   "progress": {
     "phase": "done",
     "article_index": 3,
