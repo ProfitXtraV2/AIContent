@@ -1,14 +1,7 @@
 {
   "schema_version": 1,
-  "count": 10,
+  "count": 9,
   "articles": [
-    {
-      "slug": "linii-na-pechalba",
-      "title": "Линии на печалба в ротативките: как печелите",
-      "date_modified": "2026-09-08",
-      "content_hash": "234dfe68ed885ff0aea4b0121d3f9eecf68343ae4c55f9875eed21a2532a5f28",
-      "status": "approved"
-    },
     {
       "slug": "live-game-shows",
       "title": "Live game shows: Crazy Time, Monopoly Live, Lightning",
@@ -73,5 +66,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-09-22T03:48:56Z"
+  "generated_utc": "2026-09-22T06:43:36Z"
 }
