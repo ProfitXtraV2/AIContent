@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-22T12:36:08Z",
+  "generated_utc": "2026-09-22T22:44:37Z",
   "buffer": {
-    "count": 124,
+    "count": 127,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 115,
+    "drafted": 118,
     "approved": 9,
     "posted": 25,
     "failed": 1
@@ -2731,6 +2731,57 @@
       "gemini": "human 85",
       "notes": "provider-hub pillar; guides-only scope (gamomat.com/SlotCatalog public provider+game data, NOT operator T&C/НАП); web-est vol (Ahrefs KEY exhausted); gate 93/100 0-crit; Gemini HL 75→85 PASS pass 1 humaniser (kept best); 2 in-text [VERIFY] (historic online distributor unconfirmed→hedged, not asserted; per-casino RTP builds); INTEGRITY: dropped seed „Blazing Bells\" (Playtech, NOT Gamomat); verified founded 2008 Berlin (Dietmar Hermjohannes), MGA/B2B/1066/2024, 150+ titles, RTPs Ramses Book 96.15/Roman Legion 96.16/Fancy Fruits 96.06/Take 5 96.11/Books&Bulls 96.11/Crystal Ball 96.12; „Balkan halls\" seed unverifiable→omitted (only German land-based origin stated); img:2 (SVG RTP infographic + hero, best 100, 0 integrity fail); distinct cluster (0 в queue/sitemap)",
       "opportunity": null
+    },
+    {
+      "id": "vk-0151",
+      "status": "drafted",
+      "type": "guide",
+      "query": "iSoftBet: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "isoftbet, айсофтбет, isoftbet слотове",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-22",
+      "posted_date": "",
+      "folder": "2026-09-22-isoftbet-provajdar",
+      "pr": "#169",
+      "gemini": "human 80",
+      "notes": "provider-hub pillar; guides-only scope (public provider + game-DB: IGT/fruityslots/askgamblers/casitsu, NOT operator T&C/НАП); web-est vol (Ahrefs KEY exhausted, reset 2026-10-15); gate 93/100 0-crit; Gemini NOISY detector: initial 05b read AI65%(HL35)+human80%(HL80), humaniser pass1 fell to AI75%(HL25) over-edit → KEEP-BEST initial (human 80 PASS); 2 [VERIFY] (IGT acq sum ~€160M; QoW Megaways RTP); INTEGRITY fix: bank said 'Bragg Gaming' but iSoftBet was acquired by IGT (04.2022 ~€160M)→corrected; img:2 (SVG infographic + hero, review 98 PASS, 0 integrity fail); distinct cluster (0 в queue/sitemap)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0152",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Kalamba Games: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "kalamba, каламба, kalamba games слотове",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-22",
+      "posted_date": "",
+      "folder": "2026-09-22-kalamba-provajdar",
+      "pr": "#170",
+      "gemini": "human 80",
+      "notes": "provider-hub pillar; guides-only scope (public provider + game-DB: casinos.com/gamingsoft/pokerlistings/gr8.tech, NOT operator T&C/НАП); web-est vol (Ahrefs exhausted); gate 93/100 0-crit; Gemini AI75(HL25) then humaniser pass1 to human80(HL80) PASS; 3 [VERIFY] (title count ~90; Blazing Bull HyperBonus per-level RTP; Double Joker RTP); honest angle HyperBonus ne pobezhdava kazinoto; img:2 (SVG infographic + hero, review 85 to 100 PASS after data-accuracy fix, 0 integrity fail); distinct cluster (0 v queue/sitemap)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0153",
+      "status": "drafted",
+      "type": "guide",
+      "query": "CT Interactive (Casino Technology): профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "ct interactive, casino technology, ct слотове",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-22",
+      "posted_date": "",
+      "folder": "2026-09-22-ct-interactive-provajdar",
+      "pr": "#171",
+      "gemini": "human 85",
+      "notes": "provider-hub pillar; БЪЛГАРСКИ доставчик от София (силна локална E-E-A-T); guides-only scope (public provider + game-DB: lcb/ct-interactive.com/softgamings/yogonet/cbinsights, NOT operator T&C/НАП); web-est vol (Ahrefs exhausted); gate 93/100 0-crit; Gemini human 85 PASS pass1 (initial kept, no humaniser); 3 [VERIFY] (title count 250+/500+; per-title RTP Fire Egg 98.11/Purple Fruits 97/Doctor Winstein 95; cert scope); COMPLIANCE: НАП cert framed as provider CONTENT certification not operator licence, licence-first kept explicit; online arm (2012) of land-based Casino Technology/CT Gaming; img:2 (SVG infographic + hero, review 92 PASS, 0 integrity fail); distinct cluster (0 v queue/sitemap; diff from Amusnet/EGT vk-0021)",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -5397,7 +5448,7 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "provider-hub pillar; непокрит лондонски B2B доставчик (сега част от Bragg Gaming) + GAP агрегационна платформа; заглавия Book of Immortals/Hot Spin/Twister Wilds/Aztec Gold Megaways; PUBLIC provider-site + game-DB (bragg.group/SlotCatalog), NOT operator T&C/НАП; distinct cluster, чист (0 в queue/sitemap). Ahrefs KEY units exhausted → web-оценка, WAITS for reset; провери Bragg-статуса + сигнатурни механики преди писане",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-21",
       "opportunity": null
     },
@@ -5411,7 +5462,7 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "provider-hub pillar; непокрит Malta/Krakow B2B доставчик (HyperBonus/K-engine bonus-buy механики); заглавия Blazing Bull/Goldaur Guardians/Joker Max/Bison Battle; PUBLIC provider-site + game-DB (kalambagames.com/SlotCatalog), NOT operator T&C/НАП; distinct cluster, чист (0 в queue/sitemap). Ahrefs KEY units exhausted → web-оценка, WAITS for reset; провери сигнатурни механики + RTP преди писане",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-21",
       "opportunity": null
     },
@@ -5425,7 +5476,7 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "provider-hub pillar; непокрит БЪЛГАРСКИ B2B доставчик (София) — силна локална E-E-A-T релевантност за BG аудиторията; наземен + онлайн; заглавия/серии (провери: Book of Sun, Deep Blue, Story of Egypt, Zeus серии) + линкови джакпоти; PUBLIC provider-site + game-DB (ct-interactive.net/SlotCatalog), NOT operator T&C/НАП; distinct cluster, чист (0 в queue/sitemap). Ahrefs KEY units exhausted → web-оценка, WAITS for reset; провери сигнатурни механики + RTP + основаване преди писане (без фабрикация)",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-22",
       "opportunity": null
     },
@@ -5467,6 +5518,48 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "provider-hub pillar; непокрит сръбски land-based-first доставчик, силен в наземните зали в Балканите; ретро/fruit-стил заглавия + линкови джакпоти (провери: Fruits Deluxe, Attила, Casino Mania); PUBLIC provider-site + game-DB (fazi.rs/SlotCatalog), NOT operator T&C/НАП; distinct cluster, чист (0 в queue/sitemap). Ahrefs KEY units exhausted → web-оценка, WAITS for reset; провери сигнатурни механики + RTP + пазарно присъствие преди писане (без фабрикация)",
+      "status": "candidate",
+      "date_researched": "2026-09-22",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Belatra Games: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "belatra, белатра, belatra слотове",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "provider-hub pillar; непокрито утвърдено студио (популярно в Източна Европа/CEE) с класически плодови и приключенски слотове; distinct cluster, чист (0 в queue/sitemap). PUBLIC provider-site + game-DB (belatra.com/SlotCatalog), NOT operator T&C/НАП. Ahrefs KEY units exhausted → web-оценка, WAITS for reset; провери основаване + сигнатурни механики + RTP преди писане",
+      "status": "candidate",
+      "date_researched": "2026-09-22",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Swintt: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "swintt, суинт, swintt слотове",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "provider-hub pillar; непокрито Malta-базирано студио, растящо на регулирани EU пазари (Premium/Select серии, наземно-стилни слотове); distinct cluster, чист (0 в queue/sitemap). PUBLIC provider-site + game-DB (swintt.com/SlotCatalog), NOT operator T&C/НАП. Ahrefs exhausted → web-оценка, WAITS for reset; провери сигнатурни механики + RTP преди писане",
+      "status": "candidate",
+      "date_researched": "2026-09-22",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Apollo Games: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "apollo games, аполо геймс, apollo слотове",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "provider-hub pillar; непокрито чешко студио с наземен произход, познато в Балкан/CEE зали и онлайн; distinct cluster, чист (0 в queue/sitemap). PUBLIC provider-site + game-DB (apollogames.com/SlotCatalog), NOT operator T&C/НАП. Ahrefs exhausted → web-оценка, WAITS for reset; провери основаване + сигнатурни механики + RTP преди писане",
       "status": "candidate",
       "date_researched": "2026-09-22",
       "opportunity": null
