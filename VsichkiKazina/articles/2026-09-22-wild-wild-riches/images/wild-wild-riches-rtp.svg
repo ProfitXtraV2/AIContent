@@ -47,6 +47,7 @@
 
   <text x="300" y="251" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#9ca3af" text-anchor="middle">+</text>
 
-  <text x="300" y="312" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">Висока волатилност · макс. печалба 4608 пъти залога · при версия 90% плащаш по-скъпо · 18+ Играйте отговорно</text>
-  <text x="300" y="330" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">RTP е дългосрочна статистика, не прогноза за следващото завъртане · проверявай реалната версия в инфо-панела</text>
+  <text x="300" y="308" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">Висока волатилност · макс. печалба 4608 пъти залога · при версия 90% плащаш по-скъпо</text>
+  <text x="300" y="325" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">18+ Играйте отговорно · RTP е дългосрочна статистика, не прогноза за следващото завъртане</text>
+  <text x="300" y="342" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">проверявай реалната версия в инфо-панела на играта</text>
 </svg>
