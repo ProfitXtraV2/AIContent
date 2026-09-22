@@ -51,4 +51,4 @@ Type: guide (provider-hub profile). Public provider/game-DB data only — NOT op
 Gemini (gemini-3.1-pro-preview) pass 1: „Likely human-written 90%" → HL=90 → PASS. Kept initial 05b (highest HL). Виж 07-gemini-check-1.md.
 
 ## IMAGES (Step 8)
-Виж log.md „Step 8" + 08-image-review-*.md. Count + best score записани след изпълнение.
+2 изображения: SVG RTP инфографика (числа verbatim от 05b: ~96% / €1000 / ~€960 / ~€40 / ~4%) + декоративен AI hero (koi/reel + лупа + механизъм; без текст/лого/лица/UI). Gemini review: pass 1 score 90 PASS → fix pass 1 (ALT точност + 2 козметични SVG) → pass 2 score 98 PASS. 0 integrity failure. Best score 98. Виж 08-image-review-1/-2.md.
