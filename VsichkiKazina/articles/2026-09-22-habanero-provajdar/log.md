@@ -14,5 +14,5 @@ slug: 2026-09-22-habanero-provajdar · brand: vsichkikazina · market: bg · con
 
 ## Step 6/7/8 (orchestrator, post-writer)
 - Step 6: 06-verification.md (5 in-text [VERIFY]; provider-fact confirm-list w/ source URLs; illustrative-number table; recalc; untouchables spot-check; anti-cannibalization). Human owns flag resolution.
-- Step 7 (Gemini): виж по-долу след изпълнение.
+- Step 7 (Gemini, gemini-3.1-pro-preview): pass 1 „Likely human-written 90%" → HL=90 → PASS (≥80). Initial 05b = highest HL; НЯМА Humaniser pass, НЯМА keep-best revert (pass 1 е best). Recs (signposting/didactic/closing) не приложени — вече PASS, over-editing сваля гласа. Всички [VERIFY]/числа/линкове/RG/18+/byline/brand UNTOUCHED. 07-gemini-check-1.md persisted. content-queue gemini = human 90.
 - Step 8 (images): виж по-долу след изпълнение.

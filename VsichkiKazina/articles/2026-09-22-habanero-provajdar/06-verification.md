@@ -48,7 +48,7 @@ Type: guide (provider-hub profile). Public provider/game-DB data only — NOT op
 Чист provider-hub pillar. Няма Habanero-специфичен профил в content-queue/sitemap. Различен primary kw „habanero". Пресича се тематично с общия /blog/games-providers/ (линкнат, не дублиран) и с другите provider profiles (Pragmatic vk-0019, Amusnet) — различен доставчик, различен клъстер.
 
 ## EXTERNAL CHECK (Step 7) verdict
-Виж log.md „Step 7" + 07-gemini-check-*.md. Записан по-долу след изпълнение.
+Gemini (gemini-3.1-pro-preview) pass 1: „Likely human-written 90%" → HL=90 → PASS. Kept initial 05b (highest HL). Виж 07-gemini-check-1.md.
 
 ## IMAGES (Step 8)
 Виж log.md „Step 8" + 08-image-review-*.md. Count + best score записани след изпълнение.
