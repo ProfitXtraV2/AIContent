@@ -4,15 +4,16 @@
   "run_finished_utc": null,
   "articles_written": null,
   "prs_opened": [
-    163
+    163,
+    164
   ],
   "run_url": "https://claude.ai/code/session_01VXGgWYWn9xffG67YPJU3r9",
-  "note": "daily run 2026-09-22 (1st fire) — vk-0145 drafted (PR #163, human 90); writing article 2/3 Gates of Hades",
+  "note": "daily run 2026-09-22 (1st fire) — vk-0145 (PR #163, human 90) + vk-0146 (PR #164, human 85) drafted; writing article 3/3 Endorphina",
   "progress": {
     "phase": "writing",
-    "article_index": 2,
+    "article_index": 3,
     "article_total": 3,
-    "article_slug": "2026-09-22-gates-of-hades",
+    "article_slug": "2026-09-22-endorphina-provajdar",
     "stages": [
       "Synthesis",
       "Outline",
