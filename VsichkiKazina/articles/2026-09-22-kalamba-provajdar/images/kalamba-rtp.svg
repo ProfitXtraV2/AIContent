@@ -24,7 +24,7 @@
   <text x="550" y="84" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151" font-weight="600" text-anchor="end">Домашно предимство</text>
 
   <rect x="50" y="94" width="500" height="48" rx="8" fill="#e5e7eb"/>
-  <rect x="50" y="94" width="500" height="48" rx="8" fill="url(#playerBar)"/>
+  <rect x="50" y="94" width="480" height="48" rx="8" fill="url(#playerBar)"/>
   <rect x="530" y="94" width="20" height="48" rx="8" fill="url(#houseBar)"/>
 
   <text x="300" y="124" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">~96%</text>
