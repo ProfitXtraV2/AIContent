@@ -5,14 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_018FU7C7FNhmJKYcWN2pSVKU",
-  "note": "daily run 2026-09-22 (3rd fire) — starting; reconciling then writing up to 3 guides",
+  "note": "daily run 2026-09-22 (3rd fire) — writing 3 provider profiles (iSoftBet, Kalamba, CT Interactive)",
   "progress": {
-    "phase": "selecting",
-    "article_index": null,
-    "article_total": null,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "phase": "writing",
+    "article_index": 1,
+    "article_total": 3,
+    "article_slug": "2026-09-22-isoftbet-provajdar",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
