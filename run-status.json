@@ -1,14 +1,18 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-09-22T07:13:36Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-09-22T07:48:48Z",
+  "articles_written": 3,
+  "prs_opened": [
+    166,
+    167,
+    168
+  ],
   "run_url": "https://claude.ai/code/session_01McRQrft3EraVBF2hCi3rF2",
-  "note": "daily run 2026-09-22 (2nd fire) — no in-progress rows to reconcile; backlog all NV-blocked (guides-only); drafting 3 provider-hub profiles from research bank: Amatic (vk-0148), Habanero (vk-0149), Gamomat (vk-0150).",
+  "note": "daily run 2026-09-22 (2nd fire) done — 0 in-progress to reconcile; backlog all NV-operator/НАП-blocked (guides-only), left open+blocked; drafted 3 provider-hub profiles from research bank: vk-0148 Amatic (PR #168, ai 75), vk-0149 Habanero (PR #166, human 90), vk-0150 Gamomat (PR #167, human 85). All gate 93/100 0-crit. Images 6 total, best 95/98/100, 0 integrity failures. Flags: Amatic 1 [VERIFY] (per-title RTP), Habanero 5 [VERIFY] (founding 2010/2012, Sofia-office role, 3× per-title RTP), Gamomat 2 [VERIFY] (historic online distributor, per-casino RTP builds); 8 total, all in text. INTEGRITY wins: Amatic dropped unverified Novomatic-acquisition + wrong Graz HQ; Gamomat dropped 'Blazing Bells' (Playtech not Gamomat), verified 2008/Berlin/MGA-B2B; Habanero honest per-title-RTP-diverge angle. Amatic Gemini detector harsh (HL 15/25/15 MAX passes, kept pass 1 ai 75) vs sibling profiles 85 — voice/facts not over-edited. 3 research rows used; bank replenished with 4 uncovered BG/Balkan candidates (CT Interactive/Kajot/Tom Horn/Fazi) → 6 candidates buffer. Ahrefs KEY exhausted (24991/25000, reset 2026-10-15) → web fallback, no new pulls. Feed refreshed. Human owns Step 6 flag-resolution/merge/publish.",
   "progress": {
-    "phase": "writing",
-    "article_index": 1,
+    "phase": "done",
+    "article_index": 3,
     "article_total": 3,
     "article_slug": null,
     "stages": [
