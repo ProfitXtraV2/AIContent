@@ -1,28 +1,17 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-23T15:09:03Z",
-  "run_finished_utc": "2026-09-23T15:18:44Z",
-  "articles_written": 0,
+  "state": "running",
+  "run_started_utc": "2026-09-23T22:10:16Z",
+  "run_finished_utc": null,
+  "articles_written": null,
   "prs_opened": [],
-  "run_url": "https://claude.ai/code/session_01PQnms9rmCrieh6rgDfG9Mt",
-  "note": "backfill: noted img: on 3 already-imaged articles (vk-0145 wild-wild-riches best 100, vk-0146 gates-of-hades best 90, vk-0147 endorphina best 100); all imaged by daily-run pipeline, notes were missing. image model: gemini-3.1-pro-preview.",
+  "run_url": "https://claude.ai/code/session_01FMz2e5aD1FUmViJkNnLnQi",
+  "note": "daily run",
   "progress": {
-    "phase": "done",
-    "article_index": 3,
+    "phase": "selecting",
+    "article_index": 0,
     "article_total": 3,
     "article_slug": null,
-    "stages": [
-      "Synthesis",
-      "Outline",
-      "Author",
-      "Humaniser",
-      "SEO",
-      "Brand Gate",
-      "Light re-check",
-      "Images",
-      "Verification",
-      "PR"
-    ],
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
     "stage_index": null,
     "stage": null
   }
