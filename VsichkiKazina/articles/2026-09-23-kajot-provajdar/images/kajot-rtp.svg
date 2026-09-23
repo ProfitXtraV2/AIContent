@@ -13,6 +13,7 @@
       <stop offset="0%" stop-color="#dc2626"/>
       <stop offset="100%" stop-color="#f87171"/>
     </linearGradient>
+    <clipPath id="barClip"><rect x="50" y="94" width="500" height="48" rx="8"/></clipPath>
   </defs>
 
   <rect width="600" height="320" rx="12" ry="12" fill="url(#bg)"/>
@@ -24,8 +25,10 @@
   <text x="550" y="84" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151" font-weight="600" text-anchor="end">Домашно предимство</text>
 
   <rect x="50" y="94" width="500" height="48" rx="8" fill="#e5e7eb"/>
-  <rect x="50" y="94" width="475" height="48" rx="8" fill="url(#playerBar)"/>
-  <rect x="525" y="94" width="25" height="48" rx="8" fill="url(#houseBar)"/>
+  <g clip-path="url(#barClip)">
+    <rect x="50" y="94" width="475" height="48" fill="url(#playerBar)"/>
+    <rect x="525" y="94" width="25" height="48" fill="url(#houseBar)"/>
+  </g>
 
   <text x="287" y="124" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">95%</text>
 
