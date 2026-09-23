@@ -1,18 +1,14 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-22T22:10:08Z",
-  "run_finished_utc": "2026-09-22T22:45:02Z",
-  "articles_written": 3,
-  "prs_opened": [
-    169,
-    170,
-    171
-  ],
-  "run_url": "https://claude.ai/code/session_018FU7C7FNhmJKYcWN2pSVKU",
-  "note": "daily run 2026-09-22 (3rd fire) done. 0 in-progress to reconcile. Human backlog rows 5-14 all NV-operator/НАП-blocked under guides-only scope -> left open+blocked (already enriched; Ahrefs exhausted, no re-pull). Buffer 124->127 (well above floor 10; NO cap, kept building per production policy). Wrote MAX_PER_RUN=3 NEW distinct provider-hub profiles from research bank (backlog fully NV-blocked): iSoftBet (vk-0151, PR #169, human 80), Kalamba Games (vk-0152, PR #170, human 80), CT Interactive (vk-0153, PR #171, human 85). All dedup-clean vs content-queue + live sitemap (91 URLs). Gate 93/100 0-crit each. GEMINI ONLINE (text+image) but text detector NOISY: iSoftBet initial read AI65(HL35)+human80(HL80), humaniser pass1 fell to AI75(HL25) over-edit -> KEEP-BEST initial (human 80); Kalamba AI75(HL25)->humaniser pass1->human80(HL80) PASS (kept pass1); CT Interactive human85(HL85) PASS pass1 (initial kept). Images all PASS 0 integrity: iSoftBet SVG+hero best 98; Kalamba SVG+hero 85->100 after data-accuracy fix (player bar 96%=480px); CT SVG+hero 92. Each article 2 images (hand-SVG RTP infographic numbers traced verbatim to 05b + decorative AI hero via gemini_image_gen). FACT-CORRECTIONS (public provider + game-DB only, NOT geo-blocked operator T&C/НАП): iSoftBet acquired by IGT (04.2022 ~€160M -> IGT PlayDigital), NOT Bragg Gaming as bank note wrongly said; CT Interactive = online arm (formed 2012) of land-based Casino Technology/CT Gaming, НАП cert framed as provider CONTENT certification not operator licence (licence-first kept). Central honest angles: купуването на бонуса (Ultra Bet/HyperBonus) не мести домашното предимство; configurable RTP -> operator picks version -> check info-panel; локалното (CT) не значи по-добри шансове. 8 total surviving [VERIFY] flags kept in text (iSoftBet 2, Kalamba 3, CT 3). 3 research rows used; bank replenished with 3 distinct uncovered candidates (Belatra/Swintt/Apollo Games) -> 6 candidates buffer (healthy, not padded). AHREFS KEY exhausted (reset 2026-10-15) -> web fallback, no new pulls. Feed refreshed (9 approved unchanged; new articles are drafted). One content PR per article (article-dir only); board on main. NEVER resolved a flag/posted/merged. Human owns Step 6 flag-resolution/approve/merge/publish.",
+  "state": "running",
+  "run_started_utc": "2026-09-23T03:12:33Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01CcJDd6Jv4AepUpk3WuiPGM",
+  "note": "daily run 2026-09-23 (fire 1). Reconciled: 0 in-progress rows. Backlog fully NV-operator/НАП-blocked under guides-only scope. Writing MAX_PER_RUN=3 NEW distinct provider-profile guides from research bank: Kajot, Tom Horn Gaming, Fazi Interactive.",
   "progress": {
-    "phase": "done",
-    "article_index": 3,
+    "phase": "selecting",
+    "article_index": 0,
     "article_total": 3,
     "article_slug": null,
     "stages": [
