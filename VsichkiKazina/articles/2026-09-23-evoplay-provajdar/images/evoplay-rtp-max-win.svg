@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" width="680" height="360" role="img" aria-label="Топ заглавия на Evoplay: обявен RTP и таван на печалбата. Dungeon: Immortal Evil 96.07% и 473700 евро (до 5000x); Hot Triple Sevens 96.01% и 230850 евро; Penalty Shoot-out 96.00% и 2304 евро. И трите RTP седят около средното за модерните слотове около 96%.">
+  <title>Топ заглавия на Evoplay: RTP и таван на печалбата</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="680" height="360" rx="12" ry="12" fill="url(#bg)"/>
+
+  <text x="340" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#1e3a5f" text-anchor="middle">Топ заглавия на Evoplay: RTP и таван на печалбата</text>
+  <text x="340" y="54" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">и трите обявени RTP седят около средното за модерните слотове (~96%)</text>
+
+  <!-- column headers -->
+  <text x="32" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#4b5563" text-anchor="start">Заглавие</text>
+  <text x="380" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#4b5563" text-anchor="middle">Обявен RTP</text>
+  <text x="648" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#4b5563" text-anchor="end">Таван на печалбата</text>
+  <line x1="32" y1="100" x2="648" y2="100" stroke="#d1d5db" stroke-width="1.5"/>
+
+  <!-- row 1 -->
+  <text x="32" y="128" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#111827" text-anchor="start">Dungeon: Immortal Evil</text>
+  <text x="380" y="128" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="800" fill="#15803d" text-anchor="middle">96.07%</text>
+  <text x="648" y="128" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#374151" text-anchor="end">€473,700 (до 5000x)</text>
+  <line x1="32" y1="142" x2="648" y2="142" stroke="#eceef1" stroke-width="1"/>
+
+  <!-- row 2 -->
+  <text x="32" y="170" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#111827" text-anchor="start">Hot Triple Sevens</text>
+  <text x="380" y="170" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="800" fill="#15803d" text-anchor="middle">96.01%</text>
+  <text x="648" y="170" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#374151" text-anchor="end">€230,850</text>
+  <line x1="32" y1="184" x2="648" y2="184" stroke="#eceef1" stroke-width="1"/>
+
+  <!-- row 3 -->
+  <text x="32" y="212" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#111827" text-anchor="start">Penalty Shoot-out (инстант)</text>
+  <text x="380" y="212" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="800" fill="#15803d" text-anchor="middle">96.00%</text>
+  <text x="648" y="212" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#374151" text-anchor="end">€2,304</text>
+
+  <line x1="32" y1="238" x2="648" y2="238" stroke="#d1d5db" stroke-width="1"/>
+
+  <text x="340" y="262" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">Тавановете са теоретичен максимум, който се удря изключително рядко, а не очакван резултат.</text>
+  <text x="340" y="284" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">За Dungeon: Immortal Evil външни бази посочват и версия с ~95% RTP; операторът избира коя да пусне.</text>
+  <text x="340" y="306" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle" font-style="italic">Източник: официалните игрови страници на Evoplay</text>
+  <text x="340" y="332" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">18+ Играйте отговорно · Провери реалния RTP в инфо-панела на конкретното казино</text>
+</svg>
