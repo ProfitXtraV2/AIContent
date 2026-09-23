@@ -40,3 +40,9 @@ Keywords: tom horn, tom horn gaming, том хорн слотове
 
 ## Not run (per instructions)
 No git, no gemini/*.py, no ahrefs scripts, no branches/PRs. Files only.
+
+## Post-draft (orchestrator)
+- Step 7 Gemini: initial HL15 → humaniser pass1 HL85 PASS (keep best pass1, human 85).
+- Step 8 images: RTP infographic SVG + decorative hero WebP; review 100 PASS, 0 integrity fail.
+- Step 6 verification: 06-verification.md assembled; 4 [VERIFY] items (1 inline + 3 queue); €-recalc shown.
+- Board: content-queue vk-0155 → drafted; PR opened (content-only branch).
