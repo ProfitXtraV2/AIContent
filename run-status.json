@@ -5,14 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01FMz2e5aD1FUmViJkNnLnQi",
-  "note": "daily run",
+  "note": "daily run: 3 provider-profile guides (GameArt, Mancala Gaming, RubyPlay)",
   "progress": {
-    "phase": "selecting",
-    "article_index": 0,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 3,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "article_slug": "2026-09-23-gameart-provajdar",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
