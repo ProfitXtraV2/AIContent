@@ -13,11 +13,11 @@
 
   <rect width="640" height="396" rx="12" ry="12" fill="url(#bg)"/>
 
-  <text x="320" y="32" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#0f766e" text-anchor="middle">Обявен RTP на топ заглавия на BF Games</text>
-  <text x="320" y="51" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">повечето седят на или малко над ориентира за модерните слотове (~96%)</text>
+  <text x="320" y="28" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#0f766e" text-anchor="middle">Обявен RTP на топ заглавия на BF Games</text>
+  <text x="320" y="46" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">повечето седят на или малко над ориентира за модерните слотове (~96%)</text>
 
   <!-- 96% reference line: track 150..560 maps RTP 95.50..97.50 (205 px per %); 96.00 at x = 150 + 0.50*205 = 253 -->
-  <line x1="253" y1="70" x2="253" y2="272" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <line x1="253" y1="70" x2="253" y2="285" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="5,4"/>
   <text x="253" y="64" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#4b5563" text-anchor="middle">~96%</text>
 
   <!-- Row 1: Lucky Tropics 97.00% -> width = (97.00-95.50)*205 = 308 -->
