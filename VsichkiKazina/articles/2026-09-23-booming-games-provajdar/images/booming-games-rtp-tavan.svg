@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Обявен RTP и таван на печалбата на пет слота на Booming Games: Booming Seven Deluxe RTP 96.55% таван 2,422x, Buffalo Hold and Win RTP 95.91% таван 1,200x, Buffalo Hold and Win Extreme RTP 95.50% таван 4,000x, TNT Bonanza RTP 96.60% таван 6,500x, Blockchain Megaways RTP 96.50% таван 40,320x">
+  <title>Booming Games: обявен RTP и таван на печалбата</title>
+  <defs>
+    <linearGradient id="cardbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#eef1f6"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="400" rx="14" ry="14" fill="url(#cardbg)"/>
+
+  <text x="40" y="36" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="#312e81">Booming Games: обявен RTP и таван на печалбата</text>
+  <text x="40" y="56" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" fill="#6b7280">RTP е дългосрочна статистика, не обещание за сесия · таванът се достига крайно рядко</text>
+
+  <!-- axis gridlines: RTP scale 95.00..97.00 over track x=40..380 (170 px per 1.0%) -->
+  <line x1="125" y1="78" x2="125" y2="322" stroke="#d7dbe3" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="210" y1="78" x2="210" y2="322" stroke="#d7dbe3" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="295" y1="78" x2="295" y2="322" stroke="#d7dbe3" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="125" y="74" font-family="system-ui, sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">95.5</text>
+  <text x="210" y="74" font-family="system-ui, sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">96.0</text>
+  <text x="295" y="74" font-family="system-ui, sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">96.5</text>
+  <text x="600" y="74" font-family="system-ui, sans-serif" font-size="10" fill="#9ca3af" text-anchor="end">макс. печалба</text>
+
+  <!-- Block 1: Booming Seven Deluxe — RTP 96.55% -> width (96.55-95)*170=263.5 -->
+  <text x="40" y="98" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#374151">Booming Seven Deluxe</text>
+  <rect x="40" y="104" width="340" height="18" rx="4" fill="#e5e7eb"/>
+  <rect x="40" y="104" width="264" height="18" rx="4" fill="url(#bar)"/>
+  <text x="312" y="118" font-family="system-ui, sans-serif" font-size="12" font-weight="800" fill="#4338ca" text-anchor="start">96.55%</text>
+  <text x="600" y="118" font-family="system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#111827" text-anchor="end">макс. 2,422x</text>
+
+  <!-- Block 2: Buffalo Hold and Win — RTP 95.91% -> width 0.91*170=154.7 -->
+  <text x="40" y="150" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#374151">Buffalo Hold and Win</text>
+  <rect x="40" y="156" width="340" height="18" rx="4" fill="#e5e7eb"/>
+  <rect x="40" y="156" width="155" height="18" rx="4" fill="url(#bar)"/>
+  <text x="203" y="170" font-family="system-ui, sans-serif" font-size="12" font-weight="800" fill="#4338ca" text-anchor="start">95.91%</text>
+  <text x="600" y="170" font-family="system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#111827" text-anchor="end">макс. 1,200x</text>
+
+  <!-- Block 3: Buffalo Hold and Win Extreme — RTP 95.50% -> width 0.50*170=85 -->
+  <text x="40" y="202" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#374151">Buffalo Hold and Win Extreme</text>
+  <rect x="40" y="208" width="340" height="18" rx="4" fill="#e5e7eb"/>
+  <rect x="40" y="208" width="85" height="18" rx="4" fill="url(#bar)"/>
+  <text x="133" y="222" font-family="system-ui, sans-serif" font-size="12" font-weight="800" fill="#4338ca" text-anchor="start">95.50%</text>
+  <text x="600" y="222" font-family="system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#111827" text-anchor="end">макс. 4,000x</text>
+
+  <!-- Block 4: TNT Bonanza — RTP 96.60% -> width 1.60*170=272 -->
+  <text x="40" y="254" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#374151">TNT Bonanza</text>
+  <rect x="40" y="260" width="340" height="18" rx="4" fill="#e5e7eb"/>
+  <rect x="40" y="260" width="272" height="18" rx="4" fill="url(#bar)"/>
+  <text x="320" y="274" font-family="system-ui, sans-serif" font-size="12" font-weight="800" fill="#4338ca" text-anchor="start">96.60%</text>
+  <text x="600" y="274" font-family="system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#111827" text-anchor="end">макс. 6,500x</text>
+
+  <!-- Block 5: Blockchain Megaways — RTP 96.50% -> width 1.50*170=255 -->
+  <text x="40" y="306" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#374151">Blockchain Megaways</text>
+  <rect x="40" y="312" width="340" height="18" rx="4" fill="#e5e7eb"/>
+  <rect x="40" y="312" width="255" height="18" rx="4" fill="url(#bar)"/>
+  <text x="303" y="326" font-family="system-ui, sans-serif" font-size="12" font-weight="800" fill="#4338ca" text-anchor="start">96.50%</text>
+  <text x="600" y="326" font-family="system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#111827" text-anchor="end">макс. 40,320x</text>
+
+  <line x1="40" y1="348" x2="600" y2="348" stroke="#d1d5db" stroke-width="1"/>
+  <text x="40" y="368" font-family="system-ui, sans-serif" font-size="10.5" fill="#9ca3af">Скала на RTP 95.00%–97.00% · таванът е горна граница на печалбата, а не очаквана стойност</text>
+  <text x="40" y="386" font-family="system-ui, sans-serif" font-size="10.5" fill="#9ca3af">18+ Играйте отговорно · провери реалния RTP в инфо-панела на конкретното казино</text>
+</svg>
