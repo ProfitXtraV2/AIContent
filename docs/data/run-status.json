@@ -1,16 +1,20 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-09-23T03:12:33Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-09-23T03:55:00Z",
+  "articles_written": 3,
+  "prs_opened": [
+    172,
+    173,
+    174
+  ],
   "run_url": "https://claude.ai/code/session_01CcJDd6Jv4AepUpk3WuiPGM",
-  "note": "daily run 2026-09-23 (fire 1). Reconciled: 0 in-progress. Backlog fully NV-operator/НАП-blocked under guides-only scope. Ahrefs key exhausted (9 units left, reset 2026-10-15) -> web fallback. Writing MAX_PER_RUN=3 NEW distinct provider-profile guides from research bank: Kajot (vk-0154), Tom Horn Gaming (vk-0155), Fazi Interactive (vk-0156).",
+  "note": "daily run 2026-09-23 (fire 1) done. 0 in-progress to reconcile. Human backlog: all 10 open rows NV-Casino operator/НАП-blocked under guides-only scope -> left open+blocked (already Ahrefs-enriched; units exhausted, no re-pull). Buffer 127->130 (well above floor 10; NO cap, kept building per production policy). Wrote MAX_PER_RUN=3 NEW distinct provider-hub profiles from research bank (backlog fully NV-blocked): Kajot (vk-0154, PR #172, human 90), Tom Horn Gaming (vk-0155, PR #173, human 85), Fazi Interactive (vk-0156, PR #174, human 85). All dedup-clean vs content-queue + live sitemap (91 URLs). Gate 92-93/100 0-crit each. GEMINI ONLINE (text+image); text detector NOISY as usual: Kajot HL15->humaniser pass1 HL15->pass2 HL90 PASS (pruned 'не X,а Y' antithesis+didactic setups, kept pass2); Tom Horn HL15->pass1 HL85 PASS (stripped moral-of-story wrap-ups/signposting/symmetry, kept pass1); Fazi HL20->pass1 HL35->pass2 HL85 PASS (de-lectured, kept €1000/€960/€40 worked example despite Gemini style note = brand-mandated + infographic source, kept pass2). Images all PASS 0 integrity: Kajot SVG(95%->€950/€50) review 95->clip-path fix->100 + hero; Tom Horn SVG(96%->€960/€40) 100 + hero; Fazi SVG(96%->€960/€40) 100 + hero. Each article 2 images (hand-SVG RTP infographic numbers traced verbatim to 05b + decorative AI hero via gemini_image_gen). INTEGRITY GUARDS (public provider + game-DB only, NOT geo-blocked operator T&C/НАП): Kajot only stated verified 95.00% RTP (Joker 27 Plus/Simply the Best 81), excluded unverified 'Brno HQ' + higher RTPs; Tom Horn excluded brief-suggested Cash Vandal (Play'n GO) + Spring Tails (Betsoft) - not Tom Horn titles; Fazi attributed NO EGT/Amusnet title to Fazi (Wild Hot 40/Golden Crown/Very Hot 5 = different company). 10 total surviving [VERIFY] flags routed to human (Kajot 2 queue, Tom Horn 4=1 inline+3 queue, Fazi 4 queue). Honest angles: Kajot=простотата/произходът не менят RTP; Tom Horn=конфигурируем RTP 94-98.83%, same title diff editions->инфо-панел; Fazi=познатият EGT-вид не мени математиката + jackpot pool от залозите на играчите не сваля house edge. 3 research rows used (Kajot/Tom Horn/Fazi); bank replenished with 3 distinct uncovered candidates (Booming Games/BF Games/Evoplay) -> 6 candidates buffer (healthy, not padded). AHREFS KEY exhausted (24991/25000, reset 2026-10-15) -> web fallback, no new pulls. Feed refreshed (9 approved unchanged; new articles are drafted). One content PR per article (article-dir + images only; no PR-open CI in repo); board on main. NEVER resolved a flag/posted/merged. Human owns Step 6 flag-resolution/approve/merge/publish.",
   "progress": {
-    "phase": "writing",
-    "article_index": 1,
+    "phase": "done",
+    "article_index": 3,
     "article_total": 3,
-    "article_slug": "2026-09-23-kajot-provajdar",
+    "article_slug": null,
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +27,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 2,
-    "stage": "Author"
+    "stage_index": null,
+    "stage": null
   }
 }

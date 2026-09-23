@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-23T03:10:34Z",
+  "generated_utc": "2026-09-23T03:53:21Z",
   "buffer": {
-    "count": 127,
+    "count": 130,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 118,
+    "drafted": 121,
     "approved": 9,
     "posted": 25,
     "failed": 1
@@ -2782,6 +2782,57 @@
       "gemini": "human 85",
       "notes": "provider-hub pillar; БЪЛГАРСКИ доставчик от София (силна локална E-E-A-T); guides-only scope (public provider + game-DB: lcb/ct-interactive.com/softgamings/yogonet/cbinsights, NOT operator T&C/НАП); web-est vol (Ahrefs exhausted); gate 93/100 0-crit; Gemini human 85 PASS pass1 (initial kept, no humaniser); 3 [VERIFY] (title count 250+/500+; per-title RTP Fire Egg 98.11/Purple Fruits 97/Doctor Winstein 95; cert scope); COMPLIANCE: НАП cert framed as provider CONTENT certification not operator licence, licence-first kept explicit; online arm (2012) of land-based Casino Technology/CT Gaming; img:2 (SVG infographic + hero, review 92 PASS, 0 integrity fail); distinct cluster (0 v queue/sitemap; diff from Amusnet/EGT vk-0021) · nightly 2026-09-22: JOB-A flags resolved (3 [VERIFY]: 250/500+ range stated, per-title RTP hedged, cert scope softened, 0 markers)",
       "opportunity": null
+    },
+    {
+      "id": "vk-0154",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Kajot: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "kajot, кайот, kajot слотове, kajot games",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-23",
+      "posted_date": "",
+      "folder": "2026-09-23-kajot-provajdar",
+      "pr": "#172",
+      "gemini": "human 90",
+      "notes": "provider-hub pillar; чешки класически слот доставчик (Kajot Games, Малта MGA/B2B/397/2017, наземни корени 1996); guides-only scope (SlotCatalog/kajotgames.com/aboutslots public provider+game-DB, NOT operator T&C/НАП); web-est vol (Ahrefs units exhausted 24991/25000, reset 2026-10-15); gate 92/100 0-crit; Gemini HL15->pass1 HL15->pass2 HL90 PASS (kept pass2, humaniser pruned \"не X,а Y\" antithesis+didactic setups); 2 [VERIFY] queue (per-title RTP ceiling >95.00%; catalogue 113/~31 markets drift), 0 inline; honest angle: простотата/произходът не менят RTP, конфигурируем RTP->инфо-панел, casino НАП licence protects not provider cert; img:2 (SVG RTP infographic 95%->€950/€50 + decorative hero, review 95->clip-path fix->100, 0 integrity fail); distinct cluster (0 v queue/sitemap 91 URLs)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0155",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Tom Horn Gaming: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "tom horn, tom horn gaming, том хорн слотове",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-23",
+      "posted_date": "",
+      "folder": "2026-09-23-tom-horn-provajdar",
+      "pr": "#173",
+      "gemini": "human 85",
+      "notes": "provider-hub pillar; Tom Horn Gaming (B2B slots + remote gaming platform, Bratislava/Malta, works from 2008); guides-only scope (tomhorngaming.com/SlotCatalog/SoftGamings/CasinoGuru, NOT operator T&C/НАП); web-est vol (Ahrefs exhausted); gate 93/100 0-crit; Gemini HL15->pass1 HL85 PASS (kept pass1, humaniser stripped moral-of-story wrap-ups/signposting/symmetry); 4 [VERIFY] (1 inline catalogue ~90; queue: origin 2006 vs 2008, Romania ONJN, office list); honest angle: конфигурируем RTP 94-98.83%, 243 Crystal Fruits 96.55% vs Deluxe 95.02% same name->check инфо-панел; INTEGRITY: excluded brief-suggested Cash Vandal (Play’n GO) + Spring Tails (Betsoft), not Tom Horn; img:2 (SVG RTP 96%->€960/€40 + hero, review 100, 0 integrity fail); distinct cluster (0 v queue/sitemap)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0156",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Fazi Interactive: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "fazi, fazi interactive, фази слотове",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-23",
+      "posted_date": "",
+      "folder": "2026-09-23-fazi-provajdar",
+      "pr": "#174",
+      "gemini": "human 85",
+      "notes": "provider-hub pillar; Fazi Interactive (Serbian land-based-to-online, Niš 1991, online 2013, ISO 9001:2015+27001:2022); guides-only scope (fazicompany.com/fruityslots/gr8.tech/vegasslotsonline, NOT operator T&C/НАП); web-est vol (Ahrefs exhausted); gate 92/100 0-crit; Gemini HL20->pass1 HL35->pass2 HL85 PASS (kept pass2; kept €1000/€960/€40 worked example despite Gemini style note = brand-mandated guide element + infographic source); 4 [VERIFY] queue (lab names, per-casino RTP build, catalogue 150-260, supplier licence numbers), 0 inline; honest angle: познатият EGT-вид не мени математиката, jackpot pool се пълни от залозите на играчите (не сваля house edge), конфигурируем RTP->инфо-панел; INTEGRITY: no EGT/Amusnet title attributed to Fazi (Wild Hot 40/Golden Crown/Very Hot 5 = different company/games); img:2 (SVG RTP 96%->€960/€40 + hero, review 100, 0 integrity fail); distinct cluster (0 v queue/sitemap)",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -5490,7 +5541,7 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "provider-hub pillar; непокрит чешко-словашки land-based-first доставчик, разпространен в наземните зали в Балканите/ЦИЕ; класически fruit/hot-стил заглавия (провери: Joker 27, Simply Wild, Kajot Multi Games); PUBLIC provider-site + game-DB (kajot.com/SlotCatalog), NOT operator T&C/НАП; distinct cluster, чист (0 в queue/sitemap). Ahrefs KEY units exhausted → web-оценка, WAITS for reset; провери сигнатурни механики + RTP преди писане (без фабрикация)",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-22",
       "opportunity": null
     },
@@ -5504,7 +5555,7 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "provider-hub pillar; непокрит международен B2B доставчик (Малта/Словакия) + AmazonSlots/Hub88 дистрибуция; заглавия (провери: 243 Crystal Fruits, Wolf Saga, Book of Spells); PUBLIC provider-site + game-DB (tomhorngaming.com/SlotCatalog), NOT operator T&C/НАП; distinct cluster, чист (0 в queue/sitemap). Ahrefs KEY units exhausted → web-оценка, WAITS for reset; провери сигнатурни механики + RTP преди писане (без фабрикация)",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-22",
       "opportunity": null
     },
@@ -5518,8 +5569,50 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "provider-hub pillar; непокрит сръбски land-based-first доставчик, силен в наземните зали в Балканите; ретро/fruit-стил заглавия + линкови джакпоти (провери: Fruits Deluxe, Attила, Casino Mania); PUBLIC provider-site + game-DB (fazi.rs/SlotCatalog), NOT operator T&C/НАП; distinct cluster, чист (0 в queue/sitemap). Ahrefs KEY units exhausted → web-оценка, WAITS for reset; провери сигнатурни механики + RTP + пазарно присъствие преди писане (без фабрикация)",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-22",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Booming Games: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "booming games, booming, booming games слотове",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "provider-hub pillar; непокрит международен B2B доставчик (основан 2014, MGA лиценз); заглавия (провери: Booming Seven, Wild Wild Duck, Buffalo Hold&Win); PUBLIC provider-site + game-DB (boominggames.com/SlotCatalog), NOT operator T&C/НАП; distinct cluster, чист (0 в queue/sitemap). Ahrefs KEY units exhausted → web-оценка, WAITS for reset; провери сигнатурни механики + RTP преди писане (без фабрикация)",
+      "status": "candidate",
+      "date_researched": "2026-09-23",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "BF Games: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "bf games, bf games слотове",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "provider-hub pillar; непокрит B2B доставчик на видео слотове (регистрация Малта); заглавия (провери: Book of Gods, Lucky Book, Rise of Egypt); PUBLIC provider-site + game-DB (bfgames.eu/SlotCatalog), NOT operator T&C/НАП; distinct cluster, чист (0 в queue/sitemap). Ahrefs KEY units exhausted → web-оценка, WAITS for reset; провери сигнатурни механики + RTP преди писане (без фабрикация)",
+      "status": "candidate",
+      "date_researched": "2026-09-23",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Evoplay: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "evoplay, evoplay entertainment, evoplay слотове",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "provider-hub pillar; непокрит доставчик на 2D/3D видео слотове + инстант игри; заглавия (провери: Dungeon: Immortal Evil, Hot Triple Sevens, Penalty Shoot-out); PUBLIC provider-site + game-DB (evoplay.games/SlotCatalog), NOT operator T&C/НАП; distinct cluster, чист (0 в queue/sitemap). Ahrefs KEY units exhausted → web-оценка, WAITS for reset; провери сигнатурни механики + RTP преди писане (без фабрикация)",
+      "status": "candidate",
+      "date_researched": "2026-09-23",
       "opportunity": null
     },
     {
