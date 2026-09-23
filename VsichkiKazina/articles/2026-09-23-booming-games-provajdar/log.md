@@ -13,10 +13,10 @@
 - Step 8 (images): see below.
 
 ## Step 7 result
-(pending)
+Gemini HL by version: initial draft **15** ("Shows AI patterns 85%") → humaniser pass 1 (apply Gemini recs: cut empty signpost, fix „се връщат от заглавие на заглавие", break robotic slot list, consolidate house-edge reminders) → **85** ("Likely human-written 85%", PASS). Kept pass 1 (highest HL = 85). content-queue gemini = human 85. Untouchables preserved across both passes.
 
 ## Step 8 result
-(pending)
+images: 2 (infographic booming-games-rtp-tavan.svg **85** PASS pass 1; hero booming-games-hero.webp PASS, excellent throughout). Best image score = 85. No integrity failures. Two cosmetic gridline fix passes (y2 322→340, then segmented) each re-reviewed at 75 (noisy detector on a purely cosmetic nit) → per keep-best restored the pass-1 SVG (85). All 10 infographic numbers trace to 05b. Referenced from 05b (hero under H1, infographic beside the RTP data with BG ALT + caption).
 
 ## Outcome
-(pending)
+05b final, HL 85 (PASS, kept humaniser pass 1). 06-verification assembled. 1 surviving [VERIFY] (седалище/структура). images: 2, best review 85. Body ~727 words (tight provider profile, шорт край на guide-обхвата, като sibling-а Amusnet; без padding). GUARDRAIL: Wild Wild Duck (Popiplay) изключен. Ready for PR. Provider profile → no affiliate link, no НАП licence №.
