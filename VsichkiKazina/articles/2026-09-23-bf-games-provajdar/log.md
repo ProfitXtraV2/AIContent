@@ -12,10 +12,10 @@
 - Step 8 (images): see below.
 
 ## Step 7 result
-(pending)
+Gemini HL: initial 05b 25 („Shows AI patterns 75%") → humaniser pass 1 → 15 („Likely AI-written 85%") → humaniser pass 2 → 85 („Likely human-written 85%", PASS). Kept pass 2 (keep-best; highest HL). gemini = human 85. 07-gemini-check-1/-2/-3.md persist.
 
 ## Step 8 result
-(pending)
+images: 2 (infographic bf-games-rtp.svg + decorative hero bf-games-book-hero.webp 23 KB). Review pass 1 = 75 (SVG footer line clipped) → fix 1 → 75 (ref line short + title spacing) → fix 2 → 100 PASS. Best score 100. No integrity failures. Both ride the content PR; referenced from 05b (hero under H1, infographic beside the RTP data). 08-image-review-1/-2.md persist.
 
 ## Outcome
-(pending)
+05b final (human 85). 06-verification assembled. Ready for PR. GUARDRAIL: Rise of Egypt (Playson) + Lucky Book (unverified) excluded — not attributed to BF Games; only Book of Gods kept from the seed candidates. Board update (content-queue vk-0158 → drafted; pr column) is the orchestrator's job — not touched by this worker.
