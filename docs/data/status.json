@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-23T07:10:32Z",
+  "generated_utc": "2026-09-23T07:46:09Z",
   "buffer": {
-    "count": 129,
+    "count": 132,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 121,
+    "drafted": 124,
     "approved": 8,
     "posted": 26,
     "failed": 1
@@ -2833,6 +2833,57 @@
       "gemini": "human 85",
       "notes": "provider-hub pillar; Fazi Interactive (Serbian land-based-to-online, Niš 1991, online 2013, ISO 9001:2015+27001:2022); guides-only scope (fazicompany.com/fruityslots/gr8.tech/vegasslotsonline, NOT operator T&C/НАП); web-est vol (Ahrefs exhausted); gate 92/100 0-crit; Gemini HL20->pass1 HL35->pass2 HL85 PASS (kept pass2; kept €1000/€960/€40 worked example despite Gemini style note = brand-mandated guide element + infographic source); 4 [VERIFY] queue (lab names, per-casino RTP build, catalogue 150-260, supplier licence numbers), 0 inline; honest angle: познатият EGT-вид не мени математиката, jackpot pool се пълни от залозите на играчите (не сваля house edge), конфигурируем RTP->инфо-панел; INTEGRITY: no EGT/Amusnet title attributed to Fazi (Wild Hot 40/Golden Crown/Very Hot 5 = different company/games); img:2 (SVG RTP 96%->€960/€40 + hero, review 100, 0 integrity fail); distinct cluster (0 v queue/sitemap)",
       "opportunity": null
+    },
+    {
+      "id": "vk-0157",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Booming Games: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "booming games, booming, booming games слотове",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-23",
+      "posted_date": "",
+      "folder": "2026-09-23-booming-games-provajdar",
+      "pr": "#177",
+      "gemini": "human 85",
+      "notes": "provider-hub pillar; guides-only scope (boominggames.com/SlotCatalog/Casitsu/BigWinBoard public provider+game-DB, NOT operator T&C/НАП); guide->no affiliate; ~727 words; gate 93/100 0-crit; Gemini Step-7 HL15->pass1 HL85 PASS (kept pass1, humaniser cut empty signpost/translated idiom/robotic slot list, consolidated house-edge reminders); 1 [VERIFY] (registered seat IoM 2014 reg vs Malta HQ addr, hedged); img:2 (SVG RTP+max-win infographic 5 titles, all 10 numbers verbatim + decorative hero 21.9KB; review best 85, 0 integrity, keep-best restored 85 SVG after cosmetic gridline noise); INTEGRITY: excluded seed 'Wild Wild Duck' (=Popiplay slot per BigWinBoard, NOT Booming Games); portfolio size hedged (~250-331 titles, sources disagree); Ahrefs KEY exhausted -> web-est vol",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0158",
+      "status": "drafted",
+      "type": "guide",
+      "query": "BF Games: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "bf games, bf games слотове",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-23",
+      "posted_date": "",
+      "folder": "2026-09-23-bf-games-provajdar",
+      "pr": "#176",
+      "gemini": "human 85",
+      "notes": "provider-hub pillar; guides-only scope (bfgames.com/AskGamblers/casinohawks/slotsmate/slotslaunch public provider+game-DB, NOT operator T&C/НАП); guide->no affiliate; ~963 words; gate 92/100 0-crit; Gemini Step-7 HL25->15->85 PASS pass2 (2 humaniser, mid pass dipped/discarded, kept pass2); 1 [VERIFY] (LV Group corporate relationship + '15+ years' claim; official site confirms only founding 2013 + Bee-Fee/Malta entities); img:2 (SVG infographic 6 top-title RTPs vs ~96% verbatim + 'book+gears' hero 23KB; review best 100, 0 integrity, 2 SVG layout-fix passes); INTEGRITY: excluded 'Rise of Egypt' (=Playson) + 'Lucky Book' (unverifiable) -> used verified 'Lucky Tropics'; kept 'Book of Gods' (confirmed flagship); verified founded 2013, 185+ titles/25+ markets, UKGC 2017 + MGA 2019 B2B; Ahrefs KEY exhausted -> web-est vol",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0159",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Evoplay: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "evoplay, evoplay entertainment, evoplay слотове",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-23",
+      "posted_date": "",
+      "folder": "2026-09-23-evoplay-provajdar",
+      "pr": "#175",
+      "gemini": "human 90",
+      "notes": "provider-hub pillar; guides-only scope (evoplay.games public provider + game-DB, NOT operator T&C/НАП); guide->no affiliate; ~883 words; gate 93/100 0-crit; Gemini Step-7 human 90 PASS initial (0 humaniser, kept 05b; 3 style notes recs-only); 2 [VERIFY] (portfolio count 250+ no single official number; Dungeon:Immortal Evil per-casino RTP build official 96.07% vs ~95% versions); img:2 (SVG RTP+max-win infographic 3 titles verbatim + flat-vector hero 14.3KB; review best 100, 0 integrity); GUARDRAILS: verified 3 titles from evoplay.games (Dungeon:Immortal Evil 96.07%/€473,700/5000x, Hot Triple Sevens 96.01%/€230,850, Penalty Shoot-out 96.00%/€2,304=instant casino game NOT sports prediction); certs framed B2B supplier not operator licence; founded 2017 Limassol+Warsaw; Ahrefs KEY exhausted -> web-est vol",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -5583,7 +5634,7 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "provider-hub pillar; непокрит международен B2B доставчик (основан 2014, MGA лиценз); заглавия (провери: Booming Seven, Wild Wild Duck, Buffalo Hold&Win); PUBLIC provider-site + game-DB (boominggames.com/SlotCatalog), NOT operator T&C/НАП; distinct cluster, чист (0 в queue/sitemap). Ahrefs KEY units exhausted → web-оценка, WAITS for reset; провери сигнатурни механики + RTP преди писане (без фабрикация)",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-23",
       "opportunity": null
     },
@@ -5597,7 +5648,7 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "provider-hub pillar; непокрит B2B доставчик на видео слотове (регистрация Малта); заглавия (провери: Book of Gods, Lucky Book, Rise of Egypt); PUBLIC provider-site + game-DB (bfgames.eu/SlotCatalog), NOT operator T&C/НАП; distinct cluster, чист (0 в queue/sitemap). Ahrefs KEY units exhausted → web-оценка, WAITS for reset; провери сигнатурни механики + RTP преди писане (без фабрикация)",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-23",
       "opportunity": null
     },
@@ -5611,6 +5662,48 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "provider-hub pillar; непокрит доставчик на 2D/3D видео слотове + инстант игри; заглавия (провери: Dungeon: Immortal Evil, Hot Triple Sevens, Penalty Shoot-out); PUBLIC provider-site + game-DB (evoplay.games/SlotCatalog), NOT operator T&C/НАП; distinct cluster, чист (0 в queue/sitemap). Ahrefs KEY units exhausted → web-оценка, WAITS for reset; провери сигнатурни механики + RTP преди писане (без фабрикация)",
+      "status": "used",
+      "date_researched": "2026-09-23",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "GameArt: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "gameart, game art, gameart слотове",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "provider-hub pillar; непокрит доставчик на HTML5 видео слотове (основан ~2007/2013 online, регистрация Малта/Словения корени); заглавия (провери: Book of Oil, Cash Ultimate/Volcano, Hot Fruits); PUBLIC provider-site + game-DB (gameart.net/SlotCatalog), NOT operator T&C/НАП; distinct cluster, чист (0 в queue/sitemap). Ahrefs KEY units exhausted → web-оценка, WAITS for reset; провери сигнатурни механики + RTP преди писане (без фабрикация)",
+      "status": "candidate",
+      "date_researched": "2026-09-23",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Mancala Gaming: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "mancala gaming, mancala, mancala слотове",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "provider-hub pillar; непокрит B2B доставчик на слотове/крас/маси (по-нов studio); заглавия (провери: конкретни заглавия от собствения сайт); PUBLIC provider-site + game-DB (mancala.games/SlotCatalog), NOT operator T&C/НАП; distinct cluster, чист (0 в queue/sitemap). Ahrefs KEY units exhausted → web-оценка, WAITS for reset; провери сигнатурни механики + RTP преди писане (без фабрикация)",
+      "status": "candidate",
+      "date_researched": "2026-09-23",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "RubyPlay: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "rubyplay, ruby play, rubyplay слотове",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "provider-hub pillar; непокрит доставчик на видео слотове (Link&Win/Hold&Win механики); заглавия (провери: Diamond Strike, Fruit Snake, Buffalo Win); PUBLIC provider-site + game-DB (rubyplay.com/SlotCatalog), NOT operator T&C/НАП; distinct cluster, чист (0 в queue/sitemap). Ahrefs KEY units exhausted → web-оценка, WAITS for reset; провери сигнатурни механики + RTP преди писане (без фабрикация)",
       "status": "candidate",
       "date_researched": "2026-09-23",
       "opportunity": null
