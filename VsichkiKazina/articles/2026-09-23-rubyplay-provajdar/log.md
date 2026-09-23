@@ -18,3 +18,8 @@ slug: 2026-09-23-rubyplay-provajdar · brand: vsichkikazina · market: bg · con
 - Refresh на топ заглавия/RTP band при нужда.
 - About Всички Казина boilerplate + affiliate-licence статус.
 - Images: hero (декоративен, абстрактен, без лога/хора) + SVG RTP инфографика (илюстративно ~96% → €960/€40, числа трасират към 05b).
+
+--- autopilot Step 7/8 (2026-09-23) ---
+Step 7 Gemini: check1 HL15 -> humaniser p1 -> check2 HL25 -> humaniser p2 -> check3 HL25; cap reached; KEEP-BEST pass2; queue gemini=ai 75.
+Step 8 images: RTP infographic (numbers verbatim from 05b) + decorative gems/gears hero (22.4KB webp); image review 1 = 100 PASS, 100% number match, 0 integrity issues.
+Step 6 verification: 1 surviving [VERIFY] flag (founding year 2017/2018); illustrative math recalculated; compliance clean.
