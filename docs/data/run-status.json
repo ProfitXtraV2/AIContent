@@ -5,12 +5,12 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01CcJDd6Jv4AepUpk3WuiPGM",
-  "note": "daily run 2026-09-23 (fire 1). Reconciled: 0 in-progress rows. Backlog fully NV-operator/НАП-blocked under guides-only scope. Writing MAX_PER_RUN=3 NEW distinct provider-profile guides from research bank: Kajot, Tom Horn Gaming, Fazi Interactive.",
+  "note": "daily run 2026-09-23 (fire 1). Reconciled: 0 in-progress. Backlog fully NV-operator/НАП-blocked under guides-only scope. Ahrefs key exhausted (9 units left, reset 2026-10-15) -> web fallback. Writing MAX_PER_RUN=3 NEW distinct provider-profile guides from research bank: Kajot (vk-0154), Tom Horn Gaming (vk-0155), Fazi Interactive (vk-0156).",
   "progress": {
-    "phase": "selecting",
-    "article_index": 0,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 3,
-    "article_slug": null,
+    "article_slug": "2026-09-23-kajot-provajdar",
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": null,
-    "stage": null
+    "stage_index": 2,
+    "stage": "Author"
   }
 }
