@@ -1,11 +1,11 @@
 {
   "state": "idle",
-  "run_started_utc": "2026-09-22T19:10:40Z",
-  "run_finished_utc": "2026-09-22T19:10:40Z",
+  "run_started_utc": "2026-09-23T15:09:03Z",
+  "run_finished_utc": "2026-09-23T15:18:44Z",
   "articles_written": 0,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_012dG5KQ97mdoRtEmaWFpbJZ",
-  "note": "backfill: nothing to do (all review-ready articles have images). Verified 3 imageless-queue candidates (vk-0145 wild-wild-riches PR#163, vk-0146 gates-of-hades PR#164, vk-0147 endorphina PR#165): images/ folders and 05b references confirmed on branches — already imaged by daily-run Step-8 flow.",
+  "note": "backfilled images on 3 article(s): vk-0119 hub-intro-casino-payments (hero 85 PASS), vk-0120 hub-intro-bonuses-vip (hero+infographic best 82 PASS), vk-0121 hub-intro-regulations-taxes (hero 100 PASS). image model: gemini-3-pro-image.",
   "progress": {
     "phase": "done",
     "article_index": 3,

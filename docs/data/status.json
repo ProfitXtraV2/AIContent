@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-23T07:46:09Z",
+  "generated_utc": "2026-09-23T15:18:46Z",
   "buffer": {
     "count": 132,
     "target": 10,
@@ -2181,7 +2181,7 @@
       "folder": "2026-09-19-hub-intro-casino-payments",
       "pr": "#140",
       "gemini": "human 85",
-      "notes": "hub-intro one-off run: 364-word category-page intro for /blog/casino-payments/; no H1, 2 subheads, no images/FAQ/tables per spec; internal links money page /casino/betano/ + category articles /blog/evro-hazart-depoziti/ + /depoziti-i-teglenia/; gate 96/100 0 crit; Gemini Step-7 HL 25→85 PASS pass2 (1 humaniser); 0 [VERIFY]; Ahrefs/dedup/anti-cannibal skipped per one-off override (target page exists by design); approved for deploy 2026-09-19 (human review: hub intro casino-payments — 0 flags, Gemini human 85)",
+      "notes": "hub-intro one-off run: 364-word category-page intro for /blog/casino-payments/; no H1, 2 subheads, no images/FAQ/tables per spec; internal links money page /casino/betano/ + category articles /blog/evro-hazart-depoziti/ + /depoziti-i-teglenia/; gate 96/100 0 crit; Gemini Step-7 HL 25→85 PASS pass2 (1 humaniser); 0 [VERIFY]; Ahrefs/dedup/anti-cannibal skipped per one-off override (target page exists by design); approved for deploy 2026-09-19 (human review: hub intro casino-payments — 0 flags, Gemini human 85); img:1 (hero 85)",
       "opportunity": null
     },
     {
@@ -2198,7 +2198,7 @@
       "folder": "2026-09-19-hub-intro-bonuses-vip",
       "pr": "#136",
       "gemini": "human 80",
-      "notes": "hub-intro one-off run: 361-word category-page intro for /blog/bonuses-vip/; no H1, 2 subheads, no images/FAQ/tables per spec; internal links money page /bonusi/bez-depozit/ + category articles /blog/kak-raboti-razigravaneto/ + /blog/bonus-bez-depozit-2026/; gate 93/100 0 crit; Gemini Step-7 human 80 PASS pass1 (0 humaniser); 0 [VERIFY]; Ahrefs/dedup/anti-cannibal skipped per one-off override (target page exists by design); approved for deploy 2026-09-19 (human review: hub intro bonuses-vip — 0 flags, Gemini human 80)",
+      "notes": "hub-intro one-off run: 361-word category-page intro for /blog/bonuses-vip/; no H1, 2 subheads, no images/FAQ/tables per spec; internal links money page /bonusi/bez-depozit/ + category articles /blog/kak-raboti-razigravaneto/ + /blog/bonus-bez-depozit-2026/; gate 93/100 0 crit; Gemini Step-7 human 80 PASS pass1 (0 humaniser); 0 [VERIFY]; Ahrefs/dedup/anti-cannibal skipped per one-off override (target page exists by design); approved for deploy 2026-09-19 (human review: hub intro bonuses-vip — 0 flags, Gemini human 80); img:2 (hero+infographic, best 82)",
       "opportunity": null
     },
     {
@@ -2215,7 +2215,7 @@
       "folder": "2026-09-19-hub-intro-regulations-taxes",
       "pr": "#138",
       "gemini": "human 85",
-      "notes": "hub-intro one-off run: 401-word category-page intro for /blog/regulations-taxes/; no H1, 2 subheads, no images/FAQ/tables per spec; internal links money page /casino/betano/ (licensed-operator framing) + category articles /blog/proverka-licenz-kazino/ + /blog/danaci-pechalbi-onlajn-kazino/; gate 90/100 0 crit; Gemini Step-7 HL 25→85 PASS pass2 (1 humaniser); 1 [VERIFY] (чл. 13 ЗДДФЛ exact tax treatment — intentional hedge, never asserts a tax rate/exemption as settled fact; needs human/НАП-sourced resolution); Ahrefs/dedup/anti-cannibal skipped per one-off override; approved for deploy 2026-09-19 (human review: hub intro regulations-taxes — tax [VERIFY] resolved by removing the ЗДДФЛ чл. 13 assertion it guarded (no tax fact asserted), missing 18+ line added; Gemini human 85)",
+      "notes": "hub-intro one-off run: 401-word category-page intro for /blog/regulations-taxes/; no H1, 2 subheads, no images/FAQ/tables per spec; internal links money page /casino/betano/ (licensed-operator framing) + category articles /blog/proverka-licenz-kazino/ + /blog/danaci-pechalbi-onlajn-kazino/; gate 90/100 0 crit; Gemini Step-7 HL 25→85 PASS pass2 (1 humaniser); 1 [VERIFY] (чл. 13 ЗДДФЛ exact tax treatment — intentional hedge, never asserts a tax rate/exemption as settled fact; needs human/НАП-sourced resolution); Ahrefs/dedup/anti-cannibal skipped per one-off override; approved for deploy 2026-09-19 (human review: hub intro regulations-taxes — tax [VERIFY] resolved by removing the ЗДДФЛ чл. 13 assertion it guarded (no tax fact asserted), missing 18+ line added; Gemini human 85); img:1 (hero 100)",
       "opportunity": null
     },
     {
