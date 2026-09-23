@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-23T22:10:22Z",
+  "generated_utc": "2026-09-23T22:37:20Z",
   "buffer": {
-    "count": 132,
+    "count": 133,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
-    "drafted": 124,
+    "in-progress": 2,
+    "drafted": 125,
     "approved": 8,
     "posted": 26,
     "failed": 1
@@ -2884,6 +2884,57 @@
       "gemini": "human 90",
       "notes": "provider-hub pillar; guides-only scope (evoplay.games public provider + game-DB, NOT operator T&C/НАП); guide->no affiliate; ~883 words; gate 93/100 0-crit; Gemini Step-7 human 90 PASS initial (0 humaniser, kept 05b; 3 style notes recs-only); 2 [VERIFY] (portfolio count 250+ no single official number; Dungeon:Immortal Evil per-casino RTP build official 96.07% vs ~95% versions); img:2 (SVG RTP+max-win infographic 3 titles verbatim + flat-vector hero 14.3KB; review best 100, 0 integrity); GUARDRAILS: verified 3 titles from evoplay.games (Dungeon:Immortal Evil 96.07%/€473,700/5000x, Hot Triple Sevens 96.01%/€230,850, Penalty Shoot-out 96.00%/€2,304=instant casino game NOT sports prediction); certs framed B2B supplier not operator licence; founded 2017 Limassol+Warsaw; Ahrefs KEY exhausted -> web-est vol",
       "opportunity": null
+    },
+    {
+      "id": "vk-0160",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "GameArt: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "gameart, game art, gameart слотове",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-23-gameart-provajdar",
+      "pr": "",
+      "gemini": "",
+      "notes": "provider-hub pillar; guides-only scope (gameart.net public provider + game-DB, NOT operator T&C/НАП); guide->no affiliate; Ahrefs 403 -> web-est vol; drafting",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0161",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Mancala Gaming: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "mancala gaming, mancala, mancala слотове",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-23",
+      "posted_date": "",
+      "folder": "2026-09-23-mancala-gaming-provajdar",
+      "pr": "#178",
+      "gemini": "ai 75",
+      "notes": "provider-hub pillar; guides-only (mancala.games public + game-DB, NOT operator/НАП); guide->no affiliate; gate 96/100; Gemini check1 HL15->p1 25->p2 25 cap KEEP-BEST pass2; 2 [VERIFY] (portfolio count над 90; RTP band ~95% mancala.games ENOTFOUND); img:2 (SVG RTP verbatim + dice/blocks hero 11.4KB; review 100 PASS 0 integrity); founded 2019 Prague B2B via SoftSwiss; dice-slot niche; Ahrefs 403->web-est vol",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0162",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "RubyPlay: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "rubyplay, ruby play, rubyplay слотове",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-09-23-rubyplay-provajdar",
+      "pr": "",
+      "gemini": "",
+      "notes": "provider-hub pillar; guides-only scope (rubyplay.com public provider + game-DB, NOT operator T&C/НАП); guide->no affiliate; Ahrefs 403 -> web-est vol; drafting",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -5690,7 +5741,7 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "provider-hub pillar; непокрит B2B доставчик на слотове/крас/маси (по-нов studio); заглавия (провери: конкретни заглавия от собствения сайт); PUBLIC provider-site + game-DB (mancala.games/SlotCatalog), NOT operator T&C/НАП; distinct cluster, чист (0 в queue/sitemap). Ahrefs KEY units exhausted → web-оценка, WAITS for reset; провери сигнатурни механики + RTP преди писане (без фабрикация)",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-23",
       "opportunity": null
     },
