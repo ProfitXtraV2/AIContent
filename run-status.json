@@ -4,8 +4,8 @@
   "run_finished_utc": "2026-09-23T15:18:44Z",
   "articles_written": 0,
   "prs_opened": [],
-  "run_url": "https://claude.ai/code/session_012dG5KQ97mdoRtEmaWFpbJZ",
-  "note": "backfilled images on 3 article(s): vk-0119 hub-intro-casino-payments (hero 85 PASS), vk-0120 hub-intro-bonuses-vip (hero+infographic best 82 PASS), vk-0121 hub-intro-regulations-taxes (hero 100 PASS). image model: gemini-3-pro-image.",
+  "run_url": "https://claude.ai/code/session_01PQnms9rmCrieh6rgDfG9Mt",
+  "note": "backfill: noted img: on 3 already-imaged articles (vk-0145 wild-wild-riches best 100, vk-0146 gates-of-hades best 90, vk-0147 endorphina best 100); all imaged by daily-run pipeline, notes were missing. image model: gemini-3.1-pro-preview.",
   "progress": {
     "phase": "done",
     "article_index": 3,
