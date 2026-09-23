@@ -16,16 +16,10 @@
   <text x="40" y="36" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="#312e81">Booming Games: обявен RTP и таван на печалбата</text>
   <text x="40" y="56" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" fill="#6b7280">RTP е дългосрочна статистика, не обещание за сесия · таванът се достига крайно рядко</text>
 
-  <!-- axis gridlines: RTP scale 95.00..97.00 over track x=40..380 (170 px per 1.0%).
-       Rendered as short segments ONLY over each grey bar (y 104-122, 156-174, 208-226, 260-278, 312-330)
-       so they never cross the slot-title text that sits above each bar. -->
-  <g stroke="#c7ccd6" stroke-width="1" stroke-dasharray="3,3">
-    <line x1="125" y1="104" x2="125" y2="122"/><line x1="210" y1="104" x2="210" y2="122"/><line x1="295" y1="104" x2="295" y2="122"/>
-    <line x1="125" y1="156" x2="125" y2="174"/><line x1="210" y1="156" x2="210" y2="174"/><line x1="295" y1="156" x2="295" y2="174"/>
-    <line x1="125" y1="208" x2="125" y2="226"/><line x1="210" y1="208" x2="210" y2="226"/><line x1="295" y1="208" x2="295" y2="226"/>
-    <line x1="125" y1="260" x2="125" y2="278"/><line x1="210" y1="260" x2="210" y2="278"/><line x1="295" y1="260" x2="295" y2="278"/>
-    <line x1="125" y1="312" x2="125" y2="330"/><line x1="210" y1="312" x2="210" y2="330"/><line x1="295" y1="312" x2="295" y2="330"/>
-  </g>
+  <!-- axis gridlines: RTP scale 95.00..97.00 over track x=40..380 (170 px per 1.0%) -->
+  <line x1="125" y1="78" x2="125" y2="322" stroke="#d7dbe3" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="210" y1="78" x2="210" y2="322" stroke="#d7dbe3" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="295" y1="78" x2="295" y2="322" stroke="#d7dbe3" stroke-width="1" stroke-dasharray="4,4"/>
   <text x="125" y="74" font-family="system-ui, sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">95.5</text>
   <text x="210" y="74" font-family="system-ui, sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">96.0</text>
   <text x="295" y="74" font-family="system-ui, sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">96.5</text>
