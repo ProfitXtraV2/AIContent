@@ -22,3 +22,9 @@ Fazi's catalogue is easy to confuse with EGT/Amusnet. Only Fazi's OWN titles wer
 
 ## Outcome
 05b final ready. Provider profile, no affiliate link / no НАП licence № / no Протокол block (correct for type). Images to be added at a later step (none referenced in 05b per task spec).
+
+## Post-draft (orchestrator)
+- Step 7 Gemini: initial HL20 → humaniser pass1 HL35 → humaniser pass2 HL85 PASS (keep best pass2, human 85).
+- Step 8 images: RTP infographic SVG + decorative hero WebP; review 100 PASS, 0 integrity fail.
+- Step 6 verification: 06-verification.md assembled; 4 [VERIFY] items (queue, none inline); €-recalc shown. EGT/Amusnet integrity guard applied.
+- Board: content-queue vk-0156 → drafted; PR opened (content-only branch).
