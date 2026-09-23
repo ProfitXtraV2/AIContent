@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-23T03:53:21Z",
+  "generated_utc": "2026-09-23T06:40:37Z",
   "buffer": {
-    "count": 130,
+    "count": 129,
     "target": 10,
     "deficit": 0,
     "ok": true
@@ -9,8 +9,8 @@
   "counts": {
     "in-progress": 0,
     "drafted": 121,
-    "approved": 9,
-    "posted": 25,
+    "approved": 8,
+    "posted": 26,
     "failed": 1
   },
   "rows": [
@@ -541,7 +541,7 @@
     },
     {
       "id": "vk-0028",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Big Bass Bonanza: RTP, волатилност и как се играе",
       "keywords_or_terms": "big bass bonanza, биг бас бонанза",
@@ -549,7 +549,7 @@
       "kd": "70",
       "source": "research",
       "drafted_date": "2026-09-09",
-      "posted_date": "",
+      "posted_date": "2026-09-23",
       "folder": "2026-09-09-big-bass-bonanza",
       "pr": "#35",
       "gemini": "human 90",
