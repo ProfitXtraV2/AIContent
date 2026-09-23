@@ -11,3 +11,8 @@
 - 05b final: ~750-word publishable candidate; hero ref under H1, infographic + caption beside RTP section; both footer blocks verbatim.
 - Images: NOT created (out of scope); referenced only — images/gameart-hero.webp, images/gameart-rtp.svg.
 - [VERIFY] flags left: (1) founding year ~2013 (own site silent); (2) exact portfolio count (own site 130+, DBs 200+).
+
+--- autopilot Step 7/8 (2026-09-23) ---
+Step 7 Gemini: check1 HL85 PASS on initial draft; 0 humaniser passes; queue gemini=human 85.
+Step 8 images: RTP infographic (numbers verbatim from 05b) + decorative slot-reel/blocks hero (18.9KB webp); image review 1 = 95 PASS, 0 integrity issues.
+Step 6 verification: 2 surviving [VERIFY] flags (founding year ~2013; portfolio count 130+/200+); illustrative math recalculated; compliance clean.
