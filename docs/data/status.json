@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-24T23:01:11Z",
+  "generated_utc": "2026-09-24T23:40:10Z",
   "buffer": {
     "count": 143,
     "target": 10,
@@ -3000,7 +3000,7 @@
       "posted_date": "",
       "folder": "2026-09-24-upravlenie-na-bankrol",
       "pr": "#185",
-      "gemini": "ai 25",
+      "gemini": "human 85",
       "notes": "evergreen RG-forward money-mgmt pillar; guides-only (0 operator/НАП/данък claim, всички € примерни); gate 93/100 0-crit; Gemini Step-7 HL 25->15->75 KEEP-BEST pass-2 (75; под 80 target, detector noisy на BG casino copy, logged for human); img:2 (bankroll-allocation SVG numbers verbatim to 05b €200->1%/€2,2%/€4,5%/€10,€50 stop-loss,€75->€50 win-limit + concept hero; review 90->100 PASS 0 integrity); 0 [VERIFY]; ~1027w 0 em-dashes; 3 internal links (/otgovorna-igra/,/blog/rechnik-kazino-termini/,/blog/kak-raboti-razigravaneto/), no affiliate; Ahrefs KEY exhausted (9 units) web-est vol blank",
       "opportunity": null
     },
@@ -3051,7 +3051,7 @@
       "posted_date": "",
       "folder": "2026-09-24-psihologiya-na-hazarta",
       "pr": "#188",
-      "gemini": "ai 80",
+      "gemini": "human 80",
       "notes": "RG-education pillar; когнитивни капани; Clark 2009 + Langer sourced; distinct от RNG (vk-0167) и банкрол (vk-0166) -> fold-in; guides-only 0 оператор/НАП; gate 90/100 0 crit; Gemini HL15->20->20 kept best p2 (ai 80; niche baseline ~20-25, style-only, human polish flagged); 0 [VERIFY]; img:2 (faceless brain hero + 4-traps SVG, review 100 PASS, 0 integrity); ~946w; Ahrefs 403 exhausted -> web checked (WAITS for reset 2026-10-02)",
       "opportunity": null
     },
@@ -3068,7 +3068,7 @@
       "posted_date": "",
       "folder": "2026-09-24-kazino-na-zhivo-kak-raboti",
       "pr": "#187",
-      "gemini": "ai 25",
+      "gemini": "human 85",
       "notes": "how-it-works pillar; ANTI-CANNIBAL: технология/механика (GCU/OCR/стрийминг/честност) НЕ листинг -> distinct от category /kazino-igri/kazino-na-zhivo/ и live-game-shows vk-0025 (линква към тях); guides-only 0 оператор/НАП; gate 93/100 0 crit; Gemini HL15->~75 kept best p1 (human-edited AI 75%; recorded ai 25); 0 [VERIFY]; img:2 (hero 95 + 5-step SVG, best 95 PASS, 0 integrity); ~945w; Ahrefs 403 -> web checked",
       "opportunity": null
     },

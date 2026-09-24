@@ -866,3 +866,101 @@ Gemini column updated: vk-0161 (ai 75→human 80), vk-0162 (ai 75→human 85). D
 
 ### Deferred (over nightly cap of 10)
 None — 6 JOB-A branches (2 also JOB-B) processed, all under the cap.
+
+## 2026-09-24
+
+### JOB A — publish-blocking flags
+Scanned every `content/*` branch's own `VsichkiKazina/articles/<folder>/05b-final-draft.md`
+(172 content branches) for blocking markers (`[VERIFY]`, `[DATA NEEDED]`, `[CONFLICT]`,
+`[18+ / RG LINE]`, `[AUTHOR]`, `[BRAND]`, `[EDITORIAL]`, `[уточни]`, `[провери]`) plus any
+bracket placeholder. Flagged **drafted** branches tonight: 5 (three provider profiles +
+two evergreen guides). All resolved on their own `content/<folder>` branch by rephrasing
+only (facts/numbers/RTP/dates/links/RG/byline/brand untouched); each re-scanned to **0
+blocking markers** and pushed. The `[About Всички Казина boilerplate]` token is a
+publisher-expanded template slot (present verbatim on already-posted/live pages) — not a
+blocking marker, left untouched (idempotent, consistent with prior nights).
+
+- **vk-0165** `2026-09-24-apollo-games-provajdar` (drafted): 1 inline `[VERIFY]` → catalogue
+  count (sources 60→100+) folded into prose as a range „някъде от шейсетина до над сто
+  заглавия". No value invented. → 0 markers. success.
+- **vk-0163** `2026-09-24-belatra-games-provajdar` (drafted): 1 `[VERIFY]` → origin/HQ caveat
+  softened into prose (kept the Eastern-Europe hedge, „точната държава и седалище днес се
+  посочват различно"). No value invented. → 0 markers. success.
+- **vk-0164** `2026-09-24-swintt-provajdar` (drafted): 2 `[VERIFY]` → founding date kept as
+  „2018–2019 г." range (sources differ); Glitnor/LCKY relation stated as disputed rather than
+  asserted. No values invented. → 0 markers. success.
+- **vk-0167** `2026-09-24-generator-sluchajni-chisla-rng` (drafted): 1 `[VERIFY]` → ISO/IEC
+  standard-number claim softened, kept the true ISO/IEC accreditation framing (testing +
+  inspection bodies) without pinning exact numbers. No value invented. → 0 markers. success.
+  (also JOB B below)
+- **vk-0168** `2026-09-24-teglene-pechalba-kyc-verifikaciya` (drafted): 2 `[VERIFY]` +
+  1 bracket-wrapped `[Author bio: …]` → timeline caveat folded to prose (operator/method-
+  specific, check T&C); TAX kept non-asserted, pointing to счетоводител/НАП with no rate or
+  threshold; the `[Author bio:]` bracket unwrapped to italic prose (real bio text preserved).
+  No values invented. → 0 markers. success. (also JOB B below)
+
+### JOB B — low Gemini score improvements
+Board targets = status ∈ {drafted, approved} AND gemini `ai <n>` OR `human <n>` with n<80.
+**Exactly 6 qualifying rows** tonight (worst-first): 2×`ai 25`, 3×`ai 75`, 1×`ai 80`. Well
+under the nightly cap of 10; nothing deferred. All improved with Step-7b + Step-3/5b
+technique, **style-only** (0 fact/number/RTP/date/link/RG/byline/brand changes), 0 blocking
+markers and 0 em-dashes after each pass.
+
+- **vk-0166** `2026-09-24-upravlenie-na-bankrol` (was `ai 25`, PR #185): baseline re-read
+  already **human 85** (the `ai 25` was detector noise). Applied the safe flagged fixes anyway
+  to solidify: removed „трезва/спокойна глава" semantic saturation, a counting-signpost bridge,
+  the „единствения враг" grandiose framing, and the essay-bow conclusion. Re-check **human 85**
+  (PASS). 2 checks. success. → gemini ai 25→human 85.
+- **vk-0170** `2026-09-24-kazino-na-zhivo-kak-raboti` (was `ai 25`, PR #191): genuine `ai 75`
+  baseline. Removed the setup-and-knockdown signpost („една проста причина:"), the „Класиките
+  са налице"/„гръбнакът" filler cliché, the pseudo-profound opener („честността стъпва на нещо
+  физическо"), the balanced „Feature A, Feature B" H2, and the „по-топло" calque. Re-check
+  **human 85** (PASS). 2 checks. success. → gemini ai 25→human 85.
+- **vk-0167** `2026-09-24-generator-sluchajni-chisla-rng` (was `ai 75`, PR #186): cut didactic
+  signposts, theatrical bridges, symmetrical staccato contrasts, over-polished personification
+  and the „другата страна на уравнението" crutch. Detector **oscillates ai 75↔85** across
+  passes (known noisy concept-explainer shape, matches prior 5-attempt history). 3 attempts,
+  cleanest prose kept at **ai 75**. Still-flagged → logged for human. → gemini stays ai 75.
+- **vk-0168** `2026-09-24-teglene-pechalba-kyc-verifikaciya` (was `ai 75`, PR #184): cut the
+  intro problem/solution hook, broke the rigid numbered-step symmetry (kept 5 steps to match
+  the infographic), unpacked the „mega-sentence" of delay reasons, removed the „За ориентир"
+  and „За…/За…/За…" parallelism, cut the bow-tie ending. Detector **oscillates ai 75↔80**.
+  3 attempts, cleanest prose kept. Still-flagged → logged for human. → gemini stays ai 75.
+- **vk-0171** `2026-09-24-kazino-turniri` (was `ai 75`, PR #190): dropped the dictionary-def
+  intro, broke the „Най-често/Друг модел/Трети" enumeration cadence, cut empty signposts and a
+  redundant math-summary, softened „единственото"/„Затова" wrap-ups, de-glossaried the
+  leaderboard aside, tightened a formulaic H2; kept every „(числата са примерни)" fact label.
+  Detector **oscillates ai 75↔80**. 3 attempts, cleanest prose kept at **ai 75**. Still-flagged
+  → logged for human. → gemini stays ai 75.
+- **vk-0169** `2026-09-24-psihologiya-na-hazarta` (was `ai 80`, PR #189): baseline re-read
+  already **human 80** (PASS; `ai 80` was detector noise). Applied safe fixes to solidify: cut
+  the thesis-statement intro wrap-up (also removes the „най-добрата защита" phrase duplicated in
+  the final H2), reframed the „капанът, който събира и трите" synthesis heading, softened the
+  didactic imperative conclusion. **Post-edit re-check could not run — Gemini API returned
+  HTTP 402 (prepayment credits depleted).** Edits are style-only and reduce flagged tells;
+  baseline already passed. → gemini ai 80→human 80 (baseline pass; post-edit unverified).
+
+Gemini column updated: vk-0166 (ai 25→human 85), vk-0170 (ai 25→human 85),
+vk-0169 (ai 80→human 80). The three that stay `ai 75` (vk-0167/0168/0171) keep their value
+(prose cleaned, detector unchanged — logged for human). Dashboard (`build_dashboard.py`) and
+feed (`build_feed.py`) rebuilt.
+
+### ⚠ Environment issue — Gemini API credits depleted
+Midway through the last article the Gemini API began returning **HTTP 402 RESOURCE_EXHAUSTED
+— "Your prepayment credits are depleted"**. Persistent across retries. All 6 Job-B baseline
+and iteration checks completed before this; only the final post-edit re-check of vk-0169 was
+blocked. **Until the Gemini project's billing/prepayment is topped up, `gemini_check.py` and
+the whole Step-7 score-check pipeline cannot run.** Needs human action in Google AI Studio
+billing.
+
+### POSTED — needs human review (recurring, still open)
+- **vk-0063** `2026-09-13-nv-casino-zakonno-li-e` (PR #79, posted, `ai 75`): branch still
+  carries `[AUTHOR BIO BLOCK: Георги Тодоров] [About Всички Казина boilerplate]` (line 56).
+  Left untouched (never edit posted/live). A human should fill the author block off the live
+  path before any re-publish; would also benefit from a human-reviewed humanise pass.
+- **vk-0064** `2026-09-13-nv-casino-bonus-usloviya` (PR #80, posted, `human 85`): branch still
+  carries `[AUTHOR BIO BLOCK] [BRAND BOILERPLATE] [18+ / RG LINE]` (line 65). Left untouched;
+  a human should fill the author/brand/RG blocks off the live path before any re-publish.
+
+### Deferred (over nightly cap of 10)
+None — 5 JOB-A branches (2 also JOB-B) + 6 JOB-B rows processed, all under the cap.
