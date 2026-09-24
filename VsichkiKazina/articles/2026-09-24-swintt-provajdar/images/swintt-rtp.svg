@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="Обявени RTP на популярни заглавия на Swintt: Neptunes Gold 97.02%, Toutatis 96.28%, Huluwa 96.00%, Book of Shai 95.90%, Golden Dragon 95.39%, High Noon Duel 94.03%, спрямо ориентир около 96% за модерните слотове">
+  <title>Обявени RTP на популярни заглавия на Swintt спрямо ~96%</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+    <linearGradient id="above" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#15803d"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+    <linearGradient id="below" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="420" rx="12" ry="12" fill="url(#bg)"/>
+
+  <text x="320" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#166534" text-anchor="middle">Обявени RTP на популярни заглавия на Swintt</text>
+  <text x="320" y="53" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">част от заглавията стоят под средното за модерните слотове (~96%)</text>
+
+  <!-- Row 1: Neptunes Gold 97.02% -> w = (97.02-93.50)/4.0*380 = 334 (above) -->
+  <text x="172" y="96" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#374151" font-weight="600" text-anchor="end">Neptunes Gold</text>
+  <rect x="180" y="80" width="380" height="24" rx="5" fill="#e5e7eb"/>
+  <rect x="180" y="80" width="334" height="24" rx="5" fill="url(#above)"/>
+  <text x="572" y="96" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="800" fill="#15803d" text-anchor="start">97.02%</text>
+
+  <!-- Row 2: Toutatis 96.28% -> w = (96.28-93.50)/4.0*380 = 264 (above) -->
+  <text x="172" y="136" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#374151" font-weight="600" text-anchor="end">Toutatis</text>
+  <rect x="180" y="120" width="380" height="24" rx="5" fill="#e5e7eb"/>
+  <rect x="180" y="120" width="264" height="24" rx="5" fill="url(#above)"/>
+  <text x="572" y="136" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="800" fill="#15803d" text-anchor="start">96.28%</text>
+
+  <!-- Row 3: Huluwa 96.00% -> w = (96.00-93.50)/4.0*380 = 238 (at line) -->
+  <text x="172" y="176" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#374151" font-weight="600" text-anchor="end">Huluwa</text>
+  <rect x="180" y="160" width="380" height="24" rx="5" fill="#e5e7eb"/>
+  <rect x="180" y="160" width="238" height="24" rx="5" fill="url(#above)"/>
+  <text x="572" y="176" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="800" fill="#15803d" text-anchor="start">96.00%</text>
+
+  <!-- Row 4: Book of Shai 95.90% -> w = (95.90-93.50)/4.0*380 = 228 (below) -->
+  <text x="172" y="216" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#374151" font-weight="600" text-anchor="end">Book of Shai</text>
+  <rect x="180" y="200" width="380" height="24" rx="5" fill="#e5e7eb"/>
+  <rect x="180" y="200" width="228" height="24" rx="5" fill="url(#below)"/>
+  <text x="572" y="216" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="800" fill="#b45309" text-anchor="start">95.90%</text>
+
+  <!-- Row 5: Golden Dragon 95.39% -> w = (95.39-93.50)/4.0*380 = 180 (below) -->
+  <text x="172" y="256" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#374151" font-weight="600" text-anchor="end">Golden Dragon</text>
+  <rect x="180" y="240" width="380" height="24" rx="5" fill="#e5e7eb"/>
+  <rect x="180" y="240" width="180" height="24" rx="5" fill="url(#below)"/>
+  <text x="572" y="256" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="800" fill="#b45309" text-anchor="start">95.39%</text>
+
+  <!-- Row 6: High Noon Duel 94.03% -> w = (94.03-93.50)/4.0*380 = 50 (below) -->
+  <text x="172" y="296" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#374151" font-weight="600" text-anchor="end">High Noon Duel</text>
+  <rect x="180" y="280" width="380" height="24" rx="5" fill="#e5e7eb"/>
+  <rect x="180" y="280" width="50" height="24" rx="5" fill="url(#below)"/>
+  <text x="572" y="296" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="800" fill="#b45309" text-anchor="start">94.03%</text>
+
+  <!-- 96% reference line drawn AFTER bars so it renders on top: track 180..560 maps RTP 93.50..97.50; 96.00 at x = 180 + (96.00-93.50)/4.0*380 = 418 -->
+  <line x1="418" y1="74" x2="418" y2="310" stroke="#334155" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <text x="418" y="70" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#334155" text-anchor="middle">~96%</text>
+
+  <line x1="40" y1="325" x2="600" y2="325" stroke="#d1d5db" stroke-width="1"/>
+  <text x="320" y="347" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle" font-style="italic">Скала 93.50%–97.50%</text>
+  <text x="320" y="369" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">Много заглавия имат и по-нискорейтингови версии · операторът избира коя да пусне</text>
+  <text x="320" y="391" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">18+ Играйте отговорно · Провери реалния RTP в инфо-панела на конкретното казино</text>
+</svg>
