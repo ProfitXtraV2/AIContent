@@ -3,14 +3,16 @@
   "run_started_utc": "2026-09-24T03:10:25Z",
   "run_finished_utc": null,
   "articles_written": null,
-  "prs_opened": [],
+  "prs_opened": [
+    181
+  ],
   "run_url": "https://claude.ai/code/session_01WDfQ3qJsf5AtRmto2YtbGp",
-  "note": "daily run 2026-09-24 (started). Reconcile: 0 in-progress rows. Buffer 136 (well above floor 10; NO cap, keep building). Backlog: all 10 open rows NV-Casino operator/НАП-blocked under guides-only scope -> left open+blocked. Selecting MAX_PER_RUN=3 NEW provider-hub guides from research bank: Belatra Games, Swintt, Apollo Games (all distinct clusters, clean vs queue+sitemap, public provider-site+game-DB sourced, NOT geo-blocked operator T&C/НАП).",
+  "note": "daily run 2026-09-24. Article 1 Belatra DONE (vk-0163, PR #181, human 90, images 100/100). Writing article 2 Swintt.",
   "progress": {
-    "phase": "setup",
-    "article_index": 0,
+    "phase": "writing",
+    "article_index": 2,
     "article_total": 3,
-    "article_slug": null,
+    "article_slug": "2026-09-24-swintt-provajdar",
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": null,
-    "stage": null
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
