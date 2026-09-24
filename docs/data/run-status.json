@@ -1,29 +1,18 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-09-24T22:11:00Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-09-24T23:05:00Z",
+  "articles_written": 3,
+  "prs_opened": [187, 188, 189],
   "run_url": "https://claude.ai/code/session_01GBBdgJXqt8MoWiEF9zCpAx",
-  "note": "daily run 2026-09-24 fire 3 — writing 3 guides in parallel (psychology vk-0169, live-dealer vk-0170, tournaments vk-0171); backlog fully NV/НАП-blocked, drawn from research bank; Ahrefs 403 exhausted -> web fallback",
+  "note": "daily run 2026-09-24 (fire 3) DONE. 0 in-progress reconciled. Buffer 140->143 (floor 10, NO cap, kept building). Backlog: all 10 open rows NV-Casino operator/НАП-blocked under guides-only -> left open+blocked (already Ahrefs-enriched; key 403-exhausted, no re-pull). Wrote MAX_PER_RUN=3 NEW distinct evergreen guide pillars from research bank (backlog fully NV-blocked): Live-dealer how-it-works (vk-0170, PR #187, gate 93, Gemini HL15->~75 human-edited-AI kept p1 recorded ai25, img:2 best95, 0 flags, ~945w; ANTI-CANNIBAL vs category /kazino-igri/kazino-na-zhivo/ - framed as tech, links to it); Gambling psychology/cognitive traps (vk-0169, PR #188, gate 90, Gemini HL15->20->20 kept best p2 ai80, img:2 review100, 0 flags, ~946w; Clark2009+Langer sourced, distinct from RNG vk-0167/bankroll vk-0166); Casino tournaments/leaderboards (vk-0171, PR #189, gate 93, Gemini HL15->25 kept best p2 ai75, img:2 review100, 0 flags, ~932w; example numbers примерни, distinct from bonus-types). All dedup-clean vs content-queue + live sitemap. GEMINI ONLINE (text+image); text detector runs harsh on BG casino copy (baseline ~20-25 HL, noisy) -> kept-best per policy, all style-only gaps flagged for human Step-6, every untouchable preserved (numbers/citations/links/RG/18+/affiliate/byline/brand/dates; 0 em-dashes each). Images all 0 integrity: hand-SVG infographics (numbers verbatim to 05b; tournaments €350+€200+€100+7x€50=€1000 verified) + decorative AI heroes (Gemini gen; no faces/logos/fabricated numbers; psychology hero is faceless silhouette, review-cleared). Image reviews PASS pass1 (95/100/100). 0 surviving [VERIFY] across all 3 (pure concept/tech/behaviour). AHREFS KEY 403-exhausted (reset 2026-10-02) -> web fallback, no new pulls (web candidates WAIT for reset). 3 research rows -> used; bank replenished with 3 new distinct candidates (bonus-buy slot mechanic / videopoker rules / Sic Bo dice game) -> 4 candidates buffer (healthy, not padded; dedup-checked vs blackjack/roulette/Yggdrasil/cashback/Megaways which are ALL already covered). Feed refreshed (7 approved unchanged; new articles are drafted). One content PR per article (article-dir+images only); board on main. NEVER resolved a flag/posted/merged. Human owns Step-6 flag-resolution/approve/merge/publish.",
   "progress": {
-    "phase": "writing",
-    "article_index": 1,
+    "phase": "done",
+    "article_index": 3,
     "article_total": 3,
-    "article_slug": "2026-09-24-psihologiya-na-hazarta",
-    "stages": [
-      "Synthesis",
-      "Outline",
-      "Author",
-      "Humaniser",
-      "SEO",
-      "Brand Gate",
-      "Light re-check",
-      "Images",
-      "Verification",
-      "PR"
-    ],
-    "stage_index": 2,
-    "stage": "Author"
+    "article_slug": null,
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
+    "stage_index": null,
+    "stage": null
   }
 }
