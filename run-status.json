@@ -1,11 +1,11 @@
 {
   "state": "idle",
-  "run_started_utc": "2026-09-24T15:08:28Z",
-  "run_finished_utc": "2026-09-24T15:08:28Z",
+  "run_started_utc": "2026-09-24T17:10:00Z",
+  "run_finished_utc": "2026-09-24T17:10:00Z",
   "articles_written": 0,
   "prs_opened": [],
-  "run_url": "https://claude.ai/code/session_01LV622Z8tK1GazBeAcZjunW",
-  "note": "backfill: nothing to do (all review-ready articles have images) — 140 drafted/approved rows checked; all have img: annotation or are hub-intros with no-images spec; backfill job complete",
+  "run_url": "https://claude.ai/code/session_016H2T3t9FR9pHTaxrDGEV1X",
+  "note": "backfill: nothing to do (all review-ready articles have images) — 168 queue rows checked; all drafted/approved rows have img: annotation or are hub-intros with no-images spec; backfill job complete",
   "progress": {
     "phase": "done",
     "article_index": 0,
