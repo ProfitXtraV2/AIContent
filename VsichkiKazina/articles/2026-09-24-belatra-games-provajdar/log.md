@@ -1,4 +1,4 @@
-# Run log — 2026-09-24-belatra-games-provajdar (vk-0160)
+# Run log — 2026-09-24-belatra-games-provajdar (vk-0163)
 
 - 00-brief: assembled from research-bank candidate (Belatra) + web research (belatragames.com,
   SlotCatalog, ClashOfSlots, SlotsMate). Provider-profile scope (public provider facts, no
@@ -19,5 +19,5 @@
   beside the RTP table).
 
 ## Outcome
-05b final (human 90). 06-verification assembled. Ready for PR. Board: content-queue vk-0160 →
+05b final (human 90). 06-verification assembled. Ready for PR. Board: content-queue vk-0163 →
 drafted; research-topics Belatra row → used.
