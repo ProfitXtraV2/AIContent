@@ -28,3 +28,23 @@
 - 2026-09-24 · Stage 5b (humaniser light re-check): 05b-final-draft.md. Nothing in scope needed fixing
   (0 em-dashes, no signposting, no banned connectives, no over-polished tables; the 5-step list is a genuine
   how-to sequence kept). Fixed one em-dash that had entered via the infographic ALT text. NUMBER DIFF 05→05b: identical.
+- 2026-09-24 · Step 7 (external Gemini cross-model check, gemini-3.1-pro-preview): 3 checks.
+  Check 1 (initial 05b): "Shows AI patterns 75%" → human-likeness 25. Applied recs via fresh Humaniser pass 1
+  (cut counting-signposts, thinned „примерно", de-preached closers; untouchables preserved). Check 2: "85%" → 15.
+  Fresh Humaniser pass 2 (reworked intro/KYC opener off contrast hooks, flattened tension, cut neat bows,
+  varied list-intros; added 2 concrete value sentences to hold word count). Check 3: "75%" → 25.
+  Cap (2 Humaniser passes) reached; KEEP-BEST = pass-2 version (human-likeness 25, ties top, cleanest draft).
+  Below 80 target; logged for human (BG casino copy runs low; no compliance defect). 07-gemini-check-1..3.md.
+  NUMBER DIFF across all passes: every figure preserved (verified); both [VERIFY] flags + verbatim 18+/RG intact.
+- 2026-09-24 · Step 8 (images): hand-authored SVG flow infographic (images/pat-na-teglene-kyc-stapki.svg) with the
+  5-step flow (депозит → игра → заявка за теглене → верификация KYC → изплащане) + примерни срокове by method,
+  every number verbatim from 05b, „18+ Играйте отговорно." + „примерни" labels on-graphic. Optional decorative hero
+  (images/teglene-kyc-verifikaciya-hero.webp, 10.7 KB, document+shield+padlock metaphor, no people/text/logos).
+  Both referenced from 05b with Bulgarian ALT (+ caption for infographic). Gemini image review: 100/100 PASS,
+  no integrity failure (08-image-review-1.md). SVG rendered to PNG and eyeballed: no overlap/clipping.
+- 2026-09-24 · Step 6 prep: assembled 06-verification.md (2 surviving [VERIFY] — tax + operator-dependent timelines;
+  tax flagged not asserted; recalculation shown; verbatim-untouchables spot-check; images line). FLAGS LEFT IN TEXT.
+- 2026-09-24 · Final grep verification: 0 em-dashes; verbatim RG line present (inline + footer); Солидарност
+  0888 99 18 66 + регистър на уязвимите лица + /otgovorna-igra/ present; byline Георги Тодоров; brand exact
+  „Всички Казина"; 4 approved live internal links, no operator domains; prose ~1,009 words (1,000–1,800 ok);
+  title 48 chars, meta 146 chars; 2 [VERIFY] flags; 2 images (review 100). Status → drafted; human owns Step 6/publish.
