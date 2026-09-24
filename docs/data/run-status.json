@@ -5,14 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01GBBdgJXqt8MoWiEF9zCpAx",
-  "note": "daily run 2026-09-24 fire 3 — starting; reconciling leftovers, then selecting up to 3 new guide topics",
+  "note": "daily run 2026-09-24 fire 3 — writing 3 guides in parallel (psychology vk-0169, live-dealer vk-0170, tournaments vk-0171); backlog fully NV/НАП-blocked, drawn from research bank; Ahrefs 403 exhausted -> web fallback",
   "progress": {
-    "phase": "select",
-    "article_index": 0,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 3,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "article_slug": "2026-09-24-psihologiya-na-hazarta",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 2,
+    "stage": "Author"
   }
 }
