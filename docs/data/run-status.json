@@ -4,15 +4,16 @@
   "run_finished_utc": null,
   "articles_written": null,
   "prs_opened": [
-    181
+    181,
+    182
   ],
   "run_url": "https://claude.ai/code/session_01WDfQ3qJsf5AtRmto2YtbGp",
-  "note": "daily run 2026-09-24. Article 1 Belatra DONE (vk-0163, PR #181, human 90, images 100/100). Writing article 2 Swintt.",
+  "note": "daily run 2026-09-24. Articles 1-2 DONE: Belatra (vk-0163, PR #181, human 90, img 100/100), Swintt (vk-0164, PR #182, human 90, img 100/92). Writing article 3 Apollo Games.",
   "progress": {
     "phase": "writing",
-    "article_index": 2,
+    "article_index": 3,
     "article_total": 3,
-    "article_slug": "2026-09-24-swintt-provajdar",
+    "article_slug": "2026-09-24-apollo-games-provajdar",
     "stages": [
       "Synthesis",
       "Outline",
