@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-24T04:04:56Z",
+  "generated_utc": "2026-09-24T06:46:26Z",
   "buffer": {
-    "count": 138,
+    "count": 137,
     "target": 10,
     "deficit": 0,
     "ok": true
@@ -9,8 +9,8 @@
   "counts": {
     "in-progress": 0,
     "drafted": 130,
-    "approved": 8,
-    "posted": 26,
+    "approved": 7,
+    "posted": 27,
     "failed": 1
   },
   "rows": [
@@ -481,7 +481,7 @@
     },
     {
       "id": "vk-0025",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Live game shows (Crazy Time, Monopoly Live): как се играят",
       "keywords_or_terms": "crazy time, monopoly live, lightning roulette, live game show",
@@ -489,7 +489,7 @@
       "kd": "76",
       "source": "research",
       "drafted_date": "2026-09-09",
-      "posted_date": "",
+      "posted_date": "2026-09-24",
       "folder": "2026-09-09-live-game-shows",
       "pr": "#32",
       "gemini": "human 85",
