@@ -27,4 +27,17 @@
   limits list to prose (flows naturally as a sentence; over-listing tell). Zero em-dashes confirmed.
   NUMBER DIFF 05→05b: identical (45 tokens). Body 1048 words.
 - 2026-09-24 · Step 7 pass 1 (gemini_check.py, gemini-3.1-pro-preview): „Shows AI patterns, 75%" →
-  human-likeness 25/100 → below 80. Saved 07-gemini-check-1.md. Applying recs via fresh Humaniser (step-7b).
+  human-likeness 25/100 → below 80. Saved 07-gemini-check-1.md. Applied recs via fresh Humaniser (step-7b):
+  smoothed opener staccato, consolidated „(числата са примерни)" to a single declaration (brand still marks
+  all figures illustrative), renamed the translated-trope heading, removed two signposting setups, softened a
+  superlative. NUMBER DIFF preserved (values identical; one €50 token now trails a period after a paren removal).
+- 2026-09-24 · Step 7 pass 2 (fresh Humaniser + re-check): „Shows strong AI patterns, 85%" → human-likeness
+  15/100 (detector noise; lower than pass 1). Saved 07-gemini-check-2.md. Applied a 2nd fresh Humaniser pass:
+  cut the „не X, а Y" contrastive habit (the top BG tell) to two intentional uses, replaced the „съд" metaphor
+  with сметка/баланс/бюджет, wove the сесиен-банкрол definition into the €200→4×€50 scenario, deleted the
+  formulaic summary sentence in the closing. NUMBER DIFF: multiset identical to original 05b.
+- 2026-09-24 · Step 7 pass 3 (re-check): „Predominantly human-written or heavily human-edited, 75%" →
+  human-likeness 75/100. Saved 07-gemini-check-3.md. Humaniser pass cap (2) reached → STOP.
+  KEEP-BEST across versions: A(baseline)=25, B(pass1)=15, C(pass2)=75 → winner = C, which is the current 05b.
+  Below the 80 target but highest seen; per policy keep the best version and log for the human (detectors are noisy).
+  No untouchable (numbers/links/18+/RG/disclosure/dates/byline/brand) altered in any pass. Final 05b = version C.
