@@ -41,3 +41,18 @@
   KEEP-BEST across versions: A(baseline)=25, B(pass1)=15, C(pass2)=75 → winner = C, which is the current 05b.
   Below the 80 target but highest seen; per policy keep the best version and log for the human (detectors are noisy).
   No untouchable (numbers/links/18+/RG/disclosure/dates/byline/brand) altered in any pass. Final 05b = version C.
+- 2026-09-24 · Step 8 (images): hand-authored SVG infographic (bankrol-razpredelenie-zalog-limiti.svg) with
+  every number verbatim from 05b (€200, 1%/€2, 2%/€4, 5%/€10, 4×€50, €50 stop-loss, €75→€50 win-limit; labelled
+  примерни) + decorative AI hero (bankrol-byudzhet-hero.webp, gemini-3-pro-image, 25.5 KB, wallet+safe+portioned-
+  tray metaphor, no people/logos/glamorised winning). Referenced both in 05b (hero under H1, infographic beside
+  its data with BG ALT + caption). Gemini image review pass 1 = 90 (SVG accent-strip square corners poking past
+  rounded cards) → image fix pass 1 (inset+rounded strips) → pass 2 = 100 PASS, all figures verified 1:1, no
+  integrity/layout defect. Rendered SVG→PNG locally (cairosvg) to eyeball layout before shipping. KEEP-BEST = 100.
+- 2026-09-24 · Step 6 prep: assembled 06-verification.md (0 surviving flags; 0 time-sensitive operator claims;
+  illustrative-number table; budget/unit/session/win recalculation shown; verbatim-untouchables spot-check;
+  Gemini verdict 75 / 2 passes / kept C; images 2 / best review 100; human-action list). FLAGS LEFT IN TEXT (none).
+- Final grep verification: 0 em-dashes; verbatim 18+/RG line present (inline + footer); affiliate footer present;
+  Солидарност + регистър + 0888 99 18 66 + 10:00–17:00 present; byline Георги Тодоров; brand „Всички Казина" ×3;
+  exactly 3 approved internal links, no strays, no operator/affiliate link; key numbers (€800/3%/€24, €200/1%/€2/
+  2%/€4/5%/€10, 4×€50, €150, €50, €75, 24–72) all present and consistent; body 1,027 words (guide range).
+- Status → drafted. drafted_date 24.09.2026. Not posted, not merged; human owns Step 6/publish.
