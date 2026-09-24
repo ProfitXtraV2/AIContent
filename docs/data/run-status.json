@@ -1,17 +1,32 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-09-24T07:10:28Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-09-24T07:54:09Z",
+  "articles_written": 3,
+  "prs_opened": [
+    184,
+    185,
+    186
+  ],
   "run_url": "https://claude.ai/code/session_01UJza6QLP6jYajQhokZe2ck",
-  "note": "daily run 2026-09-24 (fire 2) — starting; reconcile in-progress (none) then write up to 3 new guides",
+  "note": "daily run 2026-09-24 (fire 2) DONE. 0 in-progress reconciled. Buffer 137->140 (floor 10, NO cap, kept building). Backlog: all 10 open rows NV-Casino operator/НАП-blocked under guides-only -> left open+blocked (already Ahrefs-enriched; key exhausted, no re-pull). Wrote MAX_PER_RUN=3 NEW distinct evergreen guide pillars from research bank (backlog fully NV-blocked): Bankroll mgmt (vk-0166, PR #185, gate 93, Gemini HL75/ai25, img:2 best100, 0 flags, 1027w); RNG/fair-play (vk-0167, PR #186, gate 90, Gemini HL25/ai75 keep-best v0, img:3 best100, 1 [VERIFY] iTech accred, 1079w; distinct from providers hub vk-0054); Withdrawal+KYC (vk-0168, PR #184, gate 90, Gemini HL25/ai75 keep-best p2, img:2 best100, 2 [VERIFY] tax+timelines, 1009w). All dedup-clean vs content-queue + live sitemap (mobile candidate DROPPED: covered by live /mobilni-kazina/). GEMINI ONLINE (text+image); text detector runs low on BG casino copy (noisy, market baseline ~25) -> kept-best per policy, logged for human, all untouchables preserved. Images all 0 integrity (hand-SVG numbers verbatim to 05b + decorative AI heroes; no faces/logos/fabricated numbers). 3 surviving [VERIFY] total routed to human (RNG 1, KYC 2). Each article hard-rule validated: 0 em-dashes, byline Георги Тодоров, brand Всички Казина, verbatim RG line + /otgovorna-igra/ + НАП регистър + Солидарност, 0 [DATA NEEDED]. AHREFS KEY exhausted (per-key quota 9 units; workspace units misleading) -> web fallback, no new pulls (web candidates WAIT for key reset). 3 research rows -> used; bank replenished with 3 new distinct candidates (casino tournaments / gambling-psychology cognitive-traps / live-dealer how-it-works) -> 4 candidates buffer (healthy, not padded). Feed refreshed (7 approved unchanged; new articles are drafted). One content PR per article (article-dir+images only); board on main. NEVER resolved a flag/posted/merged. Human owns Step 6 flag-resolution/approve/merge/publish.",
   "progress": {
-    "phase": "writing",
-    "article_index": 1,
+    "phase": "done",
+    "article_index": 3,
     "article_total": 3,
     "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
     "stage_index": null,
     "stage": null
   }
