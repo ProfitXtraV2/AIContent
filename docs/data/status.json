@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-24T07:53:45Z",
+  "generated_utc": "2026-09-24T22:20:00Z",
   "buffer": {
     "count": 140,
     "target": 10,
@@ -7,7 +7,7 @@
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
+    "in-progress": 3,
     "drafted": 133,
     "approved": 7,
     "posted": 27,
@@ -3036,6 +3036,57 @@
       "pr": "#184",
       "gemini": "ai 75",
       "notes": "evergreen process guide; generic KYC/AML + законова рамка (България/НАП concept-level), no operator T&C/register query; gate 90/100 0-crit; Gemini Step-7 HL 25->15->25 KEEP-BEST pass-2 (25=ai 75; detector low на BG casino copy, logged for human); img:2 (5-step withdrawal-flow SVG + примерни срокове by method numbers verbatim to 05b + document/shield hero; review 100 PASS 0 integrity); 2 [VERIFY] (TAX данъчно третиране flagged NOT asserted; TIMELINES примерни/оператор-зависими); ~1009w 0 em-dashes; 4 internal links, no affiliate; Ahrefs KEY exhausted web-est vol blank",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0169",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Психология на хазарта: gambler's fallacy, near-miss и илюзията за контрол",
+      "keywords_or_terms": "психология на хазарта, gambler's fallacy, заблуда на комарджията, near miss казино",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-24",
+      "posted_date": "",
+      "folder": "2026-09-24-psihologiya-na-hazarta",
+      "pr": "",
+      "gemini": "",
+      "notes": "RG-education pillar; когнитивни капани; distinct от RNG (vk-0167 механика) и банкрол (vk-0166) -> fold-in линкове; guides-only 0 оператор/НАП; Ahrefs 403 exhausted -> web checked",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0170",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Как работи казино на живо (live dealer): технология, дилъри и честна игра",
+      "keywords_or_terms": "казино на живо как работи, live казино технология, дилъри на живо",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-24",
+      "posted_date": "",
+      "folder": "2026-09-24-kazino-na-zhivo-kak-raboti",
+      "pr": "",
+      "gemini": "",
+      "notes": "how-it-works pillar; ANTI-CANNIBAL: технология/механика (GCU/OCR/стрийминг/честност) НЕ листинг -> distinct от category /kazino-igri/kazino-na-zhivo/ и live-game-shows vk-0025; guides-only 0 оператор/НАП; Ahrefs 403 -> web checked",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0171",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Казино турнири и промоции: как работят наградите и лидербордите",
+      "keywords_or_terms": "казино турнири, слот турнири, лидерборд казино, казино промоции",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-24",
+      "posted_date": "",
+      "folder": "2026-09-24-kazino-turniri",
+      "pr": "",
+      "gemini": "",
+      "notes": "concept-pillar; механика точки/класиране/награден фонд; distinct от bonus-типове; guides-only без конкретни оператор-промоции; Ahrefs 403 -> web checked",
       "opportunity": null
     }
   ],
