@@ -1,0 +1,54 @@
+<svg viewBox="0 0 720 410" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Arial, Helvetica, sans-serif" aria-label="Домашно предимство по залог в Дракон Тигър при стандартни осем тестета: Дракон и Тигър с изплащане 1:1 имат предимство 3,73%; Равенство с изплащане 8:1 има 32,77% (при 11:1 пада на 10,36%); Suited Tie с изплащане 50:1 има 13,98%. Примерни очаквани загуби при 1000 евро оборот: около 37 евро на Дракон или Тигър, около 328 евро на Равенство и около 140 евро на Suited Tie.">
+  <title>Дракон Тигър: домашно предимство по залог</title>
+  <desc>Хоризонтална диаграма на домашното предимство за трите залога в Дракон Тигър, с примерни очаквани загуби при 1000 евро оборот.</desc>
+
+  <!-- Card -->
+  <rect x="0" y="0" width="720" height="410" rx="18" fill="#0f172a"/>
+
+  <!-- Title + subtitle -->
+  <text x="36" y="40" font-size="20" font-weight="700" fill="#f8fafc">Дракон Тигър: домашно предимство по залог</text>
+  <text x="36" y="62" font-size="12" fill="#94a3b8">При стандартни осем тестета · по-ниското домашно предимство е по-добро за играча</text>
+
+  <!-- 18+ mark -->
+  <rect x="654" y="22" width="40" height="22" rx="6" fill="none" stroke="#475569" stroke-width="1.5"/>
+  <text x="674" y="38" font-size="12" font-weight="700" fill="#94a3b8" text-anchor="middle">18+</text>
+
+  <!-- Gridlines: 0/10/20/30% (scale 0–35%, x0=240, 12.857 px per %) -->
+  <line x1="240" y1="112" x2="240" y2="262" stroke="#1e293b" stroke-width="1"/>
+  <line x1="369" y1="112" x2="369" y2="262" stroke="#1e293b" stroke-width="1"/>
+  <line x1="497" y1="112" x2="497" y2="262" stroke="#1e293b" stroke-width="1"/>
+  <line x1="626" y1="112" x2="626" y2="262" stroke="#1e293b" stroke-width="1"/>
+  <text x="240" y="278" font-size="10" fill="#64748b" text-anchor="middle">0%</text>
+  <text x="369" y="278" font-size="10" fill="#64748b" text-anchor="middle">10%</text>
+  <text x="497" y="278" font-size="10" fill="#64748b" text-anchor="middle">20%</text>
+  <text x="626" y="278" font-size="10" fill="#64748b" text-anchor="middle">30%</text>
+
+  <!-- Row 1: Дракон / Тигър — 3,73% (low, green) -->
+  <text x="36" y="134" font-size="14" font-weight="700" fill="#e2e8f0">Дракон / Тигър</text>
+  <text x="36" y="150" font-size="11" fill="#94a3b8">изплащане 1:1</text>
+  <rect x="240" y="125" width="48" height="26" rx="4" fill="#22c55e"/>
+  <text x="296" y="143" font-size="13" font-weight="700" fill="#22c55e" text-anchor="start">3,73%</text>
+
+  <!-- Row 2: Равенство — 32,77% (high, red) -->
+  <text x="36" y="186" font-size="14" font-weight="700" fill="#e2e8f0">Равенство (Tie)</text>
+  <text x="36" y="202" font-size="11" fill="#94a3b8">изплащане 8:1</text>
+  <rect x="240" y="177" width="421" height="26" rx="4" fill="#ef4444"/>
+  <text x="651" y="195" font-size="13" font-weight="700" fill="#ffffff" text-anchor="end">32,77%</text>
+
+  <!-- Row 3: Suited Tie — 13,98% (amber) -->
+  <text x="36" y="238" font-size="14" font-weight="700" fill="#e2e8f0">Suited Tie</text>
+  <text x="36" y="254" font-size="11" fill="#94a3b8">изплащане 50:1</text>
+  <rect x="240" y="229" width="180" height="26" rx="4" fill="#f59e0b"/>
+  <text x="410" y="247" font-size="13" font-weight="700" fill="#0f172a" text-anchor="end">13,98%</text>
+
+  <!-- Variant note -->
+  <text x="36" y="302" font-size="12" fill="#cbd5e1">Равенство при изплащане 11:1 вместо 8:1: домашно предимство 10,36%.</text>
+
+  <!-- Example strip (illustrative) -->
+  <rect x="36" y="316" width="648" height="50" rx="8" fill="#1e293b"/>
+  <text x="52" y="338" font-size="12" font-weight="700" fill="#e2e8f0">Пример (примерни числа): при €1000 оборот очакваната загуба е</text>
+  <text x="52" y="357" font-size="12" fill="#cbd5e1">~€37 на Дракон/Тигър · ~€328 на Равенство · ~€140 на Suited Tie</text>
+
+  <!-- Footer -->
+  <text x="360" y="390" font-size="11" fill="#64748b" text-anchor="middle">Дългосрочна статистика, не прогноза за сесията · 18+ Играйте отговорно · vsichkikazina.bg</text>
+</svg>
