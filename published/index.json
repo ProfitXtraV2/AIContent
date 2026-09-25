@@ -1,14 +1,7 @@
 {
   "schema_version": 1,
-  "count": 7,
+  "count": 6,
   "articles": [
-    {
-      "slug": "sugar-rush-1000",
-      "title": "Sugar Rush 1000: какво променя версията 1000",
-      "date_modified": "2026-09-10",
-      "content_hash": "1c5888b2731f657e305b2f77dcea3db6bd1725e520b6e12e19662d12328d5c84",
-      "status": "approved"
-    },
     {
       "slug": "starburst",
       "title": "Starburst: защо е класика с ниска волатилност",
@@ -20,21 +13,21 @@
       "slug": "hub-intro-casino-payments",
       "title": "Казино плащания: депозити и тегления в БГ казина",
       "date_modified": "2026-09-19",
-      "content_hash": "15bd1840413b2b2ec447082ca7076f03e151c31ff783d5e92b9fcf608f0728d5",
+      "content_hash": "a65fd26321d0131c74639026f3f6cc8c5dce8be8b078075a25e4b416d1925f61",
       "status": "approved"
     },
     {
       "slug": "hub-intro-bonuses-vip",
       "title": "Казино бонуси и VIP: какво да проверите",
       "date_modified": "2026-09-19",
-      "content_hash": "1736d3b440bc9b94e62134d40395aac3a427f015a849ea7831c4f114a78c463a",
+      "content_hash": "9aca2849280b239225072fb5f96b87367129ceb351677d25073b8a36ec89cc35",
       "status": "approved"
     },
     {
       "slug": "hub-intro-regulations-taxes",
       "title": "Регулации и данъци в онлайн хазарта в България",
       "date_modified": "2026-09-19",
-      "content_hash": "f207601b8f1d080dec3c9700d5fd21d715fef5b7d26b9ccc273346d4d0c296e5",
+      "content_hash": "92ce1f91d0244e2d7df7e647022cf908e199375e0665ec72f35924036977f634",
       "status": "approved"
     },
     {
@@ -52,5 +45,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-09-25T03:40:36Z"
+  "generated_utc": "2026-09-25T06:40:28Z"
 }

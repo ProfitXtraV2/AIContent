@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-25T03:40:36Z",
+  "generated_utc": "2026-09-25T06:40:28Z",
   "buffer": {
-    "count": 146,
+    "count": 145,
     "target": 10,
     "deficit": 0,
     "ok": true
@@ -9,8 +9,8 @@
   "counts": {
     "in-progress": 0,
     "drafted": 139,
-    "approved": 7,
-    "posted": 27,
+    "approved": 6,
+    "posted": 28,
     "failed": 1
   },
   "rows": [
@@ -638,7 +638,7 @@
     },
     {
       "id": "vk-0033",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Sugar Rush 1000: какво променя версията 1000",
       "keywords_or_terms": "sugar rush 1000, сугар ръш 1000",
@@ -646,7 +646,7 @@
       "kd": "",
       "source": "research",
       "drafted_date": "2026-09-10",
-      "posted_date": "",
+      "posted_date": "2026-09-25",
       "folder": "2026-09-10-sugar-rush-1000",
       "pr": "#39",
       "gemini": "human 90",
