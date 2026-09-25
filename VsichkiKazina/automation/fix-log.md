@@ -964,3 +964,50 @@ billing.
 
 ### Deferred (over nightly cap of 10)
 None — 5 JOB-A branches (2 also JOB-B) + 6 JOB-B rows processed, all under the cap.
+
+## 2026-09-25 — nightly flag + score fixes
+
+Run confirmed the state is unchanged from 2026-09-24 and **no change was safely actionable tonight**.
+
+### JOB A — publish-blocking flags
+Scanned all 181 `content/*` branches' `05b-final-draft.md`. Only **2 distinct flagged files**
+exist across the whole fleet, both belonging to **posted/live** articles (every other branch
+merely inherited stale copies of these two files; their own articles are flag-free):
+- **vk-0064** `2026-09-13-nv-casino-bonus-usloviya` (posted): line 65 still carries
+  `[AUTHOR BIO BLOCK: Георги Тодоров] [BRAND BOILERPLATE: Всички Казина] [18+ / RG LINE]`.
+- **vk-0063** `2026-09-13-nv-casino-zakonno-li-e` (posted): line 56 still carries
+  `[AUTHOR BIO BLOCK: Георги Тодоров] [About Всички Казина boilerplate]`.
+
+Both are posted and their placeholders are ALSO present in the **live** mirror
+(`published/nv-casino-bonus-usloviya/article.md` line 60,
+`published/nv-casino-zakonno-li-e/article.md` line 51). Per HARD RULES (never touch posted/live
+content) these were **not edited** — see POSTED-needs-human-review below. **0 flags fixed
+(0 safely fixable).**
+
+### JOB B — low Gemini score improvements
+Board targets (status ∈ drafted/approved, verdict `ai n` or `human n<80`): **3 rows**, all `ai 75`
+— vk-0167 (rng), vk-0168 (kyc-verifikaciya), vk-0171 (kazino-turniri). All three were already
+humanised across multiple attempts on 2026-09-24 (detector oscillates ai 75↔80, cleanest prose
+kept). **Gemini API is still returning HTTP 402 (prepayment credits depleted)** — verified
+tonight against vk-0167. Without a working detector the check→humanise→re-check loop cannot run,
+and re-humanising already-cleaned prose blind (no way to measure) would risk regression with no
+safety net. All 3 **deferred pending Gemini billing top-up** (not re-edited). The 39 `skipped`
+drafts likewise have no verdict because Gemini was offline when they were drafted — out of JOB-B
+scope (not low-rated), and equally blocked until billing is restored.
+
+### ⚠ Environment issue — Gemini API credits depleted (UNRESOLVED, 2nd night)
+`gemini_check.py` returns **HTTP 402 RESOURCE_EXHAUSTED — "Your prepayment credits are
+depleted."** This blocks the entire Step-7 score-check pipeline: the nightly drafter (hence the
+39 `skipped` drafts) AND this quality fixer. **Needs human action: top up prepayment in Google
+AI Studio billing (https://ai.studio/projects).** Until then, no Gemini scoring is possible.
+
+### POSTED — needs human review (recurring, still open)
+- **vk-0063** `2026-09-13-nv-casino-zakonno-li-e` (PR #79, posted, `ai 75`): `[AUTHOR BIO BLOCK]
+  [About Всички Казина boilerplate]` on branch AND live page. A human should fill the author
+  block off the live path before any re-publish.
+- **vk-0064** `2026-09-13-nv-casino-bonus-usloviya` (PR #80, posted, `human 85`):
+  `[AUTHOR BIO BLOCK] [BRAND BOILERPLATE] [18+ / RG LINE]` on branch AND live page. A human
+  should fill the author/brand/RG blocks off the live path before any re-publish.
+
+### Deferred (pending Gemini billing)
+- vk-0167, vk-0168, vk-0171 — 3 `ai 75` rows; can't re-check/verify until Gemini billing restored.
