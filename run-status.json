@@ -1,17 +1,17 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-24T17:10:00Z",
-  "run_finished_utc": "2026-09-24T17:10:00Z",
-  "articles_written": 0,
+  "state": "running",
+  "run_started_utc": "2026-09-25T07:14:56Z",
+  "run_finished_utc": null,
+  "articles_written": null,
   "prs_opened": [],
-  "run_url": "https://claude.ai/code/session_016H2T3t9FR9pHTaxrDGEV1X",
-  "note": "backfill: nothing to do (all review-ready articles have images) — 168 queue rows checked; all drafted/approved rows have img: annotation or are hub-intros with no-images spec; backfill job complete",
+  "run_url": "https://claude.ai/code/session_011S1vkPv27KSZc8C47CrAAA",
+  "note": "daily run 2026-09-25 (recurring fire) — 0 in-progress to reconcile; writing 3 NEW guide pillars from research bank (Dragon Tiger, Three Card Poker, Gamble/Double slot mechanic). Buffer 145 (floor 10, no cap). Gemini + Ahrefs pre-checked: Gemini HTTP 402 (offline), will skip per Step7/8.",
   "progress": {
-    "phase": "done",
-    "article_index": 0,
-    "article_total": 0,
+    "phase": "selecting",
+    "article_index": 1,
+    "article_total": 3,
     "article_slug": null,
-    "stages": [],
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
     "stage_index": null,
     "stage": null
   }
