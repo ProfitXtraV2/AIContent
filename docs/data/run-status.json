@@ -5,14 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01MM6oGzJ38DQuN4VFBYJVYT",
-  "note": "daily run 2026-09-25 fire — starting; reconciling (0 in-progress), selecting batch",
+  "note": "daily run 2026-09-25 fire — 0 in-progress reconciled; backlog fully NV-blocked (guides-only); wrote 3 in-progress rows vk-0172..0174 (RG-tools/videopoker/sic-bo) from research bank; researching+writing",
   "progress": {
-    "phase": "selecting",
-    "article_index": 0,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 3,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "article_slug": "2026-09-25-instrumenti-za-otgovorna-igra",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }

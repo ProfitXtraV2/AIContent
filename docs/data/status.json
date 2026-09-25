@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-24T23:40:10Z",
+  "generated_utc": "2026-09-25T03:15:31Z",
   "buffer": {
     "count": 143,
     "target": 10,
@@ -7,7 +7,7 @@
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
+    "in-progress": 3,
     "drafted": 136,
     "approved": 7,
     "posted": 27,
@@ -3087,6 +3087,57 @@
       "pr": "#189",
       "gemini": "ai 75",
       "notes": "concept-pillar; механика точки/класиране/награден фонд; distinct от bonus-типове (турнир=класация, не бонус); guides-only без конкретни оператор-промоции (примерни числа); gate 93/100 0 crit; Gemini HL15->25 kept best p2 (ai 75; style-only, human polish flagged); 0 [VERIFY]; img:2 (podium hero + €1000 prize-split SVG, review 100 PASS, 0 integrity; €350+€200+€100+7×€50=€1000 verified); ~932w; Ahrefs 403 -> web checked",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0172",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Инструменти за отговорна игра: депозитни лимити, самоизключване и регистърът на НАП",
+      "keywords_or_terms": "депозитен лимит, самоизключване казино, отговорна игра инструменти, регистър уязвими лица",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-25",
+      "posted_date": "",
+      "folder": "2026-09-25-instrumenti-za-otgovorna-igra",
+      "pr": "",
+      "gemini": "",
+      "notes": "RG-tools guide; guides-only safe (public self-exclusion mechanism, 0 operator T&C); web-est vol (Ahrefs 403-exhausted, reset 2026-10-02)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0173",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Видеопокер: правила, вариации (Jacks or Better, Deuces Wild) и базова стратегия",
+      "keywords_or_terms": "видеопокер, video poker правила, jacks or better, deuces wild",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-25",
+      "posted_date": "",
+      "folder": "2026-09-25-videopoker-pravila-variatsii",
+      "pr": "",
+      "gemini": "",
+      "notes": "game-rules pillar; distinct от казино покер /blog/kak-se-igrae-poker-kazino/ (соло vs paytable); web-est vol",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0174",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Сик Бо (Sic Bo): правила, видове залози и шансове",
+      "keywords_or_terms": "sic bo, сик бо, sic bo правила, зарове казино",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-25",
+      "posted_date": "",
+      "folder": "2026-09-25-sic-bo-pravila-zalozi",
+      "pr": "",
+      "gemini": "",
+      "notes": "table/live dice-game pillar; links to live-dealer; web-est vol",
       "opportunity": null
     }
   ],
