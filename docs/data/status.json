@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-25T07:43:40Z",
+  "generated_utc": "2026-09-25T22:43:09Z",
   "buffer": {
-    "count": 148,
+    "count": 151,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 142,
+    "drafted": 145,
     "approved": 6,
     "posted": 28,
     "failed": 1
@@ -3190,6 +3190,57 @@
       "gemini": "skipped",
       "notes": "slot-mechanic pillar; непокрит standalone (споменат само в 20SH); линкове към paytable/autoplay guides; web-est vol. gate 94, ~1061w, img:1 infographic (survival ladder 0.5^N). Gemini text+image 402-offline (skipped). 0 flags; fair-50/50 math sourced+recalculated",
       "opportunity": null
+    },
+    {
+      "id": "vk-0178",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Ultimate Texas Hold'em: правила, залози и базова стратегия",
+      "keywords_or_terms": "ultimate texas holdem, ultimate texas hold'em правила, ultimate texas holdem стратегия",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-25",
+      "posted_date": "",
+      "folder": "2026-09-25-ultimate-texas-holdem",
+      "pr": "#196",
+      "gemini": "skipped",
+      "notes": "НОВ table-game pillar; poker-based game vs дилъра, distinct от казино покер overview (vk-0008 /blog/kak-se-igrae-poker-kazino/) и три карти покер (vk-0176) — различна игра (Ante+Blind+Trips, community карти); web-est vol (Ahrefs key ~exhausted, reset 2026-10-15). gate 94, ~1147w, img:1 infographic (element-of-risk 0.53% vs 2.185% ante + 4x/2x/1x ladder). Gemini text+image 402-offline (skipped). 0 flags; RTP + Blind-ordering recalculated",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0179",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Andar Bahar: правила, залози и шансове",
+      "keywords_or_terms": "andar bahar, андар бахар, andar bahar правила, andar bahar шансове",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-25",
+      "posted_date": "",
+      "folder": "2026-09-25-andar-bahar",
+      "pr": "#197",
+      "gemini": "skipped",
+      "notes": "НОВ live-card pillar; индийска игра на съвпадение, distinct от Бакара (vk-0012) и Дракон Тигър (vk-0175) — механика на редуване Andar/Bahar до съвпадение; web-est vol. gate 93, ~1066w, img:1 infographic (51.5%/48.5% + 0.90:1/2.15% vs 1:1/3.00%). Gemini text+image 402-offline (skipped). 0 flags; edges recalculated; sources Wizard of Odds + Pagat (Wikipedia=film, excluded)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0180",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Casino War (Казино война): правила и домашно предимство",
+      "keywords_or_terms": "casino war, казино война, casino war правила, казино война шансове",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-25",
+      "posted_date": "",
+      "folder": "2026-09-25-casino-war-kazino-voina",
+      "pr": "#198",
+      "gemini": "skipped",
+      "notes": "НОВ table-game pillar; най-простата казино игра (една карта всеки), distinct от Бакара/Дракон Тигър — механика на войната при равен, tie страничен залог; web-est vol. gate 94, ~1014w, img:1 infographic (2.88% война / 3.70% предаване / 18.65% tie bet, 6 тестета). Gemini text+image 402-offline (skipped). 0 flags; war-outcome conflict resolved to Wizard of Odds; RTP recalculated; 2.70%/2.88% labels distinct",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -6192,7 +6243,7 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "НОВ table-game pillar; непокрит (0 ultimate texas row). Distinct от Три карти покер (vk-0176, 3 карти) и общия покер overview (vk-0008) — 5-карти community, Ante/Blind/Play срещу дилъра. Guides-only: правила+стратегия+домашно предимство, 0 оператор/НАП; факти от Wizard of Odds. Ahrefs key ~exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери 'ultimate texas holdem'/'ултимейт тексас холдем'",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-25",
       "opportunity": null
     },
@@ -6206,7 +6257,7 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "НОВ live-card pillar; непокрит (0 andar bahar row). Проста индийска игра с 1 карта-жокер, разпространена в live лобита; distinct от Дракон Тигър/Бакара/Сик Бо. Guides-only: правила+шансове, 0 оператор/НАП. Ahrefs key ~exhausted (reset 2026-10-15), web-оценка, WAITS for reset; нисък очакван BG обем — провери 'andar bahar'/'андар бахар'",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-25",
       "opportunity": null
     },
@@ -6220,6 +6271,48 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "НОВ table-game pillar; непокрит (0 casino war row). Най-простата карти игра (по-висока карта печели, война при равен); добра тема за начинаещи; distinct cluster. Guides-only: правила+домашно предимство, 0 оператор/НАП; факти от Wizard of Odds. Ahrefs key ~exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери 'casino war'/'казино война'",
+      "status": "used",
+      "date_researched": "2026-09-25",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Pai Gow Poker (Пай Гоу покер): правила, залози и стратегия",
+      "researched_keywords": "pai gow poker, пай гоу покер, pai gow правила, покер срещу дилър",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "НОВ table-poker pillar; непокрит (0 pai gow row). Distinct от Ultimate Texas Hold'em (vk-0178), Три карти покер (vk-0176), казино покер overview (vk-0008) — 7 карти, разделяне на висока (5) и ниска (2) ръка, комисиона 5%; факти от Wizard of Odds. Ahrefs key ~exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери 'pai gow poker'/'пай гоу покер'",
+      "status": "candidate",
+      "date_researched": "2026-09-25",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Red Dog (Ред Дог): правила, залози и шансове",
+      "researched_keywords": "red dog, ред дог казино, red dog правила, acey deucey",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "НОВ card-game pillar; непокрит (0 red dog row). Distinct от Casino War (vk-0180), Бакара (vk-0012), Дракон Тигър (vk-0175) — залог дали трета карта пада между първите две (spread), предимство по ширина на spread; факти от Wizard of Odds. Ahrefs key ~exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери 'red dog'/'ред дог'",
+      "status": "candidate",
+      "date_researched": "2026-09-25",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Mines (Майнс): как работи играта, RTP и рискови нива",
+      "researched_keywords": "mines, майнс игра, mines казино, mines rtp",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "НОВ instant-game pillar; непокрит (0 mines row). Distinct от Plinko (vk-0133), Aviator/крас игри (vk-0014) — грид с скрити мини, множител расте с всяко безопасно поле, cash-out решение; provider RTP + game-DB, NOT operator T&C/НАП. Ahrefs key ~exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери 'mines'/'майнс игра'",
       "status": "candidate",
       "date_researched": "2026-09-25",
       "opportunity": null
