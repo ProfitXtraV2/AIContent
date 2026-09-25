@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 470" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="Домашно предимство при различните залози в Сик Бо">
+  <rect x="6" y="6" width="728" height="458" rx="16" fill="#0f172a"/>
+  <text x="30" y="42" fill="#f8fafc" font-size="20" font-weight="700">Домашно предимство по вид залог в Сик Бо</text>
+  <text x="30" y="66" fill="#94a3b8" font-size="13">стандартна таблица · по-ниско = по-добре за играча · скала 0–20%</text>
+
+  <!-- Row 1: Малко/Голямо 2.78 -->
+  <text x="28" y="104" fill="#e2e8f0" font-size="14">Малко / Голямо</text>
+  <rect x="280" y="88" width="50" height="22" rx="4" fill="#10b981"/>
+  <text x="338" y="104" fill="#e2e8f0" font-size="14" font-weight="700">2.78%</text>
+
+  <!-- Row 2: Единично число 7.87 -->
+  <text x="28" y="152" fill="#e2e8f0" font-size="14">Единично число</text>
+  <rect x="280" y="136" width="142" height="22" rx="4" fill="#eab308"/>
+  <text x="430" y="152" fill="#e2e8f0" font-size="14" font-weight="700">7.87%</text>
+
+  <!-- Row 3: Който и да е трипл 13.89 -->
+  <text x="28" y="200" fill="#e2e8f0" font-size="14">Който и да е трипл</text>
+  <rect x="280" y="184" width="250" height="22" rx="4" fill="#d97706"/>
+  <text x="538" y="200" fill="#e2e8f0" font-size="14" font-weight="700">13.89%</text>
+
+  <!-- Row 4: Обща сума 4/17 15.28 -->
+  <text x="28" y="248" fill="#e2e8f0" font-size="14">Обща сума 4 или 17</text>
+  <rect x="280" y="232" width="275" height="22" rx="4" fill="#ea580c"/>
+  <text x="563" y="248" fill="#e2e8f0" font-size="14" font-weight="700">15.28%</text>
+
+  <!-- Row 5: Конкретен трипл 180:1 16.20 -->
+  <text x="28" y="296" fill="#e2e8f0" font-size="14">Конкретен трипл (180:1)</text>
+  <rect x="280" y="280" width="292" height="22" rx="4" fill="#ea580c"/>
+  <text x="580" y="296" fill="#e2e8f0" font-size="14" font-weight="700">16.20%</text>
+
+  <!-- Row 6: Комбинация две зара 16.67 -->
+  <text x="28" y="344" fill="#e2e8f0" font-size="14">Комбинация две зара</text>
+  <rect x="280" y="328" width="300" height="22" rx="4" fill="#dc2626"/>
+  <text x="588" y="344" fill="#e2e8f0" font-size="14" font-weight="700">16.67%</text>
+
+  <!-- Row 7: Конкретна двойка 18.52 -->
+  <text x="28" y="392" fill="#e2e8f0" font-size="14">Конкретна двойка</text>
+  <rect x="280" y="376" width="333" height="22" rx="4" fill="#dc2626"/>
+  <text x="621" y="392" fill="#e2e8f0" font-size="14" font-weight="700">18.52%</text>
+
+  <!-- Row 8: Сума 9/12 най-лош 18.98 -->
+  <text x="28" y="440" fill="#e2e8f0" font-size="14">Сума 9 или 12 (най-лош)</text>
+  <rect x="280" y="424" width="342" height="22" rx="4" fill="#b91c1c"/>
+  <text x="630" y="440" fill="#e2e8f0" font-size="14" font-weight="700">18.98%</text>
+
+  <text x="706" y="66" fill="#64748b" font-size="12" text-anchor="end">18+</text>
+</svg>
