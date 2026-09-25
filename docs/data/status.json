@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-25T03:31:49Z",
+  "generated_utc": "2026-09-25T03:40:36Z",
   "buffer": {
-    "count": 145,
+    "count": 146,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 1,
-    "drafted": 138,
+    "in-progress": 0,
+    "drafted": 139,
     "approved": 7,
     "posted": 27,
     "failed": 1
@@ -3091,7 +3091,7 @@
     },
     {
       "id": "vk-0172",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Инструменти за отговорна игра: депозитни лимити, самоизключване и регистърът на НАП",
       "keywords_or_terms": "депозитен лимит, самоизключване казино, отговорна игра инструменти, регистър уязвими лица",
@@ -3101,9 +3101,9 @@
       "drafted_date": "2026-09-25",
       "posted_date": "",
       "folder": "2026-09-25-instrumenti-za-otgovorna-igra",
-      "pr": "",
-      "gemini": "",
-      "notes": "RG-tools guide; guides-only safe (public self-exclusion mechanism, 0 operator T&C); web-est vol (Ahrefs 403-exhausted, reset 2026-10-02)",
+      "pr": "#192",
+      "gemini": "skipped",
+      "notes": "RG-tools guide; guides-only safe (public self-exclusion mechanism, 0 operator T&C); web-est vol (Ahrefs 403-exhausted, reset 2026-10-02) · img:1 (ladder infographic; hero+review skipped, Gemini 402)",
       "opportunity": null
     },
     {
@@ -4391,7 +4391,7 @@
       "intent": "informational",
       "trend": "",
       "checked": "web",
-      "suggestion": "Игрален-механизъм explainer с честен математически ъгъл (цената на бонуса vs очаквано връщане; купуването НЕ подобрява RTP, обикновено го изравнява/влошава); writable без да твърди BG наличност при оператори (образователен, не оператор-специфичен); distinct pillar; фолд-ин към слот-explainer-ите. Web-оценка на обема · USED → vk-0059, PR #75 (fire #15, human 85)",
+      "suggestion": "Игрален-механизъм explainer с честен математически ъгъл (цената на бонуса vs очаквано връщане; купуването НЕ подобрява RTP, обикновено го изравнява/влошава); writable без да твърди BG наличност при оператори (образователен, не оператор-специфичен); distinct pillar; фолд-ин към слот-explainer-ите. Web-оценка на обема · USED → vk-0059, PR #75 (fire #15, human 85)  · fold-in (drop 25.09 dup candidate: bonus-buy механика/защо е рисково се покрива тук + в слот game rows, не отделен pillar)",
       "status": "used",
       "date_researched": "2026-09-10",
       "opportunity": null
@@ -6043,7 +6043,7 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "НОВ RG-pillar; непокрит (0 за самоизключване/депозитни лимити като standalone). Highly on-strategy + RG-aligned + BG-specific. Guides-only: описва ПУБЛИЧНИЯ механизъм на самоизключване чрез НАП регистъра на уязвимите лица (не е оператор T&C/лиценз-регистър). Ahrefs exhausted → web-оценка, WAITS for reset; провери 'самоизключване'/'депозитен лимит'",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-24",
       "opportunity": null
     },
@@ -6058,20 +6058,6 @@
       "checked": "web",
       "suggestion": "НАПИСАНА vk-0167 (PR #186) 2026-09-24 — fair-play/trust pillar; gate 90/100; distinct от providers hub vk-0054; 1 [VERIFY] (iTech Labs accred). Ahrefs KEY exhausted (web-est vol blank)",
       "status": "used",
-      "date_researched": "2026-09-24",
-      "opportunity": null
-    },
-    {
-      "type": "guide",
-      "query": "Купуване на бонус функция (bonus buy) в слотовете: как работи и защо е рисково",
-      "researched_keywords": "bonus buy, купуване на бонус, feature buy слот, цена на бонус",
-      "volume": "",
-      "kd": "",
-      "intent": "commercial",
-      "trend": "flat",
-      "checked": "web",
-      "suggestion": "НОВ slot-mechanic pillar; непокрит като standalone (bonus buy е само fold-in в десетки game rows, няма отделен обяснителен pillar). Distinct от механиките multiplier/cascade/hold&win/cluster/Megaways. Силен RG ъгъл: плащаш фиксирана цена за директен вход в бонуса -> по-висока волатилност/по-бърз разход, RTP често различен за buy версията. Guides-only: механика, 0 оператор/НАП. Ahrefs 403 exhausted -> web-оценка, WAITS for reset 2026-10-02; провери 'bonus buy'/'купуване на бонус'",
-      "status": "candidate",
       "date_researched": "2026-09-24",
       "opportunity": null
     },
@@ -6101,6 +6087,48 @@
       "suggestion": "НОВ table/live-game pillar; непокрит (0 sic bo row). Разпространена игра със зарове в казино на живо; distinct от бакара/рулетка/кено/крас игри. Casino-weighted, свързва се с новия live-dealer pillar (vk-0170) като вътрешен линк. Guides-only: правила + шансове по тип залог, 0 оператор/НАП. Ahrefs 403 -> web-оценка, WAITS for reset; провери 'sic bo'/'сик бо'",
       "status": "used",
       "date_researched": "2026-09-24",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Дракон Тигър (Dragon Tiger): правила, залози и шансове",
+      "researched_keywords": "dragon tiger, дракон тигър, dragon tiger правила, карти казино на живо",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "НОВ live-card pillar; непокрит (0 dragon tiger row). Проста бърза игра с 2 карти срещу дилъра; distinct от бакара/казино покер/сик бо; свързва се с казино на живо. Guides-only: правила+шансове, 0 оператор/НАП. Ahrefs 403 exhausted, web-оценка, WAITS for reset 2026-10-02; провери 'dragon tiger'/'дракон тигър'",
+      "status": "candidate",
+      "date_researched": "2026-09-25",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Три карти покер (Three Card Poker): правила, залози и стратегия",
+      "researched_keywords": "three card poker, три карти покер, three card poker правила, покер срещу дилър",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "НОВ table-game pillar; непокрит (0 three card poker row). Distinct от видеопокер (соло vs машина) и общия 'как се играе покер в казино' (vk-0008). Срещу дилъра; Ante/Play + Pair Plus залози. Guides-only: правила+шансове, 0 оператор/НАП. Ahrefs 403, web-оценка, WAITS for reset; провери 'three card poker'/'три карти покер'",
+      "status": "candidate",
+      "date_researched": "2026-09-25",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Gamble/Double функция в слотовете (рискова игра): как работи и струва ли си",
+      "researched_keywords": "gamble функция, double up слот, рискова игра слот, хазарт функция ротативки",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "НОВ slot-mechanic pillar; непокрит като standalone (gamble се споменава в десетки game rows, няма отделен pillar). Удвои-или-загуби след печалба; RG ъгъл: увеличава волатилността, не подобрява RTP. Distinct от multiplier/cascade/hold&win. Guides-only: механика, 0 оператор/НАП. Ahrefs 403, web-оценка, WAITS for reset; провери 'gamble функция'/'double up слот'",
+      "status": "candidate",
+      "date_researched": "2026-09-25",
       "opportunity": null
     }
   ],
