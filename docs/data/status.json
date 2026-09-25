@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-25T03:26:35Z",
+  "generated_utc": "2026-09-25T03:31:49Z",
   "buffer": {
-    "count": 144,
+    "count": 145,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 2,
-    "drafted": 137,
+    "in-progress": 1,
+    "drafted": 138,
     "approved": 7,
     "posted": 27,
     "failed": 1
@@ -3125,7 +3125,7 @@
     },
     {
       "id": "vk-0174",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Сик Бо (Sic Bo): правила, видове залози и шансове",
       "keywords_or_terms": "sic bo, сик бо, sic bo правила, зарове казино",
@@ -3135,9 +3135,9 @@
       "drafted_date": "2026-09-25",
       "posted_date": "",
       "folder": "2026-09-25-sic-bo-pravila-zalozi",
-      "pr": "",
-      "gemini": "",
-      "notes": "table/live dice-game pillar; links to live-dealer; web-est vol",
+      "pr": "#191",
+      "gemini": "skipped",
+      "notes": "table/live dice-game pillar; links to live-dealer; web-est vol · img:1 (infographic; hero+review skipped—Gemini 402)",
       "opportunity": null
     }
   ],
@@ -6099,7 +6099,7 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "НОВ table/live-game pillar; непокрит (0 sic bo row). Разпространена игра със зарове в казино на живо; distinct от бакара/рулетка/кено/крас игри. Casino-weighted, свързва се с новия live-dealer pillar (vk-0170) като вътрешен линк. Guides-only: правила + шансове по тип залог, 0 оператор/НАП. Ahrefs 403 -> web-оценка, WAITS for reset; провери 'sic bo'/'сик бо'",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-24",
       "opportunity": null
     }
