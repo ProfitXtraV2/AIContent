@@ -1,0 +1,12 @@
+# log — Сик Бо (vk-0174) — 2026-09-25
+- Synthesis: „голямо изплащане ≠ стойност"; срещу къщата.
+- Outline: 6 sections + payout/edge table + 1 infographic; 4 internal links.
+- Author: full BG draft; numbers from Wizard of Odds + 216-math.
+- Humaniser: varied rhythm, 0 em-dashes, asymmetric ending.
+- SEO: title/meta; primary „sic bo/сик бо"; secondary woven.
+- Brand Gate: PASS 94/100, 0 criticals.
+- Light re-check: numbers consistent across stages.
+- Images: 1 SVG infographic (edge by bet), rendered+eyeballed clean; AI hero skipped (402).
+- Verification: 0 flags; recalculation shown (Малко/Голямо 2.78%, трипл 13.89%).
+- Step 7 Gemini: skipped (402). Step 8 review: skipped (402), integrity OK.
+- PR: pending.
