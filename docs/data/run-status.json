@@ -4,13 +4,14 @@
   "run_finished_utc": null,
   "articles_written": null,
   "prs_opened": [
-    193
+    193,
+    194
   ],
   "run_url": "https://claude.ai/code/session_011S1vkPv27KSZc8C47CrAAA",
-  "note": "daily run 2026-09-25 (recurring) IN PROGRESS. Gemini offline (HTTP 402) -> text+image review skipped per Step7/8, SVG infographics shipped. Ahrefs key ~exhausted (9 units, reset 2026-10-15) -> web fallback for research. Backlog all 10 NV-Casino operator/НАП rows stay open+blocked (guides-only). Writing 3 NEW guide pillars: vk-0176 Three Card Poker DONE (PR #193, gate 95, ~1057w, img:1 infographic, 0 flags, gemini=skipped); vk-0175 Dragon Tiger + vk-0177 Gamble/Double drafting.",
+  "note": "daily run 2026-09-25 (recurring) IN PROGRESS. Gemini offline (402)->text+image review skipped, SVG infographics. Ahrefs key ~exhausted (9 units). Backlog NV-Casino rows stay open+blocked. vk-0176 Three Card Poker DONE (PR #193, gate 95, ~1057w, img:1); vk-0177 Gamble/Double DONE (PR #194, gate 94, ~1061w, img:1); vk-0175 Dragon Tiger drafting.",
   "progress": {
     "phase": "writing",
-    "article_index": 2,
+    "article_index": 3,
     "article_total": 3,
     "article_slug": "2026-09-25-dragon-tiger",
     "stages": [
@@ -25,7 +26,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "stage_index": 8,
+    "stage": "Verification"
   }
 }
