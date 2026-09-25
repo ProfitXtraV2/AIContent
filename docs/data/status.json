@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-25T07:11:15Z",
+  "generated_utc": "2026-09-25T07:43:40Z",
   "buffer": {
-    "count": 145,
+    "count": 148,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 139,
+    "drafted": 142,
     "approved": 6,
     "posted": 28,
     "failed": 1
@@ -3139,6 +3139,57 @@
       "gemini": "skipped",
       "notes": "table/live dice-game pillar; links to live-dealer; web-est vol · img:1 (infographic; hero+review skipped—Gemini 402)",
       "opportunity": null
+    },
+    {
+      "id": "vk-0175",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Дракон Тигър (Dragon Tiger): правила, залози и шансове",
+      "keywords_or_terms": "дракон тигър, dragon tiger правила, dragon tiger стратегия",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-25",
+      "posted_date": "",
+      "folder": "2026-09-25-dragon-tiger",
+      "pr": "#195",
+      "gemini": "skipped",
+      "notes": "live-card game pillar; distinct от Бакара (vk-0012 /blog/bakara-pravila/) — 2 единични карти, без трето теглене; web-est vol (Ahrefs key ~exhausted, reset 2026-10-15). gate 94, ~1083w, img:1 infographic (house edge by bet). Gemini text+image 402-offline (skipped). 0 flags; source conflict Tie 8:1 resolved to WoO 32,77% via EV check",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0176",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Три карти покер (Three Card Poker): правила, залози и стратегия",
+      "keywords_or_terms": "три карти покер, three card poker, pair plus, ante bonus",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-25",
+      "posted_date": "",
+      "folder": "2026-09-25-tri-karti-poker",
+      "pr": "#193",
+      "gemini": "skipped",
+      "notes": "table-game pillar; deep-dive distinct от казино покер overview (vk-0008 /blog/kak-se-igrae-poker-kazino/) — прецедент видеопокер vk-0173; web-est vol. gate 95, ~1057w, img:1 infographic (house edge Ante-Play vs Pair Plus). Gemini text+image 402-offline (skipped). 0 flags; combinatorics recalculated (straight>flush)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0177",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Gamble/Double функция в слотовете (рискова игра): как работи",
+      "keywords_or_terms": "gamble функция, double функция слот, рискова игра слот",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-25",
+      "posted_date": "",
+      "folder": "2026-09-25-gamble-funktsiya-slot",
+      "pr": "#194",
+      "gemini": "skipped",
+      "notes": "slot-mechanic pillar; непокрит standalone (споменат само в 20SH); линкове към paytable/autoplay guides; web-est vol. gate 94, ~1061w, img:1 infographic (survival ladder 0.5^N). Gemini text+image 402-offline (skipped). 0 flags; fair-50/50 math sourced+recalculated",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -6099,7 +6150,7 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "НОВ live-card pillar; непокрит (0 dragon tiger row). Проста бърза игра с 2 карти срещу дилъра; distinct от бакара/казино покер/сик бо; свързва се с казино на живо. Guides-only: правила+шансове, 0 оператор/НАП. Ahrefs 403 exhausted, web-оценка, WAITS for reset 2026-10-02; провери 'dragon tiger'/'дракон тигър'",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-25",
       "opportunity": null
     },
@@ -6113,7 +6164,7 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "НОВ table-game pillar; непокрит (0 three card poker row). Distinct от видеопокер (соло vs машина) и общия 'как се играе покер в казино' (vk-0008). Срещу дилъра; Ante/Play + Pair Plus залози. Guides-only: правила+шансове, 0 оператор/НАП. Ahrefs 403, web-оценка, WAITS for reset; провери 'three card poker'/'три карти покер'",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-25",
       "opportunity": null
     },
@@ -6127,6 +6178,48 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "НОВ slot-mechanic pillar; непокрит като standalone (gamble се споменава в десетки game rows, няма отделен pillar). Удвои-или-загуби след печалба; RG ъгъл: увеличава волатилността, не подобрява RTP. Distinct от multiplier/cascade/hold&win. Guides-only: механика, 0 оператор/НАП. Ahrefs 403, web-оценка, WAITS for reset; провери 'gamble функция'/'double up слот'",
+      "status": "used",
+      "date_researched": "2026-09-25",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Ultimate Texas Hold'em: правила, залози и базова стратегия",
+      "researched_keywords": "ultimate texas holdem, ултимейт тексас холдем, texas holdem казино, покер срещу дилър",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "НОВ table-game pillar; непокрит (0 ultimate texas row). Distinct от Три карти покер (vk-0176, 3 карти) и общия покер overview (vk-0008) — 5-карти community, Ante/Blind/Play срещу дилъра. Guides-only: правила+стратегия+домашно предимство, 0 оператор/НАП; факти от Wizard of Odds. Ahrefs key ~exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери 'ultimate texas holdem'/'ултимейт тексас холдем'",
+      "status": "candidate",
+      "date_researched": "2026-09-25",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Andar Bahar: правила, залози и шансове",
+      "researched_keywords": "andar bahar, андар бахар, andar bahar правила, казино на живо карти",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "НОВ live-card pillar; непокрит (0 andar bahar row). Проста индийска игра с 1 карта-жокер, разпространена в live лобита; distinct от Дракон Тигър/Бакара/Сик Бо. Guides-only: правила+шансове, 0 оператор/НАП. Ahrefs key ~exhausted (reset 2026-10-15), web-оценка, WAITS for reset; нисък очакван BG обем — провери 'andar bahar'/'андар бахар'",
+      "status": "candidate",
+      "date_researched": "2026-09-25",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Casino War (Казино война): правила и домашно предимство",
+      "researched_keywords": "casino war, казино война, casino war правила, най-проста казино игра",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "НОВ table-game pillar; непокрит (0 casino war row). Най-простата карти игра (по-висока карта печели, война при равен); добра тема за начинаещи; distinct cluster. Guides-only: правила+домашно предимство, 0 оператор/НАП; факти от Wizard of Odds. Ahrefs key ~exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери 'casino war'/'казино война'",
       "status": "candidate",
       "date_researched": "2026-09-25",
       "opportunity": null
