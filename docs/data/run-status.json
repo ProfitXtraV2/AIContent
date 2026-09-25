@@ -7,12 +7,23 @@
   "run_url": "https://claude.ai/code/session_01QvTEcNsJv38H5kz6Fz2wfU",
   "note": "recurring run 2026-09-25 (later fire) — start. 0 in-progress reconciled. Batch=3 NEW game-guide pillars from research bank (buffer 148, floor 10, NO cap): Ultimate Texas Hold'em / Andar Bahar / Casino War. Backlog rows 5-14 all NV-Casino operator/НАП-dependent -> stay open+blocked under guides-only scope.",
   "progress": {
-    "phase": "selecting",
-    "article_index": 0,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 3,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "article_slug": "2026-09-25-ultimate-texas-holdem",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
