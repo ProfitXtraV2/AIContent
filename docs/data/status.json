@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-25T03:15:31Z",
+  "generated_utc": "2026-09-25T03:26:35Z",
   "buffer": {
-    "count": 143,
+    "count": 144,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 3,
-    "drafted": 136,
+    "in-progress": 2,
+    "drafted": 137,
     "approved": 7,
     "posted": 27,
     "failed": 1
@@ -3108,7 +3108,7 @@
     },
     {
       "id": "vk-0173",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Видеопокер: правила, вариации (Jacks or Better, Deuces Wild) и базова стратегия",
       "keywords_or_terms": "видеопокер, video poker правила, jacks or better, deuces wild",
@@ -3118,9 +3118,9 @@
       "drafted_date": "2026-09-25",
       "posted_date": "",
       "folder": "2026-09-25-videopoker-pravila-variatsii",
-      "pr": "",
-      "gemini": "",
-      "notes": "game-rules pillar; distinct от казино покер /blog/kak-se-igrae-poker-kazino/ (соло vs paytable); web-est vol",
+      "pr": "#190",
+      "gemini": "skipped",
+      "notes": "game-rules pillar; distinct от казино покер /blog/kak-se-igrae-poker-kazino/ (соло vs paytable); web-est vol · img:1 (infographic; hero+review skipped—Gemini 402)",
       "opportunity": null
     },
     {
@@ -6085,7 +6085,7 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "НОВ game-rules pillar; непокрит (0 videopoker row; distinct от Texas/казино покер /blog/kak-se-igrae-poker-kazino/ -> видеопокерът е соло срещу машина с paytable, не срещу дилър/маса). Casino-weighted, evergreen. Guides-only: правила + публични paytable-типове, 0 оператор/НАП. Ahrefs 403 -> web-оценка, WAITS for reset; провери 'видеопокер'/'video poker правила'",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-24",
       "opportunity": null
     },

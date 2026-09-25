@@ -3,14 +3,16 @@
   "run_started_utc": "2026-09-25T03:10:38Z",
   "run_finished_utc": null,
   "articles_written": null,
-  "prs_opened": [],
+  "prs_opened": [
+    190
+  ],
   "run_url": "https://claude.ai/code/session_01MM6oGzJ38DQuN4VFBYJVYT",
-  "note": "daily run 2026-09-25 fire — 0 in-progress reconciled; backlog fully NV-blocked (guides-only); wrote 3 in-progress rows vk-0172..0174 (RG-tools/videopoker/sic-bo) from research bank; researching+writing",
+  "note": "daily run 2026-09-25: vk-0173 videopoker drafted (PR #190, gate 94, Gemini text+image SKIPPED — HTTP 402 credits depleted; img:1 infographic). Writing vk-0174 (sic bo) + vk-0172 (RG tools).",
   "progress": {
     "phase": "writing",
-    "article_index": 1,
+    "article_index": 2,
     "article_total": 3,
-    "article_slug": "2026-09-25-instrumenti-za-otgovorna-igra",
+    "article_slug": "2026-09-25-sic-bo-pravila-zalozi",
     "stages": [
       "Synthesis",
       "Outline",
