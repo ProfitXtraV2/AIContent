@@ -1,32 +1,21 @@
 {
-  "state": "idle",
+  "state": "running",
   "run_started_utc": "2026-09-26T07:14:11Z",
-  "run_finished_utc": "2026-09-26T07:38:49Z",
+  "run_finished_utc": null,
   "articles_written": 3,
   "prs_opened": [
     202,
     203,
     204
   ],
-  "run_url": "https://claude.ai/code/session_01R1JwWaRHNBa1FB9TC1EadA",
-  "note": "recurring run 2026-09-26 (LATER fire) DONE. 0 in-progress reconciled (prior 03:10 fire finalized clean). Wrote MAX_PER_RUN=3 NEW distinct live-casino guide pillars (buffer 153->156, floor 10, NO cap): Teen Patti (vk-0184, PR #204, gate 92, ~1034w, img:1 hand-order+flow+edges SVG) · Crazy Time/Evolution (vk-0185, PR #203, gate 92, ~1038w, img:1 54-wheel+per-bet-RTP SVG) · Lightning Roulette/Evolution (vk-0186, PR #202, gate 92, ~1008w, img:1 multiplier-vs-29:1 SVG). DEDUP CATCH: bank's Bonus Buy + Cluster Pays candidates were DUPLICATES of already-drafted vk-0059/vk-0060 -> dropped as cannibal (fold-in), NOT written; only Teen Patti from bank was distinct, topped up by discovering 2 uncovered branded live games (Crazy Time, Lightning Roulette) via web -> full quality batch of 3, no padding. All dedup-clean vs content-queue + live sitemap (95 URLs); anti-cannibal enforced (3-card live poker / money-wheel show / live roulette-multiplier; all distinct + hub-spoke to game-shows vk-0025 & roulette vk-0024). GEMINI OFFLINE (HTTP 402, credits depleted, probed live still down): text check + image gen + image review ALL skipped per Step 7/8 (not halted); each kept single draft (gemini=skipped) + 1 hand-authored SVG infographic (numbers verbatim to 05b, manual integrity PASS, 0 fabrication). Flags kept in-text (human Step 6): Teen Patti 1 [VERIFY], Crazy Time 3 [VERIFY], Lightning Roulette 1 [VERIFY]; no operator names/НАП/affiliate (game explainers, Evolution as maker only). AHREFS API KEY exhausted (24991/25000 units, ~9 left, reset 2026-10-15) -> web fallback, no discovery spend; 1 research candidate used + 2 discovered used-rows; bank replenished +3 distinct uncovered (Monopoly Live/Funky Time/Casino Hold'em, checked=web) -> 3-candidate buffer. Backlog rows 5-14 all NV/operator/НАП-blocked -> stay open+blocked (guides-only scope). Dashboard buffer 156; feed refreshed (5 approved unchanged; new are drafted). One content PR per article; board on main. NEVER resolved a flag/posted/merged.",
+  "run_url": "https://claude.ai/code/session_01NJP2eu3nqd9tPRqPUNDS3U",
+  "note": "backfilling images (0/2) — vk-0122 (comparisons-news hub) + vk-0123 (responsible-gambling hub); both imageless approved articles",
   "progress": {
-    "phase": "done",
-    "article_index": 3,
-    "article_total": 3,
+    "phase": "backfill-images",
+    "article_index": 0,
+    "article_total": 2,
     "article_slug": null,
-    "stages": [
-      "Synthesis",
-      "Outline",
-      "Author",
-      "Humaniser",
-      "SEO",
-      "Brand Gate",
-      "Light re-check",
-      "Images",
-      "Verification",
-      "PR"
-    ],
+    "stages": [],
     "stage_index": null,
     "stage": null
   }
