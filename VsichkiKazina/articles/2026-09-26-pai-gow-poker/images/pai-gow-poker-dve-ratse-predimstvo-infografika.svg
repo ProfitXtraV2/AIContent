@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" role="img" aria-label="Инфографика за Пай Гоу покер. Седемте карти се разделят на задна ръка от 5 карти (силната) и предна ръка от 2 карти (малката); задната трябва да е по-силна от предната. И двете ръце трябва да бият ръцете на дилъра; при равна ръка печели дилърът. Домашно предимство около 2.84 процента, около 2.72 процента по домашния метод. Комисиона 5 процента върху печелившите залози. Около 40.5 процента от ръцете завършват наравно. RTP около 97.16 процента в дълъг период.">
+  <rect x="8" y="8" width="704" height="454" rx="18" fill="#0f172a"/>
+
+  <text x="32" y="42" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#f8fafc">Пай Гоу покер: двете ръце и цената на играта</text>
+  <text x="32" y="64" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Играеш срещу дилъра, не срещу други играчи</text>
+
+  <text x="32" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Как се разделят 7-те карти</text>
+
+  <rect x="40" y="120" width="96" height="48" rx="8" fill="#334155"/>
+  <text x="88" y="150" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f8fafc" text-anchor="middle">7 карти</text>
+
+  <line x1="142" y1="144" x2="186" y2="144" stroke="#64748b" stroke-width="2"/>
+  <polygon points="186,138 196,144 186,150" fill="#64748b"/>
+
+  <rect x="200" y="116" width="330" height="26" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="214" y="134" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Задна ръка: 5 карти (силната)</text>
+  <rect x="200" y="150" width="330" height="26" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="214" y="168" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Предна ръка: 2 карти (малката)</text>
+
+  <text x="40" y="200" font-family="Arial, sans-serif" font-size="12" fill="#cbd5e1">Задната ръка трябва да е по-силна от предната, иначе ръката е невалидна.</text>
+
+  <text x="32" y="238" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Колко струва играта</text>
+
+  <g stroke="#1e293b" stroke-width="1">
+    <line x1="32" y1="296" x2="688" y2="296"/>
+    <line x1="32" y1="326" x2="688" y2="326"/>
+  </g>
+
+  <text x="48" y="268" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Домашно предимство</text>
+  <text x="688" y="268" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">≈ 2.84%</text>
+  <text x="48" y="287" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">≈ 2.72% при игра по домашния метод</text>
+
+  <text x="48" y="317" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Комисиона върху печелившите залози</text>
+  <text x="688" y="317" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">5%</text>
+
+  <text x="48" y="347" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Ръце наравно (push)</text>
+  <text x="688" y="347" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">≈ 40.5%</text>
+
+  <rect x="32" y="366" width="656" height="56" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="48" y="391" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f8fafc">И двете ти ръце трябва да бият тези на дилъра</text>
+  <text x="48" y="411" font-family="Arial, sans-serif" font-size="12" fill="#cbd5e1">При равна ръка (copy) печели дилърът; затова равенството по една ръка работи срещу теб.</text>
+
+  <text x="32" y="450" font-family="Arial, sans-serif" font-size="11" fill="#64748b">18+ Играйте отговорно</text>
+  <text x="688" y="450" font-family="Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="end">RTP ≈ 97.16% в дълъг период · сумите за €100 са примерни</text>
+</svg>
