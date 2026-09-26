@@ -5,12 +5,12 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01R1JwWaRHNBa1FB9TC1EadA",
-  "note": "daily run 2026-09-26 — Red Dog (vk-0182) drafted, PR #199; now art 2/3 Pai Gow Poker (Author); Gemini 402-offline",
+  "note": "daily run 2026-09-26 — Red Dog (PR #199) + Pai Gow Poker (PR #200) drafted; now art 3/3 Mines (Author); Gemini 402-offline",
   "progress": {
     "phase": "writing",
-    "article_index": 2,
+    "article_index": 3,
     "article_total": 3,
-    "article_slug": "2026-09-26-pai-gow-poker",
+    "article_slug": "2026-09-26-mines",
     "stages": [
       "Synthesis",
       "Outline",
