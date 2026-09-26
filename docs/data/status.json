@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-26T15:23:58Z",
+  "generated_utc": "2026-09-26T22:43:57Z",
   "buffer": {
-    "count": 156,
+    "count": 159,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 151,
+    "drafted": 154,
     "approved": 5,
     "posted": 29,
     "failed": 1
@@ -3343,6 +3343,57 @@
       "gemini": "skipped",
       "notes": "branded live-roulette spoke; distinct от рулетка правила (vk-0024)/game-shows (vk-0025); public game-DB/Evolution (livecasinocomparer/effortlessmath); honest angle: множители 50x-500x само върху стрейт-ъп залози, базовата печалба орязана на 29:1 (вместо 35:1) -> edge на стрейт залозите ≈2.90% над 2.70% на европейската рулетка; външните залози запазват 2.70% без множител; gate 92/100 0-crit; ~1008w; 0 em-dashes; 1 [VERIFY] (стрейт-ъп RTP ≈97.10%/edge ≈2.90% Evolution paytable via review sites, source discrepancy noted, kept); Gemini offline(402)->skipped; img:1 (SVG multiplier-vs-reduced-payout tradeoff, review skipped 402, manual integrity PASS)",
       "opportunity": null
+    },
+    {
+      "id": "vk-0187",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Monopoly Live (Evolution): как се играе, бонус рундове и RTP",
+      "keywords_or_terms": "monopoly live, монополи лайв, monopoly live rtp",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-26",
+      "posted_date": "",
+      "folder": "2026-09-26-monopoly-live",
+      "pr": "#206",
+      "gemini": "skipped",
+      "notes": "НОВ branded live game-show spoke на vk-0025/hub /blog/live-game-shows/; distinct от Crazy Time (vk-0185) — колело + 3D Monopoly бонус разходка (2 Rolls/4 Rolls); guides-only, provider/game-DB (Evolution/WoO), 0 оператор/НАП; Ahrefs key exhausted (reset 2026-10-15) -> web-checked; daily run 2026-09-26 (recurring) · drafted 2026-09-26; gemini=skipped (402); img:1 (SVG колело+RTP, review skipped 402, manual integrity PASS)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0188",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Funky Time (Evolution): как се играе, бонус рундове и RTP",
+      "keywords_or_terms": "funky time, фънки тайм, funky time rtp",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-26",
+      "posted_date": "",
+      "folder": "2026-09-26-funky-time",
+      "pr": "#207",
+      "gemini": "skipped",
+      "notes": "НОВ branded live game-show spoke на hub /blog/live-game-shows/; distinct от Crazy Time (vk-0185)/Monopoly Live (vk-0187) — disco money-wheel с 4 бонуса (VIP Disco/Bar/Disco/Stayin' Alive); guides-only, provider/game-DB (Evolution/WoO), 0 оператор/НАП; Ahrefs key exhausted (reset 2026-10-15) -> web-checked; daily run 2026-09-26 (recurring) · drafted 2026-09-26; gemini=skipped (402); img:1 (SVG колело+per-bet RTP, review skipped 402, manual integrity PASS)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0189",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Casino Hold'em: правила, залози и стратегия срещу дилъра",
+      "keywords_or_terms": "casino holdem, казино холдем, casino hold'em правила",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-26",
+      "posted_date": "",
+      "folder": "2026-09-26-casino-holdem",
+      "pr": "#205",
+      "gemini": "skipped",
+      "notes": "НОВ table-poker pillar; distinct от Ultimate Texas Hold'em (vk-0178)/Три карти покер (vk-0176)/казино покер overview (vk-0008 /blog/kak-se-igrae-poker-kazino/) — 2 карти + 5 общи, Ante/Call срещу дилър, дилър се класира с чифт четворки, AA бонус; guides-only, WoO/Pagat, 0 оператор/НАП; Ahrefs key exhausted (reset 2026-10-15) -> web-checked; daily run 2026-09-26 (recurring) · drafted 2026-09-26; gemini=skipped (402); img:1 (SVG правила+Ante paytable+edge, review skipped 402, manual integrity PASS)",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -6471,7 +6522,7 @@
       "trend": "up",
       "checked": "web",
       "suggestion": "НОВ branded live game-show spoke на vk-0025 hub; непокрит (само overview). Колело + 3D Monopoly бонус разходка (2 Rolls/4 Rolls); distinct от Crazy Time (vk-0185) — различни бонуси/състав. Честен ъгъл: RTP зависи от залога. provider/game-DB (Evolution/WoO). Ahrefs key exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери 'monopoly live'/'монополи лайв'",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-26",
       "opportunity": null
     },
@@ -6485,7 +6536,7 @@
       "trend": "up",
       "checked": "web",
       "suggestion": "НОВ branded live game-show spoke на vk-0025 hub; непокрит. Disco money-wheel с бонуси (VIP Disco, Bar, Stayin' Alive); distinct от Crazy Time (vk-0185)/Monopoly Live — различни бонус рундове и състав на колелото. Честен ъгъл: RTP по залог, бонусите с най-нисък RTP. provider/game-DB (Evolution/WoO). Ahrefs key exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери 'funky time'/'фънки тайм'",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-26",
       "opportunity": null
     },
@@ -6499,6 +6550,48 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "НОВ table-poker pillar; непокрит (0 casino holdem row). Distinct от Ultimate Texas Hold'em (vk-0178)/Три карти покер (vk-0176)/казино покер overview (vk-0008) — 2 карти + 5 общи, Ante/Call срещу дилър, дилър се класира с чифт четворки, AA бонус страничен залог. факти от Wizard of Odds. Ahrefs key exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери 'casino holdem'/'казино холдем'",
+      "status": "used",
+      "date_researched": "2026-09-26",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Dream Catcher (Evolution): как работи първото колело на късмета и RTP",
+      "researched_keywords": "dream catcher, дрийм кетчър, dream catcher rtp",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "НОВ branded live money-wheel spoke на hub /blog/live-game-shows/; непокрит (vk-0084 само споменава). Оригиналното и най-просто колело (само числа 1/2/5/10/20/40, без бонус игри) — distinct от Crazy Time (vk-0185)/Monopoly Live (vk-0187)/Funky Time (vk-0188). Честен ъгъл: RTP по число, множители-полета. provider/game-DB (Evolution/WoO). Ahrefs key exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери 'dream catcher'/'дрийм кетчър'",
+      "status": "candidate",
+      "date_researched": "2026-09-26",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Cash or Crash (Evolution): как се играе, стълбата и RTP",
+      "researched_keywords": "cash or crash, кеш ор краш, cash or crash rtp",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial",
+      "trend": "up",
+      "checked": "web",
+      "suggestion": "НОВ branded live game-show spoke на hub /blog/live-game-shows/; непокрит. Механика на изкачване по стълба + решение банкирай/рискувай, червен балон = crash — distinct от колелата (Crazy Time/Monopoly/Funky) и от crash слотовете (Aviator vk-0014/Spaceman vk-0108). Честен ъгъл: EV на всяко ниво, кога да спреш. provider/game-DB (Evolution/WoO). Ahrefs key exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери 'cash or crash'",
+      "status": "candidate",
+      "date_researched": "2026-09-26",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Крапс (Craps): правила, залози и домашно предимство",
+      "researched_keywords": "крапс, craps правила, craps залози, pass line",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "НОВ table dice-game pillar; непокрит. Класическата американска игра със зарове (pass/don't pass, come, odds bets) — distinct от Сик Бо (vk-0174) — различна игра и залози. Честен ъгъл: pass line ~1,41% срещу скъпите proposition залози, free odds без предимство. факти от Wizard of Odds. Ahrefs key exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери 'крапс'/'craps правила'",
       "status": "candidate",
       "date_researched": "2026-09-26",
       "opportunity": null
