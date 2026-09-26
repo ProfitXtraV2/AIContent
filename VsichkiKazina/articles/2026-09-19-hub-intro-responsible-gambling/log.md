@@ -18,6 +18,7 @@
   unchanged from Step 4. Final body: 358 words, 0 em-dashes, 2 H2s, 0 H1, 3 internal
   links, RG line verbatim present.
 - Step 8 (images): SKIPPED ENTIRELY per hub-intro spec — no images/ folder created.
+- Step 8 (images, backfill 2026-09-26): 1 SVG step-diagram created — rg-instrumenti-limiti-samoizklyuchvane.svg (3-step escalation: лимити → самоизключване → НАП регистър; all labels verbatim from 05b). Hero skipped: Gemini API HTTP 402 (credits depleted). Image review: skipped (GEMINI_ERROR HTTP 402). Inserted image reference + caption after "Какво включва отговорната игра" section in 05b.
 - Step 7 (external Gemini check), pass 1: human-likeness 85 ("Likely human-written, 85%
   confidence") → PASS (≥80). No Humaniser re-pass needed. 05b-final-draft.md kept
   unchanged (highest/only human-likeness seen: 85). See 07-gemini-check-1.md.
