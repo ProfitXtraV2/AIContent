@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-26T03:10:11Z",
+  "generated_utc": "2026-09-26T03:40:55Z",
   "buffer": {
-    "count": 151,
+    "count": 154,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 145,
+    "drafted": 148,
     "approved": 6,
     "posted": 28,
     "failed": 1
@@ -3241,6 +3241,57 @@
       "gemini": "skipped",
       "notes": "НОВ table-game pillar; най-простата казино игра (една карта всеки), distinct от Бакара/Дракон Тигър — механика на войната при равен, tie страничен залог; web-est vol. gate 94, ~1014w, img:1 infographic (2.88% война / 3.70% предаване / 18.65% tie bet, 6 тестета). Gemini text+image 402-offline (skipped). 0 flags; war-outcome conflict resolved to Wizard of Odds; RTP recalculated; 2.70%/2.88% labels distinct",
       "opportunity": null
+    },
+    {
+      "id": "vk-0181",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Pai Gow Poker (Пай Гоу покер): правила, залози и стратегия",
+      "keywords_or_terms": "pai gow poker, пай гоу покер, pai gow правила, покер срещу дилър",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-26",
+      "posted_date": "",
+      "folder": "2026-09-26-pai-gow-poker",
+      "pr": "#200",
+      "gemini": "skipped",
+      "notes": "НОВ table-poker pillar (7 карти → 5+2 срещу дилъра, жокер, 5% комисиона); distinct от UTH (vk-0178)/Три карти покер (vk-0176)/казино покер overview (vk-0008); web-est vol; gate 93, 1002w, img:1 (SVG infographic); Gemini text+image 402-offline → skipped; 0 flags; sources Wizard of Odds+Pagat+Wikipedia; edge ≈2.84% (≈2.72% house way), push ≈40.5%, RTP ≈97.16%; element-of-risk & exact house-way splits omitted (unverified)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0182",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Red Dog (Ред Дог): правила, залози и шансове",
+      "keywords_or_terms": "red dog, ред дог казино, red dog правила, acey deucey",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-26",
+      "posted_date": "",
+      "folder": "2026-09-26-red-dog",
+      "pr": "#199",
+      "gemini": "skipped",
+      "notes": "НОВ card-game pillar (spread: трета карта между първите две); distinct от Casino War (vk-0180)/Бакара (vk-0012)/Дракон Тигър (vk-0175); web-est vol; gate 93, 1121w, img:1 (SVG infographic); Gemini text+image 402-offline → skipped; 0 flags; sources Wizard of Odds+Pagat+Wikipedia; повече тестета = по-ниско предимство (3.155%→2.751%), element of risk 2.672%, raise на spread 7+",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0183",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Mines (Майнс): как работи играта, RTP и рискови нива",
+      "keywords_or_terms": "mines, майнс игра, mines казино, mines rtp",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-26",
+      "posted_date": "",
+      "folder": "2026-09-26-mines",
+      "pr": "#201",
+      "gemini": "skipped",
+      "notes": "НОВ instant-game pillar (Spribe; грид 5x5, множител расте, cash-out); distinct от Plinko (vk-0133)/Aviator краш (vk-0014); web-est vol; gate 92, 1067w, img:1 (SVG infographic); Gemini text+image 402-offline → skipped; 1 [VERIFY] (RTP 97% provider-cited, confirm in-game); RTP ≈97%/edge ≈3%/max ≈x10 000 (version-specific); provably fair SHA-256; sources slotcatalog+casinosblockchain+tomscasinoguide",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -6285,7 +6336,7 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "НОВ table-poker pillar; непокрит (0 pai gow row). Distinct от Ultimate Texas Hold'em (vk-0178), Три карти покер (vk-0176), казино покер overview (vk-0008) — 7 карти, разделяне на висока (5) и ниска (2) ръка, комисиона 5%; факти от Wizard of Odds. Ahrefs key ~exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери 'pai gow poker'/'пай гоу покер'",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-25",
       "opportunity": null
     },
@@ -6299,7 +6350,7 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "НОВ card-game pillar; непокрит (0 red dog row). Distinct от Casino War (vk-0180), Бакара (vk-0012), Дракон Тигър (vk-0175) — залог дали трета карта пада между първите две (spread), предимство по ширина на spread; факти от Wizard of Odds. Ahrefs key ~exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери 'red dog'/'ред дог'",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-25",
       "opportunity": null
     },
@@ -6313,8 +6364,50 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "НОВ instant-game pillar; непокрит (0 mines row). Distinct от Plinko (vk-0133), Aviator/крас игри (vk-0014) — грид с скрити мини, множител расте с всяко безопасно поле, cash-out решение; provider RTP + game-DB, NOT operator T&C/НАП. Ahrefs key ~exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери 'mines'/'майнс игра'",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-25",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Купи бонус функцията (Bonus Buy): как работи и струва ли си",
+      "researched_keywords": "купи бонус, bonus buy, feature buy, купи фрий спинове",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "НОВ slot-mechanic pillar; distinct от Gamble/Double (vk-0177) — директна ПОКУПКА на бонус функцията, не рискова игра; честен ъгъл: цената обикновено около 100x залога, по-висока волатилност, не подобрява RTP; provider/game-DB, NOT operator/НАП. Ahrefs ~exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери 'bonus buy'/'купи бонус'",
+      "status": "candidate",
+      "date_researched": "2026-09-26",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Клъстер печалби (Cluster Pays): как се печели без линии",
+      "researched_keywords": "клъстер печалби, cluster pays, печалби на групи, слот без линии",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "НОВ slot-mechanic pillar; distinct от Линии на печалба (vk-0017) — печалба чрез съседни ГРУПИ символи, не по линии/ways; ключова при Sweet Bonanza/Gates стил слотове; честен ъгъл: механиката не мени домашното предимство; provider/game-DB. Ahrefs ~exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери 'cluster pays'/'клъстер печалби'",
+      "status": "candidate",
+      "date_researched": "2026-09-26",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Teen Patti: правила и залози на индийския покер на живо",
+      "researched_keywords": "teen patti, тийн пати, teen patti правила, indian poker",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "up",
+      "checked": "web",
+      "suggestion": "НОВ live-card pillar; distinct от Andar Bahar (vk-0179) и Бакара (vk-0012) — 3-картова индийска покер игра, различни ръце/залози; расте с live casino; факти от Wizard of Odds/Pagat; provider/game-DB, NOT operator/НАП. Ahrefs ~exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери 'teen patti'/'тийн пати'",
+      "status": "candidate",
+      "date_researched": "2026-09-26",
       "opportunity": null
     }
   ],

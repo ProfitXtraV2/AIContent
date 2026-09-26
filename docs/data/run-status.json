@@ -1,16 +1,20 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-09-26T03:10:03Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-09-26T03:41:17Z",
+  "articles_written": 3,
+  "prs_opened": [
+    199,
+    200,
+    201
+  ],
   "run_url": "https://claude.ai/code/session_01R1JwWaRHNBa1FB9TC1EadA",
-  "note": "daily run 2026-09-26 — Red Dog (PR #199) + Pai Gow Poker (PR #200) drafted; now art 3/3 Mines (Author); Gemini 402-offline",
+  "note": "recurring run 2026-09-26 DONE. 0 in-progress reconciled. Wrote MAX_PER_RUN=3 NEW distinct evergreen game-guide pillars from research bank (buffer 151->154, floor 10, NO cap): Red Dog (vk-0182, PR #199, gate 93, ~1121w, img:1 spread payouts 5:1/4:1/2:1/1:1 + 11:1 pair + edge-by-decks 3.155%->2.751% infographic; more decks LOWER edge) · Pai Gow Poker (vk-0181, PR #200, gate 93, ~1002w, img:1 7->5+2 split + edge 2.84%/2.72% + 5% commission + 40.5% push) · Mines/Spribe (vk-0183, PR #201, gate 92, ~1067w, img:1 round-flow + RTP 97%/edge 3%/max x10000). All dedup-clean vs content-queue + live sitemap (94 URLs); anti-cannibal enforced. GEMINI OFFLINE (HTTP 402, credits depleted): text check + image gen + image review ALL skipped per Step 7/8 (not halted); each kept single draft (gemini=skipped) + 1 hand-authored SVG infographic (numbers verbatim to 05b, manual integrity PASS, 0 fabrication). Flags: Red Dog 0, Pai Gow 0 (uncertain element-of-risk & house-way splits OMITTED not fabricated), Mines 1 [VERIFY] (RTP 97% provider-cited, confirm in-game). Ahrefs ~exhausted (reset 2026-10-15) -> web fallback, no discovery spend; 3 research rows used; bank replenished +3 distinct uncovered (Bonus Buy / Cluster Pays / Teen Patti, checked=web awaiting reset) -> 3-candidate buffer. Backlog rows 5-14 all NV-Casino operator/НАП-dependent -> stay open+blocked under guides-only scope. Feed refreshed (6 approved). One content PR per article; board on main. NEVER resolved a flag/posted/merged.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 3,
     "article_total": 3,
-    "article_slug": "2026-09-26-mines",
+    "article_slug": null,
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +27,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 2,
-    "stage": "Author"
+    "stage_index": null,
+    "stage": null
   }
 }
