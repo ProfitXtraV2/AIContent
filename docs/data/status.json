@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-26T03:40:55Z",
+  "generated_utc": "2026-09-26T06:47:58Z",
   "buffer": {
-    "count": 154,
+    "count": 153,
     "target": 10,
     "deficit": 0,
     "ok": true
@@ -9,8 +9,8 @@
   "counts": {
     "in-progress": 0,
     "drafted": 148,
-    "approved": 6,
-    "posted": 28,
+    "approved": 5,
+    "posted": 29,
     "failed": 1
   },
   "rows": [
@@ -826,7 +826,7 @@
     },
     {
       "id": "vk-0043",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Starburst: защо е класика с ниска волатилност",
       "keywords_or_terms": "starburst, старбърст, starburst rtp, starburst слот",
@@ -834,7 +834,7 @@
       "kd": "",
       "source": "research",
       "drafted_date": "2026-09-11",
-      "posted_date": "",
+      "posted_date": "2026-09-26",
       "folder": "2026-09-11-starburst",
       "pr": "#59",
       "gemini": "human 85",
