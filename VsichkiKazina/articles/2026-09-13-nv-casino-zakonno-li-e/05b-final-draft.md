@@ -53,6 +53,4 @@ Meta description: NV Casino (нв казино) няма лиценз от НА�
 
 Публикувано: 13.09.2026 · Последна редакция: 13.09.2026
 
-**Георги Тодоров**
-
-[About Всички Казина boilerplate]
+[AUTHOR BIO BLOCK: Георги Тодоров] [About Всички Казина boilerplate]
