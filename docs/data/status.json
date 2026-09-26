@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-26T07:38:17Z",
+  "generated_utc": "2026-09-26T15:23:58Z",
   "buffer": {
     "count": 156,
     "target": 10,
@@ -2232,7 +2232,7 @@
       "folder": "2026-09-19-hub-intro-comparisons-news",
       "pr": "#137",
       "gemini": "human 85",
-      "notes": "hub-intro one-off run: 350-word category-page intro for /blog/comparisons-news/; no H1, 2 subheads, no images/FAQ/tables per spec (comparison criteria in prose, no table); internal links money page /casino/winbet/ + category articles /sravni-kazina/ + /blog/koe-kazino-da-izberete/; gate 91/100 0 crit; Gemini Step-7 HL 25→85 PASS pass2 (1 humaniser); 0 [VERIFY]; Ahrefs/dedup/anti-cannibal skipped per one-off override; approved for deploy 2026-09-19 (human review: hub intro comparisons-news — 0 flags, Gemini human 85; body 344 words (6 under the 350 floor, not padded))",
+      "notes": "hub-intro one-off run: 350-word category-page intro for /blog/comparisons-news/; no H1, 2 subheads, no images/FAQ/tables per spec (comparison criteria in prose, no table); internal links money page /casino/winbet/ + category articles /sravni-kazina/ + /blog/koe-kazino-da-izberete/; gate 91/100 0 crit; Gemini Step-7 HL 25→85 PASS pass2 (1 humaniser); 0 [VERIFY]; Ahrefs/dedup/anti-cannibal skipped per one-off override; approved for deploy 2026-09-19 (human review: hub intro comparisons-news — 0 flags, Gemini human 85; body 344 words (6 under the 350 floor, not padded)); img:1 (svg infographic wagering-base comparison, review skipped — Gemini 402)",
       "opportunity": null
     },
     {
@@ -2249,7 +2249,7 @@
       "folder": "2026-09-19-hub-intro-responsible-gambling",
       "pr": "#139",
       "gemini": "human 85",
-      "notes": "hub-intro one-off run: 358-word category-page intro for /blog/responsible-gambling/; no H1, 2 subheads, no images/FAQ/tables per spec; internal links money page /casino/betano/ (licensed-operator = self-exclusion tools framing, non-promotional) + category articles /otgovorna-igra/ + /zhalbi/; no specific helpline name/number invented (generic phrasing); gate 92/100 0 crit; Gemini Step-7 human 85 PASS pass1 (0 humaniser); 0 [VERIFY]; Ahrefs/dedup/anti-cannibal skipped per one-off override; approved for deploy 2026-09-19 (human review: hub intro responsible-gambling — 0 flags, Gemini human 85)",
+      "notes": "hub-intro one-off run: 358-word category-page intro for /blog/responsible-gambling/; no H1, 2 subheads, no images/FAQ/tables per spec; internal links money page /casino/betano/ (licensed-operator = self-exclusion tools framing, non-promotional) + category articles /otgovorna-igra/ + /zhalbi/; no specific helpline name/number invented (generic phrasing); gate 92/100 0 crit; Gemini Step-7 human 85 PASS pass1 (0 humaniser); 0 [VERIFY]; Ahrefs/dedup/anti-cannibal skipped per one-off override; approved for deploy 2026-09-19 (human review: hub intro responsible-gambling — 0 flags, Gemini human 85); img:1 (svg step-diagram rg-tools escalation, review skipped — Gemini 402)",
       "opportunity": null
     },
     {
