@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 450" role="img" aria-label="Инфографика за Lightning Roulette на Evolution. Как работи всеки рунд: 1 европейска рулетка с 37 числа и едно зеро; 2 от 1 до 5 щастливи числа получават множител; 3 множители 50x, 100x, 200x, 300x, 400x, 500x; 4 важат само върху залог на едно число. Ключови числа: база за уцелено число 29:1 вместо стандартните 35:1; RTP за стрейт-ъп залозите по таблицата на Evolution около 97.10%; домашно предимство върху числата около 2.90%, а върху външните залози 2.70%. Множителят до 500x се плаща от орязаната база; външните залози плащат нормално.">
+  <rect x="8" y="8" width="704" height="434" rx="18" fill="#0f172a"/>
+
+  <text x="32" y="42" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#f8fafc">Lightning Roulette: откъде идва множителят</text>
+  <text x="32" y="64" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Множителите се плащат от орязаната базова печалба</text>
+
+  <text x="32" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Как работи всеки рунд</text>
+
+  <line x1="48" y1="133" x2="48" y2="207" stroke="#334155" stroke-width="2"/>
+
+  <circle cx="48" cy="122" r="11" fill="#334155"/>
+  <text x="48" y="126" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#f8fafc" text-anchor="middle">1</text>
+  <text x="70" y="126" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Европейска рулетка: 37 числа, едно зеро</text>
+
+  <circle cx="48" cy="154" r="11" fill="#334155"/>
+  <text x="48" y="158" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#f8fafc" text-anchor="middle">2</text>
+  <text x="70" y="158" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">1 до 5 щастливи числа получават множител</text>
+
+  <circle cx="48" cy="186" r="11" fill="#334155"/>
+  <text x="48" y="190" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#f8fafc" text-anchor="middle">3</text>
+  <text x="70" y="190" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Множители: 50x, 100x, 200x, 300x, 400x, 500x</text>
+
+  <circle cx="48" cy="218" r="11" fill="#334155"/>
+  <text x="48" y="222" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#f8fafc" text-anchor="middle">4</text>
+  <text x="70" y="222" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Важат само върху залог на едно число</text>
+
+  <text x="32" y="256" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Ключови числа</text>
+
+  <g stroke="#1e293b" stroke-width="1">
+    <line x1="32" y1="284" x2="688" y2="284"/>
+    <line x1="32" y1="312" x2="688" y2="312"/>
+  </g>
+
+  <text x="48" y="276" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">База за уцелено число</text>
+  <text x="688" y="276" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">29:1 (вместо 35:1)</text>
+
+  <text x="48" y="304" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">RTP стрейт-ъп (Evolution)</text>
+  <text x="688" y="304" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">≈ 97.10%</text>
+
+  <text x="48" y="332" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Домашно предимство (числа / външни)</text>
+  <text x="688" y="332" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">≈ 2.90% / 2.70%</text>
+
+  <rect x="32" y="352" width="656" height="56" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="48" y="377" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#f8fafc">Множителят до 500x се плаща от база 29:1</text>
+  <text x="48" y="397" font-family="Arial, sans-serif" font-size="12" fill="#cbd5e1">Външните залози плащат нормално и запазват 2.70% предимство.</text>
+
+  <text x="32" y="428" font-family="Arial, sans-serif" font-size="11" fill="#64748b">18+ Играйте отговорно</text>
+  <text x="688" y="428" font-family="Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="end">числата за множителите са примерни</text>
+</svg>
