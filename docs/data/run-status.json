@@ -1,32 +1,17 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-25T22:13:59Z",
-  "run_finished_utc": "2026-09-25T22:43:33Z",
-  "articles_written": 3,
-  "prs_opened": [
-    196,
-    197,
-    198
-  ],
-  "run_url": "https://claude.ai/code/session_01QvTEcNsJv38H5kz6Fz2wfU",
-  "note": "recurring run 2026-09-25 (later fire) DONE. 0 in-progress reconciled. Wrote MAX_PER_RUN=3 NEW distinct evergreen game-guide pillars from research bank (buffer 148->151, floor 10, NO cap): Ultimate Texas Hold'em (vk-0178, PR #196, gate 94, ~1147w, img:1 element-of-risk 0.53% vs 2.185% ante infographic + 4x/2x/1x ladder) · Andar Bahar (vk-0179, PR #197, gate 93, ~1066w, img:1 51.5%/48.5% + payouts infographic; Wikipedia is a film, excluded; sources Wizard of Odds + Pagat) · Casino War/Казино война (vk-0180, PR #198, gate 94, ~1014w, img:1 2.88% war/3.70% surrender/18.65% tie-bet infographic; war-outcome conflict resolved to Wizard of Odds). All dedup-clean vs content-queue + live sitemap (94 URLs); anti-cannibal enforced (UTH distinct от poker overview vk-0008/three card poker vk-0176/video poker vk-0173; Andar Bahar distinct от Бакара vk-0012/Dragon Tiger vk-0175; Casino War simplest-card distinct от same). GEMINI OFFLINE this run (as prior fires): text check + image gen + image review ALL HTTP 402 (prepayment credits depleted) -> per Step 7/8 SKIPPED (not halted); each article kept single initial draft (gemini=skipped), shipped 1 hand-authored SVG infographic (no API), numbers verbatim to 05b, manual integrity passed, 0 fabrication. 0 surviving [VERIFY]/[CONFLICT]/[DATA NEEDED] across all 3 (game-math from Wizard of Odds/Pagat/Wikipedia + recalculations; 0 operator/НАП facts). Ahrefs units ~exhausted (24,991/25,000 per last check; reset 2026-10-15) -> web fallback, no discovery spend; 3 research rows used; bank replenished +3 distinct uncovered (Pai Gow Poker / Red Dog / Mines) -> 3-candidate buffer (healthy, not padded). Backlog rows 5-14 all NV-Casino operator/НАП-dependent -> stay open+blocked under guides-only scope. Feed refreshed. One content PR per article; board on main. NEVER resolved a flag/posted/merged.",
+  "state": "running",
+  "run_started_utc": "2026-09-26T03:10:03Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01R1JwWaRHNBa1FB9TC1EadA",
+  "note": "daily run 2026-09-26 (recurring fire) — reconcile: 0 in-progress; starting batch selection",
   "progress": {
-    "phase": "done",
-    "article_index": 3,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 3,
     "article_slug": null,
-    "stages": [
-      "Synthesis",
-      "Outline",
-      "Author",
-      "Humaniser",
-      "SEO",
-      "Brand Gate",
-      "Light re-check",
-      "Images",
-      "Verification",
-      "PR"
-    ],
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
     "stage_index": null,
     "stage": null
   }

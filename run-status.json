@@ -1,32 +1,17 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-25T07:14:56Z",
-  "run_finished_utc": "2026-09-25T07:44:00Z",
-  "articles_written": 3,
-  "prs_opened": [
-    193,
-    194,
-    195
-  ],
-  "run_url": "https://claude.ai/code/session_011S1vkPv27KSZc8C47CrAAA",
-  "note": "backfill: nothing to do (all review-ready articles have images) — 2026-09-25T20:04:00Z. Scanned all 177 content-queue rows (vk-0001 to vk-0177); every drafted/approved article carries at least img:1 in its notes. Newest batch vk-0172..0177 each shipped 1 SVG infographic (hero skipped due to Gemini 402-offline in prior run) — not imageless. No imageless candidates found. No board changes needed.",
+  "state": "running",
+  "run_started_utc": "2026-09-26T03:10:03Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01R1JwWaRHNBa1FB9TC1EadA",
+  "note": "daily run 2026-09-26 (recurring fire) — reconcile: 0 in-progress; starting batch selection",
   "progress": {
-    "phase": "done",
-    "article_index": 3,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 3,
     "article_slug": null,
-    "stages": [
-      "Synthesis",
-      "Outline",
-      "Author",
-      "Humaniser",
-      "SEO",
-      "Brand Gate",
-      "Light re-check",
-      "Images",
-      "Verification",
-      "PR"
-    ],
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
     "stage_index": null,
     "stage": null
   }
