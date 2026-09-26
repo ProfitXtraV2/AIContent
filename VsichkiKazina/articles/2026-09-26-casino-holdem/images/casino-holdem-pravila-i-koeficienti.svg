@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-label="Инфографика за Casino Hold'em. Ход на ръката: 1) залагаш Ante; 2) получаваш 2 свои и 3 общи карти, флоп; 3) отказ, при който губиш Ante, или Call, равен на 2 пъти Ante; 4) идват още 2 общи карти и се сравнява. Дилърът се класира с двойка четворки. При некласиран дилър Call се връща, а Ante плаща по таблицата. При класиран дилър и печалба Ante плаща по таблицата, а Call едно към едно. При класиран дилър и загуба губиш Ante и Call. Ante бонус по силата на ръката: роял флош 100 към 1, стрейт флош 20 към 1, каре 10 към 1, фул хаус 3 към 1, флош 2 към 1, стрейт или по-слабо 1 към 1. Домашно предимство в дълъг период: основна игра спрямо Ante около 2,16 процента, страничен залог AA около 6 процента. Коефициентите зависят от версията на масата.">
+  <rect x="8" y="8" width="704" height="524" rx="18" fill="#0f172a"/>
+
+  <text x="32" y="42" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#f8fafc">Casino Hold'em: правила и коефициенти</text>
+  <text x="32" y="64" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Едно решение срещу дилъра; ниско предимство на основната игра, скъп страничен залог</text>
+
+  <text x="32" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Ход на ръката</text>
+  <text x="48" y="126" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">1. Залагаш Ante</text>
+  <text x="48" y="148" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">2. Получаваш 2 свои + 3 общи карти (флоп)</text>
+  <text x="48" y="170" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">3. Отказ (губиш Ante) или Call, равен на 2× Ante</text>
+  <text x="48" y="192" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">4. Идват още 2 общи карти и се сравнява</text>
+
+  <text x="32" y="224" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Дилърът се класира с двойка четворки</text>
+  <text x="48" y="248" font-family="Arial, sans-serif" font-size="12" fill="#cbd5e1">Некласиран дилър: Call се връща, Ante плаща по таблицата</text>
+  <text x="48" y="270" font-family="Arial, sans-serif" font-size="12" fill="#cbd5e1">Класиран и печелиш: Ante по таблицата, Call 1:1</text>
+  <text x="48" y="292" font-family="Arial, sans-serif" font-size="12" fill="#cbd5e1">Класиран и губиш: губиш Ante и Call</text>
+
+  <text x="32" y="324" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Ante бонус по силата на ръката</text>
+
+  <text x="48" y="350" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Роял флош</text>
+  <text x="330" y="350" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">100:1</text>
+  <text x="48" y="372" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Стрейт флош</text>
+  <text x="330" y="372" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">20:1</text>
+  <text x="48" y="394" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Каре</text>
+  <text x="330" y="394" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">10:1</text>
+
+  <text x="384" y="350" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Фул хаус</text>
+  <text x="688" y="350" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">3:1</text>
+  <text x="384" y="372" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Флош</text>
+  <text x="688" y="372" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">2:1</text>
+  <text x="384" y="394" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Стрейт или по-слабо</text>
+  <text x="688" y="394" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">1:1</text>
+
+  <text x="32" y="426" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Домашно предимство (дългосрочно)</text>
+
+  <g stroke="#1e293b" stroke-width="1">
+    <line x1="32" y1="438" x2="688" y2="438"/>
+    <line x1="32" y1="466" x2="688" y2="466"/>
+  </g>
+
+  <text x="48" y="458" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Основна игра (спрямо Ante)</text>
+  <text x="688" y="458" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">≈ 2,16%</text>
+  <text x="48" y="486" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Страничен залог AA</text>
+  <text x="688" y="486" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">≈ 6%</text>
+
+  <rect x="32" y="502" width="656" height="22" rx="6" fill="#111f38"/>
+  <text x="44" y="517" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Коефициентите зависят от версията на масата. 18+ Играйте отговорно.</text>
+</svg>
