@@ -14,5 +14,6 @@ Step 7 (Gemini, gemini-3.1-pro-preview) pass 1: "Shows AI patterns, 75%" -> huma
 Humaniser pass 1 (step-7b): split disguised-listicle paragraph by theme, removed both "not just X but Y" pivots, removed page/architecture meta-referencing; RG/18+ line untouched; re-padded body to 350 words; numbers/links diffed identical. Quick Brand Gate re-check: still PASS, no new issue.
 Step 7 pass 2: "Likely human-written, 85%" -> human-likeness 85. PASS (>= 80). KEEP-BEST: pass 2 (85) > pass 1 (25), kept as final 05b.
 Step 8 (images): skipped entirely - hub-intro spec has no image stage.
+Step 8 (images, backfill 2026-09-26): 1 SVG infographic created — sravnenie-bonus-baza-wagering.svg (wagering base comparison, примерни €200 deposit, 35x from text). Hero skipped: Gemini API HTTP 402 (credits depleted). Image review: skipped (GEMINI_ERROR HTTP 402). Inserted image reference + caption after wagering para in 05b.
 06-verification: written - 0 surviving flags, 1 recalculation shown (превъртане double-base check, holds exactly for a 100%-match bonus), Gemini verdict recorded (human 85, 1 humaniser pass).
 Outcome: drafted. Ready for PR.
