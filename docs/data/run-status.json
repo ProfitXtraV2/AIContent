@@ -5,6 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_017HmTvbQFVXqwcDjpf93hYc",
-  "note": "daily run 2026-09-26 (recurring) — syncing + selecting batch",
-  "progress": {"phase":"selecting","article_index":0,"article_total":3,"article_slug":null,"stages":["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],"stage_index":null,"stage":null}
+  "note": "daily run 2026-09-26 (recurring) — writing 3 (Monopoly Live/Funky Time/Casino Hold'em); Gemini offline 402, Ahrefs 403 web-fallback",
+  "progress": {
+    "phase": "writing",
+    "article_index": 1,
+    "article_total": 3,
+    "article_slug": "2026-09-26-monopoly-live",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
+  }
 }
