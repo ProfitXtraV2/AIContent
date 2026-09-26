@@ -1011,3 +1011,63 @@ AI Studio billing (https://ai.studio/projects).** Until then, no Gemini scoring 
 
 ### Deferred (pending Gemini billing)
 - vk-0167, vk-0168, vk-0171 — 3 `ai 75` rows; can't re-check/verify until Gemini billing restored.
+
+## 2026-09-26 — nightly flag + score fixes
+
+New drafted content arrived since 2026-09-25: the autopilot drafted 9 Live-Casino articles
+(vk-0181..vk-0189). **7 of them carried publish-blocking `[VERIFY]` game-data flags** — real,
+new JOB-A work tonight (unlike 2026-09-25, when only the 2 posted nv-casino files were flagged).
+
+### JOB A — publish-blocking flags
+Scanned all 190 `content/*` branches' own `05b-final-draft.md`. Flagged (own folder): **9**.
+
+**Fixed & pushed (7 drafted Live-Casino articles — all `[VERIFY]` public game/provider data;
+value kept, caveat folded into natural prose per the "проверете в инфо-панела" rule; no facts
+invented, no numbers/RTP/dates changed):**
+- **vk-0189** `2026-09-26-casino-holdem` — 3 `[VERIFY]` (Ante-бонус коефициенти, 2,16% house edge, ~6% side-bet edge) → 0 markers.
+- **vk-0185** `2026-09-26-crazy-time` — 3 `[VERIFY]` (Top Slot ~50x, per-bet RTP table, ~20 000x/25 000x cap) → 0 markers.
+- **vk-0188** `2026-09-26-funky-time` — 2 `[VERIFY]` (per-bet RTP, 500 000 € win cap) → 0 markers.
+- **vk-0186** `2026-09-26-lightning-roulette` — 1 `[VERIFY]` (97.10% straight-up RTP) → 0 markers.
+- **vk-0183** `2026-09-26-mines` — 1 `[VERIFY]` (Spribe ~97% RTP) → 0 markers.
+- **vk-0187** `2026-09-26-monopoly-live` — 3 `[VERIFY]` (wheel field counts, per-bet RTP, 500 000 € cap) → 0 markers.
+- **vk-0184** `2026-09-26-teen-patti` — 1 `[VERIFY]` (97.99% optimal RTP) → 0 markers.
+
+Each committed on its own branch as `fix(flags): resolve <folder> — publish-ready` and pushed;
+each re-scanned to **0 blocking markers**. Byline Георги Тодоров and brand Всички Казина preserved.
+
+**NOT fixed — posted/live (per HARD RULES):**
+- **vk-0064** `2026-09-13-nv-casino-bonus-usloviya` (posted): `[AUTHOR BIO BLOCK] [BRAND BOILERPLATE] [18+ / RG LINE]`.
+- **vk-0063** `2026-09-13-nv-casino-zakonno-li-e` (posted): `[AUTHOR BIO BLOCK] [About …boilerplate]`.
+  Transparency: these two branch drafts were momentarily edited before their `posted` status was
+  reconfirmed, then **reverted to their exact pristine state** (revert commits pushed; live pages
+  untouched throughout). Left for human review — see POSTED-needs-human-review below.
+
+**Flags fixed: 7 branches (14 markers). Posted/live left untouched: 2.**
+
+### JOB B — low Gemini score improvements
+Board targets (status ∈ drafted/approved, verdict `ai n` or `human n<80`): **3 rows**, all `ai 75`
+— vk-0167 (rng), vk-0168 (kyc-verifikaciya), vk-0171 (kazino-turniri); worst-first, well under the
+10/night cap (no deferrals for cap reasons). **Gemini API still returns HTTP 402 (prepayment
+credits depleted)** — verified tonight against vk-0167 (exit code 2 = unavailable). The
+check→humanise→re-check loop is fully gated on the detector; without it, re-editing already-cleaned
+prose blind would risk undetectable regression. All 3 **deferred pending Gemini billing top-up**
+(not re-edited). The `skipped`-verdict drafts likewise have no score (Gemini was offline at draft
+time) — out of JOB-B scope and equally blocked.
+
+### ⚠ Environment issue — Gemini API credits depleted (UNRESOLVED, 3rd consecutive night)
+`gemini_check.py` returns **HTTP 402 RESOURCE_EXHAUSTED — "Your prepayment credits are
+depleted."** This blocks the entire Step-7 score-check pipeline: the nightly drafter (hence the
+growing pile of `skipped` drafts) AND this quality fixer's JOB B. **Needs human action: top up
+prepayment in Google AI Studio billing (https://ai.studio/projects).** Until then, no Gemini
+scoring is possible and JOB B cannot make measured progress.
+
+### POSTED — needs human review (recurring, still open)
+- **vk-0063** `2026-09-13-nv-casino-zakonno-li-e` (PR #79, posted, `ai 75`): `[AUTHOR BIO BLOCK]
+  [About Всички Казина boilerplate]` on branch AND live page. A human should fill the author
+  block off the live path before any re-publish.
+- **vk-0064** `2026-09-13-nv-casino-bonus-usloviya` (PR #80, posted, `human 85`):
+  `[AUTHOR BIO BLOCK] [BRAND BOILERPLATE] [18+ / RG LINE]` on branch AND live page. A human
+  should fill the author/brand/RG blocks off the live path before any re-publish.
+
+### Deferred (pending Gemini billing)
+- vk-0167, vk-0168, vk-0171 — 3 `ai 75` rows; can't re-check/verify until Gemini billing restored.
