@@ -1,15 +1,15 @@
 {
   "state": "idle",
-  "run_started_utc": "2026-09-26T19:07:30Z",
-  "run_finished_utc": "2026-09-26T19:07:30Z",
+  "run_started_utc": "2026-09-27T00:00:00Z",
+  "run_finished_utc": "2026-09-27T00:00:00Z",
   "articles_written": 3,
   "prs_opened": [
     202,
     203,
     204
   ],
-  "run_url": "https://claude.ai/code/session_012kKhZDozp8nEmt3r1sbfcB",
-  "note": "backfill: nothing to do (all review-ready articles have images) — 156 drafted/approved rows checked, every row carries img: in notes; backlog fully drained.",
+  "run_url": "https://claude.ai/code/session_01TDn7nBdEMBEF37EYNxeixs",
+  "note": "backfill: nothing to do (all review-ready articles have images) — 166 drafted/approved rows checked, every row carries img: in notes; backlog fully drained.",
   "progress": {
     "phase": "done",
     "article_index": 0,
