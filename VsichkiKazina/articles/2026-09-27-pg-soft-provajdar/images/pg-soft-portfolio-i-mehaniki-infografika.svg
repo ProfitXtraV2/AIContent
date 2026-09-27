@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 442" role="img" aria-label="Инфографика за PG Soft. Мобилен доставчик на слотове, основан през 2015 година във Валета, Малта. Механики: Ways, каскадни завъртания и растящ множител. RTP по подразбиране в дълъг период: Mahjong Ways 2 около 96,95 процента, Mahjong Ways около 96,92 процента, Fortune Tiger около 96,81 процента, Fortune Ox около 96,75 процента, Wild Bandito около 96,73 процента. Операторът може да пусне версия с около 1 или 2 процента по-нисък RTP. Максималният потенциал при Mahjong Ways 2 стига до 100 000 пъти залога, което е таван, не очаквана печалба. Стойностите са примерни и зависят от версията и играта.">
+  <rect x="8" y="8" width="704" height="426" rx="18" fill="#0f172a"/>
+
+  <text x="32" y="42" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#f8fafc">PG Soft: портфолио и механики</text>
+  <text x="32" y="64" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Мобилен доставчик на слотове. RTP зависи от версията, не от рекламата.</text>
+
+  <text x="32" y="98" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Основана</text>
+  <text x="688" y="98" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">2015, Валета, Малта</text>
+
+  <text x="32" y="124" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Механики</text>
+  <text x="688" y="124" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">Ways · каскади · множители</text>
+
+  <text x="32" y="158" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">RTP по подразбиране (в дълъг период)</text>
+
+  <g stroke="#1e293b" stroke-width="1">
+    <line x1="32" y1="172" x2="688" y2="172"/>
+    <line x1="32" y1="200" x2="688" y2="200"/>
+    <line x1="32" y1="228" x2="688" y2="228"/>
+    <line x1="32" y1="256" x2="688" y2="256"/>
+    <line x1="32" y1="284" x2="688" y2="284"/>
+  </g>
+
+  <text x="48" y="192" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Mahjong Ways 2 (висока волатилност)</text>
+  <text x="688" y="192" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#4ade80" text-anchor="end">≈ 96,95%</text>
+
+  <text x="48" y="220" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Mahjong Ways</text>
+  <text x="688" y="220" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#4ade80" text-anchor="end">≈ 96,92%</text>
+
+  <text x="48" y="248" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Fortune Tiger (таван ≈ 2 500x)</text>
+  <text x="688" y="248" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">≈ 96,81%</text>
+
+  <text x="48" y="276" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Fortune Ox (таван ≈ 2 000x)</text>
+  <text x="688" y="276" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">≈ 96,75%</text>
+
+  <text x="48" y="304" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Wild Bandito (средна волатилност)</text>
+  <text x="688" y="304" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">≈ 96,73%</text>
+
+  <text x="32" y="332" font-family="Arial, sans-serif" font-size="12" fill="#fbbf24">Операторът може да пусне версия с около 1% или 2% по-нисък RTP.</text>
+
+  <text x="32" y="366" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Максимален потенциал</text>
+  <text x="32" y="388" font-family="Arial, sans-serif" font-size="12.5" fill="#cbd5e1">Mahjong Ways 2: до 100 000x. Таван, не очаквана печалба.</text>
+
+  <rect x="32" y="404" width="656" height="24" rx="6" fill="#111f38"/>
+  <text x="44" y="420" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">RTP зависи от конкретното заглавие/версия. 18+ Играйте отговорно.</text>
+</svg>
