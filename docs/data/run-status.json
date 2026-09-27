@@ -7,12 +7,23 @@
   "run_url": "https://claude.ai/code/session_01MvLbBYhJmc9HDxpzwYYhFb",
   "note": "daily run 2026-09-27 (recurring, 2nd fire of day). 0 in-progress to reconcile. Gemini offline (402), Ahrefs exhausted (units 24991/25000, reset ~2026-10-15) -> web fallback. Writing 3 NEW distinct guide pillars from research bank (Mega Ball, Deal or No Deal Live, PG Soft). Buffer 162 (floor 10, no cap).",
   "progress": {
-    "phase": "selecting",
-    "article_index": 0,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 3,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "article_slug": "(batch: mega-ball, deal-or-no-deal-live, pg-soft)",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
