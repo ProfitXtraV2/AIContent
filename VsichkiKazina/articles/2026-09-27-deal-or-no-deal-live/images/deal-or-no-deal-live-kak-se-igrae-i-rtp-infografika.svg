@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" aria-label="Инфографика за Deal or No Deal Live на Evolution. Играта има три етапа преди куфарчетата: първо класиране през слот 3 на 3 или платено Instant класиране за 18x залога; после топ-ъп колело с 15 полета и множители от 5x до 50x залога; накрая игра с 16 куфарчета и до 4 оферти на банкера. Телевизионният формат е с 26 кутии, тук са 16. Базов RTP около 95,42 процента, домашно предимство около 4,58 процента, максимална печалба 500x залога. Стойностите зависят от версията. 18+ Играйте отговорно.">
+  <rect x="8" y="8" width="704" height="374" rx="18" fill="#0f172a"/>
+
+  <text x="32" y="42" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#f8fafc">Deal or No Deal Live: етапите и RTP</text>
+  <text x="32" y="64" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Три етапа преди куфарчетата; таванът е рядкост, не очакване</text>
+
+  <text x="32" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Трите етапа на рунда</text>
+
+  <text x="48" y="126" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">1. Класиране (слот 3×3)</text>
+  <text x="688" y="126" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">или Instant 18x залога</text>
+  <text x="48" y="150" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">2. Топ-ъп колело</text>
+  <text x="688" y="150" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">15 полета · 5x–50x</text>
+  <text x="48" y="174" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">3. Игра с куфарчетата</text>
+  <text x="688" y="174" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">16 куфарчета · до 4 оферти</text>
+
+  <text x="48" y="200" font-family="Arial, sans-serif" font-size="12" fill="#cbd5e1">Телевизионният формат е с 26 кутии; тук играят 16.</text>
+
+  <text x="32" y="232" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">RTP и таван (в дълъг период)</text>
+
+  <g stroke="#1e293b" stroke-width="1">
+    <line x1="32" y1="244" x2="688" y2="244"/>
+    <line x1="32" y1="272" x2="688" y2="272"/>
+    <line x1="32" y1="300" x2="688" y2="300"/>
+  </g>
+
+  <text x="48" y="264" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Базов RTP</text>
+  <text x="688" y="264" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">≈ 95,42%</text>
+  <text x="48" y="292" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Домашно предимство</text>
+  <text x="688" y="292" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">≈ 4,58%</text>
+  <text x="48" y="320" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Максимална печалба</text>
+  <text x="688" y="320" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">500x залога</text>
+
+  <rect x="32" y="336" width="656" height="24" rx="6" fill="#111f38"/>
+  <text x="44" y="352" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Стойностите зависят от версията. Числата са примерни. 18+ Играйте отговорно.</text>
+</svg>
