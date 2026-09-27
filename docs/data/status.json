@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-27T07:10:57Z",
+  "generated_utc": "2026-09-27T07:41:17Z",
   "buffer": {
-    "count": 162,
+    "count": 165,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 157,
+    "drafted": 160,
     "approved": 5,
     "posted": 29,
     "failed": 1
@@ -3445,6 +3445,57 @@
       "gemini": "skipped",
       "notes": "НОВ provider-hub pillar (непокрит — липсваше профил на Evolution докато другите доставчици ги имат); hubs Evolution game-spokes (Crazy Time/Monopoly Live/Funky Time/Lightning Roulette/Dream Catcher/Mega Ball) и рутира през /blog/live-game-shows/. Distinct primary keyword (evolution/провайдер) от всеки game-spoke. gate 93/100 0-crit (PASS with fixes); ~1192w; 1 SVG (2006; примерни RTP по категория маси на живо ~99% vs game shows ~95–96%; флагмани; числа verbatim; manual integrity PASS). Gemini OFFLINE (402) -> skipped, single draft. Честен ъгъл: масите на живо връщат повече от шоутата; „Lightning\" 29:1 vs 35:1. 2 [VERIFY] (условия/суми по придобивания; per-game/version RTP). Факти от evolution.com/Wikipedia/LiveCasinoComparer/WoO: осн. 2006 Швеция (фон Бар/Йостерберг), Nasdaq Stockholm EVO, студио Рига; придобивания Ezugi 2018/NetEnt+Red Tiger 2020/BTG 2021/NoLimit 2022. Без BG оператор/НАП/affiliate (описва доставчика). img:1. checked=web (Ahrefs exhausted). src=research candidate used (discovered gap).",
       "opportunity": null
+    },
+    {
+      "id": "vk-0193",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Mega Ball (Evolution): как се играе, множители и RTP",
+      "keywords_or_terms": "mega ball, мега бол, mega ball rtp",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-27",
+      "posted_date": "",
+      "folder": "2026-09-27-mega-ball",
+      "pr": "#211",
+      "gemini": "skipped",
+      "notes": "НОВ live game-show spoke на /blog/live-game-shows/; лото/бинго формат (5×5 карта, 24 числа/12 линии; теглене 20 от 51 топки + Mega Ball с множител 5x–100x). Distinct от колелата (Dream Catcher/Crazy Time/Funky/Monopoly) и от Cash or Crash. gate 93/100 0-crit; ~957w; 0 em-dash; img:1 SVG (5×5/20 от 51/5x–100x/RTP≈95,40%/edge 4,60%/таван 500 000 €/1–200 карти; verbatim; manual integrity PASS). Gemini OFFLINE (402)->skipped, single draft. 3 [VERIFY] (RTP 95,40 vs 95,05; топки 51 vs 52; карти 200 vs 400). Факти: Evolution 2020, LiveCasinoComparer/casinos.com/casinobloke/gg.co.uk/GMBLRS. Без BG оператор/НАП/affiliate. checked=web (Ahrefs exhausted). src=research candidate used.",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0194",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Deal or No Deal Live (Evolution): как се играе и RTP",
+      "keywords_or_terms": "deal or no deal live, deal or no deal казино, deal or no deal rtp",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-27",
+      "posted_date": "",
+      "folder": "2026-09-27-deal-or-no-deal-live",
+      "pr": "#213",
+      "gemini": "skipped",
+      "notes": "НОВ live game-show spoke на /blog/live-game-shows/; три етапа (класиране слот 3×3 / топ-ъп колело 15 полета множители 5x–50x / 16 куфарчета + до 4 оферти на банкера). Distinct от колелата и от Mega Ball/Cash or Crash. gate 92/100 0-crit; ~958w; 0 em-dash; img:1 SVG (16 куфарчета/3 етапа/5x–50x/RTP 95,42%/edge≈4,58%/макс 500x; verbatim; manual integrity PASS). Gemini OFFLINE (402)->skipped, single draft. 2 [VERIFY] (qualifying-slot top-case multiplier; reduced RTP на платените режими). Факти: CasinoBeats/casinos.com/olbg. Честен ъгъл: офертата на банкера под EV. Без BG оператор/НАП/affiliate. checked=web (Ahrefs exhausted). src=research candidate used.",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0195",
+      "status": "drafted",
+      "type": "guide",
+      "query": "PG Soft: профил на доставчика, механики и топ слотове",
+      "keywords_or_terms": "pg soft, pgsoft, pg soft слотове",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-27",
+      "posted_date": "",
+      "folder": "2026-09-27-pg-soft-provajdar",
+      "pr": "#212",
+      "gemini": "skipped",
+      "notes": "НОВ provider-hub pillar (непокрит); котва /blog/games-providers/; DISTINCT от Pragmatic/Amusnet профили (0 sister-provider връзки, таргетира pg soft/pgsoft). gate 93/100 0-crit (PASS w/fixes); ~1024w; 0 em-dash; img:1 SVG (multi-tier RTP 96,95/95,98/94,96; avg≈96,73; флагмани; verbatim; manual integrity PASS). Gemini OFFLINE (402)->skipped, single draft. 1 [VERIFY] (Mahjong Ways 2 max multiplier 1 708x vs до 100 000x). Факти: осн. 2015 Валета Малта; mobile-first HTML5; Ways/tumble/множители; Mahjong Ways 2/Fortune Tiger/Fortune Ox/Wild Bandito. Източници pgsoft.com/fruityslots/stakers/casinos.com/webopedia. Честен ъгъл: high-vol, RTP title-specific+operator-configurable, x-win e capped tail. Без BG оператор/НАП/affiliate. checked=web (Ahrefs exhausted). src=research candidate used.",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -6643,7 +6694,7 @@
       "trend": "up",
       "checked": "web",
       "suggestion": "НОВ branded live game-show spoke на hub /blog/live-game-shows/; непокрит. Лото/бинго формат: 5 карти, теглене на 20 топки, случайни множители върху топки/карти преди тегленето. Distinct от колелата (Dream Catcher/Crazy Time/Funky/Monopoly) и от Cash or Crash — различна механика. Честен ъгъл: множителите финансирани от базовия RTP ~95,4%. provider/game-DB (Evolution/WoO). Ahrefs exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери 'mega ball'",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-27",
       "opportunity": null
     },
@@ -6657,7 +6708,7 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "НОВ branded live game-show spoke на hub /blog/live-game-shows/; непокрит. Три етапа (квалификация, избор на банка, top-up) + отваряне на куфарчета срещу оферти на банкера. Distinct от колелата и от Mega Ball/Cash or Crash. Честен ъгъл: офертата на банкера е под очакваната стойност. provider/game-DB (Evolution/WoO). Ahrefs exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери 'deal or no deal live'",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-27",
       "opportunity": null
     },
@@ -6671,6 +6722,48 @@
       "trend": "up",
       "checked": "web",
       "suggestion": "НОВ provider-hub pillar; непокрит (липсва сред профилите на доставчици). Мобилно-фокусирано студио Pocket Games Soft; популярно с Mahjong Ways/Fortune серии, клъстер/множители механики. Distinct provider-query cluster; котва към /blog/games-providers/; provider/game-DB, NOT operator T&C/НАП. Ahrefs exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери 'pg soft'/'pgsoft'",
+      "status": "used",
+      "date_researched": "2026-09-27",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Big Time Gaming: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "big time gaming, btg, big time gaming слотове",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "НОВ provider-hub pillar; непокрит (само играта Bonanza Megaways vk-0077 и механиката Megaways vk-0041 съществуват, но НЕ профил на студиото). BTG e изобретателят на Megaways — силен distinct provider-query cluster; котва към /blog/games-providers/; provider site + game-DB, NOT operator T&C/НАП. Distinct от всички покрити профили. Ahrefs exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери 'big time gaming'/'btg'",
+      "status": "candidate",
+      "date_researched": "2026-09-27",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Bac Bo (Evolution): как се играе, множители и RTP",
+      "researched_keywords": "bac bo, бак бо, bac bo rtp",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial",
+      "trend": "up",
+      "checked": "web",
+      "suggestion": "НОВ live game-show spoke на hub /blog/live-game-shows/; непокрит. Зарова версия на бакара (двама зара за Player/Banker, множители при равенство) — distinct механика от колелата (Dream Catcher/Crazy Time/Funky/Monopoly), от лото (Mega Ball), от case-game (Deal or No Deal) и от стълбата (Cash or Crash). Честен ъгъл: tie-множителите финансирани от базовия RTP. provider/game-DB (Evolution/WoO). Ahrefs exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери 'bac bo'",
+      "status": "candidate",
+      "date_researched": "2026-09-27",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Football Studio (Evolution): как се играе и RTP",
+      "researched_keywords": "football studio, футбол студио, football studio rtp",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "НОВ live game-show spoke на hub /blog/live-game-shows/; непокрит. Проста игра на висока карта (Home/Away/Draw, по 1 карта на страна) с футболна тема — distinct от колелата/лото/case/зарове/стълба. Честен ъгъл: Draw плаща 11:1 но e най-скъпият залог; домашно предимство по залог. provider/game-DB (Evolution/WoO). Ahrefs exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери 'football studio'",
       "status": "candidate",
       "date_researched": "2026-09-27",
       "opportunity": null
