@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 452" role="img" aria-label="Инфографика за Football Studio на Evolution. Игра на висока карта с футболна тема: по една карта за Home и за Away, по-високата печели, двойка е най-ниска, асо е най-високо. Изплащания и RTP: Home плаща 1 към 1 с RTP около 96,27 процента и домашно предимство около 3,73 процента; Away плаща 1 към 1 със същия RTP; Draw, тоест равенство, плаща 11 към 1, но RTP е около 89,64 процента и домашно предимство около 10,36 процента. При равенство залозите Home и Away губят половината от залога. Равенство се случва при около 7,5 процента от рундовете. Draw изглежда примамлив с 11 към 1, но е най-скъпият залог. Числата са примерни и зависят от версията и масата.">
+  <rect x="8" y="8" width="704" height="436" rx="18" fill="#0f172a"/>
+
+  <text x="32" y="42" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#f8fafc">Football Studio: залози, изплащания и RTP</text>
+  <text x="32" y="64" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Игра на висока карта. По една карта за Home и Away; по-високата печели.</text>
+
+  <text x="32" y="98" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Подредба на картите</text>
+  <text x="688" y="98" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">2 най-ниска · асо най-високо</text>
+
+  <text x="32" y="124" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Равенство (Draw) се пада при</text>
+  <text x="688" y="124" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">≈ 7,5% от рундовете</text>
+
+  <text x="32" y="158" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Залозите: изплащане, RTP и домашно предимство</text>
+
+  <g stroke="#1e293b" stroke-width="1">
+    <line x1="32" y1="172" x2="688" y2="172"/>
+    <line x1="32" y1="212" x2="688" y2="212"/>
+    <line x1="32" y1="252" x2="688" y2="252"/>
+    <line x1="32" y1="292" x2="688" y2="292"/>
+  </g>
+
+  <text x="48" y="192" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Home · RTP ≈ 96,27% · предимство ≈ 3,73%</text>
+  <text x="688" y="192" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#4ade80" text-anchor="end">1:1</text>
+
+  <text x="48" y="232" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Away · RTP ≈ 96,27% · предимство ≈ 3,73%</text>
+  <text x="688" y="232" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#4ade80" text-anchor="end">1:1</text>
+
+  <text x="48" y="272" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Draw (равенство) · RTP ≈ 89,64% · предимство ≈ 10,36%</text>
+  <text x="688" y="272" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fbbf24" text-anchor="end">11:1</text>
+
+  <text x="32" y="322" font-family="Arial, sans-serif" font-size="12.5" fill="#cbd5e1">При равенство залозите Home и Away губят половината от залога.</text>
+
+  <text x="32" y="352" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Кое е по-изгодно</text>
+  <text x="32" y="374" font-family="Arial, sans-serif" font-size="12.5" fill="#fbbf24">Draw плаща 11:1, но е най-скъпият залог: предимство ≈ 10,36% (≈ 3 пъти над Home/Away).</text>
+
+  <rect x="32" y="410" width="656" height="24" rx="6" fill="#111f38"/>
+  <text x="44" y="426" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Примерни стойности; зависят от версията и масата. 18+ Играйте отговорно.</text>
+</svg>
