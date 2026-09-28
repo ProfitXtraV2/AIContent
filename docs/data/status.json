@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-28T07:29:08Z",
+  "generated_utc": "2026-09-28T07:36:04Z",
   "buffer": {
-    "count": 172,
+    "count": 173,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 167,
+    "drafted": 168,
     "approved": 5,
     "posted": 29,
     "failed": 1
@@ -3615,6 +3615,23 @@
       "gemini": "skipped",
       "notes": "НОВ branded live game-show spoke към /blog/live-game-shows/; залог само на сбора на три зара (3–18), светкавици добавят множители 5x–1000x срещу свалени базови изплащания. Distinct от Super Sic Bo (богато меню + множители по позиции), Сик Бо правила (vk-0174), Bac Bo (vk-0197), Lightning Roulette (vk-0186), Lightning Baccarat (vk-0199). gate 93/100 0-crit; ~1014w 0 em-dash; 3 [VERIFY] (базова таблица 149:1…4:1; множители 5x–1000x/1000x на 3-18/500x на 4-17; RTP 96,21%/96,03% + предимство 3,8–4%); img:1 SVG (numbers verbatim, manual integrity PASS); Gemini OFFLINE (402) → text+image review skipped; gemini=skipped; честен ъгъл: множителите платени от свалените изплащания, крайните суми плащат най-много но по 1 на 216; комбинаторика като SME стойност; launch year омитнат (конфликт). Без BG оператор/НАП/affiliate (Evolution само maker); checked=web (Ahrefs exhausted, reset 2026-10-15); src=research candidate used",
       "opportunity": null
+    },
+    {
+      "id": "vk-0203",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Fortune Tiger (PG Soft): RTP, множител и как се играе",
+      "keywords_or_terms": "fortune tiger, форчън тайгър, fortune tiger rtp",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-28",
+      "posted_date": "",
+      "folder": "2026-09-28-fortune-tiger",
+      "pr": "#222",
+      "gemini": "skipped",
+      "notes": "НОВ branded slot-explainer (fortune tiger 0 dedicated в queue+sitemap; само споменат в PG Soft профил vk-0195); слот 3x3, 5 фиксирани линии, RTP ≈96,81% (настройваемо от оператора), макс. 2500x, средна волатилност, залог €0,25–€250; тигър-wild 250x за три; Fortune Tiger Feature (случайни респини, заключване до пълен екран, множител x10, до 500x/завъртане). Distinct от PG Soft профил (vk-0195) и Fortune Ox/Rabbit (fold-in). gate 93/100 0-crit; ~1020w 0 em-dash; 2 [VERIFY] (RTP билд operator-configurable; макс. 2500x); img:1 SVG (numbers verbatim, manual integrity PASS); Gemini OFFLINE (402) → text+image review skipped; gemini=skipped; честен ъгъл: малкият грид не значи по-добри шансове, цената е в RTP; илюстративен респин пример маркиран примерни; release date омитнат. Без BG оператор/НАП/affiliate (PG Soft само maker); checked=web (Ahrefs exhausted, reset 2026-10-15); src=research candidate used",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -6953,7 +6970,7 @@
       "trend": "up",
       "checked": "web",
       "suggestion": "НОВ branded slot-explainer (fortune tiger 0 dedicated в queue+bank+sitemap; само споменат в PG Soft профил vk-0195); хитовият 3x3 слот на PG Soft с респини и растящ множител. Distinct branded title (fortune tiger) от провайдер профила vk-0195 и от Fortune Ox/Rabbit. Комплемент на vk-0195. Честен ъгъл: малък грид не значи по-добри шансове; RTP title-specific/operator-configurable; x-win e опашково събитие. provider/game-DB (pgsoft/fruityslots/slotcatalog). Ahrefs exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери fortune tiger",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-28",
       "opportunity": null
     },
