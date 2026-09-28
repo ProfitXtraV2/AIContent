@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-28T07:48:01Z",
+  "generated_utc": "2026-09-28T22:42:13Z",
   "buffer": {
-    "count": 174,
+    "count": 177,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 169,
+    "drafted": 172,
     "approved": 5,
     "posted": 29,
     "failed": 1
@@ -3649,6 +3649,57 @@
       "gemini": "skipped",
       "notes": "НОВ branded live game-show spoke към /blog/live-game-shows/; класическо сик бо (три зара, стъклен купол, launch 2021) + случайни множители 2x–1000x върху избрани позиции преди хвърлянето. Базови изплащания: малко/голямо 1:1 (губят при тройка), чет/нечет 1:1, конкретен сбор 6:1–50:1, едно число 1:1–3:1, двойка 8:1, комбинация 5:1, коя да е тройка 30:1, конкретна тройка 150:1. Distinct от Lightning Dice (само сборът + светкавици по числа за сбор), Сик Бо правила (vk-0174, непубликуван), Bac Bo (vk-0197). gate 93/100 0-crit; ~1030w 0 em-dash; 3 [VERIFY] (базова таблица; RTP по вид залог малко/голямо ≈97,22%; множители 2x–1000x/макс. 1000x); img:1 SVG (numbers verbatim, manual integrity PASS); Gemini OFFLINE (402) → text+image review skipped; gemini=skipped; честен ъгъл: RTP зависи от залога, множителите платени от свалените изплащания и не оправят слабите залози, малко/голямо губят при всяка тройка; точен RTP floor не се твърди (несигурен); илюстративен пример маркиран примерни. Без BG оператор/НАП/affiliate (Evolution само maker); checked=web (Ahrefs exhausted, reset 2026-10-15); src=research candidate used",
       "opportunity": null
+    },
+    {
+      "id": "vk-0205",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Fortune Ox (PG Soft): RTP, множител и как се играе",
+      "keywords_or_terms": "fortune ox, форчън окс, fortune ox rtp",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-28",
+      "posted_date": "",
+      "folder": "2026-09-28-fortune-ox",
+      "pr": "#224",
+      "gemini": "skipped",
+      "notes": "НОВ branded slot-explainer; сестрински 3-4-3 хит на PG Soft (3 барабана/средна колона 4/10 линии); distinct branded от Fortune Tiger (vk-0203) и PG Soft профил (vk-0195); Fortune Rabbit fold-in. gate 93/100 0-crit; ~1064w 0 em-dash; 3 [VERIFY] (RTP≈96,75% operator-configurable; залог ≈€0,20–€200 source-spread €0,30–€90 vs €0,20–€200; wild-бик ≈20x за три single-source); img:1 SVG (numbers verbatim, manual integrity PASS); Gemini OFFLINE (402) → text+image review skipped; gemini=skipped; честен ъгъл: малкият грид не значи по-добри шансове, таванът 2000x иска рядък пълен екран с x10, Ox Respin гарантира минимум не максимум; release date омитнат. Без BG оператор/НАП/affiliate (PG Soft само maker); checked=web (Ahrefs exhausted, reset 2026-10-15); src=research candidate used",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0206",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Gonzo's Treasure Hunt (Evolution): как се играе и RTP",
+      "keywords_or_terms": "gonzo's treasure hunt, гонзо трежър хънт, treasure hunt rtp",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-28",
+      "posted_date": "",
+      "folder": "2026-09-28-gonzos-treasure-hunt",
+      "pr": "#225",
+      "gemini": "skipped",
+      "notes": "НОВ branded live game-show spoke към /blog/live-game-shows/; pick-and-reveal формат (стена 70 плочки, 6 камъка 1:1–65:1, множители 2x–10x, бонус стойности 3–100, 1–20 избора, оръдието на Gonzo сваля наградите). Distinct формат от колелата (Crazy Time/Dream Catcher/Monopoly Live/Funky Time), зарата (Lightning Dice/Super Sic Bo/Bac Bo), лото (Mega Ball), case (Deal or No Deal), стълба (Cash or Crash); ИЗРИЧНО ≠ Gonzo's Quest (NetEnt слот vk-0044). gate 93/100 0-crit; ~1027w 0 em-dash; 2 [VERIFY] (таван на единичен камък ≈20 000 version-dependent; RTP по камък 96,35%–96,56% офиц. 96,56%); img:1 SVG (numbers verbatim, manual integrity PASS); Gemini OFFLINE (402) → text+image review skipped; gemini=skipped; честен ъгъл: изборът е илюзия за контрол, откриването случайно, 65:1 = цена на риска, всеки избор е допълнителен залог; висока волатилност, общ таван €1 000 000. Без BG оператор/НАП/affiliate (Evolution само maker); checked=web (Ahrefs exhausted, reset 2026-10-15); src=research candidate used",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0207",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Monopoly Big Baller (Evolution): как се играе и RTP",
+      "keywords_or_terms": "monopoly big baller, монополи биг балър, monopoly big baller rtp",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-28",
+      "posted_date": "",
+      "folder": "2026-09-28-monopoly-big-baller",
+      "pr": "#226",
+      "gemini": "skipped",
+      "notes": "НОВ branded live game-show spoke към /blog/live-game-shows/; живо бинго (20 топки от 60, карти 5x5), Golden Balls множители (Standard 10x–20x/Line 20x–50x/Global 2x–3x), 3D бонус разходка по дъската с Mr Monopoly (данъци −10–20%, GO удвоява); Chance карта макс. 199:1, Free Space 39:1. Distinct branded от Monopoly Live (vk-0187, money wheel) заради бинго-механиката и различния primary kw, и от Mega Ball (vk-0193, лото). gate 93/100 0-crit; ~1012w 0 em-dash; 1 [VERIFY] (Three/Five Rolls RTP ≈96,58%/95,83% aggregate; standard 96,10% solid); img:1 SVG (numbers verbatim, manual integrity PASS; bonus-card RTP kept out); Gemini OFFLINE (402) → text+image review skipped; gemini=skipped; честен ъгъл: бингото/колелото/дъската не менят предимството (≈3,90%), множителите платени от базовия RTP, повече карти = по-голям залог; общ таван €500 000. Без BG оператор/НАП/affiliate (Evolution само maker); checked=web (Ahrefs exhausted, reset 2026-10-15); src=research candidate used",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -7015,7 +7066,7 @@
       "trend": "up",
       "checked": "web",
       "suggestion": "НОВ branded slot-explainer (fortune ox 0 dedicated в queue+sitemap; само споменат в PG Soft профил vk-0195 и Fortune Tiger vk-0203); сестрински 3x3 хит на PG Soft с респини и монети/множители. Distinct branded title (fortune ox) от Fortune Tiger (vk-0203, own pillar) и от провайдер профила vk-0195; Fortune Rabbit folded-in като споменаване, НЕ отделен pillar (anti-cannibal в рамките на Fortune клъстъра). Комплемент на vk-0195/vk-0203. Честен ъгъл: малкият грид не значи по-добри шансове; RTP title-specific/operator-configurable; x-win e опашково събитие. provider/game-DB (pgsoft/bigwinboard/slotcatalog). Ahrefs exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери fortune ox",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-28",
       "opportunity": null
     },
@@ -7029,7 +7080,7 @@
       "trend": "up",
       "checked": "web",
       "suggestion": "НОВ branded live game-show spoke на hub /blog/live-game-shows/; непокрит (0 в queue+sitemap). Pick-and-reveal формат: избираш кутия от 70, множители зад тях, водещ стреля с оръдие. Distinct формат от колелата (Crazy Time/Dream Catcher vk-0190/Monopoly Live), зарата (Lightning Dice/Super Sic Bo/Bac Bo vk-0197), лото (Mega Ball vk-0193) и картите. Честен ъгъл: изборът е илюзия за контрол, резултатът е случаен; RTP по вид залог. provider/game-DB (Evolution/livecasinocomparer/WoO). Ahrefs exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери gonzo's treasure hunt",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-28",
       "opportunity": null
     },
@@ -7043,6 +7094,48 @@
       "trend": "up",
       "checked": "web",
       "suggestion": "НОВ branded live game-show spoke на hub /blog/live-game-shows/; непокрит (0 dedicated в queue+sitemap). Живо бинго + колело с множители + 3D бонус разходка по дъската. Distinct branded от Monopoly Live (money wheel, покрит в live-game-shows overview vk-0025) заради бинго-механиката и различния primary kw. Честен ъгъл: бинго картите + колелото не сменят домашното предимство; множителите платени от базовия RTP. provider/game-DB (Evolution/livecasinocomparer/WoO). Ahrefs exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери monopoly big baller",
+      "status": "used",
+      "date_researched": "2026-09-28",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "XXXtreme Lightning Roulette (Evolution): множители и RTP",
+      "researched_keywords": "xxxtreme lightning roulette, екстрийм лайтнинг рулетка, xxxtreme lightning roulette rtp",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial",
+      "trend": "up",
+      "checked": "web",
+      "suggestion": "НОВ branded live game-show spoke на hub /blog/live-game-shows/; непокрит (0 в queue+bank+sitemap). Разширена версия на Lightning Roulette (vk-0186) с верижни светкавици и до няколко множителя на число + по-висок таван. Distinct branded primary kw (xxxtreme lightning roulette) — pillar на multiplier-roulette клъстъра; Lightning Roulette (vk-0186) остава отделен базов pillar (различен таван/механика), fold-in кръстосани връзки. Честен ъгъл: по-високите множители се плащат от свалени базови изплащания, RTP под класическа рулетка. provider/game-DB (Evolution/livecasinocomparer/WoO). Ahrefs exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери xxxtreme lightning roulette",
+      "status": "candidate",
+      "date_researched": "2026-09-28",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Side Bet City (Evolution): как се играе и RTP",
+      "researched_keywords": "side bet city, сайд бет сити, side bet city rtp",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial",
+      "trend": "up",
+      "checked": "web",
+      "suggestion": "НОВ branded live game-show spoke на hub /blog/live-game-shows/; непокрит (0 в queue+bank+sitemap). Покер-базирано шоу: залагаш на силата на ръка от 3 и 5 карти преди раздаването (All Lose / Pair+ / Three Card / Five Card). Distinct покер-формат от Teen Patti (vk-0184, 3-card) и Casino Hold'em — различен primary kw и залогова структура. Честен ъгъл: страничните залози имат по-високо предимство; ръцете се раздават след затваряне на залозите (без умение). provider/game-DB (Evolution/livecasinocomparer/WoO). Ahrefs exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери side bet city",
+      "status": "candidate",
+      "date_researched": "2026-09-28",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Lightning Blackjack (Evolution): множители, такса и RTP",
+      "researched_keywords": "lightning blackjack, лайтнинг блекджек, lightning blackjack rtp",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial",
+      "trend": "up",
+      "checked": "web",
+      "suggestion": "НОВ branded live game-show spoke на hub /blog/live-game-shows/; непокрит (0 в queue+bank+sitemap). Блекджек на живо с множители при печеливша ръка срещу Lightning такса; distinct blackjack-клъстър от рулетка/покер/бакара спокове и от Lightning Baccarat (vk-0199)/Lightning Dice (vk-0202). Честен ъгъл: таксата финансира множителите → базовият EV под класически блекджек; стратегията остава, но платена. provider/game-DB (Evolution/livecasinocomparer/WoO). Ahrefs exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери lightning blackjack",
       "status": "candidate",
       "date_researched": "2026-09-28",
       "opportunity": null

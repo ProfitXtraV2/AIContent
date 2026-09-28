@@ -1,17 +1,18 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-09-28T22:14:01Z",
-  "run_finished_utc": null,
-  "articles_written": null,
+  "run_finished_utc": "2026-09-28T22:42:38Z",
+  "articles_written": 3,
   "prs_opened": [
     224,
-    225
+    225,
+    226
   ],
   "run_url": "https://claude.ai/code/session_011EHmszCHz5X9NAmHU7bV7M",
-  "note": "daily run 2026-09-28 (recurring) — articles 1-2/3 done: Fortune Ox (vk-0205, PR #224), Gonzo's Treasure Hunt (vk-0206, PR #225) drafted; gate 93; img:1 SVG each; gemini=skipped (402). 1 more (Monopoly Big Baller).",
+  "note": "recurring run 2026-09-28 DONE. 0 in-progress reconciled (prior 07:14 fire finalized vk-0202/0203/0204 clean; heartbeat idle). Wrote MAX_PER_RUN=3 NEW distinct guide pillars (buffer 174->177, floor 10, NO cap): Fortune Ox/PG Soft (vk-0205, PR #224, gate 93, ~1064w, img:1 SVG) · Gonzo's Treasure Hunt/Evolution (vk-0206, PR #225, gate 93, ~1027w, img:1 SVG) · Monopoly Big Baller/Evolution (vk-0207, PR #226, gate 93, ~1012w, img:1 SVG). Selection: all 3 from research bank (candidates->used); human backlog rows 5-14 all NV-Casino operator/НАП-blocked -> stay open+blocked (guides-only; Ahrefs exhausted so no re-pull). Dedup-clean vs content-queue + live sitemap; anti-cannibal enforced (Fortune Ox distinct branded от Fortune Tiger vk-0203 + PG Soft профил vk-0195, Fortune Rabbit fold-in; Gonzo's Treasure Hunt pick-and-reveal distinct от всички live спокове + ИЗРИЧНО != Gonzo's Quest NetEnt слот vk-0044; Monopoly Big Baller bingo distinct от Monopoly Live vk-0187 money-wheel + Mega Ball vk-0193 лото). GEMINI OFFLINE (HTTP 402 credits depleted, probed live): Step-7 text + Step-8 image gen/review ALL skipped per rules (not halted); each kept single draft (gemini=skipped) + 1 hand-authored SVG infographic (numbers verbatim to 05b, manual integrity PASS, 0 fabrication). Flags kept in-text (human Step 6): Fortune Ox 3 [VERIFY] (RTP 96,75% operator-configurable / залог €0,20-€200 source-spread / wild-бик 20x single-source), Gonzo 2 [VERIFY] (single-stone cap 20 000 / RTP range 96,35-96,56), Monopoly BB 1 [VERIFY] (Three/Five Rolls RTP; standard 96,10% solid). 6 total. AHREFS exhausted (reset 2026-10-15) -> web fallback, no discovery spend, vol/kd blank. Bank replenished +3 distinct uncovered clusters (XXXtreme Lightning Roulette / Side Bet City / Lightning Blackjack — roulette/poker/blackjack live shows, checked=web awaiting reset) -> 3-candidate buffer restored. Feed refreshed (5 approved). One content PR per article; board on main. NEVER resolved a flag/posted/merged.",
   "progress": {
-    "phase": "writing",
-    "article_index": 2,
+    "phase": "done",
+    "article_index": 3,
     "article_total": 3,
     "article_slug": null,
     "stages": [
