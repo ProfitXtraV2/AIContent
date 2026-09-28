@@ -1,18 +1,14 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-28T03:11:44Z",
-  "run_finished_utc": "2026-09-28T03:34:27Z",
-  "articles_written": 3,
-  "prs_opened": [
-    217,
-    218,
-    219
-  ],
-  "run_url": "https://claude.ai/code/session_013Ec6Zfx1iQAXjNd8A7gCbL",
-  "note": "recurring run 2026-09-28 DONE. 0 in-progress reconciled (vk-0063 already posted; the 'in-progress' grep hit was note text, status=posted, PR #79 merged). Wrote MAX_PER_RUN=3 NEW distinct guide pillars (buffer 168->171, floor 10, NO cap): Lightning Baccarat/Evolution (vk-0199, PR #218, gate 93, ~1230w, img:1 SVG) · Crazy Coin Flip/Evolution (vk-0200, PR #219, gate 92, ~1040w, img:1 SVG) · Extra Chilli Megaways/BTG (vk-0201, PR #217, gate 92, ~1180w, img:1 SVG). Selection: all 3 from research bank (candidates->used); human backlog rows 5-14 all NV Casino operator/НАП-blocked -> stay open+blocked (guides-only). Dedup-clean vs content-queue + live sitemap; anti-cannibal enforced (Lightning Baccarat distinct from card-бакара/Bac Bo/Lightning Roulette; Crazy Coin Flip distinct slot-qualification+coin-flip format; Extra Chilli distinct branded title vs Bonanza Megaways, complements BTG profile vk-0196). GEMINI OFFLINE (HTTP 402 credits depleted, probed live): Step-7 text + Step-8 image gen/review ALL skipped per rules (not halted); each kept single draft (gemini=skipped) + 1 hand-authored SVG infographic (numbers verbatim to 05b, manual integrity PASS, 0 fabrication). Flags kept in-text (human Step 6): LB 3 [VERIFY], CCF 1 [VERIFY], Extra Chilli 2 [VERIFY] (6 total). Rejected unverified 25 000x Crazy Coin Flip max multiplier (likely Crazy Time confusion). No BG operator/НАП/affiliate (Evolution/BTG as makers only). AHREFS exhausted (reset 2026-10-15) -> web fallback, no discovery spend, vol/kd blank. Bank replenished +3 distinct uncovered (Lightning Dice / Fortune Tiger PG Soft / Super Sic Bo, checked=web awaiting reset) -> 3-candidate buffer restored. Feed refreshed (5 approved unchanged). One content PR per article; board on main. NEVER resolved a flag/posted/merged.",
+  "state": "running",
+  "run_started_utc": "2026-09-28T07:14:15Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_015vfYVEYYyy5YhD8qKjuAfa",
+  "note": "daily run 2026-09-28 (later fire) — reconcile + write up to 3 new distinct guides",
   "progress": {
-    "phase": "done",
-    "article_index": 3,
+    "phase": "selecting",
+    "article_index": null,
     "article_total": 3,
     "article_slug": null,
     "stages": [
