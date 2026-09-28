@@ -1130,3 +1130,43 @@ unaffected and continues to work every night.
 
 ### Deferred (pending Gemini billing)
 - vk-0167, vk-0168, vk-0171 — 3 `ai 75` rows; can't re-check/verify until Gemini billing restored.
+
+## 2026-09-28 — nightly flag + score fixes
+
+### JOB A — publish-blocking flag resolution
+Scanned all 208 `origin/content/*` branches' `05b-final-draft.md` for blocking markers
+(`[VERIFY]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`, `[AUTHOR …]`, `[BRAND …]`,
+`[EDITORIAL]`, `[уточни …]`, `[провери …]`). **Only 2 branches carry a marker, and both are
+POSTED** (see POSTED-needs-review below) — no non-posted/unpublished draft is flagged tonight.
+No edits made under JOB A (all draftable branches are already flag-free). `[About Всички Казина
+boilerplate]` is a non-blocking publisher-substituted placeholder (present in posted articles),
+not on the blocking list, so it is left as-is.
+
+**Flags fixed: 0 branches (none needed). Posted/live carrying stubs, left untouched: 2.**
+
+### JOB B — low Gemini score improvements
+Targets (status ∈ drafted/approved, verdict `ai n` or `human n<80`): **3 rows**, all `ai 75`
+— vk-0167 (rng), vk-0168 (kyc-verifikaciya), vk-0171 (kazino-turniri); under the 10/night cap,
+no cap deferrals. **Gemini API returns HTTP 402 RESOURCE_EXHAUSTED — "Your prepayment credits
+are depleted."** Verified tonight against vk-0167 (2 attempts, exit 2); proxy healthy (no relay
+failures — the 402 is Google's billing response, not a transport error). The check→humanise→
+re-check loop is fully gated on the detector: without a score there is no measured before→after
+and re-editing already-cleaned prose blind risks undetectable voice regression. All 3
+**deferred pending Gemini billing top-up** (not re-edited).
+
+### ⚠ Environment issue — Gemini API credits depleted (UNRESOLVED, 5th consecutive night)
+`gemini_check.py` → **HTTP 402 "prepayment credits are depleted"** (ongoing since ~2026-09-24).
+This blocks the whole Step-7 score pipeline: the nightly drafter (the `skipped`-verdict pile has
+grown from 57 on 09-27 to **66** tonight) AND this fixer's JOB B. **Needs human action: top up
+prepayment in Google AI Studio billing (https://ai.studio/projects).** JOB A (flag resolution)
+is unaffected and keeps working.
+
+### POSTED — needs human review (recurring, still open)
+- **vk-0063** `2026-09-13-nv-casino-zakonno-li-e` (PR #79, posted, `ai 75`): `[AUTHOR BIO BLOCK]`
+  stub on branch. Left untouched (HARD RULE: never edit live). Low score can't be improved until
+  Gemini billing restored, and it's posted regardless → human review.
+- **vk-0064** `2026-09-13-nv-casino-bonus-usloviya` (PR #80, posted, `human 85`):
+  `[AUTHOR BIO BLOCK] [BRAND BOILERPLATE] [18+ / RG LINE]` stub on branch. Left untouched.
+
+### Deferred (pending Gemini billing)
+- vk-0167, vk-0168, vk-0171 — 3 `ai 75` rows; cannot re-check/verify until Gemini billing restored.
