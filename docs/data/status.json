@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-28T03:15:01Z",
+  "generated_utc": "2026-09-28T03:34:27Z",
   "buffer": {
-    "count": 168,
+    "count": 171,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 3,
-    "drafted": 163,
+    "in-progress": 0,
+    "drafted": 166,
     "approved": 5,
     "posted": 29,
     "failed": 1
@@ -3550,7 +3550,7 @@
     },
     {
       "id": "vk-0199",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Lightning Baccarat (Evolution): множители, такса и RTP",
       "keywords_or_terms": "lightning baccarat, лайтнинг бакара, lightning baccarat rtp",
@@ -3560,14 +3560,14 @@
       "drafted_date": "2026-09-28",
       "posted_date": "",
       "folder": "2026-09-28-lightning-baccarat",
-      "pr": "",
-      "gemini": "",
-      "notes": "НОВ branded live game-show spoke на /blog/live-game-shows/; бакара с множители срещу Lightning такса; distinct от card-бакара (/blog/bakara-pravila/), Bac Bo (vk-0197), Lightning Roulette (vk-0186); provider/game-DB (Evolution/WoO); checked=web (Ahrefs exhausted, reset 2026-10-15)",
+      "pr": "#218",
+      "gemini": "skipped",
+      "notes": "НОВ branded live game-show spoke на /blog/live-game-shows/; бакара с множители срещу Lightning такса 20%; distinct от card-бакара (/blog/bakara-pravila/), Bac Bo (vk-0197), Lightning Roulette (vk-0186); provider/game-DB (Evolution/livecasinocomparer). drafted 2026-09-28; gate 93/100 0-crit; ~1230w 0 em-dash; 3 [VERIFY] (P/B RTP source-conflict kept Banker≥Player 98,76/98,59; Tie max множител 262 144x vs 310 720; прозорец за залагане ~12s); img:1 SVG (numbers verbatim, manual integrity PASS); Gemini OFFLINE (402) → text+image review skipped; gemini=skipped; честен ъгъл: множителите платени от таксата → P/B под класическа бакара, но Tie RTP по-висок от класика; checked=web (Ahrefs exhausted, reset 2026-10-15); src=research candidate used",
       "opportunity": null
     },
     {
       "id": "vk-0200",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Crazy Coin Flip (Evolution): как се играе и RTP",
       "keywords_or_terms": "crazy coin flip, крейзи койн флип, crazy coin flip rtp",
@@ -3577,14 +3577,14 @@
       "drafted_date": "2026-09-28",
       "posted_date": "",
       "folder": "2026-09-28-crazy-coin-flip",
-      "pr": "",
-      "gemini": "",
-      "notes": "НОВ live game-show spoke на /blog/live-game-shows/; хибрид слот-квалификация + бонус подхвърляне на монета с множители; distinct от колелата/лото/case/стълба/зарове; provider/game-DB (Evolution/WoO); checked=web (Ahrefs exhausted)",
+      "pr": "#219",
+      "gemini": "skipped",
+      "notes": "НОВ live game-show spoke на /blog/live-game-shows/; хибрид слот-квалификация (5x3, 3 скатера) + бонус подхвърляне на монета с множители (начални 5x–100x); distinct format от колелата/лото/case/стълба/зарове; provider/game-DB (Evolution/livecasinocomparer/casino.org). drafted 2026-09-28; gate 92/100 0-crit; ~1040w 0 em-dash; 1 [VERIFY] (дата 14 vs 27 юни 2022); img:1 SVG (numbers verbatim, manual integrity PASS); Gemini OFFLINE (402) → skipped; gemini=skipped; честен ъгъл: квалификацията струва залог без гаранция, Top-Up връща по-малко (95,06<96,05); 25 000x claim rejected (unverified) → „без таван на множителя + 500 000 € таван\"; checked=web (Ahrefs exhausted); src=research candidate used",
       "opportunity": null
     },
     {
       "id": "vk-0201",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Extra Chilli Megaways (Big Time Gaming): RTP, feature buy и как се играе",
       "keywords_or_terms": "extra chilli, extra chilli megaways, extra chilli rtp",
@@ -3594,9 +3594,9 @@
       "drafted_date": "2026-09-28",
       "posted_date": "",
       "folder": "2026-09-28-extra-chilli-megaways",
-      "pr": "",
-      "gemini": "",
-      "notes": "НОВ branded Megaways slot-explainer; distinct branded title от Bonanza Megaways (vk-0077); допълва BTG профил (vk-0196); feature buy + растящ множител; provider/game-DB (bigwinboard/BTG); checked=web (Ahrefs exhausted)",
+      "pr": "#217",
+      "gemini": "skipped",
+      "notes": "НОВ branded Megaways slot-explainer; distinct branded title (extra chilli) от Bonanza Megaways (vk-0077); допълва BTG профил (vk-0196); 6 барабана/до 117 649 начина, растящ множител без таван, feature buy (Feature Drop ~50x); provider/game-DB (bigtimegaming/bigwinboard/slotcatalog). drafted 2026-09-28; gate 92/100 0-crit; ~1180w 0 em-dash; 2 [VERIFY] (година 2017 vs 2018; точна цена Feature Drop ~50x config-dependent); img:1 SVG (numbers verbatim, manual integrity PASS); Gemini OFFLINE (402) → skipped; gemini=skipped; честен ъгъл: feature buy отрицателен EV (bonus RTP 96,26–96,82), висока волатилност, RTP настройваемо; checked=web (Ahrefs exhausted); src=research candidate used",
       "opportunity": null
     }
   ],
@@ -6880,7 +6880,7 @@
       "trend": "up",
       "checked": "web",
       "suggestion": "НОВ live game-show spoke на hub /blog/live-game-shows/; непокрит (speed/lightning baccarat 0 в queue+bank+sitemap). Брандирана бакара на живо със случайни щастливи числа с множители, срещу такса върху залога -> занижен базов RTP спрямо класическата бакара. Distinct от card-бакара hub (/blog/bakara-pravila/), от Bac Bo (зарова, vk-0197) и от рулетките. Честен ъгъл: множителите са платени от по-нисък RTP. provider/game-DB (Evolution/WoO). Ahrefs exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери lightning baccarat",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-27",
       "opportunity": null
     },
@@ -6894,7 +6894,7 @@
       "trend": "up",
       "checked": "web",
       "suggestion": "НОВ live game-show spoke на hub /blog/live-game-shows/; непокрит (crazy coin flip 0 в queue+bank+sitemap). Хибрид: квалификационна фаза със слот-барабани + бонус подхвърляне на монета (Heads/Tails) с множители. Distinct формат от колелата (Dream Catcher/Crazy Time/Funky/Monopoly), лото (Mega Ball), case (Deal or No Deal), стълба (Cash or Crash), зарове (Bac Bo). Честен ъгъл: квалификацията струва залог без гаранция за бонус; монетата е 50/50, множителите идват от RTP. provider/game-DB (Evolution/WoO). Ahrefs exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери crazy coin flip",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-27",
       "opportunity": null
     },
@@ -6908,8 +6908,50 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "НОВ branded Megaways slot-explainer (extra chilli 0 в queue+bank+sitemap); distinct branded title като Bonanza Megaways vk-0077, различен primary keyword. 6 барабана до 117 649 начина, tumble/каскади, безплатни завъртания с растящ множител и опция за директна покупка на бонуса (feature buy). Честен ъгъл: покупката на бонус е скъпа (средно връщаш по-малко от платеното); висока волатилност; RTP tier-ове. Комплемент на новия BTG профил vk-0196. provider/game-DB (bigwinboard/BTG). Ahrefs exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери extra chilli",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-27",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Lightning Dice (Evolution): как се играе, множители и RTP",
+      "researched_keywords": "lightning dice, лайтнинг дайс, lightning dice rtp",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial",
+      "trend": "up",
+      "checked": "web",
+      "suggestion": "НОВ branded live game-show spoke на hub /blog/live-game-shows/; непокрит (lightning dice 0 в queue+bank+sitemap). Три зара, залагаш на сбор 3–18; преди хвърлянето светкавици добавят множители (до ~1000x) на избрани суми срещу занижено базово изплащане. Distinct от Bac Bo (зарова бакара, vk-0197), от Сик Бо правила (vk-0174) и от другите Lightning игри (Baccarat vk-0199/Roulette vk-0186). Честен ъгъл: множителите са платени от по-ниския базов RTP. provider/game-DB (Evolution/WoO). Ahrefs exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери lightning dice",
+      "status": "candidate",
+      "date_researched": "2026-09-28",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Fortune Tiger (PG Soft): как се играе, RTP и множители",
+      "researched_keywords": "fortune tiger, форчън тайгър, fortune tiger rtp",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial",
+      "trend": "up",
+      "checked": "web",
+      "suggestion": "НОВ branded slot-explainer (fortune tiger 0 dedicated в queue+bank+sitemap; само споменат в PG Soft профил vk-0195); хитовият 3x3 слот на PG Soft с респини и растящ множител. Distinct branded title (fortune tiger) от провайдер профила vk-0195 и от Fortune Ox/Rabbit. Комплемент на vk-0195. Честен ъгъл: малък грид не значи по-добри шансове; RTP title-specific/operator-configurable; x-win e опашково събитие. provider/game-DB (pgsoft/fruityslots/slotcatalog). Ahrefs exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери fortune tiger",
+      "status": "candidate",
+      "date_researched": "2026-09-28",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Super Sic Bo (Evolution): случайни множители и RTP",
+      "researched_keywords": "super sic bo, супер сик бо, super sic bo rtp",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial",
+      "trend": "up",
+      "checked": "web",
+      "suggestion": "НОВ branded live-dice spoke на hub /blog/live-game-shows/; непокрит (super sic bo 0 в queue+bank+sitemap). Класическо Сик Бо с три зара + случайни множители до ~1000x върху избрани залози всеки рунд. Distinct branded от Сик Бо правила пилар (vk-0174, fold-in reference) и от Lightning Dice (различна механика на множителите). Честен ъгъл: множителите не оправят слабите специфични залози; базовите RTP по вид залог са различни. provider/game-DB (Evolution/WoO). Ahrefs exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери super sic bo",
+      "status": "candidate",
+      "date_researched": "2026-09-28",
       "opportunity": null
     }
   ],
