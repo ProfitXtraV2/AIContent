@@ -3,15 +3,28 @@
   "run_started_utc": "2026-09-28T22:14:01Z",
   "run_finished_utc": null,
   "articles_written": null,
-  "prs_opened": [],
+  "prs_opened": [
+    224
+  ],
   "run_url": "https://claude.ai/code/session_011EHmszCHz5X9NAmHU7bV7M",
-  "note": "daily run 2026-09-28 (recurring fire) — starting; 0 in-progress reconciled; selecting 3 research candidates (Fortune Ox / Gonzo's Treasure Hunt / Monopoly Big Baller); Gemini offline (402) + Ahrefs exhausted expected.",
+  "note": "daily run 2026-09-28 (recurring) — article 1/3 done: Fortune Ox (vk-0205, PR #224) drafted, gate 93, img:1 SVG, gemini=skipped (402). 2 more to write.",
   "progress": {
-    "phase": "select",
-    "article_index": 0,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 3,
     "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
     "stage_index": null,
     "stage": null
   }
