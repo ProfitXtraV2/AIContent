@@ -4,13 +4,14 @@
   "run_finished_utc": null,
   "articles_written": null,
   "prs_opened": [
-    224
+    224,
+    225
   ],
   "run_url": "https://claude.ai/code/session_011EHmszCHz5X9NAmHU7bV7M",
-  "note": "daily run 2026-09-28 (recurring) — article 1/3 done: Fortune Ox (vk-0205, PR #224) drafted, gate 93, img:1 SVG, gemini=skipped (402). 2 more to write.",
+  "note": "daily run 2026-09-28 (recurring) — articles 1-2/3 done: Fortune Ox (vk-0205, PR #224), Gonzo's Treasure Hunt (vk-0206, PR #225) drafted; gate 93; img:1 SVG each; gemini=skipped (402). 1 more (Monopoly Big Baller).",
   "progress": {
     "phase": "writing",
-    "article_index": 1,
+    "article_index": 2,
     "article_total": 3,
     "article_slug": null,
     "stages": [
