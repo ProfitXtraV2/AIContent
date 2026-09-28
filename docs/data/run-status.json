@@ -5,14 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_013Ec6Zfx1iQAXjNd8A7gCbL",
-  "note": "daily run 2026-09-28",
+  "note": "daily run 2026-09-28 — batch=3 queued in-progress (vk-0199 Lightning Baccarat / vk-0200 Crazy Coin Flip / vk-0201 Extra Chilli Megaways); researching",
   "progress": {
-    "phase": "setup",
-    "article_index": null,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 3,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "article_slug": "2026-09-28-lightning-baccarat",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
