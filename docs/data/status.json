@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-28T07:14:15Z",
+  "generated_utc": "2026-09-28T07:29:08Z",
   "buffer": {
-    "count": 171,
+    "count": 172,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 166,
+    "drafted": 167,
     "approved": 5,
     "posted": 29,
     "failed": 1
@@ -3598,6 +3598,23 @@
       "gemini": "skipped",
       "notes": "НОВ branded Megaways slot-explainer; distinct branded title (extra chilli) от Bonanza Megaways (vk-0077); допълва BTG профил (vk-0196); 6 барабана/до 117 649 начина, растящ множител без таван, feature buy (Feature Drop ~50x); provider/game-DB (bigtimegaming/bigwinboard/slotcatalog). drafted 2026-09-28; gate 92/100 0-crit; ~1180w 0 em-dash; 2 [VERIFY] (година 2017 vs 2018; точна цена Feature Drop ~50x config-dependent); img:1 SVG (numbers verbatim, manual integrity PASS); Gemini OFFLINE (402) → skipped; gemini=skipped; честен ъгъл: feature buy отрицателен EV (bonus RTP 96,26–96,82), висока волатилност, RTP настройваемо; checked=web (Ahrefs exhausted); src=research candidate used",
       "opportunity": null
+    },
+    {
+      "id": "vk-0202",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Lightning Dice (Evolution): как се играе, множители и RTP",
+      "keywords_or_terms": "lightning dice, лайтнинг дайс, lightning dice rtp",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-28",
+      "posted_date": "",
+      "folder": "2026-09-28-lightning-dice",
+      "pr": "#221",
+      "gemini": "skipped",
+      "notes": "НОВ branded live game-show spoke към /blog/live-game-shows/; залог само на сбора на три зара (3–18), светкавици добавят множители 5x–1000x срещу свалени базови изплащания. Distinct от Super Sic Bo (богато меню + множители по позиции), Сик Бо правила (vk-0174), Bac Bo (vk-0197), Lightning Roulette (vk-0186), Lightning Baccarat (vk-0199). gate 93/100 0-crit; ~1014w 0 em-dash; 3 [VERIFY] (базова таблица 149:1…4:1; множители 5x–1000x/1000x на 3-18/500x на 4-17; RTP 96,21%/96,03% + предимство 3,8–4%); img:1 SVG (numbers verbatim, manual integrity PASS); Gemini OFFLINE (402) → text+image review skipped; gemini=skipped; честен ъгъл: множителите платени от свалените изплащания, крайните суми плащат най-много но по 1 на 216; комбинаторика като SME стойност; launch year омитнат (конфликт). Без BG оператор/НАП/affiliate (Evolution само maker); checked=web (Ahrefs exhausted, reset 2026-10-15); src=research candidate used",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -6922,7 +6939,7 @@
       "trend": "up",
       "checked": "web",
       "suggestion": "НОВ branded live game-show spoke на hub /blog/live-game-shows/; непокрит (lightning dice 0 в queue+bank+sitemap). Три зара, залагаш на сбор 3–18; преди хвърлянето светкавици добавят множители (до ~1000x) на избрани суми срещу занижено базово изплащане. Distinct от Bac Bo (зарова бакара, vk-0197), от Сик Бо правила (vk-0174) и от другите Lightning игри (Baccarat vk-0199/Roulette vk-0186). Честен ъгъл: множителите са платени от по-ниския базов RTP. provider/game-DB (Evolution/WoO). Ahrefs exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери lightning dice",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-28",
       "opportunity": null
     },

@@ -3,14 +3,16 @@
   "run_started_utc": "2026-09-28T07:14:15Z",
   "run_finished_utc": null,
   "articles_written": null,
-  "prs_opened": [],
+  "prs_opened": [
+    221
+  ],
   "run_url": "https://claude.ai/code/session_015vfYVEYYyy5YhD8qKjuAfa",
   "note": "daily run 2026-09-28 (later fire): writing 3 new distinct guides — Lightning Dice / Fortune Tiger / Super Sic Bo (research bank candidates). Gemini OFFLINE (402) -> Step7/image gen+review skipped; Ahrefs exhausted -> web fallback.",
   "progress": {
     "phase": "writing",
-    "article_index": 1,
+    "article_index": 2,
     "article_total": 3,
-    "article_slug": "2026-09-28-lightning-dice",
+    "article_slug": "2026-09-28-fortune-tiger",
     "stages": [
       "Synthesis",
       "Outline",
