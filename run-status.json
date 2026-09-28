@@ -1,17 +1,17 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-28T19:09:04Z",
-  "run_finished_utc": "2026-09-28T19:09:04Z",
-  "articles_written": 0,
+  "state": "running",
+  "run_started_utc": "2026-09-28T22:14:01Z",
+  "run_finished_utc": null,
+  "articles_written": null,
   "prs_opened": [],
-  "run_url": "https://claude.ai/code/session_01JsBVNPx7DTAZjXAbnbqFv6",
-  "note": "backfill: nothing to do (all review-ready articles have images) — 174 drafted/approved rows scanned; 0 imageless articles; backlog fully drained.",
+  "run_url": "https://claude.ai/code/session_011EHmszCHz5X9NAmHU7bV7M",
+  "note": "daily run 2026-09-28 (recurring fire) — starting; 0 in-progress reconciled; selecting 3 research candidates (Fortune Ox / Gonzo's Treasure Hunt / Monopoly Big Baller); Gemini offline (402) + Ahrefs exhausted expected.",
   "progress": {
-    "phase": "done",
+    "phase": "select",
     "article_index": 0,
-    "article_total": 0,
+    "article_total": 3,
     "article_slug": null,
-    "stages": [],
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
     "stage_index": null,
     "stage": null
   }
