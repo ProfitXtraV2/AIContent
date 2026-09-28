@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 512" role="img" aria-label="Инфографика за Crazy Coin Flip на Evolution. Три фази: квалификационен слот с 5 барабана и 3 реда, при който 3 скатера отключват бонуса; допълнителен слот около 50 секунди с множители до 50x; бонус подхвърляне на монета с червена и синя страна и начални множители от 5x до 100x на страна. Режими на въртене: Normal за единичен залог, XXXtreme за 5 пъти залога с поне 1 гарантиран скатер, Super XXXtreme за 50 пъти залога с 2 гарантирани скатера. RTP при оптимална игра около 96,05 процента, а при допълнителния залог Top-Up около 95,06 процента, домашно предимство около 3,95 процента. Няма таван на множителя, таван на печалбата 500 000 евро.">
+  <rect x="8" y="8" width="704" height="496" rx="18" fill="#0f172a"/>
+
+  <text x="32" y="42" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#f8fafc">Crazy Coin Flip: фази и RTP</text>
+  <text x="32" y="64" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Жива слот игра на Evolution: класиране на барабани, после подхвърляне на монета.</text>
+
+  <text x="32" y="98" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Трите фази</text>
+  <g stroke="#1e293b" stroke-width="1">
+    <line x1="32" y1="112" x2="688" y2="112"/>
+    <line x1="32" y1="140" x2="688" y2="140"/>
+    <line x1="32" y1="168" x2="688" y2="168"/>
+    <line x1="32" y1="196" x2="688" y2="196"/>
+  </g>
+  <text x="48" y="132" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">1 · Квалификационен слот (5 барабана, 3 реда)</text>
+  <text x="688" y="132" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">3 скатера</text>
+  <text x="48" y="160" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">2 · Допълнителен слот (по избор, ≈ 50 сек)</text>
+  <text x="688" y="160" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">множители до 50x</text>
+  <text x="48" y="188" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">3 · Подхвърляне (червена / синя страна)</text>
+  <text x="688" y="188" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fbbf24" text-anchor="end">начални 5x–100x</text>
+
+  <text x="32" y="224" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Режими на въртене (цена за по-добри шансове)</text>
+  <g stroke="#1e293b" stroke-width="1">
+    <line x1="32" y1="238" x2="688" y2="238"/>
+    <line x1="32" y1="266" x2="688" y2="266"/>
+    <line x1="32" y1="294" x2="688" y2="294"/>
+    <line x1="32" y1="322" x2="688" y2="322"/>
+  </g>
+  <text x="48" y="258" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Normal</text>
+  <text x="688" y="258" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">единичен залог</text>
+  <text x="48" y="286" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">XXXtreme (поне 1 скатер)</text>
+  <text x="688" y="286" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">5x залога</text>
+  <text x="48" y="314" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Super XXXtreme (2 скатера)</text>
+  <text x="688" y="314" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">50x залога</text>
+
+  <text x="32" y="350" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">RTP и тавани</text>
+  <g stroke="#1e293b" stroke-width="1">
+    <line x1="32" y1="364" x2="688" y2="364"/>
+    <line x1="32" y1="392" x2="688" y2="392"/>
+    <line x1="32" y1="420" x2="688" y2="420"/>
+    <line x1="32" y1="448" x2="688" y2="448"/>
+  </g>
+  <text x="48" y="384" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">RTP при оптимална игра (домашно предимство ≈ 3,95%)</text>
+  <text x="688" y="384" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#4ade80" text-anchor="end">≈ 96,05%</text>
+  <text x="48" y="412" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Допълнителен залог (Top-Up) — връща по-малко</text>
+  <text x="688" y="412" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fbbf24" text-anchor="end">≈ 95,06%</text>
+  <text x="48" y="440" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Таван на множителя · таван на печалбата</text>
+  <text x="688" y="440" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">няма · 500 000 €</text>
+
+  <rect x="32" y="460" width="656" height="34" rx="6" fill="#111f38"/>
+  <text x="44" y="476" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Квалификацията струва залог без гаранция за бонус; монетата е балансирана, стойността е в множителите.</text>
+  <text x="44" y="490" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Примерни стойности; зависят от версията и оператора. 18+ Играйте отговорно.</text>
+</svg>
