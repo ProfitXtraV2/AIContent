@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 508" role="img" aria-label="Инфографика за Lightning Baccarat на Evolution. Играе се с 8 тестета и Lightning такса 20 процента върху залога. Всеки рунд се теглят от 1 до 5 случайни светкавични карти с множители 2x, 3x, 4x, 5x или до 8x на карта, които се комбинират чрез умножение. Базови изплащания: Player 1 към 1, Banker 0,95 към 1, Tie 5 към 1. RTP при оптимална игра: Player около 98,59 процента, Banker около 98,76 процента, Tie около 94,51 процента. Максимални множители: Player и Banker 512x, Tie 262 144x. Таван на печалбата 500 000 евро. Стойностите зависят от версията и масата.">
+  <rect x="8" y="8" width="704" height="492" rx="18" fill="#0f172a"/>
+
+  <text x="32" y="42" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#f8fafc">Lightning Baccarat: множители, такса и RTP</text>
+  <text x="32" y="64" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Бакара на Evolution с множители срещу Lightning такса. 8 тестета.</text>
+
+  <text x="32" y="98" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Lightning рундът</text>
+  <g stroke="#1e293b" stroke-width="1">
+    <line x1="32" y1="112" x2="688" y2="112"/>
+    <line x1="32" y1="140" x2="688" y2="140"/>
+    <line x1="32" y1="168" x2="688" y2="168"/>
+  </g>
+  <text x="48" y="132" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Светкавични карти на рунд · множител на карта</text>
+  <text x="688" y="132" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fbbf24" text-anchor="end">1–5 · 2x/3x/4x/5x/8x</text>
+  <text x="48" y="160" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Lightning такса върху залога</text>
+  <text x="688" y="160" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">20%</text>
+
+  <text x="32" y="196" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Базови изплащания · RTP при оптимална игра</text>
+  <g stroke="#1e293b" stroke-width="1">
+    <line x1="32" y1="210" x2="688" y2="210"/>
+    <line x1="32" y1="238" x2="688" y2="238"/>
+    <line x1="32" y1="266" x2="688" y2="266"/>
+    <line x1="32" y1="294" x2="688" y2="294"/>
+  </g>
+  <text x="48" y="230" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Player · 1:1</text>
+  <text x="688" y="230" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#4ade80" text-anchor="end">RTP ≈ 98,59%</text>
+  <text x="48" y="258" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Banker · 0,95:1 (с комисиона)</text>
+  <text x="688" y="258" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#4ade80" text-anchor="end">RTP ≈ 98,76%</text>
+  <text x="48" y="286" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Tie · 5:1</text>
+  <text x="688" y="286" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fbbf24" text-anchor="end">RTP ≈ 94,51%</text>
+
+  <text x="32" y="322" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Максимални множители (комбинирани)</text>
+  <g stroke="#1e293b" stroke-width="1">
+    <line x1="32" y1="336" x2="688" y2="336"/>
+    <line x1="32" y1="364" x2="688" y2="364"/>
+    <line x1="32" y1="392" x2="688" y2="392"/>
+  </g>
+  <text x="48" y="356" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Player / Banker</text>
+  <text x="688" y="356" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">512x</text>
+  <text x="48" y="384" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Tie (броят се двете ръце)</text>
+  <text x="688" y="384" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">262 144x</text>
+
+  <text x="32" y="420" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Кое си струва</text>
+  <text x="32" y="442" font-family="Arial, sans-serif" font-size="12.5" fill="#cbd5e1">Player / Banker: връщат малко по-малко от класическата бакара (цената на таксата).</text>
+  <text x="32" y="461" font-family="Arial, sans-serif" font-size="12.5" fill="#fbbf24">Tie: по-добър от класическия Tie, но пак най-скъп. Таван на печалбата 500 000 €.</text>
+
+  <rect x="32" y="472" width="656" height="24" rx="6" fill="#111f38"/>
+  <text x="44" y="488" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Примерни стойности; зависят от версията и масата. 18+ Играйте отговорно.</text>
+</svg>
