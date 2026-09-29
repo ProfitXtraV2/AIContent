@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-29T07:16:39Z",
+  "generated_utc": "2026-09-29T07:33:12Z",
   "buffer": {
-    "count": 180,
+    "count": 181,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 3,
-    "drafted": 175,
+    "in-progress": 2,
+    "drafted": 176,
     "approved": 5,
     "posted": 29,
     "failed": 1
@@ -3788,7 +3788,7 @@
     },
     {
       "id": "vk-0213",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Red Door Roulette (Evolution): бонус рунд и RTP",
       "keywords_or_terms": "red door roulette, ред дор рулетка, red door roulette rtp",
@@ -3798,9 +3798,9 @@
       "drafted_date": "2026-09-29",
       "posted_date": "",
       "folder": "2026-09-29-red-door-roulette",
-      "pr": "",
-      "gemini": "",
-      "notes": "selected 2026-09-29 from research bank; distinct branded live roulette от Lightning Roulette (vk-0186), XXXtreme (vk-0209), рулетка правила (vk-0024) заради бонус-рунд механика; dedup-clean vs queue+sitemap; checked=web (Ahrefs exhausted)",
+      "pr": "#230",
+      "gemini": "skipped",
+      "notes": "НОВ branded live roulette spoke към /blog/live-game-shows/; европейска рулетка (37 джоба, една нула), сплав Lightning+Crazy Time: машина маркира 3–15 бонус числа с ключове (2x–20x), влизаш в бонуса само със стрейт-ъп на печелившото число с ключ; 64-сегментно бонус колело (Double удвоява+върти), таван 4000x, паричен таван €500 000. Distinct от Lightning Roulette (vk-0186, 50x–500x, стрейт-ъп 29:1), XXXtreme (vk-0209, 2000x), рулетка правила (vk-0024). gate 93/100 0-crit; ~847w 0 em-dash; 1 [VERIFY] (състав на бонус колелото/таван 4000x version-dependent); img:1 SVG (numbers verbatim, manual integrity PASS); Gemini OFFLINE (402) → text+image review skipped; gemini=skipped; честен ъгъл: показните множители платени от орязан стрейт-ъп 19:1 вместо 35:1 (worked-€: €10→€190 vs €350); RTP 97,09%/97,30% дългосрочни средни, предимство ≈2,9%/≈2,7% остава; 4000x/€500 000 редки; само стрейт-ъп стига до бонуса. RESEARCH-коригиран premise: Lightning+Crazy Time fusion, не буквална многостайна врата; release date омитната (Nov 2023 vs June 2023 conflict); stake-multiple max НЕ се твърди. Без BG оператор/НАП/affiliate (Evolution само maker); checked=web (Ahrefs exhausted, reset 2026-10-15); src=research candidate used",
       "opportunity": null
     }
   ],
@@ -7280,7 +7280,7 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "НОВ branded live roulette spoke към /blog/live-game-shows/; европейска рулетка с бонус рунд зад 'червената врата' и множители; distinct от Lightning Roulette (vk-0186), XXXtreme Lightning Roulette (vk-0209) и рулетка правила (vk-0024) заради различната бонус-механика и primary kw. Facts от Evolution + game-DB (livecasinocomparer/casino.org), НЕ operator T&C/НАП. web-checked (Ahrefs exhausted, reset 2026-10-15) → vol/kd blank, awaiting re-pull",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-29",
       "opportunity": null
     }
