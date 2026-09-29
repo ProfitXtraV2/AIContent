@@ -8,6 +8,69 @@ Facts, numbers, licence/RTP/tax figures, dates, byline (Георги Тодор�
 
 ---
 
+## 2026-09-29 (nightly run — flags + score)
+
+### JOB A — publish-blocking flags
+Scanned all **217** `content/*` branches' own `VsichkiKazina/articles/<folder>/05b-final-draft.md`
+for blocking markers (`[VERIFY]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`, `[AUTHOR]`,
+`[BRAND]`, `[EDITORIAL]`, `[уточни]`, `[провери]`). 215 branches have the final draft; 2
+(`2026-09-07-bonusi-za-dobre-doshli-2026`, `2026-09-07-najdobri-bonusi-za-dobre-doshli-2026`)
+have no `05b-final-draft.md` (incomplete/failed — nothing publishable to block). **5** branches
+carried a blocking marker:
+
+- **`2026-09-29-extremely-hot`** (vk-0216, drafted) — 1 `[VERIFY]` on the star-scatter
+  multipliers (2/10/50×). **Resolved:** public game data kept, caveat folded into natural prose
+  („точните множители могат да се различават между версиите, затова ги провери в
+  информационния панел…"), bracket removed. Re-scan: 0 blocking markers. Committed
+  `fix(flags): resolve extremely-hot — publish-ready`, pushed (cb95767→3904392). No fact changed.
+- **`2026-09-29-lightning-storm`** (vk-0215, drafted) — 1 `[VERIFY]` on per-bet RTP
+  (Leaf ~97.44% / numeric ~95.13% / Storm Chaser ~95.12%). **Resolved:** public RTP figures kept,
+  caveat folded into prose („точните проценти по вид залог се четат в инфо-панела…"), bracket
+  removed. Re-scan: 0. Committed `fix(flags): resolve lightning-storm — publish-ready`, pushed
+  (4aeae68→f953cf3). No fact changed.
+- **`2026-09-29-lucky-ladys-charm`** (vk-0214, drafted) — 1 bare `` `[VERIFY]` `` on the
+  conflicting max-win figure. **Resolved:** marker removed; surrounding prose already handled the
+  uncertainty honestly (conflicting DB values stated, no specific number asserted). Re-scan: 0.
+  Committed `fix(flags): resolve lucky-ladys-charm — publish-ready`, pushed (83f39a0→e250319).
+  No fact changed.
+
+The `[About Всички Казина boilerplate]` token is a publisher-expanded template placeholder
+present on ~all branches (incl. posted/live) — not a blocking marker, left untouched (idempotent).
+
+**POSTED — needs human review (left untouched, hard rule: never edit posted/live):**
+- **`2026-09-13-nv-casino-bonus-usloviya`** (vk-0064, **posted**) — branch draft (line 65) still
+  carries `[AUTHOR BIO BLOCK: Георги Тодоров] [BRAND BOILERPLATE: Всички Казина] [18+ / RG LINE]`.
+  The live page was hand-cleaned at publish time (board: „human edit 2026-09-13: 6 flags → 0"); only
+  the stale branch draft retains the placeholders. Not edited (posted). If this branch is ever
+  re-published, a human must expand these three blocks first.
+- **`2026-09-13-nv-casino-zakonno-li-e`** (vk-0063, **posted**) — branch draft (line 56) still
+  carries `[AUTHOR BIO BLOCK: Георги Тодоров]` before the accepted `[About … boilerplate]` token.
+  Not edited (posted). Same note as above.
+
+### JOB B — low Gemini score improvements — BLOCKED (Gemini billing depleted)
+Board targets = status ∈ {drafted, approved} AND gemini `ai <n>` OR `human <n>` with n<80.
+**3 qualifying targets, all `ai 75`:** vk-0167 `2026-09-24-generator-sluchajni-chisla-rng`,
+vk-0168 `2026-09-24-teglene-pechalba-kyc-verifikaciya`, vk-0171 `2026-09-24-kazino-turniri`.
+
+**Could not run.** `scripts/gemini_check.py` returns **HTTP 402 / RESOURCE_EXHAUSTED**
+(„Your prepayment credits are depleted") from the Gemini API. The agent proxy is healthy
+(`recentRelayFailures: []`) — this is a genuine Google billing issue, not a connectivity/proxy
+problem. Job B's loop (score → apply recs → re-check) fundamentally depends on the checker, so
+no verified humanisation is possible. **Deferred all 3 targets** rather than blindly rewriting and
+committing a fake `gemini <old>→<new>` score. **Action needed:** top up Gemini API billing at
+https://ai.studio/projects (or the API billing page).
+
+Same billing outage keeps the ~78 `drafted` rows with `gemini = skipped` unscored (Step-7 never
+ran on them on their draft nights either) — outside the defined Job B target set and still awaiting
+a first score once billing is restored.
+
+### FINISH
+Board: annotated the notes of vk-0214/0215/0216 with „FLAG RESOLVED nightly 2026-09-29 → 0 blocking
+markers, publish-ready". Gemini column unchanged (no new scores — API down; not fabricated).
+Rebuilt `status.json` (buffer 186/10) and `published/index.json` (feed timestamp only; 5 approved).
+
+---
+
 ## 2026-09-19
 
 ### JOB A — publish-blocking flags
