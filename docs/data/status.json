@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-29T03:28:01Z",
+  "generated_utc": "2026-09-29T03:35:41Z",
   "buffer": {
-    "count": 178,
+    "count": 179,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 2,
-    "drafted": 173,
+    "in-progress": 1,
+    "drafted": 174,
     "approved": 5,
     "posted": 29,
     "failed": 1
@@ -3720,7 +3720,7 @@
     },
     {
       "id": "vk-0209",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "XXXtreme Lightning Roulette (Evolution): множители и RTP",
       "keywords_or_terms": "xxxtreme lightning roulette, екстрийм лайтнинг рулетка, xxxtreme lightning roulette rtp",
@@ -3730,9 +3730,9 @@
       "drafted_date": "2026-09-29",
       "posted_date": "",
       "folder": "2026-09-29-xxxtreme-lightning-roulette",
-      "pr": "",
-      "gemini": "",
-      "notes": "НОВ branded live game-show spoke към /blog/live-game-shows/; надградена Lightning рулетка (Chain Lightning + Double Strikes, до 2000x); distinct branded от базовата Lightning Roulette (vk-0186) заради различен primary kw и по-високи множители; research candidate; checked=web (Ahrefs exhausted, reset 2026-10-15)",
+      "pr": "#228",
+      "gemini": "skipped",
+      "notes": "НОВ branded live game-show spoke към /blog/live-game-shows/; европейска рулетка + слой множители, надградена с Chain Lightning (до 10 щастливи числа) + Double Strikes (до 2000x). Distinct branded от базовата Lightning Roulette (vk-0186, до 500x, стрейт-ъп 29:1) — базовата е fold-in. gate 93/100 0-crit; ~1030w 0 em-dash; 3 [VERIFY] (множители 50x–500x/таван 2000x version-dependent; стрейт-ъп 19:1 vs 29:1 vs 35:1 source-dependent; RTP 97,10% стрейт-ъп / 97,30% други); img:1 SVG (numbers verbatim, manual integrity PASS); Gemini OFFLINE (402) → text+image review skipped; gemini=skipped; честен ъгъл: по-високият таван е платен от по-дълбок разрез на изплащането, стрейт-ъп RTP под обикновена рулетка, 2000x иска число избрано+ударено повторно+заложено (астрономически рядко); launch 2022 (research коригира 2021); max-win € cap + прозорец NOT FOUND → не се твърдят. Без BG оператор/НАП/affiliate (Evolution само maker); checked=web (Ahrefs exhausted, reset 2026-10-15); src=research candidate used",
       "opportunity": null
     },
     {
@@ -7159,7 +7159,7 @@
       "trend": "up",
       "checked": "web",
       "suggestion": "НОВ branded live game-show spoke на hub /blog/live-game-shows/; непокрит (0 в queue+bank+sitemap). Разширена версия на Lightning Roulette (vk-0186) с верижни светкавици и до няколко множителя на число + по-висок таван. Distinct branded primary kw (xxxtreme lightning roulette) — pillar на multiplier-roulette клъстъра; Lightning Roulette (vk-0186) остава отделен базов pillar (различен таван/механика), fold-in кръстосани връзки. Честен ъгъл: по-високите множители се плащат от свалени базови изплащания, RTP под класическа рулетка. provider/game-DB (Evolution/livecasinocomparer/WoO). Ahrefs exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери xxxtreme lightning roulette",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-28",
       "opportunity": null
     },
