@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-29T22:17:37Z",
+  "generated_utc": "2026-09-29T22:35:04Z",
   "buffer": {
-    "count": 183,
+    "count": 186,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 3,
-    "drafted": 178,
+    "in-progress": 0,
+    "drafted": 181,
     "approved": 5,
     "posted": 29,
     "failed": 1
@@ -3805,7 +3805,7 @@
     },
     {
       "id": "vk-0214",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Lucky Lady's Charm (Novomatic/Greentube): RTP и как се играе",
       "keywords_or_terms": "lucky lady's charm, лъки лейди, lucky lady charm deluxe",
@@ -3815,14 +3815,14 @@
       "drafted_date": "2026-09-29",
       "posted_date": "",
       "folder": "2026-09-29-lucky-ladys-charm",
-      "pr": "",
-      "gemini": "",
-      "notes": "НОВ branded slot-explainer, BG-класика (Novomatic/Greentube); web-checked (Ahrefs exhausted, reset 2026-10-15); selecting/in-progress 3rd fire",
+      "pr": "#233",
+      "gemini": "skipped",
+      "notes": "НОВ branded slot-explainer, BG-класика (Lucky Lady's Charm Deluxe, Greentube/Novomatic); distinct от Book of Ra/Sizzling Hot (Novomatic) и EGT Hot-серията. drafted 2026-09-29; gate 93/100 0-crit; ~1061w 0 em-dash; 1 [VERIFY] (макс. печалба конфликтна между DB: SlotCatalog ~4633x vs 9000x / до 27000x → НЕ се твърди число, обяснен конфликтът); img:1 SVG (numbers verbatim to 05b, manual integrity PASS); Gemini OFFLINE (402) → text+image review skipped; gemini=skipped; RTP 95.13%, дама wild x2/до 900x, кристална топка scatter 500x, 15 free spins x3 множител, домашно предимство ~4.87%; честен ъгъл: RTP дългосрочна средна + operator-configurable, множителят x3 рядък, gamble не мени предимството. Без BG оператор/НАП/affiliate (Greentube/Novomatic само maker); checked=web (Ahrefs exhausted, reset 2026-10-15); src=research candidate used",
       "opportunity": null
     },
     {
       "id": "vk-0215",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Lightning Storm (Evolution): как се играе, бонус игри и RTP",
       "keywords_or_terms": "lightning storm, лайтнинг сторм, lightning storm evolution",
@@ -3832,14 +3832,14 @@
       "drafted_date": "2026-09-29",
       "posted_date": "",
       "folder": "2026-09-29-lightning-storm",
-      "pr": "",
-      "gemini": "",
-      "notes": "НОВ branded live game-show spoke към /blog/live-game-shows/; PREMISE CORRECTED: money-wheel game show (39-segment DigiWheel + 5 бонус игри), NOT roulette; web-checked (Ahrefs exhausted); in-progress 3rd fire",
+      "pr": "#234",
+      "gemini": "skipped",
+      "notes": "НОВ branded live game-show spoke към /blog/live-game-shows/; PREMISE CORRECTED (research): money-wheel game show (39-сегментно DigiWheel + 5 бонус игри, launch юли 2024), НЕ рулетка/слот. Distinct от Crazy Time/Monopoly Live (hub vk-0025) и рулетковите Lightning игри (vk-0186/0209/0213). drafted 2026-09-29; gate 94/100 0-crit; ~1002w 0 em-dash; 1 [VERIFY] (per-bet RTP Leaf ~97.44%/числови ~95.13%/Storm Chaser ~95.12%); img:1 SVG (numbers verbatim, manual integrity PASS); Gemini OFFLINE (402) → text+image review skipped; gemini=skipped; върхов множител 20 000x, 5 бонус игри до 10 000x, таван €500 000; честен ъгъл: шоу-елементите не менят предимството, RTP пада при high-multiplier залози, 20 000x астрономически рядък. Без BG оператор/НАП/affiliate (Evolution само maker); checked=web (Ahrefs exhausted, reset 2026-10-15); src=research candidate used",
       "opportunity": null
     },
     {
       "id": "vk-0216",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Extremely Hot (Amusnet/EGT): RTP, характеристики и как се играе",
       "keywords_or_terms": "extremely hot, екстримли хот, extremely hot egt",
@@ -3849,9 +3849,9 @@
       "drafted_date": "2026-09-29",
       "posted_date": "",
       "folder": "2026-09-29-extremely-hot",
-      "pr": "",
-      "gemini": "",
-      "notes": "НОВ branded EGT slot-explainer, Hot-серия per-title модел; web-checked (Ahrefs exhausted); in-progress 3rd fire",
+      "pr": "#235",
+      "gemini": "skipped",
+      "notes": "НОВ branded EGT slot-explainer по per-title модела на Hot-серията; distinct primary kw (extremely hot), отделен пилар от 20/40 Super Hot (vk-0020/0023), Burning Hot (vk-0027), Sizzling Hot (vk-0065), Shining Crown (vk-0026) и Amusnet профил (vk-0021). drafted 2026-09-29; gate 94/100 0-crit; ~1008w 0 em-dash; 1 [VERIFY] (точни star-scatter множители 2x/10x/50x single-source VSO; наличието на scatter потвърдено от Amusnet); img:1 SVG (numbers verbatim, manual integrity PASS); Gemini OFFLINE (402) → text+image review skipped; gemini=skipped; RTP 95.74%, 5x3/5 фикс. линии, макс. 5000x на линия, волатилност 3/5, БЕЗ wild, Jackpot Cards 4 нива, gamble <35x; честен ъгъл: RTP дългосрочна средна + operator-configurable, Jackpot Cards случаен, липсата на wild прави линиите по-трудни. Без BG оператор/НАП/affiliate (Amusnet/EGT само maker); checked=web (Ahrefs exhausted, reset 2026-10-15); src=research candidate used",
       "opportunity": null
     }
   ],
@@ -7345,7 +7345,7 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "НОВ branded slot-explainer, BG-класика (Novomatic/Greentube); непокрит специфичен слот (провайдър-хъб Novomatic съществува, но не и това заглавие); висок branded интерес в BG; distinct от EGT Hot-серията. Facts от Greentube/Novomatic + game-DB, НЕ operator T&C/НАП. web-checked (Ahrefs exhausted, reset 2026-10-15) → vol/kd blank, awaiting re-pull",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-29",
       "opportunity": null
     },
@@ -7359,7 +7359,7 @@
       "trend": "up",
       "checked": "web",
       "suggestion": "НОВ branded live spoke към /blog/live-game-shows/; по-нова игра на Evolution (европейска рулетка + слот-бонус хибрид), 0 в queue+sitemap; distinct от Lightning Roulette (vk-0186), XXXtreme (vk-0209), Red Door Roulette (vk-0213) заради хибридната механика и primary kw. Facts от Evolution + game-DB (livecasinocomparer/casino.org), НЕ operator T&C/НАП. web-checked (Ahrefs exhausted, reset 2026-10-15) → vol/kd blank, awaiting re-pull",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-29",
       "opportunity": null
     },
@@ -7373,6 +7373,48 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "НОВ branded EGT slot-explainer по установения per-title модел на Hot-серията (20 Super Hot vk-0020, 40 Super Hot live, Flaming Hot, Sizzling Hot, Shining Crown, Burning Hot — всеки отделен пилар); distinct primary kw (extremely hot). Facts от Amusnet + game-DB, НЕ operator T&C/НАП. web-checked (Ahrefs exhausted, reset 2026-10-15) → vol/kd blank, awaiting re-pull",
+      "status": "used",
+      "date_researched": "2026-09-29",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Mustang Gold (Pragmatic): RTP, Money Collect и как се играе",
+      "researched_keywords": "mustang gold, мустанг голд, mustang gold rtp",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "Непокрит Pragmatic branded slot (класика с реален BG демо-интерес); distinct от всички покрити Pragmatic заглавия; 5x3/25 линии, висока волатилност, Money Collect + 4 фикс. джакпота, 8 free spins с retrigger, макс. 12000x, RTP ~96.53% (има конфиг. версии — провери в игра); котва към Pragmatic профил vk-0019; anti-cannibal vs hold&win концепция; provider site + game-DB, NOT operator T&C/НАП; web-checked (Ahrefs exhausted, reset 2026-10-15) -> vol/kd blank, awaiting re-pull",
+      "status": "candidate",
+      "date_researched": "2026-09-29",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Sweet Bonanza CandyLand (Pragmatic Live): как се играе колелото и RTP",
+      "researched_keywords": "sweet bonanza candyland, свит бонанза кендиленд, sweet bonanza candyland rtp",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "up",
+      "checked": "web",
+      "suggestion": "Непокрита live-casino игра (money-wheel game show, различен продукт от слота vk-0018); силен branded BG деманд; 54-сегментно колело, 6 позиции за залог + Sugar Bomb, 4 бонус кръга, макс. 20000x/€500000, оптимален RTP ~96.95% (спред по залога — честен ъгъл „RTP на залога, не на играта\"); anti-cannibal: спок под game-shows overview vk-0025 + distinct primary kw; Pragmatic Live site + game-DB, NOT operator T&C/НАП; web-checked (Ahrefs exhausted, reset 2026-10-15) -> vol/kd blank, awaiting re-pull",
+      "status": "candidate",
+      "date_researched": "2026-09-29",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Synot Games: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "synot games, синот геймс, synot слотове",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial",
+      "trend": "up",
+      "checked": "web",
+      "suggestion": "Непокрит провайдър-хъб (Словашко студио, SYNOT Group, 30+ регулирани пазара); свежа BG релевантност: български лиценз (ноем. 2024); distinct provider-query cluster; механики — expanding symbols, respins, Book of Secrets серия, Respin Joker; котва към „доставчици\" хъб; provider licences на студиото, provider site + game-DB, NOT operator T&C/НАП; web-checked (Ahrefs exhausted, reset 2026-10-15) -> vol/kd blank, awaiting re-pull",
       "status": "candidate",
       "date_researched": "2026-09-29",
       "opportunity": null
