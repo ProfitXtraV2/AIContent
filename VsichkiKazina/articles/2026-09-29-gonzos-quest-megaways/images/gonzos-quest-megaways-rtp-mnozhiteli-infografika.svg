@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 512" role="img" aria-label="Инфографика за Gonzo's Quest Megaways на Red Tiger. Слотът е с 6 барабана, 2 до 7 реда и до 117 649 начина на печалба, с лавинни барабани, при които печелившите символи изчезват и падат нови. Множителят расте с всяка лавина: в основната игра 1x, 2x, 3x до таван 5x, а в безплатните завъртания 3x, 6x, 9x до таван 15x. Безплатните завъртания се пускат от поне 3 символа Free Fall и започват от 9 завъртания. RTP по подразбиране е 95,77 процента, под кръглите 96 процента, а операторът може да пусне по-нисък вариант, към 90 процента. Висока волатилност и среднa честота: дълги сухи серии и редки едри удари. Максимална печалба около 20 972 пъти залога, твърд таван. Числата са примерни и зависят от оператора и версията.">
+  <rect x="8" y="8" width="704" height="496" rx="18" fill="#0f172a"/>
+
+  <text x="32" y="42" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#f8fafc">Gonzo's Quest Megaways: RTP и множители</text>
+  <text x="32" y="64" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Red Tiger по IP на NetEnt · 6 барабана, до 117 649 начина, лавинни барабани.</text>
+
+  <text x="32" y="98" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Множителите (растат с всяка лавина)</text>
+  <text x="32" y="120" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Основна игра: 1x → 2x → 3x → таван <tspan font-weight="bold" fill="#f8fafc">5x</tspan>.</text>
+  <text x="32" y="140" font-family="Arial, sans-serif" font-size="13" fill="#fbbf24">Безплатни завъртания: 3x → 6x → 9x → таван <tspan font-weight="bold" fill="#f8fafc">15x</tspan>.</text>
+
+  <text x="32" y="176" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Как се играе</text>
+  <text x="32" y="198" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Лавинни барабани: печелившите символи изчезват, падат нови.</text>
+  <text x="32" y="218" font-family="Arial, sans-serif" font-size="13" fill="#cbd5e1">Начините се менят всеки спин; 117 649 е таван, не постоянна стойност.</text>
+  <text x="32" y="238" font-family="Arial, sans-serif" font-size="13" fill="#cbd5e1">Free Falls: от поне 3 символа Free Fall, старт 9 завъртания.</text>
+
+  <text x="32" y="274" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">RTP и волатилност</text>
+  <text x="32" y="296" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">RTP по подразбиране <tspan font-weight="bold" fill="#4ade80">95,77%</tspan> (под кръглите 96%).</text>
+  <text x="32" y="316" font-family="Arial, sans-serif" font-size="13" fill="#fbbf24">Операторът може да пусне по-нисък вариант (към ~90%).</text>
+
+  <rect x="32" y="334" width="656" height="60" rx="8" fill="#111f38"/>
+  <text x="48" y="358" font-family="Arial, sans-serif" font-size="12.5" fill="#e2e8f0">Висока волатилност, среднa честота: дълги сухи серии, редки едри удари.</text>
+  <text x="48" y="380" font-family="Arial, sans-serif" font-size="12.5" fill="#cbd5e1">Максимална печалба ≈ <tspan font-weight="bold" fill="#f8fafc">20 972x</tspan> залога (твърд таван, изключително рядко).</text>
+
+  <text x="32" y="426" font-family="Arial, sans-serif" font-size="12.5" fill="#cbd5e1">Рекламните числа са за дългия път, не за отделната сесия.</text>
+
+  <rect x="32" y="470" width="656" height="24" rx="6" fill="#111f38"/>
+  <text x="44" y="486" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Примерни стойности; RTP вариантът зависи от оператора. 18+ Играйте отговорно.</text>
+</svg>
