@@ -5,7 +5,8 @@
   "articles_written": null,
   "prs_opened": [
     227,
-    228
+    228,
+    229
   ],
   "run_url": "https://claude.ai/code/session_01JaUSWL3GbVyF8RKd2oFntG",
   "note": "daily run 2026-09-29 — researching 3 Evolution live-game guides in parallel (Lightning Blackjack / XXXtreme Lightning Roulette / Side Bet City); Gemini OFFLINE (402) so text+image review skipped per rules",
@@ -26,7 +27,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 2,
-    "stage": "Author"
+    "stage_index": 9,
+    "stage": "PR"
   }
 }
