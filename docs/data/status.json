@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-29T07:51:29Z",
+  "generated_utc": "2026-09-29T07:53:39Z",
   "buffer": {
     "count": 183,
     "target": 10,
@@ -7281,6 +7281,48 @@
       "checked": "web",
       "suggestion": "НОВ branded live roulette spoke към /blog/live-game-shows/; европейска рулетка с бонус рунд зад 'червената врата' и множители; distinct от Lightning Roulette (vk-0186), XXXtreme Lightning Roulette (vk-0209) и рулетка правила (vk-0024) заради различната бонус-механика и primary kw. Facts от Evolution + game-DB (livecasinocomparer/casino.org), НЕ operator T&C/НАП. web-checked (Ahrefs exhausted, reset 2026-10-15) → vol/kd blank, awaiting re-pull",
       "status": "used",
+      "date_researched": "2026-09-29",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Lucky Lady's Charm (Novomatic/Greentube): RTP и как се играе",
+      "researched_keywords": "lucky lady's charm, лъки лейди, lucky lady charm deluxe",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "НОВ branded slot-explainer, BG-класика (Novomatic/Greentube); непокрит специфичен слот (провайдър-хъб Novomatic съществува, но не и това заглавие); висок branded интерес в BG; distinct от EGT Hot-серията. Facts от Greentube/Novomatic + game-DB, НЕ operator T&C/НАП. web-checked (Ahrefs exhausted, reset 2026-10-15) → vol/kd blank, awaiting re-pull",
+      "status": "candidate",
+      "date_researched": "2026-09-29",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Lightning Storm (Evolution): как се играе, рулетка + слот бонус и RTP",
+      "researched_keywords": "lightning storm, лайтнинг сторм, lightning storm evolution",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "up",
+      "checked": "web",
+      "suggestion": "НОВ branded live spoke към /blog/live-game-shows/; по-нова игра на Evolution (европейска рулетка + слот-бонус хибрид), 0 в queue+sitemap; distinct от Lightning Roulette (vk-0186), XXXtreme (vk-0209), Red Door Roulette (vk-0213) заради хибридната механика и primary kw. Facts от Evolution + game-DB (livecasinocomparer/casino.org), НЕ operator T&C/НАП. web-checked (Ahrefs exhausted, reset 2026-10-15) → vol/kd blank, awaiting re-pull",
+      "status": "candidate",
+      "date_researched": "2026-09-29",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Extremely Hot (Amusnet/EGT): RTP, характеристики и как се играе",
+      "researched_keywords": "extremely hot, екстримли хот, extremely hot egt",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "НОВ branded EGT slot-explainer по установения per-title модел на Hot-серията (20 Super Hot vk-0020, 40 Super Hot live, Flaming Hot, Sizzling Hot, Shining Crown, Burning Hot — всеки отделен пилар); distinct primary kw (extremely hot). Facts от Amusnet + game-DB, НЕ operator T&C/НАП. web-checked (Ahrefs exhausted, reset 2026-10-15) → vol/kd blank, awaiting re-pull",
+      "status": "candidate",
       "date_researched": "2026-09-29",
       "opportunity": null
     }
