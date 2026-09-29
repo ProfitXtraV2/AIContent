@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-29T07:14:58Z",
+  "generated_utc": "2026-09-29T07:16:39Z",
   "buffer": {
     "count": 180,
     "target": 10,
@@ -7,7 +7,7 @@
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
+    "in-progress": 3,
     "drafted": 175,
     "approved": 5,
     "posted": 29,
@@ -3750,6 +3750,57 @@
       "pr": "#229",
       "gemini": "skipped",
       "notes": "НОВ branded live poker spoke към /blog/live-game-shows/; покер без дилър, залог ПРЕДИ раздаването на 3/5/7 карти + четвърти залог All Lose (0,70:1). Distinct от покер пиларите (Casino Hold'em vk-0189, Three Card Poker vk-0176, Ultimate Texas vk-0178, Teen Patti vk-0184) заради механиката (без дилър/решения) и primary kw. gate 93/100 0-crit; ~1010w 0 em-dash; 2 [VERIFY] (изплащания 3/5/7 version-dependent; RTP по вид залог 96,69/96,29/95,21/94,34); img:1 SVG (numbers verbatim, manual integrity PASS); Gemini OFFLINE (402) → text+image review skipped; gemini=skipped; честен ъгъл: RTP пада с броя карти → 7-картовият залог с най-едрите множители връща най-малко; залагаш на сляпо, няма стратегия; роял флош 1000:1 (5 карти) е най-голямото но рядко. RESEARCH-коригирани premise грешки: четвъртият залог е All Lose (не 'All Lucky Ladies'); 7-card royal 500:1 (не 1000:1); launch 2019. Без BG оператор/НАП/affiliate (Evolution само maker); checked=web (Ahrefs exhausted, reset 2026-10-15); src=research candidate used",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0211",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Gonzo's Quest Megaways (Red Tiger): RTP, Megaways и как се играе",
+      "keywords_or_terms": "gonzo's quest megaways, гонзо куест мегауейс, gonzo megaways rtp",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-29",
+      "posted_date": "",
+      "folder": "2026-09-29-gonzos-quest-megaways",
+      "pr": "",
+      "gemini": "",
+      "notes": "selected 2026-09-29 from research bank; distinct branded Megaways slot от Gonzo's Quest (vk-0044, NetEnt 5x3 Avalanche) и Gonzo's Treasure Hunt live (vk-0206); dedup-clean vs queue+sitemap; checked=web (Ahrefs exhausted)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0212",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Power of Thor Megaways (Pragmatic Play): RTP, волатилност и как се играе",
+      "keywords_or_terms": "power of thor megaways, пауър ъв тор, power of thor rtp",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-29",
+      "posted_date": "",
+      "folder": "2026-09-29-power-of-thor-megaways",
+      "pr": "",
+      "gemini": "",
+      "notes": "selected 2026-09-29 from research bank; distinct branded Megaways slot, допълва Pragmatic Play профил (vk-0019, live); dedup-clean vs queue+sitemap; checked=web (Ahrefs exhausted)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0213",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Red Door Roulette (Evolution): бонус рунд и RTP",
+      "keywords_or_terms": "red door roulette, ред дор рулетка, red door roulette rtp",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-09-29",
+      "posted_date": "",
+      "folder": "2026-09-29-red-door-roulette",
+      "pr": "",
+      "gemini": "",
+      "notes": "selected 2026-09-29 from research bank; distinct branded live roulette от Lightning Roulette (vk-0186), XXXtreme (vk-0209), рулетка правила (vk-0024) заради бонус-рунд механика; dedup-clean vs queue+sitemap; checked=web (Ahrefs exhausted)",
       "opportunity": null
     }
   ],
