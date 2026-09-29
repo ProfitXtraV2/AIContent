@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 512" role="img" aria-label="Инфографика за Lucky Lady's Charm Deluxe от Greentube (Novomatic): поле 5 барабана, 3 реда, 10 линии; обявен RTP 95.13%; висока волатилност; Дамата е wild с множител x2 и до 900 пъти залога за пет на линия; кристалната топка е скатер и плаща до 500 пъти залога; 3 или повече скатера задействат 15 безплатни завъртания с множител x3; илюстративно при RTP 95.13% и 1000 евро оборот средно се връщат около 951 евро на играча, около 49 евро остават за казиното при домашно предимство около 4.87%">
+  <rect x="8" y="8" width="704" height="496" rx="18" fill="#0f172a"/>
+
+  <text x="32" y="46" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="bold" fill="#f8fafc">Lucky Lady's Charm Deluxe: как работи</text>
+  <text x="32" y="68" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#94a3b8">Greentube (Novomatic) · 5 барабана, 3 реда, 10 линии</text>
+
+  <text x="32" y="102" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Ключови числа</text>
+  <text x="48" y="126" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#e2e8f0">Обявен RTP: <tspan font-weight="bold" fill="#4ade80">95.13%</tspan></text>
+  <text x="48" y="148" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#e2e8f0">Волатилност: <tspan font-weight="bold" fill="#fbbf24">висока</tspan></text>
+  <text x="48" y="170" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#cbd5e1">Дамата (wild): множител <tspan font-weight="bold" fill="#f8fafc">x2</tspan>, до <tspan font-weight="bold" fill="#f8fafc">900</tspan> пъти залога</text>
+  <text x="48" y="192" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#cbd5e1">Кристална топка (скатер): до <tspan font-weight="bold" fill="#f8fafc">500</tspan> пъти залога</text>
+
+  <text x="32" y="226" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Безплатни завъртания</text>
+  <text x="48" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#cbd5e1"><tspan font-weight="bold" fill="#f8fafc">3</tspan> или повече скатера задействат <tspan font-weight="bold" fill="#4ade80">15</tspan> завъртания</text>
+  <text x="48" y="272" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#cbd5e1">Всяка печалба с множител <tspan font-weight="bold" fill="#4ade80">x3</tspan>, презадействане възможно</text>
+
+  <rect x="32" y="298" width="656" height="140" rx="14" fill="#111f38"/>
+  <text x="52" y="326" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#93c5fd">Пример: 1000 евро оборот (илюстративно, дългосрочно)</text>
+
+  <text x="52" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#94a3b8">Средно към играча</text>
+  <text x="52" y="396" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="bold" fill="#4ade80">~951 евро</text>
+  <text x="52" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#94a3b8">средно, в дългосрочен план</text>
+
+  <text x="392" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#94a3b8">Остават за казиното</text>
+  <text x="392" y="396" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="bold" fill="#fbbf24">~49 евро</text>
+  <text x="392" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#94a3b8">домашно предимство ~4.87%</text>
+
+  <text x="32" y="470" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#64748b">Примерни стойности; активният RTP зависи от оператора. 18+ Играйте отговорно.</text>
+</svg>
