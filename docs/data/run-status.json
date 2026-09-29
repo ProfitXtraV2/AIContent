@@ -7,12 +7,12 @@
   "run_url": "https://claude.ai/code/session_01CoqVRPGFAo88xoxRuUznAV",
   "note": "recurring run 2026-09-29 (3rd fire). 0 in-progress to reconcile (prior 2nd fire finalized vk-0211/0212/0213 clean). Batch=MAX_PER_RUN=3 NEW distinct guide pillars (buffer 183, floor 10, NO cap). Human backlog all NV-Casino operator/НАП-blocked -> stay open+blocked (guides-only). Topping up 3 from research bank: Lucky Lady's Charm (Novomatic/Greentube), Lightning Storm (Evolution game show), Extremely Hot (Amusnet/EGT). Gemini OFFLINE (HTTP 402, probed live) + Ahrefs exhausted (9 units, reset 2026-10-15) -> web fallback.",
   "progress": {
-    "phase": "selecting",
-    "article_index": 0,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 3,
-    "article_slug": null,
+    "article_slug": "2026-09-29-lucky-ladys-charm",
     "stages": ["Synthesis", "Outline", "Author", "Humaniser", "SEO", "Brand Gate", "Light re-check", "Images", "Verification", "PR"],
-    "stage_index": null,
-    "stage": null
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
