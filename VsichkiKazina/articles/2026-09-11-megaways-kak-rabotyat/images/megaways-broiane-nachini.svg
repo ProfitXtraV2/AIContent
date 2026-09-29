@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 288" font-family="'DejaVu Sans','Segoe UI',Arial,sans-serif" role="img" aria-label="Как се броят начините в Megaways: максимум 7 по 7 по 7 по 7 по 7 по 7 равно 117649, примерен спин 5 по 4 по 6 по 3 по 7 по 2 равно 5040, минимум 2 по 2 по 2 по 2 по 2 по 2 равно 64">
+  <title>Как се броят начините в Megaways</title>
+  <rect x="8" y="8" width="724" height="272" rx="16" fill="#f7fbfb" stroke="#dce8e8" stroke-width="1.5"/>
+  <text x="28" y="46" font-size="21" font-weight="700" fill="#0f2f36">Как се броят начините</text>
+  <text x="28" y="70" font-size="13" fill="#5c7076">Умножаваш броя символи по шестте барабана. Числото се мени всяко завъртане.</text>
+
+  <!-- max -->
+  <text x="28" y="118" font-size="14" fill="#5c7076">Максимум</text>
+  <text x="180" y="118" font-size="15" font-weight="600" fill="#0f2f36">7 × 7 × 7 × 7 × 7 × 7 =</text>
+  <text x="712" y="118" font-size="17" font-weight="700" fill="#0e7c66" text-anchor="end">117,649</text>
+
+  <!-- sample -->
+  <text x="28" y="170" font-size="14" fill="#5c7076">Примерен спин</text>
+  <text x="180" y="170" font-size="15" font-weight="600" fill="#0f2f36">5 × 4 × 6 × 3 × 7 × 2 =</text>
+  <text x="712" y="170" font-size="17" font-weight="700" fill="#b58a12" text-anchor="end">5,040</text>
+
+  <!-- min -->
+  <text x="28" y="222" font-size="14" fill="#5c7076">Минимум</text>
+  <text x="180" y="222" font-size="15" font-weight="600" fill="#0f2f36">2 × 2 × 2 × 2 × 2 × 2 =</text>
+  <text x="712" y="222" font-size="17" font-weight="700" fill="#5c7076" text-anchor="end">64</text>
+
+  <g stroke="#e6efef" stroke-width="1">
+    <line x1="28" y1="136" x2="712" y2="136"/>
+    <line x1="28" y1="188" x2="712" y2="188"/>
+  </g>
+  <text x="28" y="264" font-size="11" fill="#8aa0a4">18+ Играйте отговорно · Примерният спин е илюстративен · повече начини не значат по-добри шансове.</text>
+</svg>
