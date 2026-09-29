@@ -5,14 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01JaUSWL3GbVyF8RKd2oFntG",
-  "note": "daily run 2026-09-29 (recurring) — reconcile: 0 in-progress; guides-only scope; targeting MAX_PER_RUN=3 new distinct guide pillars",
+  "note": "daily run 2026-09-29 — researching 3 Evolution live-game guides in parallel (Lightning Blackjack / XXXtreme Lightning Roulette / Side Bet City); Gemini OFFLINE (402) so text+image review skipped per rules",
   "progress": {
-    "phase": "reconcile",
-    "article_index": 0,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 3,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "article_slug": "2026-09-29-lightning-blackjack",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
