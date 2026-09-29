@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-29T03:16:12Z",
+  "generated_utc": "2026-09-29T03:28:01Z",
   "buffer": {
-    "count": 177,
+    "count": 178,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 3,
-    "drafted": 172,
+    "in-progress": 2,
+    "drafted": 173,
     "approved": 5,
     "posted": 29,
     "failed": 1
@@ -3703,7 +3703,7 @@
     },
     {
       "id": "vk-0208",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Lightning Blackjack (Evolution): множители, такса и RTP",
       "keywords_or_terms": "lightning blackjack, лайтнинг блекджек, lightning blackjack rtp",
@@ -3713,9 +3713,9 @@
       "drafted_date": "2026-09-29",
       "posted_date": "",
       "folder": "2026-09-29-lightning-blackjack",
-      "pr": "",
-      "gemini": "",
-      "notes": "НОВ branded live game-show spoke към /blog/live-game-shows/; блекджек с Lightning такса + множители върху печелившите ръце; distinct от Lightning Baccarat (vk-0199), Lightning Dice (vk-0202), Lightning Roulette (vk-0186); research candidate; checked=web (Ahrefs exhausted, reset 2026-10-15)",
+      "pr": "#227",
+      "gemini": "skipped",
+      "notes": "НОВ branded live game-show spoke към /blog/live-game-shows/; блекджек със 100% Lightning такса (€10→€20, не се връща) + множители 2x–25x, пренасяни към следваща печеливша ръка само до размера на предишния залог. Distinct от Lightning Baccarat (vk-0199, 20% такса), Lightning Dice (vk-0202, светкавици по числа), Lightning Roulette (vk-0186). gate 93/100 0-crit; ~1010w 0 em-dash; 3 [VERIFY] (точни стойности на множителите version-dependent → диапазон; ефективен RTP ≈82% edge ≈17,6%/≈9% external analyst; прозорец ≈15s single-source); img:1 SVG (numbers verbatim, manual integrity PASS); Gemini OFFLINE (402) → text+image review skipped; gemini=skipped; честен ъгъл: 99,56% е optimal-first-hand реклама, реалната цена е таксата (връщане ≈82%); множител носи пари само при серия. Без BG оператор/НАП/affiliate (Evolution само maker); checked=web (Ahrefs exhausted, reset 2026-10-15); src=research candidate used",
       "opportunity": null
     },
     {
@@ -7187,7 +7187,7 @@
       "trend": "up",
       "checked": "web",
       "suggestion": "НОВ branded live game-show spoke на hub /blog/live-game-shows/; непокрит (0 в queue+bank+sitemap). Блекджек на живо с множители при печеливша ръка срещу Lightning такса; distinct blackjack-клъстър от рулетка/покер/бакара спокове и от Lightning Baccarat (vk-0199)/Lightning Dice (vk-0202). Честен ъгъл: таксата финансира множителите → базовият EV под класически блекджек; стратегията остава, но платена. provider/game-DB (Evolution/livecasinocomparer/WoO). Ahrefs exhausted (reset 2026-10-15), web-оценка, WAITS for reset; провери lightning blackjack",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-28",
       "opportunity": null
     }
