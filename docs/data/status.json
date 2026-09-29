@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-29T07:42:48Z",
+  "generated_utc": "2026-09-29T07:51:29Z",
   "buffer": {
-    "count": 182,
+    "count": 183,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 1,
-    "drafted": 177,
+    "in-progress": 0,
+    "drafted": 178,
     "approved": 5,
     "posted": 29,
     "failed": 1
@@ -3771,7 +3771,7 @@
     },
     {
       "id": "vk-0212",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Power of Thor Megaways (Pragmatic Play): RTP, волатилност и как се играе",
       "keywords_or_terms": "power of thor megaways, пауър ъв тор, power of thor rtp",
@@ -3781,9 +3781,9 @@
       "drafted_date": "2026-09-29",
       "posted_date": "",
       "folder": "2026-09-29-power-of-thor-megaways",
-      "pr": "",
-      "gemini": "",
-      "notes": "selected 2026-09-29 from research bank; distinct branded Megaways slot, допълва Pragmatic Play профил (vk-0019, live); dedup-clean vs queue+sitemap; checked=web (Ahrefs exhausted)",
+      "pr": "#232",
+      "gemini": "skipped",
+      "notes": "НОВ branded Megaways slot explainer; Pragmatic Play 2021, 6 барабана + горен ред, до 117 649 начина (7^6, НЕ 46 656), каскадни; растящ множител САМО в безпл. завъртания (старт 1x, +1 на каскада, не се нулира, без обявен таван но лимитиран от максимума 5000x); FS от 4+ THOR = 10/+4/до 30; buy feature 100x (RTP 96,97%, блокиран част юрисдикции); RTP default 96,55% + по-ниски builds 95,81%/94,77%; волатилност 5/5. Допълва Pragmatic профил (vk-0019, live); distinct от родов Megaways (vk-0041), Gonzo's Quest Megaways (vk-0211 тази партида) и другите Pragmatic слотове. gate 93/100 0-crit; ~745w 0 em-dash; 2 [VERIFY] (reviewer честота ~1/510 & max ~1/860 000 не са Pragmatic-published; активен RTP build); img:1 SVG (numbers verbatim, manual integrity PASS); Gemini OFFLINE (402) → text+image review skipped; gemini=skipped; честен ъгъл: потенциалът заключен в рядък бонус, base game без множител, „без таван\" опира до 5000x, buy feature не мени предимството; worked-€ €96,55/€100; Mystery/Loki символ омитнат (not found). Без BG оператор/НАП/affiliate (Pragmatic само maker); checked=web (Ahrefs exhausted, reset 2026-10-15); src=research candidate used",
       "opportunity": null
     },
     {
@@ -7266,7 +7266,7 @@
       "trend": "up",
       "checked": "web",
       "suggestion": "НОВ branded Megaways slot-explainer; допълва Pragmatic Play профил (vk-0? provajdar); distinct кластер (0 в queue+sitemap); Megaways + tumble + множител в бонуса, висока волатилност. Facts от Pragmatic + game-DB (bigwinboard/slotcatalog), НЕ operator T&C/НАП. web-checked (Ahrefs exhausted, reset 2026-10-15) → vol/kd blank, awaiting re-pull",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-29",
       "opportunity": null
     },
