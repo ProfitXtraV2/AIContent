@@ -1,18 +1,14 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-29T03:11:06Z",
-  "run_finished_utc": "2026-09-29T03:47:14Z",
-  "articles_written": 3,
-  "prs_opened": [
-    227,
-    228,
-    229
-  ],
-  "run_url": "https://claude.ai/code/session_01JaUSWL3GbVyF8RKd2oFntG",
-  "note": "recurring run 2026-09-29 DONE. 0 in-progress reconciled (prior 2026-09-28 fire finalized vk-0205/0206/0207 clean; heartbeat idle). Wrote MAX_PER_RUN=3 NEW distinct guide pillars (buffer 177->180, floor 10, NO cap): Lightning Blackjack/Evolution (vk-0208, PR #227, gate 93, ~1010w, img:1 SVG) · XXXtreme Lightning Roulette/Evolution (vk-0209, PR #228, gate 93, ~1030w, img:1 SVG) · Side Bet City/Evolution (vk-0210, PR #229, gate 93, ~1010w, img:1 SVG). Selection: human backlog rows 5-14 all NV-Casino operator/НАП-blocked -> stay open+blocked (guides-only; Ahrefs exhausted, no re-pull); topped up all 3 from research bank (candidates->used). Dedup-clean vs content-queue + live sitemap; anti-cannibal enforced (Lightning Blackjack distinct механика от Lightning Baccarat vk-0199/Dice vk-0202/Roulette vk-0186; XXXtreme distinct branded от базовата Lightning Roulette vk-0186 higher-cap; Side Bet City distinct от покер пиларите Casino Hold'em vk-0189/Three Card vk-0176/Ultimate Texas vk-0178/Teen Patti vk-0184, bet-before-deal). RESEARCH-first (3 fresh-context subagents) caught & fixed premise errors before writing: Lightning Blackjack fee=100% (not 20%), effective RTP ~82%; Side Bet City 4th bet is All Lose 0,70:1 (NOT 'All Lucky Ladies'), 7-card royal 500:1, launch 2019; XXXtreme launch 2022 (not 2021), straight-up 19:1. GEMINI OFFLINE (HTTP 402 credits depleted, probed live): Step-7 text + Step-8 image gen/review ALL skipped per rules (not halted); each kept single draft (gemini=skipped) + 1 hand-authored SVG infographic (numbers verbatim to 05b, manual integrity PASS, 0 fabrication). Flags kept in-text (human Step 6): Lightning Blackjack 3 [VERIFY] · XXXtreme 3 [VERIFY] · Side Bet City 2 [VERIFY]; 8 total. AHREFS exhausted (reset 2026-10-15) -> web fallback, no discovery spend, vol/kd blank. Bank replenished +3 distinct uncovered clusters (Gonzo's Quest Megaways / Power of Thor Megaways / Red Door Roulette, checked=web awaiting reset) -> 3-candidate buffer restored. Feed refreshed (5 approved). One content PR per article; board on main. NEVER resolved a flag/posted/merged.",
+  "state": "running",
+  "run_started_utc": "2026-09-29T07:11:00Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01Fqv2X3DcP2KD9Hd9kRBBMj",
+  "note": "daily run 2026-09-29 (recurring, 3x/day) — starting. 0 in-progress to reconcile (prior fire finalized vk-0208/0209/0210 clean, heartbeat idle). Human backlog rows 5-14 all NV-Casino operator/НАП-blocked -> stay open. Batch = MAX_PER_RUN=3 from research bank (buffer already 180, floor 10, NO cap): Gonzo's Quest Megaways, Power of Thor Megaways, Red Door Roulette.",
   "progress": {
-    "phase": "done",
-    "article_index": 3,
+    "phase": "selecting",
+    "article_index": 0,
     "article_total": 3,
     "article_slug": null,
     "stages": [
