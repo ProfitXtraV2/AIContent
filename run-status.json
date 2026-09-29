@@ -1,32 +1,17 @@
 {
   "state": "idle",
-  "run_started_utc": "2026-09-29T07:11:00Z",
-  "run_finished_utc": "2026-09-29T07:53:53Z",
-  "articles_written": 3,
-  "prs_opened": [
-    230,
-    231,
-    232
-  ],
-  "run_url": "https://claude.ai/code/session_01Fqv2X3DcP2KD9Hd9kRBBMj",
-  "note": "recurring run 2026-09-29 (2nd fire) DONE. 0 in-progress reconciled at start (prior 07:11 fire had finalized vk-0208/0209/0210 clean; heartbeat idle). Wrote MAX_PER_RUN=3 NEW distinct guide pillars (buffer 180->183, floor 10, NO cap): Red Door Roulette/Evolution (vk-0213, PR #230, gate 93, ~1040w, img:1 SVG) · Gonzo's Quest Megaways/Red Tiger (vk-0211, PR #231, gate 93, ~800w, img:1 SVG) · Power of Thor Megaways/Pragmatic (vk-0212, PR #232, gate 93, ~745w, img:1 SVG). Selection: human backlog rows 5-14 all NV-Casino operator/НАП-blocked -> stay open+blocked (guides-only; Ahrefs exhausted, not re-spent); topped up all 3 from research bank (candidates->used). Dedup-clean vs content-queue + live sitemap (95 URLs); anti-cannibal enforced (Gonzo Megaways distinct от Gonzo's Quest vk-0044/Treasure Hunt vk-0206/родов Megaways vk-0041; Thor Megaways допълва Pragmatic профил vk-0019, distinct от Gonzo Megaways тази партида; Red Door distinct от Lightning Roulette vk-0186/XXXtreme vk-0209/рулетка правила vk-0024). RESEARCH-first (3 fresh-context subagents) caught & fixed premise errors before writing: Red Door е Lightning+Crazy Time fusion (ключове на стрейт-ъп числа -> 64-сегментно бонус колело), НЕ буквална многостайна врата, стрейт-ъп орязан 19:1 не 35:1; Thor ways=117 649 (7^6) НЕ 46 656, множител само в FS, Mystery/Loki символ не съществува -> омитнат; Gonzo Megaways е Red Tiger build (не NetEnt), RTP 95,77% (под кръглите 96%) + конфигурируем към ~90%. GEMINI OFFLINE (HTTP 402 credits depleted, probed live): Step-7 text + Step-8 image gen/review ALL skipped per rules (not halted); each kept single draft (gemini=skipped) + 1 hand-authored SVG infographic (numbers verbatim to 05b, manual integrity PASS, 0 fabrication). Flags kept in-text (human Step 6): Gonzo 2 [VERIFY] · Thor 2 [VERIFY] · Red Door 1 [VERIFY]; 5 total. AHREFS exhausted (9 units left on key, reset 2026-10-15) -> web fallback, no discovery spend, vol/kd blank. Bank replenished +3 distinct uncovered clusters (Lucky Lady's Charm / Lightning Storm / Extremely Hot, checked=web awaiting reset) -> 3-candidate buffer restored. Feed refreshed (5 approved). One content PR per article; board on main. NEVER resolved a flag/posted/merged.",
+  "run_started_utc": "2026-09-29T15:43:57Z",
+  "run_finished_utc": "2026-09-29T15:44:30Z",
+  "articles_written": 0,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_0128M3p1H1ijEip4X6ZQ1PaN",
+  "note": "backfill: nothing to do (all review-ready articles have images). Checked all 183 drafted/approved rows — every row carries img: in notes and verified image files exist on sample branches. Backlog fully illustrated; this job may be disabled.",
   "progress": {
     "phase": "done",
-    "article_index": 3,
-    "article_total": 3,
+    "article_index": 0,
+    "article_total": 0,
     "article_slug": null,
-    "stages": [
-      "Synthesis",
-      "Outline",
-      "Author",
-      "Humaniser",
-      "SEO",
-      "Brand Gate",
-      "Light re-check",
-      "Images",
-      "Verification",
-      "PR"
-    ],
+    "stages": [],
     "stage_index": null,
     "stage": null
   }
