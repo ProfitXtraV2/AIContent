@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="'DejaVu Sans','Segoe UI',Arial,sans-serif" role="img" aria-label="RTP 96.50 процента и домашно предимство около 3.50 процента: при 1000 евро оборот средно 965 евро се връщат на играча и 35 евро остават за казиното">
+  <title>RTP 96.50% и домашно предимство — Starlight Princess</title>
+  <rect x="8" y="8" width="704" height="284" rx="16" fill="#faf9fc" stroke="#e3e0ec" stroke-width="1.5"/>
+  <text x="28" y="46" font-size="21" font-weight="700" fill="#241b46">RTP 96.50% и домашно предимство</text>
+  <text x="28" y="70" font-size="13" fill="#6b6580">По подразбиране; операторът може да пусне 95.51% или 94.50%.</text>
+
+  <!-- bar -->
+  <g>
+    <rect x="28" y="92" width="664" height="42" rx="8" fill="#e6e3ef"/>
+    <rect x="28" y="92" width="641" height="42" rx="8" fill="#6c4bd8"/>
+    <rect x="669" y="92" width="23" height="42" rx="4" fill="#b23a2e"/>
+    <text x="44" y="119" font-size="15" font-weight="700" fill="#ffffff">Играч 96.50%</text>
+  </g>
+  <text x="28" y="156" font-size="12.5" fill="#6b6580">Лилаво = дял на играча (RTP) · червено = домашно предимство ~3.50%</text>
+
+  <!-- euro breakdown -->
+  <text x="28" y="200" font-size="15" font-weight="700" fill="#241b46">При €1,000 оборот, в дългосрочен план:</text>
+  <g font-size="14" fill="#241b46">
+    <circle cx="36" cy="228" r="5" fill="#6c4bd8"/>
+    <text x="50" y="233">средно <tspan font-weight="700">€965</tspan> се връщат на играча</text>
+    <circle cx="380" cy="228" r="5" fill="#b23a2e"/>
+    <text x="394" y="233">около <tspan font-weight="700">€35</tspan> остават за казиното</text>
+  </g>
+  <text x="28" y="272" font-size="11" fill="#8a8499">18+ Играйте отговорно · RTP е дългосрочна статистика, не гаранция за сесията.</text>
+</svg>
