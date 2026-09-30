@@ -5,14 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01EzqwmGPW9CdreZKf3VKXVT",
-  "note": "daily run 2026-09-30 (1st fire) START — heartbeat running, reconciled 0 in-progress",
+  "note": "daily run 2026-09-30 (1st fire) — researching batch of 3 (Mustang Gold, Sweet Bonanza CandyLand, Synot Games); Gemini offline (402)",
   "progress": {
     "phase": "writing",
-    "article_index": null,
-    "article_total": null,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "article_index": 1,
+    "article_total": 3,
+    "article_slug": "2026-09-30-mustang-gold",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
