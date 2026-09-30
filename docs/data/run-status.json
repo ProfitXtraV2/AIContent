@@ -1,18 +1,14 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-09-30T07:11:30Z",
-  "run_finished_utc": "2026-09-30T07:40:43Z",
-  "articles_written": 3,
-  "prs_opened": [
-    239,
-    240,
-    241
-  ],
-  "run_url": "https://claude.ai/code/session_01PcMzF3DB6QvX5dGXrESXUV",
-  "note": "recurring run 2026-09-30 (2nd fire) DONE. 0 in-progress reconciled at start. Wrote MAX_PER_RUN=3 NEW distinct guide provider-hubs (buffer 189->192, floor 10, NO cap): Spribe/Aviator (vk-0220, PR #239, gate 94, ~1085w, img:1 SVG, 0 [VERIFY]) · Light & Wonder/ex-Scientific Games (vk-0221, PR #240, gate 93, ~1097w, img:1 SVG, 1 [VERIFY] Dancing Drums ~94.05% single-DB) · AvatarUX/PopWins (vk-0222, PR #241, gate 93, ~987w, img:1 SVG, 1 [VERIFY] PopWins patent claim). Selection: human backlog rows 5-14 all NV-Casino operator/НАП-dependent -> stay open+blocked (guides-only; already carry blocked notes; Ahrefs not re-spent); topped up all 3 from research bank (candidates->used). Dedup-clean vs content-queue + live sitemap (95 URLs, fetched OK); anti-cannibal enforced (Spribe hub distinct от game-explainers Aviator vk-0014/Mines vk-0183/Plinko vk-0133; L&W distinct от ELK vk-0101 which is L&W-owned -> ELK deliberately NOT named; AvatarUX/PopWins contrasted with not duplicating tumble/Sugar Rush/Megaways vk-0041/cluster vk-0060/tumble vk-0052). RESEARCH-first (3 fresh-context subagents) gathered multi-source facts + strict [VERIFY]/OMIT discipline (omitted licence numbers, conflicting player-counts/max-win caps, unconfirmed titles, single-source RTPs - never fabricated). GEMINI OFFLINE (HTTP 402 credits depleted, re-probed live via gemini_check.py): Step-7 text + Step-8 image gen/review ALL skipped per rules (not halted); each kept single draft (gemini=skipped) + 1 hand-authored SVG infographic (numbers verbatim to 05b, manual integrity PASS, 0 fabrication, 0 em-dash, 0 stray-CJK). Flags kept in-text (human Step 6): 2 total [VERIFY] across the 3 articles. AHREFS exhausted (reset 2026-10-15) -> web fallback, no discovery spend, vol/kd blank. Bank replenished +3 distinct uncovered provider hubs (Play'n GO, NetEnt, BGaming; checked=web awaiting reset) -> 3-candidate buffer restored. Feed refreshed (5 approved, unchanged). One content PR per article; board on main. NB: Claude GitHub App not installed on repo -> PR events won't wake session; PRs are for human review. NEVER resolved a flag/posted/merged.",
+  "state": "running",
+  "run_started_utc": "2026-09-30T22:10:44Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01VqitHjtsjoegqCGEF1fp6a",
+  "note": "daily run 2026-09-30 (3rd fire) — 0 in-progress to reconcile; selecting batch",
   "progress": {
-    "phase": "done",
-    "article_index": 3,
+    "phase": "selecting",
+    "article_index": 0,
     "article_total": 3,
     "article_slug": null,
     "stages": [
@@ -29,7 +25,5 @@
     ],
     "stage_index": null,
     "stage": null
-  },
-  "backfill_note": "backfill: nothing to do (all review-ready articles have images)",
-  "backfill_checked_utc": "2026-09-30T15:17:26Z"
+  }
 }
