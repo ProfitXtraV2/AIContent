@@ -3,14 +3,16 @@
   "run_started_utc": "2026-09-30T22:10:44Z",
   "run_finished_utc": null,
   "articles_written": null,
-  "prs_opened": [],
+  "prs_opened": [
+    242
+  ],
   "run_url": "https://claude.ai/code/session_01VqitHjtsjoegqCGEF1fp6a",
-  "note": "daily run 2026-09-30 (3rd fire) — batch of 3 selected (hub-intro games-providers vk-0223; card-deposit guide vk-0224; PaySafeCard guide vk-0225). Research bank had 3 stale DUP candidates (Play'n GO/NetEnt/BGaming already drafted vk-0045/0042/0125) -> dropped. Backlog rows 5-14 all NV-operator/НАП -> stay open+blocked. Ahrefs 403 (web fallback), Gemini 402 (Step-7 text + Step-8 image review skipped per rules).",
+  "note": "daily run 2026-09-30 (3rd fire) — vk-0223 hub-intro DRAFTED (PR #242). vk-0224 (card deposit) + vk-0225 (PaySafeCard) writing in parallel. Ahrefs 403 (web fallback), Gemini 402 (Step-7 + image review skipped).",
   "progress": {
     "phase": "writing",
-    "article_index": 1,
+    "article_index": 2,
     "article_total": 3,
-    "article_slug": "2026-09-30-hub-intro-games-providers",
+    "article_slug": "2026-09-30-depozit-s-bankova-karta",
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "stage_index": 2,
+    "stage": "Author"
   }
 }
