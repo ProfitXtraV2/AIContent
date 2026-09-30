@@ -29,5 +29,7 @@
     ],
     "stage_index": null,
     "stage": null
-  }
+  },
+  "backfill_note": "backfill: nothing to do (all review-ready articles have images)",
+  "backfill_checked_utc": "2026-09-30T15:17:26Z"
 }
