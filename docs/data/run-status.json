@@ -5,12 +5,12 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01VqitHjtsjoegqCGEF1fp6a",
-  "note": "daily run 2026-09-30 (3rd fire) — 0 in-progress to reconcile; selecting batch",
+  "note": "daily run 2026-09-30 (3rd fire) — batch of 3 selected (hub-intro games-providers vk-0223; card-deposit guide vk-0224; PaySafeCard guide vk-0225). Research bank had 3 stale DUP candidates (Play'n GO/NetEnt/BGaming already drafted vk-0045/0042/0125) -> dropped. Backlog rows 5-14 all NV-operator/НАП -> stay open+blocked. Ahrefs 403 (web fallback), Gemini 402 (Step-7 text + Step-8 image review skipped per rules).",
   "progress": {
-    "phase": "selecting",
-    "article_index": 0,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 3,
-    "article_slug": null,
+    "article_slug": "2026-09-30-hub-intro-games-providers",
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": null,
-    "stage": null
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
