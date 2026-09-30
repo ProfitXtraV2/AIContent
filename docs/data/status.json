@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-30T22:32:15Z",
+  "generated_utc": "2026-09-30T22:34:12Z",
   "buffer": {
     "count": 193,
     "target": 10,
@@ -7611,6 +7611,48 @@
       "checked": "web",
       "suggestion": "Непокрит провайдър-хъб (основан 2019; известен с патентованата механика PopWins / MegaClusters — символите се разделят и добавят редове/начини при печалба). Distinct provider-query cluster + distinct mechanic angle (не съвпада с Megaways vk-0041/cluster pays vk-0060/tumble vk-0052 — PopWins е отделен механизъм). Флагмани CherryPop, PopRocks, TikiPop. Provider site + game-DB, NOT operator T&C/НАП. web-checked (Ahrefs exhausted, reset 2026-10-15) -> vol/kd blank, awaiting re-pull",
       "status": "used",
+      "date_researched": "2026-09-30",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Е-портфейли (Skrill, Neteller) в онлайн казино: депозити, тегления и бонус изключения",
+      "researched_keywords": "skrill казино, neteller казино, е-портфейл казино",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "Непокрит payments-method guide; distinct cluster (е-портфейли), различен от карта (vk-0224) и PaySafeCard (vk-0225). Реален ъгъл: бързи тегления, но много казина ИЗКЛЮЧВАТ Skrill/Neteller депозити от бонус за добре дошли; такси за неактивност. In scope (method-level, БЕЗ operator T&C/НАП; факти от доставчика на плащането). web-checked (Ahrefs 403, reset 2026-10-15) -> vol/kd blank, awaiting re-pull",
+      "status": "candidate",
+      "date_researched": "2026-09-30",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Apple Pay и Google Pay в онлайн казино: мобилни депозити и сигурност",
+      "researched_keywords": "apple pay казино, google pay казино, мобилно плащане казино",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial",
+      "trend": "up",
+      "checked": "web",
+      "suggestion": "Непокрит payments-method guide; distinct cluster (мобилни портфейли/токенизация), различен от карта/е-портфейл/PaySafeCard. Ъгъл: токенизация (картовите данни не се споделят), биометрично потвърждение, моментален депозит, но тегленето обикновено се връща по свързаната карта; не всяко казино/банка го поддържа. In scope (method-level). web-checked (Ahrefs 403, reset 2026-10-15) -> vol/kd blank",
+      "status": "candidate",
+      "date_researched": "2026-09-30",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Revolut в онлайн казино: депозити, тегления и контрол на хазартните разходи",
+      "researched_keywords": "revolut казино, депозит с revolut, revolut хазарт",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial",
+      "trend": "up",
+      "checked": "web",
+      "suggestion": "Непокрит payments-method guide; distinct cluster (необанка), различен от карта/е-портфейл. Силна BG релевантност (Revolut е широко използван). Ъгъл: моментален депозит, вградена функция за блокиране на хазартни транзакции (gambling block) = RG инструмент; лимити и възможни такси. In scope (method-level, БЕЗ operator/НАП). web-checked (Ahrefs 403, reset 2026-10-15) -> vol/kd blank",
+      "status": "candidate",
       "date_researched": "2026-09-30",
       "opportunity": null
     }
