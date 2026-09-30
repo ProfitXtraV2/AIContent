@@ -3,14 +3,16 @@
   "run_started_utc": "2026-09-30T07:11:30Z",
   "run_finished_utc": null,
   "articles_written": null,
-  "prs_opened": [],
+  "prs_opened": [
+    239
+  ],
   "run_url": "https://claude.ai/code/session_01PcMzF3DB6QvX5dGXrESXUV",
-  "note": "daily run 2026-09-30 (2nd fire) — 3 in-progress queued (Spribe/L&W/AvatarUX); researching",
+  "note": "daily run 2026-09-30 (2nd fire): Spribe drafted (PR #239); writing L&W (2/3)",
   "progress": {
     "phase": "writing",
-    "article_index": 1,
+    "article_index": 2,
     "article_total": 3,
-    "article_slug": "2026-09-30-spribe",
+    "article_slug": "2026-09-30-light-and-wonder",
     "stages": [
       "Synthesis",
       "Outline",
