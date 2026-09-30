@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-30T07:26:03Z",
+  "generated_utc": "2026-09-30T07:32:29Z",
   "buffer": {
-    "count": 190,
+    "count": 191,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 2,
-    "drafted": 185,
+    "in-progress": 1,
+    "drafted": 186,
     "approved": 5,
     "posted": 29,
     "failed": 1
@@ -3924,7 +3924,7 @@
     },
     {
       "id": "vk-0221",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Light & Wonder: профил на доставчика, механики и топ слотове",
       "keywords_or_terms": "light & wonder, light and wonder, scientific games, l&w слотове",
@@ -3934,9 +3934,9 @@
       "drafted_date": "2026-09-30",
       "posted_date": "",
       "folder": "2026-09-30-light-and-wonder",
-      "pr": "",
-      "gemini": "",
-      "notes": "selected 2nd fire 2026-09-30; НОВ провайдър-хъб (ex-Scientific Games/SG Digital); distinct от ELK (vk-0101, L&W-owned, различен primary kw); Ahrefs exhausted->web, vol/kd blank; src=research candidate",
+      "pr": "#240",
+      "gemini": "skipped",
+      "notes": "НОВ провайдър-хъб (Light & Wonder, ex-Scientific Games); drafted 2nd fire 2026-09-30; gate 93/100 0-crit; ~1097w 0 em-dash; 1 [VERIFY] (Dancing Drums ~94.05% single-DB); img:1 SVG key-facts (numbers verbatim, manual integrity PASS); Gemini OFFLINE (402)->text+image review skipped gemini=skipped; core: licence!=advantage, RTP operator-configurable & variant-dependent (Dancing Drums ~94-96%), catalog=scale not guaranteed wins; heritage WMS/Bally/Barcrest/Shuffle Master/SG Digital + OpenGaming; anti-cannibal: ELK vk-0101 (L&W-owned) NOT mentioned; без BG operator/НАП/affiliate; checked=web; src=research candidate used",
       "opportunity": null
     },
     {
@@ -7545,7 +7545,7 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "Непокрит провайдър-хъб (ex-Scientific Games / SG Digital; глобален гигант). Distinct provider-query cluster; НЕ канибализира ELK (vk-0101, придобит от L&W — само корпоративна връзка, различен primary kw). Флагмани 88 Fortunes, Huff N' More Puff, Monopoly/Rainbow Riches (Barcrest). Механики: hold&win джакпоти, must-drop. Provider licences, provider site + game-DB, NOT operator T&C/НАП. web-checked (Ahrefs exhausted, reset 2026-10-15) -> vol/kd blank, awaiting re-pull",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-09-30",
       "opportunity": null
     },
