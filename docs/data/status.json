@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-30T07:32:29Z",
+  "generated_utc": "2026-09-30T07:40:17Z",
   "buffer": {
-    "count": 191,
+    "count": 192,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 1,
-    "drafted": 186,
+    "in-progress": 0,
+    "drafted": 187,
     "approved": 5,
     "posted": 29,
     "failed": 1
@@ -3941,7 +3941,7 @@
     },
     {
       "id": "vk-0222",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "AvatarUX: профил на доставчика и механиката PopWins",
       "keywords_or_terms": "avatarux, avatar ux, popwins, avatarux слотове",
@@ -3951,9 +3951,9 @@
       "drafted_date": "2026-09-30",
       "posted_date": "",
       "folder": "2026-09-30-avatarux",
-      "pr": "",
-      "gemini": "",
-      "notes": "selected 2nd fire 2026-09-30; НОВ провайдър-хъб (2019, PopWins); distinct mechanic (не Megaways vk-0041/cluster vk-0060/tumble vk-0052); Ahrefs exhausted->web, vol/kd blank; src=research candidate",
+      "pr": "#241",
+      "gemini": "skipped",
+      "notes": "НОВ провайдър-хъб + mechanic (AvatarUX/PopWins); drafted 2nd fire 2026-09-30; gate 93/100 0-crit; ~987w 0 em-dash 0 stray-CJK; 1 [VERIFY] (PopWins patent claim, no public № found); img:1 SVG key-facts+mechanic (numbers verbatim, manual integrity PASS); Gemini OFFLINE (402)->text+image review skipped gemini=skipped; core: PopWins baked into RTP, each spin independent, high-vol=long dry runs, licence!=advantage, RTP version/operator-configurable (CherryPop 96.14% vs 96.2%); distinct mechanic vs Megaways vk-0041/cluster vk-0060/tumble vk-0052; без BG operator/НАП/affiliate; checked=web; src=research candidate used",
       "opportunity": null
     }
   ],
@@ -7559,6 +7559,48 @@
       "trend": "up",
       "checked": "web",
       "suggestion": "Непокрит провайдър-хъб (основан 2019; известен с патентованата механика PopWins / MegaClusters — символите се разделят и добавят редове/начини при печалба). Distinct provider-query cluster + distinct mechanic angle (не съвпада с Megaways vk-0041/cluster pays vk-0060/tumble vk-0052 — PopWins е отделен механизъм). Флагмани CherryPop, PopRocks, TikiPop. Provider site + game-DB, NOT operator T&C/НАП. web-checked (Ahrefs exhausted, reset 2026-10-15) -> vol/kd blank, awaiting re-pull",
+      "status": "used",
+      "date_researched": "2026-09-30",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Play'n GO: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "play'n go, playn go, book of dead, playngo слотове",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "Непокрит провайдър-хъб (шведско студио; флагман Book of Dead, book-механика; много BG-релевантен). Distinct provider cluster; distinct от покритите профили (Pragmatic/Amusnet/Playtech/Yggdrasil/ELK/Hacksaw/Synot/Spribe/L&W/AvatarUX). Provider site + game-DB, NOT operator T&C/НАП. web-checked (Ahrefs exhausted, reset 2026-10-15) -> vol/kd blank, awaiting re-pull",
+      "status": "candidate",
+      "date_researched": "2026-09-30",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "NetEnt: профил на доставчика (Starburst, Gonzo's Quest) и механики",
+      "researched_keywords": "netent, нетент, starburst доставчик, gonzo's quest",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "Непокрит провайдър-хъб (шведско студио, част от Evolution; флагмани Starburst/Gonzo's Quest). Distinct от single-game Starburst (vk /blog/starburst/) - profile таргетира марката, не играта. Provider site + game-DB, NOT operator T&C/НАП. web-checked (Ahrefs exhausted, reset 2026-10-15) -> vol/kd blank",
+      "status": "candidate",
+      "date_researched": "2026-09-30",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "BGaming: профил на доставчика, механики и топ слотове",
+      "researched_keywords": "bgaming, би геминг, bgaming слотове",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial",
+      "trend": "up",
+      "checked": "web",
+      "suggestion": "Непокрит провайдър-хъб (crypto-friendly студио; провайбли феър опция; популярен в нови казина). Distinct provider cluster. Provider site + game-DB, NOT operator T&C/НАП. web-checked (Ahrefs exhausted, reset 2026-10-15) -> vol/kd blank",
       "status": "candidate",
       "date_researched": "2026-09-30",
       "opportunity": null
