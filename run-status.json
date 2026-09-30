@@ -1,11 +1,11 @@
 {
   "state": "idle",
-  "run_started_utc": "2026-09-29T17:00:00Z",
-  "run_finished_utc": "2026-09-29T17:00:30Z",
+  "run_started_utc": "2026-09-30T17:00:00Z",
+  "run_finished_utc": "2026-09-30T17:00:30Z",
   "articles_written": 0,
   "prs_opened": [],
-  "run_url": "https://claude.ai/code/session_01ANJmPKN9RHtcEc9fJkLckY",
-  "note": "backfill: nothing to do (all review-ready articles have images). Checked all 213 drafted/approved rows — every row carries img: in notes. Backlog fully illustrated; this job may be disabled.",
+  "run_url": "https://claude.ai/code/session_01VPzp7CmCGQXTfaiqWgBkpA",
+  "note": "backfill: nothing to do (all review-ready articles have images). Checked all 192 drafted/approved rows — every row carries img: in notes. Backlog fully illustrated; this job may be disabled.",
   "progress": {
     "phase": "done",
     "article_index": 0,
