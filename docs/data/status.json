@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-30T22:34:12Z",
+  "generated_utc": "2026-09-30T22:39:57Z",
   "buffer": {
-    "count": 193,
+    "count": 195,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 2,
-    "drafted": 188,
+    "in-progress": 0,
+    "drafted": 190,
     "approved": 5,
     "posted": 29,
     "failed": 1
@@ -3975,7 +3975,7 @@
     },
     {
       "id": "vk-0224",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Депозит с банкова карта (Visa/Mastercard) в онлайн казино: такси, срокове и сигурност",
       "keywords_or_terms": "депозит с карта казино, банкова карта онлайн казино, visa mastercard казино",
@@ -3985,14 +3985,14 @@
       "drafted_date": "2026-09-30",
       "posted_date": "",
       "folder": "2026-09-30-depozit-s-bankova-karta",
-      "pr": "",
-      "gemini": "",
-      "notes": "НОВ payments-method guide (категорията casino-payments няма method-guides досега; само hub-intro + KYC + Pay-N-Play); in scope (method-level, БЕЗ operator T&C/НАП); distinct от evro-hazart-depoziti (валута) и casino-payments hub; checked=web (Ahrefs 403, reset 2026-10-15) vol/kd blank; in-progress 3rd fire 2026-09-30",
+      "pr": "#243",
+      "gemini": "skipped",
+      "notes": "НОВ payments-method guide (1-ви method-guide в casino-payments). drafted 3rd fire 2026-09-30; persona Георги Тодоров; ~1043 думи; gate 92/100 0-crit; 1 [VERIFY] (cash advance тарифа bank-specific); 0 em-dash; img:1 SVG (depozit-karta-srokove.svg, numbers verbatim to 05b, manual integrity PASS); Gemini OFFLINE (402) -> Step-7 + image review skipped, gemini=skipped; core: депозит моментален, теглене 1-5 раб.дни, 3-D Secure, KYC при 1-во теглене, правило за същата карта, cash advance при кредитна карта, PCI DSS/токенизация, лиценз=1-ва проверка; in scope (method-level, БЕЗ operator/НАП), no operator named; internal: casino-payments/depoziti-i-teglenia/evro-hazart-depoziti/otgovorna-igra; checked=web (Ahrefs 403)",
       "opportunity": null
     },
     {
       "id": "vk-0225",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "PaySafeCard в онлайн казино: как работи, лимити и предимства",
       "keywords_or_terms": "paysafecard казино, пейсейф казино, депозит с paysafecard",
@@ -4002,9 +4002,9 @@
       "drafted_date": "2026-09-30",
       "posted_date": "",
       "folder": "2026-09-30-paysafecard-kazino",
-      "pr": "",
-      "gemini": "",
-      "notes": "НОВ payments-method guide, prepaid ваучер, distinct keyword cluster (paysafecard); in scope (method-level, БЕЗ operator/НАП); privacy/budget ъгъл; checked=web (Ahrefs 403); in-progress 3rd fire 2026-09-30",
+      "pr": "#244",
+      "gemini": "skipped",
+      "notes": "НОВ payments-method guide (prepaid ваучер, distinct cluster от карта vk-0224). drafted 3rd fire 2026-09-30; persona Георги Тодоров; ~1040 думи; gate 94/100 0-crit; 4 [VERIFY] (транзакц. таван ~€250, my paysafecard ~€1000, такса на каса, такса неактивност+FX - всички country-variable); 0 em-dash; img:1 SVG (paysafecard-depozit-teglene.svg, 3 стъпки + депозит ДА/теглене НЕ, numbers verbatim to 05b, manual integrity PASS); Gemini OFFLINE (402) -> Step-7 + image review skipped, gemini=skipped; core: 16-цифрен PIN, купува се в брой без банкова сметка, депозит моментален+анонимен спрямо казиното (не спрямо закона, KYC остава), НЯМА теглене обратно (нужен 2-ри метод), вграден бюджет=RG; in scope (method-level, БЕЗ operator/НАП), no operator named; internal: casino-payments/depoziti-i-teglenia/evro-hazart-depoziti/otgovorna-igra; checked=web (Ahrefs 403)",
       "opportunity": null
     }
   ],
