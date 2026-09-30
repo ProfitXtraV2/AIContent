@@ -1233,3 +1233,69 @@ is unaffected and keeps working.
 
 ### Deferred (pending Gemini billing)
 - vk-0167, vk-0168, vk-0171 — 3 `ai 75` rows; cannot re-check/verify until Gemini billing restored.
+
+## 2026-09-30 — nightly flag + score fixes
+
+### JOB A — publish-blocking flag resolution
+Scanned every `origin/content/*` branch's OWN-folder `05b-final-draft.md` for blocking
+markers. **7 newly-drafted (2026-09-30) branches carried real `[VERIFY]` flags and were all
+fixed** — rewrote the surrounding sentence so the bracket disappears, preserving every fact
+(public GAME/PROVIDER values kept with an "info-panel"/"provider terms" caveat folded into
+prose; genuinely uncertain claims softened; no number/year/licence invented). Each re-scanned
+to **ZERO** blocking markers, committed `fix(flags): resolve <folder> — publish-ready`, pushed
+to its branch (updates its open PR).
+
+- **vk-0222** `2026-09-30-avatarux` (PR #241) — 1 flag: AvatarUX patent claim. Softened to
+  "company speaks of patent protection, but no specific public patent number is widely
+  available in open sources." ✓ resolved
+- **vk-0224** `2026-09-30-depozit-s-bankova-karta` (PR #243) — 1 flag: credit-card cash-advance
+  treatment/tariff. Kept the general "~3–5%" order-of-magnitude band; folded caveat → "exact
+  treatment/tariff depends on the bank/card, check the issuer's terms." ✓ resolved
+- **vk-0221** `2026-09-30-light-and-wonder` (PR #240) — 1 flag: Dancing Drums RTP low bound
+  (~94.05%). Kept the 94–96% range + value; folded → "check the exact value in the game's
+  info panel at your casino." ✓ resolved
+- **vk-0217** `2026-09-30-mustang-gold` (PR #237) — 1 flag: Money Collect symbol value cap.
+  Kept official "1–35× total bet"; folded source discrepancy → "some external sources list a
+  lower cap, verify in the game's info panel." ✓ resolved
+- **vk-0225** `2026-09-30-paysafecard-kazino` (PR #244) — 3 flags: voucher/my-paysafecard
+  transaction limits (~€250 / ~€1000), point-of-sale purchase fee, inactivity + FX fees. Kept
+  the hedged approximate values; folded every "varies by country/provider" caveat into prose
+  pointing to the provider's current terms. ✓ all 3 resolved
+- **vk-0218** `2026-09-30-sweet-bonanza-candyland` (PR #238) — 1 flag: per-bet RTP table.
+  Restated the existing fact directly: "an exact per-bet RTP table is not officially disclosed
+  and not openly published." ✓ resolved
+- **vk-0219** `2026-09-30-synot-games` (PR #236) — 2 flags: BG 10-yr licence issuing body, and
+  Book of Secrets ~96% RTP. Licence → kept НАП as competent authority + "the exact registering
+  body can be checked in the official register" (no figure asserted). RTP → kept "~96%" + "check
+  in the game's info panel." ✓ both resolved
+
+**Flags fixed: 10 markers across 7 branches. Posted/live carrying stubs, left untouched: 2 (below).**
+`[About Всички Казина boilerplate]` remains a non-blocking, publisher-substituted template slot
+(present in posted articles too), so it is not treated as a flag.
+
+### JOB B — low Gemini score improvements
+Targets (status ∈ drafted/approved, verdict `ai n` or `human n<80`): **3 rows**, all `ai 75`
+— vk-0167 (rng), vk-0168 (kyc-verifikaciya), vk-0171 (kazino-turniri); under the 10/night cap.
+**Gemini API still returns HTTP 402 RESOURCE_EXHAUSTED — "Your prepayment credits are depleted."**
+Verified tonight against vk-0167 (2 attempts, exit 2); proxy healthy (no relay failures — the 402
+is Google's billing response, not transport). The check→humanise→re-check loop is fully gated on
+the detector; with no score there is no measured before→after, and re-editing already-cleaned
+prose blind risks undetectable voice regression. All 3 **deferred pending Gemini billing top-up**
+(not re-edited).
+
+### ⚠ Environment issue — Gemini API credits depleted (UNRESOLVED, 6th consecutive night)
+`gemini_check.py` → **HTTP 402 "prepayment credits are depleted"** (ongoing since ~2026-09-24).
+Blocks the whole Step-7 score pipeline: the nightly drafter's `skipped`-verdict pile keeps
+growing (all 2026-09-25→09-30 drafts are `skipped`), AND this fixer's JOB B. **Needs human
+action: top up prepayment in Google AI Studio billing (https://ai.studio/projects).** JOB A
+(flag resolution) is unaffected and kept working tonight.
+
+### POSTED — needs human review (recurring, still open)
+- **vk-0063** `2026-09-13-nv-casino-zakonno-li-e` (PR #79, posted, `ai 75`):
+  `[AUTHOR BIO BLOCK] [About … boilerplate]` stub on branch draft. Left untouched (HARD RULE:
+  never edit live). Low score can't be improved while Gemini billing is down; posted regardless.
+- **vk-0064** `2026-09-13-nv-casino-bonus-usloviya` (PR #80, posted, `human 85`):
+  `[AUTHOR BIO BLOCK] [BRAND BOILERPLATE] [18+ / RG LINE]` stub on branch draft. Left untouched.
+
+### Deferred (pending Gemini billing)
+- vk-0167, vk-0168, vk-0171 — 3 `ai 75` rows; cannot re-check/verify until Gemini billing restored.
