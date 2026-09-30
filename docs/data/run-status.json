@@ -5,13 +5,14 @@
   "articles_written": null,
   "prs_opened": [
     236,
-    237
+    237,
+    238
   ],
   "run_url": "https://claude.ai/code/session_01EzqwmGPW9CdreZKf3VKXVT",
-  "note": "daily run 2026-09-30 (1st fire) — Synot Games (vk-0219 PR#236) + Mustang Gold (vk-0217 PR#237) drafted; authoring Sweet Bonanza CandyLand. Gemini offline (402).",
+  "note": "daily run 2026-09-30 (1st fire) — all 3 drafted (vk-0219 Synot PR#236, vk-0217 Mustang Gold PR#237, vk-0218 CandyLand PR#238). Moving to Step 6 keyword research. Gemini offline (402).",
   "progress": {
     "phase": "writing",
-    "article_index": 2,
+    "article_index": 3,
     "article_total": 3,
     "article_slug": "2026-09-30-sweet-bonanza-candyland",
     "stages": [
@@ -26,7 +27,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 2,
-    "stage": "Author"
+    "stage_index": 9,
+    "stage": "PR"
   }
 }
