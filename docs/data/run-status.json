@@ -3,9 +3,11 @@
   "run_started_utc": "2026-09-30T03:10:24Z",
   "run_finished_utc": null,
   "articles_written": null,
-  "prs_opened": [],
+  "prs_opened": [
+    236
+  ],
   "run_url": "https://claude.ai/code/session_01EzqwmGPW9CdreZKf3VKXVT",
-  "note": "daily run 2026-09-30 (1st fire) — researching batch of 3 (Mustang Gold, Sweet Bonanza CandyLand, Synot Games); Gemini offline (402)",
+  "note": "daily run 2026-09-30 (1st fire) — Synot Games drafted (vk-0219, PR #236); authoring Mustang Gold + Sweet Bonanza CandyLand. Gemini offline (402).",
   "progress": {
     "phase": "writing",
     "article_index": 1,
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "stage_index": 2,
+    "stage": "Author"
   }
 }
