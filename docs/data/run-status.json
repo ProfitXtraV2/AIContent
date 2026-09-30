@@ -5,12 +5,12 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01PcMzF3DB6QvX5dGXrESXUV",
-  "note": "daily run 2026-09-30 (2nd fire) — starting; reconciled 0 in-progress",
+  "note": "daily run 2026-09-30 (2nd fire) — 3 in-progress queued (Spribe/L&W/AvatarUX); researching",
   "progress": {
     "phase": "writing",
-    "article_index": 0,
+    "article_index": 1,
     "article_total": 3,
-    "article_slug": null,
+    "article_slug": "2026-09-30-spribe",
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": null,
-    "stage": null
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
