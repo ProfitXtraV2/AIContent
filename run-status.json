@@ -1,16 +1,16 @@
 {
   "state": "idle",
-  "run_started_utc": "2026-09-30T17:00:00Z",
-  "run_finished_utc": "2026-09-30T17:00:30Z",
+  "run_started_utc": "2026-10-01T00:00:00Z",
+  "run_finished_utc": "2026-10-01T00:10:00Z",
   "articles_written": 0,
   "prs_opened": [],
-  "run_url": "https://claude.ai/code/session_01VPzp7CmCGQXTfaiqWgBkpA",
-  "note": "backfill: nothing to do (all review-ready articles have images). Checked all 192 drafted/approved rows — every row carries img: in notes. Backlog fully illustrated; this job may be disabled.",
+  "run_url": "https://claude.ai/code/session_01SbosUgJMuKg6TDULBL24j3",
+  "note": "backfilled images on 1 article(s): vk-0223 hub-intro games-providers — 2 images (hero gemini-3-pro-image + SVG flow diagram), best review score 100. image model: gemini-3-pro-image",
   "progress": {
     "phase": "done",
-    "article_index": 0,
-    "article_total": 0,
-    "article_slug": null,
+    "article_index": 1,
+    "article_total": 1,
+    "article_slug": "2026-09-30-hub-intro-games-providers",
     "stages": [],
     "stage_index": null,
     "stage": null
