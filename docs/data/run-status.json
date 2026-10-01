@@ -1,16 +1,20 @@
 {
-  "state": "running",
-  "run_started_utc": "2026-09-30T22:10:44Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
-  "run_url": "https://claude.ai/code/session_01VqitHjtsjoegqCGEF1fp6a",
-  "note": "daily run 2026-09-30 (3rd fire) — batch of 3 selected (hub-intro games-providers vk-0223; card-deposit guide vk-0224; PaySafeCard guide vk-0225). Research bank had 3 stale DUP candidates (Play'n GO/NetEnt/BGaming already drafted vk-0045/0042/0125) -> dropped. Backlog rows 5-14 all NV-operator/НАП -> stay open+blocked. Ahrefs 403 (web fallback), Gemini 402 (Step-7 text + Step-8 image review skipped per rules).",
+  "state": "idle",
+  "run_started_utc": "2026-10-01T07:12:00Z",
+  "run_finished_utc": "2026-10-01T08:23:35Z",
+  "articles_written": 3,
+  "prs_opened": [
+    248,
+    249,
+    250
+  ],
+  "run_url": "https://claude.ai/code/session_012VvxpUm1Sub2oWPKrfzyNo",
+  "note": "backfill-images 2026-10-01T15:16Z: nothing to do (all 200 review-ready articles already have images). recurring run 2026-10-01 (2nd fire) DONE. 0 in-progress reconciled at start (prior 1st fire finalized clean). Wrote MAX_PER_RUN=3 NEW distinct payments guides (buffer 198->201, floor 10, NO cap): банков превод/bank transfer (vk-0229, PR #248, gate 93, ~1047w, img:1 SVG, 1 [VERIFY] банкова тарифа) · Trustly/open-banking (vk-0230, PR #249, gate 93 Trust15/RG15, ~1025w, img:1 SVG, 3 [VERIFY] BG-наличност/такси) · payments-security pillar SSL/PCI-DSS/3DS/токенизация (vk-0231, PR #250, gate 92 RG15, ~1033w, img:1 SVG, 0 [VERIFY]). SELECTION: human backlog rows 5-14 all NV-operator/НАП-dependent -> stay open+blocked (guides-only scope, not re-pulled, 9 Ahrefs units preserved); research bank held exactly 3 distinct uncovered candidates (all payments, added last fire) -> all 3 written. Dedup-clean vs content-queue + live sitemap (fetched OK); anti-cannibal: 8 distinct payment pillars now (card vk-0224, PaySafeCard vk-0225, e-wallets vk-0226, mobile wallets vk-0227, Revolut vk-0228, bank transfer vk-0229, Trustly/open-banking vk-0230) + security concept pillar vk-0231 (method guides fold into it); all method/concept-level, no operator T&C/НАП, no operator named -> no affiliate-link requirement (Trustly named as method/provider plain text only). GEMINI OFFLINE (HTTP 402 credits depleted, re-probed live): Step-7 text + Step-8 image gen/review ALL skipped per rules (not halted); each kept single draft (gemini=skipped) + 1 hand-authored SVG infographic (numbers/claims verbatim to 05b, manual integrity PASS + width-checked 0 overlaps/clips, 0 fabrication, 0 em-dash incl SVGs). AHREFS ~exhausted (9 units, reset 2026-10-15) -> web fallback, no discovery spend, vol/kd blank, checked=web. Bank replenished +3 distinct uncovered candidates (how-to провери лиценз в НАП регистъра; крипто/биткойн education; chargeback оспорване; all checked=web awaiting reset) -> bank buffer not shrunk (3->3). Flags kept in-text (human Step 6): 4 total [VERIFY] across the 3. One content PR per article; board on main; feed refreshed (5 approved, unchanged). NB: content PRs have NO CI configured (0 checks) -> awaiting human Step-6 review; subscribed passively. NEVER resolved a flag/posted/merged/fabricated.",
   "progress": {
-    "phase": "writing",
-    "article_index": 1,
+    "phase": "done",
+    "article_index": 3,
     "article_total": 3,
-    "article_slug": "2026-09-30-hub-intro-games-providers",
+    "article_slug": null,
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +27,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "stage_index": null,
+    "stage": null
   }
 }
