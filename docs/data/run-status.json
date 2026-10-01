@@ -5,12 +5,12 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_012VvxpUm1Sub2oWPKrfzyNo",
-  "note": "recurring run 2026-10-01 (2nd fire) — started. 0 in-progress rows to reconcile. Selecting batch (payments-method/concept bank candidates).",
+  "note": "recurring run 2026-10-01 (2nd fire) — batch=3 selected: bank transfer (vk-0229), Trustly/open-banking (vk-0230), payments-security pillar (vk-0231). Backlog all operator/НАП-blocked (guides-only scope); research bank held exactly these 3 distinct uncovered candidates. Dedup+anti-cannibal clean. Gemini OFFLINE (402) -> Step-7/8 reviews skipped; SVG infographics hand-authored. Ahrefs ~exhausted -> web fallback.",
   "progress": {
-    "phase": "selecting",
-    "article_index": 0,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 3,
-    "article_slug": null,
+    "article_slug": "2026-10-01-bankov-prevod-kazino",
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": null,
-    "stage": null
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
