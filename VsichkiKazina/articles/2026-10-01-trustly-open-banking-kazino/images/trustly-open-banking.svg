@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 372" width="720" height="372" role="img" aria-label="При Trustly (open banking) плащаш директно от банковата си сметка с вход в банковото приложение, мигновено в двете посоки, а тегленето често е за минути в същата сесия, срещу няколко работни дни при класическия банков превод с ръчно нареждане по IBAN. Казиното не вижда картови данни, данни за вход или реквизити на сметката, а верификацията често е вградена, макар KYC да остава. Наличността зависи от банката и казиното и в България е ограничена.">
+  <title>Trustly (open banking) в онлайн казино: мигновено плащане директно от банката</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="720" height="372" rx="14" ry="14" fill="url(#bg)"/>
+
+  <text x="360" y="38" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="#1f2937" text-anchor="middle">Trustly (open banking) в онлайн казино</text>
+  <text x="360" y="58" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">плащаш директно от банката с вход в банковото приложение</text>
+
+  <!-- Trustly card (left) -->
+  <rect x="40" y="78" width="300" height="108" rx="12" fill="#ecfdf5" stroke="#10b981" stroke-width="1.5"/>
+  <rect x="40" y="78" width="300" height="6" rx="3" fill="#10b981"/>
+  <text x="190" y="110" font-family="system-ui, -apple-system, sans-serif" font-size="13.5" font-weight="600" fill="#047857" text-anchor="middle">Trustly / open banking</text>
+  <text x="190" y="143" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="800" fill="#059669" text-anchor="middle">мигновено в двете посоки</text>
+  <text x="190" y="170" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="middle">тегленето често за минути в същата сесия</text>
+
+  <!-- Classic transfer card (right) -->
+  <rect x="380" y="78" width="300" height="108" rx="12" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/>
+  <rect x="380" y="78" width="300" height="6" rx="3" fill="#f59e0b"/>
+  <text x="530" y="110" font-family="system-ui, -apple-system, sans-serif" font-size="13.5" font-weight="600" fill="#b45309" text-anchor="middle">Класически банков превод</text>
+  <text x="530" y="143" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="800" fill="#d97706" text-anchor="middle">няколко работни дни</text>
+  <text x="530" y="170" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="middle">ръчно нареждане по IBAN</text>
+
+  <!-- What the casino doesn't see / verification bar -->
+  <rect x="40" y="198" width="640" height="60" rx="10" fill="#eef2ff" stroke="#6366f1" stroke-width="1.2"/>
+  <text x="360" y="224" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" fill="#3730a3" text-anchor="middle">Казиното не вижда картови данни, вход или реквизити на сметката</text>
+  <text x="360" y="245" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#4338ca" text-anchor="middle">верификацията често е вградена (KYC остава)</text>
+
+  <!-- Availability bar -->
+  <rect x="40" y="270" width="640" height="50" rx="10" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.2"/>
+  <text x="360" y="300" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#6d28d9" text-anchor="middle">Наличността зависи от банката и казиното; в България е ограничена</text>
+
+  <text x="360" y="350" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#9ca3af" text-anchor="middle">18+ Играйте отговорно · Trustly е удобство, лицензът от НАП е защитата</text>
+</svg>
