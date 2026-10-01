@@ -3,14 +3,14 @@
   "run_started_utc": "2026-10-01T22:15:00Z",
   "run_finished_utc": null,
   "articles_written": null,
-  "prs_opened": [],
+  "prs_opened": [251],
   "run_url": "https://claude.ai/code/session_01EHqStK8ZTuvEus7hHwW4uq",
-  "note": "daily run 2026-10-01 (3rd fire) — 0 in-progress reconciled; batch=3 distinct guides (chargeback, crypto, GDPR data-privacy); Gemini ONLINE, Ahrefs ~exhausted (9 units, preserve)",
+  "note": "daily run 2026-10-01 (3rd fire) — art 1/3 done (chargeback vk-0232, PR #251, gate 93, ai 75, img:2 review 100); starting art 2/3 (crypto). Gemini ONLINE.",
   "progress": {
     "phase": "writing",
-    "article_index": 1,
+    "article_index": 2,
     "article_total": 3,
-    "article_slug": "2026-10-01-chargeback-kazino",
+    "article_slug": "2026-10-01-kripto-bitkoin-kazino",
     "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
     "stage_index": 0,
     "stage": "Synthesis"

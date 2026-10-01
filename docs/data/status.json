@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-01T22:17:26Z",
+  "generated_utc": "2026-10-01T22:34:52Z",
   "buffer": {
-    "count": 201,
+    "count": 202,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 196,
+    "drafted": 197,
     "approved": 5,
     "posted": 29,
     "failed": 1
@@ -4108,6 +4108,23 @@
       "gemini": "skipped",
       "notes": "НОВ concept/security pillar (higher-level intent: как да познаеш сигурна каса); method-guide статиите vk-0224..0230 реферират насам (fold-in, НЕ cannibal). drafted 2nd fire 2026-10-01; persona Георги Тодоров; ~1033 думи; gate 92/100 0-crit (RG 15/15); 0 [VERIFY]/0 CONFLICT/0 DATA NEEDED (чист концептуален pillar); 0 em-dash; img:1 SVG (sigurnost-sloeve-plashtaniya.svg, 4 слоя + НАП-first, claims verbatim to 05b, manual integrity PASS); Gemini OFFLINE (402) -> Step-7 + image review skipped, gemini=skipped; core: 4 слоя пазят транзакцията (SSL/TLS криптирана връзка но катинарчето не доказва честност, PCI DSS стандарт за картови данни, 3-D Secure/SCA второ потвърждение 2-от-3 фактора, токенизация казиното пази токен не номера), НО лицензът от НАП е първата проверка и пази правата (licence-first); слоевете са хигиена не гаранция за честна игра, домашното предимство остава; in scope (concept-level, БЕЗ operator/НАП), стандартите generic (plain text); internal: casino-payments/depoziti-i-teglenia/zakonno-li-e/otgovorna-igra; checked=web (Ahrefs ~exhausted)",
       "opportunity": null
+    },
+    {
+      "id": "vk-0232",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Chargeback при онлайн казино: кога можеш да оспориш картова транзакция и кога не",
+      "keywords_or_terms": "chargeback казино, оспорване на транзакция казино, връщане на пари казино, спорна транзакция",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-10-01",
+      "posted_date": "",
+      "folder": "2026-10-01-chargeback-kazino",
+      "pr": "#251",
+      "gemini": "ai 75",
+      "notes": "НОВ concept/payments-dispute pillar (distinct primary intent; chargeback беше само споменат в vk-0229/vk-0231). drafted 3rd fire 2026-10-01; persona Георги Тодоров; ~883 думи; gate 93/100 0-crit; 0 [VERIFY]/0 CONFLICT/0 DATA NEEDED; 0 em-dash; core: chargeback = защита при ДЕФЕКТ на плащането (неоторизирана/открадната карта, удържан но непостъпил депозит, двойно таксуване), НЕ за доброволна загуба/разкаяние/неразбрани условия; срок обикновено 60-120 дни; злоупотреба -> контра от казиното, затворена сметка, PSP черен списък, замразена печалба; licence-first (регулатор НАП + ред за жалби > chargeback); offshore = без регулатор, рядко работи; what-to-do: поддръжка -> жалби -> регулатор. Gemini Step-7 ONLINE: HL initial 15 -> humaniser-1 25 -> humaniser-2 15, KEEP-BEST pass1 (HL 25) -> ai 75 (noisy detector; remaining recs targeted brand persona voice + mandatory RG touch, not applied); img:2 (hero chargeback-hero.webp + SVG chargeback-koga-raboti.svg, Gemini image review 100 PASS 0 integrity); in scope (concept-level, no operator/НАП, no operator named -> no affiliate link); internal: zakonno-li-e/zhalbi/casino-payments/depoziti-i-teglenia/otgovorna-igra; checked=web (Ahrefs ~exhausted, 9 units, reset 2026-10-15); src=research candidate used",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -7838,8 +7855,8 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "Непокрит standalone pillar (само рефериран в payments-method guides като „няма бърз chargeback\"). Distinct интент: кога картовият chargeback работи (неоторизирана/измамна транзакция) и кога НЕ (доброволна игра в лицензирано казино не е основание), срокове/роля на банката, защо лицензът от НАП е реалната защита, а не chargeback. Concept-level, БЕЗ operator/НАП. web-checked (Ahrefs ~exhausted) -> vol/kd blank, awaiting re-pull",
-      "status": "candidate",
-      "date_researched": "2026-10-01",
+      "status": "used",
+      "date_researched": "2026-10-01 USED -> vk-0232, PR #251 (3rd fire 2026-10-01)",
       "opportunity": null
     }
   ],
