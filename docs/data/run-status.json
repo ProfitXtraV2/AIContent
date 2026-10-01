@@ -5,14 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01FDSzwwunugmGiqTRXbtzPn",
-  "note": "daily run 2026-10-01 — reconcile (0 in-progress) then write up to 3 new guides",
+  "note": "daily run 2026-10-01 — writing 3 payments-method guides (Skrill/Neteller, Apple/Google Pay, Revolut); Gemini 402 + Ahrefs ~exhausted -> web fallback, SVG infographics, Gemini steps skipped",
   "progress": {
-    "phase": "selecting",
-    "article_index": 0,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 3,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "article_slug": "2026-10-01-e-portfeili-skrill-neteller",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
