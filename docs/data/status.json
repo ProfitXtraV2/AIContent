@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-01T07:40:22Z",
+  "generated_utc": "2026-10-01T07:59:18Z",
   "buffer": {
-    "count": 199,
+    "count": 200,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 2,
-    "drafted": 194,
+    "in-progress": 1,
+    "drafted": 195,
     "approved": 5,
     "posted": 29,
     "failed": 1
@@ -4077,7 +4077,7 @@
     },
     {
       "id": "vk-0230",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Trustly и мигновените банкови плащания (open banking) в онлайн казино",
       "keywords_or_terms": "trustly казино, мигновен банков превод казино, open banking казино",
@@ -4087,9 +4087,9 @@
       "drafted_date": "2026-10-01",
       "posted_date": "",
       "folder": "2026-10-01-trustly-open-banking-kazino",
-      "pr": "",
-      "gemini": "",
-      "notes": "НОВ payments-method guide (open banking / pay-by-bank, distinct cluster от класическия банков превод vk-0229 и от портфейлите). 2nd fire 2026-10-01; in scope (method-level); checked=web (Ahrefs ~exhausted)",
+      "pr": "#249",
+      "gemini": "skipped",
+      "notes": "НОВ payments-method guide (open banking / pay-by-bank, distinct cluster от класическия банков превод vk-0229 и от портфейлите). drafted 2nd fire 2026-10-01; persona Георги Тодоров; ~1025 думи; gate 93/100 0-crit (Trust 15/15 RG 15/15); 3 [VERIFY] (кои BG банки свързани с Trustly / кои BG казина предлагат / конкретни такси - всички BG-наличност-специфични); 0 em-dash; img:1 SVG (trustly-open-banking.svg, numbers verbatim to 05b, „над 3000 банки\" НЕ на графиката заради [VERIFY], manual integrity PASS); Gemini OFFLINE (402) -> Step-7 + image review skipped, gemini=skipped; core: open banking=плащане директно от сметката през банкова автентикация, казиното не вижда картови данни/вход/реквизити, мигновено в двете посоки (теглене често за минути/същата сесия срещу няколко раб.дни при класическия превод), Pay N Play без отделна регистрация/портфейл + вградена верификация (KYC остава), такси обикновено за оператора не играча, наличност в BG ограничена, chargeback няма -> лиценз от НАП; Trustly=име на метода (plain text, no operator/affiliate/НАП №); internal: casino-payments/evro-hazart-depoziti/depoziti-i-teglenia/otgovorna-igra; checked=web (Ahrefs ~exhausted)",
       "opportunity": null
     },
     {
@@ -7781,8 +7781,8 @@
       "intent": "commercial",
       "trend": "up",
       "checked": "web",
-      "suggestion": "Непокрит payments-method guide; distinct cluster (open banking / pay-by-bank), различен от класическия банков превод (по-бавен) и от портфейлите. Ъгъл: плащаш директно от банковата сметка през сигурна банкова автентикация, без да споделяш данни с казиното, моментално в двете посоки, без отделна регистрация; KYC остава. In scope (method-level). web-checked (Ahrefs ~exhausted) -> vol/kd blank",
-      "status": "candidate",
+      "suggestion": "Непокрит payments-method guide; distinct cluster (open banking / pay-by-bank), различен от класическия банков превод (по-бавен) и от портфейлите. Ъгъл: плащаш директно от банковата сметка през сигурна банкова автентикация, без да споделяш данни с казиното, моментално в двете посоки, без отделна регистрация; KYC остава. In scope (method-level). web-checked (Ahrefs ~exhausted) -> vol/kd blank. USED -> vk-0230, PR #249 (2nd fire 2026-10-01)",
+      "status": "used",
       "date_researched": "2026-10-01",
       "opportunity": null
     },
