@@ -3,14 +3,16 @@
   "run_started_utc": "2026-10-01T03:10:08Z",
   "run_finished_utc": null,
   "articles_written": null,
-  "prs_opened": [],
+  "prs_opened": [
+    245
+  ],
   "run_url": "https://claude.ai/code/session_01FDSzwwunugmGiqTRXbtzPn",
   "note": "daily run 2026-10-01 — writing 3 payments-method guides (Skrill/Neteller, Apple/Google Pay, Revolut); Gemini 402 + Ahrefs ~exhausted -> web fallback, SVG infographics, Gemini steps skipped",
   "progress": {
     "phase": "writing",
-    "article_index": 1,
+    "article_index": 2,
     "article_total": 3,
-    "article_slug": "2026-10-01-e-portfeili-skrill-neteller",
+    "article_slug": "2026-10-01-apple-pay-google-pay",
     "stages": [
       "Synthesis",
       "Outline",
