@@ -1299,3 +1299,76 @@ action: top up prepayment in Google AI Studio billing (https://ai.studio/project
 
 ### Deferred (pending Gemini billing)
 - vk-0167, vk-0168, vk-0171 — 3 `ai 75` rows; cannot re-check/verify until Gemini billing restored.
+
+---
+
+## 2026-10-01 — nightly flag + score fixes
+
+**Gemini API is BACK ONLINE tonight** (`gemini-3.1-pro-preview` via `GEMINI_API_KEY`; real
+verdicts, exit 0). The billing-402 that blocked Steps 7/7b for ~6 prior nights has cleared, so
+the 3 deferred JOB B rows were finally processed.
+
+### JOB A — publish-blocking flags
+Scanned all **233** `content/*` branches' own `05b-final-draft.md` for blocking markers
+(`[VERIFY]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`, `[AUTHOR]`, `[BRAND]`,
+`[EDITORIAL]`, `[уточни]`, `[провери]`). `[About Всички Казина boilerplate]` is the non-blocking
+publisher-substituted template slot (present in 219/233 branches incl. posted ones) — not a flag.
+**6** branches carried a real blocking marker: 4 drafted (resolved), 2 posted (logged, untouched).
+
+- **vk-0229** `2026-10-01-bankov-prevod-kazino` (PR #248, drafted) — 1 `[VERIFY]` (изходящ-превод
+  fee = bank's tariff plan). Resolved: caveat folded into natural prose, bracket removed. Re-scan
+  0 markers. Committed `fix(flags): resolve … — publish-ready`, pushed. No fact changed.
+- **vk-0226** `2026-10-01-e-portfeili-skrill-neteller` (PR #245, drafted) — 1 `[VERIFY]` (provider
+  fees plan/country-specific). Resolved: caveat folded into prose; approximate „примерни" figures
+  (~1,9% / ~3,99% / ~€5) kept verbatim. Re-scan 0. Pushed. No fact changed.
+- **vk-0228** `2026-10-01-revolut-kazino` (PR #247, drafted) — 1 `[VERIFY]` (conversion fees/limits
+  plan/day-specific). Resolved: caveat folded into prose. Re-scan 0. Pushed. No fact changed.
+- **vk-0230** `2026-10-01-trustly-open-banking-kazino` (PR #249, drafted) — 3 `[VERIFY]` (which BG
+  banks connect to Trustly / which BG casinos offer it / operator-provider fees). All 3 resolved:
+  caveats folded into prose; public „над 3 000 банки в Европа" Trustly stat kept. Re-scan 0.
+  Pushed. No fact changed.
+
+**Flags fixed: 6 markers across 4 drafted branches → 0 blocking markers remain on each.**
+
+### JOB B — low Gemini score improvements
+Targets (status ∈ drafted/approved, verdict `ai n` OR `human n<80`): **3 rows**, all `ai 75` on
+the board (under the 10/night cap). No `human n<80` rows exist; `skipped` rows are not targets.
+
+- **vk-0167** `2026-09-24-generator-sluchajni-chisla-rng` (PR #186, drafted) — baseline re-check
+  **ai 65** → 1 Step-7b humaniser pass (voice only: cut counting-signpost „…по два основни начина",
+  broke PRNG/TRNG symmetry, softened 2 didactic aphorisms, trimmed „not-X-but-Y" absolutes, removed
+  the „по два начина" neat-bow) → re-check **human 85 PASS**. Committed + pushed.
+  **gemini ai 75 → human 85.** Facts (96%/€1000/€960/€40, GLI/eCOGRA/iTech/BMM, ISO/IEC)/links/RG/
+  byline unchanged. 1 attempt.
+- **vk-0171** `2026-09-24-kazino-turniri` (PR #189, drafted) — first check **human 85**, confirm
+  **human 90** → already ≥80, **PASS on first check, no edits** (idempotent; prior `ai 75` was a
+  noisy reading). **gemini ai 75 → human 85.** 0 attempts.
+- **vk-0168** `2026-09-24-teglene-pechalba-kyc-verifikaciya` (PR #184, drafted) — baseline **ai 85**
+  → 5 Step-7b passes (voice only: cut signposting/throat-clearing, removed bold one-word list labels
+  + varied step openers, stripped ~6 „обикновено" hedges, broke tricolons, de-anglicised „спирачка"/
+  „опира до", cut the „depends on your situation" tax disclaimer + the recap summary, added a concrete
+  photo-glare detail) → ai 85→70→75→75→**65**→75. Verdict never flipped off „AI patterns"; the noisy
+  detector is stuck on the inherent how-to / „informational wiki" shape. **Declined** Gemini's
+  final-pass asks to (a) fabricate first-person „when I test a casino…" anecdotes and (b) restructure
+  the 18+/RG compliance block — both HARD-RULE violations. KEEP-BEST = most-flattened cumulative
+  version committed + pushed; **logged for human.** gemini stays **ai 75** (prose materially improved;
+  all facts/срокове/€ amounts/НАП/links/RG/byline unchanged). 5 attempts (cap reached).
+
+### Finish
+Board `gemini` column updated: vk-0167 → human 85, vk-0171 → human 85 (vk-0168 stays ai 75).
+Rebuilt `build_dashboard.py` (status.json) + `build_feed.py` (index.json, 5 approved).
+
+### POSTED — needs human review (recurring, still open; HARD RULE: never edit live)
+- **vk-0063** `2026-09-13-nv-casino-zakonno-li-e` (PR #79, posted, `ai 75`) —
+  `[AUTHOR BIO BLOCK: Георги Тодоров] [About Всички Казина boilerplate]` stub on branch draft.
+  Left untouched. (Gemini is back; low score improvable only if a human reopens it.)
+- **vk-0064** `2026-09-13-nv-casino-bonus-usloviya` (PR #80, posted, `human 85`) —
+  `[AUTHOR BIO BLOCK: Георги Тодоров] [BRAND BOILERPLATE: Всички Казина] [18+ / RG LINE]` stub on
+  branch draft. Left untouched.
+
+### Deferred
+None — all 3 JOB B targets processed tonight (Gemini back online).
+
+### Still-flagged after processing
+None — all 4 drafted flag-branches reach 0 blocking markers. vk-0168 remains `ai 75` after the
+5-pass cap (logged above), not a flag.

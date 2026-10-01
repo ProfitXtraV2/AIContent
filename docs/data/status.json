@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-01T23:04:23Z",
+  "generated_utc": "2026-10-01T23:33:29Z",
   "buffer": {
     "count": 204,
     "target": 10,
@@ -3017,7 +3017,7 @@
       "posted_date": "",
       "folder": "2026-09-24-generator-sluchajni-chisla-rng",
       "pr": "#186",
-      "gemini": "ai 75",
+      "gemini": "human 85",
       "notes": "evergreen fair-play/trust pillar; distinct от providers hub vk-0054 (fold-in link /blog/games-providers/, not dup); guides-only (concept-level lab cert GLI/eCOGRA/iTech/BMM, no operator/НАП); gate 90/100 0-crit; Gemini Step-7 HL 25->15->15 KEEP-BEST v0 (25=ai 75; over-editing case, detector ~85% AI на concept-explainer shape, logged for human); img:3 (hero + seed->algorithm->output SVG + RNG-vs-RTP SVG; numbers verbatim 96%/€1000/€960/€40; review 92->100 PASS 0 integrity); 1 [VERIFY] (iTech Labs ISO/IEC 17025&17020 accreditation); ~1079w 0 em-dashes; 4 internal links (live /blog/games-providers/ + /slot-igri/visok-rtp/ вместо липсващите /blog/dostavchici + /blog/rtp-i-volatilnost); no affiliate; Ahrefs KEY exhausted web-est vol blank",
       "opportunity": null
     },
@@ -3085,7 +3085,7 @@
       "posted_date": "",
       "folder": "2026-09-24-kazino-turniri",
       "pr": "#189",
-      "gemini": "ai 75",
+      "gemini": "human 85",
       "notes": "concept-pillar; механика точки/класиране/награден фонд; distinct от bonus-типове (турнир=класация, не бонус); guides-only без конкретни оператор-промоции (примерни числа); gate 93/100 0 crit; Gemini HL15->25 kept best p2 (ai 75; style-only, human polish flagged); 0 [VERIFY]; img:2 (podium hero + €1000 prize-split SVG, review 100 PASS, 0 integrity; €350+€200+€100+7×€50=€1000 verified); ~932w; Ahrefs 403 -> web checked",
       "opportunity": null
     },
