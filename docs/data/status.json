@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-09-30T23:17:00Z",
+  "generated_utc": "2026-10-01T03:38:12Z",
   "buffer": {
-    "count": 195,
+    "count": 198,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 190,
+    "drafted": 193,
     "approved": 5,
     "posted": 29,
     "failed": 1
@@ -4006,6 +4006,57 @@
       "gemini": "skipped",
       "notes": "НОВ payments-method guide (prepaid ваучер, distinct cluster от карта vk-0224). drafted 3rd fire 2026-09-30; persona Георги Тодоров; ~1040 думи; gate 94/100 0-crit; 4 [VERIFY] (транзакц. таван ~€250, my paysafecard ~€1000, такса на каса, такса неактивност+FX - всички country-variable); 0 em-dash; img:1 SVG (paysafecard-depozit-teglene.svg, 3 стъпки + депозит ДА/теглене НЕ, numbers verbatim to 05b, manual integrity PASS); Gemini OFFLINE (402) -> Step-7 + image review skipped, gemini=skipped; core: 16-цифрен PIN, купува се в брой без банкова сметка, депозит моментален+анонимен спрямо казиното (не спрямо закона, KYC остава), НЯМА теглене обратно (нужен 2-ри метод), вграден бюджет=RG; in scope (method-level, БЕЗ operator/НАП), no operator named; internal: casino-payments/depoziti-i-teglenia/evro-hazart-depoziti/otgovorna-igra; checked=web (Ahrefs 403)",
       "opportunity": null
+    },
+    {
+      "id": "vk-0226",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Е-портфейли (Skrill, Neteller) в онлайн казино: депозити, тегления и бонус изключения",
+      "keywords_or_terms": "skrill казино, neteller казино, е-портфейл казино",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-10-01",
+      "posted_date": "",
+      "folder": "2026-10-01-e-portfeili-skrill-neteller",
+      "pr": "#245",
+      "gemini": "skipped",
+      "notes": "НОВ payments-method guide (е-портфейл cluster, distinct от карта vk-0224 / PaySafeCard vk-0225). drafted 2026-10-01 (1-ви fire); persona Георги Тодоров; ~1160 думи; gate 93/100 0-crit; 1 [VERIFY] (такси на доставчика: конвертиране до 3,99% / карта ~1,9% / неактивност ~€5 след ~12 мес - plan/country-variable); 0 em-dash; img:1 SVG (e-portfeil-skorost-bonus.svg, numbers verbatim to 05b, manual integrity PASS); Gemini OFFLINE (402) -> Step-7 + image review skipped, gemini=skipped; core: портфейл=посредник (казиното не вижда картата), депозит моментален, теглене <=24ч след одобрение (часове-72ч), УЛОВКА: много казина изключват Skrill/Neteller депозит от бонуса за добре дошли, такси от доставчика не от казиното, KYC; in scope (method-level, БЕЗ operator/НАП), no operator named; internal: casino-payments/bonus-bez-depozit-2026/depoziti-i-teglenia/otgovorna-igra; checked=web (Ahrefs ~exhausted, 9 units, reset 2026-10-15)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0227",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Apple Pay и Google Pay в онлайн казино: мобилни депозити и сигурност",
+      "keywords_or_terms": "apple pay казино, google pay казино, мобилно плащане казино",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-10-01",
+      "posted_date": "",
+      "folder": "2026-10-01-apple-pay-google-pay",
+      "pr": "#246",
+      "gemini": "skipped",
+      "notes": "НОВ payments-method guide (мобилни/токенизирани портфейли, distinct cluster). drafted 2026-10-01; persona Георги Тодоров; ~1055 думи; gate 94/100 0-crit; 0 [VERIFY]; 0 em-dash; img:1 SVG (apple-google-pay-tokenizaciya.svg, claims verbatim to 05b, manual integrity PASS); Gemini OFFLINE (402) -> Step-7 + image review skipped, gemini=skipped; core: слой върху картата, токенизация (казиното не вижда номера), биометрия (Face ID/Touch ID/код), депозит моментален, теглене обикновено по свързаната карта НЕ към портфейла (deposit-first), съвместимост казино+банка+устройство; in scope (method-level), no operator named; internal: casino-payments/mobilni-kazina/depoziti-i-teglenia/otgovorna-igra; checked=web",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0228",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Revolut в онлайн казино: депозити, тегления и контрол на хазартните разходи",
+      "keywords_or_terms": "revolut казино, депозит с revolut, revolut хазарт",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-10-01",
+      "posted_date": "",
+      "folder": "2026-10-01-revolut-kazino",
+      "pr": "#247",
+      "gemini": "skipped",
+      "notes": "НОВ payments-method guide (необанка + вграден RG инструмент, distinct cluster). drafted 2026-10-01; persona Георги Тодоров; ~1056 думи; gate 95/100 0-crit (RG 15/15); 1 [VERIFY] (такси конвертиране/лимити plan/day-variable); 0 em-dash; img:1 SVG (revolut-blokirovka-hazart.svg, claims verbatim to 05b, manual integrity PASS); Gemini OFFLINE (402) -> Step-7 + image review skipped, gemini=skipped; core: необанка, депозит моментален, теглене повечето <=24ч, 0% такси от Revolut обикновено (конвертиране може), ОТЛИЧИТЕЛНО: вградена блокировка на хазарта=RG инструмент (включване веднага / изключване <=48ч cooling-off който поддръжката не заобикаля, MCC-базирана, не хваща банкови преводи/скрит MCC), възможно BIN блокиране; in scope (method-level), no operator named; internal: casino-payments/mobilni-kazina/depoziti-i-teglenia/otgovorna-igra; checked=web",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -7624,8 +7675,8 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "Непокрит payments-method guide; distinct cluster (е-портфейли), различен от карта (vk-0224) и PaySafeCard (vk-0225). Реален ъгъл: бързи тегления, но много казина ИЗКЛЮЧВАТ Skrill/Neteller депозити от бонус за добре дошли; такси за неактивност. In scope (method-level, БЕЗ operator T&C/НАП; факти от доставчика на плащането). web-checked (Ahrefs 403, reset 2026-10-15) -> vol/kd blank, awaiting re-pull",
-      "status": "candidate",
-      "date_researched": "2026-09-30",
+      "status": "used",
+      "date_researched": "2026-10-01",
       "opportunity": null
     },
     {
@@ -7638,8 +7689,8 @@
       "trend": "up",
       "checked": "web",
       "suggestion": "Непокрит payments-method guide; distinct cluster (мобилни портфейли/токенизация), различен от карта/е-портфейл/PaySafeCard. Ъгъл: токенизация (картовите данни не се споделят), биометрично потвърждение, моментален депозит, но тегленето обикновено се връща по свързаната карта; не всяко казино/банка го поддържа. In scope (method-level). web-checked (Ahrefs 403, reset 2026-10-15) -> vol/kd blank",
-      "status": "candidate",
-      "date_researched": "2026-09-30",
+      "status": "used",
+      "date_researched": "2026-10-01",
       "opportunity": null
     },
     {
@@ -7652,8 +7703,50 @@
       "trend": "up",
       "checked": "web",
       "suggestion": "Непокрит payments-method guide; distinct cluster (необанка), различен от карта/е-портфейл. Силна BG релевантност (Revolut е широко използван). Ъгъл: моментален депозит, вградена функция за блокиране на хазартни транзакции (gambling block) = RG инструмент; лимити и възможни такси. In scope (method-level, БЕЗ operator/НАП). web-checked (Ahrefs 403, reset 2026-10-15) -> vol/kd blank",
+      "status": "used",
+      "date_researched": "2026-10-01",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Банков превод в онлайн казино: срокове, лимити и такси",
+      "researched_keywords": "банков превод казино, депозит с банков превод, bank transfer казино",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "Непокрит payments-method guide; distinct cluster (директен банков превод), различен от карта/е-портфейл/мобилен портфейл/необанка/PaySafeCard. Ъгъл: по-бавен от картата и портфейлите (обикновено няколко работни дни в двете посоки), но без посредник и с високи лимити; подходящ за по-големи суми; минава през KYC. In scope (method-level, БЕЗ operator T&C/НАП). web-checked (Ahrefs ~exhausted, 9 units, reset 2026-10-15) -> vol/kd blank, awaiting re-pull",
       "status": "candidate",
-      "date_researched": "2026-09-30",
+      "date_researched": "2026-10-01",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Trustly и мигновените банкови плащания в онлайн казино",
+      "researched_keywords": "trustly казино, мигновен банков превод казино, open banking казино",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial",
+      "trend": "up",
+      "checked": "web",
+      "suggestion": "Непокрит payments-method guide; distinct cluster (open banking / pay-by-bank), различен от класическия банков превод (по-бавен) и от портфейлите. Ъгъл: плащаш директно от банковата сметка през сигурна банкова автентикация, без да споделяш данни с казиното, моментално в двете посоки, без отделна регистрация; KYC остава. In scope (method-level). web-checked (Ahrefs ~exhausted) -> vol/kd blank",
+      "status": "candidate",
+      "date_researched": "2026-10-01",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Сигурност на онлайн плащанията в казино: SSL, PCI DSS, 3-D Secure и токенизация",
+      "researched_keywords": "сигурност плащания казино, 3-d secure казино, pci dss казино, сигурно казино плащане",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "Непокрит concept/security pillar; distinct higher-level intent (как да познаеш сигурна каса), различен от конкретните method guides. Fold-in: method-guide статиите (карта/портфейли) реферират насам, а този pillar обединява слоевете на защита (https/SSL, PCI DSS, 3-D Secure, токенизация) + лиценз от НАП като първа проверка. In scope (concept-level, БЕЗ operator/НАП). web-checked (Ahrefs ~exhausted) -> vol/kd blank",
+      "status": "candidate",
+      "date_researched": "2026-10-01",
       "opportunity": null
     }
   ],

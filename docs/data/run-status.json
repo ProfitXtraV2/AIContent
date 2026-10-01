@@ -1,19 +1,20 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-10-01T03:10:08Z",
-  "run_finished_utc": null,
-  "articles_written": null,
+  "run_finished_utc": "2026-10-01T03:38:35Z",
+  "articles_written": 3,
   "prs_opened": [
     245,
-    246
+    246,
+    247
   ],
   "run_url": "https://claude.ai/code/session_01FDSzwwunugmGiqTRXbtzPn",
-  "note": "daily run 2026-10-01 — writing 3 payments-method guides (Skrill/Neteller, Apple/Google Pay, Revolut); Gemini 402 + Ahrefs ~exhausted -> web fallback, SVG infographics, Gemini steps skipped",
+  "note": "recurring run 2026-10-01 (1st fire) DONE. 0 in-progress reconciled at start. Wrote MAX_PER_RUN=3 NEW distinct payments-method guides (buffer 195->198, floor 10, NO cap): е-портфейли Skrill/Neteller (vk-0226, PR #245, gate 93, ~1160w, img:1 SVG, 1 [VERIFY] provider fees) · Apple Pay/Google Pay (vk-0227, PR #246, gate 94, ~1055w, img:1 SVG, 0 [VERIFY]) · Revolut (vk-0228, PR #247, gate 95 RG15/15, ~1056w, img:1 SVG, 1 [VERIFY] conversion fees). SELECTION: human backlog rows 5-14 all NV-operator/НАП-dependent -> stay open+blocked (guides-only scope); research bank held exactly 3 distinct uncovered candidates (all payments-method, added last fire) -> all 3 written. Dedup-clean vs content-queue + live sitemap (95 URLs, fetched OK); anti-cannibal: 5 distinct payment clusters now covered (card vk-0224, PaySafeCard vk-0225, e-wallets vk-0226, mobile wallets vk-0227, neobank+RG vk-0228); all method-level, no operator T&C/НАП, no operator named -> no affiliate-link requirement. GEMINI OFFLINE (HTTP 402 credits depleted, re-probed live): Step-7 text + Step-8 image gen/review ALL skipped per rules (not halted); each kept single draft (gemini=skipped) + 1 hand-authored SVG infographic (numbers/claims verbatim to 05b, manual integrity PASS, 0 fabrication, 0 em-dash incl SVGs). AHREFS ~exhausted (api-key 24991/25000 used, 9 units left, reset 2026-10-15) -> web fallback, no discovery spend, vol/kd blank, checked=web. Bank replenished +3 distinct uncovered candidates (банков превод, Trustly/open-banking, payments-security pillar SSL/PCI-DSS/3DS; checked=web awaiting reset) -> bank buffer not shrunk. Backlog open rows already web/ahrefs-enriched from prior runs; not re-pulled (9 units preserved). Flags kept in-text (human Step 6): 3 total [VERIFY]. One content PR per article; board on main; feed refreshed (5 approved, unchanged). NB: Claude GitHub App NOT installed on repo -> PR events won't wake session; PRs are for human review (not auto-subscribed). NEVER resolved a flag/posted/merged/fabricated.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 3,
     "article_total": 3,
-    "article_slug": "2026-10-01-revolut-kazino",
+    "article_slug": null,
     "stages": [
       "Synthesis",
       "Outline",
@@ -26,7 +27,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "stage_index": null,
+    "stage": null
   }
 }
