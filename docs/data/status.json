@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-01T22:49:37Z",
+  "generated_utc": "2026-10-01T23:04:23Z",
   "buffer": {
-    "count": 203,
+    "count": 204,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 198,
+    "drafted": 199,
     "approved": 5,
     "posted": 29,
     "failed": 1
@@ -4142,6 +4142,23 @@
       "gemini": "ai 75",
       "notes": "НОВ concept/education pillar (напълно непокрит клъстер, 0 хита в queue/sitemap). drafted 3rd fire 2026-10-01; persona Георги Тодоров; ~861 думи; gate 93/100 0-crit; 0 in-text [VERIFY]/0 CONFLICT/0 DATA NEEDED (1 general claim 'лицензираните не предлагат крипто' reasoned+hedged -> human confirm); 0 em-dash; 0 fabricated figures; honest licence-first education: лицензираните от НАП работят в евро през регулирани AML/KYC методи -> крипто (псевдонимно, извън банката) не е част от потока; казино с крипто за BG играч = почти сигурно офшорно; рискове: необратимост (няма chargeback), волатилност (валутен риск върху залога), липса на регулатор (НАП няма лост върху офшорен сайт), липса на стандартни защити; червени флагове; НЕ препоръчва крипто оператор (офшорни=context-only) -> no affiliate link; Кюрасао named като пример юрисдикция. Gemini Step-7 ONLINE: HL initial 25 -> humaniser-1 15 -> humaniser-2 15, KEEP-BEST initial (HL 25) -> ai 75 (noisy detector; remaining recs targeted persona voice + required links, not applied); img:2 (hero kripto-riskove-hero.webp coin-on-volatility + SVG kripto-riskove-kazino.svg 4 risks, Gemini image review 100 PASS 0 integrity); internal: casino-payments/zakonno-li-e/depoziti-i-teglenia/otgovorna-igra; checked=web (Ahrefs ~exhausted, 9 units, reset 2026-10-15); src=research candidate used",
       "opportunity": null
+    },
+    {
+      "id": "vk-0234",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Защита на личните данни в онлайн казино (GDPR): какви данни събират и какви са правата ти",
+      "keywords_or_terms": "лични данни казино, gdpr казино, защита на данните онлайн казино, право на изтриване казино",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-10-01",
+      "posted_date": "",
+      "folder": "2026-10-01-lichni-danni-gdpr-kazino",
+      "pr": "#253",
+      "gemini": "human 80",
+      "notes": "НОВ concept/trust-safety pillar (DISCOVERED this run; 0 хита като blog guide в queue/sitemap - sitemap има само /politika-za-poveritelnost/ собствена правна страница + /mobilni-kazina/ листинг). drafted 3rd fire 2026-10-01; persona Георги Тодоров; ~797 думи; gate 93/100 0-crit; 0 in-text [VERIFY]/0 CONFLICT/0 DATA NEEDED (AML срок 'около пет години' hedged -> human confirm ЗМИП); 0 em-dash; 0 fabricated figures; distinct от vk-0168 (KYC теглене процес) / vk-0231 (payment security SSL/PCI) / vk-0172 (RG tools); core: казиното събира самоличност+финансови+поведенчески данни, предимно KYC/AML законово задължение; рамка GDPR (Регламент ЕС 2016/679)+ЗЗЛД, надзор КЗЛД; права достъп/корекция/преносимост/възражение-маркетинг/ограничаване; честна граница - правото на изтриване ограничено от AML съхранение ~5г; маркетинг=отделно съгласие; licence-first (лицензиран=политика за поверителност+DPO+КЗЛД, офшорен може да не спазва GDPR). Gemini Step-7 ONLINE: HL initial 25 -> humaniser-1 80 PASS ('Likely human-written 80%') -> human 80; img:2 (hero lichni-danni-gdpr-hero.webp ID+щит+сейф no-face + SVG lichni-danni-gdpr-kazino.svg, Gemini image review 100 PASS 0 integrity, hero regen once за no-faces fix); no operator named -> no affiliate link; internal: politika-za-poveritelnost/zakonno-li-e/depoziti-i-teglenia/otgovorna-igra; checked=web (Ahrefs ~exhausted, 9 units, reset 2026-10-15); src=research (discovered this run) used",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -7836,20 +7853,6 @@
     },
     {
       "type": "guide",
-      "query": "Как да провериш лиценза на онлайн казино в регистъра на НАП (стъпка по стъпка)",
-      "researched_keywords": "как да проверя лиценз казино, регистър нап казина, лицензирано казино проверка, валиден лиценз казино",
-      "volume": "",
-      "kd": "",
-      "intent": "informational",
-      "trend": "up",
-      "checked": "web",
-      "suggestion": "Непокрит how-to pillar; writable версия на отложения ranked-list интент „лицензирани казина\" (daily-run явно я позволява) — обяснява процеса (къде е публичният регистър на НАП, какво да търсиш: статус/№/валидност, червени флагове на нелицензиран/огледален сайт), БЕЗ да дърпа самия geo-blocked регистър и БЕЗ ranked таблица. Distinct higher-level от /zakonno-li-e/ (законност-концепт) и vk-0005 (оценка на оператор framework); fold-in: security pillar vk-0231 (лиценз-first) реферира насам. In scope (concept/how-to, process-level). web-checked (Ahrefs ~exhausted, reset 2026-10-15) -> vol/kd blank, awaiting re-pull",
-      "status": "candidate",
-      "date_researched": "2026-10-01",
-      "opportunity": null
-    },
-    {
-      "type": "guide",
       "query": "Крипто (биткойн) в онлайн казино: наличност при лицензираните оператори и рискове",
       "researched_keywords": "крипто казино, биткойн казино, казино с крипто, bitcoin казино българия",
       "volume": "",
@@ -7874,6 +7877,62 @@
       "suggestion": "Непокрит standalone pillar (само рефериран в payments-method guides като „няма бърз chargeback\"). Distinct интент: кога картовият chargeback работи (неоторизирана/измамна транзакция) и кога НЕ (доброволна игра в лицензирано казино не е основание), срокове/роля на банката, защо лицензът от НАП е реалната защита, а не chargeback. Concept-level, БЕЗ operator/НАП. web-checked (Ahrefs ~exhausted) -> vol/kd blank, awaiting re-pull",
       "status": "used",
       "date_researched": "2026-10-01 USED -> vk-0232, PR #251 (3rd fire 2026-10-01)",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Защита на личните данни в онлайн казино (GDPR): какви данни събират и какви са правата ти",
+      "researched_keywords": "лични данни казино, gdpr казино, защита на данните онлайн казино, право на изтриване казино",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "DISCOVERED 3rd fire 2026-10-01 (топ-ъп след като licence-check кандидатът отпадна като дубликат на live /blog/proverka-licenz-kazino/). Непокрит като blog guide (0 хита; sitemap има само собствената /politika-za-poveritelnost/ правна страница). Distinct trust-safety интент: какви данни събира казиното (самоличност/финансови/поведенчески), защо (KYC/AML), права по GDPR, честната граница на изтриването (AML съхранение). Concept/public-law, БЕЗ operator/НАП/конкретен оператор. web-checked (Ahrefs ~exhausted, reset 2026-10-15) -> vol/kd blank. USED -> vk-0234, PR #253 (3rd fire 2026-10-01)",
+      "status": "used",
+      "date_researched": "2026-10-01",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Сигурност на акаунта в онлайн казино: силна парола, двуфакторна автентикация и фишинг",
+      "researched_keywords": "сигурност на акаунт казино, двуфакторна автентикация казино, фишинг казино, кражба на акаунт",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "up",
+      "checked": "web",
+      "suggestion": "НОВ candidate (replenish, 3rd fire 2026-10-01). Непокрит player-side account-security pillar (0 хита). Distinct от vk-0231 (payment security SSL/PCI на транзакцията) и vk-0234 (GDPR права върху данните) - тук е защита на самия вход: силна/уникална парола, 2FA, разпознаване на фишинг, превземане на акаунт, сигурно устройство. Concept/education, БЕЗ operator/НАП. web-checked (Ahrefs ~exhausted, 9 units, reset 2026-10-15) -> vol/kd blank, awaiting re-pull",
+      "status": "candidate",
+      "date_researched": "2026-10-01",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Казино турнири и състезания по ротативки: как работят и струва ли си",
+      "researched_keywords": "казино турнири, турнири ротативки, slot турнир, състезания казино",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "НОВ candidate (replenish, 3rd fire 2026-10-01). Непокрит standalone pillar (само мимоходом при Bell Link джакпот). Distinct от кешбек/лоялни програми (vk) и джакпоти: как работи класирането (точки/залог), входна такса срещу безплатни, наградни фондове, рискът от over-betting за изкачване в класацията (RG ъгъл). Concept/education, БЕЗ operator/НАП. web-checked (Ahrefs ~exhausted) -> vol/kd blank, awaiting re-pull",
+      "status": "candidate",
+      "date_researched": "2026-10-01",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Таблица за изплащане (paytable) на ротативка: как се чете",
+      "researched_keywords": "таблица за изплащане ротативка, paytable слот, символи и изплащания слот, как се чете слот",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "НОВ candidate (replenish, 3rd fire 2026-10-01). Непокрит how-to pillar (0 хита). Distinct от RTP/волатилност pillar (обяснява числата) - тук е практическото четене на таблицата: стойности на символите, брой линии/начини, wild/scatter, тригери на бонус, max win. Concept/education, public game-mechanics, БЕЗ operator/НАП. web-checked (Ahrefs ~exhausted) -> vol/kd blank, awaiting re-pull",
+      "status": "candidate",
+      "date_researched": "2026-10-01",
       "opportunity": null
     }
   ],
