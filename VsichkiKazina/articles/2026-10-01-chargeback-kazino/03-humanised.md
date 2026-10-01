@@ -1,0 +1,2 @@
+# 03-HUMANISED — chargeback-kazino
+Humaniser pass over 02-draft: varied sentence length; removed any signposting lead-ins and template rhythm; kept the list in „Кога оспорването е основателно" (genuine 3-item enumeration, allowed); converted the rest to prose; asymmetric opinionated outro ("не е билет за връщане на загуби"); first-person consumer-journalism voice without fabricated anecdote. All untouchables preserved (RG line ×2, 18+, affiliate footer, byline, dates, internal links). Numbers unchanged (60–120 дни). Output folded into 05b.
