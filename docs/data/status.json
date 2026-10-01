@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-01T07:59:18Z",
+  "generated_utc": "2026-10-01T08:24:02Z",
   "buffer": {
-    "count": 200,
+    "count": 201,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 1,
-    "drafted": 195,
+    "in-progress": 0,
+    "drafted": 196,
     "approved": 5,
     "posted": 29,
     "failed": 1
@@ -4094,7 +4094,7 @@
     },
     {
       "id": "vk-0231",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Сигурност на онлайн плащанията в казино: SSL, PCI DSS, 3-D Secure и токенизация",
       "keywords_or_terms": "сигурност плащания казино, 3-d secure казино, pci dss казино, сигурно казино плащане",
@@ -4104,9 +4104,9 @@
       "drafted_date": "2026-10-01",
       "posted_date": "",
       "folder": "2026-10-01-sigurnost-plashtaniya-kazino",
-      "pr": "",
-      "gemini": "",
-      "notes": "НОВ concept/security pillar (higher-level intent: как да познаеш сигурна каса); method-guide статиите vk-0224..0228 реферират насам (fold-in, НЕ cannibal). 2nd fire 2026-10-01; in scope (concept-level, БЕЗ operator/НАП); checked=web (Ahrefs ~exhausted)",
+      "pr": "#250",
+      "gemini": "skipped",
+      "notes": "НОВ concept/security pillar (higher-level intent: как да познаеш сигурна каса); method-guide статиите vk-0224..0230 реферират насам (fold-in, НЕ cannibal). drafted 2nd fire 2026-10-01; persona Георги Тодоров; ~1033 думи; gate 92/100 0-crit (RG 15/15); 0 [VERIFY]/0 CONFLICT/0 DATA NEEDED (чист концептуален pillar); 0 em-dash; img:1 SVG (sigurnost-sloeve-plashtaniya.svg, 4 слоя + НАП-first, claims verbatim to 05b, manual integrity PASS); Gemini OFFLINE (402) -> Step-7 + image review skipped, gemini=skipped; core: 4 слоя пазят транзакцията (SSL/TLS криптирана връзка но катинарчето не доказва честност, PCI DSS стандарт за картови данни, 3-D Secure/SCA второ потвърждение 2-от-3 фактора, токенизация казиното пази токен не номера), НО лицензът от НАП е първата проверка и пази правата (licence-first); слоевете са хигиена не гаранция за честна игра, домашното предимство остава; in scope (concept-level, БЕЗ operator/НАП), стандартите generic (plain text); internal: casino-payments/depoziti-i-teglenia/zakonno-li-e/otgovorna-igra; checked=web (Ahrefs ~exhausted)",
       "opportunity": null
     }
   ],
@@ -7795,7 +7795,49 @@
       "intent": "informational",
       "trend": "flat",
       "checked": "web",
-      "suggestion": "Непокрит concept/security pillar; distinct higher-level intent (как да познаеш сигурна каса), различен от конкретните method guides. Fold-in: method-guide статиите (карта/портфейли) реферират насам, а този pillar обединява слоевете на защита (https/SSL, PCI DSS, 3-D Secure, токенизация) + лиценз от НАП като първа проверка. In scope (concept-level, БЕЗ operator/НАП). web-checked (Ahrefs ~exhausted) -> vol/kd blank",
+      "suggestion": "Непокрит concept/security pillar; distinct higher-level intent (как да познаеш сигурна каса), различен от конкретните method guides. Fold-in: method-guide статиите (карта/портфейли) реферират насам, а този pillar обединява слоевете на защита (https/SSL, PCI DSS, 3-D Secure, токенизация) + лиценз от НАП като първа проверка. In scope (concept-level, БЕЗ operator/НАП). web-checked (Ahrefs ~exhausted) -> vol/kd blank. USED -> vk-0231, PR #250 (2nd fire 2026-10-01)",
+      "status": "used",
+      "date_researched": "2026-10-01",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Как да провериш лиценза на онлайн казино в регистъра на НАП (стъпка по стъпка)",
+      "researched_keywords": "как да проверя лиценз казино, регистър нап казина, лицензирано казино проверка, валиден лиценз казино",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "up",
+      "checked": "web",
+      "suggestion": "Непокрит how-to pillar; writable версия на отложения ranked-list интент „лицензирани казина\" (daily-run явно я позволява) — обяснява процеса (къде е публичният регистър на НАП, какво да търсиш: статус/№/валидност, червени флагове на нелицензиран/огледален сайт), БЕЗ да дърпа самия geo-blocked регистър и БЕЗ ranked таблица. Distinct higher-level от /zakonno-li-e/ (законност-концепт) и vk-0005 (оценка на оператор framework); fold-in: security pillar vk-0231 (лиценз-first) реферира насам. In scope (concept/how-to, process-level). web-checked (Ahrefs ~exhausted, reset 2026-10-15) -> vol/kd blank, awaiting re-pull",
+      "status": "candidate",
+      "date_researched": "2026-10-01",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Крипто (биткойн) в онлайн казино: наличност при лицензираните оператори и рискове",
+      "researched_keywords": "крипто казино, биткойн казино, казино с крипто, bitcoin казино българия",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial",
+      "trend": "up",
+      "checked": "web",
+      "suggestion": "Напълно непокрит клъстер (0 хита в queue/sitemap). Honest education angle: защо лицензираните от НАП BG оператори на практика не предлагат крипто депозити (евро/регулаторна рамка), волатилност и необратимост на крипто плащанията, липса на chargeback/регулаторна защита при офшорни крипто-казина -> лиценз-first. Concept/education, БЕЗ да препоръчва конкретен крипто-оператор (нелицензиран = context-only). In scope (method/concept-level). web-checked (Ahrefs ~exhausted) -> vol/kd blank, awaiting re-pull",
+      "status": "candidate",
+      "date_researched": "2026-10-01",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Chargeback при онлайн казино: кога можеш да оспориш картова транзакция и кога не",
+      "researched_keywords": "chargeback казино, оспорване на транзакция казино, връщане на пари казино, спорна транзакция",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "flat",
+      "checked": "web",
+      "suggestion": "Непокрит standalone pillar (само рефериран в payments-method guides като „няма бърз chargeback\"). Distinct интент: кога картовият chargeback работи (неоторизирана/измамна транзакция) и кога НЕ (доброволна игра в лицензирано казино не е основание), срокове/роля на банката, защо лицензът от НАП е реалната защита, а не chargeback. Concept-level, БЕЗ operator/НАП. web-checked (Ahrefs ~exhausted) -> vol/kd blank, awaiting re-pull",
       "status": "candidate",
       "date_researched": "2026-10-01",
       "opportunity": null
