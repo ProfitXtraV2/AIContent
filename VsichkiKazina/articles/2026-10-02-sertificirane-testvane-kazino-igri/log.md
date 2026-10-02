@@ -11,3 +11,6 @@
 - NUMBER DIFF (02→05b): identical — €1 000, 96%, €960, €40. No changed/missing numbers.
 - Step 7 Gemini: see 07-gemini-check-*.md
 - Step 8 Images: see images/ + 08-image-review-*.md
+- Step 7 Gemini: initial HL25 → pass1 HL25 → pass2 HL90 PASS; kept pass2 (human 90). (07-gemini-check-1..3.md)
+- Step 8 Images: SVG RTP infographic + decorative verification hero (14.8KB webp); Gemini review 85 PASS, 0 integrity/layout defects. (08-image-review-1.md)
+- Step 6 Verification: 0 in-text flags; 6 secondary-source notes; RTP maths rechecked. Final.
