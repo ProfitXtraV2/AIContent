@@ -11,3 +11,6 @@
 - NUMBER DIFF (02→05b): identical — €10,€20,€40,€80,€160,€320,€640,€500,€630,€100,€1,€5 000,1,8%. No changes.
 - Step 7 Gemini: see 07-gemini-check-*.md
 - Step 8 Images: see images/ + 08-image-review-*.md
+- Step 7 Gemini: initial HL25 → pass1 HL20 (noisy) → pass2 HL85 PASS; kept pass2 (human 85). Fixes: killed neat-bow maxims + theory/practice antithesis + rigid signposting + over-balanced sentences; neutralized imperatives. (07-gemini-check-1..3.md)
+- Step 8 Images: Martingale SVG infographic + capped-staircase hero (21.3KB webp); Gemini review 100 PASS, 0 integrity/layout. (08-image-review-1.md)
+- Step 6 Verification: 0 in-text flags; maths rechecked (€630 sum, €640>€500, 1,8%). Final.
