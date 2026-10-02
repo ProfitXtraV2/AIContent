@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-02T23:10:46Z",
+  "generated_utc": "2026-10-02T23:38:43Z",
   "buffer": {
     "count": 213,
     "target": 10,
@@ -3034,8 +3034,8 @@
       "posted_date": "",
       "folder": "2026-09-24-teglene-pechalba-kyc-verifikaciya",
       "pr": "#184",
-      "gemini": "ai 75",
-      "notes": "evergreen process guide; generic KYC/AML + законова рамка (България/НАП concept-level), no operator T&C/register query; gate 90/100 0-crit; Gemini Step-7 HL 25->15->25 KEEP-BEST pass-2 (25=ai 75; detector low на BG casino copy, logged for human); img:2 (5-step withdrawal-flow SVG + примерни срокове by method numbers verbatim to 05b + document/shield hero; review 100 PASS 0 integrity); 2 [VERIFY] (TAX данъчно третиране flagged NOT asserted; TIMELINES примерни/оператор-зависими); ~1009w 0 em-dashes; 4 internal links, no affiliate; Ahrefs KEY exhausted web-est vol blank",
+      "gemini": "human 80",
+      "notes": "evergreen process guide; generic KYC/AML + законова рамка (България/НАП concept-level), no operator T&C/register query; gate 90/100 0-crit; Gemini Step-7 HL 25->15->25 KEEP-BEST pass-2 (25=ai 75; detector low на BG casino copy, logged for human); img:2 (5-step withdrawal-flow SVG + примерни срокове by method numbers verbatim to 05b + document/shield hero; review 100 PASS 0 integrity); 2 [VERIFY] (TAX данъчно третиране flagged NOT asserted; TIMELINES примерни/оператор-зависими); ~1009w 0 em-dashes; 4 internal links, no affiliate; Ahrefs KEY exhausted web-est vol blank · nightly 2026-10-02: humanised (voice/structure only — condensed deposit steps, player-POV KYC, cut \"Да речем\"/\"X зависи от Y\", lifted 18+ line out of mid-paragraph; facts/links/RG untouched), Gemini ai75→human80, 1 attempt; leftover [About] footer placeholder removed",
       "opportunity": null
     },
     {
@@ -4122,8 +4122,8 @@
       "posted_date": "",
       "folder": "2026-10-01-chargeback-kazino",
       "pr": "#251",
-      "gemini": "ai 75",
-      "notes": "НОВ concept/payments-dispute pillar (distinct primary intent; chargeback беше само споменат в vk-0229/vk-0231). drafted 3rd fire 2026-10-01; persona Георги Тодоров; ~883 думи; gate 93/100 0-crit; 0 [VERIFY]/0 CONFLICT/0 DATA NEEDED; 0 em-dash; core: chargeback = защита при ДЕФЕКТ на плащането (неоторизирана/открадната карта, удържан но непостъпил депозит, двойно таксуване), НЕ за доброволна загуба/разкаяние/неразбрани условия; срок обикновено 60-120 дни; злоупотреба -> контра от казиното, затворена сметка, PSP черен списък, замразена печалба; licence-first (регулатор НАП + ред за жалби > chargeback); offshore = без регулатор, рядко работи; what-to-do: поддръжка -> жалби -> регулатор. Gemini Step-7 ONLINE: HL initial 15 -> humaniser-1 25 -> humaniser-2 15, KEEP-BEST pass1 (HL 25) -> ai 75 (noisy detector; remaining recs targeted brand persona voice + mandatory RG touch, not applied); img:2 (hero chargeback-hero.webp + SVG chargeback-koga-raboti.svg, Gemini image review 100 PASS 0 integrity); in scope (concept-level, no operator/НАП, no operator named -> no affiliate link); internal: zakonno-li-e/zhalbi/casino-payments/depoziti-i-teglenia/otgovorna-igra; checked=web (Ahrefs ~exhausted, 9 units, reset 2026-10-15); src=research candidate used",
+      "gemini": "ai 70",
+      "notes": "НОВ concept/payments-dispute pillar (distinct primary intent; chargeback беше само споменат в vk-0229/vk-0231). drafted 3rd fire 2026-10-01; persona Георги Тодоров; ~883 думи; gate 93/100 0-crit; 0 [VERIFY]/0 CONFLICT/0 DATA NEEDED; 0 em-dash; core: chargeback = защита при ДЕФЕКТ на плащането (неоторизирана/открадната карта, удържан но непостъпил депозит, двойно таксуване), НЕ за доброволна загуба/разкаяние/неразбрани условия; срок обикновено 60-120 дни; злоупотреба -> контра от казиното, затворена сметка, PSP черен списък, замразена печалба; licence-first (регулатор НАП + ред за жалби > chargeback); offshore = без регулатор, рядко работи; what-to-do: поддръжка -> жалби -> регулатор. Gemini Step-7 ONLINE: HL initial 15 -> humaniser-1 25 -> humaniser-2 15, KEEP-BEST pass1 (HL 25) -> ai 75 (noisy detector; remaining recs targeted brand persona voice + mandatory RG touch, not applied); img:2 (hero chargeback-hero.webp + SVG chargeback-koga-raboti.svg, Gemini image review 100 PASS 0 integrity); in scope (concept-level, no operator/НАП, no operator named -> no affiliate link); internal: zakonno-li-e/zhalbi/casino-payments/depoziti-i-teglenia/otgovorna-igra; checked=web (Ahrefs ~exhausted, 9 units, reset 2026-10-15); src=research candidate used · nightly 2026-10-02: humanised 5 passes (rewrote intro, harmonised first-person link anchors→2nd person, cut signposting/metaphors/semicolons/summary, trimmed prompt-style hero alt; facts/links/RG untouched), Gemini ai75→ai70 (HL15→30), still <80 — residual = guide section-ordering + mandatory RG (noisy whack-a-mole); prose tells resolved, best version kept for human; [About] footer resolved",
       "opportunity": null
     },
     {
@@ -4139,8 +4139,8 @@
       "posted_date": "",
       "folder": "2026-10-01-kripto-bitkoin-kazino",
       "pr": "#252",
-      "gemini": "ai 75",
-      "notes": "НОВ concept/education pillar (напълно непокрит клъстер, 0 хита в queue/sitemap). drafted 3rd fire 2026-10-01; persona Георги Тодоров; ~861 думи; gate 93/100 0-crit; 0 in-text [VERIFY]/0 CONFLICT/0 DATA NEEDED (1 general claim 'лицензираните не предлагат крипто' reasoned+hedged -> human confirm); 0 em-dash; 0 fabricated figures; honest licence-first education: лицензираните от НАП работят в евро през регулирани AML/KYC методи -> крипто (псевдонимно, извън банката) не е част от потока; казино с крипто за BG играч = почти сигурно офшорно; рискове: необратимост (няма chargeback), волатилност (валутен риск върху залога), липса на регулатор (НАП няма лост върху офшорен сайт), липса на стандартни защити; червени флагове; НЕ препоръчва крипто оператор (офшорни=context-only) -> no affiliate link; Кюрасао named като пример юрисдикция. Gemini Step-7 ONLINE: HL initial 25 -> humaniser-1 15 -> humaniser-2 15, KEEP-BEST initial (HL 25) -> ai 75 (noisy detector; remaining recs targeted persona voice + required links, not applied); img:2 (hero kripto-riskove-hero.webp coin-on-volatility + SVG kripto-riskove-kazino.svg 4 risks, Gemini image review 100 PASS 0 integrity); internal: casino-payments/zakonno-li-e/depoziti-i-teglenia/otgovorna-igra; checked=web (Ahrefs ~exhausted, 9 units, reset 2026-10-15); src=research candidate used",
+      "gemini": "human 85",
+      "notes": "НОВ concept/education pillar (напълно непокрит клъстер, 0 хита в queue/sitemap). drafted 3rd fire 2026-10-01; persona Георги Тодоров; ~861 думи; gate 93/100 0-crit; 0 in-text [VERIFY]/0 CONFLICT/0 DATA NEEDED (1 general claim 'лицензираните не предлагат крипто' reasoned+hedged -> human confirm); 0 em-dash; 0 fabricated figures; honest licence-first education: лицензираните от НАП работят в евро през регулирани AML/KYC методи -> крипто (псевдонимно, извън банката) не е част от потока; казино с крипто за BG играч = почти сигурно офшорно; рискове: необратимост (няма chargeback), волатилност (валутен риск върху залога), липса на регулатор (НАП няма лост върху офшорен сайт), липса на стандартни защити; червени флагове; НЕ препоръчва крипто оператор (офшорни=context-only) -> no affiliate link; Кюрасао named като пример юрисдикция. Gemini Step-7 ONLINE: HL initial 25 -> humaniser-1 15 -> humaniser-2 15, KEEP-BEST initial (HL 25) -> ai 75 (noisy detector; remaining recs targeted persona voice + required links, not applied); img:2 (hero kripto-riskove-hero.webp coin-on-volatility + SVG kripto-riskove-kazino.svg 4 risks, Gemini image review 100 PASS 0 integrity); internal: casino-payments/zakonno-li-e/depoziti-i-teglenia/otgovorna-igra; checked=web (Ahrefs ~exhausted, 9 units, reset 2026-10-15); src=research candidate used · nightly 2026-10-02: humanised 2 passes (cut signposting/transitional fluff, 2nd-person POV, broke \"Глагол+ли\" inversion 8→1, trimmed AI metaphors + alt-text; facts/links/RG untouched), Gemini ai75→human85, 2 attempts (PASS); [About] footer resolved",
       "opportunity": null
     },
     {
@@ -4173,8 +4173,8 @@
       "posted_date": "",
       "folder": "2026-10-02-sigurnost-na-akaunt-kazino",
       "pr": "#254",
-      "gemini": "ai 70",
-      "notes": "НОВ player-side account-security pillar (bank candidate [0], 1st fire 2026-10-02). Защита на самия вход (distinct от vk-0231 payment-security SSL/PCI и vk-0234 GDPR права): силна/уникална парола, 2FA/двуфакторна, разпознаване на фишинг, превземане на акаунт, сигурно устройство. Concept/education, БЕЗ operator/НАП. checked=web (Ahrefs 9 units, reset 2026-10-15) -> vol/kd blank. src=research · drafted 2026-10-02; gate 94/100 0-crit; Gemini Step-7 ai 70 keep-best humaniser p1 (HL 20->30->20, noisy detector); img:2 (infographic 100 + hero 100, 0 integrity); 0 flags; 0 em-dash; PR #254",
+      "gemini": "human 85",
+      "notes": "НОВ player-side account-security pillar (bank candidate [0], 1st fire 2026-10-02). Защита на самия вход (distinct от vk-0231 payment-security SSL/PCI и vk-0234 GDPR права): силна/уникална парола, 2FA/двуфакторна, разпознаване на фишинг, превземане на акаунт, сигурно устройство. Concept/education, БЕЗ operator/НАП. checked=web (Ahrefs 9 units, reset 2026-10-15) -> vol/kd blank. src=research · drafted 2026-10-02; gate 94/100 0-crit; Gemini Step-7 ai 70 keep-best humaniser p1 (HL 20->30->20, noisy detector); img:2 (infographic 100 + hero 100, 0 integrity); 0 flags; 0 em-dash; PR #254 · nightly 2026-10-02: humanised (voice only — cut intro scoping, fixed anglicism \"еднакво здрави\", retitled rhetorical conclusion; facts/links/RG untouched), Gemini ai70→human85, 1 attempt (PASS); [About] footer placeholder resolved",
       "opportunity": null
     },
     {
@@ -4190,8 +4190,8 @@
       "posted_date": "",
       "folder": "2026-10-02-priznaci-problemen-hazart-pomosht",
       "pr": "#255",
-      "gemini": "ai 70",
-      "notes": "НОВ RG-education pillar (DISCOVERED 1st fire 2026-10-02; 0 хита като blog guide - sitemap има само /otgovorna-igra/ info-страница + /blog/responsible-gambling/ категория-хъб). Distinct от vk-0172 (RG ИНСТРУМЕНТИ: лимити/самоизключване/НАП регистър) и vk-0169 (психология: gambler's fallacy/near-miss): тук = РАЗПОЗНАВАНЕ на проблема (поведенчески признаци, кратък само-скрининг по модела на Lie/Bet/GA 20 въпроса) + КЪДЕ да потърсиш помощ. Player-side, БЕЗ operator/НАП. Specific BG helpline номер -> [VERIFY] ако непотвърден. checked=web. src=research · drafted 2026-10-02; gate 96/100 0-crit (RG 15/15); Gemini Step-7 ai 70 keep-best humaniser p2 (HL 25->25->30); img:2 (infographic 100 + hero 85, 0 integrity); 0 flags; 0 em-dash; Солидарност 0888 99 18 66 in body+footer; PR #255",
+      "gemini": "human 85",
+      "notes": "НОВ RG-education pillar (DISCOVERED 1st fire 2026-10-02; 0 хита като blog guide - sitemap има само /otgovorna-igra/ info-страница + /blog/responsible-gambling/ категория-хъб). Distinct от vk-0172 (RG ИНСТРУМЕНТИ: лимити/самоизключване/НАП регистър) и vk-0169 (психология: gambler's fallacy/near-miss): тук = РАЗПОЗНАВАНЕ на проблема (поведенчески признаци, кратък само-скрининг по модела на Lie/Bet/GA 20 въпроса) + КЪДЕ да потърсиш помощ. Player-side, БЕЗ operator/НАП. Specific BG helpline номер -> [VERIFY] ако непотвърден. checked=web. src=research · drafted 2026-10-02; gate 96/100 0-crit (RG 15/15); Gemini Step-7 ai 70 keep-best humaniser p2 (HL 25->25->30); img:2 (infographic 100 + hero 85, 0 integrity); 0 flags; 0 em-dash; Солидарност 0888 99 18 66 in body+footer; PR #255 · nightly 2026-10-02: humanised (voice/structure only — de-formulaic intro, removed neat-bow summaries, reworked zoom-out conclusion; helpline/DSM-5/Lie-Bet facts + RG untouched), Gemini ai70→human85, 1 attempt (PASS); [About] footer resolved",
       "opportunity": null
     },
     {
