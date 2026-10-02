@@ -7,3 +7,6 @@
 - Stage 4 SEO (04): title 58 chars, meta 134 chars, 2 keyword H2s. NUMBER DIFF 03->04: identical.
 - Stage 5 Brand Gate (05): PASS 92/100, 0 critical. Fix: early-surrender qualifier "срещу десетица". Math recalculated.
 - Stage 5b (05b): light re-check, no em-dash, table kept (genuine comparison). Final format assembled.
+- Step 7 Gemini: pass 1 "Likely human-written, 80%" -> HL 80 PASS; no humaniser pass needed; 05b kept as original. (An accidental duplicate call returned AI 85%: logged as detector variance, 07-gemini-check-1b-rerun.md.)
+- Step 8 Images: SVG infographic (rule effects, values verbatim from 05b table, rendered + eyeballed) + decorative WebP hero (scale metaphor, 13.7 KB). Gemini review 1: score 100 PASS, 0 integrity.
+- Verification (06): 0 surviving flags; sources + recalculation recorded.
