@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-02T22:51:04Z",
+  "generated_utc": "2026-10-02T23:10:46Z",
   "buffer": {
-    "count": 212,
+    "count": 213,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 1,
-    "drafted": 207,
+    "in-progress": 0,
+    "drafted": 208,
     "approved": 5,
     "posted": 29,
     "failed": 1
@@ -4298,19 +4298,19 @@
     },
     {
       "id": "vk-0243",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Лимити на масата в казино игрите (мин и макс залог): какво са и защо съществуват",
       "keywords_or_terms": "лимити на масата казино, минимален залог казино, максимален залог на маса, граници на залога",
       "volume": "",
       "kd": "",
       "source": "research",
-      "drafted_date": "",
+      "drafted_date": "2026-10-02",
       "posted_date": "",
       "folder": "2026-10-02-limiti-na-masata",
-      "pr": "",
-      "gemini": "",
-      "notes": "3rd fire 2026-10-02 selection; concept pillar — защо масите имат мин/макс залог, как таванът спира прогресивните системи (Мартингейл опира в лимита), live/RNG; distinct от рулетка vk-0024 и банкрол vk-0166; dedup clean; checked=web (Ahrefs reset 2026-10-15); src=research candidate",
+      "pr": "#262",
+      "gemini": "human 85",
+      "notes": "НОВ concept guide за лимитите на масата (мин/макс залог) като структурна черта: какво са (диапазон на кръг, live vs RNG, отделни лимити по вид залог), защо (риск-мениджмънт, сегментиране на бюджети, спиране на прогресии), как таванът убива Мартингейл (€10..€320, 7-ми €640 над таван €500, спира след 6 загуби; 3 грешни допускания; риск/печалба €630 за €10; 6 загуби на червено ~1,8%; други прогресии в същата стена), минимумът и дължината на сесията (бюджет/мин=кръгове). Distinct от рулетка-стратегии vk-0024 и банкрол vk-0166. drafted 2026-10-02; editorial signed Георги Тодоров; ~836 думи тяло; gate 92/100 0-crit; 0 em-dash; 0 in-text flags (числа примерни; maths rechecked: сума €630, €640 над €500, (19/37)^6=1,83%; бележки в 06-verification); Gemini Step-7 ONLINE human 85 PASS (3 checks, 2 humaniser passes: HL 25-20-85, kept pass2; махнати neat-bow maxims + theory/practice antithesis + rigid signposting + over-balanced sentences); img:2 (SVG Мартингейл infographic + capped-staircase hero, Gemini review 100 PASS, 0 integrity); вътрешни: kazino-igri/kazino-igri-ruletka/kazino-igri-kazino-na-zhivo/otgovorna-igra; no operator/НАП, без афилиейт; checked=web (Ahrefs reset 2026-10-15); src=research candidate used; PR #262",
       "opportunity": null
     }
   ],
@@ -8112,6 +8112,48 @@
       "trend": "",
       "checked": "web",
       "suggestion": "НОВ concept candidate (replenish 2nd fire 2026-10-02, замества used vk-0240). Непокрит pillar: защо масите имат мин/макс залог, как таванът на масата спира прогресивните системи (Мартингейл опира в лимита), разлика live/RNG. Distinct от управление на банкрол и рулетка-стратегии. Generic, БЕЗ оператор/НАП. checked=web, чака Ahrefs reset.",
+      "status": "used",
+      "date_researched": "2026-10-02",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Рискова игра (gamble функция) в слотовете: как работи удвояването и струва ли си",
+      "researched_keywords": "рискова игра слот, gamble функция, удвояване на печалба слот, хазарт бутон слот",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "НОВ механика-candidate (replenish 3rd fire 2026-10-02, замества used vk-0241). Непокрит pillar: double-or-nothing рисковата игра след печалба (карта/цвят/колело), 50/50 или по-лошо, нулев/отрицателен EV; честен ъгъл: удвоява волатилността без да мести предимството. Distinct от множители vk-0057 (умножение в играта, не post-win риск) и max win vk-0238. Generic механика, БЕЗ оператор/НАП. checked=web, чака Ahrefs reset 2026-10-15.",
+      "status": "candidate",
+      "date_researched": "2026-10-02",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Автоматична игра (autoplay) в казиното: как работи и как да я ограничите",
+      "researched_keywords": "автоматична игра слот, autoplay казино, авто завъртания лимит, стоп при загуба autoplay",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "НОВ feature-candidate (replenish 3rd fire 2026-10-02, замества used vk-0242). Непокрит pillar: как работи autoplay, настройки за лимит на загуба/печалба/брой завъртания, и RG ъгъл (ускорява темпото и загубата, маха паузата за решение). Distinct от банкрол vk-0166 (бюджет) и отговорна игра — тук конкретната функция. Generic, БЕЗ оператор/НАП. checked=web, чака Ahrefs reset.",
+      "status": "candidate",
+      "date_researched": "2026-10-02",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Размер на залога в слота: монети, нива и линии (как се образува общият залог)",
+      "researched_keywords": "размер на залога слот, стойност на монета слот, bet level, как се определя залогът ротативка",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "НОВ beginner-practical candidate (replenish 3rd fire 2026-10-02, замества used vk-0243). Непокрит pillar: как общият залог = стойност на монета × ниво × брой линии/начини, защо едно и също число залог се образува различно, връзка с дължината на сесията. Distinct от лимити на масата vk-0243 (граници) и банкрол vk-0166 (бюджет) — тук конструкцията на залога в UI. Generic, БЕЗ оператор/НАП. checked=web, чака Ahrefs reset.",
       "status": "candidate",
       "date_researched": "2026-10-02",
       "opportunity": null
