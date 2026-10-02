@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-01T23:33:29Z",
+  "generated_utc": "2026-10-02T03:27:25Z",
   "buffer": {
     "count": 204,
     "target": 10,
@@ -7,7 +7,7 @@
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
+    "in-progress": 3,
     "drafted": 199,
     "approved": 5,
     "posted": 29,
@@ -4158,6 +4158,57 @@
       "pr": "#253",
       "gemini": "human 80",
       "notes": "НОВ concept/trust-safety pillar (DISCOVERED this run; 0 хита като blog guide в queue/sitemap - sitemap има само /politika-za-poveritelnost/ собствена правна страница + /mobilni-kazina/ листинг). drafted 3rd fire 2026-10-01; persona Георги Тодоров; ~797 думи; gate 93/100 0-crit; 0 in-text [VERIFY]/0 CONFLICT/0 DATA NEEDED (AML срок 'около пет години' hedged -> human confirm ЗМИП); 0 em-dash; 0 fabricated figures; distinct от vk-0168 (KYC теглене процес) / vk-0231 (payment security SSL/PCI) / vk-0172 (RG tools); core: казиното събира самоличност+финансови+поведенчески данни, предимно KYC/AML законово задължение; рамка GDPR (Регламент ЕС 2016/679)+ЗЗЛД, надзор КЗЛД; права достъп/корекция/преносимост/възражение-маркетинг/ограничаване; честна граница - правото на изтриване ограничено от AML съхранение ~5г; маркетинг=отделно съгласие; licence-first (лицензиран=политика за поверителност+DPO+КЗЛД, офшорен може да не спазва GDPR). Gemini Step-7 ONLINE: HL initial 25 -> humaniser-1 80 PASS ('Likely human-written 80%') -> human 80; img:2 (hero lichni-danni-gdpr-hero.webp ID+щит+сейф no-face + SVG lichni-danni-gdpr-kazino.svg, Gemini image review 100 PASS 0 integrity, hero regen once за no-faces fix); no operator named -> no affiliate link; internal: politika-za-poveritelnost/zakonno-li-e/depoziti-i-teglenia/otgovorna-igra; checked=web (Ahrefs ~exhausted, 9 units, reset 2026-10-15); src=research (discovered this run) used",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0235",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Сигурност на акаунта в онлайн казино: силна парола, двуфакторна автентикация и фишинг",
+      "keywords_or_terms": "сигурност на акаунт казино, двуфакторна автентикация казино, фишинг казино, кражба на акаунт",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-10-02",
+      "posted_date": "",
+      "folder": "2026-10-02-sigurnost-na-akaunt-kazino",
+      "pr": "",
+      "gemini": "",
+      "notes": "НОВ player-side account-security pillar (bank candidate [0], 1st fire 2026-10-02). Защита на самия вход (distinct от vk-0231 payment-security SSL/PCI и vk-0234 GDPR права): силна/уникална парола, 2FA/двуфакторна, разпознаване на фишинг, превземане на акаунт, сигурно устройство. Concept/education, БЕЗ operator/НАП. checked=web (Ahrefs 9 units, reset 2026-10-15) -> vol/kd blank. src=research",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0236",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Признаци на проблемен хазарт и къде да потърсиш помощ",
+      "keywords_or_terms": "признаци хазартна зависимост, проблемен хазарт, хазартна зависимост помощ, тест за пристрастяване към хазарт",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-10-02",
+      "posted_date": "",
+      "folder": "2026-10-02-priznaci-problemen-hazart-pomosht",
+      "pr": "",
+      "gemini": "",
+      "notes": "НОВ RG-education pillar (DISCOVERED 1st fire 2026-10-02; 0 хита като blog guide - sitemap има само /otgovorna-igra/ info-страница + /blog/responsible-gambling/ категория-хъб). Distinct от vk-0172 (RG ИНСТРУМЕНТИ: лимити/самоизключване/НАП регистър) и vk-0169 (психология: gambler's fallacy/near-miss): тук = РАЗПОЗНАВАНЕ на проблема (поведенчески признаци, кратък само-скрининг по модела на Lie/Bet/GA 20 въпроса) + КЪДЕ да потърсиш помощ. Player-side, БЕЗ operator/НАП. Specific BG helpline номер -> [VERIFY] ако непотвърден. checked=web. src=research",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0237",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Кои казино игри дават най-добри шансове (домашно предимство по игри)",
+      "keywords_or_terms": "казино игри с най-добри шансове, най-добри шансове казино, домашно предимство по игри, кои игри дават най-добри шансове",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-10-02",
+      "posted_date": "",
+      "folder": "2026-10-02-kazino-igri-naj-dobri-shansove",
+      "pr": "",
+      "gemini": "",
+      "notes": "НОВ comparative/hub pillar (DISCOVERED 1st fire 2026-10-02). Ранглиста по домашно предимство през игрите (блекджек/бакара ниско vs слотове/кено/рулетка по-високо) - distinct SEARCH INTENT от vk-0006 (RTP/волатилност КОНЦЕПЦИЯ: как се чете числото) и vk-0011 (митове). Няма pillar за 'кои игри дават най-добри шансове' в queue/sitemap; служи като хъб, линкове към vk-0006 + отделните game guides. Числата домашно предимство web-verified (Wizard of Odds), примерни за типични правила. БЕЗ operator/НАП. checked=web. src=research",
       "opportunity": null
     }
   ],
