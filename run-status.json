@@ -1,10 +1,10 @@
 {
   "state": "idle",
-  "run_started_utc": "2026-10-02T15:17:32Z",
-  "run_finished_utc": "2026-10-02T15:18:00Z",
+  "run_started_utc": "2026-10-02T15:30:00Z",
+  "run_finished_utc": "2026-10-02T15:30:30Z",
   "articles_written": 0,
   "prs_opened": [],
-  "run_url": "https://claude.ai/code/session_011352b3USk1Em6GfxMSzb89",
+  "run_url": "https://claude.ai/code/session_013WQYSVzg2bHaG1VFja5n71",
   "note": "backfill: nothing to do (all review-ready articles have images)",
   "progress": {
     "phase": "done",
