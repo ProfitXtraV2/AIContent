@@ -83,3 +83,11 @@ Distinct from vk-0172 (RG-tools mechanics: депозитни лимити / с�
 3. Author the SVG `images/priznaci-problemen-hazart.svg` to the spec above; re-confirm every label traces to 05b.
 4. RG guide needs no affiliate link and no НАП licence № — confirm none is expected.
 5. No [VERIFY]/[DATA NEEDED]/[CONFLICT] in text — 05b is publishable on content grounds once the About block is filled.
+
+---
+
+## Автопилот финализация — Step-7 + Step-8 (2026-10-02)
+
+- **Gemini Step-7 (текст):** human-likeness по пасове (шумен детектор): pass0 25, humaniser-1 25, humaniser-2 **30 (BEST, kept)**. Финален вердикт: „Shows AI patterns 70%" → **ai 70**. Остатъчни [VERIFY]/[DATA NEEDED]: **0**.
+- **Step-8 изображения:** 2 (инфографика `priznaci-problemen-hazart.svg` — Gemini review **100 PASS**, 6 сигнала + помощ блок, всичко проследено към 05b, 0 integrity; hero `priznaci-problemen-hazart-hero.webp` 11.2 KB WebP — Gemini review **85 PASS**, подкрепяща абстрактна метафора, без лица/лого/хазартна глорификация). images: 2 (infographic 100, hero 85).
+- **0 em-dash** в целия 05b. Линия „Солидарност" 0888 99 18 66 присъства в тялото (помощ-секция + близки + ново заключение) и в RG футъра; /otgovorna-igra/ и /zakonno-li-e/ вътрешни връзки. RG-education → без оператор/affiliate. Самопроверка (Lie/Bet, GA-20, DSM-5) описана, не репродуцирана; изрично „не е диагноза".
