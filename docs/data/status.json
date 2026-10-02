@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-02T04:09:16Z",
+  "generated_utc": "2026-10-02T07:15:32Z",
   "buffer": {
     "count": 207,
     "target": 10,
@@ -7,7 +7,7 @@
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
+    "in-progress": 3,
     "drafted": 202,
     "approved": 5,
     "posted": 29,
@@ -4209,6 +4209,57 @@
       "pr": "#256",
       "gemini": "human 85",
       "notes": "НОВ comparative/hub pillar (DISCOVERED 1st fire 2026-10-02). Ранглиста по домашно предимство през игрите (блекджек/бакара ниско vs слотове/кено/рулетка по-високо) - distinct SEARCH INTENT от vk-0006 (RTP/волатилност КОНЦЕПЦИЯ: как се чете числото) и vk-0011 (митове). Няма pillar за 'кои игри дават най-добри шансове' в queue/sitemap; служи като хъб, линкове към vk-0006 + отделните game guides. Числата домашно предимство web-verified (Wizard of Odds), примерни за типични правила. БЕЗ operator/НАП. checked=web. src=research · drafted 2026-10-02; gate 94/100 0-crit; Gemini Step-7 human 85 PASS humaniser p1 (HL 25->85); img:2 (infographic 100 after 2 fixes + hero 85, 0 integrity, all bar values traced to table); 0 flags; 0 em-dash; PR #256",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0238",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Таван на печалбата (max win) в слотовете: какво е и защо е важен",
+      "keywords_or_terms": "таван на печалбата слот, max win слот, максимална печалба ротативка, множител таван",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-10-02",
+      "posted_date": "",
+      "folder": "2026-10-02-tavan-na-pechalbata-slot",
+      "pr": "",
+      "gemini": "",
+      "notes": "НОВ concept guide (bank candidate, 2nd fire 2026-10-02). Distinct cluster, dedup-clean vs content-queue + live sitemap, anti-cannibalization checked. БЕЗ operator/НАП (guides-only scope). checked=web (Ahrefs 9 units, reset 2026-10-15) -> vol/kd blank. src=research · WRITING (in-progress) 2nd fire 2026-10-02",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0239",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Варианти на блекджек (европейски, американски, single deck): разлика в домашното предимство",
+      "keywords_or_terms": "варианти на блекджек, европейски блекджек, американски блекджек, single deck блекджек",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-10-02",
+      "posted_date": "",
+      "folder": "2026-10-02-varianti-na-blekdzhak",
+      "pr": "",
+      "gemini": "",
+      "notes": "НОВ concept guide (bank candidate, 2nd fire 2026-10-02). Distinct cluster, dedup-clean vs content-queue + live sitemap, anti-cannibalization checked. БЕЗ operator/НАП (guides-only scope). checked=web (Ahrefs 9 units, reset 2026-10-15) -> vol/kd blank. src=research · WRITING (in-progress) 2nd fire 2026-10-02",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0240",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Странични залози (side bets) в казино игрите: струват ли си математически",
+      "keywords_or_terms": "странични залози казино, side bet казино, перфектна двойка, 21+3",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-10-02",
+      "posted_date": "",
+      "folder": "2026-10-02-stranichni-zalozi-side-bets",
+      "pr": "",
+      "gemini": "",
+      "notes": "НОВ concept guide (bank candidate, 2nd fire 2026-10-02). Distinct cluster, dedup-clean vs content-queue + live sitemap, anti-cannibalization checked. БЕЗ operator/НАП (guides-only scope). checked=web (Ahrefs 9 units, reset 2026-10-15) -> vol/kd blank. src=research · WRITING (in-progress) 2nd fire 2026-10-02",
       "opportunity": null
     }
   ],
