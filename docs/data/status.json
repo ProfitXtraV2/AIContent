@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-02T07:25:11Z",
+  "generated_utc": "2026-10-02T07:32:01Z",
   "buffer": {
-    "count": 207,
+    "count": 210,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 3,
-    "drafted": 202,
+    "in-progress": 0,
+    "drafted": 205,
     "approved": 5,
     "posted": 29,
     "failed": 1
@@ -4213,7 +4213,7 @@
     },
     {
       "id": "vk-0238",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Таван на печалбата (max win) в слотовете: какво е и защо е важен",
       "keywords_or_terms": "таван на печалбата слот, max win слот, максимална печалба ротативка, множител таван",
@@ -4223,14 +4223,14 @@
       "drafted_date": "2026-10-02",
       "posted_date": "",
       "folder": "2026-10-02-tavan-na-pechalbata-slot",
-      "pr": "",
-      "gemini": "",
-      "notes": "НОВ concept guide (bank candidate, 2nd fire 2026-10-02). Distinct cluster, dedup-clean vs content-queue + live sitemap, anti-cannibalization checked. БЕЗ operator/НАП (guides-only scope). checked=web (Ahrefs 9 units, reset 2026-10-15) -> vol/kd blank. src=research · WRITING (in-progress) 2nd fire 2026-10-02",
+      "pr": "#257",
+      "gemini": "human 90",
+      "notes": "НОВ concept guide за max win/таван на печалбата в слотовете (кратно на залога, целият рунд, round truncation, скалиране със залога; тавана срещу RTP/волатилност; къде се намира). Distinct от RTP/волатилност vk-0006 и множители vk-0057; не operator review. drafted 2026-10-02; persona Георги Тодоров; ~986 думи тяло; gate 89/100 0-crit; 0 [VERIFY] (бележки за вторични източници при max-win шансовете в 06-verification: Gates of Olympus 1:718391 single-source, Starburst изключен поради конфликт); 0 em-dash; img:2 (SVG инфографика 100 + hero 82, 0 integrity); Gemini Step-7 ONLINE human 90 PASS (3 checks, 1 humaniser pass, pass-1 kept, tied original 90); вътрешни: kazino-igri/depoziti-i-teglenia/otgovorna-igra/kak-ocenyavame; no operator/НАП, без афилиейт; checked=web (Ahrefs reset 2026-10-15); src=research candidate used; PR #257",
       "opportunity": null
     },
     {
       "id": "vk-0239",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Варианти на блекджек (европейски, американски, single deck): разлика в домашното предимство",
       "keywords_or_terms": "варианти на блекджек, европейски блекджек, американски блекджек, single deck блекджек",
@@ -4240,14 +4240,14 @@
       "drafted_date": "2026-10-02",
       "posted_date": "",
       "folder": "2026-10-02-varianti-na-blekdzhak",
-      "pr": "",
-      "gemini": "",
-      "notes": "НОВ concept guide (bank candidate, 2nd fire 2026-10-02). Distinct cluster, dedup-clean vs content-queue + live sitemap, anti-cannibalization checked. БЕЗ operator/НАП (guides-only scope). checked=web (Ahrefs 9 units, reset 2026-10-15) -> vol/kd blank. src=research · WRITING (in-progress) 2nd fire 2026-10-02",
+      "pr": "#259",
+      "gemini": "human 80",
+      "notes": "НОВ concept guide (варианти на блекджек: европейски/американски/single deck, делти на домашното предимство). Distinct от vk-0009 (правила+основна стратегия): тук сравнение на ВАРИАНТИ/правила; 6:5 е само един ред. drafted 2026-10-02; persona Георги Тодоров; ~1014 думи тяло; gate 92/100 0-crit; 0 [VERIFY]/0 CONFLICT/0 DATA NEEDED (3 бележки за човека в 06-verification); 0 em-dash; числата web-verified (Wizard of Odds rule-variation таблица: 6:5 -1,39; H17 -0,22; европейски без hole card -0,11; single deck +0,48; late surrender +0,08; 7:5 -0,45), примерни при посочените правила; вътрешни: kazino-igri/otgovorna-igra/kak-ocenyavame; no operator/НАП, без афилиейт. Gemini Step-7 ONLINE human 80 PASS (0 humaniser passes, initial kept; дубликатно извикване върна ai 85 - детекторна вариация, логвана 07-gemini-check-1b-rerun.md); img:2 (SVG infographic + decorative hero, Gemini review 100 PASS 0 integrity); checked=web (Ahrefs reset 2026-10-15); src=research candidate used; PR #259",
       "opportunity": null
     },
     {
       "id": "vk-0240",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Странични залози (side bets) в казино игрите: струват ли си математически",
       "keywords_or_terms": "странични залози казино, side bet казино, перфектна двойка, 21+3",
@@ -4257,9 +4257,9 @@
       "drafted_date": "2026-10-02",
       "posted_date": "",
       "folder": "2026-10-02-stranichni-zalozi-side-bets",
-      "pr": "",
-      "gemini": "",
-      "notes": "НОВ concept guide (bank candidate, 2nd fire 2026-10-02). Distinct cluster, dedup-clean vs content-queue + live sitemap, anti-cannibalization checked. БЕЗ operator/НАП (guides-only scope). checked=web (Ahrefs 9 units, reset 2026-10-15) -> vol/kd blank. src=research · WRITING (in-progress) 2nd fire 2026-10-02",
+      "pr": "#258",
+      "gemini": "human 85",
+      "notes": "НОВ cross-game concept guide (странични залози: Перфектна двойка/21+3/бакара равенство-двойка; домашното предимство в пъти над основната игра). Distinct от брандирания Side Bet City vk-0210; не operator review. drafted 2026-10-02; persona Георги Тодоров; ~1056 думи тяло; gate 92/100 0-crit; 0 [VERIFY] (1 бележка за човека: AC блекджек 0,43% пример за повторна проверка, 06-verification); 0 em-dash; edges от Wizard of Odds преизчислени точно: PP 25/12/6 6.11% (6d), 21+3 9:1 3.24% (6d), бакара Tie 14,36%/Pair 10,36% спрямо блекджек ~0,5%; img:2 (SVG edge bar chart 100 + везна hero 100, 0 integrity); Gemini Step-7 ONLINE human 85 PASS (0 passes, initial kept); вътрешни: kazino-igri/kak-ocenyavame/otgovorna-igra; no operator/НАП, без афилиейт; checked=web (Ahrefs reset 2026-10-15); src=research candidate used; PR #258",
       "opportunity": null
     }
   ],
@@ -7991,7 +7991,7 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "НОВ candidate (replenish, 1st fire 2026-10-02, замества dropped дубъл). Непокрит standalone concept (max win се споменава per-слот, няма обяснителна статия). Distinct от RTP/волатилност vk-0006 и множители vk-0057: таванът на изплащане (напр. 5000x залога), защо го има, как се чете в инфо-панела, връзка с волатилността. Public game-mechanics, БЕЗ operator/НАП. web-checked (Ahrefs 9 units, reset 2026-10-15) -> vol/kd blank, awaiting re-pull",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-10-02",
       "opportunity": null
     },
@@ -8005,7 +8005,7 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "НОВ candidate (replenish, 1st fire 2026-10-02, замества dropped дубъл). Непокрит within-blackjack comparison. Distinct от vk-0009 (правила+основна стратегия) и vk-0237 (cross-game): правилните разлики (dealer soft 17, 3:2 срещу 6:5, брой тестета, surrender/double) и как местят домашното предимство. Wizard of Odds, БЕЗ operator/НАП. web-checked (Ahrefs 9 units, reset 2026-10-15) -> vol/kd blank, awaiting re-pull",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-10-02",
       "opportunity": null
     },
@@ -8019,7 +8019,7 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "НОВ candidate (replenish, 1st fire 2026-10-02, замества dropped дубъл). Непокрит cross-game concept (само в отделни игри като Casino War tie bet vk-0180). Честен математически ъгъл защо повечето side bets (perfect pairs, 21+3, tie) носят много по-високо домашно предимство от основния залог. Wizard of Odds, БЕЗ operator/НАП. web-checked (Ahrefs 9 units, reset 2026-10-15) -> vol/kd blank, awaiting re-pull",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-10-02",
       "opportunity": null
     },
