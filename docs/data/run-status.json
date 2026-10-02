@@ -5,6 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01ThuzndCRAsNcav1ixQKKCg",
-  "note": "daily run 2026-10-02 (2nd fire) — reconcile clean (0 in-progress), selecting batch",
-  "progress": {"phase":"selecting","article_index":null,"article_total":3,"article_slug":null,"stages":["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],"stage_index":null,"stage":null}
+  "note": "daily run 2026-10-02 (2nd fire) — writing batch of 3 (vk-0238/0239/0240) in parallel worktrees",
+  "progress": {
+    "phase": "writing",
+    "article_index": 1,
+    "article_total": 3,
+    "article_slug": "2026-10-02-tavan-na-pechalbata-slot",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 2,
+    "stage": "Author"
+  }
 }
