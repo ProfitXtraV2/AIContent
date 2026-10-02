@@ -6,3 +6,6 @@
 - 04-seo: title 52 chars, meta 126 chars, keyword coverage (side bet, перфектна двойка, 21+3); meta range corrected to 22,33% at gate
 - 05-gate: PASS WITH FIXES → 92/100, 0 critical, 6 moderate fixed
 - 05b: assembled with footer; em-dashes 0; images added in Step 8
+- 07 gemini check 1: Likely human-written 85% → PASS, no humaniser pass, kept initial 05b (07-gemini-check-1.md)
+- 08 images: SVG infographic (numbers verbatim from 05b, rendered to PNG and eyeballed, no overlap) + Gemini-generated metaphor hero; review 1 score 100 PASS (08-image-review-1.md)
+- 06 verification written; finalize
