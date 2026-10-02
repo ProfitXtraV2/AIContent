@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-02T22:17:44Z",
+  "generated_utc": "2026-10-02T22:36:46Z",
   "buffer": {
-    "count": 210,
+    "count": 211,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 3,
-    "drafted": 205,
+    "in-progress": 2,
+    "drafted": 206,
     "approved": 5,
     "posted": 29,
     "failed": 1
@@ -4264,19 +4264,19 @@
     },
     {
       "id": "vk-0241",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Независимо тестване и сертифициране на казино игрите (eCOGRA, iTech Labs, GLI): как се проверява честността",
       "keywords_or_terms": "сертифициране на казино игри, eCOGRA, тестване на честността казино, независим одит на игрите",
       "volume": "",
       "kd": "",
       "source": "research",
-      "drafted_date": "",
+      "drafted_date": "2026-10-02",
       "posted_date": "",
       "folder": "2026-10-02-sertificirane-testvane-kazino-igri",
-      "pr": "",
-      "gemini": "",
-      "notes": "3rd fire 2026-10-02 selection; trust/education pillar — как независими лаборатории тестват RNG/RTP и какво значи печатът; distinct от RNG-механика vk-0167 (линк, не дубликат); dedup clean vs content-queue + sitemap 95 URLs; checked=web (Ahrefs reset 2026-10-15); src=research candidate (research-topics.md)",
+      "pr": "#260",
+      "gemini": "human 90",
+      "notes": "НОВ trust/education guide за независимото тестване (eCOGRA/iTech Labs/GLI/BMM): какво проверяват (RNG случайност, точност на RTP, математика) и ЦЕНТРАЛНО какво печатът НЕ гарантира (не маха домашното предимство; конфигурируем RTP build; сертификат на играта ≠ лиценз от НАП). Distinct от RNG-механика vk-0167 (линкната, не преповторена). drafted 2026-10-02; editorial voice signed Георги Тодоров; ~1050 думи тяло; gate 93/100 0-crit; 0 em-dash; 0 in-text flags (6 бележки за вторични източници в 06-verification: лабораторни години 1989/2003/2004/1981 web-verified, ISO/IEC 17025 като родов факт без номер, eCOGRA публични доклади); числа RTP 96%/€1 000/€960/€40 примерни, maths rechecked; Gemini Step-7 ONLINE human 90 PASS (3 checks, 2 humaniser passes: HL 25→25→90, kept pass2); img:2 (SVG RTP infographic + decorative verification hero, Gemini review 85 PASS, 0 integrity); вътрешни: games-providers/proverka-licenz/kak-ocenyavame/otgovorna-igra; no operator/НАП, без афилиейт; checked=web (Ahrefs reset 2026-10-15); src=research candidate used; PR #260",
       "opportunity": null
     },
     {
@@ -8084,7 +8084,7 @@
       "trend": "",
       "checked": "web",
       "suggestion": "НОВ trust/education candidate (replenish 2nd fire 2026-10-02, замества used vk-0238). Непокрит pillar: как независими лаборатории (eCOGRA/iTech Labs/GLI) тестват RNG/RTP и какво значи печатът за играча. Distinct от RNG-механика статиите (vk-0147/0155/0218 обясняват генератора, не одита). In scope: лабораториите са generic, НЕ operator/НАП. checked=web, чака Ahrefs reset 2026-10-15.",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-10-02",
       "opportunity": null
     },
