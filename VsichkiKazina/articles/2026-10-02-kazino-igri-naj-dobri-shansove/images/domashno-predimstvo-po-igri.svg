@@ -1,10 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" width="760" height="470" font-family="'Segoe UI',Arial,sans-serif" role="img" aria-label="Хоризонтална стълбовидна диаграма с типичното домашно предимство по игри: блекджек с основна стратегия 0,5%, бакара на банкера 1,06%, крапс 1,4%, европейска рулетка 2,70%, американска рулетка 5,26%, ротативки 2 до 10 процента и кено 20 до 40 процента.">
   <rect x="2" y="2" width="756" height="466" rx="18" fill="#ffffff" stroke="#d8dee9"/>
   <text x="380" y="40" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2a44">Типично домашно предимство по игри</text>
-  <text x="380" y="64" text-anchor="middle" font-size="14" fill="#5b6678">Дял от залога, който казиното задържа в дългосрочен план. По-ниският процент означава по-евтина игра.</text>
+  <text x="380" y="58" text-anchor="middle" font-size="14" fill="#5b6678">Дял от залога, който казиното задържа в дългосрочен план.</text>
+  <text x="380" y="78" text-anchor="middle" font-size="14" fill="#5b6678">По-ниският процент означава по-евтина игра.</text>
 
   <!-- baseline axis -->
-  <line x1="262" y1="80" x2="262" y2="420" stroke="#c7cfdb" stroke-width="1"/>
+  <line x1="262" y1="88" x2="262" y2="420" stroke="#c7cfdb" stroke-width="1"/>
 
   <g font-size="14" fill="#1f2a44">
     <!-- r1 blackjack -->
