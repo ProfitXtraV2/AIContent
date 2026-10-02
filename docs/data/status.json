@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-02T07:15:32Z",
+  "generated_utc": "2026-10-02T07:25:11Z",
   "buffer": {
     "count": 207,
     "target": 10,
@@ -8019,6 +8019,48 @@
       "trend": "flat",
       "checked": "web",
       "suggestion": "НОВ candidate (replenish, 1st fire 2026-10-02, замества dropped дубъл). Непокрит cross-game concept (само в отделни игри като Casino War tie bet vk-0180). Честен математически ъгъл защо повечето side bets (perfect pairs, 21+3, tie) носят много по-високо домашно предимство от основния залог. Wizard of Odds, БЕЗ operator/НАП. web-checked (Ahrefs 9 units, reset 2026-10-15) -> vol/kd blank, awaiting re-pull",
+      "status": "candidate",
+      "date_researched": "2026-10-02",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Независимо тестване и сертифициране на казино игрите (eCOGRA, iTech Labs, GLI): как се проверява честността",
+      "researched_keywords": "сертифициране на казино игри, eCOGRA, тестване на честността казино, независим одит на игрите",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "НОВ trust/education candidate (replenish 2nd fire 2026-10-02, замества used vk-0238). Непокрит pillar: как независими лаборатории (eCOGRA/iTech Labs/GLI) тестват RNG/RTP и какво значи печатът за играча. Distinct от RNG-механика статиите (vk-0147/0155/0218 обясняват генератора, не одита). In scope: лабораториите са generic, НЕ operator/НАП. checked=web, чака Ahrefs reset 2026-10-15.",
+      "status": "candidate",
+      "date_researched": "2026-10-02",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Максимален залог при активен бонус (max bet правило): защо голям залог анулира бонуса",
+      "researched_keywords": "максимален залог при бонус, max bet бонус казино, анулиран бонус голям залог, правило за максимален залог бонус",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "НОВ bonus-education candidate (replenish 2nd fire 2026-10-02, замества used vk-0239). Непокрит pillar: защо T&C ограничават залога при отиграване (често около €5) и как нарушението анулира печалбата. Distinct от превъртане/wagering guides — тук фокусът е max-bet клаузата, не множителят/базата. Generic bonus-T&C концепция, БЕЗ конкретен оператор. checked=web, чака Ahrefs reset.",
+      "status": "candidate",
+      "date_researched": "2026-10-02",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Лимити на масата в казино игрите (мин и макс залог): какво са и защо съществуват",
+      "researched_keywords": "лимити на масата казино, минимален залог казино, максимален залог на маса, граници на залога",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "НОВ concept candidate (replenish 2nd fire 2026-10-02, замества used vk-0240). Непокрит pillar: защо масите имат мин/макс залог, как таванът на масата спира прогресивните системи (Мартингейл опира в лимита), разлика live/RNG. Distinct от управление на банкрол и рулетка-стратегии. Generic, БЕЗ оператор/НАП. checked=web, чака Ahrefs reset.",
       "status": "candidate",
       "date_researched": "2026-10-02",
       "opportunity": null
