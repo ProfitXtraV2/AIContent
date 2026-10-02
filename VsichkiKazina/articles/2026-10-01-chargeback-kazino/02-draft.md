@@ -1,0 +1,2 @@
+# 02-DRAFT (author/persona, pre-humaniser) — chargeback-kazino
+Authored in Георги Тодоров register from 00-brief + 01.5-outline. Content identical in facts/numbers to 05b (only figure: 60–120 дни). This stage produced the sectioned draft; the Humaniser (03) broke residual symmetry and signposting, SEO (04) tuned title/meta/headings, Brand Gate (05) applied fixes → 05b. See 05b-final-draft.md for the locked text. NUMBER DIFF 02↔03↔04↔05b: only "60 до 120 дни" carried unchanged throughout; 0 numbers added/dropped/changed.
