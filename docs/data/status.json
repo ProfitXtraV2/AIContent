@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-02T22:50:35Z",
+  "generated_utc": "2026-10-02T22:51:04Z",
   "buffer": {
-    "count": 211,
+    "count": 212,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 2,
-    "drafted": 206,
+    "in-progress": 1,
+    "drafted": 207,
     "approved": 5,
     "posted": 29,
     "failed": 1
@@ -4281,19 +4281,19 @@
     },
     {
       "id": "vk-0242",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Максимален залог при активен бонус (max bet правило): защо голям залог анулира бонуса",
       "keywords_or_terms": "максимален залог при бонус, max bet бонус казино, анулиран бонус голям залог, правило за максимален залог бонус",
       "volume": "",
       "kd": "",
       "source": "research",
-      "drafted_date": "",
+      "drafted_date": "2026-10-02",
       "posted_date": "",
       "folder": "2026-10-02-maksimalen-zalog-pri-bonus",
-      "pr": "",
-      "gemini": "",
-      "notes": "3rd fire 2026-10-02 selection; bonus-education pillar — защо T&C ограничават залога при отиграване (~€5) и как нарушението анулира печалбата; distinct от wagering pillar vk-0001/kak-raboti-razigravaneto (max-bet клауза, не множителят); dedup clean; checked=web (Ahrefs reset 2026-10-15); src=research candidate",
+      "pr": "#261",
+      "gemini": "human 85",
+      "notes": "НОВ bonus-education guide за правилото за максимален залог при активен бонус: какво е (таван ~€5 на завъртане, диапазон €2-€10, или 15% плаващ), защо (дисперсия: 1 голям залог=късмет, 1 400 малки=статистика срещу теб), как се нарушава по невнимание (autoplay/ante/bonus-buy/% от баланса), какво следва, как да не го нарушите; + принос на игрите (10%/0% удължава оборота). Distinct от wagering pillar vk-0001 (линкнат). drafted 2026-10-02; editorial signed Георги Тодоров; ~890 думи тяло; превъртане с база навсякъде (x35 депозит+бонус); gate 92/100 0-crit; 0 em-dash; 0 in-text flags (числа примерни; maths rechecked: 200x35=7000, /5=1400, 15% от 40=6; бележки в 06-verification); Gemini Step-7 ONLINE human 85 PASS (3 checks, 2 humaniser passes: HL 25-35-85, kept pass2; махнати X-not-Y contrast overuse + reflexive-passive + micro-story hook); img:2 (SVG max-bet infographic + capped-chip hero, Gemini review 85 PASS, 0 integrity); вътрешни: kak-raboti-razigravaneto/bonus-pri-registraciya/welcome-bonus/otgovorna-igra; no operator/НАП, без афилиейт; checked=web (Ahrefs reset 2026-10-15); src=research candidate used; PR #261",
       "opportunity": null
     },
     {
@@ -8098,7 +8098,7 @@
       "trend": "",
       "checked": "web",
       "suggestion": "НОВ bonus-education candidate (replenish 2nd fire 2026-10-02, замества used vk-0239). Непокрит pillar: защо T&C ограничават залога при отиграване (често около €5) и как нарушението анулира печалбата. Distinct от превъртане/wagering guides — тук фокусът е max-bet клаузата, не множителят/базата. Generic bonus-T&C концепция, БЕЗ конкретен оператор. checked=web, чака Ahrefs reset.",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-10-02",
       "opportunity": null
     },
