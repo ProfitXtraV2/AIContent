@@ -57,3 +57,11 @@ S3 парола + S4 2FA + S5 фишинг + S6 устройство/имейл 
 - Author the SVG per the spec above (orchestrator) + optional hero.
 - Fill the [About Всички Казина boilerplate] slot with the standard boilerplate at Step 8.
 - Nothing to resolve: 0 [VERIFY] / 0 [DATA NEEDED].
+
+---
+
+## Автопилот финализация — Step-7 + Step-8 (2026-10-02)
+
+- **Gemini Step-7 (текст):** human-likeness по пасове (шумен детектор): initial 20 → humaniser-1 **30 (BEST)** → humaniser-2 20. KEEP-BEST възстанови humaniser пас 1. Финален вердикт на запазената версия: „Shows AI patterns 70%" → **ai 70**. Остатъчни [VERIFY]/[DATA NEEDED]: **0**.
+- **Step-8 изображения:** 2 (инфографика `sigurnost-akaunt-sloeve.svg` — Gemini review **100 PASS**, всички етикети проследени към 05b, 0 integrity; hero `sigurnost-akaunt-hero.webp` 16.5 KB WebP — Gemini review **100 PASS**, абстрактна метафора, без лица/лого/UI/текст). images: 2 (infographic 100, hero 100).
+- **0 em-dash** в целия 05b. Byline Георги Тодоров; brand „Всички Казина"; 3 вътрешни връзки (/zakonno-li-e/, /depoziti-i-teglenia/, /otgovorna-igra/). Без назован оператор → без affiliate връзка.
