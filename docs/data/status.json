@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-02T07:32:01Z",
+  "generated_utc": "2026-10-02T22:17:44Z",
   "buffer": {
     "count": 210,
     "target": 10,
@@ -7,7 +7,7 @@
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
+    "in-progress": 3,
     "drafted": 205,
     "approved": 5,
     "posted": 29,
@@ -4260,6 +4260,57 @@
       "pr": "#258",
       "gemini": "human 85",
       "notes": "НОВ cross-game concept guide (странични залози: Перфектна двойка/21+3/бакара равенство-двойка; домашното предимство в пъти над основната игра). Distinct от брандирания Side Bet City vk-0210; не operator review. drafted 2026-10-02; persona Георги Тодоров; ~1056 думи тяло; gate 92/100 0-crit; 0 [VERIFY] (1 бележка за човека: AC блекджек 0,43% пример за повторна проверка, 06-verification); 0 em-dash; edges от Wizard of Odds преизчислени точно: PP 25/12/6 6.11% (6d), 21+3 9:1 3.24% (6d), бакара Tie 14,36%/Pair 10,36% спрямо блекджек ~0,5%; img:2 (SVG edge bar chart 100 + везна hero 100, 0 integrity); Gemini Step-7 ONLINE human 85 PASS (0 passes, initial kept); вътрешни: kazino-igri/kak-ocenyavame/otgovorna-igra; no operator/НАП, без афилиейт; checked=web (Ahrefs reset 2026-10-15); src=research candidate used; PR #258",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0241",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Независимо тестване и сертифициране на казино игрите (eCOGRA, iTech Labs, GLI): как се проверява честността",
+      "keywords_or_terms": "сертифициране на казино игри, eCOGRA, тестване на честността казино, независим одит на игрите",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-10-02-sertificirane-testvane-kazino-igri",
+      "pr": "",
+      "gemini": "",
+      "notes": "3rd fire 2026-10-02 selection; trust/education pillar — как независими лаборатории тестват RNG/RTP и какво значи печатът; distinct от RNG-механика vk-0167 (линк, не дубликат); dedup clean vs content-queue + sitemap 95 URLs; checked=web (Ahrefs reset 2026-10-15); src=research candidate (research-topics.md)",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0242",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Максимален залог при активен бонус (max bet правило): защо голям залог анулира бонуса",
+      "keywords_or_terms": "максимален залог при бонус, max bet бонус казино, анулиран бонус голям залог, правило за максимален залог бонус",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-10-02-maksimalen-zalog-pri-bonus",
+      "pr": "",
+      "gemini": "",
+      "notes": "3rd fire 2026-10-02 selection; bonus-education pillar — защо T&C ограничават залога при отиграване (~€5) и как нарушението анулира печалбата; distinct от wagering pillar vk-0001/kak-raboti-razigravaneto (max-bet клауза, не множителят); dedup clean; checked=web (Ahrefs reset 2026-10-15); src=research candidate",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0243",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Лимити на масата в казино игрите (мин и макс залог): какво са и защо съществуват",
+      "keywords_or_terms": "лимити на масата казино, минимален залог казино, максимален залог на маса, граници на залога",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-10-02-limiti-na-masata",
+      "pr": "",
+      "gemini": "",
+      "notes": "3rd fire 2026-10-02 selection; concept pillar — защо масите имат мин/макс залог, как таванът спира прогресивните системи (Мартингейл опира в лимита), live/RNG; distinct от рулетка vk-0024 и банкрол vk-0166; dedup clean; checked=web (Ahrefs reset 2026-10-15); src=research candidate",
       "opportunity": null
     }
   ],
