@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-label="При RTP 96 процента от 1000 евро оборот се връщат около 960 евро, а около 40 евро остават като домашно предимство за казиното">
+  <rect x="12" y="12" width="696" height="276" rx="16" fill="#f7f9fc" stroke="#d7dee8" stroke-width="1.5"/>
+  <text x="36" y="44" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#1f2a37">От €1 000 оборот при RTP 96%</text>
+
+  <text x="684" y="84" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#b4453b">≈ €40 за казиното (домашно предимство)</text>
+  <line x1="671" y1="88" x2="671" y2="96" stroke="#b4453b" stroke-width="1.5"/>
+
+  <rect x="36" y="96" width="622.08" height="56" rx="6" fill="#2f8f6b"/>
+  <rect x="658.08" y="96" width="25.92" height="56" rx="3" fill="#cf5b50"/>
+  <text x="347" y="130" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#ffffff">≈ €960 връщане</text>
+
+  <text x="36" y="196" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#2b3647">Независимата лаборатория проверява, че RTP е верен.</text>
+  <text x="36" y="220" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#2b3647">Домашното предимство остава вградено в числото.</text>
+
+  <text x="36" y="268" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#6b7686">Числата са примерни при RTP 96%. · 18+ Играйте отговорно</text>
+</svg>
