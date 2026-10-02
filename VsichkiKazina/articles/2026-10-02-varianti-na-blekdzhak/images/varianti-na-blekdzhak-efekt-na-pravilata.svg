@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" width="760" height="560" role="img" aria-labelledby="t d" font-family="Arial, Helvetica, sans-serif">
+<title id="t">Ефект на правилата върху възвръщаемостта на играча при блекджек</title>
+<desc id="d">Хоризонтални ленти: едно тесте +0,48%, късно предаване +0,08%, европейски без hole card -0,11%, удвояване само на 10 и 11 -0,18%, дилърът тегли на soft 17 -0,22%, блекджек 7:5 -0,45%, блекджек 6:5 -1,39%, блекджек 1:1 -2,27%.</desc>
+<rect x="0" y="0" width="760" height="560" rx="12" fill="#ffffff"/>
+<text x="24" y="42" font-size="22" font-weight="700" fill="#1a2433">Как правилата местят предимството на казиното</text>
+<text x="24" y="66" font-size="14" fill="#475467">Ефект върху възвръщаемостта на играча, спрямо база:</text>
+<text x="24" y="85" font-size="14" fill="#475467">осем тестета, стоп на soft 17, удвояване след раздвояване</text>
+<line x1="300" y1="104" x2="300" y2="446" stroke="#98a2b3" stroke-width="1.5"/>
+<text x="24" y="125" font-size="15" fill="#1a2433">Едно тесте</text>
+<rect x="302" y="106" width="72.0" height="26" rx="3" fill="#1f7a4d"/>
+<text x="384.0" y="125" font-size="15" font-weight="700" fill="#1f7a4d">+0,48%</text>
+<text x="24" y="169" font-size="15" fill="#1a2433">Късно предаване</text>
+<rect x="302" y="150" width="12.0" height="26" rx="3" fill="#1f7a4d"/>
+<text x="324.0" y="169" font-size="15" font-weight="700" fill="#1f7a4d">+0,08%</text>
+<text x="24" y="213" font-size="15" fill="#1a2433">Европейски (без hole card)</text>
+<rect x="302" y="194" width="16.5" height="26" rx="3" fill="#b42318"/>
+<text x="328.5" y="213" font-size="15" font-weight="700" fill="#b42318">-0,11%</text>
+<text x="24" y="257" font-size="15" fill="#1a2433">Удвояване само на 10 и 11</text>
+<rect x="302" y="238" width="27.0" height="26" rx="3" fill="#b42318"/>
+<text x="339.0" y="257" font-size="15" font-weight="700" fill="#b42318">-0,18%</text>
+<text x="24" y="301" font-size="15" fill="#1a2433">Дилърът тегли на soft 17</text>
+<rect x="302" y="282" width="33.0" height="26" rx="3" fill="#b42318"/>
+<text x="345.0" y="301" font-size="15" font-weight="700" fill="#b42318">-0,22%</text>
+<text x="24" y="345" font-size="15" fill="#1a2433">Блекджек 7:5</text>
+<rect x="302" y="326" width="67.5" height="26" rx="3" fill="#b42318"/>
+<text x="379.5" y="345" font-size="15" font-weight="700" fill="#b42318">-0,45%</text>
+<text x="24" y="389" font-size="15" fill="#1a2433">Блекджек 6:5</text>
+<rect x="302" y="370" width="208.5" height="26" rx="3" fill="#b42318"/>
+<text x="520.5" y="389" font-size="15" font-weight="700" fill="#b42318">-1,39%</text>
+<text x="24" y="433" font-size="15" fill="#1a2433">Блекджек 1:1</text>
+<rect x="302" y="414" width="340.5" height="26" rx="3" fill="#b42318"/>
+<text x="652.5" y="433" font-size="15" font-weight="700" fill="#b42318">-2,27%</text>
+<rect x="24" y="460" width="12" height="12" rx="2" fill="#1f7a4d"/><text x="44" y="470" font-size="13" fill="#475467">в полза на играча</text>
+<rect x="190" y="460" width="12" height="12" rx="2" fill="#b42318"/><text x="210" y="470" font-size="13" fill="#475467">във вреда на играча</text>
+<text x="24" y="496" font-size="13" fill="#475467">Примерни при посочените правила, дългосрочна статистика.</text>
+<text x="24" y="516" font-size="13" fill="#475467">Източник: Wizard of Odds. 18+ Играйте отговорно.</text>
+</svg>
