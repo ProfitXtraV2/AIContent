@@ -53,3 +53,11 @@ Caption in 05b: „Типични стойности на домашното п�
 
 ## NUMBER-DIFF ACROSS STAGES (02 → 03 → 04 → 05b)
 No house-edge or RTP figure changed, appeared, or disappeared between stages. Step 3 (humaniser) changes were structural only (removed „Първо/Второ" counting; ASCII hyphen in the RTP formula) and added one no-number hub section (edge vs волатилност). All ten edge values + the four € figures are identical in every stage.
+
+---
+
+## Автопилот финализация — Step-7 + Step-8 (2026-10-02)
+
+- **Gemini Step-7 (текст):** human-likeness: initial 25 → humaniser-1 **85 PASS**. Вердикт „Likely human-written 85%" → **human 85**. Остатъчни [VERIFY]/[DATA NEEDED]: **0**. Всички стойности на домашното предимство са типични/примерни, сверени с Wizard of Odds + PokerNews (00-brief/06); RTP = 100% - предимство е вярно на всеки ред; €100 примерът се проверява.
+- **Step-8 изображения:** 2 (инфографика `domashno-predimstvo-po-igri.svg` — хоризонтална диаграма, 7 бара, всяка стойност проследена към таблицата в 05b; review 95 → 95 → **100 PASS** след 2 fix паса, 0 integrity; hero `domashno-predimstvo-hero.webp` 15.8 KB WebP — review **85 PASS**, абстрактна метафора, без лица/лого/UI/глорификация). images: 2 (infographic 100, hero 85).
+- **0 em-dash** в целия 05b. Byline Георги Тодоров; 4 вътрешни връзки (/kazino-igri/, /kak-ocenyavame/, /zakonno-li-e/, /otgovorna-igra/). Comparative hub, distinct от RTP-концепция vk-0006; без оператор/affiliate.
