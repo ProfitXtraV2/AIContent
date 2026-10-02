@@ -1,0 +1,11 @@
+# log.md — kripto-bitkoin-kazino (vk-0233)
+- 00-brief: web-researched crypto-payment + regulation sources (5); scope IN (education, no operator/НАП, no crypto op named).
+- 01/01.5: thesis = two-halves answer; licence-first; 4 live links.
+- 02-author: Георги Тодоров persona draft.
+- 03-humaniser: style fixes; one natural RG touch; untouchables kept.
+- 04-seo: title/meta/headings tuned; ~860 words.
+- 05-brand-gate: PASS WITH FIXES (see 05-gate-report.md), 0 criticals.
+- 05b: locked.
+- 07-gemini (Step 7): see 07-gemini-check-*.md.
+- 08-images (Step 8): 1 SVG (kripto-riskove-kazino.svg) + 1 AI hero; see 08-image-review-*.md.
+- NUMBER DIFF: 0 figures asserted → nothing to diff; 0 fabricated numbers.
