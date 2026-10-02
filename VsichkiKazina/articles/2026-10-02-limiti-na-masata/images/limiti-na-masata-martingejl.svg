@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 260" role="img" aria-label="Мартингейл: залозите се удвояват 10, 20, 40, 80, 160, 320 евро; седмият залог 640 евро надхвърля тавана на масата от 500 евро и поредицата спира">
+  <rect x="12" y="12" width="736" height="236" rx="16" fill="#f7f9fc" stroke="#d7dee8" stroke-width="1.5"/>
+  <text x="40" y="44" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#1f2a37">Мартингейл: удвояване до тавана на масата</text>
+
+  <rect x="40"  y="72" width="82" height="44" rx="8" fill="#2f8f6b"/>
+  <rect x="136" y="72" width="82" height="44" rx="8" fill="#2f8f6b"/>
+  <rect x="232" y="72" width="82" height="44" rx="8" fill="#2f8f6b"/>
+  <rect x="328" y="72" width="82" height="44" rx="8" fill="#2f8f6b"/>
+  <rect x="424" y="72" width="82" height="44" rx="8" fill="#2f8f6b"/>
+  <rect x="520" y="72" width="82" height="44" rx="8" fill="#2f8f6b"/>
+  <rect x="616" y="72" width="82" height="44" rx="8" fill="#cf5b50"/>
+
+  <text x="81"  y="100" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#ffffff">€10</text>
+  <text x="177" y="100" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#ffffff">€20</text>
+  <text x="273" y="100" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#ffffff">€40</text>
+  <text x="369" y="100" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#ffffff">€80</text>
+  <text x="465" y="100" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#ffffff">€160</text>
+  <text x="561" y="100" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#ffffff">€320</text>
+  <text x="657" y="100" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#ffffff">€640</text>
+
+  <text x="657" y="134" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#b4453b">✗ над €500</text>
+
+  <text x="40" y="162" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1f2a37">таван на масата: €500</text>
+  <text x="40" y="188" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#2b3647">Шест загуби подред: заложени €630, за да се върнат €10.</text>
+  <text x="40" y="210" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#2b3647">Седмият залог €640 надхвърля тавана €500 и поредицата спира.</text>
+
+  <text x="40" y="236" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#6b7686">Начален залог €10, удвояване след всяка загуба. Числата са примерни. · 18+</text>
+</svg>
