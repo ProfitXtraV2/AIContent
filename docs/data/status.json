@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-03T07:11:58Z",
+  "generated_utc": "2026-10-03T08:48:30Z",
   "buffer": {
-    "count": 216,
+    "count": 219,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 211,
+    "drafted": 214,
     "approved": 5,
     "posted": 29,
     "failed": 1
@@ -4363,6 +4363,57 @@
       "gemini": "human 85",
       "notes": "drafted 2026-10-03 (1st fire); NEW distinct mechanic pillar (uncovered — no query in queue); ретригер = още scatter/trigger символи ПО ВРЕМЕ на FS добавят/рестартират завъртания; честен ъгъл: удължава рунда и вдига размаха, но НЕ мести шансове/RTP (вече в математиката); правила игро-зависими (фиксиран add/reset/cap/по-малко scatter-и), без универсално число; distinct от scatter/bonus-trigger vk-0056 (първо задействане), множители vk-0057, max-win vk-0238; gate 92/100 0-crit; Gemini Step-7 ONLINE HL 75→85 PASS pass1 (1 humaniser pass, kept best); 0 em-dash; 0 in-text flags (всички примерни; recalc in 06: 10+5=15, брояч 6→11); img:2 (SVG infographic 100 numbers-verbatim + decorative hero 100, 0 integrity); вътрешни: slot-igri-visok-rtp/kak-ocenyavame/otgovorna-igra; no operator/НАП, без афилиейт; ~840 думи; checked=web (Ahrefs reset 2026-10-15); src=research (new discovery); PR #265",
       "opportunity": null
+    },
+    {
+      "id": "vk-0247",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Мистерия символи (mystery symbols) в слотовете: как се разкриват",
+      "keywords_or_terms": "мистерия символ слот, mystery symbol слот, скрит символ ротативка, разкриване на символи",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-10-03",
+      "posted_date": "",
+      "folder": "2026-10-03-misteriya-simvoli-slot",
+      "pr": "#266",
+      "gemini": "human 85",
+      "notes": "drafted 2026-10-03 (2nd fire); research candidate used; generic slot-mechanic concept pillar (mystery symbols fall covered + reveal simultaneously as same symbol → synchronous wins); honest angle: adds dispersion/excitement, does NOT move RTP (frequency baked into math); gate 92/100 0-crit; Gemini Step-7 ONLINE human 85 PASS (first check, 0 humaniser passes, keep-best); 0 em-dash; 0 in-text flags (all €/counts примерни); img:2 (SVG infographic numbers-verbatim + decorative hero, image review best 82 PASS after ALT fix 78→82, 0 integrity); вътрешни: kazino-igri-rotativki/slot-igri-visok-rtp/rechnik-kazino-termini/otgovorna-igra (4, live in sitemap); DISTINCT from mystery JACKPOT vk-0131/vk-0135 (random jackpot award ≠ reel mechanic), scatter vk-0056, wild vk-0055, множители vk-0057; ~858 думи; no operator/НАП, без афилиейт; checked=web (Ahrefs reset 2026-10-15); src=research candidate used; PR #266",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0248",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Избор на режим на безплатните завъртания: повече завъртания срещу по-висок множител",
+      "keywords_or_terms": "избор режим безплатни завъртания, повече спинове или по-голям множител, free spins режими слот",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-10-03",
+      "posted_date": "",
+      "folder": "2026-10-03-izbor-na-rezhim-bezplatni-zavartania",
+      "pr": "#267",
+      "gemini": "human 90",
+      "notes": "drafted 2026-10-03 (2nd fire); research candidate used; generic slot-mechanic concept pillar (bonus-mode choice: more spins × lower multiplier vs fewer spins × higher multiplier); honest angle: modes have near-equal EV (game-dependent), differ only in volatility/dispersion — risk-taste not advantage, does NOT move RTP; gate 92/100 0-crit; Gemini Step-7 ONLINE human 90 PASS (first check, 0 humaniser passes, keep-best); 0 em-dash; 0 in-text flags (all €/counts/multipliers примерни; recalc 20×2=40=5×8); img:2 (SVG infographic numbers-verbatim review 100 + decorative везна hero 100, 0 integrity); вътрешни: slot-igri-visok-rtp/rechnik-kazino-termini/kazino-igri-rotativki/otgovorna-igra (4, live in sitemap); DoA2 named qualitatively only (no exact numbers; sources disagree on RTP); DISTINCT from множители vk-0057, ретригер vk-0246, demo mode vk-0003; ~821 думи; no operator/НАП, без афилиейт; checked=web (Ahrefs reset 2026-10-15); src=research candidate used; PR #267",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0249",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Събиране на символи (collection/персистентна механика) в слотовете: как работи",
+      "keywords_or_terms": "събиране на символи слот, collection механика слот, персистентен символ ротативка, прогрес на екрана слот",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-10-03",
+      "posted_date": "",
+      "folder": "2026-10-03-sabirane-na-simvoli-collection",
+      "pr": "#268",
+      "gemini": "human 85",
+      "notes": "drafted 2026-10-03 (2nd fire); research candidate used; generic slot-mechanic concept pillar (symbols/coins accumulate between spins, unlock reward at threshold = persistent state); honest angle: progress bar holds attention but threshold+reward calibrated into RTP, not a \"due\" win; being close (12/15) doesn't change per-spin odds; gate 92/100 0-crit; Gemini Step-7 ONLINE human 85 PASS (first check, 0 humaniser passes, keep-best); 0 em-dash; 0 in-text flags (all counts примерни: 12/15, оставащи 3); img:2 (SVG progress-bar infographic numbers-verbatim 100 + decorative hero 100, 0 integrity); вътрешни: rechnik-kazino-termini/slot-igri-visok-rtp/kazino-igri-rotativki/otgovorna-igra (4, live in sitemap); DISTINCT from game-specific collection guides vk-0100(Pirots 2)/vk-0102(Gems Bonanza)/vk-0105(Duck Hunters), Hold&Win vk-0051, scatter vk-0056, jackpots; ~823 думи; no operator/НАП, без афилиейт; checked=web (Ahrefs reset 2026-10-15); src=research candidate used; PR #268",
+      "opportunity": null
     }
   ],
   "backlog": [
@@ -8177,7 +8228,7 @@
       "trend": "",
       "checked": "web",
       "suggestion": "НОВ механика-candidate (1st fire 2026-10-03, замества DROPPED cannibalizing candidate „рискова игра/gamble\" — вече покрит от vk-0177 „Gamble/Double функция\" PR #194, drop per anti-cannibalization). Непокрит standalone pillar: мистерия символите падат закрити и се разкриват едновременно като един и същ символ (всички стават еднакви) → синхронни печалби; срещат се само в контекста на джакпот-игри (vk Jackpot Cards/Clover Chance) и Razor Shark Mystery Stacks, но generic механиката няма собствен pillar. Честен ъгъл: добавя дисперсия/вълнение, не мести RTP. Distinct от scatter vk-0056, wild vk-0055, множители vk-0057. Generic, БЕЗ оператор/НАП. checked=web, чака Ahrefs reset 2026-10-15.",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-10-03",
       "opportunity": null
     },
@@ -8191,7 +8242,7 @@
       "trend": "",
       "checked": "web",
       "suggestion": "НОВ механика-candidate (1st fire 2026-10-03, замества DROPPED cannibalizing candidate „автоматична игра/autoplay\" — вече покрит от vk-0061 „Автоматично завъртане (autoplay)\" PR #77, drop per anti-cannibalization). Непокрит pillar: когато играта предлага избор на бонус-режим (напр. 10 спина × по-висок множител срещу повече спинове × по-малък множител, тип Dead or Alive 2 трите режима); честен ъгъл: двата режима имат близък/еднакъв EV, различават само дисперсията — изборът е за риск-вкус, не за предимство. Distinct от множители vk-0057, ретригер vk-0246, волатилност/RTP vk. Generic, БЕЗ оператор/НАП. checked=web, чака Ahrefs reset 2026-10-15.",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-10-03",
       "opportunity": null
     },
@@ -8219,7 +8270,7 @@
       "trend": "",
       "checked": "web",
       "suggestion": "НОВ механика-candidate (1st fire 2026-10-03, net-нов за да расте банката след 1 used + 2 dropped cannibalizing). Непокрит generic pillar: символи/монети се трупат между завъртанията и отключват награда/бонус при праг (persistent state); среща се в конкретни игри (Duck Hunters, Gems Bonanza, Pirots 2) но без собствен concept-pillar. Честен ъгъл: прогрес-лентата държи вниманието, но прагът и наградата са калибрирани в RTP — не е „дължима\" печалба. Distinct от Hold&Win/respin vk, scatter vk-0056, джакпоти. Generic, БЕЗ оператор/НАП. checked=web, чака Ahrefs reset 2026-10-15.",
-      "status": "candidate",
+      "status": "used",
       "date_researched": "2026-10-03",
       "opportunity": null
     },
@@ -8248,6 +8299,48 @@
       "checked": "web",
       "suggestion": "USED 2026-10-03 → vk-0246 (PR #265). Distinct mechanic pillar; честен ъгъл: още scatter/trigger символи по време на FS добавят/рестартират завъртания, удължава рунда но НЕ мести RTP/шансове. Distinct от scatter vk-0056 (първо задействане).",
       "status": "used",
+      "date_researched": "2026-10-03",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Печалби в двете посоки (win both ways / pay both ways) в слотовете: как работят",
+      "researched_keywords": "печалби в двете посоки, win both ways слот, pay both ways, печели отляво и отдясно",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "НОВ механика-candidate (2nd fire 2026-10-03, replenish след 3 used/бан. празен). Непокрит generic pillar: някои ротативки плащат печеливши комбинации И отляво-надясно, И отдясно-наляво (двупосочно изплащане, тип Starburst), което ~удвоява шансовете за ред спрямо едностранните линии при същата математика. Честен ъгъл: не е предимство за играча - RTP вече калкулиран с двете посоки; просто различен модел на изплащане. Distinct от линии vk-0017, Megaways vk-0041, ways-to-win. Няма hit в queue (249) нито sitemap (95 URL, 03.10.2026). Generic, БЕЗ оператор/НАП. checked=web, чака Ahrefs reset 2026-10-15.",
+      "status": "candidate",
+      "date_researched": "2026-10-03",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Избор-бонус (pick-and-click / pick 'em) в слотовете: как работи бонус играта с избиране",
+      "researched_keywords": "избор бонус слот, pick бонус, pick and click слот, избери и спечели бонус, pick me бонус",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "НОВ механика-candidate (2nd fire 2026-10-03, replenish). Непокрит generic pillar: бонус игра, в която избираш скрити обекти (сандъци/карти), всеки разкрива моментална награда/множител/брой завъртания, докато не удариш 'collect/stop'. Честен ъгъл: усещане за контрол/умение, но резултатите са предварително RNG-зададени - изборът не влияе на очакваната стойност, наградите са калибрирани в RTP. Distinct от мистерия символи vk-0247 (разкриване на барабана), scatter vk-0056, collection vk-0249. Няма hit в queue/sitemap (03.10.2026). Generic, БЕЗ оператор/НАП. checked=web, чака Ahrefs reset 2026-10-15.",
+      "status": "candidate",
+      "date_researched": "2026-10-03",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Гигантски/свързани символи (colossal / giant symbols) в слотовете: как работят",
+      "researched_keywords": "гигантски символи слот, colossal символи, giant symbols слот, голям символ ротативка, свързани символи",
+      "volume": "",
+      "kd": "",
+      "intent": "informational",
+      "trend": "",
+      "checked": "web",
+      "suggestion": "НОВ механика-candidate (2nd fire 2026-10-03, replenish). Непокрит generic pillar: символи с размер над 1x1 (2x2, 3x3 или цял барабан), които покриват няколко позиции наведнъж и броят като множество символи за комбинации (тип Colossal Reels / giant symbol). Честен ъгъл: усилва дисперсията и усещането за 'едър' екран, но не мести RTP - честотата на гигантския символ е зашита в математиката. Distinct от wild vk-0055, разширяващ се символ (game-specific vk-0086/0090/0093), Megaways vk-0041. Няма hit в queue/sitemap (03.10.2026). Generic, БЕЗ оператор/НАП. checked=web, чака Ahrefs reset 2026-10-15.",
+      "status": "candidate",
       "date_researched": "2026-10-03",
       "opportunity": null
     }
