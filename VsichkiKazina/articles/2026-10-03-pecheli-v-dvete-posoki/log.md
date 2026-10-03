@@ -1,0 +1,14 @@
+# LOG — vk-0250 · Печалби в двете посоки (win both ways / pay both ways) · 2026-10-03
+
+- 00 brief: assembled from template; web-search + corroborated universal mechanic from 4 reachable sources (VegasSlotsOnline win-both-ways, chasethescatter guide, pokernews paylines + RTP). Guide, persona Георги Тодоров. No operator/НАП facts, no affiliate.
+- 01 synthesis: 7 corroborated universal facts; honest core = двупосочността е вече в RTP → не е предимство, мести структурата не сумата. 0 [VERIFY] in prose (no named-game number). Persona: Георги Тодоров.
+- 01.5 outline: H1 + 4 sections (uneven shapes); definition-first open; asymmetric verdict close; infographic beside the worked example; 4 approved internal links planned.
+- 02 author (persona): numbers-first dry draft ~880w; no Протокол block; 0 em-dash; no fabricated anecdote; Starburst named as example only (no number).
+- 03 humaniser: de-balanced symmetric ляво/дясно mirror + both-sides outro → asymmetric verdict; varied lengths; preserved numbers/links/18+/dates/brand.
+- 04 SEO: title 47 chars, meta 145; query in title/H1/first-100/one H2/meta once; substance added (compensation mechanisms; посоката ≠ връщане) → ~890w; 4 approved links kept, LIVE in sitemap.
+- 05 brand gate: PASS 92/100, zero criticals. Verbatim RG + affiliate footers in place (About slot named). Illustrative maths consistent. No [VERIFY]/[DATA NEEDED].
+- 05b light re-check: 0 em-dashes (grep); en-dash only in verbatim 10:00–17:00; no signposting lead-ins; no banned connectives; no tables/bullet lists to convert; final draft locked (hero + infographic referenced, caption added).
+- 07 gemini check 1: ONLINE (gemini-3.1-pro-preview), „Likely human-written, 85% confidence" → HL 85 ≥ 80 → PASS on first check. 0 humaniser passes. Keep-best = initial 05b (85). Board: human 85. Residual suggestions not applied (брандова consumer-protection доктрина + regression risk).
+- 08 images: SVG infographic (линия, четена 1-2-3 ляво и 5-4-3 дясно; positions verbatim from 05b; cairosvg render eyeballed clean — 5 cells/row, 2-way arrows, no overlap/clip, review 100) + decorative hero (5 identical tiles + two straight 2-way arrows metaphor; WebP). Review 1: hero 60 (mixed symbols/crossing arrows) → regenerated pass 1 fix → Review 2: 100 PASS both, 0 integrity failures. Kept hero pass 2.
+- 06 verification: 0 surviving flags; claims-to-confirm table (7, source URLs); illustrative-numbers table; recalculation shown; compliance spot-check (em-dash 0, images 2 @100); anti-cannibalization + sitemap check (03.10.2026, no both-ways pillar exists).
+- images: 2 (infographic 100, hero 100). em-dash count: 0. body ~890 words. internal links: 4 (/blog/starburst/, /slot-igri/visok-rtp/, /kazino-igri/rotativki/, /otgovorna-igra/). Gemini: human 85 (0 humaniser passes, kept). No 429.
