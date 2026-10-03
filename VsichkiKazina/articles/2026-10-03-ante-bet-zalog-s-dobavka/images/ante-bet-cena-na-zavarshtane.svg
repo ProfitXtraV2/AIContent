@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" width="640" height="300" role="img" aria-label="Цена на завъртане: без добавка €0,40 срещу с добавка +25% €0,50; при 200 завъртания €80 срещу €100, тоест €20 повече, без промяна в RTP (илюстративни числа)">
+  <title>Ante bet: по-висок залог на завъртане, без промяна в RTP</title>
+  <defs>
+    <linearGradient id="bgA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+    <linearGradient id="barBase" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0891b2"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="barAnte" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="300" rx="12" ry="12" fill="url(#bgA)"/>
+
+  <text x="320" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="#1e3a5f" text-anchor="middle">Цена на завъртане с добавка (+25%)</text>
+  <text x="320" y="56" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle" font-style="italic">Числата са илюстративни · добавката не мести RTP · 18+</text>
+
+  <!-- Scenario 1: без добавка -->
+  <rect x="24" y="82" width="592" height="62" rx="8" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="1"/>
+  <text x="40" y="104" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#0369a1">Без добавка</text>
+  <text x="600" y="104" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="800" fill="#0369a1" text-anchor="end">€0,40 на завъртане</text>
+  <rect x="40" y="112" width="300" height="22" rx="5" fill="url(#barBase)"/>
+
+  <!-- Scenario 2: с добавка -->
+  <rect x="24" y="158" width="592" height="62" rx="8" fill="#fff7ed" stroke="#f97316" stroke-width="1"/>
+  <text x="40" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#c2410c">С добавка (+25%)</text>
+  <text x="600" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="800" fill="#c2410c" text-anchor="end">€0,50 на завъртане</text>
+  <rect x="40" y="188" width="375" height="22" rx="5" fill="url(#barAnte)"/>
+
+  <!-- Session summary -->
+  <rect x="24" y="232" width="592" height="44" rx="6" fill="#fef9c3" stroke="#fbbf24" stroke-width="1"/>
+  <text x="320" y="252" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#92400e" text-anchor="middle">200 завъртания: €80 без добавка срещу €100 с нея</text>
+  <text x="320" y="270" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#b45309" text-anchor="middle">€20 повече за същия брой завъртания; RTP не се мести</text>
+</svg>
