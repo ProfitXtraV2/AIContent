@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="720" height="360" font-family="'Segoe UI',Roboto,Arial,sans-serif" role="img" aria-label="Сравнение на RTP при нормална игра и при откупуване на бонус (94.51 процента срещу 94.53 процента) и по-високата волатилност на откупа">
+  <rect x="0" y="0" width="720" height="360" rx="16" fill="#0f1b2d"/>
+  <text x="40" y="50" fill="#f4f7fb" font-size="21" font-weight="700">RTP почти не мърда, волатилността скача</text>
+
+  <!-- RTP bar 1 -->
+  <text x="40" y="88" fill="#9fb4d0" font-size="14">Нормална игра</text>
+  <rect x="40" y="98" width="640" height="26" rx="6" fill="#22324c"/>
+  <rect x="40" y="98" width="540" height="26" rx="6" fill="#4fa3d1"/>
+  <text x="668" y="116" fill="#eaf0f8" font-size="14" font-weight="700" text-anchor="end">94.51%</text>
+
+  <!-- RTP bar 2 -->
+  <text x="40" y="152" fill="#9fb4d0" font-size="14">С откуп на бонуса (BUY)</text>
+  <rect x="40" y="162" width="640" height="26" rx="6" fill="#22324c"/>
+  <rect x="40" y="162" width="540" height="26" rx="6" fill="#57b98a"/>
+  <text x="668" y="180" fill="#eaf0f8" font-size="14" font-weight="700" text-anchor="end">94.53%</text>
+
+  <text x="40" y="214" fill="#9fb4d0" font-size="13.5">Разликата е в рамките на закръглението (пример: Sweet Bonanza 1000).</text>
+
+  <!-- Variance -->
+  <text x="40" y="256" fill="#f4f7fb" font-size="16" font-weight="600">Волатилност на отделния опит</text>
+  <text x="40" y="292" fill="#4fa3d1" font-size="13">Нормална игра</text>
+  <polyline points="150,292 180,286 210,296 240,284 270,298 300,288 330,294" fill="none" stroke="#4fa3d1" stroke-width="2.5"/>
+  <text x="360" y="292" fill="#57b98a" font-size="13">Откуп</text>
+  <polyline points="470,292 500,258 530,300 560,262 590,300 620,266 650,298" fill="none" stroke="#57b98a" stroke-width="2.5"/>
+
+  <text x="40" y="330" fill="#6f86a6" font-size="12">Откупът струпва риска в по-редки, по-едри люлки · числата са примерни · 18+</text>
+</svg>
