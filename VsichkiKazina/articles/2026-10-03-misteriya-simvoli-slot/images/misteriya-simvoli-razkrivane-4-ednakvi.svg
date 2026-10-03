@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-label="Примерно разкриване на мистерия символи: 4 покрити позиции се разкриват едновременно като 4 еднакви символа и подреждат 1 комбинация. Числата са примерни.">
+  <style>
+    .card{fill:#f7f8fa;stroke:#d9dee5;stroke-width:1.5}
+    .title{font-family:'Segoe UI',Arial,sans-serif;font-size:25px;font-weight:700;fill:#1f2733}
+    .sub{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;fill:#6b7684}
+    .num{font-family:'Segoe UI',Arial,sans-serif;font-size:46px;font-weight:700}
+    .lbl{font-family:'Segoe UI',Arial,sans-serif;font-size:15px;fill:#3a4452}
+    .op{font-family:'Segoe UI',Arial,sans-serif;font-size:38px;font-weight:700;fill:#8793a2}
+    .note{font-family:'Segoe UI',Arial,sans-serif;font-size:15px;fill:#3a4452}
+    .tag{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;fill:#6b7684}
+  </style>
+  <rect class="card" x="8" y="8" width="704" height="384" rx="16"/>
+  <text class="title" x="360" y="50" text-anchor="middle">Как се разкрива мистерия символ</text>
+  <text class="sub" x="360" y="78" text-anchor="middle">числата са примерни</text>
+
+  <!-- Block A: покрити -->
+  <rect x="26" y="150" width="200" height="110" rx="12" fill="#eceef1" stroke="#b9c0ca" stroke-width="1.5"/>
+  <text class="num" x="126" y="212" text-anchor="middle" fill="#5b6673">4</text>
+  <text class="lbl" x="126" y="240" text-anchor="middle">покрити позиции</text>
+
+  <text class="op" x="248" y="216" text-anchor="middle">&#8594;</text>
+
+  <!-- Block B: еднакви -->
+  <rect x="270" y="150" width="170" height="110" rx="12" fill="#e8eef5" stroke="#b9c6d6" stroke-width="1.5"/>
+  <text class="num" x="355" y="212" text-anchor="middle" fill="#2b5b8c">4</text>
+  <text class="lbl" x="355" y="240" text-anchor="middle">еднакви символа</text>
+
+  <text class="op" x="462" y="216" text-anchor="middle">=</text>
+
+  <!-- Block C: комбинация -->
+  <rect x="484" y="150" width="210" height="110" rx="12" fill="#dff0e4" stroke="#8ccfa3" stroke-width="1.5"/>
+  <text class="num" x="589" y="212" text-anchor="middle" fill="#2f7d4f">1</text>
+  <text class="lbl" x="589" y="240" text-anchor="middle">комбинация</text>
+
+  <text class="note" x="360" y="312" text-anchor="middle">Разкриват се едновременно като един и същ символ.</text>
+  <text class="tag" x="360" y="352" text-anchor="middle">18+ Играйте отговорно</text>
+</svg>
