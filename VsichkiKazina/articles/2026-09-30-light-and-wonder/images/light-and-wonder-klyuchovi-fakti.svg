@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-label="Ключови факти за Light & Wonder: бивша Scientific Games, основана 1973 г., ново име от 2022 г. с борсов тикер LNW; доставчик B2B, не оператор; студиа под шапката WMS, Bally, Barcrest, Shuffle Master и SG Digital; платформа OpenGaming с десетки външни разработчици; сигнатурни заглавия 88 Fortunes с Fu Bat Jackpot и hold and spin механика и Raging Rhino с 6 барабана и 4096 начина за печалба и RTP около 95.91%; RTP на Dancing Drums в диапазон около 94 до 96 процента според версията">
+  <rect x="8" y="8" width="704" height="544" rx="18" fill="#0f172a"/>
+
+  <text x="32" y="46" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="bold" fill="#f8fafc">Light &amp; Wonder: ключови факти</text>
+  <text x="32" y="70" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#94a3b8">Бивша Scientific Games (основана 1973) · ново име от 2022 г. · тикер LNW</text>
+
+  <rect x="32" y="90" width="320" height="78" rx="12" fill="#111f38"/>
+  <text x="52" y="116" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#cbd5e1">Роля</text>
+  <text x="52" y="148" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#f8fafc">доставчик (B2B) <tspan font-size="13" font-weight="normal" fill="#94a3b8">не оператор</tspan></text>
+
+  <rect x="368" y="90" width="320" height="78" rx="12" fill="#111f38"/>
+  <text x="388" y="116" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#cbd5e1">Платформа</text>
+  <text x="388" y="148" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#f8fafc">OpenGaming <tspan font-size="13" font-weight="normal" fill="#94a3b8">десетки студиа</tspan></text>
+
+  <text x="32" y="204" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Студиа под шапката</text>
+  <text x="32" y="228" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#e2e8f0">WMS · Bally · Barcrest · Shuffle Master · SG Digital</text>
+
+  <text x="32" y="268" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Сигнатурни заглавия</text>
+  <text x="32" y="292" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#e2e8f0"><tspan font-weight="bold" fill="#f8fafc">88 Fortunes</tspan> · Fu Bat Jackpot (hold and spin)</text>
+  <text x="32" y="314" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#e2e8f0"><tspan font-weight="bold" fill="#f8fafc">Raging Rhino</tspan> · 6 барабана · 4096 начина · RTP ~95.91%</text>
+
+  <text x="32" y="356" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">RTP е число, което операторът настройва</text>
+  <rect x="32" y="370" width="656" height="64" rx="12" fill="#111f38"/>
+  <text x="52" y="396" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#cbd5e1">Dancing Drums (според версията)</text>
+  <text x="52" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#4ade80">~94% <tspan fill="#94a3b8" font-size="14" font-weight="normal">до</tspan> ~96%</text>
+
+  <rect x="32" y="450" width="656" height="42" rx="8" fill="#111f38"/>
+  <text x="52" y="468" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#94a3b8">Публично обявени числа (компанията + независими бази); активният RTP се вижда</text>
+  <text x="52" y="484" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#94a3b8">в инфо-панела на конкретното казино. 18+ Играйте отговорно.</text>
+
+  <text x="32" y="524" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#64748b">Лицензи на ниво доставчик (напр. Обединеното кралство, Малта) = одитирана коректност, не предимство за играча.</text>
+</svg>
