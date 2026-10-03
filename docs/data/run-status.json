@@ -4,15 +4,16 @@
   "run_finished_utc": null,
   "articles_written": null,
   "prs_opened": [
-    266
+    266,
+    267
   ],
   "run_url": "https://claude.ai/code/session_019Qv41jwFs8p7sMBTnXZ2Pv",
-  "note": "daily run 2026-10-03 (2nd fire) — 1/3 done (PR #266); writing 2/3 vk-0248 izbor-na-rezhim",
+  "note": "daily run 2026-10-03 (2nd fire) — 2/3 drafted (PR #266 human85, #267 human90); writing 3/3 vk-0249 sabirane-na-simvoli",
   "progress": {
     "phase": "writing",
-    "article_index": 2,
+    "article_index": 3,
     "article_total": 3,
-    "article_slug": "2026-10-03-izbor-na-rezhim-bezplatni-zavartania",
+    "article_slug": "2026-10-03-sabirane-na-simvoli-collection",
     "stages": [
       "Synthesis",
       "Outline",
