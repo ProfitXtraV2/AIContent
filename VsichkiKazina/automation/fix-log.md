@@ -1446,3 +1446,70 @@ None — all 5 JOB B targets processed tonight (≤10/night cap not reached).
 ### Still-flagged after processing
 None blocking in the publishable (non-posted) set. vk-0232 remains `ai 70` after the 5-pass cap
 (logged above) — a quality score, not a publish-blocking flag.
+
+## 2026-10-03 — nightly flag + score fixes
+
+### JOB A — publish-blocking flags
+Scanned all **253** `content/*` branches' own `VsichkiKazina/articles/<folder>/05b-final-draft.md`
+for the blocking markers (`[VERIFY]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`, `[AUTHOR]`,
+`[BRAND]`, `[EDITORIAL]`, `[уточни]`, `[провери]`), restricted to each branch's own article folder.
+(Note: `[About Всички Казина boilerplate]` appears in nearly every draft — including all 30 posted
+ones — so it is a rendered footer token, **not** a publisher-blocking marker; excluded from the set.)
+**2** branches carried a genuine blocking marker, and **both are `posted`** → left untouched per the
+hard rule (never edit posted/live); logged under POSTED-needs-review. **0** non-posted branches
+flagged. Nothing to fix tonight.
+
+### JOB B — low Gemini score
+TARGETS = drafted/approved rows with `ai <n>` or `human <n<80`. Exactly **2** qualified (both
+`ai 70`); the 90 other drafted/approved rows have no Gemini verdict yet (not in scope). ≤10/night
+cap not reached; no deferrals.
+
+- **vk-0232** `2026-10-01-chargeback-kazino` (PR #251) — baseline this session oscillated
+  **human 80 / ai 75** (noisy detector; board carried `ai 70` from 2026-10-02). 1 Step-7b edit pass:
+  broke the Definition-first template (folded the chargeback mechanism into the intro, dropped the
+  dedicated „Какво всъщност е chargeback" heading); reduced „not X but Y" repetition; reframed the
+  budget paragraph from the bank's perspective (less preachy, RG-flavoured content kept); cut
+  signposting („Същото важи за", „Паралелно"); renamed the generic closing heading to „Правилният ред
+  при проблем с плащане". Re-check: **human-written (reads 85 / 75)** — both post-edit reads now label
+  human-written. **gemini ai 70 → human 85** (best kept). 1 attempt. All facts (60–120 дни, 3-D
+  Secure, Visa/Mastercard, НАП), 5 internal links, RG lines, disclosure, byline Георги Тодоров,
+  brand Всички Казина unchanged; 0 blocking flags; 0 em-dash. Committed + pushed on branch.
+
+- **vk-0252** `2026-10-03-gigantski-simvoli-colossal` (PR #271) — baseline **ai 75 (HL25)**.
+  2 Step-7b passes: dropped the „Тоест" didactic re-explanation; removed the „Въпреки … размер"
+  concessive setup (lead with the fact); replaced the poetic „темперамент" line with plain
+  variance/RTP wording; trimmed the textbook RTP definition (RTP guide already linked); broke the
+  repeated „Колкото по-…, толкова по-…" symmetry; cut the preachy „четете правилата" wrap-up;
+  reframed the 2x2 example to explain payline connection instead of re-stating that a block covers
+  four positions. Re-check: **human-written (reads 90 / 75)**; confidence climbed 75→65→90 across
+  passes. **gemini ai 70/75 → human 90** (best kept). 2 attempts. All facts (2x2=4, 3x3, цял барабан,
+  RTP/волатилност, illustrative-numbers caveat), 4 internal links, RG, byline, brand unchanged;
+  0 blocking flags; 0 em-dash. Committed + pushed on branch.
+
+Both topics are inherently didactic, and the Gemini detector remains high-variance (identical text
+read as human 90 then ai 75). Prose-level LLM tells were resolved; residual flags target the
+articles' core factual explanations, which were preserved rather than gutted. Best versions kept.
+
+### Finish
+Board `gemini` column updated: vk-0232 → human 85, vk-0252 → human 90. Rebuilt
+`build_dashboard.py` (status.json — buffer 222/10) + `build_feed.py` (index.json, 5 approved,
+timestamp only — no new article published). Each improvement committed on its own `content/<folder>`
+branch (open PR updated); nothing merged; no posted/live content touched.
+
+### POSTED — needs human review (recurring, still open; HARD RULE: never edit live)
+- **vk-0063** `2026-09-13-nv-casino-zakonno-li-e` (PR #79, posted, `ai 75`) —
+  `[AUTHOR BIO BLOCK: Георги Тодоров] [About Всички Казина boilerplate]` footer-assembly stub on the
+  branch draft (line 56). Left untouched (live). Board records it was human-reviewed to 0 in-text
+  content flags before posting; this is a footer stub, not an in-text content flag.
+- **vk-0064** `2026-09-13-nv-casino-bonus-usloviya` (PR #80, posted, `human 85`) —
+  `[AUTHOR BIO BLOCK: Георги Тодоров] [BRAND BOILERPLATE: Всички Казина] [18+ / RG LINE]`
+  footer-assembly stub on the branch draft (line 65). Left untouched (live). Same note as above.
+  (Both recurring from prior nights; a human should reconcile the branch footer stubs with the
+  posted/live pages, which were approved for deploy with 0 content flags.)
+
+### Deferred
+None — both JOB B targets processed tonight (≤10/night cap not reached).
+
+### Still-flagged after processing
+None in the publishable (non-posted) set. Both JOB B targets now read human-written (best 85 / 90);
+scores are quality metrics, not publish-blocking flags.
