@@ -7,12 +7,12 @@
     266
   ],
   "run_url": "https://claude.ai/code/session_019Qv41jwFs8p7sMBTnXZ2Pv",
-  "note": "daily run 2026-10-03 (2nd fire) — 1/3 drafted vk-0247 (PR #266, gate 92, human 85, img:2 82); writing 2/3 vk-0248",
+  "note": "daily run 2026-10-03 (2nd fire) — 1/3 done (PR #266); writing 2/3 vk-0248 izbor-na-rezhim",
   "progress": {
     "phase": "writing",
-    "article_index": 1,
+    "article_index": 2,
     "article_total": 3,
-    "article_slug": "2026-10-03-misteriya-simvoli-slot",
+    "article_slug": "2026-10-03-izbor-na-rezhim-bezplatni-zavartania",
     "stages": [
       "Synthesis",
       "Outline",
@@ -25,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 9,
-    "stage": "PR"
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
