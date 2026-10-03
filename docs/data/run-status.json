@@ -5,12 +5,12 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01K3ETzU4jQwpvwjxri7XjWs",
-  "note": "daily run 2026-10-03 (1st fire) — vk-0244 drafted (PR #263), writing vk-0245",
+  "note": "daily run 2026-10-03 (1st fire) — vk-0244 (PR#263), vk-0245 (PR#264) drafted; writing vk-0246",
   "progress": {
     "phase": "writing",
-    "article_index": 2,
+    "article_index": 3,
     "article_total": 3,
-    "article_slug": "2026-10-03-ante-bet-zalog-s-dobavka",
+    "article_slug": "2026-10-03-retriger-bezplatni-zavartania",
     "stages": [
       "Synthesis",
       "Outline",
