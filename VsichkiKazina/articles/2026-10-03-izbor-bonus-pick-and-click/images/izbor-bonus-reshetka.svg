@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-label="Примерна решетка за избор-бонус: шест еднакви обекта, зад които стойностите са зададени преди избора. Един разкрива награда, един показва стоп; останалите са затворени. Числата и подредбата са примерни.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-label="Примерна решетка за избор-бонус: шест еднакви обекта, зад които стойностите са зададени преди избора. Един разкрива множител, един показва стоп; останалите са затворени. Числата и подредбата са примерни.">
   <style>
     .card{fill:#f7f8fa;stroke:#d9dee5;stroke-width:1.5}
     .title{font-family:'Segoe UI',Arial,sans-serif;font-size:23px;font-weight:700;fill:#1f2733}
@@ -26,7 +26,7 @@
   <!-- box 2 revealed: награда -->
   <rect class="boxwin" x="258" y="120" width="96" height="92" rx="8"/>
   <text class="ic"  x="306" y="168" text-anchor="middle">★</text>
-  <text class="win" x="306" y="196" text-anchor="middle">награда</text>
+  <text class="win" x="306" y="196" text-anchor="middle">множител</text>
   <!-- box 3 closed -->
   <rect class="box" x="366" y="120" width="96" height="92" rx="8"/>
   <text class="q" x="414" y="177" text-anchor="middle">?</text>
