@@ -5,7 +5,7 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_0131VdCjKjEDbZUn8kZqNH5c",
-  "note": "3rd fire 2026-10-03 — writing article 1/3: печалби в двете посоки",
+  "note": "3rd fire — article 1/3 at Images (text PASS human 85)",
   "progress": {
     "phase": "writing",
     "article_index": 1,
@@ -23,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "stage_index": 7,
+    "stage": "Images"
   }
 }
