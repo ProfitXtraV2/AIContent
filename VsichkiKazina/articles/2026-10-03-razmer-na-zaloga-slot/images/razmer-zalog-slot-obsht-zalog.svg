@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 390" width="760" height="390" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" role="img" aria-label="Общият залог = стойност на монета по ниво на залог по брой линии; пример 0,05 по 2 по 20 = 2,00 евро; и 0,40 евро сглобен по два начина с еднакъв залог на линия 0,02 евро. Числата са примерни.">
+  <rect x="8" y="8" width="744" height="374" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="380" y="46" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">Как се образува общият залог</text>
+  <text x="380" y="74" text-anchor="middle" font-size="13" fill="#475569">общ залог = стойност на монета × ниво на залог × брой активни линии</text>
+
+  <text x="380" y="106" text-anchor="middle" font-size="12.5" fill="#64748b">Пример на завъртане (примерни числа)</text>
+  <text x="380" y="134" text-anchor="middle" font-size="21" font-weight="600" fill="#0f172a">€0,05 × 2 × 20 = <tspan fill="#047857" font-weight="700">€2,00</tspan></text>
+
+  <line x1="48" y1="160" x2="712" y2="160" stroke="#e2e8f0" stroke-width="1.5"/>
+
+  <text x="380" y="190" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">Един и същ общ залог, сглобен по два начина</text>
+
+  <text x="380" y="230" text-anchor="middle" font-size="18" font-weight="600" fill="#0f172a">€0,02 × 1 монета × 20 линии = <tspan fill="#047857" font-weight="700">€0,40</tspan></text>
+  <text x="380" y="252" text-anchor="middle" font-size="12" fill="#64748b">залог на линия €0,02</text>
+
+  <text x="380" y="294" text-anchor="middle" font-size="18" font-weight="600" fill="#0f172a">€0,01 × 2 монети × 20 линии = <tspan fill="#047857" font-weight="700">€0,40</tspan></text>
+  <text x="380" y="316" text-anchor="middle" font-size="12" fill="#64748b">залог на линия €0,02</text>
+
+  <text x="380" y="356" text-anchor="middle" font-size="12" fill="#94a3b8">Числата са примерни · 18+ Играйте отговорно</text>
+</svg>
