@@ -1,32 +1,17 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-10-03T03:10:00Z",
-  "run_finished_utc": "2026-10-03T04:43:26Z",
-  "articles_written": 3,
-  "prs_opened": [
-    263,
-    264,
-    265
-  ],
-  "run_url": "https://claude.ai/code/session_01K3ETzU4jQwpvwjxri7XjWs",
-  "note": "daily run 2026-10-03 (1st fire) DONE. 0 in-progress reconciled (prior fire clean). Wrote MAX_PER_RUN=3 NEW distinct guides (buffer 213->216, floor 10, NO cap): размер на залога/монети-нива-линии (vk-0244, PR #263, gate 96, Gemini human 85 PASS p1, img:2 85/85) · ante bet/залог с добавка bet+ (vk-0245, PR #264, gate 91, human 80 PASS p1, img:2 review 98) · ретригер на безплатни завъртания (vk-0246, PR #265, gate 92, human 85 PASS p1 after 1 humaniser pass HL75->85, img:2 100/100). SELECTION: 1 research-bank candidate used (размер на залога) + 2 NEW discoveries (ante bet, ретригер). ANTI-CANNIBALIZATION CATCH: the other 2 bank candidates were DROPPED as cannibalizing — 'рискова игра/gamble' already covered by vk-0177 (PR #194), 'autoplay' already covered by vk-0061 (PR #77); prior-run replenish had wrongly flagged them uncovered. Dedup-clean vs content-queue + live sitemap (95 URLs). GEMINI ONLINE: Step-7 text + Step-8 image gen/review all ran, no 429. HL baselines high this run (85/80/75); only vk-0246 needed 1 humaniser pass (75->85). 0 em-dashes + 0 surviving in-text flags across all 3 (all € primeрни; maths rechecked in each 06). IMAGES: 6 total (3 SVG infographics numbers-traced-to-05b + 3 decorative heroes), all Gemini reviews PASS (85/98/100), 0 integrity failures. BANK: 1 used + 2 dropped(cannibalizing) -> replenished +3 distinct uncovered pillars (мистерия символи; избор на режим на FS повече-спинове-vs-множител; събиране/collection механика), all checked=web awaiting Ahrefs reset 2026-10-15; 2 new used rows (ante bet, ретригер) recorded for future dedup. 3 candidates in buffer. AHREFS: key ~exhausted (reset 2026-10-15) -> web fallback, no discovery spend, units preserved; vol/kd left blank (never fabricated). BACKLOG: NV-Casino rows 5-14 all operator/НАП-dependent -> stay open+blocked (guides-only scope; already enriched, no re-pull). One content PR per article (263/264/265), all mergeable_state=clean, NO CI configured -> awaiting human review. Board on main; feed refreshed (5 approved, unchanged). NEVER resolved a flag/posted/merged.",
+  "state": "running",
+  "run_started_utc": "2026-10-03T07:11:49Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_019Qv41jwFs8p7sMBTnXZ2Pv",
+  "note": "daily run 2026-10-03 (2nd fire) — heartbeat running; reconciled 0 in-progress; selecting 3 research-bank candidates (slot mechanics)",
   "progress": {
-    "phase": "done",
-    "article_index": 3,
+    "phase": "writing",
+    "article_index": 0,
     "article_total": 3,
     "article_slug": null,
-    "stages": [
-      "Synthesis",
-      "Outline",
-      "Author",
-      "Humaniser",
-      "SEO",
-      "Brand Gate",
-      "Light re-check",
-      "Images",
-      "Verification",
-      "PR"
-    ],
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
     "stage_index": null,
     "stage": null
   }
