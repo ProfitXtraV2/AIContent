@@ -5,12 +5,12 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01K3ETzU4jQwpvwjxri7XjWs",
-  "note": "daily run 2026-10-03 (1st fire) — 3 in-progress rows selected (vk-0244/0245/0246), writing",
+  "note": "daily run 2026-10-03 (1st fire) — vk-0244 drafted (PR #263), writing vk-0245",
   "progress": {
     "phase": "writing",
-    "article_index": 1,
+    "article_index": 2,
     "article_total": 3,
-    "article_slug": "2026-10-03-razmer-na-zaloga-slot",
+    "article_slug": "2026-10-03-ante-bet-zalog-s-dobavka",
     "stages": [
       "Synthesis",
       "Outline",
