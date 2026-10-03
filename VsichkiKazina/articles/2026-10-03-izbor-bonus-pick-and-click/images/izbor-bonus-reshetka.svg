@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-label="Примерна решетка за избор-бонус: шест еднакви обекта, зад които стойностите са зададени преди избора. Един разкрива множител, един показва стоп; останалите са затворени. Числата и подредбата са примерни.">
+  <style>
+    .card{fill:#f7f8fa;stroke:#d9dee5;stroke-width:1.5}
+    .title{font-family:'Segoe UI',Arial,sans-serif;font-size:23px;font-weight:700;fill:#1f2733}
+    .sub{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;fill:#6b7684}
+    .box{fill:#eef1f4;stroke:#cdd4dc;stroke-width:1.5}
+    .boxwin{fill:#cfe8d6;stroke:#8ccfa3;stroke-width:1.5}
+    .boxstop{fill:#f7e4cc;stroke:#e3b377;stroke-width:1.5}
+    .q{font-family:'Segoe UI',Arial,sans-serif;font-size:30px;font-weight:700;fill:#9aa4b0}
+    .win{font-family:'Segoe UI',Arial,sans-serif;font-size:15px;font-weight:700;fill:#2f7d4f}
+    .stop{font-family:'Segoe UI',Arial,sans-serif;font-size:15px;font-weight:700;fill:#b9711a}
+    .ic{font-family:'Segoe UI',Arial,sans-serif;font-size:22px;fill:#2f7d4f}
+    .note{font-family:'Segoe UI',Arial,sans-serif;font-size:15px;fill:#3a4452}
+    .tag{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;fill:#6b7684}
+  </style>
+  <rect class="card" x="8" y="8" width="704" height="314" rx="16"/>
+  <text class="title" x="360" y="50" text-anchor="middle">Стойностите са зададени преди избора</text>
+  <text class="sub" x="360" y="76" text-anchor="middle">шест обекта; подредбата е примерна</text>
+
+  <!-- box 0 closed -->
+  <rect class="box" x="42"  y="120" width="96" height="92" rx="8"/>
+  <text class="q" x="90"  y="177" text-anchor="middle">?</text>
+  <!-- box 1 closed -->
+  <rect class="box" x="150" y="120" width="96" height="92" rx="8"/>
+  <text class="q" x="198" y="177" text-anchor="middle">?</text>
+  <!-- box 2 revealed: награда -->
+  <rect class="boxwin" x="258" y="120" width="96" height="92" rx="8"/>
+  <text class="ic"  x="306" y="168" text-anchor="middle">★</text>
+  <text class="win" x="306" y="196" text-anchor="middle">множител</text>
+  <!-- box 3 closed -->
+  <rect class="box" x="366" y="120" width="96" height="92" rx="8"/>
+  <text class="q" x="414" y="177" text-anchor="middle">?</text>
+  <!-- box 4 revealed: стоп -->
+  <rect class="boxstop" x="474" y="120" width="96" height="92" rx="8"/>
+  <text class="stop" x="522" y="183" text-anchor="middle">стоп</text>
+  <!-- box 5 closed -->
+  <rect class="box" x="582" y="120" width="96" height="92" rx="8"/>
+  <text class="q" x="630" y="177" text-anchor="middle">?</text>
+
+  <text class="note" x="360" y="258" text-anchor="middle">Изборът обръща реда на разкриване, не средната стойност на рунда.</text>
+  <text class="tag"  x="360" y="300" text-anchor="middle">18+ Играйте отговорно</text>
+</svg>
