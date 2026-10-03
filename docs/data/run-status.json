@@ -1,32 +1,17 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-10-03T07:11:49Z",
-  "run_finished_utc": "2026-10-03T08:49:11Z",
-  "articles_written": 3,
-  "prs_opened": [
-    266,
-    267,
-    268
-  ],
-  "run_url": "https://claude.ai/code/session_019Qv41jwFs8p7sMBTnXZ2Pv",
-  "note": "daily run 2026-10-03 (2nd fire) DONE. 0 in-progress reconciled (1st fire clean). Wrote MAX_PER_RUN=3 NEW distinct slot-mechanic guides (buffer 216->219, floor 10, NO cap): мистерия символи/mystery symbols (vk-0247, PR #266, gate 92, Gemini human 85 PASS p1, img:2 82) · избор на режим на безплатните завъртания/FS-mode choice (vk-0248, PR #267, gate 92, human 90 PASS p1, img:2 100) · събиране на символи/collection-persistent (vk-0249, PR #268, gate 92, human 85 PASS p1, img:2 100). SELECTION: all 3 from research bank (the 3 candidates seeded by 1st fire). Dedup-clean vs content-queue (249 rows) + live sitemap (95 URLs). ANTI-CANNIBALIZATION verified: mystery-SYMBOL reel mechanic != mystery-JACKPOT vk-0131/0135; FS-mode-choice != множители vk-0057/ретригер vk-0246/demo vk-0003; collection CONCEPT pillar != game-specific collection vk-0100/0102/0105. GEMINI ONLINE, no 429: Step-7 text + Step-8 image gen/review all ran. HL baselines high (85/90/85); 0 humaniser passes needed (all PASSed first check). 0 em-dashes + 0 surviving in-text flags across all 3 (all numbers примерни; maths rechecked in each 06). IMAGES: 6 total (3 SVG infographics numbers-traced-to-05b + 3 decorative heroes), all Gemini reviews PASS (82/100/100; vk-0247 hero ALT fix 78->82), 0 integrity failures. BANK: 3 used -> replenished +3 distinct uncovered pillars (печалби в двете посоки/win-both-ways; избор-бонус/pick-and-click; гигантски/свързани символи/colossal), all checked=web awaiting Ahrefs reset 2026-10-15; buffer back to 3 candidates. AHREFS: key ~exhausted (reset 2026-10-15) -> web fallback, no discovery spend, units preserved; vol/kd left blank (never fabricated). BACKLOG: 10 NV-Casino rows all operator/НАП-dependent -> stay open+blocked (guides-only scope; already enriched by 1st fire, no re-pull). One content PR per article (266/267/268), awaiting human review (NO CI configured in repo). Board on main; feed refreshed (5 approved, unchanged). NEVER resolved a flag/posted/merged.",
+  "state": "running",
+  "run_started_utc": "2026-10-03T22:11:36Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_0131VdCjKjEDbZUn8kZqNH5c",
+  "note": "daily run 2026-10-03 (3rd fire) — reconciled 0 in-progress; batch=3 slot-mechanic guides from research bank (win-both-ways, pick-and-click, colossal symbols)",
   "progress": {
-    "phase": "done",
-    "article_index": 3,
+    "phase": "writing",
+    "article_index": 0,
     "article_total": 3,
     "article_slug": null,
-    "stages": [
-      "Synthesis",
-      "Outline",
-      "Author",
-      "Humaniser",
-      "SEO",
-      "Brand Gate",
-      "Light re-check",
-      "Images",
-      "Verification",
-      "PR"
-    ],
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
     "stage_index": null,
     "stage": null
   }
