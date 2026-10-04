@@ -6,9 +6,15 @@ Brand-aware, deterministic, stdlib-only. Run from repo root:
 where brand ∈ vsichkikazina (default) | dentalvia.
 """
 import json
+import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+
+# Winnability gate: a keyword whose KD is above our current domain authority is a
+# future *pillar* target, not a next-write candidate. Set roughly to DR + a small
+# buffer; raise as the domain's authority grows. DR 6 → 40.
+SITE_MAX_WINNABLE_KD = int(os.getenv("SITE_MAX_WINNABLE_KD", "40"))
 
 BUFFER_STATES = {"drafted", "approved"}
 ALL_STATES = ["in-progress", "drafted", "approved", "posted", "failed"]
@@ -90,9 +96,16 @@ def opportunity(volume, kd):
     vol_score = min(60.0, v / 20.0)          # 1200+ volume saturates at 60
     kd_score = max(0.0, 40.0 - k * 0.4)      # KD 0 → 40, KD 100 → 0
     score = int(round(vol_score + kd_score))
+    winnable = k <= SITE_MAX_WINNABLE_KD
     band = ("Strong" if score >= 70 else "Good" if score >= 45
             else "Moderate" if score >= 25 else "Weak")
-    return {"score": score, "band": band}
+    # Demote high-value heads that sit above our current reach to a 'Pillar'
+    # band so descending-opportunity selection cannot pick them over winnable
+    # satellites. They stay visible as tracked future targets; graduate them
+    # by raising SITE_MAX_WINNABLE_KD as domain authority grows.
+    if not winnable and band in ("Strong", "Good"):
+        band = "Pillar"
+    return {"score": score, "band": band, "winnable": winnable}
 
 # Schedule: cron fires 3×/day at these UTC hours (22:00/03:00/07:00 UTC ≈ 01:00/06:00/10:00
 # Europe/Sofia in summer; drifts −1h in winter since cron is fixed-UTC).

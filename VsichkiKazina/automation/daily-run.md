@@ -138,11 +138,19 @@ stage you are STARTING now>,"stage":"<that stage's name>"}`.
         design). PR review flow is unchanged.
    b. If fewer than `batch`, top up from `research-topics.md` `status: candidate` rows,
       **highest-Opportunity first**. Read the computed Opportunity from `docs/data/status.json`
-      (each research row has `opportunity.score`/`band`) and pick candidates in DESCENDING
-      opportunity order — Strong before Good before Moderate before Weak; break ties by
-      higher `volume`. (Rows with no volume/kd → no Opportunity → lowest priority; write them
+      (each research row has `opportunity.score`/`band`/`winnable`) and pick candidates in
+      DESCENDING opportunity order — Strong before Good before Moderate before Weak; break ties
+      by higher `volume`. (Rows with no volume/kd → no Opportunity → lowest priority; write them
       only when nothing scored is left.) This still respects dedup + anti-cannibalization
       (step d/d2) — skip a high-opportunity candidate if its cluster is already covered.
+      **WINNABILITY GATE (DR-aware):** a keyword above our current domain authority
+      (`kd > SITE_MAX_WINNABLE_KD`, default 40 at DR 6) is demoted by the dashboard to band
+      **`Pillar`** with `winnable: false`. **Do NOT write `Pillar` rows** — they are
+      high-value future heads, not next-write candidates. Only write `winnable: true`
+      candidates. When a cluster has a deferred `Pillar` head, write its low-KD *satellites*
+      now and record a "fold-in: <pillar keyword> (defer, kd N)" note so the pillar is
+      published later, once satellites + off-site authority lift DR and the cap is raised.
+      Graduate pillars by bumping `SITE_MAX_WINNABLE_KD` as DR improves.
    c. If still short, research more (НАП register, competitor BG sites, BG gambling news)
       and append candidates to `research-topics.md`. NEVER invent weak topics to hit the
       number — write fewer instead.

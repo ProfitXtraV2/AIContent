@@ -60,9 +60,17 @@ BRAND = vsichkikazina (Всички Казина — vsichkikazina.bg):
   team/editorial byline. Editorial voice may still be used for guides/news/comparisons,
   but the piece is signed Георги Тодоров. The Brand Gate flags any other byline.
 - Content types: review / guide / news / comparison.
-- Internal links come from this approved set only: /kak-ocenyavame/
-  /zakonno-li-e/ /otgovorna-igra/ /depoziti-i-teglenia/
-  /bonus-category/welcome-bonus/ /kazino-igri/
+- Internal links (2-4 per article) come from this approved set only, in three tiers:
+  - Trust/methodology pages: /kak-ocenyavame/ /zakonno-li-e/ /otgovorna-igra/
+    /depoziti-i-teglenia/ /bonus-category/welcome-bonus/ /kazino-igri/
+  - Comparison/money page: /sravni-kazina/ (link where comparison intent is natural)
+  - Blog category hub for the article's cluster: /blog/casino-payments/
+    /blog/bonuses-vip/ /blog/regulations-taxes/ /blog/comparisons-news/
+    /blog/responsible-gambling/
+  - Sibling articles: 1-2 contextual links to related published articles in the SAME
+    topical cluster (from the live sitemap), where genuinely relevant.
+  - For topical authority, aim for at least one hub link + one sibling link where they
+    fit naturally; never force a link, never exceed brand-mention limits (2-3 max).
 - Voice corpus files (when built): markets/bg/VOICE_BG_{type}.md, loaded at
   Stages 1.5 and 2 exactly like BetFam voice files.
 

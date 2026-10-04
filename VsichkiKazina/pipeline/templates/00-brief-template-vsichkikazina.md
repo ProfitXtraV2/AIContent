@@ -29,8 +29,11 @@ Gate will NOT invent one.
 ## SOURCES
 - [URLs: operator T&C sections, НАП register entry, our own /casino/ page]
 
-## INTERNAL LINKS (2-4 from the approved set)
-[/kak-ocenyavame/ /zakonno-li-e/ /otgovorna-igra/ /depoziti-i-teglenia/ /bonus-category/welcome-bonus/ /kazino-igri/]
+## INTERNAL LINKS (2-4 from the approved set — aim for 1 hub + 1 sibling)
+- Trust/methodology: [/kak-ocenyavame/ /zakonno-li-e/ /otgovorna-igra/ /depoziti-i-teglenia/ /bonus-category/welcome-bonus/ /kazino-igri/]
+- Comparison/money page: [/sravni-kazina/ — where comparison intent is natural]
+- This article's blog category hub: [/blog/casino-payments/ | /blog/bonuses-vip/ | /blog/regulations-taxes/ | /blog/comparisons-news/ | /blog/responsible-gambling/]
+- Sibling articles (same cluster, from live sitemap): [1-2 related published URLs]
 
 ## ANECDOTE OPT-IN: [no (default) / yes: one short personal story about X]
 ## NOTES: [angle, competitor gap, anything the Synthesis stage should know]
