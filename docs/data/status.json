@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-03T23:25:08Z",
+  "generated_utc": "2026-10-04T03:46:58Z",
   "buffer": {
-    "count": 222,
+    "count": 223,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
-    "drafted": 217,
+    "in-progress": 2,
+    "drafted": 218,
     "approved": 5,
     "posted": 29,
     "failed": 1
@@ -4464,6 +4464,57 @@
       "pr": "#271",
       "gemini": "human 90",
       "notes": "drafted 2026-10-03 (3rd fire); research candidate used; generic big-symbol pillar (символ над 1x1 покрива няколко позиции, 2x2=4, броят като множество → дооформя няколко линии от едно падане); честно ядро: размерът е визуален/математически похват, не бонус към RTP (честотата компенсира размера) → мести дисперсията, не дългосрочната сума; gate 92/100 0-crit; Gemini Step-7 ONLINE: initial „AI patterns 75%\" HL 25 → 2 humaniser passes (step-7b: de-signpost, fix tautology, cull 2x2-math repetition, soften not-X-but-Y, weave link) → HL 25/30; MAX_GEMINI_PASSES reached, keep-best = pass 2 (HL 30), gemini=ai 70 (темата присъщо дидактична; факти/RG непокътнати; ⚠️ human polish optional); 0 em-dash; 0 in-text flags (2x2→4 универсално вярно; по-големи размери илюстративни); img:2 (SVG решетка-5x3-2x2-блок numbers-verbatim 82 + decorative hero oversized-block 82, 0 integrity, no fix); вътрешни: rechnik-kazino-termini/slot-igri-visok-rtp/kazino-igri-rotativki/otgovorna-igra (4, live в sitemap); DISTINCT от wild vk-0055/разширяващ се символ vk-0086/0090/0093/Megaways vk-0041 (colossal само modifier в vk-0102/0048); ~832 думи; no operator/НАП, без афилиейт; checked=web (Ahrefs reset 2026-10-15); src=research candidate used; PR #271 · nightly 2026-10-03: Step-7b humanise ×2 (dropped Тоест/Въпреки/темперамент didactic tells, trimmed RTP textbook def, broke Колкото-толкова symmetry, cut preachy wrap-up, reframed 2x2 example to payline-connection), Gemini ai70/75→human-written (reads 90/75; best 90, noisy detector); 0 flags, facts/links/RG/byline untouched",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0253",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Системи за залагане (betting systems): защо Мартингейл, Фибоначи и Д'Аламбер не бият казиното",
+      "keywords_or_terms": "системи за залагане, мартингейл система, залагателни системи, фибоначи залог, д'аламбер, прогресия на залога",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-10-04",
+      "posted_date": "",
+      "folder": "2026-10-04-sistemi-za-zalagane",
+      "pr": "#272",
+      "gemini": "ai 75",
+      "notes": "drafted 2026-10-04 (1st fire); NEW discovered cross-game maths/strategy pillar (bank 3 candidates all stale cannibals of vk-0177/0245/0084). Негативни прогресии (Мартингейл удвоявай/Д'Аламбер ±1/Фибоначи редица) + позитивна (Паролі); честно ядро: прогресията НЕ мести домашното предимство/EV (всеки залог носи същото предимство, събитията независими) — само преразпределя резултатите (малки чести печалби срещу рядка голяма загуба); провал = таван на масата + краен банкрол срещу неизбежна серия. gate 92/100 0-crit; Gemini Step-7 ONLINE ai 75 (initial HL 25; pass1 HL 25; pass2 HL 20 → kept best pass1 HL25; 2 humaniser passes; темата присъщо дидактична таванира детектора; факти/RG непокътнати); 0 em-dash; 0 in-text flags (всички числа примерни: старт €2, 2-4-8-...-256, сбор €510, 9-и €512 срещу таван €500; recalc в 06); img:2 (SVG Мартингейл-удвояване→€510 exponential numbers-verbatim reviewer „ready to publish\" + decorative hero chip-staircase-stopped-by-ceiling 60 естетичен само, 0 integrity, kept best след 1 fix, MAX_IMAGE_PASSES); вътрешни: kazino-igri-ruletka/kazino-igri-blakdzhak/kazino-igri/otgovorna-igra (4, live в sitemap); DISTINCT от Рулетка стратегии vk-0024 (игрово-специфична; тук cross-game pillar, рулетката е линк); ~815 думи; no operator/НАП, без афилиейт; checked=web (Ahrefs reset 2026-10-15); src=discovered; PR #272",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0254",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Разширяващи се символи (expanding symbols) в слотовете: как работят",
+      "keywords_or_terms": "разширяващи се символи, expanding symbols слот, разширяващ се символ, символ който се разширява, book of ra символ",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-10-04",
+      "posted_date": "",
+      "folder": "2026-10-04-razshiryavashti-se-simvoli",
+      "pr": "",
+      "gemini": "",
+      "notes": "selected 2026-10-04 (1st fire); NEW discovered slot-mechanic pillar. Специален символ, който при падане/в безплатни завъртания се разпъва да покрие целия барабан и плаща по всички активни линии; честно ядро: ефектът е вече в RTP (компенсира се с по-ниски базови изплащания/честота) → мести дисперсията към безплатните завъртания, не дългосрочната сума. DISTINCT от Wild видове vk-0055 (expanding wild = подвид wild; тук експанзия на специален/бонус символ, Book-of-Ra модел), от Гигантски vk-0252 (colossal = голям блок от старта), Scatter vk-0056. No operator/НАП, без афилиейт; checked=web (Ahrefs reset 2026-10-15); src=discovered",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0255",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Безкрайни барабани (Infinity Reels) в слотовете: как работят",
+      "keywords_or_terms": "безкрайни барабани, infinity reels, нарастващи барабани слот, добавящ се барабан, infinity reels механика",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-10-04",
+      "posted_date": "",
+      "folder": "2026-10-04-bezkrayni-barabani-infinity-reels",
+      "pr": "",
+      "gemini": "",
+      "notes": "selected 2026-10-04 (1st fire); NEW discovered slot-mechanic pillar. При всяко печелившо падане се добавя нов барабан отдясно и завъртането продължава, докато спре да идва печалба; обикновено с нарастващ множител; честно ядро: веригата изглежда неограничена, но вероятността за всеки следващ барабан пада, а ефектът е калибриран в RTP → мести дисперсията (рядка много дълга верига), не дългосрочната сума. DISTINCT от Megaways vk-0041 (променлив брой символи на фиксиран брой барабани), Каскади vk-0052 (падащи символи на същата решетка), ways-to-win. No operator/НАП, без афилиейт; checked=web (Ahrefs reset 2026-10-15); src=discovered",
       "opportunity": null
     }
   ],
