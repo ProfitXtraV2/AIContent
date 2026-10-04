@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "slug": "olympus-glory",
+  "title": "Olympus Glory: RTP 96.23% и характеристики (Amusnet/EGT)",
+  "meta_description": "Olympus Glory на Amusnet (EGT): 5 барабана, 10 линии, RTP 96.23%, Зевс като wild и scatter, 10 безплатни завъртания с разширяващ символ и Jackpot Cards. Какво значат числата.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-20",
+  "date_modified": "2026-09-20",
+  "keywords": [
+    "olympus glory",
+    "олимпус глори",
+    "olympus glory egt"
+  ],
+  "images": [
+    {
+      "path": "images/olympus-glory-hero.webp",
+      "alt": "Абстрактен фон с мълнии и златни колони в стил древногръцки храм, вдъхновен от темата на Olympus Glory"
+    },
+    {
+      "path": "images/olympus-glory-rtp.svg",
+      "alt": "Olympus Glory: RTP 96.23% и домашно предимство 3.77%; при 1000 евро оборот средно 962 евро се връщат на играча, 38 евро остават за казиното"
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": 44,
+  "status": "approved",
+  "content_hash": "ed511c37abe16186bd08db2f72b0c3f3914132923780bd34409a64538e9e0977"
+}

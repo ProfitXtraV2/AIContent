@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 5,
+  "count": 9,
   "articles": [
     {
       "slug": "hub-intro-casino-payments",
@@ -36,7 +36,35 @@
       "date_modified": "2026-09-19",
       "content_hash": "f1c7b24f7c372c70049958c0be6093d321d4545f269f9af1ad7e06eb1a15569c",
       "status": "approved"
+    },
+    {
+      "slug": "olympus-glory",
+      "title": "Olympus Glory: RTP 96.23% и характеристики (Amusnet/EGT)",
+      "date_modified": "2026-09-20",
+      "content_hash": "ed511c37abe16186bd08db2f72b0c3f3914132923780bd34409a64538e9e0977",
+      "status": "approved"
+    },
+    {
+      "slug": "versailles-gold",
+      "title": "Versailles Gold: RTP 96.09% и характеристики (Amusnet/EGT)",
+      "date_modified": "2026-09-20",
+      "content_hash": "dc08860f26c729f2e1252ea3399d90278df1671b6eb8f9406bfa7009eeeb6f1d",
+      "status": "approved"
+    },
+    {
+      "slug": "plinko",
+      "title": "Plinko: как работи, RTP и нивата на риск",
+      "date_modified": "2026-09-20",
+      "content_hash": "2f4179e1e4fb85417ef3eec7dcaf89a006c10530432f4316de6624e70ba13c8c",
+      "status": "approved"
+    },
+    {
+      "slug": "bell-link",
+      "title": "Bell Link (EGT Digital): как работи джакпот системата",
+      "date_modified": "2026-09-20",
+      "content_hash": "f24505a14ce42a2e28eabcae4830c10b2cb7331319468fbf3a8172171a7cb6b5",
+      "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-04T04:20:16Z"
+  "generated_utc": "2026-10-04T07:37:11Z"
 }

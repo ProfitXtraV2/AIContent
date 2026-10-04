@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" role="img" aria-label="Bell Link: четири нива на джакпота. Grand и Major са прогресивни и се пълнят от мрежовия пул; Minor е фиксиран около 50 пъти залога, Mini е фиксиран около 10 пъти залога. Бонусът тръгва с 5 или повече звънеца и дава 3 повторни завъртания.">
+  <title>Bell Link: четири нива и как тръгва бонусът</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbfaf5"/>
+      <stop offset="100%" stop-color="#f2eede"/>
+    </linearGradient>
+    <linearGradient id="prog" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#b45309"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="fixed" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#57534e"/>
+      <stop offset="100%" stop-color="#78716c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="380" rx="12" ry="12" fill="url(#bg)"/>
+  <text x="300" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#92400e" text-anchor="middle">Bell Link: четирите нива на джакпота</text>
+  <text x="300" y="52" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">две растящи (мрежов пул) и две фиксирани</text>
+
+  <!-- Grand -->
+  <rect x="50" y="66" width="500" height="46" rx="9" fill="url(#prog)"/>
+  <text x="66" y="94" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="800" fill="#ffffff">Grand</text>
+  <text x="534" y="94" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#fde68a" text-anchor="end">прогресивен · мрежов пул</text>
+  <!-- Major -->
+  <rect x="50" y="120" width="500" height="46" rx="9" fill="url(#prog)" opacity="0.9"/>
+  <text x="66" y="148" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="800" fill="#ffffff">Major</text>
+  <text x="534" y="148" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#fde68a" text-anchor="end">прогресивен · мрежов пул</text>
+  <!-- Minor -->
+  <rect x="50" y="174" width="500" height="46" rx="9" fill="url(#fixed)"/>
+  <text x="66" y="202" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="800" fill="#ffffff">Minor</text>
+  <text x="534" y="202" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#e7e5e4" text-anchor="end">фиксиран · ~50× залога</text>
+  <!-- Mini -->
+  <rect x="50" y="228" width="500" height="46" rx="9" fill="url(#fixed)" opacity="0.9"/>
+  <text x="66" y="256" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="800" fill="#ffffff">Mini</text>
+  <text x="534" y="256" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#e7e5e4" text-anchor="end">фиксиран · ~10× залога</text>
+
+  <rect x="50" y="296" width="500" height="60" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+  <text x="300" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#92400e" text-anchor="middle">Бонусът тръгва с 5 или повече звънеца</text>
+  <text x="300" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#78716c" text-anchor="middle">hold-and-win с 3 повторни завъртания · нов звънец връща брояча на 3</text>
+
+  <text x="300" y="372" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">18+ Играйте отговорно · фиксираните множители се различават по заглавие и версия</text>
+</svg>
