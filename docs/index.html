@@ -84,6 +84,18 @@
   .seo-wrap h3 { font-size: .74rem; text-transform: uppercase; letter-spacing: .06em;
                  color: var(--muted); font-weight: 700; margin: 1.4rem 0 .5rem; }
   .seo-wrap h3:first-of-type { margin-top: .4rem; }
+  .seo-wrap h3 .hint { font-weight: 400; text-transform: none; letter-spacing: 0; color: var(--muted); }
+  /* SEO-tab tables: bordered cells, rounded frame, width-capped so few-column
+     tables don't stretch numbers across the whole page */
+  .seo-wrap table { border: 1px solid var(--line); border-radius: 10px; overflow: hidden;
+                    margin: 0 0 .3rem; width: 100%; }
+  .seo-wrap th, .seo-wrap td { border-bottom: 1px solid var(--line); border-right: 1px solid var(--line); }
+  .seo-wrap th:last-child, .seo-wrap td:last-child { border-right: none; }
+  .seo-wrap tbody tr:last-child td { border-bottom: none; }
+  .seo-wrap thead th { background: #f1f4f9; color: var(--muted); }
+  .seo-wrap tbody tr:nth-child(even) td { background: #fafbfd; }
+  .seo-wrap .tbl-narrow { max-width: 520px; }
+  .seo-wrap .tbl-mid { max-width: 900px; }
   .bandrow { display: flex; flex-wrap: wrap; gap: .4rem; margin: .2rem 0 .4rem; }
   .chk { font-size: .68rem; padding: .12rem .42rem; border-radius: 999px; white-space: nowrap; }
   .chk-ahrefs { background: #e7f8ee; color: #0f8a4d; }
@@ -481,7 +493,7 @@ async function load() {
     const num = v => (v === null || v === undefined || v === '') ? '—' : v;
     // DR / footprint trend
     const t = seo.trend || [];
-    const trendTbl = t.length ? `<table><thead><tr><th>Month</th><th>DR</th><th>Keywords</th><th>Traffic/mo</th><th>Note</th></tr></thead><tbody>` +
+    const trendTbl = t.length ? `<table class="tbl-mid"><thead><tr><th>Month</th><th>DR</th><th>Keywords</th><th>Traffic/mo</th><th>Note</th></tr></thead><tbody>` +
       t.map(x => `<tr><td>${x.month}</td><td class="num">${num(x.dr)}</td><td class="num">${num(x.organic_keywords)}</td><td class="num">${num(x.traffic)}</td><td class="sugg">${x.note || ''}</td></tr>`).join('') +
       `</tbody></table>` : '<div class="empty">No trend points yet.</div>';
     // opportunity-band mix
@@ -491,7 +503,7 @@ async function load() {
     // clusters
     const cl = seo.clusters || {};
     const clEntries = Object.entries(cl).sort((a, b) => b[1].total - a[1].total);
-    const clTbl = clEntries.length ? `<table><thead><tr><th>Cluster</th><th>Winnable</th><th>Pillar (defer)</th><th>Total</th></tr></thead><tbody>` +
+    const clTbl = clEntries.length ? `<table class="tbl-narrow"><thead><tr><th>Cluster</th><th>Winnable</th><th>Pillar (defer)</th><th>Total</th></tr></thead><tbody>` +
       clEntries.map(([k, v]) => `<tr><td>${k}</td><td class="num">${v.winnable}</td><td class="num">${v.pillar}</td><td class="num">${v.total}</td></tr>`).join('') +
       `</tbody></table>` : '';
     // winnable now
@@ -506,7 +518,7 @@ async function load() {
       `</tbody></table>` : '<div class="empty">No deferred pillars.</div>';
     // performance tracking (populated by the monthly review — Ahrefs rank proxy for GSC impressions)
     const tr = seo.tracking || [];
-    const trkTbl = tr.length ? `<table><thead><tr><th>Target keyword</th><th>Article</th><th>Posted</th><th>Weeks</th><th>Position</th><th>Traffic/mo</th><th>Status</th></tr></thead><tbody>` +
+    const trkTbl = tr.length ? `<table class="tbl-mid"><thead><tr><th>Target keyword</th><th>Article</th><th>Posted</th><th>Weeks</th><th>Position</th><th>Traffic/mo</th><th>Status</th></tr></thead><tbody>` +
       tr.map(r => {
         const st = (r.status || '').toLowerCase();
         const cls = st === 'ranking' ? 'st-approved' : st === 'flag' ? 'st-failed' : 'st-in-progress';
@@ -516,7 +528,7 @@ async function load() {
     return `<div class="seo-wrap">` +
       `<p class="seo-lead">Keyword strategy for <b>vsichkikazina.bg</b>, difficulty-gated for the site's current authority. Topics with <b>KD ≤ ${cap}</b> are winnable now and written first; higher-KD heads wait as <b>Pillar</b> targets until domain authority (DR) grows. Last monthly review: <b>${seo.last_monthly_review || '—'}</b>.</p>` +
       `<h3>Authority trend (Ahrefs)</h3>${trendTbl}` +
-      (trkTbl ? `<h3>Winnable-topic performance <span style="font-weight:400;text-transform:none;letter-spacing:0">(Ahrefs rank; flag = posted &gt;8wk, still not ranking)</span></h3>${trkTbl}` : '') +
+      (trkTbl ? `<h3>Winnable-topic performance <span class="hint">(Ahrefs rank; flag = posted &gt;8wk, still not ranking)</span></h3>${trkTbl}` : '') +
       `<h3>Opportunity mix</h3><div class="bandrow">${bandChips}</div>` +
       (clTbl ? `<h3>Clusters</h3>${clTbl}` : '') +
       `<h3>Winnable now — write next (KD ≤ ${cap})</h3>${wTbl}` +
