@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-04T03:46:58Z",
+  "generated_utc": "2026-10-04T03:58:36Z",
   "buffer": {
-    "count": 223,
+    "count": 224,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 2,
-    "drafted": 218,
+    "in-progress": 1,
+    "drafted": 219,
     "approved": 5,
     "posted": 29,
     "failed": 1
@@ -4485,7 +4485,7 @@
     },
     {
       "id": "vk-0254",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Разширяващи се символи (expanding symbols) в слотовете: как работят",
       "keywords_or_terms": "разширяващи се символи, expanding symbols слот, разширяващ се символ, символ който се разширява, book of ra символ",
@@ -4495,9 +4495,9 @@
       "drafted_date": "2026-10-04",
       "posted_date": "",
       "folder": "2026-10-04-razshiryavashti-se-simvoli",
-      "pr": "",
-      "gemini": "",
-      "notes": "selected 2026-10-04 (1st fire); NEW discovered slot-mechanic pillar. Специален символ, който при падане/в безплатни завъртания се разпъва да покрие целия барабан и плаща по всички активни линии; честно ядро: ефектът е вече в RTP (компенсира се с по-ниски базови изплащания/честота) → мести дисперсията към безплатните завъртания, не дългосрочната сума. DISTINCT от Wild видове vk-0055 (expanding wild = подвид wild; тук експанзия на специален/бонус символ, Book-of-Ra модел), от Гигантски vk-0252 (colossal = голям блок от старта), Scatter vk-0056. No operator/НАП, без афилиейт; checked=web (Ahrefs reset 2026-10-15); src=discovered",
+      "pr": "#273",
+      "gemini": "human 85",
+      "notes": "drafted 2026-10-04 (1st fire); NEW discovered slot-mechanic pillar. Специален символ (най-често избран на случаен принцип преди безплатните завъртания в book-слот) се разпъва да покрие целия барабан и плаща scatter-подобно по всяка позиция без съседство; 3+ scatter=10 FS + ретригер. Честно ядро: ефектът е в RTP (компенсиран с по-ниски базови изплащания/един избран символ/по-рядко задействане) → мести дисперсията към бонус рунда, не дългосрочната сума. gate 92/100 0-crit; Gemini Step-7 ONLINE human 85 PASS (first check, 0 humaniser passes, keep-best; lessons от vk-0253 приложени); 0 em-dash; 0 in-text flags (числа примерни: 10 линии, барабани 1-3; book RTP не се цитира); img:2 (SVG 5x3 барабани избран-символ-запълва-1-3 numbers-verbatim + decorative hero символ-запълва-барабан, image review 95 PASS, 0 integrity, портретен hero = optional polish); вътрешни: rechnik-kazino-termini/kazino-igri-rotativki/slot-igri-visok-rtp/otgovorna-igra (4, live в sitemap); DISTINCT от Wild видове vk-0055 (expanding wild=подвид wild), Гигантски/colossal vk-0252 (блок от старта), Scatter vk-0056; ~678 думи; no operator/НАП, без афилиейт; checked=web (Ahrefs reset 2026-10-15); src=discovered; PR #273",
       "opportunity": null
     },
     {
