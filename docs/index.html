@@ -79,6 +79,12 @@
   .op-Good { background: #e4f1ff; color: #1668c7; }
   .op-Moderate { background: #fef3e2; color: #b3730a; }
   .op-Weak { background: #f1f4f9; color: #64748b; }
+  .op-Pillar { background: #efe7fb; color: #6b3fc0; }
+  .seo-lead { color: var(--muted); font-size: .9rem; line-height: 1.5; margin: .2rem 0 1rem; }
+  .seo-wrap h3 { font-size: .74rem; text-transform: uppercase; letter-spacing: .06em;
+                 color: var(--muted); font-weight: 700; margin: 1.4rem 0 .5rem; }
+  .seo-wrap h3:first-of-type { margin-top: .4rem; }
+  .bandrow { display: flex; flex-wrap: wrap; gap: .4rem; margin: .2rem 0 .4rem; }
   .chk { font-size: .68rem; padding: .12rem .42rem; border-radius: 999px; white-space: nowrap; }
   .chk-ahrefs { background: #e7f8ee; color: #0f8a4d; }
   .chk-web { background: #e4f1ff; color: #1668c7; }
@@ -378,6 +384,8 @@ async function load() {
       rows: backlog.filter(r => !HIDE_BACKLOG.includes((r.status || 'open').toLowerCase())), kind: 'backlog' },
     { key: 'research', cls: '', label: 'AI backlog keywords',
       rows: research.filter(r => (r.status || 'candidate') !== 'used'), kind: 'research' },
+    { key: 'seo', cls: 'review', label: 'SEO & keywords',
+      rows: (s.seo && s.seo.winnable) || [], kind: 'seo' },
   ];
 
   function articleLinks(r) {
@@ -468,6 +476,45 @@ async function load() {
     return `<table><thead><tr>${cols.map(([c, h]) => `<th${TIPS[c] ? ' title="' + TIPS[c] + '"' : ''}>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table>`;
   }
 
+  function renderSeo(seo) {
+    if (!seo) return '<div class="empty">No SEO data yet — it is generated on the next run.</div>';
+    const num = v => (v === null || v === undefined || v === '') ? '—' : v;
+    // DR / footprint trend
+    const t = seo.trend || [];
+    const trendTbl = t.length ? `<table><thead><tr><th>Month</th><th>DR</th><th>Keywords</th><th>Traffic/mo</th><th>Note</th></tr></thead><tbody>` +
+      t.map(x => `<tr><td>${x.month}</td><td class="num">${num(x.dr)}</td><td class="num">${num(x.organic_keywords)}</td><td class="num">${num(x.traffic)}</td><td class="sugg">${x.note || ''}</td></tr>`).join('') +
+      `</tbody></table>` : '<div class="empty">No trend points yet.</div>';
+    // opportunity-band mix
+    const bands = seo.bands || {};
+    const bandChips = ['Strong', 'Good', 'Moderate', 'Weak', 'Pillar'].filter(b => bands[b])
+      .map(b => `<span class="op op-${b}">${b} · ${bands[b]}</span>`).join('') || '—';
+    // clusters
+    const cl = seo.clusters || {};
+    const clEntries = Object.entries(cl).sort((a, b) => b[1].total - a[1].total);
+    const clTbl = clEntries.length ? `<table><thead><tr><th>Cluster</th><th>Winnable</th><th>Pillar (defer)</th><th>Total</th></tr></thead><tbody>` +
+      clEntries.map(([k, v]) => `<tr><td>${k}</td><td class="num">${v.winnable}</td><td class="num">${v.pillar}</td><td class="num">${v.total}</td></tr>`).join('') +
+      `</tbody></table>` : '';
+    // winnable now
+    const w = seo.winnable || [];
+    const wTbl = w.length ? `<table><thead><tr><th>Topic</th><th>Cluster</th><th title="${TIPS.volume}">Vol</th><th title="${TIPS.kd}">KD</th><th>Intent</th><th title="${TIPS.opportunity}">Opportunity</th><th>Status</th></tr></thead><tbody>` +
+      w.map(r => `<tr><td>${r.query || r.keywords}</td><td>${r.cluster}</td><td class="num">${num(r.volume)}</td><td class="num">${num(r.kd)}</td><td>${r.intent || ''}</td><td>${opChip({ band: r.band, score: r.score })}</td><td><span class="st st-in-progress">${r.status}</span></td></tr>`).join('') +
+      `</tbody></table>` : '<div class="empty">No winnable candidates queued — add topics or run the monthly review.</div>';
+    // deferred pillars
+    const p = seo.pillars || [];
+    const pTbl = p.length ? `<table><thead><tr><th>Pillar target</th><th>Cluster</th><th title="${TIPS.volume}">Vol</th><th title="${TIPS.kd}">KD</th><th>Intent</th></tr></thead><tbody>` +
+      p.map(r => `<tr><td>${r.query || r.keywords}</td><td>${r.cluster}</td><td class="num">${num(r.volume)}</td><td class="num">${num(r.kd)}</td><td>${r.intent || ''}</td></tr>`).join('') +
+      `</tbody></table>` : '<div class="empty">No deferred pillars.</div>';
+    const cap = seo.max_winnable_kd;
+    return `<div class="seo-wrap">` +
+      `<p class="seo-lead">Keyword strategy for <b>vsichkikazina.bg</b>, difficulty-gated for the site's current authority. Topics with <b>KD ≤ ${cap}</b> are winnable now and written first; higher-KD heads wait as <b>Pillar</b> targets until domain authority (DR) grows. Last monthly review: <b>${seo.last_monthly_review || '—'}</b>.</p>` +
+      `<h3>Authority trend (Ahrefs)</h3>${trendTbl}` +
+      `<h3>Opportunity mix</h3><div class="bandrow">${bandChips}</div>` +
+      (clTbl ? `<h3>Clusters</h3>${clTbl}` : '') +
+      `<h3>Winnable now — write next (KD ≤ ${cap})</h3>${wTbl}` +
+      `<h3>Pillar targets — deferred (KD &gt; ${cap}, graduate as DR rises)</h3>${pTbl}` +
+      `</div>`;
+  }
+
   const tabsEl = document.getElementById('tabs');
   const contentEl = document.getElementById('tabContent');
   function activate(key) {
@@ -477,6 +524,7 @@ async function load() {
     const t = TABS.find(x => x.key === key);
     contentEl.innerHTML = t.kind === 'backlog' ? renderBacklog(t.rows)
       : t.kind === 'research' ? renderResearch(t.rows)
+      : t.kind === 'seo' ? renderSeo(s.seo)
       : t.kind === 'prs' ? renderPRs(t.rows)
       : renderArticles(t.rows);
   }

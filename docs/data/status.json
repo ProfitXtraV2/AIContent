@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-04T18:18:20Z",
+  "generated_utc": "2026-10-04T19:15:58Z",
   "buffer": {
     "count": 228,
     "target": 10,
@@ -65,7 +65,8 @@
       "notes": "gate 90/100; HUMAN-LIKE 51/60; 0 flags; folds „с ротативки\"; anti-cannibal note vs /kazino-igri/ /slot-igri/; Gemini Step-7 override run (MAX_PASSES=5): baseline HL 30 → Humaniser pass 1 → HL 90 (Likely human-written 90%), PASS in 1 pass; kept pass-1; approved for deploy 2026-09-08 (human review: 0 flags, Gemini human 90); posted to live site 2026-09-08",
       "opportunity": {
         "score": 82,
-        "band": "Strong"
+        "band": "Pillar",
+        "winnable": false
       }
     },
     {
@@ -85,7 +86,8 @@
       "notes": "gate 90/100; HUMAN-LIKE 50/60; 0 flags; no-deposit pillar; folds 3 near-dups; anti-cannibal note vs listing /bonusi/bez-depozit/; Gemini Step-7 backfill: Humaniser ×1 → Likely human-written 85%; img:2 (hero+infographic, score 100)",
       "opportunity": {
         "score": 76,
-        "band": "Strong"
+        "band": "Pillar",
+        "winnable": false
       }
     },
     {
@@ -105,7 +107,8 @@
       "notes": "gate 91/100; HUMAN-LIKE 51/60; 0 flags; evaluation framework (not a list); anti-cannibal note vs /novi-kazina/ + 2 blog guides; Gemini Step-7 backfill: Humaniser ×2 → Likely human-written 85%; img:2 (hero+infographic, score 100); approved for deploy 2026-09-09 (human review: 0 flags, Gemini human 85, image review 100 PASS)",
       "opportunity": {
         "score": 77,
-        "band": "Strong"
+        "band": "Pillar",
+        "winnable": false
       }
     },
     {
@@ -125,7 +128,8 @@
       "notes": "concept pillar; „rtp\" 40/kd57/up (casino intent); „волатилност\" 500/kd0 mixed-intent (finance) — record casino kw honestly; anti-cannibal vs listing /slot-igri/visok-rtp/ · gate 94/100; HUMAN-LIKE 51/60; 0 flags; Gemini Humaniser ×1 → human 90; PR #9; img:3 (hero+2 infographics, best score 98)",
       "opportunity": {
         "score": 19,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -145,7 +149,8 @@
       "notes": "„джакпот\" 500/kd0/up + „джакпот казино\" 200/commercial/up; no existing jackpot page — clean pillar · gate 95/100; HUMAN-LIKE 51/60; 0 flags; Gemini ×1 → human 85; PR #8; img:2 (hero+infographic, best score 95)",
       "opportunity": {
         "score": 65,
-        "band": "Good"
+        "band": "Good",
+        "winnable": true
       }
     },
     {
@@ -165,7 +170,8 @@
       "notes": "„как се играе покер\" 200/kd51/informational/up; no poker page in sitemap — clean pillar; casino-poker framing · gate 95/100; HUMAN-LIKE ~50/60; 0 flags; Gemini Step-7 override run (MAX_PASSES=5): baseline noisy HL 25–90 → Humaniser pass 4 removed all structural tells (info-dump list, mid-article summary, textbook RTP defs, matchmaker close) → PASS (official 85, fresh read 90); pass-5 polish measurably lowered HL → reverted; kept pass-4, human 85 (score high-variance 25–90, mean ~53, cleared ≥80 3/9 reads); PR #7; img:3 (hero+2 infographics, best score 75 — SVGs 90+100 PASS, hero 75 MAX_PASSES); approved for deploy 2026-09-10 (human review: Как се играе покер — 0 flags, Gemini human 85, images 75 (best, MAX_PASSES))",
       "opportunity": {
         "score": 30,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": false
       }
     },
     {
@@ -219,7 +225,8 @@
       "notes": "„как да спечелим от казино\" 40/kd13/commercial — reframed as myth-busting/reality (brand RG doctrine); no existing myths page · gate 92/100; HUMAN-LIKE 52/60; 0 flags; Gemini ×2 → human 85; PR #12; img:1 (SVG Martingale infographic; hero dropped-integrity)",
       "opportunity": {
         "score": 37,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": true
       }
     },
     {
@@ -239,7 +246,8 @@
       "notes": "„бакара\" 500/kd0/informational/flat — clean pillar, no baccarat page in sitemap; distinct from poker (vk-0008) & blackjack (vk-0009) · gate 93/100; HUMAN-LIKE 52/60; 0 flags; Gemini ×1 → human 90 (PASS pass-1, initial kept); PR #14; img:2 (hero+infographic, score 100); approved for deploy 2026-09-09 (human review: 0 flags, Gemini human 90, images 100/100 both PASS)",
       "opportunity": {
         "score": 65,
-        "band": "Good"
+        "band": "Good",
+        "winnable": true
       }
     },
     {
@@ -259,7 +267,8 @@
       "notes": "„ротативки с плодове\" 200/kd19/commercial/flat — lowest kd among slot topics; educational angle on 3-reel/fruit machines, anti-cannibal vs listing /kazino-igri/rotativki/ · gate 92/100; HUMAN-LIKE 52/60; 0 flags; Gemini ×2 → human 85 (pass-1 kept); PR #15; img:2 (hero+infographic, score 98); approved for deploy 2026-09-10 (human review: Ротативки с плодове — 0 flags, Gemini human 85, images 98 PASS)",
       "opportunity": {
         "score": 42,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": true
       }
     },
     {
@@ -279,7 +288,8 @@
       "notes": "„aviator\" 300/kd60/commercial/flat — new format, no page in sitemap; education + RG angle (very high volatility) · gate 93/100; HUMAN-LIKE 53/60; 0 in-text flags (Aviator RTP 97% web-verified, in 06-verification for human confirm); Gemini ×2 → human 90 (pass-1 kept); PR #16; img:2 (hero+infographic, best score 85); approved for deploy 2026-09-10 (human review: Краш игри (Aviator) — 0 flags, Gemini human 90, images 85 PASS)",
       "opportunity": {
         "score": 31,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": false
       }
     },
     {
@@ -299,7 +309,8 @@
       "notes": "Strong opp 78; evergreen evaluation-framework guide (NOT a title listing) — RTP/волатилност/механика of any new game + 2026 format landscape (crash, Megaways, cluster, hold&win, live game shows); anti-cannibal vs listing /slot-igri/novi/ (prose only) + /kazino-igri/ · gate 93/100; HUMAN-LIKE ~50/60; 1 in-text flag [VERIFY bonus-buy BG]; Gemini ×2 passes 25→15→35, kept pass 2 (ai 65, high-variance); micro-stakes RTP reframe; PR #17; img:2 (hero+infographic, score 100); approved for deploy 2026-09-09 (human review: [VERIFY bonus-buy BG] resolved — generic non-BG wording kept, flag removed; Gemini ai 65 accepted as-is (high-variance reads); images 95/100 hero + 100/100 SVG PASS) · nightly 2026-09-09: humanised (cut preachy closers/signposts, reframed risk to mechanics), Gemini ai 65→human 85, 4 attempts",
       "opportunity": {
         "score": 78,
-        "band": "Strong"
+        "band": "Pillar",
+        "winnable": false
       }
     },
     {
@@ -319,7 +330,8 @@
       "notes": "Good opp 50, kd0; clean pillar — no keno page in sitemap; universal lottery game rules/odds/house-edge; honest angle = keno has one of the highest house edges (online <4%→35%+, live 20–40%, video ~5–16%) · gate 95/100; HUMAN-LIKE 50/60; 2 in-text [VERIFY] (paytable-dependent odds/return); Gemini ×2 passes 15→20→15, kept pass 1 (ai 80, high-variance; rejected removal of RG doctrine); PR #18; img:1 (SVG RTP comparison; hero dropped-grid-hallucination, best 70) · nightly 2026-09-09: humanised (stripped intro intrigue, folded house-edge def, wove RG advice into prose), Gemini ai 80→human 80, 3 attempts; approved for deploy 2026-09-10 (human review: Кено — 0 flags (2 [VERIFY] resolved in cb3e047), Gemini human 80, SVG 100 PASS)",
       "opportunity": {
         "score": 50,
-        "band": "Good"
+        "band": "Good",
+        "winnable": true
       }
     },
     {
@@ -339,7 +351,8 @@
       "notes": "slots-mechanics education pillar — paylines vs ways-to-win (243=3⁵/1024=4⁵/Megaways 117 649=7⁶), why more lines ≠ better odds, losses-disguised-as-wins (Dixon 2010/Graydon 2018 58%/Jensen 2013, web-verified); anti-cannibal vs listings /slot-igri/ /kazino-igri/rotativki/ (prose only) · gate 92/100; HUMAN-LIKE; 0 flags; Gemini PASS pass-1 (human 90, initial kept); PR #19; img:3 (hero+2 infographics, best score 85); approved for deploy 2026-09-17 (human review: Линии на печалба — 0 flags, Gemini human 90; 6 em-dashes removed from alt/caption + infographics at approval)",
       "opportunity": {
         "score": 20,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -359,7 +372,8 @@
       "notes": "TOP opp: 1100/kd0/commercial/up — clean slot-explainer pillar (Pragmatic), no page in sitemap; game-explainer scope (public game data, not operator T&C); RTP 96.48% default (configurable builds) web-verified · gate 93/100; HUMAN-LIKE; 1 in-text [VERIFY] (bonus-buy BG); Gemini high-variance HL 15→75→20, kept pass 1 (ai 25); PR #24; img:2 (hero+infographic, best score 98); approved for deploy 2026-09-09 (human review: [VERIFY bonus-buy availability] resolved — hedged wording kept, flag removed; Gemini ai 25 accepted as-is (high-variance 15/75/20, kept HL 75); images 98 PASS) · nightly 2026-09-09: humanised (broke heading symmetry, cut neat-bow conclusion, grounded narrated emotion), Gemini ai 25→human 90, 2 attempts",
       "opportunity": {
         "score": 95,
-        "band": "Strong"
+        "band": "Strong",
+        "winnable": true
       }
     },
     {
@@ -379,7 +393,8 @@
       "notes": "highest volume 2700/kd62; provider-profile pillar (hub, anchors Sweet Bonanza vk-0018); anti-cannibal vs /blog/games-providers/ (Pragmatic-specific profile, distinct primary kw); web-verified provider facts · gate 93/100; HUMAN-LIKE; 1 in-text [VERIFY] (HQ Malta/Gibraltar); Gemini HL 25→35→85 PASS pass 2 (human 85); PR #25; img:2 (hero 82+infographic 85); approved for deploy 2026-09-09 (human review: [VERIFY HQ Malta/Gibraltar] resolved — text says offices not one seat, flag removed; Gemini human 85; images 85/82 PASS)",
       "opportunity": {
         "score": 75,
-        "band": "Strong"
+        "band": "Pillar",
+        "winnable": false
       }
     },
     {
@@ -399,7 +414,8 @@
       "notes": "900/kd60/transactional; EGT/Amusnet classic slot-explainer; distinct cluster from Pragmatic titles; RTP 95.79% web-verified; Jackpot Cards + fixed 20 paylines · gate 93/100; HUMAN-LIKE; 1 in-text [VERIFY] (release year); Gemini high-variance HL 15→25→25, kept pass 2 (ai 75; fixed „люлките\" anglicism); PR #26; img:2 (hero+infographic, best score 82) · nightly 2026-09-09: humanised (blended textbook mechanics, condensed gamble into coin-flip, de-duped caption), Gemini ai 75→human 90, 1 attempt; approved for deploy 2026-09-10 (human review: 20 Super Hot — 0 flags ([VERIFY] release year resolved in 55b89bd, hedged), Gemini human 90)",
       "opportunity": {
         "score": 61,
-        "band": "Good"
+        "band": "Pillar",
+        "winnable": false
       }
     },
     {
@@ -419,7 +435,8 @@
       "notes": "highest-volume bank candidate 2000/kd73/commercial/up; provider-profile pillar (hub, anchors EGT classics 20/40 Super Hot, Shining/Burning Crown); anti-cannibal vs /blog/games-providers/ (Amusnet-specific profile, distinct primary kw); public provider facts (site + game DBs), NOT geo-blocked operator T&C · gate 93/100; HUMAN-LIKE; 1 in-text [VERIFY] (online-arm founding/EGT relationship, hedged); Gemini HL 15→75→85 PASS pass 2 (human 85); RTP band 96.37/95.81/95.79/95.53 web-verified (Wizard of Odds); PR #27; img:2 (infographic 100 + hero 82, best 100); approved for deploy 2026-09-09 (human review: [VERIFY online-arm founding year / EGT relationship] resolved — text hedges to historical origin, flag removed; Gemini human 85; images 100/82 PASS)",
       "opportunity": {
         "score": 71,
-        "band": "Strong"
+        "band": "Pillar",
+        "winnable": false
       }
     },
     {
@@ -439,7 +456,8 @@
       "notes": "300/kd69/commercial; Pragmatic hit slot-explainer, clean pillar (no page in sitemap); anchors to Pragmatic profile (vk-0019); public game data (pay-anywhere/tumble/Zeus множители/висока волатилност) · gate 93/100; HUMAN-LIKE; 2 in-text [VERIFY] (lower RTP builds; bonus-buy BG); RTP 96.50% default web-verified, max win 5000x; Gemini PASS pass 1 (human 90, initial kept); PR #28; img:2 (infographic 85 + hero 85, best 85); approved for deploy 2026-09-10 (human review: Gates of Olympus — 0 flags (2 [VERIFY] resolved in 9b6da5e), Gemini human 90, images 85 PASS)",
       "opportunity": {
         "score": 27,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": false
       }
     },
     {
@@ -459,7 +477,8 @@
       "notes": "300/kd62/transactional; EGT/Amusnet classic slot-explainer; distinct game+kw from 20 Super Hot (vk-0020) — 5x4/40 fixed lines vs 5x3/20; anchors to Amusnet profile (vk-0021 same batch) · gate 93/100; HUMAN-LIKE; 1 in-text [VERIFY] (per-casino RTP build); RTP 95.81% web-verified (corrected from 95.79%=20SH); Jackpot Cards + gamble; honest 40-vs-20-lines angle; Gemini HL 15→85 PASS pass 1 (human 85); PR #29; img:2 (infographic + hero, best 82); approved for deploy 2026-09-10 (human review: 40 Super Hot — 0 flags ([VERIFY] RTP build resolved in e86aafc), Gemini human 85, images 82 PASS)",
       "opportunity": {
         "score": 30,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": false
       }
     },
     {
@@ -496,7 +515,8 @@
       "notes": "live-dealer game-show format explainer (public game data); distinct format pillar; anti-cannibal vs listing /kazino-igri/kazino-na-zhivo/ (not linked) · gate 94/100; 1 in-text [VERIFY] (Monopoly Live lower RTP bound; top ~96.23% confirmed); honest angle „няма RTP на играта, има RTP на залога\"; Gemini HL 85 PASS pass 1 (human 85, initial kept); PR #32; img:2 (infographic + hero, best 95); approved for deploy 2026-09-17 (human review: Live game shows — 0 flags ([VERIFY] Monopoly Live RTP floor resolved in 31e4a77), Gemini human 85)",
       "opportunity": {
         "score": 20,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -516,7 +536,8 @@
       "notes": "EGT/Amusnet classic slot-explainer (public game data, NOT operator T&C); clean pillar (no page in sitemap); anchors to Amusnet profile (vk-0021) · gate 95/100; 0 flags (RTP 96.37% default, configurable builds; web-verified); Gemini HL 25→85 PASS pass 1 (human 85); PR #31; img:2 (infographic 100 + hero 90; first hero dropped fake-UI integrity, regenerated abstract; best 100); approved for deploy 2026-09-17 (human review: Shining Crown — 0 flags (volatility ambiguity stated as a range in-text), Gemini human 85)",
       "opportunity": {
         "score": 24,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -536,7 +557,8 @@
       "notes": "EGT/Amusnet classic slot-explainer (public game data, NOT operator T&C); clean pillar (no page in sitemap); anchors to Amusnet profile (vk-0021); distinct game+kw from other EGT classics (Shining Crown vk-0026, 20/40 Super Hot vk-0020/0023); RTP 96.45% default web-verified (Amusnet), configurable builds · gate 93/100; 1 in-text [VERIFY] (alt RTP tiers for original not publicly listed); Gemini HL 75→85 PASS pass 1 (human 85); PR #34; img:2 (infographic 100 + hero 75 kept-best; best 100) · nightly 2026-09-09: JOB-A flag resolved — [VERIFY] removed from alt-RTP sentence (states no public list, points to info-panel); 0 blocking markers; approved for deploy 2026-09-17 (human review: Burning Hot — 0 flags ([VERIFY] alt RTP builds resolved in 49cb24c), Gemini human 85)",
       "opportunity": {
         "score": 25,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": false
       }
     },
     {
@@ -556,7 +578,8 @@
       "notes": "Pragmatic/Reel Kingdom fishing-slot explainer (public game data, NOT operator T&C); clean pillar (no page in sitemap); anchors to Pragmatic profile (vk-0019); distinct cluster from Sweet Bonanza/Gates of Olympus; RTP 96.71% default web-verified (Pragmatic), configurable builds · gate 93/100; 1 in-text [VERIFY] (lower RTP builds 95.67/94.02 secondary-listing); Gemini human 90 PASS pass 1 (initial kept — highest first-pass of batch); PR #35; img:3 (hero 100 + RTP infographic 100 + bonus-ladder infographic 100; all PASS) · nightly 2026-09-09: JOB-A flag resolved — [VERIFY] removed from lower-RTP sentence (95.67/94.02 framed as examples, info-panel caveat kept); 0 blocking markers; approved for deploy 2026-09-17 (human review: Big Bass Bonanza — 0 flags ([VERIFY] lower RTP builds resolved in 2a6291d), Gemini human 90)",
       "opportunity": {
         "score": 20,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -593,7 +616,8 @@
       "notes": "Pragmatic Play cluster-pays slot-explainer (public game data + Pragmatic official, NOT operator T&C); clean pillar (no page in sitemap); anchors to Pragmatic profile (vk-0019); distinct game+cluster from Sweet Bonanza/Gates of Olympus/Big Bass; opportunity Strong (vol 150/kd13) · gate 94/100; 0 flags; Gemini HL 55→25→85 PASS pass 2 (human 85); PR #36; img:2 (infographic 100 + hero 95; both PASS); approved for deploy 2026-09-10 (human review: Sugar Rush — 0 flags, figures web-verified, Gemini human 85)",
       "opportunity": {
         "score": 42,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": true
       }
     },
     {
@@ -613,7 +637,8 @@
       "notes": "Pragmatic Play sticky-wild slot-explainer (public game data + Pragmatic official, NOT operator T&C); clean pillar (no page in sitemap); anchors to Pragmatic profile (vk-0019); distinct game+kw from other Pragmatic slots + kept distinct from Dog House Megaways; opportunity Good (vol 100/kd33) · gate 94/100; 0 flags; Gemini HL 25→20→25 kept pass 2 (ai 75; detector high-variance, copy factual+compliant, optional human polish); PR #37; img:2 (infographic 85 + hero 85; both PASS); approved for deploy 2026-09-10 (human review: The Dog House — 0 flags, figures web-verified, Gemini ai 75 accepted as-is, images 85/85 PASS) · nightly 2026-09-10: humanised (fixed BG ти/вие RG register, отпред→предварително, cut „По този начин\" signpost + spec/caption redundancy, reframed persona-binary close & templated header), Gemini ai 75→human 90 (HL 20–90 across 5 runs, 3/5 human ≥85), 2 edit passes; no fact changes",
       "opportunity": {
         "score": 32,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": true
       }
     },
     {
@@ -633,7 +658,8 @@
       "notes": "EGT/Amusnet classic Egyptian slot-explainer + honest progressive-jackpot angle (public game data + Amusnet official, NOT operator T&C); clean pillar (no page in sitemap); anchors to Amusnet profile (vk-0021); distinct from Shining Crown/Burning Hot/20-40 Super Hot; opportunity Moderate (vol 60/kd56) · gate 95/100; 0 flags (no fabricated max-win); Gemini HL 40→85 PASS pass 1 (human 85); PR #38; img:2 (infographic 85 + hero 85; both PASS)",
       "opportunity": {
         "score": 21,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -687,7 +713,8 @@
       "notes": "Novomatic/Greentube classic Egyptian slot-explainer (public game/provider data, NOT operator T&C) — NEW provider coverage beyond EGT/Pragmatic; clean pillar (no page in sitemap); opportunity Good (vol 150/kd73) · gate 95/100; 0 flags (no invented max-win; 5,000× line-bet public); honest below-avg-RTP angle (orig 92.13% / Deluxe 95.10%); Gemini PASS on initial draft (HL 90 human 90; anti-AI applied proactively); PR #41; img:3 (hero 100 + RTP infographic 100 + bonus-flow infographic 100; all PASS)",
       "opportunity": {
         "score": 18,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -707,7 +734,8 @@
       "notes": "bonus-mechanics pillar (evergreen education; deposit-match welcome bonus mechanics — NOT operator-specific T&C); folds „депозитен бонус/бонус за първи депозит\" cluster; distinct from no-deposit pillar vk-0004 + navigational /bonus-category/welcome-bonus/; opportunity Moderate (vol 450/kd68) · gate 93/100; 1 in-text [VERIFY] (данъци); Gemini HL 35→85 PASS pass 1 (human 85); PR #51; img:2 (infographic 100 + hero 100; both PASS); approved for deploy 2026-09-17 (human review: Бонус при регистрация — 0 flags (tax [VERIFY] resolved in 741d69a; text asserts no tax fact, points to счетоводител/НАП), Gemini human 85)",
       "opportunity": {
         "score": 35,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": false
       }
     },
     {
@@ -727,7 +755,8 @@
       "notes": "EGT/Amusnet 40-line fruit-slot explainer (public game data + Amusnet official, NOT operator T&C); clean pillar (no page in sitemap); anchors to Amusnet profile (vk-0021); distinct game+kw from 20/40 Super Hot/Shining Crown/Burning Hot/Rise of Ra; opportunity Weak (vol 60/kd63) · gate 94/100; 0 flags (release year not stated); Gemini PASS on initial draft (HL 90 human 90; anti-AI applied proactively, only 1-word typo fix); PR #52; img:2 (RTP infographic + hero 85; PASS, no integrity failure)",
       "opportunity": {
         "score": 18,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -747,7 +776,8 @@
       "notes": "Pragmatic/Reel Kingdom fishing-slot explainer (public game data + AskGamblers/PokerNews, NOT operator T&C); clean pillar (no page in sitemap); distinct branded game from Big Bass Bonanza (vk-0028) — very high volatility + multiplier ladder 1x/2x/3x/10x + 5000x cap → own pillar (fold-in mention, plain text); anchors to Pragmatic profile (vk-0019); opportunity Weak (vol 100/kd71) · gate 94/100; 0 flags; Gemini PASS on initial draft (HL 85 human 85; anti-AI applied proactively); PR #54; img:3 (RTP infographic 98 + multiplier-ladder infographic 98 + hero 95; all PASS)",
       "opportunity": {
         "score": 17,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -767,7 +797,8 @@
       "notes": "concept/education guide (NO operator facts; public legal framework only — KYC задължителен по закон, НАП регистър, демо = единствената реална игра без акаунт, Pay N Play = скрита регистрация); distinct primary intent vs /blog/bezplatni-kazino-igri/ (демо) + /zakonno-li-e/ (легалност) → fold-in, not dup; honest RG-forward angle (steers to licensed+demo; red flags of unlicensed) · gate 95/100; 0 flags; Gemini HL 35→85 PASS pass 1 (human 85); PR #55; img:2 (hero 82-set, regenerated no-avatar integrity-clean + comparison infographic every cell traces to 05b; best 82, no integrity fail)",
       "opportunity": {
         "score": 17,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -787,7 +818,8 @@
       "notes": "Pragmatic Play pay-anywhere+tumble+multiplier slot-explainer (public provider/game-DB data, NOT operator T&C); clean pillar (no sitemap page); distinct branded title vs Gates of Olympus (vk-0022 fold-in) + Starlight Princess 1000 (separate); anchors to Pragmatic profile (vk-0019); opportunity Weak (vol 40/kd68) · gate 94/100; 0 flags; RTP 96.50% default (95.51/94.50 builds), 6x5 8+ anywhere, множители 2x-500x, 15 FS, max 5,000x web-verified (Pragmatic official + game DBs); Gemini HL 80→85 PASS (1 improvement pass; human 85); PR #56; img:3 (hero + RTP infographic + mechanics infographic; best 85, all figures trace to 05b, integrity clean)",
       "opportunity": {
         "score": 15,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -1487,7 +1519,8 @@
       "notes": "Megaways-version pillar vs base The Dog House (vk-0031 posted); distinct engine (variable ways, 2 FS modes); Pragmatic public game-DB; gate 93/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp+rezhimi svg, review skipped 429, 0 integrity); 0 [VERIFY]; Ahrefs vol 90/kd 72",
       "opportunity": {
         "score": 16,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -1558,7 +1591,8 @@
       "notes": "EGT/Amusnet 100-line variant vs Burning Hot (vk-0027, 5-line, low vol) — different slot/line count; 5x4, RTP 95.89% official (source conflict 96.45 -> [VERIFY]); Clover wild + $/star scatters; Jackpot Cards 4-level mystery; anchor Amusnet profile (vk-0021); public game-DB; gate 94/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (vs-baza + rtp svg, review skipped 429, 0 integrity); 1 [VERIFY]; Ahrefs vol 40/kd 0",
       "opportunity": {
         "score": 42,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": true
       }
     },
     {
@@ -1629,7 +1663,8 @@
       "notes": "NEW провайдър Nolimit City (Стокхолм 2014, придобит от Evolution 01.07.2022); миньорска ротативка с xBomb +1 множител, Collapsing Mine, Lucky Wagon Spins; xWays НЕ се ползва (проверено, ъгълът махнат не измислен); RTP 96,06% (билдове 94,11%/90,02%), 6 барабана 64 до 46656 начина, max 60000x, extreme 10/10; bonus buy 60x/157x/500x; public game-DB (nolimitcity/bigwinboard/askgamblers), NOT operator T&C/НАП; gate 93/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp + xbomb SVG, review skipped 429, 0 integrity); 3 [VERIFY] (bonus freq ~1/200, по-ниски RTP билдове, max-win шанс ~1/2.4млн, single-source); Ahrefs vol 30/kd36 · nightly 2026-09-16: JOB-A flags resolved — 3 [VERIFY] cleared by rephrase only (no facts invented/changed), 0 blocking markers, publish-ready; JOB-B Gemini Step-7 deferred (429 credits depleted)",
       "opportunity": {
         "score": 27,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": true
       }
     },
     {
@@ -1683,7 +1718,8 @@
       "notes": "Push Gaming (2022); 5×6, 50 начина; RTP 96.13% (multi-source), висока волатилност, макс. 50 000x; Golden Bamboo (Instant Prize 1x–5000x, множители до 10x); scatter reels 2/3/4; angle „спокойният дизайн лъже за риска\"; public game-DB (bigwinboard/askgamblers/slotcatalog/clashofslots/racingpost), NOT operator T&C/НАП; gate 93/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp + golden-bamboo SVG, review skipped 429, 0 integrity); 3 [VERIFY] (по-ниски RTP билдове, брой FS, bonus-buy цени); Ahrefs vol 30/kd14 · nightly 2026-09-16: JOB-A flags resolved — 3 [VERIFY] cleared by rephrase only (no facts invented/changed), 0 blocking markers, publish-ready; JOB-B Gemini Step-7 deferred (429 credits depleted)",
       "opportunity": {
         "score": 36,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": true
       }
     },
     {
@@ -1703,7 +1739,8 @@
       "notes": "ОРИГИНАЛ Eye of Horus (Reel Time Gaming engine, дистрибуция Merkur/Blueprint, 2016), разграничен от Megaways/Fortune Play; 5×3, 10 линии; RTP 96.31% (multi-source); разширяващ се Хор wild + book-style зареждащи се плочи → надграждане към Око на Хор в 12-те FS; angle „една силна book-слот идея\"; public game-DB (askgamblers/slotcatalog/racingpost/great/gamesandcasino), NOT operator T&C/НАП; gate 94/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp + free-spins SVG, review skipped 429, 0 integrity); 3 [VERIFY] (по-ниски RTP билдове, схема на ретригер, волатилност + противоречив макс. таван — макс. таван НЕ е посочен като едно число); Ahrefs vol 200/kd38 · nightly 2026-09-16: JOB-A flags resolved — 3 [VERIFY] cleared by rephrase only (no facts invented/changed), 0 blocking markers, publish-ready; JOB-B Gemini Step-7 deferred (429 credits depleted)",
       "opportunity": {
         "score": 35,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": true
       }
     },
     {
@@ -1723,7 +1760,8 @@
       "notes": "Pragmatic Play (2021); ПОПРАВКА vs bank: НЕ е cluster pays — базова е 5×5/50 линии линийна ротативка (без клъстери/каскади); RTP 96.51% (по-ниски билдове 95.54/94.50); разширяваща се Crown wild (пълен екран ~1200x), 6 FS със събиране на диаманти (+1–3 spins + уголемяване), висока волатилност, макс. 5000x, bonus buy 100x; разграничена от Juicy Fruits Multihold; public game-DB (bigwinboard/slotcatalog/askgamblers), NOT operator T&C/НАП; gate 93/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp + free-spins SVG, review skipped 429, 0 integrity); 2 [VERIFY] (RTP 96.51 vs 96.52 закръгляне, макс. залог); Ahrefs vol 100/kd36 · nightly 2026-09-16: JOB-A flags resolved — 2 [VERIFY] cleared by rephrase only (no facts invented/changed), 0 blocking markers, publish-ready; JOB-B Gemini Step-7 deferred (429 credits depleted)",
       "opportunity": {
         "score": 31,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": true
       }
     },
     {
@@ -1743,7 +1781,8 @@
       "notes": "Big Bass серия вариант, distinct от база Big Bass Bonanza (vk-0028)/Splash (vk-0038); Reel Kingdom/Pragmatic 16.09.2021; 5×4/12 линии (база 5×3/10), RTP 96.71% (билдове 95.67/94.62), вол. 5/5 (база 4/5), max 4000× (база ~2100×), FS 10/15/20, рибар Money Collect, ретригер x2/x3/x10 макс 3; без bonus buy/Ante в базата; public game-DB (bigwinboard/slotcatalog/clashofslots/gamblingzone), NOT operator T&C/НАП; gate 94/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (rtp + retrigger-ladder SVG, review skipped 429, 0 integrity); 0 [VERIFY]; Ahrefs vol 30/kd70 commercial down",
       "opportunity": {
         "score": 14,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -1797,7 +1836,8 @@
       "notes": "Nolimit City 11.01.2022; мрежа 2-3-3-3-1, 108 начина; xNudge + xSplit диви (НЕ xWays/xBomb — грешен източник отхвърлен); RTP 96.08% (по-нисък билд 94.08% при някои), дом. предимство 3.92%, „insane\" вол., честота 9.08%, max 300000×, feature buy 70–3000×; Hang 'em High/Boothill FS (множители 5×–999×); public game-DB (nolimitcity/aboutslots/slotcatalog), NOT operator T&C/НАП; gate 93/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (key-facts + rtp SVG, review skipped 429, 0 integrity); 0 [VERIFY]; Ahrefs vol 150/kd59 commercial",
       "opportunity": {
         "score": 24,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -1868,7 +1908,8 @@
       "notes": "Pragmatic Play 29.10.2020; ПОПРАВКА vs bank: НЕ „gem-collection/tumble\" free spins → реалната механика е cluster pays 8×8 (5+ свързани) + каскади, а бонусът е колекцията Gold Fever (праг 114 премахнати символа → 5 нива, множител 2×→10×), НЕ scatter free spins; 5 Spin Feature модификатора (Nuclear/Wild Gem/Squares 2×2/Colossal 3×3–5×5/Lucky Wilds 5–15); RTP 96.51% офиц. (билдове 96.55/95.54/94.53), дом. предимство 3.49%, вол. 5/5, max 10000×, залог €0.20–€100, bonus buy 100×; разграничен от Sweet Bonanza; ОТХВЪРЛЕНИ измислени имена („Alexander the Great\"/„Money Spins\" не съществуват); public game-DB (pragmaticplay/bigwinboard/slotcatalog/askgamblers), NOT operator T&C/НАП; gate 93/100 0 crit; Gemini Step-7 SKIPPED (429); img:2 (rtp + concept hero SVG, review skipped 429, 0 integrity); 3 [VERIFY] (RTP билд; честота ~1/3 single-source; bonus-buy БГ); Ahrefs vol 30/kd69 transactional down · nightly 2026-09-17: JOB-A flags resolved on branch (3× [VERIFY] removed, folded caveats into prose, publish-ready 0 markers); gemini still `skipped` — Gemini API credits depleted, no Step-7 possible",
       "opportunity": {
         "score": 14,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -1905,7 +1946,8 @@
       "notes": "provider-hub pillar (distinct от game explainers Fire in the Hole vk-0089/San Quentin vk-0097/Tombstone vk-0098); ownership Evolution corrected (обявена юни, завършена авг. 2022, не 01.07.2022); top-slots инфографика 6 игри числата от nolimitcity.com; gate 94/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (concept hero + top-slots SVG, review skipped 429, 0 integrity); 0 [VERIFY] in-text (date/RTP build hedged); Ahrefs vol 350/kd67",
       "opportunity": {
         "score": 31,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": false
       }
     },
     {
@@ -1959,7 +2001,8 @@
       "notes": "provider-hub pillar; НАЙ-СИЛЕН нов провайдър (500/commercial kd72); founded 1999 Tartu/Teddy Sagi, LSE/FTSE-250, 2021 Aristocrat bid НЕ се осъществи (corrected); Age of the Gods прогресив honest pool-funded; multi-RTP-build reality; gate 93/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted 7th day); img:3 (hero + AoG jackpot-tiers + top-slots SVG, review skipped 429, 0 integrity/fabrication); 2 [VERIFY] hedged (ownership status; live RTP build); provider licences на студиото, NOT operator T&C/НАП",
       "opportunity": {
         "score": 36,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": false
       }
     },
     {
@@ -1979,7 +2022,8 @@
       "notes": "crash/multiplier explainer; distinct от Aviator (krash-igri vk-0018); RTP 96.50%, max 5000x, залог €1-€100, авто/50% cash-out, два залога; gate 94/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (hero + cash-out SVG, review skipped 429, 0 integrity); 0 [VERIFY] in-text (рекламен таван/RTP версии hedged); provider site + game-DB, NOT operator T&C/НАП",
       "opportunity": {
         "score": 27,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": true
       }
     },
     {
@@ -1999,7 +2043,8 @@
       "notes": "provider-hub pillar; Полски корени/Malta HQ (Wazdan Holding, осн. 2010), MGA/UKGC B2B; Unique/Freedom of Choice + Volatility Levels (променя формата на дисперсия, НЕ RTP), Hold the Jackpot; NON-FABRICATION: 'Sto Zł' непотвърдим→заменен с 9 Coins, 'Cards & Collectibles' махнат; gate 93/100 0 crit; Gemini Step-7 SKIPPED (429 credits depleted); img:2 (volatility-selector hero + top-slots SVG, review skipped 429, 0 integrity); 0 [VERIFY] in-text (RTP build/дата hedged); provider licences на студиото, NOT operator T&C/НАП",
       "opportunity": {
         "score": 27,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": true
       }
     },
     {
@@ -2019,7 +2064,8 @@
       "notes": "provider-hub pillar; distinct от Amusnet/EGT hub vk-0021 (Novomatic=австрийска, осн. 1980 Йохан Граф Gumpoldskirchen; онлайн Greentube), EGT=българска осн. 2002; котва Book of Ra vk-0035/Deluxe vk-0086, Sizzling Hot vk-0065; gate 94/100 0 crit; Gemini Step-7 ONLINE: HL 75→pass1 85 PASS (human 85); img:2 (top-slots + concept hero SVG, review 100/100 PASS both, 0 integrity); 0 [VERIFY] (конфликтни max-win пропуснати от инфографиката); RTP билдове от slotcatalog; provider licences на студиото, NOT operator T&C/НАП",
       "opportunity": {
         "score": 18,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -2039,7 +2085,8 @@
       "notes": "provider-hub pillar; GATI/Gigablox/Multiplier Wilds/Splitz; Vikings/Valley of the Gods топ слотове; NON-FABRICATION: GEMIX изключен (Play'n GO не Yggdrasil), конфликтни max-win пропуснати (Vikings Go Berzerk орig.), Jokerizer RTP hedged до 98%; gate 93/100 0 crit; Gemini Step-7 ONLINE: HL 15→25→80 PASS (human 80, 2 humaniser passes, 0 number-drift); img:2 (concept hero + top-slots SVG, review 100/100 PASS both, 0 integrity); 0 [VERIFY]; provider licences на студиото, NOT operator T&C/НАП",
       "opportunity": {
         "score": 16,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -2059,7 +2106,8 @@
       "notes": "provider-hub pillar; пионер (осн. 1994 Isle of Man, „смята се за\" първи онлайн казино софтуер); Mega Moolah прогресив мрежа (vk-0078 fold-in в прозата); NON-FABRICATION: Microgaming→Games Global 2022 (Quickfire/портфолио/джакпот мрежа продадени; Microgaming запази платформа+спорт) точно; само 1 record-jackpot число (Guinness 06.10.2015 £13.21M=€17.88M, посочен като после надминат); max-win колона пропусната (DB конфликт Thunderstruck II/Break da Bank); gate 93/100 0 crit; Gemini Step-7 ONLINE: HL 25→80 PASS (human 80, 1 humaniser pass); img:2 (concept hero + top-slots SVG, review 100/100 PASS both, 0 integrity); 0 [VERIFY] in-text (3 hedged); provider licences на студиото, NOT operator T&C/НАП",
       "opportunity": {
         "score": 14,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -2079,7 +2127,8 @@
       "notes": "provider-hub pillar; Red Tiger Gaming осн. 2014, NetEnt придобива 2019, в Evolution края на 2020; Daily Drop timed jackpots; топ слотове Dragon's Fire 96.07%/10 366x, Gems Gone Wild 96.14%/1 706x, Mystery Reels 96.24%/4 991x; studio site + game-DB/iGaming press, NOT operator T&C/НАП; NON-FABRICATION: deal price (~£197m/£220m конфликт) пропуснат, Pirates' Plenty RTP (95.7% vs 96.12% версии) без число само като пример; gate 94/100 0 crit; Gemini Step-7 human 85 PASS pass1 (0 humaniser); img:2 (infographic 100 + hero 100, best 100, 0 integrity); 0 [VERIFY]; PR #132",
       "opportunity": {
         "score": 9,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -2269,7 +2318,8 @@
       "notes": "provider-profile pillar; distinct primary kw „spinomenal\" 30/kd0/informational; PUBLIC provider-site + game-DB facts (spinomenal.com/about-us, SlotCatalog, Sigma World, iGaming Business), NOT operator T&C/НАП; osn. 2014 израелски корени, седалище Малта; MGA/UKGC/ONJN/HGC + BMM Testlabs; ~300 собствени HTML5 + SAP ~2000+; механики book-style/Collect&Win/Hold&Hit/Mega/Bonus Buy; central honest angle = операторът избира RTP версия (~78%–над 96%), провери инфо-панела; top titles Book of Demi Gods II ~95.9%/Egyptian Rebirth II ~96.3%/Majestic King ~95.16% (configurable defaults); CORRECTION dropped bogus „Kingdom\" progressive network; gate 94/100 0 crit; Gemini Step-7 human 90 PASS on initial (0 humaniser); img:2 (infographic 100 + hero 100, 0 integrity); 0 [VERIFY]; Ahrefs vol 30/kd 0",
       "opportunity": {
         "score": 42,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": true
       }
     },
     {
@@ -2289,7 +2339,8 @@
       "notes": "provider-profile pillar; distinct primary kw „bgaming\" 80/kd61/transactional (най-силен нов provider-хъб от батча); PUBLIC provider-site + game-DB facts (bgaming.com/about + /news/mga, Wizard of Odds, SlotCatalog), NOT operator T&C/НАП; отделя се 2018 от SoftSwiss, Stable Games Ltd Малта; MGA B2B No. MGA/B2B/785/2020 (18.03.2021), iTech Labs/BMM; ~250 заглавия, 3000+ платформи (provider claim); central honest angle = provably fair доказва завъртането, но НЕ маха домашното предимство; втора точка = конфигурируем RTP 96%/94%; разграничение лиценз на доставчика ≠ лиценз на казиното (НАП); top titles Elvis Frog 96%/Aztec Magic Bonanza 96% max 10200x/Dig Dig Digger ~95.5%/Book of Pyramids ~97.13%; CORRECTIONS Book of Sirens е Spinomenal (дроп), Dig Dig Digger 95.5% (не 94.94%), без GLI; gate 93/100 0 crit; Gemini Step-7 human 90 PASS on initial (0 humaniser); img:2 (infographic 85 + hero 85, 0 integrity); 0 [VERIFY]; Ahrefs vol 80/kd 61",
       "opportunity": {
         "score": 20,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -2377,7 +2428,8 @@
       "notes": "EGT/Amusnet Greek-mythology slot explainer; game-DB/provider facts (amusnet.com official + SlotCatalog/VegasSlotsOnline), NOT operator T&C/НАП; guide→no affiliate; distinct primary kw „olympus glory\" 100/kd2; RTP 96.23% official (house 3.77%, €1000→~€962/~€38), 5×3/10 fixed lines, vol 5/5, max win 5000× per line, Zeus=wild+scatter→10 FS with random expanding symbol, Jackpot Cards 4-lvl progressive; provider EGT→Amusnet 06.06.2022; release 2015 official/2014 DBs → not hard-pinned; alt RTP versions → info-panel caveat (not asserted); gate 94/100 0 crit; Gemini Step-7 75→90 PASS pass1 (1 humaniser, 0 number-drift, kept pass1); img:2 (infographic 100 + hero 100, 0 integrity); 0 [VERIFY]; approved for deploy 2026-10-04 (human review: Olympus Glory — 0 flags (alternate RTP handled as info-panel caveat), Gemini human 90)",
       "opportunity": {
         "score": 44,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": true
       }
     },
     {
@@ -2397,7 +2449,8 @@
       "notes": "EGT/Amusnet mystery-jackpot MECHANIC pillar (cross-game 4-level progressive), distinct from single-slot reviews — cross-links 20/40 Super Hot + Burning Hot, does not duplicate; provider facts (egt.com/jackpot-cards + amusnet.com/jackpots), NOT operator T&C/НАП; guide→no affiliate; 4 нива Спатия<Каро<Купа<Пика, случаен старт, 12 карти събери 3 от боя, мрежов пул; contribution %/seed amounts NOT published → omitted (no fabrication); distinct от Bell Link/Clover Chance; gate 93/100 0 crit; Gemini Step-7 35→75→25 keep-best pass1 (2 humaniser, borderline<80 logged for human, noisy detector); img:2 (infographic 85→100 fix + hero 85, best 100, 0 integrity); 0 [VERIFY]; Ahrefs vol 70/kd5",
       "opportunity": {
         "score": 42,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": true
       }
     },
     {
@@ -2417,7 +2470,8 @@
       "notes": "EGT/Amusnet Louis-XIV/Versailles Baroque slot explainer; game-DB/provider facts (amusnet.com official + SlotCatalog/AskGamblers/SlotsMate), NOT operator T&C/НАП; guide→no affiliate; distinct primary kw „versailles gold\" 150/kd16; RTP 96.09% (house 3.91%, €1000→~€961/~€39), 5×3/10 selectable lines, vol High 4/5, max win 5000× per line, wild=Кралят-Слънце/scatter=кралски печат→12 FS (verified 12 NOT 15) with random expanding symbol, gamble red/black up to 5 capped; release 2014 official/2022 DB re-release → not hard-pinned; alt RTP versions → info-panel caveat; gate 93/100 0 crit; Gemini Step-7 human 85 PASS on initial (0 humaniser); img:2 (infographic 100 + hero 100, 0 integrity); 1 [VERIFY] (Jackpot Cards presence — DBs confirm, official summary omits); approved for deploy 2026-10-04 (human review: Versailles Gold — 0 flags ([VERIFY] resolved in 9b10bcac by hedging Jackpot Cards presence), Gemini human 85)",
       "opportunity": {
         "score": 41,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": true
       }
     },
     {
@@ -2437,7 +2491,8 @@
       "notes": "provably-fair instant/crash game-type explainer (NOT a single title); providers BGaming/Spribe/Stake, game-DB facts NOT operator T&C/НАП; guide→no affiliate; honest angle = ниво на риск сменя ВОЛАТИЛНОСТТА, не RTP; биномно/Паскалов триъгълник → центърът пада най-често; provably fair ≠ печеливша; RTP BGaming 99%/Stake 99%/Spribe 97% (house edge 1%/3%, 1000€→~990€/~970€), max mult 1000x BGaming/555x Spribe, редове 8-16 (Spribe 12/14/16); NON-FABRICATION dropped BGaming-97% (=Spribe число), Stake-10000x (single-source), центрови десетични (качествено), BC.Game RTP (омитнато); gate 94/100 0 crit; Gemini Step-7 HL 20→85 PASS pass1 (1 humaniser, 0 number-drift); img:2 (infographic 100 + hero 100, best 100, 0 integrity, 1 fix pass); 0 [VERIFY]; PR #150; Ahrefs vol 600/kd 78; approved for deploy 2026-10-04 (human review: Plinko — 0 flags, Gemini human 85)",
       "opportunity": {
         "score": 39,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": false
       }
     },
     {
@@ -2457,7 +2512,8 @@
       "notes": "EGT Digital hold-and-win LINKED jackpot system pillar (distinct from Jackpot Cards vk-0131 + Clover Chance vk-0135); official EGT Digital + game-DB facts, NOT operator T&C/НАП; guide→no affiliate; 4 нива Mini/Minor/Major/Grand — Grand+Major прогресивни/мрежов пул, Minor+Mini фиксирани (~50×/~10× залога [VERIFY per title]); trigger 5+ звънеца (research FACT-CORRECTION: не 6+) → hold-and-win 3 повторни завъртания, нов звънец reset на 3, sticky bells; звънци 1×–100× залога; full-grid множител (без фикс. число, не на Grand/Major); games 40 Super Hot BL/40 Burning Hot BL/Flaming Hot BL/40 Shining Crown BL/Burning Hot BL; RTP per-title/configurable (40 Super Hot BL ~96.5% [VERIFY], НЕ system-wide); EGT Digital≠Amusnet framing; NON-FABRICATION no seed/contribution numbers, unverified titles omitted; gate 93/100 0 crit; Gemini Step-7 human 85 PASS initial (0 humaniser); img:2 (infographic 85 + hero 85, best 85, 0 integrity, 0 fix); 2 [VERIFY]; PR #151; Ahrefs vol 250/kd 69; approved for deploy 2026-10-04 (human review: Bell Link — 0 flags (2 [VERIFY] resolved in 08127b95 by rewording), Gemini human 85; 1 alt-text em-dash removed at approval)",
       "opportunity": {
         "score": 25,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": false
       }
     },
     {
@@ -4643,6 +4699,150 @@
     {
       "priority": "1",
       "type": "guide",
+      "query": "Как да познаете лицензирано онлайн казино в България (НАП регистър)",
+      "keywords_or_terms": "лицензирани онлайн казина в българия, лицензирано казино, нап регистър казина",
+      "volume": "2600",
+      "kd": "0",
+      "intent": "commercial",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN (kd0, 2600/мес) — най-силната непокрита възможност от competitor-gap pull 2026-10-04. Образователен guide: как да проверите лиценз в регистъра на НАП, какво защитава лицензът, рискове от нелицензирани. НЕ изисква operator T&C → в обхвата guides-only. Котва към /zakonno-li-e/ + /sravni-kazina/. E-E-A-T gold.",
+      "status": "open",
+      "notes": "cluster: licensing; competitor-gap 2026-10-04",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "1",
+      "type": "guide",
+      "query": "100 безплатни завъртания без депозит — какво реално означава",
+      "keywords_or_terms": "100 безплатни врътки без депозит, безплатни завъртания без депозит, free spins без депозит",
+      "volume": "2400",
+      "kd": "5",
+      "intent": "transactional",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN (kd5, 2400/мес). Bonus-education: механика, разиграване, как да познаеш реална оферта — БЕЗ конкретни operator T&C → в обхвата. Котва към /bonus-category/welcome-bonus/ + wagering статия (vk-0001). Fold-in: по-малките „X безплатни завъртания\" long-tails.",
+      "status": "open",
+      "notes": "cluster: no-deposit-bonus; competitor-gap 2026-10-04",
+      "opportunity": {
+        "score": 98,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "1",
+      "type": "guide",
+      "query": "Ново онлайн казино 2026 — на какво да обърнете внимание",
+      "keywords_or_terms": "ново онлайн казино 2026, нови казино сайтове, нови казина",
+      "volume": "700",
+      "kd": "0",
+      "intent": "commercial",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN (kd0, 700/мес; „нови казино сайтове\" 2100/kd47 = HARD fold-in). Образователен „как да оцените ново казино\" (лиценз, червени флагове) — НЕ листинг на оператори, в обхвата. Котва към /kak-ocenyavame/ + /zakonno-li-e/.",
+      "status": "open",
+      "notes": "cluster: licensing; competitor-gap 2026-10-04",
+      "opportunity": {
+        "score": 75,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "1",
+      "type": "guide",
+      "query": "Бонус без депозит 5 € / 10 лв — реални ли са и как работят",
+      "keywords_or_terms": "5 € бонус без депозит, 10 лева бонус без депозит, реални бонуси без депозит",
+      "volume": "600",
+      "kd": "0",
+      "intent": "transactional",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN (kd0, 600/мес + fold-in 1900/kd56). Силен конверсионен интент; bonus-education в обхвата (без operator T&C). Fold-in на pillar „бонус без депозит\" (5400, kd61 — defer). Котва към /bonus-category/welcome-bonus/.",
+      "status": "open",
+      "notes": "cluster: no-deposit-bonus; competitor-gap 2026-10-04",
+      "opportunity": {
+        "score": 70,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "1",
+      "type": "guide",
+      "query": "Хот 40 (EGT): как се играе, RTP и символи",
+      "keywords_or_terms": "хот 40, hot 40, egt hot 40",
+      "volume": "100",
+      "kd": "0",
+      "intent": "transactional",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN (kd0). EGT/Amusnet класически слот — непокрит, public game-DB (без operator T&C) → в обхвата; попълва празнината „класически БГ слотове\", различен от covered Pragmatic/NetEnt. Котва към /kazino-igri/ + Amusnet профил.",
+      "status": "open",
+      "notes": "cluster: classic-slots; competitor-gap 2026-10-04",
+      "opportunity": {
+        "score": 45,
+        "band": "Good",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "2",
+      "type": "guide",
+      "query": "Стари ротативки и класически слот игри — кратко ръководство",
+      "keywords_or_terms": "стари ротативки игри, класически ротативки, игри машинки",
+      "volume": "250",
+      "kd": "0",
+      "intent": "commercial",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN (kd0; „игри машинки\" 250 + „стари ротативки\" 100). Nostalgia/класически слотове — непокрит клъстер, в обхвата; класически vs модерни, EGT/Amusnet наследство. Котва към /kazino-igri/.",
+      "status": "open",
+      "notes": "cluster: classic-slots; competitor-gap 2026-10-04",
+      "opportunity": {
+        "score": 52,
+        "band": "Good",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "2",
+      "type": "guide",
+      "query": "Безплатни завъртания (free spins): видове, условия и капани",
+      "keywords_or_terms": "безплатни врътки, безплатни завъртания, free spins",
+      "volume": "300",
+      "kd": "13",
+      "intent": "transactional",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN (kd13). Head-term на free-spins клъстера; образователен; анкър за бъдещите „X безплатни завъртания\" long-tails. Котва към /bonus-category/welcome-bonus/.",
+      "status": "open",
+      "notes": "cluster: no-deposit-bonus; competitor-gap 2026-10-04",
+      "opportunity": {
+        "score": 50,
+        "band": "Good",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "3",
+      "type": "guide",
+      "query": "Безплатни казино игри (демо режим) и класики от Мега Джак/NetEnt",
+      "keywords_or_terms": "безплатни казино игри без регистрация, netent безплатни казино игри, мега джак игри безплатни",
+      "volume": "200",
+      "kd": "31",
+      "intent": "commercial",
+      "checked": "ahrefs",
+      "ahrefs_note": "STRETCH (kd30-31). Demo-mode education + класически Mega Jack/NetEnt; fold-in на pillar „безплатни казино игри\" (4900, kd52 — defer). Game-DB/demo, без operator T&C → в обхвата.",
+      "status": "open",
+      "notes": "cluster: free-games; competitor-gap 2026-10-04",
+      "opportunity": {
+        "score": 38,
+        "band": "Moderate",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "1",
+      "type": "guide",
       "query": "Как работи изискването за разиграване (wagering)",
       "keywords_or_terms": "разиграване, wagering, бонус условия",
       "volume": "20",
@@ -4780,7 +4980,8 @@
       "notes": "продължение на branded bonus клъстера; wagering математика като в PR #80 · blocked: operator source pack / BG route needed (NV Casino T&C + complaints geo-blocked 403; guides-only scope) — revisit when operator sourcing solved.",
       "opportunity": {
         "score": 33,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": false
       }
     },
     {
@@ -4883,7 +5084,8 @@
       "date_researched": "2026-09-18",
       "opportunity": {
         "score": 31,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": false
       }
     },
     {
@@ -4928,7 +5130,8 @@
       "date_researched": "2026-09-18",
       "opportunity": {
         "score": 36,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": false
       }
     },
     {
@@ -4945,7 +5148,8 @@
       "date_researched": "2026-09-18",
       "opportunity": {
         "score": 16,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -4962,7 +5166,8 @@
       "date_researched": "2026-09-18",
       "opportunity": {
         "score": 27,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": true
       }
     },
     {
@@ -4979,7 +5184,8 @@
       "date_researched": "2026-09-18",
       "opportunity": {
         "score": 9,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -4996,7 +5202,8 @@
       "date_researched": "2026-09-18",
       "opportunity": {
         "score": 27,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": true
       }
     },
     {
@@ -5013,7 +5220,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 76,
-        "band": "Strong"
+        "band": "Pillar",
+        "winnable": false
       }
     },
     {
@@ -5030,7 +5238,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 19,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -5047,7 +5256,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 82,
-        "band": "Strong"
+        "band": "Pillar",
+        "winnable": false
       }
     },
     {
@@ -5064,7 +5274,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 77,
-        "band": "Strong"
+        "band": "Pillar",
+        "winnable": false
       }
     },
     {
@@ -5081,7 +5292,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 78,
-        "band": "Strong"
+        "band": "Pillar",
+        "winnable": false
       }
     },
     {
@@ -5098,7 +5310,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 75,
-        "band": "Strong"
+        "band": "Pillar",
+        "winnable": false
       }
     },
     {
@@ -5115,7 +5328,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 76,
-        "band": "Strong"
+        "band": "Pillar",
+        "winnable": false
       }
     },
     {
@@ -5132,7 +5346,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 71,
-        "band": "Strong"
+        "band": "Pillar",
+        "winnable": false
       }
     },
     {
@@ -5149,7 +5364,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 74,
-        "band": "Strong"
+        "band": "Pillar",
+        "winnable": false
       }
     },
     {
@@ -5166,7 +5382,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 65,
-        "band": "Good"
+        "band": "Good",
+        "winnable": true
       }
     },
     {
@@ -5183,7 +5400,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 30,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": false
       }
     },
     {
@@ -5228,7 +5446,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 37,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": true
       }
     },
     {
@@ -5245,7 +5464,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 65,
-        "band": "Good"
+        "band": "Good",
+        "winnable": true
       }
     },
     {
@@ -5262,7 +5482,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 50,
-        "band": "Good"
+        "band": "Good",
+        "winnable": true
       }
     },
     {
@@ -5321,7 +5542,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 42,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": true
       }
     },
     {
@@ -5338,7 +5560,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 20,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -5355,7 +5578,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 31,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": false
       }
     },
     {
@@ -5372,7 +5596,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 20,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -5389,7 +5614,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 95,
-        "band": "Strong"
+        "band": "Strong",
+        "winnable": true
       }
     },
     {
@@ -5406,7 +5632,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 61,
-        "band": "Good"
+        "band": "Pillar",
+        "winnable": false
       }
     },
     {
@@ -5423,7 +5650,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 27,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": false
       }
     },
     {
@@ -5440,7 +5668,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 30,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": false
       }
     },
     {
@@ -5457,7 +5686,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 24,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -5474,7 +5704,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 25,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": false
       }
     },
     {
@@ -5491,7 +5722,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 20,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -5508,7 +5740,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 75,
-        "band": "Strong"
+        "band": "Pillar",
+        "winnable": false
       }
     },
     {
@@ -5525,7 +5758,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 71,
-        "band": "Strong"
+        "band": "Pillar",
+        "winnable": false
       }
     },
     {
@@ -5556,7 +5790,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 78,
-        "band": "Strong"
+        "band": "Pillar",
+        "winnable": false
       }
     },
     {
@@ -5573,7 +5808,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 35,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": false
       }
     },
     {
@@ -5590,7 +5826,8 @@
       "date_researched": "2026-09-07",
       "opportunity": {
         "score": 17,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -5621,7 +5858,8 @@
       "date_researched": "2026-09-10",
       "opportunity": {
         "score": 42,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": true
       }
     },
     {
@@ -5638,7 +5876,8 @@
       "date_researched": "2026-09-10",
       "opportunity": {
         "score": 32,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": true
       }
     },
     {
@@ -5655,7 +5894,8 @@
       "date_researched": "2026-09-10",
       "opportunity": {
         "score": 21,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -5700,7 +5940,8 @@
       "date_researched": "2026-09-10",
       "opportunity": {
         "score": 18,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -5717,7 +5958,8 @@
       "date_researched": "2026-09-10",
       "opportunity": {
         "score": 17,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -5734,7 +5976,8 @@
       "date_researched": "2026-09-10",
       "opportunity": {
         "score": 18,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -5751,7 +5994,8 @@
       "date_researched": "2026-09-10",
       "opportunity": {
         "score": 15,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -6370,7 +6614,8 @@
       "date_researched": "2026-09-15",
       "opportunity": {
         "score": 16,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -6499,7 +6744,8 @@
       "date_researched": "2026-09-15",
       "opportunity": {
         "score": 14,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -6516,7 +6762,8 @@
       "date_researched": "2026-09-16",
       "opportunity": {
         "score": 27,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": true
       }
     },
     {
@@ -6547,7 +6794,8 @@
       "date_researched": "2026-09-16",
       "opportunity": {
         "score": 35,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": true
       }
     },
     {
@@ -6564,7 +6812,8 @@
       "date_researched": "2026-09-16",
       "opportunity": {
         "score": 31,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": true
       }
     },
     {
@@ -6581,7 +6830,8 @@
       "date_researched": "2026-09-16",
       "opportunity": {
         "score": 36,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": true
       }
     },
     {
@@ -6654,7 +6904,8 @@
       "date_researched": "2026-09-17",
       "opportunity": {
         "score": 24,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -6713,7 +6964,8 @@
       "date_researched": "2026-09-17",
       "opportunity": {
         "score": 14,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -6786,7 +7038,8 @@
       "date_researched": "2026-09-18",
       "opportunity": {
         "score": 25,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": false
       }
     },
     {
@@ -6803,7 +7056,8 @@
       "date_researched": "2026-09-18",
       "opportunity": {
         "score": 27,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": false
       }
     },
     {
@@ -6820,7 +7074,8 @@
       "date_researched": "2026-09-18",
       "opportunity": {
         "score": 18,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -6837,7 +7092,8 @@
       "date_researched": "2026-09-18",
       "opportunity": {
         "score": 17,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -6854,7 +7110,8 @@
       "date_researched": "2026-09-18",
       "opportunity": {
         "score": 14,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -6871,7 +7128,8 @@
       "date_researched": "2026-09-18",
       "opportunity": {
         "score": 15,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -6888,7 +7146,8 @@
       "date_researched": "2026-09-18",
       "opportunity": {
         "score": 18,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -6919,7 +7178,8 @@
       "date_researched": "2026-09-18",
       "opportunity": {
         "score": 25,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": false
       }
     },
     {
@@ -6964,7 +7224,8 @@
       "date_researched": "2026-09-19",
       "opportunity": {
         "score": 20,
-        "band": "Weak"
+        "band": "Weak",
+        "winnable": false
       }
     },
     {
@@ -6981,7 +7242,8 @@
       "date_researched": "2026-09-19",
       "opportunity": {
         "score": 42,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": true
       }
     },
     {
@@ -7054,7 +7316,8 @@
       "date_researched": "2026-09-20",
       "opportunity": {
         "score": 41,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": true
       }
     },
     {
@@ -7071,7 +7334,8 @@
       "date_researched": "2026-09-20",
       "opportunity": {
         "score": 44,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": true
       }
     },
     {
@@ -7088,7 +7352,8 @@
       "date_researched": "2026-09-20",
       "opportunity": {
         "score": 39,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": false
       }
     },
     {
@@ -7105,7 +7370,8 @@
       "date_researched": "2026-09-20",
       "opportunity": {
         "score": 42,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": true
       }
     },
     {
@@ -7136,7 +7402,8 @@
       "date_researched": "2026-09-20",
       "opportunity": {
         "score": 25,
-        "band": "Moderate"
+        "band": "Moderate",
+        "winnable": false
       }
     },
     {
@@ -8600,6 +8867,162 @@
       "routine": "https://claude.ai/code/routines/trig_019cfW1QpXykZkwG8XrotCtQ",
       "backlog": "https://github.com/ProfitXtraV2/AIContent/blob/main/VsichkiKazina/topic-backlog.md",
       "queue": "https://github.com/ProfitXtraV2/AIContent/blob/main/VsichkiKazina/content-queue.md"
+    }
+  },
+  "seo": {
+    "max_winnable_kd": 40,
+    "last_monthly_review": "2026-10",
+    "trend": [
+      {
+        "month": "2026-10",
+        "dr": 6,
+        "organic_keywords": 12,
+        "traffic": 90,
+        "note": "baseline; disavow uploaded (100% toxic profile); off-site authority kit pending"
+      }
+    ],
+    "bands": {
+      "Strong": 4,
+      "Good": 3,
+      "Moderate": 2
+    },
+    "clusters": {
+      "licensing": {
+        "winnable": 2,
+        "pillar": 0,
+        "total": 2
+      },
+      "no-deposit-bonus": {
+        "winnable": 3,
+        "pillar": 0,
+        "total": 3
+      },
+      "classic-slots": {
+        "winnable": 2,
+        "pillar": 0,
+        "total": 2
+      },
+      "free-games": {
+        "winnable": 1,
+        "pillar": 0,
+        "total": 1
+      },
+      "uncategorised": {
+        "winnable": 0,
+        "pillar": 0,
+        "total": 1
+      }
+    },
+    "winnable": [
+      {
+        "query": "Как да познаете лицензирано онлайн казино в България (НАП регистър)",
+        "keywords": "лицензирани онлайн казина в българия, лицензирано казино, нап регистър казина",
+        "volume": "2600",
+        "kd": "0",
+        "intent": "commercial",
+        "band": "Strong",
+        "score": 100,
+        "winnable": true,
+        "cluster": "licensing",
+        "status": "open",
+        "src": "backlog"
+      },
+      {
+        "query": "100 безплатни завъртания без депозит — какво реално означава",
+        "keywords": "100 безплатни врътки без депозит, безплатни завъртания без депозит, free spins без депозит",
+        "volume": "2400",
+        "kd": "5",
+        "intent": "transactional",
+        "band": "Strong",
+        "score": 98,
+        "winnable": true,
+        "cluster": "no-deposit-bonus",
+        "status": "open",
+        "src": "backlog"
+      },
+      {
+        "query": "Ново онлайн казино 2026 — на какво да обърнете внимание",
+        "keywords": "ново онлайн казино 2026, нови казино сайтове, нови казина",
+        "volume": "700",
+        "kd": "0",
+        "intent": "commercial",
+        "band": "Strong",
+        "score": 75,
+        "winnable": true,
+        "cluster": "licensing",
+        "status": "open",
+        "src": "backlog"
+      },
+      {
+        "query": "Бонус без депозит 5 € / 10 лв — реални ли са и как работят",
+        "keywords": "5 € бонус без депозит, 10 лева бонус без депозит, реални бонуси без депозит",
+        "volume": "600",
+        "kd": "0",
+        "intent": "transactional",
+        "band": "Strong",
+        "score": 70,
+        "winnable": true,
+        "cluster": "no-deposit-bonus",
+        "status": "open",
+        "src": "backlog"
+      },
+      {
+        "query": "Стари ротативки и класически слот игри — кратко ръководство",
+        "keywords": "стари ротативки игри, класически ротативки, игри машинки",
+        "volume": "250",
+        "kd": "0",
+        "intent": "commercial",
+        "band": "Good",
+        "score": 52,
+        "winnable": true,
+        "cluster": "classic-slots",
+        "status": "open",
+        "src": "backlog"
+      },
+      {
+        "query": "Безплатни завъртания (free spins): видове, условия и капани",
+        "keywords": "безплатни врътки, безплатни завъртания, free spins",
+        "volume": "300",
+        "kd": "13",
+        "intent": "transactional",
+        "band": "Good",
+        "score": 50,
+        "winnable": true,
+        "cluster": "no-deposit-bonus",
+        "status": "open",
+        "src": "backlog"
+      },
+      {
+        "query": "Хот 40 (EGT): как се играе, RTP и символи",
+        "keywords": "хот 40, hot 40, egt hot 40",
+        "volume": "100",
+        "kd": "0",
+        "intent": "transactional",
+        "band": "Good",
+        "score": 45,
+        "winnable": true,
+        "cluster": "classic-slots",
+        "status": "open",
+        "src": "backlog"
+      },
+      {
+        "query": "Безплатни казино игри (демо режим) и класики от Мега Джак/NetEnt",
+        "keywords": "безплатни казино игри без регистрация, netent безплатни казино игри, мега джак игри безплатни",
+        "volume": "200",
+        "kd": "31",
+        "intent": "commercial",
+        "band": "Moderate",
+        "score": 38,
+        "winnable": true,
+        "cluster": "free-games",
+        "status": "open",
+        "src": "backlog"
+      }
+    ],
+    "pillars": [],
+    "counts": {
+      "winnable": 8,
+      "pillars": 0
     }
   }
 }

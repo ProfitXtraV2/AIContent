@@ -7,6 +7,7 @@ where brand ∈ vsichkikazina (default) | dentalvia.
 """
 import json
 import os
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -199,6 +200,55 @@ def build_status(rows, backlog=None, research=None, target=10, brand="vsichkikaz
     }
 
 
+def _cluster_of(row):
+    """Extract a `cluster: <tag>` marker from a backlog note / research suggestion."""
+    text = f"{row.get('notes', '')} {row.get('suggestion', '')} {row.get('ahrefs_note', '')}"
+    m = re.search(r"cluster:\s*([a-z0-9-]+)", text or "")
+    return m.group(1) if m else "uncategorised"
+
+
+def build_seo(backlog, research, seo_review):
+    """SEO panel data for the dashboard: DR trend, opportunity-band mix, cluster
+    breakdown, winnable-now candidates, and deferred Pillar targets. Built from the
+    (opportunity-tagged) backlog + research rows plus docs/data/seo-review.json."""
+    CONSUMED = {"used", "written", "posted", "approved"}
+    bands, clusters, winnable, pillars = {}, {}, [], []
+    for src, rows in (("backlog", backlog or []), ("research", research or [])):
+        for r in rows:
+            opp = r.get("opportunity")
+            st = (r.get("status") or "open").lower()
+            if not opp or st in CONSUMED:
+                continue
+            band = opp["band"]
+            bands[band] = bands.get(band, 0) + 1
+            cl = _cluster_of(r)
+            item = {
+                "query": r.get("query", ""),
+                "keywords": r.get("keywords_or_terms") or r.get("researched_keywords") or "",
+                "volume": r.get("volume"), "kd": r.get("kd"),
+                "intent": r.get("intent", ""), "band": band, "score": opp["score"],
+                "winnable": opp.get("winnable"), "cluster": cl, "status": st, "src": src,
+            }
+            c = clusters.setdefault(cl, {"winnable": 0, "pillar": 0, "total": 0})
+            c["total"] += 1
+            if band == "Pillar":
+                pillars.append(item); c["pillar"] += 1
+            elif opp.get("winnable"):
+                winnable.append(item); c["winnable"] += 1
+    winnable.sort(key=lambda x: -(x["score"] or 0))
+    pillars.sort(key=lambda x: -((x["volume"] or 0)))
+    return {
+        "max_winnable_kd": seo_review.get("max_winnable_kd", SITE_MAX_WINNABLE_KD),
+        "last_monthly_review": seo_review.get("last_monthly_review"),
+        "trend": seo_review.get("trend", []),
+        "bands": bands,
+        "clusters": clusters,
+        "winnable": winnable,
+        "pillars": pillars,
+        "counts": {"winnable": len(winnable), "pillars": len(pillars)},
+    }
+
+
 def main():
     brand = sys.argv[1].lower() if len(sys.argv) > 1 else "vsichkikazina"
     if brand not in BRANDS:
@@ -215,6 +265,10 @@ def main():
     rs = research_f.read_text(encoding="utf-8") if research_f.exists() else ""
     status = build_status(parse_queue(md, brand=brand), backlog=parse_backlog(bl),
                           research=parse_research(rs), target=10, brand=brand)
+    if brand == "vsichkikazina":
+        sr_f = root / "docs" / "data" / "seo-review.json"
+        seo_review = json.loads(sr_f.read_text(encoding="utf-8")) if sr_f.exists() else {}
+        status["seo"] = build_seo(status["backlog"], status["research"], seo_review)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(status, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"wrote {out} — buffer {status['buffer']['count']}/{status['buffer']['target']}")

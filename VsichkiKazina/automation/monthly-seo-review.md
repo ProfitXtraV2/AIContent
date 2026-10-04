@@ -26,8 +26,10 @@ authority work is lifting DR.
 1. **Units check** (above). Record units spent/remaining for the report.
 
 2. **DR + footprint trend.** Pull `site-explorer/domain-rating` and `site-explorer/metrics`
-   for `vsichkikazina.bg` (`country=bg`). Append one row to `docs/seo/ahrefs-trend.md`
-   (create with a header if absent): `| YYYY-MM | DR | organic_keywords | traffic/mo | note |`.
+   for `vsichkikazina.bg` (`country=bg`). Append one point to the `trend` array in
+   `docs/data/seo-review.json` — `{"month":"YYYY-MM","dr":N,"organic_keywords":N,"traffic":N,
+   "note":"..."}`. **This JSON is the canonical source the dashboard SEO tab reads**, so it
+   must be updated. Mirror the same row into `docs/seo/ahrefs-trend.md` for human reading.
    This is the signal for whether off-site authority is working.
 
 3. **Pillar graduation.** For every deferred row (band `Pillar` / `winnable:false`, i.e. KD
