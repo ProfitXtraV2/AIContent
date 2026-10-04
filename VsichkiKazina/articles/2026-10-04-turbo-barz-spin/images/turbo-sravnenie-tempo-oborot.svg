@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" role="img" aria-label="Инфографика: сравнение на нормален и турбо темп при залог €0,50 на спин. Завъртания в минута: 8-10 при нормален темп срещу 20-25 на турбо. Заложено за минута: €4-5 срещу €10-12. Оборот за един час: базов срещу 2-3 пъти повече. Шансът на всеки спин е същият, изложената за същото време сума расте. Числата са примерни.">
+  <style>
+    .card{fill:#f7f8fa;stroke:#d9dee5;stroke-width:1.5}
+    .title{font-family:'Segoe UI',Arial,sans-serif;font-size:21px;font-weight:700;fill:#1f2733}
+    .sub{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;fill:#6b7684}
+    .colh{font-family:'Segoe UI',Arial,sans-serif;font-size:15px;font-weight:700;fill:#1f2733}
+    .rowlbl{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;fill:#404a56}
+    .valn{font-family:'Segoe UI',Arial,sans-serif;font-size:20px;font-weight:700;fill:#2f7d4f}
+    .valt{font-family:'Segoe UI',Arial,sans-serif;font-size:20px;font-weight:700;fill:#c0552b}
+    .divider{stroke:#e3e8ee;stroke-width:1.2}
+    .note{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;font-weight:700;fill:#1f2733}
+    .tag{font-family:'Segoe UI',Arial,sans-serif;font-size:12px;fill:#6b7684}
+    .colband{fill:#eef6f1}
+    .colbandt{fill:#fbeee7}
+  </style>
+  <rect class="card" x="8" y="8" width="744" height="424" rx="16"/>
+  <text class="title" x="380" y="44" text-anchor="middle">Турбо срещу нормален темп: същият залог, повече оборот</text>
+  <text class="sub" x="380" y="70" text-anchor="middle">примерни числа при залог €0,50 на спин</text>
+
+  <!-- column bands -->
+  <rect class="colband"  x="332" y="90" width="196" height="214" rx="10"/>
+  <rect class="colbandt" x="544" y="90" width="192" height="214" rx="10"/>
+
+  <!-- column headers -->
+  <text class="colh" x="430" y="114" text-anchor="middle">Нормален темп</text>
+  <text class="colh" x="640" y="114" text-anchor="middle">Турбо</text>
+
+  <!-- row 1 -->
+  <text class="rowlbl" x="36" y="170">Завъртания / минута</text>
+  <text class="valn" x="430" y="174" text-anchor="middle">8-10</text>
+  <text class="valt" x="640" y="174" text-anchor="middle">20-25</text>
+  <line class="divider" x1="36" y1="192" x2="724" y2="192"/>
+
+  <!-- row 2 -->
+  <text class="rowlbl" x="36" y="230">Заложено / минута</text>
+  <text class="valn" x="430" y="234" text-anchor="middle">€4-5</text>
+  <text class="valt" x="640" y="234" text-anchor="middle">€10-12</text>
+  <line class="divider" x1="36" y1="252" x2="724" y2="252"/>
+
+  <!-- row 3 -->
+  <text class="rowlbl" x="36" y="290">Оборот за 1 час</text>
+  <text class="valn" x="430" y="294" text-anchor="middle">базов</text>
+  <text class="valt" x="640" y="294" text-anchor="middle">2-3× повече</text>
+
+  <text class="note" x="380" y="350" text-anchor="middle">Шансът на всеки спин е същият. Изложената за същото време сума расте.</text>
+  <text class="tag" x="380" y="398" text-anchor="middle">Числата са примерни · 18+ Играйте отговорно</text>
+</svg>
