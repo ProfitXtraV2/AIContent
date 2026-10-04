@@ -5,14 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_017R7obUGdWYZo7bJdgQzwpd",
-  "note": "daily run 2026-10-04 (1st fire). 0 in-progress reconciled (prior 3rd fire clean). Bank 3 candidates ALL stale (cannibals of vk-0177/vk-0245/vk-0084) -> dropping+replacing; selected 3 fresh distinct guides-only pillars.",
+  "note": "daily run 2026-10-04 (1st fire). Bank 3 candidates all stale (cannibals of vk-0177/0245/0084) -> replacing in Step 6. Selected 3 NEW distinct guides-only pillars: betting-systems(vk-0253), expanding-symbols(vk-0254), infinity-reels(vk-0255). Writing batch.",
   "progress": {
-    "phase": "selecting",
-    "article_index": 0,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 3,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "article_slug": "2026-10-04-sistemi-za-zalagane",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
