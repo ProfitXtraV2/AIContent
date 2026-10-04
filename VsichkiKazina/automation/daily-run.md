@@ -6,11 +6,12 @@ inside this repo. Brand is hard-locked: `BRAND: vsichkikazina` (Bulgarian output
 pipeline in `VsichkiKazina/pipeline/` VERBATIM — never paraphrase its agent files.
 
 ## Constants
-- BUFFER_MINIMUM = 10   (a FLOOR, not a cap — the buffer of written-but-unposted articles
-  should never sit below this. There is NO upper limit: keep producing quality content and
-  let the library grow. The buffer only guides urgency, never stops production.)
-- MAX_PER_RUN = 3       (new articles to write per run — always aim for this many, every run,
-  regardless of how full the buffer already is; small batches keep clear of the rate limit)
+- BUFFER_MINIMUM = 10   (a FLOOR for the buffer of written-but-unposted articles.)
+- MAX_PER_RUN = 1       (THROTTLED 2026-10-04: write AT MOST 1 new article per run. The library
+  already holds 200+ written-but-unpublished drafts, so intake is deliberately slowed to let
+  publishing + human approval catch up. Routine now fires once daily → ~1 new article/day.
+  Write 0 if there isn't a genuinely distinct, non-cannibalizing, on-strategy topic left;
+  never pad. The trigger prompt enforces the same cap — keep both in sync.)
 
 ## Resume / idempotency (a failed run must self-heal on the next fire)
 This run may be re-fired at any time (schedule fires 3×/day; a prior run may have died on a

@@ -504,10 +504,19 @@ async function load() {
     const pTbl = p.length ? `<table><thead><tr><th>Pillar target</th><th>Cluster</th><th title="${TIPS.volume}">Vol</th><th title="${TIPS.kd}">KD</th><th>Intent</th></tr></thead><tbody>` +
       p.map(r => `<tr><td>${r.query || r.keywords}</td><td>${r.cluster}</td><td class="num">${num(r.volume)}</td><td class="num">${num(r.kd)}</td><td>${r.intent || ''}</td></tr>`).join('') +
       `</tbody></table>` : '<div class="empty">No deferred pillars.</div>';
+    // performance tracking (populated by the monthly review — Ahrefs rank proxy for GSC impressions)
+    const tr = seo.tracking || [];
+    const trkTbl = tr.length ? `<table><thead><tr><th>Target keyword</th><th>Article</th><th>Posted</th><th>Weeks</th><th>Position</th><th>Traffic/mo</th><th>Status</th></tr></thead><tbody>` +
+      tr.map(r => {
+        const st = (r.status || '').toLowerCase();
+        const cls = st === 'ranking' ? 'st-approved' : st === 'flag' ? 'st-failed' : 'st-in-progress';
+        return `<tr><td>${r.keyword || ''}</td><td>${r.slug || ''}</td><td>${r.posted || '—'}</td><td class="num">${num(r.weeks)}</td><td class="num">${num(r.position)}</td><td class="num">${num(r.traffic)}</td><td><span class="st ${cls}">${r.status || '—'}</span></td></tr>`;
+      }).join('') + `</tbody></table>` : '';
     const cap = seo.max_winnable_kd;
     return `<div class="seo-wrap">` +
       `<p class="seo-lead">Keyword strategy for <b>vsichkikazina.bg</b>, difficulty-gated for the site's current authority. Topics with <b>KD ≤ ${cap}</b> are winnable now and written first; higher-KD heads wait as <b>Pillar</b> targets until domain authority (DR) grows. Last monthly review: <b>${seo.last_monthly_review || '—'}</b>.</p>` +
       `<h3>Authority trend (Ahrefs)</h3>${trendTbl}` +
+      (trkTbl ? `<h3>Winnable-topic performance <span style="font-weight:400;text-transform:none;letter-spacing:0">(Ahrefs rank; flag = posted &gt;8wk, still not ranking)</span></h3>${trkTbl}` : '') +
       `<h3>Opportunity mix</h3><div class="bandrow">${bandChips}</div>` +
       (clTbl ? `<h3>Clusters</h3>${clTbl}` : '') +
       `<h3>Winnable now — write next (KD ≤ ${cap})</h3>${wTbl}` +

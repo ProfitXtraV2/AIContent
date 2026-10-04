@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-04T19:25:06Z",
+  "generated_utc": "2026-10-04T19:39:15Z",
   "buffer": {
     "count": 228,
     "target": 10,
@@ -8854,11 +8854,9 @@
     "brand": "VsichkiKazina",
     "schedule": {
       "cron_utc_hours": [
-        3,
-        7,
-        22
+        7
       ],
-      "label": "3×/day · 01:00, 06:00, 10:00 Europe/Sofia"
+      "label": "once daily · ~10:13 Europe/Sofia (throttled 2026-10-04)"
     },
     "links": {
       "repo": "https://github.com/ProfitXtraV2/AIContent",
@@ -9020,6 +9018,7 @@
       }
     ],
     "pillars": [],
+    "tracking": [],
     "counts": {
       "winnable": 8,
       "pillars": 0

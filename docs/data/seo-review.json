@@ -4,5 +4,6 @@
   "trend": [
     {"month": "2026-10", "dr": 6, "organic_keywords": 12, "traffic": 90, "note": "baseline; disavow uploaded (100% toxic profile); off-site authority kit pending"}
   ],
+  "tracking": [],
   "note": "Oct 2026 review done manually 2026-10-04 (competitor-gap pull + backlog + KD-gate). First automated pass: Nov. Canonical source for the dashboard SEO tab + the monthly review marker."
 }

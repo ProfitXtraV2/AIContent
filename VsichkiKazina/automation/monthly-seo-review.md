@@ -41,6 +41,20 @@ authority work is lifting DR.
    `SITE_MAX_WINNABLE_KD` in `scripts/build_dashboard.py` in the report's MANUAL-ACTIONS —
    do NOT change the code autonomously.
 
+3b. **Winnable-topic performance check (the leading indicator).** For each winnable target
+   keyword — the competitor-gap `cluster:*` rows in `topic-backlog.md` plus any posted article
+   targeting them — check whether vsichkikazina.bg now ranks. Pull
+   `site-explorer/organic-keywords` for `vsichkikazina.bg` (`country=bg`) and match each target
+   keyword; record `{keyword, article_slug, posted_date, best_position, est_traffic,
+   weeks_since_posted}`. **Flag** any topic whose article was posted **> 8 weeks ago** and still
+   has NO ranking (keyword absent from our organic keywords, or position > 100) — that is the
+   "re-check intent/brief" signal: list it in the report under FINDINGS with a concrete next
+   action (re-pull the SERP, verify the article's format matches the intent, strengthen the
+   on-page target). Write the full table into the `tracking` array of `docs/data/seo-review.json`
+   (`[{keyword, slug, posted, position, traffic, weeks, status:"ranking|watching|flag"}]`) so the
+   dashboard SEO tab can show it. (GSC impressions would be the ideal metric but GSC is not
+   connected — Ahrefs ranking position is the proxy. If GSC is connected later, prefer it.)
+
 4. **Competitor content-gap re-pull.** For the known BG casino-content competitors
    (`casinoslots.bg`, `bg.casinority.com`, `7sport.net`, plus any new one you notice), pull
    top `site-explorer/organic-keywords` (`country=bg`, `limit` ~50, `order_by`

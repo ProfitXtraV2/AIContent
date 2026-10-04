@@ -110,8 +110,8 @@ def opportunity(volume, kd):
 
 # Schedule: cron fires 3×/day at these UTC hours (22:00/03:00/07:00 UTC ≈ 01:00/06:00/10:00
 # Europe/Sofia in summer; drifts −1h in winter since cron is fixed-UTC).
-SCHEDULE = {"cron_utc_hours": [3, 7, 22],
-            "label": "3×/day · 01:00, 06:00, 10:00 Europe/Sofia"}
+SCHEDULE = {"cron_utc_hours": [7],
+            "label": "once daily · ~10:13 Europe/Sofia (throttled 2026-10-04)"}
 
 # Maintain all dashboard links in one place.
 LINKS = {
@@ -245,6 +245,7 @@ def build_seo(backlog, research, seo_review):
         "clusters": clusters,
         "winnable": winnable,
         "pillars": pillars,
+        "tracking": seo_review.get("tracking", []),
         "counts": {"winnable": len(winnable), "pillars": len(pillars)},
     }
 
