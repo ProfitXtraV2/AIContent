@@ -1,3 +1,5 @@
+**RESOLVED — 0 surviving flags as of 04.10.2026.** Both [VERIFY] markers noted below were resolved in commit `08127b95` by rewording (the disputed multiplier/RTP values are no longer asserted as fixed). 05b contains no [VERIFY]/[DATA NEEDED]/[CONFLICT]. Also removed 1 em-dash from the infographic alt text at approval. Original autopilot note kept below for the audit trail.
+
 # 06 — Verification (Bell Link, vk-0134)
 
 ## Surviving flags
