@@ -1,3 +1,5 @@
+**RESOLVED — 0 surviving flags as of 04.10.2026.** The [VERIFY] noted below was resolved in commit `9b10bcac` by hedging the claim ("обикновено върви" → "в много казина върви"), so Jackpot Cards presence is no longer asserted for every operator. 05b contains no [VERIFY]/[DATA NEEDED]/[CONFLICT]. Original autopilot note kept below for the audit trail.
+
 # 06 — Verification (Versailles Gold, vk-0132)
 
 ## Surviving flags
