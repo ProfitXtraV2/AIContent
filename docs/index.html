@@ -85,15 +85,16 @@
                  color: var(--muted); font-weight: 700; margin: 1.4rem 0 .5rem; }
   .seo-wrap h3:first-of-type { margin-top: .4rem; }
   .seo-wrap h3 .hint { font-weight: 400; text-transform: none; letter-spacing: 0; color: var(--muted); }
-  /* SEO-tab tables: bordered cells, rounded frame, width-capped so few-column
-     tables don't stretch numbers across the whole page */
-  .seo-wrap table { border: 1px solid var(--line); border-radius: 10px; overflow: hidden;
-                    margin: 0 0 .3rem; width: 100%; }
-  .seo-wrap th, .seo-wrap td { border-bottom: 1px solid var(--line); border-right: 1px solid var(--line); }
-  .seo-wrap th:last-child, .seo-wrap td:last-child { border-right: none; }
-  .seo-wrap tbody tr:last-child td { border-bottom: none; }
-  .seo-wrap thead th { background: #f1f4f9; color: var(--muted); }
-  .seo-wrap tbody tr:nth-child(even) td { background: #fafbfd; }
+  /* All tab tables: bordered cells, rounded frame, header shade, zebra rows.
+     Width-cap classes keep few-column SEO tables from stretching numbers across
+     the whole page. */
+  #tabContent table { border: 1px solid var(--line); border-radius: 10px; overflow: hidden;
+                      margin: 0 0 .3rem; width: 100%; }
+  #tabContent th, #tabContent td { border-bottom: 1px solid var(--line); border-right: 1px solid var(--line); vertical-align: top; }
+  #tabContent th:last-child, #tabContent td:last-child { border-right: none; }
+  #tabContent tbody tr:last-child td { border-bottom: none; }
+  #tabContent thead th { background: #f1f4f9; color: var(--muted); }
+  #tabContent tbody tr:nth-child(even) td { background: #fafbfd; }
   .seo-wrap .tbl-narrow { max-width: 520px; }
   .seo-wrap .tbl-mid { max-width: 900px; }
   .bandrow { display: flex; flex-wrap: wrap; gap: .4rem; margin: .2rem 0 .4rem; }
@@ -394,11 +395,11 @@ async function load() {
       rows: allRows.filter(r => REVIEW_STATES.includes(r.status)), kind: 'article' },
     { key: 'backlog', cls: '', label: 'Backlog keywords',
       rows: backlog.filter(r => !HIDE_BACKLOG.includes((r.status || 'open').toLowerCase())), kind: 'backlog' },
-    { key: 'research', cls: '', label: 'AI backlog keywords',
-      rows: research.filter(r => (r.status || 'candidate') !== 'used'), kind: 'research' },
     { key: 'seo', cls: 'review', label: 'SEO & keywords',
       rows: (s.seo && s.seo.winnable) || [], kind: 'seo' },
   ];
+  // AI research bank (was its own tab) — now folded into the SEO & keywords tab.
+  const researchActive = research.filter(r => (r.status || 'candidate') !== 'used');
 
   function articleLinks(r) {
     const parts = [];
@@ -433,7 +434,7 @@ async function load() {
     const cols = [['status','Status'],['type','Type'],['query','Article'],
       ['keywords_or_terms','Keywords used'],['volume','Vol'],['kd','KD'],['opportunity','Opportunity'],
       ['source','Source'],['gemini','Gemini'],['links','Links']];
-    const body = rows.map(r => '<tr>' + cols.map(([c]) => {
+    const body = [...rows].sort(byOpp).map(r => '<tr>' + cols.map(([c]) => {
       if (c === 'links') return `<td>${articleLinks(r)}</td>`;
       if (c === 'gemini') return `<td>${geminiBadge(r.gemini)}</td>`;
       if (c === 'opportunity') return `<td>${opChip(r.opportunity)}</td>`;
@@ -533,6 +534,7 @@ async function load() {
       (clTbl ? `<h3>Clusters</h3>${clTbl}` : '') +
       `<h3>Winnable now — write next (KD ≤ ${cap})</h3>${wTbl}` +
       `<h3>Pillar targets — deferred (KD &gt; ${cap}, graduate as DR rises)</h3>${pTbl}` +
+      `<h3>AI research bank <span class="hint">(auto-discovered candidates, ranked by opportunity)</span></h3>${renderResearch(researchActive)}` +
       `</div>`;
   }
 
