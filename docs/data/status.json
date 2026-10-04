@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-04T04:20:08Z",
+  "generated_utc": "2026-10-04T07:13:36Z",
   "buffer": {
     "count": 225,
     "target": 10,
@@ -7,7 +7,7 @@
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
+    "in-progress": 3,
     "drafted": 220,
     "approved": 5,
     "posted": 29,
@@ -4515,6 +4515,57 @@
       "pr": "#274",
       "gemini": "human 85",
       "notes": "drafted 2026-10-04 (1st fire); NEW discovered slot-mechanic pillar. Infinity Reels (ReelPlay): всяка печалба добавя барабан отдясно (старт 3), с растящ множител (+1 на добавен барабан, в FS 1-7 по колело), докато поредният барабан спре да удължава комбинацията. Честно ядро: „безкрайно\" е само на теория — вероятността за всеки следващ барабан пада рязко; дългите вериги редки; профил+множител калибрирани в RTP → мести дисперсията, не дългосрочната сума. gate 92/100 0-crit; Gemini Step-7 ONLINE human 85 PASS (initial HL 25 → pass1 30 → pass2 85; 2 humaniser passes, keep-best pass2); 0 em-dash; 0 in-text flags (числа примерни: 3 барабана, ×1→×2→×3; named-game RTP не се цитира); img:2 (SVG верига-множител 3→+4×2→+5×3→спира numbers-verbatim + decorative hero барабани-към-хоризонта, image review 100 PASS след 2 fix passes 75→75→100: премахнати застъпени +, коригирана точност на спиране; 0 integrity); вътрешни: rechnik-kazino-termini/kazino-igri-rotativki/slot-igri-visok-rtp/otgovorna-igra (4, live в sitemap); DISTINCT от Megaways vk-0041 (променлив брой символи на фиксиран брой барабани), Каскади vk-0052 (падащи символи на същата решетка); ~668 думи; no operator/НАП, без афилиейт; checked=web (Ahrefs reset 2026-10-15); src=discovered; PR #274",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0256",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Наслагани (stacked) символи в слотовете: как работят",
+      "keywords_or_terms": "наслагани символи слот, stacked символи, стекнати символи ротативка, подредени символи барабан, цял барабан еднакви символи",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-10-04",
+      "posted_date": "",
+      "folder": "2026-10-04-naslagani-stacked-simvoli",
+      "pr": "",
+      "gemini": "",
+      "notes": "selected 2nd fire 2026-10-04; research bank candidate; generic reel-mechanic pillar; dedup-clean queue+sitemap(95); DISTINCT от Wild видове vk-0055/Гигантски colossal vk-0252/Разширяващи се vk-0254; checked=web (Ahrefs reset 2026-10-15); src=research",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0257",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Турбо и бърз спин (turbo / quick spin) в слотовете: скорост на игра и рискове",
+      "keywords_or_terms": "турбо спин слот, бърз спин казино, turbo режим ротативка, бързо завъртане слот, скорост на игра казино",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-10-04",
+      "posted_date": "",
+      "folder": "2026-10-04-turbo-barz-spin",
+      "pr": "",
+      "gemini": "",
+      "notes": "selected 2nd fire 2026-10-04; research bank candidate; game-speed/RG pillar; dedup-clean queue+sitemap(95); DISTINCT от Автоматично завъртане/autoplay vk-0061; checked=web (Ahrefs reset 2026-10-15); src=research",
+      "opportunity": null
+    },
+    {
+      "id": "vk-0258",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Казино бонус код / промо код: как работи и къде се въвежда",
+      "keywords_or_terms": "казино бонус код, промо код казино, бонус код при депозит, къде се въвежда бонус код, казино ваучер код",
+      "volume": "",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-10-04",
+      "posted_date": "",
+      "folder": "2026-10-04-kazino-bonus-kod",
+      "pr": "",
+      "gemini": "",
+      "notes": "selected 2nd fire 2026-10-04; research bank candidate; generic bonus-code MECHANISM pillar (не оператор-специфичен, != NV промо код backlog #9); dedup-clean queue+sitemap(95); checked=web (Ahrefs reset 2026-10-15); src=research",
       "opportunity": null
     }
   ],
