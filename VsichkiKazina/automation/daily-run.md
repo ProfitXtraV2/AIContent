@@ -98,6 +98,15 @@ stage you are STARTING now>,"stage":"<that stage's name>"}`.
    "articles_written":null,"prs_opened":[],"run_url":"<this run's URL if known>",
    "note":"daily run","progress":{...as above, stage null}}` and push to `main`.
 
+1a. **Monthly SEO review (cadence gate).** Read `docs/data/seo-review.json` (create as
+   `{"last_monthly_review":"2000-01"}` if absent). If its `last_monthly_review` ≠ the current
+   `YYYY-MM`, execute `automation/monthly-seo-review.md` FULLY before selecting topics — it
+   refreshes the competitor gap, graduates deferred `Pillar` keywords, tracks DR, and
+   self-marks the month. It is idempotent (re-running the same month is a no-op) and only
+   *adds candidates / tracks signals* — it writes no articles. It's fine to write fewer new
+   articles on the run that performs the review (quality over quota). If units are low it runs
+   a light pass; it never halts the daily run.
+
 2. **Set the batch size.** Run `python3 scripts/build_dashboard.py` and read
    `docs/data/status.json`. This run writes **`batch = MAX_PER_RUN` NEW articles**, ALWAYS —
    even if the buffer is already ≥ BUFFER_MINIMUM. The minimum is a floor, NOT a cap: never
