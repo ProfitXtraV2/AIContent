@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 470" role="img" aria-label="Инфографика: прогресия на Мартингейл от 2 евро с удвояване след всяка загуба през 2, 4, 8, 16, 32, 64, 128, 256 евро. Височините на стълбовете се удвояват като стойностите, затова ранните залози са дребни, а последните скачат рязко. Сборът на залози 1 до 8 е 510 евро. Деветият залог би бил 512 евро, но таванът на масата е 500 евро и го спира. Числата са примерни.">
+  <style>
+    .card{fill:#f7f8fa;stroke:#d9dee5;stroke-width:1.5}
+    .title{font-family:'Segoe UI',Arial,sans-serif;font-size:22px;font-weight:700;fill:#1f2733}
+    .sub{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;fill:#6b7684}
+    .bar{fill:#5b86b3}
+    .barlast{fill:#b9711a}
+    .barblock{fill:none;stroke:#c0392b;stroke-width:2.5;stroke-dasharray:6 5}
+    .val{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;font-weight:700;fill:#3a4452}
+    .valblock{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;font-weight:700;fill:#c0392b}
+    .idx{font-family:'Segoe UI',Arial,sans-serif;font-size:12px;fill:#8a94a0}
+    .sum{font-family:'Segoe UI',Arial,sans-serif;font-size:15px;font-weight:700;fill:#1f2733}
+    .tag{font-family:'Segoe UI',Arial,sans-serif;font-size:12px;fill:#6b7684}
+  </style>
+  <rect class="card" x="8" y="8" width="804" height="454" rx="16"/>
+  <text class="title" x="410" y="44" text-anchor="middle">Мартингейл: удвояване след всяка загуба</text>
+  <text class="sub" x="410" y="68" text-anchor="middle">височините се удвояват като залозите, затова скокът идва накрая</text>
+
+  <!-- baseline -->
+  <line x1="40" y1="392" x2="780" y2="392" stroke="#d2d8df" stroke-width="1.5"/>
+
+  <!-- bars: heights double with the value (exponential); early bets are tiny, the last ones explode -->
+  <!-- i1 €2 h3 -->
+  <rect class="bar" x="33"  y="389" width="54" height="3"/>
+  <text class="val" x="60"  y="382" text-anchor="middle">€2</text>
+  <text class="idx" x="60"  y="410" text-anchor="middle">1</text>
+  <!-- i2 €4 h3 -->
+  <rect class="bar" x="117" y="389" width="54" height="3"/>
+  <text class="val" x="144" y="382" text-anchor="middle">€4</text>
+  <text class="idx" x="144" y="410" text-anchor="middle">2</text>
+  <!-- i3 €8 h4 -->
+  <rect class="bar" x="201" y="388" width="54" height="4"/>
+  <text class="val" x="228" y="381" text-anchor="middle">€8</text>
+  <text class="idx" x="228" y="410" text-anchor="middle">3</text>
+  <!-- i4 €16 h8 -->
+  <rect class="bar" x="285" y="384" width="54" height="8"/>
+  <text class="val" x="312" y="377" text-anchor="middle">€16</text>
+  <text class="idx" x="312" y="410" text-anchor="middle">4</text>
+  <!-- i5 €32 h16 -->
+  <rect class="bar" x="369" y="376" width="54" height="16"/>
+  <text class="val" x="396" y="369" text-anchor="middle">€32</text>
+  <text class="idx" x="396" y="410" text-anchor="middle">5</text>
+  <!-- i6 €64 h32 -->
+  <rect class="bar" x="453" y="360" width="54" height="32"/>
+  <text class="val" x="480" y="353" text-anchor="middle">€64</text>
+  <text class="idx" x="480" y="410" text-anchor="middle">6</text>
+  <!-- i7 €128 h64 -->
+  <rect class="bar" x="537" y="328" width="54" height="64"/>
+  <text class="val" x="564" y="321" text-anchor="middle">€128</text>
+  <text class="idx" x="564" y="410" text-anchor="middle">7</text>
+  <!-- i8 €256 h128 -->
+  <rect class="barlast" x="621" y="264" width="54" height="128"/>
+  <text class="val" x="648" y="257" text-anchor="middle">€256</text>
+  <text class="idx" x="648" y="410" text-anchor="middle">8</text>
+  <!-- i9 €512 h256 blocked -->
+  <rect class="barblock" x="705" y="136" width="54" height="256"/>
+  <text class="valblock" x="732" y="130" text-anchor="middle">€512</text>
+  <text class="idx" x="732" y="410" text-anchor="middle">9</text>
+
+  <text class="sum" x="410" y="436" text-anchor="middle">Сбор от залог 1 до 8 = €510. Залог 9 = €512, но таванът е €500.</text>
+  <text class="tag" x="410" y="456" text-anchor="middle">Числата са примерни · 18+ Играйте отговорно</text>
+</svg>
