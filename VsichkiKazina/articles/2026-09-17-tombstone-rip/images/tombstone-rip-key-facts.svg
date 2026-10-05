@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 205" width="700" height="205" role="img" aria-label="Tombstone R.I.P. от Nolimit City, излязла на 11.01.2022: RTP по подразбиране 96.08% (94.08% при някои оператори), много висока insane волатилност, максимална печалба 300 000 пъти залога, мрежа 2-3-3-3-1 със 108 начина за печалба, диви символи xNudge и xSplit">
+  <title>Tombstone R.I.P.: ключови факти за играта на Nolimit City</title>
+  <defs>
+    <linearGradient id="cardbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="700" height="205" rx="12" ry="12" fill="url(#cardbg)"/>
+
+  <text x="350" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700" fill="#1e3a8a" text-anchor="middle">Tombstone R.I.P. · Nolimit City · излязла 11.01.2022</text>
+
+  <!-- Tile 1 -->
+  <rect x="24" y="56" width="154" height="96" rx="10" fill="#ffffff" stroke="#c7d2fe" stroke-width="1.5"/>
+  <text x="101" y="98" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="800" fill="#1d4ed8" text-anchor="middle">96.08%</text>
+  <text x="101" y="122" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#374151" text-anchor="middle">RTP по подразбиране</text>
+  <text x="101" y="138" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">(94.08% при някои)</text>
+
+  <!-- Tile 2 -->
+  <rect x="190" y="56" width="154" height="96" rx="10" fill="#ffffff" stroke="#fecaca" stroke-width="1.5"/>
+  <text x="267" y="98" font-family="system-ui, -apple-system, sans-serif" font-size="21" font-weight="800" fill="#dc2626" text-anchor="middle">„insane"</text>
+  <text x="267" y="122" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#374151" text-anchor="middle">волатилност</text>
+  <text x="267" y="138" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">(много висока)</text>
+
+  <!-- Tile 3 -->
+  <rect x="356" y="56" width="154" height="96" rx="10" fill="#ffffff" stroke="#fde68a" stroke-width="1.5"/>
+  <text x="433" y="98" font-family="system-ui, -apple-system, sans-serif" font-size="21" font-weight="800" fill="#b45309" text-anchor="middle">300 000x</text>
+  <text x="433" y="122" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#374151" text-anchor="middle">макс. печалба</text>
+  <text x="433" y="138" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">(таван, рядко)</text>
+
+  <!-- Tile 4 -->
+  <rect x="522" y="56" width="154" height="96" rx="10" fill="#ffffff" stroke="#bbf7d0" stroke-width="1.5"/>
+  <text x="599" y="98" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="800" fill="#047857" text-anchor="middle">2-3-3-3-1</text>
+  <text x="599" y="122" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#374151" text-anchor="middle">мрежа</text>
+  <text x="599" y="138" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">108 начина за печалба</text>
+
+  <text x="350" y="182" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">Диви символи xNudge и xSplit · безплатни завъртания Hang 'em High и Boothill · 18+ Играйте отговорно</text>
+</svg>
