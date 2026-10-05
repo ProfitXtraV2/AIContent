@@ -1513,3 +1513,83 @@ None — both JOB B targets processed tonight (≤10/night cap not reached).
 ### Still-flagged after processing
 None in the publishable (non-posted) set. Both JOB B targets now read human-written (best 85 / 90);
 scores are quality metrics, not publish-blocking flags.
+
+---
+
+## 2026-10-05 (nightly run — flags + score)
+
+### JOB A — publish-blocking flags
+Scanned all **259** `content/*` branches' own `VsichkiKazina/articles/<folder>/05b-final-draft.md`
+for the strict blocking markers (`[VERIFY]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`,
+`[AUTHOR …]`, `[BRAND …]`, `[EDITORIAL]`, `[уточни]`, `[провери]`). `[About … boilerplate]` is a
+rendered footer token present in nearly every draft including all posted ones — **not** a
+publisher-blocking marker, excluded from the set (as in prior nights). **2** branches carried a
+genuine blocking marker, and **both are `posted`** → left untouched per the hard rule (never edit
+posted/live); logged under POSTED-needs-review. **0** non-posted branches flagged — nothing to fix
+tonight.
+
+### JOB B — low Gemini score
+Board-defined targets (status∈{drafted,approved} with `ai <n>` or `human <n<80`): **1** qualified
+(vk-0253). The ~90 other drafted/approved rows read `skipped` — not a quality verdict but the
+trace of the **Gemini API 429/402 outage** at draft time (per each row's own note). The API is
+back (checks succeeded this run), so a bounded discovery pass re-scored skipped drafts newest-first
+to surface hidden low-scorers. **14** re-scored before stopping at the ≤10/night improvement cap:
+12 `ai`, 2 `human` (pass). The 10 worst were humanised (Step-7b recs via Humaniser technique,
+voice-only — no fact/number/link/RG/byline/brand changes; 0 blocking flags and 0 em-dash in each).
+Each committed + pushed on its own `content/<folder>` branch (open PR updated); nothing merged; no
+posted/live content touched.
+
+Humanised (worst-first, ≤10/night):
+- **vk-0253** `2026-10-04-sistemi-za-zalagane` (#272) — ai 75 → **human 80** (2 passes, PASS). Broke
+  symmetry/dramatic openers, grounded conclusion; fixed non-BG glyphs „Паролі"→„Пароли" + grave accent.
+- **vk-0228** `2026-10-01-revolut-kazino` (#247) — ai 85 → **human 90** (2 passes, PASS). Cut cliché
+  hooks/AI idioms, softened imperatives.
+- **vk-0225** `2026-09-30-paysafecard-kazino` (#244) — ai 80 → **human 85** (1 pass, PASS). Cut
+  roadmap/caption-echo/spelled-out equation.
+- **vk-0231** `2026-10-01-sigurnost-plashtaniya-kazino` (#250) — ai 85 → **ai 80** (2 passes, best kept).
+  Cut recap/signposts/meta-pivots/„хигиена" crutch; didactic license-vs-tech thesis keeps it <80 → human review.
+- **vk-0221** `2026-09-30-light-and-wonder` (#240) — ai 85 → **ai 80** (2 passes, best kept). Cut paradox
+  hook/meta/museum phrasing; encyclopedic provider-profile structure → human review.
+- **vk-0217** `2026-09-30-mustang-gold` (#237) — ai 85 → **ai 75** (2 passes, best kept). Cut
+  metaphors/signposts/over-explanation; residual вие/ти register inconsistency (larger rewrite) → human review.
+- **vk-0230** `2026-10-01-trustly-open-banking-kazino` (#249) — ai 75 → **ai 65** (2 passes, best kept).
+  Cut signposts/looping; fixed „релси"/„срокове за отрязване" calques → human review.
+- **vk-0227** `2026-10-01-apple-pay-google-pay` (#246) — ai 75 → **ai 65** (2 passes, best kept). Cut
+  „Представи си" trope/signposts/neat-bow → human review.
+- **vk-0226** `2026-10-01-e-portfeili-skrill-neteller` (#245) — ai 75 → **ai 75** (noisy 75–85, 2 passes,
+  best kept). De-enumerated fees/filler/robotic links → human review.
+- **vk-0229** `2026-10-01-bankov-prevod-kazino` (#248) — ai 75 → **ai 75** (flat, 2 passes, best kept).
+  Removed placeholder „(примерни …)"/aphorisms/preachy enders → human review.
+
+The Gemini detector stays high-variance on these didactic payment/provider topics (identical text
+read ai 70→85 across runs); prose-level LLM tells were resolved in every case, facts preserved.
+Narrative-style articles (revolut, paysafecard, sistemi-za-zalagane) crossed to human; the
+template-heavy payment/profile guides land ai 65–80 best-kept and are logged for human review.
+
+### Finish
+Board `gemini` column updated for all 15 processed rows (10 humanised above + 2 re-scored PASS
+left untouched: **vk-0218** sweet-bonanza-candyland → human 85, **vk-0223** hub-intro-games-providers
+→ human 80; + 3 re-scored deferred: **vk-0219** synot-games ai 65, **vk-0220** spribe ai 75,
+**vk-0224** depozit-s-bankova-karta ai 75). Rebuilt `build_dashboard.py` (status.json — buffer 228/10)
+and `build_feed.py` (index.json + 5 approved hub-intro articles re-emitted with their backfilled
+hero/infographic images; no new article published, nothing posted/live touched).
+
+### POSTED — needs human review (recurring, still open; HARD RULE: never edit live)
+- **vk-0063** `2026-09-13-nv-casino-zakonno-li-e` (#79, posted, now `ai 75`) —
+  `[AUTHOR BIO BLOCK: Георги Тодоров] [About Всички Казина boilerplate]` footer-assembly stub on the
+  branch draft (line 56). Left untouched (live). A human should reconcile the branch footer stub with
+  the posted/live page (approved for deploy with 0 in-text content flags).
+- **vk-0064** `2026-09-13-nv-casino-bonus-usloviya` (#80, posted, `human 85`) —
+  `[AUTHOR BIO BLOCK: Георги Тодоров] [BRAND BOILERPLATE: Всички Казина] [18+ / RG LINE]` footer-assembly
+  stub on the branch draft (line 65). Left untouched (live). Same note as above.
+
+### Deferred
+- **3** re-scored skipped drafts left for a future night (≤10/night cap reached): vk-0219 (ai 65),
+  vk-0220 (ai 75), vk-0224 (ai 75).
+- **~76** drafted/approved rows still `skipped` (not re-scored this run). The Gemini API outage that
+  caused the skips is over, so these can be re-scored on future nights (worst-first) within the cap.
+
+### Still-flagged after processing
+None in the publishable (non-posted) set — 0 blocking flags anywhere outside the 2 posted branches.
+Gemini scores are quality metrics, not publish-blocking flags; the 7 best-kept articles (ai 65–80)
+read materially cleaner and are logged above for human review.
