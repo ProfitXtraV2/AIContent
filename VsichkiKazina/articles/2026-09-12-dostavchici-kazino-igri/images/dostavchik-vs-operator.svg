@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-label="Инфографика в две колони: доставчикът прави играта (математиката и RTP, генератора на случайни числа, графиката и звука, лицензира каталога на много казина); операторът е казиното (приема регистрацията, държи баланса, обработва депозити и тегления, избира коя RTP версия да пусне).">
+  <rect x="4" y="4" width="712" height="292" rx="16" fill="#f7f8fb" stroke="#e2e6ee" stroke-width="1.5"/>
+  <text x="36" y="46" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="21" font-weight="700" fill="#1c2433">Доставчик и оператор: кой какво прави</text>
+
+  <rect x="36" y="66" width="318" height="204" rx="12" fill="#eef2f8" stroke="#d5deea" stroke-width="1.3"/>
+  <text x="56" y="98" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="16" font-weight="700" fill="#2a5c92">ДОСТАВЧИК · прави играта</text>
+  <line x1="56" y1="112" x2="334" y2="112" stroke="#d5deea" stroke-width="1.2"/>
+  <circle cx="60" cy="140" r="3.5" fill="#3a6ea5"/>
+  <text x="74" y="145" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="13.5" fill="#3a4252">Математиката и RTP</text>
+  <circle cx="60" cy="172" r="3.5" fill="#3a6ea5"/>
+  <text x="74" y="177" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="13.5" fill="#3a4252">Генераторът на случайни числа</text>
+  <circle cx="60" cy="204" r="3.5" fill="#3a6ea5"/>
+  <text x="74" y="209" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="13.5" fill="#3a4252">Графиката и звука</text>
+  <circle cx="60" cy="236" r="3.5" fill="#3a6ea5"/>
+  <text x="74" y="241" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="13.5" fill="#3a4252">Лицензира каталога на много казина</text>
+
+  <rect x="366" y="66" width="318" height="204" rx="12" fill="#eef4f2" stroke="#cfe0d8" stroke-width="1.3"/>
+  <text x="386" y="98" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f7d57">ОПЕРАТОР · казиното</text>
+  <line x1="386" y1="112" x2="664" y2="112" stroke="#cfe0d8" stroke-width="1.2"/>
+  <circle cx="390" cy="140" r="3.5" fill="#2f9e6f"/>
+  <text x="404" y="145" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="13.5" fill="#3a4252">Приема регистрацията</text>
+  <circle cx="390" cy="172" r="3.5" fill="#2f9e6f"/>
+  <text x="404" y="177" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="13.5" fill="#3a4252">Държи баланса ти</text>
+  <circle cx="390" cy="204" r="3.5" fill="#2f9e6f"/>
+  <text x="404" y="209" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="13.5" fill="#3a4252">Депозити и тегления</text>
+  <circle cx="390" cy="236" r="3.5" fill="#2f9e6f"/>
+  <text x="404" y="241" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="13.5" fill="#3a4252">Избира коя RTP версия да пусне</text>
+</svg>

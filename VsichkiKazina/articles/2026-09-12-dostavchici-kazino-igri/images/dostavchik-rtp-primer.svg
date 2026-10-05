@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-label="Инфографика: при обявен RTP 96% от €1000 оборот играта връща средно около €960 на играча, а около €40 остават за казиното; много заглавия имат няколко сертифицирани RTP версии и операторът избира коя да пусне; числата са примерни.">
+  <rect x="4" y="4" width="712" height="292" rx="16" fill="#f7f8fb" stroke="#e2e6ee" stroke-width="1.5"/>
+  <text x="36" y="46" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="22" font-weight="700" fill="#1c2433">Как се чете RTP на конкретната игра</text>
+  <text x="36" y="72" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" fill="#5b6472">RTP се задава от доставчика, но операторът избира коя версия да пусне.</text>
+
+  <text x="36" y="108" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" font-weight="600" fill="#3a4252">Оборот €1000 · обявен RTP 96%</text>
+
+  <rect x="36" y="120" width="648" height="52" rx="8" fill="#e7eaf1"/>
+  <rect x="36" y="120" width="622" height="52" rx="8" fill="#2f9e6f"/>
+  <rect x="36" y="120" width="648" height="52" rx="8" fill="none" stroke="#cfd5e0" stroke-width="1.2"/>
+  <text x="54" y="153" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="17" font-weight="700" fill="#ffffff">Средно връщане ≈ €960</text>
+
+  <text x="36" y="206" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" fill="#3a4252">Около €40 остават за казиното в дългосрочен план.</text>
+  <text x="36" y="230" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" fill="#3a4252">Едно заглавие може да има различен RTP в различни казина.</text>
+
+  <text x="36" y="272" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="12" fill="#96a0b0">Числата са примерни, не са данни от конкретно казино или заглавие.</text>
+  <text x="684" y="272" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="12" font-weight="600" fill="#96a0b0" text-anchor="end">18+ Играйте отговорно</text>
+</svg>
