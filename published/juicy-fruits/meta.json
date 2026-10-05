@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "slug": "juicy-fruits",
+  "title": "Juicy Fruits (Pragmatic): RTP 96.51%, разширяващ се wild",
+  "meta_description": "Juicy Fruits (джуси фрутс) на Pragmatic Play: поле 5×5, 50 линии, RTP 96.51%. Разширяващият се Crown wild, безплатните завъртания и защо ретро плодовете крият висока волатилност.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-16",
+  "date_modified": "2026-09-16",
+  "keywords": [
+    "juicy fruits",
+    "джуси фрутс",
+    "pragmatic juicy fruits",
+    "juicy fruits rtp"
+  ],
+  "images": [
+    {
+      "path": "images/juicy-fruits-rtp.svg",
+      "alt": "Juicy Fruits RTP 96.51% и домашно предимство 3.49%: при €1000 оборот средно ~€965.10 се връщат на играча, а ~€34.90 остават за казиното"
+    },
+    {
+      "path": "images/juicy-fruits-free-spins.svg",
+      "alt": "Безплатните завъртания на Juicy Fruits: 3+ диаманта дават 6 завъртания, всеки следващи 3 диаманта добавят 1 до 3 завъртания и уголемяват короната към пълен екран (~1200x)"
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": 31,
+  "status": "approved",
+  "content_hash": "d8d5481abb2e7bfa4da24c6c2f8e68ce33d004e44121974745dcc31a86eb87f1"
+}

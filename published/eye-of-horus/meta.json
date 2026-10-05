@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "slug": "eye-of-horus",
+  "title": "Eye of Horus: RTP 96.31%, разширяващ се символ и 12 завъртания",
+  "meta_description": "Eye of Horus (око на хор): поле 5×3, 10 линии, RTP 96.31%. Как разширяващият се символ Око на Хор надгражда символите в 12-те безплатни завъртания и защо е book-слот.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-16",
+  "date_modified": "2026-09-16",
+  "keywords": [
+    "eye of horus",
+    "око на хор",
+    "eye of horus rtp",
+    "ай ъв хорус"
+  ],
+  "images": [
+    {
+      "path": "images/eye-of-horus-rtp.svg",
+      "alt": "Eye of Horus RTP 96.31% и домашно предимство 3.69%: при €1000 оборот средно ~€963.10 се връщат на играча, а ~€36.90 остават за казиното"
+    },
+    {
+      "path": "images/eye-of-horus-free-spins.svg",
+      "alt": "Как работят 12-те безплатни завъртания на Eye of Horus: 3+ скатера дават 12 завъртания, дивите карти Хор зареждат плочите и надграждат ниските символи към символа Око на Хор"
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": 35,
+  "status": "approved",
+  "content_hash": "5be149f139975a81b1521df7ed046470be8d979227e344421089bc7a9f14c7ed"
+}

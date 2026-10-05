@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "slug": "nolimit-city",
+  "title": "Nolimit City: профил на доставчика, механики и топ слотове",
+  "meta_description": "Кой е Nolimit City, какви са механиките му (xWays, xNudge, xBomb) и кои са топ слотовете. Защо екстремната волатилност е риск и защо RTP идва в няколко версии.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-18",
+  "date_modified": "2026-09-18",
+  "keywords": [
+    "nolimit city",
+    "нолимит сити",
+    "nolimit games"
+  ],
+  "images": [
+    {
+      "path": "images/nolimit-city-hero.svg",
+      "alt": "Абстрактна метафора за Nolimit City: разширяваща се решетка от клетки и назъбена крива на висока волатилност с редки резки върхове"
+    },
+    {
+      "path": "images/nolimit-city-top-slotove.svg",
+      "alt": "Таблица с топ слотове на Nolimit City: Tombstone R.I.P. 96.08% и 300 000x, San Quentin xWays 96.03% и 150 000x, Mental 96.08% и 66 666x, Fire in the Hole 2 96.07% и 65 000x, Das xBoot 96.03% и 55 200x, Deadwood 96.03% и 13 950x"
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": 31,
+  "status": "approved",
+  "content_hash": "84a7a054ab45f2b5e69b7ef4a0375e1af5b068c354588131fad0f608c829090e"
+}

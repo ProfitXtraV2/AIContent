@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "slug": "netent-provajdar",
+  "title": "NetEnt: профил на доставчика, механики и топ слотове",
+  "meta_description": "Кой е NetEnt, какви механики направи популярни (Avalanche, разширяващ се wild) и кои са топ слотовете му. Защо RTP се чете в инфо-панела, а не в рекламата.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-11",
+  "date_modified": "2026-09-11",
+  "keywords": [
+    "netent",
+    "нетент",
+    "доставчик netent",
+    "netent слотове"
+  ],
+  "images": [
+    {
+      "path": "images/netent-hero.webp",
+      "alt": "Абстрактна композиция от разсипани скъпоценни камъни и каскадни форми в наситени цветове, вдъхновена от визуалния стил на слотовете на NetEnt"
+    },
+    {
+      "path": "images/netent-rtp.svg",
+      "alt": "Илюстративно: при обявен RTP около 96% и €1000 оборот средно ~€960 се връщат на играча, ~€40 остават за казиното; реалният RTP на NetEnt заглавие се проверява в инфо-панела и зависи от версията"
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": -1,
+  "status": "approved",
+  "content_hash": "74cc9599f1a83b0ebc3a1b750826fda84ce29f9d69501b2d33f13bb6c5cca694"
+}

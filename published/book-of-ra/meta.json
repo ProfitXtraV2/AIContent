@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "slug": "book-of-ra",
+  "title": "Book of Ra: RTP, характеристики и как се играе",
+  "meta_description": "Book of Ra на Novomatic/Greentube: разширяващият се символ, 10 безплатни игри и RTP под средното: 92.13% при оригинала и 95.10% при Deluxe. Честен поглед върху класиката.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-10",
+  "date_modified": "2026-09-10",
+  "keywords": [
+    "book of ra",
+    "бук ъв ра"
+  ],
+  "images": [
+    {
+      "path": "images/book-of-ra-hero.webp",
+      "alt": "Абстрактна композиция със стара книга и египетски мотиви в златисто и пясъчно на тъмен фон по темата на Book of Ra"
+    },
+    {
+      "path": "images/book-of-ra-bonus-igri.svg",
+      "alt": "Схема на бонуса на Book of Ra: 3 или повече книги дават 10 безплатни игри, преди които се тегли символ, който се разширява върху цял барабан и плаща на всяка позиция"
+    },
+    {
+      "path": "images/book-of-ra-rtp.svg",
+      "alt": "Book of Ra RTP: оригиналът връща 92.13% (домашно предимство 7.87%), Deluxe връща 95.10% (домашно предимство 4.90%), и двете под нормата от около 96%"
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": 18,
+  "status": "approved",
+  "content_hash": "d3b98861ea0d84bfe6b20eb4feda125fbbc17b51b9c0ec048f36464c5679df88"
+}

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-label="Инфографика: бонус кодът отключва офертата, но условията решават стойността. Примерен код за €50 бонус с разиграване 35x прави €1750 оборот. Ако масовите игри се признават само с 10 на сто, оборотът пада десет пъти по-бавно. Оферта с минимален депозит €20: внесени €10 не отключват бонуса. Числата са илюстративни.">
+  <style>
+    .card{fill:#f7f8fa;stroke:#d9dee5;stroke-width:1.5}
+    .title{font-family:'Segoe UI',Arial,sans-serif;font-size:20px;font-weight:700;fill:#1f2733}
+    .sub{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;fill:#6b7684}
+    .tile{fill:#eef3f8;stroke:#cfd9e4;stroke-width:1.5}
+    .tilenum{font-family:'Segoe UI',Arial,sans-serif;font-size:30px;font-weight:700;fill:#1f4e79}
+    .tilelbl{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;fill:#5a6775}
+    .op{font-family:'Segoe UI',Arial,sans-serif;font-size:26px;font-weight:700;fill:#8a94a0}
+    .cond{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;fill:#404a56}
+    .condk{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;fill:#1f2733}
+    .note{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;font-weight:700;fill:#1f2733}
+    .tag{font-family:'Segoe UI',Arial,sans-serif;font-size:12px;fill:#6b7684}
+    .dot{fill:#c0552b}
+  </style>
+  <rect class="card" x="8" y="8" width="744" height="404" rx="16"/>
+  <text class="title" x="380" y="42" text-anchor="middle">Кодът отключва офертата; условията решават стойността</text>
+  <text class="sub" x="380" y="68" text-anchor="middle">примерен бонус код и какво стои под него</text>
+
+  <!-- stat tiles: €50 × 35x = €1750 -->
+  <rect class="tile" x="52"  y="92" width="196" height="92" rx="10"/>
+  <rect class="tile" x="282" y="92" width="196" height="92" rx="10"/>
+  <rect class="tile" x="512" y="92" width="196" height="92" rx="10"/>
+  <text class="tilenum" x="150" y="142" text-anchor="middle">€50</text>
+  <text class="tilelbl" x="150" y="168" text-anchor="middle">бонус</text>
+  <text class="tilenum" x="380" y="142" text-anchor="middle">35x</text>
+  <text class="tilelbl" x="380" y="168" text-anchor="middle">разиграване</text>
+  <text class="tilenum" x="610" y="142" text-anchor="middle">€1750</text>
+  <text class="tilelbl" x="610" y="168" text-anchor="middle">оборот</text>
+  <text class="op" x="265" y="147" text-anchor="middle">×</text>
+  <text class="op" x="495" y="147" text-anchor="middle">=</text>
+
+  <!-- condition notes -->
+  <circle class="dot" cx="56" cy="233" r="4"/>
+  <text class="cond" x="72" y="238">Признават се само <tspan class="condk">10 на сто</tspan> от масовите игри: оборотът пада 10 пъти по-бавно.</text>
+  <circle class="dot" cx="56" cy="275" r="4"/>
+  <text class="cond" x="72" y="280">Оферта с минимален депозит <tspan class="condk">€20</tspan>: внесени <tspan class="condk">€10</tspan> не отключват бонуса.</text>
+
+  <text class="note" x="380" y="340" text-anchor="middle">Кодът отваря офертата; дребният шрифт определя колко струва.</text>
+  <text class="tag" x="380" y="388" text-anchor="middle">Числата са илюстративни · 18+ Играйте отговорно</text>
+</svg>
