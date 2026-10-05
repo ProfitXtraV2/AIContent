@@ -17,12 +17,22 @@
   .links a{font-size:.82rem;text-decoration:none;color:var(--muted);padding:.3rem .7rem;border-radius:999px;background:var(--card);border:1px solid var(--line)}
   .links a:hover{border-color:var(--accent);color:var(--accent)}
   .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.8rem;margin-bottom:1.4rem}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1rem;box-shadow:var(--shadow)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1rem;box-shadow:var(--shadow);position:relative}
   .card .lbl{color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
   .card .big{font-size:1.9rem;font-weight:700;margin-top:.2rem}
   .card .note{color:var(--muted);font-size:.78rem;margin-top:.3rem}
   .delta{font-size:.8rem;font-weight:600}
   .up{color:var(--good)} .down{color:var(--bad)} .flat{color:var(--muted)}
+  .card .ico{opacity:.45;cursor:help;font-weight:400}
+  .card .tip{visibility:hidden;opacity:0;position:absolute;z-index:40;left:50%;top:calc(100% + 8px);
+    transform:translateX(-50%);width:240px;max-width:78vw;background:var(--ink);color:#fff;
+    font:400 .74rem/1.45 -apple-system,"Segoe UI",Roboto,Arial,sans-serif;text-transform:none;letter-spacing:0;
+    padding:.6rem .7rem;border-radius:8px;box-shadow:0 6px 22px rgba(20,22,26,.22);pointer-events:none;transition:opacity .12s}
+  .card .tip::before{content:"";position:absolute;bottom:100%;left:50%;transform:translateX(-50%);
+    border:6px solid transparent;border-bottom-color:var(--ink)}
+  .card:hover .tip{visibility:visible;opacity:1}
+  .monthsel{font:inherit;font-size:.78rem;padding:.25rem .55rem;border:1px solid var(--line);border-radius:8px;
+    background:#fff;color:var(--ink);text-transform:none;letter-spacing:0;cursor:pointer}
   .panel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:1.2rem 1.4rem;box-shadow:var(--shadow);margin-bottom:1.2rem}
   .panel h2{font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:700;margin:0 0 .8rem}
   table{border-collapse:collapse;width:100%;font-size:.84rem;border:1px solid var(--line);border-radius:10px;overflow:hidden}
@@ -51,7 +61,10 @@
   <section class="cards" id="cards"></section>
 
   <div class="panel">
-    <h2>Latest snapshot — all metrics</h2>
+    <h2 style="display:flex;align-items:center;justify-content:space-between;gap:.6rem">
+      <span>Snapshot — all metrics</span>
+      <select class="monthsel" id="monthsel"></select>
+    </h2>
     <div id="breakdown"></div>
   </div>
 
@@ -101,7 +114,7 @@ fetch('./data/seo-audit-history.json?_='+Date.now()).then(r=>r.json()).then(hist
   document.getElementById('sub').textContent=`Monthly quantitative audit · last run ${cur.date} · ${hist.length} month(s) tracked`;
   // headline cards
   const a=cur.authority,s=cur.search,c=cur.cwv;
-  const card=(lbl,big,cls,note,delta,tip)=>`<div class="card"${tip?` title="${tip}" style="cursor:help"`:''}><div class="lbl">${lbl} ${tip?'<span style="opacity:.5">ⓘ</span>':''}</div><div class="big">${big} ${cls?`<span class="pill ${cls}" style="font-size:.6rem;vertical-align:middle"></span>`:''}</div><div class="note">${note||''} ${delta||''}</div></div>`;
+  const card=(lbl,big,cls,note,delta,tip)=>`<div class="card"><div class="lbl">${lbl} ${tip?'<span class="ico">ⓘ</span>':''}</div><div class="big">${big} ${cls?`<span class="pill ${cls}" style="font-size:.6rem;vertical-align:middle"></span>`:''}</div><div class="note">${note||''} ${delta||''}</div>${tip?`<span class="tip">${tip}</span>`:''}</div>`;
   document.getElementById('cards').innerHTML=[
     card('Tracking score',`${cur.tracking_score}`,rate('score',cur.tracking_score),'', deltaHTML(cur.tracking_score,prev&&prev.tracking_score),'Composite 0–100: rankings 45% + authority 30% + indexation 15% + CWV 10%. Watch the trend month-to-month, not the absolute number.'),
     card('Domain Rating',`${a.dr}`,rate('dr',a.dr),'Ahrefs', deltaHTML(a.dr,prev&&prev.authority.dr),'Ahrefs DR (0–100): your backlink authority. This is the main ceiling — higher DR = more power to rank. Grows only with quality backlinks (outreach).'),
@@ -112,14 +125,22 @@ fetch('./data/seo-audit-history.json?_='+Date.now()).then(r=>r.json()).then(hist
     card('Referring domains',`${a.refdomains}`,'','Ahrefs', deltaHTML(a.refdomains,prev&&prev.authority.refdomains),'Distinct domains linking to you (Ahrefs). Most are currently toxic/disavowed — earning real editorial links is the #1 growth lever.'),
     card('Pages indexed',`${s.pages_indexed}/${cur.indexation.sitemap_urls||'?'}`,'','GSC vs sitemap','','Pages getting Google impressions vs total URLs in your sitemap. ~all indexed = indexation is fine; the problem is ranking, not crawling.'),
   ].join('');
-  // full breakdown of the latest month (all captured metrics)
+  // full breakdown of any captured month (all metrics) — driven by the month selector
   const kv=(k,v)=>`<div style="display:flex;justify-content:space-between;gap:1rem;padding:.32rem 0;border-bottom:1px solid var(--line)"><span style="color:var(--muted)">${k}</span><b>${fmt(v)}</b></div>`;
   const grp=t=>`<div class="lbl" style="color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700;margin-bottom:.4rem">${t}</div>`;
-  document.getElementById('breakdown').innerHTML=`<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1.6rem">
-    <div>${grp('Authority (Ahrefs)')}${kv('Domain Rating',a.dr)}${kv('Referring domains',a.refdomains)}${kv('Organic keywords',a.organic_keywords)}${kv('Est. traffic / mo',a.organic_traffic)}</div>
-    <div>${grp('Search (GSC)')}${kv('Impressions 90d',s.impressions_90d)}${kv('Impressions 28d',s.impressions_28d)}${kv('Clicks 90d',s.clicks_90d)}${kv('Clicks 28d',s.clicks_28d)}${kv('Avg position',s.avg_position)}${kv('Striking-distance',s.striking_distance)}</div>
-    <div>${grp('Core Web Vitals (lab)')}${kv('Mobile score',c.mobile_score)}${kv('Mobile LCP',(c.mobile_lcp_s!=null?c.mobile_lcp_s+' s':'—'))}${kv('Desktop score',c.desktop_score)}${kv('Desktop CLS',c.desktop_cls)}</div>
-    <div>${grp('Indexation')}${kv('Sitemap URLs',cur.indexation.sitemap_urls)}${kv('Pages w/ impressions',cur.indexation.pages_with_impressions)}</div></div>`;
+  function renderBreakdown(idx){
+    const r=hist[idx], a=r.authority, s=r.search, c=r.cwv, ix=r.indexation||{};
+    document.getElementById('breakdown').innerHTML=`<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1.6rem">
+      <div>${grp('Authority (Ahrefs)')}${kv('Domain Rating',a.dr)}${kv('Referring domains',a.refdomains)}${kv('Organic keywords',a.organic_keywords)}${kv('Est. traffic / mo',a.organic_traffic)}</div>
+      <div>${grp('Search (GSC)')}${kv('Impressions 90d',s.impressions_90d)}${kv('Impressions 28d',s.impressions_28d)}${kv('Clicks 90d',s.clicks_90d)}${kv('Clicks 28d',s.clicks_28d)}${kv('Avg position',s.avg_position)}${kv('Striking-distance',s.striking_distance)}</div>
+      <div>${grp('Core Web Vitals (lab)')}${kv('Mobile score',c.mobile_score)}${kv('Mobile LCP',(c.mobile_lcp_s!=null?c.mobile_lcp_s+' s':'—'))}${kv('Desktop score',c.desktop_score)}${kv('Desktop CLS',c.desktop_cls)}</div>
+      <div>${grp('Indexation')}${kv('Sitemap URLs',ix.sitemap_urls)}${kv('Pages w/ impressions',ix.pages_with_impressions)}</div></div>`;
+  }
+  const monthsel=document.getElementById('monthsel');
+  monthsel.innerHTML=hist.map((h,i)=>`<option value="${i}">${h.month}${i===hist.length-1?' (latest)':''}</option>`).reverse().join('');
+  monthsel.value=String(hist.length-1);
+  monthsel.onchange=()=>renderBreakdown(+monthsel.value);
+  renderBreakdown(hist.length-1);
   // trend table
   const cols=[['month','Month'],['score','Score'],['dr','DR'],['kw','Keywords'],['traffic','Traffic'],['imp','Impr 90d'],['clk','Clicks 90d'],['pos','Avg pos'],['sd','Strik.'],['mob','Mobile CWV']];
   const row=h=>`<tr>
