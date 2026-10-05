@@ -29,9 +29,9 @@
     <!-- Демо -->
     <text x="344" y="186" fill="#8a8499">Не</text>
     <text x="344" y="238" fill="#8a8499">Не</text>
-    <text x="344" y="290" fill="#8a8499">—</text>
-    <text x="344" y="342" fill="#8a8499">—</text>
-    <text x="344" y="394" fill="#8a8499">—</text>
+    <text x="344" y="290" fill="#8a8499">:</text>
+    <text x="344" y="342" fill="#8a8499">:</text>
+    <text x="344" y="394" fill="#8a8499">:</text>
     <!-- Лицензирано -->
     <text x="504" y="186" fill="#1f7a4d">Да</text>
     <text x="504" y="238" fill="#1f7a4d">Да</text>
