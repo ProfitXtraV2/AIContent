@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 384" role="img" aria-label="Инфографика: верига от безкрайни барабани. Започва с 3 базови барабана и множител ×1. Печалба добавя 4-ти барабан и множителят става ×2. Нова печалба добавя 5-и барабан и множителят става ×3. Петият барабан не удължава печалбата, затова шести барабан не се добавя и веригата спира. Числата са примерни.">
+  <style>
+    .card{fill:#f7f8fa;stroke:#d9dee5;stroke-width:1.5}
+    .title{font-family:'Segoe UI',Arial,sans-serif;font-size:21px;font-weight:700;fill:#1f2733}
+    .sub{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;fill:#6b7684}
+    .base{fill:#5b86b3;stroke:#47688c;stroke-width:1.5}
+    .added{fill:#b9711a;stroke:#95590f;stroke-width:1.5}
+    .stop{fill:none;stroke:#9aa4b0;stroke-width:2.5;stroke-dasharray:6 5}
+    .sym{font-family:'Segoe UI',Arial,sans-serif;font-size:24px;fill:#ffffff;font-weight:700}
+    .mbase{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;fill:#8a94a0}
+    .madd{font-family:'Segoe UI',Arial,sans-serif;font-size:16px;font-weight:700;fill:#b9711a}
+    .rl{font-family:'Segoe UI',Arial,sans-serif;font-size:12px;fill:#8a94a0}
+    .plus{font-family:'Segoe UI',Arial,sans-serif;font-size:22px;font-weight:700;fill:#2f7d4f}
+    .note{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;font-weight:700;fill:#1f2733}
+    .tag{font-family:'Segoe UI',Arial,sans-serif;font-size:12px;fill:#6b7684}
+  </style>
+  <rect class="card" x="8" y="8" width="704" height="368" rx="16"/>
+  <text class="title" x="360" y="44" text-anchor="middle">Безкрайни барабани: веригата расте с множителя</text>
+  <text class="sub" x="360" y="68" text-anchor="middle">всяка печалба добавя барабан отдясно (примерна верига)</text>
+
+  <!-- 6 reel columns; 1-3 base (x1), 4 (x2), 5 (x3), 6 stop -->
+  <!-- multiplier row (y=104) -->
+  <text class="mbase" x="120" y="104" text-anchor="middle">×1</text>
+  <text class="mbase" x="216" y="104" text-anchor="middle">×1</text>
+  <text class="mbase" x="312" y="104" text-anchor="middle">×1</text>
+  <text class="madd"  x="408" y="104" text-anchor="middle">×2</text>
+  <text class="madd"  x="504" y="104" text-anchor="middle">×3</text>
+  <text class="mbase" x="600" y="104" text-anchor="middle">спира</text>
+
+  <!-- columns -->
+  <rect class="base"  x="79"  y="120" width="82" height="150" rx="8"/>
+  <rect class="base"  x="175" y="120" width="82" height="150" rx="8"/>
+  <rect class="base"  x="271" y="120" width="82" height="150" rx="8"/>
+  <rect class="added" x="367" y="120" width="82" height="150" rx="8"/>
+  <rect class="added" x="463" y="120" width="82" height="150" rx="8"/>
+  <rect class="stop"  x="559" y="120" width="82" height="150" rx="8"/>
+
+  <!-- symbols on filled columns -->
+  <text class="sym" x="120" y="203" text-anchor="middle">●</text>
+  <text class="sym" x="216" y="203" text-anchor="middle">●</text>
+  <text class="sym" x="312" y="203" text-anchor="middle">●</text>
+  <text class="sym" x="408" y="203" text-anchor="middle">●</text>
+  <text class="sym" x="504" y="203" text-anchor="middle">●</text>
+
+  <!-- reel labels -->
+  <text class="rl" x="120" y="290" text-anchor="middle">барабан 1</text>
+  <text class="rl" x="216" y="290" text-anchor="middle">барабан 2</text>
+  <text class="rl" x="312" y="290" text-anchor="middle">барабан 3</text>
+  <text class="rl" x="408" y="290" text-anchor="middle">+ барабан 4</text>
+  <text class="rl" x="504" y="290" text-anchor="middle">+ барабан 5</text>
+  <text class="rl" x="600" y="290" text-anchor="middle">6-и не идва</text>
+
+  <text class="note" x="360" y="328" text-anchor="middle">Всеки добавен барабан качва множителя, докато печалбата спре.</text>
+  <text class="tag" x="360" y="356" text-anchor="middle">Числата са примерни · 18+ Играйте отговорно</text>
+</svg>
