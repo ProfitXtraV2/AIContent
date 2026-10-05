@@ -18,7 +18,7 @@
 
   <rect width="760" height="320" rx="16" ry="16" fill="url(#bgg)"/>
 
-  <!-- interconnected product panels (casino / live / poker / bingo) — abstract, no logos -->
+  <!-- interconnected product panels (casino / live / poker / bingo): abstract, no logos -->
   <g stroke="#38bdf8" stroke-width="1.5" opacity="0.55">
     <line x1="90" y1="150" x2="180" y2="110"/>
     <line x1="90" y1="150" x2="180" y2="205"/>
