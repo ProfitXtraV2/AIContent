@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" role="img" aria-label="Book of Ra RTP: оригиналът връща 92.13% с домашно предимство 7.87%, Book of Ra Deluxe връща 95.10% с домашно предимство 4.90%; и двете са под обичайната норма от около 96%; при €1000 оборот това са около €78.70 срещу €49 за казиното">
+  <title>Book of Ra RTP: оригинал 92.13% срещу Deluxe 95.10%</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+    <linearGradient id="origBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#b45309"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="deluxeBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a16207"/>
+      <stop offset="100%" stop-color="#eab308"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="360" rx="12" ry="12" fill="url(#bg)"/>
+  <text x="300" y="36" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="#78350f" text-anchor="middle">Book of Ra: RTP на двете версии</text>
+  <text x="300" y="58" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">Скалата започва от 90% за да е видима разликата</text>
+
+  <!-- Scale 90%..100% mapped to x 60..560 (500px = 10 percentage points, 50px per %) -->
+  <!-- Norm marker at 96%: x = 60 + (96-90)*50 = 360 -->
+  <line x1="360" y1="78" x2="360" y2="300" stroke="#059669" stroke-width="2" stroke-dasharray="5,4"/>
+  <text x="360" y="94" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#047857" text-anchor="middle">норма ~96%</text>
+
+  <!-- Original bar: 92.13% → width = (92.13-90)*50 = 106.5 -->
+  <text x="60" y="130" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151" font-weight="600">Оригинал (9 линии)</text>
+  <rect x="60" y="140" width="500" height="40" rx="8" fill="#e5e7eb"/>
+  <rect x="60" y="140" width="106.5" height="40" rx="8" fill="url(#origBar)"/>
+  <text x="176" y="166" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="800" fill="#b45309">92.13%</text>
+  <text x="555" y="166" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#b91c1c" text-anchor="end" font-weight="600">домашно предимство 7.87%</text>
+
+  <!-- Deluxe bar: 95.10% → width = (95.10-90)*50 = 255 -->
+  <text x="60" y="212" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151" font-weight="600">Deluxe (10 линии)</text>
+  <rect x="60" y="222" width="500" height="40" rx="8" fill="#e5e7eb"/>
+  <rect x="60" y="222" width="255" height="40" rx="8" fill="url(#deluxeBar)"/>
+  <text x="325" y="248" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="800" fill="#a16207">95.10%</text>
+  <text x="555" y="248" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#b91c1c" text-anchor="end" font-weight="600">домашно предимство 4.90%</text>
+
+  <text x="300" y="300" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151" text-anchor="middle" font-style="italic">При €1000 оборот за казиното остават ~€78.70 (оригинал) срещу ~€49 (Deluxe).</text>
+  <text x="300" y="326" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">И двете версии са под обичайната норма от ~96% за модерните слотове.</text>
+  <text x="300" y="346" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">RTP е дългосрочна статистика, не обещание за сесията. 18+ Играйте отговорно.</text>
+</svg>
