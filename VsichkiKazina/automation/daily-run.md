@@ -7,11 +7,13 @@ pipeline in `VsichkiKazina/pipeline/` VERBATIM — never paraphrase its agent fi
 
 ## Constants
 - BUFFER_MINIMUM = 10   (a FLOOR for the buffer of written-but-unposted articles.)
-- MAX_PER_RUN = 1       (THROTTLED 2026-10-04: write AT MOST 1 new article per run. The library
-  already holds 200+ written-but-unpublished drafts, so intake is deliberately slowed to let
-  publishing + human approval catch up. Routine now fires once daily → ~1 new article/day.
-  Write 0 if there isn't a genuinely distinct, non-cannibalizing, on-strategy topic left;
-  never pad. The trigger prompt enforces the same cap — keep both in sync.)
+- MAX_PER_RUN = 3       (TEMP BURST 2026-10-05: write UP TO 3 new articles/run to clear the 8
+  `competitor-gap 2026-10-04` winnable backlog rows fast — drain THOSE `open` rows first (priority
+  order) before the AI bank. Once all competitor-gap rows are `written`, DROP BACK to 1 (note it in
+  the board run-note so the human reverts the trigger). The licensing topics are EDUCATIONAL guides
+  (how to verify a licence / evaluate a new casino) that need NO operator T&C / НАП lookup → IN scope,
+  do not skip. Write fewer than 3 only if no genuinely distinct topics remain; never pad. The trigger
+  prompt enforces the same cap — keep both in sync.)
 
 ## Resume / idempotency (a failed run must self-heal on the next fire)
 This run may be re-fired at any time (schedule fires 3×/day; a prior run may have died on a
