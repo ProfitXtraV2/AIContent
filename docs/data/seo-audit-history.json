@@ -18,9 +18,9 @@
       "clicks_28d": 201
     },
     "cwv": {
-      "mobile_score": 73,
-      "mobile_lcp_s": 6.5,
-      "desktop_score": 72,
+      "mobile_score": 63,
+      "mobile_lcp_s": 6.2,
+      "desktop_score": 64,
       "desktop_cls": 0.635
     },
     "indexation": {
@@ -79,7 +79,7 @@
         "pos": 7.1
       }
     ],
-    "tracking_score": 53,
+    "tracking_score": 52,
     "score_formula": "rankings45% (pos-based) + authority30% (DR·8) + indexation15% + CWV10% (lab, noisy)"
   }
 ]
