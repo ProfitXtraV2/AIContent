@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "slug": "sweet-bonanza-1000",
+  "title": "Sweet Bonanza 1000: какво променя версията 1000",
+  "meta_description": "Sweet Bonanza 1000: бомбите растат от 100x на 1,000x, максимумът е 25,000x. Защо това е повече волатилност, не по-добри шансове, и кой RTP реално играеш.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-15",
+  "date_modified": "2026-09-15",
+  "keywords": [
+    "sweet bonanza 1000",
+    "свит бонанза 1000",
+    "sweet bonanza 1000 rtp"
+  ],
+  "images": [
+    {
+      "path": "images/sweet-bonanza-1000-rtp.svg",
+      "alt": "Sweet Bonanza 1000 RTP: версия по подразбиране 95.52% връща средно €955.20 на €1000 оборот, €44.80 остават за казиното; операторът може да зареди и по-нисък RTP"
+    },
+    {
+      "path": "images/sweet-bonanza-1000-sravnenie.svg",
+      "alt": "Сравнение Sweet Bonanza 1000 и оригинала: множители-бомби до 1,000x срещу 100x, максимум 25,000x срещу 21,100x, RTP по подразбиране 95.52% срещу 96.48%, и двете 6×5 с pay anywhere и tumble"
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": -1,
+  "status": "approved",
+  "content_hash": "855136d66d1d14ffc50026726f355c8cf2f6d0b34569c8a42fa659d90f329996"
+}

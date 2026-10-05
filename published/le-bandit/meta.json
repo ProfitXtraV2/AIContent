@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "slug": "le-bandit",
+  "title": "Le Bandit: RTP, cluster pays и Golden Squares",
+  "meta_description": "Как работи Le Bandit на Hacksaw Gaming: cluster pays 6×5, Super Cascade, Golden Squares и Rainbow. RTP 96.34%, средна волатилност и защо се проверява.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-15",
+  "date_modified": "2026-09-15",
+  "keywords": [
+    "le bandit",
+    "ле бандит",
+    "hacksaw le bandit",
+    "le bandit rtp"
+  ],
+  "images": [
+    {
+      "path": "images/le-bandit-hero.webp",
+      "alt": "Абстрактна сепия сцена на обир със сейф, златни монети и лъч светлина по темата на Le Bandit"
+    },
+    {
+      "path": "images/le-bandit-rtp.svg",
+      "alt": "Le Bandit RTP: при €1000 оборот и версия 96.34% на играча се връщат средно €963, а €37 остават за казиното"
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": -1,
+  "status": "approved",
+  "content_hash": "ffe30d45d60199168bccd7b15019015ea7dc6ecb952a5ca12202a4a397b313c4"
+}

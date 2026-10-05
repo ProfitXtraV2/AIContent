@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360" role="img" aria-label="Схема на четирите нива джакпот в мрежата Age of the Gods на Playtech: Power, Extra Power, Super Power и Ultimate Power, споделящи общ фонд; обявеният RTP е 95.02% и вече включва вноската към джакпота около 0.99%">
+  <title>Age of the Gods: четири нива джакпот със споделен фонд</title>
+  <defs>
+    <linearGradient id="hbg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#12233c"/>
+    </linearGradient>
+    <linearGradient id="tier" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="760" height="360" rx="14" ry="14" fill="url(#hbg2)"/>
+
+  <text x="32" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="800" fill="#f8fafc">Age of the Gods: мрежа от четири джакпота</text>
+  <text x="32" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#cbd5e1">общ фонд, споделен от няколко десетки заглавия · пуска се на случаен принцип</text>
+
+  <!-- four ascending tiers -->
+  <g font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">
+    <rect x="70" y="232" width="120" height="60" rx="6" fill="url(#tier)" opacity="0.62"/>
+    <text x="130" y="268" font-size="13" font-weight="700" fill="#0b1220">Power</text>
+    <text x="130" y="312" font-size="10.5" fill="#94a3b8">най-често, най-малко</text>
+
+    <rect x="240" y="200" width="120" height="92" rx="6" fill="url(#tier)" opacity="0.74"/>
+    <text x="300" y="252" font-size="13" font-weight="700" fill="#0b1220">Extra Power</text>
+
+    <rect x="410" y="160" width="120" height="132" rx="6" fill="url(#tier)" opacity="0.86"/>
+    <text x="470" y="230" font-size="13" font-weight="700" fill="#0b1220">Super Power</text>
+
+    <rect x="580" y="110" width="120" height="182" rx="6" fill="url(#tier)"/>
+    <text x="640" y="205" font-size="13" font-weight="700" fill="#0b1220">Ultimate Power</text>
+    <text x="640" y="312" font-size="10.5" fill="#94a3b8">най-рядко, най-голямо</text>
+  </g>
+  <line x1="70" y1="292" x2="700" y2="292" stroke="#334155" stroke-width="2"/>
+
+  <text x="32" y="336" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" fill="#93c5fd">Обявеният RTP на Age of the Gods е 95.02% и вече включва вноската към джакпота около 0.99%.</text>
+  <text x="700" y="336" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#94a3b8" text-anchor="end">размерите са примерни (мрежов прогресив, променлив) · 18+</text>
+</svg>

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "slug": "elk-studios",
+  "title": "ELK Studios: профил на доставчика, механики и топ слотове",
+  "meta_description": "Кой е ELK Studios (елк студиос): шведското студио зад Pirots и CollectR, механиките X-iter и Betting Strategies, конфигурируемият RTP (защо новите заглавия спират на 94%) и топ слотовете с техните числа.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-17",
+  "date_modified": "2026-09-17",
+  "keywords": [
+    "elk studios",
+    "елк студиос",
+    "elk games",
+    "pirots"
+  ],
+  "images": [
+    {
+      "path": "images/elk-studios-hero.svg",
+      "alt": "Абстрактна илюстрация на решетеста мрежа, по която цветни колекторни маркери събират символи, вдъхновена от collection механиката на ELK Studios, без лога и без текст"
+    },
+    {
+      "path": "images/elk-studios-top-slotove.svg",
+      "alt": "Сравнение на топ слотове на ELK Studios по RTP, максимална печалба и година: Pirots 2 RTP 94.0% max 10 000×, Nitropolis 4 RTP 94.0% max 50 000×, Wild Toro 2 RTP 95.0% max 10 000×, Katmandu Gold RTP 96.2% max 10 000×, Cygnus 4 RTP 94.0% max 50 000×, Lake's Five RTP 96.3% max 2160×"
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": -1,
+  "status": "approved",
+  "content_hash": "6a1a55fcc3f6afc1b8d527aa795b405f5474b633ebc9ce4c040a574aefc4e000"
+}

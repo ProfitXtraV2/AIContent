@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "slug": "gates-of-olympus-1000",
+  "title": "Gates of Olympus 1000: какво променя версията 1000",
+  "meta_description": "Gates of Olympus 1000 качва тавана на множителите на Зевс от 500x на 1,000x и максимума от 5,000x на 15,000x. Домашното предимство остава 96.50%: защо това е по-волатилна, а не по-щедра игра.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-10",
+  "date_modified": "2026-09-10",
+  "keywords": [
+    "gates of olympus 1000",
+    "гейтс ъв олимпус 1000"
+  ],
+  "images": [
+    {
+      "path": "images/gates-of-olympus-1000-hero.webp",
+      "alt": "Абстрактна композиция със златни сфери и синкави мълнии на тъмен фон по темата на Gates of Olympus 1000"
+    },
+    {
+      "path": "images/gates-of-olympus-1000-rtp.svg",
+      "alt": "Gates of Olympus 1000 RTP: версия по подразбиране 96.50% връща средно €965 на €1000 оборот, €35 остават за казиното; възможни са версии 95.51% и 94.50%"
+    },
+    {
+      "path": "images/gates-of-olympus-1000-sravnenie.svg",
+      "alt": "Сравнение Gates of Olympus 1000 и оригинала: таван на сферата 1,000x срещу 500x, максимум 15,000x срещу 5,000x, RTP по подразбиране 96.50% и в двете, и двете 6×5 pay anywhere с каскади"
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": -1,
+  "status": "approved",
+  "content_hash": "396797705d64133cc8b645bb636f07403fa097a759fa648abf987933a6f6c4b1"
+}

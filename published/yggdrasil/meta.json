@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "slug": "yggdrasil",
+  "title": "Yggdrasil Gaming: профил на доставчика, механики и топ слотове",
+  "meta_description": "Кой е Yggdrasil (игдрасил): шведско-малтийското студио зад Splitz, GigaBlox и Multiplier Wilds, платформата GATI и числата на топ слотовете.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-18",
+  "date_modified": "2026-09-18",
+  "keywords": [
+    "yggdrasil",
+    "игдрасил",
+    "yggdrasil gaming",
+    "yggdrasil слотове"
+  ],
+  "images": [
+    {
+      "path": "images/yggdrasil-hero.svg",
+      "alt": "Абстрактна метафора за Yggdrasil: разклонено дърво-платформа, чиито клони захранват стилизирани барабани, без лога и без текстови числа"
+    },
+    {
+      "path": "images/yggdrasil-top-slotove.svg",
+      "alt": "Таблица с топ слотове на Yggdrasil: Valley of the Gods 96.20% RTP и макс. 5 800x, 2017; Temple Stacks Splitz 96.10% и 25 000x, 2020; Lucky Neko Gigablox 96.40% и 6 950x, 2020; Vikings Go Berzerk Reloaded 96.00% и 25 000x, 2021"
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": 16,
+  "status": "approved",
+  "content_hash": "e511558e938d078f9cf31de377f36c5930291b9cd58ee541002235d1c1bd47fe"
+}

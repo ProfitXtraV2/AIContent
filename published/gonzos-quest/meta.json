@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "slug": "gonzos-quest",
+  "title": "Gonzo's Quest: RTP, Avalanche механика и как се играе",
+  "meta_description": "Gonzo's Quest на NetEnt с RTP 95.97%, каскади (Avalanche) и растящ множител до 15х в бонуса. Как работят падащите блокове и какво да очакваш реалистично.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-11",
+  "date_modified": "2026-09-11",
+  "keywords": [
+    "gonzo's quest",
+    "гонзо куест",
+    "gonzos quest",
+    "avalanche слот"
+  ],
+  "images": [
+    {
+      "path": "images/gonzos-quest-hero.webp",
+      "alt": "Абстрактна композиция от падащи каменни блокове и златни отблясъци сред тропическа зеленина, вдъхновена от визуалния стил на слота Gonzo's Quest"
+    },
+    {
+      "path": "images/gonzos-quest-rtp.svg",
+      "alt": "Илюстративно: при обявен RTP около 96% и €1000 оборот средно ~€960 се връщат на играча, ~€40 остават за казиното; официалният RTP на Gonzo's Quest е 95.97% и се проверява в инфо-панела"
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": -1,
+  "status": "approved",
+  "content_hash": "85ba624923984f5456b5202b4fbf8a6e1ea205748fd28850f97155460f20288f"
+}

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="900" height="360" role="img" aria-label="Абстрактна илюстрация на решетеста мрежа, по която цветни колекторни маркери събират символи по пътечки, вдъхновена от collection механиката на ELK Studios, без лога и без текст върху графиката">
+  <title>ELK Studios: collection механика на мрежа (концептуална илюстрация)</title>
+  <defs>
+    <linearGradient id="hbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#15233b"/>
+    </linearGradient>
+    <linearGradient id="cA" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f87171"/><stop offset="100%" stop-color="#dc2626"/></linearGradient>
+    <linearGradient id="cB" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#38bdf8"/><stop offset="100%" stop-color="#0369a1"/></linearGradient>
+    <linearGradient id="cC" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4ade80"/><stop offset="100%" stop-color="#15803d"/></linearGradient>
+    <linearGradient id="cD" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c084fc"/><stop offset="100%" stop-color="#7c3aed"/></linearGradient>
+  </defs>
+
+  <rect width="900" height="360" rx="16" fill="url(#hbg)"/>
+
+  <!-- grid of cells on the right -->
+  <g fill="none" stroke="#334155" stroke-width="1.5">
+    <!-- 7 cols x 5 rows, cell 44, start x=470 y=54 -->
+    <g>
+      <rect x="470" y="54" width="44" height="44" rx="6"/><rect x="518" y="54" width="44" height="44" rx="6"/><rect x="566" y="54" width="44" height="44" rx="6"/><rect x="614" y="54" width="44" height="44" rx="6"/><rect x="662" y="54" width="44" height="44" rx="6"/><rect x="710" y="54" width="44" height="44" rx="6"/><rect x="758" y="54" width="44" height="44" rx="6"/>
+      <rect x="470" y="102" width="44" height="44" rx="6"/><rect x="518" y="102" width="44" height="44" rx="6"/><rect x="566" y="102" width="44" height="44" rx="6"/><rect x="614" y="102" width="44" height="44" rx="6"/><rect x="662" y="102" width="44" height="44" rx="6"/><rect x="710" y="102" width="44" height="44" rx="6"/><rect x="758" y="102" width="44" height="44" rx="6"/>
+      <rect x="470" y="150" width="44" height="44" rx="6"/><rect x="518" y="150" width="44" height="44" rx="6"/><rect x="566" y="150" width="44" height="44" rx="6"/><rect x="614" y="150" width="44" height="44" rx="6"/><rect x="662" y="150" width="44" height="44" rx="6"/><rect x="710" y="150" width="44" height="44" rx="6"/><rect x="758" y="150" width="44" height="44" rx="6"/>
+      <rect x="470" y="198" width="44" height="44" rx="6"/><rect x="518" y="198" width="44" height="44" rx="6"/><rect x="566" y="198" width="44" height="44" rx="6"/><rect x="614" y="198" width="44" height="44" rx="6"/><rect x="662" y="198" width="44" height="44" rx="6"/><rect x="710" y="198" width="44" height="44" rx="6"/><rect x="758" y="198" width="44" height="44" rx="6"/>
+      <rect x="470" y="246" width="44" height="44" rx="6"/><rect x="518" y="246" width="44" height="44" rx="6"/><rect x="566" y="246" width="44" height="44" rx="6"/><rect x="614" y="246" width="44" height="44" rx="6"/><rect x="662" y="246" width="44" height="44" rx="6"/><rect x="710" y="246" width="44" height="44" rx="6"/><rect x="758" y="246" width="44" height="44" rx="6"/>
+    </g>
+  </g>
+
+  <!-- collector tokens (circles) with collect paths -->
+  <path d="M492 76 H660" stroke="#f87171" stroke-width="2" stroke-dasharray="4,5" opacity="0.6" fill="none"/>
+  <path d="M540 268 H732 V172" stroke="#4ade80" stroke-width="2" stroke-dasharray="4,5" opacity="0.6" fill="none"/>
+  <path d="M636 124 V220" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4,5" opacity="0.6" fill="none"/>
+
+  <circle cx="492" cy="76" r="15" fill="url(#cA)"/>
+  <circle cx="540" cy="268" r="15" fill="url(#cC)"/>
+  <circle cx="636" cy="124" r="15" fill="url(#cB)"/>
+  <circle cx="732" cy="220" r="15" fill="url(#cD)"/>
+
+  <!-- a few collected gem dots -->
+  <circle cx="588" cy="76" r="7" fill="#fca5a5"/><circle cx="636" cy="76" r="7" fill="#fca5a5"/>
+  <circle cx="636" cy="172" r="7" fill="#7dd3fc"/><circle cx="636" cy="220" r="7" fill="#7dd3fc"/>
+  <circle cx="684" cy="268" r="7" fill="#86efac"/><circle cx="732" cy="268" r="7" fill="#86efac"/>
+
+  <!-- Left text -->
+  <text x="60" y="120" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="800" fill="#f8fafc">Събиране,</text>
+  <text x="60" y="162" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="800" fill="#f8fafc">не линии</text>
+  <text x="60" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#94a3b8">Колектори обхождат мрежата и</text>
+  <text x="60" y="222" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#94a3b8">събират символи по своя цвят.</text>
+  <text x="60" y="300" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#64748b">18+ Играйте отговорно</text>
+</svg>

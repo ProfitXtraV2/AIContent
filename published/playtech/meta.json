@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "slug": "playtech",
+  "title": "Playtech: профил на доставчика, механики и топ слотове",
+  "meta_description": "Кой е Playtech, как работи мрежата от джакпоти Age of the Gods и кои са топ слотовете. Защо RTP идва в няколко версии и защо джакпотът се пълни от оборота.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-18",
+  "date_modified": "2026-09-18",
+  "keywords": [
+    "playtech",
+    "плейтек",
+    "playtech слотове",
+    "playtech казино игри"
+  ],
+  "images": [
+    {
+      "path": "images/playtech-hero.svg",
+      "alt": "Абстрактна метафора за Playtech като голям доставчик: свързани панели за казино, живо казино, покер и бинго и стълбица от четири нива на прогресивен джакпот"
+    },
+    {
+      "path": "images/playtech-age-of-the-gods-niva.svg",
+      "alt": "Схема на четирите нива джакпот в мрежата Age of the Gods на Playtech: Power, Extra Power, Super Power и Ultimate Power, споделящи общ фонд"
+    },
+    {
+      "path": "images/playtech-top-slotove.svg",
+      "alt": "Таблица с топ слотове на Playtech: Age of the Gods 95.02% RTP и 10 000x, Gladiator: Road to Rome 95.05% и 150 000x, Jackpot Giant 94.22% и 50 000x, Great Blue 94.30% и 10 000x, Buffalo Blitz 95.96% и 300x"
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": 36,
+  "status": "approved",
+  "content_hash": "e13c346eb4c7101f682c08dde8c449bc7238a9c2e3af9d39cf868e946942ff49"
+}

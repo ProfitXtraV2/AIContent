@@ -1,7 +1,133 @@
 {
   "schema_version": 1,
-  "count": 9,
+  "count": 31,
   "articles": [
+    {
+      "slug": "gates-of-olympus-1000",
+      "title": "Gates of Olympus 1000: какво променя версията 1000",
+      "date_modified": "2026-09-10",
+      "content_hash": "396797705d64133cc8b645bb636f07403fa097a759fa648abf987933a6f6c4b1",
+      "status": "approved"
+    },
+    {
+      "slug": "book-of-ra",
+      "title": "Book of Ra: RTP, характеристики и как се играе",
+      "date_modified": "2026-09-10",
+      "content_hash": "d3b98861ea0d84bfe6b20eb4feda125fbbc17b51b9c0ec048f36464c5679df88",
+      "status": "approved"
+    },
+    {
+      "slug": "flaming-hot",
+      "title": "Flaming Hot: RTP и характеристики (EGT/Amusnet)",
+      "date_modified": "2026-09-10",
+      "content_hash": "47a521b095f1102b88e5fdcd2f4fe5b3dd5b11379e52b1adcba9fac36f6f7efd",
+      "status": "approved"
+    },
+    {
+      "slug": "big-bass-splash",
+      "title": "Big Bass Splash: RTP, волатилност и как се играе",
+      "date_modified": "2026-09-10",
+      "content_hash": "604299489013f1e8c259699e6a97e9086d39fa02876809cfcb22e899929bdece",
+      "status": "approved"
+    },
+    {
+      "slug": "kazino-bez-registraciya",
+      "title": "Казино без регистрация: какво реално значи в България",
+      "date_modified": "2026-09-11",
+      "content_hash": "6850053b4591301ba6f0d0b3d978facaeac7d7a3aa8ab8bbdfaf26bb8c99d01d",
+      "status": "approved"
+    },
+    {
+      "slug": "netent-provajdar",
+      "title": "NetEnt: профил на доставчика, механики и топ слотове",
+      "date_modified": "2026-09-11",
+      "content_hash": "74cc9599f1a83b0ebc3a1b750826fda84ce29f9d69501b2d33f13bb6c5cca694",
+      "status": "approved"
+    },
+    {
+      "slug": "gonzos-quest",
+      "title": "Gonzo's Quest: RTP, Avalanche механика и как се играе",
+      "date_modified": "2026-09-11",
+      "content_hash": "85ba624923984f5456b5202b4fbf8a6e1ea205748fd28850f97155460f20288f",
+      "status": "approved"
+    },
+    {
+      "slug": "dostavchici-kazino-igri",
+      "title": "Кои са доставчиците на казино игри и защо са важни",
+      "date_modified": "2026-09-12",
+      "content_hash": "0b893e3ad291d68aa5857f486485fd5ea0b5bdc56454273bbfc6960420508057",
+      "status": "approved"
+    },
+    {
+      "slug": "le-bandit",
+      "title": "Le Bandit: RTP, cluster pays и Golden Squares",
+      "date_modified": "2026-09-15",
+      "content_hash": "ffe30d45d60199168bccd7b15019015ea7dc6ecb952a5ca12202a4a397b313c4",
+      "status": "approved"
+    },
+    {
+      "slug": "sweet-bonanza-1000",
+      "title": "Sweet Bonanza 1000: какво променя версията 1000",
+      "date_modified": "2026-09-15",
+      "content_hash": "855136d66d1d14ffc50026726f355c8cf2f6d0b34569c8a42fa659d90f329996",
+      "status": "approved"
+    },
+    {
+      "slug": "sweet-bonanza-xmas",
+      "title": "Sweet Bonanza Xmas: какво променя коледната версия",
+      "date_modified": "2026-09-15",
+      "content_hash": "4843a7bb6b25308bf5212418ce7fc5d8a5bb5b2d9eb4a9d0a3c905a0d90590bc",
+      "status": "approved"
+    },
+    {
+      "slug": "eye-of-horus",
+      "title": "Eye of Horus: RTP 96.31%, разширяващ се символ и 12 завъртания",
+      "date_modified": "2026-09-16",
+      "content_hash": "5be149f139975a81b1521df7ed046470be8d979227e344421089bc7a9f14c7ed",
+      "status": "approved"
+    },
+    {
+      "slug": "juicy-fruits",
+      "title": "Juicy Fruits (Pragmatic): RTP 96.51%, разширяващ се wild",
+      "date_modified": "2026-09-16",
+      "content_hash": "d8d5481abb2e7bfa4da24c6c2f8e68ce33d004e44121974745dcc31a86eb87f1",
+      "status": "approved"
+    },
+    {
+      "slug": "tombstone-rip",
+      "title": "Tombstone R.I.P.: RTP, волатилност и как работи",
+      "date_modified": "2026-09-17",
+      "content_hash": "b3501a9dccca72419d779c2bdc725067a96b6e909857e13b63338a93f4454a60",
+      "status": "approved"
+    },
+    {
+      "slug": "elk-studios",
+      "title": "ELK Studios: профил на доставчика, механики и топ слотове",
+      "date_modified": "2026-09-17",
+      "content_hash": "6a1a55fcc3f6afc1b8d527aa795b405f5474b633ebc9ce4c040a574aefc4e000",
+      "status": "approved"
+    },
+    {
+      "slug": "nolimit-city",
+      "title": "Nolimit City: профил на доставчика, механики и топ слотове",
+      "date_modified": "2026-09-18",
+      "content_hash": "84a7a054ab45f2b5e69b7ef4a0375e1af5b068c354588131fad0f608c829090e",
+      "status": "approved"
+    },
+    {
+      "slug": "playtech",
+      "title": "Playtech: профил на доставчика, механики и топ слотове",
+      "date_modified": "2026-09-18",
+      "content_hash": "e13c346eb4c7101f682c08dde8c449bc7238a9c2e3af9d39cf868e946942ff49",
+      "status": "approved"
+    },
+    {
+      "slug": "yggdrasil",
+      "title": "Yggdrasil Gaming: профил на доставчика, механики и топ слотове",
+      "date_modified": "2026-09-18",
+      "content_hash": "e511558e938d078f9cf31de377f36c5930291b9cd58ee541002235d1c1bd47fe",
+      "status": "approved"
+    },
     {
       "slug": "hub-intro-casino-payments",
       "title": "Казино плащания: депозити и тегления в БГ казина",
@@ -64,7 +190,35 @@
       "date_modified": "2026-09-20",
       "content_hash": "f24505a14ce42a2e28eabcae4830c10b2cb7331319468fbf3a8172171a7cb6b5",
       "status": "approved"
+    },
+    {
+      "slug": "bezkrayni-barabani-infinity-reels",
+      "title": "Безкрайни барабани (Infinity Reels): как работят",
+      "date_modified": "2026-10-04",
+      "content_hash": "18c146e038a05330123588fcbcd937ed9dc1c618fad9f9c46b9ac3a459f92e81",
+      "status": "approved"
+    },
+    {
+      "slug": "naslagani-stacked-simvoli",
+      "title": "Наслагани (stacked) символи в слотовете: как работят",
+      "date_modified": "2026-10-04",
+      "content_hash": "812fba31ea2652ade82db573a067561a1d55eeed698fc30f3ef38cca6f0f9a96",
+      "status": "approved"
+    },
+    {
+      "slug": "turbo-barz-spin",
+      "title": "Турбо и бърз спин в слотовете: скорост и риск",
+      "date_modified": "2026-10-04",
+      "content_hash": "903329e68446df32a3ad4947c92526c2043892ddc12045e01fdb02e9dd4924ac",
+      "status": "approved"
+    },
+    {
+      "slug": "kazino-bonus-kod",
+      "title": "Казино бонус код: как работи и къде се въвежда",
+      "date_modified": "2026-10-04",
+      "content_hash": "d9add1b30b0474ce18950202bf1536a8ad8a162346c6396ceb99897175ff147c",
+      "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-05T00:23:04Z"
+  "generated_utc": "2026-10-05T06:48:02Z"
 }

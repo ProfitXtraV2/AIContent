@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 402" width="760" height="402" role="img" aria-label="Таблица с топ слотове на Nolimit City: Tombstone R.I.P. 96.08% RTP, макс. 300 000x, 2022; San Quentin xWays 96.03%, 150 000x, 2021; Mental 96.08%, 66 666x, 2021; Fire in the Hole 2 96.07%, 65 000x, 2024; Das xBoot 96.03%, 55 200x, 2021; Deadwood 96.03%, 13 950x, 2020">
+  <title>Топ слотове на Nolimit City: RTP, максимална печалба и година</title>
+  <defs>
+    <linearGradient id="hbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="760" height="402" rx="14" ry="14" fill="url(#hbg)"/>
+
+  <text x="32" y="38" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="800" fill="#7c2d12">Топ слотове на Nolimit City</text>
+  <text x="32" y="59" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" fill="#6b7280">числата са от доставчика/международни бази; операторът може да зареди по-ниска RTP версия</text>
+
+  <!-- header row -->
+  <rect x="24" y="76" width="712" height="34" rx="6" fill="#7c2d12"/>
+  <text x="40" y="98" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="start">Слот</text>
+  <text x="360" y="98" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">RTP</text>
+  <text x="530" y="98" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Макс. печалба</text>
+  <text x="690" y="98" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Година</text>
+
+  <!-- rows -->
+  <g font-family="system-ui, -apple-system, sans-serif">
+    <!-- Row 1 -->
+    <rect x="24" y="112" width="712" height="40" fill="#ffffff"/>
+    <text x="40" y="137" font-size="14" font-weight="600" fill="#111827" text-anchor="start">Tombstone R.I.P.</text>
+    <text x="360" y="137" font-size="14" fill="#374151" text-anchor="middle">96.08%</text>
+    <text x="530" y="137" font-size="14" font-weight="700" fill="#b45309" text-anchor="middle">300 000x</text>
+    <text x="690" y="137" font-size="14" fill="#374151" text-anchor="middle">2022</text>
+
+    <!-- Row 2 -->
+    <rect x="24" y="152" width="712" height="40" fill="#f3f4f6"/>
+    <text x="40" y="177" font-size="14" font-weight="600" fill="#111827" text-anchor="start">San Quentin xWays</text>
+    <text x="360" y="177" font-size="14" fill="#374151" text-anchor="middle">96.03%</text>
+    <text x="530" y="177" font-size="14" font-weight="700" fill="#b45309" text-anchor="middle">150 000x</text>
+    <text x="690" y="177" font-size="14" fill="#374151" text-anchor="middle">2021</text>
+
+    <!-- Row 3 -->
+    <rect x="24" y="192" width="712" height="40" fill="#ffffff"/>
+    <text x="40" y="217" font-size="14" font-weight="600" fill="#111827" text-anchor="start">Mental</text>
+    <text x="360" y="217" font-size="14" fill="#374151" text-anchor="middle">96.08%</text>
+    <text x="530" y="217" font-size="14" font-weight="700" fill="#b45309" text-anchor="middle">66 666x</text>
+    <text x="690" y="217" font-size="14" fill="#374151" text-anchor="middle">2021</text>
+
+    <!-- Row 4 -->
+    <rect x="24" y="232" width="712" height="40" fill="#f3f4f6"/>
+    <text x="40" y="257" font-size="14" font-weight="600" fill="#111827" text-anchor="start">Fire in the Hole 2</text>
+    <text x="360" y="257" font-size="14" fill="#374151" text-anchor="middle">96.07%</text>
+    <text x="530" y="257" font-size="14" font-weight="700" fill="#b45309" text-anchor="middle">65 000x</text>
+    <text x="690" y="257" font-size="14" fill="#374151" text-anchor="middle">2024</text>
+
+    <!-- Row 5 -->
+    <rect x="24" y="272" width="712" height="40" fill="#ffffff"/>
+    <text x="40" y="297" font-size="14" font-weight="600" fill="#111827" text-anchor="start">Das xBoot</text>
+    <text x="360" y="297" font-size="14" fill="#374151" text-anchor="middle">96.03%</text>
+    <text x="530" y="297" font-size="14" font-weight="700" fill="#b45309" text-anchor="middle">55 200x</text>
+    <text x="690" y="297" font-size="14" fill="#374151" text-anchor="middle">2021</text>
+
+    <!-- Row 6 -->
+    <rect x="24" y="312" width="712" height="40" fill="#f3f4f6"/>
+    <text x="40" y="337" font-size="14" font-weight="600" fill="#111827" text-anchor="start">Deadwood</text>
+    <text x="360" y="337" font-size="14" fill="#374151" text-anchor="middle">96.03%</text>
+    <text x="530" y="337" font-size="14" font-weight="700" fill="#b45309" text-anchor="middle">13 950x</text>
+    <text x="690" y="337" font-size="14" fill="#374151" text-anchor="middle">2020</text>
+  </g>
+
+  <line x1="24" y1="352" x2="736" y2="352" stroke="#d1d5db" stroke-width="1"/>
+  <text x="32" y="374" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af">Макс. печалба = теоретичен таван при екстремна волатилност, не обещание · източник: nolimitcity.com и международни бази</text>
+  <text x="32" y="392" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af">18+ Играйте отговорно · Провери реалния RTP в инфо-панела на конкретното казино</text>
+</svg>

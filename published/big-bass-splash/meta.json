@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "slug": "big-bass-splash",
+  "title": "Big Bass Splash: RTP, волатилност и как се играе",
+  "meta_description": "Big Bass Splash на Pragmatic Play: 5x3, 10 линии, RTP 96.71%, много висока волатилност, макс. 5,000x. Как рибарят събира парите и как множителят стига до 10x в безплатните завъртания.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-10",
+  "date_modified": "2026-09-10",
+  "keywords": [
+    "big bass splash",
+    "биг бас сплаш"
+  ],
+  "images": [
+    {
+      "path": "images/big-bass-splash-hero.webp",
+      "alt": "Абстрактна риболовна сцена с плувка, монети-риби и вълни, вдъхновена от слот като Big Bass Splash"
+    },
+    {
+      "path": "images/big-bass-splash-mnozhitel.svg",
+      "alt": "Стълба на множителя в безплатните завъртания на Big Bass Splash: на всеки 4-ти събран рибар се сменя ниво с нови 10 завъртания и множител 1x, 2x, 3x и 10x"
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": 17,
+  "status": "approved",
+  "content_hash": "604299489013f1e8c259699e6a97e9086d39fa02876809cfcb22e899929bdece"
+}

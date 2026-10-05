@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "slug": "sweet-bonanza-xmas",
+  "title": "Sweet Bonanza Xmas: какво променя коледната версия",
+  "meta_description": "Sweet Bonanza Xmas сменя визията на познатата игра, но не и математиката: pay-anywhere, множители 2x–100x в бонуса, конфигурируем RTP около 96.5%. Защо празничната тема не подобрява шансовете.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-09-15",
+  "date_modified": "2026-09-15",
+  "keywords": [
+    "sweet bonanza xmas",
+    "свит бонанза коледа",
+    "sweet bonanza xmas rtp"
+  ],
+  "images": [
+    {
+      "path": "images/sweet-bonanza-xmas-vs-baza.svg",
+      "alt": "Сравнение какво сменя коледната версия на Sweet Bonanza спрямо базовата: визията е нова, но RTP около 96.5%, мрежата 6 на 5, множителите 2x–100x и високата волатилност остават същите"
+    },
+    {
+      "path": "images/sweet-bonanza-xmas-rtp.svg",
+      "alt": "Sweet Bonanza Xmas RTP: при €1000 оборот и версия 96.48% на играча се връщат средно €965, а €35 остават за казиното; операторът може да пусне и по-нисък RTP"
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": -1,
+  "status": "approved",
+  "content_hash": "4843a7bb6b25308bf5212418ce7fc5d8a5bb5b2d9eb4a9d0a3c905a0d90590bc"
+}
