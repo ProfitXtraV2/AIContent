@@ -528,7 +528,7 @@ async function load() {
     const cap = seo.max_winnable_kd;
     return `<div class="seo-wrap">` +
       `<p class="seo-lead">Keyword strategy for <b>vsichkikazina.bg</b>, difficulty-gated for the site's current authority. Topics with <b>KD ≤ ${cap}</b> are winnable now and written first; higher-KD heads wait as <b>Pillar</b> targets until domain authority (DR) grows. Last monthly review: <b>${seo.last_monthly_review || '—'}</b>.</p>` +
-      `<h3>Authority trend (Ahrefs)</h3>${trendTbl}` +
+      `<p style="margin:.2rem 0 1rem"><a href="./seo-audit.html" style="font-weight:600">📊 Full monthly SEO audit → authority trend, Core Web Vitals, Search Console, history</a></p>` +
       (trkTbl ? `<h3>Winnable-topic performance <span class="hint">(Ahrefs rank; flag = posted &gt;8wk, still not ranking)</span></h3>${trkTbl}` : '') +
       `<h3>Opportunity mix</h3><div class="bandrow">${bandChips}</div>` +
       (clTbl ? `<h3>Clusters</h3>${clTbl}` : '') +

@@ -51,7 +51,12 @@
   <section class="cards" id="cards"></section>
 
   <div class="panel">
-    <h2>Monthly trend</h2>
+    <h2>Latest snapshot — all metrics</h2>
+    <div id="breakdown"></div>
+  </div>
+
+  <div class="panel">
+    <h2>Monthly trend <span style="font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted)">(one row per month — grows automatically on the 1st)</span></h2>
     <div id="trend"></div>
   </div>
 
@@ -96,17 +101,25 @@ fetch('./data/seo-audit-history.json?_='+Date.now()).then(r=>r.json()).then(hist
   document.getElementById('sub').textContent=`Monthly quantitative audit · last run ${cur.date} · ${hist.length} month(s) tracked`;
   // headline cards
   const a=cur.authority,s=cur.search,c=cur.cwv;
-  const card=(lbl,big,cls,note,delta)=>`<div class="card"><div class="lbl">${lbl}</div><div class="big">${big} ${cls?`<span class="pill ${cls}" style="font-size:.6rem;vertical-align:middle"></span>`:''}</div><div class="note">${note||''} ${delta||''}</div></div>`;
+  const card=(lbl,big,cls,note,delta,tip)=>`<div class="card"${tip?` title="${tip}" style="cursor:help"`:''}><div class="lbl">${lbl} ${tip?'<span style="opacity:.5">ⓘ</span>':''}</div><div class="big">${big} ${cls?`<span class="pill ${cls}" style="font-size:.6rem;vertical-align:middle"></span>`:''}</div><div class="note">${note||''} ${delta||''}</div></div>`;
   document.getElementById('cards').innerHTML=[
-    card('Tracking score',`${cur.tracking_score}`,rate('score',cur.tracking_score),'', deltaHTML(cur.tracking_score,prev&&prev.tracking_score)),
-    card('Domain Rating',`${a.dr}`,rate('dr',a.dr),'Ahrefs', deltaHTML(a.dr,prev&&prev.authority.dr)),
-    card('Avg position',`${s.avg_position}`,rate('avg_position',s.avg_position),'GSC 90d', deltaHTML(s.avg_position,prev&&prev.search.avg_position,true)),
-    card('Clicks (90d)',`${s.clicks_90d}`,'','GSC', deltaHTML(s.clicks_90d,prev&&prev.search.clicks_90d)),
-    card('Impressions (90d)',`${s.impressions_90d}`,'','GSC', deltaHTML(s.impressions_90d,prev&&prev.search.impressions_90d)),
-    card('Striking-distance',`${s.striking_distance}`,'','pos 4-20', deltaHTML(s.striking_distance,prev&&prev.search.striking_distance)),
-    card('Referring domains',`${a.refdomains}`,'','Ahrefs', deltaHTML(a.refdomains,prev&&prev.authority.refdomains)),
-    card('Pages indexed',`${s.pages_indexed}/${cur.indexation.sitemap_urls||'?'}`,'','GSC vs sitemap',''),
+    card('Tracking score',`${cur.tracking_score}`,rate('score',cur.tracking_score),'', deltaHTML(cur.tracking_score,prev&&prev.tracking_score),'Composite 0–100: rankings 45% + authority 30% + indexation 15% + CWV 10%. Watch the trend month-to-month, not the absolute number.'),
+    card('Domain Rating',`${a.dr}`,rate('dr',a.dr),'Ahrefs', deltaHTML(a.dr,prev&&prev.authority.dr),'Ahrefs DR (0–100): your backlink authority. This is the main ceiling — higher DR = more power to rank. Grows only with quality backlinks (outreach).'),
+    card('Avg position',`${s.avg_position}`,rate('avg_position',s.avg_position),'GSC 90d', deltaHTML(s.avg_position,prev&&prev.search.avg_position,true),'Average Google position across all your queries (Search Console, 90 days). Lower is better; ~22 = page 2–3.'),
+    card('Clicks (90d)',`${s.clicks_90d}`,'','GSC', deltaHTML(s.clicks_90d,prev&&prev.search.clicks_90d),'Total clicks from Google Search in the last 90 days (Search Console).'),
+    card('Impressions (90d)',`${s.impressions_90d}`,'','GSC', deltaHTML(s.impressions_90d,prev&&prev.search.impressions_90d),'How many times your pages appeared in Google results (90 days). High impressions + low clicks = you rank, but on page 2–3.'),
+    card('Striking-distance',`${s.striking_distance}`,'','pos 4-20', deltaHTML(s.striking_distance,prev&&prev.search.striking_distance),'Keywords ranking in positions 4–20 (page 2) — one push from page 1. Your quickest-win opportunities.'),
+    card('Referring domains',`${a.refdomains}`,'','Ahrefs', deltaHTML(a.refdomains,prev&&prev.authority.refdomains),'Distinct domains linking to you (Ahrefs). Most are currently toxic/disavowed — earning real editorial links is the #1 growth lever.'),
+    card('Pages indexed',`${s.pages_indexed}/${cur.indexation.sitemap_urls||'?'}`,'','GSC vs sitemap','','Pages getting Google impressions vs total URLs in your sitemap. ~all indexed = indexation is fine; the problem is ranking, not crawling.'),
   ].join('');
+  // full breakdown of the latest month (all captured metrics)
+  const kv=(k,v)=>`<div style="display:flex;justify-content:space-between;gap:1rem;padding:.32rem 0;border-bottom:1px solid var(--line)"><span style="color:var(--muted)">${k}</span><b>${fmt(v)}</b></div>`;
+  const grp=t=>`<div class="lbl" style="color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700;margin-bottom:.4rem">${t}</div>`;
+  document.getElementById('breakdown').innerHTML=`<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1.6rem">
+    <div>${grp('Authority (Ahrefs)')}${kv('Domain Rating',a.dr)}${kv('Referring domains',a.refdomains)}${kv('Organic keywords',a.organic_keywords)}${kv('Est. traffic / mo',a.organic_traffic)}</div>
+    <div>${grp('Search (GSC)')}${kv('Impressions 90d',s.impressions_90d)}${kv('Impressions 28d',s.impressions_28d)}${kv('Clicks 90d',s.clicks_90d)}${kv('Clicks 28d',s.clicks_28d)}${kv('Avg position',s.avg_position)}${kv('Striking-distance',s.striking_distance)}</div>
+    <div>${grp('Core Web Vitals (lab)')}${kv('Mobile score',c.mobile_score)}${kv('Mobile LCP',(c.mobile_lcp_s!=null?c.mobile_lcp_s+' s':'—'))}${kv('Desktop score',c.desktop_score)}${kv('Desktop CLS',c.desktop_cls)}</div>
+    <div>${grp('Indexation')}${kv('Sitemap URLs',cur.indexation.sitemap_urls)}${kv('Pages w/ impressions',cur.indexation.pages_with_impressions)}</div></div>`;
   // trend table
   const cols=[['month','Month'],['score','Score'],['dr','DR'],['kw','Keywords'],['traffic','Traffic'],['imp','Impr 90d'],['clk','Clicks 90d'],['pos','Avg pos'],['sd','Strik.'],['mob','Mobile CWV']];
   const row=h=>`<tr>
