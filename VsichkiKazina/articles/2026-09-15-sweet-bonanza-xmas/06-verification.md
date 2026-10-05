@@ -1,3 +1,5 @@
+**RESOLVED — 0 surviving flags as of 05.10.2026.** The [VERIFY] marker(s) described below were resolved in commit `6cb9c981` by rewriting the affected sentences, so the disputed values are no longer asserted. 05b contains no [VERIFY]/[DATA NEEDED]/[CONFLICT]. Verified at human approval; the original autopilot note is kept below for the audit trail.
+
 # 06-VERIFICATION — Всички Казина · 2026-09-15-sweet-bonanza-xmas
 *For the human at Step 6. FLAGS STAY IN THE TEXT — this file only helps you verify fast. Nothing here has been resolved by the autopilot.*
 
