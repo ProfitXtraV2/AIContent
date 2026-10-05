@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-05T06:48:09Z",
+  "generated_utc": "2026-10-05T07:21:19Z",
   "buffer": {
     "count": 228,
     "target": 10,
@@ -7,7 +7,7 @@
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
+    "in-progress": 1,
     "drafted": 197,
     "approved": 31,
     "posted": 29,
@@ -4623,6 +4623,27 @@
       "gemini": "human 90",
       "notes": "drafted 2026-10-04 (2nd fire); research bank candidate used; generic bonus-code MECHANISM pillar (кодът отключва оферта; въвежда се при регистрация/каса/раздела Бонуси; някои бонуси без код се активират автоматично); честно ядро: кодът отваря вратата, условията (разиграване/мин.депозит/срок/принос/таван) решават стойността; остава генеричен (НЕ оператор/реален код, различен от NV промо код backlog #9); gate 95/100 0-crit; Gemini Step-7 ONLINE: initial HL 30 → humaniser pass 1 (step-7b) → human 90 PASS (recheck 95), keep-best pass1; 0 em-dash; 0 in-text flags (€50 x 35x = €1750, принос 10 на сто, €20 срещу €10 илюстративни; recalc в 06); img:2 (SVG bonus-kod-usloviya numbers-verbatim 85 + decorative hero катинар+етикет+везна 85, 0 integrity); вътрешни: kak-raboti-razigravaneto/bonusi-bez-depozit/bonus-pri-registraciya/otgovorna-igra (4, live в sitemap); DISTINCT от бонус ТИПове vk-0002/0004/0036 + wagering vk-0001 (линкнат, не дублиран); ~700 думи; no operator/НАП, без афилиейт; checked=web (Ahrefs reset 2026-10-15); src=research candidate used; PR #277; approved for deploy 2026-10-05 (human review: Казино бонус код — 0 flags, Gemini human 90)",
       "opportunity": null
+    },
+    {
+      "id": "vk-0259",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Безплатни завъртания (free spins): видове, условия и капани",
+      "keywords_or_terms": "безплатни завъртания, безплатни врътки, free spins, видове безплатни завъртания, условия на безплатните завъртания",
+      "volume": "300",
+      "kd": "13",
+      "source": "backlog",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-10-05-bezplatni-zavartaniya-free-spins",
+      "pr": "",
+      "gemini": "",
+      "notes": "daily run 2026-10-05; backlog priority-2 (competitor-gap 2026-10-04), free-spins-as-bonus pillar; vol 300/kd13 (ahrefs, from backlog row); DISTINCT от no-deposit pillar vk-0004 + FS-механика статии (scatter/bonus-trigger vk-0056, ретригер vk-0246, FS-режим vk-0248 — те са in-slot механика, тази е bonus-offer ъгъл: видове FS, условия, капани); no operator/НАП, без афилиейт",
+      "opportunity": {
+        "score": 50,
+        "band": "Good",
+        "winnable": true
+      }
     }
   ],
   "backlog": [
