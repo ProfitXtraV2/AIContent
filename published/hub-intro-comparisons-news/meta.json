@@ -11,14 +11,9 @@
     "сравнение на онлайн казина",
     "кое казино да избера"
   ],
-  "images": [
-    {
-      "path": "images/sravnenie-bonus-baza-wagering.svg",
-      "alt": "Сравнение на 35x превъртане: база депозит+бонус срещу база само бонус — реалният оборот е двойно по-висок при по-широката база"
-    }
-  ],
+  "images": [],
   "section_hint": "hub-intro",
   "opportunity": -1,
   "status": "approved",
-  "content_hash": "84398abf3bb6530a282a5173f5ac6ebd1da252743b4dfc4d5b75205459a7ab89"
+  "content_hash": "ad07d26c47bea24a8cbf013b92835b1c394bd122943463d05e14672bcd719223"
 }
