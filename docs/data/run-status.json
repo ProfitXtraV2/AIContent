@@ -1,18 +1,18 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-10-05T07:15:35Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-10-05T08:05:00Z",
+  "articles_written": 1,
+  "prs_opened": [279],
   "run_url": "https://claude.ai/code/session_01QQumfRXpH85cT6SH1wMf6F",
-  "note": "daily run 2026-10-05 — writing vk-0259 (free spins guide, backlog priority-2)",
+  "note": "daily run 2026-10-05 DONE. 0 in-progress reconciled (prior fire clean). Monthly SEO review current (2026-10, no-op). Wrote MAX_PER_RUN=1 NEW distinct guides-only pillar from the HUMAN BACKLOG (priority 2, competitor-gap 2026-10-04): „Безплатни завъртания (free spins): видове, условия и капани\" (vk-0259, PR #279) — free-spins-AS-BONUS educational pillar (видове FS; условия: winnings-only превъртане, стойност на завъртане, допустими игри, таван на теглене, срок, макс. залог; капани). gate 95/100 0-crit; Gemini Step-7 ONLINE (gemini-3.1-pro-preview, no 429): HL initial 30 -> humaniser pass1 25 -> pass2 15 (noisy/adversarial detector on didactic topic — EVERY pass lowered it; pass-3 even flagged the brand-REQUIRED illustrative-number hedge + reader-question headings), MAX_GEMINI_PASSES=2, KEEP-BEST=initial draft (HL 30, highest) -> gemini col ai 70; 0 em-dash; 0 surviving in-text flags (€0,10/€10/€20/35x/€700/€100 all примерни; maths rechecked in 06: 100x€0,10=€10, 35x€20=€700 winnings-only, таван €100). IMAGES: 2 (SVG infographic numbers-traced-to-05b + decorative hero gift-box, gemini-3-pro-image 10.2KB WebP); review 100/100 both, 0 integrity failures, 1 pass no fix. SELECTION: drained HUMAN BACKLOG first (per policy). Priority-1 competitor-gap rows SKIPPED with DEDUP notes (kept open, not dropped): #1 licence (cannibalizes live /blog/proverka-licenz-kazino/ + listing-intent deferred), #3 ново онлайн казино (covered vk-0005), #2/#4 no-deposit FS/5€-10€ (fold-in vk-0004), #5 Хот 40 (alias 40 Super Hot vk-0023), #6 стари ротативки (overlaps vk-0013), prio-3 Мега Джак demo (fold-in vk-0003). NV-Casino backlog rows (#5-14) stay open+blocked (operator/НАП-dependent, guides-only scope). ANTI-CANNIBALIZATION: vk-0259 distinct from no-deposit pillar vk-0004 (linked), FS in-slot механика vk-0056/0246/0248, wagering vk-0001 (linked), money page /bonusi/bezplatni-zavartania/ (linked); sitemap 05.10.2026 (96 URLs) has no free-spins-bonus educational pillar. AHREFS: key exhausted (reset 2026-10-15) -> used backlog row's existing vol/kd 300/13 (checked=ahrefs); no discovery spend; no candidate consumed (backlog source) so research bank unchanged; vol/kd never fabricated. One content PR (#279), awaiting human review. NB: Claude GitHub App not installed on repo -> no PR webhook events wake the session; human reviews PRs directly on github.com. Board on main; feed refreshed (31 approved unchanged). NEVER resolved a flag/posted/merged.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
-    "article_slug": "2026-10-05-bezplatni-zavartaniya-free-spins",
+    "article_slug": null,
     "stages": ["Synthesis", "Outline", "Author", "Humaniser", "SEO", "Brand Gate", "Light re-check", "Images", "Verification", "PR"],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "stage_index": null,
+    "stage": null
   }
 }

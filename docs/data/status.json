@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-05T07:21:19Z",
+  "generated_utc": "2026-10-05T07:45:33Z",
   "buffer": {
-    "count": 228,
+    "count": 229,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 1,
-    "drafted": 197,
+    "in-progress": 0,
+    "drafted": 198,
     "approved": 31,
     "posted": 29,
     "failed": 1
@@ -4626,19 +4626,19 @@
     },
     {
       "id": "vk-0259",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Безплатни завъртания (free spins): видове, условия и капани",
       "keywords_or_terms": "безплатни завъртания, безплатни врътки, free spins, видове безплатни завъртания, условия на безплатните завъртания",
       "volume": "300",
       "kd": "13",
       "source": "backlog",
-      "drafted_date": "",
+      "drafted_date": "2026-10-05",
       "posted_date": "",
       "folder": "2026-10-05-bezplatni-zavartaniya-free-spins",
-      "pr": "",
-      "gemini": "",
-      "notes": "daily run 2026-10-05; backlog priority-2 (competitor-gap 2026-10-04), free-spins-as-bonus pillar; vol 300/kd13 (ahrefs, from backlog row); DISTINCT от no-deposit pillar vk-0004 + FS-механика статии (scatter/bonus-trigger vk-0056, ретригер vk-0246, FS-режим vk-0248 — те са in-slot механика, тази е bonus-offer ъгъл: видове FS, условия, капани); no operator/НАП, без афилиейт",
+      "pr": "#279",
+      "gemini": "ai 70",
+      "notes": "daily run 2026-10-05; backlog priority-2 (competitor-gap 2026-10-04), free-spins-as-bonus pillar; vol 300/kd13 (ahrefs, from backlog row); честно ядро: завъртанията безплатни, печалбата почти никога (бонус пари, winnings-only превъртане, таван на теглене); gate 95/100 0-crit; Gemini Step-7 ONLINE: HL initial 30 → pass1 25 → pass2 15 (noisy/adversarial detector — всеки пас сваляше; pass-3 маркира дори brand-required „числата са примерни\" hedge + reader-question headings), MAX_PASSES=2, KEEP-BEST=initial (HL 30); 0 em-dash; 0 in-text flags (€0,10/€10/€20/35×/€700/€100 примерни; recalc в 06); img:2 (SVG usloviya numbers-verbatim 100 + decorative hero gift-box 100, 0 integrity); вътрешни: kak-raboti-razigravaneto/bonus-bez-depozit-2026/bonusi-bezplatni-zavartania/otgovorna-igra (4, live в sitemap); DISTINCT от no-deposit pillar vk-0004 (линкнат) + FS-механика vk-0056/0246/0248 (in-slot) + wagering vk-0001 (линкнат) + money page /bonusi/bezplatni-zavartania/ (линкната); ~750 думи; no operator/НАП, без афилиейт; checked=ahrefs (vol/kd from backlog); src=backlog priority-2; PR #279; awaiting human review",
       "opportunity": {
         "score": 50,
         "band": "Good",
@@ -4728,7 +4728,7 @@
       "checked": "ahrefs",
       "ahrefs_note": "WIN (kd0, 2600/мес) — най-силната непокрита възможност от competitor-gap pull 2026-10-04. Образователен guide: как да проверите лиценз в регистъра на НАП, какво защитава лицензът, рискове от нелицензирани. НЕ изисква operator T&C → в обхвата guides-only. Котва към /zakonno-li-e/ + /sravni-kazina/. E-E-A-T gold.",
       "status": "open",
-      "notes": "cluster: licensing; competitor-gap 2026-10-04",
+      "notes": "cluster: licensing; competitor-gap 2026-10-04 · DEDUP 2026-10-05: образователният „как да провериш лиценз\" интент вече е покрит от live /blog/proverka-licenz-kazino/; primary kw „лицензирани онлайн казина в България\" е listing-intent (НАП-list-dependent → deferred под guides-only scope). Keep open — нужен е ДИСТИНКТЕН непокрит ъгъл (напр. „какво защитава лицензът от НАП\" explainer) или отключване на listing scope.",
       "opportunity": {
         "score": 100,
         "band": "Strong",
@@ -4746,7 +4746,7 @@
       "checked": "ahrefs",
       "ahrefs_note": "WIN (kd5, 2400/мес). Bonus-education: механика, разиграване, как да познаеш реална оферта — БЕЗ конкретни operator T&C → в обхвата. Котва към /bonus-category/welcome-bonus/ + wagering статия (vk-0001). Fold-in: по-малките „X безплатни завъртания\" long-tails.",
       "status": "open",
-      "notes": "cluster: no-deposit-bonus; competitor-gap 2026-10-04",
+      "notes": "cluster: no-deposit-bonus; competitor-gap 2026-10-04 · DEDUP 2026-10-05: силно припокрива no-deposit pillar vk-0004 (/blog/bonus-bez-depozit-2026/) + новия free-spins pillar vk-0259 (двата покриват „безплатни завъртания без депозит\" като вид + условия). Keep open само ако изникне ДИСТИНКТЕН „100 FS без депозит\" ъгъл; иначе fold-in секция/линк в vk-0004/vk-0259.",
       "opportunity": {
         "score": 98,
         "band": "Strong",
@@ -4764,7 +4764,7 @@
       "checked": "ahrefs",
       "ahrefs_note": "WIN (kd0, 700/мес; „нови казино сайтове\" 2100/kd47 = HARD fold-in). Образователен „как да оцените ново казино\" (лиценз, червени флагове) — НЕ листинг на оператори, в обхвата. Котва към /kak-ocenyavame/ + /zakonno-li-e/.",
       "status": "open",
-      "notes": "cluster: licensing; competitor-gap 2026-10-04",
+      "notes": "cluster: licensing; competitor-gap 2026-10-04 · DEDUP 2026-10-05: „как да оцениш ново казино\" интентът е покрит от vk-0005 (live /blog/novo-onlajn-kazino/). Keep open само за ДИСТИНКТЕН „2026\" ъгъл, който да не е преиздание на vk-0005; иначе fold-in.",
       "opportunity": {
         "score": 75,
         "band": "Strong",
@@ -4782,7 +4782,7 @@
       "checked": "ahrefs",
       "ahrefs_note": "WIN (kd0, 600/мес + fold-in 1900/kd56). Силен конверсионен интент; bonus-education в обхвата (без operator T&C). Fold-in на pillar „бонус без депозит\" (5400, kd61 — defer). Котва към /bonus-category/welcome-bonus/.",
       "status": "open",
-      "notes": "cluster: no-deposit-bonus; competitor-gap 2026-10-04",
+      "notes": "cluster: no-deposit-bonus; competitor-gap 2026-10-04 · DEDUP 2026-10-05: fold-in на no-deposit pillar vk-0004 (/blog/bonus-bez-depozit-2026/) — конкретните „5€/10лв\" суми са раздел/пример там, не отделна страница. Keep open за human call; препоръка: fold-in.",
       "opportunity": {
         "score": 70,
         "band": "Strong",
@@ -4800,7 +4800,7 @@
       "checked": "ahrefs",
       "ahrefs_note": "WIN (kd0). EGT/Amusnet класически слот — непокрит, public game-DB (без operator T&C) → в обхвата; попълва празнината „класически БГ слотове\", различен от covered Pragmatic/NetEnt. Котва към /kazino-igri/ + Amusnet профил.",
       "status": "open",
-      "notes": "cluster: classic-slots; competitor-gap 2026-10-04",
+      "notes": "cluster: classic-slots; competitor-gap 2026-10-04 · DEDUP 2026-10-05: „хот 40 / hot 40 / egt hot 40\" е разговорен вариант за „40 Super Hot\" (EGT), вече покрит от vk-0023 (live /blog/40-super-hot/). Keep open само ако е ОТДЕЛНА игра; иначе fold-in alias в vk-0023.",
       "opportunity": {
         "score": 45,
         "band": "Good",
@@ -4818,7 +4818,7 @@
       "checked": "ahrefs",
       "ahrefs_note": "WIN (kd0; „игри машинки\" 250 + „стари ротативки\" 100). Nostalgia/класически слотове — непокрит клъстер, в обхвата; класически vs модерни, EGT/Amusnet наследство. Котва към /kazino-igri/.",
       "status": "open",
-      "notes": "cluster: classic-slots; competitor-gap 2026-10-04",
+      "notes": "cluster: classic-slots; competitor-gap 2026-10-04 · DEDUP 2026-10-05: силно припокрива vk-0013 „Ротативки с плодове (класически слотове)\" (live /blog/rotativki-s-plodove/) + многото EGT класик game-explainers. Keep open само за ДИСТИНКТЕН „стари/носталгия\" overview ъгъл; иначе fold-in в vk-0013.",
       "opportunity": {
         "score": 52,
         "band": "Good",
@@ -4835,8 +4835,8 @@
       "intent": "transactional",
       "checked": "ahrefs",
       "ahrefs_note": "WIN (kd13). Head-term на free-spins клъстера; образователен; анкър за бъдещите „X безплатни завъртания\" long-tails. Котва към /bonus-category/welcome-bonus/.",
-      "status": "open",
-      "notes": "cluster: no-deposit-bonus; competitor-gap 2026-10-04",
+      "status": "written",
+      "notes": "drafted 2026-10-05 → vk-0259, PR #279 (free-spins-as-bonus pillar; gate 95, Gemini ai 70 keep-best initial, img:2 score 100); cluster: no-deposit-bonus; competitor-gap 2026-10-04",
       "opportunity": {
         "score": 50,
         "band": "Good",
@@ -4854,7 +4854,7 @@
       "checked": "ahrefs",
       "ahrefs_note": "STRETCH (kd30-31). Demo-mode education + класически Mega Jack/NetEnt; fold-in на pillar „безплатни казино игри\" (4900, kd52 — defer). Game-DB/demo, без operator T&C → в обхвата.",
       "status": "open",
-      "notes": "cluster: free-games; competitor-gap 2026-10-04",
+      "notes": "cluster: free-games; competitor-gap 2026-10-04 · DEDUP 2026-10-05: fold-in на „безплатни казино игри\" pillar vk-0003 (live /blog/bezplatni-kazino-igri/) — Mega Jack/NetEnt демо е раздел там. Keep open само за ДИСТИНКТЕН непокрит ъгъл; иначе fold-in.",
       "opportunity": {
         "score": 38,
         "band": "Moderate",
@@ -8902,7 +8902,7 @@
     ],
     "bands": {
       "Strong": 4,
-      "Good": 3,
+      "Good": 2,
       "Moderate": 2
     },
     "clusters": {
@@ -8912,9 +8912,9 @@
         "total": 2
       },
       "no-deposit-bonus": {
-        "winnable": 3,
+        "winnable": 2,
         "pillar": 0,
-        "total": 3
+        "total": 2
       },
       "classic-slots": {
         "winnable": 2,
@@ -8999,19 +8999,6 @@
         "src": "backlog"
       },
       {
-        "query": "Безплатни завъртания (free spins): видове, условия и капани",
-        "keywords": "безплатни врътки, безплатни завъртания, free spins",
-        "volume": "300",
-        "kd": "13",
-        "intent": "transactional",
-        "band": "Good",
-        "score": 50,
-        "winnable": true,
-        "cluster": "no-deposit-bonus",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
         "query": "Хот 40 (EGT): как се играе, RTP и символи",
         "keywords": "хот 40, hot 40, egt hot 40",
         "volume": "100",
@@ -9041,7 +9028,7 @@
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 8,
+      "winnable": 7,
       "pillars": 0
     }
   }
