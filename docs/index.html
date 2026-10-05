@@ -353,7 +353,7 @@ async function load() {
   const meta = s.meta || {};
   const links = meta.links || {};
   document.getElementById('site').textContent = meta.brand ? meta.brand + ' · vsichkikazina.bg' : '';
-  document.getElementById('links').innerHTML = Object.entries(links)
+  document.getElementById('links').innerHTML = '<a href="./seo-audit.html">SEO Audit →</a>' + Object.entries(links)
     .map(([k, v]) => `<a href="${v}" target="_blank" rel="noopener">${LABELS[k] || k} ↗</a>`).join('');
 
   // Buffer
