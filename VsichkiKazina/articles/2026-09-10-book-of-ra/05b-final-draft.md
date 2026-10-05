@@ -1,5 +1,5 @@
 Title tag: Book of Ra: RTP, характеристики и как се играе
-Meta description: Book of Ra на Novomatic/Greentube: разширяващият се символ, 10 безплатни игри и RTP под средното — 92.13% при оригинала и 95.10% при Deluxe. Честен поглед върху класиката.
+Meta description: Book of Ra на Novomatic/Greentube: разширяващият се символ, 10 безплатни игри и RTP под средното: 92.13% при оригинала и 95.10% при Deluxe. Честен поглед върху класиката.
 
 ---
 
