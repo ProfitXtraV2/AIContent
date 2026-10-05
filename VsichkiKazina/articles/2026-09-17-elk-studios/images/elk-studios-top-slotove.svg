@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 432" width="760" height="432" role="img" aria-label="Сравнение на топ слотове на ELK Studios по RTP, максимална печалба и година: Pirots 2 RTP 94.0% макс 10 000× 2023, Nitropolis 4 RTP 94.0% макс 50 000× 2023, Wild Toro 2 RTP 95.0% макс 10 000× 2021, Katmandu Gold RTP 96.2% макс 10 000× 2020, Cygnus 4 RTP 94.0% макс 50 000× 2024, Lake's Five RTP 96.3% макс 2160× 2018">
+  <title>Топ слотове на ELK Studios: RTP, макс. печалба и година</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="760" height="432" rx="12" fill="url(#bg)"/>
+
+  <text x="380" y="36" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="#0f172a" text-anchor="middle">Топ слотове на ELK Studios</text>
+  <text x="380" y="56" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">числата са от доставчика/международни бази; операторът може да пусне по-ниска RTP версия</text>
+
+  <!-- header row -->
+  <rect x="30" y="72" width="700" height="36" rx="8" fill="#1e293b"/>
+  <text x="48" y="95" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#f8fafc" text-anchor="start">Слот</text>
+  <text x="360" y="95" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#f8fafc" text-anchor="middle">RTP</text>
+  <text x="520" y="95" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#f8fafc" text-anchor="middle">Макс. печалба</text>
+  <text x="682" y="95" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#f8fafc" text-anchor="middle">Година</text>
+
+  <!-- rows -->
+  <!-- row1 -->
+  <rect x="30" y="112" width="700" height="44" rx="6" fill="#ffffff"/>
+  <text x="48" y="140" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#0f172a" text-anchor="start">Pirots 2</text>
+  <text x="360" y="140" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#15803d" font-weight="700" text-anchor="middle">94.0%</text>
+  <text x="520" y="140" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#374151" text-anchor="middle">10 000×</text>
+  <text x="682" y="140" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#374151" text-anchor="middle">2023</text>
+
+  <!-- row2 -->
+  <rect x="30" y="160" width="700" height="44" rx="6" fill="#f1f5f9"/>
+  <text x="48" y="188" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#0f172a" text-anchor="start">Nitropolis 4</text>
+  <text x="360" y="188" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#15803d" font-weight="700" text-anchor="middle">94.0%</text>
+  <text x="520" y="188" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#374151" text-anchor="middle">50 000×</text>
+  <text x="682" y="188" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#374151" text-anchor="middle">2023</text>
+
+  <!-- row3 -->
+  <rect x="30" y="208" width="700" height="44" rx="6" fill="#ffffff"/>
+  <text x="48" y="236" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#0f172a" text-anchor="start">Wild Toro 2</text>
+  <text x="360" y="236" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#15803d" font-weight="700" text-anchor="middle">95.0%</text>
+  <text x="520" y="236" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#374151" text-anchor="middle">10 000×</text>
+  <text x="682" y="236" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#374151" text-anchor="middle">2021</text>
+
+  <!-- row4 -->
+  <rect x="30" y="256" width="700" height="44" rx="6" fill="#f1f5f9"/>
+  <text x="48" y="284" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#0f172a" text-anchor="start">Katmandu Gold</text>
+  <text x="360" y="284" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#15803d" font-weight="700" text-anchor="middle">96.2%</text>
+  <text x="520" y="284" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#374151" text-anchor="middle">10 000×</text>
+  <text x="682" y="284" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#374151" text-anchor="middle">2020</text>
+
+  <!-- row5 -->
+  <rect x="30" y="304" width="700" height="44" rx="6" fill="#ffffff"/>
+  <text x="48" y="332" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#0f172a" text-anchor="start">Cygnus 4</text>
+  <text x="360" y="332" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#15803d" font-weight="700" text-anchor="middle">94.0%</text>
+  <text x="520" y="332" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#374151" text-anchor="middle">50 000×</text>
+  <text x="682" y="332" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#374151" text-anchor="middle">2024</text>
+
+  <!-- row6 -->
+  <rect x="30" y="352" width="700" height="44" rx="6" fill="#f1f5f9"/>
+  <text x="48" y="380" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#0f172a" text-anchor="start">Lake's Five</text>
+  <text x="360" y="380" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#15803d" font-weight="700" text-anchor="middle">96.3%</text>
+  <text x="520" y="380" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#374151" text-anchor="middle">2160×</text>
+  <text x="682" y="380" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#374151" text-anchor="middle">2018</text>
+
+  <text x="380" y="416" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">RTP е дългосрочна статистика, не прогноза · таванът е рядкост, не очакване · 18+ Играйте отговорно</text>
+</svg>
