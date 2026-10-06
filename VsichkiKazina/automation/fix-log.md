@@ -1593,3 +1593,109 @@ hero/infographic images; no new article published, nothing posted/live touched).
 None in the publishable (non-posted) set — 0 blocking flags anywhere outside the 2 posted branches.
 Gemini scores are quality metrics, not publish-blocking flags; the 7 best-kept articles (ai 65–80)
 read materially cleaner and are logged above for human review.
+
+---
+
+## 2026-10-06 — nightly flag + score fixes
+
+### JOB A — publish-blocking flags
+Scanned all **260** `refs/remotes/origin/content/*` branches' own
+`VsichkiKazina/articles/<folder>/05b-final-draft.md` for blocking markers
+(`[VERIFY]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`, `[AUTHOR]`, `[BRAND]`,
+`[EDITORIAL]`, `[уточни]`, `[провери]`), with a widened re-scan for bracketed
+placeholder/boilerplate blocks. 258 branches have the final draft; 2
+(`2026-09-07-bonusi-za-dobre-doshli-2026`, `2026-09-07-najdobri-bonusi-za-dobre-doshli-2026`)
+have no `05b-final-draft.md` (incomplete/failed — nothing publishable to block).
+
+**Only 2 branches carry a genuine blocking marker, and both are POSTED** → left
+untouched per the hard rule (see POSTED section below). The
+`[About Всички Казина boilerplate]` token appears on **239** branches (incl.
+posted/live output in `published/`); it is the publisher-expanded template slot,
+**not** a blocking marker — left untouched (idempotent), consistent with every prior
+night. **0 blocking flags anywhere in the publishable (non-posted) set — no JOB A
+edits were needed tonight.**
+
+### JOB B — low Gemini score (worst-first, ≤10/night)
+11 drafted/approved rows scored `ai <n>` (worst-first); **10 processed**, 1 deferred.
+Humanising only — facts, numbers, RTP/fee/tax figures, dates, links, byline (Георги
+Тодоров), brand (Всички Казина), RG line and affiliate disclosure preserved in every
+case; the `[About … boilerplate]` slot kept intact.
+
+**Crossed to human ≥ 80 (PASS):**
+- **vk-0221** `2026-09-30-light-and-wonder` (#240) — ai 80 → **human 85** (1 attempt).
+  Cut mechanical „Затова/Това обяснява защо" transitions, de-didacticised the B2B
+  contrast, removed the summary-loop opener, shortened the data-dump alt text.
+- **vk-0231** `2026-10-01-sigurnost-plashtaniya-kazino` (#250) — ai 80 → **human 85**
+  (2 attempts). Stripped bolted-on first person, de-academicised the SCA explanation
+  (kept the two-independent-factors fact), broke the technical-vs-legal symmetry, cut the
+  neat-bow conclusion and meta-signposting, softened the didactic equivalency.
+- **vk-0217** `2026-09-30-mustang-gold` (#237) — ai 75 → **human 85** (majority reads,
+  2 attempts). Unified the mixed вие/ти register to informal, cut signposts
+  („Именно тук"/„Тук идва уловката"/„На практика това значи") and a dramatic flourish,
+  reframed the RTP math around house edge (figures intact), softened bankroll imperatives,
+  renamed the generic wrap-up heading.
+- **vk-0220** `2026-09-30-spribe` (#239) — ai 75 → **human 85** (majority reads, 2
+  attempts). Removed the syllabus intro, flattened four „setup:" colon-drops, cut filler
+  („Ето най-практичната част"/„Изводът е прост") and dramatic preambles, broke the
+  „не X, а Y" pattern on non-compliance lines, dropped clichés (палитра / на хартия) and
+  the bow-tie recap.
+- **vk-0224** `2026-09-30-depozit-s-bankova-karta` (#243) — ai 85 → **human 85** (majority
+  reads, 3 attempts). Reframed bolted-on first-person habits into expert voice, broke the
+  antithesis constructions, cut the „surprises"/„no control" bridges and a forward-reference,
+  replaced the summary section with a specific tactical tip.
+- **vk-0259** `2026-10-05-bezplatni-zavartaniya-free-spins` (#279) — ai 70 → **human 80**
+  (high-variance, reaches human 85; 1 attempt). De-mechanised the five-type enumeration,
+  removed the duplicated €20/35×/€700 math from the concept section (kept only in the
+  dedicated example section), broke the two identical link templates, dropped the poetic
+  heading suffix and a translated idiom, softened the preachy „не в едрия" close.
+
+**Best-kept, still ai after 2 passes (high-variance detector; flagged for human):**
+- **vk-0226** `2026-10-01-e-portfeili-skrill-neteller` (#245) — ai 85 → **ai 75**
+  (noisy 75–85, reached human 80; 2 passes). Reframed first person + removed redundant НАП,
+  dropped the proverb + didactic „do X not Y" contrasts, broke the if/then summary, wove the
+  passive link signposts, varied the fee recitation.
+- **vk-0229** `2026-10-01-bankov-prevod-kazino` (#248) — ai 75 → **ai 75**
+  (noisy 75–90, peaked human 90; 2 passes). Removed the proverb + „however"-balancing,
+  trimmed a circular SEPA-Instant clause and a recap, fixed literal calques
+  („релсът" → „платежната система", „буташ парите" → „сам нареждаш плащането"), cut the
+  closing summary.
+- **vk-0219** `2026-09-30-synot-games` (#236) — ai 65 → **ai 75**
+  (noisy 75–85, reached human 85; 2 passes). Cut six signpost/meta announcements
+  („Този профил събира"/„Тук има един детайл"/„Струва си да сме наясно"/„Важен контекст"/
+  „Тук е най-полезното"/„Изводът е практичен"), deleted a didactic over-explain, de-numbered
+  a „Втора механика" transition, fixed the „ефектът…ефектно" tautology, replaced the summary
+  heading with a specific one.
+- **vk-0227** `2026-10-01-apple-pay-google-pay` (#246) — ai 65 → **ai 70**
+  (ai 60–75; 2 passes). Chopped the neat-bow paragraph endings, softened the didactic
+  imperatives, varied the three identical internal-link templates, removed the rule-of-three
+  signpost, de-preached the licence line.
+
+The Gemini detector stays high-variance on these didactic payment/provider explainers
+(identical text reads ai 65 → human 90 across reads); prose-level LLM tells were resolved in
+every case and all facts preserved. The 4 best-kept articles read materially cleaner and are
+logged here for human review.
+
+### Finish
+Board `gemini` column updated for all **10** processed rows + nightly notes appended.
+Rebuilt `scripts/build_dashboard.py` (`docs/data/status.json` — buffer 227/10) and
+`scripts/build_feed.py` (`published/index.json` + 5 approved `hub-intro-*` articles re-emitted
+with their already-committed hero/infographic images; no new article published, nothing
+posted/live touched).
+
+### POSTED — needs human review (recurring, still open; HARD RULE: never edit live)
+- **vk-0063** `2026-09-13-nv-casino-zakonno-li-e` (#79, posted, `ai 75`) —
+  `[AUTHOR BIO BLOCK: Георги Тодоров] [About Всички Казина boilerplate]` footer-assembly stub
+  on the branch draft (line 56). Left untouched (live). A human should reconcile the branch
+  footer stub with the posted/live page (approved for deploy with 0 in-text content flags).
+- **vk-0064** `2026-09-13-nv-casino-bonus-usloviya` (#80, posted, `human 85`) —
+  `[AUTHOR BIO BLOCK: Георги Тодоров] [BRAND BOILERPLATE: Всички Казина] [18+ / RG LINE]`
+  footer-assembly stub on the branch draft (line 65). Left untouched (live). Same note as above.
+
+### Deferred
+- **vk-0230** `2026-10-01-trustly-open-banking-kazino` (#249, `ai 65`) — 11th worst-first
+  candidate, left for a future night (≤10/night cap reached).
+
+### Still-flagged after processing
+None in the publishable (non-posted) set — 0 blocking flags anywhere outside the 2 posted
+branches. Gemini scores are quality metrics, not publish-blocking flags; the 4 best-kept
+articles (ai 70–75) read materially cleaner and are logged above for human review.
