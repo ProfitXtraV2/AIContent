@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 372" role="img" aria-label="Инфографика: от 100 безплатни завъртания по €0,10 се получават €10 завъртян оборот; примерна печалба €20; превъртане 35 пъти върху печалбата прави €700 залози; таван на теглене €100 ограничава максимума. Числата са примерни.">
+  <style>
+    .card{fill:#f7f8fa;stroke:#d9dee5;stroke-width:1.5}
+    .capcard{fill:#fbecea;stroke:#d8a7a0;stroke-width:1.5}
+    .title{font-family:'Segoe UI',Arial,sans-serif;font-size:21px;font-weight:700;fill:#1f2733}
+    .sub{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;fill:#6b7684}
+    .lbl{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;fill:#6b7684}
+    .big{font-family:'Segoe UI',Arial,sans-serif;font-size:26px;font-weight:700;fill:#1f2733}
+    .bigblue{font-family:'Segoe UI',Arial,sans-serif;font-size:26px;font-weight:700;fill:#2f6db0}
+    .bigcap{font-family:'Segoe UI',Arial,sans-serif;font-size:26px;font-weight:700;fill:#b23b2e}
+    .small{font-family:'Segoe UI',Arial,sans-serif;font-size:12px;fill:#8a94a0}
+    .arrow{fill:#9aa4b0}
+    .note{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;font-weight:700;fill:#1f2733}
+    .tag{font-family:'Segoe UI',Arial,sans-serif;font-size:12px;fill:#6b7684}
+  </style>
+  <rect x="8" y="8" width="744" height="356" rx="16" fill="#ffffff" stroke="#d9dee5" stroke-width="1.5"/>
+  <text class="title" x="380" y="44" text-anchor="middle">Пътят на оферта със 100 безплатни завъртания</text>
+  <text class="sub" x="380" y="68" text-anchor="middle">броят е малката част; условията решават колко стига до сметката</text>
+
+  <!-- Card 1: 28-178, center 103 -->
+  <rect class="card" x="28" y="98" width="150" height="150" rx="12"/>
+  <text class="lbl" x="103" y="128" text-anchor="middle">100 завъртания</text>
+  <text class="lbl" x="103" y="148" text-anchor="middle">по €0,10</text>
+  <text class="big" x="103" y="192" text-anchor="middle">€10</text>
+  <text class="small" x="103" y="218" text-anchor="middle">завъртян оборот</text>
+
+  <!-- arrow 1: 178 -> 212 -->
+  <path class="arrow" d="M178 173 l20 0 l0 -7 l14 11 l-14 11 l0 -7 l-20 0 z"/>
+
+  <!-- Card 2: 212-362, center 287 -->
+  <rect class="card" x="212" y="98" width="150" height="150" rx="12"/>
+  <text class="lbl" x="287" y="128" text-anchor="middle">примерна печалба</text>
+  <text class="bigblue" x="287" y="174" text-anchor="middle">€20</text>
+  <text class="small" x="287" y="200" text-anchor="middle">влиза като бонус пари</text>
+  <text class="small" x="287" y="218" text-anchor="middle">(не теглима още)</text>
+
+  <!-- arrow 2: 362 -> 396 -->
+  <path class="arrow" d="M362 173 l20 0 l0 -7 l14 11 l-14 11 l0 -7 l-20 0 z"/>
+
+  <!-- Card 3: 396-546, center 471 -->
+  <rect class="card" x="396" y="98" width="150" height="150" rx="12"/>
+  <text class="lbl" x="471" y="128" text-anchor="middle">превъртане 35 пъти</text>
+  <text class="lbl" x="471" y="148" text-anchor="middle">върху печалбата</text>
+  <text class="big" x="471" y="192" text-anchor="middle">€700</text>
+  <text class="small" x="471" y="218" text-anchor="middle">залози в срока</text>
+
+  <!-- arrow 3: 546 -> 580 -->
+  <path class="arrow" d="M546 173 l20 0 l0 -7 l14 11 l-14 11 l0 -7 l-20 0 z"/>
+
+  <!-- Card 4 (cap): 580-730, center 655 -->
+  <rect class="capcard" x="580" y="98" width="150" height="150" rx="12"/>
+  <text class="lbl" x="655" y="128" text-anchor="middle">таван на теглене</text>
+  <text class="bigcap" x="655" y="174" text-anchor="middle">€100</text>
+  <text class="small" x="655" y="200" text-anchor="middle">над него нищо</text>
+  <text class="small" x="655" y="218" text-anchor="middle">не излиза</text>
+
+  <text class="note" x="380" y="302" text-anchor="middle">35 × €20 = €700 залози, преди €20 да станат теглими; над €100 печалбата се отрязва.</text>
+  <text class="tag" x="380" y="340" text-anchor="middle">Числата са примерни · 18+ Играйте отговорно</text>
+</svg>
