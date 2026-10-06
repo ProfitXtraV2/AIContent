@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-06T00:30:33Z",
+  "generated_utc": "2026-10-06T06:49:40Z",
   "buffer": {
-    "count": 227,
+    "count": 225,
     "target": 10,
     "deficit": 0,
     "ok": true
@@ -9,8 +9,8 @@
   "counts": {
     "in-progress": 0,
     "drafted": 198,
-    "approved": 29,
-    "posted": 31,
+    "approved": 27,
+    "posted": 33,
     "failed": 1
   },
   "rows": [
@@ -1986,7 +1986,7 @@
     },
     {
       "id": "vk-0107",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Playtech: профил на доставчика, механики и топ слотове",
       "keywords_or_terms": "playtech, плейтек, playtech слотове, playtech казино игри",
@@ -1994,7 +1994,7 @@
       "kd": "72",
       "source": "research",
       "drafted_date": "2026-09-18",
-      "posted_date": "",
+      "posted_date": "2026-10-06",
       "folder": "2026-09-18-playtech",
       "pr": "#124",
       "gemini": "skipped",
@@ -2476,7 +2476,7 @@
     },
     {
       "id": "vk-0133",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Plinko: как работи играта, RTP и рискови нива",
       "keywords_or_terms": "plinko, плинко, plinko rtp, plinko нива на риск",
@@ -2484,7 +2484,7 @@
       "kd": "78",
       "source": "research",
       "drafted_date": "2026-09-20",
-      "posted_date": "",
+      "posted_date": "2026-10-06",
       "folder": "2026-09-20-plinko",
       "pr": "#150",
       "gemini": "human 85",
