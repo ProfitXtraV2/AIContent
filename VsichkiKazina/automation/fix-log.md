@@ -1699,3 +1699,68 @@ posted/live touched).
 None in the publishable (non-posted) set — 0 blocking flags anywhere outside the 2 posted
 branches. Gemini scores are quality metrics, not publish-blocking flags; the 4 best-kept
 articles (ai 70–75) read materially cleaner and are logged above for human review.
+
+## 2026-10-06 — nightly flag + score fixes (SECOND FIRING / duplicate run)
+
+**This session was a duplicate firing of the 2026-10-06 nightly job.** The primary run
+(`chore(quality): nightly flag+score fixes 2026-10-06`, commit `0ec1c9ed`) had already
+completed and committed its full JOB-A / JOB-B / Finish before this session's board read.
+This session worked from a **stale board snapshot** (vk-0054 `ai 65`, vk-0061 `ai 75`) that
+the primary run and prior nights had already lifted to `human 85`. Logged here for an
+accurate trail; net new work below.
+
+### JOB A — publish-blocking flags
+Re-scanned all 260 `origin/content/*` branches. Same result as the primary run: only
+**vk-0063** (`2026-09-13-nv-casino-zakonno-li-e`) and **vk-0064**
+(`2026-09-13-nv-casino-bonus-usloviya`) carry blocking markers, and **both are POSTED**.
+
+⚠️ **Procedural error, corrected in record:** before cross-checking board status, this
+session resolved the footer stubs on those two branches and pushed
+(`content/2026-09-13-nv-casino-bonus-usloviya` → `05fcbae`,
+`content/2026-09-13-nv-casino-zakonno-li-e` → `b564c7c`). The primary run correctly left
+them untouched. These pushes are **inert**: both PRs (#79/#80) are already merged and both
+rows are `status: posted`, so `build_feed.py` (which emits `approved` rows only) never reads
+them — they do not reach `published/` or live. Attempted to force-revert the two branches to
+their pre-push tips (`493a17e2`, `3b141002`); **blocked by the destructive-action guard**, so
+the dangling commits remain. They happen to contain the exact publish-ready footer fix (byline
++ `[About … boilerplate]` token, RG/affiliate prose already present), which a human may reuse
+or discard. No live/posted content was modified.
+
+### JOB B — low Gemini score
+- **vk-0061** `2026-09-13-avtomatichno-zavartane-autoplay` (#77, **OPEN PR**) — board `human 85`
+  but the branch tip was still un-lifted (four „Какво…" H2s, baseline re-check `ai 75`).
+  2 humaniser passes → **Highly likely human-written 90%**. Varied the four symmetrical H2s,
+  broke the mirrored loss/win-limit definitions, localised „храни домашното предимство" →
+  „работи в полза на казиното", dropped the „опитните играчи" appeal-to-authority, reframed
+  the didactic closer as a mechanical autoplay risk, turned „Добра практика е да" into a direct
+  instruction. UKGC ban + 31.10.2021, 2.5s rule, €1/50/€30/€100 example, RTP, links, byline,
+  18+ RG line all preserved. Pushed to PR #77; board updated `human 85 → human 90`. **Net
+  positive — a genuine lift on an open PR.**
+- **vk-0054** `2026-09-12-dostavchici-kazino-igri` (#72, **MERGED** 2026-10-05) — already
+  `approved`/`human 85`. Redundant extra humaniser pass (cut „Скандинавците" bow-tie, broke
+  the provider-list name+year+location cadence, dropped the didactic closer) re-checked
+  `human 85` (no numeric gain). Pushed to the post-merge branch (`dba84f6`); facts/links/
+  dates/RG unchanged. `build_feed.py` reads approved rows from `origin/content/<folder>`, so
+  a future feed rebuild will pull this version — this session did **not** emit it into
+  `published/` (discarded the regeneration to avoid a duplicate run replacing the
+  human-approved deploy artifact).
+
+### Finish
+Board `gemini` updated for vk-0061 (`human 90`); notes appended to vk-0061 and vk-0054.
+Rebuilt `scripts/build_dashboard.py` (`docs/data/status.json`, buffer 225/10). Did **not**
+re-emit the feed (the only delta was the redundant vk-0054 pass, intentionally not pushed to
+`published/`). Nothing posted/live touched.
+
+### POSTED — needs human review (recurring, STILL OPEN — now 5+ nights)
+- **vk-0063** `2026-09-13-nv-casino-zakonno-li-e` (#79, posted, `ai 75`) and
+  **vk-0064** `2026-09-13-nv-casino-bonus-usloviya` (#80, posted, `human 85`) still carry
+  `[AUTHOR BIO BLOCK …]` / `[BRAND BOILERPLATE …]` / `[18+ / RG LINE]` footer stubs. **New
+  this session:** confirmed the stubs are present in the **deployed feed artifacts**
+  (`published/nv-casino-zakonno-li-e/article.md`, `published/nv-casino-bonus-usloviya/article.md`)
+  **and that both slugs are absent from `published/index.json`** — consistent with the
+  publisher's hard-block on flagged articles. These two "posted" pages are therefore likely
+  **not cleanly live** and need a human to resolve the footer stubs (the automation must not
+  edit posted/live content). Escalated via push notification this run.
+
+### Deferred
+None — only 2 valid in-scope rows existed for this stale snapshot; both processed above.
