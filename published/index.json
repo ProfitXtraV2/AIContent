@@ -125,35 +125,35 @@
       "slug": "hub-intro-casino-payments",
       "title": "Казино плащания: депозити и тегления в БГ казина",
       "date_modified": "2026-09-19",
-      "content_hash": "a65fd26321d0131c74639026f3f6cc8c5dce8be8b078075a25e4b416d1925f61",
+      "content_hash": "15bd1840413b2b2ec447082ca7076f03e151c31ff783d5e92b9fcf608f0728d5",
       "status": "approved"
     },
     {
       "slug": "hub-intro-bonuses-vip",
       "title": "Казино бонуси и VIP: какво да проверите",
       "date_modified": "2026-09-19",
-      "content_hash": "9aca2849280b239225072fb5f96b87367129ceb351677d25073b8a36ec89cc35",
+      "content_hash": "1736d3b440bc9b94e62134d40395aac3a427f015a849ea7831c4f114a78c463a",
       "status": "approved"
     },
     {
       "slug": "hub-intro-regulations-taxes",
       "title": "Регулации и данъци в онлайн хазарта в България",
       "date_modified": "2026-09-19",
-      "content_hash": "92ce1f91d0244e2d7df7e647022cf908e199375e0665ec72f35924036977f634",
+      "content_hash": "f207601b8f1d080dec3c9700d5fd21d715fef5b7d26b9ccc273346d4d0c296e5",
       "status": "approved"
     },
     {
       "slug": "hub-intro-comparisons-news",
       "title": "HUB INTRO: Сравнения и новини — интро за /blog/comparisons-news/",
       "date_modified": "2026-09-19",
-      "content_hash": "ad07d26c47bea24a8cbf013b92835b1c394bd122943463d05e14672bcd719223",
+      "content_hash": "84398abf3bb6530a282a5173f5ac6ebd1da252743b4dfc4d5b75205459a7ab89",
       "status": "approved"
     },
     {
       "slug": "hub-intro-responsible-gambling",
       "title": "Отговорна игра: лимити, самоизключване, помощ",
       "date_modified": "2026-09-19",
-      "content_hash": "616a5694058a49614a53c343beefb7de06f84d915dbc74b459b845b1dac20d4b",
+      "content_hash": "f1c7b24f7c372c70049958c0be6093d321d4545f269f9af1ad7e06eb1a15569c",
       "status": "approved"
     },
     {
@@ -192,5 +192,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-06T06:49:41Z"
+  "generated_utc": "2026-10-06T07:18:54Z"
 }
