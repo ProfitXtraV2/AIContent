@@ -1,10 +1,29 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-10-05T07:15:35Z",
-  "run_finished_utc": "2026-10-05T12:44:18Z",
-  "articles_written": 0,
+  "state": "running",
+  "run_started_utc": "2026-10-06T07:15:44Z",
+  "run_finished_utc": null,
+  "articles_written": null,
   "prs_opened": [],
-  "run_url": "https://claude.ai/code/session_01WMDfYt8k6oLsPkk9Mbe1x9",
-  "note": "daily run 2026-10-05 (2nd fire) DONE — 0 NEW articles written (data-backed, not a skip). RECONCILE: 0 in-progress rows (prior fire clean; vk-0063 match was in-notes only). Monthly SEO review current (2026-10, no-op). SELECTION outcome: after rigorous dedup + fresh Ahrefs, there are NO genuinely distinct, non-cannibalizing, in-scope topics left in the competitor-gap backlog, so per daily-run.md 'never pad with weak/duplicate topics' this run wrote 0 (quality over quota). WHY each remaining competitor-gap row is NOT writable (verdicts appended to each backlog row 2026-10-05 2nd fire): #1 licence (2600) = listing/НАП-list-intent -> deferred (guides-only); how-to-check intent already LIVE at /blog/proverka-licenz-kazino/; only free distinct angle 'нелицензирани казина'=80/kd2 (too weak+overlaps /zakonno-li-e/). #2 '100 FS без депозит' = fold-in; no-deposit cluster already has 2 pillars (vk-0004 + vk-0259 written prior fire) -> anti-cannibalization bars a 3rd. #3 'ново казино 2026' = fold-in vk-0005 (/blog/novo-onlajn-kazino/). #4 '5€/10лв бонус' = fold-in vk-0004. #5 'Хот 40' = alias of 40 Super Hot (live /blog/40-super-hot/ vk-0023). #6 'стари ротативки' = Ahrefs 0 vol (confirmed-zero); 'игри машинки' 250/kd0 but intent fully covered by vk-0013 (/blog/rotativki-s-plodove/). prio-3 Мега Джак demo = fold-in vk-0003. All kept OPEN (not dropped) with specific live-URL dedup + recommended fold-in/secondary-kw action for the human. NV-Casino rows (operator/НАП-dependent) stay open+blocked (guides-only scope). RESEARCH (step 6): AHREFS AVAILABLE (~66.5k units left; prior 'exhausted' note was stale). Re-pulled the 3 web-only research candidates (split-symbols / symbol-upgrade / reality-check) -> ALL confirmed 0 vol (zero-volume rule) -> flipped checked=ahrefs, annotated topical-only/not-write-priority. Targeted discovery (seeds: бонус код / теглене / депозит): winnable volume is all in the already-pillared no-deposit cluster ('казино бонус без депозит' 3300/kd2, 'ново онлайн казино бонус без депозит' 4200/kd2 -> optimization signal for vk-0004, NOT a new page) or operator-specific codes (8888/elitbet/alphawin = out of scope guides-only); NO new distinct in-scope winnable cluster surfaced, so no qualifying replacement candidate added (buffer thin; next monthly competitor-gap pull due Nov). Enriched all open competitor-gap backlog rows' notes with fresh verdicts; vol/kd never fabricated. BOARD + dashboard + feed refreshed (feed now 29 approved; regen also folded in images added to approved hub-intro articles). >>> ACTION FOR HUMAN: the TEMP BURST (MAX_PER_RUN=3) has effectively exhausted its winnable targets — the one genuinely-distinct decent-volume competitor-gap row (free-spins head-term) was written as vk-0259 in the 1st fire today; all 7 remaining rows are fold-ins/deferred-listing. RECOMMEND reverting the trigger + daily-run.md MAX_PER_RUN back to 1 (burst goal met; nothing distinct left to burst on). NEVER resolved a flag/posted/merged/fabricated.",
-  "progress": {"phase":"done","article_index":0,"article_total":0,"article_slug":null,"stages":["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],"stage_index":null,"stage":null}
+  "run_url": "https://claude.ai/code/session_014WPjcrQnfdT7gd2PxqtgJb",
+  "note": "daily run 2026-10-06 — reconcile (0 in-progress), monthly SEO review current (2026-10 no-op), topic selection + research",
+  "progress": {
+    "phase": "selecting",
+    "article_index": 0,
+    "article_total": 0,
+    "article_slug": null,
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": null,
+    "stage": null
+  }
 }
