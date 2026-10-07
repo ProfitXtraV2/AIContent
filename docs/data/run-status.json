@@ -1,28 +1,17 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-10-06T07:15:44Z",
-  "run_finished_utc": "2026-10-06T07:19:27Z",
-  "articles_written": 0,
+  "state": "running",
+  "run_started_utc": "2026-10-07T07:15:12Z",
+  "run_finished_utc": null,
+  "articles_written": null,
   "prs_opened": [],
-  "run_url": "https://claude.ai/code/session_014WPjcrQnfdT7gd2PxqtgJb",
-  "note": "daily run 2026-10-06 DONE — 0 NEW articles (data-backed, NOT a skip; MAX_PER_RUN=1 throttled). RECONCILE: 0 in-progress rows (vk-0063 match was notes-only on a posted row). MONTHLY SEO REVIEW: current (seo-review.json last_monthly_review=2026-10 == this month) -> no-op, skipped per step 1a. BUFFER: 225/10 (198 drafted + 27 approved). SELECTION outcome=0 writable: (a) BACKLOG all 10 open rows are NV-Casino operator-dependent, every one blocked under guides-only scope (NV T&C/complaints geo-blocked 403) -> kept open with blocked note, never dropped; (b) RESEARCH bank only 3 candidate rows, ALL Ahrefs-confirmed zero-volume (split-symbols/symbol-upgrade/reality-check) -> not write-priority; (c) competitor-gap rows all written/fold-in. FRESH DISCOVERY (step 6, Ahrefs country=bg, 161k units left, reset 2026-10-15): matching-terms on seeds казино/слот/бонус/безплатни/рулетка/джакпот (108 rows). Every winnable+in-scope hit is ALREADY COVERED or cannibalizing: роулетка правила 200/kd25 -> covered by vk-0024 (Рулетка правила+стратегии); безплатни слот/казино игри -> vk-0013/bezplatni-kazino-igri; слот машина 300/kd35 -> rotativki; казино бонус/ново онлайн казино бонус без депозит kd2 -> optimization signal for no-deposit pillar vk-0004 (NOT a new page, 2 pillars already); all other high-vol hits operator-branded (8888/efbet/winbet/inbet/nv/sesame/alphawin/arne -> out of scope guides-only) or non-casino (лотария 6/49/евромилиони, картички, пъзели). NO genuinely distinct, non-cannibalizing, winnable, in-scope cluster surfaced -> wrote 0 per daily-run.md quality-over-quota (never pad). RESEARCH BANK: unchanged (3 zero-vol candidates stay annotated placeholders; removing without a volume-bearing replacement would shrink the thin buffer). NV open backlog rows already Ahrefs-enriched with current verdicts (30-day cache, identical data). BOARD + dashboard + feed refreshed (feed 27 approved; regen folded images into approved hub-intro meta). No PR (0 articles). NEVER resolved a flag / posted / merged / fabricated.",
+  "run_url": "https://claude.ai/code/session_01HbXy7eXAE61DjSD3biEQzj",
+  "note": "daily run 2026-10-07 — started; reconcile (0 in-progress), monthly SEO review current (2026-10), selecting topics",
   "progress": {
-    "phase": "done",
+    "phase": "reconcile",
     "article_index": 0,
     "article_total": 0,
     "article_slug": null,
-    "stages": [
-      "Synthesis",
-      "Outline",
-      "Author",
-      "Humaniser",
-      "SEO",
-      "Brand Gate",
-      "Light re-check",
-      "Images",
-      "Verification",
-      "PR"
-    ],
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
     "stage_index": null,
     "stage": null
   }
