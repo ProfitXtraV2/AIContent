@@ -17,7 +17,7 @@
   <circle cx="66" cy="182" r="15" fill="#22d3ee"/>
   <text x="66" y="187" fill="#0f172a" font-size="15" font-weight="700" text-anchor="middle">2</text>
   <text x="92" y="178" fill="#f1f5f9" font-size="16" font-weight="700">Вписване в регистъра</text>
-  <text x="92" y="199" fill="#94a3b8" font-size="13">ориентировъчно 5–7 работни дни (подлежи на проверка)</text>
+  <text x="92" y="199" fill="#94a3b8" font-size="13">ориентировъчно 5–7 работни дни</text>
 
   <!-- Step 3 -->
   <rect x="30" y="224" width="700" height="60" rx="9" fill="#1e293b"/>
