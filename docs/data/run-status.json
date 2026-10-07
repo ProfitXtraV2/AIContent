@@ -5,14 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01HbXy7eXAE61DjSD3biEQzj",
-  "note": "daily run 2026-10-07 — started; reconcile (0 in-progress), monthly SEO review current (2026-10), selecting topics",
+  "note": "daily run 2026-10-07 — writing 1 new article (vk-0260 self-exclusion/забрана за хазарт, 2900/kd21, in-scope RG guide)",
   "progress": {
-    "phase": "reconcile",
-    "article_index": 0,
-    "article_total": 0,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "phase": "writing",
+    "article_index": 1,
+    "article_total": 1,
+    "article_slug": "2026-10-07-kak-da-si-napravish-zabrana-za-hazart",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
