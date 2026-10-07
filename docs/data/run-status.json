@@ -5,7 +5,7 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01HbXy7eXAE61DjSD3biEQzj",
-  "note": "daily run 2026-10-07 — vk-0260 writing: humaniser done (facts intact), SEO stage",
+  "note": "daily run 2026-10-07 — vk-0260 writing: SEO done (title 57/meta 151), brand gate stage",
   "progress": {
     "phase": "writing",
     "article_index": 1,
@@ -23,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 4,
-    "stage": "SEO"
+    "stage_index": 5,
+    "stage": "Brand Gate"
   }
 }
