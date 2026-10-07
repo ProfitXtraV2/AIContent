@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-06T23:36:41Z",
+  "generated_utc": "2026-10-07T06:48:21Z",
   "buffer": {
-    "count": 225,
+    "count": 223,
     "target": 10,
     "deficit": 0,
     "ok": true
@@ -9,8 +9,8 @@
   "counts": {
     "in-progress": 0,
     "drafted": 198,
-    "approved": 27,
-    "posted": 33,
+    "approved": 25,
+    "posted": 35,
     "failed": 1
   },
   "rows": [
@@ -1724,7 +1724,7 @@
     },
     {
       "id": "vk-0093",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Eye of Horus: RTP, разширяващ се символ Око на Хор и как се играе",
       "keywords_or_terms": "eye of horus, око на хор, eye of horus rtp, ай ъв хорус",
@@ -1732,7 +1732,7 @@
       "kd": "38",
       "source": "research",
       "drafted_date": "2026-09-16",
-      "posted_date": "",
+      "posted_date": "2026-10-07",
       "folder": "2026-09-16-eye-of-horus",
       "pr": "#110",
       "gemini": "skipped",
@@ -1745,7 +1745,7 @@
     },
     {
       "id": "vk-0094",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Juicy Fruits (Pragmatic): RTP, разширяващ се Crown wild и как се играе",
       "keywords_or_terms": "juicy fruits, джуси фрутс, pragmatic juicy fruits, juicy fruits rtp",
@@ -1753,7 +1753,7 @@
       "kd": "36",
       "source": "research",
       "drafted_date": "2026-09-16",
-      "posted_date": "",
+      "posted_date": "2026-10-07",
       "folder": "2026-09-16-juicy-fruits",
       "pr": "#111",
       "gemini": "skipped",

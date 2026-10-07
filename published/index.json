@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 27,
+  "count": 25,
   "articles": [
     {
       "slug": "gates-of-olympus-1000",
@@ -80,20 +80,6 @@
       "status": "approved"
     },
     {
-      "slug": "eye-of-horus",
-      "title": "Eye of Horus: RTP 96.31%, разширяващ се символ и 12 завъртания",
-      "date_modified": "2026-09-16",
-      "content_hash": "5be149f139975a81b1521df7ed046470be8d979227e344421089bc7a9f14c7ed",
-      "status": "approved"
-    },
-    {
-      "slug": "juicy-fruits",
-      "title": "Juicy Fruits (Pragmatic): RTP 96.51%, разширяващ се wild",
-      "date_modified": "2026-09-16",
-      "content_hash": "d8d5481abb2e7bfa4da24c6c2f8e68ce33d004e44121974745dcc31a86eb87f1",
-      "status": "approved"
-    },
-    {
       "slug": "tombstone-rip",
       "title": "Tombstone R.I.P.: RTP, волатилност и как работи",
       "date_modified": "2026-09-17",
@@ -125,35 +111,35 @@
       "slug": "hub-intro-casino-payments",
       "title": "Казино плащания: депозити и тегления в БГ казина",
       "date_modified": "2026-09-19",
-      "content_hash": "15bd1840413b2b2ec447082ca7076f03e151c31ff783d5e92b9fcf608f0728d5",
+      "content_hash": "a65fd26321d0131c74639026f3f6cc8c5dce8be8b078075a25e4b416d1925f61",
       "status": "approved"
     },
     {
       "slug": "hub-intro-bonuses-vip",
       "title": "Казино бонуси и VIP: какво да проверите",
       "date_modified": "2026-09-19",
-      "content_hash": "1736d3b440bc9b94e62134d40395aac3a427f015a849ea7831c4f114a78c463a",
+      "content_hash": "9aca2849280b239225072fb5f96b87367129ceb351677d25073b8a36ec89cc35",
       "status": "approved"
     },
     {
       "slug": "hub-intro-regulations-taxes",
       "title": "Регулации и данъци в онлайн хазарта в България",
       "date_modified": "2026-09-19",
-      "content_hash": "f207601b8f1d080dec3c9700d5fd21d715fef5b7d26b9ccc273346d4d0c296e5",
+      "content_hash": "92ce1f91d0244e2d7df7e647022cf908e199375e0665ec72f35924036977f634",
       "status": "approved"
     },
     {
       "slug": "hub-intro-comparisons-news",
       "title": "HUB INTRO: Сравнения и новини — интро за /blog/comparisons-news/",
       "date_modified": "2026-09-19",
-      "content_hash": "84398abf3bb6530a282a5173f5ac6ebd1da252743b4dfc4d5b75205459a7ab89",
+      "content_hash": "ad07d26c47bea24a8cbf013b92835b1c394bd122943463d05e14672bcd719223",
       "status": "approved"
     },
     {
       "slug": "hub-intro-responsible-gambling",
       "title": "Отговорна игра: лимити, самоизключване, помощ",
       "date_modified": "2026-09-19",
-      "content_hash": "f1c7b24f7c372c70049958c0be6093d321d4545f269f9af1ad7e06eb1a15569c",
+      "content_hash": "616a5694058a49614a53c343beefb7de06f84d915dbc74b459b845b1dac20d4b",
       "status": "approved"
     },
     {
@@ -192,5 +178,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-06T07:18:54Z"
+  "generated_utc": "2026-10-07T06:48:21Z"
 }
