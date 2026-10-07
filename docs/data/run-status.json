@@ -1,13 +1,15 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-10-07T07:15:12Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-10-07T08:18:28Z",
+  "articles_written": 1,
+  "prs_opened": [
+    280
+  ],
   "run_url": "https://claude.ai/code/session_01HbXy7eXAE61DjSD3biEQzj",
-  "note": "daily run 2026-10-07 — vk-0260: images done (infographic 100), verification assembled; opening PR",
+  "note": "daily run 2026-10-07 DONE - 1 NEW article (MAX_PER_RUN=1 throttled). RECONCILE: 0 in-progress. MONTHLY SEO REVIEW: current (seo-review.json 2026-10 == this month) -> skipped per step 1a. BUFFER 224/10 (199 drafted + 25 approved). WROTE vk-0260 'Как да си направиш забрана за хазарт (самоизключване чрез регистъра на НАП)' - RG self-exclusion PROCEDURE pillar. SELECTION: backlog all 10 open rows NV-Casino operator/НАП-dependent -> stay open+blocked (guides-only); research bank 3 candidates all Ahrefs-confirmed zero-vol. FRESH Ahrefs discovery (seed хазарт) surfaced head kw 'как да си направя забрана за хазарт' 2900/kd21 informational+transactional trend UP - genuinely DISTINCT (RG-tools pillar touches register in 1 para only; no procedural page; not in sitemap), winnable (kd21<40), in-scope (public mechanism чл.10г ЗХ, 0 operator T&C/0 live НАП query), non-cannibalizing (links RG-tools, not dup). PIPELINE 1->5b (fresh-context subagents): gate PASS WITH FIXES 92/100 0-crit (fixed 3 em-dash); 0 em-dash body; 5 in-text [VERIFY] flags STAY for human (1-yr min 27.03.2025 x2, auto-enroll groups/date ~01.01.2025, nap.bg channel, 5-7 work.days single-src, removal proc). Gemini Step-7 ONLINE (adversarial/high-variance): initial HL25 -> humaniser pass1 HL15-20 (worse) -> KEEP-BEST=initial HL25, 1 pass (cap2); gemini=ai75. Step-8 IMAGES: 1 SVG infographic (self-exclusion steps, numbers verbatim to 05b) review 90->fix->100 PASS keep-best 100, 0 integrity, no AI hero (data article). 06-verification + log assembled. PR #280 (content-only, 15 files, full audit trail). STEP6: research bank - 3 zero-vol candidates SKIPPED+REPLACED by volume-bearing 'хазартна зависимост' cluster 250/kd12 (candidate, anti-cannibal flagged vs проблемен-хазарт pillar); vk-0260 added as used. Backlog open rows already Ahrefs-enriched (30-day cache, identical) -> no re-pull. BOARD + dashboard + feed (25 approved) refreshed. NEVER resolved a flag/posted/merged/fabricated. Note: Claude GitHub App not installed on repo -> PR events won't wake session; human owns review.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-10-07-kak-da-si-napravish-zabrana-za-hazart",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 8,
-    "stage": "Verification"
+    "stage_index": null,
+    "stage": null
   }
 }

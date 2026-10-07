@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-07T07:15:20Z",
+  "generated_utc": "2026-10-07T08:17:44Z",
   "buffer": {
-    "count": 223,
+    "count": 224,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 198,
+    "drafted": 199,
     "approved": 25,
     "posted": 35,
     "failed": 1
@@ -4644,6 +4644,27 @@
         "band": "Good",
         "winnable": true
       }
+    },
+    {
+      "id": "vk-0260",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Как да си направиш забрана за хазарт (самоизключване чрез регистъра на НАП)",
+      "keywords_or_terms": "как да си направя забрана за хазарт, забрана за хазарт, премахване на забрана за хазарт, проверка за забрана за хазарт по егн, декларация за забрана за хазарт",
+      "volume": "2900",
+      "kd": "21",
+      "source": "research",
+      "drafted_date": "2026-10-07",
+      "posted_date": "",
+      "folder": "2026-10-07-kak-da-si-napravish-zabrana-za-hazart",
+      "pr": "#280",
+      "gemini": "ai 75",
+      "notes": "daily run 2026-10-07; fresh Ahrefs discovery (seed хазарт) head kw 'как да си направя забрана за хазарт' 2900/kd21 informational+transactional trend↑; RG self-exclusion PROCEDURE pillar (guides-only safe: public mechanism чл.10г ЗХ, 0 operator T&C, 0 licence №, 0 affiliate); DISTINCT from RG-tools pillar instrumenti-za-otgovorna-igra (linked not dup) — procedure: подаване→срок→премахване→проверка(ЕГН мит)→ефект; corrects 'проверка по ЕГН' misconception (регистърът не е публичен); gate 92/100 0-crit (fixed 3 em-dash); Gemini Step-7 ONLINE adversarial/high-variance: initial HL25 → humaniser pass1 HL15-20 (worse), KEEP-BEST=initial HL25, 1 pass (cap2); 0 em-dash; 5 in-text [VERIFY] flags STAY for human (1-год min 27.03.2025 ×2, служебно вписване групи/дата ~01.01.2025, nap.bg канал/имейл, срок 5–7 раб.дни single-src, заличаване процедура); img:1 (SVG samoizklyuchvane-zabrana-hazart-stapki-infografika numbers-verbatim, review 90→fix→100 PASS, 0 integrity, no hero); internal: otgovorna-igra/zakonno-li-e/blog-responsible-gambling (3, live в sitemap); ~1050 думи; checked=ahrefs; src=research(fresh discovery); PR #280; awaiting human review (resolve VERIFY before publish)",
+      "opportunity": {
+        "score": 92,
+        "band": "Strong",
+        "winnable": true
+      }
     }
   ],
   "backlog": [
@@ -8829,45 +8850,39 @@
     },
     {
       "type": "guide",
-      "query": "Сплит символи (split symbols) в слотовете: как един символ се брои за няколко",
-      "researched_keywords": "сплит символи слот, split символи, разделящ се символ ротативка, символ който се разделя, split wild",
-      "volume": "",
-      "kd": "",
+      "query": "Хазартна зависимост: признаци, преодоляване и лечение (терапия, групи, клиники)",
+      "researched_keywords": "хазартна зависимост, как се преодолява хазартна зависимост, лечение на хазартна зависимост, клиники за лечение на хазартна зависимост, има ли излекувани от хазартна зависимост",
+      "volume": "250",
+      "kd": "12",
       "intent": "informational",
       "trend": "",
       "checked": "ahrefs",
-      "suggestion": "[Ahrefs 2026-10-05 (2nd fire): 0 vol / няма данни за primary + всички researched_keywords → zero-volume, topical-completeness only, НЕ write-priority; discovery не намери volume-bearing дистинктна замяна — buffer thin до следващия monthly competitor-gap pull] НОВ механика-candidate (04.10.2026, 2nd-fire replenish). Непокрит generic pillar: специален символ, който се разделя на 2+ еднакви за броене по линиите (увеличава съвпаденията). Честно ядро: ефектът е калибриран в RTP → мести дисперсията, не дългосрочната сума. DISTINCT от Наслагани vk-0256 (готов стек), Гигантски colossal vk-0252 (един раздут символ), Разширяващи се vk-0254 (разпъва се). Брандираните xSplit/Razor Split са само в game-pages (San Quentin vk-0097), няма GENERIC pillar. Няма generic hit в queue/sitemap (04.10.2026). БЕЗ оператор/НАП. checked=web, чака Ahrefs reset 2026-10-15.",
+      "suggestion": "ZAMYANA (volume-bearing) za 3-te zero-vol kandidata, 07.10.2026 fresh discovery (seed hazartna zavisimost). Cluster: hazartna zavisimost 250/kd12 + kak se preodolyava 150/kd10 + ima li izlekuvani 150/kd1 + lechenie 70/kd40 + kliniki 70/kd0 - nisak kd, winnable, informational, RG/pro-player. [!] ANTI-CANNIBAL CHECK predi pisane: sashtestvuva drafted pillar 'Priznaci na problemen hazart i kade da potarsish pomosht' (priznaci + pomosht). Tozi cluster e RECOVERY/TREATMENT-focused (kakvo e zavisimostta, preodolyavane, terapiya/grupi/kliniki) - veroyatno DISTINCT intent, no ako e tvarde blizo -> fold-in kam problemen-hazart pillar, NE otdelna stranica. guides-only safe (obrazovatelno, 0 operator/NAP).",
       "status": "candidate",
-      "date_researched": "2026-10-04",
-      "opportunity": null
+      "date_researched": "2026-10-07",
+      "opportunity": {
+        "score": 48,
+        "band": "Good",
+        "winnable": true
+      }
     },
     {
       "type": "guide",
-      "query": "Надграждащи се символи (symbol upgrade / level-up) в слотовете: как работят",
-      "researched_keywords": "надграждащи символи слот, symbol upgrade слот, level up символ ротативка, повишаване на символ, ъпгрейд на символи",
-      "volume": "",
-      "kd": "",
-      "intent": "informational",
-      "trend": "",
+      "query": "Как да си направиш забрана за хазарт (самоизключване чрез регистъра на НАП)",
+      "researched_keywords": "как да си направя забрана за хазарт, забрана за хазарт, премахване на забрана за хазарт, проверка за забрана за хазарт по егн, декларация за забрана за хазарт",
+      "volume": "2900",
+      "kd": "21",
+      "intent": "informational, transactional",
+      "trend": "up",
       "checked": "ahrefs",
-      "suggestion": "[Ahrefs 2026-10-05 (2nd fire): 0 vol / няма данни за primary + всички researched_keywords → zero-volume, topical-completeness only, НЕ write-priority] НОВ механика-candidate (04.10.2026, 2nd-fire replenish). Непокрит generic pillar: по време на функция нисковалутни символи се надграждат до по-ценни (или мета-прогрес отключва по-висок ранг). Честно ядро: усеща се като растящ шанс, но е калибрирано в RTP → мести дисперсията, не сумата. DISTINCT от Множители vk-0057, Collection/събиране vk-0249 (натрупване), Мистерия символи vk-0247. Няма hit в queue/sitemap (04.10.2026). БЕЗ оператор/НАП. checked=web, чака Ahrefs reset 2026-10-15.",
-      "status": "candidate",
-      "date_researched": "2026-10-04",
-      "opportunity": null
-    },
-    {
-      "type": "guide",
-      "query": "Реалити проверка (reality check) и инструменти за самоконтрол по време на игра",
-      "researched_keywords": "реалити проверка казино, reality check таймер, напомняне за време казино, инструменти за самоконтрол, лимит на сесия",
-      "volume": "",
-      "kd": "",
-      "intent": "informational",
-      "trend": "",
-      "checked": "ahrefs",
-      "suggestion": "[Ahrefs 2026-10-05 (2nd fire): 0 vol / няма данни за primary + всички researched_keywords → zero-volume, topical-completeness only, НЕ write-priority] НОВ RG-candidate (04.10.2026, 2nd-fire replenish). Непокрит specific pillar: in-session таймер/напомняне, което прекъсва играта на интервал и показва изиграно време/нетен резултат; как да го включиш и защо помага. Честно RG ядро: не мести шансове, а връща контрола над времето/разхода. DISTINCT от /otgovorna-igra/ хъб (обзор) и самоизключване (vk-0063 контекст) — тук конкретен in-session инструмент. Няма hit в queue/sitemap (04.10.2026). БЕЗ оператор/НАП. checked=web, чака Ahrefs reset 2026-10-15.",
-      "status": "candidate",
-      "date_researched": "2026-10-04",
-      "opportunity": null
+      "suggestion": "SILEN RG self-exclusion-procedure pillar (fresh discovery seed hazart 07.10.2026): head 2900/kd21 trend up, winnable kd21<40. DISTINCT ot RG-tools pillar (instrumenti za otgovorna igra) - tuk proceduratata (podavane->srok->premahvane->EGN mit->efekt). guides-only safe (chl.10g ZH, 0 operator/NAP-live). WRITTEN -> vk-0260, PR #280 (gate 92, Gemini ai75 keep-best, img infographic 100, 5 [VERIFY] za choveka).",
+      "status": "used",
+      "date_researched": "2026-10-07",
+      "opportunity": {
+        "score": 92,
+        "band": "Strong",
+        "winnable": true
+      }
     }
   ],
   "articles_base_url": "https://github.com/ProfitXtraV2/AIContent/tree/main/VsichkiKazina/articles/",
@@ -8901,20 +8916,35 @@
       }
     ],
     "bands": {
-      "Moderate": 1
+      "Moderate": 1,
+      "Good": 1
     },
     "clusters": {
       "uncategorised": {
-        "winnable": 0,
+        "winnable": 1,
         "pillar": 0,
-        "total": 1
+        "total": 2
       }
     },
-    "winnable": [],
+    "winnable": [
+      {
+        "query": "Хазартна зависимост: признаци, преодоляване и лечение (терапия, групи, клиники)",
+        "keywords": "хазартна зависимост, как се преодолява хазартна зависимост, лечение на хазартна зависимост, клиники за лечение на хазартна зависимост, има ли излекувани от хазартна зависимост",
+        "volume": "250",
+        "kd": "12",
+        "intent": "informational",
+        "band": "Good",
+        "score": 48,
+        "winnable": true,
+        "cluster": "uncategorised",
+        "status": "candidate",
+        "src": "research"
+      }
+    ],
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 0,
+      "winnable": 1,
       "pillars": 0
     }
   }
