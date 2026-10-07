@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 452" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="Стъпки за забрана за хазарт чрез националния регистър на уязвимите лица към НАП: заявление, вписване, минимален срок и ефект върху всички лицензирани оператори">
+  <rect x="6" y="6" width="748" height="440" rx="16" fill="#0f172a"/>
+  <text x="30" y="40" fill="#f8fafc" font-size="20" font-weight="700">Забрана за хазарт чрез регистъра на НАП: стъпките</text>
+  <text x="30" y="62" fill="#94a3b8" font-size="13">доброволно вписване в националния регистър на уязвимите лица</text>
+
+  <!-- Step 1 -->
+  <rect x="30" y="80" width="700" height="60" rx="9" fill="#1e293b"/>
+  <rect x="30" y="80" width="7" height="60" rx="3" fill="#10b981"/>
+  <circle cx="66" cy="110" r="15" fill="#10b981"/>
+  <text x="66" y="115" fill="#0f172a" font-size="15" font-weight="700" text-anchor="middle">1</text>
+  <text x="92" y="106" fill="#f1f5f9" font-size="16" font-weight="700">Подавате заявление до НАП</text>
+  <text x="92" y="127" fill="#94a3b8" font-size="13">по образец; в офис или с КЕП по електронен път; безплатно</text>
+
+  <!-- Step 2 -->
+  <rect x="30" y="152" width="700" height="60" rx="9" fill="#1e293b"/>
+  <rect x="30" y="152" width="7" height="60" rx="3" fill="#22d3ee"/>
+  <circle cx="66" cy="182" r="15" fill="#22d3ee"/>
+  <text x="66" y="187" fill="#0f172a" font-size="15" font-weight="700" text-anchor="middle">2</text>
+  <text x="92" y="178" fill="#f1f5f9" font-size="16" font-weight="700">Вписване в регистъра</text>
+  <text x="92" y="199" fill="#94a3b8" font-size="13">ориентировъчно 5–7 работни дни (подлежи на проверка)</text>
+
+  <!-- Step 3 -->
+  <rect x="30" y="224" width="700" height="60" rx="9" fill="#1e293b"/>
+  <rect x="30" y="224" width="7" height="60" rx="3" fill="#eab308"/>
+  <circle cx="66" cy="254" r="15" fill="#eab308"/>
+  <text x="66" y="259" fill="#0f172a" font-size="15" font-weight="700" text-anchor="middle">3</text>
+  <text x="92" y="250" fill="#f1f5f9" font-size="16" font-weight="700">Минимален срок: 1 година</text>
+  <text x="92" y="271" fill="#94a3b8" font-size="13">по-дълъг по избор; предсрочно прекратяване няма</text>
+
+  <!-- Step 4 -->
+  <rect x="30" y="296" width="700" height="60" rx="9" fill="#1e293b"/>
+  <rect x="30" y="296" width="7" height="60" rx="3" fill="#f97316"/>
+  <circle cx="66" cy="326" r="15" fill="#f97316"/>
+  <text x="66" y="331" fill="#0f172a" font-size="15" font-weight="700" text-anchor="middle">4</text>
+  <text x="92" y="322" fill="#f1f5f9" font-size="16" font-weight="700">Ефект: целият лицензиран пазар</text>
+  <text x="92" y="343" fill="#94a3b8" font-size="13">всеки оператор с лиценз от НАП е длъжен да откаже достъп</text>
+
+  <line x1="30" y1="378" x2="730" y2="378" stroke="#334155" stroke-width="1"/>
+  <text x="30" y="402" fill="#cbd5e1" font-size="13" font-weight="700">Няма публична справка по ЕГН</text>
+  <text x="30" y="421" fill="#94a3b8" font-size="12">регистърът не е публичен; достъп имат само НАП и операторите за конкретно лице</text>
+  <text x="30" y="439" fill="#64748b" font-size="12">18+ Хазартът може да пристрасти. Играйте отговорно.</text>
+</svg>
