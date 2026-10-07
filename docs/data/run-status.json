@@ -5,7 +5,7 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01HbXy7eXAE61DjSD3biEQzj",
-  "note": "daily run 2026-10-07 — vk-0260: Gemini Step-7 done (keep-best initial HL25 / ai75, 2 checks, 1 humaniser pass); building images",
+  "note": "daily run 2026-10-07 — vk-0260: images done (infographic 100), verification assembled; opening PR",
   "progress": {
     "phase": "writing",
     "article_index": 1,
@@ -23,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 7,
-    "stage": "Images"
+    "stage_index": 8,
+    "stage": "Verification"
   }
 }
