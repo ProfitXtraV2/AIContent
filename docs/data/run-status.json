@@ -5,12 +5,12 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01TVaCVhJsEezXiANzVesrGV",
-  "note": "daily run 2026-10-08 — started; reconcile 0 in-progress; monthly SEO review current (2026-10); selecting topics",
+  "note": "daily run 2026-10-08 — writing vk-0261 (recovery/treatment pillar: как се преодолява хазартна зависимост); 0 in-progress reconciled; SEO review current (2026-10); backlog 10 open all NV operator-dependent -> stay open+blocked (guides-only); research bank sole candidate selected (distinct treatment intent vs vk-0236 recognition pillar)",
   "progress": {
-    "phase": "setup",
-    "article_index": null,
-    "article_total": null,
-    "article_slug": null,
+    "phase": "writing",
+    "article_index": 1,
+    "article_total": 1,
+    "article_slug": "2026-10-08-kak-se-preodolyava-hazartna-zavisimost",
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": null,
-    "stage": null
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
