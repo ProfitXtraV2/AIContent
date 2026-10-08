@@ -8,6 +8,120 @@ Facts, numbers, licence/RTP/tax figures, dates, byline (Георги Тодор�
 
 ---
 
+## 2026-10-07 (nightly run — flags + score)
+
+Gemini API is **back online** tonight (healthy `gemini-3.1-pro-preview` responses;
+the 402/RESOURCE_EXHAUSTED billing outage of 2026-09-29→10-06 is cleared), so Job B
+ran for real again.
+
+### JOB A — publish-blocking flags
+Scanned every `content/*` branch's own `VsichkiKazina/articles/<folder>/05b-final-draft.md`
+(~250 content branches) for blocking markers (`[VERIFY]`, `[DATA NEEDED]`, `[CONFLICT]`,
+`[18+ / RG LINE]`, `[AUTHOR]`, `[BRAND]`, `[EDITORIAL]`, `[уточни]`, `[провери]`). Exactly
+**1** branch carried blocking markers in its own draft:
+
+- **`2026-10-07-kak-da-si-napravish-zabrana-za-hazart`** (vk-0260, drafted, PR #280) — the
+  article created by today's daily run, left `awaiting human review (resolve VERIFY before
+  publish)`. **6 markers resolved → 0:**
+  - **5 `[VERIFY]` flags**, all on Bulgarian gambling-law / НАП self-exclusion specifics
+    (legal facts, treated like tax/licence: never asserted, pointed to authority):
+    1. 1-year minimum effective date (27.03.2025) + prior-30-day history → removed the
+       unverified date/history; kept the one-year-minimum premise (title/meta/board) and
+       folded a "confirmed by Закона за хазарта / НАП" caveat.
+    2. (same, second occurrence in "Колко трае забраната") → bracket removed, caveat covered above.
+    3. Служебно вписване groups + ~01.01.2025 date → removed specific groups/date; kept the
+       general ex-officio statement, pointed to the law/НАП.
+    4. nap.bg channel/email → bracket removed; text already asserts no specific email.
+    5. "5–7 работни дни" (single commercial source) → softened to "няколко работни дни;
+       точният срок проверете при НАП" (specific range no longer asserted as prose fact; the
+       infographic alt-text keeps its already-hedged "ориентировъчно 5–7").
+  - **1 `[AUTHOR BIO BLOCK - Георги Тодоров]`** → this placeholder starts with `[AUTHOR`,
+    which the publisher hard-blocks (unlike `[About … boilerplate]`, which is the
+    publisher-expanded template token, left untouched as on every article). Expanded into a
+    short bio composed **only from the brand's Tier-1 persona canon**
+    (`pipeline/markets/bg/author.md`: София, tests sites with own money since 2024 as a hobby,
+    НАП licence-check before registration, clean-withdrawal KYC testing, "банерът е реклама,
+    общите условия са договорът"). No biographical detail invented; the PR is human-reviewed
+    before publish. Re-scan: 0 blocking markers. Committed `fix(flags): resolve … — publish-ready`,
+    pushed. No fact changed; no em-dash introduced.
+
+  Note for a human: this is the **first time a drafted (non-posted) branch carried a bare
+  `[AUTHOR BIO BLOCK]`**. Prior nights only ever saw it on already-posted branches (left
+  untouched). If composing the bio from persona canon is not the desired policy, set a rule
+  and I'll follow it; the alternative is a human writing the bio before publish.
+
+The `[About Всички Казина boilerplate]` token is a publisher-expanded template placeholder on
+~all branches (incl. posted/live) — not a blocking marker, left untouched (idempotent).
+
+**POSTED — needs human review (unchanged, recurring):** the stale posted branches
+`2026-09-13-nv-casino-bonus-usloviya` (vk-0064) and `2026-09-13-nv-casino-zakonno-li-e`
+(vk-0063) still carry `[AUTHOR BIO BLOCK …]`/`[BRAND BOILERPLATE]`/`[18+ / RG LINE]` in their
+branch drafts. Not edited (never touch posted/live); their live pages were hand-cleaned at
+publish time.
+
+### JOB B — low Gemini score improvements
+Board targets = status ∈ {drafted, approved} AND gemini `ai <n>` OR `human <n>` with n<80.
+**6 qualifying targets** (≤10/night cap — none deferred), worst first:
+
+1. **vk-0230 `2026-10-01-trustly-open-banking-kazino`** (PR #249, was `ai 65`) — style-only pass:
+   split a 40-word run-on, cut a fee-tautology, a summary "bow", two signposting lead-ins,
+   trimmed an essay-length image alt-text, dropped the disguised-conclusion recap.
+   **5 Gemini reads, all `ai 75`** (flat; board column kept at `ai 65`). Remaining flags target
+   the brand first-person persona + SEO H2 structure + RG zone (all preserved). Committed
+   `fix(quality): humanise … (ai 65 -> ai 75; 5 reads, high-variance)`, pushed.
+   **still `ai` <80 → best (cleaner) version kept, flagged for human.**
+2. **vk-0227 `2026-10-01-apple-pay-google-pay`** (PR #246, was `ai 70`) — wove 2 orphan
+   "See also" links into prose, bridged the abrupt НАП-licence jump in the intro, merged a
+   redundant condition/negative-inverse, varied one RG imperative. **Gemini `ai 70 → human 85`.**
+   Committed, pushed. **improved (verdict ai→human, ≥80).** ✅
+3. **vk-0219 `2026-09-30-synot-games`** (PR #236, was `ai 75`) — cut 2 "didactic buzzkill"
+   reality-checks, a "neat bow", moved an orphaned intro link into the RTP H2, softened
+   imperatives, replaced a translated "лице" metaphor, de-"flagship"-ed. **5 reads, all `ai 75`**
+   (flat). Fact-dense provider profile. Committed, pushed. **best kept, flagged for human.**
+4. **vk-0226 `2026-10-01-e-portfeili-skrill-neteller`** (PR #245, was `ai 75`) — baseline tonight
+   read `ai 80`; removed signpost fillers, a win/lose dichotomy + preachy compliance transition,
+   a defensive "Това не е измама", condensed a click-by-click deposit, regrouped a
+   step-sequence security list, trimmed a summary bow. **`ai 80 → ai 75`** (4 reads). Remaining
+   signal is the brand-canonical verdict section + SEO H2. Committed, pushed.
+   **best (cleaner) version kept, flagged for human.**
+5. **vk-0229 `2026-10-01-bankov-prevod-kazino`** (PR #248, was `ai 75`) — removed the
+   first/then/finally step-signposting and the parallel-contrast conclusion, smoothed
+   compound "yes-but" chains. A first over-staccato attempt spiked the detector to `ai 85`;
+   pulled back to varied-but-flowing prose → **`ai 75`** (keep-best). Committed, pushed.
+   **best kept, flagged for human.**
+6. **vk-0260 `2026-10-07-kak-da-si-napravish-zabrana-za-hazart`** (PR #280, was `ai 75`) — the
+   flag-resolution in Job A (removing the in-text `[VERIFY]` brackets + expanding the bio)
+   on its own moved the committed text to **`human 90`** ("Highly likely human-written, 90%
+   confidence"). Already ≥80 → no separate humaniser pass needed. Board updated. ✅
+
+### Still flagged after attempts (Job B, <80, left best + human-flag)
+vk-0230 trustly (ai 75), vk-0219 synot (ai 75), vk-0226 e-portfeili (ai 75), vk-0229
+bankov-prevod (ai 75). **All four are recurrent stuck cases** — also humanised on nightly
+2026-10-05 and 2026-10-06 (see their board notes), and they keep re-qualifying because the
+detector holds them at `ai` while the remaining signal is the brand's own first-person tester
+persona + the mandated SEO section structure + the RG zone, none of which may be removed.
+**Recommendation for a human:** treat these four (dry fintech/provider niche) as
+"human-review-needed, stop auto-humanising" so they don't churn their PRs nightly for no
+score gain. Facts/links/RG/byline are intact in all committed versions.
+
+### Deferred (over nightly cap of 10)
+None — 6 qualifying targets, all processed.
+
+### FINISH
+Board: updated the `gemini` column — vk-0227 `ai 70 → human 85`, vk-0260 `ai 75 → human 90`;
+the four stuck rows keep their `ai` value with a dated nightly note appended. Rebuilt
+`docs/data/status.json` (buffer 224/10) and the `published/` feed (25 approved). Committed
+`chore(quality): nightly flag+score fixes 2026-10-07` on main.
+
+### Net result
+- Flags resolved: **1 article, 6 markers → 0** (vk-0260, now publish-ready).
+- Articles improved: **2 flipped ai→human ≥80** (apple-pay human 85, zabrana human 90);
+  **4 cleaner but still `ai 75`** (trustly, synot, e-portfeili, bankov-prevod).
+- Still flagged: the 4 recurrent high-variance fintech/provider articles (best kept, human-flagged).
+- Posted-needs-review: vk-0063, vk-0064 (unchanged, live pages hand-cleaned; branch drafts stale).
+
+---
+
 ## 2026-09-29 (nightly run — flags + score)
 
 ### JOB A — publish-blocking flags
