@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-08T06:49:25Z",
+  "generated_utc": "2026-10-08T07:27:45Z",
   "buffer": {
     "count": 222,
     "target": 10,
@@ -7,7 +7,7 @@
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
+    "in-progress": 1,
     "drafted": 199,
     "approved": 23,
     "posted": 37,
@@ -4663,6 +4663,27 @@
       "opportunity": {
         "score": 92,
         "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "id": "vk-0261",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Как се преодолява хазартна зависимост — лечение, терапия и групи за подкрепа",
+      "keywords_or_terms": "как се преодолява хазартна зависимост, лечение на хазартна зависимост, терапия за хазартна зависимост, групи за подкрепа при хазарт, клиники за лечение на хазартна зависимост, има ли излекувани от хазартна зависимост",
+      "volume": "150",
+      "kd": "10",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-10-08-kak-se-preodolyava-hazartna-zavisimost",
+      "pr": "",
+      "gemini": "",
+      "notes": "daily run 2026-10-08; research bank sole candidate (opportunity Good/winnable, cluster head хазартна зависимост 250/kd12; primary как се преодолява 150/kd10); RECOVERY/TREATMENT pillar — DISTINCT intent from recognition pillar vk-0236 priznaci-problemen-hazart (signs+self-screening, stops at first referral) which this links to via RG hub, NOT a dup; guides-only safe (educational/RG, 0 operator T&C, 0 licence №, 0 live НАП query, 0 affiliate); owns лечение/терапия/групи/клиники/има-ли-излекувани; checked=ahrefs (from research row); src=research",
+      "opportunity": {
+        "score": 44,
+        "band": "Moderate",
         "winnable": true
       }
     }
