@@ -1,13 +1,15 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-10-08T07:15:00Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-10-08T08:45:00Z",
+  "articles_written": 1,
+  "prs_opened": [
+    281
+  ],
   "run_url": "https://claude.ai/code/session_01TVaCVhJsEezXiANzVesrGV",
-  "note": "daily run 2026-10-08 — writing vk-0261 (recovery/treatment pillar: как се преодолява хазартна зависимост); 0 in-progress reconciled; SEO review current (2026-10); backlog 10 open all NV operator-dependent -> stay open+blocked (guides-only); research bank sole candidate selected (distinct treatment intent vs vk-0236 recognition pillar)",
+  "note": "daily run 2026-10-08 DONE - 1 NEW article (MAX_PER_RUN=1 throttled). RECONCILE: 0 in-progress. MONTHLY SEO REVIEW: current (seo-review.json 2026-10 == this month) -> skipped per step 1a. BUFFER 223/10 (200 drafted + 23 approved). WROTE vk-0261 'Как се преодолява хазартна зависимост - лечение, терапия и групи за подкрепа' - RECOVERY/TREATMENT pillar. SELECTION: backlog all 10 open rows NV-Casino operator/НАП-dependent -> stay open+blocked (guides-only); research bank SOLE candidate (хазартна зависимост cluster 250/kd12 Good/winnable) selected after anti-cannibal RESOLVED: distinct RECOVERY/TREATMENT intent vs recognition pillar vk-0236 (признаци NOT duplicated; bridge to /blog/responsible-gambling/; self-exclusion stays /otgovorna-igra/+vk-0260). Dedup clean vs queue + live sitemap. In-scope (educational/RG, 0 operator T&C, 0 licence №, 0 live НАП query, 0 affiliate, no medical advice - meds only via psychiatrist). PIPELINE 1->5b (fresh-context subagents): gate PASS WITH FIXES 94/100 0-crit (fixed Editorial-Team byline); 0 em-dash body; 4 [VERIFY] + 1 [DATA NEEDED] STAY for human (12-step groups BG; public clinics list; МЗ ordinance status; 'among people in treatment' framing on suicide figures; confirm Солидарност 0888 99 18 66 line/hours). Gemini Step-7 ONLINE adversarial/high-variance: initial HL20 -> humaniser pass1 HL25 -> pass2 HL15 (worse) -> KEEP-BEST=pass1 HL25, cap2; gemini=ai75. Step-8 IMAGES: 1 SVG infographic (recovery pathway, numbers verbatim to 05b) review 95->fix->100 PASS keep-best 100, 0 integrity, no AI hero (sensitive RG/data article). 06-verification + log assembled. PR #281 (content-only, 17 files, full audit trail). STEP6: research bank sole candidate used; FRESH Ahrefs re-pull (units 153,284/200,000, reset 2026-10-15) on 6 seeds surfaced NO new distinct winnable guides-scope candidate w/ real volume (results already-covered бакара/кено, non-casino card games, or zero/null-vol) -> no padding, buffer stays 0 (mature library). Backlog open rows already Ahrefs-enriched (2-day cache, within TTL) -> no re-pull. BOARD + dashboard + feed refreshed. NEVER resolved a flag/posted/merged/fabricated. Note: Claude GitHub App not installed on repo -> PR events won't wake session; human owns review.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-10-08-kak-se-preodolyava-hazartna-zavisimost",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 8,
-    "stage": "Verification"
+    "stage_index": null,
+    "stage": null
   }
 }
