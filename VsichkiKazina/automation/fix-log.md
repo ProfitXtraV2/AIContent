@@ -1878,3 +1878,85 @@ re-emit the feed (the only delta was the redundant vk-0054 pass, intentionally n
 
 ### Deferred
 None — only 2 valid in-scope rows existed for this stale snapshot; both processed above.
+
+## 2026-10-08 — nightly flag + score fixes
+
+Gemini API back online this run (prior nights logged `OFFLINE (402)` for the payment
+cluster). All work on each article's own `content/<folder>` branch; nothing posted/live
+touched; no merges.
+
+### JOB A — publish-blocking flags
+- **vk-0261** `2026-10-08-kak-se-preodolyava-hazartna-zavisimost` (#281, drafted) — the only
+  flagged branch in the whole `content/*` scan. Resolved 4 `[VERIFY]` + 1 `[DATA NEEDED]`
+  plus the `[AUTHOR BIO BLOCK]` / `[BRAND BOILERPLATE]` / `[18+ / RG LINE]` footer stubs →
+  **0 blocking markers, publish-ready.**
+  - Genuinely uncertain claims softened in prose, no facts invented: in-person 12-step groups
+    in BG (points reader to check at time of reading), public clinic/psychiatrist list (states
+    none exists, points to GP + regional mental-health centre), health-ministry funding
+    regulation (generalised to "normative discussion", points to official health-authority
+    sources), suicide stats framing kept explicitly bounded to people in treatment.
+  - Kept brand-canon helpline (Солидарност 0888 99 18 66, 10:00–17:00 — already live in every
+    posted article's RG boilerplate), byline Георги Тодоров, brand Всички Казина, verbatim 18+
+    RG line, both live internal links.
+  - Footer filled to the standard published form (byline + About boilerplate + RG block +
+    affiliate disclosure); removed an em-dash from image alt text → published surface em-dash-free.
+  - Commit `fix(flags): … publish-ready`, pushed. Re-scan: ZERO blocking markers.
+
+### JOB B — low Gemini score (targets: status drafted/approved with `ai <n>` or `human <80`)
+5 in-scope rows, all processed (≤10 cap, none deferred). Worst-first:
+
+- **vk-0230** `2026-10-01-trustly-open-banking-kazino` (#249, drafted) — board `ai 65`,
+  baseline re-check `ai 75`. **3 passes → PASS "Likely human-written 80%" → board `human 80`.**
+  Consolidated the repeated Trustly-vs-classic-transfer contrast, merged the thin
+  Наличност+Такси sections, de-aphorized "Trustly е удобство, лицензът е защитата", smoothed
+  bolted-on first-person, "На изхода"→"При теглене". Facts (3000 banks, Pay N Play, KYC,
+  1.9%/3.99%/€5, НАП, no chargeback), 4 links and RG line unchanged.
+- **vk-0219** `2026-09-30-synot-games` (#236, drafted) — board `ai 75`. **3 passes → PASS
+  "Likely human-written 85%" → board `human 85`.** Cut the "Благодарение на…" summary bridge
+  (folded RNG/ISO audit into the jurisdictions paragraph), trimmed didactic appendages (kept
+  the honest "регулацията не е предимство за вас" doctrine), removed the "визитна картичка"
+  cliché and "тематичният обхват е широк" filler, de-clinicalised the title-count growth
+  figures. All facts (1991/2016, ~250 titles, 35/100/200 growth, UKGC… list, ISO 27001,
+  85.02–98.02%/96.13%, game names), 4 links and RG line unchanged.
+- **vk-0229** `2026-10-01-bankov-prevod-kazino` (#248, drafted) — board `ai 75`. **3 passes →
+  PASS "Likely human-written 85%" → board `human 85`.** Replaced semicolon "AI-glue" run-ons
+  with full stops, deleted the tautological fee-recap sentence, trimmed the hedge pile-up,
+  broke the balanced-contrast seesaw (+ removed the "Същата тази" crutch), removed the
+  "Следващата стъпка е" signpost, cut the closing wrap-up contrast, renamed the "и за кого е
+  този метод" H2. Facts (SEPA 40+ countries, 1 business day, SEPA Instant 24/7, €20 vs €5/€10,
+  no chargeback, same-account/AML, KYC), 4 links and RG line unchanged.
+- **vk-0226** `2026-10-01-e-portfeili-skrill-neteller` (#245, drafted) — board `ai 75`.
+  **5 passes, did NOT clear 80 — detector high-variance 70–75 on this payment-method content;
+  best/cleanest version kept, board stays `ai 75`, flagged for human.** Genuine humanising
+  applied: removed the "Кое за кого" summary wrap-up (relocated its internal link to the fees
+  section), de-clickbaited the "уловката" H2, stripped overused "обаче" contrast pivots (4→0),
+  de-textbooked the wallet definition, cut concept-looping privacy reminders. Facts (Paysafe,
+  24h/72h, 1.9%/3.99%/€5/12 months, KYC, bonus exclusion), 4 links and RG line unchanged.
+- **vk-0261** `2026-10-08-kak-se-preodolyava-hazartna-zavisimost` (#281, drafted) — board
+  `ai 75` (also JOB A above). **5 passes, did NOT clear 80 — high-variance on this BG health
+  content (85→60→cyborg75→75→65); improved to board `ai 65`, best version kept, flagged for
+  human.** Broke formulaic paragraph symmetry/concept-as-subject openers, cut the meta-
+  transition and the restate-summary "Какво остава" wrap-up, converted the treatment-path
+  bullet list to prose, removed mechanical CBT metaphor / see-saw / X-not-Y contrasts /
+  clinical jargon, smoothed the forced keyword clause. Declined Gemini's suggestion to delete
+  the "хазартът е платено забавление, не метод за печалба" line (RG compliance doctrine).
+  Facts, numbers, links, keywords and RG/18+ language unchanged.
+
+### Finish
+Board `gemini` updated for all 5 rows (vk-0230 `human 80`, vk-0219 `human 85`, vk-0229
+`human 85`, vk-0226 `ai 75` unchanged, vk-0261 `ai 65`); nightly notes prepended to each.
+Rebuilt `scripts/build_dashboard.py` (`docs/data/status.json`, buffer 223/10) and
+`scripts/build_feed.py` (23 approved articles; only `generated_utc` changed in
+`published/index.json` — none of the processed drafts leaked into the feed). Commit
+`chore(quality): nightly flag+score fixes 2026-10-08` on main.
+
+### POSTED — needs human review (recurring, STILL OPEN)
+- **vk-0063** `2026-09-13-nv-casino-zakonno-li-e` (#79, posted, `ai 75`) and
+  **vk-0064** `2026-09-13-nv-casino-bonus-usloviya` (#80, posted, `human 85`) still contain
+  `[AUTHOR BIO BLOCK …]` / `[BRAND BOILERPLATE …]` footer stubs in their `05b-final-draft.md`
+  on `main`. These are posted/live, so the automation did NOT touch them. Given the publisher
+  now hard-blocks any article containing such markers, a human should resolve these footer
+  stubs — likely these two pages are not cleanly live. Carried forward from prior nights.
+
+### Deferred
+None — only 5 valid in-scope JOB B rows existed; all processed this run.
