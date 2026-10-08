@@ -15,15 +15,15 @@
   <text x="36" y="200" text-anchor="start" font-size="16" font-weight="700" fill="#0f172a">Степен на разстройството (по DSM-5)</text>
   <text x="36" y="220" text-anchor="start" font-size="12.5" fill="#64748b">Диагноза при поне 4 от 9 критерия в рамките на 12 месеца.</text>
   <g font-size="14" font-weight="600">
-    <rect x="36" y="232" width="206" height="46" rx="10" fill="#ecfeff" stroke="#a5f3fc" stroke-width="1.5"/>
-    <text x="139" y="255" text-anchor="middle" fill="#0f766e">лека</text>
-    <text x="139" y="272" text-anchor="middle" font-size="13" fill="#334155">4–5 критерия</text>
-    <rect x="257" y="232" width="206" height="46" rx="10" fill="#fef9c3" stroke="#fde68a" stroke-width="1.5"/>
-    <text x="360" y="255" text-anchor="middle" fill="#92400e">умерена</text>
-    <text x="360" y="272" text-anchor="middle" font-size="13" fill="#334155">6–7 критерия</text>
-    <rect x="478" y="232" width="206" height="46" rx="10" fill="#ffe4e6" stroke="#fecdd3" stroke-width="1.5"/>
-    <text x="581" y="255" text-anchor="middle" fill="#9f1239">тежка</text>
-    <text x="581" y="272" text-anchor="middle" font-size="13" fill="#334155">8–9 критерия</text>
+    <rect x="36" y="232" width="206" height="54" rx="10" fill="#ecfeff" stroke="#a5f3fc" stroke-width="1.5"/>
+    <text x="139" y="257" text-anchor="middle" fill="#0f766e">лека</text>
+    <text x="139" y="276" text-anchor="middle" font-size="13" fill="#334155">4–5 критерия</text>
+    <rect x="257" y="232" width="206" height="54" rx="10" fill="#fef9c3" stroke="#fde68a" stroke-width="1.5"/>
+    <text x="360" y="257" text-anchor="middle" fill="#92400e">умерена</text>
+    <text x="360" y="276" text-anchor="middle" font-size="13" fill="#334155">6–7 критерия</text>
+    <rect x="478" y="232" width="206" height="54" rx="10" fill="#ffe4e6" stroke="#fecdd3" stroke-width="1.5"/>
+    <text x="581" y="257" text-anchor="middle" fill="#9f1239">тежка</text>
+    <text x="581" y="276" text-anchor="middle" font-size="13" fill="#334155">8–9 критерия</text>
   </g>
 
   <!-- Care pathway BG -->
@@ -48,9 +48,9 @@
     <text x="84" y="479" text-anchor="start" font-size="13" fill="#475569">върви успоредно с индивидуалната работа (12-стъпков модел)</text>
   </g>
 
-  <rect x="36" y="500" width="648" height="44" rx="10" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1.5"/>
-  <text x="360" y="521" text-anchor="middle" font-size="13.5" font-weight="600" fill="#0f172a">Отрязване на достъпа до хазарт, докато контролът се връща</text>
-  <text x="360" y="537" text-anchor="middle" font-size="12.5" fill="#475569">лимити, а при нужда самоизключване чрез регистъра на уязвимите лица към НАП</text>
+  <rect x="36" y="498" width="648" height="52" rx="10" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="360" y="520" text-anchor="middle" font-size="13.5" font-weight="600" fill="#0f172a">Отрязване на достъпа до хазарт, докато контролът се връща</text>
+  <text x="360" y="539" text-anchor="middle" font-size="12.5" fill="#475569">лимити, а при нужда самоизключване чрез регистъра на уязвимите лица към НАП</text>
 
   <!-- Remission goal -->
   <text x="36" y="588" text-anchor="start" font-size="16" font-weight="700" fill="#0f172a">Целта: ремисия</text>
