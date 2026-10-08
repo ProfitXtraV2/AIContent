@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-08T00:00:04Z",
+  "generated_utc": "2026-10-08T06:49:25Z",
   "buffer": {
-    "count": 224,
+    "count": 222,
     "target": 10,
     "deficit": 0,
     "ok": true
@@ -9,8 +9,8 @@
   "counts": {
     "in-progress": 0,
     "drafted": 199,
-    "approved": 25,
-    "posted": 35,
+    "approved": 23,
+    "posted": 37,
     "failed": 1
   },
   "rows": [
@@ -1931,7 +1931,7 @@
     },
     {
       "id": "vk-0104",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Nolimit City: профил на доставчика, механики и топ слотове",
       "keywords_or_terms": "nolimit city, нолимит сити, nolimit games",
@@ -1939,7 +1939,7 @@
       "kd": "67",
       "source": "research",
       "drafted_date": "2026-09-18",
-      "posted_date": "",
+      "posted_date": "2026-10-08",
       "folder": "2026-09-18-nolimit-city",
       "pr": "#121",
       "gemini": "skipped",
@@ -2497,7 +2497,7 @@
     },
     {
       "id": "vk-0134",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Bell Link (EGT Digital): как работи джакпот системата",
       "keywords_or_terms": "bell link, бел линк, egt bell link, bell link джакпот",
@@ -2505,7 +2505,7 @@
       "kd": "69",
       "source": "research",
       "drafted_date": "2026-09-20",
-      "posted_date": "",
+      "posted_date": "2026-10-08",
       "folder": "2026-09-20-bell-link",
       "pr": "#151",
       "gemini": "human 85",
