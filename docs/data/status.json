@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-08T23:54:05Z",
+  "generated_utc": "2026-10-09T06:54:34Z",
   "buffer": {
-    "count": 223,
+    "count": 221,
     "target": 10,
     "deficit": 0,
     "ok": true
@@ -9,8 +9,8 @@
   "counts": {
     "in-progress": 0,
     "drafted": 200,
-    "approved": 23,
-    "posted": 37,
+    "approved": 21,
+    "posted": 39,
     "failed": 1
   },
   "rows": [
@@ -698,7 +698,7 @@
     },
     {
       "id": "vk-0035",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Book of Ra: RTP, характеристики и как се играе",
       "keywords_or_terms": "book of ra, бук ъв ра",
@@ -706,7 +706,7 @@
       "kd": "73",
       "source": "research",
       "drafted_date": "2026-09-10",
-      "posted_date": "",
+      "posted_date": "2026-10-09",
       "folder": "2026-09-10-book-of-ra",
       "pr": "#41",
       "gemini": "human 90",
@@ -1821,7 +1821,7 @@
     },
     {
       "id": "vk-0098",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Tombstone R.I.P. (Nolimit City): RTP, волатилност и как работи",
       "keywords_or_terms": "tombstone, тумбстоун, tombstone rip, nolimit tombstone",
@@ -1829,7 +1829,7 @@
       "kd": "59",
       "source": "research",
       "drafted_date": "2026-09-17",
-      "posted_date": "",
+      "posted_date": "2026-10-09",
       "folder": "2026-09-17-tombstone-rip",
       "pr": "#116",
       "gemini": "skipped",
