@@ -5,14 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01YHjw6odBMhtFT9xbAvmw3c",
-  "note": "daily run 2026-10-09 — reconcile (0 in-progress), monthly SEO review current (2026-10) -> skip step 1a, select up to MAX_PER_RUN=1",
+  "note": "daily run 2026-10-09 — writing vk-0262 онлайн бинго game-type pillar (1/1); backlog all NV-Casino operator-blocked, research bank 0 candidates -> fresh Ahrefs surfaced bingo cluster (как се играе бинго 100/kd0 informational, distinct clean pillar)",
   "progress": {
-    "phase": "selecting",
-    "article_index": null,
-    "article_total": null,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "phase": "writing",
+    "article_index": 1,
+    "article_total": 1,
+    "article_slug": "2026-10-09-onlayn-bingo-pravila",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
