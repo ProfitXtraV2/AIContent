@@ -40,3 +40,4 @@
   skipped (unavailable). AI hero skipped.
 - 06-verification: 2 surviving flags (кено [CONFLICT] ×2 — primary ЗХ text found that lists кено;
   concession-2026 [VERIFY]); time-sensitive claims table; C(47,6) recalculated.
+- Cloud reconcile 2026-10-10 — Step 7 Gemini check 1: human-written 90% → PASS (0 humaniser passes, gemini = `human 90`); Step 8 Gemini image review 1: score 100 PASS (images: 2 (odds-bars infographic + checklist infographic; joint review 100, both PASS, no fixes asked)); no new hero; flags untouched; committed to existing PR branch.

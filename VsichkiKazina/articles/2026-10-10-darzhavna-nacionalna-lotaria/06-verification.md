@@ -70,3 +70,8 @@ C(49,6) = 13 983 816; C(42,6) = 5 245 786. Ratios: 10 737 573 / 5 245 786 = 2.04
   backfill pending). AI hero: skipped per run instructions. Every figure traces to 05b.
 - Placeholders for the publisher: [Author bio: Георги Тодоров], [About Всички Казина boilerplate].
 - Mid-run legal correction (НАП pack §4 outdated) applied at Stage 0 → 2 → re-run 3, 4 (see log.md).
+
+## CLOUD RECONCILE 2026-10-10 — Step 7 + Step 8 (supersedes the „skipped" lines above)
+- STEP 7 — external check: Gemini **Likely human-written, 90%** → human-likeness 90 ≥ 80 → PASS on check 1 (initial 05b). Humaniser passes applied: 0. Final 05b = the handed-off version (unchanged). See `07-gemini-check-1.md`. content-queue `gemini` → `human 90`.
+- STEP 8 — Gemini image review: score 100 (PASS, no integrity issue) — `08-image-review-1.md`. images: 2 (odds-bars infographic + checklist infographic; joint review 100, both PASS, no fixes asked). No AI hero added (review did not ask for one). 
+- Flags untouched ([VERIFY]/[CONFLICT]/[DATA NEEDED] stay for the nightly fix job / human).
