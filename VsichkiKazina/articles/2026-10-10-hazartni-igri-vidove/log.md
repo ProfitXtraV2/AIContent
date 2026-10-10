@@ -13,3 +13,4 @@
 - Step 8 Images — 1 hand-authored SVG infographic (5 types / online / legal basis); svg_layout_lint ✓; Chrome render eyeballed; referenced in 05b with BG ALT + caption. Image review: skipped (Gemini unavailable). AI hero skipped (needs Gemini).
 - 06-verification assembled: 4 distinct [VERIFY] (5 occurrences) stay in text; pre-assembled primary-source notes (чл. 26 licence term; under-18 lottery ban is чл. 9, ал. 11 not чл. 10).
 - Final: ~1,655 body words (+~205 FAQ). Outcome: drafted; PR opened (content-only). NEVER resolved a flag / posted / merged / fabricated.
+- Cloud reconcile 2026-10-10 — Step 7: check 1 AI 80% (hl 20) → pass 1 → check 2 AI 75% (hl 25) → pass 2 → check 3 AI 80% (hl 20); cap reached, keep-best = pass 1 (hl 25) restored; gemini = `ai 75` (human editor attention advised). Step 8: Gemini image review 1 score 100 PASS (img:1); no new hero; flags untouched; committed to existing PR branch.

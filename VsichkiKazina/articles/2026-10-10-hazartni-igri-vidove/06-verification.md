@@ -74,3 +74,8 @@ https://kik-info.com/normativna-baza/zakoni/0X2135783265/ (fetched 10.10.2026). 
 ## HUMAN TODO (Step 6)
 Resolve the 4 [VERIFY] flags above (note the чл. 9 vs чл. 10 finding and the чл. 26 licence-term nuance), fill the
 [AUTHOR BIO BLOCK] / [BRAND BOILERPLATE] slots, then approve. Do not publish with flags in the text.
+
+## CLOUD RECONCILE 2026-10-10 — Step 7 + Step 8 (supersedes the „skipped" lines above)
+- STEP 7 — external check: check 1 (handed-off 05b) Gemini **Likely AI-generated, 80%** → human-likeness 20. Humaniser pass 1 (7b, fresh context) + quick Brand Gate re-check → check 2 **Shows AI patterns, 75%** → hl 25. Humaniser pass 2 (7b) + Brand Gate re-check → check 3 **Shows AI patterns, 80%** → hl 20. MAX_GEMINI_PASSES (2) reached → **keep-best = pass 1 (hl 25)**, restored as final 05b (`content(...): keep best version (pass 1, 25%)`). Every pass diff-verified: numbers, links, flags, чл./ал. refs, byline, brand, 18+/RG unchanged; 0 em-dashes; H1 unchanged. Did NOT reach 80 → **human editor attention advised** (Gemini's residual critique: conversational asides, signposting before internal links, templated FAQ — see `07-gemini-check-2.md`). content-queue `gemini` → `ai 75`.
+- STEP 8 — Gemini image review: score 100 (PASS, no integrity issue) — `08-image-review-1.md`. images: 1 (infographic 100). No AI hero added (review did not ask for one).
+- Flags untouched ([VERIFY] ×5 incl. 1 duplicate stay for the nightly fix job / human).
