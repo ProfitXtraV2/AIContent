@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-10T10:54:05Z",
+  "generated_utc": "2026-10-10T10:54:42Z",
   "buffer": {
-    "count": 232,
+    "count": 233,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 2,
-    "drafted": 207,
+    "in-progress": 1,
+    "drafted": 208,
     "approved": 25,
     "posted": 41,
     "failed": 1
@@ -5532,7 +5532,7 @@
     },
     {
       "id": "vk-0274",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Тото Рожден ден — как се играе и какъв е шансът",
       "keywords_or_terms": "тото рожден ден, как се играе тото рожден ден, тото рожден ден правила",
@@ -5541,17 +5541,23 @@
       "source": "backlog",
       "drafted_date": "2026-10-10",
       "posted_date": "",
-      "folder": "",
-      "pr": "",
-      "gemini": "",
-      "notes": "CLAIMED-UNTIL: 2026-10-11T06:00:00Z · ad-hoc cloud run 2026-10-10 (human-requested „write now with cowork\") from topic-backlog 2026-10-10c; full pipeline incl. Gemini 7+8",
+      "folder": "2026-10-10-toto-rozhden-den",
+      "pr": "#295",
+      "gemini": "human 90",
+      "notes": "img:2 (best 100) · ad-hoc cloud run 2026-10-10 (human-requested „write now with cowork\") from topic-backlog 2026-10-10c; full pipeline incl. Gemini 7+8 · gate FAIL 79 (inline 2016/2017 [CONFLICT] from Stage 1) → fixed at Stage 1 → PASS WITH FIXES 84→91; Stage 3 MIXED 46/60 rewrite; Gemini check 1 AI 75% → pass 1 → human 90 (keep-best pass 1); images hero 100 + 15-group odds SVG 100; jackpot 1:255 675, any-win ≈1:4.04 (python-checked); 9 [VERIFY] in text (price 0.50 €, draw mechanism, drawn-date validity, year-digit wins, jackpot 7 353.06 €, prize-fund %/fixed vs pari-mutuel, rollover, shared groups, schedule) + launch-year [CONFLICT] 2016 vs 2017 in 06; no picks",
       "opportunity": {
         "score": 58,
         "band": "Good",
         "winnable": true
       },
-      "verify_flags": null,
-      "verify_samples": []
+      "verify_flags": 9,
+      "verify_samples": [
+        "[VERIFY: текуща цена; източник: info.toto.bg, таблица „Пълно комбиниране\"]",
+        "[VERIFY: механизъм на тегленето, отделни барабани ли са за всеки елемент; източник: toto.bg / БСТ]",
+        "[VERIFY: валидност на изтеглената дата; източник: БСТ]",
+        "[VERIFY: печели ли една позната цифра от годината; източник: правила на БСТ]",
+        "[VERIFY: текущ джакпот; източник: toto.bg]"
+      ]
     },
     {
       "id": "vk-0275",
@@ -6227,8 +6233,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN (kd0). БСТ game: draw = Година/Месец/Дата/Ден (source pack), jackpot €7 353.06 at тираж 79; compute odds from verified format; no picks.",
-      "status": "open",
-      "notes": "cluster: lottery; discovery 2026-10-10b/c",
+      "status": "written",
+      "notes": "cluster: lottery; discovery 2026-10-10b/c · written: vk-0274 PR #295",
       "opportunity": {
         "score": 58,
         "band": "Good",
@@ -10228,7 +10234,7 @@
     ],
     "bands": {
       "Moderate": 7,
-      "Good": 2,
+      "Good": 1,
       "Strong": 1
     },
     "clusters": {
@@ -10238,9 +10244,9 @@
         "total": 2
       },
       "lottery": {
-        "winnable": 4,
+        "winnable": 3,
         "pillar": 0,
-        "total": 4
+        "total": 3
       },
       "roulette": {
         "winnable": 1,
@@ -10267,19 +10273,6 @@
         "intent": "informational",
         "band": "Strong",
         "score": 84,
-        "winnable": true,
-        "cluster": "lottery",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
-        "query": "Тото Рожден ден — как се играе и какъв е шансът",
-        "keywords": "тото рожден ден, как се играе тото рожден ден, тото рожден ден правила",
-        "volume": "350",
-        "kd": "0",
-        "intent": "informational",
-        "band": "Good",
-        "score": 58,
         "winnable": true,
         "cluster": "lottery",
         "status": "open",
@@ -10380,7 +10373,7 @@
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 9,
+      "winnable": 8,
       "pillars": 0
     }
   }
