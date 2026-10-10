@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 24,
+  "count": 25,
   "articles": [
     {
       "slug": "gates-of-olympus-1000",
@@ -164,6 +164,13 @@
       "status": "approved"
     },
     {
+      "slug": "vtori-toto-shans",
+      "title": "Втори тото шанс 5 от 35 и 6 от 49: как работи през 2026",
+      "date_modified": "2026-10-10",
+      "content_hash": "e1aa7595e51f3297c035033f742c8ec7799d541ca6e0fa84ca46e1c49a6a112d",
+      "status": "approved"
+    },
+    {
       "slug": "toto-zodiak",
       "title": "Тото Зодиак: правила, печеливши групи и реалният шанс за джакпот",
       "date_modified": "2026-10-10",
@@ -171,5 +178,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-10T10:22:58Z"
+  "generated_utc": "2026-10-10T10:26:21Z"
 }

@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-10T10:22:58Z",
+  "generated_utc": "2026-10-10T10:26:21Z",
   "buffer": {
     "count": 229,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 5,
-    "drafted": 205,
-    "approved": 24,
+    "drafted": 204,
+    "approved": 25,
     "posted": 41,
     "failed": 1
   },
@@ -4815,7 +4815,7 @@
     },
     {
       "id": "vk-0268",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Втори тото шанс — какво е и как работи",
       "keywords_or_terms": "втори тото шанс 5 от 35, втори тото шанс 6 49",
