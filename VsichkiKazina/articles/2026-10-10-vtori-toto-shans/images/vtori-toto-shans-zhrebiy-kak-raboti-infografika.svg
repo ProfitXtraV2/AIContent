@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 680" width="760" height="680" role="img" aria-labelledby="t d">
+  <title id="t">Как работи втори тото шанс от 2026 г.</title>
+  <desc id="d">Стъпки на втори тото шанс за ТОТО 2 6 от 49 и 5 от 35: залог без доплащане, автоматично участие на квитанцията в жребия, жребий на живо по БНТ в четвъртък и неделя от 18:45 ч., печалби 5 по 350 евро при 5 от 35 и 6 по 490 евро при 6 от 49, проверка по имейл или по серийния номер на квитанцията.</desc>
+  <style>
+    .h{font:700 22px Arial,Helvetica,sans-serif;fill:#1b2a41}
+    .s{font:400 13px Arial,Helvetica,sans-serif;fill:#4a5568}
+    .sh{font:700 16px Arial,Helvetica,sans-serif;fill:#1b2a41}
+    .sb{font:400 14px Arial,Helvetica,sans-serif;fill:#2d3748}
+    .n{font:700 18px Arial,Helvetica,sans-serif;fill:#ffffff}
+    .ph{font:700 17px Arial,Helvetica,sans-serif;fill:#1b2a41}
+    .pv{font:700 22px Arial,Helvetica,sans-serif;fill:#0f6b5c}
+    .pt{font:400 13px Arial,Helvetica,sans-serif;fill:#2d3748}
+    .f{font:400 13px Arial,Helvetica,sans-serif;fill:#2d3748}
+    .fb{font:700 13px Arial,Helvetica,sans-serif;fill:#1b2a41}
+  </style>
+  <rect x="1" y="1" width="758" height="678" rx="14" fill="#f7f9fc" stroke="#d5dde8" stroke-width="2"/>
+
+  <text class="h" x="380" y="44" text-anchor="middle">Как работи втори тото шанс (от 2026 г.)</text>
+  <text class="s" x="380" y="68" text-anchor="middle">Жребий между квитанциите за 6 от 49 и 5 от 35, без доплащане</text>
+
+  <!-- Step 1 -->
+  <rect x="24" y="88" width="712" height="66" rx="10" fill="#ffffff" stroke="#d5dde8"/>
+  <circle cx="58" cy="121" r="18" fill="#1f5f99"/>
+  <text class="n" x="58" y="127" text-anchor="middle">1</text>
+  <text class="sh" x="92" y="114">Залагате на ТОТО 2 6 от 49 или 5 от 35</text>
+  <text class="sb" x="92" y="138">В пункт или онлайн. Отделен фиш или допълнителен залог няма.</text>
+
+  <!-- Step 2 -->
+  <rect x="24" y="164" width="712" height="66" rx="10" fill="#ffffff" stroke="#d5dde8"/>
+  <circle cx="58" cy="197" r="18" fill="#1f5f99"/>
+  <text class="n" x="58" y="203" text-anchor="middle">2</text>
+  <text class="sh" x="92" y="190">Квитанцията влиза в жребия автоматично</text>
+  <text class="sb" x="92" y="214">Тегли се квитанция, затова числата от фиша не влияят на жребия.</text>
+
+  <!-- Step 3 -->
+  <rect x="24" y="240" width="712" height="66" rx="10" fill="#ffffff" stroke="#d5dde8"/>
+  <circle cx="58" cy="273" r="18" fill="#1f5f99"/>
+  <text class="n" x="58" y="279" text-anchor="middle">3</text>
+  <text class="sh" x="92" y="266">Жребий на живо по БНТ</text>
+  <text class="sb" x="92" y="290">Четвъртък и неделя от 18:45 ч., в предаването на ТОТО 2.</text>
+
+  <!-- Step 4: prizes -->
+  <rect x="24" y="316" width="712" height="182" rx="10" fill="#ffffff" stroke="#d5dde8"/>
+  <circle cx="58" cy="349" r="18" fill="#1f5f99"/>
+  <text class="n" x="58" y="355" text-anchor="middle">4</text>
+  <text class="sh" x="92" y="355">Гарантирани печалби във всеки тираж</text>
+
+  <rect x="44" y="374" width="320" height="112" rx="8" fill="#eaf5f2" stroke="#b9ddd4"/>
+  <text class="ph" x="204" y="398" text-anchor="middle">5 от 35</text>
+  <text class="pv" x="204" y="432" text-anchor="middle">5 × 350 евро</text>
+  <text class="pt" x="204" y="462" text-anchor="middle">общо 1 750 евро на тираж</text>
+
+  <rect x="396" y="374" width="320" height="112" rx="8" fill="#eaf5f2" stroke="#b9ddd4"/>
+  <text class="ph" x="556" y="398" text-anchor="middle">6 от 49</text>
+  <text class="pv" x="556" y="426" text-anchor="middle">6 × 490 евро</text>
+  <text class="pt" x="556" y="446" text-anchor="middle">общо 2 940 евро в редовен тираж</text>
+  <text class="pt" x="556" y="464" text-anchor="middle">специален тираж:</text>
+  <text class="pt" x="556" y="480" text-anchor="middle">една печалба от 33 000 евро</text>
+
+  <!-- Step 5 -->
+  <rect x="24" y="508" width="712" height="76" rx="10" fill="#ffffff" stroke="#d5dde8"/>
+  <circle cx="58" cy="546" r="18" fill="#1f5f99"/>
+  <text class="n" x="58" y="552" text-anchor="middle">5</text>
+  <text class="sh" x="92" y="532">Проверка</text>
+  <text class="sb" x="92" y="554">Онлайн: печелившите получават имейл.</text>
+  <text class="sb" x="92" y="574">Хартиена квитанция: търсете серийния номер в списъка на БСТ.</text>
+
+  <!-- Footer -->
+  <text class="fb" x="380" y="612" text-anchor="middle">Шанс на една квитанция ≈ брой печалби ÷ брой участващи квитанции (N)</text>
+  <text class="f" x="380" y="636" text-anchor="middle">БСТ не публикува N, затова точна вероятност няма.</text>
+  <text class="f" x="380" y="658" text-anchor="middle">18+ Играйте отговорно · Всички Казина</text>
+</svg>
