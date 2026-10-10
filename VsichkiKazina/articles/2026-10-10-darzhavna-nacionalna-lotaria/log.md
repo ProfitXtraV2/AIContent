@@ -34,3 +34,9 @@
 - Stage 5b Light re-check (05b): 1 signpost fix („Втората посока е…"), header format, residue line
   removed. NUMBER DIFF 05→05b: IDENTICAL (only the removed char-count labels 52/145).
   Body 1554 words (H1→signature), 0 em-dash.
+- Step 7 external check: skipped (Gemini unavailable — GEMINI_API_KEY not set locally; cloud backfill pending).
+- Step 8 images: 2 SVG infographics (legal-lottery/scam checklist; 6/42-6/47-6/49 combinations),
+  figures verbatim from 05b, svg_layout_lint clean, rendered + eyeballed. Gemini image review:
+  skipped (unavailable). AI hero skipped.
+- 06-verification: 2 surviving flags (кено [CONFLICT] ×2 — primary ЗХ text found that lists кено;
+  concession-2026 [VERIFY]); time-sensitive claims table; C(47,6) recalculated.
