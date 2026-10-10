@@ -20,6 +20,14 @@ This run may be re-fired at any time (schedule fires 3×/day; a prior run may ha
   For each: if its `content/<slug>` branch already has a complete `05b`, finish it (Gemini
   Step-7 → PR → set `drafted`); otherwise complete the writing from where it left off. Only
   after all in-progress rows are resolved do you select NEW topics for this run's batch.
+  - **Handoff rows** (notes contain `HANDOFF:` — drafted in an ad-hoc local session where Gemini
+    was unavailable): the branch already has `05b` + image(s) and the row's `pr` column already
+    names an OPEN PR. Check out that branch and run ONLY what is missing: Step 7 (Gemini check +
+    keep-best humaniser loop, `MAX_GEMINI_PASSES`) and the Step-8 Gemini image review (fix/keep-best
+    per Step 8; do not add a hero unless the review asks for one). Commit the usual audit trail
+    to the SAME branch so it lands on the existing PR — NEVER open a second PR. Update
+    `06-verification.md`/`log.md`, then set the row `drafted` with the `gemini` result. Each
+    handoff row counts as reconcile work, not as one of this run's `MAX_PER_RUN` new articles.
 - **Never duplicate.** An article already `drafted`/`approved`/`posted` (or with an open PR)
   is done — never rewrite it. Dedup every new candidate against the queue + sitemap as usual.
 - **Rate-limit behavior.** If you hit a 429 mid-run, commit whatever is safely complete
