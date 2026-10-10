@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 21,
+  "count": 22,
   "articles": [
     {
       "slug": "gates-of-olympus-1000",
@@ -148,7 +148,14 @@
       "date_modified": "2026-10-10",
       "content_hash": "b4ce57bc85abd319b1ecdbf807a39109a3d8292a1ac41799fa400ab72b2e7bcf",
       "status": "approved"
+    },
+    {
+      "slug": "toto-dzhoker",
+      "title": "Тото Джокер — как работи и какъв е реалният шанс за печалба",
+      "date_modified": "2026-10-10",
+      "content_hash": "527ef702ee1fd8f5d90ece5d7114cf6413a1368f4a20a603ea8500ed1f952e02",
+      "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-10T09:19:54Z"
+  "generated_utc": "2026-10-10T10:20:51Z"
 }
