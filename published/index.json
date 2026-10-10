@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 22,
+  "count": 23,
   "articles": [
     {
       "slug": "gates-of-olympus-1000",
@@ -155,7 +155,14 @@
       "date_modified": "2026-10-10",
       "content_hash": "527ef702ee1fd8f5d90ece5d7114cf6413a1368f4a20a603ea8500ed1f952e02",
       "status": "approved"
+    },
+    {
+      "slug": "toto-2-igri",
+      "title": "Тото 6 от 49, 6/42 и 5/35: правила и шансове | Всички Казина",
+      "date_modified": "2026-10-10",
+      "content_hash": "5edc87b21f36a2e36988e49e0fec1f6563d4596e8a0d794b73b037f2ab7d62b7",
+      "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-10T10:20:51Z"
+  "generated_utc": "2026-10-10T10:21:09Z"
 }
