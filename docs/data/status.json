@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-10T07:41:33Z",
+  "generated_utc": "2026-10-10T07:42:25Z",
   "buffer": {
     "count": 220,
     "target": 10,
@@ -7,7 +7,7 @@
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
+    "in-progress": 1,
     "drafted": 201,
     "approved": 19,
     "posted": 41,
@@ -4705,6 +4705,27 @@
       "opportunity": {
         "score": 45,
         "band": "Good",
+        "winnable": true
+      }
+    },
+    {
+      "id": "vk-0263",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Покер комбинации: подредба на ръцете от роял флъш до най-висока карта",
+      "keywords_or_terms": "покер комбинации, подредба на покер ръцете, покер ръце, роял флъш, каре, фул хаус, кента, цвят, старша карта",
+      "volume": "700",
+      "kd": "0",
+      "source": "research",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-10-10-poker-kombinacii",
+      "pr": "",
+      "gemini": "",
+      "notes": "NEW discovered reference pillar (Ahrefs bg 2026-10-10): „покер комбинации\" 700/kd0 informational, trend UP (recent3 ~717 vs ~600 9-12mo ago, +19%). DISTINCT reference intent (hand-ranking lookup) vs how-to-play overview vk-0008 (/blog/kak-se-igrae-poker-kazino/, targets „как се играе покер\") + variant guides (видеопокер vk-0173, 3-card vk-0176, UTH vk-0178, Casino Hold'em vk-0189). 0 hand-rankings page in queue+live sitemap (108 URLs). Anchors casino-poker cluster via internal links. Guides-scope: 0 operator T&C, 0 НАП, 0 affiliate. Honest casino angle: ranking order is standard for 5-card games but 3-card poker reverses straight>flush (rarer in 3 cards); hands only decide showdown, not house edge",
+      "opportunity": {
+        "score": 75,
+        "band": "Strong",
         "winnable": true
       }
     }
