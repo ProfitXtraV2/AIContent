@@ -28,6 +28,11 @@ This run may be re-fired at any time (schedule fires 3×/day; a prior run may ha
     to the SAME branch so it lands on the existing PR — NEVER open a second PR. Update
     `06-verification.md`/`log.md`, then set the row `drafted` with the `gemini` result. Each
     handoff row counts as reconcile work, not as one of this run's `MAX_PER_RUN` new articles.
+- **Claimed rows** (notes contain `CLAIMED-UNTIL: <ISO-UTC>`): an ad-hoc cloud run owns that
+    row. While now < that time, SKIP it entirely (no reconcile, no branch work). Once the time has
+    passed, treat it as a normal in-progress leftover (resume from the branch if it exists, else
+    write it from scratch using the row's keywords/notes) — this is the retry path if the ad-hoc
+    run died. Remove the CLAIMED-UNTIL token when you take it over.
 - **Never duplicate.** An article already `drafted`/`approved`/`posted` (or with an open PR)
   is done — never rewrite it. Dedup every new candidate against the queue + sitemap as usual.
 - **Rate-limit behavior.** If you hit a 429 mid-run, commit whatever is safely complete
