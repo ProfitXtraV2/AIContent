@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-10T10:52:58Z",
+  "generated_utc": "2026-10-10T10:54:05Z",
   "buffer": {
-    "count": 231,
+    "count": 232,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 3,
-    "drafted": 206,
+    "in-progress": 2,
+    "drafted": 207,
     "approved": 25,
     "posted": 41,
     "failed": 1
@@ -5584,7 +5584,7 @@
     },
     {
       "id": "vk-0276",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Казината в Лас Вегас — какво да знаете, преди да играете",
       "keywords_or_terms": "лас вегас, лас вегас казино, атлантик сити",
@@ -5593,17 +5593,23 @@
       "source": "backlog",
       "drafted_date": "2026-10-10",
       "posted_date": "",
-      "folder": "",
-      "pr": "",
-      "gemini": "",
-      "notes": "CLAIMED-UNTIL: 2026-10-11T06:00:00Z · ad-hoc cloud run 2026-10-10 (human-requested „write now with cowork\") from topic-backlog 2026-10-10c; full pipeline incl. Gemini 7+8",
+      "folder": "2026-10-10-kazina-las-vegas",
+      "pr": "#294",
+      "gemini": "human 90",
+      "notes": "img:3 (best 100) · ad-hoc cloud run 2026-10-10 (human-requested „write now with cowork\") from topic-backlog 2026-10-10c · BRAND-FIT GATE passed (gambling angle only: NGCB Strip hold data, 6:5/zeros, 21+, comps, IRS Pub. 515 treaty for BG residents, vs НАП-licensed online; no travel/resorts) · gate 85→92 · humaniser HUMAN-LIKE 50/60 · Gemini 65→90 (pass 1 kept) · img review 95→100 · 5 [VERIFY] for human",
       "opportunity": {
         "score": 75,
         "band": "Strong",
         "winnable": true
       },
-      "verify_flags": null,
-      "verify_samples": []
+      "verify_flags": 5,
+      "verify_samples": [
+        "[VERIFY: база на win % за кено в отчета на NGCB, drop или общо заложено, преди да се сравнява с каквото и да е]",
+        "[VERIFY: колко разпространени са масите 6:5 на Стрипа, източник casino.org/Vital Vegas]",
+        "[VERIFY: 30% удържане и освобождаванията за игрите на маса и по спогодбата с България, по IRS Pub. 515 (2026); за конкретен случай консултация със счетоводител]",
+        "[VERIFY: начин за възстановяване на удържания 30% данък от IRS за жител на България]",
+        "[VERIFY: данъчно третиране в БГ на печалба от казино в САЩ]"
+      ]
     }
   ],
   "backlog": [
@@ -6361,8 +6367,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "kd0 but BROAD intent (travel). Brand-fit stretch: house edge on the Strip vs online, age 21+, comps, RG. Write only if a non-travel gambling angle holds; else drop.",
-      "status": "open",
-      "notes": "cluster: international; discovery 2026-10-10b",
+      "status": "written",
+      "notes": "cluster: international; discovery 2026-10-10b · written vk-0276 PR #294",
       "opportunity": {
         "score": 75,
         "band": "Strong",
@@ -10223,7 +10229,7 @@
     "bands": {
       "Moderate": 7,
       "Good": 2,
-      "Strong": 2
+      "Strong": 1
     },
     "clusters": {
       "uncategorised": {
@@ -10250,11 +10256,6 @@
         "winnable": 1,
         "pillar": 0,
         "total": 1
-      },
-      "international": {
-        "winnable": 1,
-        "pillar": 0,
-        "total": 1
       }
     },
     "winnable": [
@@ -10268,19 +10269,6 @@
         "score": 84,
         "winnable": true,
         "cluster": "lottery",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
-        "query": "Казината в Лас Вегас — какво да знаете, преди да играете",
-        "keywords": "лас вегас, лас вегас казино, атлантик сити",
-        "volume": "700",
-        "kd": "0",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 75,
-        "winnable": true,
-        "cluster": "international",
         "status": "open",
         "src": "backlog"
       },
@@ -10392,7 +10380,7 @@
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 10,
+      "winnable": 9,
       "pillars": 0
     }
   }
