@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-10T08:07:33Z",
+  "generated_utc": "2026-10-10T08:48:16Z",
   "buffer": {
     "count": 221,
     "target": 10,
@@ -7,9 +7,9 @@
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
-    "drafted": 201,
-    "approved": 20,
+    "in-progress": 8,
+    "drafted": 200,
+    "approved": 21,
     "posted": 41,
     "failed": 1
   },
@@ -4710,7 +4710,7 @@
     },
     {
       "id": "vk-0263",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Покер комбинации: подредба на ръцете от роял флъш до най-висока карта",
       "keywords_or_terms": "покер комбинации, подредба на покер ръцете, покер ръце, роял флъш, каре, фул хаус, кента, цвят, старша карта",
@@ -4725,6 +4725,174 @@
       "notes": "NEW discovered reference pillar (Ahrefs bg 2026-10-10): „покер комбинации\" 700/kd0 informational, trend UP (recent3 ~717 vs ~600 9-12mo ago, +19%). DISTINCT reference intent (hand-ranking lookup) vs how-to-play overview vk-0008 (/blog/kak-se-igrae-poker-kazino/, targets „как се играе покер\") + variant guides (видеопокер vk-0173, 3-card vk-0176, UTH vk-0178, Casino Hold'em vk-0189). 0 hand-rankings page in queue+live sitemap (108 URLs). Anchors casino-poker cluster via internal links. Guides-scope: 0 operator T&C, 0 НАП, 0 affiliate. Honest casino angle: ranking order is standard for 5-card games but 3-card poker reverses straight>flush (rarer in 3 cards); hands only decide showdown, not house edge. Written 2026-10-10: Brand Gate 95/100; Gemini Step-7 PASS human 90 (2 humaniser passes, keep-best); img:2 (ladder infographic 100 + abstract hero 100, hero regenerated pass 2 after suit hallucination); 0 flags; PR #283",
       "opportunity": {
         "score": 75,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "id": "vk-0264",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Хазартни игри в България — видовете според Закона за хазарта",
+      "keywords_or_terms": "хазартни игри, хазарт, видове хазартни игри, хазарт игри, хазартна игра на карти, хазартни игри онлайн",
+      "volume": "1600",
+      "kd": "2",
+      "source": "research",
+      "drafted_date": "2026-10-10",
+      "posted_date": "",
+      "folder": "2026-10-10-hazartni-igri-vidove",
+      "pr": "#284",
+      "gemini": "",
+      "notes": "HANDOFF: drafted locally 2026-10-10 through 05b + PR #284 (gate 84→~93 after 8 fixes, img:1 SVG lint-clean, 8 internal links — editor may trim to 2–4); Gemini Step-7 + Step-8 image review PENDING (cloud reconcile). 4 [VERIFY] (licence term 5/10 г.; 18 г. statute ×2; flag cites чл. 10 ал. 11 — likely чл. 9 ал. 11; НАП 5%-wording). Law text via kik-info.com consolidated ЗХ (lex.bg stub). · ad-hoc in-session run 2026-10-10 (human-requested); Ahrefs bg 2026-10-10: хазартни игри 1600/kd2 (info+commercial+transactional, parent „хазартни игри онлайн\") + хазарт 900/kd10 fold-in; DISTINCT from /kazino-igri/ (casino-game mechanics hub) — this is the LEGAL taxonomy of gambling per ЗХ (лотарийни/тото-лото-бинго-кено, залагания, случайни събития, автомати, казино; online vs not); source pack nap-gambling-law-and-rg-2026-10-10.md (НАП fetched via BG browser)",
+      "opportunity": {
+        "score": 99,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "id": "vk-0265",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Закон за хазарта — какво трябва да знае играчът (промени 2025–2026)",
+      "keywords_or_terms": "закон за хазарта, закон за хазарта 2025, закон за хазарта 2026, закон за хазарта промени, забрана за реклама на хазарт",
+      "volume": "300",
+      "kd": "3",
+      "source": "research",
+      "drafted_date": "2026-10-10",
+      "posted_date": "",
+      "folder": "2026-10-10-zakon-za-hazarta",
+      "pr": "",
+      "gemini": "",
+      "notes": "ad-hoc in-session run 2026-10-10 (human-requested); Ahrefs bg 2026-10-10: закон за хазарта 300/kd3 + 2025 100 + 2026 20 + реклама 30; player-facing explainer of ЗХ (надзор НАП от 08.2020, лицензи, 18+, чл.10г регистър, реклама, нелицензирани сайтове) — DISTINCT from /zakonno-li-e/ (is-it-legal + licence check) and vk-0260 (self-exclusion procedure, linked not dup); source pack nap-gambling-law-and-rg-2026-10-10.md",
+      "opportunity": {
+        "score": 54,
+        "band": "Good",
+        "winnable": true
+      }
+    },
+    {
+      "id": "vk-0266",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Тото Джокер — как работи и какъв е реалният шанс за печалба",
+      "keywords_or_terms": "тото джокер, toto joker, шанс за печалба от тото джокер, как се играе тото джокер, тото джокер 6 от 49, тото джокер измами",
+      "volume": "2300",
+      "kd": "0",
+      "source": "backlog",
+      "drafted_date": "2026-10-10",
+      "posted_date": "",
+      "folder": "2026-10-10-toto-dzhoker",
+      "pr": "",
+      "gemini": "",
+      "notes": "ad-hoc run 2026-10-10 (human-requested, backlog lottery #1); sources: source-packs/bst-toto-2026-10-10.md + nap pack",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "id": "vk-0267",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Тото 2: 6 от 49, 6 от 42 и 5 от 35 — правила, шансове и разлики",
+      "keywords_or_terms": "тото 6 от 49, тото 6 49, тото 5 от 35, тото 6/42, тото 2",
+      "volume": "4700",
+      "kd": "7",
+      "source": "backlog",
+      "drafted_date": "2026-10-10",
+      "posted_date": "",
+      "folder": "2026-10-10-toto-2-igri",
+      "pr": "",
+      "gemini": "",
+      "notes": "ad-hoc run 2026-10-10 (backlog lottery #2); head intent mostly navigational (results) — explainer angle; ONE pillar for 3 games",
+      "opportunity": {
+        "score": 97,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "id": "vk-0268",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Втори тото шанс — какво е и как работи",
+      "keywords_or_terms": "втори тото шанс 5 от 35, втори тото шанс 6 49",
+      "volume": "1000",
+      "kd": "0",
+      "source": "backlog",
+      "drafted_date": "2026-10-10",
+      "posted_date": "",
+      "folder": "2026-10-10-vtori-toto-shans",
+      "pr": "",
+      "gemini": "",
+      "notes": "ad-hoc run 2026-10-10 (backlog lottery #3); feature explainer, links up to Тото 2 pillar",
+      "opportunity": {
+        "score": 90,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "id": "vk-0269",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Тото Зодиак — правила и шанс за печалба",
+      "keywords_or_terms": "тото зодиак, тото 2 зодиак, числа за тото зодиак",
+      "volume": "600",
+      "kd": "0",
+      "source": "backlog",
+      "drafted_date": "2026-10-10",
+      "posted_date": "",
+      "folder": "2026-10-10-toto-zodiak",
+      "pr": "",
+      "gemini": "",
+      "notes": "ad-hoc run 2026-10-10 (backlog lottery #4); no number picks",
+      "opportunity": {
+        "score": 70,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "id": "vk-0270",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Системи и комбинации в тото — колко струват и увеличават ли шанса",
+      "keywords_or_terms": "тото комбинации 6 от 49 цени, най добрата система за тото 2, системен фиш тото",
+      "volume": "450",
+      "kd": "0",
+      "source": "backlog",
+      "drafted_date": "2026-10-10",
+      "posted_date": "",
+      "folder": "2026-10-10-toto-sistemi-kombinacii",
+      "pr": "",
+      "gemini": "",
+      "notes": "ad-hoc run 2026-10-10 (backlog lottery #5); worked-€ math",
+      "opportunity": {
+        "score": 62,
+        "band": "Good",
+        "winnable": true
+      }
+    },
+    {
+      "id": "vk-0271",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Държавна лотария и Национална лотария — какво представляват и законни ли са",
+      "keywords_or_terms": "държавна лотария, националната лотария, национална лотария 6 от 47, държавна лотария билети, национална лотария измама",
+      "volume": "1100",
+      "kd": "30",
+      "source": "backlog",
+      "drafted_date": "2026-10-10",
+      "posted_date": "",
+      "folder": "2026-10-10-darzhavna-nacionalna-lotaria",
+      "pr": "",
+      "gemini": "",
+      "notes": "ad-hoc run 2026-10-10 (backlog lottery #6, STRETCH kd30); legal-status angle",
+      "opportunity": {
+        "score": 83,
         "band": "Strong",
         "winnable": true
       }
@@ -5144,6 +5312,178 @@
       "status": "open",
       "notes": "'similar to' интент; мост от NV трафика към топ-листата; линкове към сравнителната страница · blocked: operator source pack / BG route needed (NV Casino T&C + complaints geo-blocked 403; guides-only scope) — revisit when operator sourcing solved.",
       "opportunity": null
+    },
+    {
+      "priority": "1",
+      "type": "guide",
+      "query": "Тото Джокер — как работи и какъв е реалният шанс за печалба",
+      "keywords_or_terms": "тото джокер, toto joker, шанс за печалба от тото джокер, как се играе тото джокер, тото джокер 6 от 49, тото джокер измами",
+      "volume": "2300",
+      "kd": "0",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN (kd0; cluster ~3500/мес). Rules + combinatorics of the Джокер add-on (odds per category from official BST tables), myths/„измами\" angle; no predictions.",
+      "status": "open",
+      "notes": "cluster: lottery; discovery 2026-10-10b · source: toto.bg official rules",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "1",
+      "type": "guide",
+      "query": "Тото 2: 6 от 49, 6 от 42 и 5 от 35 — правила, шансове и разлики",
+      "keywords_or_terms": "тото 6 от 49, тото 6 49, тото 5 от 35, тото 6/42, тото 2",
+      "volume": "4700",
+      "kd": "7",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN (kd0–8) but HEAD INTENT IS MOSTLY NAVIGATIONAL (results/„последен тираж\"). Write the explainer angle (rules, odds 1:13 983 816 etc. computed, ticket cost, which game has the best odds) — expect long-tail traffic, not the results queries. ONE pillar for all three games (anti-cannibalization).",
+      "status": "open",
+      "notes": "cluster: lottery; discovery 2026-10-10b",
+      "opportunity": {
+        "score": 97,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "1",
+      "type": "guide",
+      "query": "Втори тото шанс — какво е и как работи",
+      "keywords_or_terms": "втори тото шанс 5 от 35, втори тото шанс 6 49",
+      "volume": "1000",
+      "kd": "0",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN (kd0, 1200 cluster). Feature explainer; link to the Тото 2 pillar (don't repeat its odds tables).",
+      "status": "open",
+      "notes": "cluster: lottery; discovery 2026-10-10b",
+      "opportunity": {
+        "score": 90,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "1",
+      "type": "guide",
+      "query": "Тото Зодиак — правила и шанс за печалба",
+      "keywords_or_terms": "тото зодиак, тото 2 зодиак, числа за тото зодиак",
+      "volume": "600",
+      "kd": "0",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN (kd0, ~1100 cluster). Rules + odds; „числа за тото зодиак\" → explain randomness, NO number picks/predictions.",
+      "status": "open",
+      "notes": "cluster: lottery; discovery 2026-10-10b",
+      "opportunity": {
+        "score": 70,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "2",
+      "type": "guide",
+      "query": "Системи и комбинации в тото — колко струват и увеличават ли шанса",
+      "keywords_or_terms": "тото комбинации 6 от 49 цени, най добрата система за тото 2, системен фиш тото",
+      "volume": "450",
+      "kd": "0",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN (kd0, ~650 cluster). Worked-€ math: cost of N-number systems vs odds gain; honest „системите не променят очакваната стойност\".",
+      "status": "open",
+      "notes": "cluster: lottery; discovery 2026-10-10b",
+      "opportunity": {
+        "score": 62,
+        "band": "Good",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "2",
+      "type": "guide",
+      "query": "Държавна лотария и Национална лотария — какво представляват и законни ли са",
+      "keywords_or_terms": "държавна лотария, националната лотария, национална лотария 6 от 47, държавна лотария билети, национална лотария измама",
+      "volume": "1100",
+      "kd": "30",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "STRETCH (kd21–30, ~1800 cluster). Legal-status angle via ЗХ (лотарийни игри need НАП licence; state lottery rules) — use NAP source pack; [VERIFY] operator facts.",
+      "status": "open",
+      "notes": "cluster: lottery/legal; discovery 2026-10-10b",
+      "opportunity": {
+        "score": 83,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "2",
+      "type": "guide",
+      "query": "Евроджакпот и Евромилиони — може ли законно да играете от България",
+      "keywords_or_terms": "евро джакпот, джакпот евромилиони, евро джакпот в българия",
+      "volume": "200",
+      "kd": "",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "Legal angle (foreign lotteries without НАП licence = unlicensed per ЗХ; messenger/ticket-reseller sites). KD n/a from Ahrefs (likely low).",
+      "status": "open",
+      "notes": "cluster: lottery/legal; discovery 2026-10-10b",
+      "opportunity": null
+    },
+    {
+      "priority": "2",
+      "type": "guide",
+      "query": "Скреч карти и моментни лотарии — как работят и какъв е шансът",
+      "keywords_or_terms": "скреч карти, онлайн скреч карти, скреч карти за изтриване, моментна лотария, тото моментни игри",
+      "volume": "90",
+      "kd": "0",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN (kd0, ~260 cluster). ЗХ: моментната лотария НЕ може да се организира онлайн (чл. 41 ал. 2) — strong legal hook for „онлайн скреч карти\".",
+      "status": "open",
+      "notes": "cluster: lottery; discovery 2026-10-10b",
+      "opportunity": {
+        "score": 44,
+        "band": "Moderate",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "2",
+      "type": "guide",
+      "query": "Броене на карти в блекджек — работи ли и защо не онлайн",
+      "keywords_or_terms": "броене на карти в блекджек, броене на карти, card counting",
+      "volume": "150",
+      "kd": "",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "DISTINCT from vk-0009 (правила+основна стратегия) and vk-0239 (варианти): card-counting intent only; RNG/continuous-shuffle angle.",
+      "status": "open",
+      "notes": "cluster: blackjack; discovery 2026-10-10b",
+      "opportunity": null
+    },
+    {
+      "priority": "2",
+      "type": "guide",
+      "query": "Електронна рулетка — как работи (RNG и автоматни рулетки)",
+      "keywords_or_terms": "електронна рулетка, казино рулетка игра",
+      "volume": "150",
+      "kd": "0",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN (kd0). Only the electronic/RNG/terminal angle — do NOT repeat vk-0024 rules/strategies. Fold-in note: „ролетка или рулетка\" (450, kd0) belongs in vk-0024.",
+      "status": "open",
+      "notes": "cluster: roulette; discovery 2026-10-10b",
+      "opportunity": {
+        "score": 48,
+        "band": "Good",
+        "winnable": true
+      }
     }
   ],
   "research": [
@@ -8997,16 +9337,132 @@
       }
     ],
     "bands": {
-      "Moderate": 2
+      "Moderate": 3,
+      "Strong": 5,
+      "Good": 2
     },
     "clusters": {
       "uncategorised": {
         "winnable": 1,
         "pillar": 0,
         "total": 2
+      },
+      "lottery": {
+        "winnable": 7,
+        "pillar": 0,
+        "total": 7
+      },
+      "roulette": {
+        "winnable": 1,
+        "pillar": 0,
+        "total": 1
       }
     },
     "winnable": [
+      {
+        "query": "Тото Джокер — как работи и какъв е реалният шанс за печалба",
+        "keywords": "тото джокер, toto joker, шанс за печалба от тото джокер, как се играе тото джокер, тото джокер 6 от 49, тото джокер измами",
+        "volume": "2300",
+        "kd": "0",
+        "intent": "informational",
+        "band": "Strong",
+        "score": 100,
+        "winnable": true,
+        "cluster": "lottery",
+        "status": "open",
+        "src": "backlog"
+      },
+      {
+        "query": "Тото 2: 6 от 49, 6 от 42 и 5 от 35 — правила, шансове и разлики",
+        "keywords": "тото 6 от 49, тото 6 49, тото 5 от 35, тото 6/42, тото 2",
+        "volume": "4700",
+        "kd": "7",
+        "intent": "informational",
+        "band": "Strong",
+        "score": 97,
+        "winnable": true,
+        "cluster": "lottery",
+        "status": "open",
+        "src": "backlog"
+      },
+      {
+        "query": "Втори тото шанс — какво е и как работи",
+        "keywords": "втори тото шанс 5 от 35, втори тото шанс 6 49",
+        "volume": "1000",
+        "kd": "0",
+        "intent": "informational",
+        "band": "Strong",
+        "score": 90,
+        "winnable": true,
+        "cluster": "lottery",
+        "status": "open",
+        "src": "backlog"
+      },
+      {
+        "query": "Държавна лотария и Национална лотария — какво представляват и законни ли са",
+        "keywords": "държавна лотария, националната лотария, национална лотария 6 от 47, държавна лотария билети, национална лотария измама",
+        "volume": "1100",
+        "kd": "30",
+        "intent": "informational",
+        "band": "Strong",
+        "score": 83,
+        "winnable": true,
+        "cluster": "lottery",
+        "status": "open",
+        "src": "backlog"
+      },
+      {
+        "query": "Тото Зодиак — правила и шанс за печалба",
+        "keywords": "тото зодиак, тото 2 зодиак, числа за тото зодиак",
+        "volume": "600",
+        "kd": "0",
+        "intent": "informational",
+        "band": "Strong",
+        "score": 70,
+        "winnable": true,
+        "cluster": "lottery",
+        "status": "open",
+        "src": "backlog"
+      },
+      {
+        "query": "Системи и комбинации в тото — колко струват и увеличават ли шанса",
+        "keywords": "тото комбинации 6 от 49 цени, най добрата система за тото 2, системен фиш тото",
+        "volume": "450",
+        "kd": "0",
+        "intent": "informational",
+        "band": "Good",
+        "score": 62,
+        "winnable": true,
+        "cluster": "lottery",
+        "status": "open",
+        "src": "backlog"
+      },
+      {
+        "query": "Електронна рулетка — как работи (RNG и автоматни рулетки)",
+        "keywords": "електронна рулетка, казино рулетка игра",
+        "volume": "150",
+        "kd": "0",
+        "intent": "informational",
+        "band": "Good",
+        "score": 48,
+        "winnable": true,
+        "cluster": "roulette",
+        "status": "open",
+        "src": "backlog"
+      },
+      {
+        "query": "Скреч карти и моментни лотарии — как работят и какъв е шансът",
+        "keywords": "скреч карти, онлайн скреч карти, скреч карти за изтриване, моментна лотария, тото моментни игри",
+        "volume": "90",
+        "kd": "0",
+        "intent": "informational",
+        "band": "Moderate",
+        "score": 44,
+        "winnable": true,
+        "cluster": "lottery",
+        "status": "open",
+        "src": "backlog"
+      },
       {
         "query": "Dog House Megaways (Pragmatic Play): как работи и RTP",
         "keywords": "dog house megaways, дог хаус мегауейс, dog house megaways rtp",
@@ -9024,7 +9480,7 @@
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 1,
+      "winnable": 9,
       "pillars": 0
     }
   }

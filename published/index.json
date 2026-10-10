@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 20,
+  "count": 21,
   "articles": [
     {
       "slug": "gates-of-olympus-1000",
@@ -141,7 +141,14 @@
       "date_modified": "2026-10-07",
       "content_hash": "96947fb418081a1957553b2b42663fd2f67d9a9207e12a5bb4a8033412922e82",
       "status": "approved"
+    },
+    {
+      "slug": "poker-kombinacii",
+      "title": "Покер комбинации: подредба на ръцете (от роял флъш надолу)",
+      "date_modified": "2026-10-10",
+      "content_hash": "b4ce57bc85abd319b1ecdbf807a39109a3d8292a1ac41799fa400ab72b2e7bcf",
+      "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-10T08:07:44Z"
+  "generated_utc": "2026-10-10T08:48:16Z"
 }
