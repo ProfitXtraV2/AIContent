@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="Тото Джокер: шансът за печалба с една комбинация за €0,20, цената на системите с 4, 5 и 9 позиции и средното връщане от €0,10 на всеки €0,20">
+  <rect x="6" y="6" width="748" height="548" rx="16" fill="#0f172a"/>
+  <text x="30" y="42" fill="#f8fafc" font-size="21" font-weight="700">Тото Джокер: реалният шанс с една комбинация</text>
+  <text x="30" y="65" fill="#94a3b8" font-size="13">една комбинация = 3 позиции и 3 цифри, цена €0,20</text>
+
+  <!-- Odds rows -->
+  <rect x="30" y="84" width="700" height="56" rx="9" fill="#1e293b"/>
+  <rect x="30" y="84" width="7" height="56" rx="3" fill="#f97316"/>
+  <text x="52" y="108" fill="#f1f5f9" font-size="16" font-weight="700">I група</text>
+  <text x="52" y="128" fill="#94a3b8" font-size="13">и трите двойки позиция–цифра</text>
+  <text x="712" y="119" fill="#f97316" font-size="22" font-weight="700" text-anchor="end">1 на 84 000</text>
+
+  <rect x="30" y="150" width="700" height="56" rx="9" fill="#1e293b"/>
+  <rect x="30" y="150" width="7" height="56" rx="3" fill="#eab308"/>
+  <text x="52" y="174" fill="#f1f5f9" font-size="16" font-weight="700">II група</text>
+  <text x="52" y="194" fill="#94a3b8" font-size="13">точно две вярни двойки</text>
+  <text x="712" y="185" fill="#eab308" font-size="22" font-weight="700" text-anchor="end">около 1 на 406</text>
+
+  <rect x="30" y="216" width="700" height="56" rx="9" fill="#1e293b"/>
+  <rect x="30" y="216" width="7" height="56" rx="3" fill="#22d3ee"/>
+  <text x="52" y="240" fill="#f1f5f9" font-size="16" font-weight="700">Каквато и да е печалба</text>
+  <text x="52" y="260" fill="#94a3b8" font-size="13">I и II група заедно</text>
+  <text x="712" y="251" fill="#22d3ee" font-size="22" font-weight="700" text-anchor="end">около 1 на 404</text>
+
+  <!-- Systems -->
+  <text x="30" y="304" fill="#f8fafc" font-size="16" font-weight="700">Системи: повече комбинации, същото очаквано връщане</text>
+  <rect x="30" y="316" width="222" height="62" rx="9" fill="#1e293b"/>
+  <text x="141" y="341" fill="#f1f5f9" font-size="15" font-weight="700" text-anchor="middle">4 позиции</text>
+  <text x="141" y="364" fill="#94a3b8" font-size="13" text-anchor="middle">4 комбинации · €0,80</text>
+  <rect x="269" y="316" width="222" height="62" rx="9" fill="#1e293b"/>
+  <text x="380" y="341" fill="#f1f5f9" font-size="15" font-weight="700" text-anchor="middle">5 позиции</text>
+  <text x="380" y="364" fill="#94a3b8" font-size="13" text-anchor="middle">10 комбинации · €2,00</text>
+  <rect x="508" y="316" width="222" height="62" rx="9" fill="#1e293b"/>
+  <text x="619" y="341" fill="#f1f5f9" font-size="15" font-weight="700" text-anchor="middle">9 позиции</text>
+  <text x="619" y="364" fill="#94a3b8" font-size="13" text-anchor="middle">84 комбинации · €16,80</text>
+
+  <!-- Expected value split bar -->
+  <text x="30" y="410" fill="#f8fafc" font-size="16" font-weight="700">Къде отиват €0,20 средно (50% за печалби)</text>
+  <rect x="30" y="422" width="350" height="36" rx="6" fill="#10b981"/>
+  <rect x="380" y="422" width="350" height="36" rx="6" fill="#475569"/>
+  <text x="205" y="445" fill="#0f172a" font-size="14" font-weight="700" text-anchor="middle">€0,10 се връщат като печалби</text>
+  <text x="555" y="445" fill="#f1f5f9" font-size="14" font-weight="700" text-anchor="middle">€0,10 остават при организатора</text>
+
+  <line x1="30" y1="478" x2="730" y2="478" stroke="#334155" stroke-width="1"/>
+  <text x="30" y="499" fill="#94a3b8" font-size="12">Допускане: теглят се 3 различни позиции от 1 до 9 и цифра от 0 до 9 за всяка,</text>
+  <text x="30" y="517" fill="#94a3b8" font-size="12">всеки изход е еднакво вероятен. Всеки тираж е независим, „печеливши" позиции няма.</text>
+  <text x="30" y="537" fill="#64748b" font-size="12">18+ Хазартът може да пристрасти. Играйте отговорно.</text>
+</svg>
