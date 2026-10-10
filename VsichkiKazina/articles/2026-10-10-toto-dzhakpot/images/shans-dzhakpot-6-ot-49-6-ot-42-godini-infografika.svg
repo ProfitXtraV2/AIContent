@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" width="760" height="430" role="img" aria-labelledby="t d" font-family="Arial, Helvetica, sans-serif">
+  <title id="t">Шанс за тото джакпот и средно чакане в години</title>
+  <desc id="d">Шансът за джакпот с една комбинация в 6 от 49 и 6 от 42 и средното чакане при една комбинация на всеки тираж, около 104 тиража годишно.</desc>
+  <rect x="0" y="0" width="760" height="430" rx="16" fill="#f7f8fb"/>
+  <text x="32" y="46" font-size="22" font-weight="700" fill="#1b2a41">Колко реален е джакпотът</text>
+  <text x="32" y="70" font-size="13" fill="#55627a">Една комбинация на всеки тираж, около 104 тиража годишно (средна стойност)</text>
+
+  <rect x="32" y="92" width="336" height="190" rx="10" fill="#ffffff" stroke="#d5dae4"/>
+  <text x="200" y="126" font-size="18" font-weight="700" fill="#55627a" text-anchor="middle">6 от 49</text>
+  <text x="200" y="162" font-size="22" font-weight="700" fill="#c0392b" text-anchor="middle">1 към 13 983 816</text>
+  <text x="200" y="190" font-size="12" fill="#55627a" text-anchor="middle">C(49,6) = 10 068 347 520 / 720</text>
+  <line x1="56" y1="208" x2="344" y2="208" stroke="#e3e7ee" stroke-width="1"/>
+  <text x="200" y="236" font-size="13" fill="#55627a" text-anchor="middle">средно чакане за джакпот</text>
+  <text x="200" y="264" font-size="22" font-weight="700" fill="#1b2a41" text-anchor="middle">около 134 460 години</text>
+
+  <rect x="392" y="92" width="336" height="190" rx="10" fill="#ffffff" stroke="#d5dae4"/>
+  <text x="560" y="126" font-size="18" font-weight="700" fill="#55627a" text-anchor="middle">6 от 42</text>
+  <text x="560" y="162" font-size="22" font-weight="700" fill="#e67e22" text-anchor="middle">1 към 5 245 786</text>
+  <text x="560" y="190" font-size="12" fill="#55627a" text-anchor="middle">C(42,6) = 3 776 965 920 / 720</text>
+  <line x1="416" y1="208" x2="704" y2="208" stroke="#e3e7ee" stroke-width="1"/>
+  <text x="560" y="236" font-size="13" fill="#55627a" text-anchor="middle">средно чакане за джакпот</text>
+  <text x="560" y="264" font-size="22" font-weight="700" fill="#1b2a41" text-anchor="middle">около 50 440 години</text>
+
+  <rect x="32" y="300" width="696" height="64" rx="10" fill="#fff4e5" stroke="#f0c98a"/>
+  <text x="52" y="326" font-size="14" font-weight="700" fill="#1b2a41">10 комбинации в един тираж в 6 от 49: около 1 към 1 398 382</text>
+  <text x="52" y="348" font-size="13" fill="#55627a">при десетократно по-висока цена. Размерът на джакпота не променя шанса.</text>
+
+  <text x="32" y="398" font-size="12" fill="#55627a">Тегленията са независими. Източник: изчисления на Всички Казина.</text>
+  <text x="728" y="398" font-size="12" font-weight="700" fill="#c0392b" text-anchor="end">18+ Играйте отговорно</text>
+</svg>
