@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 430" width="680" height="430" font-family="'Segoe UI',Roboto,Arial,sans-serif" role="img" aria-label="Чеклист за прочит на таблицата с изплащания преди първото завъртане">
+  <rect x="0" y="0" width="680" height="430" rx="16" fill="#0f1b2d"/>
+  <rect x="16" y="16" width="648" height="398" rx="12" fill="#152238"/>
+  <text x="40" y="52" fill="#f4f7fb" font-size="22" font-weight="700">Кратък прочит, преди да заложиш</text>
+  <text x="40" y="76" fill="#8aa0be" font-size="13">Отвори таблицата (i) и мини през тези неща</text>
+
+  <g>
+    <circle cx="55" cy="118" r="15" fill="#e0a43b"/>
+    <text x="55" y="123" fill="#0f1b2d" font-size="15" font-weight="700" text-anchor="middle">1</text>
+    <text x="84" y="114" fill="#eaf0f8" font-size="16.5" font-weight="600">RTP-ът на играта</text>
+    <text x="84" y="133" fill="#9fb4d0" font-size="13.5">колко връща дългосрочно, примерно 96,42% (не обещание за сесията)</text>
+  </g>
+  <g>
+    <circle cx="55" cy="176" r="15" fill="#e0a43b"/>
+    <text x="55" y="181" fill="#0f1b2d" font-size="15" font-weight="700" text-anchor="middle">2</text>
+    <text x="84" y="172" fill="#eaf0f8" font-size="16.5" font-weight="600">×залог или ×залог на линия</text>
+    <text x="84" y="191" fill="#9fb4d0" font-size="13.5">как точно се смятат печалбите на символите</text>
+  </g>
+  <g>
+    <circle cx="55" cy="234" r="15" fill="#4fa3d1"/>
+    <text x="55" y="239" fill="#0f1b2d" font-size="15" font-weight="700" text-anchor="middle">3</text>
+    <text x="84" y="230" fill="#eaf0f8" font-size="16.5" font-weight="600">Прагът за бонуса</text>
+    <text x="84" y="249" fill="#9fb4d0" font-size="13.5">колко символа го пускат, примерно 3+ scatter</text>
+  </g>
+  <g>
+    <circle cx="55" cy="292" r="15" fill="#4fa3d1"/>
+    <text x="55" y="297" fill="#0f1b2d" font-size="15" font-weight="700" text-anchor="middle">4</text>
+    <text x="84" y="288" fill="#eaf0f8" font-size="16.5" font-weight="600">Таванът на печалбата</text>
+    <text x="84" y="307" fill="#9fb4d0" font-size="13.5">докъде опира, примерно 5000× залога</text>
+  </g>
+  <g>
+    <circle cx="55" cy="350" r="15" fill="#57b98a"/>
+    <text x="55" y="355" fill="#0f1b2d" font-size="15" font-weight="700" text-anchor="middle">5</text>
+    <text x="84" y="346" fill="#eaf0f8" font-size="16.5" font-weight="600">После демо режим</text>
+    <text x="84" y="365" fill="#9fb4d0" font-size="13.5">усети темпото и волатилността, без реални пари</text>
+  </g>
+
+  <text x="40" y="400" fill="#6f86a6" font-size="12">Числата са примерни · 18+ Играйте отговорно</text>
+</svg>
