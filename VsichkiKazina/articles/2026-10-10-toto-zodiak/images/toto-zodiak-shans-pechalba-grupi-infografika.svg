@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 680" width="760" height="680" role="img" aria-labelledby="t d">
+<title id="t">Тото Зодиак: как се смята шансът за печалба</title>
+<desc id="d">5 числа от 1 до 50 и 1 зодия от 12 дават 25 425 120 възможни комбинации; шансът за всяка от десетте печеливши групи за една комбинация, от 1 на 25 425 120 за джакпота до 1 на 16,3 за 2 числа; каквато и да е печалба около 14,9%, приблизително 1 на 6,7.</desc>
+<rect x="2" y="2" width="756" height="676" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+<text x="28" y="46" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#0f172a">Тото Зодиак: как се смята шансът</text>
+<text x="28" y="72" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#475569">5 числа от 1 до 50 + 1 зодия от 12 · шансове за една комбинация</text>
+<rect x="28" y="92" width="216" height="72" rx="10" fill="#e0e7ff"/>
+<text x="136" y="122" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#1e1b4b" text-anchor="middle">5 от 50</text>
+<text x="136" y="148" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#1e1b4b" text-anchor="middle">C(50,5) = 2 118 760</text>
+<text x="263" y="136" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#334155" text-anchor="middle">×</text>
+<rect x="282" y="92" width="150" height="72" rx="10" fill="#fef3c7"/>
+<text x="357" y="122" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#78350f" text-anchor="middle">12 зодии</text>
+<text x="357" y="148" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#78350f" text-anchor="middle">1 от 12</text>
+<text x="451" y="136" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#334155" text-anchor="middle">=</text>
+<rect x="470" y="92" width="262" height="72" rx="10" fill="#0f172a"/>
+<text x="601" y="125" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">25 425 120</text>
+<text x="601" y="150" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#e2e8f0" text-anchor="middle">възможни комбинации</text>
+<text x="28" y="204" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#334155">Група</text>
+<text x="96" y="204" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#334155">Какво познавате</text>
+<text x="290" y="204" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#64748b">по-дълга лента = по-рядка печалба</text>
+<text x="732" y="204" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#334155" text-anchor="end">Шанс (1 на …)</text>
+<line x1="28" y1="214" x2="732" y2="214" stroke="#cbd5e1"/>
+<rect x="20" y="221" width="720" height="32" fill="#eef2f7"/>
+<text x="28" y="242" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#0f172a">1-ва</text>
+<text x="96" y="242" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a">5 числа + зодия</text>
+<rect x="290" y="229" width="270.0" height="14" rx="4" fill="#d97706"/>
+<text x="732" y="242" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#0f172a" text-anchor="end">1 на 25 425 120</text>
+<text x="28" y="274" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#0f172a">2-ра</text>
+<text x="96" y="274" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a">5 числа</text>
+<rect x="290" y="261" width="232.0" height="14" rx="4" fill="#4f46e5"/>
+<text x="732" y="274" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#0f172a" text-anchor="end">1 на 2 311 375</text>
+<rect x="20" y="285" width="720" height="32" fill="#eef2f7"/>
+<text x="28" y="306" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#0f172a">3-та</text>
+<text x="96" y="306" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a">4 числа + зодия</text>
+<rect x="290" y="293" width="184.2" height="14" rx="4" fill="#d97706"/>
+<text x="732" y="306" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#0f172a" text-anchor="end">1 на 113 001</text>
+<text x="28" y="338" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#0f172a">4-та</text>
+<text x="96" y="338" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a">4 числа</text>
+<rect x="290" y="325" width="146.3" height="14" rx="4" fill="#4f46e5"/>
+<text x="732" y="338" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#0f172a" text-anchor="end">1 на 10 273</text>
+<rect x="20" y="349" width="720" height="32" fill="#eef2f7"/>
+<text x="28" y="370" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#0f172a">5-а</text>
+<text x="96" y="370" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a">3 числа + зодия</text>
+<rect x="290" y="357" width="124.3" height="14" rx="4" fill="#d97706"/>
+<text x="732" y="370" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#0f172a" text-anchor="end">1 на 2 568</text>
+<text x="28" y="402" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#0f172a">6-а</text>
+<text x="96" y="402" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a">3 числа</text>
+<rect x="290" y="389" width="86.3" height="14" rx="4" fill="#4f46e5"/>
+<text x="732" y="402" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#0f172a" text-anchor="end">1 на 233</text>
+<rect x="20" y="413" width="720" height="32" fill="#eef2f7"/>
+<text x="28" y="434" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#0f172a">7-а</text>
+<text x="96" y="434" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a">2 числа + зодия</text>
+<rect x="290" y="421" width="82.1" height="14" rx="4" fill="#d97706"/>
+<text x="732" y="434" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#0f172a" text-anchor="end">1 на 179</text>
+<text x="28" y="466" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#0f172a">8-а</text>
+<text x="96" y="466" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a">1 число + зодия</text>
+<rect x="290" y="453" width="55.8" height="14" rx="4" fill="#d97706"/>
+<text x="732" y="466" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#0f172a" text-anchor="end">1 на 34</text>
+<rect x="20" y="477" width="720" height="32" fill="#eef2f7"/>
+<text x="28" y="498" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#0f172a">9-а</text>
+<text x="96" y="498" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a">2 числа</text>
+<rect x="290" y="485" width="44.2" height="14" rx="4" fill="#4f46e5"/>
+<text x="732" y="498" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#0f172a" text-anchor="end">1 на 16,3</text>
+<text x="28" y="530" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#0f172a">10-а</text>
+<text x="96" y="530" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a">само зодия</text>
+<rect x="290" y="517" width="48.1" height="14" rx="4" fill="#d97706"/>
+<text x="732" y="530" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#0f172a" text-anchor="end">1 на 20,8</text>
+<rect x="96" y="556" width="12" height="12" rx="2" fill="#d97706"/><text x="114" y="567" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#475569">група със зодия</text>
+<rect x="240" y="556" width="12" height="12" rx="2" fill="#4f46e5"/><text x="258" y="567" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#475569">само числа</text>
+<text x="560" y="567" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#64748b" text-anchor="middle">логаритмична скала</text>
+<rect x="28" y="582" width="704" height="48" rx="10" fill="#dcfce7"/>
+<text x="380" y="612" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#14532d" text-anchor="middle">Каквато и да е печалба: около 14,9%, приблизително 1 на 6,7</text>
+<text x="28" y="658" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#64748b">Изчисление: чиста комбинаторика · Всички Казина</text>
+<text x="732" y="658" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#b91c1c" text-anchor="end">18+ Играйте отговорно</text>
+</svg>
