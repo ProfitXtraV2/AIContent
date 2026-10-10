@@ -1,0 +1,415 @@
+{
+ "limits_before": {
+  "limits_and_usage": {
+   "subscription": "Lite, billed monthly",
+   "usage_reset_date": "2026-10-15T00:00:00Z",
+   "units_limit_workspace": 200000,
+   "units_usage_workspace": 99051,
+   "units_limit_api_key": 100000,
+   "units_usage_api_key": 97491,
+   "api_key_expiration_date": "2027-09-15T21:13:34Z"
+  }
+ },
+ "overview": [
+  {
+   "keyword": "казино промо код",
+   "volume": 80,
+   "difficulty": 60,
+   "cpc": null,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": true,
+    "transactional": true,
+    "branded": false,
+    "local": false
+   },
+   "parent_topic": "бонус код"
+  },
+  {
+   "keyword": "игрални автомати",
+   "volume": 20,
+   "difficulty": 22,
+   "cpc": null,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": true,
+    "transactional": true,
+    "branded": false,
+    "local": false
+   },
+   "parent_topic": "игрални автомати"
+  },
+  {
+   "keyword": "казино без лиценз",
+   "volume": null,
+   "difficulty": 45,
+   "cpc": null,
+   "intents": null,
+   "parent_topic": "лицензирани онлайн казина в българия"
+  },
+  {
+   "keyword": "казино с epay",
+   "volume": null,
+   "difficulty": 0,
+   "cpc": null,
+   "intents": null,
+   "parent_topic": null
+  },
+  {
+   "keyword": "казино с revolut",
+   "volume": null,
+   "difficulty": 6,
+   "cpc": null,
+   "intents": null,
+   "parent_topic": null
+  },
+  {
+   "keyword": "верификация казино",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "казино приложение",
+   "volume": 10,
+   "difficulty": 72,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "казино с биткойн",
+   "volume": 70,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": true,
+    "transactional": true,
+    "branded": true,
+    "local": false
+   },
+   "parent_topic": null
+  },
+  {
+   "keyword": "тото моментни игри",
+   "volume": 50,
+   "difficulty": 73,
+   "cpc": null,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": false,
+    "transactional": false,
+    "branded": true,
+    "local": false
+   },
+   "parent_topic": "проверка на билет"
+  },
+  {
+   "keyword": "безплатни спинове",
+   "volume": 70,
+   "difficulty": 48,
+   "cpc": 4,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": true,
+    "transactional": true,
+    "branded": false,
+    "local": false
+   },
+   "parent_topic": "free spins"
+  },
+  {
+   "keyword": "тото рожден ден",
+   "volume": 350,
+   "difficulty": 0,
+   "cpc": 60,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": false,
+    "transactional": false,
+    "branded": true,
+    "local": false
+   },
+   "parent_topic": "тото рожден ден"
+  },
+  {
+   "keyword": "крипто казино",
+   "volume": 300,
+   "difficulty": 60,
+   "cpc": 110,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": true,
+    "transactional": true,
+    "branded": false,
+    "local": false
+   },
+   "parent_topic": null
+  },
+  {
+   "keyword": "кешбек казино",
+   "volume": 80,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "казино с easypay",
+   "volume": null,
+   "difficulty": 4,
+   "cpc": null,
+   "intents": null,
+   "parent_topic": null
+  },
+  {
+   "keyword": "игрални зали",
+   "volume": 70,
+   "difficulty": 43,
+   "cpc": 20,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": true,
+    "transactional": false,
+    "branded": false,
+    "local": true
+   },
+   "parent_topic": "palzbet"
+  },
+  {
+   "keyword": "тексас холдем правила",
+   "volume": 20,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": false,
+    "transactional": false,
+    "branded": false,
+    "local": false
+   },
+   "parent_topic": null
+  },
+  {
+   "keyword": "омаха покер",
+   "volume": 10,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": false,
+    "transactional": false,
+    "branded": false,
+    "local": false
+   },
+   "parent_topic": null
+  },
+  {
+   "keyword": "верификация в казино",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "казино турнири",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "тото рожден ден правила",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "казина в софия",
+   "volume": 50,
+   "difficulty": 57,
+   "cpc": 50,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": true,
+    "transactional": false,
+    "branded": false,
+    "local": true
+   },
+   "parent_topic": "казина в софия"
+  },
+  {
+   "keyword": "моментни игри",
+   "volume": 500,
+   "difficulty": 78,
+   "cpc": 450,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": false,
+    "transactional": true,
+    "branded": true,
+    "local": false
+   },
+   "parent_topic": "проверка на билет"
+  },
+  {
+   "keyword": "тексас холдем",
+   "volume": 90,
+   "difficulty": 56,
+   "cpc": null,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": true,
+    "transactional": false,
+    "branded": false,
+    "local": false
+   },
+   "parent_topic": "тексас холдем"
+  },
+  {
+   "keyword": "казино със skrill",
+   "volume": null,
+   "difficulty": 22,
+   "cpc": null,
+   "intents": null,
+   "parent_topic": null
+  },
+  {
+   "keyword": "нелегално казино",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "казино с apple pay",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "как се играе тото рожден ден",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "казино в българия",
+   "volume": 60,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "казино без верификация",
+   "volume": 10,
+   "difficulty": 66,
+   "cpc": null,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": true,
+    "transactional": true,
+    "branded": false,
+    "local": false
+   },
+   "parent_topic": "ново онлайн казино бонус без депозит"
+  },
+  {
+   "keyword": "тото онлайн",
+   "volume": 100,
+   "difficulty": 8,
+   "cpc": 70,
+   "intents": {
+    "informational": true,
+    "navigational": true,
+    "commercial": false,
+    "transactional": false,
+    "branded": true,
+    "local": false
+   },
+   "parent_topic": "тото"
+  },
+  {
+   "keyword": "печалба от тото",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "колело на късмета казино",
+   "volume": 90,
+   "difficulty": 12,
+   "cpc": 70,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": true,
+    "transactional": true,
+    "branded": false,
+    "local": false
+   },
+   "parent_topic": "игри с реални парични награди колелото на късмета"
+  },
+  {
+   "keyword": "тото абонамент",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "как да играя тото онлайн",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "тото клуб",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": true,
+    "transactional": false,
+    "branded": true,
+    "local": false
+   },
+   "parent_topic": null
+  }
+ ],
+ "discovery": {}
+}
