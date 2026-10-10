@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 680" width="760" height="680" role="img" aria-labelledby="t d" font-family="Arial, Helvetica, sans-serif">
+<title id="t">Колко често са излизали числата в ТОТО 2 – 6/49</title>
+<desc id="d">Честота на петте най-често и четирите най-рядко изтеглени числа в 6/49 за 1 262 тиража от 01.01.2015 до 08.10.2026, сравнена с очакваните 154,5 пъти при честна машина и с обичайния диапазон при чиста случайност.</desc>
+<rect x="8" y="8" width="744" height="664" rx="14" fill="#f7f8fa" stroke="#d5d9e0"/>
+<text x="32" y="48" font-size="21" font-weight="700" fill="#1d2433">Колко често са излизали числата в 6/49</text>
+<text x="32" y="74" font-size="13" fill="#4a5568">01.01.2015 – 08.10.2026 · 1 262 тиража · 5-те най-чести и 4-те най-редки числа</text>
+<text x="32" y="104" font-size="12" font-weight="700" fill="#2b6cb0">НАЙ-ЧЕСТО</text>
+<text x="32" y="300" font-size="12" font-weight="700" fill="#c05621">НАЙ-РЯДКО</text>
+<rect x="585.0" y="108" width="45.0" height="170" fill="#bee3f8" opacity="0.7"/>
+<rect x="450.0" y="308" width="37.5" height="136" fill="#fbd38d" opacity="0.6"/>
+<text x="136" y="131" font-size="16" font-weight="700" text-anchor="end" fill="#1d2433">34</text>
+<rect x="150" y="112" width="470.0" height="26" rx="4" fill="#2b6cb0"/>
+<text x="628.0" y="131" font-size="15" fill="#1d2433">188</text>
+<text x="136" y="165" font-size="16" font-weight="700" text-anchor="end" fill="#1d2433">23</text>
+<rect x="150" y="146" width="440.0" height="26" rx="4" fill="#2b6cb0"/>
+<text x="598.0" y="165" font-size="15" fill="#1d2433">176</text>
+<text x="136" y="199" font-size="16" font-weight="700" text-anchor="end" fill="#1d2433">37</text>
+<rect x="150" y="180" width="440.0" height="26" rx="4" fill="#2b6cb0"/>
+<text x="598.0" y="199" font-size="15" fill="#1d2433">176</text>
+<text x="136" y="233" font-size="16" font-weight="700" text-anchor="end" fill="#1d2433">42</text>
+<rect x="150" y="214" width="432.5" height="26" rx="4" fill="#2b6cb0"/>
+<text x="590.5" y="233" font-size="15" fill="#1d2433">173</text>
+<text x="136" y="267" font-size="16" font-weight="700" text-anchor="end" fill="#1d2433">35</text>
+<rect x="150" y="248" width="427.5" height="26" rx="4" fill="#2b6cb0"/>
+<text x="585.5" y="267" font-size="15" fill="#1d2433">171</text>
+<text x="136" y="331" font-size="16" font-weight="700" text-anchor="end" fill="#1d2433">25</text>
+<rect x="150" y="312" width="330.0" height="26" rx="4" fill="#c05621"/>
+<text x="488.0" y="331" font-size="15" fill="#1d2433">132</text>
+<text x="136" y="365" font-size="16" font-weight="700" text-anchor="end" fill="#1d2433">7</text>
+<rect x="150" y="346" width="327.5" height="26" rx="4" fill="#c05621"/>
+<text x="485.5" y="365" font-size="15" fill="#1d2433">131</text>
+<text x="136" y="399" font-size="16" font-weight="700" text-anchor="end" fill="#1d2433">41</text>
+<rect x="150" y="380" width="322.5" height="26" rx="4" fill="#c05621"/>
+<text x="480.5" y="399" font-size="15" fill="#1d2433">129</text>
+<text x="136" y="433" font-size="16" font-weight="700" text-anchor="end" fill="#1d2433">40</text>
+<rect x="150" y="414" width="292.5" height="26" rx="4" fill="#c05621"/>
+<text x="450.5" y="433" font-size="15" fill="#1d2433">117</text>
+<line x1="536.25" y1="102" x2="536.25" y2="450" stroke="#1d2433" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="150" y1="470" x2="650.0" y2="470" stroke="#a0aec0"/>
+<line x1="150.0" y1="470" x2="150.0" y2="475" stroke="#a0aec0"/><text x="150.0" y="490" font-size="12" text-anchor="middle" fill="#4a5568">0</text>
+<line x1="275.0" y1="470" x2="275.0" y2="475" stroke="#a0aec0"/><text x="275.0" y="490" font-size="12" text-anchor="middle" fill="#4a5568">50</text>
+<line x1="400.0" y1="470" x2="400.0" y2="475" stroke="#a0aec0"/><text x="400.0" y="490" font-size="12" text-anchor="middle" fill="#4a5568">100</text>
+<line x1="525.0" y1="470" x2="525.0" y2="475" stroke="#a0aec0"/><text x="525.0" y="490" font-size="12" text-anchor="middle" fill="#4a5568">150</text>
+<line x1="650.0" y1="470" x2="650.0" y2="475" stroke="#a0aec0"/><text x="650.0" y="490" font-size="12" text-anchor="middle" fill="#4a5568">200</text>
+<text x="400.0" y="508" font-size="12" text-anchor="middle" fill="#4a5568">брой изтегляния</text>
+<line x1="32" y1="532" x2="60" y2="532" stroke="#1d2433" stroke-width="2" stroke-dasharray="6 5"/><text x="70" y="536" font-size="13" fill="#1d2433">очаквано при честна машина: ≈154,5 пъти на число</text>
+<rect x="32" y="547" width="28" height="14" fill="#bee3f8"/><text x="70" y="560" font-size="13" fill="#1d2433">обичаен диапазон за най-честото число: 174–192</text>
+<rect x="32" y="571" width="28" height="14" fill="#fbd38d"/><text x="70" y="584" font-size="13" fill="#1d2433">обичаен диапазон за най-рядкото число: 120–135</text>
+<text x="32" y="612" font-size="11" fill="#4a5568">Честоти: lotteryextreme.com (неофициален агрегатор).</text>
+<text x="32" y="629" font-size="11" fill="#4a5568">Очаквано и диапазони (90% от 2 000 симулирани серии): наши изчисления.</text>
+<text x="728" y="652" font-size="11" text-anchor="end" fill="#4a5568">Всички Казина · 18+ Играйте отговорно</text>
+</svg>
