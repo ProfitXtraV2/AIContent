@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-10T10:50:54Z",
+  "generated_utc": "2026-10-10T10:52:58Z",
   "buffer": {
-    "count": 230,
+    "count": 231,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 4,
-    "drafted": 205,
+    "in-progress": 3,
+    "drafted": 206,
     "approved": 25,
     "posted": 41,
     "failed": 1
@@ -5555,7 +5555,7 @@
     },
     {
       "id": "vk-0275",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Джакпотът в Тото — как се натрупва, кога се изплаща и рекордите",
       "keywords_or_terms": "тото джакпот, джакпот тото, джакпот 6 от 49, най-голям джакпот тото",
@@ -5564,17 +5564,23 @@
       "source": "backlog",
       "drafted_date": "2026-10-10",
       "posted_date": "",
-      "folder": "",
-      "pr": "",
-      "gemini": "",
-      "notes": "CLAIMED-UNTIL: 2026-10-11T06:00:00Z · ad-hoc cloud run 2026-10-10 (human-requested „write now with cowork\") from topic-backlog 2026-10-10c; full pipeline incl. Gemini 7+8",
+      "folder": "2026-10-10-toto-dzhakpot",
+      "pr": "#293",
+      "gemini": "human 85",
+      "notes": "img:3 (best 100) · ad-hoc cloud run 2026-10-10 (human-requested „write now with cowork\") from topic-backlog 2026-10-10c; full pipeline: gate FAIL 83→92 (flag-only blockers), humaniser MIXED 47/60, Gemini 75→85 after 1 pass (kept pass 1), images hero + 2 SVG (records by year; odds + average wait) review 100. 11 [VERIFY] + 2 [CONFLICT] + 1 [DATA NEEDED]: BST prize-fund %, jackpot cap [DATA NEEDED], тираж 21/2026 rank 2nd vs 3rd [CONFLICT], current-jackpot rank, € payout thresholds, online jackpot payout, 6-month claim term, 2010 unclaimed jackpot, initial sum/14-year instalments (×2), ЗДДФЛ чл.13 ал.1 т.20 (×2) vs totogener „10%\" [CONFLICT]. Jackpot amounts dated тираж 79 (08.10.2026) — refresh at publish. Links: progresivni-dzhakpoti, danaci-pechalbi, otgovorna-igra, zakonno-li-e; link to vk-0267/0270/0272 once live",
       "opportunity": {
         "score": 55,
         "band": "Good",
         "winnable": true
       },
-      "verify_flags": null,
-      "verify_samples": []
+      "verify_flags": 11,
+      "verify_samples": [
+        "[VERIFY: актуални правила на БСТ за 6/49 и 6/42: % награден фонд и дял на I категория]",
+        "[DATA NEEDED: таван или принудително разпределение на джакпота в 6 от 49 и 6 от 42 по правилата на БСТ]",
+        "[VERIFY: класиране на текущия джакпот: списъкът на action.toto.bg е от преди тиражите на 2026 г.]",
+        "[VERIFY: актуални прагове за изплащане в евро след 01.01.2026 г.]",
+        "[VERIFY: изплащане на онлайн джакпот: автоматично по сметка или по общия ред]"
+      ]
     },
     {
       "id": "vk-0276",
@@ -6251,8 +6257,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN (kd0–9, ~600 cluster). Rollover mechanics + record jackpots (sourced news only). Must NOT repeat vk-0267 odds tables — link to it.",
-      "status": "open",
-      "notes": "cluster: lottery; discovery 2026-10-10b",
+      "status": "written",
+      "notes": "cluster: lottery; discovery 2026-10-10b · written → vk-0275, PR #293 (2026-10-10)",
       "opportunity": {
         "score": 55,
         "band": "Good",
@@ -10216,7 +10222,7 @@
     ],
     "bands": {
       "Moderate": 7,
-      "Good": 3,
+      "Good": 2,
       "Strong": 2
     },
     "clusters": {
@@ -10226,9 +10232,9 @@
         "total": 2
       },
       "lottery": {
-        "winnable": 5,
+        "winnable": 4,
         "pillar": 0,
-        "total": 5
+        "total": 4
       },
       "roulette": {
         "winnable": 1,
@@ -10286,19 +10292,6 @@
         "intent": "informational",
         "band": "Good",
         "score": 58,
-        "winnable": true,
-        "cluster": "lottery",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
-        "query": "Джакпотът в Тото — как се натрупва, кога се изплаща и рекордите",
-        "keywords": "тото джакпот, джакпот тото, джакпот 6 от 49, най-голям джакпот тото",
-        "volume": "300",
-        "kd": "0",
-        "intent": "informational",
-        "band": "Good",
-        "score": 55,
         "winnable": true,
         "cluster": "lottery",
         "status": "open",
@@ -10399,7 +10392,7 @@
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 11,
+      "winnable": 10,
       "pillars": 0
     }
   }
