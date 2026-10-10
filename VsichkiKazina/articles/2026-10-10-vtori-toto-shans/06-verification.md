@@ -91,3 +91,8 @@ non-winning tickets take part; contradict official texts.
 ## BRAND GATE
 PASS WITH FIXES — 86 → 93/100 after fixes (see 05-gate-report.md). Byline Георги Тодоров; brand „Всички Казина";
 0 em-dashes; RG line + 18+ + Солидарност; affiliate-licensing footer states licence as applied for, not issued.
+
+## CLOUD RECONCILE 2026-10-10 — Step 7 + Step 8 (supersedes the „skipped" lines above)
+- STEP 7 — external check: Gemini **Likely human-written, 90%** → human-likeness 90 ≥ 80 → PASS on check 1 (initial 05b). Humaniser passes applied: 0. Final 05b = the handed-off version (unchanged). See `07-gemini-check-1.md`. content-queue `gemini` → `human 90`.
+- STEP 8 — Gemini image review: score 85 (PASS, no integrity issue) — `08-image-review-1.md`. images: 1 (infographic 85 PASS). No AI hero added (review did not ask for one). Review noted optional layout tweak (step-4 „6 от 49" box: last line ~3 px from bottom edge) — PASS, left for editor. Infographic still depends on the unconfirmed 2026 raffle format flags.
+- Flags untouched ([VERIFY]/[CONFLICT]/[DATA NEEDED] stay for the nightly fix job / human).

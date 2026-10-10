@@ -13,3 +13,4 @@
 - Step 7 Gemini text — external check: skipped (Gemini unavailable — cloud backfill pending); gemini_check.py → GEMINI_UNAVAILABLE (GEMINI_API_KEY not set).
 - Step 8 Images — 1 hand-authored SVG infographic (5-step „how the 2026 raffle works" + prize boxes + odds formula); all figures verbatim from 05b; svg layout lint ✓ + qlmanage render eyeballed; image review: skipped (Gemini unavailable). No AI hero.
 - 06-verification assembled; flags STAY in text; human owns Step 6. NEVER resolved a flag / posted / merged / fabricated. Board files untouched (ad-hoc batch run).
+- Cloud reconcile 2026-10-10 — Step 7 Gemini check 1: human-written 90% → PASS (0 humaniser passes, gemini = `human 90`); Step 8 Gemini image review 1: score 85 PASS (images: 1 (infographic 85 PASS)); no new hero; flags untouched; committed to existing PR branch.
