@@ -88,3 +88,8 @@ for the human (Step 6). ~1 470 words body (H1 → signature), 0 em-dashes.
 ## HUMAN ACTIONS BEFORE PUBLISH
 Resolve 3 [VERIFY] + 1 [DATA NEEDED]; insert the author bio slot; confirm tax-link fit. Do NOT publish
 with live flags.
+
+## CLOUD RECONCILE 2026-10-10 — Step 7 + Step 8 (supersedes the „skipped" lines above)
+- STEP 7 — external check: check 1 (handed-off 05b) Gemini **Shows AI patterns, 85%** → human-likeness 15 (needs changes). Humaniser pass 1 via `pipeline/prompts/step-7b-apply-gemini-recs.md` (fresh context) + quick Brand Gate re-check (numbers/links/flags/byline/brand/18+/RG diff-verified unchanged, 0 em-dashes, H1 unchanged). Check 2: **Likely human-written, 90%** → human-likeness 90 ≥ 80 → PASS. Passes applied: 1 of 2. Keep-best: pass 1 (90) > initial (15) → final 05b = pass 1 (current file). See `07-gemini-check-1.md`, `07-gemini-check-2.md`. content-queue `gemini` → `human 90`.
+- STEP 8 — Gemini image review: score 100 (PASS, no integrity issue) — `08-image-review-1.md`. images: 1 (infographic 100). No AI hero added (review did not ask for one). Optional polish noted (EV split bar: two rx=6 rects meet at x=380 → hairline seam) — cosmetic, PASS, left for editor.
+- Flags untouched ([VERIFY]/[CONFLICT]/[DATA NEEDED] stay for the nightly fix job / human).
