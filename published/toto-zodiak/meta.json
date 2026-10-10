@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "slug": "toto-zodiak",
+  "title": "Тото Зодиак: правила, печеливши групи и реалният шанс за джакпот",
+  "meta_description": "",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-10-10",
+  "date_modified": "2026-10-10",
+  "keywords": [
+    "тото зодиак",
+    "тото 2 зодиак",
+    "числа за тото зодиак"
+  ],
+  "images": [
+    {
+      "path": "images/toto-zodiak-shans-pechalba-grupi-infografika.svg",
+      "alt": "Инфографика: при Тото Зодиак 5 числа от 50 и 1 зодия от 12 дават 25 425 120 комбинации; шансът за всяка от десетте печеливши групи за една комбинация, от 1 на 25 425 120 за джакпота до 1 на 16,3 за 2 числа, и около 14,9% шанс за каквато и да е печалба"
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": 70,
+  "status": "approved",
+  "content_hash": "9c8674860996241d19764ce4c0d00f90d5c4dcec75594c99f7182e0f6aa0ed0a"
+}

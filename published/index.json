@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 23,
+  "count": 24,
   "articles": [
     {
       "slug": "gates-of-olympus-1000",
@@ -162,7 +162,14 @@
       "date_modified": "2026-10-10",
       "content_hash": "5edc87b21f36a2e36988e49e0fec1f6563d4596e8a0d794b73b037f2ab7d62b7",
       "status": "approved"
+    },
+    {
+      "slug": "toto-zodiak",
+      "title": "Тото Зодиак: правила, печеливши групи и реалният шанс за джакпот",
+      "date_modified": "2026-10-10",
+      "content_hash": "9c8674860996241d19764ce4c0d00f90d5c4dcec75594c99f7182e0f6aa0ed0a",
+      "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-10T10:21:09Z"
+  "generated_utc": "2026-10-10T10:22:58Z"
 }
