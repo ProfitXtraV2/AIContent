@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-10T06:52:34Z",
+  "generated_utc": "2026-10-10T07:41:33Z",
   "buffer": {
-    "count": 219,
+    "count": 220,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 1,
-    "drafted": 200,
+    "in-progress": 0,
+    "drafted": 201,
     "approved": 19,
     "posted": 41,
     "failed": 1
@@ -4689,19 +4689,19 @@
     },
     {
       "id": "vk-0262",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Как се играе онлайн бинго — правила, видове и реалните шансове",
       "keywords_or_terms": "онлайн бинго, как се играе бинго, бинго правила, бинго игра, видове бинго, 90 топки, 75 топки",
       "volume": "100",
       "kd": "0",
       "source": "research",
-      "drafted_date": "",
+      "drafted_date": "2026-10-10",
       "posted_date": "",
       "folder": "2026-10-09-onlayn-bingo-pravila",
-      "pr": "",
-      "gemini": "",
-      "notes": "game-type pillar (parallels keno/sic-bo/craps guides); primary „как се играе бинго\" 100/kd0 informational + „бинго игра\" 100/kd0 + „бинго правила\" 70 (Ahrefs bg). DISTINCT from branded live game-shows Mega Ball (vk-0193)/Monopoly Big Baller (vk-0207) which target their own brand kws; clean pillar — 0 bingo pages in live sitemap (106 URLs). Guides-scope: 0 operator T&C, 0 НАП, 0 affiliate. Honest angle: shared-pool/rake game (return depends on operator cut of ticket sales + player count, not a single published RTP); specific rake % illustrative/[VERIFY] (sources conflict)",
+      "pr": "#282",
+      "gemini": "human 85",
+      "notes": "game-type pillar (parallels keno/sic-bo/craps guides); primary „как се играе бинго\" 100/kd0 informational + „бинго игра\" 100/kd0 + „бинго правила\" 70 (Ahrefs bg). DISTINCT from branded live game-shows Mega Ball (vk-0193)/Monopoly Big Baller (vk-0207) which target their own brand kws; clean pillar — 0 bingo pages in live sitemap (106 URLs). Guides-scope: 0 operator T&C, 0 НАП, 0 affiliate. Honest angle: shared-pool/rake game (return depends on operator cut of ticket sales + player count, not a single published RTP); specific rake % illustrative/[VERIFY] (sources conflict). Resumed+finished 2026-10-10: Gemini Step-7 PASS human 85 (2 humaniser passes, keep-best); img:2 (infographic 100, hero 100)",
       "opportunity": {
         "score": 45,
         "band": "Good",
