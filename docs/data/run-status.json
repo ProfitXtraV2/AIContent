@@ -1,14 +1,14 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-10-10T09:08:49Z",
-  "run_finished_utc": null,
-  "articles_written": null,
+  "run_finished_utc": "2026-10-10T09:19:54Z",
+  "articles_written": 0,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01Jn4PPDUFMpgiYNZAWFgM91",
-  "note": "reconcile-only run: Gemini Step-7 + Step-8 for 8 HANDOFF rows (vk-0264..vk-0271)",
+  "note": "reconcile-only run 2026-10-10 done — 8 HANDOFF rows (vk-0264..0271) Gemini Step-7 + Step-8 committed to their existing PRs (#284-#291), all set drafted. Gemini text: 7 human (85-90); vk-0264 хазартни игри ai 75 after 2 passes (keep-best pass 1, needs editor). Image reviews all PASS (85-100). No new topics; no flags resolved; nothing merged.",
   "progress": {
-    "phase": "writing",
-    "article_index": 1,
+    "phase": "done",
+    "article_index": 8,
     "article_total": 8,
     "article_slug": "2026-10-10-hazartni-igri-vidove",
     "stages": [
@@ -23,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 6,
-    "stage": "Light re-check"
+    "stage_index": null,
+    "stage": null
   }
 }
