@@ -11,3 +11,4 @@
 - Step 8 Images — 1 hand-authored SVG timeline (zakon-za-hazarta-promeni-2025-2026-infografika.svg); all figures traced to 05b by script; svg_layout_lint ✓; rendered PNG eyeballed clean; Gemini image review skipped (unavailable); no AI hero (skipped by instruction). Referenced in 05b with BG ALT + caption (replaced the [INFOGRAPHIC] placeholder).
 - 06-verification assembled — 4 [VERIFY] retained (евро-глоба, „30 дни", § 79 проект, 5% НАП [supported by source pack §6]); /zakonno-li-e/ contradiction with чл. 9, ал. 14 reported; source-pack §4 СРС blocking outdated since 01.08.2026 reported.
 - Outcome: drafted; PR opened (content-only). NEVER resolved a flag / posted / merged / fabricated.
+- Cloud reconcile 2026-10-10 — Step 7 Gemini check 1: human-written 85% → PASS (0 humaniser passes, gemini = `human 85`); Step 8 Gemini image review 1: score 100 PASS (images: 1 (infographic 100 PASS)); no new hero; flags untouched; committed to existing PR branch.

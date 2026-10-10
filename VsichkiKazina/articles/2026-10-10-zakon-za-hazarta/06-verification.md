@@ -57,3 +57,8 @@ PASS WITH FIXES, 85/100 (Personality 18 | Tone 13 | E-E-A-T 16 | Trust 13 | Lang
 
 ## HUMAN ACTION QUEUE (Step 6)
 Resolve the 4 [VERIFY] flags (flag 4 is already supported by the source pack), decide on /zakonno-li-e/ correction, then remove the brackets. Do NOT publish with [VERIFY] tags live. Re-check the ЗИД status after 23.10.2026.
+
+## CLOUD RECONCILE 2026-10-10 — Step 7 + Step 8 (supersedes the „skipped" lines above)
+- STEP 7 — external check: Gemini **Likely human-written, 85%** → human-likeness 85 ≥ 80 → PASS on check 1 (initial 05b). Humaniser passes applied: 0. Final 05b = the handed-off version (unchanged). See `07-gemini-check-1.md`. content-queue `gemini` → `human 85`.
+- STEP 8 — Gemini image review: score 100 (PASS, no integrity issue) — `08-image-review-1.md`. images: 1 (infographic 100 PASS). No AI hero added (review did not ask for one). 
+- Flags untouched ([VERIFY]/[CONFLICT]/[DATA NEEDED] stay for the nightly fix job / human).
