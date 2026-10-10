@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 480" width="760" height="480" role="img" aria-labelledby="t d" font-family="Arial, Helvetica, sans-serif">
+  <title id="t">Шансове в ТОТО 2: 6 от 49, 6 от 42 и 5 от 35</title>
+  <desc id="d">Сравнение на шанса за джакпот и за някаква печалба с една комбинация в трите числови игри на ТОТО 2.</desc>
+  <rect x="0" y="0" width="760" height="480" rx="16" fill="#f7f8fb"/>
+  <text x="32" y="46" font-size="22" font-weight="700" fill="#1b2a41">Шанс за джакпот с една комбинация</text>
+  <text x="32" y="72" font-size="14" fill="#55627a">Дължината на лентата е пропорционална на броя възможни комбинации C(n,k)</text>
+
+  <!-- row 6 от 49 -->
+  <text x="32" y="122" font-size="17" font-weight="700" fill="#1b2a41">6 от 49</text>
+  <rect x="180" y="102" width="360" height="28" rx="4" fill="#c0392b"/>
+  <text x="728" y="122" font-size="16" font-weight="700" fill="#1b2a41" text-anchor="end">1 към 13 983 816</text>
+
+  <!-- row 6 от 42 -->
+  <text x="32" y="176" font-size="17" font-weight="700" fill="#1b2a41">6 от 42</text>
+  <rect x="180" y="156" width="135" height="28" rx="4" fill="#e67e22"/>
+  <text x="728" y="176" font-size="16" font-weight="700" fill="#1b2a41" text-anchor="end">1 към 5 245 786</text>
+
+  <!-- row 5 от 35 -->
+  <text x="32" y="226" font-size="17" font-weight="700" fill="#1b2a41">5 от 35</text>
+  <text x="32" y="244" font-size="12" fill="#55627a">едно теглене</text>
+  <rect x="180" y="210" width="8" height="28" rx="2" fill="#27ae60"/>
+  <text x="728" y="230" font-size="16" font-weight="700" fill="#1b2a41" text-anchor="end">1 към 324 632</text>
+
+  <line x1="32" y1="280" x2="728" y2="280" stroke="#d5dae4" stroke-width="1"/>
+
+  <text x="32" y="312" font-size="18" font-weight="700" fill="#1b2a41">Някаква печалба (3 или повече познати)</text>
+
+  <rect x="32" y="328" width="216" height="96" rx="10" fill="#ffffff" stroke="#d5dae4"/>
+  <text x="140" y="358" font-size="16" font-weight="700" fill="#55627a" text-anchor="middle">6 от 49</text>
+  <text x="140" y="396" font-size="24" font-weight="700" fill="#1b2a41" text-anchor="middle">1 към ≈53,7</text>
+
+  <rect x="272" y="328" width="216" height="96" rx="10" fill="#ffffff" stroke="#d5dae4"/>
+  <text x="380" y="358" font-size="16" font-weight="700" fill="#55627a" text-anchor="middle">6 от 42</text>
+  <text x="380" y="396" font-size="24" font-weight="700" fill="#1b2a41" text-anchor="middle">1 към ≈34,4</text>
+
+  <rect x="512" y="328" width="216" height="96" rx="10" fill="#ffffff" stroke="#d5dae4"/>
+  <text x="620" y="358" font-size="16" font-weight="700" fill="#55627a" text-anchor="middle">5 от 35 (едно теглене)</text>
+  <text x="620" y="392" font-size="24" font-weight="700" fill="#1b2a41" text-anchor="middle">1 към ≈72,1</text>
+  <text x="620" y="414" font-size="12" fill="#55627a" text-anchor="middle">при две тегления: около 1 към 36,3</text>
+
+  <text x="32" y="458" font-size="12" fill="#55627a">Шансовете не зависят от предишните тиражи. Източник: изчисления на Всички Казина.</text>
+  <text x="728" y="458" font-size="12" font-weight="700" fill="#c0392b" text-anchor="end">18+ Играйте отговорно</text>
+</svg>

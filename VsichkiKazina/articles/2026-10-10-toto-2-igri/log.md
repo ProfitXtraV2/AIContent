@@ -1,0 +1,16 @@
+# Log — vk-0267 — „Тото 6 от 49, 6 от 42 и 5 от 35: правила, шансове и разлики"
+
+- 2026-10-10 — Selection: ad-hoc human request (lottery batch vk-0266..0271). Ahrefs bg: тото 6 49 7200/KD7, тото 6 от 49 4700/KD7, тото 5 от 35 4000/KD8, тото 6/42 1200/KD8. Head intent navigational (results) → explainer/odds pillar; ONE pillar for all three ТОТО 2 number games (anti-cannibalization). Dedup OK (no toto page in sitemap).
+- Step 0 Brief — source packs bst-toto-2026-10-10 + nap-gambling-law-and-rg-2026-10-10; secondary sources fetched: bg.wikipedia (БСТ history), lotteryextreme.com (tier payouts 04.10.2026), toto49.com + totogener.com (5/35 rules, weak), trud.bg 2019 (old лв. price, excluded). toto.bg/info.toto.bg + nra.bg NOT fetched (Radware CAPTCHA confirmed on info.toto.bg). All combinatorics computed + checked in python3.
+- Stage 1 Synthesis (fresh subagent) — ~1,594-word BG draft; 10 inline [VERIFY] (8 distinct); excluded 50% prize-fund claim + 2019 price.
+- Stage 1.5 Outline (fresh subagent) — H1 + 9 H2 + 3 H3; no VOICE_BG_guide.md (none exists).
+- Stage 2 Author (editorial, byline Георги Тодоров; fresh subagent) — ~1,640 words; numbers diffed vs 01 OK (only report-metadata tokens differ); 4 internal links.
+- Stage 3 Humaniser (fresh subagent) — Phase-1 MIXED 45/60 → light rewrite (intro announcement, section-closing aphorisms, outro repetition, list→prose); numbers diffed vs 02 OK.
+- Stage 4 SEO (fresh subagent) — title 60 chars, meta 151 chars; H1 changed to start with exact query („Тото 6 от 49, 6 от 42 и 5 от 35: правила, шансове и разлики", dash → colon); +1 restating sentence; numbers diffed vs 03 OK.
+- Stage 5 Brand Gate vsichkikazina (fresh subagent) — PASS WITH FIXES 88/100 (Personality 18 · Tone 14 · E-E-A-T 17 · Trust 12 · Lang&Style 14 · RG 13); fixes: last-updated date, 2 em-dashes in slot markers, register tied to НАП, „В България" jurisdiction, budget = affordable-to-lose, Солидарност 0888 99 18 66 (brand canon). All combinatorics re-verified. 10 [VERIFY] retained.
+- Stage 5b Humaniser light (fresh subagent) — no changes needed; numbers/flags/links intact. Body ~1,710 words (H1→footer, incl. tables).
+- Step 7 external check: skipped (Gemini unavailable — cloud backfill pending). `gemini_check.py` → GEMINI_UNAVAILABLE (GEMINI_API_KEY not set), exit 2.
+- Step 8 Images — 1 hand-authored SVG infographic (jackpot odds bars proportional to C(n,k) + „3 или повече" odds cards); every figure traced verbatim to 05b; rendered via headless Chrome 760×480, no overlap/clipping (svg_layout_lint.py not present in this environment). Referenced in 05b under „Коя игра дава най-добър шанс" with BG ALT + caption. No AI hero (infographic preferred; Gemini unavailable). image review: skipped (Gemini unavailable — cloud backfill pending).
+- 06-verification assembled: 8 distinct [VERIFY] (10 inline) with source URLs; EV + C(49,6) recomputed with working. Flags STAY in text.
+- Outcome: drafted; PR opened (content-only). Never resolved a flag / posted / merged / fabricated. Board files untouched (ad-hoc run; orchestrator owns board).
+- Cloud reconcile 2026-10-10 — Step 7 Gemini check 1: human-written 85% → PASS (0 humaniser passes, gemini = `human 85`); Step 8 Gemini image review 1: score 90 PASS (images: 1 (infographic 90 PASS)); no new hero; flags untouched; committed to existing PR branch.
