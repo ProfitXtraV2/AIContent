@@ -8,6 +8,7 @@ where brand ∈ vsichkikazina (default) | dentalvia.
 import json
 import os
 import re
+import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -200,6 +201,47 @@ def build_status(rows, backlog=None, research=None, target=10, brand="vsichkikaz
     }
 
 
+# Unresolved fact-check flags left in a final draft for the human reviewer:
+# `[VERIFY]`, `[VERIFY: what to check]`, `[DATA NEEDED: …]`.
+VERIFY_FLAG_RE = re.compile(r"\[(?:VERIFY|DATA NEEDED)\b[^\]\n]*\]")
+
+
+def verify_flags(text):
+    """Return the [VERIFY…]/[DATA NEEDED…] flags found in a draft, in order."""
+    return VERIFY_FLAG_RE.findall(text or "")
+
+
+def _read_final_draft(root, brand_dir, row):
+    """Text of a row's 05b-final-draft.md, or None if it can't be found. Unposted
+    articles live only on their PR branch (content/<folder>), so read via git;
+    posted ones (and local runs) fall back to the working tree."""
+    folder = (row.get("folder") or "").strip()
+    if not folder:
+        return None
+    rel = f"{brand_dir}/articles/{folder}/05b-final-draft.md"
+    for ref in (f"origin/content/{folder}", f"content/{folder}"):
+        try:
+            res = subprocess.run(["git", "show", f"{ref}:{rel}"], cwd=root,
+                                 capture_output=True, timeout=10)
+        except (OSError, subprocess.SubprocessError):
+            break
+        if res.returncode == 0:
+            return res.stdout.decode("utf-8", "replace")
+    local = Path(root) / rel
+    return local.read_text(encoding="utf-8") if local.exists() else None
+
+
+def attach_verify_flags(rows, read_draft):
+    """Set row['verify_flags'] (count, None = draft not found) and row['verify_samples']
+    (first few flags, for the dashboard tooltip) on every article row."""
+    for r in rows:
+        text = read_draft(r)
+        flags = verify_flags(text) if text is not None else []
+        r["verify_flags"] = len(flags) if text is not None else None
+        r["verify_samples"] = [f[:160] for f in flags[:5]]
+    return rows
+
+
 def _cluster_of(row):
     """Extract a `cluster: <tag>` marker from a backlog note / research suggestion."""
     text = f"{row.get('notes', '')} {row.get('suggestion', '')} {row.get('ahrefs_note', '')}"
@@ -266,6 +308,7 @@ def main():
     rs = research_f.read_text(encoding="utf-8") if research_f.exists() else ""
     status = build_status(parse_queue(md, brand=brand), backlog=parse_backlog(bl),
                           research=parse_research(rs), target=10, brand=brand)
+    attach_verify_flags(status["rows"], lambda r: _read_final_draft(root, brand_dir, r))
     if brand == "vsichkikazina":
         sr_f = root / "docs" / "data" / "seo-review.json"
         seo_review = json.loads(sr_f.read_text(encoding="utf-8")) if sr_f.exists() else {}

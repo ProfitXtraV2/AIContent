@@ -233,3 +233,25 @@ def test_vsichkikazina_links_unchanged():
         f"'routine' key must be present in vsichkikazina links, got: {links}"
     assert "VsichkiKazina" in links["backlog"]
     assert "VsichkiKazina" in links["queue"]
+
+
+def test_verify_flags_matches_verify_and_data_needed():
+    text = ("Цена 0,20 € [VERIFY: цена за комбинация]. Джакпот [VERIFY] и "
+            "[DATA NEEDED: типични суми]. Не е флаг: [VERIFIED] или verify.")
+    assert bd.verify_flags(text) == ["[VERIFY: цена за комбинация]", "[VERIFY]",
+                                     "[DATA NEEDED: типични суми]"]
+
+
+def test_verify_flags_empty_text():
+    assert bd.verify_flags("") == []
+    assert bd.verify_flags(None) == []
+
+
+def test_attach_verify_flags_counts_and_unknown():
+    rows = [{"folder": "a"}, {"folder": "b"}, {"folder": ""}]
+    drafts = {"a": "x [VERIFY: one] y [VERIFY: two]", "b": "clean draft"}
+    bd.attach_verify_flags(rows, lambda r: drafts.get(r["folder"]))
+    assert rows[0]["verify_flags"] == 2
+    assert rows[0]["verify_samples"] == ["[VERIFY: one]", "[VERIFY: two]"]
+    assert rows[1]["verify_flags"] == 0
+    assert rows[2]["verify_flags"] is None      # no draft found → unknown, no icon

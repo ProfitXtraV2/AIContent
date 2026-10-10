@@ -364,7 +364,10 @@ stage you are STARTING now>,"stage":"<that stage's name>"}`.
    "нисък обем; обмисли '<по-силна алтернатива>'"). NEVER change the human's `priority`,
    `type`, `query`, `keywords_or_terms`, or `status` — only enrich the metric columns.
 
-   Then run `python3 scripts/build_dashboard.py` to regenerate `status.json`.
+   Then run `git fetch origin 'refs/heads/content/*:refs/remotes/origin/content/*'`
+   (the builder reads each draft's `[VERIFY]`/`[DATA NEEDED]` flags from its PR branch — without
+   these refs the dashboard's ⚠ badges disappear) and `python3 scripts/build_dashboard.py` to
+   regenerate `status.json`.
 
 7. **Open one PR per written article — content only.** Branch `content/<TODAY>-<slug>`
    contains ONLY `VsichkiKazina/articles/<slug>/*` (the article + its `images/`). PR title =

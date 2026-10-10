@@ -109,6 +109,10 @@
   .gem { font-size: .7rem; padding: .14rem .5rem; border-radius: 999px; font-weight: 600; white-space: nowrap; }
   .gem-pass { background: #e7f8ee; color: #0f8a4d; }
   .gem-warn { background: #fef3e2; color: #b3730a; }
+  .vflag { display: inline-block; margin-top: .3rem; padding: .05rem .45rem; border-radius: 999px;
+           background: #fdecea; color: #b42318; font-size: .78em; font-weight: 600;
+           white-space: nowrap; text-decoration: none; cursor: help; }
+  .vflag:hover { text-decoration: underline; }
   td .sugg { color: var(--muted); font-size: .82rem; }
   .num { text-align: right; font-variant-numeric: tabular-nums; }
   .empty { color: var(--muted); padding: 1.25rem .2rem; }
@@ -215,7 +219,7 @@ const TIPS = {
   ahrefs_note: "Ahrefs verdict + a stronger-variant suggestion if the keyword is weak.",
   suggestion: "One-line rating / verdict for the keyword.",
   priority: "Your priority order (lower = written first).",
-  query: "The article title / topic.",
+  query: "The article title / topic. ⚠ N to verify = the final draft still has N [VERIFY]/[DATA NEEDED] flags to check by hand (hover for the list, click to open the draft).",
   pr: "Pull request number.",
   links: "Links to the PR and the article's files in the repo.",
 };
@@ -421,6 +425,19 @@ async function load() {
     return `<span class="rlinks">${parts.join('') || '—'}</span>`;
   }
 
+  // ⚠ badge when the final draft still contains [VERIFY…]/[DATA NEEDED…] flags.
+  // Tooltip lists the first few; click opens the draft so they can be checked.
+  function verifyBadge(r) {
+    const n = r.verify_flags;
+    if (!n) return '';
+    const esc = s => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+    const tip = `${n} unresolved fact-check flag${n > 1 ? 's' : ''} in the final draft:\n` +
+      (r.verify_samples || []).map(f => '• ' + f).join('\n') + (n > (r.verify_samples || []).length ? '\n…' : '');
+    const ref = r.status === 'posted' ? 'main' : ('content/' + r.folder);
+    const href = `${repo}/blob/${ref}/VsichkiKazina/articles/${r.folder}/05b-final-draft.md`;
+    return `<br><a class="vflag" href="${href}" target="_blank" rel="noopener" title="${esc(tip)}">⚠ ${n} to verify</a>`;
+  }
+
   function geminiBadge(v) {
     v = (v || '').trim().toLowerCase();
     if (!v) return '<span class="chk chk-none">— not run</span>';
@@ -442,6 +459,7 @@ async function load() {
       if (c === 'links') return `<td>${articleLinks(r)}</td>`;
       if (c === 'gemini') return `<td>${geminiBadge(r.gemini)}</td>`;
       if (c === 'opportunity') return `<td>${opChip(r.opportunity)}</td>`;
+      if (c === 'query') return `<td>${r.query || ''}${verifyBadge(r)}</td>`;
       let v = r[c] || '';
       if (c === 'status') v = `<span class="st st-${v}">${v}</span>`;
       const cls = (c === 'volume' || c === 'kd') ? ' class="num"' : '';
