@@ -1,19 +1,16 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-10-10T07:16:19Z",
-  "run_finished_utc": "2026-10-10T08:07:43Z",
-  "articles_written": 2,
-  "prs_opened": [
-    282,
-    283
-  ],
-  "run_url": "https://claude.ai/code/session_01DaWX31UxdvpzeKfWQPRvbK",
-  "note": "daily run 2026-10-10 done — reconciled+finished vk-0262 онлайн бинго (PR #282, Gemini human 85, img:2) + wrote 1 NEW vk-0263 покер комбинации (PR #283, Gemini human 90, img:2). Bank replenished +1 (dog house megaways 70/kd0). Backlog all NV-blocked under guides-only.",
+  "state": "running",
+  "run_started_utc": "2026-10-10T09:08:49Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01Jn4PPDUFMpgiYNZAWFgM91",
+  "note": "reconcile-only run: Gemini Step-7 + Step-8 for 8 HANDOFF rows (vk-0264..vk-0271)",
   "progress": {
-    "phase": "done",
+    "phase": "writing",
     "article_index": 1,
-    "article_total": 1,
-    "article_slug": "2026-10-10-poker-kombinacii",
+    "article_total": 8,
+    "article_slug": "2026-10-10-hazartni-igri-vidove",
     "stages": [
       "Synthesis",
       "Outline",
@@ -26,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": null,
-    "stage": null
+    "stage_index": 6,
+    "stage": "Light re-check"
   }
 }
