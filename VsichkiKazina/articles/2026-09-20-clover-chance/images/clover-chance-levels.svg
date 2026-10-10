@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" role="img" aria-label="Clover Chance: мистерия джакпот, който тръгва на случаен принцип. Четири растящи нива Mini, Minor, Major и Grand. На бонус екрана се отварят около 15 сандъчета и се събират цветни перли; три перли от един цвят печелят нивото, а детелината качва с едно ниво нагоре.">
+  <title>Clover Chance: четири растящи нива и как работи бонусът</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f3faf4"/>
+      <stop offset="100%" stop-color="#e6f4ea"/>
+    </linearGradient>
+    <linearGradient id="lvl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#15803d"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="380" rx="12" ry="12" fill="url(#bg)"/>
+  <text x="300" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#166534" text-anchor="middle">Clover Chance: мистерия джакпот с 4 растящи нива</text>
+  <text x="300" y="52" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">тръгва на случаен принцип · и четирите нива растат от залозите</text>
+
+  <!-- Grand -->
+  <rect x="50" y="66" width="500" height="42" rx="9" fill="url(#lvl)"/>
+  <text x="66" y="93" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="800" fill="#ffffff">Grand</text>
+  <text x="534" y="93" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#dcfce7" text-anchor="end">растящ</text>
+  <!-- Major -->
+  <rect x="50" y="114" width="500" height="42" rx="9" fill="url(#lvl)" opacity="0.92"/>
+  <text x="66" y="141" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="800" fill="#ffffff">Major</text>
+  <text x="534" y="141" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#dcfce7" text-anchor="end">растящ</text>
+  <!-- Minor -->
+  <rect x="50" y="162" width="500" height="42" rx="9" fill="url(#lvl)" opacity="0.84"/>
+  <text x="66" y="189" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="800" fill="#ffffff">Minor</text>
+  <text x="534" y="189" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#dcfce7" text-anchor="end">растящ</text>
+  <!-- Mini -->
+  <rect x="50" y="210" width="500" height="42" rx="9" fill="url(#lvl)" opacity="0.76"/>
+  <text x="66" y="237" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="800" fill="#ffffff">Mini</text>
+  <text x="534" y="237" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#dcfce7" text-anchor="end">растящ</text>
+
+  <rect x="50" y="272" width="500" height="66" rx="10" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="300" y="296" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#166534" text-anchor="middle">На бонус екрана: отваряш около 15 сандъчета и събираш перли</text>
+  <text x="300" y="318" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#4b5563" text-anchor="middle">3 перли от един цвят печелят нивото · детелина = едно ниво нагоре</text>
+
+  <text x="300" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">18+ Играйте отговорно · броят сандъчета и правилата за цветовете се различават по заглавие</text>
+</svg>
