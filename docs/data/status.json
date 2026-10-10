@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-10T08:04:48Z",
+  "generated_utc": "2026-10-10T08:07:33Z",
   "buffer": {
-    "count": 220,
+    "count": 221,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 1,
-    "drafted": 200,
+    "in-progress": 0,
+    "drafted": 201,
     "approved": 20,
     "posted": 41,
     "failed": 1
@@ -4710,19 +4710,19 @@
     },
     {
       "id": "vk-0263",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Покер комбинации: подредба на ръцете от роял флъш до най-висока карта",
       "keywords_or_terms": "покер комбинации, подредба на покер ръцете, покер ръце, роял флъш, каре, фул хаус, кента, цвят, старша карта",
       "volume": "700",
       "kd": "0",
       "source": "research",
-      "drafted_date": "",
+      "drafted_date": "2026-10-10",
       "posted_date": "",
       "folder": "2026-10-10-poker-kombinacii",
-      "pr": "",
-      "gemini": "",
-      "notes": "NEW discovered reference pillar (Ahrefs bg 2026-10-10): „покер комбинации\" 700/kd0 informational, trend UP (recent3 ~717 vs ~600 9-12mo ago, +19%). DISTINCT reference intent (hand-ranking lookup) vs how-to-play overview vk-0008 (/blog/kak-se-igrae-poker-kazino/, targets „как се играе покер\") + variant guides (видеопокер vk-0173, 3-card vk-0176, UTH vk-0178, Casino Hold'em vk-0189). 0 hand-rankings page in queue+live sitemap (108 URLs). Anchors casino-poker cluster via internal links. Guides-scope: 0 operator T&C, 0 НАП, 0 affiliate. Honest casino angle: ranking order is standard for 5-card games but 3-card poker reverses straight>flush (rarer in 3 cards); hands only decide showdown, not house edge",
+      "pr": "#283",
+      "gemini": "human 90",
+      "notes": "NEW discovered reference pillar (Ahrefs bg 2026-10-10): „покер комбинации\" 700/kd0 informational, trend UP (recent3 ~717 vs ~600 9-12mo ago, +19%). DISTINCT reference intent (hand-ranking lookup) vs how-to-play overview vk-0008 (/blog/kak-se-igrae-poker-kazino/, targets „как се играе покер\") + variant guides (видеопокер vk-0173, 3-card vk-0176, UTH vk-0178, Casino Hold'em vk-0189). 0 hand-rankings page in queue+live sitemap (108 URLs). Anchors casino-poker cluster via internal links. Guides-scope: 0 operator T&C, 0 НАП, 0 affiliate. Honest casino angle: ranking order is standard for 5-card games but 3-card poker reverses straight>flush (rarer in 3 cards); hands only decide showdown, not house edge. Written 2026-10-10: Brand Gate 95/100; Gemini Step-7 PASS human 90 (2 humaniser passes, keep-best); img:2 (ladder infographic 100 + abstract hero 100, hero regenerated pass 2 after suit hallucination); 0 flags; PR #283",
       "opportunity": {
         "score": 75,
         "band": "Strong",
@@ -5147,6 +5147,24 @@
     }
   ],
   "research": [
+    {
+      "type": "guide",
+      "query": "Dog House Megaways (Pragmatic Play): как работи и RTP",
+      "researched_keywords": "dog house megaways, дог хаус мегауейс, dog house megaways rtp",
+      "volume": "70",
+      "kd": "0",
+      "intent": "commercial",
+      "trend": "",
+      "checked": "ahrefs",
+      "suggestion": "Winnable (kd0, 70/мес). Megaways вариант, DISTINCT от базовия The Dog House (покрит /blog/the-dog-house/) и от Megaways-механиката (vk-0041) — собствен branded primary kw. Game-explainer в обхвата guides-only: Pragmatic game-DB (RTP/волатилност/mechanics/max win), NOT operator T&C/НАП. Fold-in: „комбинации покер\" 250/kd0 -> дубликат на vk-0263.",
+      "status": "candidate",
+      "date_researched": "2026-10-10",
+      "opportunity": {
+        "score": 44,
+        "band": "Moderate",
+        "winnable": true
+      }
+    },
     {
       "type": "guide",
       "query": "Thunderkick: профил на доставчика, механики и топ слотове",
@@ -8979,20 +8997,34 @@
       }
     ],
     "bands": {
-      "Moderate": 1
+      "Moderate": 2
     },
     "clusters": {
       "uncategorised": {
-        "winnable": 0,
+        "winnable": 1,
         "pillar": 0,
-        "total": 1
+        "total": 2
       }
     },
-    "winnable": [],
+    "winnable": [
+      {
+        "query": "Dog House Megaways (Pragmatic Play): как работи и RTP",
+        "keywords": "dog house megaways, дог хаус мегауейс, dog house megaways rtp",
+        "volume": "70",
+        "kd": "0",
+        "intent": "commercial",
+        "band": "Moderate",
+        "score": 44,
+        "winnable": true,
+        "cluster": "uncategorised",
+        "status": "candidate",
+        "src": "research"
+      }
+    ],
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 0,
+      "winnable": 1,
       "pillars": 0
     }
   }
