@@ -77,3 +77,8 @@ Byline Георги Тодоров, brand „Всички Казина", dates 1
 Confirm the 4 [VERIFY] items on toto.bg (rules pages / FAQ) or in a тото пункт — above all the current
 per-combination prices, because every € figure depends on them — then remove the brackets. Do NOT publish
 with [VERIFY] tags live.
+
+## CLOUD RECONCILE 2026-10-10 — Step 7 + Step 8 (supersedes the „skipped" lines above)
+- STEP 7 — external check: Gemini **Likely human-written, 90%** → human-likeness 90 ≥ 80 → PASS on check 1 (initial 05b). Humaniser passes applied: 0. Final 05b = the handed-off version (unchanged). See `07-gemini-check-1.md`. content-queue `gemini` → `human 90`.
+- STEP 8 — Gemini image review: score 100 (PASS, no integrity issue) — `08-image-review-1.md`. images: 1 (infographic 100 PASS). No AI hero added (review did not ask for one). 
+- Flags untouched ([VERIFY]/[CONFLICT]/[DATA NEEDED] stay for the nightly fix job / human).

@@ -11,3 +11,4 @@
 - Step 8 Images — 1 hand-authored SVG infographic (6/49 system size × combinations × cost × odds); all numbers traced to 05b; rendered via headless Chrome, no overlap/clipping (svg_layout_lint.py not present locally); image review: skipped (Gemini unavailable). No AI hero.
 - 06-verification assembled; 4 [VERIFY] flags STAY in text; human owns Step 6.
 - Outcome: drafted; PR opened (content-only). Never resolved a flag / posted / merged / fabricated.
+- Cloud reconcile 2026-10-10 — Step 7 Gemini check 1: human-written 90% → PASS (0 humaniser passes, gemini = `human 90`); Step 8 Gemini image review 1: score 100 PASS (images: 1 (infographic 100 PASS)); no new hero; flags untouched; committed to existing PR branch.
