@@ -45,3 +45,8 @@ Internal (all in live sitemap 2026-10-10): /blog/progresivni-dzhakpoti/, /blog/d
 - If #2 turns out false (one combination ≠ both draws), the two-draw odds sentence and the infographic's „при две тегления" line must be removed.
 - If #4/#5 are found, the EV section can state a concrete return % — re-run the gate after that edit.
 - Do NOT publish with live [VERIFY] tags.
+
+## CLOUD RECONCILE 2026-10-10 — Step 7 + Step 8 (supersedes the „skipped" lines above)
+- STEP 7 — external check: Gemini **Likely human-written, 85%** → human-likeness 85 ≥ 80 → PASS on check 1 (initial 05b). Humaniser passes applied: 0. Final 05b = the handed-off version (unchanged). See `07-gemini-check-1.md`. content-queue `gemini` → `human 85`.
+- STEP 8 — Gemini image review: score 90 (PASS, no integrity issue) — `08-image-review-1.md`. images: 1 (infographic 90 PASS). No AI hero added (review did not ask for one). Review noted one optional layout tweak (card-3 line „при две тегления: около 1 към 36,3" tight to card border, suggest 2-line split) — PASS, left for editor; no regeneration.
+- Flags untouched ([VERIFY]/[CONFLICT]/[DATA NEEDED] stay for the nightly fix job / human).
