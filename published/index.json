@@ -1,26 +1,12 @@
 {
   "schema_version": 1,
-  "count": 21,
+  "count": 19,
   "articles": [
     {
       "slug": "gates-of-olympus-1000",
       "title": "Gates of Olympus 1000: какво променя версията 1000",
       "date_modified": "2026-09-10",
       "content_hash": "396797705d64133cc8b645bb636f07403fa097a759fa648abf987933a6f6c4b1",
-      "status": "approved"
-    },
-    {
-      "slug": "flaming-hot",
-      "title": "Flaming Hot: RTP и характеристики (EGT/Amusnet)",
-      "date_modified": "2026-09-10",
-      "content_hash": "47a521b095f1102b88e5fdcd2f4fe5b3dd5b11379e52b1adcba9fac36f6f7efd",
-      "status": "approved"
-    },
-    {
-      "slug": "big-bass-splash",
-      "title": "Big Bass Splash: RTP, волатилност и как се играе",
-      "date_modified": "2026-09-10",
-      "content_hash": "604299489013f1e8c259699e6a97e9086d39fa02876809cfcb22e899929bdece",
       "status": "approved"
     },
     {
@@ -150,5 +136,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-09T06:54:34Z"
+  "generated_utc": "2026-10-10T06:52:34Z"
 }

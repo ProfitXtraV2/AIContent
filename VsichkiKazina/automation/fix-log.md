@@ -1960,3 +1960,70 @@ Rebuilt `scripts/build_dashboard.py` (`docs/data/status.json`, buffer 223/10) an
 
 ### Deferred
 None — only 5 valid in-scope JOB B rows existed; all processed this run.
+
+## 2026-10-09 — nightly flag + score fixes
+
+### JOB A — publish-blocking flags
+Scanned all 263 `refs/remotes/origin/content/*` branches (261 have a `05b-final-draft.md`;
+vk-0002 and vk-0004 are `failed` rows with no draft). **One branch carried a blocking
+marker, but it was NOT resolved** (see below) — zero blocking markers remain on any
+drafted/approved publish-candidate branch.
+- **vk-0262** `2026-10-09-onlayn-bingo-pravila` (in-progress) — one `[VERIFY]` in the final
+  draft (illustrative bingo rake/fee split; sources conflict). **DEFERRED, not touched.** This
+  branch was created today 07:21–07:30 UTC during the active daily run (status `in-progress`,
+  progress → Synthesis); it is a branch the autopilot is currently creating. HARD RULE: do not
+  disturb branches the autopilot is creating. In-progress articles are not publish candidates,
+  so the flag cannot reach a live page yet; the pipeline (or the next night once it reaches
+  `drafted`) will resolve it. No other flags found.
+
+### JOB B — low Gemini score (targets: status drafted/approved with `ai <n>` or `human <80`)
+Two valid in-scope targets (both < ≤10/night cap; no deferrals). Both are chronic
+high-variance detector plateaus already humanised on prior nights; the current drafts still
+carried raw tells, so genuine fact-preserving edits were applied.
+- **vk-0261** `2026-10-08-kak-se-preodolyava-hazartna-zavisimost` (#281, drafted) — board
+  `ai 65`. **1 humanise cycle; improved to borderline pass, board → `human 80`.** Reads this
+  run (345-word RG health piece): human 85 → ai 75 → (post-edit) human 85 → ai 65 → ai 75;
+  2/5 reads cleared 80. Removed the four tells both strongest reads converged on: the didactic
+  explanatory tail after the suicide statistics, the formulaic "се нарежда сред подходите"
+  bridge transition, the feature-benefit adjective triplet ("гъвкава, анонимна и поверителна"),
+  and the narrated-emotion neat bow ("собствената решимост отслабва"). Declined to touch the
+  honest "излекуван подвежда" thesis opener (praised as human by the strongest read) and the
+  keyword-anchored intro. Facts, figures, dates, RG line, 18+ markers, byline and links
+  unchanged. 0 blocking markers. Flagged for human.
+- **vk-0226** `2026-10-01-e-portfeili-skrill-neteller` (#245, drafted) — board `ai 75`.
+  **2 humanise cycles; did NOT clear 80 — board → `ai 70`, best cleaned version kept, needs
+  human review/structural decision.** Reads this run (197-word fact-dense payments explainer):
+  baseline human 75 → (post c1) human-85/ai-75-pattern noise → (post c2) ai 80 / ai 65 / ai 70.
+  Removed: "Идеята е проста:" didactic opener, the sterile thesis-roadmap intro sentence, two
+  colon Feature:Benefit H2s ("Предимството…: бързи тегления", "Кой таксува: …"), the banned
+  "Важната уловка:" caption signpost, the repeated "X не замества/отменя Y" construct (both
+  instances), and two redundant explanatory tails. All fee figures (1,9% / 3,99% / €5 / 12
+  months / 24h / 72h), RG line, 18+ marker, byline and 4 links preserved exactly. 0 em-dashes,
+  0 blocking markers. This is a multi-night detector plateau — a human should decide whether a
+  structural rewrite is warranted rather than further nightly humanising (over-editing risk).
+
+### Finish
+Board `gemini` updated for both processed rows (vk-0261 `ai 65`→`human 80`, vk-0226 `ai 75`→
+`ai 70`); nightly notes appended to each. Rebuilt `scripts/build_dashboard.py`
+(`docs/data/status.json`; in-progress 0→1 reflects the autopilot's vk-0262). Ran
+`scripts/build_feed.py`: its only diffs were hero-image/content-hash regeneration on already-
+`approved` hub articles (unrelated to the two `drafted` JOB-B targets, which do not enter the
+feed). Those `published/` changes were **reverted, not committed** — feed/deploy is the
+daily-run autopilot's domain and bundling unreviewed live-feed changes into a quality commit
+would misattribute them and risk a race. Commit `chore(quality): nightly flag+score fixes
+2026-10-09` on main (board + dashboard only).
+
+### POSTED — needs human review (recurring, STILL OPEN — carried forward)
+- **vk-0063** `2026-09-13-nv-casino-zakonno-li-e` (#79, posted, `ai 75`) — low-rated AND still
+  contains an `[AUTHOR …]` footer stub in its `05b-final-draft.md` on `main`. Posted/live, so
+  NOT touched (HARD RULE). Low Gemini score logged only; never edited live.
+- **vk-0064** `2026-09-13-nv-casino-bonus-usloviya` (#80, posted, `human 85`) — still contains
+  `[AUTHOR …]`, `[BRAND …]` and `[18+ / RG …]` footer stubs in its `05b-final-draft.md` on
+  `main`. Posted/live, NOT touched. Since the publisher now hard-blocks any article containing
+  such markers, a human should resolve these footer stubs — these two pages may not be cleanly
+  live. Carried forward from prior nights, still open.
+
+### Deferred
+- **vk-0262** `2026-10-09-onlayn-bingo-pravila` — JOB A flag deferred (in-progress, autopilot
+  actively creating; see JOB A above). No JOB-B deferrals — only 2 valid in-scope targets
+  existed, both processed this run.
