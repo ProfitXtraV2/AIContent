@@ -10,3 +10,7 @@
 - 05b final: 766 думи тяло.
 - Step 7 Gemini: (below)
 - Step 8 images: (below)
+
+## Step 7 Gemini: initial HL 25 -> pass1 25 -> pass2 90 PASS (keep pass2). gemini=human 90.
+## Step 8 images: ladder infographic (SVG, cards verbatim to 05b) + abstract hero (WebP). Review pass1 70 (hero suit hallucination) -> hero regenerated abstract -> pass2 100 PASS. images:2.
+## Step 9 verification assembled; 0 surviving flags; combinatorics rechecked (flush>straight in 5-card; reversal in 3-card).
