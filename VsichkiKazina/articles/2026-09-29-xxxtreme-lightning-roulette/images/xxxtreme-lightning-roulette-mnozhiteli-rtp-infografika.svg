@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 508" role="img" aria-label="Инфографика за XXXtreme Lightning Roulette на Evolution. Европейска рулетка с числа от 1 до 36 плюс една нула. Всеки рунд от 1 до 5 щастливи числа получават множители, а Chain Lightning вдига общия им брой до 10. Базовите множители са от 50x до 500x. Double Strikes удрят повторно вече щастливо число и качват множителя в лентата от 600x до 2000x, като таванът е 2000x. Печелившият стрейт-ъп на нещастливо число плаща намалени 19 към 1 вместо обичайните 35 към 1; базовата Lightning Roulette плаща 29 към 1. RTP около 97,10 процента за стрейт-ъп залозите, които могат да хванат множител, и около 97,30 процента за останалите залози без множител. Числата са примерни и зависят от версията и масата.">
+  <rect x="8" y="8" width="704" height="492" rx="18" fill="#0f172a"/>
+
+  <text x="32" y="42" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#f8fafc">XXXtreme Lightning Roulette: множители и RTP</text>
+  <text x="32" y="64" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Европейска рулетка (1–36 + една нула). Едрите множители са платени от орязано изплащане.</text>
+
+  <text x="32" y="98" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Щастливи числа и множители</text>
+  <text x="32" y="120" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Всеки рунд светват 1–5 числа; Chain Lightning вдига броя им до 10.</text>
+  <text x="32" y="140" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Базови множители: <tspan font-weight="bold" fill="#f8fafc">50x–500x</tspan>.</text>
+  <text x="32" y="160" font-family="Arial, sans-serif" font-size="13" fill="#fbbf24">Double Strikes удрят число втори път → 600x–2000x (таван <tspan font-weight="bold">2000x</tspan>).</text>
+
+  <text x="32" y="196" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Орязаното изплащане (стрейт-ъп)</text>
+  <g stroke="#1e293b" stroke-width="1">
+    <line x1="32" y1="206" x2="688" y2="206"/>
+    <line x1="32" y1="234" x2="688" y2="234"/>
+    <line x1="32" y1="262" x2="688" y2="262"/>
+  </g>
+  <text x="48" y="224" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Класическа рулетка</text>
+  <text x="688" y="224" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#4ade80" text-anchor="end">35:1</text>
+  <text x="48" y="252" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Базова Lightning Roulette</text>
+  <text x="688" y="252" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">29:1</text>
+  <text x="48" y="280" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">XXXtreme (нещастливо число)</text>
+  <text x="688" y="280" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fbbf24" text-anchor="end">19:1</text>
+
+  <text x="32" y="316" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">RTP по вид залог</text>
+  <text x="32" y="338" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Стрейт-ъп (може да хване множител): ≈ <tspan font-weight="bold" fill="#fbbf24">97,10%</tspan>.</text>
+  <text x="32" y="358" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Останали залози (без множител): ≈ <tspan font-weight="bold" fill="#f8fafc">97,30%</tspan>.</text>
+  <text x="32" y="378" font-family="Arial, sans-serif" font-size="12.5" fill="#cbd5e1">Залогът с шанс за множител връща по-малко от обикновения външен залог.</text>
+
+  <rect x="32" y="396" width="656" height="46" rx="8" fill="#111f38"/>
+  <text x="48" y="418" font-family="Arial, sans-serif" font-size="12.5" fill="#cbd5e1">Таванът 2000x иска число да е избрано И ударено повторно, И ти да си заложил на него —</text>
+  <text x="48" y="436" font-family="Arial, sans-serif" font-size="12.5" fill="#fbbf24">рядко до степен да не влиза в реалната сметка.</text>
+
+  <rect x="32" y="456" width="656" height="24" rx="6" fill="#111f38"/>
+  <text x="44" y="472" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Примерни стойности; зависят от версията и масата. 18+ Играйте отговорно.</text>
+</svg>
