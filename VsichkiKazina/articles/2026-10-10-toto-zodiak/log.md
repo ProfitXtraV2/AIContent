@@ -13,3 +13,4 @@
 - Step 8 Images — 1 SVG infographic (odds per group); figures verbatim from 05b; local PNG render inspected, no overlap/clip; svg_layout_lint.py not present locally. image review: skipped (Gemini unavailable — cloud backfill pending). No AI hero.
 - 06-verification assembled; 9 flags (7 VERIFY, 1 CONFLICT, 1 DATA NEEDED) STAY in text; human owns Step 6.
 - Outcome: drafted; content-only PR. Never resolved a flag / posted / merged / fabricated. Board files untouched (ad-hoc run).
+- Cloud reconcile 2026-10-10 — Step 7: check 1 AI patterns 95% (hl 5) → humaniser pass 1 (7b) + Brand Gate re-check → check 2 human-written 85% PASS; keep-best = pass 1 (hl 85); gemini = `human 85`. Step 8: Gemini image review 1 score 100 PASS (img:1); no new hero; flags untouched; committed to existing PR branch.

@@ -52,3 +52,8 @@ Per group (k numbers matched): ways = C(5,k)·C(45,5−k), ×1 with sign, ×11 w
 - Footer has two near-duplicate 18+ lines (RG untouchable for the pipeline) — consider merging at publish.
 - Optional: add Солидарност helpline if the brand template uses it (gate did not add, no-new-numbers rule).
 - `[СЛОТ: За автора …]` / `[СЛОТ: За Всички Казина …]` are publisher slots.
+
+## CLOUD RECONCILE 2026-10-10 — Step 7 + Step 8 (supersedes the „skipped" lines above)
+- STEP 7 — external check: check 1 (handed-off 05b) Gemini **Shows AI patterns, 95%** → human-likeness 5 (needs changes). Humaniser pass 1 via `pipeline/prompts/step-7b-apply-gemini-recs.md` (fresh context) + quick Brand Gate re-check (numbers/links/flags/byline/brand/18+/RG diff-verified unchanged, 0 em-dashes, H1 unchanged). Check 2: **Likely human-written, 85%** → human-likeness 85 ≥ 80 → PASS. Passes applied: 1 of 2. Keep-best: pass 1 (85) > initial (5) → final 05b = pass 1 (current file). See `07-gemini-check-1.md`, `07-gemini-check-2.md`. content-queue `gemini` → `human 85`.
+- STEP 8 — Gemini image review: score 100 (PASS, no integrity issue) — `08-image-review-1.md`. images: 1 (infographic 100). No AI hero added (review did not ask for one). No fixes asked.
+- Flags untouched ([VERIFY]/[CONFLICT]/[DATA NEEDED] stay for the nightly fix job / human).
