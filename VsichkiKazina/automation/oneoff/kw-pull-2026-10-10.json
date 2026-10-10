@@ -1,0 +1,1363 @@
+{
+ "limits_before": {
+  "limits_and_usage": {
+   "subscription": "Lite, billed monthly",
+   "usage_reset_date": "2026-10-15T00:00:00Z",
+   "units_limit_workspace": 200000,
+   "units_usage_workspace": 51291,
+   "units_limit_api_key": 100000,
+   "units_usage_api_key": 49731,
+   "api_key_expiration_date": "2027-09-15T21:13:34Z"
+  }
+ },
+ "overview": [
+  {
+   "keyword": "тежка хазартна зависимост",
+   "volume": 40,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "хазартна зависимост",
+   "volume": 250,
+   "difficulty": 12,
+   "cpc": 4,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": false,
+    "transactional": false,
+    "branded": false,
+    "local": false
+   },
+   "parent_topic": "как се преодолява хазартна зависимост"
+  },
+  {
+   "keyword": "забрана за реклама на хазарт",
+   "volume": 30,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "хазартна зависимост форум",
+   "volume": 10,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": false,
+    "transactional": false,
+    "branded": false,
+    "local": false
+   },
+   "parent_topic": null
+  },
+  {
+   "keyword": "закон за хазарта",
+   "volume": 300,
+   "difficulty": 3,
+   "cpc": null,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": false,
+    "transactional": false,
+    "branded": false,
+    "local": false
+   },
+   "parent_topic": "зх"
+  },
+  {
+   "keyword": "хазарт",
+   "volume": 900,
+   "difficulty": 10,
+   "cpc": 35,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": false,
+    "transactional": false,
+    "branded": false,
+    "local": false
+   },
+   "parent_topic": "хазарт"
+  },
+  {
+   "keyword": "закон за хазарта 2026",
+   "volume": 20,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": false,
+    "transactional": false,
+    "branded": false,
+    "local": false
+   },
+   "parent_topic": null
+  },
+  {
+   "keyword": "данък печалба от хазарт",
+   "volume": 50,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "проверка за забрана за хазарт",
+   "volume": 30,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": false,
+    "transactional": false,
+    "branded": false,
+    "local": false
+   },
+   "parent_topic": null
+  },
+  {
+   "keyword": "нов закон за хазарта",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "хазартни игри",
+   "volume": 1600,
+   "difficulty": 2,
+   "cpc": 25,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": true,
+    "transactional": true,
+    "branded": false,
+    "local": false
+   },
+   "parent_topic": "хазартни игри онлайн"
+  },
+  {
+   "keyword": "видове хазартни игри",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "забрана за хазарт",
+   "volume": 500,
+   "difficulty": 0,
+   "cpc": 35,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": false,
+    "transactional": false,
+    "branded": false,
+    "local": false
+   },
+   "parent_topic": "как да си направя забрана за хазарт"
+  },
+  {
+   "keyword": "забрана за хазарт онлайн",
+   "volume": 50,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": false,
+    "transactional": false,
+    "branded": false,
+    "local": false
+   },
+   "parent_topic": null
+  },
+  {
+   "keyword": "хазартна зависимост лечение",
+   "volume": 40,
+   "difficulty": 0,
+   "cpc": 9,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": true,
+    "transactional": false,
+    "branded": false,
+    "local": true
+   },
+   "parent_topic": "хазартна зависимост"
+  },
+  {
+   "keyword": "хазартна зависимост и семейство",
+   "volume": 30,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": false,
+    "transactional": false,
+    "branded": false,
+    "local": false
+   },
+   "parent_topic": null
+  },
+  {
+   "keyword": "хазарт дефиниция",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "как да спра хазарта",
+   "volume": 10,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": false,
+    "transactional": false,
+    "branded": false,
+    "local": false
+   },
+   "parent_topic": null
+  },
+  {
+   "keyword": "хазартна зависимост симптоми",
+   "volume": 20,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": false,
+    "transactional": false,
+    "branded": false,
+    "local": false
+   },
+   "parent_topic": null
+  },
+  {
+   "keyword": "закон за хазарта 2025",
+   "volume": 100,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": false,
+    "transactional": false,
+    "branded": false,
+    "local": false
+   },
+   "parent_topic": null
+  },
+  {
+   "keyword": "закон за хазарта реклама",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "хазартни игри в българия",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "закон за хазарта промени",
+   "volume": 10,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "как да си направя забрана за хазарт",
+   "volume": 3000,
+   "difficulty": 21,
+   "cpc": 110,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": false,
+    "transactional": true,
+    "branded": false,
+    "local": false
+   },
+   "parent_topic": "как да си направя забрана за хазарт"
+  },
+  {
+   "keyword": "премахване на забрана за хазарт",
+   "volume": 250,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": false,
+    "transactional": false,
+    "branded": false,
+    "local": false
+   },
+   "parent_topic": null
+  },
+  {
+   "keyword": "лечение на хазартна зависимост софия",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "хазарт болест",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "видове хазарт",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "закон за хазарта изплащане на печалби",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "хазарт в българия",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "закон за хазарта евро",
+   "volume": 10,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "забрана реклама хазарт",
+   "volume": 10,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "хазартни сайтове",
+   "volume": 150,
+   "difficulty": null,
+   "cpc": 35,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": true,
+    "transactional": true,
+    "branded": false,
+    "local": false
+   },
+   "parent_topic": null
+  },
+  {
+   "keyword": "нов закон за хазарта 2026",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": false,
+    "transactional": false,
+    "branded": false,
+    "local": false
+   },
+   "parent_topic": null
+  },
+  {
+   "keyword": "хазартна зависимост помощ",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "лиценз за хазарт",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "нап хазарт",
+   "volume": 60,
+   "difficulty": 28,
+   "cpc": null,
+   "intents": {
+    "informational": true,
+    "navigational": true,
+    "commercial": false,
+    "transactional": true,
+    "branded": true,
+    "local": false
+   },
+   "parent_topic": "комисия по хазарта"
+  },
+  {
+   "keyword": "деклариране на печалба от хазарт",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "хазартни игри със зарове",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "хазартна игра на карти",
+   "volume": 40,
+   "difficulty": 0,
+   "cpc": 25,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": true,
+    "transactional": true,
+    "branded": false,
+    "local": false
+   },
+   "parent_topic": "хазартна игра"
+  },
+  {
+   "keyword": "игрални зали",
+   "volume": 70,
+   "difficulty": 43,
+   "cpc": 20,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": true,
+    "transactional": false,
+    "branded": false,
+    "local": true
+   },
+   "parent_topic": "palzbet"
+  },
+  {
+   "keyword": "морален хазарт",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "данък хазартни игри",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "хазартна игра с три зара",
+   "volume": 10,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "игрална зала",
+   "volume": 100,
+   "difficulty": 31,
+   "cpc": 60,
+   "intents": {
+    "informational": true,
+    "navigational": false,
+    "commercial": true,
+    "transactional": true,
+    "branded": false,
+    "local": true
+   },
+   "parent_topic": "game house"
+  },
+  {
+   "keyword": "данък печалба от тото",
+   "volume": 10,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "облага ли се печалба от хазарт",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  },
+  {
+   "keyword": "нап лицензи за хазарт",
+   "volume": 0,
+   "difficulty": null,
+   "cpc": null,
+   "intents": {},
+   "parent_topic": null
+  }
+ ],
+ "discovery": {
+  "хазарт": [
+   {
+    "keyword": "как да си направя забрана за хазарт",
+    "volume": 3000,
+    "difficulty": 21
+   },
+   {
+    "keyword": "хазарт",
+    "volume": 900,
+    "difficulty": 10
+   },
+   {
+    "keyword": "забрана за хазарт",
+    "volume": 500,
+    "difficulty": 0
+   },
+   {
+    "keyword": "нап забрана за хазарт онлайн",
+    "volume": 400,
+    "difficulty": 60
+   },
+   {
+    "keyword": "нап забрана за хазарт проверка",
+    "volume": 250,
+    "difficulty": null
+   },
+   {
+    "keyword": "премахване на забрана за хазарт",
+    "volume": 250,
+    "difficulty": null
+   },
+   {
+    "keyword": "проверка за забрана за хазарт по егн",
+    "volume": 150,
+    "difficulty": null
+   },
+   {
+    "keyword": "премахване на забрана за хазарт нап",
+    "volume": 150,
+    "difficulty": null
+   },
+   {
+    "keyword": "нап забрана за хазарт",
+    "volume": 150,
+    "difficulty": 56
+   },
+   {
+    "keyword": "декларация за забрана за хазарт",
+    "volume": 150,
+    "difficulty": null
+   },
+   {
+    "keyword": "забрана за хазарт нап",
+    "volume": 100,
+    "difficulty": null
+   },
+   {
+    "keyword": "премахване на забрана за хазарт онлайн",
+    "volume": 100,
+    "difficulty": null
+   },
+   {
+    "keyword": "декларация за отказ от хазарт",
+    "volume": 80,
+    "difficulty": 0
+   },
+   {
+    "keyword": "как даси направя забрана за хазарт",
+    "volume": 70,
+    "difficulty": null
+   },
+   {
+    "keyword": "деклариране на доходи от хазарт",
+    "volume": 70,
+    "difficulty": null
+   },
+   {
+    "keyword": "нап хазарт регистри",
+    "volume": 70,
+    "difficulty": 45
+   },
+   {
+    "keyword": "как да си направя забраназа хазарт",
+    "volume": 70,
+    "difficulty": null
+   },
+   {
+    "keyword": "сайтове за хазарт",
+    "volume": 70,
+    "difficulty": null
+   },
+   {
+    "keyword": "какда си направя забрана за хазарт",
+    "volume": 70,
+    "difficulty": null
+   },
+   {
+    "keyword": "хазарт филм",
+    "volume": 70,
+    "difficulty": 9
+   },
+   {
+    "keyword": "как да си направязабрана за хазарт",
+    "volume": 70,
+    "difficulty": null
+   },
+   {
+    "keyword": "как да синаправя забрана за хазарт",
+    "volume": 70,
+    "difficulty": null
+   },
+   {
+    "keyword": "нап хазарт",
+    "volume": 60,
+    "difficulty": 28
+   },
+   {
+    "keyword": "зависимост от хазарт",
+    "volume": 60,
+    "difficulty": 0
+   },
+   {
+    "keyword": "данък печалба от хазарт",
+    "volume": 50,
+    "difficulty": null
+   },
+   {
+    "keyword": "забрана за хазарт онлайн",
+    "volume": 50,
+    "difficulty": null
+   },
+   {
+    "keyword": "хазарт игри",
+    "volume": 50,
+    "difficulty": null
+   },
+   {
+    "keyword": "как даа си направя забрана за хазарт",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "как да сси направя забрана за хазарт",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "как да си направя заббрана за хазарт",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "как да си направяя забрана за хазарт",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "как да си направя забрана за хазарт онлайн",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "ккак да си направя забрана за хазарт",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "как да си направя забрана зза хазарт",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "как да си направя заабрана за хазарт",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "забрана в нап за хазарт",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "как да си направя забррана за хазарт",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "как да си направвя забрана за хазарт",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "онлайн забрана за хазарт",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "как дда си направя забрана за хазарт",
+    "volume": 40,
+    "difficulty": null
+   }
+  ],
+  "хазартна зависимост": [
+   {
+    "keyword": "хазартна зависимост",
+    "volume": 250,
+    "difficulty": 12
+   },
+   {
+    "keyword": "как се преодолява хазартна зависимост",
+    "volume": 150,
+    "difficulty": 10
+   },
+   {
+    "keyword": "има ли излекувани от хазартна зависимост",
+    "volume": 100,
+    "difficulty": 18
+   },
+   {
+    "keyword": "лечение на хазартна зависимост",
+    "volume": 70,
+    "difficulty": 40
+   },
+   {
+    "keyword": "клиники за лечение на хазартна зависимост",
+    "volume": 60,
+    "difficulty": 0
+   },
+   {
+    "keyword": "тежка хазартна зависимост",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "добър психолог за хазартна зависимост",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "хазартна зависимост лечение",
+    "volume": 40,
+    "difficulty": 0
+   },
+   {
+    "keyword": "хазартна зависимост и семейство",
+    "volume": 30,
+    "difficulty": null
+   },
+   {
+    "keyword": "декларация за хазартна зависимост",
+    "volume": 20,
+    "difficulty": 0
+   },
+   {
+    "keyword": "хомеопатия при хазартна зависимост",
+    "volume": 20,
+    "difficulty": null
+   },
+   {
+    "keyword": "помощ при хазартна зависимост",
+    "volume": 20,
+    "difficulty": null
+   },
+   {
+    "keyword": "хазартна зависимост бг мама",
+    "volume": 20,
+    "difficulty": null
+   },
+   {
+    "keyword": "хазартна зависимост симптоми",
+    "volume": 20,
+    "difficulty": null
+   },
+   {
+    "keyword": "терапия при хазартна зависимост",
+    "volume": 10,
+    "difficulty": null
+   },
+   {
+    "keyword": "хазартна зависимост форум",
+    "volume": 10,
+    "difficulty": null
+   },
+   {
+    "keyword": "как се лекува хазартна зависимост",
+    "volume": 10,
+    "difficulty": null
+   },
+   {
+    "keyword": "групи за хазартна зависимост",
+    "volume": 10,
+    "difficulty": null
+   },
+   {
+    "keyword": "психолог хазартна зависимост",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "лечение на хазартна зависимост пловдив",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "психолог за хазартна зависимост",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "излекувани от хазартна зависимост",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "книги за хазартна зависимост",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "лекуване на хазартна зависимост",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "хазартна зависимост лечение пловдив",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "лекарство за хазартна зависимост",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "заявление за хазартна зависимост",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "психотерапевт хазартна зависимост",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "хазартна зависимост лечение с нлп",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "тест за хазартна зависимост",
+    "volume": 0,
+    "difficulty": 0
+   },
+   {
+    "keyword": "преодоляване на хазартна зависимост",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "декларация за хазартна зависимост онлайн",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "лечение хазартна зависимост",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "хазартна зависимост книга",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "лечение на хазартна зависимост софия",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "как да се излекувам от хазартна зависимост",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "регистрация в нап за хазартна зависимост",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "симптоми на хазартна зависимост",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "нап хазартна зависимост",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "лечение на хазартна зависимост варна",
+    "volume": 0,
+    "difficulty": null
+   }
+  ],
+  "закон за хазарта": [
+   {
+    "keyword": "закон за хазарта",
+    "volume": 300,
+    "difficulty": 3
+   },
+   {
+    "keyword": "закон за хазарта 2025",
+    "volume": 100,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за хазарта 2026",
+    "volume": 20,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за хазарта промени",
+    "volume": 10,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за хазарта евро",
+    "volume": 10,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за хазарта българия",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за хазарта 2018",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за реклама на хазарта",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за хазарта 2015",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за хазарта 2022",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за хазарта лекс",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за хазарта 2020",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за хазарта 2021",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "нов закон за хазарта 2024",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за хазарта държавен вестник",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "новия закон за хазарта",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за хазарта 2016",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за хазарта 2024",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за хазарта чл. 30",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за хазарта второ четене",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "нов закон за хазарта",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за хазарта lex",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "нов закон за хазарта 2020",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за хазарта гласуване",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за хазарта 2017",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за хазарта нап",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "нов закон за хазарта 2023",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за хазарта 2024 лекс",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за хазарта реклама",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за хазарта 2014",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за хазарта 2020 държавен вестник",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "промени закон за хазарта",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за хазарта последни новини",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за хазарта данък",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "наредба закон за хазарта",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за хазарта 2019",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "нап закон за хазарта",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за хазарта 2022 лекс",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за хазарта изплащане на печалби",
+    "volume": 0,
+    "difficulty": null
+   },
+   {
+    "keyword": "закон за хазарта 2023",
+    "volume": 0,
+    "difficulty": 2
+   }
+  ],
+  "забрана за хазарт": [
+   {
+    "keyword": "как да си направя забрана за хазарт",
+    "volume": 3000,
+    "difficulty": 21
+   },
+   {
+    "keyword": "забрана за хазарт",
+    "volume": 500,
+    "difficulty": 0
+   },
+   {
+    "keyword": "нап забрана за хазарт онлайн",
+    "volume": 400,
+    "difficulty": 60
+   },
+   {
+    "keyword": "нап забрана за хазарт проверка",
+    "volume": 250,
+    "difficulty": null
+   },
+   {
+    "keyword": "премахване на забрана за хазарт",
+    "volume": 250,
+    "difficulty": null
+   },
+   {
+    "keyword": "проверка за забрана за хазарт по егн",
+    "volume": 150,
+    "difficulty": null
+   },
+   {
+    "keyword": "премахване на забрана за хазарт нап",
+    "volume": 150,
+    "difficulty": null
+   },
+   {
+    "keyword": "нап забрана за хазарт",
+    "volume": 150,
+    "difficulty": 56
+   },
+   {
+    "keyword": "декларация за забрана за хазарт",
+    "volume": 150,
+    "difficulty": null
+   },
+   {
+    "keyword": "забрана за хазарт нап",
+    "volume": 100,
+    "difficulty": null
+   },
+   {
+    "keyword": "премахване на забрана за хазарт онлайн",
+    "volume": 100,
+    "difficulty": null
+   },
+   {
+    "keyword": "как даси направя забрана за хазарт",
+    "volume": 70,
+    "difficulty": null
+   },
+   {
+    "keyword": "какда си направя забрана за хазарт",
+    "volume": 70,
+    "difficulty": null
+   },
+   {
+    "keyword": "как да синаправя забрана за хазарт",
+    "volume": 70,
+    "difficulty": null
+   },
+   {
+    "keyword": "забрана за хазарт онлайн",
+    "volume": 50,
+    "difficulty": null
+   },
+   {
+    "keyword": "как даа си направя забрана за хазарт",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "как да сси направя забрана за хазарт",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "как да си направяя забрана за хазарт",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "как да си направя забрана за хазарт онлайн",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "ккак да си направя забрана за хазарт",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "забрана в нап за хазарт",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "как да си направвя забрана за хазарт",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "онлайн забрана за хазарт",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "как дда си направя забрана за хазарт",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "как да си ннаправя забрана за хазарт",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "как да си напрравя забрана за хазарт",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "как да си напраавя забрана за хазарт",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "как да си нааправя забрана за хазарт",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "как да сии направя забрана за хазарт",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "как да си напправя забрана за хазарт",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "какк да си направя забрана за хазарт",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "каак да си направя забрана за хазарт",
+    "volume": 40,
+    "difficulty": null
+   },
+   {
+    "keyword": "забрана за реклама на хазарт",
+    "volume": 30,
+    "difficulty": null
+   },
+   {
+    "keyword": "проверка за забрана за хазарт",
+    "volume": 30,
+    "difficulty": null
+   },
+   {
+    "keyword": "махане на забрана за хазарт",
+    "volume": 30,
+    "difficulty": null
+   },
+   {
+    "keyword": "отмяна на забрана за хазарт",
+    "volume": 20,
+    "difficulty": null
+   },
+   {
+    "keyword": "онлайн декларация за забрана за хазарт",
+    "volume": 20,
+    "difficulty": null
+   },
+   {
+    "keyword": "нап забрана за хазарт форум",
+    "volume": 20,
+    "difficulty": null
+   },
+   {
+    "keyword": "аак да си направя забрана за хазарт",
+    "volume": 10,
+    "difficulty": null
+   },
+   {
+    "keyword": "как да си напрввя забрана за хазарт",
+    "volume": 10,
+    "difficulty": null
+   }
+  ]
+ }
+}
