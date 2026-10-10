@@ -8,6 +8,99 @@ Facts, numbers, licence/RTP/tax figures, dates, byline (Георги Тодор�
 
 ---
 
+## 2026-10-10 (nightly run — flags + score)
+
+Gemini API online (`gemini-3.1-pro-preview` healthy).
+
+### JOB A — publish-blocking flags
+Scanned every `content/*` branch's own `05b-final-draft.md` (262 branches) for the blocking
+markers. **14** branches carried them — all in the recent Oct 9–10 lottery / тото / legal
+cluster, all status drafted/approved (none posted). All resolved → **0** blocking markers;
+each committed on its own branch + pushed (open PR updated). Figures / dates / licence / tax
+never asserted as fact; footer stubs filled verbatim (byline Георги Тодоров, About, RG,
+1-Aug-2026 affiliate-licensing); no value invented.
+
+- **onlayn-bingo-pravila** (vk-0262, drafted) — 1 `[VERIFY]` (bingo take-rate %): kept figures
+  as illustrative + check the hall. [carried over from the 2026-10-09 deferral — the autopilot
+  run had finished, so safe to touch]
+- **chislata-v-toto-statistika** (drafted) — 6 `[VERIFY]` + author-bio stub: aggregator stats
+  kept with "unofficial, not checked vs the БСТ archive" caveat; hypotheses kept as labelled.
+- **darzhavna-nacionalna-lotaria** (drafted) — 2 `[CONFLICT]` (keno in the exception list) + 1
+  `[VERIFY]`: kept the list common to both sources + a note that sources differ on keno;
+  concession-renewal kept as "not clear".
+- **hazartni-igri-vidove** (vk-0264, drafted) — 5 `[VERIFY]` + [AUTHOR]/[BRAND]/[18+ RG] +
+  a leftover [AFFILIATE] stub: licence term / age-18 / 5% softened or pointed to the law
+  (also JOB B below).
+- **kazina-las-vegas** (drafted) — 5 `[VERIFY]` (keno base, 6:5 blackjack, US IRS tax ×3) +
+  footer stubs: US tax framed as the general IRS Pub-515 framework, reader pointed to
+  IRS / accountant / НАП.
+- **lotaria-vidove** (drafted) — 3 `[VERIFY]` + 2 `[СЛОТ]` footer slots: keno licence "not
+  confirmed in НАП registers"; 1957 founding kept, exact day attributed; fine cited to the law.
+- **toto-2-igri** (vk, approved) — 10 inline `[VERIFY]` + footer stubs + removed a trailing
+  CANON / `## [DATA NEEDED]` meta block that would have leaked into the body; aggregator sums
+  attributed; missing price / fund-% kept as explicitly missing.
+- **toto-dzhakpot** (drafted) — VERIFY/CONFLICT/DATA-NEEDED + footer stubs: jackpot amounts
+  kept with "check БСТ / toto.bg"; tax (чл. 13 ал. 1 т. 20 ЗДДФЛ non-taxable) kept with an
+  НАП/accountant pointer, the unsourced "10% tax" folded in as a contradicted rumour.
+- **toto-dzhoker** (approved) — 4 VERIFY/DATA-NEEDED + author-bio: price 0,20 € kept, release
+  1999 kept (draw-63 detail softened to "public sources"), draw mechanics kept as an assumption.
+- **toto-rozhden-den** (drafted) — 8 `[VERIFY]` + footer stubs: price / current jackpot kept
+  with a toto.bg pointer; draw-mechanism kept as observation + open question.
+- **toto-sistemi-kombinacii** (drafted) — 3 `[VERIFY]`: combination prices kept + check toto.bg;
+  max system size and 5/35 two-draw participation kept as unconfirmed.
+- **toto-zodiak** (approved) — 7 VERIFY/CONFLICT/DATA-NEEDED + 2 `[СЛОТ]` slots + consolidated
+  duplicate RG lines: jackpot snapshot, broadcast-channel conflict softened, prize-fund split
+  marked as non-official descriptions.
+- **vtori-toto-shans** (approved) — footer stubs ([AUTHOR]/[BRAND]/[18+ RG]/[AFFILIATE]) +
+  removed a trailing CANON / [DATA NEEDED] meta note.
+- **zakon-za-hazarta** (drafted) — 4 `[VERIFY]`: fine euro-application pointed to the current
+  law text; prior 30-day minimum softened; draft §79 kept with "a comment, not the official
+  summary" attribution; the unverified "НАП съветва 5%" de-attributed to a general RG rule.
+
+Left untouched: the fixed English template token `[About Всички Казина boilerplate]` (present
+in shipped clean drafts, NOT in the publisher block list, likely renderer-substituted) on the
+4 branches carrying it (bingo, darzhavna, toto-sistemi, zakon) — resolving it to literal text
+risks a double-rendered About block.
+
+### JOB B — low Gemini score
+Targets (status drafted/approved AND `ai <n>` or `human <80`, worst first): **2**, both
+processed, 0 deferred.
+- **vk-0264 hazartni-igri-vidove** (ai 75 → **human 90**): after JOB-A flag resolution the
+  Step-7 re-check returned "Likely human-written, 90%" — the bracketed VERIFY caveats were
+  themselves AI-tells, so removing them lifted the score. Applied the one Gemini rec touching
+  tonight's edit (dropped an "(илюстративен пример)" parenthetical). Passed; stopped.
+- **vk-0226 e-portfeili-skrill-neteller** (ai 70 → **ai 60**, STILL FAILING): 1 conservative
+  pass (de-dramatised the НАП intro pivot, 2 didactic command-endings → objective statements,
+  smoothed the staccato e-wallet passage + security lead-in); all fee figures
+  (1,9% / 3,99% / €5 / 12 мес / 24ч / 72ч), links and the 18+/RG line preserved. AI-confidence
+  improved 70 → 60 but did NOT cross human ≥ 80. Multi-night structural plateau (across nights:
+  75 → 75 → 75 → 70 → 60); remaining Gemini critique is structural (rhythm / thematic repetition
+  on a 197-word fact-dense explainer). **Stopped after one improving pass to avoid over-editing;
+  a human structural rewrite is advised** (per the 2026-10-09 note).
+
+### POSTED — needs human review (carried forward, STILL OPEN)
+- **vk-0063** `2026-09-13-nv-casino-zakonno-li-e` (#79, posted, ai 75) — low-rated AND an
+  `[AUTHOR …]` footer stub in its `05b` on `main`. Posted/live → NOT touched (HARD RULE).
+- **vk-0064** `2026-09-13-nv-casino-bonus-usloviya` (#80, posted, human 85) — `[AUTHOR …]`,
+  `[BRAND …]` and `[18+ / RG …]` footer stubs in its `05b` on `main`. Posted/live → NOT touched.
+  Since the publisher hard-blocks leftover markers, a human should resolve these two pages'
+  footer stubs — they may not be cleanly live.
+
+### Deferred
+None. All 14 flagged branches and both JOB-B targets were processed this run.
+
+### Finish
+Board `gemini` updated for the 2 JOB-B rows (vk-0264 ai 75 → human 90; vk-0226 ai 70 → ai 60)
+with nightly notes. Rebuilt `scripts/build_dashboard.py` (`docs/data/status.json`; verify-flag
+counts fell to 0 across the 14 resolved branches). Rebuilt `scripts/build_feed.py`: the only
+feed diffs were the 4 **approved** JOB-A articles whose flags were resolved (toto-2-igri,
+toto-dzhoker, toto-zodiak, vtori-toto-shans → `published/<slug>/` article.md + meta.json +
+`index.json`) — i.e. the publish-ready fixes reaching the feed for already-approved articles,
+not unrelated hero-image churn — so they were committed. Commit `chore(quality): nightly
+flag+score fixes 2026-10-10` on `main`.
+
+---
+
 ## 2026-10-07 (nightly run — flags + score)
 
 Gemini API is **back online** tonight (healthy `gemini-3.1-pro-preview` responses;
