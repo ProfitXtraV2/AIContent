@@ -10,3 +10,6 @@
 - Stage 5 Brand Gate — PASS WITH FIXES 86 → 93/100. Fixes: byline line, visible dates, +[VERIFY] on 12-month register term, „в България", national register at НАП, Солидарност helpline (brand canon), affiliate-licensing footer slot, footer [DATA NEEDED] line. Number diff 04→05 new tokens only 10.10.2026, 0888 99 18 66, 10:00–17:00, ДВ бр. 69 от 31.07.2026 (brand-template footer) — all from brand canon/template, no fact numbers changed.
 - Stage 5b Humaniser light — 1 change (signpost „Ние го четем така:" → „Според нашия прочит"); 0 em-dashes; number diff IDENTICAL; flags identical. Change log kept here, not in 05b.
 - Final: ~1,450 words body; 12 [VERIFY] + 1 [CONFLICT] + 1 [DATA NEEDED] surviving.
+- Step 7 Gemini text — external check: skipped (Gemini unavailable — cloud backfill pending); gemini_check.py → GEMINI_UNAVAILABLE (GEMINI_API_KEY not set).
+- Step 8 Images — 1 hand-authored SVG infographic (5-step „how the 2026 raffle works" + prize boxes + odds formula); all figures verbatim from 05b; svg layout lint ✓ + qlmanage render eyeballed; image review: skipped (Gemini unavailable). No AI hero.
+- 06-verification assembled; flags STAY in text; human owns Step 6. NEVER resolved a flag / posted / merged / fabricated. Board files untouched (ad-hoc batch run).
