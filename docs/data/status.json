@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-10T10:54:42Z",
+  "generated_utc": "2026-10-10T11:01:04Z",
   "buffer": {
-    "count": 233,
+    "count": 234,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 1,
-    "drafted": 208,
+    "in-progress": 0,
+    "drafted": 209,
     "approved": 25,
     "posted": 41,
     "failed": 1
@@ -5509,7 +5509,7 @@
     },
     {
       "id": "vk-0273",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Лотария — какво е и какви лотарии има в България",
       "keywords_or_terms": "лотария, онлайн лотария, лотария онлайн, бг лотария, видове лотарии",
@@ -5518,17 +5518,21 @@
       "source": "backlog",
       "drafted_date": "2026-10-10",
       "posted_date": "",
-      "folder": "",
-      "pr": "",
-      "gemini": "",
-      "notes": "CLAIMED-UNTIL: 2026-10-11T06:00:00Z · ad-hoc cloud run 2026-10-10 (human-requested „write now with cowork\") from topic-backlog 2026-10-10c; full pipeline incl. Gemini 7+8",
+      "folder": "2026-10-10-lotaria-vidove",
+      "pr": "#296",
+      "gemini": "human 90",
+      "notes": "img:3 (best 100) · ad-hoc cloud run 2026-10-10 (human-requested „write now with cowork\") from topic-backlog 2026-10-10c; lottery-cluster HUB (H1 „Какво е лотария по закона и какви видове лотарии има в България\"). Gate run1 FAIL 79 (кено A/B [CONFLICT] + SEO [DATA NEEDED]) → fixed at Stage 2, re-ran 3→5: PASS WITH FIXES 83→94. Humaniser 45/60 MIXED. Gemini check1 AI 70% → pass1 → human 90 (kept best). Images: hero webp + 2 SVG (4 вида по ЗХ; шансове 6/49-6/42-5/35), review 100. Primary source: consolidated ЗХ (kik-info.com) чл. 4/3, 9/9-11, 13а, 15, 41, 49–59, ПЗР §9. 3 [VERIFY]: private кено licence after 2020; БСТ start 12.05.1957 (wiki); fine лв.→€. Link down to vk-0264/0266–0271 once live.",
       "opportunity": {
         "score": 84,
         "band": "Strong",
         "winnable": true
       },
-      "verify_flags": null,
-      "verify_samples": []
+      "verify_flags": 3,
+      "verify_samples": [
+        "[VERIFY: действащ частен лиценз за кено след 2020 г. — регистрите на НАП]",
+        "[VERIFY: дата — единствен източник bg.wikipedia]",
+        "[VERIFY: дали сумата вече е преизчислена в € в консолидирания текст]"
+      ]
     },
     {
       "id": "vk-0274",
@@ -6215,8 +6219,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN (kd3). Lottery-cluster HUB: legal definition (ЗХ лотарийни игри: традиционна, моментна, томбола, числови), who may organise (БСТ state monopoly + exceptions — see vk-0271), which can be online (not моментна/томбола), links down to all lottery guides.",
-      "status": "open",
-      "notes": "cluster: lottery; discovery 2026-10-10b/c",
+      "status": "written",
+      "notes": "cluster: lottery; discovery 2026-10-10b/c · written: vk-0273 PR #296 (2026-10-10)",
       "opportunity": {
         "score": 84,
         "band": "Strong",
@@ -10234,8 +10238,7 @@
     ],
     "bands": {
       "Moderate": 7,
-      "Good": 1,
-      "Strong": 1
+      "Good": 1
     },
     "clusters": {
       "uncategorised": {
@@ -10244,9 +10247,9 @@
         "total": 2
       },
       "lottery": {
-        "winnable": 3,
+        "winnable": 2,
         "pillar": 0,
-        "total": 3
+        "total": 2
       },
       "roulette": {
         "winnable": 1,
@@ -10265,19 +10268,6 @@
       }
     },
     "winnable": [
-      {
-        "query": "Лотария — какво е и какви лотарии има в България",
-        "keywords": "лотария, онлайн лотария, лотария онлайн, бг лотария, видове лотарии",
-        "volume": "900",
-        "kd": "3",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 84,
-        "winnable": true,
-        "cluster": "lottery",
-        "status": "open",
-        "src": "backlog"
-      },
       {
         "query": "Електронна рулетка — как работи (RNG и автоматни рулетки)",
         "keywords": "електронна рулетка, казино рулетка игра",
@@ -10373,7 +10363,7 @@
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 8,
+      "winnable": 7,
       "pillars": 0
     }
   }
