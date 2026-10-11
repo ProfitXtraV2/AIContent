@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-11T09:41:30Z",
+  "generated_utc": "2026-10-11T09:43:02Z",
   "buffer": {
     "count": 235,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 206,
-    "approved": 29,
+    "drafted": 205,
+    "approved": 30,
     "posted": 41,
     "failed": 1
   },
@@ -5533,7 +5533,7 @@
     },
     {
       "id": "vk-0276",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Казината в Лас Вегас — какво да знаете, преди да играете",
       "keywords_or_terms": "лас вегас, лас вегас казино, атлантик сити",

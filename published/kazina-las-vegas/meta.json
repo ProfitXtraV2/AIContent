@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "slug": "kazina-las-vegas",
+  "title": "Казино в Лас Вегас: колко задържа къщата и какво трябва да знае българският играч",
+  "meta_description": "",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-10-10",
+  "date_modified": "2026-10-10",
+  "keywords": [
+    "лас вегас",
+    "лас вегас казино",
+    "атлантик сити"
+  ],
+  "images": [
+    {
+      "path": "images/las-vegas-kazino-zadarzhan-dyal-hero.webp",
+      "alt": "Илюстрация: поток от чипове минава през фуния пред силует на пустинен град по здрач, а малък постоянен дял от чиповете се отклонява встрани, метафора за процента, който казиното задържа"
+    },
+    {
+      "path": "images/las-vegas-slotove-zadarzhano-po-nominal-infografika.svg",
+      "alt": "Инфографика: win % на слот машините в района Las Vegas Strip за 12 месеца до 31.08.2026 по номинал, от 5.67% при машините за 100 долара до 11.44% при 25-центовите, средно 7.75%, срещу теоретични 3.92 на 100 при онлайн слота Starburst с RTP 96.08%"
+    },
+    {
+      "path": "images/las-vegas-ruletka-nuli-blekdzhek-6-5-infografika.svg",
+      "alt": "Инфографика: теоретична загуба на 100 долара заложени на рулетка, 2.70 при една нула, 5.26 при двойна и 7.69 при тройна; натурал при залог 10 долара в блекджек плаща 15 при 3:2 и 12 при 6:5"
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": 75,
+  "status": "approved",
+  "content_hash": "f96d153897296d258b3081dd1c512b5e6e75dec36edbf8221f85f391e8ed2bf2"
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 29,
+  "count": 30,
   "articles": [
     {
       "slug": "gates-of-olympus-1000",
@@ -34,7 +34,7 @@
       "slug": "dostavchici-kazino-igri",
       "title": "Кои са доставчиците на казино игри и защо са важни",
       "date_modified": "2026-09-12",
-      "content_hash": "0b893e3ad291d68aa5857f486485fd5ea0b5bdc56454273bbfc6960420508057",
+      "content_hash": "d2d5e27d5971b5dcb73c76981ff6cd10dc2143159d798f828c8dd0287df441c3",
       "status": "approved"
     },
     {
@@ -76,35 +76,35 @@
       "slug": "hub-intro-casino-payments",
       "title": "Казино плащания: депозити и тегления в БГ казина",
       "date_modified": "2026-09-19",
-      "content_hash": "a65fd26321d0131c74639026f3f6cc8c5dce8be8b078075a25e4b416d1925f61",
+      "content_hash": "15bd1840413b2b2ec447082ca7076f03e151c31ff783d5e92b9fcf608f0728d5",
       "status": "approved"
     },
     {
       "slug": "hub-intro-bonuses-vip",
       "title": "Казино бонуси и VIP: какво да проверите",
       "date_modified": "2026-09-19",
-      "content_hash": "9aca2849280b239225072fb5f96b87367129ceb351677d25073b8a36ec89cc35",
+      "content_hash": "1736d3b440bc9b94e62134d40395aac3a427f015a849ea7831c4f114a78c463a",
       "status": "approved"
     },
     {
       "slug": "hub-intro-regulations-taxes",
       "title": "Регулации и данъци в онлайн хазарта в България",
       "date_modified": "2026-09-19",
-      "content_hash": "92ce1f91d0244e2d7df7e647022cf908e199375e0665ec72f35924036977f634",
+      "content_hash": "f207601b8f1d080dec3c9700d5fd21d715fef5b7d26b9ccc273346d4d0c296e5",
       "status": "approved"
     },
     {
       "slug": "hub-intro-comparisons-news",
       "title": "HUB INTRO: Сравнения и новини — интро за /blog/comparisons-news/",
       "date_modified": "2026-09-19",
-      "content_hash": "ad07d26c47bea24a8cbf013b92835b1c394bd122943463d05e14672bcd719223",
+      "content_hash": "84398abf3bb6530a282a5173f5ac6ebd1da252743b4dfc4d5b75205459a7ab89",
       "status": "approved"
     },
     {
       "slug": "hub-intro-responsible-gambling",
       "title": "Отговорна игра: лимити, самоизключване, помощ",
       "date_modified": "2026-09-19",
-      "content_hash": "616a5694058a49614a53c343beefb7de06f84d915dbc74b459b845b1dac20d4b",
+      "content_hash": "f1c7b24f7c372c70049958c0be6093d321d4545f269f9af1ad7e06eb1a15569c",
       "status": "approved"
     },
     {
@@ -160,28 +160,28 @@
       "slug": "toto-dzhoker",
       "title": "Тото Джокер — как работи и какъв е реалният шанс за печалба",
       "date_modified": "2026-10-10",
-      "content_hash": "527ef702ee1fd8f5d90ece5d7114cf6413a1368f4a20a603ea8500ed1f952e02",
+      "content_hash": "c04774f2c4bac8d9d3d496a0333410a49f7db38da9185fe9cb115440877954f7",
       "status": "approved"
     },
     {
       "slug": "toto-2-igri",
       "title": "Тото 6 от 49, 6/42 и 5/35: правила и шансове | Всички Казина",
       "date_modified": "2026-10-10",
-      "content_hash": "5edc87b21f36a2e36988e49e0fec1f6563d4596e8a0d794b73b037f2ab7d62b7",
+      "content_hash": "99d8251d4009dbb674419738b951e22ee9be0bafb24679d66bc7fc3177abf61b",
       "status": "approved"
     },
     {
       "slug": "vtori-toto-shans",
       "title": "Втори тото шанс 5 от 35 и 6 от 49: как работи през 2026",
       "date_modified": "2026-10-10",
-      "content_hash": "e1aa7595e51f3297c035033f742c8ec7799d541ca6e0fa84ca46e1c49a6a112d",
+      "content_hash": "14f9cf5bce49398fa7c78fcfb4bb25a26d433a06cf6627908a7da2aee9caa0b7",
       "status": "approved"
     },
     {
       "slug": "toto-zodiak",
       "title": "Тото Зодиак: правила, печеливши групи и реалният шанс за джакпот",
       "date_modified": "2026-10-10",
-      "content_hash": "9c8674860996241d19764ce4c0d00f90d5c4dcec75594c99f7182e0f6aa0ed0a",
+      "content_hash": "59a428b21e5af417f5362aeae423b1e2ff9bb9bb7b4190a4c37102bd02ad755f",
       "status": "approved"
     },
     {
@@ -204,7 +204,14 @@
       "date_modified": "2026-10-10",
       "content_hash": "ccbb499535c00c6c1d17c5a19a5a22753e45410e222ab2e36f9f47ec1c23dbb3",
       "status": "approved"
+    },
+    {
+      "slug": "kazina-las-vegas",
+      "title": "Казино в Лас Вегас: колко задържа къщата и какво трябва да знае българският играч",
+      "date_modified": "2026-10-10",
+      "content_hash": "f96d153897296d258b3081dd1c512b5e6e75dec36edbf8221f85f391e8ed2bf2",
+      "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-11T09:25:38Z"
+  "generated_utc": "2026-10-11T09:43:02Z"
 }
