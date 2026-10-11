@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360" role="img" aria-labelledby="t d">
+<title id="t">Шансове в 6 от 49, 6 от 42 и 5 от 35</title>
+<desc id="d">Брой възможни комбинации и шанс с една комбинация: 6 от 49 – 13 983 816, 6 от 42 – 5 245 786, 5 от 35 – 324 632 за всяко от двете тегления.</desc>
+<style>
+.h{font:700 22px Arial,Helvetica,sans-serif;fill:#1b2a3a}
+.ar{font:400 12px Arial,Helvetica,sans-serif;fill:#5b6b7b}
+.g{font:700 16px Arial,Helvetica,sans-serif;fill:#1b2a3a}
+.v{font:700 15px Arial,Helvetica,sans-serif;fill:#1b2a3a}
+.s{font:400 13px Arial,Helvetica,sans-serif;fill:#2c3b4a}
+.ft{font:400 12px Arial,Helvetica,sans-serif;fill:#5b6b7b}
+</style>
+<rect x="0" y="0" width="760" height="360" rx="14" fill="#f6f8fb"/>
+<text class="h" x="32" y="46">Колко комбинации има и какъв е шансът</text>
+<text class="ar" x="32" y="68">Дължината на лентата е пропорционална на броя възможни комбинации</text>
+
+<text class="g" x="32" y="112">6 от 49</text>
+<rect x="130" y="96" width="598" height="24" rx="4" fill="#3b5b8c"/>
+<text class="s" x="130" y="140">1 към 13 983 816 за шестица с 1 комбинация</text>
+
+<text class="g" x="32" y="186">6 от 42</text>
+<rect x="130" y="170" width="224" height="24" rx="4" fill="#5f84b8"/>
+<text class="v" x="366" y="188">5 245 786</text>
+<text class="s" x="130" y="214">1 към 5 245 786 за шестица с 1 комбинация</text>
+
+<text class="g" x="32" y="260">5 от 35</text>
+<rect x="130" y="244" width="14" height="24" rx="4" fill="#8fb0d9"/>
+<text class="v" x="156" y="262">324 632</text>
+<text class="s" x="130" y="288">1 към 324 632 за петица, за всяко от двете тегления</text>
+
+<text class="v" x="716" y="113" text-anchor="end" fill="#ffffff" style="fill:#fff">13 983 816</text>
+<text class="ft" x="32" y="334">Чиста комбинаторика: C(49,6), C(42,6), C(35,5). Няма „горещи“ числа · 18+ Играйте отговорно</text>
+</svg>
