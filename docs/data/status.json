@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-11T09:34:30Z",
+  "generated_utc": "2026-10-11T09:41:30Z",
   "buffer": {
     "count": 235,
     "target": 10,
@@ -5570,13 +5570,8 @@
       "gemini": "human 85",
       "notes": "img:3 (best 95) · 2026-10-11 daily run (MAX_PER_RUN=1) from topic-backlog „Евроджакпот и Евромилиони\" (cluster lottery/legal). Ahrefs 2026-10-11: „евро джакпот\" 200 info/down, cluster ~380. Honest legal guide: БСТ/toto.bg участва в НИТО една от двете → няма НАП-лицензиран вътрешен път; reseller/messenger + залагане върху тиража = нелицензиран спрямо BG оператор (без НАП-защита, НАП блок-процедура, неясен данък); legal route = ТОТО на toto.bg. DISTINCT от vk-0273 hub + toto cluster; „евро джакпот\" не е таргетиран другаде. Gate PASS WITH FIXES 92; humaniser MIXED 43→~50/60; Gemini check1 AI 75 (HL 25)→pass1→check2 human 85 (keep-best pass1). Images: hero webp + 2 SVG (Eurojackpot↔EuroMillions compare; НАП блок-поток), review 75→fix→95 PASS, 0 integrity. 4 [VERIFY] STAY (EM цени по държави; ЗХ блок-член чл.86–87; ЗДДФЛ чужда лотария; брой държави 19/9). Hygiene: нито един reseller/betting сайт назован/линкнат; без афилиейт. PR #297",
       "opportunity": null,
-      "verify_flags": 4,
-      "verify_samples": [
-        "[VERIFY: точни цени по държави]",
-        "[VERIFY: броят участнички се променя; да се свери към датата на публикуване]",
-        "[VERIFY: точният член на ЗХ за блокиращия механизъм, вероятно чл. 86–87.]",
-        "[VERIFY: точно ЗДДФЛ третиране на печалба от чужда лотария за местно лице.]"
-      ]
+      "verify_flags": 0,
+      "verify_samples": []
     }
   ],
   "backlog": [
