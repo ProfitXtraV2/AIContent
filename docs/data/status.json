@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-11T08:21:03Z",
+  "generated_utc": "2026-10-11T08:21:23Z",
   "buffer": {
     "count": 235,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 209,
-    "approved": 26,
+    "drafted": 208,
+    "approved": 27,
     "posted": 41,
     "failed": 1
   },
@@ -5257,7 +5257,7 @@
     },
     {
       "id": "vk-0264",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Хазартни игри в България — видовете според Закона за хазарта",
       "keywords_or_terms": "хазартни игри, хазарт, видове хазартни игри, хазарт игри, хазартна игра на карти, хазартни игри онлайн",

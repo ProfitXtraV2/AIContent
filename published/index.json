@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 26,
+  "count": 27,
   "articles": [
     {
       "slug": "gates-of-olympus-1000",
@@ -150,6 +150,13 @@
       "status": "approved"
     },
     {
+      "slug": "hazartni-igri-vidove",
+      "title": "Хазартни игри: какво е хазарт по закон и кои видове са разрешени в България",
+      "date_modified": "2026-10-10",
+      "content_hash": "aa90752d565687dfbf73c8338816c0a18757212077cbcd7344a71c1580dfd796",
+      "status": "approved"
+    },
+    {
       "slug": "toto-dzhoker",
       "title": "Тото Джокер — как работи и какъв е реалният шанс за печалба",
       "date_modified": "2026-10-10",
@@ -185,5 +192,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-11T08:21:03Z"
+  "generated_utc": "2026-10-11T08:21:23Z"
 }
