@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 352" width="720" height="352" role="img" aria-label="Депозитът със Skrill или Neteller е моментален, а тегленето към портфейла е обикновено до 24 часа след одобрение от казиното. Важна уловка: много казина изключват депозит със Skrill и Neteller от бонуса за добре дошли. Примерни срокове.">
+  <title>Е-портфейл: депозит моментален, теглене до 24 часа, но често без бонус</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="720" height="352" rx="14" ry="14" fill="url(#bg)"/>
+
+  <text x="360" y="44" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="#1f2937" text-anchor="middle">Skrill и Neteller: колко бързо и каква е уловката</text>
+  <text x="360" y="66" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">е-портфейл спрямо бонуса за добре дошли</text>
+
+  <!-- Deposit card (left) -->
+  <rect x="40" y="88" width="300" height="112" rx="12" fill="#ecfdf5" stroke="#10b981" stroke-width="1.5"/>
+  <rect x="40" y="88" width="300" height="6" rx="3" fill="#10b981"/>
+  <text x="190" y="122" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#047857" text-anchor="middle">Депозит към казиното</text>
+  <text x="190" y="160" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="800" fill="#059669" text-anchor="middle">моментален</text>
+  <text x="190" y="186" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="middle">балансът се вдига за секунди</text>
+
+  <!-- Withdrawal card (right) -->
+  <rect x="380" y="88" width="300" height="112" rx="12" fill="#ecfeff" stroke="#06b6d4" stroke-width="1.5"/>
+  <rect x="380" y="88" width="300" height="6" rx="3" fill="#06b6d4"/>
+  <text x="530" y="122" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#0e7490" text-anchor="middle">Теглене към портфейла</text>
+  <text x="530" y="160" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" fill="#0891b2" text-anchor="middle">до 24 часа</text>
+  <text x="530" y="186" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="middle">след одобрение от казиното</text>
+
+  <!-- Bonus catch bar -->
+  <rect x="40" y="222" width="640" height="62" rx="10" fill="#fef2f2" stroke="#ef4444" stroke-width="1.3"/>
+  <text x="360" y="247" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#b91c1c" text-anchor="middle">Уловката: много казина изключват Skrill/Neteller от бонуса</text>
+  <text x="360" y="269" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#7f1d1d" text-anchor="middle">депозит през портфейл често не активира бонуса за добре дошли</text>
+
+  <text x="360" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">18+ Играйте отговорно · примерни срокове, зависят от казиното</text>
+</svg>
