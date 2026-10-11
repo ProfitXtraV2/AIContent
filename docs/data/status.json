@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-11T08:17:42Z",
+  "generated_utc": "2026-10-11T08:21:03Z",
   "buffer": {
     "count": 235,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 210,
-    "approved": 25,
+    "drafted": 209,
+    "approved": 26,
     "posted": 41,
     "failed": 1
   },
@@ -5441,7 +5441,7 @@
     },
     {
       "id": "vk-0272",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Числата в тото — статистика и митът за „горещите\" числа",
       "keywords_or_terms": "числата от тотото, числа за тото, числа за тото 5/35, статистика тото, най-често падащи числа тото",

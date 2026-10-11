@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 25,
+  "count": 26,
   "articles": [
     {
       "slug": "gates-of-olympus-1000",
@@ -176,7 +176,14 @@
       "date_modified": "2026-10-10",
       "content_hash": "d173f9047eb102f90043550707f85b2eb51eb3b58104e29798ff3048bd553ca9",
       "status": "approved"
+    },
+    {
+      "slug": "chislata-v-toto-statistika",
+      "title": "Числата от тотото: статистика и митът за горещите числа",
+      "date_modified": "2026-10-10",
+      "content_hash": "d7cacabd79e27aea159c024b1a85422d86d15389f831990e82a4dce4244c10dd",
+      "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-11T08:18:09Z"
+  "generated_utc": "2026-10-11T08:21:03Z"
 }
