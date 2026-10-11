@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 27,
+  "count": 28,
   "articles": [
     {
       "slug": "gates-of-olympus-1000",
@@ -190,7 +190,14 @@
       "date_modified": "2026-10-10",
       "content_hash": "d7cacabd79e27aea159c024b1a85422d86d15389f831990e82a4dce4244c10dd",
       "status": "approved"
+    },
+    {
+      "slug": "lotaria-vidove",
+      "title": "Лотария в България: видове, кой я организира и онлайн игра",
+      "date_modified": "2026-10-10",
+      "content_hash": "ccbb499535c00c6c1d17c5a19a5a22753e45410e222ab2e36f9f47ec1c23dbb3",
+      "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-11T08:21:23Z"
+  "generated_utc": "2026-10-11T08:21:55Z"
 }

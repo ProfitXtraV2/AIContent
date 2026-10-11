@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" width="760" height="520" role="img" aria-labelledby="t d">
+<title id="t">Четирите вида лотарийни игри според Закона за хазарта</title>
+<desc id="d">Традиционна лотария, томбола, числова лотарийна игра и моментна лотария: кои билети участват, как се определя печалбата, минимум 50% за печалби и дали може онлайн.</desc>
+<style>
+.h{font:700 22px Arial,Helvetica,sans-serif;fill:#1b2a3a}
+.ct{font:700 17px Arial,Helvetica,sans-serif;fill:#1b2a3a}
+.ar{font:400 12px Arial,Helvetica,sans-serif;fill:#5b6b7b}
+.tx{font:400 14px Arial,Helvetica,sans-serif;fill:#2c3b4a}
+.yes{font:700 13px Arial,Helvetica,sans-serif;fill:#1d7a46}
+.no{font:700 13px Arial,Helvetica,sans-serif;fill:#b23b3b}
+.ft{font:400 12px Arial,Helvetica,sans-serif;fill:#5b6b7b}
+</style>
+<rect x="0" y="0" width="760" height="520" rx="14" fill="#f6f8fb"/>
+<text class="h" x="32" y="46">4 вида лотарийни игри по Закона за хазарта</text>
+<text class="ar" x="32" y="68">чл. 49 ЗХ · онлайн: чл. 41, ал. 2</text>
+
+<g transform="translate(32,88)">
+<rect width="338" height="180" rx="10" fill="#fff" stroke="#d5dde6"/>
+<text class="ct" x="16" y="30">Традиционна лотария</text>
+<text class="ar" x="322" y="30" text-anchor="end">чл. 50–51</text>
+<text class="tx" x="16" y="62">Теглят се всички издадени билети</text>
+<text class="tx" x="16" y="86">Печалбите са фиксирани</text>
+<text class="tx" x="16" y="110">Поне 50% от стойността на</text>
+<text class="tx" x="16" y="130">всички билети отива за печалби</text>
+<text class="yes" x="16" y="162">✓ Може онлайн</text>
+</g>
+
+<g transform="translate(390,88)">
+<rect width="338" height="180" rx="10" fill="#fff" stroke="#d5dde6"/>
+<text class="ct" x="16" y="30">Томбола</text>
+<text class="ar" x="322" y="30" text-anchor="end">чл. 52–53, чл. 15</text>
+<text class="tx" x="16" y="62">Теглят се само продадените билети</text>
+<text class="tx" x="16" y="86">Само предметни награди, поне 50%</text>
+<text class="tx" x="16" y="110">Организатор: само с нестопанска</text>
+<text class="tx" x="16" y="130">цел, еднократно, благотворително</text>
+<text class="no" x="16" y="162">✗ Не може онлайн</text>
+</g>
+
+<g transform="translate(32,284)">
+<rect width="338" height="180" rx="10" fill="#fff" stroke="#d5dde6"/>
+<text class="ct" x="16" y="30">Числова лотарийна игра</text>
+<text class="ar" x="322" y="30" text-anchor="end">чл. 54–57</text>
+<text class="tx" x="16" y="62">Тото: % от постъпленията, поне 50%</text>
+<text class="tx" x="16" y="86">Лото и кено: по коефициент</text>
+<text class="tx" x="16" y="110">Бинго: поне 50% от постъпленията</text>
+<text class="tx" x="16" y="130">Залагате на числа или знаци</text>
+<text class="yes" x="16" y="162">✓ Може онлайн</text>
+</g>
+
+<g transform="translate(390,284)">
+<rect width="338" height="180" rx="10" fill="#fff" stroke="#d5dde6"/>
+<text class="ct" x="16" y="30">Моментна лотария (скреч)</text>
+<text class="ar" x="322" y="30" text-anchor="end">чл. 59</text>
+<text class="tx" x="16" y="62">Резултатът е под защитно покритие</text>
+<text class="tx" x="16" y="86">Печалбите са фиксирани</text>
+<text class="tx" x="16" y="110">Поне 50% от стойността на</text>
+<text class="tx" x="16" y="130">всички талони отива за печалби</text>
+<text class="no" x="16" y="162">✗ Не може онлайн</text>
+</g>
+
+<text class="ft" x="32" y="494">Източник: Закон за хазарта (ЗХ), чл. 41, 49–59 · 18+ Играйте отговорно</text>
+</svg>

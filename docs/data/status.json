@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-11T08:21:23Z",
+  "generated_utc": "2026-10-11T08:21:56Z",
   "buffer": {
     "count": 235,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 208,
-    "approved": 27,
+    "drafted": 207,
+    "approved": 28,
     "posted": 41,
     "failed": 1
   },
@@ -5464,7 +5464,7 @@
     },
     {
       "id": "vk-0273",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Лотария — какво е и какви лотарии има в България",
       "keywords_or_terms": "лотария, онлайн лотария, лотария онлайн, бг лотария, видове лотарии",
