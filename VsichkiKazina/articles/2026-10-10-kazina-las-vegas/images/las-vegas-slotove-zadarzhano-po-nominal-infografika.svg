@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" width="760" height="500" role="img" aria-labelledby="t d" font-family="'Segoe UI',Arial,sans-serif">
+<title id="t">Колко задържат слотовете на Стрипа в Лас Вегас по номинал</title>
+<desc id="d">Win % на слот машините в района Las Vegas Strip за 12 месеца от 01.09.2025 до 31.08.2026 по данни на Nevada Gaming Control Board: от 5.67% при машините за 100 долара до 11.44% при 25-центовите; средно 7.75%. За сравнение онлайн слотът Starburst с RTP 96.08% задържа теоретично 3.92.</desc>
+<rect x="1" y="1" width="758" height="498" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="28" y="44" font-size="19" font-weight="700" fill="#0f172a">Колко задържат слотовете на Стрипа в Лас Вегас</text>
+<text x="28" y="68" font-size="12.5" fill="#475569">Win % по номинал, 01.09.2025–31.08.2026 · Nevada Gaming Control Board</text>
+<text x="28" y="119" font-size="13.5" fill="#1e293b">1 цент (пени слотове)</text>
+<rect x="300" y="104" width="315.9" height="22" rx="4" fill="#dc2626" opacity="0.82"/>
+<text x="623.9" y="120" font-size="13.5" fill="#0f172a">10.53%</text>
+<text x="28" y="157" font-size="13.5" fill="#1e293b">25 цента</text>
+<rect x="300" y="142" width="343.2" height="22" rx="4" fill="#dc2626" opacity="0.82"/>
+<text x="651.2" y="158" font-size="13.5" fill="#0f172a">11.44%</text>
+<text x="28" y="195" font-size="13.5" fill="#1e293b">1 долар</text>
+<rect x="300" y="180" width="215.1" height="22" rx="4" fill="#dc2626" opacity="0.82"/>
+<text x="523.1" y="196" font-size="13.5" fill="#0f172a">7.17%</text>
+<text x="28" y="233" font-size="13.5" fill="#1e293b">25 долара</text>
+<rect x="300" y="218" width="243.6" height="22" rx="4" fill="#dc2626" opacity="0.82"/>
+<text x="551.6" y="234" font-size="13.5" fill="#0f172a">8.12%</text>
+<text x="28" y="271" font-size="13.5" fill="#1e293b">100 долара</text>
+<rect x="300" y="256" width="170.1" height="22" rx="4" fill="#dc2626" opacity="0.82"/>
+<text x="478.1" y="272" font-size="13.5" fill="#0f172a">5.67%</text>
+<text x="28" y="309" font-size="13.5" fill="#1e293b">Мултиноминални</text>
+<rect x="300" y="294" width="228.6" height="22" rx="4" fill="#dc2626" opacity="0.82"/>
+<text x="536.6" y="310" font-size="13.5" fill="#0f172a">7.62%</text>
+<text x="28" y="347" font-size="13.5" fill="#1e293b" font-weight="700">Всички слотове</text>
+<rect x="300" y="332" width="232.5" height="22" rx="4" fill="#b91c1c" opacity="1"/>
+<text x="540.5" y="348" font-size="13.5" fill="#0f172a" font-weight="700">7.75%</text>
+<line x1="28" y1="368" x2="732" y2="368" stroke="#cbd5e1" stroke-dasharray="4 4"/>
+<text x="28" y="399" font-size="13.5" fill="#1e293b">Онлайн: Starburst (RTP 96.08%)</text>
+<rect x="300" y="384" width="117.6" height="22" rx="4" fill="#16a34a"/>
+<text x="425.6" y="400" font-size="13.5" fill="#0f172a">3.92 на 100 (теоретично)</text>
+<text x="28" y="452" font-size="11.5" fill="#475569">Starburst: теоретичен RTP; операторът може да пусне версия с по-нисък RTP.</text>
+<text x="28" y="472" font-size="11.5" fill="#475569">Източник: NGCB Gaming Revenue Report, август 2026 · 18+ Играйте отговорно</text>
+</svg>
