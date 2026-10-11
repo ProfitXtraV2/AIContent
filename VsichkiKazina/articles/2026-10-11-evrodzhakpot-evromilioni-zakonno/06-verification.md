@@ -37,3 +37,10 @@ Type: guide (legal/educational) · Byline: Георги Тодоров (editoria
 
 ## Hygiene confirmed
 No reseller / messenger / concierge / betting-on-outcome site named, described identifiably, or linked anywhere. No operator affiliate link (legal guide — none warranted). Byline Георги Тодоров; brand „Всички Казина"; verbatim 18+ RG line + signposting; affiliate-licensing footer in no-affiliate „Разкриване" form. 0 em-dashes.
+
+## Step 6 — human flag resolution (2026-10-11)
+All 4 [VERIFY] resolved; 0 flags left in 05b.
+1. **EuroMillions цени** — table now: €2.50 Испания/Ирландия/Португалия, £2.50 Обединено кралство, CHF 3.50 Швейцария (https://en.wikipedia.org/wiki/EuroMillions, fetched 2026-10-11). Also filled the „няма данни" jackpot cell: таванът се вдига на стъпки, последно €250 000 000 (достигнат 13.06.2025, same source). SVG #1 updated to match.
+2. **Блокиране — FACTUAL FIX, not just the article number.** The 3-day / Софийски районен съд procedure is outdated (NAP page is stale). Current ЗХ (consolidated to ДВ бр. 69/31.07.2026): чл. 17, ал. 1, т. 9 — изп. директор на НАП разпорежда спиране; чл. 17, ал. 6 (от 01.08.2026) — решението се публикува на сайта на НАП, доставчиците спират достъпа до 24 часа, иначе санкция. Source: source-packs/nap-gambling-law-and-rg-2026-10-10.md §4 correction (vk-0265) + identical wording in merged vk-0266 darzhavna-nacionalna-lotaria and zakon-za-hazarta. Text rewritten; SVG #2 redrawn (Решение → Публикуване → До 24 часа → Санкция; „Без съд по средата") + alt text updated.
+3. **ЗДДФЛ** — per house precedent (vk-0036, vk-0121): tax assertion removed; text now asserts no rate/exemption, only that the licensed-BG treatment does not apply automatically to foreign/unlicensed winnings → счетоводител/НАП + link to the tax guide.
+4. **Брой държави** — Eurojackpot 19 since Greece joined (first draws 08.03.2024; no 2025–2026 joiner found), EuroMillions 9 since 08.10.2004 (Wikipedia, fetched 2026-10-11). Table reworded „от март 2024 г." / „от 2004 г."; standalone flag line removed; SVG footnote → „Цените и участието на държавите се променят."
