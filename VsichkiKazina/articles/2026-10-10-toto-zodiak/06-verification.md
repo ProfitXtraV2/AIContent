@@ -57,3 +57,38 @@ Per group (k numbers matched): ways = C(5,k)·C(45,5−k), ×1 with sign, ×11 w
 - STEP 7 — external check: check 1 (handed-off 05b) Gemini **Shows AI patterns, 95%** → human-likeness 5 (needs changes). Humaniser pass 1 via `pipeline/prompts/step-7b-apply-gemini-recs.md` (fresh context) + quick Brand Gate re-check (numbers/links/flags/byline/brand/18+/RG diff-verified unchanged, 0 em-dashes, H1 unchanged). Check 2: **Likely human-written, 85%** → human-likeness 85 ≥ 80 → PASS. Passes applied: 1 of 2. Keep-best: pass 1 (85) > initial (5) → final 05b = pass 1 (current file). See `07-gemini-check-1.md`, `07-gemini-check-2.md`. content-queue `gemini` → `human 85`.
 - STEP 8 — Gemini image review: score 100 (PASS, no integrity issue) — `08-image-review-1.md`. images: 1 (infographic 100). No AI hero added (review did not ask for one). No fixes asked.
 - Flags untouched ([VERIFY]/[CONFLICT]/[DATA NEEDED] stay for the nightly fix job / human).
+
+## FLAG RESOLUTION 2026-10-11 — all 9 resolved from primary sources (publish-ready)
+Sources (read in a real browser, past the Radware CAPTCHA):
+- Official rules PDF „Игрални условия и правила … „Тото 2 – Зодиак"" (приети с решение на НАП № 000030-5928/17.06.2026),
+  https://info.toto.bg/content/files/2026/07/03/1fa22954274d705db78a2e24dc209ef2.pdf — чл. 2, 13, 31, 33, 35–37, Приложение № 1 т. I.
+- https://info.toto.bg/toto1-i-toto2/toto-2-zodiak (game page, 11.10.2026)
+- https://info.toto.bg/results/zodiak/2026-79 (official results, тираж 79 / 08.10.2026)
+- https://info.toto.bg/tv-predavane
+
+**Main finding — the Wikipedia prize model was WRONG (outdated).** Under the current rules (Прил. № 1 т. I.3–4.3) ALL prizes
+are fixed, incl. the jackpot: 1-ва група €500 000 per winning combination if ≤3 winners, else €1 500 000 split equally;
+2-ра група €15 000 (was „няма печеливш" / pari-mutuel 65/35 in the draft); 3-та–10-а = €3 000 / 300 / 60 / 6 / 3 / 1 / 0,50 / 0,60.
+Remainder of the fund after groups 2–10 → „Стартов джакпот" reserve. No 65/35 split, no 15% cap, no rollover → the
+jackpot does NOT grow draw-to-draw. Intro („джакпотът се трупа"), H2 („защо джакпотът расте"), fund section and the
+„share the jackpot" line in the numbers section rewritten accordingly.
+
+1. Jackpot 1 500 000 → explained: fixed €500k (≤3 winners) / €1.5M split (>3); toto.bg displays €1 500 000. Flag removed.
+2. Number ↔ sign → rules чл. 13: one of 12 balls numbered 1–12 determines the winning sign; no mapping published on
+   info.toto.bg. Text states the rule, makes no mapping claim. Flag removed.
+3. Price → **€0,50** per combination (game page + Прил. № 1 т. I.2). Added АВТОМАТИЧНО / systems / 2- or 5-draw subscription (game page).
+4. Broadcast CONFLICT → БНТ 1, Thu/Sun, programme starts 18:45 (tv-predavane lists Зодиак). Facebook line dropped.
+5. Payout DATA NEEDED → filled: ≤€500 cash at any БСТ terminal point (чл. 36(1)); >€500 identification (чл. 36(6));
+   >€1 500 bank only (чл. 37); 45 days from the day after the draw, rights lapse (чл. 35(1),(3)); jackpot: ≤€100 000 within
+   45 days, rest in equal monthly instalments ≥€10 000 (чл. 35(2)).
+6. Tirage-76 aggregator sums → replaced by official tirage 79: winners 0/0/2/12/41/575/521/2 509/6 375/3 796 = 13 831,
+   total €25 047,10; €0,50–€3 winners = 13 201 („над 13 000" ✓). Prize column now = fixed rule amounts.
+7. Prize-fund share → 50% of stakes, land + online (чл. 31(1), Прил. № 1 т. I.3).
+8. Which groups fixed → 2–10 fixed (game page „Печалбите в играта са фиксирани!") + jackpot fixed per т. 4.3 й).
+9. 65/35 / 15% cap / rollover → do not exist in the current rules; removed.
+
+EV (new, python-checked from the fixed table, jackpot = €500k): 0,2365 € per 0,50 € combination (47,3%); jackpot share
+≈ 0,0197 € → text: „около 0,24 евро … около 2 цента от джакпота".
+Footer: [СЛОТ] author bio + About filled with the standard blocks; duplicate 18+ lines consolidated into the RG block.
+Unchanged & still sourced only by bg.wikipedia: start date 17.08.2014. Infographic SVG = odds only → unaffected.
+Gemini Step-7 not re-run (key only in cloud env); edits are factual rewrites of ~5 paragraphs.
