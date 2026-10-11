@@ -93,3 +93,28 @@ with live flags.
 - STEP 7 — external check: check 1 (handed-off 05b) Gemini **Shows AI patterns, 85%** → human-likeness 15 (needs changes). Humaniser pass 1 via `pipeline/prompts/step-7b-apply-gemini-recs.md` (fresh context) + quick Brand Gate re-check (numbers/links/flags/byline/brand/18+/RG diff-verified unchanged, 0 em-dashes, H1 unchanged). Check 2: **Likely human-written, 90%** → human-likeness 90 ≥ 80 → PASS. Passes applied: 1 of 2. Keep-best: pass 1 (90) > initial (15) → final 05b = pass 1 (current file). See `07-gemini-check-1.md`, `07-gemini-check-2.md`. content-queue `gemini` → `human 90`.
 - STEP 8 — Gemini image review: score 100 (PASS, no integrity issue) — `08-image-review-1.md`. images: 1 (infographic 100). No AI hero added (review did not ask for one). Optional polish noted (EV split bar: two rx=6 rects meet at x=380 → hairline seam) — cosmetic, PASS, left for editor.
 - Flags untouched ([VERIFY]/[CONFLICT]/[DATA NEEDED] stay for the nightly fix job / human).
+
+## FLAG RESOLUTION 2026-10-11 — all 4 resolved from primary sources (publish-ready)
+Sources (read in a real browser, past the Radware CAPTCHA):
+- Official rules PDF „Игрални условия и правила … „Тото 2 – 6 от 49"" (утвърдени с решение на НАП № 000030-5928/17.06.2026),
+  https://info.toto.bg/content/files/2026/07/03/fe0cac4d68873fa809dbac6e64d9acac.pdf (наземно) — чл. 14–21, 39–41, Приложение № 1 т. II.
+- https://info.toto.bg/toto1-i-toto2/toto-2-toto-dzhoker (re-read 11.10.2026)
+- https://info.toto.bg/za-nas/istoriya
+- https://info.toto.bg/results/joker/2026-70 … 2026-79
+
+1. **€0,20** → CONFIRMED (game page + Приложение № 1 т. II.2 „0.20 /двадесет евроцента/ евро"). Flag removed.
+2. **1999 г., 63-ти тираж** → CONFIRMED by БСТ's own history page („1999 г. От 63-и тираж се въвежда играта „Тото Джокер""). Flag removed.
+3. **Draw method** → CONFIRMED, chл. 18: three balls 1–9 drawn WITHOUT replacement (positions) + three balls 0–9 drawn
+   WITH replacement (digits). Exactly the stated assumption → all odds stand unchanged; text now cites the rule instead
+   of hedging. SVG footnote „Допускане:" → „По правилата на БСТ:". Sanity check vs real draws 70–79: I/II winner ratio
+   ≈ 1:200 (theory 1:207).
+4. **[DATA NEEDED] prize sizes + claim deadline** → FILLED: draws 70–79/2026 I група €1 615–€9 474 per winning combination,
+   II група €10,90–€39,30; claim within 45 days from the day after the draw, rights lapse after (чл. 39); ≤€500 cash at any
+   БСТ terminal point, larger via bank (чл. 40).
+
+Also corrected (unflagged, was wrong): „Публикуваните правила не уточняват как се дели половината между I и II група" →
+Приложение № 1 т. II.4: fund split EQUALLY between the two groups. Rollover rewritten per т. II.5: no I-group winner →
+I-group sum jackpots to next draw's I група; no II-group winner → II-group sum goes to that draw's I-group winners.
+Author bio slot filled with the standard Георги Тодоров bio (same as chislata-v-toto-statistika).
+Remaining human check: tax-link fit (/blog/danaci-pechalbi-onlajn-kazino/ for lottery winnings) — non-blocking.
+Gemini Step-7 not re-run (key only in cloud env); edit adds ~1 paragraph of factual text.
