@@ -2120,3 +2120,64 @@ would misattribute them and risk a race. Commit `chore(quality): nightly flag+sc
 - **vk-0262** `2026-10-09-onlayn-bingo-pravila` — JOB A flag deferred (in-progress, autopilot
   actively creating; see JOB A above). No JOB-B deferrals — only 2 valid in-scope targets
   existed, both processed this run.
+
+## 2026-10-11 — nightly flag + score fixes
+
+### JOB A — publish-blocking flags
+Scanned all 278 `refs/remotes/origin/content/*` branches' own `05b-final-draft.md`
+(`git grep` over the branch-matching `articles/<folder>/` path) for the blocking marker set
+(`[VERIFY:]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`, `[AUTHOR …]`, `[BRAND …]`,
+`[EDITORIAL]`, `[уточни …]`, `[провери …]`). **Result: 0 blocking flags on any branch's own
+draft.** The only bracket left in own-branch drafts is `[About Всички Казина boilerplate]`
+(3 branches), which is a standard template placeholder the publisher fills in — it is present
+even in already-`posted` articles (e.g. vk-0001), so it is NOT publish-blocking. Idempotent:
+nothing rewritten. No commits on content branches for JOB A.
+
+### JOB B — low Gemini score
+Only one in-scope target this night (status ∈ {drafted, approved} with `ai <n>` or
+`human <n>`, n<80): **vk-0226**. No deferrals (≤10 cap not approached).
+
+- **vk-0226** `2026-10-01-e-portfeili-skrill-neteller` (#245, drafted) — board `ai 60`.
+  **PASSED this run → board `ai 60` → `human 90`.** This is a known multi-night detector
+  plateau (65–90 high variance on near-identical text; see 10-05 … 10-10 entries). Tonight's
+  readings: baseline human 85 → (cycle 1: removed counting-signposts „на три места"/„на две
+  места", varied the fees H2) ai 75 / ai 65 → (cycle 2: removed ALL body em-dashes — 2
+  instances, incl. a tacked-on „— в [раздела…]"; broke heading-to-text echo in the bonus and
+  fees sections; softened preachy security imperatives to best-practice framing) ai 70 →
+  (cycle 3: dropped a self-introduced duplicate KYC-timing clause) **human 90 — crossed 80.**
+  Committed on branch `content/2026-10-01-e-portfeili-skrill-neteller`
+  (`fix(quality): humanise … (gemini ai 60 -> human 90)`), pushed to PR #245. All fee figures
+  (1,9% / 3,99% / €5 / ~12 мес / 24ч / 72ч), Paysafe Group, all 4 internal links, byline
+  Георги Тодоров, brand Всички Казина, 18+ marker and RG lines preserved exactly. 0 em-dashes,
+  0 blocking markers. Rephrase-only; no fact/number/date/claim changed.
+
+### Finish
+Board `gemini` updated for the one processed row (vk-0226 `ai 60`→`human 90`) with a dated
+note. Rebuilt `scripts/build_dashboard.py` (`docs/data/status.json`; also normalised legacy
+`verify_flags: null`→`0` across rows and refreshed the timestamp). Ran `scripts/build_feed.py`:
+committed board + dashboard only; **`published/` feed changes reverted, not committed** —
+feed/deploy is the daily-run autopilot's domain (`daily-run.md` step 8 refreshes and commits
+`published/`), and bundling it into a quality commit risks a push race and misattributes the
+autopilot's approved-article content. Commit `chore(quality): nightly flag+score fixes
+2026-10-11` on main (board + dashboard + this log).
+
+### Feed — needs autopilot refresh (observed, left to autopilot)
+Running `build_feed.py` showed the committed `published/` feed on `main` is stale versus clean
+source. Notably **`published/toto-2-igri/article.md` still carries `[VERIFY]` markers** while
+its source article (status `approved`) is already flag-free — so this one approved feed entry
+is currently gate-blocked from publishing by the publisher's hard-block. The next autopilot
+`build_feed.py` run resolves it automatically from the clean source (the rebuild I ran produced
+a flag-free `published/` tree). No live/posted page is affected; the publish gate is working as
+intended. Left for the autopilot per the ownership boundary above.
+
+### POSTED — needs human review (recurring, carried forward)
+- **vk-0063** `2026-09-13-nv-casino-zakonno-li-e` (#79, posted) and **vk-0064**
+  `2026-09-13-nv-casino-bonus-usloviya` (#80, posted) — their `05b-final-draft.md` footer stubs
+  were previously noted. Posted/live, so NOT touched (HARD RULE). Checked this night: on their
+  own `content/*` branches both drafts now contain only `[About Всички Казина boilerplate]`
+  (non-blocking template placeholder), not the `[AUTHOR …]`/`[BRAND …]`/`[18+ / RG …]` stubs
+  flagged on earlier nights — so the live pages are likely clean. Logged for awareness only;
+  never edited live.
+
+### Deferred
+None. Only one valid in-scope JOB-B target existed (vk-0226); it was processed and passed.
