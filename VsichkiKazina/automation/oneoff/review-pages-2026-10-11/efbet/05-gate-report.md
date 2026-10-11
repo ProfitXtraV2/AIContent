@@ -1,0 +1,151 @@
+BRAND COMPLIANCE SCORECARD — Efbet Казино — ревю, бонус и оценка 2026
+Byline: Георги Тодоров (editorial, no persona); template-rendered
+Verdict: PASS WITH FIXES (fixes applied below; publish held until Step 6 clears the VERIFY queue)
+Total (pre-fix): 77/100
+Personality 17/20 | Tone 13/15 | E-E-A-T 14/20 | Trust signals 10/15 | Language&Style 11/15 | RG 12/15
+Total (post-fix, for reference): 89/100 (Personality 18 | Tone 14 | E-E-A-T 16 | Trust 13 | Language&Style 14 | RG 14). Not a clean PASS while inline [VERIFY] flags remain.
+
+CRITICAL (blocks publish), all fixed in the text below:
+1. META DESCRIPTION: "...лиценз от НАП, бонус без депозит и оценка по 6 критерия." → misleading claim: the no-deposit offers are personal, invitation-only (the body says so), so advertising them to every searcher misrepresents what a new player gets → removed "бонус без депозит" from the meta.
+2. "Печалбите от хазарт подлежат на деклариране пред НАП според българското законодателство; при съмнение се консултирайте със счетоводител." → tax claim asserted as settled fact (Fact sweep + Bible §4 TAX) → rewritten as a pointer to НАП/счетоводител, no claim stated, + [VERIFY] flag.
+3. FAQ 4: "а разделът на живо — 569 маси" → em-dash in prose (Pillar 5, zero tolerance) → "а разделът на живо има 569 маси".
+4. Review type-specific trust: no "Протокол на тегленето" (no real receipts in the brief; Stage 1-2 was a research pass of the operator site, not a funded test) → per Bible §10 not invented; inserted [VERIFY: липсва протокол на тегленето] in "Депозити и тегления".
+5. RG signposting to the национален регистър на уязвимите лица (НАП) absent from the text and not listed among template-supplied elements → one sentence added to "Лиценз, сигурност и отговорна игра".
+
+MODERATE:
+6. FAQ 3 opened "Да, но персонален." → a yes-first answer to "Има ли Efbet бонус без депозит?" reads as an offer to a new player → "Не за всеки нов играч." (FAQ question kept for the query).
+7. Unsourced market superlatives: "сред най-широките каталози на пазара", "един от най-силните раздели на българския пазар" → scoped to what we can verify: "в нашата класация" / "сред казината в класацията ни". "Рядко ще срещнете оператор с толкова канали" → "Малко оператори в класацията ни дават толкова канали". Pros "Огромен каталог" → "Голям каталог".
+8. Internal consistency, history: intro says the family business dates from the 90s and the online platform carries a 2006 copyright; Pros said "с история от 2006 г." → "с онлайн платформа от 2006 г.".
+9. Internal consistency, bonus windows: "офертата важи 30 дни" vs "14 дни" for превъртане (spec table) with no explanation of what the 30 days covers → inline [VERIFY] added; numbers unchanged.
+10. Offer terms not timestamped → added "Условията са проверени към 11.10.2026." (research pass date per brief).
+11. Natural-voice RG touch was thin (tools listed, no doctrine) → one sentence added: limit before the first deposit, money you can afford to lose, entertainment not income.
+12. H1 "Efbet Казино — ревю, бонус и оценка 2026" contains an em-dash. NOT changed: it is the site-wide review title pattern (same as title tag on sibling reviews) and headings are locked by the brief. Human decision: either accept as template pattern or change site-wide.
+13. Payment methods mismatch: body lists IRIS Pay, spec table does not → not changed (table rows locked, no confirmed /depoziti-i-teglenia/ anchor). Route to human.
+
+MATHS CHECK (no errors found): €1300 + €200 = €1500 ✓ · "близо 3 500" vs 3 476 ✓ · live split 76 рулетки + 31 шоута + "над 400" блекджек ≤ 569 ✓ (462 left for blackjack/other) · €2.50 max bet consistent body/FAQ ✓ · превъртане x25 on депозит+бонус stated with base in table, body and FAQ ✓ · sports 3× бонус + 3× депозит @ 1.20 base stated ✓ · min deposit/withdrawal figures identical in table, body and FAQ 5 ✓. Score 8.6 cannot be recomputed: the six per-criterion sub-scores are not in the text or brief.
+
+VERIFY QUEUE (route to human, Step 6):
+- [VERIFY] tax wording in "Депозити и тегления" (confirm the pointer-only phrasing; do not add figures/thresholds).
+- [VERIFY: липсва протокол на тегленето]: either supply real receipts (method, amount, request/arrival timestamps, KYC docs) or remove the flag and accept a review without a protocol. Note: the template byline says "Последно тествано: 11.10.2026", which implies a real test; if no deposit/withdrawal was made, that template label overstates the experience and should be reconsidered.
+- [VERIFY] what the "30 дни" refers to (activation window vs validity) versus the 14-day превъртане window.
+- Score 8.6 / №5: confirm against the six-criteria sub-scores on /kak-ocenyavame/ data.
+- "семейство Найденови", "бизнес със залози ... от 90-те": factual claim about real people; confirm source (operator site/press) or soften.
+- Free-spin winnings "обичайно ... без превъртане, с таван": confirm in Efbet T&Cs (attractive claim, appears twice).
+- IRIS Pay: add to spec table or drop from body.
+- Licence №s 000030-9589 / 000030-2510 and holder Brobet Limited: re-check in the НАП register at publish.
+- Template: confirm the footer carries the verbatim 1-Aug-2026 affiliate-licensing text and the CTA uses the registry `affiliate_url` for Efbet.
+
+VOICE NOTES (protected during fixes): dry consumer-journalism register ("а останалата част от каталога не мърда брояча", "Слабото място са бонусите"); downside up front in the intro; asymmetric "За кого" ending that sends Revolut users and all-slot-bonus seekers elsewhere; safety tip on app downloads. No heading, spec-table row, labelled line, pros/cons count, FAQ pair, number, licence, bonus term, rank/score or link target changed.
+
+---
+
+# Efbet Казино — ревю, бонус и оценка 2026
+
+META DESCRIPTION: Efbet Казино ревю 2026: комбо бонус до €1500, 3 476 казино игри, 569 маси на живо, лиценз от НАП и оценка по 6 критерия.
+
+VERDICT BONUS LINE: Комбо бонус до €1500
+
+## Основни данни (spec table)
+
+| Показател | Стойност |
+|---|---|
+| Лиценз от НАП | Да, № 000030-9589 (казино), 000030-2510 (спорт) |
+| Оператор | Brobet Limited (Малта), адрес за кореспонденция в София |
+| Лицензна юрисдикция | България (НАП) |
+| Валути | EUR |
+| Поддръжка | 24/7 чат, телефон, имейл, Viber и WhatsApp, на български |
+| Казино бонус | Комбо до €1500 (до €1300 казино + до €200 Free Bet) |
+| Превъртане | x25 (депозит+бонус) за казино частта |
+| Срок за разиграване | 14 дни |
+| Спортен бонус | 100% до €200 като Free Bet |
+| Казино игри | 3 476 |
+| Игри на живо | 569 |
+| Минимален депозит | €5 (€10 с банков превод) |
+| Минимално теглене | €20 (каса), €125 (банков превод) |
+| Методи на плащане | [Visa](/depoziti-i-teglenia/#visa), [Mastercard](/depoziti-i-teglenia/#mastercard), [Apple Pay](/depoziti-i-teglenia/#apple-pay), [Google Pay](/depoziti-i-teglenia/#google-pay), [ePay.bg](/depoziti-i-teglenia/#epay), [EasyPay](/depoziti-i-teglenia/#easypay), [FastPay](/depoziti-i-teglenia/#fastpay), [Cashterminal](/depoziti-i-teglenia/#cashterminal), [Български пощи](/depoziti-i-teglenia/#bg-post), [Skrill](/depoziti-i-teglenia/#skrill), [Neteller](/depoziti-i-teglenia/#neteller), [Банков превод](/depoziti-i-teglenia/#bank-transfer) |
+
+## Кратко ревю на Efbet
+
+Efbet Казино заема позиция №5 в нашата класация с обща оценка 8.6 от 10 според [критериите, по които оценяваме операторите](/kak-ocenyavame/). Малко имена в българския хазарт се разпознават толкова лесно: зад марката стои семейство Найденови, чийто бизнес със залози започва още през 90-те, а онлайн платформата носи копирайт от 2006 г. Самият лиценз от НАП е издаден на малтийската компания Brobet Limited, която има адрес за кореспонденция в София.
+
+Близо 3 500 казино игри и 569 маси на живо слагат оператора сред най-широките каталози в нашата класация. Слабото място са бонусите. Казино частта на приветствения пакет работи само върху определени слотове, а офертите без депозит изобщо не са отворени за всеки нов играч.
+
+## Начален бонус и условия
+
+Приветственият бонус на Efbet е комбо до €1500 и има две части, всяка отключвана с отделен депозит: до €1300 кеш бонус за казино и до €200 Free Bet за спорт. Минималният депозит е €5, офертата важи 30 дни [VERIFY: какво покриват 30-те дни (активиране или валидност) спрямо 14-те дни за превъртане], промо код на сайта на оператора не се изисква. Условията са проверени към 11.10.2026.
+
+Казино частта се разиграва 25 пъти върху сумата депозит+бонус в рамките на 14 дни и **важи само за слотовете на The Better Platform и Game2Slot**. Казино на живо, настолните игри и списък изключени слотове не се броят. Внимавайте и със залога, защото €2.50 или повече на едно завъртане анулира бонуса, така че докато превъртането не приключи, дръжте залозите ниски. Максималната печалба от бонуса е €1300.
+
+Спортният бонус е отделен: 100% до €200, изплатен като Free Bet. Превъртането е 3 пъти бонуса и 3 пъти депозита на коефициент минимум 1.20; азиатски хендикап, „Без равен“, „Чифт/нечифт“ и пазари с 0% марж не се броят. Ако зареждате през Skrill или Neteller, бонус няма да има, защото депозитите през тях не активират бонусите.
+
+Безплатни завъртания и Free Bet без депозит Efbet също дава, но те са **персонални** и стигат само до клиентите от списъка с ексклузивни бонуси на оператора. Печалбите от безплатните завъртания обичайно се изплащат като реални пари без превъртане, с таван според стойността на завъртането.
+
+## Казино игри и доставчици
+
+В лобито на Efbet има 3 476 казино игри, един от най-големите каталози в класацията ни. Сред доставчиците са Amusnet (EGT Interactive), EGT Digital, Pragmatic Play, Yggdrasil, The Better Platform, Game2Slot, Felix и Oengine, тоест има достатъчно и от българските класики, и от модерните видео слотове.
+
+При толкова заглавия филтрите по доставчик и категория са нужни, и тук вършат работа. Повечето ротативки имат демо режим. С активен казино бонус обаче за превъртането се броят само слотовете на The Better Platform и Game2Slot, а останалата част от каталога не мърда брояча.
+
+## Казино на живо
+
+569 маси: 76 рулетки, над 400 маси за блекджек, 31 телевизионни шоута и дори маси на турски език. Живите рулетки идват основно от Evolution. За играч на живо това е един от най-силните раздели сред казината в класацията ни, а ако масите на живо са ваш приоритет, погледнете и [нашето ръководство за казино на живо](/kazino-igri/kazino-na-zhivo/).
+
+## Депозити и тегления
+
+Efbet приема Apple Pay, Google Pay, банкови карти, IRIS Pay, ePay, EasyPay, FastPay, Cashterminal, Български пощи, Skrill, Neteller и банков превод. Минималният депозит е €5 (€10 при банков превод), а минималното теглене е €20 при каса и €125 при банков превод. Международните банкови преводи отнемат 3–5 работни дни.
+
+Revolut и paysafecard не фигурират в списъка с методи. Преди първото теглене трябва да минете верификация на самоличността (KYC). Дали и как печалбите от хазарт се декларират и облагат в България, уточнете с НАП или със счетоводител [VERIFY: данъчно третиране на печалбите от хазарт]; ние не даваме данъчни съвети.
+
+[VERIFY: липсва протокол на тегленето]
+
+## Мобилно приложение и мобилна версия
+
+Собствени приложения има за iOS (App Store), Android (Google Play) и Huawei (AppGallery), с казино и спортни залози в едно. Ако не искате да инсталирате нищо, мобилната версия в браузъра предлага същата функционалност. Приложението теглете само от официалните магазини, никога от файл, изпратен по имейл или в реклама.
+
+## Лиценз, сигурност и отговорна игра
+
+Efbet оперира с действащи лицензи от НАП, издадени на Brobet Limited: удостоверение № 000030-9589 за онлайн казино и № 000030-2510 за спортни залози. Платформата предлага лимити на депозита, временно ограничаване на достъпа и инструменти за самоконтрол, а във футъра е посочена телефонната линия на центъра „Солидарност“ за помощ при хазартна зависимост. Възрастовото ограничение е 18+.
+
+Лимита на депозита задайте преди първото зареждане и го мерете в пари, които можете да загубите изцяло: казиното е платено забавление, не източник на доход. Самоизключване от всички лицензирани оператори в България е възможно и чрез националния регистър на уязвимите лица към НАП. Повече за самоограничението ще намерите в [ръководството ни за отговорна игра](/otgovorna-igra/).
+
+## Поддръжка на клиенти
+
+Екипът работи 24 часа в денонощието, 7 дни в седмицата, през чат на живо, телефон 0700 20 788, имейл, Viber и WhatsApp, и всичко е на български. Малко оператори в класацията ни дават толкова канали за връзка. Когато имате спешен въпрос с теглене, това е реално предимство.
+
+## За кого е подходящо Efbet
+
+Efbet пасва на играч, който иска голям каталог и силно казино на живо от утвърдена българска марка и който залага и на спорт, защото комбо бонусът покрива и двете. Ако търсите казино бонус, приложим към всички слотове, или плащате основно с Revolut, сравнете и [останалите оператори в класацията](/sravni-kazina/).
+
+CTA PANEL TEXT: Efbet: близо 3 500 казино игри, 569 маси на живо и комбо бонус до €1500, с лиценз от НАП и поддръжка 24/7 на български.
+
+## Плюсове
+- Голям каталог: близо 3 500 казино игри и 569 маси на живо
+- Денонощна поддръжка на български: чат, телефон, Viber и WhatsApp
+- Едно от най-познатите имена в българския хазарт, с онлайн платформа от 2006 г.
+
+## Минуси
+- Казино бонусът важи само за слотовете на The Better Platform и Game2Slot
+- Бонусите без депозит са персонални, само за избрани клиенти
+- Revolut и paysafecard не фигурират сред методите за плащане
+
+## Често задавани въпроси
+
+### Лицензиран ли е Efbet в България?
+
+Да. Efbet оперира с лицензи от НАП, издадени на Brobet Limited: удостоверение № 000030-9589 за онлайн казино и № 000030-2510 за спортни залози. Статусът на лиценза може да се провери в публичния регистър на НАП.
+
+### Какви са условията на комбо бонуса до €1500?
+
+Комбо бонусът включва до €1300 кеш бонус за казино и до €200 Free Bet за спорт, всеки с отделен депозит от минимум €5. Казино частта се превърта 25 пъти (депозит+бонус) за 14 дни и важи само за слотовете на The Better Platform и Game2Slot, при залог под €2.50 на завъртане.
+
+### Има ли Efbet бонус без депозит?
+
+Не за всеки нов играч. Безплатните завъртания и Free Bet без депозит са персонални и се дават само на клиенти от списъка с ексклузивни бонуси на оператора, а печалбите от тях обичайно се изплащат без превъртане, с таван според стойността на завъртането.
+
+### Колко игри и маси на живо предлага Efbet?
+
+Каталогът наброява 3 476 казино игри от доставчици като Amusnet, EGT Digital, Pragmatic Play и Yggdrasil, а разделът на живо има 569 маси, включително 76 рулетки и над 400 маси за блекджек.
+
+### Какви са минималните суми за депозит и теглене?
+
+Минималният депозит е €5 (€10 при банков превод). Минималното теглене е €20 при каса и €125 при банков превод; международните банкови преводи отнемат 3–5 работни дни.
