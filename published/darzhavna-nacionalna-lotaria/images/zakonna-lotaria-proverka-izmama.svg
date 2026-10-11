@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 620" width="760" height="620" role="img" aria-labelledby="t d" font-family="Inter, 'Segoe UI', Arial, sans-serif">
+  <title id="t">Как да разпознаете законна лотария и SMS измама</title>
+  <desc id="d">Пет проверки: организаторът е БСТ, списъците на НАП на nra.bg, „Национална лотария“ няма право да продава лотарийни игри от 2020 г., не плащате такса за печалба, сигнал на illegal_gambling@nra.bg. Глоба за игра при нелицензиран организатор от 500 до 2000 лв.</desc>
+  <rect x="0" y="0" width="760" height="620" rx="18" fill="#f7f8fb"/>
+  <text x="40" y="52" font-size="24" font-weight="700" fill="#14213d">Законна лотария или измама? 5 проверки</text>
+  <text x="40" y="80" font-size="14" fill="#55607a">По данни от статията: ЗХ, НАП, toto.bg (към 10.10.2026)</text>
+
+  <g>
+    <rect x="40" y="104" width="680" height="64" rx="10" fill="#ffffff" stroke="#d9dee8"/>
+    <circle cx="68" cy="136" r="13" fill="#1f7a4d"/>
+    <text x="68" y="141" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+    <text x="96" y="130" font-size="17" font-weight="700" fill="#14213d">Кой е организаторът?</text>
+    <text x="96" y="154" font-size="15" fill="#33405c">Законно лотарийни игри днес организира само БСТ.</text>
+  </g>
+  <g>
+    <rect x="40" y="180" width="680" height="64" rx="10" fill="#ffffff" stroke="#d9dee8"/>
+    <circle cx="68" cy="212" r="13" fill="#1f7a4d"/>
+    <text x="68" y="217" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+    <text x="96" y="206" font-size="17" font-weight="700" fill="#14213d">Има ли го в списъка на НАП?</text>
+    <text x="96" y="230" font-size="15" fill="#33405c">nra.bg: списък на лицензираните и на нелицензираните сайтове.</text>
+  </g>
+  <g>
+    <rect x="40" y="256" width="680" height="64" rx="10" fill="#ffffff" stroke="#d9dee8"/>
+    <circle cx="68" cy="288" r="13" fill="#b5651d"/>
+    <text x="68" y="293" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+    <text x="96" y="282" font-size="17" font-weight="700" fill="#14213d">Пише ли „Национална лотария“?</text>
+    <text x="96" y="306" font-size="15" fill="#33405c">Бивша частна марка: от 2020 г. няма право да продава лотарийни игри.</text>
+  </g>
+  <g>
+    <rect x="40" y="332" width="680" height="64" rx="10" fill="#ffffff" stroke="#d9dee8"/>
+    <circle cx="68" cy="364" r="13" fill="#b42318"/>
+    <text x="68" y="369" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+    <text x="96" y="358" font-size="17" font-weight="700" fill="#14213d">Искат ли ви такса, за да получите печалба?</text>
+    <text x="96" y="382" font-size="15" fill="#33405c">Ако не сте купували билет, не можете да сте спечелили.</text>
+  </g>
+  <g>
+    <rect x="40" y="408" width="680" height="64" rx="10" fill="#ffffff" stroke="#d9dee8"/>
+    <circle cx="68" cy="440" r="13" fill="#1f7a4d"/>
+    <text x="68" y="445" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
+    <text x="96" y="434" font-size="17" font-weight="700" fill="#14213d">Видяхте нелицензиран сайт?</text>
+    <text x="96" y="458" font-size="15" fill="#33405c">Сигнал на illegal_gambling@nra.bg (анонимни не се разглеждат).</text>
+  </g>
+
+  <rect x="40" y="490" width="680" height="72" rx="10" fill="#fdecea" stroke="#f4b4ae"/>
+  <text x="60" y="520" font-size="15" font-weight="700" fill="#7a1a12">Игра при нелицензиран организатор е нарушение и за играча:</text>
+  <text x="60" y="545" font-size="15" fill="#7a1a12">глоба от 500 до 2000 лв. (чл. 9, ал. 14 и чл. 97а, ал. 2 ЗХ)</text>
+
+  <text x="40" y="596" font-size="13" fill="#55607a">18+ Хазартът може да пристрасти. Играйте отговорно.</text>
+  <text x="720" y="596" font-size="13" font-weight="700" fill="#55607a" text-anchor="end">Всички Казина</text>
+</svg>

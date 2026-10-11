@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" role="img" aria-labelledby="t d" font-family="Inter, 'Segoe UI', Arial, sans-serif">
+  <title id="t">Брой комбинации при 6 от 42, 6 от 47 и 6 от 49</title>
+  <desc id="d">Хоризонтални ленти, пропорционални на броя комбинации: 6 от 42 има 5 245 786, 6 от 47 има 10 737 573, 6 от 49 има 13 983 816. Шансът за шестица с една комбинация при 6 от 47 е 1 към 10 737 573.</desc>
+  <rect x="0" y="0" width="760" height="400" rx="18" fill="#f7f8fb"/>
+  <text x="40" y="50" font-size="22" font-weight="700" fill="#14213d">Колко комбинации има при „6 от N“</text>
+  <text x="40" y="76" font-size="14" fill="#55607a">C(N, 6): една комбинация = един шанс от толкова</text>
+
+  <text x="40" y="112" font-size="15" font-weight="700" fill="#33405c">6 от 42 (БСТ)</text>
+  <rect x="40" y="120" width="195" height="34" rx="6" fill="#4c7fb8"/>
+  <text x="52" y="143" font-size="15" font-weight="700" fill="#ffffff">5 245 786</text>
+
+  <text x="40" y="186" font-size="15" font-weight="700" fill="#33405c">6 от 47 („Лото 6 от 47“, бивша Национална лотария)</text>
+  <rect x="40" y="194" width="399" height="34" rx="6" fill="#b5651d"/>
+  <text x="52" y="217" font-size="15" font-weight="700" fill="#ffffff">10 737 573</text>
+
+  <text x="40" y="260" font-size="15" font-weight="700" fill="#33405c">6 от 49 (БСТ)</text>
+  <rect x="40" y="268" width="520" height="34" rx="6" fill="#1f4e79"/>
+  <text x="52" y="291" font-size="15" font-weight="700" fill="#ffffff">13 983 816</text>
+
+  <text x="40" y="336" font-size="14" fill="#33405c">6 от 47: шанс за шестица 1 към 10 737 573, ≈ 2.05 пъти по-трудна от 6/42</text>
+  <text x="40" y="358" font-size="14" fill="#33405c">и ≈ 1.30 пъти по-лесна от 6/49. Тегленето е случайно.</text>
+  <text x="40" y="384" font-size="12" fill="#55607a">18+ Хазартът може да пристрасти. Играйте отговорно.</text>
+  <text x="720" y="384" font-size="12" font-weight="700" fill="#55607a" text-anchor="end">Всички Казина</text>
+</svg>

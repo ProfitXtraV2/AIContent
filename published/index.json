@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 28,
+  "count": 29,
   "articles": [
     {
       "slug": "gates-of-olympus-1000",
@@ -185,6 +185,13 @@
       "status": "approved"
     },
     {
+      "slug": "darzhavna-nacionalna-lotaria",
+      "title": "Държавна лотария и Национална лотария: коя е законна",
+      "date_modified": "2026-10-10",
+      "content_hash": "45a2507bd11d4db87c9d0026b14338099a8bb17578b56582dbbc6f8b1264bdbd",
+      "status": "approved"
+    },
+    {
       "slug": "chislata-v-toto-statistika",
       "title": "Числата от тотото: статистика и митът за горещите числа",
       "date_modified": "2026-10-10",
@@ -199,5 +206,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-11T08:21:55Z"
+  "generated_utc": "2026-10-11T08:23:26Z"
 }
