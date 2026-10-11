@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" aria-label="Инфографика за Cash or Crash на Evolution. Барабанът съдържа 28 топки: 19 зелени, които качват балона нагоре по стълбата, 8 червени, които свалят рунда, и 1 златна, която дава щит срещу една червена и вдига тавана. Стълбата е 20 нива; върхът без златна топка е 18 000 пъти залога, а със златна топка до 50 000 пъти залога. На всяко стъпало играчът избира между Вземи всичко, Вземи половината и Продължи. RTP по стратегия в дълъг период: при ранен кешаут и оптимална игра около 99,59 процента, при гонене на върха и максимален риск около 94,51 процента, тоест домашно предимство между около 0,41 и 5,49 процента. Съставът и процентите зависят от версията.">
+  <rect x="8" y="8" width="704" height="374" rx="18" fill="#0f172a"/>
+
+  <text x="32" y="42" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#f8fafc">Cash or Crash: топките, стълбата и RTP</text>
+  <text x="32" y="64" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Зелените качват, червената сваля рунда; RTP-то зависи от това кога прибираш</text>
+
+  <text x="32" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Барабанът и стълбата</text>
+
+  <text x="48" y="126" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Зелени (качват)</text>
+  <text x="350" y="126" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">19</text>
+  <text x="48" y="150" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Червени (крах)</text>
+  <text x="350" y="150" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">8</text>
+  <text x="48" y="174" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Златна (щит)</text>
+  <text x="350" y="174" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">1</text>
+
+  <text x="384" y="126" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Стълба</text>
+  <text x="688" y="126" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">20 нива</text>
+  <text x="384" y="150" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Връх без златна</text>
+  <text x="688" y="150" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">18 000x</text>
+  <text x="384" y="174" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Връх със златна</text>
+  <text x="688" y="174" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">до 50 000x</text>
+
+  <text x="48" y="200" font-family="Arial, sans-serif" font-size="12" fill="#cbd5e1">28 топки общо · решение на всяко стъпало: Вземи всичко · Вземи половината · Продължи</text>
+
+  <text x="32" y="232" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">RTP по стратегия (в дълъг период)</text>
+
+  <g stroke="#1e293b" stroke-width="1">
+    <line x1="32" y1="244" x2="688" y2="244"/>
+    <line x1="32" y1="272" x2="688" y2="272"/>
+    <line x1="32" y1="300" x2="688" y2="300"/>
+  </g>
+
+  <text x="48" y="264" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Ранен кешаут (оптимална игра)</text>
+  <text x="688" y="264" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">≈ 99,59%</text>
+  <text x="48" y="292" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Гонене на върха (макс. риск)</text>
+  <text x="688" y="292" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">≈ 94,51%</text>
+  <text x="48" y="320" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Домашно предимство</text>
+  <text x="688" y="320" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">≈ 0,41% до 5,49%</text>
+
+  <rect x="32" y="336" width="656" height="24" rx="6" fill="#111f38"/>
+  <text x="44" y="352" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Стойностите зависят от версията. Множителите са примерни. 18+ Играйте отговорно.</text>
+</svg>
