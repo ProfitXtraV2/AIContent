@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" font-family="'Segoe UI',Roboto,Arial,sans-serif" role="img" aria-label="Как НАП блокира сайт за хазарт без лиценз: решение на изпълнителния директор, тридневен срок след публикуване на nra.bg, сезиране на Софийския районен съд, блокиране от българските доставчици на домейна и поддомейните, обявяване в секция Онлайн хазарт.">
-  <rect x="0" y="0" width="760" height="400" rx="16" fill="#0f172a"/>
-  <rect x="16" y="16" width="728" height="368" rx="12" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 372" width="760" height="372" font-family="'Segoe UI',Roboto,Arial,sans-serif" role="img" aria-label="Как НАП блокира сайт за хазарт без лиценз: решение на изпълнителния директор, тридневен срок след публикуване на nra.bg, сезиране на Софийския районен съд, блокиране от българските доставчици на домейна и поддомейните, обявяване в секция Онлайн хазарт.">
+  <rect x="0" y="0" width="760" height="372" rx="16" fill="#0f172a"/>
+  <rect x="16" y="16" width="728" height="340" rx="12" fill="#ffffff"/>
 
   <text x="40" y="52" font-size="21" font-weight="700" fill="#0f172a">Как НАП спира сайт за хазарт без лиценз</text>
   <text x="40" y="74" font-size="13" fill="#64748b">Публичен списък на страниците без валиден лиценз по Закона за хазарта.</text>
@@ -43,7 +43,7 @@
   <rect x="280" y="224" width="440" height="80" rx="10" fill="#dcfce7" stroke="#bbf7d0" stroke-width="1"/>
   <circle cx="304" cy="250" r="12" fill="#15803d"/>
   <text x="304" y="254" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
-  <text x="324" y="250" font-size="13" font-weight="700" fill="#166534">Блокиране от доставчиците</text>
+  <text x="324" y="254" font-size="13" font-weight="700" fill="#166534">Блокиране от доставчиците</text>
   <text x="296" y="274" font-size="12" fill="#1e293b">Българските доставчици спират достъпа до</text>
   <text x="296" y="291" font-size="12" fill="#1e293b">домейна и поддомейните му.</text>
 
@@ -53,6 +53,5 @@
   <text x="56" y="274" font-size="12" fill="#475569">Решенията се обявяват</text>
   <text x="56" y="291" font-size="12" fill="#475569">в „Онлайн хазарт“ на nra.bg.</text>
 
-  <text x="40" y="336" font-size="11.5" fill="#94a3b8">Оператор, който утре може да изчезне зад блокировка, е тънка основа да държи парите ви. 18+</text>
-  <text x="40" y="356" font-size="11" fill="#cbd5e1">Точният член от Закона за хазарта за процедурата подлежи на проверка.</text>
+  <text x="40" y="344" font-size="11.5" fill="#94a3b8">Оператор, който утре може да изчезне зад блокировка, е тънка основа да държи парите ви. 18+</text>
 </svg>
