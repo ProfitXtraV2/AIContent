@@ -837,6 +837,24 @@
 },
 "trend": ""
 },
+"bg|megaways слотове": {
+"fetched": "2026-10-11",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "megaways слотове",
+"volume": 60
+},
+"trend": ""
+},
 "bg|mental nolimit": {
 "fetched": "2026-09-17",
 "row": {
@@ -1933,13 +1951,139 @@
 },
 "trend": "down"
 },
+"bg|виртуални спортове": {
+"fetched": "2026-10-11",
+"row": {
+"cpc": 50,
+"difficulty": null,
+"intents": {
+"branded": false,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "виртуални спортове",
+"volume": 70
+},
+"trend": ""
+},
 "bg|данък печалба нелицензирано казино": {
 "fetched": "2026-09-16",
 "row": {}
 },
+"bg|джакпот евромилиони": {
+"fetched": "2026-10-11",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "джакпот евромилиони",
+"volume": 70
+},
+"trend": "down"
+},
+"bg|евро джакпот": {
+"fetched": "2026-10-11",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": true,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "евро джакпот",
+"volume": 200
+},
+"trend": "down"
+},
+"bg|евро джакпот в българия": {
+"fetched": "2026-10-11",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": true,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "евро джакпот в българия",
+"volume": 60
+},
+"trend": "down"
+},
+"bg|евроджакпот българия": {
+"fetched": "2026-10-11",
+"row": {}
+},
+"bg|евромилиони българия": {
+"fetched": "2026-10-11",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "евромилиони българия",
+"volume": 50
+},
+"trend": "down"
+},
 "bg|казина като nv casino": {
 "fetched": "2026-09-16",
 "row": {}
+},
+"bg|казино стратегия": {
+"fetched": "2026-10-11",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "казино стратегия",
+"volume": 0
+}
+},
+"bg|как се играе баккара": {
+"fetched": "2026-10-11",
+"row": {}
+},
+"bg|как се играе евроджакпот": {
+"fetched": "2026-10-11",
+"row": {}
+},
+"bg|крапс": {
+"fetched": "2026-10-11",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "крапс",
+"volume": 40
+},
+"trend": "up"
+},
+"bg|крапс правила": {
+"fetched": "2026-10-11",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "крапс правила",
+"volume": 0
+}
 },
 "bg|купи бонус": {
 "fetched": "2026-09-20",
@@ -1951,8 +2095,36 @@
 "volume": 0
 }
 },
+"bg|мартингейл стратегия": {
+"fetched": "2026-10-11",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "мартингейл стратегия",
+"volume": 0
+}
+},
+"bg|мегауейс": {
+"fetched": "2026-10-11",
+"row": {}
+},
 "bg|нв казино мнения": {
 "fetched": "2026-09-16",
+"row": {}
+},
+"bg|сик бо": {
+"fetched": "2026-10-11",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "сик бо",
+"volume": 0
+}
+},
+"bg|слот турнир": {
+"fetched": "2026-10-11",
 "row": {}
 }
 }
