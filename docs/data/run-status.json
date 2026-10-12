@@ -5,7 +5,7 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01R3224gtVBX7KwwczMjYTsD",
-  "note": "daily run 2026-10-12 — writing 1 new guide: Броене на карти в блекджек (vk card-counting, backlog P2)",
+  "note": "daily run 2026-10-12 — card counting guide: text stages done (gate 97), Gemini Step-7 iterating (check1 HL 25, humaniser pass applying recs)",
   "progress": {
     "phase": "writing",
     "article_index": 1,
@@ -23,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 5,
-    "stage": "Brand Gate"
+    "stage_index": 6,
+    "stage": "Light re-check"
   }
 }
