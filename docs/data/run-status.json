@@ -1,13 +1,15 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-10-12T07:15:54Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-10-12T08:35:00Z",
+  "articles_written": 1,
+  "prs_opened": [
+    299
+  ],
   "run_url": "https://claude.ai/code/session_01R3224gtVBX7KwwczMjYTsD",
-  "note": "daily run 2026-10-12 — card counting guide: text stages done (gate 97), Gemini Step-7 iterating (check1 HL 25, humaniser pass applying recs)",
+  "note": "daily run 2026-10-12 done — 1 NEW guide vk-0278 (Броене на карти в блекджек — работи ли и защо не онлайн), PR #299. Gate PASS WITH FIXES 97; Gemini text ai 70 (keep-best humaniser pass 2, HL 30>initial 25>pass1 15, MAX_GEMINI_PASSES reached, human editor attention advised); img:2 (infographic 100 + decorative hero 100, review PASS); 5 [VERIFY] stay (Thorp 1962; 3 rule-dependent edge %; BG operator-refusal wording). From human backlog P2 (vol 150); DISTINCT card-counting pillar (vk-0009 rules, vk-0239 variants, vk-0240 side bets, /kazino-igri/blakdzhak/ game page — none cover counting); guides-only scope, no operator/НАП data. No in-progress/HANDOFF/CLAIMED leftovers to reconcile; monthly SEO review not due (last 2026-10). Ahrefs API units exhausted (99 984/100 000, reset 2026-10-15) -> Step-6 enrichment/discovery deferred to next reset, no fabrication; dashboard rebuilt, feed refreshed. Backlog row -> written. No flags resolved; nothing posted/merged.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-10-12-broene-na-karti-blekdzhek",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 6,
-    "stage": "Light re-check"
+    "stage_index": null,
+    "stage": null
   }
 }
