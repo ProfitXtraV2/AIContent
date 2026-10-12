@@ -2181,3 +2181,59 @@ intended. Left for the autopilot per the ownership boundary above.
 
 ### Deferred
 None. Only one valid in-scope JOB-B target existed (vk-0226); it was processed and passed.
+
+---
+
+## 2026-10-12 (nightly run — flags + score)
+
+Gemini API online (`gemini-3.1-pro-preview` healthy).
+
+Scope note: `[About Всички Казина boilerplate]` is a **non-blocking** template placeholder — it
+appears verbatim on posted/live pages (e.g. vk-0001, board "0 flags") and the dashboard's
+`VERIFY_FLAG_RE` counts only `[VERIFY]`/`[DATA NEEDED]`, so it is left untouched per idempotency.
+Scanned all **279** `content/*` branches' own `05b-final-draft.md` for the blocking set
+(`[VERIFY]`/`[DATA NEEDED]`/`[CONFLICT]`/`[18+ / RG]`/`[AUTHOR …]`/`[BRAND …]`/`[EDITORIAL]`/
+`[уточни]`/`[провери]`). Only **1** branch carried blocking markers (the raw `[AUTHOR …]`/`[BRAND
+…]` stubs seen on some branches live only in *other* branches' stale copies of the nv-casino
+folders; those articles' own branches are already expanded).
+
+### JOB A — publish-blocking flags
+- **broene-na-karti-blekdzhek** (vk-0278, drafted, #299) — **5 `[VERIFY]` → 0**, rephrase only,
+  no fact changes:
+  - Thorp / „Beat the Dealer" — dropped the `1962` bracket, kept the decades-ago attribution
+    (public, uncontested; no year asserted).
+  - 3 rule-dependent house-edge figures — kept the values (~0,5% at 4+ decks, ~0,57% at 8,
+    ~1% for a counter at 6 decks) and folded the rules caveat (S17/H17, DAS, surrender, deck
+    count, penetration) into natural prose.
+  - Operator-refusal right — restated as a general T&C formulation, no specific operator/licence.
+  Re-scan: **0** blocking markers. Committed `fix(flags): resolve … publish-ready` + pushed
+  (PR #299 updated).
+
+### JOB B — low Gemini score
+Targets = status drafted/approved AND gemini `ai <n>` OR `human <n>` n<80, worst-first, ≤10:
+only **1** in-scope target, vk-0278 (`ai 70`) — the same article as JOB A. (160 drafted/approved
+rows are already `human ≥80`; 71 are `skipped` = Gemini unavailable at draft time, not a bad
+verdict, so not JOB-B targets.)
+- **broene-na-karti-blekdzhek** (vk-0278) — gemini **ai 70 → human 90**. The `ai 70` was driven
+  mainly by the 5 inline `[VERIFY]` brackets; with them rephrased away, the Step-7 re-check
+  (attempt 1) returned "Likely human-written, 90% confidence" — a PASS (≥80), so the humaniser
+  loop stopped at attempt 1 (policy: stop at ≥80; over-editing strips voice). No separate
+  humanisation commit needed. Gemini's 3 residual nits (over-literal hero alt-text, repeated
+  "Защо …" H2s, one CSM restatement) left as-is — minor residue a 90% human verdict clears.
+  attempts: 1 · **success**.
+
+### Feed / deploy ownership (observed, left to autopilot)
+Per the 2026-10-11 boundary, `published/` is the daily-run autopilot's domain. Rebuilt
+`build_dashboard.py` (committed `docs/data/status.json`, buffer 231/10) and ran `build_feed.py`
+to validate (25 approved entries build clean). The `published/` working-tree changes it produced
+(hub-intro ×6, dostavchici — pre-existing drift unrelated to tonight's work; vk-0278 is
+`drafted`, not in the feed) were **not** committed — left to the autopilot to avoid a push race
+and misattributing approved-article content. Quality commit carries board + dashboard + this log.
+
+### POSTED — needs human review
+None newly found. (vk-0063 / vk-0064 nv-casino footer note carried forward from prior nights;
+posted/live, never touched.)
+
+### Deferred
+None. Only one valid in-scope target (vk-0278) existed for both JOB A and JOB B; it was
+processed, is flag-free, and passed Gemini (human 90).
