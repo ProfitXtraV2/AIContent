@@ -198,3 +198,17 @@ def test_read_article_md_fallback(tmp_path, monkeypatch):
 
     result = bf.read_article_md(folder)
     assert "# Fallback content" in result
+
+
+def test_parse_final_draft_header_without_separator_keeps_body():
+    # toto-dzhoker regression: short 'Title:'/'Meta:' header with no '---' after it;
+    # the only '---' precedes the footer and must not swallow the article body.
+    md = ("Title: Тото Джокер: шанс\nMeta: Как се играе Тото Джокер.\n\n"
+          "# Тото Джокер: как работи\n\nТекст на статията.\n\n## Секция\n\nОще текст.\n\n"
+          "---\n\n**За автора:** био")
+    d = bf.parse_final_draft(md)
+    assert d["title_tag"] == "Тото Джокер: шанс"
+    assert d["meta_description"] == "Как се играе Тото Джокер."
+    assert d["h1"] == "Тото Джокер: как работи"
+    assert d["body"].startswith("# Тото Джокер: как работи")
+    assert "## Секция" in d["body"] and "**За автора:**" in d["body"]
