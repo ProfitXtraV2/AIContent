@@ -5,12 +5,12 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01R3224gtVBX7KwwczMjYTsD",
-  "note": "daily run 2026-10-12 — starting; reconcile check: 0 in-progress/CLAIMED/HANDOFF leftovers; monthly SEO review not due (last=2026-10)",
+  "note": "daily run 2026-10-12 — writing 1 new guide: Броене на карти в блекджек (vk card-counting, backlog P2)",
   "progress": {
-    "phase": "init",
-    "article_index": 0,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 1,
-    "article_slug": null,
+    "article_slug": "2026-10-12-broene-na-karti-blekdzhek",
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": null,
-    "stage": null
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
