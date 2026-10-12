@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "slug": "hazartni-igri-vidove",
-  "title": "Хазартни игри: какво е хазарт по закон и кои видове са разрешени в България",
-  "meta_description": "",
+  "title": "Хазартни игри: видове и кои са законни в България",
+  "meta_description": "Хазартните игри в България са пет вида по Закона за хазарта. Кои са разрешени онлайн, кой издава лиценза и от колко години се играе. 18+",
   "body_path": "article.md",
   "author": "Георги Тодоров",
   "date_published": "2026-10-10",
@@ -24,5 +24,5 @@
   "section_hint": "guide",
   "opportunity": 99,
   "status": "approved",
-  "content_hash": "aa90752d565687dfbf73c8338816c0a18757212077cbcd7344a71c1580dfd796"
+  "content_hash": "81278a9fe9d8844fbf3c63b5c15aade2a91648df37829b2edaf880ff14460fc6"
 }

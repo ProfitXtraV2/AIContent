@@ -212,3 +212,14 @@ def test_parse_final_draft_header_without_separator_keeps_body():
     assert d["h1"] == "Тото Джокер: как работи"
     assert d["body"].startswith("# Тото Джокер: как работи")
     assert "## Секция" in d["body"] and "**За автора:**" in d["body"]
+
+
+def test_parse_final_draft_annotated_uppercase_labels():
+    # hazartni-igri-vidove regression: "TITLE TAG (49 chars):" / "META DESCRIPTION (136 chars):"
+    md = ("TITLE TAG (49 chars): Хазартни игри: видове\n\n"
+          "META DESCRIPTION (136 chars): Хазартните игри в България са пет вида. 18+\n\n---\n\n"
+          "# Хазартни игри\n\nТекст.")
+    d = bf.parse_final_draft(md)
+    assert d["title_tag"] == "Хазартни игри: видове"
+    assert d["meta_description"] == "Хазартните игри в България са пет вида. 18+"
+    assert d["body"].startswith("# Хазартни игри")

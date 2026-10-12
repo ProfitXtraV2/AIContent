@@ -26,13 +26,20 @@ def slug_from_folder(folder):
     return re.sub(r"^\d{4}-\d{2}-\d{2}-", "", folder.strip())
 
 
+# Header labels seen in 05b drafts: "Title tag:", "Title:", "TITLE TAG (49 chars):",
+# "Meta description:", "Meta:", "META DESCRIPTION (136 chars):" (optional ** bold).
+_HEADER_LABEL = re.compile(
+    r"^\s*\**\s*(title(?:\s+tag)?|meta(?:\s+description)?)\b[^:]*?:\**\s*(.*)$", re.IGNORECASE)
+
+
 def parse_final_draft(md_text):
     """Split a 05b draft into its title/meta header and the body (from the first H1 on).
 
     The header is either separated from the body by a '---' line, or sits directly
     above the first H1 with no separator (in which case a later '---', e.g. before the
     trailing footer, must NOT be mistaken for the header separator). Accepts both
-    'Title tag:'/'Meta description:' and the short 'Title:'/'Meta:' labels.
+    'Title tag:'/'Meta description:', short 'Title:'/'Meta:' and annotated
+    'TITLE TAG (49 chars):' style labels.
     Missing header fields return empty strings."""
     lines = md_text.strip().splitlines()
     h1_idx = next((i for i, line in enumerate(lines) if line.startswith("# ")), None)
@@ -46,11 +53,13 @@ def parse_final_draft(md_text):
         body_lines = lines[h1_idx:]
     title_tag = meta_description = ""
     for line in head:
-        low = line.lower()
-        if low.startswith(("title tag:", "title:")):
-            title_tag = line.split(":", 1)[1].strip()
-        elif low.startswith(("meta description:", "meta:")):
-            meta_description = line.split(":", 1)[1].strip()
+        m = _HEADER_LABEL.match(line)
+        if not m:
+            continue
+        if m.group(1).lower().startswith("title"):
+            title_tag = m.group(2).strip()
+        else:
+            meta_description = m.group(2).strip()
     body = "\n".join(body_lines).strip()
     h1 = ""
     for line in body.splitlines():

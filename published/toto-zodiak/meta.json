@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "slug": "toto-zodiak",
-  "title": "Тото Зодиак: правила, печеливши групи и реалният шанс за джакпот",
-  "meta_description": "",
+  "title": "Тото Зодиак: правила, печеливши групи и шанс за джакпот",
+  "meta_description": "Тото 2 Зодиак (5 от 50 + зодия): кога е тиражът, десетте печеливши групи, шансът 1 на 25 425 120 и защо няма печеливши числа. 18+",
   "body_path": "article.md",
   "author": "Георги Тодоров",
   "date_published": "2026-10-10",
@@ -21,5 +21,5 @@
   "section_hint": "guide",
   "opportunity": 70,
   "status": "approved",
-  "content_hash": "59a428b21e5af417f5362aeae423b1e2ff9bb9bb7b4190a4c37102bd02ad755f"
+  "content_hash": "001d0bf0eb69ba1fddebdd8f29e17173c4f8ebd8518acfb1edc66079e22092e9"
 }
