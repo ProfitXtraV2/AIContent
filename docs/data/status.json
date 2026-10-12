@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-12T16:14:28Z",
+  "generated_utc": "2026-10-12T17:11:13Z",
   "buffer": {
-    "count": 233,
+    "count": 231,
     "target": 10,
     "deficit": 0,
     "ok": true
@@ -9,8 +9,8 @@
   "counts": {
     "in-progress": 0,
     "drafted": 206,
-    "approved": 27,
-    "posted": 44,
+    "approved": 25,
+    "posted": 46,
     "failed": 1
   },
   "rows": [
@@ -5165,7 +5165,7 @@
     },
     {
       "id": "vk-0260",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Как да си направиш забрана за хазарт (самоизключване чрез регистъра на НАП)",
       "keywords_or_terms": "как да си направя забрана за хазарт, забрана за хазарт, премахване на забрана за хазарт, проверка за забрана за хазарт по егн, декларация за забрана за хазарт",
@@ -5173,7 +5173,7 @@
       "kd": "21",
       "source": "research",
       "drafted_date": "2026-10-07",
-      "posted_date": "",
+      "posted_date": "2026-10-12",
       "folder": "2026-10-07-kak-da-si-napravish-zabrana-za-hazart",
       "pr": "#280",
       "gemini": "human 90",
@@ -5259,7 +5259,7 @@
     },
     {
       "id": "vk-0264",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Хазартни игри в България — видовете според Закона за хазарта",
       "keywords_or_terms": "хазартни игри, хазарт, видове хазартни игри, хазарт игри, хазартна игра на карти, хазартни игри онлайн",
@@ -5267,7 +5267,7 @@
       "kd": "2",
       "source": "research",
       "drafted_date": "2026-10-10",
-      "posted_date": "",
+      "posted_date": "2026-10-12",
       "folder": "2026-10-10-hazartni-igri-vidove",
       "pr": "#284",
       "gemini": "human 90",
