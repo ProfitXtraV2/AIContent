@@ -1,18 +1,16 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-10-11T07:15:01Z",
-  "run_finished_utc": "2026-10-11T08:17:58Z",
-  "articles_written": 1,
-  "prs_opened": [
-    297
-  ],
-  "run_url": "https://claude.ai/code/session_01TbBMt2eAEd2JZGAGm7t9i9",
-  "note": "daily run 2026-10-11 done — 1 NEW guide vk-0277 (Евроджакпот/Евромилиони законно от България), PR #297, Gemini human 85 (keep-best pass1, HL 25->85), img:3 best review 95 PASS, gate 92, 4 [VERIFY] stay. From human backlog (priority-2 lottery/legal); distinct from vk-0273 hub + toto cluster. No in-progress/HANDOFF to reconcile; monthly SEO review not due. Ahrefs discovery: no new distinct winnable candidate (крапс=vk-0029, megaways=vk-0041 covered; units 403 mid-run). Backlog row -> written. No flags resolved; nothing posted/merged.",
+  "state": "running",
+  "run_started_utc": "2026-10-12T07:15:54Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01R3224gtVBX7KwwczMjYTsD",
+  "note": "daily run 2026-10-12 — starting; reconcile check: 0 in-progress/CLAIMED/HANDOFF leftovers; monthly SEO review not due (last=2026-10)",
   "progress": {
-    "phase": "done",
-    "article_index": 1,
+    "phase": "init",
+    "article_index": 0,
     "article_total": 1,
-    "article_slug": "2026-10-11-evrodzhakpot-evromilioni-zakonno",
+    "article_slug": null,
     "stages": [
       "Synthesis",
       "Outline",
