@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-13T08:37:40Z",
+  "generated_utc": "2026-10-13T23:29:05Z",
   "buffer": {
     "count": 230,
     "target": 10,
@@ -5605,17 +5605,15 @@
       "posted_date": "",
       "folder": "2026-10-13-skrech-karti-momentni-lotarii",
       "pr": "#300",
-      "gemini": "ai 65",
-      "notes": "img:2 (infographic 100 + decorative hero 100, Gemini review PASS) · gate 94 PASS WITH FIXES · Gemini text ai 65 keep-best pass0 (HL 35>pass2 25>pass1 20, MAX_GEMINI_PASSES reached, both humaniser passes lowered score — noisy detector; human editor advised) · 1 [VERIFY] (odds/EV 1-в-3/1-в-4 международни примерни; exact BG odds/price from official series rules; toto.bg CAPTCHA-gated) · 2026-10-13 daily run (MAX_PER_RUN=1), backlog P2 cluster:lottery; DISTINCT моментна/скреч PRODUCT+chance+„онлайн?\" angle (sitemap has no скреч URL; distinct from тото number-game pillars vk-0264..0271 and /blog/lotaria-vidove/ types-overview); guides-only scope OK (ЗХ чл.41 ал.2 + БСТ public product names + evergreen mechanics, no operator/НАП-register data); Ahrefs units exhausted (reset 2026-10-15) → vol 90/kd0 from backlog pull, checked=web",
+      "gemini": "human 85",
+      "notes": "img:2 (infographic 100 + decorative hero 100, Gemini review PASS) · gate 94 PASS WITH FIXES · Gemini text ai 65 keep-best pass0 (HL 35>pass2 25>pass1 20, MAX_GEMINI_PASSES reached, both humaniser passes lowered score — noisy detector; human editor advised) · 1 [VERIFY] (odds/EV 1-в-3/1-в-4 международни примерни; exact BG odds/price from official series rules; toto.bg CAPTCHA-gated) · 2026-10-13 daily run (MAX_PER_RUN=1), backlog P2 cluster:lottery; DISTINCT моментна/скреч PRODUCT+chance+„онлайн?\" angle (sitemap has no скреч URL; distinct from тото number-game pillars vk-0264..0271 and /blog/lotaria-vidove/ types-overview); guides-only scope OK (ЗХ чл.41 ал.2 + БСТ public product names + evergreen mechanics, no operator/НАП-register data); Ahrefs units exhausted (reset 2026-10-15) → vol 90/kd0 from backlog pull, checked=web · nightly-fix 2026-10-13: resolved 4 publish-blocking flags ([VERIFY] inline + AUTHOR/BRAND/RG footer) → publish-ready; humanised Gemini ai 65 → human 80-85 (4 passes, rephrasing only)",
       "opportunity": {
         "score": 44,
         "band": "Moderate",
         "winnable": true
       },
-      "verify_flags": 1,
-      "verify_samples": [
-        "[VERIFY: точните шансове и награден фонд за конкретната българска игра идват само от официалните правила на серията; стойностите 1 към 3 / 1 към 4 са международ"
-      ]
+      "verify_flags": 0,
+      "verify_samples": []
     }
   ],
   "backlog": [

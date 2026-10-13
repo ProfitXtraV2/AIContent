@@ -2237,3 +2237,58 @@ posted/live, never touched.)
 ### Deferred
 None. Only one valid in-scope target (vk-0278) existed for both JOB A and JOB B; it was
 processed, is flag-free, and passed Gemini (human 90).
+
+## 2026-10-13 — nightly flag + score fixes
+
+Scanned all 278 `content/*` branches that carry a `05b-final-draft.md` (the 2 without one —
+`bonusi-za-dobre-doshli-2026`, `najdobri-bonusi-za-dobre-doshli-2026` — are `failed`, no draft).
+Exactly **one** branch needed work tonight, and it needed both jobs:
+**2026-10-13-skrech-karti-momentni-lotarii** (vk-0279, PR #300).
+
+### JOB A — resolve publish-blocking flags
+Only vk-0279 carried blocking markers. 4 resolved in `05b-final-draft.md`, re-scan now ZERO:
+- **[VERIFY]** (inline, odds/EV): kept the illustrative international low-tier share (≈1-в-3 /
+  1-в-4) but marked it explicitly as foreign/примерни, not Bulgarian, and folded the caveat into
+  prose pointing to the official series rules for exact BG odds/prize fund. No number invented.
+- **[AUTHOR BIO BLOCK or EDITORIAL]**, **[BRAND BOILERPLATE]**, **[18+ / RG LINE]** (footer):
+  filled with standard author bio, "За Всички Казина" boilerplate, RG line and a no-affiliate
+  disclosure, matching posted-article house style (modelled on vk-0273 evrodzhakpot footer).
+- Byline Георги Тодоров, brand Всички Казина, all legal citations and the body 18+/RG line
+  preserved. Commit `fix(flags): resolve … — publish-ready`, pushed (PR #300).
+
+### JOB B — low Gemini score
+Targets = status drafted/approved AND gemini `ai <n>` OR `human <n>` n<80, worst-first, ≤10:
+only **1** in-scope target, vk-0279 (`ai 65`) — the same article as JOB A. (All other
+drafted/approved rows with a verdict are already `human ≥80`; `skipped` rows = Gemini
+unavailable at draft time, not a bad verdict, so not JOB-B targets. vk-0063 is `ai 75` but
+**posted** → see POSTED-needs-review, never edited.)
+- **skrech-karti-momentni-lotarii** (vk-0279) — gemini **ai 65 → human 80-85**. Baseline
+  Step-7 re-check on the flag-resolved file read "strong AI patterns, 85% confidence". Applied
+  Gemini's Step-7 recommendations + humaniser technique over 4 passes (rephrasing only, no
+  fact changes): condensed the melodramatic hook, smoothed staccato rhythm, replaced forced
+  metaphors (затворен съд), cut didactic signposting (Оттук идва / Разликата не е само…),
+  dissolved the rigid "Вариантите са два / Първият / Вторият" scaffolding, trimmed the
+  premise echo-chamber, made headings declarative, and dissolved the restating conclusion
+  (article now ends on the "Как да подходите разумно" / RG section). Verdict progression:
+  ai 85% → ai 75% → likely human-written 65-85% → stable **human 80 and 85** on two
+  confirmation runs (≥80 PASS). Stopped at attempt 4 (policy: stop at ≥80; the detector is
+  noisy and re-flags freshly rewritten prose each pass, so further passes risk stripping voice
+  for no gain). Commit `fix(quality): humanise … (gemini ai65->human85)`, pushed (PR #300).
+  attempts: 4 · **success**.
+
+### Feed / deploy ownership (observed, left to autopilot)
+Per the 2026-10-11 boundary, `published/` is the daily-run autopilot's domain. Rebuilt
+`build_dashboard.py` (committed `docs/data/status.json`, buffer 230/10) and ran `build_feed.py`
+to validate (23 approved entries build clean). vk-0279 is `drafted`, not in the feed; the
+`published/index.json` working-tree change was pre-existing drift unrelated to tonight's work
+and was **not** committed — reverted and left to the autopilot to avoid a push race and
+misattribution. This run's commit carries board + dashboard + this log only.
+
+### POSTED — needs human review
+- **vk-0063** (nv-casino-bonus-usloviya, PR #79) — `ai 75`, status **posted/live**. Low-rated
+  but live; per policy never edited. Logged for a human to decide whether to re-humanise and
+  re-publish through the normal flow.
+
+### Deferred
+None. Only one valid in-scope target (vk-0279) existed for both JOB A and JOB B; it was
+processed, is now flag-free, and passed Gemini (human 80-85).
