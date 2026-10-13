@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 25,
+  "count": 23,
   "articles": [
     {
       "slug": "gates-of-olympus-1000",
@@ -143,13 +143,6 @@
       "status": "approved"
     },
     {
-      "slug": "vtori-toto-shans",
-      "title": "Втори тото шанс 5 от 35 и 6 от 49: как работи през 2026",
-      "date_modified": "2026-10-10",
-      "content_hash": "3cbcc0fa730c3ff1a92a2504564004ad4c7e3fc3775dec6eb31445aa7b0f8235",
-      "status": "approved"
-    },
-    {
       "slug": "toto-zodiak",
       "title": "Тото Зодиак: правила, печеливши групи и шанс за джакпот",
       "date_modified": "2026-10-10",
@@ -164,13 +157,6 @@
       "status": "approved"
     },
     {
-      "slug": "lotaria-vidove",
-      "title": "Лотария в България: видове, кой я организира и онлайн игра",
-      "date_modified": "2026-10-10",
-      "content_hash": "ccbb499535c00c6c1d17c5a19a5a22753e45410e222ab2e36f9f47ec1c23dbb3",
-      "status": "approved"
-    },
-    {
       "slug": "kazina-las-vegas",
       "title": "Казино в Лас Вегас: колко задържа къщата | Всички Казина",
       "date_modified": "2026-10-10",
@@ -178,5 +164,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-12T17:11:14Z"
+  "generated_utc": "2026-10-13T06:58:59Z"
 }
