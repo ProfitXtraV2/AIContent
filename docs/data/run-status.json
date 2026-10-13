@@ -5,12 +5,12 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01HGz2hxZcmKsWFZBshi4S7y",
-  "note": "daily run 2026-10-13 — started; reconciling + topic selection",
+  "note": "daily run 2026-10-13 — writing vk-0279 (скреч карти/моментни лотарии)",
   "progress": {
-    "phase": "selecting",
-    "article_index": null,
-    "article_total": null,
-    "article_slug": null,
+    "phase": "writing",
+    "article_index": 1,
+    "article_total": 1,
+    "article_slug": "2026-10-13-skrech-karti-momentni-lotarii",
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": null,
-    "stage": null
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
