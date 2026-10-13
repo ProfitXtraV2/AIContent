@@ -1,13 +1,15 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-10-13T07:15:09Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-10-13T08:45:00Z",
+  "articles_written": 1,
+  "prs_opened": [
+    300
+  ],
   "run_url": "https://claude.ai/code/session_01HGz2hxZcmKsWFZBshi4S7y",
-  "note": "daily run 2026-10-13 — writing vk-0279 (скреч карти/моментни лотарии)",
+  "note": "daily run 2026-10-13 done — 1 NEW guide vk-0279 (Скреч карти и моментни лотарии — как работят и какъв е шансът), PR #300. Gate 94 PASS WITH FIXES; Gemini text ai 65 keep-best pass0 (HL 35 > pass2 25 > pass1 20, MAX_GEMINI_PASSES reached, both humaniser passes lowered score — noisy detector, human editor advised); img:2 (infographic 100 + decorative hero 100, Gemini review PASS). 1 [VERIFY] stays (odds/EV 1-в-3/1-в-4 международни примерни; exact BG odds/price only from official series rules; toto.bg CAPTCHA-gated). From human backlog P2 (vol 90/kd0); DISTINCT моментна/скреч PRODUCT pillar — чл.41 ал.2 ЗХ „can it be online\" angle (sitemap has no скреч URL; distinct from тото number-game pillars vk-0264..0271 and /blog/lotaria-vidove/). Guides-only scope, no operator/НАП-register data. No in-progress/HANDOFF/CLAIMED leftovers to reconcile; monthly SEO review not due (last 2026-10). Ahrefs API 403/units exhausted (reset ~2026-10-15) → Step-6 discovery/enrichment deferred to next reset, no fabrication; dashboard rebuilt (buffer 230/10), feed refreshed (23 approved). Backlog row → written. No flags resolved; nothing posted/merged. NOTE: Claude GitHub App not installed on profitxtrav2/aicontent → PR events won't wake the session; human reviews/merges #300 manually.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-10-13-skrech-karti-momentni-lotarii",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 7,
-    "stage": "Images"
+    "stage_index": null,
+    "stage": null
   }
 }
