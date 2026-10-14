@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-14T07:15:49Z",
+  "generated_utc": "2026-10-14T08:12:27Z",
   "buffer": {
-    "count": 230,
+    "count": 231,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 207,
+    "drafted": 208,
     "approved": 23,
     "posted": 48,
     "failed": 1
@@ -5614,6 +5614,29 @@
       },
       "verify_flags": 0,
       "verify_samples": []
+    },
+    {
+      "id": "vk-0280",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Електронна рулетка: как работи (RNG и автоматни рулетки)",
+      "keywords_or_terms": "електронна рулетка, казино рулетка игра, автоматична рулетка, рулетка RNG",
+      "volume": "150",
+      "kd": "0",
+      "source": "backlog",
+      "drafted_date": "2026-10-14",
+      "posted_date": "",
+      "folder": "2026-10-14-elektronna-ruletka",
+      "pr": "#301",
+      "gemini": "human 80",
+      "notes": "gate 96 PASS; Gemini text human 80 (Likely human-written 80%, PASS pass1 baseline keep-best); img:2 (infographic 100 + RNG hero 100, Gemini review PASS); 0 flags. DISTINCT electronic/RNG/airball angle vs vk-0024 /kazino-igri/ruletka/ (table rules/strategies) — no авто/електронна рулетка URL in sitemap. SME add: fair 36:1 vs paid 35:1 (correct, gate-verified). Guides-only scope, no operator/НАП-register data (facts: Wikipedia roulette math + ЗХ law pack). From human backlog P2.",
+      "opportunity": {
+        "score": 48,
+        "band": "Good",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
     }
   ],
   "backlog": [
@@ -6195,8 +6218,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN (kd0). Only the electronic/RNG/terminal angle — do NOT repeat vk-0024 rules/strategies. Fold-in note: „ролетка или рулетка\" (450, kd0) belongs in vk-0024.",
-      "status": "open",
-      "notes": "cluster: roulette; discovery 2026-10-10b",
+      "status": "written",
+      "notes": "cluster: roulette; discovery 2026-10-10b · written 2026-10-14 → vk-0280 (PR #301), electronic/RNG/airball angle, distinct from vk-0024",
       "opportunity": {
         "score": 48,
         "band": "Good",
@@ -10231,19 +10254,13 @@
       }
     ],
     "bands": {
-      "Moderate": 6,
-      "Good": 1
+      "Moderate": 6
     },
     "clusters": {
       "uncategorised": {
         "winnable": 1,
         "pillar": 0,
         "total": 2
-      },
-      "roulette": {
-        "winnable": 1,
-        "pillar": 0,
-        "total": 1
       },
       "lottery": {
         "winnable": 1,
@@ -10262,19 +10279,6 @@
       }
     },
     "winnable": [
-      {
-        "query": "Електронна рулетка — как работи (RNG и автоматни рулетки)",
-        "keywords": "електронна рулетка, казино рулетка игра",
-        "volume": "150",
-        "kd": "0",
-        "intent": "informational",
-        "band": "Good",
-        "score": 48,
-        "winnable": true,
-        "cluster": "roulette",
-        "status": "open",
-        "src": "backlog"
-      },
       {
         "query": "Dog House Megaways (Pragmatic Play): как работи и RTP",
         "keywords": "dog house megaways, дог хаус мегауейс, dog house megaways rtp",
@@ -10344,7 +10348,7 @@
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 6,
+      "winnable": 5,
       "pillars": 0
     }
   }

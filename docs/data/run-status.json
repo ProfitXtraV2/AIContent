@@ -1,13 +1,15 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-10-14T07:15:37Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-10-14T08:12:51Z",
+  "articles_written": 1,
+  "prs_opened": [
+    301
+  ],
   "run_url": "https://claude.ai/code/session_01P1ZQcMbu5UrBLRpvYFnm9o",
-  "note": "daily run 2026-10-14 — writing vk-0280 Електронна рулетка (1 new guide, backlog P2 kd0)",
+  "note": "daily run 2026-10-14 done — 1 NEW guide vk-0280 (Електронна рулетка: как работи RNG и автоматни рулетки), PR #301. Gate 96 PASS; Gemini text human 80 (Likely human-written 80%, PASS baseline keep-best pass1); img:2 (infographic 100 + RNG hero 100, Gemini image review PASS); 0 flags. From human backlog P2 (vol 150/kd0); DISTINCT electronic/RNG/airball angle vs vk-0024 /kazino-igri/ruletka/ (table rules/strategies) — no авто/електронна рулетка URL in sitemap; systems only debunked (routed to vk-0024). SME add: fair 36:1 vs paid 35:1 (correct, gate-verified maths). Guides-only scope, no operator/НАП-register data (facts: Wikipedia roulette math + ЗХ law pack). No in-progress/HANDOFF/CLAIMED leftovers to reconcile; monthly SEO review not due (last 2026-10). Ahrefs effectively exhausted (16 API-key units left of 100k, reset 2026-10-15) → Step-6 discovery/enrichment deferred to reset, no fabrication; dashboard rebuilt (buffer 231/10), feed refreshed. Backlog row (Електронна рулетка P2) → written. No flags resolved; nothing posted/merged. NOTE: Claude GitHub App not installed on profitxtrav2/aicontent → PR events won't wake the session; human reviews/merges #301 manually.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-10-14-elektronna-ruletka",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 7,
-    "stage": "Images"
+    "stage_index": null,
+    "stage": null
   }
 }
