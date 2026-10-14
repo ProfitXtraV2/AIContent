@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-14T17:07:09Z",
+  "generated_utc": "2026-10-14T17:11:31Z",
   "buffer": {
-    "count": 231,
+    "count": 230,
     "target": 10,
     "deficit": 0,
     "ok": true
@@ -9,8 +9,8 @@
   "counts": {
     "in-progress": 0,
     "drafted": 208,
-    "approved": 23,
-    "posted": 48,
+    "approved": 22,
+    "posted": 49,
     "failed": 1
   },
   "rows": [
@@ -5236,7 +5236,7 @@
     },
     {
       "id": "vk-0263",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Покер комбинации: подредба на ръцете от роял флъш до най-висока карта",
       "keywords_or_terms": "покер комбинации, подредба на покер ръцете, покер ръце, роял флъш, каре, фул хаус, кента, цвят, старша карта",
@@ -5244,7 +5244,7 @@
       "kd": "0",
       "source": "research",
       "drafted_date": "2026-10-10",
-      "posted_date": "",
+      "posted_date": "2026-10-14",
       "folder": "2026-10-10-poker-kombinacii",
       "pr": "#283",
       "gemini": "human 90",

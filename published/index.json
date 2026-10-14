@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 23,
+  "count": 22,
   "articles": [
     {
       "slug": "gates-of-olympus-1000",
@@ -136,13 +136,6 @@
       "status": "approved"
     },
     {
-      "slug": "poker-kombinacii",
-      "title": "Покер комбинации: подредба на ръцете (от роял флъш надолу)",
-      "date_modified": "2026-10-10",
-      "content_hash": "b4ce57bc85abd319b1ecdbf807a39109a3d8292a1ac41799fa400ab72b2e7bcf",
-      "status": "approved"
-    },
-    {
       "slug": "toto-zodiak",
       "title": "Тото Зодиак: правила, печеливши групи и шанс за джакпот",
       "date_modified": "2026-10-10",
@@ -164,5 +157,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-14T17:07:10Z"
+  "generated_utc": "2026-10-14T17:11:32Z"
 }
