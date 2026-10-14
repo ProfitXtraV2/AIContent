@@ -2292,3 +2292,65 @@ misattribution. This run's commit carries board + dashboard + this log only.
 ### Deferred
 None. Only one valid in-scope target (vk-0279) existed for both JOB A and JOB B; it was
 processed, is now flag-free, and passed Gemini (human 80-85).
+
+## 2026-10-14 — nightly flag + score fixes
+
+### JOB A — resolve publish-blocking flags
+Scanned every `refs/remotes/origin/content/*` `05b-final-draft.md` for the blocking marker
+set (`[VERIFY: …]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`, `[AUTHOR …]`,
+`[BRAND …]`, `[EDITORIAL]`, `[уточни …]`, `[провери …]`). Exactly **one** real target.
+- **2026-10-10-toto-sistemi-kombinacii** (vk-0270, status `drafted`) — removed a leftover
+  `[Author bio: Георги Тодоров]` placeholder (the only
+  draft of 246 carrying it; matches the explicit `[AUTHOR …]` marker). The byline block
+  **Георги Тодоров** / Публикувано line is retained; no facts, links, RG line or disclosure
+  changed. Resolution mirrors the darzhavna-nacionalna-lotaria precedent (placeholder line
+  simply deleted). Re-scan: zero blocking markers. Commit
+  `fix(flags): resolve 2026-10-10-toto-sistemi-kombinacii — publish-ready`, pushed to
+  `content/2026-10-10-toto-sistemi-kombinacii` (open PR updated). flags resolved: 1 · success.
+
+### Observation — `[About Всички Казина boilerplate]` token (NOT acted on; human review)
+A `[About Всички Казина boilerplate]` token sits in the footer of **246** article drafts —
+**205 drafted/approved + 41 posted/live**. It is NOT in the JOB-A blocking-marker set, and it
+is demonstrably **not** a current publisher hard-blocker: 41 posted/live articles carry it in
+their canonical `05b-final-draft.md` and went live with it. It reads as a long-standing
+template token (the site template supplies the About box). The dashboard's own flag detector
+(`build_dashboard.VERIFY_FLAG_RE`) counts only `[VERIFY]`/`[DATA NEEDED]`, not this token.
+I therefore did **not** sweep it — a 205-branch + 41-live-article rewrite is outside the
+nightly marker scope, would be large disruptive churn against live content, and the evidence
+says it is benign. **For a human:** if the WebPortals publisher's new hard-block rule is in
+fact intended to catch `[About …]`/boilerplate placeholders, this needs a corpus-wide
+template-fill (and re-processing of 41 already-posted pages) — a systemic change beyond this
+routine. Please confirm with the publisher whether this token blocks, and decide.
+
+### JOB B — low Gemini score
+Targets = status drafted/approved AND gemini `ai <n>` OR `human <n>` n<80, worst-first, ≤10.
+On the **current** board (freshly pulled; autopilot had advanced main during the run) there
+are **0 in-scope targets** — every drafted/approved row with a Step-7 verdict is already
+`human ≥80`; `skipped`/blank rows are Gemini-unavailable-at-draft, not a bad verdict.
+- Note: an early read of the board (before the autopilot's board commits landed) showed
+  vk-0226 (e-portfeili-skrill-neteller) as `ai 70`. I checked out its branch and ran Step-7
+  three times on the current kept draft as an independent verification: **human 85 / human 85 /
+  human 90** (3/3 ≥80, mean ~87). This matches the board's committed `human 90` (the 10-11
+  "plateau cleared" entry). No edits made (policy: already `human ≥80` → leave untouched;
+  the article has been humanised across 5 prior nights and further editing risks degradation).
+  attempts: 3 verification reads, 0 humanising passes · already-passing, no change.
+
+### Feed / deploy ownership (observed, left to autopilot)
+Per the 2026-10-11 boundary, `published/` is the daily-run autopilot's domain. Ran
+`build_feed.py` only to validate — builds clean (22 approved entries). Its working-tree
+changes to `published/` (6 hub-intro articles + dostavchici + index.json) are autopilot drift
+unrelated to tonight's work and were **reverted, not committed**, to avoid a push race and
+misattribution. Rebuilt `build_dashboard.py` (committed `docs/data/status.json`, buffer
+230/10). This run's commit carries dashboard + this log only — the board `gemini` column
+needed no change (the single JOB-B candidate was already `human 90`).
+
+### POSTED — needs human review
+- **vk-0063** (2026-09-13-nv-casino-zakonno-li-e, PR #79) — `ai 75`, status **posted/live**.
+  Low-rated but live; per policy never edited. Carried forward from prior nights; a human
+  should decide whether to re-humanise and re-publish through the normal flow.
+  (vk-0064 nv-casino-bonus-usloviya, previously flagged here, is now `human 85` — recovered,
+  dropped from this list.)
+
+### Deferred
+None. JOB A had 1 target (resolved); JOB B had 0 in-scope targets (the one early candidate was
+already passing and independently re-verified). Well under the ≤10/night cap.
