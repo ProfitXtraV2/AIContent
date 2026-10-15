@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-15T07:15:14Z",
+  "generated_utc": "2026-10-15T07:51:48Z",
   "buffer": {
-    "count": 228,
+    "count": 229,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 208,
+    "drafted": 209,
     "approved": 20,
     "posted": 51,
     "failed": 1
@@ -5637,6 +5637,31 @@
       },
       "verify_flags": 0,
       "verify_samples": []
+    },
+    {
+      "id": "vk-0281",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Покер в България — законно ли е онлайн и на живо",
+      "keywords_or_terms": "покер българия, покер бг, онлайн покер българия, законно ли е покер, покер на живо българия",
+      "volume": "200",
+      "kd": "27",
+      "source": "backlog",
+      "drafted_date": "2026-10-15",
+      "posted_date": "",
+      "folder": "2026-10-15-poker-bulgaria-zakonno",
+      "pr": "#302",
+      "gemini": "human 85",
+      "notes": "gate 96 PASS; Gemini text human 85 (baseline Shows AI patterns 70%/HL30 → humaniser pass1 applied all 5 recs → Likely human-written 85%, keep-best pass1); img:1 (infographic; Gemini image review unavailable ×2 timeout → manual integrity PASS, all figures trace to 05b, no operator/person/fabrication); 1 [VERIFY] (tax, by design). 2026-10-15 daily run (MAX_PER_RUN=1), backlog P2. DISTINCT legal-status pillar (покерът = игра в казино по ЗХ) vs vk-0008 /blog/kak-se-igrae-poker-kazino/ (gameplay), vk-0263 /blog/poker-kombinacii/ (hands), vk-0264 (ЗХ taxonomy) — no poker-legality URL in sitemap. Guides-only scope OK (ЗХ/НАП law pack, no geo-blocked operator/register data).",
+      "opportunity": {
+        "score": 39,
+        "band": "Moderate",
+        "winnable": true
+      },
+      "verify_flags": 1,
+      "verify_samples": [
+        "[VERIFY: данъчното третиране на печалбите от покер да се потвърди към актуалния ЗКПО/ЗДДФЛ и НАП преди да се посочват ставки или прагове.]"
+      ]
     }
   ],
   "backlog": [
@@ -5985,15 +6010,15 @@
       "type": "guide",
       "query": "NV Casino безплатни завъртания — условия и капани",
       "keywords_or_terms": "nv casino безплатни завъртания, nv casino free spins",
-      "volume": "200",
+      "volume": "250",
       "kd": "42",
       "intent": "transactional",
       "checked": "ahrefs",
-      "ahrefs_note": "'nv casino free spins' 200/мес kd42 ↑ (transactional); BG 'безплатни завъртания' без данни. Реален обем + търговски интент — добър избор",
+      "ahrefs_note": "'nv casino free spins' 250/мес kd42 ↑ (re-pull 2026-10-15; беше 200); BG 'безплатни завъртания' без данни. Реален обем + търговски интент — добър избор",
       "status": "open",
       "notes": "продължение на branded bonus клъстера; wagering математика като в PR #80 · blocked: operator source pack / BG route needed (NV Casino T&C + complaints geo-blocked 403; guides-only scope) — revisit when operator sourcing solved.",
       "opportunity": {
-        "score": 33,
+        "score": 36,
         "band": "Moderate",
         "winnable": false
       }
@@ -6326,8 +6351,8 @@
       "intent": "commercial",
       "checked": "ahrefs",
       "ahrefs_note": "STRETCH (kd27, ~570 cluster). Legal angle: poker = игра в казино / licence per game (ЗХ), home games vs organised, online only with НАП-licensed operators, player fine for unlicensed. Distinct from vk-0008 (how to play).",
-      "status": "open",
-      "notes": "cluster: legal/poker; discovery 2026-10-10b",
+      "status": "written",
+      "notes": "cluster: legal/poker; discovery 2026-10-10b; written 2026-10-15 → vk-0281, PR #302",
       "opportunity": {
         "score": 39,
         "band": "Moderate",
@@ -6371,15 +6396,15 @@
       "type": "guide",
       "query": "Покер чипове — цветове, стойности и как се броят",
       "keywords_or_terms": "чипове за покер, покер чипове, маса за покер",
-      "volume": "250",
+      "volume": "100",
       "kd": "23",
       "intent": "informational",
       "checked": "ahrefs",
-      "ahrefs_note": "WIN-ish (kd23, ~440). Reference guide (standard colour/value conventions vary — say so), chip etiquette, cash-game vs tournament; mostly product SERP — info angle only, no shop links.",
+      "ahrefs_note": "WIN-ish (kd23; vol re-pull 2026-10-15: 'покер чипове' 100, беше 250). Reference guide (standard colour/value conventions vary — say so), chip etiquette, cash-game vs tournament; mostly product SERP — info angle only, no shop links.",
       "status": "open",
       "notes": "cluster: poker; discovery 2026-10-10b",
       "opportunity": {
-        "score": 43,
+        "score": 36,
         "band": "Moderate",
         "winnable": true
       }
@@ -6413,9 +6438,9 @@
       "intent": "commercial",
       "trend": "",
       "checked": "ahrefs",
-      "suggestion": "Winnable (kd0, 70/мес). Megaways вариант, DISTINCT от базовия The Dog House (покрит /blog/the-dog-house/) и от Megaways-механиката (vk-0041) — собствен branded primary kw. Game-explainer в обхвата guides-only: Pragmatic game-DB (RTP/волатилност/mechanics/max win), NOT operator T&C/НАП. Fold-in: „комбинации покер\" 250/kd0 -> дубликат на vk-0263.",
+      "suggestion": "Winnable (kd0, 70/мес — re-pull 2026-10-15 потвърди 70/kd0, non-zero, остава). Megaways вариант, DISTINCT от базовия The Dog House (покрит /blog/the-dog-house/) и от Megaways-механиката (vk-0041) — собствен branded primary kw. Game-explainer в обхвата guides-only: Pragmatic game-DB (RTP/волатилност/mechanics/max win), NOT operator T&C/НАП. Fold-in: „комбинации покер\" 250/kd0 -> дубликат на vk-0263.",
       "status": "candidate",
-      "date_researched": "2026-10-10",
+      "date_researched": "2026-10-15",
       "opportunity": {
         "score": 44,
         "band": "Moderate",
@@ -10254,7 +10279,7 @@
       }
     ],
     "bands": {
-      "Moderate": 6
+      "Moderate": 5
     },
     "clusters": {
       "uncategorised": {
@@ -10268,9 +10293,9 @@
         "total": 1
       },
       "legal": {
-        "winnable": 2,
+        "winnable": 1,
         "pillar": 0,
-        "total": 2
+        "total": 1
       },
       "poker": {
         "winnable": 1,
@@ -10293,19 +10318,6 @@
         "src": "research"
       },
       {
-        "query": "Покер чипове — цветове, стойности и как се броят",
-        "keywords": "чипове за покер, покер чипове, маса за покер",
-        "volume": "250",
-        "kd": "23",
-        "intent": "informational",
-        "band": "Moderate",
-        "score": 43,
-        "winnable": true,
-        "cluster": "poker",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
         "query": "Тото онлайн — как да играете законно в сайта на БСТ",
         "keywords": "тото онлайн, как да играя тото онлайн, тото онлайн регистрация",
         "volume": "100",
@@ -10319,15 +10331,15 @@
         "src": "backlog"
       },
       {
-        "query": "Покер в България — законно ли е онлайн и на живо",
-        "keywords": "покер българия, покер бг, онлайн игри покер, играй покер онлайн",
-        "volume": "200",
-        "kd": "27",
-        "intent": "commercial",
+        "query": "Покер чипове — цветове, стойности и как се броят",
+        "keywords": "чипове за покер, покер чипове, маса за покер",
+        "volume": "100",
+        "kd": "23",
+        "intent": "informational",
         "band": "Moderate",
-        "score": 39,
+        "score": 36,
         "winnable": true,
-        "cluster": "legal",
+        "cluster": "poker",
         "status": "open",
         "src": "backlog"
       },
@@ -10348,7 +10360,7 @@
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 5,
+      "winnable": 4,
       "pillars": 0
     }
   }
