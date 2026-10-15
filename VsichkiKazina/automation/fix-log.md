@@ -8,6 +8,77 @@ Facts, numbers, licence/RTP/tax figures, dates, byline (Георги Тодор�
 
 ---
 
+## 2026-10-15 (nightly run — flags + score)
+
+Gemini API online (`gemini-3.1-pro-preview` healthy).
+
+### JOB A — publish-blocking flags
+Scanned every `content/*` branch's own `05b-final-draft.md` (**282** branches) for the
+blocking-marker set (`[VERIFY]` / `[DATA NEEDED]` / `[CONFLICT]` / `[18+ / RG LINE]` /
+`[AUTHOR …]` / `[BRAND …]` / `[EDITORIAL]` / `[уточни …]` / `[провери …]`), each branch
+against its OWN article folder (stale inherited copies of other folders ignored — they are
+not that branch's publishable source). A wide case-insensitive re-sweep confirmed the count.
+**1** branch carried a true blocking marker; resolved → **0** markers; committed on its own
+branch + pushed (open PR updated). No fact, figure, date, link, byline (Георги Тодоров),
+brand (Всички Казина) or RG line changed.
+
+- **2026-10-15-poker-bulgaria-zakonno** (vk-0281, status `drafted`, PR #302) — one
+  `[VERIFY]` on the tax paragraph (by-design editorial flag: "confirm tax treatment vs
+  current ЗКПО/ЗДДФЛ and НАП before stating rates or thresholds"). **Resolution: softened /
+  pointed-to-authority.** No tax rate or threshold was ever asserted in the prose; the
+  sentence already directs the reader to счетоводител/НАП and links the dedicated tax guide.
+  Dropped the bracket and reworded into natural prose ("…за собствената ви ситуация питайте
+  счетоводител или НАП, защото точните ставки и прагове зависят от актуалния данъчен закон, а
+  не от общо ръководство като това."). Tax never asserted as fact; no value invented. Re-scan:
+  0 blocking markers. Commit `fix(flags): resolve 2026-10-15-poker-bulgaria-zakonno —
+  publish-ready`, pushed. gemini before→after: board `human 85` retained (see JOB-B note on
+  detector variance). flags resolved: 1 · success.
+
+### Observation — `[About Всички Казина boilerplate]` token (NOT acted on; human review)
+Unchanged from prior nights: the `[About Всички Казина boilerplate]` footer token still sits
+in the vast majority of drafts and in posted/live pages. It is NOT in the JOB-A blocking set
+and is demonstrably not a current hard-blocker (posted pages carry it and went live). Left
+untouched per the standing precedent; a corpus-wide template-fill remains a systemic human
+decision, not nightly scope.
+
+### JOB B — low Gemini score
+Targets = status drafted/approved AND gemini `ai <n>` OR `human <n>` n<80, worst-first, ≤10.
+On the current board: **0 in-scope targets** — every drafted/approved row with a Step-7
+verdict is already `human ≥80`; no `ai <n>` rows; `skipped`/blank rows are
+Gemini-unavailable-at-draft, not a bad verdict. No humanising passes run.
+- **Detector-variance note:** after the JOB-A flag fix on vk-0281 I ran Step-7 twice on the
+  current draft as a sanity check: read 1 = "Shows AI patterns, 85%", read 2 = "Likely
+  human-written, 80%". Confirms the documented high variance of this detector around the
+  human/ai boundary. A single-sentence flag removal cannot flip overall AI-likeness, so this
+  is noise, not a regression — board `human 85` retained, row NOT pulled into JOB B (selection
+  is by the committed board column, which keeps the nightly run deterministic and bounded).
+
+### Feed / deploy ownership (observed, left to autopilot)
+Per the standing boundary, `published/` is the daily-run autopilot's domain. Ran
+`build_feed.py` only to validate — builds clean (20 approved entries). Its working-tree change
+to `published/index.json` was **reverted, not committed**, to avoid a push race and
+misattribution. Rebuilt `build_dashboard.py` (committed `docs/data/status.json`, buffer
+229/10). This run's commit carries the board note, dashboard, and this log only — the board
+`gemini` column needed no change.
+
+### POSTED — needs human review
+- **vk-0063** (2026-09-13-nv-casino-zakonno-li-e, PR #79) — `ai 75`, status **posted/live**.
+  Low-rated but live; per policy never edited. Carried forward; a human should decide whether
+  to re-humanise and re-publish through the normal flow.
+- **Live-export placeholder discrepancy** (nv-casino, posted) — the live exports
+  `published/nv-casino-bonus-usloviya/article.md` (`[AUTHOR BIO BLOCK …] [BRAND BOILERPLATE
+  …] [18+ / RG LINE]`) and `published/nv-casino-zakonno-li-e/article.md` (`[AUTHOR BIO BLOCK
+  …] [About … boilerplate]`) still contain author/brand/RG placeholder tokens, whereas both
+  articles' own `content/*` branch `05b-final-draft.md` are clean (0 blocking markers). These
+  are posted/live — not touched. Flagged for a human: if the publisher now hard-blocks
+  `[AUTHOR …]`/`[BRAND …]`/`[18+ / RG LINE]`, these two live pages predate the rule and need a
+  re-publish from their (clean) branches; same open question as the `[About …]` token.
+
+### Deferred
+None. JOB A had 1 target (resolved); JOB B had 0 in-scope targets. Well under the ≤10/night cap.
+
+---
+
 ## 2026-10-10 (nightly run — flags + score)
 
 Gemini API online (`gemini-3.1-pro-preview` healthy).

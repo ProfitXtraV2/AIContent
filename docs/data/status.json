@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-15T07:51:48Z",
+  "generated_utc": "2026-10-15T23:16:44Z",
   "buffer": {
     "count": 229,
     "target": 10,
@@ -5652,16 +5652,14 @@
       "folder": "2026-10-15-poker-bulgaria-zakonno",
       "pr": "#302",
       "gemini": "human 85",
-      "notes": "gate 96 PASS; Gemini text human 85 (baseline Shows AI patterns 70%/HL30 → humaniser pass1 applied all 5 recs → Likely human-written 85%, keep-best pass1); img:1 (infographic; Gemini image review unavailable ×2 timeout → manual integrity PASS, all figures trace to 05b, no operator/person/fabrication); 1 [VERIFY] (tax, by design). 2026-10-15 daily run (MAX_PER_RUN=1), backlog P2. DISTINCT legal-status pillar (покерът = игра в казино по ЗХ) vs vk-0008 /blog/kak-se-igrae-poker-kazino/ (gameplay), vk-0263 /blog/poker-kombinacii/ (hands), vk-0264 (ЗХ taxonomy) — no poker-legality URL in sitemap. Guides-only scope OK (ЗХ/НАП law pack, no geo-blocked operator/register data).",
+      "notes": "gate 96 PASS; Gemini text human 85 (baseline Shows AI patterns 70%/HL30 → humaniser pass1 applied all 5 recs → Likely human-written 85%, keep-best pass1); img:1 (infographic; Gemini image review unavailable ×2 timeout → manual integrity PASS, all figures trace to 05b, no operator/person/fabrication); [VERIFY] tax flag resolved 2026-10-15 nightly (softened/pointed-to-НАП, no figures asserted; 0 blocking markers). 2026-10-15 daily run (MAX_PER_RUN=1), backlog P2. DISTINCT legal-status pillar (покерът = игра в казино по ЗХ) vs vk-0008 /blog/kak-se-igrae-poker-kazino/ (gameplay), vk-0263 /blog/poker-kombinacii/ (hands), vk-0264 (ЗХ taxonomy) — no poker-legality URL in sitemap. Guides-only scope OK (ЗХ/НАП law pack, no geo-blocked operator/register data).",
       "opportunity": {
         "score": 39,
         "band": "Moderate",
         "winnable": true
       },
-      "verify_flags": 1,
-      "verify_samples": [
-        "[VERIFY: данъчното третиране на печалбите от покер да се потвърди към актуалния ЗКПО/ЗДДФЛ и НАП преди да се посочват ставки или прагове.]"
-      ]
+      "verify_flags": 0,
+      "verify_samples": []
     }
   ],
   "backlog": [
