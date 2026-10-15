@@ -5,7 +5,7 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01HVFcCj5s1guLptD8fZZWeE",
-  "note": "daily run 2026-10-15 — starting; reconcile leftovers (none found), monthly SEO review not due (last 2026-10), select ≤1 new guide topic",
+  "note": "daily run 2026-10-15 — vk-0281 poker-legality guide: Brand Gate PASS 96; Gemini text human 85 (PASS, keep-best pass1 from baseline 30); infographic built, image review running",
   "progress": {
     "phase": "writing",
     "article_index": 1,
@@ -23,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "stage_index": 7,
+    "stage": "Images"
   }
 }
