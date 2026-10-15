@@ -25,11 +25,13 @@
 Matches the text and the infographic. Курсът е посочен в текста като база.
 
 ## Gemini Step-7 (text, human-likeness)
-<!-- filled after the check completes; see 07-gemini-check-*.md -->
+- Pass 1 (baseline draft): Shows AI patterns, 70% → human-likeness 30. Needs changes. (07-gemini-check-1.md)
+- Humaniser pass 1: applied all 5 flagged recs (removed 2 signposting lead-ins, cut 1 translated metaphor, de-hyped 2 headings), numbers/links/RG untouched.
+- Pass 2 (after humaniser pass 1): Likely human-written, 85% → human-likeness 85. **PASS** (≥ 80). (07-gemini-check-2.md)
+- KEEP-BEST: HL 30 → 85; winner = current 05b (humaniser pass 1). gemini column = `human 85`.
 
 ## Images (Step-8)
-<!-- filled after image review; see 08-image-review-*.md -->
-images: 1 (infographic) — hand-authored SVG, every figure traced verbatim to 05b (1 500 000 лв.; 500–2000 лв.; 255,65–1022,58 €; 24 ч.; чл. refs; 18+). No operator logos/names, no people/faces, no glamorised winning.
+images: 1 (infographic) — Gemini review unavailable (endpoint timed out ×2); manual integrity PASS (08-image-review-1.md). Hand-authored SVG, every figure traced verbatim to 05b (1 500 000 лв.; 500–2000 лв.; 255,65–1022,58 €; 24 ч.; чл. 41/4/9/97а/17/2 refs; 18+). No operator logos/names, no people/faces, no glamorised winning. No decorative AI hero added (optional; not needed for a legal guide).
 
 ## Anti-cannibalization / scope
 - DISTINCT legal-status pillar; no poker-legality URL in the live sitemap (checked 15.10.2026). vk-0008 (gameplay), vk-0263 (hands), vk-0264 (ЗХ taxonomy) do not cover it.
