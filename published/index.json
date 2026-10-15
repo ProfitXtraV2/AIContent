@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 22,
+  "count": 20,
   "articles": [
     {
       "slug": "gates-of-olympus-1000",
@@ -141,21 +141,7 @@
       "date_modified": "2026-10-10",
       "content_hash": "001d0bf0eb69ba1fddebdd8f29e17173c4f8ebd8518acfb1edc66079e22092e9",
       "status": "approved"
-    },
-    {
-      "slug": "darzhavna-nacionalna-lotaria",
-      "title": "Държавна лотария и Национална лотария: коя е законна",
-      "date_modified": "2026-10-10",
-      "content_hash": "a8f9b0e1511c97b9d8aa53a208426c84ebf3d61e9de7acbb50055c4374d383a2",
-      "status": "approved"
-    },
-    {
-      "slug": "kazina-las-vegas",
-      "title": "Казино в Лас Вегас: колко задържа къщата | Всички Казина",
-      "date_modified": "2026-10-10",
-      "content_hash": "07b1990f74091bf6a995ad695d6e0554125d10bd0a506f259d19f6f90817e4a8",
-      "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-14T17:11:32Z"
+  "generated_utc": "2026-10-15T06:51:33Z"
 }
