@@ -2425,3 +2425,70 @@ needed no change (the single JOB-B candidate was already `human 90`).
 ### Deferred
 None. JOB A had 1 target (resolved); JOB B had 0 in-scope targets (the one early candidate was
 already passing and independently re-verified). Well under the ≤10/night cap.
+
+---
+
+## 2026-10-16 — nightly flag + score fixes
+
+Board freshly pulled; content/* refs fetched. 283 content branches scanned.
+
+### JOB A — resolve publish-blocking flags
+Scanned every `content/*` branch's `05b-final-draft.md` for blocking markers
+(`[VERIFY]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`, `[AUTHOR]`, `[BRAND]`,
+`[EDITORIAL]`, `[уточни]`, `[провери]`). **1 branch flagged:**
+
+- **vk-0282** (2026-10-16-igralni-zali-avtomati-zakon, PR #303) — 3× `[VERIFY]` in body
+  + a trailing "FLAGS carried forward" editorial-metadata block that itself contained
+  `[VERIFY]`/`[CONFLICT]`/`[DATA NEEDED]` tokens. Resolved each by rephrasing
+  (no invented facts):
+  1. Euro-equivalents of the 750 000 / 1 500 000 лв. capital thresholds after the
+     01.01.2026 euro switch → kept the statutory lev figures + article citations
+     (чл. 4, ал. 4 / ал. 2 ЗХ), folded the caveat into prose ("отчитат се по
+     официалния фиксиран курс… точните действащи стойности са в последната редакция").
+     No euro figure invented.
+  2. чл. 44 protected-objects list + measurement method (sources were 2012–2021 drafts,
+     not the active redaction) → softened the specific enumeration to a general
+     statement, folded in "винаги проверявайте в последната редакция на закона и
+     наредбата… списъкът се е променял няколко пъти"; removed the standalone VERIFY note.
+  3. Testing/approval regime + name of the body (source-pack warned against the outdated
+     body name) → the prose named no body or article, so the bracket was removed and the
+     statement kept generic ("изпитани и одобрени по реда на закона").
+  Removed the trailing CANON ADDITIONS / FLAGS-carried-forward metadata block entirely
+  (it does not belong in the published file and carried blocking tokens).
+  Re-scan: **0 blocking markers.** RG line, 18+, byline Георги Тодоров, brand Всички
+  Казина, all links and all article citations preserved.
+  Commit `fix(flags): resolve igralni-zali-avtomati-zakon — publish-ready`, pushed.
+  flags resolved: 3 (+1 metadata block) · success.
+
+### JOB B — low Gemini score
+Targets = status drafted/approved AND gemini `ai <n>` OR `human <n>` n<80, worst-first, ≤10.
+**1 in-scope target:** vk-0282 (`ai 85` on board).
+
+- **vk-0282** (2026-10-16-igralni-zali-avtomati-zakon) — humanised the flag-resolved draft.
+  - baseline (post-flag-fix) Step-7: **ai 75**
+  - pass 1 (step-7b recs + step-3/5b technique: semicolon sweep → full stops/conjunctions;
+    naturalised robotic link signposting; cut tautological wrap-ups): **ai 80**
+  - pass 2 (amputated "neat-bow" section closers; de-echoed "видно място"; tightened the
+    online/offline transition; reworked the final section from a statute-recap into
+    reader-action framing): **human 85** → target met (human ≥80), stopped.
+  - gemini before→after: **ai 85 (board) → human 85.** No facts, numbers, dates, licence/
+    capital/RTP/tax figures or citations changed; rephrasing only. No em-dashes; RG/18+/
+    byline/brand/links intact.
+  - attempts: 2 humanising passes (3 Step-7 reads incl. baseline) · success.
+  Commit `fix(quality): humanise igralni-zali-avtomati-zakon (gemini ai85->human85)`, pushed.
+
+### POSTED — needs human review
+- **vk-0063** (2026-09-13-nv-casino-zakonno-li-e, PR #79) — `ai 75`, status **posted/live**.
+  Low-rated but live; per policy never edited. Carried forward from prior nights; a human
+  should decide whether to re-humanise and re-publish through the normal flow.
+
+### Deferred
+None. JOB A had 1 flagged branch (resolved to 0 markers); JOB B had 1 in-scope target
+(humanised to human 85). Well under the ≤10/night cap.
+
+### Finish
+Board `gemini` column for vk-0282 updated `ai 85 → human 85` (notes record the flag
+resolution + humanise). Rebuilt `build_dashboard.py` (buffer 228/10) and `build_feed.py`
+(18 approved). Both article commits are on the `content/2026-10-16-igralni-zali-avtomati-zakon`
+branch (PR #303); this main commit carries board + dashboard + this log. No live/posted
+content touched; nothing merged.

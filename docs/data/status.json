@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-16T08:07:52Z",
+  "generated_utc": "2026-10-16T23:19:59Z",
   "buffer": {
     "count": 228,
     "target": 10,
@@ -5674,21 +5674,15 @@
       "posted_date": "",
       "folder": "2026-10-16-igralni-zali-avtomati-zakon",
       "pr": "#303",
-      "gemini": "ai 85",
-      "notes": "img:1 (infographic 100) · gate 96 PASS 0-crit. Gemini text ai 85 / HL15 keep-best pass2 (baseline HL15 → humaniser p1 HL15 → p2 HL15, MAX_GEMINI_PASSES=2; noisy detector on dry statute content, both passes applied legit de-AI edits; human style polish advised). 3 [VERIFY] STAY (euro-equiv на 750k/1.5M прагове след 01.01.2026; чл.44 списък+измерване; режим за изпитване на автомати/рег. лаборатория) + 0 CONFLICT/0 DATA NEEDED. daily run 2026-10-16 (MAX_PER_RUN=1), backlog P2 cluster:legal/land-based; explainer-only (no venue listings); DISTINCT наземна регулаторна рамка vs /blog/hazartni-igri-vidove/ (таксономия) · /zakonno-li-e/ (онлайн легалност) · /blog/proverka-licenz-kazino/ (онлайн лиценз) — no такъв slug in sitemap. ЗХ law pack (nap-gambling-law-and-rg) + lex.bg; guides-only scope OK (public law, no operator T&C/НАП-register query). PR #303",
+      "gemini": "human 85",
+      "notes": "img:1 (infographic 100) · gate 96 PASS 0-crit. Nightly fix 2026-10-16: 3 [VERIFY] flags RESOLVED (euro-equiv прагове → фиксиран курс + „последна редакция\"; чл.44 списък+измерване → softened + „проверявайте в последната редакция\"; режим за изпитване → generic, no body name) = 0 blocking markers; gemini humanise ai75→human85 (semicolon sweep, cut neat-bow closers, de-echo, naturalised link signposting; no fact changes). Prior: Gemini text ai 85 / HL15 keep-best pass2. daily run 2026-10-16 (MAX_PER_RUN=1), backlog P2 cluster:legal/land-based; explainer-only (no venue listings); DISTINCT наземна регулаторна рамка vs /blog/hazartni-igri-vidove/ (таксономия) · /zakonno-li-e/ (онлайн легалност) · /blog/proverka-licenz-kazino/ (онлайн лиценз) — no такъв slug in sitemap. ЗХ law pack (nap-gambling-law-and-rg) + lex.bg; guides-only scope OK (public law, no operator T&C/НАП-register query). PR #303",
       "opportunity": {
         "score": 33,
         "band": "Moderate",
         "winnable": true
       },
-      "verify_flags": 7,
-      "verify_samples": [
-        "[VERIFY: евро-равностойностите на двата прага след въвеждането на еврото от 01.01.2026; провери действащата редакция на lex.bg/ДВ.]",
-        "[VERIFY: точния актуален списък защитени обекти и методът на измерване на отстоянието по чл. 44; наличните източници са проекти и становища от периода 2012 до 2",
-        "[VERIFY: точния режим и член за изпитване и одобрение на наземните игрални автомати, както и органа (регистрирана лаборатория) в действащата редакция на ЗХ; sou",
-        "[DATA NEEDED]",
-        "[VERIFY]"
-      ]
+      "verify_flags": 0,
+      "verify_samples": []
     }
   ],
   "backlog": [
