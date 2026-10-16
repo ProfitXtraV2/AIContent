@@ -1,13 +1,15 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-10-16T07:15:27Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-10-16T08:05:00Z",
+  "articles_written": 1,
+  "prs_opened": [
+    303
+  ],
   "run_url": "https://claude.ai/code/session_01SPzrj8C5VbHVnxjd73TD8m",
-  "note": "daily run 2026-10-16 — vk-0282 text final (Gemini ai 85/HL15 keep-best pass2); building infographic",
+  "note": "daily run 2026-10-16 done — 1 NEW guide vk-0282 (Игрални зали и игрални автомати — какво изисква законът), PR #303. Distinct land-based regulatory pillar: 5 ЗХ requirements (лиценз от НАП чл.3 отделен за всеки вид игра срок 5/10г; капитал 750 000 лв. автомати чл.4 ал.4 / 1 500 000 лв. казино чл.4 ал.2; само 18+ чл.2 ал.3; отстояние 300 м чл.44; изпитано оборудване + предупреждение чл.10б). Gate 96 PASS 0-crit; Gemini text ai 85/HL15 keep-best pass2 (baseline HL15 → humaniser p1 HL15 → p2 HL15, MAX_GEMINI_PASSES=2; noisy/adversarial detector on dry statute content relocates flags each pass, both passes applied legit de-AI edits; human style polish advised); img:1 infographic (Gemini image review 100 PASS, 0 integrity, all 5 figures verbatim from 05b). 3 [VERIFY] STAY by design (euro-equiv на 750k/1.5M прагове след 01.01.2026; чл.44 списък+измерване; режим за изпитване на автомати/рег. лаборатория) + 0 CONFLICT/0 DATA NEEDED. From human backlog P2 (vol 100/kd31); DISTINCT vs /blog/hazartni-igri-vidove/ (таксономия) · /zakonno-li-e/ (онлайн легалност) · /blog/proverka-licenz-kazino/ (онлайн лиценз) — no такъв slug in sitemap. Guides-only scope OK (public ЗХ law pack + lex.bg/web за чл.44+възраст, no geo-blocked operator/register data; explainer-only, no venue listings). No in-progress/HANDOFF/CLAIMED leftovers; monthly SEO review not due (last 2026-10). Ahrefs ONLINE (465/100000 used, reset 2026-11-15): enriched open backlog (казина в българия plural 200/kd68 → Pillar/stretch note; тото онлайн 100/kd8 WIN confirmed; покер чипове 100/kd23 confirmed; NV измама/бонус код/отзиви/срещу betano/като nv = no measurable BG volume); light discovery seed 'игрални автомати' (head 20/kd22, rest ≤10 or 0 / B2B/irrelevant) → no distinct+winnable+uncovered topic, wrote 1 not padded per quality-over-quota + throttle. Backlog row (Игрални зали P2) → written. Board on main; dashboard rebuilt (buffer 228/10); feed refreshed (18 approved). No flags resolved; nothing posted/merged. NOTE: Claude GitHub App not installed on profitxtrav2/aicontent → PR events won't wake the session; human reviews/merges #303 manually.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-10-16-igralni-zali-avtomati-zakon",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 7,
-    "stage": "Images"
+    "stage_index": null,
+    "stage": null
   }
 }
