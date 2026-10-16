@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 980" width="760" height="980" role="img" aria-label="Петте изисквания на Закона за хазарта за наземна игрална зала: лиценз от НАП, минимален капитал, само пълнолетни, отстояние 300 метра и изпитано оборудване">
+  <defs>
+    <style>
+      .bg{fill:#0f2a33;}
+      .card{fill:#14343f;stroke:#2b5a68;stroke-width:1.5;}
+      .title{fill:#ffffff;font-family:'Segoe UI',Arial,sans-serif;font-weight:700;}
+      .sub{fill:#9fc4ce;font-family:'Segoe UI',Arial,sans-serif;}
+      .label{fill:#ffffff;font-family:'Segoe UI',Arial,sans-serif;font-weight:600;}
+      .val{fill:#ffd36b;font-family:'Segoe UI',Arial,sans-serif;font-weight:700;}
+      .desc{fill:#cfe2e8;font-family:'Segoe UI',Arial,sans-serif;}
+      .ref{fill:#7fa8b4;font-family:'Segoe UI',Arial,sans-serif;font-style:italic;}
+      .num{fill:#0f2a33;font-family:'Segoe UI',Arial,sans-serif;font-weight:700;}
+      .foot{fill:#7fa8b4;font-family:'Segoe UI',Arial,sans-serif;}
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="760" height="980" rx="18"/>
+
+  <text class="title" x="40" y="58" font-size="30">Какво изисква законът за</text>
+  <text class="title" x="40" y="94" font-size="30">наземна игрална зала</text>
+  <text class="sub" x="40" y="128" font-size="17">Пет задължителни изисквания по Закона за хазарта (ЗХ)</text>
+  <line x1="40" y1="148" x2="720" y2="148" stroke="#2b5a68" stroke-width="1.5"/>
+
+  <!-- Row 1: Licence -->
+  <g>
+    <rect class="card" x="40" y="168" width="680" height="128" rx="12"/>
+    <circle cx="86" cy="214" r="26" fill="#ffd36b"/>
+    <text class="num" x="86" y="223" font-size="26" text-anchor="middle">1</text>
+    <text class="label" x="130" y="204" font-size="20">Лиценз от НАП</text>
+    <text class="desc" x="130" y="232" font-size="16">Отделен лиценз за всеки вид игра.</text>
+    <text class="val" x="130" y="262" font-size="19">Срок: 5 или 10 години</text>
+    <text class="ref" x="130" y="286" font-size="14">чл. 3 и чл. 3, ал. 3 ЗХ</text>
+  </g>
+
+  <!-- Row 2: Capital -->
+  <g>
+    <rect class="card" x="40" y="308" width="680" height="150" rx="12"/>
+    <circle cx="86" cy="354" r="26" fill="#ffd36b"/>
+    <text class="num" x="86" y="363" font-size="26" text-anchor="middle">2</text>
+    <text class="label" x="130" y="344" font-size="20">Минимален внесен капитал</text>
+    <text class="val" x="130" y="376" font-size="19">750 000 лв. — игри с игрални автомати</text>
+    <text class="ref" x="130" y="398" font-size="14">чл. 4, ал. 4 ЗХ</text>
+    <text class="val" x="130" y="426" font-size="19">1 500 000 лв. — игрално казино</text>
+    <text class="ref" x="130" y="448" font-size="14">чл. 4, ал. 2 ЗХ</text>
+  </g>
+
+  <!-- Row 3: Age -->
+  <g>
+    <rect class="card" x="40" y="470" width="680" height="110" rx="12"/>
+    <circle cx="86" cy="516" r="26" fill="#ffd36b"/>
+    <text class="num" x="86" y="525" font-size="26" text-anchor="middle">3</text>
+    <text class="label" x="130" y="506" font-size="20">Само пълнолетни</text>
+    <text class="val" x="130" y="536" font-size="19">Достъп 18+ — проверка на документ на входа</text>
+    <text class="ref" x="130" y="560" font-size="14">чл. 2, ал. 3 ЗХ</text>
+  </g>
+
+  <!-- Row 4: Distance -->
+  <g>
+    <rect class="card" x="40" y="592" width="680" height="128" rx="12"/>
+    <circle cx="86" cy="638" r="26" fill="#ffd36b"/>
+    <text class="num" x="86" y="647" font-size="26" text-anchor="middle">4</text>
+    <text class="label" x="130" y="628" font-size="20">Отстояние от защитени обекти</text>
+    <text class="val" x="130" y="658" font-size="19">Минимум 300 метра от училища</text>
+    <text class="desc" x="130" y="684" font-size="15">Разширен списък защитени обекти (2020); изкл. хотели 4 и 5 звезди.</text>
+    <text class="ref" x="130" y="708" font-size="14">чл. 44 ЗХ</text>
+  </g>
+
+  <!-- Row 5: Equipment + warning -->
+  <g>
+    <rect class="card" x="40" y="732" width="680" height="128" rx="12"/>
+    <circle cx="86" cy="778" r="26" fill="#ffd36b"/>
+    <text class="num" x="86" y="787" font-size="26" text-anchor="middle">5</text>
+    <text class="label" x="130" y="768" font-size="20">Изпитано оборудване и предупреждение</text>
+    <text class="desc" x="130" y="796" font-size="16">Автоматите се изпитват и одобряват преди експлоатация.</text>
+    <text class="desc" x="130" y="822" font-size="16">Предупреждение за зависимост на видно място.</text>
+    <text class="ref" x="130" y="846" font-size="14">чл. 10б ЗХ</text>
+  </g>
+
+  <line x1="40" y1="892" x2="720" y2="892" stroke="#2b5a68" stroke-width="1.5"/>
+  <text class="foot" x="40" y="920" font-size="14">Източник: Закон за хазарта (ЗХ). Надзор: изпълнителният директор на НАП.</text>
+  <text class="foot" x="40" y="942" font-size="14">Образователен материал, не е правна консултация. 18+ Играйте отговорно.</text>
+  <text class="foot" x="40" y="964" font-size="13">vsichkikazina.bg · Всички Казина</text>
+</svg>
