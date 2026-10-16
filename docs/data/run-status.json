@@ -1,18 +1,16 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-10-15T07:14:52Z",
-  "run_finished_utc": "2026-10-15T07:51:54Z",
-  "articles_written": 1,
-  "prs_opened": [
-    302
-  ],
-  "run_url": "https://claude.ai/code/session_01HVFcCj5s1guLptD8fZZWeE",
-  "note": "daily run 2026-10-15 done — 1 NEW guide vk-0281 (Покер в България — законно ли е онлайн и на живо), PR #302. Legal-status pillar: покерът = игра в казино по ЗХ, законен само с лиценз от НАП; ключов риск = глоба за играча при нелицензиран (чл. 9, ал. 14). Gate 96 PASS; Gemini text human 85 (baseline Shows AI patterns 70%/HL30 → humaniser pass1 applied all 5 recs → 85%, keep-best pass1); img:1 infographic (Gemini image review unavailable x2 endpoint timeout → manual integrity PASS, all figures trace to 05b, no operator/person/fabrication); 1 [VERIFY] (tax, by design). From human backlog P2 (vol 200/kd27). DISTINCT vs vk-0008 gameplay / vk-0263 hands / vk-0264 taxonomy — no poker-legality URL in sitemap. Guides-only scope: facts from ЗХ/НАП source-pack (чл. 3/4/6/9/17/41/97а/2), no geo-blocked operator/register data. No in-progress/HANDOFF/CLAIMED leftovers; monthly SEO review not due (last 2026-10). Ahrefs ONLINE & reset today (0/100000, next 2026-11-15): enriched open backlog heads (free spins 200→250, покер чипове 250→100; branded NV consumer long-tails confirmed no bg volume), Dog House Megaways candidate confirmed 70/kd0; discovery found no new distinct+winnable+uncovered topic (all covered; high-vol heads kd>40 Pillar/deferred) — wrote 1 not padded per quality-over-quota. Board on main; dashboard rebuilt (buffer 229/10); feed refreshed (20 approved). Backlog row (Покер P2) → written. No flags resolved; nothing posted/merged. NOTE: Claude GitHub App not installed on profitxtrav2/aicontent → PR events won't wake the session; human reviews/merges #302 manually.",
+  "state": "running",
+  "run_started_utc": "2026-10-16T07:15:27Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01SPzrj8C5VbHVnxjd73TD8m",
+  "note": "daily run 2026-10-16 — starting; reconcile (none in-progress), monthly SEO not due (2026-10 done), select ≤1 new guide",
   "progress": {
-    "phase": "done",
+    "phase": "writing",
     "article_index": 1,
     "article_total": 1,
-    "article_slug": "2026-10-15-poker-bulgaria-zakonno",
+    "article_slug": null,
     "stages": [
       "Synthesis",
       "Outline",
