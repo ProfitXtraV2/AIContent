@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-17T08:12:54Z",
+  "generated_utc": "2026-10-17T23:06:32Z",
   "buffer": {
     "count": 227,
     "target": 10,
@@ -5697,17 +5697,15 @@
       "posted_date": "",
       "folder": "2026-10-17-toto-online-zakonno",
       "pr": "#304",
-      "gemini": "ai 65",
-      "notes": "img:2 (infographic 100 + hero 95) · gate 91 PASS WITH FIXES 0-crit · Gemini text ai 65/HL35 keep-best pass0 (baseline HL35 → humaniser p1 HL30 → p2 HL25, MAX_GEMINI_PASSES=2; noisy/adversarial detector relocates flags each pass on dry legal/procedural content — both passes applied legit de-AI edits; human voice polish advised). 1 [VERIFY] STAYS (данъчен режим — no figure, → счетоводител/НАП) + 0 CONFLICT/0 DATA NEEDED. daily run 2026-10-17 (MAX_PER_RUN=1), backlog P2 cluster:lottery/legal; procedural how-to-play-online-legally guide (toto.bg: регистрация/верификация ПМС 50/2021, ePay.bg/БОРИКА, график+прозорци, авто-изплащане, нелицензирани сайтове чл.17 ал.6 24ч блок + глоба 500–2000 лв. чл.9 ал.14+чл.97а ал.2) — DISTINCT from toto game-mechanics pillars vk-0264..0271 (links to them). Ahrefs bg vol 100/kd8 WIN. source packs bst-toto-2026-10-10 + nap-gambling-law-and-rg; guides-only scope OK (state operator БСТ + public Наредба ПМС 50/2021 + ЗХ, no private-operator T&C/НАП-register query). PR #304.",
+      "gemini": "human 85",
+      "notes": "nightly 2026-10-17: [VERIFY] данъчен flag resolved (→счетоводител/НАП, no figure) + humanised gemini ai 65→human 85 (step-7b recs: cut signposting/antithesis/filler, dismantled „Накратко\" echo, normalised hero alt, removed em-dashes; facts/citations/RG/byline intact). img:2 (infographic 100 + hero 95) · gate 91 PASS WITH FIXES 0-crit · Gemini text ai 65/HL35 keep-best pass0 (baseline HL35 → humaniser p1 HL30 → p2 HL25, MAX_GEMINI_PASSES=2; noisy/adversarial detector relocates flags each pass on dry legal/procedural content — both passes applied legit de-AI edits; human voice polish advised). 1 [VERIFY] STAYS (данъчен режим — no figure, → счетоводител/НАП) + 0 CONFLICT/0 DATA NEEDED. daily run 2026-10-17 (MAX_PER_RUN=1), backlog P2 cluster:lottery/legal; procedural how-to-play-online-legally guide (toto.bg: регистрация/верификация ПМС 50/2021, ePay.bg/БОРИКА, график+прозорци, авто-изплащане, нелицензирани сайтове чл.17 ал.6 24ч блок + глоба 500–2000 лв. чл.9 ал.14+чл.97а ал.2) — DISTINCT from toto game-mechanics pillars vk-0264..0271 (links to them). Ahrefs bg vol 100/kd8 WIN. source packs bst-toto-2026-10-10 + nap-gambling-law-and-rg; guides-only scope OK (state operator БСТ + public Наредба ПМС 50/2021 + ЗХ, no private-operator T&C/НАП-register query). PR #304.",
       "opportunity": {
         "score": 42,
         "band": "Moderate",
         "winnable": true
       },
-      "verify_flags": 1,
-      "verify_samples": [
-        "[VERIFY: данъчен режим на печалбите от ТОТО, не го твърдим с число; потвърдете при счетоводител или в НАП.]"
-      ]
+      "verify_flags": 0,
+      "verify_samples": []
     }
   ],
   "backlog": [

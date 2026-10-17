@@ -8,6 +8,50 @@ Facts, numbers, licence/RTP/tax figures, dates, byline (Георги Тодор�
 
 ---
 
+## 2026-10-17 (nightly run — flags + score)
+
+### JOB A — publish-blocking flags
+- **2026-10-17-toto-online-zakonno** (PR #304) — 1 `[VERIFY]` marker on the tax
+  treatment of TOTO winnings. Resolved by rephrasing: the sentence now points the
+  reader to a счетоводител/НАП справка without asserting any figure, and keeps the
+  "forums/site ≠ official reference" caveat. Re-scan: **0 blocking markers.** No tax
+  figure invented; facts/RG/byline/brand intact. Commit
+  `fix(flags): resolve 2026-10-17-toto-online-zakonno — publish-ready`, pushed.
+- All other `content/*` branches scanned: **0 flagged** (only this one carried a marker).
+
+### JOB B — low Gemini score
+- **vk-0283** (2026-10-17-toto-online-zakonno, PR #304) — board `ai 65`, status drafted.
+  - baseline Step-7 read: Hybrid/AI-Assisted 70%.
+  - pass 1 (applied Step-7b recs + humaniser technique: deleted scope-signposting
+    sentence "Тази статия остава…", flattened the "not just X, but Y" antithesis,
+    cut the "Последицата е съвсем осезаема." filler transition, dismantled the
+    formulaic „Накратко" summary echo into a tighter non-echo closing, normalised the
+    prompt-like hero alt-text, removed all em-dashes): **human 85** → target met
+    (human ≥80), stopped.
+  - gemini before→after: **ai 65 (board) → human 85.** No facts, numbers, dates,
+    legal citations (ПМС № 50/2021, чл. 17 ал. 6 ЗХ, чл. 9 ал. 14, глоба 500–2000 лв.)
+    or tax figures changed; rephrasing only. No em-dashes; RG/18+/byline/brand/links intact.
+  - attempts: 1 humanising pass (2 Step-7 reads incl. baseline) · success.
+  Commit `fix(quality): humanise 2026-10-17-toto-online-zakonno (gemini 65->85)`, pushed.
+
+### POSTED — needs human review
+- **vk-0063** (2026-09-13-nv-casino-zakonno-li-e, PR #79) — `ai 75`, status **posted/live**.
+  Low-rated but live; per policy never edited. Carried forward from prior nights; a human
+  should decide whether to re-humanise and re-publish through the normal flow.
+
+### Deferred
+None. JOB A had 1 flagged branch (resolved to 0 markers); JOB B had 1 in-scope target
+(humanised to human 85). Well under the ≤10/night cap.
+
+### Finish
+Board `gemini` column for vk-0283 updated `ai 65 → human 85` (notes record the flag
+resolution + humanise). Rebuilt `build_dashboard.py` (buffer 227/10) and `build_feed.py`
+(16 approved). Both article commits are on the `content/2026-10-17-toto-online-zakonno`
+branch (PR #304); this main commit carries board + dashboard + feed + this log. No
+live/posted content touched; nothing merged.
+
+---
+
 ## 2026-10-15 (nightly run — flags + score)
 
 Gemini API online (`gemini-3.1-pro-preview` healthy).
