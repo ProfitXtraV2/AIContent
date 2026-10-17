@@ -5,14 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_015menyhabz2EAHqBsqeAmRZ",
-  "note": "daily run 2026-10-17 — started; reconcile done (no leftovers), SEO review not due (last 2026-10)",
+  "note": "daily run 2026-10-17 — writing vk-0283 (Тото онлайн — как да играете законно в сайта на БСТ)",
   "progress": {
-    "phase": "selecting",
+    "phase": "writing",
     "article_index": 1,
     "article_total": 1,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "article_slug": "2026-10-17-toto-online-zakonno",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
