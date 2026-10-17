@@ -1,13 +1,15 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-10-17T07:14:19Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-10-17T08:14:07Z",
+  "articles_written": 1,
+  "prs_opened": [
+    304
+  ],
   "run_url": "https://claude.ai/code/session_015menyhabz2EAHqBsqeAmRZ",
-  "note": "daily run 2026-10-17 — writing vk-0283 (Тото онлайн — как да играете законно в сайта на БСТ)",
+  "note": "daily run 2026-10-17 done — 1 NEW guide vk-0283 (Тото онлайн — как да играете законно в сайта на БСТ), PR #304. Procedural how-to-play-ТОТО-online-legally pillar for toto.bg: регистрация/верификация (Наредба ПМС 50/2021 → НАП сървър), депозити/тегления ePay.bg/БОРИКА, график+прозорци (нечетен неделя 19:20–четв 18:00 / четен четв 19:20–нед 18:00, в сила 08.12.2022), онлайн прекъсване четв+нед 18:40–19:10, авто-изплащане ТОТО1/2/Джокер + имейл за ВТШ, нелицензирани сайтове (НАП 24ч блок чл.17 ал.6 + глоба играч 500–2000 лв. чл.9 ал.14+чл.97а ал.2). DISTINCT vs toto game-mechanics pillars vk-0264..0271 (links down to them). Gate 91 PASS WITH FIXES 0-crit; Gemini text ai 65/HL35 keep-best pass0 (baseline HL35 → humaniser p1 HL30 → p2 HL25, MAX_GEMINI_PASSES=2; noisy/adversarial detector relocates flags each pass on dry legal/procedural content, both passes applied legit de-AI edits; human voice polish advised); img:2 (infographic schedule 100 PASS all figures verbatim from 05b + decorative hero 95 PASS, 0 integrity). 1 [VERIFY] STAYS by design (данъчен режим — no figure, → счетоводител/НАП) + 0 CONFLICT/0 DATA NEEDED. From human backlog P2 (vol 100/kd8 WIN); guides-only scope OK (state operator БСТ + public Наредба ПМС 50/2021 + ЗХ + НАП RG, no geo-blocked operator T&C/register query); no prize/price/payout%/odds; only toto.bg named, no reseller/mirror. Backlog row (Тото онлайн P2) → written. No in-progress/HANDOFF/CLAIMED leftovers; monthly SEO review not due (last 2026-10). Ahrefs ONLINE (1061/100000 used, reset 2026-11-15): discovery — 12 strategy/slot-mechanic seeds returned zero/no measurable BG vol (skipped per zero-vol rule, not added); matching-terms on casino/тото/lottery seeds → bank REPLENISHED with 2 distinct uncovered candidates (receipt/tax lottery 450/kd0 + тото скандо 1200/kd0, both flagged VERIFY status/identity before writing); NV-Casino backlog rows stay open (operator/НАП-dependent, out of guides-only scope, already enriched). Board on main; dashboard rebuilt (buffer 227/10, drafted 211, in-progress 0); feed refreshed (16 approved). No flags resolved; nothing posted/merged/fabricated. PR #304 watched (auto-subscribed). NOTE: if Claude GitHub App isn't installed on profitxtrav2/aicontent, PR events may not wake the session — human reviews/merges #304.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-10-17-toto-online-zakonno",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 8,
-    "stage": "Verification"
+    "stage_index": null,
+    "stage": null
   }
 }
