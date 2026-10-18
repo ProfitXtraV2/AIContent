@@ -5,12 +5,12 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01KKN2wUjxrLGr6UFV7rDW4x",
-  "note": "daily run 2026-10-18 — started; reconciling leftovers (none found), monthly SEO review not due (last 2026-10); selecting batch",
+  "note": "daily run 2026-10-18 — writing vk-0284 (Казина в България — наземни казина и законът); backlog P2, cluster legal/land-based",
   "progress": {
-    "phase": "setup",
-    "article_index": 0,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 1,
-    "article_slug": null,
+    "article_slug": "2026-10-18-nazemni-kazina-zakon",
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": null,
-    "stage": null
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
