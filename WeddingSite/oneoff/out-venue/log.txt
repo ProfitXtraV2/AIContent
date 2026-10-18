@@ -1,0 +1,11 @@
+== venue-a
+model=gemini-3-pro-image imageConfig=True
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+native size (928, 1152)
+WeddingSite/oneoff/out-venue/venue-a.webp (928, 1152) 186 KB
+exit=0
+== venue-b
+model=gemini-3-pro-image imageConfig=True
+native size (928, 1152)
+WeddingSite/oneoff/out-venue/venue-b.webp (928, 1152) 161 KB
+exit=0
