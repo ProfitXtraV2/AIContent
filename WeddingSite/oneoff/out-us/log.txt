@@ -1,0 +1,13 @@
+== us-a
+model=gemini-3-pro-image imageConfig=True
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+WeddingSite/oneoff/out-us/us-a.webp (928, 1152) 97 KB
+exit=0
+== us-b
+model=gemini-3-pro-image imageConfig=True
+WeddingSite/oneoff/out-us/us-b.webp (928, 1152) 119 KB
+exit=0
+== us-c
+model=gemini-3-pro-image imageConfig=True
+WeddingSite/oneoff/out-us/us-c.webp (928, 1152) 144 KB
+exit=0
