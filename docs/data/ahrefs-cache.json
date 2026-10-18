@@ -2051,6 +2051,46 @@
 },
 "trend": "down"
 },
+"bg|игрално казино": {
+"fetched": "2026-10-18",
+"row": {}
+},
+"bg|казина в българия": {
+"fetched": "2026-10-18",
+"row": {
+"cpc": 100,
+"difficulty": 68,
+"intents": {
+"branded": false,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "казина в българия",
+"volume": 200
+},
+"trend": "down"
+},
+"bg|казина в софия": {
+"fetched": "2026-10-18",
+"row": {
+"cpc": 50,
+"difficulty": 57,
+"intents": {
+"branded": false,
+"commercial": true,
+"informational": true,
+"local": true,
+"navigational": false,
+"transactional": false
+},
+"keyword": "казина в софия",
+"volume": 50
+},
+"trend": "down"
+},
 "bg|казина като nv casino": {
 "fetched": "2026-09-16",
 "row": {}
@@ -2149,6 +2189,14 @@
 },
 "bg|мистериозен джакпот": {
 "fetched": "2026-10-17",
+"row": {}
+},
+"bg|наземни казина": {
+"fetched": "2026-10-18",
+"row": {}
+},
+"bg|наземно казино": {
+"fetched": "2026-10-18",
 "row": {}
 },
 "bg|нв казино мнения": {
