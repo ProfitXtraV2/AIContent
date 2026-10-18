@@ -2536,3 +2536,46 @@ resolution + humanise). Rebuilt `build_dashboard.py` (buffer 228/10) and `build_
 (18 approved). Both article commits are on the `content/2026-10-16-igralni-zali-avtomati-zakon`
 branch (PR #303); this main commit carries board + dashboard + this log. No live/posted
 content touched; nothing merged.
+
+## 2026-10-18 — nightly flag + score fixes
+
+Base: reset local `main` to `origin/main` (ea1ead5e, 2026-10-18) — the container's
+local `main` had diverged (stale, last local run 2026-10-13; 138 superseded local
+commits vs origin). Fetched all `refs/remotes/origin/content/*` (285 branches).
+
+### JOB A — resolve publish-blocking flags
+Scanned every `content/*` branch's `05b-final-draft.md` for blocking markers
+(`[VERIFY]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`, `[AUTHOR]`, `[BRAND]`,
+`[EDITORIAL]`, `[уточни]`, `[провери]`, plus `[TODO]`/`[FIXME]`/`[PLACEHOLDER]`).
+**0 branches flagged.** The only bracketed content across the drafts is legitimate
+markdown (image alt-text `![…]`, link labels `[текст](url)`) and the RG line — none
+are blocking placeholders. flags resolved: 0 · nothing to fix.
+
+### JOB B — low Gemini score
+Targets = status drafted/approved AND gemini `ai <n>` OR `human <n>` n<80, worst-first, ≤10.
+**0 in-scope targets.** Of 212 drafted + 14 approved rows: 155 carry a real verdict and
+all are `human ≥ 80`; the remaining ~71 are `skipped` (Gemini check not run on that day —
+neither `ai` nor `human<n`, so out of scope per the target definition). No `ai <n>` and
+no `human <80` rows exist among drafted/approved. Nothing to humanise.
+
+### POSTED — needs human review
+- **vk-0063** (2026-09-13-nv-casino-zakonno-li-e, PR #79) — `ai 75`, status **posted/live**.
+  Low-rated but live; per policy never edited. Carried forward from prior nights; a human
+  should decide whether to re-humanise and re-publish through the normal flow. (Only
+  `ai <n>` verdict anywhere on the board.)
+
+### Deferred
+None — the ≤10/night cap was never approached (0 targets).
+
+### Observation (no action)
+~71 drafted/approved rows have gemini `skipped` (e.g. vk-0080..0092, vk-0095..0109,
+vk-0172..0222). These are out of JOB B scope by definition. If the operator wants them
+scored, a separate pass that runs `gemini_check.py` on `skipped` rows (and promotes any
+`ai`/`human<80` results into JOB B) would be needed — flagging for human decision, not
+acting tonight.
+
+### Finish
+No content branch touched, no board `gemini` value changed (idempotent: all in-scope
+drafts already flag-free and `human ≥ 80`). Reran `build_dashboard.py` and
+`build_feed.py` — no diff (board unchanged). This main commit carries only this log entry.
+No live/posted content touched; nothing merged; no new article branches created.
