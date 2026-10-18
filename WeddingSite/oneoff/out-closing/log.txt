@@ -1,0 +1,11 @@
+== closing-a
+model=gemini-3-pro-image imageConfig=True
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+native size (1264, 848)
+WeddingSite/oneoff/out-closing/closing-a.webp (1264, 848) 85 KB
+exit=0
+== closing-b
+model=gemini-3-pro-image imageConfig=True
+native size (1264, 848)
+WeddingSite/oneoff/out-closing/closing-b.webp (1264, 848) 91 KB
+exit=0
