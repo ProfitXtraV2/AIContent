@@ -1,0 +1,16 @@
+== paper-a
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+WeddingSite/oneoff/out-v2/paper-a.webp  (67.4 KB)  [model: gemini-3-pro-image]
+exit=0
+== paper-b
+WeddingSite/oneoff/out-v2/paper-b.webp  (66.4 KB)  [model: gemini-3-pro-image]
+exit=0
+== paper-c
+WeddingSite/oneoff/out-v2/paper-c.webp  (110.5 KB)  [model: gemini-3-pro-image]
+exit=0
+== seal-a
+WeddingSite/oneoff/out-v2/seal-a.png  (495.4 KB)  [model: gemini-3-pro-image]
+exit=0
+== seal-b
+WeddingSite/oneoff/out-v2/seal-b.png  (729.4 KB)  [model: gemini-3-pro-image]
+exit=0
