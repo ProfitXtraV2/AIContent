@@ -1,0 +1,16 @@
+== hero-a
+model=gemini-3-pro-image imageConfig=True
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+native size (768, 1376)
+WeddingSite/oneoff/out-hero/hero-a.webp (768, 1376) 112 KB
+exit=0
+== hero-b
+model=gemini-3-pro-image imageConfig=True
+native size (768, 1376)
+WeddingSite/oneoff/out-hero/hero-b.webp (768, 1376) 102 KB
+exit=0
+== hero-c
+model=gemini-3-pro-image imageConfig=True
+native size (768, 1376)
+WeddingSite/oneoff/out-hero/hero-c.webp (768, 1376) 140 KB
+exit=0
