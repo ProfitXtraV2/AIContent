@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""One-off: generate a full-resolution 9:16 hero background via Gemini (imageConfig aspect ratio).
+"""One-off: generate a full-resolution image (default 9:16, override with ASPECT=4:5 etc.) via Gemini (imageConfig aspect ratio).
 
 Usage: python3 WeddingSite/oneoff/gen_hero.py "<prompt>" <out.webp> [max_kb]
 Reuses the request helpers from scripts/gemini_image_gen.py; differs only in asking for a
@@ -15,7 +15,7 @@ API = "https://generativelanguage.googleapis.com/v1beta/models/{m}:generateConte
 def call(model, key, prompt, image_config=True):
     cfg = {"responseModalities": ["TEXT", "IMAGE"]}
     if image_config:
-        cfg["imageConfig"] = {"aspectRatio": "9:16"}
+        cfg["imageConfig"] = {"aspectRatio": os.environ.get("ASPECT", "9:16")}
     body = {"contents": [{"parts": [{"text": prompt}]}], "generationConfig": cfg}
     req = urllib.request.Request(API.format(m=model), data=json.dumps(body).encode(),
                                  headers={"Content-Type": "application/json", "x-goog-api-key": key})
