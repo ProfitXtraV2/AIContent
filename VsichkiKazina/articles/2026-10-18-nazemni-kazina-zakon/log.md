@@ -15,6 +15,11 @@
 - 05 Brand Gate: PASS WITH FIXES 93/100, 0 criticals (fixes folded into 05b). Byline/brand/dates/
   bio/boilerplate/RG/affiliate-licensing footer all present. 0 [VERIFY]/[DATA NEEDED]/[CONFLICT].
 - 05b Light re-check: clean (0 em-dash, 0 banned connective, no table/list bloat). Text final.
-- 07 Gemini text check: (pending below)
-- 08 Images: (pending below)
-- 06 Verification: (pending below)
+- 07 Gemini text check: baseline HL20 („Likely AI 80%") → humaniser pass 1 → HL85 („Likely
+  human-written 85%") PASS. Keep-best = pass 1 (current 05b). gemini: human 85.
+  (07-gemini-check-0.md, 07-gemini-check-1.md.)
+- 08 Images: 2 — infographic „казино срещу зала по ЗХ" (score 100 PASS, all figures verbatim from
+  05b) + decorative hero „законов надзор" (score 90 PASS). 0 integrity failures.
+  (08-image-review-1.md, 08-image-review-2.md.) Hero WebP 25.8 KB.
+- 06 Verification: 0 flags (0 [VERIFY]/[DATA NEEDED]/[CONFLICT]); recalcalc капитал 1.5M = 2×750k;
+  all ЗХ citations sourced (source pack + consolidated ЗХ ДВ бр.69/31.07.2026). Ready for human.
