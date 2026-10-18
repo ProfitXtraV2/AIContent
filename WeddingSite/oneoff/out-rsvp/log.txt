@@ -1,0 +1,11 @@
+== rsvp-a
+model=gemini-3-pro-image imageConfig=True
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+native size (1024, 1024)
+WeddingSite/oneoff/out-rsvp/rsvp-a.webp (1024, 1024) 41 KB
+exit=0
+== rsvp-b
+model=gemini-3-pro-image imageConfig=True
+native size (1024, 1024)
+WeddingSite/oneoff/out-rsvp/rsvp-b.webp (1024, 1024) 41 KB
+exit=0
