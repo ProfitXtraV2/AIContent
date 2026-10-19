@@ -1,18 +1,16 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-10-18T07:14:40Z",
-  "run_finished_utc": "2026-10-18T07:44:47Z",
-  "articles_written": 1,
-  "prs_opened": [
-    305
-  ],
-  "run_url": "https://claude.ai/code/session_01KKN2wUjxrLGr6UFV7rDW4x",
-  "note": "daily run 2026-10-18 done — 1 NEW guide vk-0284 (Казина в България — как работят наземните казина и какво изисква законът), PR #305. Land-based CASINO legal + how-it-works explainer, DISTINCT from vk-0282 (игрални зали/автомати, 750k): казино tier — капитал 1 500 000 лв. + поименни акции (чл.4 ал.2 ЗХ, в сила 01.01.2026), отделен лиценз за всяка игра (чл.3 ал.3), регистър на посетителите + видеоконтрол на масите (чл.74 — само за казино), 300м отстояние (чл.44), 18+/недопускани (чл.45 ал.2/чл.10е/чл.2 ал.3), онлайн=пак казино (чл.41), нелицензирани НАП 24ч блок (чл.17 ал.6) + играч глоба 500-2000 лв. (чл.9 ал.14+чл.97а ал.2). Gate 93 PASS WITH FIXES 0-crit; Gemini text baseline HL20 (Likely AI 80%) → humaniser p1 HL85 (Likely human-written 85%) PASS keep-best p1 (cut signposting/meta-commentary/philosophical topic sentence/didactic conclusion; facts/citations/RG/byline intact); img:2 (infographic казино-vs-зала 100 PASS all figures verbatim from 05b + decorative hero законов надзор 90 PASS, 0 integrity). 0 [VERIFY]/[DATA NEEDED]/[CONFLICT]. From human backlog P2 cluster:legal/land-based; guides-only scope OK (public ЗХ law: source pack nap-gambling-law-and-rg + lex.bg/kik-info consolidated ЗХ ДВ бр.69/31.07.2026; no private-operator T&C/НАП-register query; no venue names/addresses/promotion). Backlog row (Казина в България P2) → written. No in-progress/HANDOFF/CLAIMED leftovers; monthly SEO review not due (last 2026-10). Ahrefs ONLINE re-pull: direct наземно/игрално/наземни казина no measurable BG vol; казина в софия 50/kd57, plural head казина в българия 200/kd68 = Pillar deferred; thin direct vol but a human-backlog commitment (distinct casino-tier legal/E-E-A-T play) written per backlog-is-a-commitment; no new distinct candidate surfaced (all zero-vol or known Pillar) so no bank padding (research bank stays 3 candidates). NV-Casino backlog rows stay open (operator/НАП-dependent, out of guides-only scope, already enriched). Board on main; dashboard rebuilt (buffer 226/10, drafted 212); feed refreshed (14 approved, unchanged). No flags resolved; nothing posted/merged/fabricated. PR #305 watched (auto-subscribed).",
+  "state": "running",
+  "run_started_utc": "2026-10-19T07:18:11Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01RbxLhaLTrabsoTdH4MHTK5",
+  "note": "daily run 2026-10-19 — reconcile+select (no in-progress/HANDOFF/CLAIMED leftovers; monthly SEO review not due, last 2026-10)",
   "progress": {
-    "phase": "done",
-    "article_index": 1,
+    "phase": "writing",
+    "article_index": 0,
     "article_total": 1,
-    "article_slug": "2026-10-18-nazemni-kazina-zakon",
+    "article_slug": null,
     "stages": [
       "Synthesis",
       "Outline",
