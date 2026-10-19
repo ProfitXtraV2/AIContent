@@ -48,8 +48,8 @@
 <text x="52" y="372" font-size="15" font-weight="700" fill="#1a2a3a">Кеш игра</text>
 <text x="52" y="398" font-size="12.5" fill="#334155">Чипът струва точно толкова пари.</text>
 <text x="52" y="420" font-size="12.5" fill="#334155">Зеленият 25 се осребрява като 25</text>
-<text x="52" y="438" font-size="12.5" fill="#334155">на касата, по всяко време.</text>
-<text x="52" y="462" font-size="12.5" fill="#334155">Печалби и загуби са веднага реални.</text>
+<text x="52" y="442" font-size="12.5" fill="#334155">на касата, по всяко време.</text>
+<text x="52" y="464" font-size="12.5" fill="#334155">Печалби и загуби са веднага реални.</text>
 <text x="52" y="494" font-size="12" font-weight="600" fill="#2a9d55">= реални пари</text>
 
 <rect x="368" y="344" width="320" height="170" rx="10" fill="#ffffff" stroke="#cdd6e0" stroke-width="1.5"/>
