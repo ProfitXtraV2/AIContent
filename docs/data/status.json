@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-19T07:19:51Z",
+  "generated_utc": "2026-10-19T08:15:05Z",
   "buffer": {
-    "count": 226,
+    "count": 227,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 212,
+    "drafted": 213,
     "approved": 14,
     "posted": 57,
     "failed": 1
@@ -5704,6 +5704,29 @@
       "verify_samples": []
     },
     {
+      "id": "vk-0285",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Покер чипове — цветове, стойности и как се броят",
+      "keywords_or_terms": "покер чипове, чипове за покер, цветове на покер чипове, стойности на чипове",
+      "volume": "100",
+      "kd": "23",
+      "source": "backlog",
+      "drafted_date": "2026-10-19",
+      "posted_date": "",
+      "folder": "2026-10-19-poker-chipove",
+      "pr": "#307",
+      "gemini": "ai 65",
+      "notes": "img:2 (infographic цветове/стойности+кеш-vs-турнир 95 + decorative hero чипове+карти, 0 integrity) · gate 93 PASS WITH FIXES 0-crit · Gemini text keep-best: initial HL35 (ai 65) → humaniser p1 HL15 → p2 HL25, noisy/adversarial detector relocated flags each pass (applying its own recs lowered the score), kept initial per keep-best; API read-timeouts today → faithful longer-timeout re-runs. 0 [VERIFY]/[DATA NEEDED]/[CONFLICT]. daily run 2026-10-19 (MAX_PER_RUN=1), backlog P3 cluster:poker; reference how-it-works guide (цветове/стойности/броене, кеш срещу турнир, смяна на цвета/color up, етикет). DISTINCT vs vk-0008 poker overview / vk-0263 hand-rankings / vk-0281 legality; 0 chips page in queue+live sitemap (2026-10-19). Ahrefs bg „покер чипове\" 100/kd23 informational. guides-only scope (0 operator/НАП/affiliate; chip values have NO worldwide standard → typical scheme labelled примерни, номинал+каса = authority, турнирни чипове = точки). PR #307 (watched).",
+      "opportunity": {
+        "score": 36,
+        "band": "Moderate",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
+    },
+    {
       "id": "vk-0283",
       "status": "drafted",
       "type": "guide",
@@ -6464,8 +6487,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN-ish (kd23; vol re-pull 2026-10-15: 'покер чипове' 100, беше 250). Reference guide (standard colour/value conventions vary — say so), chip etiquette, cash-game vs tournament; mostly product SERP — info angle only, no shop links.",
-      "status": "open",
-      "notes": "cluster: poker; discovery 2026-10-10b",
+      "status": "written",
+      "notes": "cluster: poker; discovery 2026-10-10b; written 2026-10-19 → vk-0285, PR #307 (daily run, backlog P3 top in-scope open row)",
       "opportunity": {
         "score": 36,
         "band": "Moderate",
@@ -10378,7 +10401,7 @@
       }
     ],
     "bands": {
-      "Moderate": 3,
+      "Moderate": 2,
       "Good": 1,
       "Strong": 1
     },
@@ -10387,11 +10410,6 @@
         "winnable": 3,
         "pillar": 0,
         "total": 4
-      },
-      "poker": {
-        "winnable": 1,
-        "pillar": 0,
-        "total": 1
       }
     },
     "winnable": [
@@ -10433,25 +10451,12 @@
         "cluster": "uncategorised",
         "status": "candidate",
         "src": "research"
-      },
-      {
-        "query": "Покер чипове — цветове, стойности и как се броят",
-        "keywords": "чипове за покер, покер чипове, маса за покер",
-        "volume": "100",
-        "kd": "23",
-        "intent": "informational",
-        "band": "Moderate",
-        "score": 36,
-        "winnable": true,
-        "cluster": "poker",
-        "status": "open",
-        "src": "backlog"
       }
     ],
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 4,
+      "winnable": 3,
       "pillars": 0
     }
   }

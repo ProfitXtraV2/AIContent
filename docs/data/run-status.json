@@ -1,13 +1,15 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-10-19T07:18:11Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-10-19T08:15:18Z",
+  "articles_written": 1,
+  "prs_opened": [
+    307
+  ],
   "run_url": "https://claude.ai/code/session_01RbxLhaLTrabsoTdH4MHTK5",
-  "note": "daily run 2026-10-19 — writing vk-0285 Покер чипове (backlog P3, guide); no leftovers; monthly SEO review not due",
+  "note": "daily run 2026-10-19 done — 1 NEW guide vk-0285 (Покер чипове — цветове, стойности и как се броят), PR #307. Reference/how-it-works guide from human backlog P3 (top in-scope open row; cluster:poker). Honest angle: no world standard for chip values (scheme labelled примерни; номинал+каса = authority), кеш vs турнир (турнирни чипове = точки без парична стойност), броене купчини по 20 + стелаж 5×20=100, color up, етикет. DISTINCT vs vk-0008 gameplay / vk-0263 hand-rankings / vk-0281 legality; 0 chips page in queue+live sitemap (2026-10-19). Ahrefs bg покер чипове 100/kd23 informational. Gate 93 PASS WITH FIXES 0-crit. Gemini Step-7 KEEP-BEST = initial HL35 (ai 65): humaniser p1 HL15 -> p2 HL25, noisy/adversarial detector relocated its flags each pass and applying its own recs lowered the score, so kept the highest-scoring (initial) per keep-best discipline. img:2 (infographic цветове/стойности+кеш-vs-турнир 95 PASS, every number verbatim from 05b + decorative hero чипове+карти, 0 integrity). 0 [VERIFY]/[DATA NEEDED]/[CONFLICT]. Backlog row P3 -> written. No in-progress/HANDOFF/CLAIMED leftovers; monthly SEO review not due (last 2026-10). Step-6 Ahrefs ONLINE: Dog House Megaways re-confirmed 70/kd0 (stays); poker discovery probes surfaced no new distinct winnable candidate (покер маса 70/kd44 Pillar+transactional+overlap -> fold-in; покер за начинаещи/texas holdem правила zero-vol); 2 lottery/toto candidates (450/1200) stay (checked 2026-10-17, inside 30-day window). Bank stays 3 candidates (no padding, mature 280+ library). 10 NV-Casino backlog rows stay open+blocked (operator/НАП-dependent, out of guides-only scope, enriched+stable). NOTE: Gemini text+vision endpoint had repeated read-timeouts today; verdicts obtained via faithful longer-timeout re-runs (same model/prompt). Board on main; dashboard rebuilt (buffer 227/10, drafted 213); feed refreshed (14 approved, unchanged). No flags resolved; nothing posted/merged/fabricated. PR #307 watched (auto-subscribed).",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-10-19-poker-chipove",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "stage_index": null,
+    "stage": null
   }
 }
