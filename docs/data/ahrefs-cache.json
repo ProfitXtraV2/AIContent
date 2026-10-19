@@ -434,6 +434,24 @@
 "volume": 0
 }
 },
+"bg|dog house megaways": {
+"fetched": "2026-10-19",
+"row": {
+"cpc": 100,
+"difficulty": 0,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "dog house megaways",
+"volume": 70
+},
+"trend": "down"
+},
 "bg|duck hunters": {
 "fetched": "2026-09-17",
 "row": {
@@ -1619,6 +1637,23 @@
 "volume": 0
 }
 },
+"bg|texas holdem правила": {
+"fetched": "2026-10-19",
+"row": {
+"cpc": 4,
+"difficulty": null,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": false,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "texas holdem правила",
+"volume": 0
+}
+},
 "bg|the dog house": {
 "fetched": "2026-09-20",
 "row": {
@@ -1985,6 +2020,23 @@
 "fetched": "2026-09-16",
 "row": {}
 },
+"bg|данъчна лотария": {
+"fetched": "2026-10-19",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": true,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "данъчна лотария",
+"volume": 0
+}
+},
 "bg|джакпот евромилиони": {
 "fetched": "2026-10-11",
 "row": {
@@ -2203,6 +2255,41 @@
 "fetched": "2026-09-16",
 "row": {}
 },
+"bg|покер за начинаещи": {
+"fetched": "2026-10-19",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": false,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "покер за начинаещи",
+"volume": 0
+}
+},
+"bg|покер маса": {
+"fetched": "2026-10-19",
+"row": {
+"cpc": 80,
+"difficulty": 44,
+"intents": {
+"branded": false,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "покер маса",
+"volume": 70
+},
+"trend": "down"
+},
 "bg|сик бо": {
 "fetched": "2026-10-11",
 "row": {
@@ -2230,6 +2317,10 @@
 "keyword": "стратегия рулетка",
 "volume": 0
 }
+},
+"bg|тото скандо": {
+"fetched": "2026-10-19",
+"row": {}
 },
 "bg|хибридни слотове": {
 "fetched": "2026-10-17",
