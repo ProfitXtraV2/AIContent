@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-20T07:16:17Z",
+  "generated_utc": "2026-10-20T08:24:23Z",
   "buffer": {
-    "count": 223,
+    "count": 224,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 213,
+    "drafted": 214,
     "approved": 10,
     "posted": 61,
     "failed": 1
@@ -5748,6 +5748,29 @@
       },
       "verify_flags": 0,
       "verify_samples": []
+    },
+    {
+      "id": "vk-0286",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Белот правила — как се играе белот: раздаване, анонси, точки и терци",
+      "keywords_or_terms": "белот правила, как се играе белот, обикновен белот, белот карти, игра на белот, белот точки",
+      "volume": "1400",
+      "kd": "0",
+      "source": "backlog",
+      "drafted_date": "2026-10-20",
+      "posted_date": "",
+      "folder": "2026-10-20-belot-pravila",
+      "pr": "#308",
+      "gemini": "human 90",
+      "notes": "daily run 2026-10-20 (MAX_PER_RUN=1), backlog P1 cluster:card-games (new, pull 2026-10-19). Card-game rules guide (раздаване/наддаване/коз/стойности коз-vs-без-коз/анонси терца-петдесет-сто-каре-белот/точкуване 152+10=162, 262, праг 151/висене) + short „белот на пари законно ли е\" → НАП-licensed + RG, 0 operator facts. Dedup vs queue+live sitemap 2026-10-20 = 0 белот coverage (clean, no cannibalization). Ahrefs bg белот правила 1400/kd0 WIN; cluster ~6.5K/мес kd<=2. Honest de-AI angle: регионални варианти (праг 151, капо=концепция без стойност, кварта/квинта vs петдесет/сто, майорна терца, бридж-белот) framed per-table, not universal. Gate 95 PASS WITH FIXES 0-crit. Gemini Step-7 KEEP-BEST = humaniser pass1 HL90 (human 90): initial HL15 (\"AI 85%\") → pass1 HL90 (\"human 90%\") PASS (step-7b: broke run-ons, cut platitudes/forced-empathy/translated-idioms/signposting). img:3 (infographic коз/без коз 100 + infographic анонси/точкуване 100, every number verbatim from 05b + decorative hero webp 16KB; hero regenerated pass1 garbled→pass2 single-pip, review 100 PASS, 0 integrity). 0 [VERIFY]/[DATA NEEDED]/[CONFLICT]. Backlog P1 row → written. PR #308 (watched).",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
     }
   ],
   "backlog": [
@@ -6031,8 +6054,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN — new cluster (pull 2026-10-19). Cluster: белот правила 1400/kd0, обикновен белот 1600/kd1, белот карти 1400/kd2, игра на белот 1300/kd0, бридж белот 450/kd2, как се играе белот 400/kd0 → ~6.5K/мес combined at kd≤2; head „белот“ 54K/kd0 (SERP = play-sites, navigational — bonus upside only). Library check: 0 articles mention белот → no cannibalization. Angle: definitive rules guide (32-card deck, раздаване, обявяване коз/без коз/всичко коз, терца/50/100/каре, белот, капо/вътре, броене на точки) + short „белот на пари онлайн — законно ли е?“ section tying to НАП-licensing + /blog/responsible-gambling/. No operator T&C needed → in scope. Skip play-intent heads (белот онлайн kd37, играй белот с компютър kd30). Follow-ups if it ranks: сантасе правила (сантасе 5800/kd0, правила 1000/kd0), белот онлайн.",
-      "status": "open",
-      "notes": "Suggested slug: belot-pravila. Link to kazino-igri-s-karti hub / poker / blackjack guides as siblings.",
+      "status": "written",
+      "notes": "Suggested slug: belot-pravila. Link to kazino-igri-s-karti hub / poker / blackjack guides as siblings. · WRITTEN 2026-10-20 → vk-0286, PR #308 (daily run, MAX_PER_RUN=1). Gemini human 90, gate 95, img:3 (best 100). Head written first; santase-pravila + tabla-pravila are the next siblings to cross-link.",
       "opportunity": {
         "score": 100,
         "band": "Strong",
@@ -6584,6 +6607,24 @@
       "opportunity": {
         "score": 44,
         "band": "Moderate",
+        "winnable": true
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Свара правила — как се играе свара (игра на карти на пари)",
+      "researched_keywords": "свара правила, как се играе свара, свара игра на карти, игра на свара",
+      "volume": "100",
+      "kd": "0",
+      "intent": "informational",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "NEW winnable (pull 2026-10-20): „свара правила\" 100/kd0 + „как се играе свара\" 70/kd0 → ~170/мес kd0 informational (trend ↓ но стабилен ~80/мес). DISTINCT BG hазартна игра на карти — естествен sibling на белот (vk-0286)/сантасе/табла card-game cluster; 0 coverage в queue+backlog+live sitemap (132 URLs, 2026-10-20) → no cannibalization. Angle: правила (раздаване, цакане, свара/капо, точкуване) + кратка „свара на пари — законно ли е\" секция → НАП-лиценз + /blog/responsible-gambling/; 0 operator facts → guides-only scope OK. Probe 2026-10-20 измерени, НЕ добавени (по-нисък brand-fit / анти-падинг): канаста 300/kd0↑ (социална rummy, слаба hазарт-асоциация — monitor), бридж правила 80/kd0, табланет 80/kd0-branded, домино правила 200+300/kd0; off-brand (не-хазарт): не се сърди човече 200, монополи 90, шах 150; джин руми 0 = нула-обем.",
+      "status": "candidate",
+      "date_researched": "2026-10-20",
+      "opportunity": {
+        "score": 45,
+        "band": "Good",
         "winnable": true
       }
     },
@@ -10455,9 +10496,9 @@
       }
     ],
     "bands": {
-      "Strong": 4,
+      "Strong": 3,
       "Moderate": 2,
-      "Good": 1
+      "Good": 2
     },
     "clusters": {
       "uncategorised": {
@@ -10467,19 +10508,6 @@
       }
     },
     "winnable": [
-      {
-        "query": "Белот правила — как се играе белот: раздаване, анонси, точки и терци",
-        "keywords": "белот правила, как се играе белот, обикновен белот, белот карти, игра на белот, бридж белот, белот точки",
-        "volume": "1400",
-        "kd": "0",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 100,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
       {
         "query": "Сантасе правила — как се играе сантасе (66): раздаване, коз, обявяване на 20 и 40, затваряне",
         "keywords": "сантасе, сантасе правила, как се играе сантасе, игра на сантасе, сантасе онлайн",
@@ -10527,6 +10555,19 @@
         "intent": "informational",
         "band": "Good",
         "score": 62,
+        "winnable": true,
+        "cluster": "uncategorised",
+        "status": "candidate",
+        "src": "research"
+      },
+      {
+        "query": "Свара правила — как се играе свара (игра на карти на пари)",
+        "keywords": "свара правила, как се играе свара, свара игра на карти, игра на свара",
+        "volume": "100",
+        "kd": "0",
+        "intent": "informational",
+        "band": "Good",
+        "score": 45,
         "winnable": true,
         "cluster": "uncategorised",
         "status": "candidate",
