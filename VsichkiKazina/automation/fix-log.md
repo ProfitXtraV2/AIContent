@@ -2642,3 +2642,69 @@ No content branch touched (vk-0285 reverted to its already-best committed 05b). 
 `gemini` value changed (vk-0285 stays `ai 65`). Reran `build_dashboard.py` and
 `build_feed.py`. This main commit carries this log entry (plus any dashboard/feed rebuild
 output). No live/posted content touched; nothing merged; no new article branches created.
+
+---
+
+## 2026-10-20 — nightly flag + score fixes
+
+### JOB A — publish-blocking flags
+Scanned `05b-final-draft.md` on all 287 `refs/remotes/origin/content/*` branches for the
+hard-block markers `[VERIFY: …]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`,
+`[AUTHOR …]`, `[BRAND …]`, `[EDITORIAL]`, `[уточни …]`, `[провери …]` (keyword immediately
+after `[`). **Zero blocking markers found on any branch.** No flag-resolution commits needed.
+- A broad keyword sweep surfaced only false positives: normal Bulgarian prose ("провери" =
+  check, "уточни" = clarify), the RG line, provider names, markdown link text
+  (`[как да провериш лиценза …](…)`) and one legitimate infographic caption
+  (`[Инфографика: … 18+ …]`) — none are hard-block placeholders.
+- `[About Всички Казина boilerplate]` appears in 248 drafts and in live/posted articles
+  (e.g. le-bandit). It is an intentional publisher template token, not a hard-block marker,
+  so it is left untouched (idempotent).
+
+### JOB B — low Gemini score
+In-scope targets (status ∈ {drafted, approved} AND `ai <n>` or `human <80`): **1**
+(154 drafted/approved are `human ≥ 80`; 69 are `skipped` → out of scope; 61 posted excluded).
+
+- **vk-0285** (2026-10-19-poker-chipove, PR #307) — board `ai 65` (HL 35), status **drafted**.
+  Re-verified this run with `gemini_check.py` (gemini-3.1-pro-preview). Detector remains
+  noisy/adversarial on this dry BG reference content, as earlier runs documented:
+  - untouched committed 05b, fresh read today: **Shows AI patterns 85% → HL 15**.
+  - humaniser pass (applied Step-7b + Step-3/5b technique: deleted the intro structure-
+    signposting sentence "Това ръководство минава през…", cut the formulaic paragraph hooks
+    "Чиповете решават няколко практични проблема наведнъж." / "Това е разликата, която пряко
+    засяга джоба." / "Няколко неписани правила спестяват неудобни моменти.", flattened the
+    theatrical micro-sentences "Има и по-тиха причина." and "Подреждането не е естетика, а
+    скорост." into factual statements, softened the philosophical conclusion preamble —
+    all voice-only, zero facts/numbers/links/RG touched): **Shows AI patterns 70% → HL 30**.
+  - a second light smoothing pass regressed to **75% → HL 25** (goalposts relocated), and
+    the brand-mandatory em-dash removal on the best pass left a shippable **75% → HL 25**.
+  - **Keep-best decision:** the untouched original's recorded high-water mark is **HL 35
+    (ai 65)**, above everything achievable tonight (best HL 30, shippable HL 25) and the
+    80 target was never approached. Per the mandatory keep-best rule ("ship the highest
+    human-likeness version seen; never keep a later, lower version; over-editing strips
+    voice"), the branch was reverted to its already-best committed 05b. No commit/push on
+    `content/2026-10-19-poker-chipove` (05b byte-identical to committed). Board `gemini`
+    unchanged (`ai 65`).
+  - Human-editor note (Step 6): the LLM-tell edits above are genuine style improvements the
+    detector simply doesn't reward on this content; a human may wish to carry them in by
+    hand. attempts: 4 Step-7 reads (1 baseline + 3 post-edit) · result: **still-below-target,
+    kept best, logged for human.**
+
+### POSTED — needs human review
+- **vk-0063** (2026-09-13-nv-casino-zakonno-li-e, PR #79) — `ai 75`, status **posted/live**.
+  Low-rated but live; never edited per policy. Carried forward; a human should decide whether
+  to re-humanise and re-publish through the normal flow. (Only posted `ai <n>` on the board.)
+
+### Deferred
+None — only 1 in-scope JOB B target this run, well under the ≤10/night cap.
+
+### Observation (no action)
+69 drafted/approved rows carry gemini `skipped` (Step-7 not run that day); out of JOB B
+scope by definition (no `ai`/`human<80` verdict). Flagged for operator decision, not acted
+on tonight.
+
+### Finish
+No content branch touched (vk-0285 reverted to its already-best committed 05b). No board
+`gemini` value changed (vk-0285 stays `ai 65`). Reran `build_dashboard.py` (buffer 224/10)
+and `build_feed.py` (10 approved); both produced only a `generated_utc` refresh. This main
+commit carries this log entry plus that rebuild output. No live/posted content touched;
+nothing merged; no new article branches created.
