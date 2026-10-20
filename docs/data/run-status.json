@@ -5,14 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_013f4V4NkkKa4EMJ5SDtjziN",
-  "note": "daily run 2026-10-20 — start: reconcile (0 leftovers), SEO review not due (last 2026-10), select <=1 new guide",
+  "note": "daily run 2026-10-20 — writing vk-0286 Белот правила (backlog P1 card-games, 1400/kd0 WIN)",
   "progress": {
     "phase": "writing",
     "article_index": 1,
     "article_total": 1,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "article_slug": "2026-10-20-belot-pravila",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
