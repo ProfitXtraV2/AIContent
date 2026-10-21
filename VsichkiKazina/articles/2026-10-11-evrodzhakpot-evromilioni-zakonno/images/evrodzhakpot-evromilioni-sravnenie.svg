@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 452" width="760" height="452" font-family="'Segoe UI',Roboto,Arial,sans-serif" role="img" aria-label="Сравнение между Eurojackpot и EuroMillions: формат, тираж, цена, джакпот, брой държави и участието на България.">
+  <rect x="0" y="0" width="760" height="452" rx="16" fill="#0f172a"/>
+  <rect x="16" y="16" width="728" height="420" rx="12" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="40" y="52" font-size="22" font-weight="700" fill="#0f172a">Eurojackpot и EuroMillions: сравнение</text>
+  <text x="40" y="76" font-size="14" font-weight="600" fill="#b91c1c">България не участва в нито една от двете.</text>
+
+  <!-- Column headers -->
+  <line x1="40" y1="92" x2="720" y2="92" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="40" y="116" font-size="13" font-weight="700" fill="#64748b">Параметър</text>
+  <rect x="300" y="100" width="200" height="22" rx="6" fill="#eef2ff"/>
+  <text x="400" y="116" font-size="13" font-weight="700" fill="#3730a3" text-anchor="middle">Eurojackpot</text>
+  <rect x="512" y="100" width="200" height="22" rx="6" fill="#ecfeff"/>
+  <text x="612" y="116" font-size="13" font-weight="700" fill="#155e75" text-anchor="middle">EuroMillions</text>
+
+  <!-- Rows -->
+  <!-- Row 1 Формат -->
+  <text x="40" y="156" font-size="13" font-weight="600" fill="#0f172a">Формат</text>
+  <text x="400" y="156" font-size="13" fill="#1e293b" text-anchor="middle">5 от 50 + 2 от 12</text>
+  <text x="612" y="156" font-size="13" fill="#1e293b" text-anchor="middle">5 от 50 + 2 от 12</text>
+  <line x1="40" y1="170" x2="720" y2="170" stroke="#f1f5f9" stroke-width="1"/>
+
+  <!-- Row 2 Тираж -->
+  <text x="40" y="196" font-size="13" font-weight="600" fill="#0f172a">Тираж</text>
+  <text x="400" y="196" font-size="13" fill="#1e293b" text-anchor="middle">вторник и петък</text>
+  <text x="612" y="196" font-size="13" fill="#1e293b" text-anchor="middle">вторник и петък</text>
+  <line x1="40" y1="210" x2="720" y2="210" stroke="#f1f5f9" stroke-width="1"/>
+
+  <!-- Row 3 Цена/линия -->
+  <text x="40" y="236" font-size="13" font-weight="600" fill="#0f172a">Цена на линия</text>
+  <text x="400" y="236" font-size="13" fill="#1e293b" text-anchor="middle">€2 (база)</text>
+  <text x="612" y="236" font-size="12" fill="#1e293b" text-anchor="middle">£2.50 (Обединено кралство)</text>
+  <line x1="40" y1="250" x2="720" y2="250" stroke="#f1f5f9" stroke-width="1"/>
+
+  <!-- Row 4 Джакпот -->
+  <text x="40" y="276" font-size="13" font-weight="600" fill="#0f172a">Джакпот</text>
+  <text x="400" y="276" font-size="12.5" fill="#1e293b" text-anchor="middle">€10 000 000 → €120 000 000</text>
+  <text x="612" y="276" font-size="12" fill="#1e293b" text-anchor="middle">таван €250 000 000 (юни 2025 г.)</text>
+  <line x1="40" y1="290" x2="720" y2="290" stroke="#f1f5f9" stroke-width="1"/>
+
+  <!-- Row 5 Държави -->
+  <text x="40" y="316" font-size="13" font-weight="600" fill="#0f172a">Брой държави</text>
+  <text x="400" y="316" font-size="13" fill="#1e293b" text-anchor="middle">19 (от март 2024 г.)</text>
+  <text x="612" y="316" font-size="13" fill="#1e293b" text-anchor="middle">9</text>
+  <line x1="40" y1="330" x2="720" y2="330" stroke="#f1f5f9" stroke-width="1"/>
+
+  <!-- Row 6 България -->
+  <text x="40" y="356" font-size="13" font-weight="600" fill="#0f172a">България</text>
+  <text x="400" y="356" font-size="13" font-weight="700" fill="#b91c1c" text-anchor="middle">не участва</text>
+  <text x="612" y="356" font-size="13" font-weight="700" fill="#b91c1c" text-anchor="middle">не участва</text>
+  <line x1="40" y1="372" x2="720" y2="372" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Footer facts -->
+  <text x="40" y="400" font-size="12.5" fill="#334155">Шанс за големия джакпот на Eurojackpot: <tspan font-weight="700" fill="#0f172a">1:139 838 160</tspan></text>
+  <text x="40" y="422" font-size="11.5" fill="#94a3b8">18+ Играйте отговорно. Цените и участието на държавите се променят.</text>
+</svg>
