@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="При банков превод в евро самият SEPA превод обикновено отнема около един работен ден, а цялата обиколка с одобрението от казиното и банковата обработка излиза няколко работни дни в двете посоки. Казиното обикновено не начислява такса, банката може да вземе такса за изходящ превод по тарифата си. Високи лимити до десетки хиляди евро на превод и по-висок минимален депозит, примерно 20 евро срещу 5 или 10 евро при картите. Тегленето се връща по сметката, от която е дошъл депозитът.">
+  <title>Банков превод в онлайн казино: срокове, такси и лимити</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="720" height="400" rx="14" ry="14" fill="url(#bg)"/>
+
+  <text x="360" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="#1f2937" text-anchor="middle">Банков превод в онлайн казино</text>
+  <text x="360" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">бавен метод, високи лимити, чиста банкова следа</text>
+
+  <!-- Transfer-itself card (left) -->
+  <rect x="40" y="86" width="300" height="108" rx="12" fill="#ecfdf5" stroke="#10b981" stroke-width="1.5"/>
+  <rect x="40" y="86" width="300" height="6" rx="3" fill="#10b981"/>
+  <text x="190" y="118" font-family="system-ui, -apple-system, sans-serif" font-size="13.5" font-weight="600" fill="#047857" text-anchor="middle">Самият превод (SEPA, евро)</text>
+  <text x="190" y="152" font-family="system-ui, -apple-system, sans-serif" font-size="23" font-weight="800" fill="#059669" text-anchor="middle">≈ 1 работен ден</text>
+  <text x="190" y="179" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="middle">секунди само при SEPA Instant (24/7)</text>
+
+  <!-- Whole-round-trip card (right) -->
+  <rect x="380" y="86" width="300" height="108" rx="12" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/>
+  <rect x="380" y="86" width="300" height="6" rx="3" fill="#f59e0b"/>
+  <text x="530" y="118" font-family="system-ui, -apple-system, sans-serif" font-size="13.5" font-weight="600" fill="#b45309" text-anchor="middle">Цялата обиколка</text>
+  <text x="530" y="152" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#d97706" text-anchor="middle">няколко работни дни</text>
+  <text x="530" y="179" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="middle">в двете посоки (одобрение + банка)</text>
+
+  <!-- Fees bar -->
+  <rect x="40" y="204" width="640" height="58" rx="10" fill="#eef2ff" stroke="#6366f1" stroke-width="1.2"/>
+  <text x="360" y="230" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#3730a3" text-anchor="middle">Такси: казиното обикновено не начислява</text>
+  <text x="360" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#4338ca" text-anchor="middle">банката може да вземе такса за изходящ превод по тарифата си</text>
+
+  <!-- Limits bar -->
+  <rect x="40" y="272" width="640" height="66" rx="10" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.2"/>
+  <text x="360" y="298" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" fill="#6d28d9" text-anchor="middle">Високи лимити: до десетки хиляди евро на превод (примерни)</text>
+  <text x="360" y="321" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#7c3aed" text-anchor="middle">по-висок минимум: примерно €20 вместо €5 или €10 при картите (примерни)</text>
+
+  <text x="360" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">Тегленето се връща по сметката, от която е дошъл депозитът</text>
+  <text x="360" y="382" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#9ca3af" text-anchor="middle">18+ Играйте отговорно · лицензът от НАП е защитата, методът е удобство</text>
+</svg>
