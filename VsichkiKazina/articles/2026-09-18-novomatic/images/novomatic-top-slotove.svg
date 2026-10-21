@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" role="img" aria-label="Таблица с топ слотове на Novomatic: Book of Ra 92.13% RTP, висока волатилност, 2005; Book of Ra Deluxe 95.10%, висока, 2008; Sizzling Hot Deluxe 95.66%, средна, 2007; Dolphin's Pearl Deluxe 95.13%, висока, 2009">
+  <title>Топ слотове на Novomatic: RTP, волатилност и година</title>
+  <defs>
+    <linearGradient id="hbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="760" height="340" rx="14" ry="14" fill="url(#hbg)"/>
+
+  <text x="32" y="38" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="800" fill="#7c2d12">Топ слотове на Novomatic</text>
+  <text x="32" y="59" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" fill="#6b7280">числата са от международни бази за игри; операторът може да зареди по-ниска сертифицирана версия</text>
+
+  <!-- header row -->
+  <rect x="24" y="76" width="712" height="34" rx="6" fill="#7c2d12"/>
+  <text x="40" y="98" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="start">Слот</text>
+  <text x="370" y="98" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">RTP</text>
+  <text x="520" y="98" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Волатилност</text>
+  <text x="680" y="98" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Година</text>
+
+  <!-- rows -->
+  <g font-family="system-ui, -apple-system, sans-serif">
+    <!-- Row 1 -->
+    <rect x="24" y="112" width="712" height="40" fill="#ffffff"/>
+    <text x="40" y="137" font-size="14" font-weight="600" fill="#111827" text-anchor="start">Book of Ra</text>
+    <text x="370" y="137" font-size="14" font-weight="700" fill="#b91c1c" text-anchor="middle">92.13%</text>
+    <text x="520" y="137" font-size="14" fill="#374151" text-anchor="middle">висока</text>
+    <text x="680" y="137" font-size="14" fill="#374151" text-anchor="middle">2005</text>
+
+    <!-- Row 2 -->
+    <rect x="24" y="152" width="712" height="40" fill="#f3f4f6"/>
+    <text x="40" y="177" font-size="14" font-weight="600" fill="#111827" text-anchor="start">Book of Ra Deluxe</text>
+    <text x="370" y="177" font-size="14" fill="#374151" text-anchor="middle">95.10%</text>
+    <text x="520" y="177" font-size="14" fill="#374151" text-anchor="middle">висока</text>
+    <text x="680" y="177" font-size="14" fill="#374151" text-anchor="middle">2008</text>
+
+    <!-- Row 3 -->
+    <rect x="24" y="192" width="712" height="40" fill="#ffffff"/>
+    <text x="40" y="217" font-size="14" font-weight="600" fill="#111827" text-anchor="start">Sizzling Hot Deluxe</text>
+    <text x="370" y="217" font-size="14" fill="#374151" text-anchor="middle">95.66%</text>
+    <text x="520" y="217" font-size="14" fill="#374151" text-anchor="middle">средна</text>
+    <text x="680" y="217" font-size="14" fill="#374151" text-anchor="middle">2007</text>
+
+    <!-- Row 4 -->
+    <rect x="24" y="232" width="712" height="40" fill="#f3f4f6"/>
+    <text x="40" y="257" font-size="14" font-weight="600" fill="#111827" text-anchor="start">Dolphin's Pearl Deluxe</text>
+    <text x="370" y="257" font-size="14" fill="#374151" text-anchor="middle">95.13%</text>
+    <text x="520" y="257" font-size="14" fill="#374151" text-anchor="middle">висока</text>
+    <text x="680" y="257" font-size="14" fill="#374151" text-anchor="middle">2009</text>
+  </g>
+
+  <line x1="24" y1="284" x2="736" y2="284" stroke="#d1d5db" stroke-width="1"/>
+  <text x="32" y="306" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af">RTP е дългосрочна статистика, не обещание за сесията · източник: slotcatalog.com и международни бази за игри</text>
+  <text x="32" y="326" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af">18+ Играйте отговорно · Провери реалния RTP в инфо-панела на конкретното казино</text>
+</svg>
