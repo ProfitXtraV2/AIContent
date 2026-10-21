@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 180" role="img" aria-label="Веригата Доставчик → Оператор → Играч: студиото прави игрите, операторът ги лицензира и предлага на платформата си, играчът залага">
+  <!-- Background card -->
+  <rect width="700" height="180" rx="12" fill="#f4f6fb"/>
+
+  <!-- Title -->
+  <text x="350" y="28" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#444" font-weight="600">Веригата: Доставчик → Оператор → Играч</text>
+
+  <!-- Box 1: Доставчик / Студио -->
+  <rect x="30" y="46" width="170" height="80" rx="8" fill="#3d5af1"/>
+  <text x="115" y="82" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#ffffff">Доставчик</text>
+  <text x="115" y="102" text-anchor="middle" font-family="sans-serif" font-size="11" fill="rgba(255,255,255,0.88)">(Студио)</text>
+  <text x="115" y="118" text-anchor="middle" font-family="sans-serif" font-size="10" fill="rgba(255,255,255,0.75)">прави игрите</text>
+
+  <!-- Arrow 1 (tip stops 3px before Box 2 at x=265) -->
+  <line x1="202" y1="86" x2="249" y2="86" stroke="#aab4d8" stroke-width="2"/>
+  <polygon points="249,82 262,86 249,90" fill="#aab4d8"/>
+
+  <!-- Box 2: Оператор / Казино -->
+  <rect x="265" y="46" width="170" height="80" rx="8" fill="#1f9e6e"/>
+  <text x="350" y="82" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#ffffff">Оператор</text>
+  <text x="350" y="102" text-anchor="middle" font-family="sans-serif" font-size="11" fill="rgba(255,255,255,0.88)">(Казино)</text>
+  <text x="350" y="118" text-anchor="middle" font-family="sans-serif" font-size="10" fill="rgba(255,255,255,0.75)">лицензира + пуска</text>
+
+  <!-- Arrow 2 (tip stops 3px before Box 3 at x=500) -->
+  <line x1="437" y1="86" x2="484" y2="86" stroke="#aab4d8" stroke-width="2"/>
+  <polygon points="484,82 497,86 484,90" fill="#aab4d8"/>
+
+  <!-- Box 3: Играч -->
+  <rect x="500" y="46" width="170" height="80" rx="8" fill="#e07a20"/>
+  <text x="585" y="82" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#ffffff">Играч</text>
+  <text x="585" y="102" text-anchor="middle" font-family="sans-serif" font-size="11" fill="rgba(255,255,255,0.88)">(Потребителят)</text>
+  <text x="585" y="118" text-anchor="middle" font-family="sans-serif" font-size="10" fill="rgba(255,255,255,0.75)">залага</text>
+
+  <!-- RG note (baseline y=158, text ~10px tall, bottom ~162, margin 18px from edge 180) -->
+  <text x="350" y="158" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#9a9fba">18+ Играйте отговорно</text>
+</svg>
