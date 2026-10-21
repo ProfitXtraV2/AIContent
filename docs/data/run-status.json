@@ -1,30 +1,17 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-10-20T07:16:08Z",
-  "run_finished_utc": "2026-10-20T08:25:42Z",
-  "articles_written": 1,
-  "prs_opened": [
-    308
-  ],
-  "run_url": "https://claude.ai/code/session_013f4V4NkkKa4EMJ5SDtjziN",
-  "note": "daily run 2026-10-20 done -- 1 NEW guide vk-0286 (Белот правила: как се играе белот -- раздаване, анонси, точки и терци), PR #308. Backlog P1 card-games cluster head (1400/kd0 WIN, cluster ~6.5K/мес kd<=2); rules guide (раздаване 3+2+3=8, наддаване/коз, стойности коз-vs-без-коз, анонси терца20/петдесет50/сто100/каре100-150-200/белот20, точкуване 152+10=162 и 262, праг 151, висене) + кратка секция белот на пари законно ли е -> НАП-licensed + RG, 0 operator facts. Honest de-AI angle: регионални варианти (праг 151, капо=концепция без стойност, кварта/квинта vs петдесет/сто, майорна терца, бридж-белот) framed per-table. DISTINCT vs live sitemap (132 URLs, 0 белот) + queue; no cannibalization. Gate 95 PASS WITH FIXES 0-crit. Gemini Step-7 KEEP-BEST = humaniser pass1 HL90 (human 90): initial HL15 (AI 85pct) -> pass1 HL90 (human 90pct) PASS (step-7b: broke run-ons, cut platitudes/forced-empathy/translated-idioms/signposting). img:3 (infographic коз/без коз 100 + infographic анонси/точкуване 100, every number verbatim from 05b + decorative hero webp 16KB; hero pass1 garbled pips -> pass2 single-pip, review 100 PASS 0-integrity). 0 [VERIFY]/[DATA NEEDED]/[CONFLICT]. Backlog P1 Белот -> written; 12 open rows remain (сантасе 5800/kd0 + табла 24000/kd0 next in-scope siblings; 10 NV-Casino operator/НАП-dependent stay open+blocked). No in-progress/HANDOFF/CLAIMED leftovers. Monthly SEO review not due (last 2026-10). Step-6 Ahrefs ONLINE (23859/200K used): added 1 distinct candidate свара правила 100/kd0 (gambling card-game sibling, 0 cannibalization); no zero-vol removals; bank 4 candidates; backlog enrichment none needed (fresh). Board on main; dashboard rebuilt (buffer 224/10, drafted 214); feed refreshed (10 approved, unchanged). No flags resolved; nothing posted/merged/fabricated. PR #308 watched (auto-subscribed).",
+  "state": "running",
+  "run_started_utc": "2026-10-21T07:16:29Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01P7RpXf1tmvPK8jTo1cYAna",
+  "note": "daily run 2026-10-21",
   "progress": {
-    "phase": "done",
-    "article_index": 1,
+    "phase": "init",
+    "article_index": 0,
     "article_total": 1,
-    "article_slug": "2026-10-20-belot-pravila",
-    "stages": [
-      "Synthesis",
-      "Outline",
-      "Author",
-      "Humaniser",
-      "SEO",
-      "Brand Gate",
-      "Light re-check",
-      "Images",
-      "Verification",
-      "PR"
-    ],
+    "article_slug": null,
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
     "stage_index": null,
     "stage": null
   }
