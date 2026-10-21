@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380" role="img" aria-label="Ключови числа за 5 Lions Megaways: обявен RTP 96.5% с по-ниски версии 95.52% и 94.54%, домашно предимство 3.5%, до 200 704 начина, макс. печалба 5 000 пъти залога, висока волатилност и залог от 0.20 до 125 евро">
+  <title>5 Lions Megaways: ключови числа и RTP</title>
+  <defs>
+    <linearGradient id="bgr" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#eef2f7"/>
+    </linearGradient>
+    <linearGradient id="playerR" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="houseR" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#f87171"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="760" height="380" rx="14" fill="url(#bgr)"/>
+
+  <text x="380" y="38" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="800" fill="#0f172a" text-anchor="middle">5 Lions Megaways: ключови числа</text>
+  <text x="380" y="60" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#64748b" text-anchor="middle">Pragmatic Play · данни за Megaways версията</text>
+
+  <text x="40" y="94" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#374151">Обявен RTP (връщане към играча)</text>
+  <text x="720" y="94" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#374151" text-anchor="end">Домашно предимство</text>
+
+  <rect x="40" y="104" width="680" height="46" rx="8" fill="#e2e8f0"/>
+  <!-- player 656px (96.5%) + house 24px (3.5%) = 680, flush -->
+  <rect x="40" y="104" width="656" height="46" rx="8" fill="url(#playerR)"/>
+  <rect x="696" y="104" width="24" height="46" rx="4" fill="url(#houseR)"/>
+  <text x="368" y="134" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">96.5%</text>
+  <text x="708" y="170" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#b91c1c" text-anchor="end">3.5%</text>
+
+  <text x="40" y="172" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280">По-ниски версии, които операторът може да качи: 95.52% · 94.54%</text>
+
+  <!-- four stat tiles: x=40 w=164 gap 8 -->
+  <g font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">
+    <rect x="40"  y="192" width="164" height="92" rx="10" fill="#ffffff" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="122" y="216" font-size="12" fill="#92400e">Макс. начини</text>
+    <text x="122" y="248" font-size="23" font-weight="800" fill="#b45309">200 704</text>
+    <text x="122" y="270" font-size="11" fill="#a16207">при пълен екран</text>
+
+    <rect x="212" y="192" width="164" height="92" rx="10" fill="#ffffff" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="294" y="216" font-size="12" fill="#7f1d1d">Макс. печалба</text>
+    <text x="294" y="248" font-size="23" font-weight="800" fill="#b91c1c">5 000x</text>
+    <text x="294" y="270" font-size="11" fill="#991b1b">от залога</text>
+
+    <rect x="384" y="192" width="164" height="92" rx="10" fill="#ffffff" stroke="#7c3aed" stroke-width="1.5"/>
+    <text x="466" y="216" font-size="12" fill="#5b21b6">Волатилност</text>
+    <text x="466" y="248" font-size="21" font-weight="800" fill="#6d28d9">висока</text>
+    <text x="466" y="270" font-size="11" fill="#7c3aed">5 от 5</text>
+
+    <rect x="556" y="192" width="164" height="92" rx="10" fill="#ffffff" stroke="#0369a1" stroke-width="1.5"/>
+    <text x="638" y="216" font-size="12" fill="#075985">Залог на завъртане</text>
+    <text x="638" y="248" font-size="20" font-weight="800" fill="#0369a1">€0.20 - €125</text>
+    <text x="638" y="270" font-size="11" fill="#0284c7">широк диапазон</text>
+  </g>
+
+  <line x1="40" y1="306" x2="720" y2="306" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <text x="380" y="332" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#334155" text-anchor="middle" font-style="italic">Операторът избира коя RTP версия да качи. Провери реалния процент в инфо-панела на играта.</text>
+  <text x="380" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">18+ Играйте отговорно · RTP е дългосрочна средна стойност, не обещание за сесия</text>
+</svg>

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320" role="img" aria-label="Абстрактна илюстрация на шест барабана с различна височина и падащи плочки, символизираща променливите начини за печалба и каскадите в Megaways слот">
+  <title>Megaways: барабани с променлива височина и каскади</title>
+  <defs>
+    <linearGradient id="bgh" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="tileA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="tileB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f87171"/>
+      <stop offset="100%" stop-color="#b91c1c"/>
+    </linearGradient>
+    <linearGradient id="tileC" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <linearGradient id="tileD" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="760" height="320" rx="16" fill="url(#bgh)"/>
+
+  <!-- six reel columns of varying tile counts (variable ways motif). column width 88, gap 12, tile height 40, gap 8 -->
+  <!-- reel 1: 3 tiles -->
+  <g>
+    <rect x="40"  y="196" width="88" height="40" rx="8" fill="url(#tileC)"/>
+    <rect x="40"  y="148" width="88" height="40" rx="8" fill="url(#tileA)"/>
+    <rect x="40"  y="100" width="88" height="40" rx="8" fill="url(#tileB)"/>
+  </g>
+  <!-- reel 2: 5 tiles -->
+  <g>
+    <rect x="140" y="196" width="88" height="40" rx="8" fill="url(#tileD)"/>
+    <rect x="140" y="148" width="88" height="40" rx="8" fill="url(#tileB)"/>
+    <rect x="140" y="100" width="88" height="40" rx="8" fill="url(#tileA)"/>
+    <rect x="140" y="52"  width="88" height="40" rx="8" fill="url(#tileC)"/>
+    <rect x="140" y="4"   width="88" height="40" rx="8" fill="url(#tileD)" opacity="0.55"/>
+  </g>
+  <!-- reel 3: 4 tiles -->
+  <g>
+    <rect x="240" y="196" width="88" height="40" rx="8" fill="url(#tileA)"/>
+    <rect x="240" y="148" width="88" height="40" rx="8" fill="url(#tileC)"/>
+    <rect x="240" y="100" width="88" height="40" rx="8" fill="url(#tileD)"/>
+    <rect x="240" y="52"  width="88" height="40" rx="8" fill="url(#tileB)"/>
+  </g>
+  <!-- reel 4: 5 tiles -->
+  <g>
+    <rect x="340" y="196" width="88" height="40" rx="8" fill="url(#tileB)"/>
+    <rect x="340" y="148" width="88" height="40" rx="8" fill="url(#tileD)"/>
+    <rect x="340" y="100" width="88" height="40" rx="8" fill="url(#tileA)"/>
+    <rect x="340" y="52"  width="88" height="40" rx="8" fill="url(#tileC)"/>
+    <rect x="340" y="4"   width="88" height="40" rx="8" fill="url(#tileA)" opacity="0.55"/>
+  </g>
+  <!-- reel 5: 3 tiles -->
+  <g>
+    <rect x="440" y="196" width="88" height="40" rx="8" fill="url(#tileC)"/>
+    <rect x="440" y="148" width="88" height="40" rx="8" fill="url(#tileB)"/>
+    <rect x="440" y="100" width="88" height="40" rx="8" fill="url(#tileD)"/>
+  </g>
+  <!-- reel 6: 4 tiles + falling tile above (cascade motif) -->
+  <g>
+    <rect x="540" y="196" width="88" height="40" rx="8" fill="url(#tileD)"/>
+    <rect x="540" y="148" width="88" height="40" rx="8" fill="url(#tileA)"/>
+    <rect x="540" y="100" width="88" height="40" rx="8" fill="url(#tileC)"/>
+    <rect x="540" y="52"  width="88" height="40" rx="8" fill="url(#tileB)"/>
+    <rect x="540" y="4"   width="88" height="40" rx="8" fill="url(#tileC)" opacity="0.45"/>
+  </g>
+
+  <!-- cascade tiles falling on the right, showing tumble idea -->
+  <rect x="656" y="60"  width="60" height="30" rx="6" fill="url(#tileA)" opacity="0.85"/>
+  <rect x="668" y="112" width="60" height="30" rx="6" fill="url(#tileB)" opacity="0.7"/>
+  <rect x="656" y="164" width="60" height="30" rx="6" fill="url(#tileD)" opacity="0.55"/>
+
+  <!-- expanding-ways arrow motif at the base -->
+  <text x="380" y="286" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700" fill="#fcd34d" text-anchor="middle">променливи начини на всяко завъртане</text>
+
+  <text x="380" y="308" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">18+ Играйте отговорно</text>
+</svg>
