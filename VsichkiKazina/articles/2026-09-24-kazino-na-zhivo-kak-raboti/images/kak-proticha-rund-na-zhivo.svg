@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" role="img" aria-label="Как протича един рунд в казино на живо в пет стъпки: свързване към стрийма, залози в таймера, дилърът тегли или върти, GCU и OCR отчитат резултата, печалбите се начисляват автоматично">
+  <rect x="0" y="0" width="760" height="430" rx="16" fill="#0f1b2d"/>
+  <rect x="1" y="1" width="758" height="428" rx="15" fill="none" stroke="#24344a" stroke-width="1"/>
+  <text x="32" y="48" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="22" font-weight="700" fill="#f4f7fb">Как протича един рунд на живо</text>
+
+  <!-- connecting line -->
+  <line x1="60" y1="96" x2="60" y2="384" stroke="#2f4a63" stroke-width="2"/>
+
+  <circle cx="60" cy="100" r="18" fill="#2f9e8f"/>
+  <text x="60" y="106" text-anchor="middle" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="16" font-weight="700" fill="#0f1b2d">1</text>
+  <text x="96" y="106" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="16" fill="#e7eef6">Свързваш се към стрийма на избраната маса</text>
+
+  <circle cx="60" cy="170" r="18" fill="#3aa9c7"/>
+  <text x="60" y="176" text-anchor="middle" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="16" font-weight="700" fill="#0f1b2d">2</text>
+  <text x="96" y="176" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="16" fill="#e7eef6">Слагаш залозите си, докато таймерът отброява</text>
+
+  <circle cx="60" cy="240" r="18" fill="#4f8fd6"/>
+  <text x="60" y="246" text-anchor="middle" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="16" font-weight="700" fill="#0f1b2d">3</text>
+  <text x="96" y="246" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="16" fill="#e7eef6">Дилърът тегли картата или върти колелото</text>
+
+  <circle cx="60" cy="310" r="18" fill="#6f7fae"/>
+  <text x="60" y="316" text-anchor="middle" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="16" font-weight="700" fill="#0f1b2d">4</text>
+  <text x="96" y="316" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="16" fill="#e7eef6">GCU и OCR отчитат резултата и го превръщат в данни</text>
+
+  <circle cx="60" cy="380" r="18" fill="#2f9e8f"/>
+  <text x="60" y="386" text-anchor="middle" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="16" font-weight="700" fill="#0f1b2d">5</text>
+  <text x="96" y="386" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="16" fill="#e7eef6">Печалбите се начисляват по сметките автоматично</text>
+</svg>
