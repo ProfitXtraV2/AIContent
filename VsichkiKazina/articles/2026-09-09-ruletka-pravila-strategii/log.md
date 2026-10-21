@@ -1,0 +1,53 @@
+# RUN LOG — vk-0008 · Рулетка: правила и стратегии
+
+Article: 2026-09-09-ruletka-pravila-strategii | Brand: vsichkikazina | Market: bg
+Type: guide | Byline: editorial (публикуван подпис Георги Тодоров) | Target cluster: „как се играе рулетка / рулетка стратегия / мартингейл / система мартингейл"
+
+- brief  : 00-brief.md — guide, editorial, primary cluster (~80 търсения), 3 образователни/математически източника, числата за рулетката са фиксирани математически факти (не илюстративни), zero operator facts, zero flags очаквани.
+- dedup  : анти-канибализация с листинг страницата /kazino-igri/ruletka/ (търговски списък). Тази статия е проза-водено образование за правила+стратегии, без листинг, без търговски анкори. Линква /kazino-igri/ (общата картина), НЕ листинг страницата.
+- facts  : WebSearch + WebFetch (Wizard of Odds, PokerNews, Wikipedia Martingale) потвърдиха: европейска 37 джоба/2.70%, американска 38 джоба/5.26%, френска la partage/en prison ~1.35%; изплащания 35:1/17:1/8:1/2:1/1:1; Мартингейл убит от лимит+банкрол+отрицателно EV; грешка на комарджията (независими завъртания). [VERIFY]=0.
+- 1      : 01-synthesis.md — entity/gap map пълен, seed thesis (всички пътища водят до фиксираното домашно предимство), suggested byline editorial. Flags 0/0/0.
+- 1.5    : 01.5-outline.md — H1 + 8 секции с варирани форми (поток, кратка проза, таблица, build, работен €-пример без takeaway, единичен аналитичен абзац, обединена проза, RG close). Link placement: /kak-ocenyavame/ (S6), /kazino-igri/ (S8), /otgovorna-igra/ (S8+footer). Таблицата с изплащанията е единствената структурирана форма (оправдана).
+- 2      : 02-draft.md — пълна editorial проза по outline; CANON ADDITIONS=none; [DATA NEEDED]=none. Body ~1080 думи (пред оптимизация).
+- 3      : 03-humanised.md — Phase-1 вердикт MIXED 50/60; целеви fixes: махнат демонстративен усилвател („Точно тук живее…"), махната „не A, а B" антитеза („не е в късмета, а в аритметиката" → „Работата е в аритметиката."), лек вариант на финала да не повтаря формулата на примерната статия. NUMBER DIFF 02→03: идентичен.
+- 4      : 04-seo.md — title tag 46 знака (рулетка+Мартингейл), meta 138 знака (без em-dash), „как се играе рулетка" вплетено в H2 на S1, „система Мартингейл"/„рулетка стратегия" в тялото. 3 одобрени вътрешни връзки с описателни анкори. NUMBER DIFF 03→04: идентичен.
+- 5      : 05-gate-report.md — Verdict PASS WITH FIXES 96/100 (Personality 19 · Tone 15 · E-E-A-T 19 · Trust 15 · Language&Style 14 · RG 14); EV преизчислено ((35-36)/37 = -2.70%); Мартингейл пример проверен (10+20+40+80+160+320=€630, седми залог €640, цел +€10); единствени корекции механични (сглобен verbatim футър). Zero surviving criticals. NUMBER DIFF 04→05: идентичен.
+- 5b     : 05b-final-draft.md — light re-check (em-dash/signposting/connective/table/list): нула em-dash в тялото и футъра; таблицата с изплащанията запазена (истинска сравнителна работа, 5 реда × 3 колони); без bullet листи; без signposting. При финализиране тялото леко разширено с евъргрийн факти (18 червени/18 черни + зелена нула; улица/линия като междинни залози; защо казината слагат лимит на масата), за да е комфортно в диапазона 1000-1500. Същите допълнения огледани и в 04-seo.md. Body 1049 думи.
+
+## FINAL GREP-VERIFICATION
+- Em-dash (—) в тялото и футъра на 05b: 0. Единственото срещане на „—" е във verbatim alt текста на hero изображението (`Рулетка маса с колело и залози — схема…`), зададен ДОСЛОВНО от брифа; третиран като мандатиран verbatim низ (метаданни на изображение), не като проза. Примерната статия (progresivni-dzhakpoti) следва същата конвенция: em-dash в hero alt, „0 em-dash в тяло и футър".
+- En-dash (–): единствено „10:00–17:00" във verbatim RG футъра (задължителен дословен низ).
+- Банирани AI конективи (освен това / в допълнение / в заключение / заслужава да се отбележи / важно е да се отбележи / в днешно време / нещо повече / в обобщение): 0.
+- Банирани промис/хайп думи (гарантирана печалба / сигурни пари / не можеш да загубиш / без риск / лесни пари / революционен / ексклузивна тайна): 0.
+- FOMO/urgency: 0.
+- Verbatim „18+ Хазартът може да пристрасти. Играйте отговорно.": 2 срещания (RG момент в тялото S8 + футър). ✓
+- RG сигнализиране: /otgovorna-igra/ + регистър на уязвимите лица към НАП + линия „Солидарност" 0888 99 18 66. ✓
+- Affiliate disclosure (verbatim 1-Aug-2026 режим, сайт-лиценз „подадено заявление, очаква издаване"): присъства, без издаден/измислен №. ✓
+- Byline Георги Тодоров: присъства (футър). Марка „Всички Казина" изписана точно.
+- Вътрешни връзки: 3 различни от одобрения набор — /kak-ocenyavame/ (S6), /kazino-igri/ (S8), /otgovorna-igra/ (S8 + футър). Без линк към листинг /kazino-igri/ruletka/ (анти-канибализация).
+- Flags [VERIFY]/[DATA NEEDED]/[CONFLICT]: 0.
+- Body word count: 1049 (в диапазона 1000-1500 за guide).
+- Превъртане: НЕ се използва (не е бонус гайд) → няма база за деклариране. НАП лиценз №: не се изисква (няма оператор).
+
+## EXACT NUMBERS IN 05b (за verbatim копиране в инфографиката)
+- Европейска рулетка: 37 джоба (0-36); домашно предимство 2.70%.
+- Американска рулетка: 38 джоба (добавена 00); домашно предимство 5.26%.
+- Френска рулетка (la partage / en prison), равни залози: ~1.35%.
+- Цветове: 18 червени, 18 черни, зелена нула (+ зелена 00 при американската).
+- Изплащания: право число 35:1; разцепка 17:1; каре 8:1; дузина/колона 2:1; равни залози 1:1.
+- Мартингейл пример: база €10; прогресия €10 → €20 → €40 → €80 → €160 → €320; седми залог €640; натрупана загуба €630; цел +€10; „шест последователни" загуби.
+- Математика на предимството: 37 джоба, честно би било 36:1, реално 35:1.
+
+STATUS: complete (артефакти 00 → 05b + log.md). Готово за STEP 6 (human verification) — извън обхвата на този writer run. Git/PR/скриптове НЕ са пипани (по указание).
+
+## Step 7 — Gemini text check (cross-model)
+- Initial: HL 25 (Shows AI patterns 75%). 07-gemini-check-1.md.
+- Humaniser pass 1 (apply recs: smoothed staccato, cut signpost before table, softened inside/outside triad, cut contradictory filler, cut philosophical bow). 07-gemini-check-2.md: HL 25 again (detector pinned on BG content). Kept pass 1 (tied-best). content-queue gemini = ai 75.
+
+## Step 8 — Images + Gemini visual review
+- Created infographic SVG (house edge by variant + payouts, numbers from 05b) + decorative hero WebP (35.7 KB).
+- Review pass 1: 70 (grammar "нула"; hero alt over-promised). Fixed SVG grammar + rewrote hero alt to match the abstract image.
+- Review pass 2: 90 PASS, no integrity failures. images: 2 (infographic ~100, hero ok — best 90).
+
+## Step 6 — Verification
+- 0 surviving flags; recalculated European edge (−1/37 = −2.70%) and Martingale €630/€10. 06-verification.md written. Human owns approval + publishing.

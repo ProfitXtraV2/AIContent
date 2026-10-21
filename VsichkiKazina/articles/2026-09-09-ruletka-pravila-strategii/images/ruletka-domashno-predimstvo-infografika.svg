@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 620" font-family="'Segoe UI',Arial,sans-serif" role="img" aria-label="Домашно предимство по вид рулетка и основни изплащания">
+  <rect width="820" height="620" fill="#0b3d2e"/>
+  <rect x="0" y="0" width="820" height="72" fill="#08301f"/>
+  <text x="40" y="34" fill="#f4c430" font-size="26" font-weight="700">Рулетка: домашно предимство и изплащания</text>
+  <text x="40" y="58" fill="#cfe8dc" font-size="15">Колкото по-малко джобове покрива залогът, толкова по-голямо е изплащането.</text>
+
+  <!-- House edge by variant -->
+  <text x="40" y="112" fill="#ffffff" font-size="19" font-weight="700">Домашно предимство по вид</text>
+
+  <!-- European -->
+  <text x="40" y="150" fill="#cfe8dc" font-size="15">Европейска (37 джоба, една нула)</text>
+  <rect x="40" y="160" width="700" height="26" rx="4" fill="#13533f"/>
+  <rect x="40" y="160" width="189" height="26" rx="4" fill="#4caf7d"/>
+  <text x="748" y="179" fill="#ffffff" font-size="16" font-weight="700" text-anchor="end">2.70%</text>
+
+  <!-- American -->
+  <text x="40" y="214" fill="#cfe8dc" font-size="15">Американска (38 джоба, нула и двойна нула)</text>
+  <rect x="40" y="224" width="700" height="26" rx="4" fill="#13533f"/>
+  <rect x="40" y="224" width="368" height="26" rx="4" fill="#e06b54"/>
+  <text x="748" y="243" fill="#ffffff" font-size="16" font-weight="700" text-anchor="end">5.26%</text>
+
+  <!-- French -->
+  <text x="40" y="278" fill="#cfe8dc" font-size="15">Френска с la partage / en prison (равни залози)</text>
+  <rect x="40" y="288" width="700" height="26" rx="4" fill="#13533f"/>
+  <rect x="40" y="288" width="95" height="26" rx="4" fill="#6fd19b"/>
+  <text x="748" y="307" fill="#ffffff" font-size="16" font-weight="700" text-anchor="end">~1.35%</text>
+
+  <line x1="40" y1="344" x2="780" y2="344" stroke="#1c6b50" stroke-width="1"/>
+
+  <!-- Payouts -->
+  <text x="40" y="384" fill="#ffffff" font-size="19" font-weight="700">Какво плаща всеки залог</text>
+
+  <g font-size="15">
+    <text x="40" y="420" fill="#cfe8dc">Право число (1 число)</text>
+    <text x="780" y="420" fill="#f4c430" font-size="17" font-weight="700" text-anchor="end">35:1</text>
+    <text x="40" y="452" fill="#cfe8dc">Разцепка (2 числа)</text>
+    <text x="780" y="452" fill="#f4c430" font-size="17" font-weight="700" text-anchor="end">17:1</text>
+    <text x="40" y="484" fill="#cfe8dc">Каре (4 числа)</text>
+    <text x="780" y="484" fill="#f4c430" font-size="17" font-weight="700" text-anchor="end">8:1</text>
+    <text x="40" y="516" fill="#cfe8dc">Дузина / колона (12 числа)</text>
+    <text x="780" y="516" fill="#f4c430" font-size="17" font-weight="700" text-anchor="end">2:1</text>
+    <text x="40" y="548" fill="#cfe8dc">Равни залози (18 числа)</text>
+    <text x="780" y="548" fill="#f4c430" font-size="17" font-weight="700" text-anchor="end">1:1</text>
+  </g>
+  <line x1="40" y1="432" x2="780" y2="432" stroke="#13533f" stroke-width="1"/>
+  <line x1="40" y1="464" x2="780" y2="464" stroke="#13533f" stroke-width="1"/>
+  <line x1="40" y1="496" x2="780" y2="496" stroke="#13533f" stroke-width="1"/>
+  <line x1="40" y1="528" x2="780" y2="528" stroke="#13533f" stroke-width="1"/>
+
+  <text x="40" y="590" fill="#9fc7b6" font-size="13">Честното изплащане на право число би било 36:1 при 37 джоба; разликата е предимството на казиното.</text>
+  <text x="780" y="590" fill="#f4c430" font-size="13" font-weight="700" text-anchor="end">18+ Играйте отговорно</text>
+</svg>
