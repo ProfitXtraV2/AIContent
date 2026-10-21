@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 486" role="img" aria-label="Разпределение на колелото на Sweet Bonanza CandyLand: 54 сегмента общо. Число 1: 23 сегмента, 42.59%. Число 2: 15 сегмента, 27.78%. Число 5: 7 сегмента, 12.96%. Sugar Bomb: 3 сегмента, 5.56%. Bubble Surprise: 3 сегмента, 5.56%. Candy Drop: 2 сегмента, 3.70%. Sweet Spins: 1 сегмент, 1.85%. Максимална печалба 20 000 пъти залога с таван 500 000 евро. RTP варира между 91.59% и 96.83% според позицията.">
+  <rect x="8" y="8" width="704" height="470" rx="18" fill="#0f172a"/>
+
+  <text x="32" y="46" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="bold" fill="#f8fafc">Sweet Bonanza CandyLand: колелото</text>
+  <text x="32" y="70" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#94a3b8">Pragmatic Play Live · 54 сегмента · шест залога + модификатор Sugar Bomb</text>
+
+  <text x="32" y="102" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#93c5fd">Вероятност колелото да спре на всеки изход</text>
+
+  <!-- rows: label (x=32) · % right-aligned at x=372 · bar from x=380, scale 7.23 px per % -->
+  <g font-family="system-ui, -apple-system, sans-serif" font-size="12">
+    <text x="32" y="132" fill="#e2e8f0">Число 1 · 23 сегмента · 1:1</text>
+    <text x="372" y="132" text-anchor="end" font-weight="bold" fill="#4ade80">42.59%</text>
+    <rect x="380" y="120" width="308" height="16" rx="3" fill="#22c55e"/>
+
+    <text x="32" y="164" fill="#e2e8f0">Число 2 · 15 сегмента · 2:1</text>
+    <text x="372" y="164" text-anchor="end" font-weight="bold" fill="#4ade80">27.78%</text>
+    <rect x="380" y="152" width="201" height="16" rx="3" fill="#22c55e"/>
+
+    <text x="32" y="196" fill="#e2e8f0">Число 5 · 7 сегмента · 5:1</text>
+    <text x="372" y="196" text-anchor="end" font-weight="bold" fill="#4ade80">12.96%</text>
+    <rect x="380" y="184" width="94" height="16" rx="3" fill="#22c55e"/>
+
+    <text x="32" y="228" fill="#e2e8f0">Sugar Bomb · 3 сегмента · множ. 2x–10x</text>
+    <text x="372" y="228" text-anchor="end" font-weight="bold" fill="#fbbf24">5.56%</text>
+    <rect x="380" y="216" width="40" height="16" rx="3" fill="#f59e0b"/>
+
+    <text x="32" y="260" fill="#e2e8f0">Bubble Surprise · 3 сегмента · 5x/10x/25x</text>
+    <text x="372" y="260" text-anchor="end" font-weight="bold" fill="#fbbf24">5.56%</text>
+    <rect x="380" y="248" width="40" height="16" rx="3" fill="#f59e0b"/>
+
+    <text x="32" y="292" fill="#e2e8f0">Candy Drop · 2 сегмента · до 1000x</text>
+    <text x="372" y="292" text-anchor="end" font-weight="bold" fill="#fbbf24">3.70%</text>
+    <rect x="380" y="280" width="27" height="16" rx="3" fill="#f59e0b"/>
+
+    <text x="32" y="324" fill="#e2e8f0">Sweet Spins · 1 сегмент · до 20 000x</text>
+    <text x="372" y="324" text-anchor="end" font-weight="bold" fill="#fbbf24">1.85%</text>
+    <rect x="380" y="312" width="13" height="16" rx="3" fill="#f59e0b"/>
+  </g>
+
+  <rect x="32" y="348" width="320" height="60" rx="12" fill="#111f38"/>
+  <text x="52" y="374" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#cbd5e1">Максимална печалба</text>
+  <text x="52" y="398" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="bold" fill="#f8fafc">20 000x <tspan font-size="12" font-weight="normal" fill="#94a3b8">(таван 500 000 евро)</tspan></text>
+
+  <rect x="368" y="348" width="320" height="60" rx="12" fill="#111f38"/>
+  <text x="388" y="374" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#cbd5e1">RTP (според позицията)</text>
+  <text x="388" y="398" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="bold" fill="#4ade80">91.59% <tspan fill="#94a3b8" font-size="12" font-weight="normal">до</tspan> 96.83%</text>
+
+  <rect x="32" y="420" width="656" height="42" rx="8" fill="#111f38"/>
+  <text x="52" y="438" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#94a3b8">Числовите залози дават най-високо RTP; бонус позициите са по-ниски. Числата са</text>
+  <text x="52" y="454" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#94a3b8">публично обявени; проверявай в конкретното казино. 18+ Играйте отговорно.</text>
+</svg>
