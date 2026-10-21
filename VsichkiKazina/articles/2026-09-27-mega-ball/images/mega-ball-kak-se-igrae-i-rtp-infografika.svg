@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" aria-label="Инфографика за Mega Ball на Evolution. Един рунд: карта 5 на 5 с 24 числа и свободен център дава 12 възможни линии; теглят се 20 топки от пул от 51; множител на финала от 5x до 100x върху една допълнителна топка. В дълъг период: обявен RTP около 95,40 процента, домашно предимство около 4,60 процента, таван на печалбата 500 000 евро на рунд. Процентите зависят от версията.">
+  <rect x="8" y="8" width="704" height="374" rx="18" fill="#0f172a"/>
+
+  <text x="32" y="42" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#f8fafc">Mega Ball: картите, множителят и RTP</text>
+  <text x="32" y="64" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Лотария на живо с един множител във финала, който вече е включен в RTP</text>
+
+  <text x="32" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Един рунд</text>
+
+  <text x="48" y="126" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Карта 5 на 5 · 24 числа + свободен център</text>
+  <text x="688" y="126" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">12 линии</text>
+  <text x="48" y="150" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Изтеглени топки на рунд</text>
+  <text x="688" y="150" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">20 от 51</text>
+  <text x="48" y="174" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Множител на финалната топка</text>
+  <text x="688" y="174" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">5x - 100x</text>
+
+  <text x="48" y="200" font-family="Arial, sans-serif" font-size="12" fill="#cbd5e1">Купуваш от 1 до 200 карти в прозореца за залагане · множителят пали само ако топката затвори линия</text>
+
+  <text x="32" y="232" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">RTP и таван (в дълъг период)</text>
+
+  <g stroke="#1e293b" stroke-width="1">
+    <line x1="32" y1="244" x2="688" y2="244"/>
+    <line x1="32" y1="272" x2="688" y2="272"/>
+    <line x1="32" y1="300" x2="688" y2="300"/>
+  </g>
+
+  <text x="48" y="264" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Обявен RTP</text>
+  <text x="688" y="264" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">≈ 95,40%</text>
+  <text x="48" y="292" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Домашно предимство</text>
+  <text x="688" y="292" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">≈ 4,60%</text>
+  <text x="48" y="320" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Таван на печалбата</text>
+  <text x="688" y="320" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">500 000 € на рунд</text>
+
+  <rect x="32" y="336" width="656" height="24" rx="6" fill="#111f38"/>
+  <text x="44" y="352" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Процентите зависят от версията. 18+ Играйте отговорно.</text>
+</svg>
