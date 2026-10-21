@@ -1,0 +1,34 @@
+# LOG — vk-0009 · Блекджек: правила и основна стратегия (2026-09-07)
+
+slug: 2026-09-07-blekdzhak-pravila-strategiya · brand: vsichkikazina · market: bg · content type: guide · byline: editorial (published: Георги Тодоров)
+RESUME: предишен run прекъснат от rate limit. 00/01/01.5 проверени — пълни и on-brief, запазени. 02→05b бяха stub-ове (~279 думи 05b, под 1000 floor); регенерирани наново с едно канонично тяло. Всички числа държани идентични през цялата верига 02→05b.
+
+- brief   — 00-brief.md попълнен от шаблона. Образователни източници (Wizard of Odds basics, BG Wikipedia, BetMGM 3:2-vs-6:5 blog, Hard Rock card-counting). CONTENT TYPE=guide, BYLINE=editorial. Само илюстративни € числа; нула оператор/нула T&C/нула лиценз №/нула данък. Планирани линкове: /kazino-igri/, /otgovorna-igra/, /kak-ocenyavame/.
+- dedup   — концепция/образование guide (informational intent). Различна задача от съществуващата листинг/категорийна страница /kazino-igri/blakdzhak/ (списък казина с блекджек, commercial-investigation intent). Нула припокриване; категорийната страница НЕ се линква (извън одобрения набор). Anti-cannib бележка за човека по-долу.
+- 1       — 01-synthesis.md: 4 източника, всички правила и константи потвърдени 2–3×. Entity union пълен. Seed thesis: целта е да биеш дилъра, не да стигнеш 21; основната стратегия сваля предимството под ~1%, но никога не го заличава; застраховката е лош залог; броене онлайн не работи. Flags: 0 [VERIFY]/0 [CONFLICT]/0 [DATA NEEDED] (evergreen, by design). Suggested byline: editorial.
+- 1.5     — 01.5-outline.md: H1 + 11 секции с делиберативно варирани форми (плътен аналитичен отвор / изброяване в проза / къс 3-изреченски / worked numeric започващ с числата / blunt verdict / асиметричен финал). Линкове: /kazino-igri/ (§10), /otgovorna-igra/ (§11), /kak-ocenyavame/ (по избор §6). Без реторичен-въпрос отвор; без both-sides bow.
+- 2       — 02-draft.md: пълна българска editorial проза, всички 11 секции. Body ~1060 думи (incl H2). CANON ADDITIONS: none. [DATA NEEDED]: none. Number set locked: {21, 52, 6, 8, 2–10, 10, 1/11, 3:2, 6:5, 16, 17, 0,2%, 0,5%, 1%, €20, 50, €1000, €5, 1,8%, €18, 2:1, €10}.
+- 3       — 03-humanised.md: Phase-1 вердикт HUMAN-LIKE 51/60 (Lexical 9 · Syntactic 8 · Structural 9 · Density 9 · Experiential 8 · Rhythm 8). Само леки докосвания (S5 изрязано ехо „повторение"; S9 разбито дълго изречение за burstiness; S10 по-разговорна фраза). Нула пипнати числа/линкове/дати/RG. NUMBER DIFF 02→03: identical.
+- 4       — 04-seo.md: relevance 92/100. Title tag (50 chars) + meta description (154 chars, 0 em-dash), primary kw „как се играе блекджек" отпред. 3 одобрени линка формализирани, нито един добавен/премахнат. Пълно entity покритие. NUMBER DIFF 03→04: identical.
+- 5       — 05-gate-report.md: PASS WITH FIXES 93/100 (Personality 19/20 · Tone 14/15 · E-E-A-T 18/20 · Trust 15/15 · Language&Style 14/15 · RG 13/15). Fixes приложени: (1) банирана промис-дума „без риск" (§10 демо) → „без реални пари на масата"; (2) footer trust slots вмъкнати верб. Maths recalc OK (0,5%×€1000=€5; 1,8%×€1000=€18; застраховка макс €10 при €20; H17 +0,2%). NUMBER DIFF 04→05: identical.
+- 5b      — 05b-final-draft.md: лек em-dash/signposting/table/list pass — нула таблици/булети, нула em-dash, нула signposting за пипане. Финално body 1063 думи (incl H2). NUMBER DIFF 05→05b: identical.
+
+FINAL GREP-VERIFICATION (05b-final-draft.md)
+- em-dashes (—): 0 (вкл. meta description). En-dash „–": 1, само във верб. footer „10:00–17:00" (позволен hard-coded стринг).
+- banned AI connectives (освен това / в допълнение / в заключение / заслужава да се отбележи / важно е да се отбележи / в днешно време / нещо повече / в обобщение / не на последно място): 0.
+- banned promise/hype (гарантирана печалба / сигурни пари / не можеш да загубиш / без риск / лесни пари / най-доброто / революционен / ексклузивна тайна): 0. („без риск" хванато и премахнато на Gate.)
+- verbatim „18+ Хазартът може да пристрасти. Играйте отговорно." в body RG touch: да. Footer RG блок + /otgovorna-igra/ + национален регистър на уязвимите лица към НАП + „Солидарност" 0888 99 18 66: да.
+- affiliate disclosure (Разкриване на партньорства, 1 август 2026 / ДВ бр. 69 от 31.07.2026): верб. present. Нула site-licence „issued" claim; нула измислен лиценз №.
+- byline Георги Тодоров + Публикувано 07.09.2026: present. Brand „Всички Казина" изписано коректно 3× (footer slots), никога транслитерирано, никога промоционално.
+- internal links (3, всички от одобрения набор): /kak-ocenyavame/ (§6) · /kazino-igri/ (§10) · /otgovorna-igra/ (§11, повтаря се във footer RG блока). ≤4. Нула out-of-set линкове. Категорията /kazino-igri/blakdzhak/ НЕ е линкната.
+- flags във финалното body: 0 [VERIFY] / 0 [DATA NEEDED] / 0 [CONFLICT].
+- key numbers (илюстративни, непроменени 02→05b): цел 21; тесте 52, 6/8 тестета; стойности 2–10 номинал, картинки 10, асо 1/11; блекджек = асо+10, плаща 3:2; дилър тегли ≤16, спира ≥17; мек 17 → +~0,2%; основна стратегия → ~0,5% (< 1%); €20 × 50 ръце = €1000 оборот → ~€5 очаквана загуба; 6:5 → ~1,8% (> 1%) → ~€18; застраховка 2:1, макс €10 при €20.
+- превъртане: not used (концепция-guide, без бонус). N/A base note.
+
+ANTI-CANNIBALIZATION NOTE (за човека): съществува листинг/категорийна страница /kazino-igri/blakdzhak/ (списък казина с блекджек, commercial-investigation intent). Тази статия е evergreen образователно ръководство за правила + основна стратегия (informational intent) — различна search задача, нула припокриване. Категорийната страница НЕ се линква (извън одобрения набор; не се измисля URL). Линкнат е само хъбът /kazino-igri/ от одобрения набор. При публикуване човекът може по желание да добави един контекстуален крос-линк от това ръководство към категорийния листинг.
+
+## Step 6/7 (orchestrator, post-writer)
+- Step 6 prep: assembled 06-verification.md (0 flags; illustrative/standard-number table; €1000/€5/€18 + house-edge recalculations; verbatim-untouchables spot-check; anti-cannibalization note vs /kazino-igri/blakdzhak/). No flags in text.
+- Step 7 (Gemini cross-model, gemini-3.1-pro-preview): pass 1 "Shows AI patterns 75%" → hl 25. Humaniser pass 1 (break staccato lists, remove Именно тази/Точно тази/точно затова crutches, dismantle rule-of-three, soften insurance setup) → pass 2 "Shows AI patterns 75%" → hl 25 (tied). Humaniser pass 2 (delete 2 signpost transitions, strip subjective filler, split card-counting run-on, tighten insurance) → pass 3 "Likely human-written 85%" → hl 85 → PASS. MAX_GEMINI_PASSES=2 reached; kept pass 2. content-queue gemini = human 85. Numbers/links/RG/18+/dates/byline/brand UNTOUCHED; no [VERIFY] resolved; not posted, not merged.
+- 07-gemini-check-1.md / -2.md / -3.md persisted as the audit trail.
+- Status → drafted. drafted_date 07.09.2026. Human owns Step 6/publish.

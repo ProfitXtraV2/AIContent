@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="Блекджек: 3:2 изплащане срещу 6:5 — ефект върху домашното предимство и очакваната загуба при €1 000 оборот">
+  <title>Блекджек: 3:2 срещу 6:5 — разликата в домашното предимство</title>
+
+  <!-- Background -->
+  <rect width="640" height="360" fill="#f8f9fa" rx="12"/>
+
+  <!-- Title -->
+  <text x="320" y="34" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#1a1a2e" text-anchor="middle">Изплащане на блекджека: 3:2 срещу 6:5</text>
+  <text x="320" y="54" font-family="Arial,sans-serif" font-size="12" fill="#666" text-anchor="middle">Пример: €20 на ръка × 50 ръце = €1 000 общ оборот · основна стратегия</text>
+
+  <!-- Column headers -->
+  <rect x="40" y="70" width="260" height="36" rx="8" fill="#1a6b2e"/>
+  <text x="170" y="93" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">Добра маса — 3:2</text>
+
+  <rect x="340" y="70" width="260" height="36" rx="8" fill="#c0392b"/>
+  <text x="470" y="93" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">Лоша маса — 6:5</text>
+
+  <!-- Row 1: House edge -->
+  <rect x="40" y="118" width="260" height="72" rx="8" fill="#e8f5ec" stroke="#1a6b2e" stroke-width="1.5"/>
+  <text x="170" y="142" font-family="Arial,sans-serif" font-size="12" fill="#1a6b2e" text-anchor="middle" font-weight="600">Домашно предимство</text>
+  <text x="170" y="175" font-family="Arial,sans-serif" font-size="40" font-weight="900" fill="#1a6b2e" text-anchor="middle">0,5%</text>
+
+  <rect x="340" y="118" width="260" height="72" rx="8" fill="#fdf0ef" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="470" y="142" font-family="Arial,sans-serif" font-size="12" fill="#c0392b" text-anchor="middle" font-weight="600">Домашно предимство</text>
+  <text x="470" y="175" font-family="Arial,sans-serif" font-size="40" font-weight="900" fill="#c0392b" text-anchor="middle">~1,8%</text>
+
+  <!-- Row 2: Expected loss on €1,000 -->
+  <rect x="40" y="202" width="260" height="72" rx="8" fill="#e8f5ec" stroke="#1a6b2e" stroke-width="1.5"/>
+  <text x="170" y="222" font-family="Arial,sans-serif" font-size="12" fill="#1a6b2e" text-anchor="middle" font-weight="600">Очаквана загуба · €1 000 оборот</text>
+  <text x="170" y="258" font-family="Arial,sans-serif" font-size="40" font-weight="900" fill="#1a6b2e" text-anchor="middle">~€5</text>
+
+  <rect x="340" y="202" width="260" height="72" rx="8" fill="#fdf0ef" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="470" y="222" font-family="Arial,sans-serif" font-size="12" fill="#c0392b" text-anchor="middle" font-weight="600">Очаквана загуба · €1 000 оборот</text>
+  <text x="470" y="258" font-family="Arial,sans-serif" font-size="40" font-weight="900" fill="#c0392b" text-anchor="middle">~€18</text>
+
+  <!-- VS separator -->
+  <circle cx="320" cy="238" r="22" fill="#555"/>
+  <text x="320" y="244" font-family="Arial,sans-serif" font-size="14" font-weight="900" fill="#fff" text-anchor="middle">VS</text>
+
+  <!-- Row 3: Verdict -->
+  <rect x="40" y="286" width="260" height="40" rx="7" fill="#1a6b2e" opacity="0.85"/>
+  <text x="170" y="311" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">Търсете тази маса ✓</text>
+
+  <rect x="340" y="286" width="260" height="40" rx="7" fill="#c0392b" opacity="0.85"/>
+  <text x="470" y="311" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">Проверете преди сядане ✗</text>
+
+  <!-- Note -->
+  <text x="320" y="344" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Очакваните загуби са дългосрочни средни — не прогноза за конкретна вечер. 18+ Играйте отговорно · vsichkikazina.bg</text>
+</svg>
