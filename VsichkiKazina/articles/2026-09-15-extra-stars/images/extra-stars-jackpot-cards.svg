@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" role="img" aria-label="Jackpot Cards в Extra Stars: прогресив на четири нива по боя, спатия най-ниско, после каро и купа, а пика най-високо; появява се случайно след платено завъртане, избираш от 12 обърнати карти до 3 еднакви бои">
+  <title>Jackpot Cards: четири нива по боя и как се печели</title>
+  <defs>
+    <linearGradient id="jbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+    <linearGradient id="barTop" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="360" rx="12" ry="12" fill="url(#jbg)"/>
+
+  <text x="300" y="36" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="#4c1d95" text-anchor="middle">Jackpot Cards: прогресив на четири нива</text>
+  <text x="300" y="55" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle" font-style="italic">Нивата растат от спатия (най-ниско) към пика (най-високо)</text>
+
+  <!-- Row 1: Пика (highest) -->
+  <circle cx="42" cy="85" r="16" fill="#1f2937"/>
+  <text x="42" y="91" font-family="system-ui, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle">&#9824;</text>
+  <text x="66" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#374151">Пика</text>
+  <rect x="150" y="70" width="400" height="30" rx="6" fill="url(#barTop)"/>
+  <text x="540" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#ffffff" text-anchor="end">най-високо</text>
+
+  <!-- Row 2: Купа -->
+  <circle cx="42" cy="127" r="16" fill="#dc2626"/>
+  <text x="42" y="133" font-family="system-ui, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle">&#9829;</text>
+  <text x="66" y="132" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#374151">Купа</text>
+  <rect x="150" y="112" width="325" height="30" rx="6" fill="#c4b5fd"/>
+
+  <!-- Row 3: Каро -->
+  <circle cx="42" cy="169" r="16" fill="#dc2626"/>
+  <text x="42" y="175" font-family="system-ui, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle">&#9830;</text>
+  <text x="66" y="174" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#374151">Каро</text>
+  <rect x="150" y="154" width="250" height="30" rx="6" fill="#ddd6fe"/>
+
+  <!-- Row 4: Спатия (lowest) -->
+  <circle cx="42" cy="211" r="16" fill="#1f2937"/>
+  <text x="42" y="217" font-family="system-ui, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle">&#9827;</text>
+  <text x="66" y="216" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#374151">Спатия</text>
+  <rect x="150" y="196" width="175" height="30" rx="6" fill="#ede9fe"/>
+  <text x="160" y="216" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#7c3aed">най-ниско</text>
+
+  <!-- Flow strip -->
+  <rect x="20" y="266" width="176" height="50" rx="10" fill="#faf5ff" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="108" y="288" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#5b21b6" text-anchor="middle">Случайно след</text>
+  <text x="108" y="303" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#5b21b6" text-anchor="middle">платено завъртане</text>
+
+  <text x="205" y="296" font-family="system-ui, sans-serif" font-size="20" fill="#a78bfa" text-anchor="middle">&#8594;</text>
+
+  <rect x="220" y="266" width="176" height="50" rx="10" fill="#faf5ff" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="308" y="288" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#5b21b6" text-anchor="middle">Избери от 12</text>
+  <text x="308" y="303" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#5b21b6" text-anchor="middle">обърнати карти</text>
+
+  <text x="405" y="296" font-family="system-ui, sans-serif" font-size="20" fill="#a78bfa" text-anchor="middle">&#8594;</text>
+
+  <rect x="420" y="266" width="176" height="50" rx="10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="508" y="288" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#4c1d95" text-anchor="middle">3 еднакви бои</text>
+  <text x="508" y="303" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#4c1d95" text-anchor="middle">печелят нивото</text>
+
+  <text x="300" y="344" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">18+ Играйте отговорно · нивата на джакпота се виждат горе на екрана</text>
+</svg>
