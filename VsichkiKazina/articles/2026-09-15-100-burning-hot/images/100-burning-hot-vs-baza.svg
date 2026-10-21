@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" role="img" aria-label="Сравнение между базовия Burning Hot с 5 линии и 100 Burning Hot със 100 линии: повече линии означават по-чести дребни попадения, но и по-висок общ залог за завъртане, докато RTP не се подобрява">
+  <title>Burning Hot (5 линии) срещу 100 Burning Hot (100 линии)</title>
+  <rect width="600" height="300" rx="12" ry="12" fill="#fffaf3"/>
+  <text x="300" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#7c2d12" text-anchor="middle">Какво сменят 100-те линии</text>
+
+  <!-- Base -->
+  <rect x="30" y="56" width="255" height="200" rx="10" fill="#fff7ed" stroke="#fb923c" stroke-width="1.5"/>
+  <text x="157" y="82" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#9a3412" text-anchor="middle">Burning Hot (базата)</text>
+  <text x="50" y="114" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#9a3412">5 линии на печалба</text>
+  <text x="50" y="142" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#9a3412">Ниска волатилност</text>
+  <text x="50" y="170" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#9a3412">По-нисък залог за завъртане</text>
+  <text x="50" y="198" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#9a3412">По-редки, но по-едри линии</text>
+
+  <!-- 100 -->
+  <rect x="315" y="56" width="255" height="200" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="442" y="82" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#b45309" text-anchor="middle">100 Burning Hot</text>
+  <text x="335" y="114" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#b45309">100 линии на печалба</text>
+  <text x="335" y="142" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#b45309">Средна волатилност (ниво 3)</text>
+  <text x="335" y="170" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#b45309">По-висок общ залог (всяка линия)</text>
+  <text x="335" y="198" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#b45309">По-чести, но по-дребни попадения</text>
+  <text x="335" y="226" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#b45309">+ Jackpot Cards mystery</text>
+
+  <text x="300" y="278" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#7c2d12" text-anchor="middle">RTP не се подобрява от повече линии · 18+ Играйте отговорно</text>
+</svg>
