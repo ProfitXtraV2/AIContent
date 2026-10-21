@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-label="100 евро депозит плюс 100 евро бонус е 200 евро, разиграване по 35 върху депозит и бонус дава 7000 евро оборот на стъпки до 5 евро; залог от 6 евро над тавана анулира бонуса и печалбата">
+  <rect x="12" y="12" width="696" height="296" rx="16" fill="#f7f9fc" stroke="#d7dee8" stroke-width="1.5"/>
+  <text x="36" y="44" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#1f2a37">Бонус с таван на залога</text>
+
+  <text x="36" y="82" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#2b3647">€100 депозит + €100 бонус = €200</text>
+  <text x="36" y="110" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#2b3647">разиграване ×35 върху депозит+бонус = €7 000 оборот</text>
+  <text x="36" y="138" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#2b3647">на стъпки до €5: поне 1 400 завъртания</text>
+
+  <text x="389" y="174" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#b4453b">залог €6</text>
+  <rect x="36" y="186" width="294" height="40" rx="5" fill="#2f8f6b"/>
+  <rect x="330" y="186" width="250" height="40" rx="5" fill="#e7b7b2"/>
+  <line x1="330" y1="178" x2="330" y2="234" stroke="#1f2a37" stroke-width="2"/>
+  <line x1="389" y1="180" x2="389" y2="186" stroke="#b4453b" stroke-width="2"/>
+  <text x="183" y="211" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#ffffff">позволено ≤ €5</text>
+  <text x="455" y="211" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#8a2f28">над €5 = нарушение</text>
+
+  <text x="36" y="266" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#2b3647">Един залог €6 анулира бонуса и печалбата от него.</text>
+  <text x="36" y="294" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#6b7686">Числата са примерни при посочените условия. · 18+ Играйте отговорно</text>
+</svg>
