@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-label="Инфографика за Gonzo's Treasure Hunt на Evolution. Живо шоу на откриване с 70 плочки и 6 вида камъни. Изплащания по камък: кафяв 1 към 1, оранжев 2 към 1, лилав 4 към 1, зелен 8 към 1, син 20 към 1, червен 65 към 1. Между 0 и 7 бонус награди по горния ръб: множители от 2x до 10x и бонус стойности от 3 до 100. От 1 до 20 избора на рунд; повече избори означават по-голям залог. RTP около 96,56 процента, висока волатилност, общ таван 1 000 000 евро. Изборът на камъни и брой избори усеща като контрол, но откриването на плочките е случайно.">
+  <rect x="8" y="8" width="704" height="544" rx="18" fill="#0f172a"/>
+
+  <text x="32" y="42" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#f8fafc">Gonzo's Treasure Hunt: как се смята</text>
+  <text x="32" y="64" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Живо шоу на откриване · 70 плочки · 6 камъка · оръдието сваля множителите.</text>
+
+  <text x="32" y="98" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fbbf24">Камъните и техните изплащания</text>
+
+  <g stroke="#1e293b" stroke-width="1">
+    <line x1="32" y1="110" x2="360" y2="110"/>
+    <line x1="32" y1="138" x2="360" y2="138"/>
+    <line x1="32" y1="166" x2="360" y2="166"/>
+    <line x1="32" y1="194" x2="360" y2="194"/>
+    <line x1="32" y1="222" x2="360" y2="222"/>
+    <line x1="32" y1="250" x2="360" y2="250"/>
+    <line x1="32" y1="278" x2="360" y2="278"/>
+  </g>
+  <text x="48" y="128" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Кафяв</text>
+  <text x="344" y="128" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">1:1</text>
+  <text x="48" y="156" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Оранжев</text>
+  <text x="344" y="156" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">2:1</text>
+  <text x="48" y="184" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Лилав</text>
+  <text x="344" y="184" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">4:1</text>
+  <text x="48" y="212" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Зелен</text>
+  <text x="344" y="212" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">8:1</text>
+  <text x="48" y="240" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Син</text>
+  <text x="344" y="240" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">20:1</text>
+  <text x="48" y="268" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Червен</text>
+  <text x="344" y="268" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fbbf24" text-anchor="end">65:1</text>
+
+  <text x="392" y="98" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fbbf24">Prize Drop и данни</text>
+  <text x="392" y="126" font-family="Arial, sans-serif" font-size="12.5" fill="#cbd5e1">Бонус награди по ръба: между 0 и 7.</text>
+  <text x="392" y="148" font-family="Arial, sans-serif" font-size="12.5" fill="#cbd5e1">Множители: 2x – 10x.</text>
+  <text x="392" y="170" font-family="Arial, sans-serif" font-size="12.5" fill="#cbd5e1">Бонус стойности: 3 – 100.</text>
+  <text x="392" y="192" font-family="Arial, sans-serif" font-size="12.5" fill="#cbd5e1">Избори на рунд: 1 – 20.</text>
+  <text x="392" y="220" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">RTP (официален)</text>
+  <text x="688" y="220" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#4ade80" text-anchor="end">≈ 96,56%</text>
+  <text x="392" y="246" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Волатилност</text>
+  <text x="688" y="246" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">висока</text>
+  <text x="392" y="272" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Общ таван</text>
+  <text x="688" y="272" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">€1 000 000</text>
+
+  <line x1="32" y1="310" x2="688" y2="310" stroke="#1e293b" stroke-width="1"/>
+
+  <text x="32" y="344" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fbbf24">Цената на избора</text>
+  <text x="32" y="366" font-family="Arial, sans-serif" font-size="12.5" fill="#cbd5e1">Залог = брой избори × сбор на залозите по камъни.</text>
+  <text x="32" y="386" font-family="Arial, sans-serif" font-size="12.5" fill="#cbd5e1">Повече избори = по-голям шанс за попадение, но и по-голям залог.</text>
+
+  <text x="32" y="420" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fbbf24">Честният ъгъл</text>
+  <text x="32" y="442" font-family="Arial, sans-serif" font-size="12.5" fill="#f8fafc">Изборът на камъни и брой избори усеща като контрол, но откриването</text>
+  <text x="32" y="460" font-family="Arial, sans-serif" font-size="12.5" fill="#f8fafc">на плочките е случайно. Множителите падат по машинен ред, не по твой.</text>
+  <text x="32" y="478" font-family="Arial, sans-serif" font-size="12.5" fill="#f8fafc">По-високият коефициент (65:1) е цена на риска, не отстъпка.</text>
+
+  <rect x="32" y="510" width="656" height="30" rx="6" fill="#111f38"/>
+  <text x="44" y="529" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Официални и примерни стойности; лимитите зависят от версията при оператора. 18+ Играйте отговорно.</text>
+</svg>
