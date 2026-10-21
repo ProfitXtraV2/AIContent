@@ -1,0 +1,11 @@
+- 02.10.2026 research: Wizard of Odds (perfect-pairs, 21plus3, baccarat basics, ask-the-wizard baccarat, gambling/house-edge) + own exact recomputation of PP, 21+3, baccarat pair/tie → 00-brief.md
+- 01-synthesis: done; task-brief range (PP 2-11%, 21+3 2-13%) resolved to exact table+deck pairs (conflict logged, no A/B in text)
+- 01.5-outline: 5 sections, deliberately different shapes
+- 02-draft: persona voice, no anecdotes (1 065 tokens incl. markup)
+- 03-humanised: broke wrap-up aphorisms, removed debunk shape, added hit-frequency substance; numdiff: only additions (1,61%, 5/311)
+- 04-seo: title 52 chars, meta 126 chars, keyword coverage (side bet, перфектна двойка, 21+3); meta range corrected to 22,33% at gate
+- 05-gate: PASS WITH FIXES → 92/100, 0 critical, 6 moderate fixed
+- 05b: assembled with footer; em-dashes 0; images added in Step 8
+- 07 gemini check 1: Likely human-written 85% → PASS, no humaniser pass, kept initial 05b (07-gemini-check-1.md)
+- 08 images: SVG infographic (numbers verbatim from 05b, rendered to PNG and eyeballed, no overlap) + Gemini-generated metaphor hero; review 1 score 100 PASS (08-image-review-1.md)
+- 06 verification written; finalize
