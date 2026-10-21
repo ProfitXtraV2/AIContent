@@ -1,0 +1,12 @@
+# log — Инструменти за отговорна игра (vk-0172) — 2026-09-25
+- Synthesis: escalation-ladder framing; контрол, не слабост; лимити преди депозит.
+- Outline: 6 sections + 1 explanatory diagram; 4 internal links.
+- Author: full BG draft; ONLY verified facts; unverified specifics omitted (not fabricated).
+- Humaniser: solidarity tone, varied rhythm, 0 em-dashes, asymmetric ending.
+- SEO: title/meta; primary „инструменти за отговорна игра"; secondary woven.
+- Brand Gate: PASS 95/100, 0 criticals; RG pillar full marks (subject itself).
+- Light re-check: facts consistent across stages; register name in statutory+colloquial form.
+- Images: 1 SVG ladder infographic, rendered+eyeballed clean; AI hero skipped (402).
+- Verification: 0 flags; regulatory claims sourced (чл.10г ЗХ + НАП); nra.bg 503 noted for Step-6.
+- Step 7 Gemini: skipped (402). Step 8 review: skipped (402), integrity OK.
+- PR: pending.
