@@ -1,0 +1,12 @@
+# log.md — chargeback-kazino (vk-0232)
+- 00-brief: web-researched card-scheme + consumer-dispute sources (5); scope-checked IN SCOPE (concept, 0 operator/НАП). 
+- 01-synthesis: thesis = separate legitimate payment-defect dispute from voluntary-loss clawback.
+- 01.5-outline: 7 beats, licence-first, 5 live internal links.
+- 02-author: Георги Тодоров persona draft.
+- 03-humaniser: symmetry/signposting broken; asymmetric outro; untouchables preserved.
+- 04-seo: title/meta/headings tuned; kw natural; ~961 words.
+- 05-brand-gate: PASS WITH FIXES 93/100, 0 criticals.
+- 05b: locked.
+- 07-gemini (Step 7): see 07-gemini-check-*.md.
+- 08-images (Step 8): 1 SVG infographic (chargeback-koga-raboti.svg) + optional AI hero; see 08-image-review-*.md.
+- NUMBER DIFF across stages: only „60 до 120 дни" — unchanged throughout; 0 added/dropped.
