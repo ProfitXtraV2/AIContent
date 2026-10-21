@@ -1,0 +1,3 @@
+# 03-HUMANISED — Gems Bonanza
+
+Humaniser pass over 02-draft: broke any fact→meaning→example→takeaway template repetition by varying section shapes (short intro, one dense modifiers paragraph, mechanics-led Gold Fever section, worked-€ RTP section, comparison section). Removed signposting lead-ins, varied sentence length, asymmetric ending ("тук ще намериш Gold Fever вместо тях" / "таван, а не очакване"), zero rhetorical-question openers. NO number touched — all figures from 02-draft preserved verbatim. Untouchables preserved: 18+ line, RG block, affiliate footer, byline, brand, all 3 [VERIFY] flags. Result carried to 04-seo.

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="900" height="360" role="img" aria-label="Абстрактна илюстрация на мрежа от цветни скъпоценни камъни, като свързан блок от еднакви камъни е откроен и се разпада надолу, вдъхновена от клъстер механиката на Gems Bonanza">
+  <title>Gems Bonanza: клъстер механика на мрежа 8×8 (концептуална илюстрация)</title>
+  <defs>
+    <linearGradient id="hbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="gemA" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f472b6"/><stop offset="100%" stop-color="#db2777"/></linearGradient>
+    <linearGradient id="gemB" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#38bdf8"/><stop offset="100%" stop-color="#0284c7"/></linearGradient>
+    <linearGradient id="gemC" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4ade80"/><stop offset="100%" stop-color="#16a34a"/></linearGradient>
+    <linearGradient id="gemD" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fbbf24"/><stop offset="100%" stop-color="#d97706"/></linearGradient>
+    <linearGradient id="gemE" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#a78bfa"/><stop offset="100%" stop-color="#7c3aed"/></linearGradient>
+  </defs>
+
+  <rect width="900" height="360" rx="16" fill="url(#hbg)"/>
+
+  <!-- 8x8 grid of gem diamonds; a connected pink cluster is highlighted -->
+  <g stroke="#0f172a" stroke-width="1.5">
+    <!-- helper: each gem is a rotated rounded square (diamond). Rows y=40..320 step40, cols x=470..750 step40 -->
+    <!-- Row 1 -->
+    <rect x="466" y="36" width="28" height="28" rx="6" transform="rotate(45 480 50)" fill="url(#gemB)"/>
+    <rect x="506" y="36" width="28" height="28" rx="6" transform="rotate(45 520 50)" fill="url(#gemD)"/>
+    <rect x="546" y="36" width="28" height="28" rx="6" transform="rotate(45 560 50)" fill="url(#gemC)"/>
+    <rect x="586" y="36" width="28" height="28" rx="6" transform="rotate(45 600 50)" fill="url(#gemE)"/>
+    <rect x="626" y="36" width="28" height="28" rx="6" transform="rotate(45 640 50)" fill="url(#gemB)"/>
+    <rect x="666" y="36" width="28" height="28" rx="6" transform="rotate(45 680 50)" fill="url(#gemD)"/>
+    <rect x="706" y="36" width="28" height="28" rx="6" transform="rotate(45 720 50)" fill="url(#gemC)"/>
+    <rect x="746" y="36" width="28" height="28" rx="6" transform="rotate(45 760 50)" fill="url(#gemE)"/>
+    <!-- Row 2 -->
+    <rect x="466" y="76" width="28" height="28" rx="6" transform="rotate(45 480 90)" fill="url(#gemC)"/>
+    <rect x="506" y="76" width="28" height="28" rx="6" transform="rotate(45 520 90)" fill="url(#gemA)"/>
+    <rect x="546" y="76" width="28" height="28" rx="6" transform="rotate(45 560 90)" fill="url(#gemA)"/>
+    <rect x="586" y="76" width="28" height="28" rx="6" transform="rotate(45 600 90)" fill="url(#gemD)"/>
+    <rect x="626" y="76" width="28" height="28" rx="6" transform="rotate(45 640 90)" fill="url(#gemE)"/>
+    <rect x="666" y="76" width="28" height="28" rx="6" transform="rotate(45 680 90)" fill="url(#gemB)"/>
+    <rect x="706" y="76" width="28" height="28" rx="6" transform="rotate(45 720 90)" fill="url(#gemC)"/>
+    <rect x="746" y="76" width="28" height="28" rx="6" transform="rotate(45 760 90)" fill="url(#gemD)"/>
+    <!-- Row 3 -->
+    <rect x="466" y="116" width="28" height="28" rx="6" transform="rotate(45 480 130)" fill="url(#gemD)"/>
+    <rect x="506" y="116" width="28" height="28" rx="6" transform="rotate(45 520 130)" fill="url(#gemA)"/>
+    <rect x="546" y="116" width="28" height="28" rx="6" transform="rotate(45 560 130)" fill="url(#gemA)"/>
+    <rect x="586" y="116" width="28" height="28" rx="6" transform="rotate(45 600 130)" fill="url(#gemA)"/>
+    <rect x="626" y="116" width="28" height="28" rx="6" transform="rotate(45 640 130)" fill="url(#gemC)"/>
+    <rect x="666" y="116" width="28" height="28" rx="6" transform="rotate(45 680 130)" fill="url(#gemE)"/>
+    <rect x="706" y="116" width="28" height="28" rx="6" transform="rotate(45 720 130)" fill="url(#gemB)"/>
+    <rect x="746" y="116" width="28" height="28" rx="6" transform="rotate(45 760 130)" fill="url(#gemC)"/>
+    <!-- Row 4 -->
+    <rect x="466" y="156" width="28" height="28" rx="6" transform="rotate(45 480 170)" fill="url(#gemE)"/>
+    <rect x="506" y="156" width="28" height="28" rx="6" transform="rotate(45 520 170)" fill="url(#gemC)"/>
+    <rect x="546" y="156" width="28" height="28" rx="6" transform="rotate(45 560 170)" fill="url(#gemA)"/>
+    <rect x="586" y="156" width="28" height="28" rx="6" transform="rotate(45 600 170)" fill="url(#gemD)"/>
+    <rect x="626" y="156" width="28" height="28" rx="6" transform="rotate(45 640 170)" fill="url(#gemB)"/>
+    <rect x="666" y="156" width="28" height="28" rx="6" transform="rotate(45 680 170)" fill="url(#gemD)"/>
+    <rect x="706" y="156" width="28" height="28" rx="6" transform="rotate(45 720 170)" fill="url(#gemE)"/>
+    <rect x="746" y="156" width="28" height="28" rx="6" transform="rotate(45 760 170)" fill="url(#gemA)"/>
+    <!-- Row 5 -->
+    <rect x="466" y="196" width="28" height="28" rx="6" transform="rotate(45 480 210)" fill="url(#gemB)"/>
+    <rect x="506" y="196" width="28" height="28" rx="6" transform="rotate(45 520 210)" fill="url(#gemE)"/>
+    <rect x="546" y="196" width="28" height="28" rx="6" transform="rotate(45 560 210)" fill="url(#gemC)"/>
+    <rect x="586" y="196" width="28" height="28" rx="6" transform="rotate(45 600 210)" fill="url(#gemD)"/>
+    <rect x="626" y="196" width="28" height="28" rx="6" transform="rotate(45 640 210)" fill="url(#gemA)"/>
+    <rect x="666" y="196" width="28" height="28" rx="6" transform="rotate(45 680 210)" fill="url(#gemC)"/>
+    <rect x="706" y="196" width="28" height="28" rx="6" transform="rotate(45 720 210)" fill="url(#gemB)"/>
+    <rect x="746" y="196" width="28" height="28" rx="6" transform="rotate(45 760 210)" fill="url(#gemE)"/>
+    <!-- Row 6 -->
+    <rect x="466" y="236" width="28" height="28" rx="6" transform="rotate(45 480 250)" fill="url(#gemD)"/>
+    <rect x="506" y="236" width="28" height="28" rx="6" transform="rotate(45 520 250)" fill="url(#gemB)"/>
+    <rect x="546" y="236" width="28" height="28" rx="6" transform="rotate(45 560 250)" fill="url(#gemE)"/>
+    <rect x="586" y="236" width="28" height="28" rx="6" transform="rotate(45 600 250)" fill="url(#gemC)"/>
+    <rect x="626" y="236" width="28" height="28" rx="6" transform="rotate(45 640 250)" fill="url(#gemD)"/>
+    <rect x="666" y="236" width="28" height="28" rx="6" transform="rotate(45 680 250)" fill="url(#gemA)"/>
+    <rect x="706" y="236" width="28" height="28" rx="6" transform="rotate(45 720 250)" fill="url(#gemC)"/>
+    <rect x="746" y="236" width="28" height="28" rx="6" transform="rotate(45 760 250)" fill="url(#gemB)"/>
+  </g>
+
+  <!-- highlight ring around the connected pink cluster (col2-3 rows2-4) -->
+  <path d="M498 74 q0 -8 8 -8 h28 q8 0 8 8 v40 q0 8 8 8 h0 q-8 0 -8 8 v28 q0 8 -8 8 h-28 q-8 0 -8 -8 v-104 z" fill="none" stroke="#fde047" stroke-width="3" opacity="0.9"/>
+  <circle cx="520" cy="130" r="52" fill="none" stroke="#fde047" stroke-width="2.5" stroke-dasharray="5,5" opacity="0.55"/>
+
+  <!-- tumble arrows below grid -->
+  <g fill="#fde047" opacity="0.8">
+    <path d="M512 288 l16 0 l-8 14 z"/>
+    <path d="M552 288 l16 0 l-8 14 z"/>
+    <path d="M592 288 l16 0 l-8 14 z"/>
+  </g>
+
+  <!-- Left text panel -->
+  <text x="60" y="120" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="800" fill="#f8fafc">Клъстери,</text>
+  <text x="60" y="162" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="800" fill="#f8fafc">не линии</text>
+  <text x="60" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#94a3b8">5+ свързани камъка образуват печалба,</text>
+  <text x="60" y="222" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#94a3b8">после се разпадат и падат нови.</text>
+  <text x="60" y="300" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#64748b">18+ Играйте отговорно</text>
+</svg>
