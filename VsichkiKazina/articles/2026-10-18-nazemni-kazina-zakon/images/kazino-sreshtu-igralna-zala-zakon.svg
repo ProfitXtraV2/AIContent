@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" width="760" height="560" font-family="'Segoe UI', 'DejaVu Sans', Arial, sans-serif" role="img" aria-label="Сравнение по Закона за хазарта между игрално казино и игрална зала: минимален капитал 1 500 000 лв. за казино и 750 000 лв. за зала, вид дружество, лиценз за всяка игра, игри на място, регистър на посетителите и видеоконтрол по чл. 74 само за казино, отстояние 300 метра и допускане само на пълнолетни 18 плюс.">
+  <rect x="8" y="8" width="744" height="544" rx="16" fill="#ffffff" stroke="#d9e0ea" stroke-width="2"/>
+  <!-- title -->
+  <text x="380" y="44" text-anchor="middle" font-size="21" font-weight="700" fill="#16263f">Казино срещу игрална зала по закона</text>
+  <text x="380" y="68" text-anchor="middle" font-size="12" fill="#5a6b82">Изисквания на Закона за хазарта (ЗХ) към наземните обекти</text>
+
+  <!-- casino column highlight band -->
+  <rect x="310" y="88" width="250" height="406" rx="10" fill="#eef6f1"/>
+
+  <!-- column headers -->
+  <text x="32" y="110" text-anchor="start" font-size="13" font-weight="700" fill="#16263f">Изискване</text>
+  <text x="435" y="110" text-anchor="middle" font-size="14" font-weight="700" fill="#0e7a53">Игрално казино</text>
+  <text x="650" y="110" text-anchor="middle" font-size="14" font-weight="700" fill="#43546b">Игрална зала</text>
+  <line x1="24" y1="120" x2="736" y2="120" stroke="#c7d2e0" stroke-width="1.5"/>
+
+  <!-- row 1 -->
+  <text x="32" y="152" text-anchor="start" font-size="13" fill="#2a3a52">Минимален капитал</text>
+  <text x="435" y="152" text-anchor="middle" font-size="14" font-weight="700" fill="#0e7a53">1 500 000 лв.</text>
+  <text x="650" y="152" text-anchor="middle" font-size="14" font-weight="700" fill="#43546b">750 000 лв.</text>
+  <line x1="24" y1="166" x2="736" y2="166" stroke="#edf1f6" stroke-width="1"/>
+
+  <!-- row 2 -->
+  <text x="32" y="198" text-anchor="start" font-size="13" fill="#2a3a52">Вид дружество</text>
+  <text x="435" y="198" text-anchor="middle" font-size="12" fill="#1c4d3a">ООД/АД с поименни акции</text>
+  <text x="650" y="198" text-anchor="middle" font-size="12" fill="#43546b">ООД или АД</text>
+  <line x1="24" y1="212" x2="736" y2="212" stroke="#edf1f6" stroke-width="1"/>
+
+  <!-- row 3 -->
+  <text x="32" y="244" text-anchor="start" font-size="13" fill="#2a3a52">Лиценз</text>
+  <text x="435" y="244" text-anchor="middle" font-size="12" fill="#1c4d3a">отделен за всяка игра</text>
+  <text x="650" y="244" text-anchor="middle" font-size="12" fill="#43546b">за автоматите</text>
+  <line x1="24" y1="258" x2="736" y2="258" stroke="#edf1f6" stroke-width="1"/>
+
+  <!-- row 4 (two-line cells) -->
+  <text x="32" y="298" text-anchor="start" font-size="13" fill="#2a3a52">Игри на място</text>
+  <text x="435" y="290" text-anchor="middle" font-size="12" fill="#1c4d3a">маси с крупие</text>
+  <text x="435" y="308" text-anchor="middle" font-size="12" fill="#1c4d3a">и игрални автомати</text>
+  <text x="650" y="290" text-anchor="middle" font-size="12" fill="#43546b">само игрални</text>
+  <text x="650" y="308" text-anchor="middle" font-size="12" fill="#43546b">автомати</text>
+  <line x1="24" y1="326" x2="736" y2="326" stroke="#edf1f6" stroke-width="1"/>
+
+  <!-- row 5 -->
+  <text x="32" y="358" text-anchor="start" font-size="13" fill="#2a3a52">Регистър на посетителите</text>
+  <text x="435" y="358" text-anchor="middle" font-size="12" font-weight="700" fill="#0e7a53">Да (чл. 74)</text>
+  <text x="650" y="358" text-anchor="middle" font-size="12" fill="#43546b">Не</text>
+  <line x1="24" y1="372" x2="736" y2="372" stroke="#edf1f6" stroke-width="1"/>
+
+  <!-- row 6 -->
+  <text x="32" y="404" text-anchor="start" font-size="13" fill="#2a3a52">Видеоконтрол на масите</text>
+  <text x="435" y="404" text-anchor="middle" font-size="12" font-weight="700" fill="#0e7a53">Да (чл. 74, ал. 2)</text>
+  <text x="650" y="404" text-anchor="middle" font-size="12" fill="#43546b">Не</text>
+  <line x1="24" y1="418" x2="736" y2="418" stroke="#edf1f6" stroke-width="1"/>
+
+  <!-- row 7 -->
+  <text x="32" y="450" text-anchor="start" font-size="13" fill="#2a3a52">Отстояние от училища</text>
+  <text x="435" y="450" text-anchor="middle" font-size="13" fill="#1c4d3a">300 м</text>
+  <text x="650" y="450" text-anchor="middle" font-size="13" fill="#43546b">300 м</text>
+  <line x1="24" y1="464" x2="736" y2="464" stroke="#edf1f6" stroke-width="1"/>
+
+  <!-- row 8 -->
+  <text x="32" y="486" text-anchor="start" font-size="13" fill="#2a3a52">Допускат се</text>
+  <text x="435" y="486" text-anchor="middle" font-size="13" font-weight="700" fill="#1c4d3a">само 18+</text>
+  <text x="650" y="486" text-anchor="middle" font-size="13" font-weight="700" fill="#43546b">само 18+</text>
+
+  <!-- footer -->
+  <text x="380" y="528" text-anchor="middle" font-size="11" fill="#7a8699">Източник: Закон за хазарта (ЗХ). Надзор: НАП. 18+ Играйте отговорно.</text>
+</svg>
