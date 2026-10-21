@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-label="Примерна разлика между RNG и RTP: при RTP 96 процента и 1000 евро заложени средно се връщат 960 евро, а 40 евро (4 процента) са домашно предимство.">
+  <rect x="0" y="0" width="760" height="300" fill="#f4f7f9"/>
+  <rect x="8" y="8" width="744" height="284" rx="12" fill="#ffffff" stroke="#cdd9e0" stroke-width="1"/>
+  <text x="30" y="42" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#1f2933">RNG и RTP: две различни неща (примерни числа)</text>
+  <text x="30" y="72" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#33414c">Примерна ротативка: RTP 96%, €1000 общо заложени</text>
+
+  <!-- bar -->
+  <clipPath id="bar-clip"><rect x="30" y="88" width="700" height="52" rx="4"/></clipPath>
+  <g clip-path="url(#bar-clip)">
+    <rect x="30" y="88" width="672" height="52" fill="#2f8f6b"/>
+    <rect x="702" y="88" width="28" height="52" fill="#d98a3a"/>
+  </g>
+  <rect x="30" y="88" width="700" height="52" rx="4" fill="none" stroke="#b8c6cf" stroke-width="1"/>
+  <text x="366" y="120" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#ffffff">€960 върнати (96%)</text>
+
+  <!-- legend -->
+  <g font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#33414c">
+    <rect x="30" y="164" width="13" height="13" fill="#2f8f6b"/>
+    <text x="50" y="175">€960 върнати (96%): средно връщане в много дълъг период</text>
+    <rect x="30" y="188" width="13" height="13" fill="#d98a3a"/>
+    <text x="50" y="199">€40 (4%): домашно предимство на казиното</text>
+  </g>
+
+  <!-- RNG vs RTP distinction -->
+  <line x1="30" y1="220" x2="730" y2="220" stroke="#e0e7ec" stroke-width="1"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1f2933">
+    <text x="30" y="244"><tspan font-weight="700" fill="#15466b">RNG</tspan> решава всяко отделно завъртане и го прави непредвидимо.</text>
+    <text x="30" y="266"><tspan font-weight="700" fill="#15466b">RTP</tspan> описва накъде клони сборът след милиони завъртания.</text>
+  </g>
+  <text x="730" y="286" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#8a5a1f">18+ Играйте отговорно</text>
+</svg>
