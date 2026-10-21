@@ -1,0 +1,2 @@
+# 02-DRAFT (author/persona, pre-humaniser) — lichni-danni-gdpr-kazino
+Authored in Георги Тодоров register from brief + outline. Only quantitative item: AML retention „обикновено около пет години" (qualitative). NUMBER DIFF 02↔03↔04↔05b: „пет години" carried unchanged; GDPR citation „Регламент (ЕС) 2016/679" unchanged; 0 numbers added/dropped. Refined by Humaniser (03), SEO (04), Brand Gate (05) → 05b.

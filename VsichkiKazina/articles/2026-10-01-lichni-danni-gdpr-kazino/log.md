@@ -1,0 +1,11 @@
+# log.md — lichni-danni-gdpr-kazino (vk-0234)
+- 00-brief: web-researched GDPR + AML sources (5); scope IN (public law, no operator/НАП, no operator named).
+- 01/01.5: thesis = data is the other price; honest erasure limit; licence-first; 4 live links.
+- 02-author: Георги Тодоров persona draft.
+- 03-humaniser: style fixes; one natural RG touch; untouchables kept; Verb+ли avoided.
+- 04-seo: title/meta/headings tuned; ~841 words.
+- 05-brand-gate: PASS WITH FIXES (see 05-gate-report.md), 0 criticals.
+- 05b: locked.
+- 07-gemini (Step 7): see 07-gemini-check-*.md.
+- 08-images (Step 8): 1 SVG (lichni-danni-gdpr-kazino.svg) + 1 AI hero; see 08-image-review-*.md.
+- NUMBER DIFF: only „около пет години" (AML retention, qualitative) + GDPR citation „Регламент (ЕС) 2016/679"; unchanged across stages; 0 fabricated.
