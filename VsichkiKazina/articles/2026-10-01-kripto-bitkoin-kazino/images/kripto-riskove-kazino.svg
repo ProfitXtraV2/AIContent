@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 452" width="720" height="452" role="img" aria-label="Четирите основни риска на крипто депозита в онлайн казино: необратимо плащане без chargeback, волатилност на курса която топи депозита и печалбата, липса на регулатор при офшорните оператори с лиценз от Кюрасао, и липса на стандартни защити за играча при спор. При лицензиран от НАП оператор плащането е в евро през регулирани методи.">
+  <title>Четирите риска на крипто депозита в онлайн казино и регулираната алтернатива</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="720" height="452" rx="14" ry="14" fill="url(#bg)"/>
+
+  <text x="360" y="36" font-family="system-ui, -apple-system, sans-serif" font-size="16.5" font-weight="700" fill="#1f2937" text-anchor="middle">Крипто депозит в казино: четирите риска</text>
+  <text x="360" y="55" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="middle">какво идва заедно с биткойна при офшорните оператори</text>
+
+  <!-- Tile 1 -->
+  <rect x="40" y="72" width="300" height="104" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.4"/>
+  <text x="60" y="104" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="700" fill="#b91c1c">1. Необратимо плащане</text>
+  <text x="60" y="128" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#991b1b">няма chargeback, няма банка за</text>
+  <text x="60" y="144" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#991b1b">оспорване; сбъркан адрес = загуба</text>
+
+  <!-- Tile 2 -->
+  <rect x="380" y="72" width="300" height="104" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="1.4"/>
+  <text x="400" y="104" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="700" fill="#b45309">2. Волатилност на курса</text>
+  <text x="400" y="128" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#92400e">депозитът и печалбата губят</text>
+  <text x="400" y="144" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#92400e">стойност от движението на пазара</text>
+
+  <!-- Tile 3 -->
+  <rect x="40" y="188" width="300" height="104" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.4"/>
+  <text x="60" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="700" fill="#b91c1c">3. Без регулатор</text>
+  <text x="60" y="244" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#991b1b">офшорен лиценз (Кюрасао);</text>
+  <text x="60" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#991b1b">НАП няма лост върху сайта</text>
+
+  <!-- Tile 4 -->
+  <rect x="380" y="188" width="300" height="104" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.4"/>
+  <text x="400" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="700" fill="#b91c1c">4. Без защита при спор</text>
+  <text x="400" y="244" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#991b1b">липсват стандартни защити</text>
+  <text x="400" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#991b1b">за играча; оставаш сам</text>
+
+  <!-- НАП banner -->
+  <rect x="40" y="306" width="640" height="50" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+  <text x="360" y="328" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="700" fill="#047857" text-anchor="middle">При лицензиран от НАП оператор: плащане в евро, през регулирани методи</text>
+  <text x="360" y="346" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#059669" text-anchor="middle">с верификация и реален адрес за оплакване; провери лиценза, преди да депозираш</text>
+
+  <text x="360" y="392" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#9ca3af" text-anchor="middle">18+ Играйте отговорно · методът на плащане издава регулаторния статус</text>
+</svg>
