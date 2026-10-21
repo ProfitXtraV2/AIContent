@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 512" role="img" aria-label="Lightning Storm на Evolution: колело DigiWheel с 39 сегмента и 5 бонус игри. RTP на равния залог Leaf 1:1 е 97.44%, при 1000 евро оборот се връщат около 974 евро и около 26 евро остават за казиното. RTP на числовите и chaser залозите е 95.13%, при 1000 евро оборот се връщат около 951 евро и около 49 евро остават за казиното. Четири бонуса до 10 000x, Lightning Storm бонус до 20 000x, върхов множител 20 000x, изключително рядък. Примерни стойности, RTP зависи от вида залог, 18 плюс, играйте отговорно.">
+  <rect x="8" y="8" width="704" height="496" rx="18" fill="#0f172a"/>
+
+  <text x="32" y="46" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="19" font-weight="bold" fill="#f8fafc">Lightning Storm: RTP по вид залог и множители</text>
+  <text x="32" y="68" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#94a3b8">Live game show на Evolution, колело DigiWheel с 39 сегмента и 5 бонус игри</text>
+
+  <rect x="32" y="88" width="320" height="150" rx="12" fill="#111f38"/>
+  <text x="48" y="116" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Равен залог (Leaf), 1:1</text>
+  <text x="48" y="122" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#94a3b8"><tspan x="48" dy="18">RTP (най-висок)</tspan></text>
+  <text x="48" y="176" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="30" font-weight="bold" fill="#4ade80">97.44%</text>
+  <text x="48" y="204" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#e2e8f0">1000 EUR оборот: около 974 EUR обратно</text>
+  <text x="48" y="224" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#cbd5e1">около 26 EUR остават за казиното</text>
+
+  <rect x="368" y="88" width="320" height="150" rx="12" fill="#111f38"/>
+  <text x="384" y="116" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Числови и chaser залози</text>
+  <text x="384" y="122" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#94a3b8"><tspan x="384" dy="18">RTP (по-нисък)</tspan></text>
+  <text x="384" y="176" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="30" font-weight="bold" fill="#fbbf24">95.13%</text>
+  <text x="384" y="204" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#e2e8f0">1000 EUR оборот: около 951 EUR обратно</text>
+  <text x="384" y="224" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#cbd5e1">около 49 EUR остават за казиното</text>
+
+  <text x="32" y="286" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Структура и множители</text>
+
+  <text x="48" y="318" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#e2e8f0">Колело DigiWheel: <tspan font-weight="bold" fill="#f8fafc">39 сегмента</tspan>, начални множители 2x до 50x</text>
+  <text x="48" y="344" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#e2e8f0"><tspan font-weight="bold" fill="#f8fafc">5 бонус игри</tspan> с гарантирани множители</text>
+  <text x="48" y="370" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#e2e8f0">Четири бонуса до <tspan font-weight="bold" fill="#fbbf24">10 000x</tspan>, Lightning Storm бонус до <tspan font-weight="bold" fill="#f8fafc">20 000x</tspan></text>
+  <text x="48" y="396" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#cbd5e1">Върхов множител: <tspan font-weight="bold" fill="#f8fafc">20 000x</tspan>, изисква изключително рядка верига</text>
+
+  <rect x="32" y="424" width="656" height="40" rx="10" fill="#111f38"/>
+  <text x="48" y="449" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#cbd5e1">Колкото по-зрелищен е залогът, толкова по-нисък е дългосрочният RTP.</text>
+
+  <text x="32" y="490" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#94a3b8">Примерни стойности; RTP зависи от вида залог. 18+ Играйте отговорно.</text>
+</svg>
