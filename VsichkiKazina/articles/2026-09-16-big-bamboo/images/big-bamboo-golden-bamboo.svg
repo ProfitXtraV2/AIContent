@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" role="img" aria-label="Golden Bamboo при Big Bamboo: моментни награди от 1x до 5000x, множители 2x, 3x, 5x и 10x, а таванът на играта е 50 000x">
+  <title>Big Bamboo: какво пуска функцията Golden Bamboo</title>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fffdf5"/>
+      <stop offset="100%" stop-color="#f4ecd6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="300" rx="12" ry="12" fill="url(#bg2)"/>
+
+  <text x="300" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="#7c5e10" text-anchor="middle">Golden Bamboo: какво пада в бонуса</text>
+
+  <!-- Card 1: instant prize -->
+  <rect x="40" y="70" width="160" height="120" rx="10" fill="#ffffff" stroke="#d9b84a" stroke-width="1.5"/>
+  <text x="120" y="98" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#6b7280" text-anchor="middle" font-weight="600">Моментна награда</text>
+  <text x="120" y="138" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#b8860b" text-anchor="middle" font-weight="800">1x–5000x</text>
+  <text x="120" y="166" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">от залога</text>
+
+  <!-- Card 2: multipliers -->
+  <rect x="220" y="70" width="160" height="120" rx="10" fill="#ffffff" stroke="#d9b84a" stroke-width="1.5"/>
+  <text x="300" y="98" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#6b7280" text-anchor="middle" font-weight="600">Множители</text>
+  <text x="300" y="132" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#b8860b" text-anchor="middle" font-weight="800">2x · 3x · 5x</text>
+  <text x="300" y="160" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#b8860b" text-anchor="middle" font-weight="800">до 10x</text>
+
+  <!-- Card 3: max win -->
+  <rect x="400" y="70" width="160" height="120" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="480" y="98" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#92400e" text-anchor="middle" font-weight="600">Таван на играта</text>
+  <text x="480" y="138" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#b45309" text-anchor="middle" font-weight="800">50 000x</text>
+  <text x="480" y="166" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#a16207" text-anchor="middle">рядък, не типичен</text>
+
+  <text x="300" y="228" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#57534e" text-anchor="middle">Големите резултати идват от рядкото подреждане на тези стойности,</text>
+  <text x="300" y="248" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#57534e" text-anchor="middle">не от всяко завъртане. Волатилността е висока.</text>
+
+  <text x="300" y="284" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#a8a29e" text-anchor="middle">18+ Играйте отговорно · стойностите са по данни за играта, не обещание за резултат</text>
+</svg>
