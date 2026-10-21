@@ -1,0 +1,8 @@
+# log — Stakelogic (vk-0141)
+- Synthesis → Outline → Author (editorial) → Humaniser (HL 49/60, light pass) → SEO (91/100) → Brand Gate (PASS 92/100, 0 crit) → Light re-check (0 em-dashes) → Step-7 Gemini → Images → Verification → PR.
+- Guides-only scope; provider profile from provider site + international game-DBs (stakelogic.com, fruityslots, casinohawks, bigwinboard, askgamblers, bestslotsjournal), NOT operator T&C/НАП. No operator recommended → no affiliate link, no НАП licence № required.
+- Fact guardrails: „Fruit Party" excluded (Pragmatic Play, not Stakelogic); „Xnudge" never introduced (Nolimit City); Super Stake verified as an optional bet-boost (×2 stake / Mega ×2.5) that raises the bonus chance but does NOT beat the house edge; HQ town NOT named (sources split Eindhoven/NL, „Reeuwijk" unconfirmed).
+- Soft [VERIFY] (hedged, none asserted): founding 2014/2015; Sega Sammy deal (July 2024, ~€130m + earn-out); Book of Adventure Super Stake Edition ~96.68%; Twin Joker 97.79% (single-source).
+- Step-7 Gemini: pass 1 „Likely human-written 85%" → HL 85 → PASS (≥ 80). No humaniser pass; 05b kept (best-seen 85). gemini column: human 85. (07-gemini-check-1)
+- Step-8 images: Super Stake infographic (SVG) + neutral hero (WebP 8.5 KB). Review 1: 75 (hero ALT mismatch) → ALT fix. Review 2: 65 (hero glamorised-winning: upward arrow + glowing chest) → regenerated neutral hero (toggle+chips+flat arrow+book). Review 3: 100/100 PASS both, 0 integrity, keep-best 100. (08-image-review-1/2/3)
+- Body ≈ 740 words (reference ≈ 850); 0 em-dashes; 3 body internal links + RG link, all live in sitemap.xml (21.09.2026). FLAGS pass through to final text.
