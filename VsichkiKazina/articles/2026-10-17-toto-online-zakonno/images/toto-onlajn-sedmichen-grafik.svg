@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" role="img" aria-label="Седмичен график на тото онлайн на toto.bg: прозорци за прием на залози за нечетния и четния тираж и прекъсването в четвъртък и неделя">
+  <rect x="0" y="0" width="720" height="430" fill="#f8fafc"/>
+  <rect x="8" y="8" width="704" height="414" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="360" y="46" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#0f172a">Тото онлайн: седмичен график на toto.bg</text>
+  <text x="360" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#64748b">Два тиража седмично, всеки със свой прозорец за прием на залози онлайн</text>
+
+  <!-- Left card: Нечетен тираж -->
+  <rect x="28" y="92" width="312" height="150" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="28" y="92" width="312" height="34" rx="10" fill="#1e3a5f"/>
+  <rect x="28" y="110" width="312" height="16" fill="#1e3a5f"/>
+  <text x="184" y="114" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#ffffff">Нечетен тираж (ТОТО 2)</text>
+  <text x="44" y="152" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#64748b">Прием на залози онлайн</text>
+  <text x="44" y="176" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#0f172a">неделя 19:20 – четвъртък 18:00</text>
+  <line x1="44" y1="192" x2="324" y2="192" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="44" y="214" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#64748b">Печалби се определят</text>
+  <text x="44" y="232" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#0f172a">четвъртък</text>
+
+  <!-- Right card: Четен тираж -->
+  <rect x="380" y="92" width="312" height="150" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="380" y="92" width="312" height="34" rx="10" fill="#1e3a5f"/>
+  <rect x="380" y="110" width="312" height="16" fill="#1e3a5f"/>
+  <text x="536" y="114" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#ffffff">Четен тираж (ТОТО 1 + ТОТО 2)</text>
+  <text x="396" y="152" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#64748b">Прием на залози онлайн (ТОТО 2)</text>
+  <text x="396" y="176" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#0f172a">четвъртък 19:20 – неделя 18:00</text>
+  <line x1="396" y1="192" x2="676" y2="192" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="396" y="214" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#64748b">Печалби се определят</text>
+  <text x="396" y="232" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#0f172a">неделя · ТОТО 1 в понеделник</text>
+
+  <!-- Downtime strip -->
+  <rect x="28" y="262" width="664" height="68" rx="10" fill="#fef3c7" stroke="#fcd34d" stroke-width="1.5"/>
+  <text x="360" y="290" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#92400e">Онлайн прекъсване: четвъртък и неделя, 18:40 – 19:10 ч.</text>
+  <text x="360" y="314" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#92400e">В този половин час не може нито да залагате, нито да теглите (тегления на живо по БНТ от 18:45 ч.)</text>
+
+  <!-- Footer -->
+  <text x="44" y="372" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#64748b">Графикът е в сила от 08.12.2022 г. Залог след края на прозореца влиза в следващия тираж.</text>
+  <text x="44" y="402" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#94a3b8">Източник: toto.bg (БСТ)</text>
+  <text x="676" y="402" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#64748b">18+ Играйте отговорно</text>
+</svg>
