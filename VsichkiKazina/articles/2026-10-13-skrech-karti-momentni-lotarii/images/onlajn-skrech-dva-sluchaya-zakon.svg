@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 486" role="img" aria-label="Схема: реклама за онлайн скреч карта за реални пари води до два случая по Закона за хазарта — онлайн казино RNG игра по чл. 41 ал. 1, или нелицензиран сайт, който НАП спира до 24 часа и за който играчът рискува глоба 500 до 2000 лв.">
+  <defs>
+    <style>
+      .bg{fill:#f7f9fc;}
+      .card{fill:#ffffff;stroke:#d6dee8;stroke-width:1.5;}
+      .title{fill:#15233b;font-family:Georgia,'Times New Roman',serif;font-weight:bold;}
+      .hdr{fill:#15233b;font-family:Georgia,serif;font-weight:bold;}
+      .body{fill:#33404f;font-family:Arial,Helvetica,sans-serif;}
+      .num{fill:#0b6b63;font-weight:bold;}
+      .warn{fill:#9a3412;font-weight:bold;}
+      .muted{fill:#5b6775;font-family:Arial,sans-serif;}
+      .adbox{fill:#eef3f9;stroke:#c2d0e0;stroke-width:1.5;}
+      .colA{fill:#f2f8f6;stroke:#9fc9c2;stroke-width:1.5;}
+      .colB{fill:#fdf3ee;stroke:#e6b79f;stroke-width:1.5;}
+      .band{fill:#15233b;}
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="760" height="486"/>
+  <rect class="card" x="8" y="8" width="744" height="470" rx="16"/>
+
+  <!-- Title -->
+  <text class="title" x="380" y="44" font-size="21" text-anchor="middle">Законен ли е „онлайн скреч“ в България?</text>
+
+  <!-- Ad box (top) -->
+  <rect class="adbox" x="200" y="62" width="360" height="46" rx="10"/>
+  <text class="body" x="380" y="84" font-size="13.5" text-anchor="middle" font-weight="bold">Реклама за „онлайн скреч карта“</text>
+  <text class="muted" x="380" y="100" font-size="12" text-anchor="middle">срещу реални пари</text>
+
+  <!-- connector -->
+  <path d="M380 108 L380 126 M380 126 L196 126 L196 150 M380 126 L564 126 L564 150" fill="none" stroke="#9aa7b6" stroke-width="2"/>
+  <polygon points="196,150 191,140 201,140" fill="#9aa7b6"/>
+  <polygon points="564,150 559,140 569,140" fill="#9aa7b6"/>
+
+  <!-- Column A: RNG casino game -->
+  <rect class="colA" x="24" y="150" width="344" height="250" rx="12"/>
+  <text class="hdr" x="42" y="180" font-size="15">Случай 1: онлайн казино игра</text>
+  <text class="body" x="42" y="212" font-size="12.5">Изглежда като скреч, но отдолу работи</text>
+  <text class="body" x="42" y="231" font-size="12.5">слот върху генератор на случайни</text>
+  <text class="body" x="42" y="250" font-size="12.5">числа (RNG).</text>
+  <text class="body" x="42" y="282" font-size="12.5">По <tspan class="num">чл. 41, ал. 1</tspan> ЗХ носителят не</text>
+  <text class="body" x="42" y="301" font-size="12.5">мени вида: друг механизъм значи</text>
+  <text class="body" x="42" y="320" font-size="12.5">друга игра.</text>
+  <text class="body" x="42" y="352" font-size="12.5" font-weight="bold">Казино лиценз, не лотария.</text>
+  <text class="muted" x="42" y="378" font-size="11.5">„Скреч“ е само външността.</text>
+
+  <!-- Column B: unlicensed site -->
+  <rect class="colB" x="392" y="150" width="344" height="250" rx="12"/>
+  <text class="hdr" x="410" y="180" font-size="15">Случай 2: нелицензиран сайт</text>
+  <text class="body" x="410" y="212" font-size="12.5">НАП спира достъпа до <tspan class="num">24 часа</tspan></text>
+  <text class="body" x="410" y="231" font-size="12.5">(<tspan class="num">чл. 17, ал. 6</tspan> ЗХ).</text>
+  <text class="body" x="410" y="263" font-size="12.5">Играчът рискува глоба</text>
+  <text class="body" x="410" y="282" font-size="12.5"><tspan class="warn">500 до 2000 лв.</tspan></text>
+  <text class="body" x="410" y="301" font-size="12.5">(<tspan class="num">чл. 9, ал. 14</tspan> + <tspan class="num">чл. 97а, ал. 2</tspan> ЗХ).</text>
+  <text class="muted" x="410" y="352" font-size="11.5">Сигнали:</text>
+  <text class="muted" x="410" y="370" font-size="11.5" font-family="Arial,sans-serif">illegal_gambling@nra.bg</text>
+
+  <!-- Bottom band -->
+  <rect class="band" x="24" y="416" width="712" height="46" rx="10"/>
+  <text x="42" y="439" font-size="13.5" fill="#ffffff" font-family="Georgia,serif" font-weight="bold">Законната моментна лотария у нас е хартиен билет на щанд.</text>
+  <text x="42" y="456" font-size="11" fill="#b9c6d6" font-family="Arial,sans-serif">Онлайн вариант за моментна лотария ЗХ не предвижда.  ·  18+ Играйте отговорно</text>
+</svg>
