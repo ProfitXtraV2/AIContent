@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="720" height="360" role="img" aria-label="Cleocatra RTP 96.20% и домашно предимство 3.80%: при €1000 оборот средно €962 се връщат на играча, €38 остават за казиното; висока волатилност, максимална печалба 5000 пъти залога">
+  <title>Cleocatra: RTP 96.20% и домашно предимство 3.80%</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+    <linearGradient id="playerBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#b45309"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="houseBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#f87171"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="720" height="360" rx="12" ry="12" fill="url(#bg)"/>
+
+  <text x="360" y="36" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#92400e" text-anchor="middle">Cleocatra: RTP и домашно предимство</text>
+  <text x="360" y="56" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">обявен RTP по подразбиране (операторът може да пусне по-ниска версия)</text>
+
+  <text x="60" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151" font-weight="600">Връщане към играча (RTP)</text>
+  <text x="660" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151" font-weight="600" text-anchor="end">Домашно предимство</text>
+
+  <rect x="60" y="100" width="600" height="48" rx="8" fill="#e5e7eb"/>
+  <rect x="60" y="100" width="600" height="48" rx="8" fill="url(#playerBar)"/>
+  <!-- House portion: 3.80% of 600px = 22.8 ~ 23px -->
+  <rect x="637" y="100" width="23" height="48" rx="4" fill="url(#houseBar)"/>
+
+  <text x="348" y="132" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">96.20%</text>
+  <text x="648" y="170" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#b91c1c" text-anchor="middle">3.80%</text>
+
+  <line x1="60" y1="182" x2="660" y2="182" stroke="#d1d5db" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <text x="360" y="206" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6b7280" text-anchor="middle" font-style="italic">Пример: €1000 оборот</text>
+
+  <rect x="60" y="220" width="280" height="76" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+  <text x="200" y="246" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#92400e" text-anchor="middle" font-weight="600">Обратно към играча</text>
+  <text x="200" y="276" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#b45309" text-anchor="middle">~€962</text>
+  <text x="200" y="291" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#d97706" text-anchor="middle">(средно, дългосрочно)</text>
+
+  <rect x="380" y="220" width="280" height="76" rx="10" fill="#fef2f2" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="520" y="246" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#b91c1c" text-anchor="middle" font-weight="600">За казиното</text>
+  <text x="520" y="276" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#dc2626" text-anchor="middle">~€38</text>
+  <text x="520" y="291" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#ef4444" text-anchor="middle">(домашно предимство 3.80%)</text>
+
+  <text x="360" y="264" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#9ca3af" text-anchor="middle">+</text>
+
+  <text x="360" y="326" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">Висока волатилност · макс. печалба 5000 пъти залога · 18+ Играйте отговорно</text>
+  <text x="360" y="344" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">RTP е дългосрочна статистика, не прогноза за следващото завъртане</text>
+</svg>
