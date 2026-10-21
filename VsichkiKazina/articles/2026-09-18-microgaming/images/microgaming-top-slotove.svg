@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 344" width="760" height="344" role="img" aria-label="Таблица с топ слотове на Microgaming: Immortal Romance 96.86% RTP, много висока волатилност, 2011; Thunderstruck II 96.65%, средна, 2010; Break da Bank Again 95.43%, висока, 2008; Mega Moolah 88.12%, прогресивен, 2006">
+  <title>Топ слотове на Microgaming: RTP, волатилност и година</title>
+  <defs>
+    <linearGradient id="hbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="760" height="344" rx="14" ry="14" fill="url(#hbg)"/>
+
+  <text x="32" y="38" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="800" fill="#3730a3">Топ слотове на Microgaming</text>
+  <text x="32" y="59" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" fill="#6b7280">числата са от международни бази за игри; операторът може да зареди по-ниска сертифицирана RTP версия</text>
+
+  <!-- header row -->
+  <rect x="24" y="76" width="712" height="34" rx="6" fill="#3730a3"/>
+  <text x="40" y="98" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="start">Слот</text>
+  <text x="320" y="98" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">RTP</text>
+  <text x="500" y="98" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Волатилност</text>
+  <text x="690" y="98" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Година</text>
+
+  <!-- rows -->
+  <g font-family="system-ui, -apple-system, sans-serif">
+    <!-- Row 1 -->
+    <rect x="24" y="112" width="712" height="38" fill="#ffffff"/>
+    <text x="40" y="136" font-size="14" font-weight="600" fill="#111827" text-anchor="start">Immortal Romance</text>
+    <text x="320" y="136" font-size="14" fill="#374151" text-anchor="middle">96.86%</text>
+    <text x="500" y="136" font-size="13" fill="#374151" text-anchor="middle">много висока</text>
+    <text x="690" y="136" font-size="14" fill="#374151" text-anchor="middle">2011</text>
+
+    <!-- Row 2 -->
+    <rect x="24" y="150" width="712" height="38" fill="#f3f4f6"/>
+    <text x="40" y="174" font-size="14" font-weight="600" fill="#111827" text-anchor="start">Thunderstruck II</text>
+    <text x="320" y="174" font-size="14" fill="#374151" text-anchor="middle">96.65%</text>
+    <text x="500" y="174" font-size="13" fill="#374151" text-anchor="middle">средна</text>
+    <text x="690" y="174" font-size="14" fill="#374151" text-anchor="middle">2010</text>
+
+    <!-- Row 3 -->
+    <rect x="24" y="188" width="712" height="38" fill="#ffffff"/>
+    <text x="40" y="212" font-size="14" font-weight="600" fill="#111827" text-anchor="start">Break da Bank Again</text>
+    <text x="320" y="212" font-size="14" fill="#374151" text-anchor="middle">95.43%</text>
+    <text x="500" y="212" font-size="13" fill="#374151" text-anchor="middle">висока</text>
+    <text x="690" y="212" font-size="14" fill="#374151" text-anchor="middle">2008</text>
+
+    <!-- Row 4 -->
+    <rect x="24" y="226" width="712" height="38" fill="#f3f4f6"/>
+    <text x="40" y="250" font-size="14" font-weight="600" fill="#111827" text-anchor="start">Mega Moolah</text>
+    <text x="320" y="250" font-size="14" fill="#374151" text-anchor="middle">88.12%</text>
+    <text x="500" y="250" font-size="13" font-weight="700" fill="#4338ca" text-anchor="middle">прогресивен</text>
+    <text x="690" y="250" font-size="14" fill="#374151" text-anchor="middle">2006</text>
+  </g>
+
+  <line x1="24" y1="278" x2="736" y2="278" stroke="#d1d5db" stroke-width="1"/>
+  <text x="32" y="300" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af">Прогресивният базов RTP е нисък, защото оборотът пълни общия джакпот пул · източник: международни бази за игри</text>
+  <text x="32" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af">18+ Играйте отговорно · Провери реалния RTP в инфо-панела на конкретното казино</text>
+</svg>
