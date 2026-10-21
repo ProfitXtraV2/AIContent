@@ -1,13 +1,15 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-10-21T07:16:29Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-10-21T07:41:41Z",
+  "articles_written": 1,
+  "prs_opened": [
+    309
+  ],
   "run_url": "https://claude.ai/code/session_01P7RpXf1tmvPK8jTo1cYAna",
-  "note": "daily run 2026-10-21",
+  "note": "daily run 2026-10-21 done -- 1 NEW guide vk-0287 (Сантасе правила: как се играе сантасе (66)), PR #309. Backlog P1 card-games cluster #2, sibling to belot-pravila (written last run); head сантасе 5800/kd0 WIN, cluster ~8.5K/мес kd<=6. Rules guide: тесте 24 карти (A/10/K/Q/J/9 = 11/10/4/3/2/0, боя 30/тесте 120), раздаване 3+3, коз+талон, трик-ред десятка-над-поп, обявявания 20/40, смяна на девятка коз, двете фази + затваряне/капак, 66 + последна взятка +10, печеливши точки 1/2-шнайдер/3-шварц, партия до 11; + short сантасе на пари онлайн законно ли е -> НАП-licensed + RG; 0 operator facts. Sources pagat.com/marriage/66 + belot.bg/rules-santase (match-target 11 BG vs 7 variant framed as table договорка). DISTINCT vs live sitemap + queue (0 сантасе); no cannibalization. Gate 95 PASS 0-crit. Gemini Step-7 PASS on pass 1: initial draft HL85 (Likely human-written 85%), keep-best=initial, no humaniser needed (human 85). img:3 (infographic стойност-на-картите 100 + infographic точкуване 100, every number verbatim from 05b + decorative hero webp 80KB flat-vector card-backs+trump; hero pass1 garbled pips -> pass2 clean suits, review 65 keep-best = decorative card-count literalism, 0 integrity fail). 0 [VERIFY]/[DATA NEEDED]/[CONFLICT]. Backlog P1 сантасе -> written; табла (24000/kd0) next in-scope sibling; NV-Casino operator/НАП rows stay open+blocked (guides-only). No in-progress/HANDOFF/CLAIMED leftovers. Monthly SEO review not due (last 2026-10). Step-6 Ahrefs ONLINE: probed card-game siblings макао 40/kd0, канаста 40/kd0 (too weak to promote over bank's Strong-100), джин руми + белот-за-начинаещи no data -> no new candidate added (no padding; bank healthy 4 winnable). No zero-vol removals. Backlog open rows already enriched. Board on main; dashboard rebuilt (buffer 223/10, drafted 215); feed refreshed. No flags resolved; nothing posted/merged/fabricated. PR #309 subscribed, but Claude GitHub App NOT installed on repo -> no auto events; check PR directly.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-10-21-santase-pravila",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "stage_index": null,
+    "stage": null
   }
 }

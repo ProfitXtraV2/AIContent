@@ -1994,6 +1994,10 @@
 },
 "trend": "down"
 },
+"bg|белот правила за начинаещи": {
+"fetched": "2026-10-21",
+"row": {}
+},
 "bg|бонус бай функция": {
 "fetched": "2026-10-17",
 "row": {}
@@ -2050,6 +2054,10 @@
 },
 "bg|джакпот слот как работи": {
 "fetched": "2026-10-17",
+"row": {}
+},
+"bg|джин руми правила": {
+"fetched": "2026-10-21",
 "row": {}
 },
 "bg|евро джакпот": {
@@ -2169,6 +2177,24 @@
 "fetched": "2026-10-17",
 "row": {}
 },
+"bg|канаста правила": {
+"fetched": "2026-10-21",
+"row": {
+"cpc": null,
+"difficulty": 0,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "канаста правила",
+"volume": 40
+},
+"trend": "up"
+},
 "bg|клъстер пейс слот": {
 "fetched": "2026-10-17",
 "row": {}
@@ -2210,6 +2236,24 @@
 "keyword": "купи бонус",
 "volume": 0
 }
+},
+"bg|макао правила": {
+"fetched": "2026-10-21",
+"row": {
+"cpc": null,
+"difficulty": 0,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "макао правила",
+"volume": 40
+},
+"trend": "up"
 },
 "bg|мартингейл система": {
 "fetched": "2026-10-17",
