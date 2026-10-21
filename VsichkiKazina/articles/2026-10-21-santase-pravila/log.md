@@ -12,5 +12,12 @@
   „лицензирано казино" → /blog/kak-se-igrae-poker-kazino/; „два" → „две печеливши точки".
 - 05b Final: 1431 words; 6 internal links (5 body + /otgovorna-igra/ footer); 0 em-dash;
   byline/brand/18+/RG/affiliate footer all present; 0 [VERIFY]/[DATA NEEDED]/[CONFLICT].
-- 07 Gemini check: (pending — this step)
-- 08 Images: (pending)
+- 07 Gemini check: pass 1 "Likely human-written 85%" → human-likeness 85 ≥ 80 PASS on initial draft;
+  keep-best = initial 05b unchanged. gemini = human 85.
+- 08 Images: 3 total. SVG стойност-на-картите (review 100) + SVG точкуване (review 100), every number
+  verbatim from 05b, rendered + eyeballed (no clip/overlap). Decorative hero via gemini_image_gen
+  (gemini-3-pro-image): pass 1 garbled suit pips + 5 cards (65); pass 2 clean card-backs + face-up
+  trump, suit garble removed, review 65 (decorative card-count literalism, no integrity fail) → keep-best
+  pass 2 (23.5→80.6 KB WebP). Images do not block PR.
+- 06 Verification: 0 [VERIFY]/[DATA NEEDED]/[CONFLICT]; recalc 30×4=120 ✓; sources pagat + belot.bg.
+- Commit trail: initial draft → gemini check 1 → add images → image review 1 → image fix pass 2.
