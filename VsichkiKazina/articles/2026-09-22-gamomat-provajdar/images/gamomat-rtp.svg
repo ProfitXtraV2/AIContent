@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" width="640" height="380" role="img" aria-label="Обявени RTP на топ слотове на Gamomat: Ramses Book 96.15%, Roman Legion 96.16%, Fancy Fruits 96.06%, Take 5 96.11%, Books &amp; Bulls 96.11%, Crystal Ball 96.12%, спрямо ориентир около 96% за модерните слотове; всички седят плътно около средното">
+  <title>Обявени RTP на топ слотове на Gamomat спрямо ~96%</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="380" rx="12" ry="12" fill="url(#bg)"/>
+
+  <text x="320" y="32" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#3730a3" text-anchor="middle">Обявен RTP на топ слотове на Gamomat</text>
+  <text x="320" y="50" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">класиките седят плътно около средното за модерните слотове (~96%)</text>
+
+  <!-- ~96% reference line: track 150..540 (390px) maps RTP 95.90..96.30; 96.00 at x = 150 + (96.00-95.90)/0.40*390 = 248 -->
+  <line x1="248" y1="70" x2="248" y2="272" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <text x="248" y="64" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#4b5563" text-anchor="middle">~96%</text>
+
+  <!-- Row 1: Ramses Book 96.15% -> x_end = 150 + (0.25/0.40)*390 = 394 -->
+  <text x="142" y="95" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#374151" font-weight="600" text-anchor="end">Ramses Book</text>
+  <rect x="150" y="80" width="390" height="22" rx="5" fill="#e5e7eb"/>
+  <rect x="150" y="80" width="244" height="22" rx="5" fill="url(#bar)"/>
+  <text x="548" y="96" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="800" fill="#3730a3" text-anchor="start">96.15%</text>
+
+  <!-- Row 2: Roman Legion 96.16% -> x_end = 150 + (0.26/0.40)*390 = 404 -->
+  <text x="142" y="129" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#374151" font-weight="600" text-anchor="end">Roman Legion</text>
+  <rect x="150" y="114" width="390" height="22" rx="5" fill="#e5e7eb"/>
+  <rect x="150" y="114" width="254" height="22" rx="5" fill="url(#bar)"/>
+  <text x="548" y="130" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="800" fill="#3730a3" text-anchor="start">96.16%</text>
+
+  <!-- Row 3: Fancy Fruits 96.06% -> x_end = 150 + (0.16/0.40)*390 = 306 -->
+  <text x="142" y="163" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#374151" font-weight="600" text-anchor="end">Fancy Fruits</text>
+  <rect x="150" y="148" width="390" height="22" rx="5" fill="#e5e7eb"/>
+  <rect x="150" y="148" width="156" height="22" rx="5" fill="url(#bar)"/>
+  <text x="548" y="164" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="800" fill="#3730a3" text-anchor="start">96.06%</text>
+
+  <!-- Row 4: Take 5 96.11% -> x_end = 150 + (0.21/0.40)*390 = 355 -->
+  <text x="142" y="197" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#374151" font-weight="600" text-anchor="end">Take 5</text>
+  <rect x="150" y="182" width="390" height="22" rx="5" fill="#e5e7eb"/>
+  <rect x="150" y="182" width="205" height="22" rx="5" fill="url(#bar)"/>
+  <text x="548" y="198" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="800" fill="#3730a3" text-anchor="start">96.11%</text>
+
+  <!-- Row 5: Books & Bulls 96.11% -> x_end = 355 -->
+  <text x="142" y="231" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#374151" font-weight="600" text-anchor="end">Books &amp; Bulls</text>
+  <rect x="150" y="216" width="390" height="22" rx="5" fill="#e5e7eb"/>
+  <rect x="150" y="216" width="205" height="22" rx="5" fill="url(#bar)"/>
+  <text x="548" y="232" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="800" fill="#3730a3" text-anchor="start">96.11%</text>
+
+  <!-- Row 6: Crystal Ball 96.12% -> x_end = 150 + (0.22/0.40)*390 = 365 -->
+  <text x="142" y="265" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#374151" font-weight="600" text-anchor="end">Crystal Ball</text>
+  <rect x="150" y="250" width="390" height="22" rx="5" fill="#e5e7eb"/>
+  <rect x="150" y="250" width="215" height="22" rx="5" fill="url(#bar)"/>
+  <text x="548" y="266" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="800" fill="#3730a3" text-anchor="start">96.12%</text>
+
+  <line x1="60" y1="286" x2="580" y2="286" stroke="#d1d5db" stroke-width="1"/>
+  <text x="320" y="306" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle" font-style="italic">Скала 95.90%–96.30% · източник: публични game-база данни (RTP по заглавие)</text>
+  <text x="320" y="326" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">Много заглавия се доставят в няколко RTP версии · операторът избира коя да пусне</text>
+  <text x="320" y="348" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">18+ Играйте отговорно · Провери реалния RTP в инфо-панела на конкретното казино</text>
+</svg>
