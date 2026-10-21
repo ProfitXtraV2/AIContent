@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" role="img" aria-label="Два примерни режима на безплатни завъртания с еднаква очаквана стойност: Режим А 20 завъртания по множител 2 прави 40 при ниска волатилност; Режим Б 5 завъртания по множител 8 прави 40 при висока волатилност. Числата са примерни.">
+  <style>
+    .card{fill:#f7f8fa;stroke:#d9dee5;stroke-width:1.5}
+    .title{font-family:'Segoe UI',Arial,sans-serif;font-size:23px;font-weight:700;fill:#1f2733}
+    .sub{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;fill:#6b7684}
+    .hdr{font-family:'Segoe UI',Arial,sans-serif;font-size:19px;font-weight:700}
+    .eq{font-family:'Segoe UI',Arial,sans-serif;font-size:22px;font-weight:700;fill:#3a4452}
+    .big{font-family:'Segoe UI',Arial,sans-serif;font-size:34px;font-weight:700}
+    .vol{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:600}
+    .note{font-family:'Segoe UI',Arial,sans-serif;font-size:15px;fill:#3a4452}
+    .tag{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;fill:#6b7684}
+  </style>
+  <rect class="card" x="8" y="8" width="704" height="424" rx="16"/>
+  <text class="title" x="360" y="46" text-anchor="middle">Еднаква стойност, различна волатилност</text>
+  <text class="sub" x="360" y="72" text-anchor="middle">числата са примерни</text>
+
+  <!-- Panel A: по-равен режим -->
+  <rect x="30" y="96" width="300" height="250" rx="12" fill="#e8eef5" stroke="#b9c6d6" stroke-width="1.5"/>
+  <text class="hdr" x="180" y="128" text-anchor="middle" fill="#2b5b8c">Режим А</text>
+  <text class="eq" x="180" y="162" text-anchor="middle">20 завъртания × 2</text>
+  <text class="big" x="180" y="208" text-anchor="middle" fill="#2b5b8c">= 40</text>
+  <!-- steady small bars -->
+  <g fill="#2b5b8c">
+    <rect x="50" y="273" width="7" height="22"/>
+    <rect x="63" y="273" width="7" height="22"/>
+    <rect x="76" y="273" width="7" height="22"/>
+    <rect x="89" y="273" width="7" height="22"/>
+    <rect x="102" y="273" width="7" height="22"/>
+    <rect x="115" y="273" width="7" height="22"/>
+    <rect x="128" y="273" width="7" height="22"/>
+    <rect x="141" y="273" width="7" height="22"/>
+    <rect x="154" y="273" width="7" height="22"/>
+    <rect x="167" y="273" width="7" height="22"/>
+    <rect x="180" y="273" width="7" height="22"/>
+    <rect x="193" y="273" width="7" height="22"/>
+    <rect x="206" y="273" width="7" height="22"/>
+    <rect x="219" y="273" width="7" height="22"/>
+    <rect x="232" y="273" width="7" height="22"/>
+    <rect x="245" y="273" width="7" height="22"/>
+    <rect x="258" y="273" width="7" height="22"/>
+    <rect x="271" y="273" width="7" height="22"/>
+    <rect x="284" y="273" width="7" height="22"/>
+    <rect x="297" y="273" width="7" height="22"/>
+  </g>
+  <text class="vol" x="180" y="326" text-anchor="middle" fill="#2b5b8c">ниска волатилност</text>
+
+  <!-- Panel B: по-резкият режим -->
+  <rect x="390" y="96" width="300" height="250" rx="12" fill="#fde9cf" stroke="#f0b76b" stroke-width="1.5"/>
+  <text class="hdr" x="540" y="128" text-anchor="middle" fill="#b9711a">Режим Б</text>
+  <text class="eq" x="540" y="162" text-anchor="middle">5 завъртания × 8</text>
+  <text class="big" x="540" y="208" text-anchor="middle" fill="#b9711a">= 40</text>
+  <!-- long flat run with one rare spike -->
+  <g fill="#b9711a">
+    <rect x="430" y="290" width="24" height="5"/>
+    <rect x="482" y="290" width="24" height="5"/>
+    <rect x="534" y="240" width="24" height="55"/>
+    <rect x="586" y="290" width="24" height="5"/>
+    <rect x="638" y="290" width="24" height="5"/>
+  </g>
+  <text class="vol" x="540" y="326" text-anchor="middle" fill="#b9711a">висока волатилност</text>
+
+  <text class="note" x="360" y="382" text-anchor="middle">Еднаква очаквана стойност (40), различно разсейване.</text>
+  <text class="tag" x="360" y="414" text-anchor="middle">18+ Играйте отговорно</text>
+</svg>
