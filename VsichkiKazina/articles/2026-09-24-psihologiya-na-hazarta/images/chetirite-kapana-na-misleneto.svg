@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" role="img" aria-label="Четирите капана на мисленето в казиното: заблуда на комарджията, ефект на почти-печалбата, илюзия за контрол и гонене на загуби, всеки с кратката истина срещу него">
+  <rect x="0" y="0" width="760" height="440" rx="16" fill="#141a24"/>
+  <rect x="1" y="1" width="758" height="438" rx="15" fill="none" stroke="#2a3646" stroke-width="1"/>
+  <text x="32" y="46" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="22" font-weight="700" fill="#f5f7fa">Четирите капана на мисленето в казиното</text>
+  <text x="32" y="72" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" fill="#9aa7b8">Разпознай ги по име, докато играеш, и губят по-голямата част от властта си.</text>
+
+  <rect x="32" y="92" width="696" height="72" rx="10" fill="#1d2530"/>
+  <rect x="32" y="92" width="6" height="72" rx="3" fill="#e0b24a"/>
+  <text x="56" y="122" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="16" font-weight="700" fill="#f5f7fa">Заблуда на комарджията</text>
+  <text x="56" y="148" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" fill="#c3cedb">Всеки кръг тръгва от нула; миналото не мести шанса.</text>
+
+  <rect x="32" y="176" width="696" height="72" rx="10" fill="#1d2530"/>
+  <rect x="32" y="176" width="6" height="72" rx="3" fill="#3aa9c7"/>
+  <text x="56" y="206" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="16" font-weight="700" fill="#f5f7fa">Ефект на почти-печалбата</text>
+  <text x="56" y="232" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" fill="#c3cedb">Почти-печалбата е загуба, не половин печалба.</text>
+
+  <rect x="32" y="260" width="696" height="72" rx="10" fill="#1d2530"/>
+  <rect x="32" y="260" width="6" height="72" rx="3" fill="#4f8fd6"/>
+  <text x="56" y="290" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="16" font-weight="700" fill="#f5f7fa">Илюзия за контрол</text>
+  <text x="56" y="316" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" fill="#c3cedb">Изходът е фиксиран от генератора, не от ритуала или копчето.</text>
+
+  <rect x="32" y="344" width="696" height="72" rx="10" fill="#1d2530"/>
+  <rect x="32" y="344" width="6" height="72" rx="3" fill="#d1655a"/>
+  <text x="56" y="374" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="16" font-weight="700" fill="#f5f7fa">Гонене на загуби</text>
+  <text x="56" y="400" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" fill="#c3cedb">По-големият залог не връща нищо, само ускорява края.</text>
+</svg>
