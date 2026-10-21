@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-label="Илюстративно сравнение при 1000 евро оборот: версия на играта с RTP 96 процента връща средно около 960 евро, а версия с RTP 94 процента връща средно около 940 евро. Операторът избира коя версия да пусне.">
+  <rect x="0" y="0" width="720" height="340" fill="#0f1720"/>
+  <rect x="16" y="16" width="688" height="308" rx="14" fill="#16212e"/>
+
+  <text x="40" y="56" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#f4f7fb">Една игра, две RTP версии</text>
+  <text x="40" y="82" font-family="Arial, sans-serif" font-size="15" fill="#9fb2c6">Илюстративно средно връщане при €1000 оборот</text>
+
+  <!-- Row 1: 96% -->
+  <text x="40" y="140" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#c7d5e3">RTP 96%</text>
+  <rect x="130" y="118" width="538" height="34" rx="6" fill="#2e9e6b"/>
+  <text x="146" y="141" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">връща ~€960</text>
+
+  <!-- Row 2: 94% -->
+  <text x="40" y="202" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#c7d5e3">RTP 94%</text>
+  <rect x="130" y="180" width="526" height="34" rx="6" fill="#4d7fb0"/>
+  <text x="146" y="203" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">връща ~€940</text>
+
+  <text x="40" y="256" font-family="Arial, sans-serif" font-size="15" fill="#c7d5e3">Операторът избира коя версия да пусне. Дребната на вид</text>
+  <text x="40" y="278" font-family="Arial, sans-serif" font-size="15" fill="#c7d5e3">разлика тежи на дълъг оборот.</text>
+
+  <text x="40" y="306" font-family="Arial, sans-serif" font-size="13" fill="#8598ab">Числата са примерни · провери реалния RTP в инфо-панела · 18+ Играйте отговорно</text>
+</svg>
