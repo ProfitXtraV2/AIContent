@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" font-family="'Segoe UI',Roboto,Arial,sans-serif" role="img" aria-label="Точкуване в сантасе: цел 66 точки, тесте 24 карти, обявяване 20 или 40, последна взятка плюс 10, печеливши точки 1, 2 при шнайдер и 3 при шварц, партия до 11">
+  <rect x="12" y="12" width="656" height="456" rx="16" fill="#f6f8fc" stroke="#cfd8e8" stroke-width="2"/>
+  <text x="340" y="46" text-anchor="middle" font-size="26" font-weight="700" fill="#15223b">Точкуване в сантасе</text>
+  <text x="340" y="72" text-anchor="middle" font-size="14" fill="#5a6b86">целта на ръката и печелившите точки за партията</text>
+
+  <!-- key-fact tiles -->
+  <rect x="40" y="90" width="285" height="58" rx="10" fill="#ffffff" stroke="#cfd8e8" stroke-width="1.5"/>
+  <text x="58" y="115" text-anchor="start" font-size="13" fill="#5a6b86">Цел на ръката</text>
+  <text x="58" y="141" text-anchor="start" font-size="21" font-weight="700" fill="#b8341f">66 точки</text>
+
+  <rect x="355" y="90" width="285" height="58" rx="10" fill="#ffffff" stroke="#cfd8e8" stroke-width="1.5"/>
+  <text x="373" y="115" text-anchor="start" font-size="13" fill="#5a6b86">Тесте</text>
+  <text x="373" y="141" text-anchor="start" font-size="21" font-weight="700" fill="#15223b">24 карти</text>
+
+  <!-- bonus points -->
+  <text x="40" y="184" text-anchor="start" font-size="13" font-weight="600" fill="#1f3a63">БОНУС ТОЧКИ В РЪКАТА</text>
+  <rect x="32" y="196" width="616" height="34" fill="#eef2f9"/>
+  <text x="56" y="219" text-anchor="start" font-size="15" fill="#1a2740">Обявяване (Дама + Поп)</text>
+  <text x="624" y="219" text-anchor="end" font-size="16" font-weight="700" fill="#1a2740">20, в коз 40</text>
+
+  <text x="56" y="257" text-anchor="start" font-size="15" fill="#1a2740">Последна взятка (при доиграване)</text>
+  <text x="624" y="257" text-anchor="end" font-size="16" font-weight="700" fill="#1a2740">+10</text>
+
+  <!-- game points -->
+  <text x="40" y="300" text-anchor="start" font-size="13" font-weight="600" fill="#1f3a63">ПЕЧЕЛИВШИ ТОЧКИ ЗА СПЕЧЕЛЕНАТА РЪКА</text>
+
+  <rect x="32" y="312" width="616" height="38" fill="#eef2f9"/>
+  <text x="56" y="336" text-anchor="start" font-size="14" fill="#1a2740">Противникът има 33 или повече точки</text>
+  <circle cx="616" cy="331" r="15" fill="#2e7d50"/>
+  <text x="616" y="337" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">1</text>
+
+  <text x="56" y="378" text-anchor="start" font-size="14" fill="#1a2740">Противникът е под 33 (шнайдер)</text>
+  <circle cx="616" cy="373" r="15" fill="#c9962e"/>
+  <text x="616" y="379" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">2</text>
+
+  <rect x="32" y="396" width="616" height="38" fill="#eef2f9"/>
+  <text x="56" y="420" text-anchor="start" font-size="14" fill="#1a2740">Противникът без нито една взятка (шварц)</text>
+  <circle cx="616" cy="415" r="15" fill="#b8341f"/>
+  <text x="616" y="421" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">3</text>
+
+  <text x="340" y="456" text-anchor="middle" font-size="13" fill="#5a6b86">Партия: до 11 печеливши точки · 18+ Играйте отговорно.</text>
+</svg>
