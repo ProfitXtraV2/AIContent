@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 438" width="720" height="438" role="img" aria-label="Четири слоя пазят транзакцията в онлайн казино: SSL/TLS криптирана връзка, PCI DSS правила за картовите данни, 3-D Secure второ потвърждение от банката и токенизация на картовия номер. Над тях стои лицензът от НАП като първа проверка, която пази правата на играча. Сигурността пази транзакцията, лицензът пази правата ти.">
+  <title>Слоевете на сигурното плащане в онлайн казино и лицензът от НАП като първа проверка</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="720" height="438" rx="14" ry="14" fill="url(#bg)"/>
+
+  <text x="360" y="36" font-family="system-ui, -apple-system, sans-serif" font-size="16.5" font-weight="700" fill="#1f2937" text-anchor="middle">Слоевете на сигурното плащане в казино</text>
+  <text x="360" y="55" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="middle">четири слоя пазят транзакцията; лицензът пази правата ти</text>
+
+  <!-- НАП licence banner (first check, above all) -->
+  <rect x="40" y="70" width="640" height="50" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+  <text x="360" y="92" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#047857" text-anchor="middle">Лиценз от НАП: първата проверка, преди всичко останало</text>
+  <text x="360" y="110" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#059669" text-anchor="middle">пази правата ти; техническите слоеве пазят само транзакцията</text>
+
+  <!-- Layer 1: SSL/TLS -->
+  <rect x="40" y="128" width="640" height="62" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.2"/>
+  <text x="360" y="152" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" fill="#1d4ed8" text-anchor="middle">1. SSL/TLS: криптирана връзка (https)</text>
+  <text x="360" y="172" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#2563eb" text-anchor="middle">пази данните по пътя, не гарантира честен оператор</text>
+
+  <!-- Layer 2: PCI DSS -->
+  <rect x="40" y="196" width="640" height="62" rx="10" fill="#eef2ff" stroke="#6366f1" stroke-width="1.2"/>
+  <text x="360" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" fill="#4338ca" text-anchor="middle">2. PCI DSS: правила за картовите данни</text>
+  <text x="360" y="240" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#4f46e5" text-anchor="middle">по цялата верига: оператор плюс платежен доставчик</text>
+
+  <!-- Layer 3: 3-D Secure / SCA -->
+  <rect x="40" y="264" width="640" height="62" rx="10" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.2"/>
+  <text x="360" y="288" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" fill="#6d28d9" text-anchor="middle">3. 3-D Secure / SCA: второ потвърждение от банката</text>
+  <text x="360" y="308" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#7c3aed" text-anchor="middle">поне два независими фактора от три категории</text>
+
+  <!-- Layer 4: Tokenization -->
+  <rect x="40" y="332" width="640" height="62" rx="10" fill="#fdf4ff" stroke="#a855f7" stroke-width="1.2"/>
+  <text x="360" y="356" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" fill="#86198f" text-anchor="middle">4. Токенизация: казиното пази токен, не номера</text>
+  <text x="360" y="376" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#a21caf" text-anchor="middle">истинският номер стои при платежния доставчик</text>
+
+  <text x="360" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#9ca3af" text-anchor="middle">18+ Играйте отговорно · сигурността пази транзакцията, лицензът пази правата ти</text>
+</svg>
