@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-label="Инфографика за Red Dog. Изплащане по разстояние: разстояние 1 плаща 5 към 1, разстояние 2 плаща 4 към 1, разстояние 3 плаща 2 към 1, разстояние 4 до 11 плаща 1 към 1, чифт с трета съвпадаща карта плаща 11 към 1. Домашно предимство при правилна игра: 1 тесте 3.155 процента, 8 тестета 2.751 процента. Правило: вдигай само при разстояние 7 или повече. RTP около 96.85 процента при едно тесте в дълъг период. Числата за 10 евро са примерни.">
+  <rect x="8" y="8" width="704" height="484" rx="18" fill="#0f172a"/>
+
+  <text x="32" y="42" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#f8fafc">Red Dog: изплащания и цена на играта</text>
+  <text x="32" y="64" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Печелиш, ако трета карта падне по ранг между първите две</text>
+
+  <text x="32" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Изплащане по разстояние (spread)</text>
+
+  <g stroke="#1e293b" stroke-width="1">
+    <line x1="32" y1="146" x2="688" y2="146"/>
+    <line x1="32" y1="176" x2="688" y2="176"/>
+    <line x1="32" y1="206" x2="688" y2="206"/>
+    <line x1="32" y1="236" x2="688" y2="236"/>
+  </g>
+
+  <g font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">
+    <text x="48" y="137">Разстояние 1 (най-тясно)</text>
+    <text x="688" y="137" font-weight="bold" text-anchor="end">5:1</text>
+    <text x="48" y="167">Разстояние 2</text>
+    <text x="688" y="167" font-weight="bold" text-anchor="end">4:1</text>
+    <text x="48" y="197">Разстояние 3</text>
+    <text x="688" y="197" font-weight="bold" text-anchor="end">2:1</text>
+    <text x="48" y="227">Разстояние 4 до 11</text>
+    <text x="688" y="227" font-weight="bold" text-anchor="end">1:1</text>
+    <text x="48" y="257">Чифт + трета съвпадаща карта</text>
+    <text x="688" y="257" font-weight="bold" text-anchor="end">11:1</text>
+  </g>
+
+  <text x="32" y="292" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Домашно предимство (при правилна игра)</text>
+
+  <text x="48" y="325" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">1 тесте</text>
+  <rect x="210" y="309" width="363" height="24" rx="4" fill="#fbbf24"/>
+  <text x="583" y="326" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#e2e8f0">3.155%</text>
+
+  <text x="48" y="361" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">8 тестета</text>
+  <rect x="210" y="345" width="316" height="24" rx="4" fill="#34d399"/>
+  <text x="536" y="362" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#e2e8f0">2.751%</text>
+
+  <rect x="32" y="392" width="656" height="58" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="48" y="418" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#f8fafc">Правило: вдигай само при разстояние 7 или повече</text>
+  <text x="48" y="440" font-family="Arial, sans-serif" font-size="12" fill="#cbd5e1">По-широкото поле плаща по-малко; чифт и последователни карти връщат залога.</text>
+
+  <text x="32" y="478" font-family="Arial, sans-serif" font-size="11" fill="#64748b">18+ Играйте отговорно</text>
+  <text x="688" y="478" font-family="Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="end">RTP ≈ 96.85% (1 тесте) в дълъг период · числата за €10 са примерни</text>
+</svg>
