@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 344" width="600" height="344" role="img" aria-label="Илюстративно: обявените RTP на топ слотовете на Red Tiger са около 96% (Dragon's Fire 96.07%, Gems Gone Wild 96.14%, Mystery Reels 96.24%); при €1000 оборот и RTP около 96% средно €960 се връщат на играча, €40 остават за казиното">
+  <title>Илюстративно: обявени RTP на Red Tiger около 96%</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbf4f4"/>
+      <stop offset="100%" stop-color="#f2e2e2"/>
+    </linearGradient>
+    <linearGradient id="playerBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#991b1b"/>
+      <stop offset="100%" stop-color="#dc2626"/>
+    </linearGradient>
+    <linearGradient id="houseBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6b7280"/>
+      <stop offset="100%" stop-color="#9ca3af"/>
+    </linearGradient>
+    <clipPath id="barClip">
+      <rect x="50" y="98" width="500" height="48" rx="8"/>
+    </clipPath>
+  </defs>
+
+  <rect width="600" height="344" rx="12" ry="12" fill="url(#bg)"/>
+
+  <text x="300" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#991b1b" text-anchor="middle">Red Tiger: обявени RTP около 96%</text>
+  <text x="300" y="54" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#8a6a6a" text-anchor="middle">топ слотове: Dragon's Fire 96.07% · Gems Gone Wild 96.14% · Mystery Reels 96.24%</text>
+
+  <text x="50" y="88" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#4a3232" font-weight="600">Връщане към играча (RTP)</text>
+  <text x="550" y="88" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#4a3232" font-weight="600" text-anchor="end">Домашно предимство</text>
+
+  <g clip-path="url(#barClip)">
+    <rect x="50" y="98" width="500" height="48" fill="#e6d3d3"/>
+    <rect x="50" y="98" width="480" height="48" fill="url(#playerBar)"/>
+    <rect x="530" y="98" width="20" height="48" fill="url(#houseBar)"/>
+  </g>
+
+  <text x="290" y="128" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">~96%</text>
+
+  <line x1="50" y1="172" x2="550" y2="172" stroke="#dcc4c4" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <text x="300" y="198" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#8a6a6a" text-anchor="middle" font-style="italic">Пример: €1000 оборот</text>
+
+  <rect x="50" y="211" width="220" height="86" rx="10" fill="#fdf2f2" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="160" y="238" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#991b1b" text-anchor="middle" font-weight="600">Обратно към играча</text>
+  <text x="160" y="268" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#b91c1c" text-anchor="middle">~€960</text>
+  <text x="160" y="285" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#c0392b" text-anchor="middle">(средно, дългосрочно)</text>
+
+  <rect x="330" y="211" width="220" height="86" rx="10" fill="#f4f5f6" stroke="#9ca3af" stroke-width="1.5"/>
+  <text x="440" y="238" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="600">За казиното</text>
+  <text x="440" y="268" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#6b7280" text-anchor="middle">~€40</text>
+  <text x="440" y="285" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">(домашно предимство ~4%)</text>
+
+  <text x="300" y="258" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#caa9a9" text-anchor="middle">+</text>
+
+  <text x="300" y="328" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#a98a8a" text-anchor="middle">18+ Играйте отговорно · Провери реалния RTP в инфо-панела на конкретното казино</text>
+</svg>
