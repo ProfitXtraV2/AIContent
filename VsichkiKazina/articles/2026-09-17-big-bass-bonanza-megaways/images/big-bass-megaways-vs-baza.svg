@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 452" width="760" height="452" role="img" aria-label="Сравнение Big Bass Bonanza база срещу Megaways версия: барабани/начини 5×3 10 линии срещу 6 барабана до 46 656 начина; RTP 96.71% срещу 96.70%; макс. печалба 2100× срещу 4000×; каскади няма срещу да; безплатни завъртания 10/15/20 при двете; множители x2/x3/x10 при двете; само в Megaways Динамит и Базука">
+  <title>Big Bass Bonanza: база срещу Megaways версия</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f8f9fb"/><stop offset="100%" stop-color="#eef0f4"/></linearGradient>
+  </defs>
+
+  <rect width="760" height="452" rx="12" fill="url(#bg)"/>
+
+  <text x="380" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="#0f172a" text-anchor="middle">Big Bass Bonanza: база срещу Megaways</text>
+  <text x="380" y="53" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">RTP версиите се конфигурират от оператора; проверявай реалния процент в инфо-панела</text>
+
+  <!-- header row -->
+  <rect x="30" y="68" width="700" height="34" rx="8" fill="#1e293b"/>
+  <text x="46" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="700" fill="#f8fafc" text-anchor="start">Характеристика</text>
+  <text x="400" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="700" fill="#93c5fd" text-anchor="middle">База (5×3)</text>
+  <text x="620" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="700" fill="#fcd34d" text-anchor="middle">Megaways</text>
+
+  <!-- column separators -->
+  <line x1="300" y1="106" x2="300" y2="404" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="510" y1="106" x2="510" y2="404" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- rows -->
+  <!-- r1 -->
+  <rect x="30" y="106" width="700" height="42" rx="6" fill="#ffffff"/>
+  <text x="46" y="132" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#334151" text-anchor="start">Барабани / начини</text>
+  <text x="400" y="132" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0f172a" text-anchor="middle">10 линии</text>
+  <text x="620" y="132" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0f172a" font-weight="600" text-anchor="middle">до 46 656 начина</text>
+  <!-- r2 -->
+  <rect x="30" y="150" width="700" height="42" rx="6" fill="#f1f5f9"/>
+  <text x="46" y="176" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#334151" text-anchor="start">RTP (по подразбиране)</text>
+  <text x="400" y="176" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#15803d" font-weight="700" text-anchor="middle">96.71%</text>
+  <text x="620" y="176" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#15803d" font-weight="700" text-anchor="middle">96.70%</text>
+  <!-- r3 -->
+  <rect x="30" y="194" width="700" height="42" rx="6" fill="#ffffff"/>
+  <text x="46" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#334151" text-anchor="start">Макс. печалба</text>
+  <text x="400" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0f172a" text-anchor="middle">~2100×</text>
+  <text x="620" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0f172a" font-weight="600" text-anchor="middle">4000×</text>
+  <!-- r4 -->
+  <rect x="30" y="238" width="700" height="42" rx="6" fill="#f1f5f9"/>
+  <text x="46" y="264" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#334151" text-anchor="start">Волатилност</text>
+  <text x="400" y="264" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0f172a" text-anchor="middle">средно-висока</text>
+  <text x="620" y="264" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0f172a" font-weight="600" text-anchor="middle">висока (5/5)</text>
+  <!-- r5 -->
+  <rect x="30" y="282" width="700" height="42" rx="6" fill="#ffffff"/>
+  <text x="46" y="308" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#334151" text-anchor="start">Каскади</text>
+  <text x="400" y="308" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#dc2626" text-anchor="middle">няма</text>
+  <text x="620" y="308" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#15803d" font-weight="600" text-anchor="middle">да</text>
+  <!-- r6 -->
+  <rect x="30" y="326" width="700" height="42" rx="6" fill="#f1f5f9"/>
+  <text x="46" y="352" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#334151" text-anchor="start">Безпл. завъртания / множители</text>
+  <text x="400" y="352" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0f172a" text-anchor="middle">10/15/20 · x2/x3/x10</text>
+  <text x="620" y="352" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0f172a" text-anchor="middle">10/15/20 · x2/x3/x10</text>
+  <!-- r7 -->
+  <rect x="30" y="370" width="700" height="42" rx="6" fill="#ffffff"/>
+  <text x="46" y="396" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#334151" text-anchor="start">Само в Megaways</text>
+  <text x="400" y="396" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#9ca3af" text-anchor="middle">няма</text>
+  <text x="620" y="396" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0f172a" font-weight="600" text-anchor="middle">Динамит + Базука</text>
+
+  <text x="380" y="436" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">RTP е дългосрочна статистика · таванът е рядкост, не очакване · 18+ Играйте отговорно</text>
+</svg>

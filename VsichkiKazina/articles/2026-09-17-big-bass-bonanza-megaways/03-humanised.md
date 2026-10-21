@@ -1,0 +1,3 @@
+# 03-HUMANISED — Big Bass Bonanza Megaways
+
+Humaniser pass over 02-draft: varied section shapes (short intro, engine-swap section, fisherman+insight section, Megaways-only additions, RTP/comparison section, decision section, closing). Removed signposting lead-ins, varied sentence length, asymmetric honest ending ("изборът е по вкус към риска, не по шанс за печалба"), no rhetorical-question openers, no restating summary. NO number touched. Untouchables preserved: 18+ line, RG block, affiliate footer, byline, brand, both [VERIFY] flags. Comparison kept as a genuine infographic + prose (base vs Megaways = real side-by-side need). → 04-seo.

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="900" height="360" role="img" aria-label="Абстрактна илюстрация на шест барабана с различна височина, показващи променлив брой символи, върху вълнообразен воден фон, вдъхновена от Megaways механиката и риболовната тема, без лога и без текст върху графиката">
+  <title>Big Bass Bonanza Megaways: барабани с променлив брой символи (концептуална илюстрация)</title>
+  <defs>
+    <linearGradient id="hbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#062033"/><stop offset="100%" stop-color="#0a3450"/></linearGradient>
+    <linearGradient id="reel" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0ea5e9"/><stop offset="100%" stop-color="#0369a1"/></linearGradient>
+  </defs>
+
+  <rect width="900" height="360" rx="16" fill="url(#hbg)"/>
+
+  <!-- water waves -->
+  <path d="M0 300 q60 -22 120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 V360 H0 Z" fill="#0c4a6e" opacity="0.5"/>
+  <path d="M0 320 q60 -18 120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 V360 H0 Z" fill="#075985" opacity="0.6"/>
+
+  <!-- 6 reels of varying symbol counts (Megaways: 2-7 per reel) -->
+  <!-- reel x positions 470..790 step 54, cell 44, gap 6 -->
+  <g>
+    <!-- reel1: 3 symbols -->
+    <g transform="translate(470,120)">
+      <rect x="0" y="0" width="44" height="44" rx="7" fill="url(#reel)"/><rect x="0" y="50" width="44" height="44" rx="7" fill="url(#reel)"/><rect x="0" y="100" width="44" height="44" rx="7" fill="url(#reel)"/>
+    </g>
+    <!-- reel2: 5 symbols -->
+    <g transform="translate(524,74)">
+      <rect x="0" y="0" width="44" height="44" rx="7" fill="url(#reel)"/><rect x="0" y="50" width="44" height="44" rx="7" fill="url(#reel)"/><rect x="0" y="100" width="44" height="44" rx="7" fill="url(#reel)"/><rect x="0" y="150" width="44" height="44" rx="7" fill="url(#reel)"/><rect x="0" y="200" width="44" height="44" rx="7" fill="url(#reel)"/>
+    </g>
+    <!-- reel3: 7 symbols -->
+    <g transform="translate(578,44)">
+      <rect x="0" y="0" width="44" height="44" rx="7" fill="url(#reel)"/><rect x="0" y="36" width="44" height="30" rx="6" fill="url(#reel)"/><rect x="0" y="72" width="44" height="30" rx="6" fill="url(#reel)"/><rect x="0" y="108" width="44" height="30" rx="6" fill="url(#reel)"/><rect x="0" y="144" width="44" height="30" rx="6" fill="url(#reel)"/><rect x="0" y="180" width="44" height="30" rx="6" fill="url(#reel)"/><rect x="0" y="216" width="44" height="30" rx="6" fill="url(#reel)"/>
+    </g>
+    <!-- reel4: 4 symbols -->
+    <g transform="translate(632,98)">
+      <rect x="0" y="0" width="44" height="44" rx="7" fill="url(#reel)"/><rect x="0" y="50" width="44" height="44" rx="7" fill="url(#reel)"/><rect x="0" y="100" width="44" height="44" rx="7" fill="url(#reel)"/><rect x="0" y="150" width="44" height="44" rx="7" fill="url(#reel)"/>
+    </g>
+    <!-- reel5: 6 symbols -->
+    <g transform="translate(686,60)">
+      <rect x="0" y="0" width="44" height="40" rx="7" fill="url(#reel)"/><rect x="0" y="44" width="44" height="40" rx="7" fill="url(#reel)"/><rect x="0" y="88" width="44" height="40" rx="7" fill="url(#reel)"/><rect x="0" y="132" width="44" height="40" rx="7" fill="url(#reel)"/><rect x="0" y="176" width="44" height="40" rx="7" fill="url(#reel)"/><rect x="0" y="220" width="44" height="40" rx="7" fill="url(#reel)"/>
+    </g>
+    <!-- reel6: 2 symbols -->
+    <g transform="translate(740,146)">
+      <rect x="0" y="0" width="44" height="44" rx="7" fill="url(#reel)"/><rect x="0" y="50" width="44" height="44" rx="7" fill="url(#reel)"/>
+    </g>
+  </g>
+
+  <!-- Left text -->
+  <text x="60" y="120" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="800" fill="#f8fafc">Променлив брой</text>
+  <text x="60" y="160" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="800" fill="#f8fafc">начини</text>
+  <text x="60" y="198" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#94a3b8">Всеки барабан показва различен брой</text>
+  <text x="60" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#94a3b8">символи и комбинациите се менят.</text>
+  <text x="60" y="300" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#64748b">18+ Играйте отговорно</text>
+</svg>
