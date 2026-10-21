@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-label="Примерен прогрес бар за събиране на символи: 12 от 15 събрани, остават 3 до прага, при който се отключва бонус рунд. Числата са примерни.">
+  <style>
+    .card{fill:#f7f8fa;stroke:#d9dee5;stroke-width:1.5}
+    .title{font-family:'Segoe UI',Arial,sans-serif;font-size:25px;font-weight:700;fill:#1f2733}
+    .sub{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;fill:#6b7684}
+    .lbl{font-family:'Segoe UI',Arial,sans-serif;font-size:16px;font-weight:700;fill:#3a4452}
+    .cellfill{fill:#cfe8d6;stroke:#8ccfa3;stroke-width:1.5}
+    .cellempty{fill:#eef1f4;stroke:#d2d8df;stroke-width:1.5}
+    .rem{font-family:'Segoe UI',Arial,sans-serif;font-size:15px;font-weight:700;fill:#b9711a}
+    .note{font-family:'Segoe UI',Arial,sans-serif;font-size:15px;fill:#3a4452}
+    .tag{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;fill:#6b7684}
+  </style>
+  <rect class="card" x="8" y="8" width="704" height="384" rx="16"/>
+  <text class="title" x="360" y="52" text-anchor="middle">Докъде е стигнал прогрес барът</text>
+  <text class="sub" x="360" y="78" text-anchor="middle">числата са примерни</text>
+
+  <text class="lbl" x="54" y="152" text-anchor="start" fill="#2f7d4f">събрани 12</text>
+  <text class="lbl" x="666" y="152" text-anchor="end">праг 15 → бонус рунд</text>
+
+  <!-- 15 cells: first 12 filled, last 3 empty -->
+  <rect class="cellfill" x="54"  y="172" width="38" height="58" rx="5"/>
+  <rect class="cellfill" x="95"  y="172" width="38" height="58" rx="5"/>
+  <rect class="cellfill" x="136" y="172" width="38" height="58" rx="5"/>
+  <rect class="cellfill" x="177" y="172" width="38" height="58" rx="5"/>
+  <rect class="cellfill" x="218" y="172" width="38" height="58" rx="5"/>
+  <rect class="cellfill" x="259" y="172" width="38" height="58" rx="5"/>
+  <rect class="cellfill" x="300" y="172" width="38" height="58" rx="5"/>
+  <rect class="cellfill" x="341" y="172" width="38" height="58" rx="5"/>
+  <rect class="cellfill" x="382" y="172" width="38" height="58" rx="5"/>
+  <rect class="cellfill" x="423" y="172" width="38" height="58" rx="5"/>
+  <rect class="cellfill" x="464" y="172" width="38" height="58" rx="5"/>
+  <rect class="cellfill" x="505" y="172" width="38" height="58" rx="5"/>
+  <rect class="cellempty" x="546" y="172" width="38" height="58" rx="5"/>
+  <rect class="cellempty" x="587" y="172" width="38" height="58" rx="5"/>
+  <rect class="cellempty" x="628" y="172" width="38" height="58" rx="5"/>
+
+  <text class="rem" x="606" y="258" text-anchor="middle">остават 3</text>
+
+  <text class="note" x="360" y="312" text-anchor="middle">12 от 15 събрани символа, още 3 до прага за бонус рунд.</text>
+  <text class="tag" x="360" y="352" text-anchor="middle">18+ Играйте отговорно</text>
+</svg>
