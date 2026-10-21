@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="Как работи Jackpot King на Blueprint: събираш 5 символа Jackpot King, за да влезеш в кръга; при 15 корони преминаваш към завъртане на Wheel King, което дава голям множител на залога или едно от трите прогресивни нива: Royal и Regal с таван, които трябва да паднат, и Jackpot King без таван.">
+  <title>Jackpot King: път до наградата и трите прогресивни нива</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5f7fb"/>
+      <stop offset="100%" stop-color="#e8edf6"/>
+    </linearGradient>
+    <linearGradient id="step" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#b45309"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="720" height="400" rx="14" ry="14" fill="url(#bg)"/>
+  <text x="360" y="36" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="800" fill="#1e293b" text-anchor="middle">Jackpot King: как се стига до наградата</text>
+  <text x="360" y="58" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#64748b" text-anchor="middle">мрежов прогресив на Blueprint · част от залозите пълни общ пул</text>
+
+  <!-- Step 1 -->
+  <rect x="40" y="80" width="190" height="70" rx="10" fill="url(#step)"/>
+  <text x="135" y="110" font-family="system-ui, sans-serif" font-size="26" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+  <text x="135" y="134" font-family="system-ui, sans-serif" font-size="13" fill="#dbeafe" text-anchor="middle">символа Jackpot King</text>
+  <!-- arrow -->
+  <text x="248" y="122" font-family="system-ui, sans-serif" font-size="24" font-weight="700" fill="#94a3b8" text-anchor="middle">›</text>
+
+  <!-- Step 2 -->
+  <rect x="265" y="80" width="190" height="70" rx="10" fill="url(#step)"/>
+  <text x="360" y="110" font-family="system-ui, sans-serif" font-size="26" font-weight="800" fill="#ffffff" text-anchor="middle">15</text>
+  <text x="360" y="134" font-family="system-ui, sans-serif" font-size="13" fill="#dbeafe" text-anchor="middle">корони в кръга</text>
+  <!-- arrow -->
+  <text x="473" y="122" font-family="system-ui, sans-serif" font-size="24" font-weight="700" fill="#94a3b8" text-anchor="middle">›</text>
+
+  <!-- Step 3 -->
+  <rect x="490" y="80" width="190" height="70" rx="10" fill="url(#gold)"/>
+  <text x="585" y="108" font-family="system-ui, sans-serif" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">Wheel King</text>
+  <text x="585" y="132" font-family="system-ui, sans-serif" font-size="12" fill="#fef3c7" text-anchor="middle">завъртане за наградата</text>
+
+  <text x="360" y="188" font-family="system-ui, sans-serif" font-size="13" fill="#475569" text-anchor="middle">Колелото дава голям множител на залога или едно от трите прогресивни нива:</text>
+
+  <!-- Tier: Jackpot King (top) -->
+  <rect x="60" y="208" width="600" height="46" rx="9" fill="url(#gold)"/>
+  <text x="78" y="237" font-family="system-ui, sans-serif" font-size="16" font-weight="800" fill="#ffffff">Jackpot King</text>
+  <text x="642" y="237" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#fff7ed" text-anchor="end">без таван</text>
+
+  <!-- Tier: Regal -->
+  <rect x="60" y="262" width="600" height="46" rx="9" fill="url(#step)" opacity="0.9"/>
+  <text x="78" y="291" font-family="system-ui, sans-serif" font-size="16" font-weight="800" fill="#ffffff">Regal</text>
+  <text x="642" y="291" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#dbeafe" text-anchor="end">с таван · трябва да падне</text>
+
+  <!-- Tier: Royal -->
+  <rect x="60" y="316" width="600" height="46" rx="9" fill="url(#step)" opacity="0.78"/>
+  <text x="78" y="345" font-family="system-ui, sans-serif" font-size="16" font-weight="800" fill="#ffffff">Royal</text>
+  <text x="642" y="345" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#dbeafe" text-anchor="end">с таван · трябва да падне</text>
+
+  <text x="360" y="384" font-family="system-ui, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Прогресивът не мени RTP на базовата игра. 18+ Играйте отговорно.</text>
+</svg>
