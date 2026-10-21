@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-label="Mustang Gold RTP 96.53% и домашно предимство 3.47%: при €1000 оборот на играча се връщат средно €965.30, а €34.70 остават за казиното; по-ниска конфигурация 95.54%; 5x3 с 25 фиксирани линии; максимум 12 000 пъти залога; четири фиксирани джакпота Grand 1000 пъти, Major 200 пъти, Minor 100 пъти, Mini 50 пъти залога; активният RTP зависи от оператора">
+  <rect x="8" y="8" width="704" height="544" rx="18" fill="#0f172a"/>
+
+  <text x="32" y="46" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="bold" fill="#f8fafc">Mustang Gold: RTP и честната сметка</text>
+  <text x="32" y="70" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#94a3b8">Pragmatic Play · 5x3, 25 фиксирани линии · Money Collect</text>
+
+  <text x="32" y="104" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Разпределение на оборота</text>
+  <rect x="32" y="116" width="656" height="46" rx="8" fill="#1e293b"/>
+  <rect x="32" y="116" width="633" height="46" rx="8" fill="#166534"/>
+  <rect x="665" y="116" width="23" height="46" rx="4" fill="#b45309"/>
+  <text x="348" y="145" font-family="system-ui, -apple-system, sans-serif" font-size="20" text-anchor="middle" font-weight="bold" fill="#4ade80">96.53%</text>
+  <text x="32" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#cbd5e1">Връщане към играча (RTP)</text>
+  <text x="688" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="12" text-anchor="end" font-weight="bold" fill="#fbbf24">3.47%</text>
+
+  <text x="32" y="212" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#94a3b8">Пример: €1000 оборот при базов RTP 96.53%</text>
+
+  <rect x="32" y="224" width="320" height="92" rx="12" fill="#111f38"/>
+  <text x="52" y="252" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#cbd5e1">Обратно към играча</text>
+  <text x="52" y="288" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="bold" fill="#4ade80">€965.30</text>
+  <text x="52" y="308" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#94a3b8">средно, в дългосрочен план</text>
+
+  <rect x="368" y="224" width="320" height="92" rx="12" fill="#111f38"/>
+  <text x="388" y="252" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#cbd5e1">За казиното</text>
+  <text x="388" y="288" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="bold" fill="#fbbf24">€34.70</text>
+  <text x="388" y="308" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#94a3b8">домашно предимство 3.47%</text>
+
+  <text x="32" y="344" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#94a3b8">Операторът може да пусне и по-ниска конфигурация: RTP 95.54%.</text>
+
+  <text x="32" y="378" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Четирите фиксирани джакпота (множител на залога)</text>
+  <rect x="32" y="390" width="320" height="46" rx="8" fill="#111f38"/>
+  <text x="52" y="419" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#e2e8f0">Grand: <tspan font-weight="bold" fill="#f8fafc">1000 пъти</tspan></text>
+  <rect x="368" y="390" width="320" height="46" rx="8" fill="#111f38"/>
+  <text x="388" y="419" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#e2e8f0">Major: <tspan font-weight="bold" fill="#f8fafc">200 пъти</tspan></text>
+  <rect x="32" y="444" width="320" height="46" rx="8" fill="#111f38"/>
+  <text x="52" y="473" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#e2e8f0">Minor: <tspan font-weight="bold" fill="#f8fafc">100 пъти</tspan></text>
+  <rect x="368" y="444" width="320" height="46" rx="8" fill="#111f38"/>
+  <text x="388" y="473" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#e2e8f0">Mini: <tspan font-weight="bold" fill="#f8fafc">50 пъти</tspan></text>
+
+  <rect x="32" y="500" width="656" height="40" rx="8" fill="#111f38"/>
+  <text x="52" y="518" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#94a3b8">Максимум 12 000 пъти залога (таван, не очакване). Примерни стойности; активният RTP</text>
+  <text x="52" y="533" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#94a3b8">зависи от оператора, провери инфо-панела. 18+ Играйте отговорно.</text>
+</svg>
