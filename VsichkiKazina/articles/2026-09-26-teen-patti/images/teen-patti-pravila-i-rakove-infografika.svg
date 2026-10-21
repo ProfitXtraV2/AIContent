@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 450" role="img" aria-label="Инфографика за Teen Patti на живо. Подредба на ръцете от най-силна към най-слаба: 1 тройка (trail или трио), 2 пюр секванс (чист кент), 3 секванс (смесен кент), 4 цвят (три от една боя), 5 чифт, 6 висока карта. Ход на една ръка срещу дилъра: 1 заложи Ante, 2 виж трите си карти, 3 направи Play залог равен на Ante или Fold, 4 дилърът се класира с дама висока. Ключови числа в дълъг период: RTP на Ante залога около 96.63 процента, домашно предимство на основната игра около 3.37 процента, Pair Plus домашно предимство около 4.49 процента, 6 Card Bonus домашно предимство около 8.56 процента. Тройката е най-силна, кентата бие цвета.">
+  <rect x="8" y="8" width="704" height="434" rx="18" fill="#0f172a"/>
+
+  <text x="32" y="40" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#f8fafc">Teen Patti: ръкове и цена на играта</text>
+  <text x="32" y="60" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Подредбата е обърната спрямо западния покер: тройката е най-силна, кентата бие цвета</text>
+
+  <text x="32" y="92" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Подредба на ръцете (най-силна отгоре)</text>
+
+  <line x1="48" y1="127" x2="48" y2="225" stroke="#334155" stroke-width="2"/>
+
+  <circle cx="48" cy="116" r="11" fill="#334155"/>
+  <text x="48" y="120" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#f8fafc" text-anchor="middle">1</text>
+  <text x="70" y="120" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Тройка (trail / трио)</text>
+
+  <circle cx="48" cy="140" r="11" fill="#334155"/>
+  <text x="48" y="144" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#f8fafc" text-anchor="middle">2</text>
+  <text x="70" y="144" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Пюр секванс (чист кент)</text>
+
+  <circle cx="48" cy="164" r="11" fill="#334155"/>
+  <text x="48" y="168" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#f8fafc" text-anchor="middle">3</text>
+  <text x="70" y="168" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Секванс (смесен кент)</text>
+
+  <circle cx="48" cy="188" r="11" fill="#334155"/>
+  <text x="48" y="192" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#f8fafc" text-anchor="middle">4</text>
+  <text x="70" y="192" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Цвят (три от една боя)</text>
+
+  <circle cx="48" cy="212" r="11" fill="#334155"/>
+  <text x="48" y="216" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#f8fafc" text-anchor="middle">5</text>
+  <text x="70" y="216" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Чифт</text>
+
+  <circle cx="48" cy="236" r="11" fill="#334155"/>
+  <text x="48" y="240" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#f8fafc" text-anchor="middle">6</text>
+  <text x="70" y="240" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Висока карта</text>
+
+  <text x="392" y="92" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Ход на една ръка срещу дилъра</text>
+
+  <line x1="408" y1="127" x2="408" y2="203" stroke="#334155" stroke-width="2"/>
+
+  <circle cx="408" cy="116" r="11" fill="#334155"/>
+  <text x="408" y="120" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#f8fafc" text-anchor="middle">1</text>
+  <text x="430" y="120" font-family="Arial, sans-serif" font-size="12" fill="#e2e8f0">Заложи Ante</text>
+
+  <circle cx="408" cy="142" r="11" fill="#334155"/>
+  <text x="408" y="146" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#f8fafc" text-anchor="middle">2</text>
+  <text x="430" y="146" font-family="Arial, sans-serif" font-size="12" fill="#e2e8f0">Виж трите си карти</text>
+
+  <circle cx="408" cy="168" r="11" fill="#334155"/>
+  <text x="408" y="172" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#f8fafc" text-anchor="middle">3</text>
+  <text x="430" y="172" font-family="Arial, sans-serif" font-size="12" fill="#e2e8f0">Play (= Ante) или Fold</text>
+
+  <circle cx="408" cy="194" r="11" fill="#334155"/>
+  <text x="408" y="198" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#f8fafc" text-anchor="middle">4</text>
+  <text x="430" y="198" font-family="Arial, sans-serif" font-size="12" fill="#e2e8f0">Дилърът се класира с дама висока</text>
+
+  <text x="32" y="266" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Ключови числа (в дълъг период)</text>
+
+  <g stroke="#1e293b" stroke-width="1">
+    <line x1="32" y1="294" x2="688" y2="294"/>
+    <line x1="32" y1="320" x2="688" y2="320"/>
+    <line x1="32" y1="346" x2="688" y2="346"/>
+  </g>
+
+  <text x="48" y="286" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">RTP на Ante залога</text>
+  <text x="688" y="286" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">≈ 96.63%</text>
+
+  <text x="48" y="312" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Домашно предимство (основна игра)</text>
+  <text x="688" y="312" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">≈ 3.37%</text>
+
+  <text x="48" y="338" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Pair Plus (домашно предимство)</text>
+  <text x="688" y="338" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">≈ 4.49%</text>
+
+  <text x="48" y="364" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">6 Card Bonus (домашно предимство)</text>
+  <text x="688" y="364" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">≈ 8.56%</text>
+
+  <rect x="32" y="378" width="656" height="40" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="48" y="394" font-family="Arial, sans-serif" font-size="12" fill="#f8fafc">Страничните залози струват повече от основната игра.</text>
+  <text x="48" y="410" font-family="Arial, sans-serif" font-size="12" fill="#cbd5e1">Стойностите са за версията на Evolution.</text>
+
+  <text x="32" y="434" font-family="Arial, sans-serif" font-size="11" fill="#64748b">18+ Играйте отговорно</text>
+  <text x="688" y="434" font-family="Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="end">Тройката е най-силна · кентата бие цвета</text>
+</svg>
