@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" role="img" aria-label="Схема на бонус колело: голямата награда заема съвсем тесен сектор, докато дребните стойности покриват по-голямата част от кръга; илюстрацията е схематична">
+  <title>Бонус колело (схематично): голямата награда е тесният сектор</title>
+  <defs>
+    <linearGradient id="bgk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#eef1f5"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="300" rx="12" ry="12" fill="url(#bgk)"/>
+  <text x="300" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#1f2937" text-anchor="middle">Как изглежда разпределението на едно колело</text>
+
+  <!-- Donut: circumference 2*pi*80 = 502.65. Big prize ~2% = 10px; rest ~98% = 492.65px -->
+  <g transform="translate(160,165)">
+    <circle r="80" fill="none" stroke="#93c5fd" stroke-width="44"/>
+    <!-- big-prize thin arc, starts at top -->
+    <circle r="80" fill="none" stroke="#dc2626" stroke-width="44"
+            stroke-dasharray="10 492.65" transform="rotate(-90)"/>
+    <text x="0" y="-2" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#1e3a8a" text-anchor="middle" font-weight="600">дребни</text>
+    <text x="0" y="14" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#1e3a8a" text-anchor="middle" font-weight="600">стойности</text>
+  </g>
+
+  <!-- Legend -->
+  <rect x="300" y="120" width="16" height="16" rx="3" fill="#dc2626"/>
+  <text x="324" y="133" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151">Голяма награда — тесен, рядък сектор</text>
+  <rect x="300" y="150" width="16" height="16" rx="3" fill="#93c5fd"/>
+  <text x="324" y="163" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151">Дребни стойности — повечето сектори</text>
+  <text x="300" y="196" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280" font-style="italic">Схематично (примерно): пропорциите варират</text>
+  <text x="300" y="214" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280" font-style="italic">по игра, но принципът се повтаря.</text>
+
+  <text x="300" y="286" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">18+ Играйте отговорно · Големият сектор е рядкото събитие, построено да изглежда близко</text>
+</svg>
