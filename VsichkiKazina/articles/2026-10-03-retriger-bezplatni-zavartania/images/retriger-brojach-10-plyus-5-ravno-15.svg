@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-label="Примерен брояч на безплатни завъртания: 10 начални плюс ретригер 5 прави 15 общо; броячът скача от 6 на 11 оставащи. Числата са примерни.">
+  <style>
+    .card{fill:#f7f8fa;stroke:#d9dee5;stroke-width:1.5}
+    .title{font-family:'Segoe UI',Arial,sans-serif;font-size:25px;font-weight:700;fill:#1f2733}
+    .sub{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;fill:#6b7684}
+    .num{font-family:'Segoe UI',Arial,sans-serif;font-size:46px;font-weight:700}
+    .lbl{font-family:'Segoe UI',Arial,sans-serif;font-size:15px;fill:#3a4452}
+    .op{font-family:'Segoe UI',Arial,sans-serif;font-size:40px;font-weight:700;fill:#8793a2}
+    .note{font-family:'Segoe UI',Arial,sans-serif;font-size:15px;fill:#3a4452}
+    .tag{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;fill:#6b7684}
+  </style>
+  <rect class="card" x="8" y="8" width="704" height="384" rx="16"/>
+  <text class="title" x="360" y="50" text-anchor="middle">Как ретригерът удължава рунда</text>
+  <text class="sub" x="360" y="78" text-anchor="middle">числата са примерни</text>
+
+  <!-- Block A: начални -->
+  <rect x="26" y="150" width="200" height="110" rx="12" fill="#e8eef5" stroke="#b9c6d6" stroke-width="1.5"/>
+  <text class="num" x="126" y="212" text-anchor="middle" fill="#2b5b8c">10</text>
+  <text class="lbl" x="126" y="240" text-anchor="middle">начални завъртания</text>
+
+  <text class="op" x="248" y="220" text-anchor="middle">+</text>
+
+  <!-- Block B: ретригер -->
+  <rect x="270" y="150" width="170" height="110" rx="12" fill="#fde9cf" stroke="#f0b76b" stroke-width="1.5"/>
+  <text class="num" x="355" y="212" text-anchor="middle" fill="#b9711a">+5</text>
+  <text class="lbl" x="355" y="240" text-anchor="middle">ретригер</text>
+
+  <text class="op" x="462" y="220" text-anchor="middle">=</text>
+
+  <!-- Block C: общо -->
+  <rect x="484" y="150" width="210" height="110" rx="12" fill="#dff0e4" stroke="#8ccfa3" stroke-width="1.5"/>
+  <text class="num" x="589" y="212" text-anchor="middle" fill="#2f7d4f">15</text>
+  <text class="lbl" x="589" y="240" text-anchor="middle">общо завъртания</text>
+
+  <text class="note" x="360" y="312" text-anchor="middle">Пример: 3 scatter-а на 4-то завъртане; броячът 6 → 11 оставащи.</text>
+  <text class="tag" x="360" y="352" text-anchor="middle">18+ Играйте отговорно</text>
+</svg>
