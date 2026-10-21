@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" role="img" aria-label="Примерно разпределение на награден фонд от €1000 между първите 10 места: 1-во €350, 2-ро €200, 3-то €100, места 4-о до 10-о по €50">
+  <rect x="0" y="0" width="760" height="400" rx="16" fill="#0f1b2d"/>
+  <rect x="1" y="1" width="758" height="398" rx="15" fill="none" stroke="#24344a" stroke-width="1"/>
+  <text x="32" y="46" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="21" font-weight="700" fill="#f4f7fb">Разпределение на награден фонд €1000</text>
+  <text x="32" y="72" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" fill="#9fb2c8">Примерна схема за 10 наградени места (числата са примерни)</text>
+
+  <!-- Row 1 -->
+  <text x="32" y="121" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="15" fill="#cdd9e6">1-во място</text>
+  <rect x="150" y="107" width="378" height="22" rx="4" fill="#2f9e8f"/>
+  <text x="540" y="123" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="15" font-weight="700" fill="#f4f7fb">€350</text>
+
+  <!-- Row 2 -->
+  <text x="32" y="167" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="15" fill="#cdd9e6">2-ро място</text>
+  <rect x="150" y="153" width="216" height="22" rx="4" fill="#3aa9c7"/>
+  <text x="378" y="169" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="15" font-weight="700" fill="#f4f7fb">€200</text>
+
+  <!-- Row 3 -->
+  <text x="32" y="213" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="15" fill="#cdd9e6">3-то място</text>
+  <rect x="150" y="199" width="108" height="22" rx="4" fill="#4f8fd6"/>
+  <text x="270" y="215" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="15" font-weight="700" fill="#f4f7fb">€100</text>
+
+  <!-- Row 4 -->
+  <text x="32" y="259" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="15" fill="#cdd9e6">4-о–10-о</text>
+  <rect x="150" y="245" width="54" height="22" rx="4" fill="#6f7fae"/>
+  <text x="216" y="261" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="15" font-weight="700" fill="#f4f7fb">по €50 (7 места)</text>
+
+  <line x1="32" y1="300" x2="728" y2="300" stroke="#24344a" stroke-width="1"/>
+  <text x="32" y="332" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="15" fill="#cdd9e6">Първите три места взимат <tspan font-weight="700" fill="#f4f7fb">€650</tspan>, над половината от фонда.</text>
+  <text x="32" y="360" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="13" fill="#9fb2c8">Наградата не е гарантирана; повечето участници не печелят.</text>
+  <text x="728" y="378" text-anchor="end" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="12" fill="#8aa0b8">18+ Играйте отговорно</text>
+</svg>
