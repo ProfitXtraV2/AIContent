@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 452" font-family="'Segoe UI',Arial,sans-serif" role="img" aria-label="Как се формира наградният фонд в онлайн бинго: залата задържа дял от продажбите, остатъкът се дели между печелившите">
+  <rect x="0" y="0" width="720" height="452" fill="#ffffff"/>
+  <rect x="16" y="16" width="688" height="420" rx="14" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+
+  <text x="360" y="52" text-anchor="middle" font-size="22" font-weight="700" fill="#1a2a3a">Откъде идва печалбата в онлайн бингото</text>
+  <text x="360" y="76" text-anchor="middle" font-size="13" fill="#51607a">Залата задържа дял от продажбите; остатъкът е наградният фонд за кръга</text>
+
+  <!-- Card A: Пълна зала -->
+  <rect x="40" y="100" width="300" height="210" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="56" y="128" font-size="15" font-weight="700" fill="#1a2a3a">Пълна зала</text>
+  <text x="56" y="154" font-size="14" fill="#334155">100 карти × €1 = €100 продажби</text>
+  <!-- split bar: 20% retained + 80% fund -->
+  <rect x="56" y="168" width="268" height="26" rx="4" fill="#2a9d8f"/>
+  <rect x="56" y="168" width="53.6" height="26" rx="4" fill="#64748b"/>
+  <text x="82.8" y="186" text-anchor="middle" font-size="11" font-weight="600" fill="#ffffff">20%</text>
+  <text x="217" y="186" text-anchor="middle" font-size="11" font-weight="600" fill="#ffffff">наградният фонд</text>
+  <text x="56" y="224" font-size="13" fill="#51607a">Залата задържа 20%</text>
+  <text x="56" y="266" font-size="15" fill="#334155">Награден фонд:</text>
+  <text x="56" y="296" font-size="26" font-weight="800" fill="#2a9d8f">€80</text>
+
+  <!-- Card B: Полупразна зала -->
+  <rect x="380" y="100" width="300" height="210" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="396" y="128" font-size="15" font-weight="700" fill="#1a2a3a">Полупразна зала</text>
+  <text x="396" y="154" font-size="14" fill="#334155">20 карти × €1 = €20 продажби</text>
+  <rect x="396" y="168" width="268" height="26" rx="4" fill="#2a9d8f"/>
+  <rect x="396" y="168" width="53.6" height="26" rx="4" fill="#64748b"/>
+  <text x="422.8" y="186" text-anchor="middle" font-size="11" font-weight="600" fill="#ffffff">20%</text>
+  <text x="557" y="186" text-anchor="middle" font-size="11" font-weight="600" fill="#ffffff">наградният фонд</text>
+  <text x="396" y="224" font-size="13" fill="#51607a">Залата задържа 20%</text>
+  <text x="396" y="266" font-size="15" fill="#334155">Награден фонд:</text>
+  <text x="396" y="296" font-size="26" font-weight="800" fill="#2a9d8f">€16</text>
+
+  <!-- chance line -->
+  <text x="360" y="346" text-anchor="middle" font-size="15" font-weight="600" fill="#1a2a3a">Шансът ти ≈ твоят дял от картите: 10 от 100 = 1 на 10</text>
+  <text x="360" y="372" text-anchor="middle" font-size="12" fill="#51607a">Повече карти вдигат и шанса, и залога в същата пропорция — средната цена не се мени</text>
+
+  <line x1="40" y1="396" x2="680" y2="396" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="40" y="420" font-size="11" fill="#94a3b8">Числата са примерни — илюстрират механиката, не са данни на конкретен оператор.</text>
+  <text x="680" y="420" text-anchor="end" font-size="11" font-weight="600" fill="#64748b">18+ Играйте отговорно</text>
+</svg>
