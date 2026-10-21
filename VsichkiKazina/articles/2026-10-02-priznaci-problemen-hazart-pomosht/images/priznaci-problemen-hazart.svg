@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" width="760" height="560" font-family="'Segoe UI',Arial,sans-serif" role="img" aria-label="Инфографика: предупредителни сигнали за проблемен хазарт (гонене на загубите, криене и лъжа, заемане на пари, загуба на контрол, безпокойство при спиране, игра за бягство) и къде да потърсиш помощ в България: линия Солидарност 0888 99 18 66.">
+  <rect x="2" y="2" width="756" height="556" rx="18" fill="#ffffff" stroke="#d8dee9"/>
+  <text x="380" y="46" text-anchor="middle" font-size="26" font-weight="700" fill="#1f2a44">Признаци на проблемен хазарт</text>
+
+  <text x="40" y="86" font-size="18" font-weight="700" fill="#2b62a8">Предупредителни сигнали</text>
+
+  <g fill="#1f2a44" font-size="18">
+    <circle cx="52" cy="112" r="5" fill="#2f6fb3"/><text x="70" y="118">Гонене на загубите</text>
+    <circle cx="52" cy="152" r="5" fill="#2f6fb3"/><text x="70" y="158">Криене и лъжа за играта</text>
+    <circle cx="52" cy="192" r="5" fill="#2f6fb3"/><text x="70" y="198">Заемане на пари за игра</text>
+    <circle cx="52" cy="232" r="5" fill="#2f6fb3"/><text x="70" y="238">Загуба на контрол над времето и парите</text>
+    <circle cx="52" cy="272" r="5" fill="#2f6fb3"/><text x="70" y="278">Безпокойство при опит за спиране</text>
+    <circle cx="52" cy="312" r="5" fill="#2f6fb3"/><text x="70" y="318">Игра за бягство от проблеми</text>
+  </g>
+
+  <rect x="40" y="344" width="680" height="162" rx="12" fill="#1f5d44"/>
+  <text x="64" y="378" font-size="18" font-weight="700" fill="#ffffff">Къде да потърсиш помощ</text>
+  <text x="64" y="410" font-size="17" fill="#ffffff">Линия „Солидарност": 0888 99 18 66</text>
+  <text x="64" y="436" font-size="15" fill="#cde8dc">делнични дни, 10:00 до 17:00, анонимно</text>
+  <text x="64" y="470" font-size="16" fill="#ffffff">Лимити и самоизключване: /otgovorna-igra/</text>
+  <text x="64" y="492" font-size="14" fill="#cde8dc">Самопроверката не замества диагноза; поставя я специалист.</text>
+
+  <text x="380" y="534" text-anchor="middle" font-size="13" fill="#8a94a6">18+ Играйте отговорно</text>
+</svg>
