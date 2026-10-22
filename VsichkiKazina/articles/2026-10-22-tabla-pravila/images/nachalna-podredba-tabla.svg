@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 440" font-family="'Segoe UI',Roboto,Arial,sans-serif" role="img" aria-label="Начална подредба в обикновената табла: 15 пула на играч, дъска с 24 полета в 4 групи по 6, 2 зара; пуловете тръгват с два на поле 24, пет на поле 13, три на поле 8 и пет на поле 6, общо 15; домашното поле са полета 1 до 6">
+  <rect x="12" y="12" width="656" height="416" rx="16" fill="#f6f8fc" stroke="#cfd8e8" stroke-width="2"/>
+  <text x="340" y="46" text-anchor="middle" font-size="24" font-weight="700" fill="#15223b">Начална подредба (обикновена табла)</text>
+  <text x="340" y="72" text-anchor="middle" font-size="14" fill="#5a6b86">откъде тръгват пуловете, броено от своето домашно поле</text>
+
+  <!-- key-fact tiles -->
+  <rect x="40" y="90" width="186" height="58" rx="10" fill="#ffffff" stroke="#cfd8e8" stroke-width="1.5"/>
+  <text x="58" y="114" text-anchor="start" font-size="13" fill="#5a6b86">Пула на играч</text>
+  <text x="58" y="140" text-anchor="start" font-size="20" font-weight="700" fill="#b8341f">15 пула</text>
+
+  <rect x="247" y="90" width="186" height="58" rx="10" fill="#ffffff" stroke="#cfd8e8" stroke-width="1.5"/>
+  <text x="265" y="114" text-anchor="start" font-size="13" fill="#5a6b86">Полета на дъската</text>
+  <text x="265" y="140" text-anchor="start" font-size="20" font-weight="700" fill="#15223b">24 (4 по 6)</text>
+
+  <rect x="454" y="90" width="186" height="58" rx="10" fill="#ffffff" stroke="#cfd8e8" stroke-width="1.5"/>
+  <text x="472" y="114" text-anchor="start" font-size="13" fill="#5a6b86">Зара</text>
+  <text x="472" y="140" text-anchor="start" font-size="20" font-weight="700" fill="#15223b">2</text>
+
+  <!-- setup rows -->
+  <text x="40" y="186" text-anchor="start" font-size="13" font-weight="600" fill="#1f3a63">ОТКЪДЕ ТРЪГВАТ ПУЛОВЕТЕ</text>
+
+  <rect x="32" y="198" width="616" height="34" fill="#eef2f9"/>
+  <text x="56" y="221" text-anchor="start" font-size="15" fill="#1a2740">Поле 24</text>
+  <text x="624" y="221" text-anchor="end" font-size="16" font-weight="700" fill="#1a2740">2 пула</text>
+
+  <text x="56" y="259" text-anchor="start" font-size="15" fill="#1a2740">Поле 13</text>
+  <text x="624" y="259" text-anchor="end" font-size="16" font-weight="700" fill="#1a2740">5 пула</text>
+
+  <rect x="32" y="274" width="616" height="34" fill="#eef2f9"/>
+  <text x="56" y="297" text-anchor="start" font-size="15" fill="#1a2740">Поле 8</text>
+  <text x="624" y="297" text-anchor="end" font-size="16" font-weight="700" fill="#1a2740">3 пула</text>
+
+  <text x="56" y="335" text-anchor="start" font-size="15" fill="#1a2740">Поле 6</text>
+  <text x="624" y="335" text-anchor="end" font-size="16" font-weight="700" fill="#1a2740">5 пула</text>
+
+  <rect x="32" y="350" width="616" height="36" fill="#e4ebf6"/>
+  <text x="56" y="374" text-anchor="start" font-size="15" font-weight="700" fill="#15223b">Общо</text>
+  <text x="624" y="374" text-anchor="end" font-size="17" font-weight="700" fill="#b8341f">15 пула</text>
+
+  <text x="340" y="412" text-anchor="middle" font-size="13" fill="#5a6b86">Домашно поле = полета 1 до 6 · 18+ Играйте отговорно.</text>
+</svg>
