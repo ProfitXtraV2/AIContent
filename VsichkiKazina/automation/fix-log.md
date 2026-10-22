@@ -2776,3 +2776,64 @@ was pushed to PR #307. No board `gemini` value changed (vk-0285 stays `ai 65`). 
 `build_dashboard.py` (buffer 223/10) and `build_feed.py` (8 approved); both produced only a
 `generated_utc` refresh. This main commit carries this log entry plus that rebuild output. No
 live/posted content touched; nothing merged; no new article branches created.
+
+---
+
+## 2026-10-22 — nightly flag + score fixes
+
+### JOB A — publish-blocking flags
+Scanned all **289** `content/*` branches' `05b-final-draft.md` (287 present; the 2
+welcome-bonus branches vk-0002/vk-0004 have no 05b — known unbuildable). Searched the full
+blocking-marker set (`[VERIFY:`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`, `[AUTHOR`,
+`[BRAND`, `[EDITORIAL]`, `[уточни`, `[провери`) plus a broader bracket sweep (TODO/FIXME/
+PLACEHOLDER/XXX/TBD/etc.), Cyrillic grep verified working.
+**Result: ZERO blocking flags fleet-wide.** No branch touched for flags. (The `[About Всички
+Казина boilerplate]` token is a standard publisher template placeholder present in 248 branches
+and in live posted articles — not a flag; left untouched.)
+
+### JOB B — low Gemini score
+In-scope targets (status drafted/approved AND `ai <n>` or `human <n<80>`): **1** — vk-0285.
+
+- **vk-0285** (2026-10-19-poker-chipove, PR #307) — `ai 65` (recorded best HL 35), status drafted.
+  - tonight's baseline (shipped 05b re-measured): **Shows AI patterns 75% → HL 25**.
+  - one **new** humaniser pass (deep rhythm *rephrase* of the 4 flagged LLM-tells, NOT a repeat of
+    2026-10-21's delete-only edits; also pre-varied the sentences the detector relocated to last
+    night). Verified no change to facts/numbers (full numeric distribution identical), all 7 links,
+    images, RG/18+ line, affiliate disclosure, byline Георги Тодоров, brand Всички Казина; 0 em-dashes.
+  - re-check regressed to **Shows AI patterns 80% → HL 20** — detector relocated goalposts again
+    (flagged a newly-introduced phrase, re-flagged an untouched transition „Турнирните чипове
+    работят иначе.", and newly condemned the fact-bearing arithmetic „Четири купчини по 20 правят
+    80…" / „сто чипа по 5 правят 500…" as „pedantic over-explanation", i.e. demanded cutting numbers
+    the hard rules forbid). Same adversarial/non-monotonic pattern as passes 1–4 and vk-0008 /
+    vk-0024 / vk-0257 / toto pillars.
+  - **Keep-best decision:** highest human-likeness seen stays the untouched initial draft
+    (**HL 35, `ai 65`**), above tonight's baseline (HL 25) and the rewrite (HL 20). Rewrite kept
+    only in scratch — nothing of it committed to the article; shipped 05b byte-identical to its best.
+    Board `gemini` unchanged (`ai 65`).
+  - A documentation-only `07-gemini-check-5.md` was committed + pushed on
+    `content/2026-10-19-poker-chipove` (PR #307); the publishable 05b was **not** changed.
+  - attempts this run: 2 Step-7 reads (1 baseline + 1 post-rewrite). Five passes now agree the
+    detector will not clear this short dry reference piece by rephrasing — no further automated
+    passes are productive. **Result: still-below-target, kept best, flagged for human (Step 6).**
+
+### POSTED — needs human review
+- **vk-0063** (2026-09-13-nv-casino-zakonno-li-e, PR #79) — `ai 75`, status **posted/live**.
+  Low-rated but live; never edited per policy (only posted low-rated row on the board). Carried
+  forward from prior runs; a human should decide whether to re-humanise + re-publish via the normal
+  flow.
+
+### Deferred
+None — only 1 in-scope JOB B target this run, well under the ≤10/night cap.
+
+### Observation (no action)
+**68** drafted/approved rows carry gemini `skipped`/blank (Step-7 not completed that day, e.g. API
+timeouts). Out of JOB B scope by definition (no `ai`/`human<80` verdict) — not acted on this run;
+flagged for operator decision on whether to backfill Step-7 on them.
+
+### Finish
+JOB A: zero flags fleet-wide, no branch touched for flags. JOB B: vk-0285 kept at its already-best
+committed 05b (reverted the lower-scoring rewrite); a documentation-only `07-gemini-check-5.md` was
+pushed to PR #307. No board `gemini` value changed (vk-0285 stays `ai 65`). Reran
+`build_dashboard.py` (buffer 222/10) and `build_feed.py` (6 approved); both produced only a
+`generated_utc` refresh. This main commit carries this log entry plus that rebuild output. No
+live/posted content touched; nothing merged; no new article branches created.
