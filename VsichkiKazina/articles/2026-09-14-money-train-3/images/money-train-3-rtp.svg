@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" font-family="'Segoe UI',Roboto,Arial,sans-serif">
+  <rect x="8" y="8" width="704" height="444" rx="18" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+
+  <text x="32" y="48" font-size="25" font-weight="700" fill="#0f172a">Money Train 3: RTP и таван</text>
+  <text x="32" y="72" font-size="14" fill="#64748b">Обявен RTP 96.10% по подразбиране · домашно предимство 3.90%</text>
+
+  <!-- Section 1: €1000 split -->
+  <text x="32" y="112" font-size="16" font-weight="600" fill="#0f172a">При €1000 оборот (дългосрочно, примерно)</text>
+  <rect x="32" y="126" width="656" height="46" rx="8" fill="#334155"/>
+  <rect x="32" y="126" width="630" height="46" rx="8" fill="#2f9e6f"/>
+  <rect x="648" y="126" width="14" height="46" fill="#334155"/>
+  <text x="48" y="155" font-size="17" font-weight="700" fill="#ffffff">€961 на играча · 96.10%</text>
+  <text x="688" y="192" font-size="13" text-anchor="end" fill="#475569">€39 за казиното · домашно предимство 3.90%</text>
+
+  <!-- Section 2: max win ceiling -->
+  <text x="32" y="234" font-size="16" font-weight="600" fill="#0f172a">Максимална печалба (× залога)</text>
+
+  <text x="32" y="272" font-size="14" fill="#334155">Money Train 2</text>
+  <rect x="176" y="256" width="180" height="28" rx="6" fill="#94a3b8"/>
+  <text x="366" y="276" font-size="15" font-weight="700" fill="#475569">~50 000×</text>
+
+  <text x="32" y="314" font-size="14" fill="#334155">Money Train 3</text>
+  <rect x="176" y="298" width="360" height="28" rx="6" fill="#d97706"/>
+  <text x="546" y="318" font-size="15" font-weight="700" fill="#b45309">100 000×</text>
+
+  <text x="32" y="360" font-size="13" fill="#64748b">По-висок таван идва с по-остра волатилност (много висока, 5/5), не с по-добри шансове.</text>
+  <text x="32" y="382" font-size="13" fill="#64748b">Възможни са по-ниски конфигурации (94.00%, 90.00%); провери инфо-панела на казиното.</text>
+  <text x="32" y="410" font-size="12" fill="#94a3b8">Числата са примерни.</text>
+  <text x="688" y="410" font-size="12" text-anchor="end" font-weight="600" fill="#94a3b8">18+ Играйте отговорно</text>
+</svg>
