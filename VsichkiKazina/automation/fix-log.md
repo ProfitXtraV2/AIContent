@@ -2837,3 +2837,66 @@ pushed to PR #307. No board `gemini` value changed (vk-0285 stays `ai 65`). Rera
 `build_dashboard.py` (buffer 222/10) and `build_feed.py` (6 approved); both produced only a
 `generated_utc` refresh. This main commit carries this log entry plus that rebuild output. No
 live/posted content touched; nothing merged; no new article branches created.
+
+---
+
+## 2026-10-23 — nightly flag + score fixes
+
+### JOB A — publish-blocking flags
+Scanned all **290** `content/*` branches' `05b-final-draft.md` for the full blocking-marker set
+(`[VERIFY:`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`, `[AUTHOR`, `[BRAND`, `[EDITORIAL]`,
+`[уточни`, `[провери`); Cyrillic `git grep -nE` verified working (288 branches carry `[` brackets —
+all ordinary markdown links, none a marker).
+**Result: ZERO blocking flags fleet-wide.** No branch touched for flags. (The `[About Всички Казина
+boilerplate]` token is the standard publisher template placeholder — present in 56 live/posted
+drafts on `main` — not a flag; left untouched.)
+
+### JOB B — low Gemini score
+In-scope targets (status drafted/approved AND `ai <n>` or `human <n<80>`): **1** — vk-0285.
+
+- **vk-0285** (2026-10-19-poker-chipove, PR #307) — `ai 65`, status drafted.
+  - tonight's baseline (shipped 05b re-measured): **Shows AI patterns 75% → HL 25** (same reading as
+    passes 4–5).
+  - **No humaniser pass applied this run.** Tonight's Gemini run returned the *identical* set of
+    flagged sentences and recommendations as pass 1 (roadmap intro, „Има и по-тиха причина.", the
+    „не е естетика, а скорост" antithesis, the symmetrical H2 topic sentences, the „…и нищо повече"
+    wrap-up). Those exact deletions were already applied twice and both scored worse (pass 1 → HL 15,
+    pass 4 → HL 20; pass 5's rhythm-rephrase variant → HL 20). Re-deleting the same five sentences a
+    sixth time is a proven-worse edit, not a new attempt; the only other "recommendation" on offer
+    (cutting the fact-bearing arithmetic examples, flagged pass 5) is forbidden by the hard rules.
+    No new, un-tried, rules-safe lever remains.
+  - integrity re-verified on shipped draft: all 7 links identical, full numeric distribution intact,
+    0 em-dashes, byline Георги Тодоров, brand Всички Казина, 18+/RG line + affiliate disclosure
+    present and unchanged.
+  - **Keep-best decision:** the shipped 05b is already the recorded-best version by content (the
+    untouched initial draft); the fluctuating raw number 65→85→75→75→80→75% across six passes on
+    unchanged/lightly-edited bytes is detector noise, not a content signal. Board `gemini` unchanged
+    (`ai 65`).
+  - A documentation-only `07-gemini-check-6.md` was committed + pushed on
+    `content/2026-10-19-poker-chipove` (PR #307); the publishable 05b was **not** changed.
+  - attempts this run: 1 Step-7 read (baseline). **Six passes across four nights (2026-10-19, -21,
+    -22, -23) now agree** the detector will not clear this short dry reference piece by rephrasing —
+    no further automated passes are productive. **Result: still-below-target, kept best, flagged for
+    human (Step 6).**
+
+### POSTED — needs human review
+- **vk-0063** (2026-09-13-nv-casino-zakonno-li-e) — `ai 75`, status **posted/live**. Low-rated but
+  live; never edited per policy (only posted low-rated row on the board). Carried forward from prior
+  runs; a human should decide whether to re-humanise + re-publish via the normal flow.
+
+### Deferred
+None — only 1 in-scope JOB B target this run, well under the ≤10/night cap.
+
+### Observation (no action)
+**68** drafted/approved rows carry gemini `skipped`/blank (Step-7 not completed, e.g. API timeouts).
+Out of JOB B scope by definition (no `ai`/`human<80` verdict) — not acted on this run; flagged for
+operator decision on whether to backfill Step-7 on them. (Unchanged from 2026-10-22.)
+
+### Finish
+JOB A: zero flags fleet-wide, no branch touched for flags. JOB B: vk-0285 — no rules-safe rewrite
+lever remains (detector repeated its twice-proven-worse pass-1 advice), shipped 05b kept as its
+recorded-best initial draft; a documentation-only `07-gemini-check-6.md` was pushed to PR #307. No
+board `gemini` value changed (vk-0285 stays `ai 65`). Reran `build_dashboard.py` (buffer 222/10) and
+`build_feed.py` (5 approved); both produced only a `generated_utc` refresh. This main commit carries
+this log entry plus that rebuild output. No live/posted content touched; nothing merged; no new
+article branches created.
