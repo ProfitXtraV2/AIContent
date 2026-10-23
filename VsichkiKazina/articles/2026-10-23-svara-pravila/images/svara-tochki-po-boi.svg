@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 470" font-family="'Segoe UI',Roboto,Arial,sans-serif" role="img" aria-label="Стойност на картите в свара: седмица, осмица и деветка с ниска стойност; десетка, вале, дама и поп по 10 точки; асо 11 точки. Точките се събират по боя. Две аса правят 22, три аса правят 33. Специалната седмица спатия струва 11 и се връзва с всяка карта.">
+  <rect x="12" y="12" width="656" height="446" rx="16" fill="#f6f8fc" stroke="#cfd8e8" stroke-width="2"/>
+  <text x="340" y="46" text-anchor="middle" font-size="24" font-weight="700" fill="#15223b">Свара: колко точки носи всяка карта</text>
+  <text x="340" y="72" text-anchor="middle" font-size="14" fill="#5a6b86">точките на картите от една и съща боя се събират</text>
+
+  <!-- card-value rows -->
+  <text x="40" y="112" text-anchor="start" font-size="13" font-weight="600" fill="#1f3a63">СТОЙНОСТ НА КАРТИТЕ</text>
+
+  <rect x="32" y="124" width="616" height="36" fill="#eef2f9"/>
+  <text x="56" y="148" text-anchor="start" font-size="15" fill="#1a2740">Седмица, осмица, деветка</text>
+  <text x="624" y="148" text-anchor="end" font-size="16" font-weight="700" fill="#1a2740">ниска стойност</text>
+
+  <text x="56" y="188" text-anchor="start" font-size="15" fill="#1a2740">Десетка, вале, дама, поп</text>
+  <text x="624" y="188" text-anchor="end" font-size="16" font-weight="700" fill="#1a2740">по 10 точки</text>
+
+  <rect x="32" y="200" width="616" height="36" fill="#eef2f9"/>
+  <text x="56" y="224" text-anchor="start" font-size="15" fill="#1a2740">Асо</text>
+  <text x="624" y="224" text-anchor="end" font-size="16" font-weight="700" fill="#b8341f">11 точки</text>
+
+  <!-- aces tiles -->
+  <text x="40" y="278" text-anchor="start" font-size="13" font-weight="600" fill="#1f3a63">НАЙ-СИЛНИТЕ РЪЦЕ</text>
+
+  <rect x="40" y="290" width="296" height="64" rx="10" fill="#ffffff" stroke="#cfd8e8" stroke-width="1.5"/>
+  <text x="60" y="316" text-anchor="start" font-size="14" fill="#5a6b86">Две аса от една боя</text>
+  <text x="60" y="342" text-anchor="start" font-size="22" font-weight="700" fill="#15223b">22 точки</text>
+
+  <rect x="344" y="290" width="296" height="64" rx="10" fill="#ffffff" stroke="#cfd8e8" stroke-width="1.5"/>
+  <text x="364" y="316" text-anchor="start" font-size="14" fill="#5a6b86">Три аса (най-силната ръка)</text>
+  <text x="364" y="342" text-anchor="start" font-size="22" font-weight="700" fill="#b8341f">33 точки</text>
+
+  <!-- special seven -->
+  <rect x="40" y="372" width="600" height="60" rx="10" fill="#fdf6ec" stroke="#e4c88a" stroke-width="1.5"/>
+  <text x="60" y="398" text-anchor="start" font-size="14" font-weight="700" fill="#8a6411">Специалната седмица спатия („Чичо Лари“ / „йончо“)</text>
+  <text x="60" y="420" text-anchor="start" font-size="14" fill="#6b5410">струва 11 точки и се връзва с коя да е друга карта. Не навсякъде се играе с нея.</text>
+</svg>
