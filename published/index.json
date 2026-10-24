@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 8,
+  "count": 9,
   "articles": [
     {
       "slug": "hub-intro-casino-payments",
@@ -45,6 +45,13 @@
       "status": "approved"
     },
     {
+      "slug": "belot-pravila",
+      "title": "Белот правила и точкуване за начинаещи",
+      "date_modified": "2026-10-20",
+      "content_hash": "fbb3d5b22df44045730496638b87944f42941020f210b8a32213dc4d6cd13149",
+      "status": "approved"
+    },
+    {
       "slug": "santase-pravila",
       "title": "Сантасе правила: как се играе сантасе (66)",
       "date_modified": "2026-10-21",
@@ -59,5 +66,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-24T16:03:33Z"
+  "generated_utc": "2026-10-24T17:38:55Z"
 }

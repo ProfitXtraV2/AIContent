@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-24T16:03:33Z",
+  "generated_utc": "2026-10-24T17:38:55Z",
   "buffer": {
     "count": 223,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 215,
-    "approved": 8,
+    "drafted": 214,
+    "approved": 9,
     "posted": 66,
     "failed": 1
   },
@@ -5751,7 +5751,7 @@
     },
     {
       "id": "vk-0286",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Белот правила — как се играе белот: раздаване, анонси, точки и терци",
       "keywords_or_terms": "белот правила, как се играе белот, обикновен белот, белот карти, игра на белот, белот точки",
