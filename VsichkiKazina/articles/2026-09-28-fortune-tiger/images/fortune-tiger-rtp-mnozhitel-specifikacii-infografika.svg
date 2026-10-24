@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 476" role="img" aria-label="Инфографика за Fortune Tiger на PG Soft. Формат: слот 3x3 с 5 фиксирани линии. RTP около 96,81 процента, настройваемо от оператора. Максимална печалба 2500x залога. Средна волатилност. Залог от 0,25 до 250 евро. Тигърът е wild, заменя всички символи и плаща 250x за три на линия. Функцията с респини заключва избран символ до запълване на екрана; пълен екран носи множител x10, който позволява до 500x от едно завъртане и отваря тавана от 2500x. Малкият грид не значи по-добри шансове: цената на играта е в RTP, не в размера на екрана.">
+  <rect x="8" y="8" width="704" height="460" rx="18" fill="#0f172a"/>
+
+  <text x="32" y="42" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#f8fafc">Fortune Tiger: спецификации и функция</text>
+  <text x="32" y="64" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Слот 3x3 на PG Soft. Целият потенциал минава през една случайна функция с множител x10.</text>
+
+  <text x="32" y="98" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fbbf24">Основни данни</text>
+
+  <g stroke="#1e293b" stroke-width="1">
+    <line x1="32" y1="110" x2="688" y2="110"/>
+    <line x1="32" y1="138" x2="688" y2="138"/>
+    <line x1="32" y1="166" x2="688" y2="166"/>
+    <line x1="32" y1="194" x2="688" y2="194"/>
+    <line x1="32" y1="222" x2="688" y2="222"/>
+    <line x1="32" y1="250" x2="688" y2="250"/>
+  </g>
+
+  <text x="48" y="128" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Формат</text>
+  <text x="688" y="128" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">3x3 грид · 5 линии</text>
+
+  <text x="48" y="156" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">RTP (настройваемо от оператора)</text>
+  <text x="688" y="156" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#4ade80" text-anchor="end">≈ 96,81%</text>
+
+  <text x="48" y="184" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Максимална печалба</text>
+  <text x="688" y="184" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fbbf24" text-anchor="end">2500x</text>
+
+  <text x="48" y="212" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Волатилност</text>
+  <text x="688" y="212" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">средна</text>
+
+  <text x="48" y="240" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Залог на завъртане</text>
+  <text x="688" y="240" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">€0,25 – €250</text>
+
+  <text x="32" y="284" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fbbf24">Тигърът и функцията</text>
+  <text x="32" y="306" font-family="Arial, sans-serif" font-size="12.5" fill="#cbd5e1">Wild (тигър): заменя всички символи · три на линия плащат 250x.</text>
+  <text x="32" y="326" font-family="Arial, sans-serif" font-size="12.5" fill="#cbd5e1">Респини: заключва избран символ до запълване на екрана.</text>
+  <text x="32" y="346" font-family="Arial, sans-serif" font-size="12.5" fill="#cbd5e1">Пълен екран → множител x10 (до 500x от завъртане, отваря тавана 2500x).</text>
+
+  <text x="32" y="380" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fbbf24">Честният ъгъл</text>
+  <text x="32" y="402" font-family="Arial, sans-serif" font-size="12.5" fill="#f8fafc">Малкият грид не значи по-добри шансове: цената на играта е в RTP,</text>
+  <text x="32" y="420" font-family="Arial, sans-serif" font-size="12.5" fill="#f8fafc">не в размера на екрана. Таванът иска рядък пълен екран.</text>
+
+  <rect x="32" y="434" width="656" height="24" rx="6" fill="#111f38"/>
+  <text x="44" y="450" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Примерни стойности; RTP и конфигурацията зависят от версията при оператора. 18+ Играйте отговорно.</text>
+</svg>
