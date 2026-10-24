@@ -11,8 +11,19 @@
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-10-24-kanasta-pravila",
-    "stages": ["Synthesis", "Outline", "Author", "Humaniser", "SEO", "Brand Gate", "Light re-check", "Images", "Verification", "PR"],
-    "stage_index": 2,
-    "stage": "Author"
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 5,
+    "stage": "Brand Gate"
   }
 }
