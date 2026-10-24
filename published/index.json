@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 6,
+  "count": 7,
   "articles": [
     {
       "slug": "hub-intro-casino-payments",
@@ -38,6 +38,13 @@
       "status": "approved"
     },
     {
+      "slug": "zakon-za-hazarta",
+      "title": "Закон за хазарта: промени 2025–2026 | Всички Казина",
+      "date_modified": "2026-10-10",
+      "content_hash": "22f7053f968606c7eea37aedb2ab19d8b0de1accfbaa24dbdfd8de87fb80226a",
+      "status": "approved"
+    },
+    {
       "slug": "santase-pravila",
       "title": "Сантасе правила: как се играе сантасе (66)",
       "date_modified": "2026-10-21",
@@ -45,5 +52,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-24T08:22:56Z"
+  "generated_utc": "2026-10-24T08:24:02Z"
 }

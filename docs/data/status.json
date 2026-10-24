@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-24T08:22:56Z",
+  "generated_utc": "2026-10-24T08:24:02Z",
   "buffer": {
     "count": 223,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 217,
-    "approved": 6,
+    "drafted": 216,
+    "approved": 7,
     "posted": 66,
     "failed": 1
   },
@@ -5280,7 +5280,7 @@
     },
     {
       "id": "vk-0265",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Закон за хазарта — какво трябва да знае играчът (промени 2025–2026)",
       "keywords_or_terms": "закон за хазарта, закон за хазарта 2025, закон за хазарта 2026, закон за хазарта промени, забрана за реклама на хазарт",
