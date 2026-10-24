@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-24T08:24:02Z",
+  "generated_utc": "2026-10-24T16:03:33Z",
   "buffer": {
     "count": 223,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 216,
-    "approved": 7,
+    "drafted": 215,
+    "approved": 8,
     "posted": 66,
     "failed": 1
   },
@@ -5797,7 +5797,7 @@
     },
     {
       "id": "vk-0288",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Табла правила — как се играе табла (обикновена, тапа, гюлбара)",
       "keywords_or_terms": "табла, табла правила, как се играе табла, игра на табла, табла подредба, обикновена табла, тапа, гюлбара",

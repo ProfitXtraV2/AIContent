@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 7,
+  "count": 8,
   "articles": [
     {
       "slug": "hub-intro-casino-payments",
@@ -50,7 +50,14 @@
       "date_modified": "2026-10-21",
       "content_hash": "f28f1d165275114f1045f179dbe01e9f2298541a52d140998d063d7cff73dd30",
       "status": "approved"
+    },
+    {
+      "slug": "tabla-pravila",
+      "title": "Табла правила: как се играе (обикновена, тапа, гюлбара)",
+      "date_modified": "2026-10-22",
+      "content_hash": "ae56225967283f4488e0fca3027340f92d64bb91c9fe95ca5b48c3656ea28830",
+      "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-24T08:24:02Z"
+  "generated_utc": "2026-10-24T16:03:33Z"
 }
