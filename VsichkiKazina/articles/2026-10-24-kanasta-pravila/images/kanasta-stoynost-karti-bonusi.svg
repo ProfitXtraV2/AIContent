@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 476" font-family="'Segoe UI',Roboto,Arial,sans-serif" role="img" aria-label="Канаста: стойност на картите и бонуси в точки">
+  <rect x="0" y="0" width="780" height="476" rx="18" fill="#0f2e26"/>
+  <rect x="16" y="16" width="748" height="444" rx="14" fill="#f5f3ec"/>
+
+  <!-- Title -->
+  <text x="390" y="54" text-anchor="middle" font-size="25" font-weight="700" fill="#0f2e26">Канаста: стойност на картите и бонуси</text>
+  <text x="390" y="78" text-anchor="middle" font-size="13" fill="#5b6b64">класически вариант; стойностите по-долу са в точки</text>
+
+  <!-- Left panel: card values -->
+  <rect x="36" y="98" width="356" height="318" rx="10" fill="#ffffff" stroke="#d8d3c6" stroke-width="1"/>
+  <rect x="36" y="98" width="356" height="40" rx="10" fill="#14473a"/>
+  <rect x="36" y="118" width="356" height="20" fill="#14473a"/>
+  <text x="56" y="124" font-size="17" font-weight="700" fill="#ffffff">Стойност на всяка карта</text>
+
+  <!-- rows -->
+  <text x="56" y="172" font-size="15" fill="#263330">Джокер</text>
+  <text x="372" y="172" text-anchor="end" font-size="17" font-weight="700" fill="#14473a">50</text>
+  <line x1="56" y1="186" x2="372" y2="186" stroke="#ece8de" stroke-width="1"/>
+
+  <text x="56" y="214" font-size="15" fill="#263330">Асо и двойка</text>
+  <text x="372" y="214" text-anchor="end" font-size="17" font-weight="700" fill="#14473a">20</text>
+  <line x1="56" y1="228" x2="372" y2="228" stroke="#ece8de" stroke-width="1"/>
+
+  <text x="56" y="256" font-size="15" fill="#263330">Поп, дама, вале, 10, 9, 8</text>
+  <text x="372" y="256" text-anchor="end" font-size="17" font-weight="700" fill="#14473a">10</text>
+  <line x1="56" y1="270" x2="372" y2="270" stroke="#ece8de" stroke-width="1"/>
+
+  <text x="56" y="298" font-size="15" fill="#263330">7, 6, 5, 4</text>
+  <text x="372" y="298" text-anchor="end" font-size="17" font-weight="700" fill="#14473a">5</text>
+  <line x1="56" y1="312" x2="372" y2="312" stroke="#ece8de" stroke-width="1"/>
+
+  <text x="56" y="340" font-size="15" fill="#263330">Черна тройка</text>
+  <text x="372" y="340" text-anchor="end" font-size="17" font-weight="700" fill="#14473a">5</text>
+  <text x="56" y="360" font-size="11.5" fill="#8a7f6a">брои се само при излизане</text>
+  <line x1="56" y1="374" x2="372" y2="374" stroke="#ece8de" stroke-width="1"/>
+
+  <text x="56" y="398" font-size="15" fill="#263330">Червена тройка</text>
+  <text x="372" y="398" text-anchor="end" font-size="17" font-weight="700" fill="#b23a2e">100</text>
+
+  <!-- Right panel: bonuses -->
+  <rect x="412" y="98" width="332" height="318" rx="10" fill="#ffffff" stroke="#d8d3c6" stroke-width="1"/>
+  <rect x="412" y="98" width="332" height="40" rx="10" fill="#14473a"/>
+  <rect x="412" y="118" width="332" height="20" fill="#14473a"/>
+  <text x="432" y="124" font-size="17" font-weight="700" fill="#ffffff">Бонуси и точки</text>
+
+  <text x="432" y="172" font-size="15" fill="#263330">Чиста канаста (7+ карти)</text>
+  <text x="724" y="172" text-anchor="end" font-size="17" font-weight="700" fill="#14473a">500</text>
+  <line x1="432" y1="186" x2="724" y2="186" stroke="#ece8de" stroke-width="1"/>
+
+  <text x="432" y="214" font-size="15" fill="#263330">Смесена канаста</text>
+  <text x="724" y="214" text-anchor="end" font-size="17" font-weight="700" fill="#14473a">300</text>
+  <line x1="432" y1="228" x2="724" y2="228" stroke="#ece8de" stroke-width="1"/>
+
+  <text x="432" y="256" font-size="15" fill="#263330">Четири червени тройки</text>
+  <text x="724" y="256" text-anchor="end" font-size="17" font-weight="700" fill="#b23a2e">800</text>
+  <text x="432" y="276" font-size="11.5" fill="#8a7f6a">всяка поотделно носи 100</text>
+  <line x1="432" y1="290" x2="724" y2="290" stroke="#ece8de" stroke-width="1"/>
+
+  <text x="432" y="318" font-size="15" fill="#263330">Излизане</text>
+  <text x="724" y="318" text-anchor="end" font-size="17" font-weight="700" fill="#14473a">100</text>
+  <line x1="432" y1="332" x2="724" y2="332" stroke="#ece8de" stroke-width="1"/>
+
+  <text x="432" y="360" font-size="15" fill="#263330">Скрито излизане</text>
+  <text x="724" y="360" text-anchor="end" font-size="17" font-weight="700" fill="#14473a">200</text>
+  <line x1="432" y1="374" x2="724" y2="374" stroke="#ece8de" stroke-width="1"/>
+
+  <text x="432" y="398" font-size="15" fill="#263330">Цел на играта</text>
+  <text x="724" y="398" text-anchor="end" font-size="17" font-weight="700" fill="#14473a">5000</text>
+
+  <!-- footer -->
+  <text x="36" y="444" font-size="12" fill="#5b6b64">Тесте: 108 карти (2×52 + 4 джокера)</text>
+  <text x="744" y="444" text-anchor="end" font-size="12" font-weight="600" fill="#5b6b64">18+ Играйте отговорно</text>
+</svg>
