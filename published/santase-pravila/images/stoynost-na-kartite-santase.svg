@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 430" font-family="'Segoe UI',Roboto,Arial,sans-serif" role="img" aria-label="Стойност на картите в сантасе: Асо 11, Десятка 10, Поп 4, Дама 3, Вале 2, Девятка 0 точки">
+  <rect x="12" y="12" width="596" height="406" rx="16" fill="#f6f8fc" stroke="#cfd8e8" stroke-width="2"/>
+  <text x="310" y="50" text-anchor="middle" font-size="24" font-weight="700" fill="#15223b">Стойност на картите в сантасе</text>
+  <text x="310" y="77" text-anchor="middle" font-size="15" fill="#5a6b86">точките са едни и същи, независимо коя боя е коз</text>
+
+  <!-- header band -->
+  <rect x="32" y="96" width="556" height="38" rx="8" fill="#1f3a63"/>
+  <text x="56" y="121" text-anchor="start" font-size="16" font-weight="600" fill="#ffffff">Карта</text>
+  <text x="520" y="121" text-anchor="middle" font-size="16" font-weight="600" fill="#ffffff">Точки</text>
+
+  <!-- rows -->
+  <g font-size="18" fill="#1a2740">
+    <rect x="32" y="138" width="556" height="36" fill="#eef2f9"/>
+    <text x="56" y="162" text-anchor="start">Асо</text>
+    <text x="520" y="162" text-anchor="middle" font-weight="700" fill="#b8341f">11</text>
+
+    <text x="56" y="200" text-anchor="start">Десятка (10)</text>
+    <text x="520" y="200" text-anchor="middle" font-weight="700" fill="#b8341f">10</text>
+
+    <rect x="32" y="212" width="556" height="36" fill="#eef2f9"/>
+    <text x="56" y="236" text-anchor="start">Поп</text>
+    <text x="520" y="236" text-anchor="middle">4</text>
+
+    <text x="56" y="274" text-anchor="start">Дама</text>
+    <text x="520" y="274" text-anchor="middle">3</text>
+
+    <rect x="32" y="286" width="556" height="36" fill="#eef2f9"/>
+    <text x="56" y="310" text-anchor="start">Вале</text>
+    <text x="520" y="310" text-anchor="middle">2</text>
+
+    <text x="56" y="348" text-anchor="start">Девятка (9)</text>
+    <text x="520" y="348" text-anchor="middle">0</text>
+  </g>
+  <line x1="430" y1="138" x2="430" y2="366" stroke="#cfd8e8" stroke-width="1"/>
+
+  <text x="310" y="398" text-anchor="middle" font-size="13" fill="#5a6b86">Всяка боя събира 30 точки · цялото тесте 120 точки · 18+ Играйте отговорно.</text>
+</svg>

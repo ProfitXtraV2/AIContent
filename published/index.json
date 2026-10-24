@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 5,
+  "count": 6,
   "articles": [
     {
       "slug": "hub-intro-casino-payments",
@@ -36,7 +36,14 @@
       "date_modified": "2026-09-19",
       "content_hash": "f1c7b24f7c372c70049958c0be6093d321d4545f269f9af1ad7e06eb1a15569c",
       "status": "approved"
+    },
+    {
+      "slug": "santase-pravila",
+      "title": "Сантасе правила: как се играе сантасе (66)",
+      "date_modified": "2026-10-21",
+      "content_hash": "f28f1d165275114f1045f179dbe01e9f2298541a52d140998d063d7cff73dd30",
+      "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-24T08:13:17Z"
+  "generated_utc": "2026-10-24T08:22:56Z"
 }

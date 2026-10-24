@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-24T08:13:14Z",
+  "generated_utc": "2026-10-24T08:22:56Z",
   "buffer": {
     "count": 223,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 218,
-    "approved": 5,
+    "drafted": 217,
+    "approved": 6,
     "posted": 66,
     "failed": 1
   },
@@ -5774,7 +5774,7 @@
     },
     {
       "id": "vk-0287",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Сантасе правила — как се играе сантасе (66): раздаване, коз, обявяване на 20 и 40, затваряне",
       "keywords_or_terms": "сантасе, сантасе правила, как се играе сантасе, игра на сантасе, сантасе онлайн",
