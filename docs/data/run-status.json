@@ -5,14 +5,14 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01J3jcbAxY67Mv1wA59NHoYj",
-  "note": "daily run 2026-10-24 — started; reconcile clean (0 in-progress/handoff/claimed), monthly SEO review already done 2026-10",
+  "note": "daily run 2026-10-24 — writing 1 new guide vk-0290 'Канаста правила' (research pick, opp 55 Good). Reconcile clean; monthly SEO review already done 2026-10.",
   "progress": {
-    "phase": "init",
-    "article_index": 0,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 1,
-    "article_slug": null,
+    "article_slug": "2026-10-24-kanasta-pravila",
     "stages": ["Synthesis", "Outline", "Author", "Humaniser", "SEO", "Brand Gate", "Light re-check", "Images", "Verification", "PR"],
-    "stage_index": null,
-    "stage": null
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
