@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-24T17:39:48Z",
+  "generated_utc": "2026-10-24T23:11:43Z",
   "buffer": {
     "count": 223,
     "target": 10,
@@ -5716,8 +5716,8 @@
       "posted_date": "",
       "folder": "2026-10-19-poker-chipove",
       "pr": "#307",
-      "gemini": "ai 65",
-      "notes": "img:2 (infographic цветове/стойности+кеш-vs-турнир 95 + decorative hero чипове+карти, 0 integrity) · gate 93 PASS WITH FIXES 0-crit · Gemini text keep-best: initial HL35 (ai 65) → humaniser p1 HL15 → p2 HL25, noisy/adversarial detector relocated flags each pass (applying its own recs lowered the score), kept initial per keep-best; API read-timeouts today → faithful longer-timeout re-runs. 0 [VERIFY]/[DATA NEEDED]/[CONFLICT]. daily run 2026-10-19 (MAX_PER_RUN=1), backlog P3 cluster:poker; reference how-it-works guide (цветове/стойности/броене, кеш срещу турнир, смяна на цвета/color up, етикет). DISTINCT vs vk-0008 poker overview / vk-0263 hand-rankings / vk-0281 legality; 0 chips page in queue+live sitemap (2026-10-19). Ahrefs bg „покер чипове\" 100/kd23 informational. guides-only scope (0 operator/НАП/affiliate; chip values have NO worldwide standard → typical scheme labelled примерни, номинал+каса = authority, турнирни чипове = точки). PR #307 (watched).",
+      "gemini": "human 85",
+      "notes": "nightly 2026-10-24 quality fix: humaniser applied Gemini Step-7 recs (drop article-map signposting, soften aphoristic/staccato openers, cut formulaic list intros + neat-bow summary + over-explained arithmetic + lexical echoes, naturalise internal links) → ai 65 → human 85 (Likely human-written 85%), 4 passes, rephrasing only, all facts/links/RG preserved. · img:2 (infographic цветове/стойности+кеш-vs-турнир 95 + decorative hero чипове+карти, 0 integrity) · gate 93 PASS WITH FIXES 0-crit · Gemini text keep-best: initial HL35 (ai 65) → humaniser p1 HL15 → p2 HL25, noisy/adversarial detector relocated flags each pass (applying its own recs lowered the score), kept initial per keep-best; API read-timeouts today → faithful longer-timeout re-runs. 0 [VERIFY]/[DATA NEEDED]/[CONFLICT]. daily run 2026-10-19 (MAX_PER_RUN=1), backlog P3 cluster:poker; reference how-it-works guide (цветове/стойности/броене, кеш срещу турнир, смяна на цвета/color up, етикет). DISTINCT vs vk-0008 poker overview / vk-0263 hand-rankings / vk-0281 legality; 0 chips page in queue+live sitemap (2026-10-19). Ahrefs bg „покер чипове\" 100/kd23 informational. guides-only scope (0 operator/НАП/affiliate; chip values have NO worldwide standard → typical scheme labelled примерни, номинал+каса = authority, турнирни чипове = точки). PR #307 (watched).",
       "opportunity": {
         "score": 36,
         "band": "Moderate",
@@ -5854,8 +5854,8 @@
       "posted_date": "",
       "folder": "2026-10-24-kanasta-pravila",
       "pr": "#312",
-      "gemini": "ai 75",
-      "notes": "daily run 2026-10-24 (MAX_PER_RUN=1), research-bank top writable candidate (opp 55 Good > Dog House Megaways 44 Moderate). Card-game-rules sibling to белот(vk-0286)/сантасе(vk-0287)/свара(vk-0289)/табла(vk-0288)/баккара cluster; 0 coverage queue+backlog+live sitemap (137 URLs, 2026-10-24) → no cannibalization. guides-only scope OK (0 operator/НАП facts; международни правила от pagat.com + Wikipedia). Ahrefs bg канаста 300/kd0 informational. · OUTCOME: drafted → PR #312. Gate 85/100 PASS WITH FIXES 0-crit. Gemini Step-7: initial HL10 → p1 HL25 → p2 HL15; MAX_GEMINI_PASSES; keep-best=p1 (ai 75; noisy/adversarial detector, human voice polish advised). img:2 (infographic kanasta-stoynost-karti-bonusi 100 flawless, every number 1:1 vs 05b + decorative hero kanasta-karti-kosnica-hero 65 keep-best, 0 integrity fail). 2 upstream [VERIFY] resolved from pagat source → 0 flags. 5 internal links (баккара sibling, hazartni-igri-vidove hub, zakonno-li-e, responsible-gambling, otgovorna-igra). Research row канаста → used.",
+      "gemini": "human 85",
+      "notes": "nightly 2026-10-24: resolved 3 blocking placeholder markers at draft end ([AUTHOR BIO BLOCK], [BRAND BOILERPLATE], [18+ / RG LINE] — redundant, byline/RG already verbatim above) → publish-ready; Gemini re-check on flag-free version = human 85 (Likely human-written 85%), already passing, no quality edit needed. · daily run 2026-10-24 (MAX_PER_RUN=1), research-bank top writable candidate (opp 55 Good > Dog House Megaways 44 Moderate). Card-game-rules sibling to белот(vk-0286)/сантасе(vk-0287)/свара(vk-0289)/табла(vk-0288)/баккара cluster; 0 coverage queue+backlog+live sitemap (137 URLs, 2026-10-24) → no cannibalization. guides-only scope OK (0 operator/НАП facts; международни правила от pagat.com + Wikipedia). Ahrefs bg канаста 300/kd0 informational. · OUTCOME: drafted → PR #312. Gate 85/100 PASS WITH FIXES 0-crit. Gemini Step-7: initial HL10 → p1 HL25 → p2 HL15; MAX_GEMINI_PASSES; keep-best=p1 (ai 75; noisy/adversarial detector, human voice polish advised). img:2 (infographic kanasta-stoynost-karti-bonusi 100 flawless, every number 1:1 vs 05b + decorative hero kanasta-karti-kosnica-hero 65 keep-best, 0 integrity fail). 2 upstream [VERIFY] resolved from pagat source → 0 flags. 5 internal links (баккара sibling, hazartni-igri-vidove hub, zakonno-li-e, responsible-gambling, otgovorna-igra). Research row канаста → used.",
       "opportunity": {
         "score": 55,
         "band": "Good",

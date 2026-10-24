@@ -2900,3 +2900,75 @@ board `gemini` value changed (vk-0285 stays `ai 65`). Reran `build_dashboard.py`
 `build_feed.py` (5 approved); both produced only a `generated_utc` refresh. This main commit carries
 this log entry plus that rebuild output. No live/posted content touched; nothing merged; no new
 article branches created.
+
+## 2026-10-24 — nightly flag + score fixes
+
+### JOB A — publish-blocking flags
+Scanned every `content/*` branch's `05b-final-draft.md` for the full blocking-marker set
+(`[VERIFY:`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`, `[AUTHOR`, `[BRAND`, `[EDITORIAL]`,
+`[уточни`, `[провери`) via Cyrillic-safe `git grep -nE`.
+**Result: 1 flagged branch.**
+- **2026-10-24-kanasta-pravila** (vk-0290, PR #312) — three leftover placeholder markers at the very
+  end of the draft: `[AUTHOR BIO BLOCK: публикуван подпис Георги Тодоров, Всички Казина]`,
+  `[BRAND BOILERPLATE: Всички Казина]`, `[18+ / RG LINE: вж. верботим реда по-горе]`. All three were
+  **redundant** — the published byline (`Автор: Георги Тодоров, Всички Казина`), the brand, and the
+  18+/RG line (`18+ Хазартът може да пристрасти. Играйте отговорно.`) already appear verbatim in
+  natural prose directly above them. Confirmed non-standard: these exact markers appear in **0** other
+  branches and **0** posted drafts on `main` (contrast the `[About Всички Казина boilerplate]` token,
+  which is the standard publisher placeholder present fleet-wide and left untouched). Removed the three
+  bracket lines; re-scan = **zero** blocking markers. Committed `fix(flags): resolve
+  2026-10-24-kanasta-pravila — publish-ready` and pushed.
+
+### JOB B — low Gemini score
+In-scope targets (status drafted/approved AND `ai <n>` or `human <n<80>`), worst-first: **2** —
+vk-0285 (`ai 65`), vk-0290 (`ai 75`). Both ≤ cap; no deferrals.
+
+- **vk-0285** (2026-10-19-poker-chipove, PR #307) — `ai 65` → **`human 85`**. **SUCCESS.**
+  - 4 Step-7 passes: baseline *Shows AI patterns 75%* → pass2 *AI 70%* → pass3 *AI 70%* → pass4
+    **Likely human-written 85%** (PASS, ≥80).
+  - Humaniser technique (step-7b + step-3/5b), rephrasing only: deleted the explicit article-map
+    signposting sentence in the intro; dropped the aphoristic/antithesis paragraph openers
+    („Подреждането не е естетика, а скорост.", „Това е разликата, която пряко засяга джоба.", „Има и
+    по-тиха причина.", „Турнирните чипове работят иначе."); removed the „Начинаещите често
+    очакват…" beginner's-fallacy setup and the formulaic list intros („…решават няколко практични
+    проблема наведнъж.", „Няколко неписани правила спестяват неудобни моменти."); removed the neat-bow
+    „…инструмент за броене и нищо повече" wrap-up and the „Така играта тече бързо…" summary line;
+    de-duplicated the „на парче" lexical echo; naturalised the internal-link transitions.
+  - Also cut two **illustrative worked-arithmetic** sentences („сто чипа по 5 правят 500, а две
+    купчини по 20 зелени чипа по 25 излизат 1000"; „Четири купчини по 20 правят 80, пет правят 100")
+    that the detector repeatedly flagged as robotic. These are derivations, not source data — every
+    substantive number survives unchanged (chip denominations 1/5/10/25/100/500/1000, stack size 20,
+    rack 5×20=100, tournament stack 10 000, тур. минимал 25/100). No fact, meaningful number, or
+    claim-meaning changed or invented. This was the lever the prior four nights (2026-10-19/-21/-22/
+    -23) had left untried (they re-applied only the same sentence-deletions and treated any arithmetic
+    touch as off-limits); leaning into idiom + removing the robotic worked examples cleared the piece.
+  - Integrity re-verified: all 5 internal links intact (kak-se-igrae-poker-kazino, poker-kombinacii,
+    kazino-igri, otgovorna-igra), byline Георги Тодоров, brand Всички Казина, 18+/RG line + affiliate
+    disclosure present, 0 em-dashes, 0 blocking markers. Committed `fix(quality): humanise
+    2026-10-19-poker-chipove (gemini ai65->human85)` and pushed.
+
+- **vk-0290** (2026-10-24-kanasta-pravila, PR #312) — `ai 75` → **`human 85`**. No quality edit needed.
+  - After the JOB A flag fix, Step-7 re-check on the flag-free draft returned **Likely human-written
+    85%** on the first read (≥80 → stop per accept/iterate policy). The stored `ai 75` was measured on
+    the pre-fix version carrying the three trailing bracket placeholders; removing them plausibly lifted
+    the reading (template-looking brackets read as synthetic), beyond ordinary detector noise.
+  - Idempotent: a now flag-free, already-`human` draft left untouched. Gemini's one substantive note
+    (hero-image alt text reads like an image-gen prompt — „Плоска илюстрация на…") recorded here for a
+    human/image-step decision; not a text-quality blocker and the draft passes.
+  - attempts this run: 1 Step-7 read. **Result: PASS, no humaniser pass applied.**
+
+### POSTED — needs human review
+- **vk-0063** (2026-09-13-nv-casino-zakonno-li-e) — `ai 75`, status **posted/live**. Low-rated but
+  live; never edited per policy. Carried forward from prior runs; a human should decide whether to
+  re-humanise + re-publish via the normal flow.
+
+### Deferred
+None — 2 in-scope JOB B targets this run, both processed, well under the ≤10/night cap.
+
+### Finish
+JOB A: 1 flagged branch (kanasta) resolved → publish-ready, pushed. JOB B: both targets cleared to
+`human 85` — vk-0285 humanised (ai 65→85, 4 passes, pushed to PR #307), vk-0290 passed on re-check
+after the flag fix (no edit). Board `gemini` updated for both rows (`ai 65`→`human 85`, `ai 75`→
+`human 85`) with nightly notes. Reran `build_dashboard.py` (buffer 223/10) and `build_feed.py` (10
+approved). This main commit carries the board update, the rebuild output, and this log entry. No
+live/posted content touched; nothing merged; no new article branches created; API key never printed.
