@@ -1,30 +1,17 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-10-23T07:14:57Z",
-  "run_finished_utc": "2026-10-23T07:51:43Z",
-  "articles_written": 1,
-  "prs_opened": [
-    311
-  ],
-  "run_url": "https://claude.ai/code/session_01AmvdqWMvYoVdEtnA4NPZrX",
-  "note": "daily run 2026-10-23 done - 1 NEW guide vk-0289 'Свара правила - как се играе свара (игра на карти на пари)', PR #311. Research-bank pick (свара -> used) after SKIPPING 2 higher-opp candidates whose pre-write VERIFY gates failed: 'тото скандо/скандау' 900/kd0 = NOT a real БСТ game (verified vs full info.toto.bg roster 23.10.2026: 12 Тото + 33 моментни, no 'Скандинавия') -> removed; 'лотария касови бележки' 450/kd0 = unverifiable 2026 status (all sources stale, kasovbon.bg HTTP 500) + weak casino-audience fit -> removed. Свара = distinct BG хазартна игра на карти, sibling to белот/сантасе/табла/баккара; 0 coverage queue+live sitemap (137 URLs). guides-only, 0 operator/НАП facts. Covers 32 карти 7-А, 3 карти, анте->на тъмно->играй/повиши/пас (раздаващ последен, таван 3 повишения), точкуване по бои (10/вале/дама/поп=10, асо=11, 2 аса=22, 3 аса=33, спец. 7 спатия 'Чичо Лари'/'йончо'=11), свара-тай (равни ръце -> нова ръка с миза 1/2 / 1/3 / 1/4), 'уговаря се на масата' honest frame (комбинационен вариант + малка свара + 32/36 карти), 'свара на пари законно ли е' -> НАП+RG. Gate 93 PASS 0-crit. Gemini Step-7: initial HL25 -> p1 HL20 -> p2 HL90 PASS; keep-best=p2 (human 90). img:2 (infographic svara-tochki-po-boi + decorative hero webp 26KB; image review 100/100 PASS, every number 1:1 vs 05b, 0 integrity fail). 0 flags. Step-6: Ahrefs ONLINE (25,511/200,000, reset 2026-11-15). Added 1 candidate Канаста 300/kd0 (card-game cluster, distinct, moderate газарт-fit) replacing the 2 retired; Dog House Megaways 70/kd0 kept. Bank=2. Backlog 10 NV-Casino rows enriched+blocked (out of scope) untouched. Board on main; dashboard rebuilt (buffer 222/10); feed refreshed (5 approved, unchanged). No flags resolved; nothing posted/merged/fabricated. PR #311 subscribed (Claude GitHub App NOT installed on repo -> no auto events; check PR directly). Review for repo owner (AmigoNiko).",
+  "state": "running",
+  "run_started_utc": "2026-10-24T07:15:06Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01J3jcbAxY67Mv1wA59NHoYj",
+  "note": "daily run 2026-10-24 — started; reconcile clean (0 in-progress/handoff/claimed), monthly SEO review already done 2026-10",
   "progress": {
-    "phase": "done",
-    "article_index": 1,
+    "phase": "init",
+    "article_index": 0,
     "article_total": 1,
-    "article_slug": "2026-10-23-svara-pravila",
-    "stages": [
-      "Synthesis",
-      "Outline",
-      "Author",
-      "Humaniser",
-      "SEO",
-      "Brand Gate",
-      "Light re-check",
-      "Images",
-      "Verification",
-      "PR"
-    ],
+    "article_slug": null,
+    "stages": ["Synthesis", "Outline", "Author", "Humaniser", "SEO", "Brand Gate", "Light re-check", "Images", "Verification", "PR"],
     "stage_index": null,
     "stage": null
   }
