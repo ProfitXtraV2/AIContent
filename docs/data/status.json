@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-24T17:38:55Z",
+  "generated_utc": "2026-10-24T17:39:48Z",
   "buffer": {
     "count": 223,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 214,
-    "approved": 9,
+    "drafted": 213,
+    "approved": 10,
     "posted": 66,
     "failed": 1
   },
@@ -5395,7 +5395,7 @@
     },
     {
       "id": "vk-0270",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Системи и комбинации в тото — колко струват и увеличават ли шанса",
       "keywords_or_terms": "тото комбинации 6 от 49 цени, най добрата система за тото 2, системен фиш тото",
