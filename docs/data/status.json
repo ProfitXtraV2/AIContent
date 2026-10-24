@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-24T07:15:25Z",
+  "generated_utc": "2026-10-24T08:13:14Z",
   "buffer": {
-    "count": 222,
+    "count": 223,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 217,
+    "drafted": 218,
     "approved": 5,
     "posted": 66,
     "failed": 1
@@ -5840,6 +5840,29 @@
       },
       "verify_flags": 0,
       "verify_samples": []
+    },
+    {
+      "id": "vk-0290",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Канаста — правила и как се играе (разновидности и точкуване)",
+      "keywords_or_terms": "канаста, канаста правила, как се играе канаста, игра на канаста",
+      "volume": "300",
+      "kd": "0",
+      "source": "research",
+      "drafted_date": "2026-10-24",
+      "posted_date": "",
+      "folder": "2026-10-24-kanasta-pravila",
+      "pr": "#312",
+      "gemini": "ai 75",
+      "notes": "daily run 2026-10-24 (MAX_PER_RUN=1), research-bank top writable candidate (opp 55 Good > Dog House Megaways 44 Moderate). Card-game-rules sibling to белот(vk-0286)/сантасе(vk-0287)/свара(vk-0289)/табла(vk-0288)/баккара cluster; 0 coverage queue+backlog+live sitemap (137 URLs, 2026-10-24) → no cannibalization. guides-only scope OK (0 operator/НАП facts; международни правила от pagat.com + Wikipedia). Ahrefs bg канаста 300/kd0 informational. · OUTCOME: drafted → PR #312. Gate 85/100 PASS WITH FIXES 0-crit. Gemini Step-7: initial HL10 → p1 HL25 → p2 HL15; MAX_GEMINI_PASSES; keep-best=p1 (ai 75; noisy/adversarial detector, human voice polish advised). img:2 (infographic kanasta-stoynost-karti-bonusi 100 flawless, every number 1:1 vs 05b + decorative hero kanasta-karti-kosnica-hero 65 keep-best, 0 integrity fail). 2 upstream [VERIFY] resolved from pagat source → 0 flags. 5 internal links (баккара sibling, hazartni-igri-vidove hub, zakonno-li-e, responsible-gambling, otgovorna-igra). Research row канаста → used.",
+      "opportunity": {
+        "score": 55,
+        "band": "Good",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
     }
   ],
   "backlog": [
@@ -6706,9 +6729,9 @@
       "intent": "informational",
       "trend": "",
       "checked": "ahrefs",
-      "suggestion": "NEW winnable (pull 2026-10-23, Ahrefs bg): „канаста\" 300/kd0 (global 700, info+comm ↑) + „канаста правила\" 40/kd0. Card-game-rules sibling to белот/сантасе/свара/баккара cluster (активният, представящ се cluster); 0 coverage queue+backlog+live sitemap (137 URLs, 2026-10-23) → no cannibalization. MODERATE газарт brand-fit: канаста обикновено е социална/семейна игра (rummy-тип), по-слаба газарт-асоциация от свара → пиши като „правила + разновидности + точкуване\" с лека „онлайн/на пари\" рамка само ако е естествена; 0 operator facts → guides-only scope OK. Added as replacement за двата оттеглени non-writable кандидата.",
-      "status": "candidate",
-      "date_researched": "2026-10-23",
+      "suggestion": "NEW winnable (pull 2026-10-23, Ahrefs bg): „канаста\" 300/kd0 (global 700, info+comm ↑) + „канаста правила\" 40/kd0. Card-game-rules sibling to белот/сантасе/свара/баккара cluster (активният, представящ се cluster); 0 coverage queue+backlog+live sitemap (137 URLs, 2026-10-23) → no cannibalization. MODERATE газарт brand-fit: канаста обикновено е социална/семейна игра (rummy-тип), по-слаба газарт-асоциация от свара → пиши като „правила + разновидности + точкуване\" с лека „онлайн/на пари\" рамка само ако е естествена; 0 operator facts → guides-only scope OK. Added as replacement за двата оттеглени non-writable кандидата. · USED 2026-10-24: написана като vk-0290 (PR #312); gemini ai 75 keep-best p1 (HL10→25→15, MAX_GEMINI_PASSES, noisy detector); img:2 (infographic 100 flawless + decorative hero 65, 0 integrity fail); 0 flags; 0 операторски/НАП факти (pagat.com + Wikipedia).",
+      "status": "used",
+      "date_researched": "2026-10-24",
       "opportunity": {
         "score": 55,
         "band": "Good",
@@ -10547,30 +10570,16 @@
       }
     ],
     "bands": {
-      "Moderate": 2,
-      "Good": 1
+      "Moderate": 2
     },
     "clusters": {
       "uncategorised": {
-        "winnable": 2,
+        "winnable": 1,
         "pillar": 0,
-        "total": 3
+        "total": 2
       }
     },
     "winnable": [
-      {
-        "query": "Канаста — правила и как се играе (разновидности и точкуване)",
-        "keywords": "канаста, канаста правила, как се играе канаста",
-        "volume": "300",
-        "kd": "0",
-        "intent": "informational",
-        "band": "Good",
-        "score": 55,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "candidate",
-        "src": "research"
-      },
       {
         "query": "Dog House Megaways (Pragmatic Play): как работи и RTP",
         "keywords": "dog house megaways, дог хаус мегауейс, dog house megaways rtp",
@@ -10588,7 +10597,7 @@
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 2,
+      "winnable": 1,
       "pillars": 0
     }
   }

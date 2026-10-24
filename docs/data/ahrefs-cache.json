@@ -406,6 +406,24 @@
 },
 "trend": "up"
 },
+"bg|crazy time": {
+"fetched": "2026-10-24",
+"row": {
+"cpc": 40,
+"difficulty": 76,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "crazy time",
+"volume": 150
+},
+"trend": "down"
+},
 "bg|deadwood": {
 "fetched": "2026-09-17",
 "row": {
@@ -728,7 +746,7 @@
 "trend": "down"
 },
 "bg|hold and win": {
-"fetched": "2026-09-20",
+"fetched": "2026-10-24",
 "row": {
 "cpc": null,
 "difficulty": null,
@@ -1983,6 +2001,10 @@
 },
 "trend": "down"
 },
+"bg|zeus слот": {
+"fetched": "2026-10-24",
+"row": {}
+},
 "bg|zodiac wheel": {
 "fetched": "2026-09-20",
 "row": {
@@ -1994,12 +2016,62 @@
 },
 "trend": "down"
 },
+"bg|баккара стратегия": {
+"fetched": "2026-10-24",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "баккара стратегия",
+"volume": 0
+}
+},
 "bg|белот правила за начинаещи": {
 "fetched": "2026-10-21",
 "row": {}
 },
+"bg|блекджек правила": {
+"fetched": "2026-10-24",
+"row": {
+"cpc": 3,
+"difficulty": 32,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "блекджек правила",
+"volume": 60
+},
+"trend": "flat"
+},
+"bg|блекджек стратегия": {
+"fetched": "2026-10-24",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "блекджек стратегия",
+"volume": 20
+},
+"trend": "down"
+},
 "bg|бонус бай функция": {
 "fetched": "2026-10-17",
+"row": {}
+},
+"bg|бонус рунд слот": {
+"fetched": "2026-10-24",
 "row": {}
 },
 "bg|виртуални спортове": {
@@ -2040,6 +2112,24 @@
 "keyword": "данъчна лотария",
 "volume": 0
 }
+},
+"bg|демо игри казино": {
+"fetched": "2026-10-24",
+"row": {
+"cpc": 2,
+"difficulty": null,
+"intents": {
+"branded": false,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "демо игри казино",
+"volume": 60
+},
+"trend": "flat"
 },
 "bg|джакпот евромилиони": {
 "fetched": "2026-10-11",
@@ -2169,6 +2259,24 @@
 "fetched": "2026-10-11",
 "row": {}
 },
+"bg|как се играе блекджек": {
+"fetched": "2026-10-24",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "как се играе блекджек",
+"volume": 80
+},
+"trend": "down"
+},
 "bg|как се играе евроджакпот": {
 "fetched": "2026-10-11",
 "row": {}
@@ -2194,6 +2302,10 @@
 "volume": 40
 },
 "trend": "up"
+},
+"bg|каскадни барабани": {
+"fetched": "2026-10-24",
+"row": {}
 },
 "bg|клъстер пейс слот": {
 "fetched": "2026-10-17",
@@ -2227,6 +2339,24 @@
 "volume": 0
 }
 },
+"bg|крейзи тайм": {
+"fetched": "2026-10-24",
+"row": {
+"cpc": null,
+"difficulty": 12,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "крейзи тайм",
+"volume": 40
+},
+"trend": "down"
+},
 "bg|купи бонус": {
 "fetched": "2026-09-20",
 "row": {
@@ -2236,6 +2366,14 @@
 "keyword": "купи бонус",
 "volume": 0
 }
+},
+"bg|купи бонус казино": {
+"fetched": "2026-10-24",
+"row": {}
+},
+"bg|лъки лейди чарм": {
+"fetched": "2026-10-24",
+"row": {}
 },
 "bg|макао правила": {
 "fetched": "2026-10-21",
@@ -2275,6 +2413,27 @@
 "volume": 0
 }
 },
+"bg|мегабол": {
+"fetched": "2026-10-24",
+"row": {
+"cpc": 15,
+"difficulty": null,
+"intents": {},
+"keyword": "мегабол",
+"volume": 10
+},
+"trend": "flat"
+},
+"bg|мегаджакпот": {
+"fetched": "2026-10-24",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "мегаджакпот",
+"volume": 0
+}
+},
 "bg|мегауейс": {
 "fetched": "2026-10-11",
 "row": {}
@@ -2285,6 +2444,14 @@
 },
 "bg|мистериозен джакпот": {
 "fetched": "2026-10-17",
+"row": {}
+},
+"bg|мистерия символ": {
+"fetched": "2026-10-24",
+"row": {}
+},
+"bg|мултипликатор слот": {
+"fetched": "2026-10-24",
 "row": {}
 },
 "bg|наземни казина": {
@@ -2334,6 +2501,24 @@
 },
 "trend": "down"
 },
+"bg|рулетка стратегия": {
+"fetched": "2026-10-24",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "рулетка стратегия",
+"volume": 30
+},
+"trend": "down"
+},
 "bg|сик бо": {
 "fetched": "2026-10-11",
 "row": {
@@ -2343,6 +2528,10 @@
 "keyword": "сик бо",
 "volume": 0
 }
+},
+"bg|скатер символ": {
+"fetched": "2026-10-24",
+"row": {}
 },
 "bg|слот турнир": {
 "fetched": "2026-10-11",
@@ -2365,6 +2554,20 @@
 "bg|тото скандо": {
 "fetched": "2026-10-19",
 "row": {}
+},
+"bg|уайлд символ": {
+"fetched": "2026-10-24",
+"row": {}
+},
+"bg|хазарт зависимост": {
+"fetched": "2026-10-24",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "хазарт зависимост",
+"volume": 0
+}
 },
 "bg|хибридни слотове": {
 "fetched": "2026-10-17",
