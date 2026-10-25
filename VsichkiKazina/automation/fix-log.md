@@ -2972,3 +2972,38 @@ after the flag fix (no edit). Board `gemini` updated for both rows (`ai 65`→`h
 `human 85`) with nightly notes. Reran `build_dashboard.py` (buffer 223/10) and `build_feed.py` (10
 approved). This main commit carries the board update, the rebuild output, and this log entry. No
 live/posted content touched; nothing merged; no new article branches created; API key never printed.
+
+## 2026-10-25 — nightly flag + score fixes
+
+### JOB A — publish-blocking flags
+Scanned every `content/*` branch's `05b-final-draft.md` (290 article rows / 291 `content/*` refs) for
+the full blocking-marker set (`[VERIFY`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+`, `[AUTHOR`, `[BRAND`,
+`[EDITORIAL]`, `[уточни`, `[провери`) via Cyrillic-safe `git grep -nE` on each remote branch, plus a
+broader safety sweep (`TODO|TK|FIXME|PLACEHOLDER|добави|липсва|нужен` etc.).
+**Result: 0 flagged branches.** Every draft is flag-free and publish-ready. (The board's older
+`1 [VERIFY]` note on vk-0059 / kupuvane-na-bonus is stale — that marker was resolved in a prior run
+and the current 05b carries none.) Nothing to fix; no branch touched.
+
+### JOB B — low Gemini score
+In-scope targets = status ∈ {drafted, approved} AND gemini verdict `ai <n>` OR `human <n>` with n<80.
+Board gemini distribution across drafted/approved rows: `human 85` ×92, `skipped` ×68, `human 90` ×35,
+`human 80` ×20, `human 95` ×5 — **0 rows with an `ai` verdict and 0 with `human <80`**.
+**Result: 0 in-scope targets.** (`skipped` is neither an `ai` nor a sub-80 `human` verdict, so per the
+strict target definition those rows are not touched — idempotent, no churn.) No humaniser passes run.
+
+### POSTED — needs human review
+- **vk-0063** (2026-09-13-nv-casino-zakonno-li-e) — `ai 75`, status **posted/live**. Low-rated but
+  live; never edited per policy. Carried forward unchanged from prior runs; a human should decide
+  whether to re-humanise + re-publish via the normal flow.
+
+### Deferred
+None — 0 in-scope JOB B targets this run.
+
+### Finish
+Clean night: JOB A found 0 publish-blocking flags across all 290 drafts; JOB B found 0 low-rated
+in-scope drafts. No article branches touched, no board `gemini` values changed. `build_dashboard.py`
+(buffer 220/10) and `build_feed.py` (7 approved) were re-run and produced only `generated_utc`
+timestamp deltas vs. this morning's 07:18 daily-run output — no substantive change — so those
+rebuild artifacts were reverted rather than committed (avoids timestamp-only churn / autopilot
+conflict). This main commit carries only this audit-log entry. No live/posted content touched;
+nothing merged; no new article branches created; API key never printed.
