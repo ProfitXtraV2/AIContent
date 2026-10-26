@@ -11,14 +11,9 @@
     "отговорна игра",
     "хазартна зависимост помощ"
   ],
-  "images": [
-    {
-      "path": "images/rg-instrumenti-limiti-samoizklyuchvane.svg",
-      "alt": "Три инструмента за отговорна игра: лимити в профила предварително, самоизключване при нужда, НАП регистър постоянно"
-    }
-  ],
+  "images": [],
   "section_hint": "hub-intro",
   "opportunity": -1,
   "status": "approved",
-  "content_hash": "f1c7b24f7c372c70049958c0be6093d321d4545f269f9af1ad7e06eb1a15569c"
+  "content_hash": "616a5694058a49614a53c343beefb7de06f84d915dbc74b459b845b1dac20d4b"
 }
