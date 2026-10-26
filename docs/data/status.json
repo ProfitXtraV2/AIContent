@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-26T07:26:05Z",
+  "generated_utc": "2026-10-26T08:05:52Z",
   "buffer": {
-    "count": 218,
+    "count": 219,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 213,
+    "drafted": 214,
     "approved": 5,
     "posted": 71,
     "failed": 1
@@ -5863,6 +5863,29 @@
       },
       "verify_flags": 0,
       "verify_samples": []
+    },
+    {
+      "id": "vk-0291",
+      "status": "drafted",
+      "type": "guide",
+      "query": "20 Burning Hot (Amusnet/EGT): RTP, характеристики и Jackpot Cards",
+      "keywords_or_terms": "20 burning hot, 20 бърнинг хот, egt 20 burning hot, amusnet 20 burning hot, jackpot cards",
+      "volume": "300",
+      "kd": "25",
+      "source": "research",
+      "drafted_date": "2026-10-26",
+      "posted_date": "",
+      "folder": "2026-10-26-20-burning-hot",
+      "pr": "#314",
+      "gemini": "human 90",
+      "notes": "daily run 2026-10-26 (MAX_PER_RUN=1); fresh Ahrefs discovery — only distinct writable topic after dedup. „20 burning hot\" 300/kd25/transactional/↑ (Ahrefs bg 26.10). EGT/Amusnet 20-line Hot-family slot; NOT covered (queue has Burning Hot vk-0027 + 100 Burning Hot vk-0085 but no 20-line version; dedup vs live sitemap 26.10 140 URLs has burning-hot/20-super-hot/40-super-hot but NO 20-burning-hot → clean; mirrors separate 20/40/100 Super Hot pages). Distinct angle: what 20 lines change vs the 5-line original + RTP 95.88% is BELOW base 96.45% (more lines ≠ better odds). Guides-only scope OK (public game data: amusnet.com official + slotcatalog + clashofslots; 0 operator/НАП facts). No specific operator → no affiliate link. · OUTCOME: drafted → PR #314. Gate 97/100 PASS 0-crit. Gemini Step-7: initial HL25 → p1 HL35 → p2 HL90/80 PASS (keep-best=p2, human 90). img:2 (RTP infographic SVG + decorative hero webp 32KB; image review 60→65→95 PASS keep-best p2, every number 1:1 vs 05b, 0 integrity fail). 0 [VERIFY]/[DATA NEEDED]. Research discovery row → used.",
+      "opportunity": {
+        "score": 45,
+        "band": "Good",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
     }
   ],
   "backlog": [
@@ -6737,6 +6760,38 @@
         "band": "Good",
         "winnable": true
       }
+    },
+    {
+      "type": "guide",
+      "query": "20 Burning Hot (Amusnet/EGT): RTP, характеристики и Jackpot Cards",
+      "researched_keywords": "20 burning hot, 20 бърнинг хот, egt 20 burning hot, amusnet 20 burning hot",
+      "volume": "300",
+      "kd": "25",
+      "intent": "transactional",
+      "trend": "up",
+      "checked": "ahrefs",
+      "suggestion": "NEW winnable (fresh discovery 2026-10-26, Ahrefs bg): „20 burning hot\" 300/kd25 transactional ↑. EGT/Amusnet 20-line Hot-family slot explainer — DISTINCT from Burning Hot (vk-0027, base 5-line) + 100 Burning Hot (vk-0085, 100-line); dedup vs queue + live sitemap (140 URLs 26.10) = 0 „20 burning hot\" coverage → no cannibalization (mirrors the separate 20/40/100 Super Hot pages). Guides-only scope OK (public game data: amusnet.com official + slotcatalog + clashofslots; 0 operator/НАП facts). Angle: what 20 lines change vs the 5-line original + declared RTP 95.88% < base 96.45% (more lines ≠ better odds). · USED 2026-10-26: written as vk-0291 (PR #314); gate 97 PASS; gemini human 90 (HL 25→35→90/80, keep-best p2); img:2 (RTP infographic SVG + decorative hero, review 60→65→95 PASS keep-best, 0 integrity fail); 0 flags.",
+      "status": "used",
+      "date_researched": "2026-10-26",
+      "opportunity": {
+        "score": 45,
+        "band": "Good",
+        "winnable": true
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Карибски покер (Caribbean Stud): правила, залози и домашно предимство",
+      "researched_keywords": "карибски покер, caribbean stud poker, карибски стъд покер",
+      "volume": "60",
+      "kd": "",
+      "intent": "informational",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "NEW candidate (fresh discovery 2026-10-26, Ahrefs bg): „карибски покер\" 60/мес informational ↓; „caribbean stud poker\" 10; „карибски стъд покер\"/„оазис покер\" 0-vol. DISTINCT казино table-game variant — NOT covered in queue+backlog+live sitemap (140 URLs 26.10; no caribbean/karibski URL), separate game from Three Card Poker / Casino Hold'em / Ultimate Texas Hold'em / Pai Gow / casino poker (vk-0008). Low vol but genuine + winnable (kd blank from Ahrefs → low), guides-only scope OK (public table-game rules, 0 operator facts). Angle: правила срещу дилъра, ante+bet структура, прогресив side bet, домашно предимство ~5%+ → честен „страничните залози струват ли си\" frame. Next-write material when it tops the writable queue. Replaces the emptied bank (свара/канаста used, Dog House dropped).",
+      "status": "candidate",
+      "date_researched": "2026-10-26",
+      "opportunity": null
     },
     {
       "type": "guide",
