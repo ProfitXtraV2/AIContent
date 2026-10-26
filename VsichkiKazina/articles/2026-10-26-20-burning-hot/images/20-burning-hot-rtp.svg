@@ -25,7 +25,7 @@
   <rect x="50" y="90" width="500" height="48" rx="8" fill="#fed7aa"/>
   <!-- Player 95.88% fills track; house 4.12% of 500px = 21px overlaid at right -->
   <rect x="50" y="90" width="500" height="48" rx="8" fill="url(#playerBar)"/>
-  <rect x="529" y="90" width="21" height="48" rx="4" fill="url(#houseBar)"/>
+  <rect x="529" y="90" width="21" height="48" rx="8" fill="url(#houseBar)"/>
 
   <text x="290" y="120" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">95.88%</text>
   <text x="539" y="157" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#b91c1c" text-anchor="middle">4.12%</text>
