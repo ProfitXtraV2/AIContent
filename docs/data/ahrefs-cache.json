@@ -13,6 +13,24 @@
 "fetched": "2026-09-21",
 "row": {}
 },
+"bg|20 burning hot": {
+"fetched": "2026-10-26",
+"row": {
+"cpc": 60,
+"difficulty": 25,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "20 burning hot",
+"volume": 300
+},
+"trend": "up"
+},
 "bg|20 super hot xmas": {
 "fetched": "2026-09-20",
 "row": {}
@@ -46,6 +64,16 @@
 },
 "trend": "up"
 },
+"bg|88 fortunes": {
+"fetched": "2026-10-26",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "88 fortunes",
+"volume": 0
+}
+},
 "bg|888 dragons": {
 "fetched": "2026-09-19",
 "row": {
@@ -64,6 +92,16 @@
 "fetched": "2026-10-17",
 "row": {}
 },
+"bg|amazing amazonia": {
+"fetched": "2026-10-26",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "amazing amazonia",
+"volume": 0
+}
+},
 "bg|amazons battle": {
 "fetched": "2026-09-20",
 "row": {
@@ -74,6 +112,16 @@
 "volume": 10
 },
 "trend": "down"
+},
+"bg|aviator стратегия": {
+"fetched": "2026-10-26",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "aviator стратегия",
+"volume": 0
+}
 },
 "bg|aztec gems": {
 "fetched": "2026-09-16",
@@ -216,6 +264,10 @@
 },
 "trend": "down"
 },
+"bg|blue heart egt": {
+"fetched": "2026-10-26",
+"row": {}
+},
 "bg|blueprint gaming": {
 "fetched": "2026-09-18",
 "row": {
@@ -282,7 +334,7 @@
 "trend": "up"
 },
 "bg|book of shadows": {
-"fetched": "2026-09-17",
+"fetched": "2026-10-26",
 "row": {
 "cpc": null,
 "difficulty": null,
@@ -297,7 +349,7 @@
 "keyword": "book of shadows",
 "volume": 20
 },
-"trend": "down"
+"trend": "flat"
 },
 "bg|buffalo king": {
 "fetched": "2026-09-15",
@@ -328,6 +380,17 @@
 },
 "trend": "down"
 },
+"bg|buffalo slot": {
+"fetched": "2026-10-26",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "buffalo slot",
+"volume": 10
+},
+"trend": "down"
+},
 "bg|burning hot 6 reels": {
 "fetched": "2026-09-20",
 "row": {
@@ -338,6 +401,17 @@
 "volume": 10
 },
 "trend": ""
+},
+"bg|caribbean stud poker": {
+"fetched": "2026-10-26",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "caribbean stud poker",
+"volume": 10
+},
+"trend": "down"
 },
 "bg|cash bonanza": {
 "fetched": "2026-09-17",
@@ -360,7 +434,7 @@
 }
 },
 "bg|circus brilliant": {
-"fetched": "2026-09-20",
+"fetched": "2026-10-26",
 "row": {
 "cpc": null,
 "difficulty": null,
@@ -470,6 +544,16 @@
 },
 "trend": "down"
 },
+"bg|dragon reborn": {
+"fetched": "2026-10-26",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "dragon reborn",
+"volume": 0
+}
+},
 "bg|duck hunters": {
 "fetched": "2026-09-17",
 "row": {
@@ -487,6 +571,16 @@
 "volume": 50
 },
 "trend": "up"
+},
+"bg|egypt sky": {
+"fetched": "2026-10-26",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "egypt sky",
+"volume": 0
+}
 },
 "bg|elk studios": {
 "fetched": "2026-09-17",
@@ -823,6 +917,26 @@
 "volume": 0
 }
 },
+"bg|joker slot": {
+"fetched": "2026-10-26",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "joker slot",
+"volume": 0
+}
+},
+"bg|kashmir gold": {
+"fetched": "2026-10-26",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "kashmir gold",
+"volume": 0
+}
+},
 "bg|le bandit": {
 "fetched": "2026-09-17",
 "row": {
@@ -862,6 +976,34 @@
 "volume": 20
 },
 "trend": "up"
+},
+"bg|majestic forest": {
+"fetched": "2026-10-26",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "majestic forest",
+"volume": 0
+}
+},
+"bg|mega joker": {
+"fetched": "2026-10-26",
+"row": {
+"cpc": 10,
+"difficulty": 60,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "mega joker",
+"volume": 20
+},
+"trend": "down"
 },
 "bg|megaways": {
 "fetched": "2026-09-20",
@@ -937,6 +1079,10 @@
 "volume": 70
 },
 "trend": "down"
+},
+"bg|mines стратегия": {
+"fetched": "2026-10-26",
+"row": {}
 },
 "bg|money train 3": {
 "fetched": "2026-09-17",
@@ -1156,6 +1302,16 @@
 },
 "trend": "up"
 },
+"bg|oasis poker": {
+"fetched": "2026-10-26",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "oasis poker",
+"volume": 0
+}
+},
 "bg|olympus glory": {
 "fetched": "2026-09-20",
 "row": {
@@ -1173,6 +1329,24 @@
 "volume": 100
 },
 "trend": "flat"
+},
+"bg|paypal казино": {
+"fetched": "2026-10-26",
+"row": {
+"cpc": null,
+"difficulty": 31,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "paypal казино",
+"volume": 60
+},
+"trend": "down"
 },
 "bg|peter and sons": {
 "fetched": "2026-09-19",
@@ -1360,6 +1534,20 @@
 },
 "trend": "down"
 },
+"bg|reload бонус": {
+"fetched": "2026-10-26",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "reload бонус",
+"volume": 0
+}
+},
+"bg|rich burger": {
+"fetched": "2026-10-26",
+"row": {}
+},
 "bg|rich wilde": {
 "fetched": "2026-09-16",
 "row": {
@@ -1379,6 +1567,10 @@
 "keyword": "rich witch",
 "volume": 0
 }
+},
+"bg|rio bravo egt": {
+"fetched": "2026-10-26",
+"row": {}
 },
 "bg|san quentin": {
 "fetched": "2026-09-17",
@@ -1400,6 +1592,10 @@
 "keyword": "santa's great gifts",
 "volume": 0
 }
+},
+"bg|secret forest egt": {
+"fetched": "2026-10-26",
+"row": {}
 },
 "bg|shining crown": {
 "fetched": "2026-09-20",
@@ -1586,6 +1782,10 @@
 "volume": 10
 },
 "trend": "up"
+},
+"bg|super 20 egt": {
+"fetched": "2026-10-26",
+"row": {}
 },
 "bg|supreme hot": {
 "fetched": "2026-09-20",
@@ -1815,6 +2015,17 @@
 },
 "trend": "down"
 },
+"bg|turbo games": {
+"fetched": "2026-10-26",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "turbo games",
+"volume": 10
+},
+"trend": "down"
+},
 "bg|versailles gold": {
 "fetched": "2026-09-20",
 "row": {
@@ -1832,6 +2043,14 @@
 "volume": 150
 },
 "trend": "down"
+},
+"bg|vip програма казино": {
+"fetched": "2026-10-26",
+"row": {}
+},
+"bg|wagering калкулатор": {
+"fetched": "2026-10-26",
+"row": {}
 },
 "bg|wanted dead or a wild": {
 "fetched": "2026-09-17",
@@ -1934,7 +2153,7 @@
 "trend": "down"
 },
 "bg|witches charm": {
-"fetched": "2026-09-20",
+"fetched": "2026-10-26",
 "row": {
 "cpc": null,
 "difficulty": null,
@@ -1953,6 +2172,10 @@
 "volume": 20
 },
 "trend": "down"
+},
+"bg|x40 бонус": {
+"fetched": "2026-10-26",
+"row": {}
 },
 "bg|yggdrasil": {
 "fetched": "2026-09-17",
@@ -2016,6 +2239,16 @@
 },
 "trend": "down"
 },
+"bg|zodiac wheel egt": {
+"fetched": "2026-10-26",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "zodiac wheel egt",
+"volume": 0
+}
+},
 "bg|баккара стратегия": {
 "fetched": "2026-10-24",
 "row": {
@@ -2025,6 +2258,10 @@
 "keyword": "баккара стратегия",
 "volume": 0
 }
+},
+"bg|безопасно онлайн казино": {
+"fetched": "2026-10-26",
+"row": {}
 },
 "bg|белот правила за начинаещи": {
 "fetched": "2026-10-21",
@@ -2070,6 +2307,24 @@
 "fetched": "2026-10-17",
 "row": {}
 },
+"bg|бонус без разиграване": {
+"fetched": "2026-10-26",
+"row": {}
+},
+"bg|бонус за втори депозит": {
+"fetched": "2026-10-26",
+"row": {}
+},
+"bg|бонус оборот": {
+"fetched": "2026-10-26",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "бонус оборот",
+"volume": 0
+}
+},
 "bg|бонус рунд слот": {
 "fetched": "2026-10-24",
 "row": {}
@@ -2091,6 +2346,10 @@
 "volume": 70
 },
 "trend": ""
+},
+"bg|волатилност на слот": {
+"fetched": "2026-10-26",
+"row": {}
 },
 "bg|данък печалба нелицензирано казино": {
 "fetched": "2026-09-16",
@@ -2131,6 +2390,10 @@
 },
 "trend": "flat"
 },
+"bg|депозит 1 лев казино": {
+"fetched": "2026-10-26",
+"row": {}
+},
 "bg|джакпот евромилиони": {
 "fetched": "2026-10-11",
 "row": {
@@ -2148,6 +2411,10 @@
 },
 "bg|джин руми правила": {
 "fetched": "2026-10-21",
+"row": {}
+},
+"bg|домашно предимство казино": {
+"fetched": "2026-10-26",
 "row": {}
 },
 "bg|евро джакпот": {
@@ -2205,6 +2472,10 @@
 "fetched": "2026-10-18",
 "row": {}
 },
+"bg|инсурънс блекджек": {
+"fetched": "2026-10-26",
+"row": {}
+},
 "bg|казина в българия": {
 "fetched": "2026-10-18",
 "row": {
@@ -2245,6 +2516,71 @@
 "fetched": "2026-09-16",
 "row": {}
 },
+"bg|казино без верификация": {
+"fetched": "2026-10-26",
+"row": {
+"cpc": null,
+"difficulty": 66,
+"intents": {
+"branded": false,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "казино без верификация",
+"volume": 10
+},
+"trend": "up"
+},
+"bg|казино за начинаещи": {
+"fetched": "2026-10-26",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "казино за начинаещи",
+"volume": 0
+}
+},
+"bg|казино игри на телефон": {
+"fetched": "2026-10-26",
+"row": {}
+},
+"bg|казино кешбек": {
+"fetched": "2026-10-26",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": false,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "казино кешбек",
+"volume": 70
+},
+"trend": "down"
+},
+"bg|казино приложение": {
+"fetched": "2026-10-26",
+"row": {
+"cpc": null,
+"difficulty": 72,
+"intents": {},
+"keyword": "казино приложение",
+"volume": 10
+},
+"trend": "up"
+},
+"bg|казино речник": {
+"fetched": "2026-10-26",
+"row": {}
+},
 "bg|казино стратегия": {
 "fetched": "2026-10-11",
 "row": {
@@ -2254,6 +2590,14 @@
 "keyword": "казино стратегия",
 "volume": 0
 }
+},
+"bg|казино терминология": {
+"fetched": "2026-10-26",
+"row": {}
+},
+"bg|как да избера онлайн казино": {
+"fetched": "2026-10-26",
+"row": {}
 },
 "bg|как се играе баккара": {
 "fetched": "2026-10-11",
@@ -2281,6 +2625,10 @@
 "fetched": "2026-10-11",
 "row": {}
 },
+"bg|как се пресмята rtp": {
+"fetched": "2026-10-26",
+"row": {}
+},
 "bg|как се чете pay table": {
 "fetched": "2026-10-17",
 "row": {}
@@ -2303,6 +2651,38 @@
 },
 "trend": "up"
 },
+"bg|карибски покер": {
+"fetched": "2026-10-26",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "карибски покер",
+"volume": 60
+},
+"trend": "down"
+},
+"bg|карибски покер правила": {
+"fetched": "2026-10-26",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "карибски покер правила",
+"volume": 0
+}
+},
+"bg|карибски стъд покер": {
+"fetched": "2026-10-26",
+"row": {}
+},
 "bg|каскадни барабани": {
 "fetched": "2026-10-24",
 "row": {}
@@ -2310,6 +2690,24 @@
 "bg|клъстер пейс слот": {
 "fetched": "2026-10-17",
 "row": {}
+},
+"bg|колело на късмета казино": {
+"fetched": "2026-10-26",
+"row": {
+"cpc": 70,
+"difficulty": 12,
+"intents": {
+"branded": false,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "колело на късмета казино",
+"volume": 90
+},
+"trend": "down"
 },
 "bg|крапс": {
 "fetched": "2026-10-11",
@@ -2371,6 +2769,10 @@
 "fetched": "2026-10-24",
 "row": {}
 },
+"bg|лъки джокър": {
+"fetched": "2026-10-26",
+"row": {}
+},
 "bg|лъки лейди чарм": {
 "fetched": "2026-10-24",
 "row": {}
@@ -2393,6 +2795,20 @@
 },
 "trend": "up"
 },
+"bg|максимално теглене казино": {
+"fetched": "2026-10-26",
+"row": {}
+},
+"bg|мартингейл рулетка": {
+"fetched": "2026-10-26",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "мартингейл рулетка",
+"volume": 0
+}
+},
 "bg|мартингейл система": {
 "fetched": "2026-10-17",
 "row": {
@@ -2412,6 +2828,10 @@
 "keyword": "мартингейл стратегия",
 "volume": 0
 }
+},
+"bg|мега джойкър": {
+"fetched": "2026-10-26",
+"row": {}
 },
 "bg|мегабол": {
 "fetched": "2026-10-24",
@@ -2442,6 +2862,10 @@
 "fetched": "2026-10-17",
 "row": {}
 },
+"bg|минимален депозит казино": {
+"fetched": "2026-10-26",
+"row": {}
+},
 "bg|мистериозен джакпот": {
 "fetched": "2026-10-17",
 "row": {}
@@ -2465,6 +2889,26 @@
 "bg|нв казино мнения": {
 "fetched": "2026-09-16",
 "row": {}
+},
+"bg|оазис покер": {
+"fetched": "2026-10-26",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "оазис покер",
+"volume": 0
+}
+},
+"bg|онлайн казино на телефон": {
+"fetched": "2026-10-26",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "онлайн казино на телефон",
+"volume": 0
+}
 },
 "bg|покер за начинаещи": {
 "fetched": "2026-10-19",
@@ -2500,6 +2944,20 @@
 "volume": 70
 },
 "trend": "down"
+},
+"bg|понтун казино": {
+"fetched": "2026-10-26",
+"row": {}
+},
+"bg|пунто банко": {
+"fetched": "2026-10-26",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "пунто банко",
+"volume": 0
+}
 },
 "bg|рулетка стратегия": {
 "fetched": "2026-10-24",
@@ -2541,6 +2999,10 @@
 "fetched": "2026-10-17",
 "row": {}
 },
+"bg|сплит блекджек": {
+"fetched": "2026-10-26",
+"row": {}
+},
 "bg|стратегия рулетка": {
 "fetched": "2026-10-17",
 "row": {
@@ -2553,6 +3015,10 @@
 },
 "bg|тото скандо": {
 "fetched": "2026-10-19",
+"row": {}
+},
+"bg|турбо игри казино": {
+"fetched": "2026-10-26",
 "row": {}
 },
 "bg|уайлд символ": {
