@@ -3007,3 +3007,38 @@ timestamp deltas vs. this morning's 07:18 daily-run output — no substantive ch
 rebuild artifacts were reverted rather than committed (avoids timestamp-only churn / autopilot
 conflict). This main commit carries only this audit-log entry. No live/posted content touched;
 nothing merged; no new article branches created; API key never printed.
+
+## 2026-10-26 — nightly flag + score fixes
+
+### JOB A — publish-blocking flags
+Scanned every `content/*` branch's `05b-final-draft.md` (291 article rows / 292 `content/*` refs) for
+the full blocking-marker set (`[VERIFY`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+`, `[AUTHOR`, `[BRAND`,
+`[EDITORIAL]`, `[уточни`, `[провери`) via Cyrillic-safe `git grep -nE` on each remote branch, scoped
+to each branch's own article folder, plus a broader safety sweep (`TODO|FIXME|TBD|XXX|PLACEHOLDER|
+CHECK|NOTE|TK|{{ }}|добави|вмъкни|източник|линк|уточни|провери`).
+**Result: 0 flagged branches.** Every draft is flag-free and publish-ready. Nothing to fix; no branch
+touched.
+
+### JOB B — low Gemini score
+In-scope targets = status ∈ {drafted, approved} AND gemini verdict `ai <n>` OR `human <n>` with n<80.
+Board gemini distribution across the 219 drafted/approved rows: `human 85` ×90, `skipped` ×68,
+`human 90` ×36, `human 80` ×20, `human 95` ×5 — **0 rows with an `ai` verdict and 0 with `human <80`**
+(`human 80` is not `<80`). **Result: 0 in-scope targets.** (`skipped` is neither an `ai` nor a sub-80
+`human` verdict, so those rows are not touched — idempotent, no churn.) No humaniser passes run.
+
+### POSTED — needs human review
+- **vk-0063** (2026-09-13-nv-casino-zakonno-li-e) — `ai 75`, status **posted/live**. Low-rated but
+  live; never edited per policy. Carried forward unchanged from prior runs; a human should decide
+  whether to re-humanise + re-publish via the normal flow.
+
+### Deferred
+None — 0 in-scope JOB B targets this run (well under the ≤10/night cap).
+
+### Finish
+Clean night: JOB A found 0 publish-blocking flags across all 291 drafts; JOB B found 0 low-rated
+in-scope drafts. No article branches touched, no board `gemini` values changed. `build_dashboard.py`
+(buffer 219/10) and `build_feed.py` (5 approved) were re-run and produced only `generated_utc`
+timestamp deltas vs. this morning's 08:05/08:06 daily-run output — no substantive change — so those
+rebuild artifacts were reverted rather than committed (avoids timestamp-only churn / autopilot
+conflict). This main commit carries only this audit-log entry. No live/posted content touched;
+nothing merged; no new article branches created; API key never printed.
