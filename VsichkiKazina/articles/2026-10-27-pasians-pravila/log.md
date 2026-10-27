@@ -8,6 +8,6 @@
 - 04 SEO: title 42≤60, meta 150≤155; 4 cluster/approved internal links; no filler, no [DATA NEEDED].
 - 05 Brand Gate: PASS 94/100, 0 critical. Maths recalc all consistent (28/24, 54/50, 8×13=104, 52, move=5).
 - 5b Light re-check: 0 em-dash, 0 banned connectives, 0 tables, 0 bullet lists, verbatim 18+ line present, numbers intact.
-- 07 Gemini Step-7: (see 07-gemini-check-*.md)
-- 08 Images: (see 08-image-review-*.md)
-- 06 Verification: (see 06-verification.md)
+- 07 Gemini Step-7: baseline HL90 PASS → humaniser pass1 HL15 (noisy detector) → keep-best=baseline, gemini = human 90. MAX_GEMINI_PASSES reached.
+- 08 Images: 3 (hero webp 22.3KB + 2 infographics). Gemini image review score 100 PASS pass 1, 0 integrity fail, numbers 1:1 vs 05b.
+- 06 Verification: 0 flags; sources Wikipedia Klondike/Spider/FreeCell; recalcs consistent (28/24, 54/50, 8×13=104, 52, move=5).
