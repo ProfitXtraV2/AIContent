@@ -7,12 +7,12 @@
   "run_url": "https://claude.ai/code/session_01AwuYFSjk3bLt69ZFVRYN17",
   "note": "daily run 2026-10-27 (4th fire) — started; reconcile clean (0 in-progress/HANDOFF/CLAIMED); monthly SEO review 2026-10 already done (no-op); buffer 222; selecting ≤1 new guide",
   "progress": {
-    "phase": "selecting",
-    "article_index": 0,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 1,
-    "article_slug": null,
+    "article_slug": "2026-10-27-belot-onlayn",
     "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
