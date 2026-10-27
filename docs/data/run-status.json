@@ -5,14 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01AwuYFUoAUYg2GmYeLXLn7q",
-  "note": "daily run 2026-10-27 (3rd fire) — reconcile clean (0 in-progress/HANDOFF/CLAIMED); monthly SEO review 2026-10 already done (no-op); selecting ≤1 topic",
+  "note": "daily run 2026-10-27 (3rd fire) — writing 1 NEW guide vk-0294 „Онлайн машини — как работят слотовете\" (backlog P0 17K/kd0); reconcile clean; monthly SEO review 2026-10 no-op",
   "progress": {
-    "phase": "selecting",
-    "article_index": 0,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 1,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "article_slug": "2026-10-27-onlayn-mashini-kak-rabotyat",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
