@@ -48,7 +48,7 @@
     <rect x="408" y="96" width="184" height="360" rx="12" fill="#17273d" stroke="#2a3d57" stroke-width="1"/>
     <text x="424" y="128" fill="#ffffff" font-size="14" font-weight="700">Backgammon</text>
     <text x="424" y="145" fill="#ffffff" font-size="14" font-weight="700">Tabla online</text>
-    <text x="424" y="163" fill="#6f8db0" font-size="11">LAN-Games · iOS</text>
+    <text x="424" y="163" fill="#6f8db0" font-size="11">LAN-Games EOOD</text>
 
     <text x="424" y="194" fill="#5fd0a0" font-size="11" font-weight="700">РЕЖИМ</text>
     <text x="424" y="214" fill="#dce8f4" font-size="12">Онлайн,</text>
@@ -67,7 +67,7 @@
   <g>
     <rect x="600" y="96" width="184" height="360" rx="12" fill="#17273d" stroke="#2a3d57" stroke-width="1"/>
     <text x="616" y="128" fill="#ffffff" font-size="15" font-weight="700">Джаги</text>
-    <text x="616" y="147" fill="#6f8db0" font-size="11">BIG MAGE EOOD · iOS</text>
+    <text x="616" y="147" fill="#6f8db0" font-size="11">BIG MAGE EOOD</text>
 
     <text x="616" y="180" fill="#5fd0a0" font-size="11" font-weight="700">РЕЖИМ</text>
     <text x="616" y="200" fill="#dce8f4" font-size="12">Срещу реални хора</text>
