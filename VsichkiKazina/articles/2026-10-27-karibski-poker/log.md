@@ -19,3 +19,14 @@
 - 05b Final: ~1,150 words prose; 6 internal links (5 body distinct + /otgovorna-igra/ twice: body + footer);
   0 em-dash; byline Георги Тодоров / brand Всички Казина / 18+ RG / affiliate footer all present;
   0 [VERIFY]/[DATA NEEDED]/[CONFLICT].
+- 07 Gemini check: baseline HL25 ("Shows AI patterns 75%") → humaniser p1 HL25 → humaniser p2 HL75
+  ("Likely human-written 75%", +50, verdict flipped). MAX_GEMINI_PASSES=2 reached; keep-best = p2
+  (highest). gemini = ai 25 (HL 75 < 80, no green badge). Recs were style-only (signposting/rhythm).
+- 08 Images: 3 total — decorative hero (vs-the-house metaphor, gemini-3-pro-image → 22 KB webp via
+  Chromium canvas since Pillow/WebP was unavailable) + flow infographic SVG + house-edge infographic
+  SVG. Every infographic number verbatim from 05b; both SVGs rendered to PNG + eyeballed (no clip/
+  overlap). Gemini image review pass 1 = 100/100 PASS, 0 integrity fail, all three kept.
+- 06 Verification: 0 [VERIFY]/[DATA NEEDED]/[CONFLICT]; recalc 5,224%×€10=€0,52 ✓, 2× ante = €30 ✓;
+  sources Wizard of Odds + Wikipedia.
+- Commit trail: initial draft → gemini check 1 → humaniser p1 → gemini check 2 → humaniser p2 →
+  keep-best (+ check 3) → add images → image review 1.
