@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-27T12:23:46Z",
+  "generated_utc": "2026-10-27T12:57:31Z",
   "buffer": {
-    "count": 220,
+    "count": 221,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 205,
+    "drafted": 206,
     "approved": 15,
     "posted": 71,
     "failed": 1
@@ -5905,6 +5905,29 @@
       "opportunity": null,
       "verify_flags": 0,
       "verify_samples": []
+    },
+    {
+      "id": "vk-0293",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Пасианс — правила и видове: Клондайк, Паяк, FreeCell",
+      "keywords_or_terms": "пасианс, пасианс паяк, пасианс клондайк, как се играе пасианс",
+      "volume": "33000",
+      "kd": "0",
+      "source": "backlog",
+      "drafted_date": "2026-10-27",
+      "posted_date": "",
+      "folder": "2026-10-27-pasians-pravila",
+      "pr": "#316",
+      "gemini": "human 90",
+      "notes": "daily run 2026-10-27 (2nd fire, MAX_PER_RUN=1); backlog P0 OWNER-APPROVED 2026-10-27. Solitaire rules guide — Klondike/Spider(Паяк)/FreeCell + „which rules are standard\" honest angle, no gambling framing, 0 operator/НАП facts → guides-only scope OK. Dedup vs queue + live sitemap (140 URLs, 2026-10-27) = 0 пасианс coverage (clean, no cannibalization; distinct from belot/santase/svara/kanasta card-game cluster + tabla board-game). Ahrefs bg пасианс 33000/kd0 WIN (2026-10-27 discovery). · OUTCOME: drafted → PR #316. Gate 94/100 PASS 0-crit. Gemini Step-7: baseline HL90 PASS („Likely human-written 90%\") → humaniser p1 HL15 (noisy detector relocated flags on same text); MAX_GEMINI_PASSES=2, keep-best=baseline → human 90. img:3 (decorative hero webp 22KB + klondike-nachalna-podredba.svg + pasians-trite-vida-sravnenie.svg; Gemini image review 100 PASS p1, 0 integrity fail, every number 1:1 vs 05b). 0 [VERIFY]/[DATA NEEDED]/[CONFLICT]. 4 internal links. Backlog P0 row → written.",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
     }
   ],
   "backlog": [
@@ -5918,8 +5941,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 33K/kd0 (2026-10-27 discovery). How-to-play card guide.",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-27 (vol≥3000 & kd<10 batch). Rules + variants; link /blog/igri-s-karti/ pillar if live, belot-pravila, santase-pravila.",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-10-27 (vol≥3000 & kd<10 batch). Rules + variants; link /blog/igri-s-karti/ pillar if live, belot-pravila, santase-pravila. · WRITTEN 2026-10-27 → vk-0293, PR #316 (Клондайк/Паяк/FreeCell; linked belot/santase/tabla).",
       "opportunity": {
         "score": 100,
         "band": "Strong",
@@ -6026,8 +6049,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 4.4K/kd0 (2026-10-27 discovery).",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-27. Bulgarian card game; card-game cluster sibling of belot-pravila/santase-pravila.",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-10-27. Bulgarian card game; card-game cluster sibling of belot-pravila/santase-pravila. · ALREADY COVERED → vk-0289 „Свара правила — как се играе свара\" (PR #311, drafted 2026-10-23), same primary keyword/intent. Folded to avoid cannibalization/duplicate write; no new article needed (any new свара angle would compete with vk-0289).",
       "opportunity": {
         "score": 100,
         "band": "Strong",
@@ -10838,30 +10861,17 @@
       }
     ],
     "bands": {
-      "Strong": 10,
+      "Strong": 8,
       "Moderate": 1
     },
     "clusters": {
       "uncategorised": {
-        "winnable": 10,
+        "winnable": 8,
         "pillar": 0,
-        "total": 11
+        "total": 9
       }
     },
     "winnable": [
-      {
-        "query": "Пасианс — правила и видове: Клондайк, Паяк, FreeCell",
-        "keywords": "пасианс, пасианс паяк, пасианс клондайк, как се играе пасианс",
-        "volume": "33000",
-        "kd": "0",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 100,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
       {
         "query": "Онлайн машини — как работят слотовете: RTP, волатилност, бонус игри и как да изберете легално казино",
         "keywords": "онлайн машини, игри машинки, слот машини онлайн",
@@ -10905,19 +10915,6 @@
         "query": "Теглене на Тото днес — кога са тиражите 6 от 49, 5 от 35 и 6 от 42 и къде да ги гледате",
         "keywords": "теглене на тото 6 от 49 днес, спорт тото 6 от 49 последен тираж, спорт тото 5 от 35 последен тираж, тото джокер последен тираж",
         "volume": "7200",
-        "kd": "0",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 100,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
-        "query": "Свара — правила, точкуване и как се играе",
-        "keywords": "свара, свара правила, как се играе свара",
-        "volume": "4400",
         "kd": "0",
         "intent": "informational",
         "band": "Strong",
@@ -10983,7 +10980,7 @@
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 10,
+      "winnable": 8,
       "pillars": 0
     }
   }
