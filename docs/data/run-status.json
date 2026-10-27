@@ -1,13 +1,15 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-10-27T18:43:26Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-10-27T19:20:00Z",
+  "articles_written": 1,
+  "prs_opened": [
+    320
+  ],
   "run_url": "https://claude.ai/code/session_01AwuYFSovZ9p8QE9qMLPPFY",
-  "note": "daily run 2026-10-27 (6th fire) — writing vk-0297 проверка на фиш (backlog P0 #2; top P0 теглене на тото deferred: volatile schedule)",
+  "note": "daily run 2026-10-27 (6th fire) done — 1 NEW guide vk-0297 'Проверка на фиш Тото — как да проверите печалба онлайн, в приложението и на гише' (PR #320). Reconcile clean (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review 2026-10 already done (no-op). AHREFS+GEMINI ONLINE. Backlog P0 #2: проверка на фиш 4800/kd4 informational (+ спорт тото 6 49 проверка на фиш 3800/kd0). TOP P0 'теглене на тото днес' DEFERRED this run (volatile draw schedule — just moved БНТ 1->БНТ 2, exact weekly days/times not confidently verifiable from reachable sources; info.toto.bg shows only latest тираж; backlog note added, stays open for a schedule source pack). How-to-check-a-toto-ticket guide: online number-entry check at info.toto.bg/check/<game> + тираж (no barcode/QR), official 'Спорт Тото' app, at a тото пункт; instant games separate (toto.bg); Втори тото шанс = жребий. Guides-only scope: checking process is public, 0 operator T&C/НАП-register facts, no specific operator -> no affiliate link, NEVER prints draw numbers. Dedup vs queue + live sitemap (140 URLs): no проверка-на-фиш page (distinct from lottery-toto/toto-2-igri/toto-dzhoker/chislata-statistika) -> no cannibalization. Gate 94 PASS 0-crit; Gemini Step-7 keep-best baseline HL15 -> humaniser p1 HL90 (Likely human-written 90%, PASS, kept) -> human 90; img:2 (hero webp 16.5KB ticket+magnifier+checkmark + proverka-na-fish-tri-nachina.svg; image review 100 PASS p1, 0 integrity fail, every label 1:1 vs 05b). 4 [VERIFY] (app check; централа threshold; claim срок; пункт-бон) + tax [VERIFY] left in text for human Step 6. Step-6: backlog P0 проверка на фиш -> written; 5 writable P0 guides remain open (теглене на тото [deferred], игри с карти, шах, стани богат, судоку); research bank unchanged at 4 winnable distinct candidates (Casino Holdem, видео покер, реми, бридж — refreshed 2026-10-27, no new distinct winnable term); NV-branded rows stay blocked (operator sourcing). Board on main; dashboard rebuilt (buffer 225/10); feed refreshed (15 approved). Note: review-request tool not exposed — owner GTodorov9 (admin) will see PR #320. No flags resolved, nothing posted/merged/fabricated.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-10-27-proverka-na-fish",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 7,
-    "stage": "Images"
+    "stage_index": null,
+    "stage": null
   }
 }

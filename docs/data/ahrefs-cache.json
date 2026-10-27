@@ -3276,6 +3276,42 @@
 "fetched": "2026-10-26",
 "row": {}
 },
+"bg|проверка на фиш": {
+"fetched": "2026-10-27",
+"row": {
+"cpc": 15,
+"difficulty": 4,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "проверка на фиш",
+"volume": 4800
+},
+"trend": "flat"
+},
+"bg|проверка на фиш тото": {
+"fetched": "2026-10-27",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": true,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "проверка на фиш тото",
+"volume": 100
+},
+"trend": "down"
+},
 "bg|прогресивен джакпот": {
 "fetched": "2026-10-27",
 "row": {
@@ -3386,6 +3422,24 @@
 "fetched": "2026-10-26",
 "row": {}
 },
+"bg|спорт тото 6 49 проверка на фиш": {
+"fetched": "2026-10-27",
+"row": {
+"cpc": null,
+"difficulty": 0,
+"intents": {
+"branded": true,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "спорт тото 6 49 проверка на фиш",
+"volume": 3800
+},
+"trend": "up"
+},
 "bg|стратегия рулетка": {
 "fetched": "2026-10-17",
 "row": {
@@ -3395,6 +3449,24 @@
 "keyword": "стратегия рулетка",
 "volume": 0
 }
+},
+"bg|теглене на тото 6 от 49 днес": {
+"fetched": "2026-10-27",
+"row": {
+"cpc": null,
+"difficulty": 0,
+"intents": {
+"branded": true,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "теглене на тото 6 от 49 днес",
+"volume": 7200
+},
+"trend": "down"
 },
 "bg|тото скандо": {
 "fetched": "2026-10-19",
