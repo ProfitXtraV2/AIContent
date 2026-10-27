@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-27T12:17:32Z",
+  "generated_utc": "2026-10-27T12:17:42Z",
   "buffer": {
     "count": 220,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 214,
-    "approved": 6,
+    "drafted": 213,
+    "approved": 7,
     "posted": 71,
     "failed": 1
   },
@@ -5510,7 +5510,7 @@
     },
     {
       "id": "vk-0275",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Джакпотът в Тото — как се натрупва, кога се изплаща и рекордите",
       "keywords_or_terms": "тото джакпот, джакпот тото, джакпот 6 от 49, най-голям джакпот тото",

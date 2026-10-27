@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 6,
+  "count": 7,
   "articles": [
     {
       "slug": "hub-intro-casino-payments",
@@ -31,6 +31,13 @@
       "status": "approved"
     },
     {
+      "slug": "toto-dzhakpot",
+      "title": "Тото джакпот: колко е сега, рекорди, изплащане и данък",
+      "date_modified": "2026-10-10",
+      "content_hash": "95579d7fa27e7466d559ab7bee166e21b79eb0abfddbc9ac4547a793179c8d4f",
+      "status": "approved"
+    },
+    {
       "slug": "belot-pravila",
       "title": "Белот правила: как се играе и точкуване | Всички Казина",
       "date_modified": "2026-10-20",
@@ -45,5 +52,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-27T12:17:32Z"
+  "generated_utc": "2026-10-27T12:17:42Z"
 }
