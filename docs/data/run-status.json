@@ -1,13 +1,15 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-10-27T20:24:00Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-10-27T20:48:00Z",
+  "articles_written": 1,
+  "prs_opened": [
+    323
+  ],
   "run_url": "https://claude.ai/code/session_01AwuYFUTYGcZHLEhbE6GDEJ",
-  "note": "daily run 2026-10-27 (9th fire) — vk-0300 Шах guide: stages 1-5b done, Gemini Step-7 PASS (human 80); creating images",
+  "note": "daily run 2026-10-27 (9th fire) done — 1 NEW guide vk-0300 'Шах — правила за начинаещи' (PR #323), the top open in-scope backlog P0 (owner-approved off-core game guide, 29000/kd0). On start reset local clone to origin/main 980e6cfe (local was an unrelated-history detached checkout). Reconcile clean (0 in-progress/HANDOFF/CLAIMED). Monthly SEO 2026-10 already done (no-op). AHREFS+GEMINI online. guides-only scope: evergreen chess rules, 0 operator/НАП facts, no gambling framing in body; no operator -> no affiliate link. Dedup vs queue + live sitemap (140 URLs): 0 chess coverage -> clean, no cannibalization. Gate 95/100 PASS 0-crit; Gemini Step-7 baseline 'Likely human-written 80%' -> HL80 PASS (keep-best=baseline, 0 humaniser passes) -> human 80; img:2 (infographic shah-stoynost-figuri.svg numbers 1:1 + decorative hero webp 14.8KB knight metaphor via Chromium WebP transcode since env Pillow broken; Gemini image review 100 PASS p1, 0 integrity fail). 0 flags. 2 internal links (hub RG + sibling tabla, live only). Step-6: backlog P0 'Шах' -> written; research bank unchanged at 4 winnable distinct candidates (Casino Hold'em, видео покер, реми, бридж — refreshed earlier today by 6th fire; same-day fire -> no new distinct winnable term, no Ahrefs re-pull, units conserved); backlog metric columns already enriched 2026-10-27. Board on main; dashboard rebuilt (buffer 228/10); feed refreshed. No flags resolved, nothing posted/merged/fabricated. Remaining open in-scope P0: Стани богат онлайн (16K), Судоку (5.3K); NV-branded rows stay blocked (operator sourcing).",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-10-27-shah-pravila",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 7,
-    "stage": "Images"
+    "stage_index": null,
+    "stage": null
   }
 }

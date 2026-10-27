@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-27T20:20:29Z",
+  "generated_utc": "2026-10-27T20:47:03Z",
   "buffer": {
-    "count": 227,
+    "count": 228,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 212,
+    "drafted": 213,
     "approved": 15,
     "posted": 71,
     "failed": 1
@@ -6074,6 +6074,29 @@
       },
       "verify_flags": 0,
       "verify_samples": []
+    },
+    {
+      "id": "vk-0300",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Шах — правила за начинаещи: фигури, ходове, шах и мат",
+      "keywords_or_terms": "шах, шах правила, как се играе шах, шах срещу компютър",
+      "volume": "29000",
+      "kd": "0",
+      "source": "backlog",
+      "drafted_date": "2026-10-27",
+      "posted_date": "",
+      "folder": "2026-10-27-shah-pravila",
+      "pr": "#323",
+      "gemini": "human 80",
+      "notes": "daily run 2026-10-27 (9th fire, MAX_PER_RUN=1); backlog P0 OWNER-APPROVED off-core game guide (owner included despite off-core). Beginner chess rules — pieces/moves/setup/рокада/ан пасан/произвеждане/шах-мат-пат-реми + opening principles + шах срещу компютър. guides-only scope: evergreen rules, 0 operator/НАП facts, no gambling framing in body. Ahrefs bg шах 29000/kd0 informational (2026-10-27 discovery). Dedup vs queue + live sitemap (140 URLs): 0 chess coverage → clean, no cannibalization. No operator → no affiliate link. Sources: chess.com/bg + bg.wikipedia. · OUTCOME: drafted → PR #323. Gate 95/100 PASS 0-crit. Gemini Step-7 baseline „Likely human-written 80%\" → HL80 PASS (keep-best=baseline, 0 humaniser passes) → human 80. img:2 (infographic shah-stoynost-figuri.svg numbers 1:1 + decorative hero webp 14.8KB knight metaphor; Gemini image review 100 PASS p1, 0 integrity fail). 0 [VERIFY]/[DATA NEEDED]/[CONFLICT]. 2 internal links (hub RG + sibling tabla, live only). Backlog P0 row → written.",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
     }
   ],
   "backlog": [
@@ -6231,8 +6254,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 29K/kd0 (2026-10-27 discovery). Off-core game guide.",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-27 despite being off-core (owner chose to include) — write it, do not skip as off-strategy. No gambling framing.",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-10-27 despite being off-core (owner chose to include). WRITTEN 2026-10-27 (9th fire) → vk-0300, PR #323 (Gate 95 PASS, Gemini human 80, img:2 review 100). No gambling framing.",
       "opportunity": {
         "score": 100,
         "band": "Strong",
@@ -11075,30 +11098,17 @@
       }
     ],
     "bands": {
-      "Strong": 3,
+      "Strong": 2,
       "Moderate": 3
     },
     "clusters": {
       "uncategorised": {
-        "winnable": 5,
+        "winnable": 4,
         "pillar": 0,
-        "total": 6
+        "total": 5
       }
     },
     "winnable": [
-      {
-        "query": "Шах — правила за начинаещи: фигури, ходове, шах и мат",
-        "keywords": "шах, шах правила, как се играе шах, шах срещу компютър",
-        "volume": "29000",
-        "kd": "0",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 100,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
       {
         "query": "Стани богат онлайн — как се играе играта и правилата на предаването",
         "keywords": "стани богат онлайн, стани богат игра",
@@ -11155,7 +11165,7 @@
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 5,
+      "winnable": 4,
       "pillars": 0
     }
   }
