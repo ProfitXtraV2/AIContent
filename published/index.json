@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 7,
+  "count": 8,
   "articles": [
     {
       "slug": "hub-intro-casino-payments",
@@ -50,7 +50,14 @@
       "date_modified": "2026-10-21",
       "content_hash": "78cc1906e71a586d990b9dc489904a23b5be7d61631a1ba8acc864df93b6d6df",
       "status": "approved"
+    },
+    {
+      "slug": "kanasta-pravila",
+      "title": "Канаста: правила, точкуване и разновидности",
+      "date_modified": "2026-10-24",
+      "content_hash": "0faab48f87c4dae5e35478feb46da66b0c58cdd2dd05e8c6f5ac69588580d73d",
+      "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-27T12:17:42Z"
+  "generated_utc": "2026-10-27T12:19:45Z"
 }

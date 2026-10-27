@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-27T12:17:42Z",
+  "generated_utc": "2026-10-27T12:19:45Z",
   "buffer": {
     "count": 220,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 213,
-    "approved": 7,
+    "drafted": 212,
+    "approved": 8,
     "posted": 71,
     "failed": 1
   },
@@ -5843,7 +5843,7 @@
     },
     {
       "id": "vk-0290",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Канаста — правила и как се играе (разновидности и точкуване)",
       "keywords_or_terms": "канаста, канаста правила, как се играе канаста, игра на канаста",
