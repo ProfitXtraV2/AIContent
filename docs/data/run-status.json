@@ -5,7 +5,7 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01AwuYFUaeeR9qrBJnAHTRfQ",
-  "note": "daily run 2026-10-27 (10th fire) — reconcile clean (0 in-progress/HANDOFF/CLAIMED); monthly SEO 2026-10 already done (no-op); candidate = backlog P0 in-scope 'Стани богат онлайн' (16K/kd0, owner-approved off-core quiz guide); dedup pending",
+  "note": "daily run 2026-10-27 (10th fire) — vk-0301 Стани богат онлайн: draft through 05b, Gemini Step-7 PASS human 95 (baseline 75 → humaniser p1 95, keep-best p1); now Images",
   "progress": {
     "phase": "writing",
     "article_index": 1,
@@ -23,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "stage_index": 7,
+    "stage": "Images"
   }
 }
