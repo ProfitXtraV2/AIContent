@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-27T12:20:30Z",
+  "generated_utc": "2026-10-27T12:20:36Z",
   "buffer": {
     "count": 220,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 210,
-    "approved": 10,
+    "drafted": 209,
+    "approved": 11,
     "posted": 71,
     "failed": 1
   },
@@ -5211,7 +5211,7 @@
     },
     {
       "id": "vk-0262",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Как се играе онлайн бинго — правила, видове и реалните шансове",
       "keywords_or_terms": "онлайн бинго, как се играе бинго, бинго правила, бинго игра, видове бинго, 90 топки, 75 топки",

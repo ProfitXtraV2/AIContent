@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 10,
+  "count": 11,
   "articles": [
     {
       "slug": "hub-intro-casino-payments",
@@ -28,6 +28,13 @@
       "title": "Безплатни завъртания (free spins): видове и условия",
       "date_modified": "2026-10-05",
       "content_hash": "b1c96e48fea8eb1dd47b36ef83d3963de8120688ff7d788db6e7c365b05befc5",
+      "status": "approved"
+    },
+    {
+      "slug": "onlayn-bingo-pravila",
+      "title": "Онлайн бинго: правила, видове и реалните шансове",
+      "date_modified": "2026-10-10",
+      "content_hash": "d70ab4937a56843ca255b3b78f79f7b31783927abb2badb80f00ae4eee3fb1b0",
       "status": "approved"
     },
     {
@@ -73,5 +80,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-27T12:20:30Z"
+  "generated_utc": "2026-10-27T12:20:36Z"
 }
