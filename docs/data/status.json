@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-27T17:59:45Z",
+  "generated_utc": "2026-10-27T18:41:35Z",
   "buffer": {
-    "count": 223,
+    "count": 224,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 208,
+    "drafted": 209,
     "approved": 15,
     "posted": 71,
     "failed": 1
@@ -5974,6 +5974,29 @@
       },
       "verify_flags": 0,
       "verify_samples": []
+    },
+    {
+      "id": "vk-0296",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Табла онлайн — къде да играете безплатно и срещу реални хора",
+      "keywords_or_terms": "табла онлайн, игра на табла онлайн, табла с приятели, табла срещу реални играчи, безплатна табла",
+      "volume": "8000",
+      "kd": "0",
+      "source": "backlog",
+      "drafted_date": "2026-10-27",
+      "posted_date": "",
+      "folder": "2026-10-27-tabla-onlayn",
+      "pr": "#319",
+      "gemini": "human 85",
+      "notes": "where-to-play pillar for табла навигационен cluster (табла онлайн 8K/kd0); distinct from tabla-pravila (vk-0288 rules) — links out, no rules repeat; free social platforms (VIP Games/Casualino, VIP Backgammon, LAN-Games, Djagi, Belot.BG, Poki), virtual chips not real money, 0 operator/НАП facts (guides-only scope); OWNER-APPROVED P0 2026-10-27; gate 95 PASS 0-crit; Gemini Step-7 keep-best baseline HL25 → humaniser p1 HL85 (Likely human-written 85%, PASS, kept) → human 85; img:2 (hero webp 20KB + platformi-sravnenie.svg; image review 90→75→75→90 PASS, 0 integrity fail, infographic безупречна, labels 1:1 vs 05b); 0 flags",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
     }
   ],
   "backlog": [
@@ -6041,8 +6064,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 8K/kd0 (2026-10-27 discovery).",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-27. Distinct from tabla-pravila (rules) — this is where/how to play online; link tabla-pravila, don't repeat rules.",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-10-27. Distinct from tabla-pravila (rules) — this is where/how to play online; link tabla-pravila, don't repeat rules. · WRITTEN 2026-10-27 → vk-0296, PR #319 (daily run, backlog P0 top in-scope open row). Gate 95 PASS, Gemini human 85 (PASS pass 1), img:2 best review 90. Free social platforms (VIP Games/Casualino, LAN-Games, Djagi, Belot.BG, Poki); 0 operator/НАП facts.",
       "opportunity": {
         "score": 100,
         "band": "Strong",
@@ -10975,30 +10998,17 @@
       }
     ],
     "bands": {
-      "Strong": 7,
+      "Strong": 6,
       "Moderate": 3
     },
     "clusters": {
       "uncategorised": {
-        "winnable": 9,
+        "winnable": 8,
         "pillar": 0,
-        "total": 10
+        "total": 9
       }
     },
     "winnable": [
-      {
-        "query": "Табла онлайн — къде да играете безплатно и срещу реални хора",
-        "keywords": "табла онлайн, игра на табла онлайн",
-        "volume": "8000",
-        "kd": "0",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 100,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
       {
         "query": "Теглене на Тото днес — кога са тиражите 6 от 49, 5 от 35 и 6 от 42 и къде да ги гледате",
         "keywords": "теглене на тото 6 от 49 днес, спорт тото 6 от 49 последен тираж, спорт тото 5 от 35 последен тираж, тото джокер последен тираж",
@@ -11107,7 +11117,7 @@
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 9,
+      "winnable": 8,
       "pillars": 0
     }
   }

@@ -2570,6 +2570,24 @@
 "fetched": "2026-10-26",
 "row": {}
 },
+"bg|домино правила": {
+"fetched": "2026-10-27",
+"row": {
+"cpc": null,
+"difficulty": 0,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "домино правила",
+"volume": 200
+},
+"trend": "down"
+},
 "bg|дракон тигър": {
 "fetched": "2026-10-27",
 "row": {}
@@ -2698,6 +2716,10 @@
 "volume": 10
 },
 "trend": "up"
+},
+"bg|казино бонус условия": {
+"fetched": "2026-10-27",
+"row": {}
 },
 "bg|казино война": {
 "fetched": "2026-10-27",
@@ -2859,6 +2881,24 @@
 "volume": 40
 },
 "trend": "up"
+},
+"bg|как се играе рулетка": {
+"fetched": "2026-10-27",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "как се играе рулетка",
+"volume": 20
+},
+"trend": "down"
 },
 "bg|как се пресмята rtp": {
 "fetched": "2026-10-26",
@@ -3151,6 +3191,24 @@
 "fetched": "2026-09-16",
 "row": {}
 },
+"bg|не се сърди човече": {
+"fetched": "2026-10-27",
+"row": {
+"cpc": 6,
+"difficulty": 0,
+"intents": {
+"branded": false,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "не се сърди човече",
+"volume": 6400
+},
+"trend": "down"
+},
 "bg|оазис покер": {
 "fetched": "2026-10-26",
 "row": {
@@ -3283,6 +3341,24 @@
 "volume": 30
 },
 "trend": "down"
+},
+"bg|сантасе онлайн": {
+"fetched": "2026-10-27",
+"row": {
+"cpc": 40,
+"difficulty": 6,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "сантасе онлайн",
+"volume": 1400
+},
+"trend": "up"
 },
 "bg|сик бо": {
 "fetched": "2026-10-11",

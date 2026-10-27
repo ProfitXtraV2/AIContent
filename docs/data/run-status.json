@@ -1,29 +1,18 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-10-27T17:59:34Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-10-27T18:42:05Z",
+  "articles_written": 1,
+  "prs_opened": [319],
   "run_url": "https://claude.ai/code/session_01AwuYFUtr3F8VithB7Ygou6",
-  "note": "daily run 2026-10-27 (5th fire) — vk-0296 Gemini human 85, images 2 best 90 PASS; verification",
+  "note": "daily run 2026-10-27 (5th fire) done — 1 NEW guide vk-0296 'Табла онлайн — къде се играе безплатно' (PR #319). Reconcile clean (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review 2026-10 already done (no-op). AHREFS+GEMINI ONLINE. Where-to-play pillar for табла навигационен cluster (табла онлайн 8000/kd0, HUMAN BACKLOG top open P0, OWNER-APPROVED 2026-10-27 → backlog written); DISTINCT from rules guide vk-0288 tabla-pravila (links out, no rules repeat). Free social platforms (VIP Games/Casualino, VIP Backgammon, LAN-Games, Djagi, Belot.BG, Poki), virtual chips not real money, 0 operator/НАП facts (guides-only scope, public app-store/platform pages web-verified 27.10); VIP Backgammon 18+ 'Simulated Gambling' stated openly. Gate 95 PASS 0-crit; Gemini Step-7 keep-best: baseline HL25 → humaniser p1 HL85 (Likely human-written 85%, PASS pass1, kept) → human 85; img:2 (hero webp 20KB backgammon-board-on-screen + tabla-onlayn-platformi-sravnenie.svg; image review 90→75(footer)→75(iOS label)→90 PASS, 0 integrity fail, infographic безупречна/100% data match, labels 1:1 vs 05b); 0 flags. Step-6: backlog P0 табла онлайн → written; 6 writable P0 guides remain open (runway: теглене на тото, проверка на фиш, игри с карти, шах, стани богат, судоку); research bank unchanged at 4 candidates (реми/бридж winnable; no new distinct gambling-aligned winnable term uncovered — casino-core seeds covered/low/zero, не се сърди/домино excluded as off-brand per standing decision, сантасе онлайн folded into vk-0287); NV-branded rows stay blocked (operator sourcing). Board on main; dashboard rebuilt (buffer 224/10); feed refreshed (15 approved). No flags resolved, nothing posted/merged/fabricated.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-10-27-tabla-onlayn",
-    "stages": [
-      "Synthesis",
-      "Outline",
-      "Author",
-      "Humaniser",
-      "SEO",
-      "Brand Gate",
-      "Light re-check",
-      "Images",
-      "Verification",
-      "PR"
-    ],
-    "stage_index": 8,
-    "stage": "Verification"
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
+    "stage_index": null,
+    "stage": null
   }
 }
