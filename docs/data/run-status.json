@@ -5,14 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01AwuYFUtr3F8VithB7Ygou6",
-  "note": "daily run 2026-10-27 (5th fire) start — heartbeat running; reconcile clean (0 in-progress/HANDOFF/CLAIMED); SEO review 2026-10 done (no-op)",
+  "note": "daily run 2026-10-27 (5th fire) — writing vk-0296 'Табла онлайн' (backlog P0, 8000/kd0); Synthesis",
   "progress": {
     "phase": "writing",
-    "article_index": null,
-    "article_total": null,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "article_index": 1,
+    "article_total": 1,
+    "article_slug": "2026-10-27-tabla-onlayn",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
