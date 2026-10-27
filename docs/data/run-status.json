@@ -5,14 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01AwuYFTWEU3BDSQ32jqpbFi",
-  "note": "daily run 2026-10-27 (11th fire) — heartbeat running; synced to origin/main c3ace8aa; reconcile clean (0 in-progress/HANDOFF/CLAIMED); selecting topics",
+  "note": "daily run 2026-10-27 (11th fire) — writing vk-0302 Судоку (backlog P0 in-scope guide, 5300/kd1)",
   "progress": {
-    "phase": "reconcile",
-    "article_index": null,
-    "article_total": null,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "phase": "writing",
+    "article_index": 1,
+    "article_total": 1,
+    "article_slug": "2026-10-27-sudoku-kak-se-igrae",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
