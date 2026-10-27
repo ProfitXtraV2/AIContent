@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-27T12:19:45Z",
+  "generated_utc": "2026-10-27T12:20:05Z",
   "buffer": {
     "count": 220,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 212,
-    "approved": 8,
+    "drafted": 211,
+    "approved": 9,
     "posted": 71,
     "failed": 1
   },
@@ -5142,7 +5142,7 @@
     },
     {
       "id": "vk-0259",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Безплатни завъртания (free spins): видове, условия и капани",
       "keywords_or_terms": "безплатни завъртания, безплатни врътки, free spins, видове безплатни завъртания, условия на безплатните завъртания",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 8,
+  "count": 9,
   "articles": [
     {
       "slug": "hub-intro-casino-payments",
@@ -21,6 +21,13 @@
       "title": "Отговорна игра: лимити, самоизключване, помощ",
       "date_modified": "2026-09-19",
       "content_hash": "f1c7b24f7c372c70049958c0be6093d321d4545f269f9af1ad7e06eb1a15569c",
+      "status": "approved"
+    },
+    {
+      "slug": "bezplatni-zavartaniya-free-spins",
+      "title": "Безплатни завъртания (free spins): видове и условия",
+      "date_modified": "2026-10-05",
+      "content_hash": "b1c96e48fea8eb1dd47b36ef83d3963de8120688ff7d788db6e7c365b05befc5",
       "status": "approved"
     },
     {
@@ -59,5 +66,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-27T12:19:45Z"
+  "generated_utc": "2026-10-27T12:20:05Z"
 }
