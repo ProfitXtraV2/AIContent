@@ -8,5 +8,7 @@
 - 04 SEO: title tag (51 chars) + meta (158 chars); keyword coverage confirmed (шах/шах правила/как се играе/шах срещу компютър/фигури/рокада/ан пасан/мат/пат/реми); 2 internal links (hub /blog/responsible-gambling/ + sibling /blog/tabla-pravila/, live only).
 - 05 Brand Gate: PASS 95/100, 0 criticals. Byline/brand/dates/About/bio/18+/RG signposting/affiliate footer all present; no-affiliate note correct (no operator referenced). 0 em-dashes. 0 [VERIFY]/[DATA NEEDED].
 - 05b Final: footer untouchables filled verbatim; hero + infographic referenced.
-- Step 7 Gemini: (see 07-gemini-check-*.md).
-- Step 8 Images: (see 08-image-review-*.md).
+- Step 7 Gemini: pass 1 baseline „Likely human-written 80%" → human-likeness 80 → PASS. 0 humaniser passes (keep-best = baseline). gemini = human 80. (07-gemini-check-1.md)
+- Step 8 Images: 2 images (infographic shah-stoynost-figuri.svg + hero shah-figuri-hero.webp 14.8KB). Gemini review pass 1 = 100/100 PASS, 0 integrity fails, numbers 1:1. Best score 100. (08-image-review-1.md)
+- Step 6 Verification: 0 flags; recalculated knights-vs-rook+pawn (6=6, consistent); sources chess.com/bg + bg.wikipedia. (06-verification.md)
+- PR: content/2026-10-27-shah-pravila → (PR number recorded on queue row).
