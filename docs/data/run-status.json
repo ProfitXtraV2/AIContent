@@ -5,14 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01AwuYFSovZ9p8QE9qMLPPFY",
-  "note": "daily run 2026-10-27 (6th fire) — reconcile clean, SEO review 2026-10 done (no-op), selecting up to 1 new topic",
+  "note": "daily run 2026-10-27 (6th fire) — writing vk-0297 проверка на фиш (backlog P0 #2; top P0 теглене на тото deferred: volatile schedule)",
   "progress": {
-    "phase": "selecting",
-    "article_index": 0,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 1,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "article_slug": "2026-10-27-proverka-na-fish",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
