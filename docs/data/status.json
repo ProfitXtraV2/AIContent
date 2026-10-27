@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-27T20:47:03Z",
+  "generated_utc": "2026-10-27T21:18:06Z",
   "buffer": {
-    "count": 228,
+    "count": 229,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 213,
+    "drafted": 214,
     "approved": 15,
     "posted": 71,
     "failed": 1
@@ -6097,6 +6097,34 @@
       },
       "verify_flags": 0,
       "verify_samples": []
+    },
+    {
+      "id": "vk-0301",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Стани богат онлайн — как се играе играта и правилата на предаването",
+      "keywords_or_terms": "стани богат онлайн, стани богат игра",
+      "volume": "16000",
+      "kd": "0",
+      "source": "backlog",
+      "drafted_date": "2026-10-27",
+      "posted_date": "",
+      "folder": "2026-10-27-stani-bogat-onlayn",
+      "pr": "#324",
+      "gemini": "human 95",
+      "notes": "daily run 2026-10-27 (10th fire, MAX_PER_RUN=1); backlog P0 in-scope OWNER-APPROVED off-core quiz-game guide (owner chose to include despite off-core). Evergreen explainer of the TV quiz „Стани богат\" (BG „Who Wants to Be a Millionaire\") + its free online game — rules, money ladder, жокери, where to play online. guides-only scope: facts from Wikipedia + bTV public pages, 0 operator/НАП facts, no gambling framing in body, no invented prize/question data; no operator → no affiliate link. Ahrefs bg стани богат онлайн 16000/kd0 WIN (2026-10-27). Dedup vs queue + live sitemap (140 URLs) = 0 „стани богат\"/quiz coverage → clean, distinct cluster (not casino/card games). · OUTCOME: drafted → PR #324. Gate 94/100 PASS 0-crit. Gemini Step-7: baseline HL75 → humaniser p1 HL95 („Likely human-written 95%\"), keep-best=p1 → human 95. img:2 (ladder infographic stani-bogat-stalbata.svg numbers 1:1 + decorative hero webp 14.3KB ascending-steps→question-mark via Chromium WebP transcode since env Pillow broken; Gemini image review 100 PASS p1, 0 integrity fail). 4 [VERIFY] (юбилеен season params, 2-ра плаваща гарантирана сума range, жокери lineup, online-game rules) stay in text for Step 6. 4 internal links live (RG hub + tabla sibling + footer kak-ocenyavame/otgovorna-igra). Backlog P0 row → written.",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 4,
+      "verify_samples": [
+        "[VERIFY: точните параметри на юбилейния сезон]",
+        "[VERIFY: диапазонът на втората гарантирана сума]",
+        "[VERIFY: актуалният набор от жокери за текущия сезон]",
+        "[VERIFY: текущите правила на онлайн играта]"
+      ]
     }
   ],
   "backlog": [
@@ -6272,8 +6300,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 16K/kd0 (2026-10-27 discovery). Off-core quiz-game guide.",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-27 despite being off-core (owner chose to include) — write it, do not skip as off-strategy. Facts from public sources only; no invented prize amounts.",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-10-27 despite being off-core (owner chose to include) — write it, do not skip as off-strategy. Facts from public sources only; no invented prize amounts. WRITTEN 2026-10-27 (10th fire): vk-0301, PR #324, Gemini human 95, img 2 (review 100).",
       "opportunity": {
         "score": 100,
         "band": "Strong",
@@ -11098,30 +11126,17 @@
       }
     ],
     "bands": {
-      "Strong": 2,
+      "Strong": 1,
       "Moderate": 3
     },
     "clusters": {
       "uncategorised": {
-        "winnable": 4,
+        "winnable": 3,
         "pillar": 0,
-        "total": 5
+        "total": 4
       }
     },
     "winnable": [
-      {
-        "query": "Стани богат онлайн — как се играе играта и правилата на предаването",
-        "keywords": "стани богат онлайн, стани богат игра",
-        "volume": "16000",
-        "kd": "0",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 100,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
       {
         "query": "Судоку — как се играе и стратегии за начинаещи",
         "keywords": "игра судоку безплатно, судоку онлайн безплатно, как се играе судоку, судоку правила",
@@ -11165,7 +11180,7 @@
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 4,
+      "winnable": 3,
       "pillars": 0
     }
   }

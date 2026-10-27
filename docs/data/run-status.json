@@ -1,13 +1,15 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-10-27T20:51:00Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-10-27T21:18:00Z",
+  "articles_written": 1,
+  "prs_opened": [
+    324
+  ],
   "run_url": "https://claude.ai/code/session_01AwuYFUaeeR9qrBJnAHTRfQ",
-  "note": "daily run 2026-10-27 (10th fire) — vk-0301 Стани богат онлайн: draft through 05b, Gemini Step-7 PASS human 95 (baseline 75 → humaniser p1 95, keep-best p1); now Images",
+  "note": "daily run 2026-10-27 (10th fire) done — 1 NEW guide vk-0301 'Стани богат онлайн' (PR #324), top open in-scope backlog P0 (owner-approved off-core quiz-game guide, 16000/kd0). On start reset local clone to origin/main 1d72064f (local branch pointer was stale/divergent). Reconcile clean (0 in-progress/HANDOFF/CLAIMED). Monthly SEO 2026-10 already done (no-op). AHREFS+GEMINI online. guides-only scope: evergreen explainer of the BG TV quiz ('Who Wants to Be a Millionaire') + its free online bTV game; 0 operator/НАП facts, no gambling framing in body; no operator -> no affiliate link. Sources: Wikipedia (Stani_Bogat) + bTV public pages; season-dependent format specifics flagged [VERIFY] (4), none fabricated. Dedup vs queue + live sitemap (140 URLs): 0 'стани богат'/quiz coverage -> clean, distinct cluster (not casino/card). Gate 94/100 PASS 0-crit; Gemini Step-7 baseline 'Likely human-written 75%' -> humaniser p1 (drop intro signposting, break 'едно от две неща' binary, cut forced CTA, typo fix, hero alt cleanup) -> 'Likely human-written 95%' HL95 PASS (keep-best=p1) -> human 95; img:2 (ladder infographic stani-bogat-stalbata.svg numbers 1:1 + decorative hero webp 14.3KB ascending-steps->question-mark via Chromium WebP transcode since env Pillow broken; Gemini image review 100 PASS p1, 0 integrity fail). 4 [VERIFY] stay in text. 4 internal links live (RG hub + tabla sibling + footer). Step-6: backlog P0 'Стани богат онлайн' -> written; same-day fire -> no new Ahrefs re-pull (metrics current, units conserved); research bank unchanged. Board on main; dashboard rebuilt (buffer 229/10); feed refreshed (15 approved). No flags resolved, nothing posted/merged/fabricated. Remaining open in-scope P0: Судоку (5.3K); NV-branded rows stay blocked (operator sourcing).",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-10-27-stani-bogat-onlayn",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 7,
-    "stage": "Images"
+    "stage_index": null,
+    "stage": null
   }
 }
