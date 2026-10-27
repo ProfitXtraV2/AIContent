@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-26T08:05:52Z",
+  "generated_utc": "2026-10-27T07:47:23Z",
   "buffer": {
-    "count": 219,
+    "count": 220,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 214,
+    "drafted": 215,
     "approved": 5,
     "posted": 71,
     "failed": 1
@@ -5886,6 +5886,25 @@
       },
       "verify_flags": 0,
       "verify_samples": []
+    },
+    {
+      "id": "vk-0292",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Карибски покер (Caribbean Stud): правила, залози и домашно предимство",
+      "keywords_or_terms": "карибски покер, caribbean stud poker, карибски покер правила, как се играе карибски покер, карибски покер онлайн",
+      "volume": "60",
+      "kd": "",
+      "source": "research",
+      "drafted_date": "2026-10-27",
+      "posted_date": "",
+      "folder": "2026-10-27-karibski-poker",
+      "pr": "#315",
+      "gemini": "ai 25",
+      "notes": "daily run 2026-10-27 (MAX_PER_RUN=1); research-bank sole writable candidate. Caribbean Stud = casino poker vs the house (no bluffing, 5 cards each, dealer qualifies on A-K+). Ahrefs bg „карибски покер\" 60/informational↓ + „карибски покер онлайн\" 40/transactional↑ (re-pull 2026-10-27). DISTINCT vs Pai Gow vk-0181, Teen Patti vk-0184, Три карти покер vk-0176, UTH vk-0178, казино покер overview vk-0008, poker-kombinacii vk-0263; 0 Caribbean/карибски in queue+live sitemap (140 URLs, 2026-10-27) → no cannibalization. guides-only scope OK (public game-DB: Wizard of Odds + Wikipedia; 0 operator/НАП facts, no specific operator → no affiliate link). · OUTCOME: drafted → PR #315. Gate 95/100 PASS WITH FIXES 0-crit. Gemini Step-7: baseline HL25 → humaniser p1 HL25 → p2 HL75 („Likely human-written 75%\", verdict flipped +50); MAX_GEMINI_PASSES=2, keep-best=p2 → ai 25 (HL75<80, style nits for human Step 6; facts/numbers/RG clean). img:3 (decorative hero webp 22KB + flow infographic SVG + house-edge infographic SVG; Gemini image review 100 PASS p1, 0 integrity fail, every number 1:1 vs 05b). 0 [VERIFY]/[DATA NEEDED]/[CONFLICT]. 6 internal links. Research discovery row → used.",
+      "opportunity": null,
+      "verify_flags": 0,
+      "verify_samples": []
     }
   ],
   "backlog": [
@@ -6788,9 +6807,23 @@
       "intent": "informational",
       "trend": "down",
       "checked": "ahrefs",
-      "suggestion": "NEW candidate (fresh discovery 2026-10-26, Ahrefs bg): „карибски покер\" 60/мес informational ↓; „caribbean stud poker\" 10; „карибски стъд покер\"/„оазис покер\" 0-vol. DISTINCT казино table-game variant — NOT covered in queue+backlog+live sitemap (140 URLs 26.10; no caribbean/karibski URL), separate game from Three Card Poker / Casino Hold'em / Ultimate Texas Hold'em / Pai Gow / casino poker (vk-0008). Low vol but genuine + winnable (kd blank from Ahrefs → low), guides-only scope OK (public table-game rules, 0 operator facts). Angle: правила срещу дилъра, ante+bet структура, прогресив side bet, домашно предимство ~5%+ → честен „страничните залози струват ли си\" frame. Next-write material when it tops the writable queue. Replaces the emptied bank (свара/канаста used, Dog House dropped).",
-      "status": "candidate",
+      "suggestion": "NEW candidate (fresh discovery 2026-10-26, Ahrefs bg): „карибски покер\" 60/мес informational ↓; „caribbean stud poker\" 10; „карибски стъд покер\"/„оазис покер\" 0-vol. DISTINCT казино table-game variant — NOT covered in queue+backlog+live sitemap (140 URLs 26.10; no caribbean/karibski URL), separate game from Three Card Poker / Casino Hold'em / Ultimate Texas Hold'em / Pai Gow / casino poker (vk-0008). Low vol but genuine + winnable (kd blank from Ahrefs → low), guides-only scope OK (public table-game rules, 0 operator facts). Angle: правила срещу дилъра, ante+bet структура, прогресив side bet, домашно предимство ~5%+ → честен „страничните залози струват ли си\" frame. Next-write material when it tops the writable queue. Replaces the emptied bank (свара/канаста used, Dog House dropped). WRITTEN 2026-10-27 → vk-0292, PR #315.",
+      "status": "used",
       "date_researched": "2026-10-26",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Казино Холдем (Casino Hold'em): правила, залози и домашно предимство",
+      "researched_keywords": "казино холдем, casino holdem, казино холдем правила, казино холдем срещу дилъра",
+      "volume": "10",
+      "kd": "",
+      "intent": "commercial",
+      "trend": "flat",
+      "checked": "ahrefs",
+      "suggestion": "NEW candidate (fresh discovery 2026-10-27, Ahrefs bg): „casino holdem\" 10/мес ↓; „казино холдем\"/„понтун\"/„манила покер\"/„дракон тигър\"(head) 0-vol. DISTINCT live-casino poker-vs-dealer variant (играч и дилър по 2 карти + 5 общи; ante, после call 2× ante или fold; дилърът се квалифицира с чифт четворки или по-добро; AA side bet) — NOT covered in queue+backlog+live sitemap (140 URLs, 2026-10-27; no casino-holdem/холдем URL). Естествен sibling на казино-покер cluster: Caribbean Stud (vk-0292), Three Card Poker (vk-0176), Ultimate Texas Hold'em (vk-0178), Pai Gow (vk-0181), Teen Patti (vk-0184), poker overview (vk-0008). Winnable (kd blank/low), guides-only scope OK (public game-DB Wizard of Odds + Wikipedia, 0 operator/НАП facts). Low vol → write when it tops the writable queue. Refills bank after Карибски покер used.",
+      "status": "candidate",
+      "date_researched": "2026-10-27",
       "opportunity": null
     },
     {

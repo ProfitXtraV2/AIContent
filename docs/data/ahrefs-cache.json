@@ -264,6 +264,17 @@
 },
 "trend": "down"
 },
+"bg|blazing star": {
+"fetched": "2026-10-27",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "blazing star",
+"volume": 10
+},
+"trend": "down"
+},
 "bg|blue heart egt": {
 "fetched": "2026-10-26",
 "row": {}
@@ -423,6 +434,17 @@
 "volume": 0
 }
 },
+"bg|casino holdem": {
+"fetched": "2026-10-27",
+"row": {
+"cpc": 80,
+"difficulty": null,
+"intents": {},
+"keyword": "casino holdem",
+"volume": 10
+},
+"trend": "down"
+},
 "bg|chaos crew": {
 "fetched": "2026-09-17",
 "row": {
@@ -554,6 +576,17 @@
 "volume": 0
 }
 },
+"bg|dragon tiger": {
+"fetched": "2026-10-27",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "dragon tiger",
+"volume": 10
+},
+"trend": "down"
+},
 "bg|duck hunters": {
 "fetched": "2026-09-17",
 "row": {
@@ -639,12 +672,12 @@
 }
 },
 "bg|flaming hot": {
-"fetched": "2026-09-20",
+"fetched": "2026-10-27",
 "row": {
 "cpc": 35,
-"difficulty": 63,
+"difficulty": 49,
 "intents": {
-"branded": true,
+"branded": false,
 "commercial": true,
 "informational": true,
 "local": false,
@@ -1572,6 +1605,24 @@
 "fetched": "2026-10-26",
 "row": {}
 },
+"bg|rise of ra": {
+"fetched": "2026-10-27",
+"row": {
+"cpc": 40,
+"difficulty": 61,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "rise of ra",
+"volume": 60
+},
+"trend": "down"
+},
 "bg|san quentin": {
 "fetched": "2026-09-17",
 "row": {
@@ -1598,17 +1649,17 @@
 "row": {}
 },
 "bg|shining crown": {
-"fetched": "2026-09-20",
+"fetched": "2026-10-27",
 "row": {
 "cpc": 35,
-"difficulty": 64,
+"difficulty": 43,
 "intents": {
 "branded": true,
 "commercial": true,
 "informational": true,
 "local": false,
 "navigational": false,
-"transactional": true
+"transactional": false
 },
 "keyword": "shining crown",
 "volume": 200
@@ -2267,6 +2318,10 @@
 "fetched": "2026-10-21",
 "row": {}
 },
+"bg|блекджек варианти": {
+"fetched": "2026-10-27",
+"row": {}
+},
 "bg|блекджек правила": {
 "fetched": "2026-10-24",
 "row": {
@@ -2302,6 +2357,10 @@
 "volume": 20
 },
 "trend": "down"
+},
+"bg|блекджек суич": {
+"fetched": "2026-10-27",
+"row": {}
 },
 "bg|бонус бай функция": {
 "fetched": "2026-10-17",
@@ -2350,6 +2409,24 @@
 "bg|волатилност на слот": {
 "fetched": "2026-10-26",
 "row": {}
+},
+"bg|генератор на случайни числа": {
+"fetched": "2026-10-27",
+"row": {
+"cpc": null,
+"difficulty": 0,
+"intents": {
+"branded": false,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "генератор на случайни числа",
+"volume": 150
+},
+"trend": "down"
 },
 "bg|данък печалба нелицензирано казино": {
 "fetched": "2026-09-16",
@@ -2417,6 +2494,10 @@
 "fetched": "2026-10-26",
 "row": {}
 },
+"bg|дракон тигър": {
+"fetched": "2026-10-27",
+"row": {}
+},
 "bg|евро джакпот": {
 "fetched": "2026-10-11",
 "row": {
@@ -2476,6 +2557,14 @@
 "fetched": "2026-10-26",
 "row": {}
 },
+"bg|испански 21": {
+"fetched": "2026-10-27",
+"row": {}
+},
+"bg|ка562рибски покер правила": {
+"fetched": "2026-10-27",
+"row": {}
+},
 "bg|казина в българия": {
 "fetched": "2026-10-18",
 "row": {
@@ -2533,6 +2622,10 @@
 "volume": 10
 },
 "trend": "up"
+},
+"bg|казино война": {
+"fetched": "2026-10-27",
+"row": {}
 },
 "bg|казино за начинаещи": {
 "fetched": "2026-10-26",
@@ -2595,6 +2688,26 @@
 "fetched": "2026-10-26",
 "row": {}
 },
+"bg|казино турнири": {
+"fetched": "2026-10-27",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "казино турнири",
+"volume": 0
+}
+},
+"bg|казино холдем": {
+"fetched": "2026-10-27",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "казино холдем",
+"volume": 0
+}
+},
 "bg|как да избера онлайн казино": {
 "fetched": "2026-10-26",
 "row": {}
@@ -2624,6 +2737,16 @@
 "bg|как се играе евроджакпот": {
 "fetched": "2026-10-11",
 "row": {}
+},
+"bg|как се играе карибски покер": {
+"fetched": "2026-10-27",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "как се играе карибски покер",
+"volume": 0
+}
 },
 "bg|как се пресмята rtp": {
 "fetched": "2026-10-26",
@@ -2668,6 +2791,24 @@
 "volume": 60
 },
 "trend": "down"
+},
+"bg|карибски покер онлайн": {
+"fetched": "2026-10-27",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": false,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "карибски покер онлайн",
+"volume": 40
+},
+"trend": "up"
 },
 "bg|карибски покер правила": {
 "fetched": "2026-10-26",
@@ -2769,6 +2910,10 @@
 "fetched": "2026-10-24",
 "row": {}
 },
+"bg|лайтнинг рулетка": {
+"fetched": "2026-10-27",
+"row": {}
+},
 "bg|лъки джокър": {
 "fetched": "2026-10-26",
 "row": {}
@@ -2797,6 +2942,10 @@
 },
 "bg|максимално теглене казино": {
 "fetched": "2026-10-26",
+"row": {}
+},
+"bg|манила покер": {
+"fetched": "2026-10-27",
 "row": {}
 },
 "bg|мартингейл рулетка": {
@@ -2945,9 +3094,23 @@
 },
 "trend": "down"
 },
+"bg|понтун": {
+"fetched": "2026-10-27",
+"row": {}
+},
 "bg|понтун казино": {
 "fetched": "2026-10-26",
 "row": {}
+},
+"bg|прогресивен джакпот": {
+"fetched": "2026-10-27",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "прогресивен джакпот",
+"volume": 0
+}
 },
 "bg|пунто банко": {
 "fetched": "2026-10-26",
@@ -2956,6 +3119,16 @@
 "difficulty": null,
 "intents": {},
 "keyword": "пунто банко",
+"volume": 0
+}
+},
+"bg|ред дог": {
+"fetched": "2026-10-27",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "ред дог",
 "volume": 0
 }
 },
@@ -3037,6 +3210,10 @@
 },
 "bg|хибридни слотове": {
 "fetched": "2026-10-17",
+"row": {}
+},
+"bg|хоулд енд уин": {
+"fetched": "2026-10-27",
 "row": {}
 }
 }

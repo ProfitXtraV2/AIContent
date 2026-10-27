@@ -1,18 +1,18 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-10-27T07:14:42Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-10-27T07:55:00Z",
+  "articles_written": 1,
+  "prs_opened": [315],
   "run_url": "https://claude.ai/code/session_01AwuYFTCwAFbYmwULQGJTAe",
-  "note": "daily run 2026-10-27 — writing vk-0292 Карибски покер (Caribbean Stud), the sole distinct writable research candidate; reconcile clean; monthly SEO review 2026-10 no-op",
+  "note": "daily run 2026-10-27 done — 1 NEW guide vk-0292 „Карибски покер (Caribbean Stud)\" (PR #315), the research bank's sole live writable candidate (Карибски покер 60/informational → used). Reconcile clean (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review 2026-10 already done (no-op). AHREFS ONLINE. Gate 95 PASS WITH FIXES; Gemini Step-7 keep-best p2 HL75 („Likely human-written 75%\"; baseline/p1 HL25 → p2 HL75, verdict flipped, MAX_GEMINI_PASSES) → ai 25; img:3 (decorative hero webp 22KB vs-the-house metaphor + flow infographic SVG + house-edge infographic SVG; Gemini image review 100 PASS, 0 integrity fail, every number 1:1 vs 05b); 0 flags; facts from Wizard of Odds + Wikipedia (0 operator/НАП). Step-6 refill: added 1 research candidate „Казино Холдем\" (casino holdem 10, distinct uncovered casino-poker variant); deferred Pillars noted (shining crown 200/kd43, rise of ra 60/kd61, flaming hot 40/kd49); fold-in/covered (крейзи тайм→vk-0185, RNG→vk-0167); ~15 confirmed-zero seeds dropped (anti-padding). Board on main; dashboard rebuilt (buffer 220/10); feed refreshed. No flags resolved, nothing posted/merged/fabricated.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-10-27-karibski-poker",
     "stages": ["Synthesis", "Outline", "Author", "Humaniser", "SEO", "Brand Gate", "Light re-check", "Images", "Verification", "PR"],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "stage_index": null,
+    "stage": null
   }
 }
