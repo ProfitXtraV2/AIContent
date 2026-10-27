@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-27T12:57:31Z",
+  "generated_utc": "2026-10-27T13:56:19Z",
   "buffer": {
-    "count": 221,
+    "count": 222,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 206,
+    "drafted": 207,
     "approved": 15,
     "posted": 71,
     "failed": 1
@@ -5928,6 +5928,29 @@
       },
       "verify_flags": 0,
       "verify_samples": []
+    },
+    {
+      "id": "vk-0294",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Онлайн машини — как работят слотовете: RTP, волатилност, бонус игри и как да изберете легално казино",
+      "keywords_or_terms": "онлайн машини, игри машинки, слот машини онлайн",
+      "volume": "17000",
+      "kd": "0",
+      "source": "backlog",
+      "drafted_date": "2026-10-27",
+      "posted_date": "",
+      "folder": "2026-10-27-onlayn-mashini-kak-rabotyat",
+      "pr": "#317",
+      "gemini": "ai 25",
+      "notes": "daily run 2026-10-27 (3rd fire, MAX_PER_RUN=1); backlog P0 OWNER-APPROVED 2026-10-27. Slot-mechanics explainer (reels/paylines/RNG/RTP/volatility/bonus features + how to choose a legal casino) — guides-only scope OK: facts from general/provider education, 0 operator T&C / НАП-register claims; RTP ranges labelled примерни. Dedup vs queue + live sitemap (140 URLs, 2026-10-27): no existing „онлайн машини/как работят слотовете\" pillar — /slot-igri/ is a money/listing page (link, not duplicate). Anti-cannibal: brief RTP/volatility + links OUT to linii-na-pechalba, progresivni-dzhakpoti, proverka-licenz-kazino, slot-igri/visok-rtp (does not duplicate). Ahrefs bg онлайн машини 17000/kd0 WIN. · OUTCOME: drafted → PR #317. Gate 89/100 PASS 0-crit. Gemini Step-7 keep-best: baseline HL25 → humaniser p1 HL20 → p2 HL75 („Likely human-written 75%\"), MAX_GEMINI_PASSES=2, kept p2 (highest + only human-written verdict; HL75 just under 80 gate → human review) → ai 25 (noisy detector 25→20→75). img:3 (hero webp 22KB metaphor + rtp-domashno-predimstvo.svg + volatilnost-niska-visoka.svg; Gemini image review 100 PASS p1, 0 integrity fail, every number 1:1 vs 05b). 0 [VERIFY]/[DATA NEEDED]/[CONFLICT]. 5 internal links (1 money). Backlog P0 row → written.",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
     }
   ],
   "backlog": [
@@ -5959,8 +5982,8 @@
       "intent": "commercial",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 17K/kd0 (2026-10-27 discovery). Intent navigational/commercial → explainer + money-page links.",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-27. Guides-only: no operator T&C claims; link /sravni-kazina/ + existing slot reviews (sweet-bonanza, 20-super-hot, gates-of-olympus…).",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-10-27. Guides-only: no operator T&C claims; link /sravni-kazina/ + existing slot reviews (sweet-bonanza, 20-super-hot, gates-of-olympus…). · WRITTEN 2026-10-27 → vk-0294, PR #317 (how-slots-work head pillar: RNG/RTP/volatility/paylines/jackpots; 5 links incl /slot-igri/visok-rtp/; Gate 89 PASS; Gemini HL75 keep-best; img:3 review 100).",
       "opportunity": {
         "score": 100,
         "band": "Strong",
@@ -6105,6 +6128,24 @@
       "ahrefs_note": "WIN 16K/kd0 (2026-10-27 discovery). Off-core quiz-game guide.",
       "status": "open",
       "notes": "OWNER-APPROVED 2026-10-27 despite being off-core (owner chose to include) — write it, do not skip as off-strategy. Facts from public sources only; no invented prize amounts.",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "0",
+      "type": "guide",
+      "query": "Судоку — как се играе и стратегии за начинаещи",
+      "keywords_or_terms": "игра судоку безплатно, судоку онлайн безплатно, как се играе судоку, судоку правила",
+      "volume": "5300",
+      "kd": "1",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN 5.3K/kd1 + 3.8K/kd3 (2026-10-27). Head 'судоку' 85K is kd64 — don't target it.",
+      "status": "open",
+      "notes": "OWNER-APPROVED 2026-10-27 (replaces свара, already covered by vk-0289). Off-core logic-game guide that the owner chose to include, so write it and do not skip it as off-strategy. Rules + solving techniques; no gambling framing.",
       "opportunity": {
         "score": 100,
         "band": "Strong",
@@ -7025,6 +7066,20 @@
       "trend": "flat",
       "checked": "ahrefs",
       "suggestion": "NEW candidate (fresh discovery 2026-10-27, Ahrefs bg): „casino holdem\" 10/мес ↓; „казино холдем\"/„понтун\"/„манила покер\"/„дракон тигър\"(head) 0-vol. DISTINCT live-casino poker-vs-dealer variant (играч и дилър по 2 карти + 5 общи; ante, после call 2× ante или fold; дилърът се квалифицира с чифт четворки или по-добро; AA side bet) — NOT covered in queue+backlog+live sitemap (140 URLs, 2026-10-27; no casino-holdem/холдем URL). Естествен sibling на казино-покер cluster: Caribbean Stud (vk-0292), Three Card Poker (vk-0176), Ultimate Texas Hold'em (vk-0178), Pai Gow (vk-0181), Teen Patti (vk-0184), poker overview (vk-0008). Winnable (kd blank/low), guides-only scope OK (public game-DB Wizard of Odds + Wikipedia, 0 operator/НАП facts). Low vol → write when it tops the writable queue. Refills bank after Карибски покер used.",
+      "status": "candidate",
+      "date_researched": "2026-10-27",
+      "opportunity": null
+    },
+    {
+      "type": "guide",
+      "query": "Видео покер онлайн: как се играе, комбинации и изплащания (Jacks or Better и варианти)",
+      "researched_keywords": "видео покер онлайн, видео покер, video poker",
+      "volume": "150",
+      "kd": "",
+      "intent": "informational",
+      "trend": "up",
+      "checked": "ahrefs",
+      "suggestion": "NEW candidate (fresh discovery 2026-10-27, Ahrefs bg): „видео покер онлайн\" 150/мес ↑ (informational); „видео покер\" 30 commercial flat; „video poker\" 40/kd78 → above winnable cap (Pillar, skip head). Game-mechanics explainer for the MACHINE game (теглиш/задържаш карти, покер комбинации на автомат, paytable Jacks or Better, разлика от маса) — DISTINCT from table-poker guide vk-0008 „Как се играе покер в казино\" (only a mention there, no dedicated video-poker page in queue+backlog+live sitemap 2026-10-27). Winnable (low kd on BG terms), guides-only scope OK (public game-DB Wizard of Odds + Wikipedia, 0 operator/НАП facts). Слаб обем (150) → long-tail; write when it tops the writable queue, link poker-kombinacii + kak-se-igrae-poker-kazino. Refills bank after Онлайн машини (vk-0294) used.",
       "status": "candidate",
       "date_researched": "2026-10-27",
       "opportunity": null
@@ -10873,19 +10928,6 @@
     },
     "winnable": [
       {
-        "query": "Онлайн машини — как работят слотовете: RTP, волатилност, бонус игри и как да изберете легално казино",
-        "keywords": "онлайн машини, игри машинки, слот машини онлайн",
-        "volume": "17000",
-        "kd": "0",
-        "intent": "commercial",
-        "band": "Strong",
-        "score": 100,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
         "query": "Белот онлайн — къде и как да играете: Белот БГ, Джаги и други платформи",
         "keywords": "белот бг, джаги белот, белот онлайн, белот",
         "volume": "31000",
@@ -10942,6 +10984,19 @@
         "keywords": "стани богат онлайн, стани богат игра",
         "volume": "16000",
         "kd": "0",
+        "intent": "informational",
+        "band": "Strong",
+        "score": 100,
+        "winnable": true,
+        "cluster": "uncategorised",
+        "status": "open",
+        "src": "backlog"
+      },
+      {
+        "query": "Судоку — как се играе и стратегии за начинаещи",
+        "keywords": "игра судоку безплатно, судоку онлайн безплатно, как се играе судоку, судоку правила",
+        "volume": "5300",
+        "kd": "1",
         "intent": "informational",
         "band": "Strong",
         "score": 100,
