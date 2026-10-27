@@ -5,14 +5,14 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01AwuYFRp4i1e4FN6mpiwBUE",
-  "note": "daily run 2026-10-27 (8th fire) — start: synced origin/main 9b1b51c; reconcile clean (0 in-progress/HANDOFF/CLAIMED); SEO 2026-10 already done (no-op); buffer 226/10; selecting top open P0 backlog row",
+  "note": "daily run 2026-10-27 (8th fire) — writing vk-0299 'Игри с карти' (backlog P0 top open in-scope row, card-games hub/pillar)",
   "progress": {
-    "phase": "selecting",
-    "article_index": null,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 1,
-    "article_slug": null,
+    "article_slug": "2026-10-27-igri-s-karti",
     "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
