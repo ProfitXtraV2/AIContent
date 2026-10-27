@@ -25,3 +25,15 @@
   bring body to 1,054 words (1,253 incl footer), mirrored into 03/04. Final ship file = 05b, gate-PASS.
 
 NUMBER DIFF 02→03→04→05b: identical set, nothing changed or dropped. Em-dash final: 0. Links: 3/3.
+- Gemini Step-7 (external, cross-model): pass 1 baseline HL 25 (Shows AI patterns 75%) → humaniser
+  pass 1 applied Gemini's 5 style recs (broke stacked „Ако..." conditionals, deleted neat-bow closer,
+  removed meta-commentary, cut 2 didactic signposts, de-listed the how-to) → pass 2 HL 85 (Likely
+  human-written 85%) PASS. Keep-best kept pass 1 (highest HL=85). Every number/link/RG/footer
+  preserved; 0 em-dashes. gemini = human 85. (07-gemini-check-1/-2.md)
+- Step-8 images: 2 — infographic SVG (every label traced to 05b) + decorative hero webp (20 KB).
+  Gemini review 90 → fixed 18+ label clip → 75 → fixed footer spillover → 75 → removed unsupported
+  „· iOS" on cards 3/4 (integrity: labels trace to 05b) → 90 PASS, 0 integrity fail, infographic
+  „безупречна". Best score 90. Hero: minor non-integrity checker-layout realism note, kept (abstract
+  decorative; images never block PR). (08-image-review-1/-2.md)
+- Verification (06): 0 surviving flags; claims table with primary-source URLs; number cross-check
+  infographic vs 05b vs sources — no drift. Gemini human 85, images best 90 recorded.
