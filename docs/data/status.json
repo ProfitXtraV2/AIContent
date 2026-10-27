@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-27T12:20:05Z",
+  "generated_utc": "2026-10-27T12:20:30Z",
   "buffer": {
     "count": 220,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 211,
-    "approved": 9,
+    "drafted": 210,
+    "approved": 10,
     "posted": 71,
     "failed": 1
   },
@@ -5617,7 +5617,7 @@
     },
     {
       "id": "vk-0280",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Електронна рулетка: как работи (RNG и автоматни рулетки)",
       "keywords_or_terms": "електронна рулетка, казино рулетка игра, автоматична рулетка, рулетка RNG",

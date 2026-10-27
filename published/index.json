@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 9,
+  "count": 10,
   "articles": [
     {
       "slug": "hub-intro-casino-payments",
@@ -45,6 +45,13 @@
       "status": "approved"
     },
     {
+      "slug": "elektronna-ruletka",
+      "title": "Електронна рулетка: как работи (RNG и автоматни рулетки)",
+      "date_modified": "2026-10-14",
+      "content_hash": "205a5e9cd4e52433817100da5cf5e60a4bb620cc0de7a7b60f3e0006a8020c6e",
+      "status": "approved"
+    },
+    {
       "slug": "belot-pravila",
       "title": "Белот правила: как се играе и точкуване | Всички Казина",
       "date_modified": "2026-10-20",
@@ -66,5 +73,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-27T12:20:05Z"
+  "generated_utc": "2026-10-27T12:20:30Z"
 }
