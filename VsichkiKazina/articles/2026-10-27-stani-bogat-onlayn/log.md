@@ -8,5 +8,6 @@
 - SEO: target + secondary keyword coverage confirmed; 7 descriptive headings; 2 in-body live internal links.
 - Brand Gate: PASS 94/100, 0 critical. 4 [VERIFY] flags routed to human (season params, 2nd guaranteed-sum range, жокери lineup, online-game rules) — STAY in text.
 - Light re-check (05b): footer boilerplate assembled verbatim (byline, dates 27.10.2026, bio, About + „Тази статия не съдържа партньорски връзки.", RG block, affiliate-licensing disclosure). Mechanical check: 0 em-dash, byline+brand+18+ present, 4 internal links live, 0 [DATA NEEDED].
-- Step 7 Gemini: (below, see 07-gemini-check-*.md)
-- Step 8 Images: (below, see 08-image-review-*.md)
+- Step 7 Gemini: baseline HL 75 → humaniser pass 1 (apply recs) → HL 95 PASS; keep-best = pass 1. Recorded `human 95`. (07-gemini-check-1/2.md)
+- Step 8 Images: 2 images — hero webp (14.3 KB, concept metaphor) + ladder infographic SVG (numbers 1:1). Gemini image review pass 1 = score 100 PASS, 0 integrity fail. `images: 2 (infographic 100, hero 100)`. (08-image-review-1.md)
+- Verification: 4 [VERIFY] (season params, 2nd guaranteed-sum range, жокери lineup, online-game rules) stay in text; 0 [DATA NEEDED]/[CONFLICT]. (06-verification.md)
