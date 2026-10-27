@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 384" role="img" aria-label="Стойност на фигурите в шаха, мерена в пешки: пешка 1, кон 3, офицер 3, топ 5, дама 9; царят е безценен, защото е целта на играта">
+  <rect x="1" y="1" width="678" height="382" rx="16" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="34" y="46" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700" fill="#1f2937">Колко „струва“ всяка фигура</text>
+  <text x="34" y="72" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#6b7280">Ориентировъчна стойност, мерена в пешки</text>
+
+  <!-- Пешка 1 -->
+  <text x="34" y="118" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1f2937">Пешка</text>
+  <rect x="150" y="104" width="44" height="20" rx="4" fill="#5b8c3e"/>
+  <text x="204" y="119" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1f2937">1</text>
+
+  <!-- Кон 3 -->
+  <text x="34" y="158" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1f2937">Кон</text>
+  <rect x="150" y="144" width="132" height="20" rx="4" fill="#5b8c3e"/>
+  <text x="292" y="159" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1f2937">3</text>
+
+  <!-- Офицер 3 -->
+  <text x="34" y="198" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1f2937">Офицер</text>
+  <rect x="150" y="184" width="132" height="20" rx="4" fill="#5b8c3e"/>
+  <text x="292" y="199" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1f2937">3</text>
+
+  <!-- Топ 5 -->
+  <text x="34" y="238" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1f2937">Топ</text>
+  <rect x="150" y="224" width="220" height="20" rx="4" fill="#5b8c3e"/>
+  <text x="380" y="239" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1f2937">5</text>
+
+  <!-- Дама 9 -->
+  <text x="34" y="278" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1f2937">Дама</text>
+  <rect x="150" y="264" width="396" height="20" rx="4" fill="#3f6b2a"/>
+  <text x="556" y="279" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1f2937">9</text>
+
+  <!-- Цар безценен -->
+  <text x="34" y="320" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1f2937">Цар</text>
+  <text x="150" y="320" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#92400e">безценен, целта на играта</text>
+
+  <line x1="34" y1="344" x2="646" y2="344" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="34" y="368" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#9ca3af">Насока за размените, не твърдо правило.</text>
+</svg>
