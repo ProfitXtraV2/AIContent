@@ -8,3 +8,7 @@
 - 04 SEO: title tag (53 chars) + meta (156 chars); keyword coverage confirmed (судоку/судоку правила/как се играе/судоку онлайн безплатно/за начинаещи/скрит единак/гол единак/голи двойки/9×9/квадрат 3×3); 2 internal links (RG /otgovorna-igra/ + sibling /blog/tabla-pravila/, live only).
 - 05 Brand Gate: PASS 95/100, 0 criticals. Byline/brand/dates/About/bio/18+/RG signposting/affiliate footer all present; no-affiliate note correct (no operator referenced). 0 em-dashes. 0 [VERIFY]/[DATA NEEDED].
 - 05b Final: footer untouchables filled verbatim; hero + infographic referenced.
+- Step 7 Gemini: pass 1 baseline „Likely human-written 90%" → human-likeness 90 → PASS. 0 humaniser passes (keep-best = baseline). gemini = human 90. (07-gemini-check-1.md)
+- Step 8 Images: 2 images. Infographic sudoku-skrit-edinak.svg (hidden-single, illustrative numbers). Hero: AI gen (gemini-3-pro-image) failed accuracy twice (5×5 / 8-col grid; review 45) — rejected the „add digits" fix (hard no-text rule), discarded AI hero, hand-authored exact 9×9 SVG hero (colored tiles, no digits) per Gemini's own recommendation + fixed ALT. Review pass 2 = 100/100 PASS, 0 integrity fails. Best score 100. (08-image-review-1.md=45, 08-image-review-2.md=100)
+- Step 6 Verification: 0 flags; recalculated 9×9=81 cells + nine 3×3 boxes (consistent); min-17-givens cited (McGuire et al. 2012/2014); sources bg.wikipedia Судоку + WebSearch corroboration. (06-verification.md)
+- PR: content/2026-10-27-sudoku-kak-se-igrae → (PR number recorded on queue row).
