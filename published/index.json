@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 13,
+  "count": 14,
   "articles": [
     {
       "slug": "hub-intro-casino-payments",
@@ -66,6 +66,13 @@
       "status": "approved"
     },
     {
+      "slug": "poker-chipove",
+      "title": "Покер чипове: цветове, стойности и броене",
+      "date_modified": "2026-10-19",
+      "content_hash": "300e28118a5cbb23fb3e21ac2fbbc4c7a1865e06f1291bac64cde5ac39bc6ab3",
+      "status": "approved"
+    },
+    {
       "slug": "belot-pravila",
       "title": "Белот правила: как се играе и точкуване | Всички Казина",
       "date_modified": "2026-10-20",
@@ -94,5 +101,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-27T12:22:14Z"
+  "generated_utc": "2026-10-27T12:22:43Z"
 }

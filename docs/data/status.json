@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-27T12:22:14Z",
+  "generated_utc": "2026-10-27T12:22:43Z",
   "buffer": {
     "count": 220,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 207,
-    "approved": 13,
+    "drafted": 206,
+    "approved": 14,
     "posted": 71,
     "failed": 1
   },
@@ -5705,7 +5705,7 @@
     },
     {
       "id": "vk-0285",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Покер чипове — цветове, стойности и как се броят",
       "keywords_or_terms": "покер чипове, чипове за покер, цветове на покер чипове, стойности на чипове",
