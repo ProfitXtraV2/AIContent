@@ -1,13 +1,15 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-10-27T21:22:00Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-10-27T21:50:00Z",
+  "articles_written": 1,
+  "prs_opened": [
+    325
+  ],
   "run_url": "https://claude.ai/code/session_01AwuYFTWEU3BDSQ32jqpbFi",
-  "note": "daily run 2026-10-27 (11th fire) — vk-0302 Судоку: Gemini Step-7 PASS (Likely human-written 90%); creating images",
+  "note": "daily run 2026-10-27 (11th fire) done — 1 NEW guide vk-0302 'Судоку' (PR #325), top open in-scope backlog P0 (OWNER-APPROVED off-core logic-game guide, 5300/kd1, replaces свара/vk-0289). On start reset local clone to origin/main c3ace8aa (local branch pointer was stale/divergent — 169 old commits vs 51 newer origin, origin had today's 7th-10th fires). Reconcile clean (0 in-progress/HANDOFF/CLAIMED). Monthly SEO 2026-10 already done (no-op). AHREFS+GEMINI online. guides-only scope: pure deduction rules (9x9 field, 1-9 once per ред/колона/квадрат, givens, where-to-start scanning, скрит/гол единак + голи двойки, habits, short attributed history, online-free); 0 operator/НАП facts, no gambling framing in body; no operator -> no affiliate link. Sources: bg.wikipedia Судоку + WebSearch corroboration (min-17-givens McGuire et al. 2012/2014, Garns 1979/Nikoli 1984). Dedup vs queue + live sitemap (140 URLs): 0 судоку coverage -> clean distinct logic-puzzle cluster. Gate 95/100 PASS 0-crit; Gemini Step-7 baseline 'Likely human-written 90%' HL90 PASS (0 humaniser passes, keep-best=baseline) -> human 90; img:2 (infographic sudoku-skrit-edinak.svg skrit-edinak technique, numbers примерни + hero sudoku-reshetka-hero.svg hand-authored exact 9x9/3x3 grid colored tiles no digits — AI hero failed accuracy x2 (5x5/8-col), replaced with hand-authored SVG per Gemini rec, never faked digits; Gemini image review 100/100 PASS p2, 0 integrity fail). 0 [VERIFY]/[DATA NEEDED] (universal rules; min-17 + history attributed). 2 internal links live (/otgovorna-igra/ + tabla sibling; footer kak-ocenyavame/otgovorna-igra). Step-6: backlog P0 'Судоку' -> written; same-day fire -> no new Ahrefs re-pull (metrics current, units conserved); research bank unchanged (4 candidates, all measurable vol). Board on main; dashboard rebuilt (buffer 230/10); feed refreshed (15 approved). No flags resolved, nothing posted/merged/fabricated. Remaining open in-scope backlog: none non-NV (NV-branded rows stay blocked — operator sourcing).",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-10-27-sudoku-kak-se-igrae",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 7,
-    "stage": "Images"
+    "stage_index": null,
+    "stage": null
   }
 }

@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-27T21:18:06Z",
+  "generated_utc": "2026-10-27T21:53:17Z",
   "buffer": {
-    "count": 229,
+    "count": 230,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 214,
+    "drafted": 215,
     "approved": 15,
     "posted": 71,
     "failed": 1
@@ -6125,6 +6125,29 @@
         "[VERIFY: актуалният набор от жокери за текущия сезон]",
         "[VERIFY: текущите правила на онлайн играта]"
       ]
+    },
+    {
+      "id": "vk-0302",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Судоку — как се играе и стратегии за начинаещи",
+      "keywords_or_terms": "судоку правила, как се играе судоку, судоку онлайн безплатно, игра судоку безплатно",
+      "volume": "5300",
+      "kd": "1",
+      "source": "backlog",
+      "drafted_date": "2026-10-27",
+      "posted_date": "",
+      "folder": "2026-10-27-sudoku-kak-se-igrae",
+      "pr": "#325",
+      "gemini": "human 90",
+      "notes": "daily run 2026-10-27 (11th fire, MAX_PER_RUN=1); backlog P0 OWNER-APPROVED off-core logic-game guide (replaces свара, already covered by vk-0289). Pure evergreen rules + beginner strategies; no gambling framing in body; 0 operator/НАП facts; no geo-blocked source; no operator → no affiliate link. Ahrefs bg судоку 5300/kd1 WIN (2026-10-27). Dedup vs queue + live sitemap (140 URLs) = 0 судоку coverage → clean distinct logic-puzzle cluster (not casino/card/board-dice). · OUTCOME: drafted → PR #325. Gate 95/100 PASS 0-crit. Gemini Step-7 baseline „Likely human-written 90%\" → human-likeness 90 → PASS (0 humaniser passes, keep-best=baseline) → human 90. img:2 (infographic sudoku-skrit-edinak.svg skrit-edinak technique, illustrative numbers примерни + hero sudoku-reshetka-hero.svg hand-authored exact 9×9/3×3 grid, colored tiles no digits; AI hero failed accuracy ×2 (5×5/8-col), replaced with hand-authored SVG per Gemini rec, never faked digits; Gemini image review 100/100 PASS, 0 integrity fail). 0 [VERIFY]/[DATA NEEDED] (universal rules; min-17-givens + history attributed). 2 live internal links (/otgovorna-igra/ + tabla sibling; footer kak-ocenyavame/otgovorna-igra). Backlog P0 row → written.",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
     }
   ],
   "backlog": [
@@ -6318,7 +6341,7 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 5.3K/kd1 + 3.8K/kd3 (2026-10-27). Head 'судоку' 85K is kd64 — don't target it.",
-      "status": "open",
+      "status": "written",
       "notes": "OWNER-APPROVED 2026-10-27 (replaces свара, already covered by vk-0289). Off-core logic-game guide that the owner chose to include, so write it and do not skip it as off-strategy. Rules + solving techniques; no gambling framing.",
       "opportunity": {
         "score": 100,
@@ -11126,30 +11149,16 @@
       }
     ],
     "bands": {
-      "Strong": 1,
       "Moderate": 3
     },
     "clusters": {
       "uncategorised": {
-        "winnable": 3,
+        "winnable": 2,
         "pillar": 0,
-        "total": 4
+        "total": 3
       }
     },
     "winnable": [
-      {
-        "query": "Судоку — как се играе и стратегии за начинаещи",
-        "keywords": "игра судоку безплатно, судоку онлайн безплатно, как се играе судоку, судоку правила",
-        "volume": "5300",
-        "kd": "1",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 100,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
       {
         "query": "Бридж (contract bridge): правила за начинаещи — раздаване, наддаване, взятки",
         "keywords": "бридж правила, как се играе бридж, бридж за начинаещи, правила на бридж",
@@ -11180,7 +11189,7 @@
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 3,
+      "winnable": 2,
       "pillars": 0
     }
   }
