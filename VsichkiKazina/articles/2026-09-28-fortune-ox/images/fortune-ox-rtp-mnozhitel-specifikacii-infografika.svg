@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 496" role="img" aria-label="Инфографика за Fortune Ox на PG Soft. Формат: слот 3-4-3 с 10 фиксирани линии. RTP около 96,75 процента, настройваемо от оператора. Максимална печалба 2000x залога. Средна волатилност. Залог приблизително от 0,20 до 200 евро, варира по оператор. Бикът е wild, заменя всички символи и плаща около 20x за три на линия. Печеливш множител x10 при пълен екран от един символ отваря тавана 2000x. Ox Respin синхронизира първи и трети барабан и върти средния до печалба. Малкият грид не значи по-добри шансове: цената на играта е в RTP, не в размера на екрана.">
+  <rect x="8" y="8" width="704" height="480" rx="18" fill="#0f172a"/>
+
+  <text x="32" y="42" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#f8fafc">Fortune Ox: спецификации и функции</text>
+  <text x="32" y="64" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Слот 3-4-3 на PG Soft. Целият потенциал минава през множителя x10 при пълен екран.</text>
+
+  <text x="32" y="98" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fbbf24">Основни данни</text>
+
+  <g stroke="#1e293b" stroke-width="1">
+    <line x1="32" y1="110" x2="688" y2="110"/>
+    <line x1="32" y1="138" x2="688" y2="138"/>
+    <line x1="32" y1="166" x2="688" y2="166"/>
+    <line x1="32" y1="194" x2="688" y2="194"/>
+    <line x1="32" y1="222" x2="688" y2="222"/>
+    <line x1="32" y1="250" x2="688" y2="250"/>
+  </g>
+
+  <text x="48" y="128" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Формат</text>
+  <text x="688" y="128" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">3-4-3 · 10 линии</text>
+
+  <text x="48" y="156" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">RTP (настройваемо от оператора)</text>
+  <text x="688" y="156" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#4ade80" text-anchor="end">≈ 96,75%</text>
+
+  <text x="48" y="184" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Максимална печалба</text>
+  <text x="688" y="184" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fbbf24" text-anchor="end">2000x</text>
+
+  <text x="48" y="212" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Волатилност</text>
+  <text x="688" y="212" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">средна</text>
+
+  <text x="48" y="240" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Залог на завъртане (варира)</text>
+  <text x="688" y="240" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">≈ €0,20 – €200</text>
+
+  <text x="32" y="284" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fbbf24">Бикът и функциите</text>
+  <text x="32" y="306" font-family="Arial, sans-serif" font-size="12.5" fill="#cbd5e1">Wild (бик): заменя всички символи · три на линия ≈ 20x.</text>
+  <text x="32" y="326" font-family="Arial, sans-serif" font-size="12.5" fill="#cbd5e1">Множител x10: при пълен екран от един символ, отваря тавана 2000x.</text>
+  <text x="32" y="346" font-family="Arial, sans-serif" font-size="12.5" fill="#cbd5e1">Ox Respin: синхронизира 1-ви и 3-ти барабан, върти средния до печалба.</text>
+
+  <text x="32" y="380" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fbbf24">Честният ъгъл</text>
+  <text x="32" y="402" font-family="Arial, sans-serif" font-size="12.5" fill="#f8fafc">Малкият грид не значи по-добри шансове: цената на играта е в RTP,</text>
+  <text x="32" y="420" font-family="Arial, sans-serif" font-size="12.5" fill="#f8fafc">не в размера на екрана. Таванът иска рядък пълен екран.</text>
+
+  <rect x="32" y="452" width="656" height="24" rx="6" fill="#111f38"/>
+  <text x="44" y="468" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Примерни стойности; RTP, залогът и конфигурацията зависят от версията при оператора. 18+ Играйте отговорно.</text>
+</svg>
