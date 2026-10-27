@@ -2,7 +2,7 @@
   "schema_version": 1,
   "slug": "santase-pravila",
   "title": "Сантасе правила: как се играе сантасе (66)",
-  "meta_description": "",
+  "meta_description": "Пълните правила на сантасе (66): раздаване, коз, стойност на картите, обявяване на 20 и 40, смяна на девятката, затваряне на талона и как се стига до 66.",
   "body_path": "article.md",
   "author": "Георги Тодоров",
   "date_published": "2026-10-21",
@@ -31,5 +31,5 @@
   "section_hint": "guide",
   "opportunity": 100,
   "status": "approved",
-  "content_hash": "f28f1d165275114f1045f179dbe01e9f2298541a52d140998d063d7cff73dd30"
+  "content_hash": "78cc1906e71a586d990b9dc489904a23b5be7d61631a1ba8acc864df93b6d6df"
 }

@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "slug": "belot-pravila",
-  "title": "Белот правила и точкуване за начинаещи",
-  "meta_description": "",
+  "title": "Белот правила: как се играе и точкуване | Всички Казина",
+  "meta_description": "Белот правила за начинаещи: тесте от 32 карти, раздаване 3+2+3, наддаване, стойност на картите и точкуване до 151. Вижте как се играе белот стъпка по стъпка.",
   "body_path": "article.md",
   "author": "Георги Тодоров",
   "date_published": "2026-10-20",
@@ -32,5 +32,5 @@
   "section_hint": "guide",
   "opportunity": 100,
   "status": "approved",
-  "content_hash": "fbb3d5b22df44045730496638b87944f42941020f210b8a32213dc4d6cd13149"
+  "content_hash": "79e60312c3e287c9fd1536f4c82fd30314485cc50d5115830110222adf52427f"
 }

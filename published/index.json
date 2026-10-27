@@ -25,18 +25,18 @@
     },
     {
       "slug": "belot-pravila",
-      "title": "Белот правила и точкуване за начинаещи",
+      "title": "Белот правила: как се играе и точкуване | Всички Казина",
       "date_modified": "2026-10-20",
-      "content_hash": "fbb3d5b22df44045730496638b87944f42941020f210b8a32213dc4d6cd13149",
+      "content_hash": "79e60312c3e287c9fd1536f4c82fd30314485cc50d5115830110222adf52427f",
       "status": "approved"
     },
     {
       "slug": "santase-pravila",
       "title": "Сантасе правила: как се играе сантасе (66)",
       "date_modified": "2026-10-21",
-      "content_hash": "f28f1d165275114f1045f179dbe01e9f2298541a52d140998d063d7cff73dd30",
+      "content_hash": "78cc1906e71a586d990b9dc489904a23b5be7d61631a1ba8acc864df93b6d6df",
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-27T07:47:41Z"
+  "generated_utc": "2026-10-27T12:17:02Z"
 }
