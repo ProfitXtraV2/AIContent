@@ -1,7 +1,14 @@
 {
   "schema_version": 1,
-  "count": 14,
+  "count": 15,
   "articles": [
+    {
+      "slug": "megaways-kak-rabotyat",
+      "title": "Megaways: как работят и защо броят на начините се променя",
+      "date_modified": "2026-09-11",
+      "content_hash": "f03c4ffe0a606832358637f1e627ec60d6de03c6e409683bbf947b364dc7daf8",
+      "status": "approved"
+    },
     {
       "slug": "hub-intro-casino-payments",
       "title": "Казино плащания: депозити и тегления в БГ казина",
@@ -101,5 +108,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-27T12:22:43Z"
+  "generated_utc": "2026-10-27T12:23:46Z"
 }

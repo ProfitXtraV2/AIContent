@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-27T12:22:43Z",
+  "generated_utc": "2026-10-27T12:23:46Z",
   "buffer": {
     "count": 220,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 206,
-    "approved": 14,
+    "drafted": 205,
+    "approved": 15,
     "posted": 71,
     "failed": 1
   },
@@ -904,7 +904,7 @@
     },
     {
       "id": "vk-0041",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Megaways: как работят и защо броят на начините се променя",
       "keywords_or_terms": "megaways, мегауейс, megaways как работят, начини за печалба",
@@ -5910,6 +5910,186 @@
   "backlog": [
     {
       "priority": "0",
+      "type": "guide",
+      "query": "Пасианс — правила и видове: Клондайк, Паяк, FreeCell",
+      "keywords_or_terms": "пасианс, пасианс паяк, пасианс клондайк, как се играе пасианс",
+      "volume": "33000",
+      "kd": "0",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN 33K/kd0 (2026-10-27 discovery). How-to-play card guide.",
+      "status": "open",
+      "notes": "OWNER-APPROVED 2026-10-27 (vol≥3000 & kd<10 batch). Rules + variants; link /blog/igri-s-karti/ pillar if live, belot-pravila, santase-pravila.",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "0",
+      "type": "guide",
+      "query": "Онлайн машини — как работят слотовете: RTP, волатилност, бонус игри и как да изберете легално казино",
+      "keywords_or_terms": "онлайн машини, игри машинки, слот машини онлайн",
+      "volume": "17000",
+      "kd": "0",
+      "intent": "commercial",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN 17K/kd0 (2026-10-27 discovery). Intent navigational/commercial → explainer + money-page links.",
+      "status": "open",
+      "notes": "OWNER-APPROVED 2026-10-27. Guides-only: no operator T&C claims; link /sravni-kazina/ + existing slot reviews (sweet-bonanza, 20-super-hot, gates-of-olympus…).",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "0",
+      "type": "guide",
+      "query": "Белот онлайн — къде и как да играете: Белот БГ, Джаги и други платформи",
+      "keywords_or_terms": "белот бг, джаги белот, белот онлайн, белот",
+      "volume": "31000",
+      "kd": "0",
+      "intent": "navigational",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN 'белот бг' 31K/kd0 + 'джаги белот' 4.8K/kd0 (2026-10-27). 'белот онлайн' itself kd37 — secondary.",
+      "status": "open",
+      "notes": "OWNER-APPROVED 2026-10-27. Do NOT repeat rules (link belot-pravila). Describe platforms only from their own public pages; no invented features/prices.",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "0",
+      "type": "guide",
+      "query": "Табла онлайн — къде да играете безплатно и срещу реални хора",
+      "keywords_or_terms": "табла онлайн, игра на табла онлайн",
+      "volume": "8000",
+      "kd": "0",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN 8K/kd0 (2026-10-27 discovery).",
+      "status": "open",
+      "notes": "OWNER-APPROVED 2026-10-27. Distinct from tabla-pravila (rules) — this is where/how to play online; link tabla-pravila, don't repeat rules.",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "0",
+      "type": "guide",
+      "query": "Теглене на Тото днес — кога са тиражите 6 от 49, 5 от 35 и 6 от 42 и къде да ги гледате",
+      "keywords_or_terms": "теглене на тото 6 от 49 днес, спорт тото 6 от 49 последен тираж, спорт тото 5 от 35 последен тираж, тото джокер последен тираж",
+      "volume": "7200",
+      "kd": "0",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN 7.2K/kd0 + 9.6K/8.2K/4.8K kd0 'последен тираж' variants (2026-10-27).",
+      "status": "open",
+      "notes": "OWNER-APPROVED 2026-10-27. Draw days/times, TV channel, where official results appear (info.toto.bg). NEVER print draw numbers. Link toto-2-igri, toto-dzhoker, lottery-toto.",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "0",
+      "type": "guide",
+      "query": "Проверка на фиш Тото — как да проверите печалба онлайн, в приложението и на гише",
+      "keywords_or_terms": "проверка на фиш, спорт тото 6 49 проверка на фиш, проверка на фиш тото",
+      "volume": "4800",
+      "kd": "4",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN 4.8K/kd4 + 3.8K/kd0 (2026-10-27 discovery).",
+      "status": "open",
+      "notes": "OWNER-APPROVED 2026-10-27. Step-by-step check + prize claim thresholds/deadlines only from БСТ primary source; [VERIFY] anything unsourced. Link toto-2-igri.",
+      "opportunity": {
+        "score": 98,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "0",
+      "type": "guide",
+      "query": "Свара — правила, точкуване и как се играе",
+      "keywords_or_terms": "свара, свара правила, как се играе свара",
+      "volume": "4400",
+      "kd": "0",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN 4.4K/kd0 (2026-10-27 discovery).",
+      "status": "open",
+      "notes": "OWNER-APPROVED 2026-10-27. Bulgarian card game; card-game cluster sibling of belot-pravila/santase-pravila.",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "0",
+      "type": "guide",
+      "query": "Игри с карти — най-популярните в България и как се играят",
+      "keywords_or_terms": "игри с карти, онлайн безплатни игри с карти, игри с карти за двама",
+      "volume": "4400",
+      "kd": "4",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN 4.4K/kd4 + 3.6K/kd0 (2026-10-27 discovery).",
+      "status": "open",
+      "notes": "OWNER-APPROVED 2026-10-27. Card-games PILLAR/hub: short summary per game, links out to belot-pravila, santase-pravila, свара, пасианс, bakara-pravila, poker combos.",
+      "opportunity": {
+        "score": 98,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "0",
+      "type": "guide",
+      "query": "Шах — правила за начинаещи: фигури, ходове, шах и мат",
+      "keywords_or_terms": "шах, шах правила, как се играе шах, шах срещу компютър",
+      "volume": "29000",
+      "kd": "0",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN 29K/kd0 (2026-10-27 discovery). Off-core game guide.",
+      "status": "open",
+      "notes": "OWNER-APPROVED 2026-10-27 despite being off-core (owner chose to include) — write it, do not skip as off-strategy. No gambling framing.",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "0",
+      "type": "guide",
+      "query": "Стани богат онлайн — как се играе играта и правилата на предаването",
+      "keywords_or_terms": "стани богат онлайн, стани богат игра",
+      "volume": "16000",
+      "kd": "0",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN 16K/kd0 (2026-10-27 discovery). Off-core quiz-game guide.",
+      "status": "open",
+      "notes": "OWNER-APPROVED 2026-10-27 despite being off-core (owner chose to include) — write it, do not skip as off-strategy. Facts from public sources only; no invented prize amounts.",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "0",
       "type": "hub-intro",
       "query": "HUB INTRO: Казино плащания — интро за /blog/casino-payments/",
       "keywords_or_terms": "казино плащания, депозити и тегления казино",
@@ -10658,20 +10838,152 @@
       }
     ],
     "bands": {
+      "Strong": 10,
       "Moderate": 1
     },
     "clusters": {
       "uncategorised": {
-        "winnable": 0,
+        "winnable": 10,
         "pillar": 0,
-        "total": 1
+        "total": 11
       }
     },
-    "winnable": [],
+    "winnable": [
+      {
+        "query": "Пасианс — правила и видове: Клондайк, Паяк, FreeCell",
+        "keywords": "пасианс, пасианс паяк, пасианс клондайк, как се играе пасианс",
+        "volume": "33000",
+        "kd": "0",
+        "intent": "informational",
+        "band": "Strong",
+        "score": 100,
+        "winnable": true,
+        "cluster": "uncategorised",
+        "status": "open",
+        "src": "backlog"
+      },
+      {
+        "query": "Онлайн машини — как работят слотовете: RTP, волатилност, бонус игри и как да изберете легално казино",
+        "keywords": "онлайн машини, игри машинки, слот машини онлайн",
+        "volume": "17000",
+        "kd": "0",
+        "intent": "commercial",
+        "band": "Strong",
+        "score": 100,
+        "winnable": true,
+        "cluster": "uncategorised",
+        "status": "open",
+        "src": "backlog"
+      },
+      {
+        "query": "Белот онлайн — къде и как да играете: Белот БГ, Джаги и други платформи",
+        "keywords": "белот бг, джаги белот, белот онлайн, белот",
+        "volume": "31000",
+        "kd": "0",
+        "intent": "navigational",
+        "band": "Strong",
+        "score": 100,
+        "winnable": true,
+        "cluster": "uncategorised",
+        "status": "open",
+        "src": "backlog"
+      },
+      {
+        "query": "Табла онлайн — къде да играете безплатно и срещу реални хора",
+        "keywords": "табла онлайн, игра на табла онлайн",
+        "volume": "8000",
+        "kd": "0",
+        "intent": "informational",
+        "band": "Strong",
+        "score": 100,
+        "winnable": true,
+        "cluster": "uncategorised",
+        "status": "open",
+        "src": "backlog"
+      },
+      {
+        "query": "Теглене на Тото днес — кога са тиражите 6 от 49, 5 от 35 и 6 от 42 и къде да ги гледате",
+        "keywords": "теглене на тото 6 от 49 днес, спорт тото 6 от 49 последен тираж, спорт тото 5 от 35 последен тираж, тото джокер последен тираж",
+        "volume": "7200",
+        "kd": "0",
+        "intent": "informational",
+        "band": "Strong",
+        "score": 100,
+        "winnable": true,
+        "cluster": "uncategorised",
+        "status": "open",
+        "src": "backlog"
+      },
+      {
+        "query": "Свара — правила, точкуване и как се играе",
+        "keywords": "свара, свара правила, как се играе свара",
+        "volume": "4400",
+        "kd": "0",
+        "intent": "informational",
+        "band": "Strong",
+        "score": 100,
+        "winnable": true,
+        "cluster": "uncategorised",
+        "status": "open",
+        "src": "backlog"
+      },
+      {
+        "query": "Шах — правила за начинаещи: фигури, ходове, шах и мат",
+        "keywords": "шах, шах правила, как се играе шах, шах срещу компютър",
+        "volume": "29000",
+        "kd": "0",
+        "intent": "informational",
+        "band": "Strong",
+        "score": 100,
+        "winnable": true,
+        "cluster": "uncategorised",
+        "status": "open",
+        "src": "backlog"
+      },
+      {
+        "query": "Стани богат онлайн — как се играе играта и правилата на предаването",
+        "keywords": "стани богат онлайн, стани богат игра",
+        "volume": "16000",
+        "kd": "0",
+        "intent": "informational",
+        "band": "Strong",
+        "score": 100,
+        "winnable": true,
+        "cluster": "uncategorised",
+        "status": "open",
+        "src": "backlog"
+      },
+      {
+        "query": "Проверка на фиш Тото — как да проверите печалба онлайн, в приложението и на гише",
+        "keywords": "проверка на фиш, спорт тото 6 49 проверка на фиш, проверка на фиш тото",
+        "volume": "4800",
+        "kd": "4",
+        "intent": "informational",
+        "band": "Strong",
+        "score": 98,
+        "winnable": true,
+        "cluster": "uncategorised",
+        "status": "open",
+        "src": "backlog"
+      },
+      {
+        "query": "Игри с карти — най-популярните в България и как се играят",
+        "keywords": "игри с карти, онлайн безплатни игри с карти, игри с карти за двама",
+        "volume": "4400",
+        "kd": "4",
+        "intent": "informational",
+        "band": "Strong",
+        "score": 98,
+        "winnable": true,
+        "cluster": "uncategorised",
+        "status": "open",
+        "src": "backlog"
+      }
+    ],
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 0,
+      "winnable": 10,
       "pillars": 0
     }
   }
