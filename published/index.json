@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 12,
+  "count": 13,
   "articles": [
     {
       "slug": "hub-intro-casino-payments",
@@ -28,6 +28,13 @@
       "title": "Безплатни завъртания (free spins): видове и условия",
       "date_modified": "2026-10-05",
       "content_hash": "b1c96e48fea8eb1dd47b36ef83d3963de8120688ff7d788db6e7c365b05befc5",
+      "status": "approved"
+    },
+    {
+      "slug": "kak-se-preodolyava-hazartna-zavisimost",
+      "title": "Как се преодолява хазартна зависимост: лечение и помощ",
+      "date_modified": "2026-10-08",
+      "content_hash": "ef9eb35e9cf23ab040e03888cb413941441fcd93c88ece554e63d2f9f8555ce7",
       "status": "approved"
     },
     {
@@ -87,5 +94,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-27T12:20:57Z"
+  "generated_utc": "2026-10-27T12:22:14Z"
 }
