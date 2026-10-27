@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-27T19:45:48Z",
+  "generated_utc": "2026-10-27T20:20:29Z",
   "buffer": {
-    "count": 226,
+    "count": 227,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 211,
+    "drafted": 212,
     "approved": 15,
     "posted": 71,
     "failed": 1
@@ -6051,6 +6051,29 @@
       "verify_samples": [
         "[VERIFY: точният канал на БНТ, по който върви тегленето в момента]"
       ]
+    },
+    {
+      "id": "vk-0299",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Игри с карти — най-популярните в България и как се играят",
+      "keywords_or_terms": "игри с карти, онлайн безплатни игри с карти, игри с карти за двама",
+      "volume": "4400",
+      "kd": "4",
+      "source": "backlog",
+      "drafted_date": "2026-10-27",
+      "posted_date": "",
+      "folder": "2026-10-27-igri-s-karti",
+      "pr": "#322",
+      "gemini": "ai 65",
+      "notes": "daily run 2026-10-27 (8th fire, MAX_PER_RUN=1); backlog P0 top open in-scope row. Card-games PILLAR/hub for the cluster (belot/santase/svara/kanasta/bakara/poker/blackjack/pasians). Dedup vs queue + live sitemap (140 URLs, 2026-10-27) = 0 \"игри с карти\" hub coverage (clean; distinct head query from individual game-rules pages). Ahrefs bg игри с карти 4400/kd4 informational. guides-only scope (0 operator/НАП facts; overview + where-to-play + на пари законно ли е + RG). · OUTCOME: drafted → PR #322. Gate 94/100 PASS 0-crit. Gemini Step-7: baseline HL35 (ai 65) → humaniser p1 HL25 → p2 HL15; MAX_GEMINI_PASSES, keep-best=baseline → ai 65 (noisy detector lowered each revision; +1 native-register calque fix карта игра→игра на карти; style nits for human Step 6, facts/links/RG clean). img:2 (infographic igri-s-karti-igrachi-teste.svg every number 1:1 + decorative hero webp 15KB; Gemini image review 100 PASS p1, 0 integrity fail). 0 [VERIFY]/[DATA NEEDED]/[CONFLICT]. 7 internal links (hub+siblings, live only). Backlog P0 row → written.",
+      "opportunity": {
+        "score": 98,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
     }
   ],
   "backlog": [
@@ -6190,8 +6213,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 4.4K/kd4 + 3.6K/kd0 (2026-10-27 discovery).",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-27. Card-games PILLAR/hub: short summary per game, links out to belot-pravila, santase-pravila, свара, пасианс, bakara-pravila, poker combos.",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-10-27. Card-games PILLAR/hub: short summary per game, links out to belot-pravila, santase-pravila, свара, пасианс, bakara-pravila, poker combos. · WRITTEN 2026-10-27 (8th fire) → vk-0299, PR #322. Hub pillar covering белот/сантасе/свара/блато/канаста/бридж + казино игрите с карти (блекджек/баккара/казино покер) + пасианс + skill-vs-chance + legality + RG. Linked only to LIVE siblings (bakara-pravila, kak-se-igrae-poker-kazino, poker-kombinacii, /kazino-igri/blakdzhak/, hazartni-igri-vidove); belot/santase/svara/kanasta/poker-chipove named in prose (not yet live — add links when they publish). Gate 94 PASS, Gemini ai 65 (keep-best baseline, noisy detector), img:2 review 100. 0 flags.",
       "opportunity": {
         "score": 98,
         "band": "Strong",
@@ -11052,14 +11075,14 @@
       }
     ],
     "bands": {
-      "Strong": 4,
+      "Strong": 3,
       "Moderate": 3
     },
     "clusters": {
       "uncategorised": {
-        "winnable": 6,
+        "winnable": 5,
         "pillar": 0,
-        "total": 7
+        "total": 6
       }
     },
     "winnable": [
@@ -11103,19 +11126,6 @@
         "src": "backlog"
       },
       {
-        "query": "Игри с карти — най-популярните в България и как се играят",
-        "keywords": "игри с карти, онлайн безплатни игри с карти, игри с карти за двама",
-        "volume": "4400",
-        "kd": "4",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 98,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
         "query": "Бридж (contract bridge): правила за начинаещи — раздаване, наддаване, взятки",
         "keywords": "бридж правила, как се играе бридж, бридж за начинаещи, правила на бридж",
         "volume": "80",
@@ -11145,7 +11155,7 @@
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 6,
+      "winnable": 5,
       "pillars": 0
     }
   }
