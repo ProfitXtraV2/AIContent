@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 11,
+  "count": 12,
   "articles": [
     {
       "slug": "hub-intro-casino-payments",
@@ -73,6 +73,13 @@
       "status": "approved"
     },
     {
+      "slug": "svara-pravila",
+      "title": "Свара правила: как се играе свара на точки",
+      "date_modified": "2026-10-23",
+      "content_hash": "0042f2d7303c8e0dec700f98471fb7c08ceec21705c4bd899e1ef21c6e535384",
+      "status": "approved"
+    },
+    {
       "slug": "kanasta-pravila",
       "title": "Канаста: правила, точкуване и разновидности",
       "date_modified": "2026-10-24",
@@ -80,5 +87,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-27T12:20:36Z"
+  "generated_utc": "2026-10-27T12:20:57Z"
 }

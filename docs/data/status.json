@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-27T12:20:36Z",
+  "generated_utc": "2026-10-27T12:20:57Z",
   "buffer": {
     "count": 220,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 209,
-    "approved": 11,
+    "drafted": 208,
+    "approved": 12,
     "posted": 71,
     "failed": 1
   },
@@ -5820,7 +5820,7 @@
     },
     {
       "id": "vk-0289",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Свара правила — как се играе свара (игра на карти на пари)",
       "keywords_or_terms": "свара правила, как се играе свара, свара игра на карти, игра на свара",
