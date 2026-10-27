@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 372" font-family="'DejaVu Sans','Segoe UI',Arial,sans-serif" role="img" aria-label="Megaways накратко: създател Big Time Gaming от 2016, шест барабана по 2 до 7 символа, начини от 64 до 117649, броят се мени всяко завъртане, често с каскади, обикновено висока волатилност">
+  <title>Megaways накратко — основни параметри</title>
+  <rect x="8" y="8" width="704" height="356" rx="16" fill="#f7fbfb" stroke="#dce8e8" stroke-width="1.5"/>
+  <text x="28" y="46" font-size="21" font-weight="700" fill="#0f2f36">Megaways накратко</text>
+  <line x1="28" y1="62" x2="692" y2="62" stroke="#dce8e8" stroke-width="1.5"/>
+
+  <g>
+    <text x="28" y="98" font-size="14" fill="#5c7076">Създател</text>
+    <text x="250" y="98" font-size="14.5" font-weight="700" fill="#0f2f36">Big Time Gaming (от 2016)</text>
+
+    <text x="28" y="140" font-size="14" fill="#5c7076">Барабани</text>
+    <text x="250" y="140" font-size="14.5" font-weight="700" fill="#0f2f36">6, всеки показва 2 до 7 символа</text>
+
+    <text x="28" y="182" font-size="14" fill="#5c7076">Начини за печалба</text>
+    <text x="250" y="182" font-size="14.5" font-weight="700" fill="#0f2f36">от 64 до 117,649</text>
+
+    <text x="28" y="224" font-size="14" fill="#5c7076">Брой начини</text>
+    <text x="250" y="224" font-size="14.5" font-weight="700" fill="#0f2f36">променя се всяко завъртане</text>
+
+    <text x="28" y="266" font-size="14" fill="#5c7076">Често с</text>
+    <text x="250" y="266" font-size="14.5" font-weight="700" fill="#0f2f36">каскади (реакции)</text>
+
+    <text x="28" y="308" font-size="14" fill="#5c7076">Волатилност</text>
+    <text x="250" y="308" font-size="14.5" font-weight="700" fill="#b23a2e">обикновено висока</text>
+  </g>
+  <g stroke="#e6efef" stroke-width="1">
+    <line x1="28" y1="114" x2="692" y2="114"/>
+    <line x1="28" y1="156" x2="692" y2="156"/>
+    <line x1="28" y1="198" x2="692" y2="198"/>
+    <line x1="28" y1="240" x2="692" y2="240"/>
+    <line x1="28" y1="282" x2="692" y2="282"/>
+  </g>
+  <text x="28" y="348" font-size="11" fill="#8aa0a4">18+ Играйте отговорно · реалната мярка е RTP, не броят начини · проверявай в инфо-панела.</text>
+</svg>
