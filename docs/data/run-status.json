@@ -5,14 +5,14 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01AwuYFTCwAFbYmwULQGJTAe",
-  "note": "daily run 2026-10-27 — reconcile clean (0 in-progress/HANDOFF/CLAIMED); monthly SEO review 2026-10 already done (no-op); selecting topic",
+  "note": "daily run 2026-10-27 — writing vk-0292 Карибски покер (Caribbean Stud), the sole distinct writable research candidate; reconcile clean; monthly SEO review 2026-10 no-op",
   "progress": {
-    "phase": "selecting",
-    "article_index": 0,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 1,
-    "article_slug": null,
+    "article_slug": "2026-10-27-karibski-poker",
     "stages": ["Synthesis", "Outline", "Author", "Humaniser", "SEO", "Brand Gate", "Light re-check", "Images", "Verification", "PR"],
-    "stage_index": null,
-    "stage": null
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
