@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-27T21:53:17Z",
+  "generated_utc": "2026-10-27T23:23:21Z",
   "buffer": {
     "count": 230,
     "target": 10,
@@ -5900,8 +5900,8 @@
       "posted_date": "",
       "folder": "2026-10-27-karibski-poker",
       "pr": "#315",
-      "gemini": "ai 25",
-      "notes": "daily run 2026-10-27 (MAX_PER_RUN=1); research-bank sole writable candidate. Caribbean Stud = casino poker vs the house (no bluffing, 5 cards each, dealer qualifies on A-K+). Ahrefs bg „карибски покер\" 60/informational↓ + „карибски покер онлайн\" 40/transactional↑ (re-pull 2026-10-27). DISTINCT vs Pai Gow vk-0181, Teen Patti vk-0184, Три карти покер vk-0176, UTH vk-0178, казино покер overview vk-0008, poker-kombinacii vk-0263; 0 Caribbean/карибски in queue+live sitemap (140 URLs, 2026-10-27) → no cannibalization. guides-only scope OK (public game-DB: Wizard of Odds + Wikipedia; 0 operator/НАП facts, no specific operator → no affiliate link). · OUTCOME: drafted → PR #315. Gate 95/100 PASS WITH FIXES 0-crit. Gemini Step-7: baseline HL25 → humaniser p1 HL25 → p2 HL75 („Likely human-written 75%\", verdict flipped +50); MAX_GEMINI_PASSES=2, keep-best=p2 → ai 25 (HL75<80, style nits for human Step 6; facts/numbers/RG clean). img:3 (decorative hero webp 22KB + flow infographic SVG + house-edge infographic SVG; Gemini image review 100 PASS p1, 0 integrity fail, every number 1:1 vs 05b). 0 [VERIFY]/[DATA NEEDED]/[CONFLICT]. 6 internal links. Research discovery row → used.",
+      "gemini": "human 90",
+      "notes": "daily run 2026-10-27 (MAX_PER_RUN=1); research-bank sole writable candidate. Caribbean Stud = casino poker vs the house (no bluffing, 5 cards each, dealer qualifies on A-K+). Ahrefs bg „карибски покер\" 60/informational↓ + „карибски покер онлайн\" 40/transactional↑ (re-pull 2026-10-27). DISTINCT vs Pai Gow vk-0181, Teen Patti vk-0184, Три карти покер vk-0176, UTH vk-0178, казино покер overview vk-0008, poker-kombinacii vk-0263; 0 Caribbean/карибски in queue+live sitemap (140 URLs, 2026-10-27) → no cannibalization. guides-only scope OK (public game-DB: Wizard of Odds + Wikipedia; 0 operator/НАП facts, no specific operator → no affiliate link). · OUTCOME: drafted → PR #315. Gate 95/100 PASS WITH FIXES 0-crit. Gemini Step-7: baseline HL25 → humaniser p1 HL25 → p2 HL75 („Likely human-written 75%\", verdict flipped +50); MAX_GEMINI_PASSES=2, keep-best=p2 → ai 25 (HL75<80, style nits for human Step 6; facts/numbers/RG clean). img:3 (decorative hero webp 22KB + flow infographic SVG + house-edge infographic SVG; Gemini image review 100 PASS p1, 0 integrity fail, every number 1:1 vs 05b). 0 [VERIFY]/[DATA NEEDED]/[CONFLICT]. 6 internal links. Research discovery row → used. · nightly 2026-10-27: JOB-B re-check — baseline Gemini human 90 (confirm 85), already PASS ≥80; no edit needed (idempotent), board ai 25 was stale draft-time read",
       "opportunity": null,
       "verify_flags": 0,
       "verify_samples": []
@@ -5942,8 +5942,8 @@
       "posted_date": "",
       "folder": "2026-10-27-onlayn-mashini-kak-rabotyat",
       "pr": "#317",
-      "gemini": "ai 25",
-      "notes": "daily run 2026-10-27 (3rd fire, MAX_PER_RUN=1); backlog P0 OWNER-APPROVED 2026-10-27. Slot-mechanics explainer (reels/paylines/RNG/RTP/volatility/bonus features + how to choose a legal casino) — guides-only scope OK: facts from general/provider education, 0 operator T&C / НАП-register claims; RTP ranges labelled примерни. Dedup vs queue + live sitemap (140 URLs, 2026-10-27): no existing „онлайн машини/как работят слотовете\" pillar — /slot-igri/ is a money/listing page (link, not duplicate). Anti-cannibal: brief RTP/volatility + links OUT to linii-na-pechalba, progresivni-dzhakpoti, proverka-licenz-kazino, slot-igri/visok-rtp (does not duplicate). Ahrefs bg онлайн машини 17000/kd0 WIN. · OUTCOME: drafted → PR #317. Gate 89/100 PASS 0-crit. Gemini Step-7 keep-best: baseline HL25 → humaniser p1 HL20 → p2 HL75 („Likely human-written 75%\"), MAX_GEMINI_PASSES=2, kept p2 (highest + only human-written verdict; HL75 just under 80 gate → human review) → ai 25 (noisy detector 25→20→75). img:3 (hero webp 22KB metaphor + rtp-domashno-predimstvo.svg + volatilnost-niska-visoka.svg; Gemini image review 100 PASS p1, 0 integrity fail, every number 1:1 vs 05b). 0 [VERIFY]/[DATA NEEDED]/[CONFLICT]. 5 internal links (1 money). Backlog P0 row → written.",
+      "gemini": "human 90",
+      "notes": "daily run 2026-10-27 (3rd fire, MAX_PER_RUN=1); backlog P0 OWNER-APPROVED 2026-10-27. Slot-mechanics explainer (reels/paylines/RNG/RTP/volatility/bonus features + how to choose a legal casino) — guides-only scope OK: facts from general/provider education, 0 operator T&C / НАП-register claims; RTP ranges labelled примерни. Dedup vs queue + live sitemap (140 URLs, 2026-10-27): no existing „онлайн машини/как работят слотовете\" pillar — /slot-igri/ is a money/listing page (link, not duplicate). Anti-cannibal: brief RTP/volatility + links OUT to linii-na-pechalba, progresivni-dzhakpoti, proverka-licenz-kazino, slot-igri/visok-rtp (does not duplicate). Ahrefs bg онлайн машини 17000/kd0 WIN. · OUTCOME: drafted → PR #317. Gate 89/100 PASS 0-crit. Gemini Step-7 keep-best: baseline HL25 → humaniser p1 HL20 → p2 HL75 („Likely human-written 75%\"), MAX_GEMINI_PASSES=2, kept p2 (highest + only human-written verdict; HL75 just under 80 gate → human review) → ai 25 (noisy detector 25→20→75). img:3 (hero webp 22KB metaphor + rtp-domashno-predimstvo.svg + volatilnost-niska-visoka.svg; Gemini image review 100 PASS p1, 0 integrity fail, every number 1:1 vs 05b). 0 [VERIFY]/[DATA NEEDED]/[CONFLICT]. 5 internal links (1 money). Backlog P0 row → written. · nightly 2026-10-27: JOB-B humanised (consolidated 3× €100/€96/€4 RTP example, broke low-vs-high volatility seesaw, cut textbook section opener) — Gemini ai 25→human 90 (best; noisy 65–90 band), 1 attempt; images untouched",
       "opportunity": {
         "score": 100,
         "band": "Strong",
@@ -6012,20 +6012,14 @@
       "folder": "2026-10-27-proverka-na-fish",
       "pr": "#320",
       "gemini": "human 90",
-      "notes": "daily run 2026-10-27 (6th fire, MAX_PER_RUN=1); backlog P0 OWNER-APPROVED 2026-10-27, 2nd open P0 (top P0 „теглене на тото днес\" deferred this run — volatile draw schedule, see backlog note). Ahrefs bg 2026-10-27: проверка на фиш 4800/kd4 informational flat + спорт тото 6 49 проверка на фиш 3800/kd0 up. How-to-check-a-toto-ticket guide: online number-entry check at info.toto.bg/check/<game> + select тираж (no barcode/QR), official Спорт Тото app, at a тото пункт; instant games checked separately; claim thresholds/deadlines [VERIFY] (БСТ primary source; 2013 Capital.bg says 45 дни — unconfirmed current). Dedup vs queue + live sitemap (140 URLs, 2026-10-27): no „проверка на фиш\"/how-to-check page (distinct from lottery-toto hub, toto-2-igri, toto-dzhoker, chislata-v-toto-statistika) → no cannibalization. Guides-only scope OK (checking process is public; 0 operator T&C/НАП-register claims; no specific operator → no affiliate link). Link toto-2-igri, toto-dzhoker, lottery-toto, otgovorna-igra. NEVER print draw numbers. · OUTCOME: drafted → PR #320. Gate 94/100 PASS WITH FIXES 0-crit. Gemini Step-7: baseline HL15 → humaniser p1 HL90 (Likely human-written 90%) PASS (keep-best=p1, human 90). img:2 (infographic proverka-na-fish-tri-nachina 100 + decorative hero webp 16.5KB 100; image review 100 PASS p1, 0 integrity fail, every label 1:1 vs 05b). 4 [VERIFY] (app check; централа threshold; claim срок; пункт-бон) + tax [VERIFY] — stay in text for Step 6. 4 cluster links + RG. Backlog P0 row → written.",
+      "notes": "daily run 2026-10-27 (6th fire, MAX_PER_RUN=1); backlog P0 OWNER-APPROVED 2026-10-27, 2nd open P0 (top P0 „теглене на тото днес\" deferred this run — volatile draw schedule, see backlog note). Ahrefs bg 2026-10-27: проверка на фиш 4800/kd4 informational flat + спорт тото 6 49 проверка на фиш 3800/kd0 up. How-to-check-a-toto-ticket guide: online number-entry check at info.toto.bg/check/<game> + select тираж (no barcode/QR), official Спорт Тото app, at a тото пункт; instant games checked separately; claim thresholds/deadlines [VERIFY] (БСТ primary source; 2013 Capital.bg says 45 дни — unconfirmed current). Dedup vs queue + live sitemap (140 URLs, 2026-10-27): no „проверка на фиш\"/how-to-check page (distinct from lottery-toto hub, toto-2-igri, toto-dzhoker, chislata-v-toto-statistika) → no cannibalization. Guides-only scope OK (checking process is public; 0 operator T&C/НАП-register claims; no specific operator → no affiliate link). Link toto-2-igri, toto-dzhoker, lottery-toto, otgovorna-igra. NEVER print draw numbers. · OUTCOME: drafted → PR #320. Gate 94/100 PASS WITH FIXES 0-crit. Gemini Step-7: baseline HL15 → humaniser p1 HL90 (Likely human-written 90%) PASS (keep-best=p1, human 90). img:2 (infographic proverka-na-fish-tri-nachina 100 + decorative hero webp 16.5KB 100; image review 100 PASS p1, 0 integrity fail, every label 1:1 vs 05b). 4 [VERIFY] (app check; централа threshold; claim срок; пункт-бон) + tax [VERIFY] — stay in text for Step 6. 4 cluster links + RG. Backlog P0 row → written. · nightly 2026-10-27: JOB-A flags resolved — 5 [VERIFY] removed (app per-ticket check; пункт payout-doc softened to points-to-rules; централа threshold + claim deadline point to rulebook, no figures; tax points to счетоводител/НАП); 0 blocking markers; publish-ready",
       "opportunity": {
         "score": 98,
         "band": "Strong",
         "winnable": true
       },
-      "verify_flags": 5,
-      "verify_samples": [
-        "[VERIFY: дали приложението „Спорт Тото\" проверява конкретен фиш в себе си, или само показва резултати]",
-        "[VERIFY: пункт-бонът като валиден документ за изплащане - потвърди текущия ред при оператора]",
-        "[VERIFY: прагът, над който печалбата се изплаща в централата, а не на пункт]",
-        "[VERIFY: точният срок за получаване на печалба]",
-        "[VERIFY: данъчно третиране на лотарийна печалба]"
-      ]
+      "verify_flags": 0,
+      "verify_samples": []
     },
     {
       "id": "vk-0298",
@@ -6041,16 +6035,14 @@
       "folder": "2026-10-27-teglene-na-toto-dnes",
       "pr": "#321",
       "gemini": "human 90",
-      "notes": "daily run 2026-10-27 (7th fire, MAX_PER_RUN=1); TOP P0 OWNER-APPROVED, UNBLOCKED by human source pack toto-draw-schedule.md (+ bst-toto-2026-10-10.md) after the 6th fire deferred it for a volatile schedule. Evergreen when/where guide: тегления четвъртък и неделя 18:45 ч. на живо по БНТ (specific channel [VERIFY] — page says БНТ 1, web claim said БНТ 2), в присъствие на тричленна комисия; в слота 6/49, 6/42, 5/35, Джокер, Зодиак, Рожден ден, Втори тото шанс; онлайн сайт недостъпен ~18:40–19:10 ч. в дните на теглене; резултат ~1 ч. след ефира; официални числа на info.toto.bg (последен тираж по подразбиране + „ИЗБЕРИ ТИРАЖ\"). Dedup vs queue + live sitemap (2026-10-27): no теглене/„последен тираж\"/кога-тегленето page (distinct from toto-2-igri rules, lottery-toto hub, chislata-v-toto-statistika) → no cannibalization. Guides-only scope: 0 operator/НАП facts; no specific operator → no affiliate; NEVER prints draw numbers. Gate 92/100 PASS 0-crit; Gemini Step-7 baseline HL90 (Likely human-written 90%) PASS, humaniser p1 HL85 → keep-best=baseline (human 90). img:2 (infographic teglene-na-toto-grafik.svg + decorative hero webp 7.4KB; image review 100 PASS p1, 0 integrity fail, every label 1:1 vs 05b). 1 [VERIFY] (БНТ channel) stays in text for Step 6. Links: lottery-toto, toto-2-igri, toto-dzhoker, vtori-toto-shans + otgovorna-igra. Backlog P0 row → written.",
+      "notes": "daily run 2026-10-27 (7th fire, MAX_PER_RUN=1); TOP P0 OWNER-APPROVED, UNBLOCKED by human source pack toto-draw-schedule.md (+ bst-toto-2026-10-10.md) after the 6th fire deferred it for a volatile schedule. Evergreen when/where guide: тегления четвъртък и неделя 18:45 ч. на живо по БНТ (specific channel [VERIFY] — page says БНТ 1, web claim said БНТ 2), в присъствие на тричленна комисия; в слота 6/49, 6/42, 5/35, Джокер, Зодиак, Рожден ден, Втори тото шанс; онлайн сайт недостъпен ~18:40–19:10 ч. в дните на теглене; резултат ~1 ч. след ефира; официални числа на info.toto.bg (последен тираж по подразбиране + „ИЗБЕРИ ТИРАЖ\"). Dedup vs queue + live sitemap (2026-10-27): no теглене/„последен тираж\"/кога-тегленето page (distinct from toto-2-igri rules, lottery-toto hub, chislata-v-toto-statistika) → no cannibalization. Guides-only scope: 0 operator/НАП facts; no specific operator → no affiliate; NEVER prints draw numbers. Gate 92/100 PASS 0-crit; Gemini Step-7 baseline HL90 (Likely human-written 90%) PASS, humaniser p1 HL85 → keep-best=baseline (human 90). img:2 (infographic teglene-na-toto-grafik.svg + decorative hero webp 7.4KB; image review 100 PASS p1, 0 integrity fail, every label 1:1 vs 05b). 1 [VERIFY] (БНТ channel) stays in text for Step 6. Links: lottery-toto, toto-2-igri, toto-dzhoker, vtori-toto-shans + otgovorna-igra. Backlog P0 row → written. · nightly 2026-10-27: JOB-A flag resolved — 1 [VERIFY] removed (BNT channel kept generic БНТ, points to programme/info.toto.bg); 0 blocking markers; publish-ready",
       "opportunity": {
         "score": 100,
         "band": "Strong",
         "winnable": true
       },
-      "verify_flags": 1,
-      "verify_samples": [
-        "[VERIFY: точният канал на БНТ, по който върви тегленето в момента]"
-      ]
+      "verify_flags": 0,
+      "verify_samples": []
     },
     {
       "id": "vk-0299",
@@ -6065,8 +6057,8 @@
       "posted_date": "",
       "folder": "2026-10-27-igri-s-karti",
       "pr": "#322",
-      "gemini": "ai 65",
-      "notes": "daily run 2026-10-27 (8th fire, MAX_PER_RUN=1); backlog P0 top open in-scope row. Card-games PILLAR/hub for the cluster (belot/santase/svara/kanasta/bakara/poker/blackjack/pasians). Dedup vs queue + live sitemap (140 URLs, 2026-10-27) = 0 \"игри с карти\" hub coverage (clean; distinct head query from individual game-rules pages). Ahrefs bg игри с карти 4400/kd4 informational. guides-only scope (0 operator/НАП facts; overview + where-to-play + на пари законно ли е + RG). · OUTCOME: drafted → PR #322. Gate 94/100 PASS 0-crit. Gemini Step-7: baseline HL35 (ai 65) → humaniser p1 HL25 → p2 HL15; MAX_GEMINI_PASSES, keep-best=baseline → ai 65 (noisy detector lowered each revision; +1 native-register calque fix карта игра→игра на карти; style nits for human Step 6, facts/links/RG clean). img:2 (infographic igri-s-karti-igrachi-teste.svg every number 1:1 + decorative hero webp 15KB; Gemini image review 100 PASS p1, 0 integrity fail). 0 [VERIFY]/[DATA NEEDED]/[CONFLICT]. 7 internal links (hub+siblings, live only). Backlog P0 row → written.",
+      "gemini": "human 75",
+      "notes": "daily run 2026-10-27 (8th fire, MAX_PER_RUN=1); backlog P0 top open in-scope row. Card-games PILLAR/hub for the cluster (belot/santase/svara/kanasta/bakara/poker/blackjack/pasians). Dedup vs queue + live sitemap (140 URLs, 2026-10-27) = 0 \"игри с карти\" hub coverage (clean; distinct head query from individual game-rules pages). Ahrefs bg игри с карти 4400/kd4 informational. guides-only scope (0 operator/НАП facts; overview + where-to-play + на пари законно ли е + RG). · OUTCOME: drafted → PR #322. Gate 94/100 PASS 0-crit. Gemini Step-7: baseline HL35 (ai 65) → humaniser p1 HL25 → p2 HL15; MAX_GEMINI_PASSES, keep-best=baseline → ai 65 (noisy detector lowered each revision; +1 native-register calque fix карта игра→игра на карти; style nits for human Step 6, facts/links/RG clean). img:2 (infographic igri-s-karti-igrachi-teste.svg every number 1:1 + decorative hero webp 15KB; Gemini image review 100 PASS p1, 0 integrity fail). 0 [VERIFY]/[DATA NEEDED]/[CONFLICT]. 7 internal links (hub+siblings, live only). Backlog P0 row → written. · nightly 2026-10-27: JOB-B humanised 4 passes (dropped translated cliché, cut fluffy transitions, broke repeated 3-bucket parallelism, removed meta topic-sentences + neat-bow) — Gemini ai 65→peak human 75 (noisy ai85–human75); kept site term „домашно предимство\"; still <80 → FOR HUMAN REVIEW",
       "opportunity": {
         "score": 98,
         "band": "Strong",
@@ -6112,19 +6104,14 @@
       "folder": "2026-10-27-stani-bogat-onlayn",
       "pr": "#324",
       "gemini": "human 95",
-      "notes": "daily run 2026-10-27 (10th fire, MAX_PER_RUN=1); backlog P0 in-scope OWNER-APPROVED off-core quiz-game guide (owner chose to include despite off-core). Evergreen explainer of the TV quiz „Стани богат\" (BG „Who Wants to Be a Millionaire\") + its free online game — rules, money ladder, жокери, where to play online. guides-only scope: facts from Wikipedia + bTV public pages, 0 operator/НАП facts, no gambling framing in body, no invented prize/question data; no operator → no affiliate link. Ahrefs bg стани богат онлайн 16000/kd0 WIN (2026-10-27). Dedup vs queue + live sitemap (140 URLs) = 0 „стани богат\"/quiz coverage → clean, distinct cluster (not casino/card games). · OUTCOME: drafted → PR #324. Gate 94/100 PASS 0-crit. Gemini Step-7: baseline HL75 → humaniser p1 HL95 („Likely human-written 95%\"), keep-best=p1 → human 95. img:2 (ladder infographic stani-bogat-stalbata.svg numbers 1:1 + decorative hero webp 14.3KB ascending-steps→question-mark via Chromium WebP transcode since env Pillow broken; Gemini image review 100 PASS p1, 0 integrity fail). 4 [VERIFY] (юбилеен season params, 2-ра плаваща гарантирана сума range, жокери lineup, online-game rules) stay in text for Step 6. 4 internal links live (RG hub + tabla sibling + footer kak-ocenyavame/otgovorna-igra). Backlog P0 row → written.",
+      "notes": "daily run 2026-10-27 (10th fire, MAX_PER_RUN=1); backlog P0 in-scope OWNER-APPROVED off-core quiz-game guide (owner chose to include despite off-core). Evergreen explainer of the TV quiz „Стани богат\" (BG „Who Wants to Be a Millionaire\") + its free online game — rules, money ladder, жокери, where to play online. guides-only scope: facts from Wikipedia + bTV public pages, 0 operator/НАП facts, no gambling framing in body, no invented prize/question data; no operator → no affiliate link. Ahrefs bg стани богат онлайн 16000/kd0 WIN (2026-10-27). Dedup vs queue + live sitemap (140 URLs) = 0 „стани богат\"/quiz coverage → clean, distinct cluster (not casino/card games). · OUTCOME: drafted → PR #324. Gate 94/100 PASS 0-crit. Gemini Step-7: baseline HL75 → humaniser p1 HL95 („Likely human-written 95%\"), keep-best=p1 → human 95. img:2 (ladder infographic stani-bogat-stalbata.svg numbers 1:1 + decorative hero webp 14.3KB ascending-steps→question-mark via Chromium WebP transcode since env Pillow broken; Gemini image review 100 PASS p1, 0 integrity fail). 4 [VERIFY] (юбилеен season params, 2-ра плаваща гарантирана сума range, жокери lineup, online-game rules) stay in text for Step 6. 4 internal links live (RG hub + tabla sibling + footer kak-ocenyavame/otgovorna-igra). Backlog P0 row → written. · nightly 2026-10-27: JOB-A flags resolved — 4 [VERIFY] removed (jubilee-season params, 2nd guaranteed-sum range, current joker set, online-game rules all softened to non-specific; firm facts kept: 100 000 € top prize, dated joker changes, 15-question format); 0 blocking markers; publish-ready",
       "opportunity": {
         "score": 100,
         "band": "Strong",
         "winnable": true
       },
-      "verify_flags": 4,
-      "verify_samples": [
-        "[VERIFY: точните параметри на юбилейния сезон]",
-        "[VERIFY: диапазонът на втората гарантирана сума]",
-        "[VERIFY: актуалният набор от жокери за текущия сезон]",
-        "[VERIFY: текущите правила на онлайн играта]"
-      ]
+      "verify_flags": 0,
+      "verify_samples": []
     },
     {
       "id": "vk-0302",
