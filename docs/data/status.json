@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-27T07:47:23Z",
+  "generated_utc": "2026-10-27T12:17:32Z",
   "buffer": {
     "count": 220,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 215,
-    "approved": 5,
+    "drafted": 214,
+    "approved": 6,
     "posted": 71,
     "failed": 1
   },
@@ -5487,7 +5487,7 @@
     },
     {
       "id": "vk-0274",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Тото Рожден ден — как се играе и какъв е шансът",
       "keywords_or_terms": "тото рожден ден, как се играе тото рожден ден, тото рожден ден правила",

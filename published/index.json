@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 5,
+  "count": 6,
   "articles": [
     {
       "slug": "hub-intro-casino-payments",
@@ -24,6 +24,13 @@
       "status": "approved"
     },
     {
+      "slug": "toto-rozhden-den",
+      "title": "Тото Рожден ден: правила, печалби и реален шанс",
+      "date_modified": "2026-10-10",
+      "content_hash": "6aaac98e9d7def2638b27e65c624259eef2163ded9bd54105f0365801289f8d1",
+      "status": "approved"
+    },
+    {
       "slug": "belot-pravila",
       "title": "Белот правила: как се играе и точкуване | Всички Казина",
       "date_modified": "2026-10-20",
@@ -38,5 +45,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-27T12:17:02Z"
+  "generated_utc": "2026-10-27T12:17:32Z"
 }
