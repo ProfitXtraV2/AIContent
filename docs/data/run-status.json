@@ -1,30 +1,17 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-10-27T12:26:20Z",
-  "run_finished_utc": "2026-10-27T12:57:57Z",
-  "articles_written": 1,
-  "prs_opened": [
-    316
-  ],
-  "run_url": "https://claude.ai/code/session_01AwuYFVLJiuYknzLzykHdDQ",
-  "note": "daily run 2026-10-27 (2nd fire) done — 1 NEW guide vk-0293 „Пасианс — правила и видове (Клондайк, Паяк, FreeCell)\" (PR #316), top backlog P0 OWNER-APPROVED (пасианс 33000/kd0 informational → written). Reconcile clean (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review 2026-10 already done (no-op). AHREFS+GEMINI ONLINE. Gate 94 PASS 0-crit; Gemini Step-7 keep-best=baseline HL90 PASS („Likely human-written 90%\"; humaniser p1 dropped to HL15 on same text = noisy detector, reverted per keep-best) → human 90; img:3 (decorative hero webp 22KB order-from-shuffle metaphor + klondike-nachalna-podredba.svg + pasians-trite-vida-sravnenie.svg; Gemini image review 100 PASS, 0 integrity fail, every number 1:1 vs 05b); 0 flags; facts from Wikipedia Klondike/Spider/FreeCell (0 operator/НАП). Step-6: backlog P0 пасианс → written; folded duplicate P0 'свара' row → written (already covered by vk-0289 PR #311, anti-cannibalization); 8 writable P0 guides remain open (ample runway); research bank current (refreshed earlier today, 1 candidate Казино Холдем); NV-branded rows stay blocked (operator sourcing). Board on main; dashboard rebuilt (buffer 221/10); feed refreshed (15 approved). No flags resolved, nothing posted/merged/fabricated.",
+  "state": "running",
+  "run_started_utc": "2026-10-27T12:59:40Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01AwuYFUoAUYg2GmYeLXLn7q",
+  "note": "daily run 2026-10-27 (3rd fire) — reconcile clean (0 in-progress/HANDOFF/CLAIMED); monthly SEO review 2026-10 already done (no-op); selecting ≤1 topic",
   "progress": {
-    "phase": "done",
-    "article_index": 1,
+    "phase": "selecting",
+    "article_index": 0,
     "article_total": 1,
-    "article_slug": "2026-10-27-pasians-pravila",
-    "stages": [
-      "Synthesis",
-      "Outline",
-      "Author",
-      "Humaniser",
-      "SEO",
-      "Brand Gate",
-      "Light re-check",
-      "Images",
-      "Verification",
-      "PR"
-    ],
+    "article_slug": null,
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
     "stage_index": null,
     "stage": null
   }
