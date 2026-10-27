@@ -5,7 +5,7 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01AwuYFUtr3F8VithB7Ygou6",
-  "note": "daily run 2026-10-27 (5th fire) — vk-0296 Gemini Step-7 human 85 PASS; building images",
+  "note": "daily run 2026-10-27 (5th fire) — vk-0296 Gemini human 85, images 2 best 90 PASS; verification",
   "progress": {
     "phase": "writing",
     "article_index": 1,
@@ -23,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 7,
-    "stage": "Images"
+    "stage_index": 8,
+    "stage": "Verification"
   }
 }
