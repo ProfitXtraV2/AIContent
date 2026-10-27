@@ -2406,6 +2406,24 @@
 "fetched": "2026-10-24",
 "row": {}
 },
+"bg|бридж правила": {
+"fetched": "2026-10-27",
+"row": {
+"cpc": null,
+"difficulty": 0,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "бридж правила",
+"volume": 80
+},
+"trend": "down"
+},
 "bg|видео покер": {
 "fetched": "2026-10-27",
 "row": {
@@ -2542,6 +2560,10 @@
 },
 "bg|джин руми правила": {
 "fetched": "2026-10-21",
+"row": {}
+},
+"bg|джин ръми": {
+"fetched": "2026-10-27",
 "row": {}
 },
 "bg|домашно предимство казино": {
@@ -2788,6 +2810,24 @@
 },
 "trend": "down"
 },
+"bg|как се играе бридж": {
+"fetched": "2026-10-27",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "как се играе бридж",
+"volume": 60
+},
+"trend": "down"
+},
 "bg|как се играе евроджакпот": {
 "fetched": "2026-10-11",
 "row": {}
@@ -2801,6 +2841,24 @@
 "keyword": "как се играе карибски покер",
 "volume": 0
 }
+},
+"bg|как се играе реми": {
+"fetched": "2026-10-27",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "как се играе реми",
+"volume": 40
+},
+"trend": "up"
 },
 "bg|как се пресмята rtp": {
 "fetched": "2026-10-26",
@@ -3113,6 +3171,10 @@
 "volume": 0
 }
 },
+"bg|пика карти игра": {
+"fetched": "2026-10-27",
+"row": {}
+},
 "bg|покер за начинаещи": {
 "fetched": "2026-10-19",
 "row": {
@@ -3185,6 +3247,24 @@
 "keyword": "ред дог",
 "volume": 0
 }
+},
+"bg|реми правила": {
+"fetched": "2026-10-27",
+"row": {
+"cpc": null,
+"difficulty": 0,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "реми правила",
+"volume": 50
+},
+"trend": "up"
 },
 "bg|рулетка стратегия": {
 "fetched": "2026-10-24",

@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-27T13:56:19Z",
+  "generated_utc": "2026-10-27T17:56:01Z",
   "buffer": {
-    "count": 222,
+    "count": 223,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 207,
+    "drafted": 208,
     "approved": 15,
     "posted": 71,
     "failed": 1
@@ -5951,6 +5951,29 @@
       },
       "verify_flags": 0,
       "verify_samples": []
+    },
+    {
+      "id": "vk-0295",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Белот онлайн — къде и как да играете: Белот БГ, Джаги и други платформи",
+      "keywords_or_terms": "белот бг, джаги белот, белот онлайн, белот",
+      "volume": "31000",
+      "kd": "0",
+      "source": "backlog",
+      "drafted_date": "2026-10-27",
+      "posted_date": "",
+      "folder": "2026-10-27-belot-onlayn",
+      "pr": "#318",
+      "gemini": "human 85",
+      "notes": "where-to-play pillar for белот навигационен клъстер (белот бг 31K/kd0 + джаги белот 4.8K/kd0, OWNER-APPROVED 2026-10-27); free social platforms (чипове, не реални пари), NOT operator review/НАП; distinct from rules guide vk-0286 (links out, no rules repeat); platforms described from own public pages only · gate 93/100 PASS 0-crit; 0 flags; Gemini Step-7 keep-best: baseline HL15-25 → humaniser p1 HL85 (Likely human-written 85%, PASS pass1, kept; detector high-variance) → human 85; img:2 (hero webp 17KB + platforms infographic SVG; Gemini image review p1 75→p2 100 PASS, 0 integrity fail, labels 1:1 vs 05b); facts from platforms' own public pages (belot.bg, App Store listings), 0 operator/НАП",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
     }
   ],
   "backlog": [
@@ -6000,8 +6023,8 @@
       "intent": "navigational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 'белот бг' 31K/kd0 + 'джаги белот' 4.8K/kd0 (2026-10-27). 'белот онлайн' itself kd37 — secondary.",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-27. Do NOT repeat rules (link belot-pravila). Describe platforms only from their own public pages; no invented features/prices.",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-10-27. Do NOT repeat rules (link belot-pravila). Describe platforms only from their own public pages; no invented features/prices. → WRITTEN 2026-10-27 as vk-0295 (PR #318, Gemini human 85, img:2).",
       "opportunity": {
         "score": 100,
         "band": "Strong",
@@ -10883,6 +10906,42 @@
         "band": "Strong",
         "winnable": true
       }
+    },
+    {
+      "type": "guide",
+      "query": "Реми (rummy): правила и как се играе (теглене, подреждане, сваляне)",
+      "researched_keywords": "реми правила, как се играе реми, реми карти, правила на реми",
+      "volume": "50",
+      "kd": "0",
+      "intent": "informational",
+      "trend": "up",
+      "checked": "ahrefs",
+      "suggestion": "NEW candidate (fresh discovery 2026-10-27, Ahrefs bg): „реми правила\" 50/kd0 ↑ + „как се играе реми\" 40 ↑ (fold-in). Distinct card-game rules pillar (rummy) — 0 hits in queue+backlog+bank+live sitemap (140 URLs, 2026-10-27). Sibling на card-game rules cluster (белот vk-0286, табла vk-0288, сантасе vk-0287, свара vk-0289, канаста vk-0290). Winnable (kd0<40), guides-only scope OK (универсални правила на играта, 0 operator/НАП). Слаб обем (cluster ~90) → long-tail; write when it tops the writable queue. Refills bank after Белот онлайн (vk-0295) used.",
+      "status": "candidate",
+      "date_researched": "2026-10-27",
+      "opportunity": {
+        "score": 42,
+        "band": "Moderate",
+        "winnable": true
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Бридж (contract bridge): правила за начинаещи — раздаване, наддаване, взятки",
+      "researched_keywords": "бридж правила, как се играе бридж, бридж за начинаещи, правила на бридж",
+      "volume": "80",
+      "kd": "0",
+      "intent": "informational",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "NEW candidate (fresh discovery 2026-10-27, Ahrefs bg): „бридж правила\" 80/kd0 ↓ + „как се играе бридж\" 60 ↓ (fold-in). Distinct card-game rules pillar (contract bridge) — само „бридж-белот\" се споменава в белот guides; няма bridge rules page in queue+backlog+bank+live sitemap (140 URLs, 2026-10-27). Sibling на card-game rules cluster. Winnable (kd0<40), guides-only scope OK (универсални правила, 0 operator/НАП). Слаб-умерен обем (cluster ~140), trend down → write when it tops the writable queue. Refills bank.",
+      "status": "candidate",
+      "date_researched": "2026-10-27",
+      "opportunity": {
+        "score": 44,
+        "band": "Moderate",
+        "winnable": true
+      }
     }
   ],
   "articles_base_url": "https://github.com/ProfitXtraV2/AIContent/tree/main/VsichkiKazina/articles/",
@@ -10916,30 +10975,17 @@
       }
     ],
     "bands": {
-      "Strong": 8,
-      "Moderate": 1
+      "Strong": 7,
+      "Moderate": 3
     },
     "clusters": {
       "uncategorised": {
-        "winnable": 8,
+        "winnable": 9,
         "pillar": 0,
-        "total": 9
+        "total": 10
       }
     },
     "winnable": [
-      {
-        "query": "Белот онлайн — къде и как да играете: Белот БГ, Джаги и други платформи",
-        "keywords": "белот бг, джаги белот, белот онлайн, белот",
-        "volume": "31000",
-        "kd": "0",
-        "intent": "navigational",
-        "band": "Strong",
-        "score": 100,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
       {
         "query": "Табла онлайн — къде да играете безплатно и срещу реални хора",
         "keywords": "табла онлайн, игра на табла онлайн",
@@ -11030,12 +11076,38 @@
         "cluster": "uncategorised",
         "status": "open",
         "src": "backlog"
+      },
+      {
+        "query": "Бридж (contract bridge): правила за начинаещи — раздаване, наддаване, взятки",
+        "keywords": "бридж правила, как се играе бридж, бридж за начинаещи, правила на бридж",
+        "volume": "80",
+        "kd": "0",
+        "intent": "informational",
+        "band": "Moderate",
+        "score": 44,
+        "winnable": true,
+        "cluster": "uncategorised",
+        "status": "candidate",
+        "src": "research"
+      },
+      {
+        "query": "Реми (rummy): правила и как се играе (теглене, подреждане, сваляне)",
+        "keywords": "реми правила, как се играе реми, реми карти, правила на реми",
+        "volume": "50",
+        "kd": "0",
+        "intent": "informational",
+        "band": "Moderate",
+        "score": 42,
+        "winnable": true,
+        "cluster": "uncategorised",
+        "status": "candidate",
+        "src": "research"
       }
     ],
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 8,
+      "winnable": 9,
       "pillars": 0
     }
   }
