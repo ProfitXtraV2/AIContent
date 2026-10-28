@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" role="img" aria-label="Схема: данъкът върху печалба от хазарт зависи от лиценза на организатора">
+  <rect x="0" y="0" width="720" height="470" fill="#ffffff"/>
+  <rect x="8" y="8" width="704" height="454" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+
+  <text x="360" y="36" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#0f172a">Данък печалба от хазарт: решава лицензът</text>
+
+  <!-- start -->
+  <rect x="160" y="54" width="400" height="44" rx="8" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="360" y="81" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#1e293b">Печалба от хазарт (казино, тото, лотария)</text>
+
+  <!-- arrow to decision -->
+  <line x1="360" y1="98" x2="360" y2="118" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="360,124 355,116 365,116" fill="#94a3b8"/>
+
+  <!-- decision -->
+  <rect x="120" y="124" width="480" height="58" rx="8" fill="#eef2ff" stroke="#c7d2fe"/>
+  <text x="360" y="148" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#1e293b">Организаторът лицензиран ли е?</text>
+  <text x="360" y="168" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#475569">по Закона за хазарта или от държава от ЕС/ЕИП</text>
+
+  <!-- branches -->
+  <line x1="270" y1="182" x2="195" y2="214" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="190,216 198,212 196,221" fill="#94a3b8"/>
+  <line x1="450" y1="182" x2="525" y2="214" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="530,216 522,212 524,221" fill="#94a3b8"/>
+  <rect x="196" y="190" width="24" height="17" rx="3" fill="#ffffff"/>
+  <text x="208" y="203" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#15603f">ДА</text>
+  <rect x="500" y="190" width="24" height="17" rx="3" fill="#ffffff"/>
+  <text x="512" y="203" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#92600c">НЕ</text>
+
+  <!-- YES box -->
+  <rect x="40" y="218" width="300" height="186" rx="8" fill="#e7f5ee" stroke="#1a7f5a"/>
+  <text x="190" y="242" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#15603f">Има лиценз (ЗХ или ЕС/ЕИП)</text>
+  <text x="190" y="268" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#14532d">Необлагаема печалба за</text>
+  <text x="190" y="286" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#14532d">физическото лице</text>
+  <text x="190" y="312" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="600" fill="#0f172a">чл. 13, ал. 1, т. 20 ЗДДФЛ</text>
+  <text x="190" y="330" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#475569">(в сила от 01.01.2017 г.)</text>
+  <text x="190" y="358" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#14532d">Размерът няма значение:</text>
+  <text x="190" y="376" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#14532d">€20 или голяма сума, онлайн/наземно</text>
+
+  <!-- NO box -->
+  <rect x="380" y="218" width="300" height="186" rx="8" fill="#fdf4e3" stroke="#b7791f"/>
+  <text x="530" y="242" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#92600c">Няма такъв лиценз</text>
+  <text x="530" y="272" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#78350f">Условието на разпоредбата</text>
+  <text x="530" y="290" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#78350f">не е изпълнено.</text>
+  <text x="530" y="320" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#78350f">За данъчното третиране</text>
+  <text x="530" y="338" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="600" fill="#78350f">питайте НАП.</text>
+
+  <text x="360" y="436" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#64748b">18+ Играйте отговорно · Това не е данъчна консултация.</text>
+</svg>
