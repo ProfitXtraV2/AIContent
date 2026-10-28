@@ -5,7 +5,7 @@
   <text x="390" y="52" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="700" fill="#f2f6fa">Макао и Монте Карло в числа</text>
   <text x="390" y="78" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#8aa6c2">Два различни модела на казино град</text>
 
-  <line x1="390" y1="98" x2="390" y2="440" stroke="#1d3a57" stroke-width="1.5"/>
+  <line x1="390" y1="98" x2="390" y2="414" stroke="#1d3a57" stroke-width="1.5"/>
 
   <!-- Column headers -->
   <text x="48" y="124" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#d9a441">МАКАО</text>
