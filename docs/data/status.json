@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-28T22:09:05Z",
+  "generated_utc": "2026-10-28T23:12:47Z",
   "buffer": {
-    "count": 233,
+    "count": 234,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 214,
+    "drafted": 215,
     "approved": 19,
     "posted": 76,
     "failed": 1
@@ -6202,12 +6202,8 @@
         "band": "Moderate",
         "winnable": true
       },
-      "verify_flags": 3,
-      "verify_samples": [
-        "[VERIFY: конкретни AML прагове/задължения при входящ превод — извън source pack; дръж общо/хеджирано или насочи към банката]",
-        "[VERIFY: третиране на хазартни загуби по ЗДДФЛ — извън source pack; дръж хеджирано или пропусни]",
-        "[VERIFY: данъчно третиране на печалба от нелицензиран / извън-ЕС/ЕИП организатор — извън source pack; НИКОГА ставка/праг; насочи към НАП]"
-      ]
+      "verify_flags": 0,
+      "verify_samples": []
     },
     {
       "id": "vk-0306",
@@ -6267,13 +6263,8 @@
         "band": "Pillar",
         "winnable": false
       },
-      "verify_flags": 4,
-      "verify_samples": [
-        "[VERIFY: точен таван на множителите от официалната страница на Pragmatic Play]",
-        "[VERIFY: точен максимален множител от официалната страница на Pragmatic Play]",
-        "[VERIFY: точен брой функции и степен на волатилност от официалната страница на Nolimit City]",
-        "[VERIFY: точният доставчик на играещата версия]"
-      ]
+      "verify_flags": 0,
+      "verify_samples": []
     },
     {
       "id": "vk-0309",
@@ -6315,6 +6306,29 @@
       "notes": "OWNER BURST 2026-10-28 (hourly window → 2026-10-29 07:00 UTC); next open P0 burst row after Лудогорец (vk-0309). Evergreen tennis scoring/rules guide (guides-only ✓: 0 operator/НАП/affiliate; no rankings/results/fixtures/form/odds; no predictions). Cluster тенис 55000/kd0 WIN. Dedup vs queue + live sitemap (145 URLs) = 0 tennis coverage, clean. Facts = ITF Rules of Tennis + 2022 Grand Slam Board unified 10-point final-set tiebreak (framed „от 2022 г.\"): точки 0/15/30/40 + деус (+2), сет до 6 гейма преднина 2 (6-4/7-5), тайбрек до 7 (+2) + решаващ до 10, best-of-3/5, сервис (2 опита/двойна грешка/лет/диагонал/смяна страни), корт/настилки. ~764 думи, 0 em-dash, 0 flags. Gate 94 PASS 0-crit. Gemini Step-7 keep-best pass1-humaniser human 90 (HL 85→90, 1 humaniser pass: cut intro signpost + rhetorical-question pivot). img:2 (infographic tenis-tochkuvane-stylba.svg числа 1:1 vs 05b + decorative hero webp 43KB; image review 100 PASS, 0 integrity). 4 body internal links live (zakonno-li-e / blog-sport / bonus-ruletka-sport-vsichki / blog-responsible-gambling) + otgovorna-igra footer; no affiliate. PR #333. vol/kd 55000/0 (ahrefs, from backlog).",
       "opportunity": {
         "score": 100,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
+    },
+    {
+      "id": "vk-0311",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Реал Мадрид — история, трофеи, стадион и легенди на клуба",
+      "keywords_or_terms": "реал мадрид, реал мадрид история, реал мадрид трофеи, сантяго бернабеу",
+      "volume": "50000",
+      "kd": "4",
+      "source": "backlog",
+      "drafted_date": "2026-10-28",
+      "posted_date": "",
+      "folder": "2026-10-28-real-madrid-istoriya-trofei",
+      "pr": "#334",
+      "gemini": "human 95",
+      "notes": "OWNER BURST 2026-10-28 (hourly window → 2026-10-29 07:00 UTC); next open P0 burst row after Лудогорец+Тенис (vk-0309/vk-0310). Evergreen клубен профил (guides-only ✓: 0 operator/НАП/affiliate; 0 current-season stats/standings/results/transfers/odds; 0 predictions). Cluster реал мадрид 50000/kd4 WIN. Dedup vs queue + live sitemap (145 URLs, само /blog/futbol/ hub) = clean. Факти EN Wikipedia + StadiumDB: основан 1902 (Madrid FC), кралска титла 1920 (Алфонсо XIII), 36 Ла Лига + 20 Копа дел Рей + 13 Суперкупи (към лятото 2025), 15 Шампионски лиги (рекорд, 15-и 2024), първите 5 поредно 1956–1960, 2 Лига Европа, 9 световни титли (рекорд), ФИФА клуб на XX век 2000, Бернабеу от 1947 + реконструкция 2019–2024 над 80 000 места (клубът не публикува точна цифра → „над 80 000\"), рекорд 129 690 (1956), президент Бернабеу 1943–1978; легенди Ди Стефано/Пушкаш/Хенто/Раул/Касияс/Зидан/Рамос/Роналдо; Ел Класико (Мадрид vs Каталуния). Trophy counts stamped „към лятото на 2025 г.\". ~717 думи, 0 em-dash, 0 [VERIFY]. Gate 94 PASS 0-crit. Gemini Step-7 keep-best: HL 80→80→95, verdict „Highly likely human-written 95%\" (pass-2 humaniser: cut „всичко започва\"/„не е случайно\"/platitude/„не само…а и\"; replaced „transcends\" cliché с конкретен Мадрид-Каталуния факт). img:2 (infographic real-madrid-trofei.svg числа 1:1 vs 05b + decorative hero webp 11KB; image review 70→100 PASS, 0 integrity). 4 body internal links live (zakonno-li-e / bonus-ruletka-sport-vsichki / blog-responsible-gambling) + otgovorna-igra footer; Барселона/Ел Класико link pending that profile; no affiliate. PR #334. vol/kd 50000/4 (ahrefs, from backlog).",
+      "opportunity": {
+        "score": 98,
         "band": "Strong",
         "winnable": true
       },
@@ -6369,8 +6383,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 50000/kd4 (2026-10-28 clubs sweep). Can include an Ел Класико section (барселона реал мадрид 2K/kd0).",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-28 (European clubs & stars batch → Футбол hub). Evergreen profile: history, trophies, stadium/legends (clubs) or career, records, style, trophies (players). NEVER print current-season stats, standings, results, transfer rumours or odds. Any figure that can change: write it with 'към <месец година>' or mark [VERIFY]. Real people: verifiable public facts only, nothing about private life. Link sibling club/player profiles and league guides (Ла Лига / Премиер лига / Серия А etc. if live). No betting tips; optional RG line.",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-10-28 (European clubs & stars batch → Футбол hub). Evergreen profile: history, trophies, stadium/legends (clubs) or career, records, style, trophies (players). NEVER print current-season stats, standings, results, transfer rumours or odds. Any figure that can change: write it with 'към <месец година>' or mark [VERIFY]. Real people: verifiable public facts only, nothing about private life. Link sibling club/player profiles and league guides (Ла Лига / Премиер лига / Серия А etc. if live). No betting tips; optional RG line. · WRITTEN 2026-10-28 (owner burst fire, P0 row 3/10 after Лудогорец+Тенис) → vk-0311, PR #334. Evergreen клубен профил: основан 1902 (Madrid FC), кралска титла 1920, 36 Ла Лига + 20 Копа дел Рей + 13 Суперкупи (към лятото 2025), 15 Шампионски лиги (рекорд, 15-и 2024, първите 5 поредно 1956–1960), 9 световни титли (рекорд), ФИФА клуб на XX век 2000, Бернабеу от 1947 + реконструкция 2019–2024 над 80 000 места, президент Бернабеу 1943–1978, Ел Класико (Мадрид–Каталуния). Guides-only ✓ (0 operator/НАП/affiliate; 0 класиране/резултати/трансфери/коефициенти/прогнози). Факти EN Wikipedia + StadiumDB. Gate 94 PASS, Gemini human 95, img:2 (review 100), ~717 думи, 0 flags. Барселона/Ел Класико линк се добавя при публикуване на профила на Барселона.",
       "opportunity": {
         "score": 98,
         "band": "Strong",
@@ -12203,14 +12217,14 @@
       }
     ],
     "bands": {
-      "Strong": 46,
+      "Strong": 45,
       "Moderate": 2
     },
     "clusters": {
       "uncategorised": {
-        "winnable": 47,
+        "winnable": 46,
         "pillar": 0,
-        "total": 48
+        "total": 47
       }
     },
     "winnable": [
@@ -12631,19 +12645,6 @@
         "src": "backlog"
       },
       {
-        "query": "Реал Мадрид — история, трофеи, стадион и легенди на клуба",
-        "keywords": "реал мадрид, реал мадрид история, реал мадрид трофеи, сантяго бернабеу",
-        "volume": "50000",
-        "kd": "4",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 98,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
         "query": "Барселона — история, трофеи, стадион и легенди на клуба",
         "keywords": "барселона, фк барселона, барселона история, камп ноу",
         "volume": "44000",
@@ -12829,7 +12830,7 @@
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 47,
+      "winnable": 46,
       "pillars": 0
     }
   }
