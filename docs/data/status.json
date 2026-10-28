@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-28T17:36:49Z",
+  "generated_utc": "2026-10-28T17:39:01Z",
   "buffer": {
     "count": 227,
     "target": 10,
@@ -7,7 +7,7 @@
     "ok": true
   },
   "counts": {
-    "in-progress": 0,
+    "in-progress": 4,
     "drafted": 208,
     "approved": 19,
     "posted": 76,
@@ -6180,6 +6180,90 @@
         "winnable": true
       },
       "verify_flags": 0,
+      "verify_samples": []
+    },
+    {
+      "id": "vk-0305",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Данък върху печалба от хазарт и онлайн казино в България (2026)",
+      "keywords_or_terms": "данък печалба от хазарт, данък хазарт, облагат ли се печалбите от казино, данък върху печалба от онлайн казино, данък печалба тото",
+      "volume": "50",
+      "kd": "2",
+      "source": "refresh",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-10-28-danaci-pechalbi-onlajn-kazino",
+      "pr": "",
+      "gemini": "",
+      "notes": "ONE-OFF 2026-10-28 (owner-requested). REFRESH of live /blog/danaci-pechalbi-onlajn-kazino/ (0 GSC impr 90d), SAME slug/URL. Retarget to „данък печалба от хазарт\" intent. Tax claim unblocked ONLY to extent of source-packs/zddfl-gambling-winnings-2026-10-28.md (чл.13 ал.1 т.20 ЗДДФЛ, в сила 01.01.2017); всичко извън пакета → [VERIFY]/omit, НИКОГА ставка. dedup/anti-cannibal skipped (same URL by design).",
+      "opportunity": {
+        "score": 42,
+        "band": "Moderate",
+        "winnable": true
+      },
+      "verify_flags": null,
+      "verify_samples": []
+    },
+    {
+      "id": "vk-0306",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Как да изберете онлайн казино: кое е подходящо за вас (и кое дава най-много)",
+      "keywords_or_terms": "как да изберете онлайн казино, как да изберем онлайн казино, кое казино дава най много, кое онлайн казино дава най много",
+      "volume": "20",
+      "kd": "",
+      "source": "refresh",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-10-28-koe-kazino-da-izberete",
+      "pr": "",
+      "gemini": "",
+      "notes": "ONE-OFF 2026-10-28 (owner-requested). REFRESH of live /blog/koe-kazino-da-izberete/ (0 GSC impr 90d), SAME slug/URL. Decision guide by player type; must NOT become a toplist (homepage+/sravni-kazina/ own ranking intent). 5-step checklist open + honest „кое дава най-много\" section (generic mechanics only, NO operator-specific figures — guides-only scope). dedup/anti-cannibal skipped (same URL).",
+      "opportunity": null,
+      "verify_flags": null,
+      "verify_samples": []
+    },
+    {
+      "id": "vk-0307",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Казино речник: значение на RTP, волатилност, превъртане и други термини",
+      "keywords_or_terms": "казино термини, казино речник, какво означава превъртане на бонус, какво е RTP, волатилност слот значение, какво е wager",
+      "volume": "0",
+      "kd": "",
+      "source": "refresh",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-10-28-rechnik-kazino-termini",
+      "pr": "",
+      "gemini": "",
+      "notes": "ONE-OFF 2026-10-28 (owner-requested). REFRESH of live /blog/rechnik-kazino-termini/ (0 GSC impr 90d), SAME slug/URL. KEEP it a glossary (internal-link hub; do NOT retarget to bare волатилност 500/mo — that SERP is 100% finance). Term-per-entry, one-sentence def first, A–Я jump index, grouped sections; expand coverage + link each term to its LIVE article (sitemap-verified only). dedup/anti-cannibal skipped (same URL).",
+      "opportunity": null,
+      "verify_flags": null,
+      "verify_samples": []
+    },
+    {
+      "id": "vk-0308",
+      "status": "in-progress",
+      "type": "guide",
+      "query": "Нови казино игри 2026",
+      "keywords_or_terms": "нови казино игри, нови казино игри 2026, нови игри казино, нови ротативки, нови казино игри безплатно",
+      "volume": "1700",
+      "kd": "42",
+      "source": "refresh",
+      "drafted_date": "",
+      "posted_date": "",
+      "folder": "2026-10-28-novi-kazino-igri-2026",
+      "pr": "",
+      "gemini": "",
+      "notes": "ONE-OFF 2026-10-28 (owner-requested). REFRESH of live /blog/novi-kazino-igri-2026/ (0 GSC impr 90d), SAME slug/URL. KD 42 > cap 40 — OWNER-APPROVED override (page already exists; current BG #1 is DR6 listing). Fix intent: rewrite LISTING-FIRST (roundup of notable 2026 releases across all game types, each provider/type/mechanic + link to our article where live), short „как да оцените\" at end. Release dates/RTP only from provider page else [VERIFY]. Anti-cannibal /slot-igri/novi/ (link once). Leave old vk-0015 row untouched. dedup skipped (same URL).",
+      "opportunity": {
+        "score": 83,
+        "band": "Pillar",
+        "winnable": false
+      },
+      "verify_flags": null,
       "verify_samples": []
     }
   ],
