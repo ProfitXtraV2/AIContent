@@ -12,7 +12,9 @@ for open rows via Ahrefs (or web fallback) and tells you whether the keyword is 
 > top-10 P0 rows (Лудогорец … Формула 1) to be written NOW, back-to-back. Each manual fire on these
 > dates is an INTENTIONAL separate run, NOT a duplicate same-day re-fire: write exactly 1 new article
 > (MAX_PER_RUN=1 still applies per fire) from the next open P0 row, as normal. Ends once those 10 rows
-> are drafted; after that, back to 1/day on the schedule.
+> are drafted; after that, back to 1/day on the schedule. The routine cron is TEMPORARILY hourly
+> (`50 22,23,0-6` UTC) for this burst — those scheduled fires are burst fires too. ONCE ALL 10 ARE
+> drafted/in a PR, any further fire before 2026-10-29 07:00 UTC writes 0 new articles (board upkeep only).
 
 | priority | type | query | keywords_or_terms | volume | kd | intent | checked | ahrefs_note | status | notes |
 |---|---|---|---|---|---|---|---|---|---|---|
