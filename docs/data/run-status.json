@@ -5,12 +5,12 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01AwuYFVigs4YFFYacq36W7J",
-  "note": "daily run 2026-10-28 (2nd fire) — started; reconcile clean (0 in-progress/HANDOFF/CLAIMED); owner queued new backlog 2026-10-28 (16 sports-guide topics + Казино градове cluster); monthly SEO 2026-10 already done; selecting up to MAX_PER_RUN=1 distinct topic",
+  "note": "daily run 2026-10-28 (2nd fire) — writing vk-0304 Казино градове (Макао и Монте Карло) [backlog P0 top open, owner-approved 2026-10-28]; reconcile clean; monthly SEO 2026-10 done",
   "progress": {
-    "phase": "reconcile",
-    "article_index": null,
-    "article_total": null,
-    "article_slug": null,
+    "phase": "writing",
+    "article_index": 1,
+    "article_total": 1,
+    "article_slug": "2026-10-28-kazino-gradove-makao-monte-karlo",
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": null,
-    "stage": null
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
