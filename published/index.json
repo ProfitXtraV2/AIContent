@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 15,
+  "count": 13,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -13,21 +13,21 @@
       "slug": "hub-intro-casino-payments",
       "title": "Казино плащания: депозити и тегления в БГ казина",
       "date_modified": "2026-09-19",
-      "content_hash": "15bd1840413b2b2ec447082ca7076f03e151c31ff783d5e92b9fcf608f0728d5",
+      "content_hash": "a65fd26321d0131c74639026f3f6cc8c5dce8be8b078075a25e4b416d1925f61",
       "status": "approved"
     },
     {
       "slug": "hub-intro-bonuses-vip",
       "title": "Казино бонуси и VIP: какво да проверите",
       "date_modified": "2026-09-19",
-      "content_hash": "1736d3b440bc9b94e62134d40395aac3a427f015a849ea7831c4f114a78c463a",
+      "content_hash": "9aca2849280b239225072fb5f96b87367129ceb351677d25073b8a36ec89cc35",
       "status": "approved"
     },
     {
       "slug": "hub-intro-responsible-gambling",
       "title": "Отговорна игра: лимити, самоизключване, помощ",
       "date_modified": "2026-09-19",
-      "content_hash": "f1c7b24f7c372c70049958c0be6093d321d4545f269f9af1ad7e06eb1a15569c",
+      "content_hash": "616a5694058a49614a53c343beefb7de06f84d915dbc74b459b845b1dac20d4b",
       "status": "approved"
     },
     {
@@ -80,20 +80,6 @@
       "status": "approved"
     },
     {
-      "slug": "belot-pravila",
-      "title": "Белот правила: как се играе и точкуване | Всички Казина",
-      "date_modified": "2026-10-20",
-      "content_hash": "79e60312c3e287c9fd1536f4c82fd30314485cc50d5115830110222adf52427f",
-      "status": "approved"
-    },
-    {
-      "slug": "santase-pravila",
-      "title": "Сантасе правила: как се играе сантасе (66)",
-      "date_modified": "2026-10-21",
-      "content_hash": "78cc1906e71a586d990b9dc489904a23b5be7d61631a1ba8acc864df93b6d6df",
-      "status": "approved"
-    },
-    {
       "slug": "svara-pravila",
       "title": "Свара правила: как се играе свара на точки",
       "date_modified": "2026-10-23",
@@ -108,5 +94,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-27T23:23:23Z"
+  "generated_utc": "2026-10-28T06:49:30Z"
 }
