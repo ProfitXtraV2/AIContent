@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-label="Сравнение: същият множител на превъртане 35x върху различна база дава различен оборот">
+  <rect x="0" y="0" width="720" height="420" fill="#ffffff"/>
+  <rect x="8" y="8" width="704" height="404" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+
+  <text x="360" y="36" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#0f172a">Същият множител, различна база = различен оборот</text>
+  <text x="360" y="60" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#475569">Пример: превъртане 35x, депозит €100 + бонус €100</text>
+
+  <!-- left card: lighter -->
+  <rect x="50" y="86" width="290" height="250" rx="10" fill="#e7f5ee" stroke="#1a7f5a"/>
+  <text x="195" y="116" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#15603f">База: само бонусът</text>
+  <text x="195" y="162" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#14532d">€100 × 35</text>
+  <text x="195" y="212" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#15603f">€3 500</text>
+  <text x="195" y="238" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#14532d">оборот за разиграване</text>
+  <text x="195" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="600" fill="#166534">по-лесно условие</text>
+
+  <!-- right card: heavier -->
+  <rect x="380" y="86" width="290" height="250" rx="10" fill="#fdf4e3" stroke="#b7791f"/>
+  <text x="525" y="116" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#92600c">База: депозит + бонус</text>
+  <text x="525" y="162" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#78350f">€200 × 35</text>
+  <text x="525" y="212" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#b45309">€7 000</text>
+  <text x="525" y="238" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#78350f">оборот за разиграване</text>
+  <text x="525" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="600" fill="#92600c">двойно по-тежко условие</text>
+
+  <text x="360" y="376" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#334155">Същите 35x, но базата удвоява оборота. Питайте върху какво е превъртането.</text>
+  <text x="360" y="400" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#64748b">18+ Играйте отговорно.</text>
+</svg>
