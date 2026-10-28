@@ -21,5 +21,9 @@
   3 връзки в тялото + 1 footer от одобрения сет, всички живи в sitemap.
 - 05 Brand Gate: PASS 95/100, 0 criticals.
 - 05b light re-check: 0 em-dashes потвърдени; „освен това" махнат; финал locked.
-- Step 7 (Gemini): pending.
-- Step 8 (images): pending.
+- Step 7 (Gemini): baseline „AI 85%" (HL 15) → humaniser pass 1 „human 90%" (HL 90) PASS. A
+  length-expansion attempt (succession/ЛЕ/Моци/ШЛ×2) dropped HL to ~25-30 (reads encyclopedic);
+  per keep-best + never-pad reverted 05b to the HL-90 pass-1 draft (612w). gemini: human 90. (07-check-1..3)
+- Step 8 (images): 2 — infographic (numbers 1:1 с 05b) + decorative hero (WebP 12KB, no crest/logo/faces).
+  Gemini image review pass 1 score 95 PASS, 0 integrity; cosmetic SVG divider fix applied. (08-review-1)
+- Result: drafted. gate 93-95 PASS, gemini human 90, img:2 (review 95).
