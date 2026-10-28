@@ -1,28 +1,17 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-10-28T21:36:50Z",
-  "run_finished_utc": "2026-10-28T21:39:39Z",
-  "articles_written": 0,
+  "state": "running",
+  "run_started_utc": "2026-10-28T21:42:42Z",
+  "run_finished_utc": null,
+  "articles_written": null,
   "prs_opened": [],
-  "run_url": "https://claude.ai/code/session_01AwuYFUB2bBpFVqySwrbMQN",
-  "note": "daily run 2026-10-28 — DUPLICATE SAME-DAY RE-FIRE, no new intake. This fire landed 71s after the prior recurring run for 2026-10-28 completed cleanly (finished 21:35:39Z; that run already wrote today's 1 throttled article vk-0309 „Лудогорец — история, титли и Хювефарма Арена\", PR #332 open+mergeable). Not a 429 recovery and not a new daily cycle, so per idempotency (continue-don't-restart, NEVER duplicate) + the deliberate MAX_PER_RUN=1/day throttle (buffer 232/10, 23x floor), wrote 0 new articles — writing another would exceed today's intended intake. EVERYTHING-ELSE verified current: reconcile clean (0 in-progress / 0 HANDOFF / 0 CLAIMED-UNTIL — the lone 'in-progress' grep hit is stale note text on vk-0063 whose status column is posted); monthly SEO review already done for 2026-10 (seo-review.json, no-op); keyword research + backlog enrichment refreshed by the prior run 71s ago (research bank 3 distinct winnable, 57 open backlog rows for future runs); dashboard rebuilt = only generated_utc drifted (reverted, no real change, buffer 232/10); feed already at 19 approved; PR #332 verified open/clean/mergeable. No flags resolved, nothing posted/merged/fabricated. Next genuine scheduled fire resumes normal 1-article intake.",
+  "run_url": "https://claude.ai/code/session_01AwuYFVLZrKp8kEyQnHmUE4",
+  "note": "daily run 2026-10-28 — third same-day fire; verifying reconcile/SEO/research/board, intake decision pending throttle",
   "progress": {
-    "phase": "done",
+    "phase": "verifying",
     "article_index": null,
     "article_total": 0,
     "article_slug": null,
-    "stages": [
-      "Synthesis",
-      "Outline",
-      "Author",
-      "Humaniser",
-      "SEO",
-      "Brand Gate",
-      "Light re-check",
-      "Images",
-      "Verification",
-      "PR"
-    ],
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
     "stage_index": null,
     "stage": null
   }
