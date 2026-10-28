@@ -1,13 +1,15 @@
 {
-  "state": "running",
-  "run_started_utc": "2026-10-28T12:00:00Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "state": "idle",
+  "run_started_utc": "2026-10-28T17:05:00Z",
+  "run_finished_utc": "2026-10-28T17:37:00Z",
+  "articles_written": 1,
+  "prs_opened": [
+    327
+  ],
   "run_url": "https://claude.ai/code/session_01AwuYFVigs4YFFYacq36W7J",
-  "note": "daily run 2026-10-28 (2nd fire) — writing vk-0304 Казино градове (Макао и Монте Карло) [backlog P0 top open, owner-approved 2026-10-28]; reconcile clean; monthly SEO 2026-10 done",
+  "note": "daily run 2026-10-28 (2nd fire) done — 1 NEW guide vk-0304 „Казино градовете на света: Макао и Монте Карло\" (PR #327), backlog P0 top open in-scope row (OWNER-APPROVED 2026-10-28, cluster 2300/kd0 WIN). Reconcile clean (0 in-progress/HANDOFF/CLAIMED). Monthly SEO 2026-10 already done (no-op). Casino-destinations facts/history piece: Монте Карло (Фр. Блан концесия 1863, SBM 15млн фр., Гарние 1878-79, гражданите не играят, данък премахнат 1869, черно 26× 1913) + Макао (легален хазарт 1849, САР 1999, монопол STDM 1962→либерализация 2002, изпреварва Лас Вегас 2007, баккара, ~75% бюджет/>40% БВП, Котай/Venetian) + side-by-side vs Лас Вегас (linked /blog/kazina-las-vegas/ vk-0276, not repeated). Dedup vs queue+backlog+live sitemap (142 URLs)=0 Макао/Монте Карло → clean. Every figure sourced (EN Wikipedia Gambling in Macau / Monte Carlo Casino + gouv.mc); 0 operator/НАП/affiliate; 0 [VERIFY]. Gate 95 PASS 0-crit; Gemini Step-7 keep-best pass2 human 90 (HL 25→20→90, 2 humaniser passes: cut answers-to-a-question symmetry/hard-to-overstate cliché/narrated-irony tails/signposting bridges/didactic pivot/neat-bow). img:2 (infographic makao-monte-karlo-sravnenie.svg numbers 1:1 vs 05b + decorative hero webp 35KB; image review 100 PASS p2, 0 integrity; SVG divider y2 440→414 fixed p1). ~1001 words, 0 em-dash; 4 internal links live (kazina-las-vegas/comparisons-news/responsible-gambling/zakonno-li-e). Step-6: light research (owner added+enriched a large sports/clubs/players guide backlog 2026-10-28, all ahrefs-metriced, stay open for future runs in priority order; NV-Casino rows stay open+blocked operator/НАП out of guides-only scope); research bank unchanged at 3 (Казино Холдем/Видео покер/Реми), 0 new distinct winnable (no-padding, mature library 227 buffer). Board on main; dashboard rebuilt (buffer 227/10); feed refreshed. No flags resolved, nothing posted/merged/fabricated.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-10-28-kazino-gradove-makao-monte-karlo",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "stage_index": null,
+    "stage": null
   }
 }
