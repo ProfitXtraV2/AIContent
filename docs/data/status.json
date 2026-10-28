@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-28T20:52:06Z",
+  "generated_utc": "2026-10-28T21:35:09Z",
   "buffer": {
-    "count": 231,
+    "count": 232,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 212,
+    "drafted": 213,
     "approved": 19,
     "posted": 76,
     "failed": 1
@@ -6274,6 +6274,29 @@
         "[VERIFY: точен брой функции и степен на волатилност от официалната страница на Nolimit City]",
         "[VERIFY: точният доставчик на играещата версия]"
       ]
+    },
+    {
+      "id": "vk-0309",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Лудогорец — история, титли и Хювефарма Арена",
+      "keywords_or_terms": "лудогорец, лудогорец история, лудогорец титли, хювефарма арена",
+      "volume": "81000",
+      "kd": "9",
+      "source": "backlog",
+      "drafted_date": "2026-10-28",
+      "posted_date": "",
+      "folder": "2026-10-28-ludogorec-istoriya-titli",
+      "pr": "#332",
+      "gemini": "human 90",
+      "notes": "daily run 2026-10-28 (recurring fire, MAX_PER_RUN=1); backlog P0 top open row OWNER-APPROVED 2026-10-28 (Bulgarian-football batch). Evergreen клубен профил (guides-only ✓: 0 operator/НАП/affiliate; без текущо класиране/резултати/трансфери/коефициенти). Cluster лудогорец 81000/kd9 WIN. Dedup vs queue + live sitemap (145 URLs, 0 football slugs) = clean. Факти EN/BG Wikipedia (PFC Ludogorets Razgrad / Kiril Domuschiev / Хювефарма Арена): линия от 1945, Домусчиев 2010, елит 2011 (Петев), требъл 2011/12, 14 поредни титли 2011/12–2024/25 (към лятото 2025), 4 Купи, 9 Суперкупи (рекорд), 2-ри бълг. клуб в групите на ШЛ 2014/15, стадион 1954→„Хювефарма Арена\" 2020 над 10 000 места, трибуна „Моци\" 2308. Трофеи рамкирани „към лятото на 2025 г.\". ~612 думи, 0 em-dash, 0 flags. Gate 95 PASS 0-crit. Gemini Step-7 keep-best pass1 human 90 (HL 15→90, 1 humaniser pass cut bridges/dry-numbers/antithesis/witty-closers; length-expansion опит паднал HL~25-30 → reverted per keep-best+never-pad, 07-check-3). img:2 (infographic ludogorec-trofei-klyuchovi-godini.svg числа 1:1 vs 05b + decorative hero webp 12KB; image review 95 PASS p1, 0 integrity; SVG divider y2 336→360). 3 internal links live (zakonno-li-e / bonus-ruletka-sport / responsible-gambling) + otgovorna-igra footer; no affiliate. PR #332. vol/kd 81000/9 (ahrefs, from backlog).",
+      "opportunity": {
+        "score": 96,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
     }
   ],
   "backlog": [
@@ -6287,8 +6310,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 81000/kd9 (2026-10-28 football sweep). Club profile.",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-28 (Bulgarian-football batch). Evergreen profile/history only. NEVER print current standings, results, fixtures, transfer rumours or odds. Real people: verifiable facts only, [VERIFY] anything uncertain, no speculation about private life. Link the Ефбет Лига guide plus sibling club/legend articles. No betting tips; optional RG line.",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-10-28 (Bulgarian-football batch). Evergreen profile/history only. NEVER print current standings, results, fixtures, transfer rumours or odds. Real people: verifiable facts only, [VERIFY] anything uncertain, no speculation about private life. Link the Ефбет Лига guide plus sibling club/legend articles. No betting tips; optional RG line. · WRITTEN 2026-10-28 (recurring fire) → vk-0309, PR #332. Evergreen клубен профил: възход (1945/Домусчиев 2010/елит 2011/требъл 2011/12), 14 поредни титли (2011/12–2024/25, към лятото 2025), 4 Купи, 9 Суперкупи (рекорд), ШЛ групи 2014/15, Хювефарма Арена + трибуна Моци. Guides-only ✓ (0 operator/НАП/affiliate; без класиране/резултати/трансфери/коефициенти). Факти EN/BG Wikipedia. Gate 95, Gemini human 90, img:2 (review 95), ~612 думи, 0 flags. (Ефбет Лига/сиблинг клубни профили още не публикувани → линкват се при наличие.)",
       "opportunity": {
         "score": 96,
         "band": "Strong",
@@ -12157,14 +12180,14 @@
       }
     ],
     "bands": {
-      "Strong": 48,
+      "Strong": 47,
       "Moderate": 2
     },
     "clusters": {
       "uncategorised": {
-        "winnable": 49,
+        "winnable": 48,
         "pillar": 0,
-        "total": 50
+        "total": 49
       }
     },
     "winnable": [
@@ -12780,19 +12803,6 @@
         "src": "backlog"
       },
       {
-        "query": "Лудогорец — история, титли и Хювефарма Арена",
-        "keywords": "лудогорец, лудогорец история, лудогорец титли, хювефарма арена",
-        "volume": "81000",
-        "kd": "9",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 96,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
         "query": "Реми (rummy): правила и как се играе (теглене, подреждане, сваляне)",
         "keywords": "реми правила, как се играе реми, реми карти, правила на реми",
         "volume": "50",
@@ -12809,7 +12819,7 @@
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 49,
+      "winnable": 48,
       "pillars": 0
     }
   }

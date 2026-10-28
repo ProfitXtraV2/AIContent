@@ -1,13 +1,15 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-10-28T20:54:29Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-10-28T21:35:39Z",
+  "articles_written": 1,
+  "prs_opened": [
+    332
+  ],
   "run_url": "https://claude.ai/code/session_01AwuYFSQMyLqr5ux2dKp9f7",
-  "note": "daily run 2026-10-28 (recurring) — writing 1 new guide vk (Лудогорец profile, backlog P0 open 81000/kd9, owner-approved); reconcile clean; monthly SEO already done",
+  "note": "daily run 2026-10-28 (recurring fire) done — 1 NEW guide vk-0309 „Лудогорец — история, титли и Хювефарма Арена\" (PR #332), backlog P0 top open in-scope row (OWNER-APPROVED 2026-10-28, cluster 81000/kd9 WIN). Reconcile clean (0 in-progress/HANDOFF/CLAIMED). Monthly SEO 2026-10 already done (no-op). Evergreen клубен профил (guides-only ✓: 0 operator/НАП/affiliate; без класиране/резултати/трансфери/коефициенти): възход (1945 линия/Домусчиев 2010/елит 2011 Петев/требъл 2011/12), 14 поредни титли 2011/12–2024/25 (към лятото 2025), 4 Купи, 9 Суперкупи (рекорд), 2-ри бълг. клуб в групите на ШЛ 2014/15, стадион 1954→Хювефарма Арена 2020 над 10 000 места, трибуна Моци 2308. Факти EN/BG Wikipedia (PFC Ludogorets Razgrad / Kiril Domuschiev / Хювефарма Арена); 0 [VERIFY]; трофеи рамкирани „към лятото на 2025 г.\". Dedup vs queue + live sitemap (145 URLs, 0 football slugs) = clean. Gate 95 PASS 0-crit; Gemini Step-7 keep-best pass1 human 90 (HL 15→90, 1 humaniser pass; length-expansion опит паднал HL~25-30 като енциклопедично изброяване → reverted per keep-best+never-pad, ~612 думи). img:2 (infographic числа 1:1 vs 05b + decorative hero webp 12KB; image review 95 PASS p1, 0 integrity). 3 internal links live + otgovorna-igra footer; 0 em-dash; no affiliate. Step-6: backlog fully ahrefs-enriched (owner 2026-10-28 football sweep; 0 open rows need metrics, 57 open remain for future runs in priority order); research bank unchanged at 3 distinct winnable (Казино Холдем/Видео покер/Реми), 0 new candidates added (no-padding: 57-row writable backlog >> intake). Board on main; dashboard rebuilt (buffer 232/10); feed refreshed (19 approved). No flags resolved, nothing posted/merged/fabricated. PR #332 not babysat (content-only PR, CI only on merge; scheduled run ends idle per playbook).",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-10-28-ludogorec-istoriya-titli",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "stage_index": null,
+    "stage": null
   }
 }
