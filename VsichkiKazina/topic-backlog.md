@@ -8,6 +8,12 @@ for open rows via Ahrefs (or web fallback) and tells you whether the keyword is 
 
 `type` ∈ review | guide | news | comparison | hub-intro (category-page intro copy — see „Hub-intro rows“ in automation/daily-run.md) · `checked` ∈ ahrefs | web | none
 
+> ⭐ **OWNER BURST 2026-10-28 → 2026-10-29 (owner-approved, live session):** the owner asked for the
+> top-10 P0 rows (Лудогорец … Формула 1) to be written NOW, back-to-back. Each manual fire on these
+> dates is an INTENTIONAL separate run, NOT a duplicate same-day re-fire: write exactly 1 new article
+> (MAX_PER_RUN=1 still applies per fire) from the next open P0 row, as normal. Ends once those 10 rows
+> are drafted; after that, back to 1/day on the schedule.
+
 | priority | type | query | keywords_or_terms | volume | kd | intent | checked | ahrefs_note | status | notes |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 0 | guide | Лудогорец — история, титли и Хювефарма Арена | лудогорец, лудогорец история, лудогорец титли, хювефарма арена | 81000 | 9 | informational | ahrefs | WIN 81000/kd9 (2026-10-28 football sweep). Club profile. | written | OWNER-APPROVED 2026-10-28 (Bulgarian-football batch). Evergreen profile/history only. NEVER print current standings, results, fixtures, transfer rumours or odds. Real people: verifiable facts only, [VERIFY] anything uncertain, no speculation about private life. Link the Ефбет Лига guide plus sibling club/legend articles. No betting tips; optional RG line. · WRITTEN 2026-10-28 (recurring fire) → vk-0309, PR #332. Evergreen клубен профил: възход (1945/Домусчиев 2010/елит 2011/требъл 2011/12), 14 поредни титли (2011/12–2024/25, към лятото 2025), 4 Купи, 9 Суперкупи (рекорд), ШЛ групи 2014/15, Хювефарма Арена + трибуна Моци. Guides-only ✓ (0 operator/НАП/affiliate; без класиране/резултати/трансфери/коефициенти). Факти EN/BG Wikipedia. Gate 95, Gemini human 90, img:2 (review 95), ~612 думи, 0 flags. (Ефбет Лига/сиблинг клубни профили още не публикувани → линкват се при наличие.) |
