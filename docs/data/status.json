@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-28T16:35:57Z",
+  "generated_utc": "2026-10-28T16:36:48Z",
   "buffer": {
     "count": 229,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 213,
-    "approved": 16,
+    "drafted": 212,
+    "approved": 17,
     "posted": 73,
     "failed": 1
   },
@@ -6092,7 +6092,7 @@
     },
     {
       "id": "vk-0301",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Стани богат онлайн — как се играе играта и правилата на предаването",
       "keywords_or_terms": "стани богат онлайн, стани богат игра",
