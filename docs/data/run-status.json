@@ -5,12 +5,12 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01AwuYFSQMyLqr5ux2dKp9f7",
-  "note": "daily run 2026-10-28 (recurring fire) — reconcile clean (0 in-progress/HANDOFF/CLAIMED); monthly SEO 2026-10 already done; selecting at most 1 new guide",
+  "note": "daily run 2026-10-28 (recurring) — writing 1 new guide vk (Лудогорец profile, backlog P0 open 81000/kd9, owner-approved); reconcile clean; monthly SEO already done",
   "progress": {
-    "phase": "selecting",
-    "article_index": 0,
-    "article_total": 0,
-    "article_slug": null,
+    "phase": "writing",
+    "article_index": 1,
+    "article_total": 1,
+    "article_slug": "2026-10-28-ludogorec-istoriya-titli",
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": null,
-    "stage": null
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
