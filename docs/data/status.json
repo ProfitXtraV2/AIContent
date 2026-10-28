@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-28T07:41:50Z",
+  "generated_utc": "2026-10-28T16:33:57Z",
   "buffer": {
     "count": 229,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 216,
-    "approved": 13,
+    "drafted": 215,
+    "approved": 14,
     "posted": 73,
     "failed": 1
   },
@@ -5908,7 +5908,7 @@
     },
     {
       "id": "vk-0293",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Пасианс — правила и видове: Клондайк, Паяк, FreeCell",
       "keywords_or_terms": "пасианс, пасианс паяк, пасианс клондайк, как се играе пасианс",

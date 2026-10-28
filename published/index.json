@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 13,
+  "count": 14,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -92,7 +92,14 @@
       "date_modified": "2026-10-24",
       "content_hash": "0faab48f87c4dae5e35478feb46da66b0c58cdd2dd05e8c6f5ac69588580d73d",
       "status": "approved"
+    },
+    {
+      "slug": "pasians-pravila",
+      "title": "Пасианс правила: Клондайк, Паяк и FreeCell",
+      "date_modified": "2026-10-27",
+      "content_hash": "9ad1c38d37f81ce35a62720a477983d2e2eedf90e2f94b74a5361e4bb1c4acf6",
+      "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-28T07:41:51Z"
+  "generated_utc": "2026-10-28T16:33:57Z"
 }
