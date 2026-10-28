@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-28T16:36:48Z",
+  "generated_utc": "2026-10-28T16:37:26Z",
   "buffer": {
     "count": 229,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 212,
-    "approved": 17,
+    "drafted": 211,
+    "approved": 18,
     "posted": 73,
     "failed": 1
   },
@@ -6000,7 +6000,7 @@
     },
     {
       "id": "vk-0297",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Проверка на фиш Тото — как да проверите печалба онлайн, в приложението и на гише",
       "keywords_or_terms": "проверка на фиш, спорт тото 6 49 проверка на фиш, проверка на фиш тото",

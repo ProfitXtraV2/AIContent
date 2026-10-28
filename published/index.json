@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 17,
+  "count": 18,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -101,6 +101,13 @@
       "status": "approved"
     },
     {
+      "slug": "proverka-na-fish",
+      "title": "Проверка на фиш Тото: онлайн и на гише | Всички Казина",
+      "date_modified": "2026-10-27",
+      "content_hash": "57cbf19668279c4524050ed2e8e35351a971e730d846e85ddf361e94fbc3558d",
+      "status": "approved"
+    },
+    {
       "slug": "teglene-na-toto-dnes",
       "title": "Теглене на Тото: дни, час и къде да гледате | Всички Казина",
       "date_modified": "2026-10-27",
@@ -122,5 +129,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-28T16:36:48Z"
+  "generated_utc": "2026-10-28T16:37:26Z"
 }
