@@ -107,7 +107,7 @@ No rule-of-three lists. Use two items or four. Or one.
 No parallel construction repeated across consecutive sentences or bullets.
 No "balanced" hedging. Pick a side or complicate it asymmetrically.
 No repeated paragraph template (fact → "what it means" → example → takeaway). If three consecutive sections share a shape, rebuild two.
-No restating conclusion. End on a forward-looking thought, a sharp opinion, an open question — or just stop.
+No restating conclusion. End on a forward-looking thought, a sharp opinion, an open question — or just stop. (BG, confirmed Gemini 2026-09-10: also the dedicated „Накратко" recap SECTION and the grand „Ако … трябва да остане едно изречение…" line that re-states the whole article — cut them; a short explainer needs no recap, end on the last concrete point.)
 No announced intro. Start mid-thought, with a claim, a number, a scene, or an irritation.
 No colon/dash-tease heading formula repeated through the piece.
 Em-dashes: maximum one per ~400 words; never as habitual afterthought tacker. FINAL-STAGE OVERRIDE (applies when this is a post-Brand-Gate light re-check rather than the main Phase 2 pass): remove ALL em-dashes, replacing each with a hyphen-dash, comma, colon, or full stop - zero survive to publish.
@@ -118,9 +118,9 @@ No staccato "statement / fragment / afterthought" pulse repeating through the te
 No recurring "X. Nicht Y, aber Z." construction (or its per-language equivalent). (BG, confirmed Gemini 2026-09-07 — the top recurring BG tell, 7/10 articles: „не A, а B" as a paragraph-ending mic-drop, e.g. „…от оборота, не от резултата ти"; „…играта, не вашата сесия". Also the demonstrative crutches „Именно тази / Точно тази / точно затова" and the debunk template „Звучи като X… Само че / а на практика Y".)
 No perfect-balance both-sides outro. End asymmetrically; take a side.
 NO TWO-BEAT STACCATO PARAGRAPHS: do not let "short setup. short payoff." become the dominant rhythm. Vary internal paragraph structure - flowing single sentences, blunt one-beat statements with no follow-up, 3-4 sentence builds.
-NO NARRATED EMOTION: replace "Was mich genervt hat: X" with a direct statement of the problem and its consequence. Irritation lives in word choice and verdict, never in a sentence announcing "I felt X."
+NO NARRATED EMOTION: replace "Was mich genervt hat: X" with a direct statement of the problem and its consequence. Irritation lives in word choice and verdict, never in a sentence announcing "I felt X." (BG, confirmed Gemini 2026-09-10: also the READER-directed variant — presumptive 2nd person „свикваш да…/струва ти се…", „За теб това значи…"/„За теб като играч…" framing, preachy imperatives „гледай на X като на Y, не като на Z" and „перфектно за играчи, които…" persona-endings. State the game-design fact objectively; no „ти", no order.)
 NO VERSION A/B DILEMMA STRUCTURE: if you find one, do NOT smooth it into better prose - this means a [CONFLICT] was never resolved. Flag it explicitly as needing human re-verification in your change log; do not silently pick a side or rewrite around it.
-NO CONTRAST/SUBVERSION OPENING: if the article opens with a known-fact-then-but-pivot, rewrite the opening to lead with a specific finding, number, or the strongest point directly.
+NO CONTRAST/SUBVERSION OPENING: if the article opens with a known-fact-then-but-pivot, rewrite the opening to lead with a specific finding, number, or the strongest point directly. (BG, confirmed Gemini 2026-09-10: the dominant BG form is the „повърхност vs. дълбочина" hook — „изглежда просто/детско/сложно, но отдолу/зад това стои…" — open on the mechanic or the hardest number instead.)
 NO EMOJI CHECKBOX FORMATTING: replace ✓/✗ rule-breakdowns with plain prose or an unformatted list.
 PRONOUN AUDIT: every first-person claim must be backed by a real receipt, specific evidence, or a briefed anecdote. If it's an unsupported generic opinion ("I think this is good"), rewrite it objectively as a stated fact or verdict instead.
 NO FALSE CLIMAXES: cut manufactured-tension phrases before a point. Deliver the complicated part immediately.
