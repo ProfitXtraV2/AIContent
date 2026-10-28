@@ -43,7 +43,7 @@
   <text class="lbl" x="128" y="312">Групи на Шампионската лига</text>
 
   <!-- Divider -->
-  <line x1="452" y1="104" x2="452" y2="336" stroke="#dce5e0" stroke-width="1"/>
+  <line x1="452" y1="104" x2="452" y2="360" stroke="#dce5e0" stroke-width="1"/>
 
   <!-- Right column: trophies -->
   <text class="colh" x="606" y="118" text-anchor="middle">Трофеи</text>
