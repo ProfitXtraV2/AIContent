@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-28T16:35:30Z",
+  "generated_utc": "2026-10-28T16:35:57Z",
   "buffer": {
     "count": 229,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 214,
-    "approved": 15,
+    "drafted": 213,
+    "approved": 16,
     "posted": 73,
     "failed": 1
   },
@@ -6069,7 +6069,7 @@
     },
     {
       "id": "vk-0300",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Шах — правила за начинаещи: фигури, ходове, шах и мат",
       "keywords_or_terms": "шах, шах правила, как се играе шах, шах срещу компютър",

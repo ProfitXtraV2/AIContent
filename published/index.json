@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 15,
+  "count": 16,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -106,7 +106,14 @@
       "date_modified": "2026-10-27",
       "content_hash": "565b09b1a771de358797f0f5cfb12f5683c697c3e0c0fafdc366f89adf1fbe87",
       "status": "approved"
+    },
+    {
+      "slug": "shah-pravila",
+      "title": "Шах правила за начинаещи: фигури, ходове, шах и мат",
+      "date_modified": "2026-10-27",
+      "content_hash": "a2f9dd4e351c53f65adb1a4c198f94a675e985f0eaaccec2fc26f38afc627675",
+      "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-28T16:35:30Z"
+  "generated_utc": "2026-10-28T16:35:57Z"
 }
