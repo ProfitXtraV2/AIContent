@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-28T21:35:09Z",
+  "generated_utc": "2026-10-28T22:09:05Z",
   "buffer": {
-    "count": 232,
+    "count": 233,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 213,
+    "drafted": 214,
     "approved": 19,
     "posted": 76,
     "failed": 1
@@ -6297,6 +6297,29 @@
       },
       "verify_flags": 0,
       "verify_samples": []
+    },
+    {
+      "id": "vk-0310",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Тенис — правила и точкуване: гейм, сет, тайбрек",
+      "keywords_or_terms": "тенис, тенис правила, тенис точкуване, как се играе тенис",
+      "volume": "55000",
+      "kd": "0",
+      "source": "backlog",
+      "drafted_date": "2026-10-28",
+      "posted_date": "",
+      "folder": "2026-10-28-tenis-pravila-tochkuvane",
+      "pr": "#333",
+      "gemini": "human 90",
+      "notes": "OWNER BURST 2026-10-28 (hourly window → 2026-10-29 07:00 UTC); next open P0 burst row after Лудогорец (vk-0309). Evergreen tennis scoring/rules guide (guides-only ✓: 0 operator/НАП/affiliate; no rankings/results/fixtures/form/odds; no predictions). Cluster тенис 55000/kd0 WIN. Dedup vs queue + live sitemap (145 URLs) = 0 tennis coverage, clean. Facts = ITF Rules of Tennis + 2022 Grand Slam Board unified 10-point final-set tiebreak (framed „от 2022 г.\"): точки 0/15/30/40 + деус (+2), сет до 6 гейма преднина 2 (6-4/7-5), тайбрек до 7 (+2) + решаващ до 10, best-of-3/5, сервис (2 опита/двойна грешка/лет/диагонал/смяна страни), корт/настилки. ~764 думи, 0 em-dash, 0 flags. Gate 94 PASS 0-crit. Gemini Step-7 keep-best pass1-humaniser human 90 (HL 85→90, 1 humaniser pass: cut intro signpost + rhetorical-question pivot). img:2 (infographic tenis-tochkuvane-stylba.svg числа 1:1 vs 05b + decorative hero webp 43KB; image review 100 PASS, 0 integrity). 4 body internal links live (zakonno-li-e / blog-sport / bonus-ruletka-sport-vsichki / blog-responsible-gambling) + otgovorna-igra footer; no affiliate. PR #333. vol/kd 55000/0 (ahrefs, from backlog).",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
     }
   ],
   "backlog": [
@@ -6328,8 +6351,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 55000/kd0 (2026-10-28 sports sweep). How-to-play rules guide.",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-28 (sports-guide batch; owner approved sports scope). Evergreen guide on format, rules and how it works. NEVER print current standings, results, fixtures or odds (they go stale); link to official sources for live data. No betting tips. Optional light link to /bonus-ruletka/sport/ + RG line.",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-10-28 (sports-guide batch; owner approved sports scope). Evergreen guide on format, rules and how it works. NEVER print current standings, results, fixtures or odds (they go stale); link to official sources for live data. No betting tips. Optional light link to /bonus-ruletka/sport/ + RG line. · WRITTEN 2026-10-28 (owner burst fire, next P0 after Лудогорец) → vk-0310, PR #333. Evergreen scoring/rules guide (ITF laws + 2022 Grand Slam Board final-set 10-pt tiebreak); 0 operator/НАП/affiliate, 0 predictions/odds/rankings. ~764 words. Gate 94 PASS, Gemini human 90 (keep-best pass1-humaniser), img:2 best review 100. Linked /blog/sport/ + /bonus-ruletka/sport/vsichki/ (money) + /zakonno-li-e/ + /blog/responsible-gambling/.",
       "opportunity": {
         "score": 100,
         "band": "Strong",
@@ -12180,30 +12203,17 @@
       }
     ],
     "bands": {
-      "Strong": 47,
+      "Strong": 46,
       "Moderate": 2
     },
     "clusters": {
       "uncategorised": {
-        "winnable": 48,
+        "winnable": 47,
         "pillar": 0,
-        "total": 49
+        "total": 48
       }
     },
     "winnable": [
-      {
-        "query": "Тенис — правила и точкуване: гейм, сет, тайбрек",
-        "keywords": "тенис, тенис правила, тенис точкуване, как се играе тенис",
-        "volume": "55000",
-        "kd": "0",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 100,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
       {
         "query": "Лионел Меси — кариера, рекорди, трофеи и стил на игра",
         "keywords": "лионел меси, меси, меси кариера, меси трофеи",
@@ -12819,7 +12829,7 @@
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 48,
+      "winnable": 47,
       "pillars": 0
     }
   }
