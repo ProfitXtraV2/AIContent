@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" font-family="'Segoe UI',Arial,sans-serif" role="img" aria-label="Сравнение на платформите за белот онлайн: Belot.BG, Djagi и Belot от lan.bg — къде работят, режими на игра и ключови данни">
+  <rect x="0" y="0" width="760" height="500" rx="16" fill="#0f1b2d"/>
+  <text x="32" y="46" fill="#ffffff" font-size="22" font-weight="700">Белот онлайн: къде се играе</text>
+  <text x="32" y="74" fill="#8fb4d9" font-size="14">Безплатно, с виртуални чипове. Не са реални пари и не се осребряват.</text>
+
+  <!-- Card 1: Belot.BG -->
+  <g>
+    <rect x="24" y="96" width="224" height="356" rx="12" fill="#17273d" stroke="#2a3d57" stroke-width="1"/>
+    <text x="40" y="128" fill="#ffffff" font-size="17" font-weight="700">Belot.BG</text>
+    <text x="40" y="149" fill="#6f8db0" font-size="12">издател Casualino</text>
+
+    <text x="40" y="182" fill="#5fd0a0" font-size="12" font-weight="700">КЪДЕ РАБОТИ</text>
+    <text x="40" y="203" fill="#dce8f4" font-size="13">Уеб, приложение,</text>
+    <text x="40" y="221" fill="#dce8f4" font-size="13">Facebook, Smart TV</text>
+
+    <text x="40" y="252" fill="#5fd0a0" font-size="12" font-weight="700">РЕЖИМИ</text>
+    <text x="40" y="273" fill="#dce8f4" font-size="13">Срещу хора, ботове</text>
+    <text x="40" y="291" fill="#dce8f4" font-size="13">и с приятели</text>
+
+    <text x="40" y="322" fill="#5fd0a0" font-size="12" font-weight="700">ДАННИ</text>
+    <text x="40" y="343" fill="#dce8f4" font-size="13">Дневен бонус:</text>
+    <text x="40" y="361" fill="#ffd36b" font-size="14" font-weight="700">5 000 чипа</text>
+    <text x="40" y="384" fill="#dce8f4" font-size="13">Възраст: 13+</text>
+  </g>
+
+  <!-- Card 2: Djagi -->
+  <g>
+    <rect x="268" y="96" width="224" height="356" rx="12" fill="#17273d" stroke="#2a3d57" stroke-width="1"/>
+    <text x="284" y="128" fill="#ffffff" font-size="17" font-weight="700">Djagi (Джаги)</text>
+    <text x="284" y="149" fill="#6f8db0" font-size="12">издател BIG MAGE</text>
+
+    <text x="284" y="182" fill="#5fd0a0" font-size="12" font-weight="700">КЪДЕ РАБОТИ</text>
+    <text x="284" y="203" fill="#dce8f4" font-size="13">Приложение</text>
+
+    <text x="284" y="252" fill="#5fd0a0" font-size="12" font-weight="700">РЕЖИМИ</text>
+    <text x="284" y="273" fill="#dce8f4" font-size="13">Срещу хора</text>
+    <text x="284" y="291" fill="#dce8f4" font-size="13">и с приятели</text>
+
+    <text x="284" y="322" fill="#5fd0a0" font-size="12" font-weight="700">ДАННИ</text>
+    <text x="284" y="343" fill="#ffd36b" font-size="14" font-weight="700">20+ игри</text>
+    <text x="284" y="364" fill="#dce8f4" font-size="13">(белот, табла,</text>
+    <text x="284" y="382" fill="#dce8f4" font-size="13">сантасе и други)</text>
+  </g>
+
+  <!-- Card 3: Belot lan.bg -->
+  <g>
+    <rect x="512" y="96" width="224" height="356" rx="12" fill="#17273d" stroke="#2a3d57" stroke-width="1"/>
+    <text x="528" y="128" fill="#ffffff" font-size="17" font-weight="700">Belot</text>
+    <text x="528" y="149" fill="#6f8db0" font-size="12">Bridge-Belote · lan.bg</text>
+
+    <text x="528" y="182" fill="#5fd0a0" font-size="12" font-weight="700">КЪДЕ РАБОТИ</text>
+    <text x="528" y="203" fill="#dce8f4" font-size="13">Приложение</text>
+
+    <text x="528" y="252" fill="#5fd0a0" font-size="12" font-weight="700">РЕЖИМИ</text>
+    <text x="528" y="273" fill="#dce8f4" font-size="13">Срещу хора</text>
+    <text x="528" y="291" fill="#dce8f4" font-size="13">или компютър</text>
+
+    <text x="528" y="322" fill="#5fd0a0" font-size="12" font-weight="700">ДАННИ</text>
+    <text x="528" y="343" fill="#dce8f4" font-size="13">Класически режим,</text>
+    <text x="528" y="361" fill="#dce8f4" font-size="13">и офлайн тренировка</text>
+    <text x="528" y="379" fill="#dce8f4" font-size="13">срещу бот</text>
+  </g>
+
+  <line x1="24" y1="472" x2="736" y2="472" stroke="#2a3d57" stroke-width="1"/>
+  <text x="32" y="492" fill="#6f8db0" font-size="12">Числата са по публичните данни на самите платформи · 18+ Играйте отговорно</text>
+</svg>

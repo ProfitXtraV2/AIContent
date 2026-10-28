@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-28T16:37:57Z",
+  "generated_utc": "2026-10-28T16:43:25Z",
   "buffer": {
     "count": 229,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 210,
-    "approved": 19,
+    "drafted": 209,
+    "approved": 20,
     "posted": 73,
     "failed": 1
   },
@@ -5954,7 +5954,7 @@
     },
     {
       "id": "vk-0295",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Белот онлайн — къде и как да играете: Белот БГ, Джаги и други платформи",
       "keywords_or_terms": "белот бг, джаги белот, белот онлайн, белот",

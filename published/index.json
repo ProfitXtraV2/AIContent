@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 19,
+  "count": 20,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -101,6 +101,13 @@
       "status": "approved"
     },
     {
+      "slug": "belot-onlayn",
+      "title": "Белот онлайн: къде се играе безплатно | Всички Казина",
+      "date_modified": "2026-10-27",
+      "content_hash": "8a0f1a40daa383089c3c3aee5dead725d8be565e1c2eb555171fba6033924233",
+      "status": "approved"
+    },
+    {
       "slug": "tabla-onlayn",
       "title": "Табла онлайн: къде се играе безплатно | Всички Казина",
       "date_modified": "2026-10-27",
@@ -136,5 +143,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-28T16:37:57Z"
+  "generated_utc": "2026-10-28T16:43:25Z"
 }
