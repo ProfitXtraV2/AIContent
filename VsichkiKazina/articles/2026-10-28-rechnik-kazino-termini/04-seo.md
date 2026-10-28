@@ -1,8 +1,9 @@
-<!-- Meta: Справочник на 45-те казино термина: какво значат на практика RTP, волатилност, превъртане, wager, бонус механики и жаргонът, който в рекламата значи едно, а в общите условия друго. -->
+<!-- Title: Казино речник: RTP, волатилност, превъртане и термини -->
+<!-- Meta: Казино речник с 45 термина: какво значат на практика RTP, волатилност, превъртане, wager и бонус условията, които в рекламата звучат иначе. -->
 
 # Казино речник: значение на RTP, волатилност, превъртане и други термини
 
-Казино терминологията е смес от маркетинг, математика и жаргон на доставчиците. Долу са думите, които най-често спират читателя насред едни общи условия: какво стои зад тях на практика и къде рекламният надпис обещава едно, а договорът пише друго. Където има отделна подробна статия, следва връзка.
+Казино термините са смес от маркетинг, математика и жаргон на доставчиците. Този казино речник събира думите, които най-често спират читателя насред едни общи условия: какво стои зад тях на практика и къде рекламният надпис обещава едно, а договорът пише друго. Където има отделна подробна статия, следва връзка.
 
 ## Бързо навигиране (А–Я)
 
@@ -235,3 +236,32 @@ KYC проверка, методът на плащане и банковите �
 **Разкриване на партньорства.** Всички Казина съдържа партньорски (афилиейт) връзки; когато отвориш оферта през такава връзка, това може да финансира сайта, без да променя цената за теб и без да влияе на оценките ни. От 1 август 2026 г. дейността на афилиейт оператори в България се лицензира съгласно Закона за държавния бюджет за 2026 г. (ДВ, бр. 69 от 31.07.2026 г.). Всички Казина е подало заявление за лиценз пред Националната агенция по приходите и очаква издаването му.
 
 _Георги Тодоров · 28.10.2026_
+
+---
+
+## SEO AUDIT
+
+**Target query:** казино термини (primary) · казино речник (primary) | **Intent:** informational — definitional/reference | **Format match:** yes — glossary with one definition-first entry per term is the correct shape for „какво е X" queries and featured snippets.
+
+**Relevance score: 93/100** (Query alignment 24/25 | Entity coverage 34/35 | Subtopic completeness 24/25 | On-page 11/15 — on-page capped only because schema/freshness markup lives outside this file).
+
+**Primary keyword placement (once each, no flooding):**
+- **Title tag** (53 chars): „Казино речник: RTP, волатилност, превъртане и термини" — carries „казино речник" + „…термини".
+- **Meta** (139 chars): opens „Казино речник с 45 термина…" — both roots, plus the secondary snippet terms (RTP, волатилност, превъртане, wager).
+- **H1:** „Казино речник: значение на RTP, волатилност, превъртане и други термини" — „казино речник" + „термини" (unchanged, matches brief direction).
+- **Intro, sentence 1:** „Казино термините са смес от маркетинг, математика и жаргон…" → primary „казино термини".
+- **Intro, sentence 2:** „Този казино речник събира думите…" → primary „казино речник".
+
+**Secondary queries (left on their term entries — these are the snippet targets):** „какво означава превъртане на бонус" → #prevartane · „какво е RTP" → #rtp · „волатилност слот значение" → #volatilnost · „какво е wager" → #prevartane (Превъртане/разиграване/wager). Each term heading answers one „какво е X" query with a definition-first opening sentence.
+
+**Entity coverage:** complete across all six groups — bonus/wagering mechanics, game maths (RTP/house edge/волатилност/hit frequency/RNG), slot mechanics (15 terms), live formats, profile/payments/regulation (KYC, НАП licence), and the „means-something-else" marketing terms. No missing core entity for this query; nothing orphaned.
+
+**Anti-flooding check:** primary phrase appears once per on-page slot (title, meta, H1, two intro sentences) and is not stuffed into term headings — term headings stay clean `### Термин`. No doorway intro, no empty SEO paragraph, no restated FAQ block. Pass.
+
+**Internal links:** glossary is an internal-link HUB — 19 live internal links on their term entries (all from the brief's verified map, including the /zakonno-li-e/ companion on „Лиценз от НАП") plus the three footer links (/kak-ocenyavame/, /sravni-kazina/, /otgovorna-igra/). No links added or changed; none invented.
+
+**Schema recommendation (template-layer, not in this file):** `DefinedTermSet` with a `DefinedTerm` per entry (strongest fit for a glossary) + `Article` + `Person` (author Георги Тодоров). `FAQPage` not advised — entries are term definitions, not Q&A. `BreadcrumbList` for the /blog/ path.
+
+**Freshness:** dated byline 28.10.2026 present; recommend a visible „последна редакция" stamp at template level on this refresh.
+
+**Integrity confirmation:** 45 term headings + 45 A–Я index anchors intact and matching; 19 term live-links + footer links unchanged; every illustrative number intact (x30/x35/x40, 96% RTP, 4% предимство, 25% hit frequency, x2/x10, ~100× залог, 5 барабана, 10–20%/100% принос); zero operator names/figures added; verbatim RG line, НАП register + Солидарност signposting, About slot, affiliate-licensing disclosure and byline preserved.
