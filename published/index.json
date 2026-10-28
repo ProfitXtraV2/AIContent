@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 14,
+  "count": 15,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -99,7 +99,14 @@
       "date_modified": "2026-10-27",
       "content_hash": "9ad1c38d37f81ce35a62720a477983d2e2eedf90e2f94b74a5361e4bb1c4acf6",
       "status": "approved"
+    },
+    {
+      "slug": "teglene-na-toto-dnes",
+      "title": "Теглене на Тото: дни, час и къде да гледате | Всички Казина",
+      "date_modified": "2026-10-27",
+      "content_hash": "565b09b1a771de358797f0f5cfb12f5683c697c3e0c0fafdc366f89adf1fbe87",
+      "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-28T16:33:57Z"
+  "generated_utc": "2026-10-28T16:35:30Z"
 }
