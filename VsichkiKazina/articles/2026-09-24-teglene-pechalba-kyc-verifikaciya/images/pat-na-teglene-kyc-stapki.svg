@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 748" font-family="'Segoe UI',Arial,sans-serif" role="img" aria-label="Пътят на едно теглене от онлайн казино в пет стъпки с примерни срокове по метод">
+  <rect x="0" y="0" width="680" height="748" fill="#f5f7fa"/>
+  <rect x="16" y="16" width="648" height="716" rx="14" fill="#ffffff" stroke="#d8dee6" stroke-width="1.5"/>
+
+  <text x="340" y="52" text-anchor="middle" font-size="21" font-weight="700" fill="#1f2a37">Пътят на едно теглене от онлайн казино</text>
+  <text x="340" y="76" text-anchor="middle" font-size="13" fill="#5b6675">5 стъпки, от депозита до изплащането</text>
+
+  <!-- Step cards -->
+  <!-- card 1 -->
+  <rect x="120" y="96" width="440" height="52" rx="10" fill="#eef3f8" stroke="#c7d3e0" stroke-width="1"/>
+  <circle cx="152" cy="122" r="16" fill="#2f6f8f"/>
+  <text x="152" y="128" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">1</text>
+  <text x="184" y="128" font-size="16" font-weight="600" fill="#1f2a37">Депозит</text>
+  <polygon points="332,152 348,152 340,162" fill="#9aa7b5"/>
+  <!-- card 2 -->
+  <rect x="120" y="166" width="440" height="52" rx="10" fill="#eef3f8" stroke="#c7d3e0" stroke-width="1"/>
+  <circle cx="152" cy="192" r="16" fill="#2f6f8f"/>
+  <text x="152" y="198" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">2</text>
+  <text x="184" y="198" font-size="16" font-weight="600" fill="#1f2a37">Игра</text>
+  <polygon points="332,222 348,222 340,232" fill="#9aa7b5"/>
+  <!-- card 3 -->
+  <rect x="120" y="236" width="440" height="52" rx="10" fill="#eef3f8" stroke="#c7d3e0" stroke-width="1"/>
+  <circle cx="152" cy="262" r="16" fill="#2f6f8f"/>
+  <text x="152" y="268" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">3</text>
+  <text x="184" y="268" font-size="16" font-weight="600" fill="#1f2a37">Заявка за теглене</text>
+  <polygon points="332,292 348,292 340,302" fill="#9aa7b5"/>
+  <!-- card 4 (highlight KYC) -->
+  <rect x="120" y="306" width="440" height="52" rx="10" fill="#fdf1e3" stroke="#e2b483" stroke-width="1.5"/>
+  <circle cx="152" cy="332" r="16" fill="#b9701f"/>
+  <text x="152" y="338" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">4</text>
+  <text x="184" y="338" font-size="16" font-weight="600" fill="#1f2a37">Верификация (KYC)</text>
+  <text x="544" y="338" text-anchor="end" font-size="12" fill="#8a5a1e">първото теглене е тук</text>
+  <polygon points="332,362 348,362 340,372" fill="#9aa7b5"/>
+  <!-- card 5 -->
+  <rect x="120" y="376" width="440" height="52" rx="10" fill="#e8f2ec" stroke="#a9cbb8" stroke-width="1"/>
+  <circle cx="152" cy="402" r="16" fill="#2f7d55"/>
+  <text x="152" y="408" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">5</text>
+  <text x="184" y="408" font-size="16" font-weight="600" fill="#1f2a37">Изплащане</text>
+
+  <!-- divider -->
+  <line x1="48" y1="456" x2="632" y2="456" stroke="#e0e6ee" stroke-width="1"/>
+
+  <!-- timelines -->
+  <text x="340" y="484" text-anchor="middle" font-size="15" font-weight="700" fill="#1f2a37">Примерни срокове по метод (след одобрение)</text>
+
+  <text x="72" y="518" font-size="14" fill="#33404f">Електронен портфейл</text>
+  <text x="608" y="518" text-anchor="end" font-size="14" font-weight="600" fill="#1f2a37">до 24 часа</text>
+  <line x1="72" y1="530" x2="608" y2="530" stroke="#eef1f5" stroke-width="1"/>
+
+  <text x="72" y="550" font-size="14" fill="#33404f">Карта</text>
+  <text x="608" y="550" text-anchor="end" font-size="14" font-weight="600" fill="#1f2a37">1 до 3 работни дни</text>
+  <line x1="72" y1="562" x2="608" y2="562" stroke="#eef1f5" stroke-width="1"/>
+
+  <text x="72" y="582" font-size="14" fill="#33404f">Банков превод</text>
+  <text x="608" y="582" text-anchor="end" font-size="14" font-weight="600" fill="#1f2a37">между 1 и 5 работни дни</text>
+  <line x1="72" y1="594" x2="608" y2="594" stroke="#eef1f5" stroke-width="1"/>
+
+  <text x="72" y="614" font-size="14" fill="#33404f">Каса (EasyPay, Cashterminal)</text>
+  <text x="608" y="614" text-anchor="end" font-size="14" font-weight="600" fill="#1f2a37">спрямо работно време</text>
+
+  <!-- first withdrawal note -->
+  <rect x="72" y="636" width="536" height="40" rx="8" fill="#fdf1e3" stroke="#e2b483" stroke-width="1"/>
+  <text x="340" y="661" text-anchor="middle" font-size="13.5" font-weight="600" fill="#8a5a1e">Първо теглене + верификация (KYC): още 24 до 72 часа</text>
+
+  <text x="340" y="706" text-anchor="middle" font-size="12" fill="#6b7686">Всички срокове са примерни и зависят от оператора. 18+ Играйте отговорно.</text>
+</svg>
