@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-28T17:39:01Z",
+  "generated_utc": "2026-10-28T20:52:06Z",
   "buffer": {
-    "count": 227,
+    "count": 231,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 4,
-    "drafted": 208,
+    "in-progress": 0,
+    "drafted": 212,
     "approved": 19,
     "posted": 76,
     "failed": 1
@@ -6184,102 +6184,183 @@
     },
     {
       "id": "vk-0305",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Данък върху печалба от хазарт и онлайн казино в България (2026)",
       "keywords_or_terms": "данък печалба от хазарт, данък хазарт, облагат ли се печалбите от казино, данък върху печалба от онлайн казино, данък печалба тото",
       "volume": "50",
       "kd": "2",
       "source": "refresh",
-      "drafted_date": "",
+      "drafted_date": "2026-10-28",
       "posted_date": "",
       "folder": "2026-10-28-danaci-pechalbi-onlajn-kazino",
-      "pr": "",
-      "gemini": "",
-      "notes": "ONE-OFF 2026-10-28 (owner-requested). REFRESH of live /blog/danaci-pechalbi-onlajn-kazino/ (0 GSC impr 90d), SAME slug/URL. Retarget to „данък печалба от хазарт\" intent. Tax claim unblocked ONLY to extent of source-packs/zddfl-gambling-winnings-2026-10-28.md (чл.13 ал.1 т.20 ЗДДФЛ, в сила 01.01.2017); всичко извън пакета → [VERIFY]/omit, НИКОГА ставка. dedup/anti-cannibal skipped (same URL by design).",
+      "pr": "#328",
+      "gemini": "ai 75",
+      "notes": "ONE-OFF 2026-10-28 (owner-requested). REFRESH of live /blog/danaci-pechalbi-onlajn-kazino/ (0 GSC impr 90d), SAME slug/URL; retarget „данък печалба от хазарт\". Tax claim unblocked ONLY to extent of source-packs/zddfl-gambling-winnings-2026-10-28.md (чл.13 ал.1 т.20 ЗДДФЛ, в сила 01.01.2017); всичко извън пакета → [VERIFY]/omit, НИКОГА ставка; old-page „операторът плаща\"/budget-law/operator-bonus dropped. dedup/anti-cannibal skipped (same URL). · OUTCOME drafted → PR #328. Gate PASS 92/100 0-crit (tax-override: чл.13 т.20 NOT flagged). Gemini Step-7 keep-best: HL 15→15→25 (pass 2), verdict „Shows AI patterns 75%\" → ai 75 (noisy detector on BG YMYL legal copy; facts locked to pack). img:2 (hero 18KB webp + decision-flow SVG numbers-verbatim; image review 75→95 PASS 0-integrity). 3 [VERIFY] STAY (AML прагове; загуби; нелицензиран/извън-ЕС третиране — никога ставка). ~929 думи, 0 em-dash body. Links 4 approved (proverka-licenz-kazino, sravni-kazina, zakonno-li-e, hub regulations-taxes); no affiliate. checked=n/a (refresh).",
       "opportunity": {
         "score": 42,
         "band": "Moderate",
         "winnable": true
       },
-      "verify_flags": null,
-      "verify_samples": []
+      "verify_flags": 3,
+      "verify_samples": [
+        "[VERIFY: конкретни AML прагове/задължения при входящ превод — извън source pack; дръж общо/хеджирано или насочи към банката]",
+        "[VERIFY: третиране на хазартни загуби по ЗДДФЛ — извън source pack; дръж хеджирано или пропусни]",
+        "[VERIFY: данъчно третиране на печалба от нелицензиран / извън-ЕС/ЕИП организатор — извън source pack; НИКОГА ставка/праг; насочи към НАП]"
+      ]
     },
     {
       "id": "vk-0306",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Как да изберете онлайн казино: кое е подходящо за вас (и кое дава най-много)",
       "keywords_or_terms": "как да изберете онлайн казино, как да изберем онлайн казино, кое казино дава най много, кое онлайн казино дава най много",
       "volume": "20",
       "kd": "",
       "source": "refresh",
-      "drafted_date": "",
+      "drafted_date": "2026-10-28",
       "posted_date": "",
       "folder": "2026-10-28-koe-kazino-da-izberete",
-      "pr": "",
-      "gemini": "",
-      "notes": "ONE-OFF 2026-10-28 (owner-requested). REFRESH of live /blog/koe-kazino-da-izberete/ (0 GSC impr 90d), SAME slug/URL. Decision guide by player type; must NOT become a toplist (homepage+/sravni-kazina/ own ranking intent). 5-step checklist open + honest „кое дава най-много\" section (generic mechanics only, NO operator-specific figures — guides-only scope). dedup/anti-cannibal skipped (same URL).",
+      "pr": "#329",
+      "gemini": "human 85",
+      "notes": "ONE-OFF 2026-10-28 (owner-requested). REFRESH of live /blog/koe-kazino-da-izberete/ (0 GSC impr 90d), SAME slug/URL; retarget „как да изберете онлайн казино\" (GSC hit homepage pos 36). Decision guide, NOT a toplist (homepage+/sravni-kazina/ own ranking). 5-step checklist open + 7 generic player profiles + honest „дава най-много\" reframe; operator picks (Betano/Sesame/Winbet/Alphawin) + figures STRIPPED (guides-only, 0 operator). dedup/anti-cannibal skipped (same URL). · OUTCOME drafted → PR #329. Gate PASS WITH FIXES 93/100 (1 crit fixed: „без риск\"→„без да залагате реални пари\"). Gemini Step-7 human 85 PASS pass 1 (no humaniser pass). img:2 (hero 11KB webp + превъртане-база SVG numbers-verbatim €100/€200/€3 500/€7 000/35x; image review 100 PASS 0-integrity). 0 [VERIFY]. ~1540 думи, 0 em-dash body. превъртане always with base; RTP=long-run stat. Links 5 approved (proverka-licenz-kazino, depoziti-i-teglenia, slot-igri/visok-rtp, sravni-kazina ×2, kak-ocenyavame) + otgovorna-igra; no affiliate. checked=n/a (refresh).",
       "opportunity": null,
-      "verify_flags": null,
+      "verify_flags": 0,
       "verify_samples": []
     },
     {
       "id": "vk-0307",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Казино речник: значение на RTP, волатилност, превъртане и други термини",
       "keywords_or_terms": "казино термини, казино речник, какво означава превъртане на бонус, какво е RTP, волатилност слот значение, какво е wager",
       "volume": "0",
       "kd": "",
       "source": "refresh",
-      "drafted_date": "",
+      "drafted_date": "2026-10-28",
       "posted_date": "",
       "folder": "2026-10-28-rechnik-kazino-termini",
-      "pr": "",
-      "gemini": "",
-      "notes": "ONE-OFF 2026-10-28 (owner-requested). REFRESH of live /blog/rechnik-kazino-termini/ (0 GSC impr 90d), SAME slug/URL. KEEP it a glossary (internal-link hub; do NOT retarget to bare волатилност 500/mo — that SERP is 100% finance). Term-per-entry, one-sentence def first, A–Я jump index, grouped sections; expand coverage + link each term to its LIVE article (sitemap-verified only). dedup/anti-cannibal skipped (same URL).",
+      "pr": "#330",
+      "gemini": "human 85",
+      "notes": "ONE-OFF 2026-10-28 (owner-requested). REFRESH of live /blog/rechnik-kazino-termini/ (0 GSC impr 90d), SAME slug/URL. KEPT a glossary (internal-link hub); NOT retargeted to bare волатилност 500/mo (finance SERP). 45 terms, 6 groups, A–Я jump index (45 anchors), snippet-first defs. 19 terms link to their LIVE article (sitemap-verified); terms без жива статия само дефинирани (add link when live). 0 operators/figures (guides-only). dedup/anti-cannibal skipped (same URL). · OUTCOME drafted → PR #330. Gate PASS 92/100 0-crit (glossary link-hub override; +Солидарност hours fix). Gemini Step-7 human 85 PASS pass 1 (no humaniser). img:2 (glossary hero 18KB webp + RTP-96/4 SVG numbers-verbatim; image review 100 PASS 0-integrity). 0 [VERIFY]. Consistency 96% RTP↔4% edge, 25% hit↔1/4. Note: 2 „лев\" idiom RTP phrasings (gate kept idiomatic; human may normalize to €). ~2590 думи, 0 em-dash body; no affiliate. checked=n/a (refresh).",
       "opportunity": null,
-      "verify_flags": null,
+      "verify_flags": 0,
       "verify_samples": []
     },
     {
       "id": "vk-0308",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Нови казино игри 2026",
       "keywords_or_terms": "нови казино игри, нови казино игри 2026, нови игри казино, нови ротативки, нови казино игри безплатно",
       "volume": "1700",
       "kd": "42",
       "source": "refresh",
-      "drafted_date": "",
+      "drafted_date": "2026-10-28",
       "posted_date": "",
       "folder": "2026-10-28-novi-kazino-igri-2026",
-      "pr": "",
-      "gemini": "",
-      "notes": "ONE-OFF 2026-10-28 (owner-requested). REFRESH of live /blog/novi-kazino-igri-2026/ (0 GSC impr 90d), SAME slug/URL. KD 42 > cap 40 — OWNER-APPROVED override (page already exists; current BG #1 is DR6 listing). Fix intent: rewrite LISTING-FIRST (roundup of notable 2026 releases across all game types, each provider/type/mechanic + link to our article where live), short „как да оцените\" at end. Release dates/RTP only from provider page else [VERIFY]. Anti-cannibal /slot-igri/novi/ (link once). Leave old vk-0015 row untouched. dedup skipped (same URL).",
+      "pr": "#331",
+      "gemini": "human 85",
+      "notes": "ONE-OFF 2026-10-28 (owner-requested). REFRESH of live /blog/novi-kazino-igri-2026/ (0 GSC impr 90d), SAME slug/URL. KD 42 > cap 40 — OWNER-APPROVED override. Fixed intent: rewritten LISTING-FIRST — roundup of 9 titles by type (6 ротативки + Aviator + Plinko + шоу на живо), each provider/type/mechanic + link to our LIVE guide; short „как да оцените\" at end. HONESTY: anchors са 2023–24 заглавия → НЕ се твърди „пуснати през 2026\"; без точен RTP/макс/дата като факт (4 [VERIFY]). 0 operator names; само game providers (Pragmatic/Hacksaw/Nolimit/EGT-Amusnet/Spribe; Eye of Horus+Plinko без доставчик). Anti-cannibal /slot-igri/novi/ linked once. Leave old vk-0015 untouched. dedup skipped (same URL). · OUTCOME drafted → PR #331. Gate PASS WITH FIXES 93/100 (1 crit: 9 em-dash labels→colons). Gemini Step-7 human 85 PASS pass 1 (no humaniser). img:2 (4-format hero 19KB webp + formats SVG qualitative; image review 95 PASS 0-integrity, 5px center nit publishable). 4 [VERIFY] STAY (Gates mult cap; Sugar Rush max; Tombstone bonus/volatility; Eye of Horus provider). ~1315 думи, 0 em-dash body. Links 13 approved + otgovorna-igra; no affiliate. checked=n/a (refresh).",
       "opportunity": {
         "score": 83,
         "band": "Pillar",
         "winnable": false
       },
-      "verify_flags": null,
-      "verify_samples": []
+      "verify_flags": 4,
+      "verify_samples": [
+        "[VERIFY: точен таван на множителите от официалната страница на Pragmatic Play]",
+        "[VERIFY: точен максимален множител от официалната страница на Pragmatic Play]",
+        "[VERIFY: точен брой функции и степен на волатилност от официалната страница на Nolimit City]",
+        "[VERIFY: точният доставчик на играещата версия]"
+      ]
     }
   ],
   "backlog": [
     {
       "priority": "0",
       "type": "guide",
-      "query": "Най-известните казино градове в света — Макао и Монте Карло: история, факти и как се сравняват с Лас Вегас",
-      "keywords_or_terms": "макао, монте карло, казино градове, макао казино, монте карло казино",
-      "volume": "2300",
+      "query": "Лудогорец — история, титли и Хювефарма Арена",
+      "keywords_or_terms": "лудогорец, лудогорец история, лудогорец титли, хювефарма арена",
+      "volume": "81000",
+      "kd": "9",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN 81000/kd9 (2026-10-28 football sweep). Club profile.",
+      "status": "open",
+      "notes": "OWNER-APPROVED 2026-10-28 (Bulgarian-football batch). Evergreen profile/history only. NEVER print current standings, results, fixtures, transfer rumours or odds. Real people: verifiable facts only, [VERIFY] anything uncertain, no speculation about private life. Link the Ефбет Лига guide plus sibling club/legend articles. No betting tips; optional RG line.",
+      "opportunity": {
+        "score": 96,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "0",
+      "type": "guide",
+      "query": "Тенис — правила и точкуване: гейм, сет, тайбрек",
+      "keywords_or_terms": "тенис, тенис правила, тенис точкуване, как се играе тенис",
+      "volume": "55000",
       "kd": "0",
       "intent": "informational",
       "checked": "ahrefs",
-      "ahrefs_note": "Cluster WIN: макао 1.4K/kd0 + монте карло 900/kd0 (+ лас вегас 700/kd0, already covered by kazina-las-vegas) (2026-10-28). Interesting-facts format.",
-      "status": "written",
-      "notes": "OWNER-APPROVED 2026-10-28. Facts/history piece; link to the existing kazina-las-vegas article and do NOT repeat its content. Facts from primary/encyclopaedic sources only; no invented revenue figures; no glamorised winning. · WRITTEN 2026-10-28 (2nd fire) → vk-0304, PR #327. Макао + Монте Карло history/facts + side-by-side; linked kazina-las-vegas (not repeated), comparisons-news hub, responsible-gambling, zakonno-li-e. Gate 95 PASS, Gemini human 90, img:2 (infographic + hero, review 100). 0 operator/НАП/affiliate, 0 flags, every figure sourced.",
+      "ahrefs_note": "WIN 55000/kd0 (2026-10-28 sports sweep). How-to-play rules guide.",
+      "status": "open",
+      "notes": "OWNER-APPROVED 2026-10-28 (sports-guide batch; owner approved sports scope). Evergreen guide on format, rules and how it works. NEVER print current standings, results, fixtures or odds (they go stale); link to official sources for live data. No betting tips. Optional light link to /bonus-ruletka/sport/ + RG line.",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "0",
+      "type": "guide",
+      "query": "Реал Мадрид — история, трофеи, стадион и легенди на клуба",
+      "keywords_or_terms": "реал мадрид, реал мадрид история, реал мадрид трофеи, сантяго бернабеу",
+      "volume": "50000",
+      "kd": "4",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN 50000/kd4 (2026-10-28 clubs sweep). Can include an Ел Класико section (барселона реал мадрид 2K/kd0).",
+      "status": "open",
+      "notes": "OWNER-APPROVED 2026-10-28 (European clubs & stars batch → Футбол hub). Evergreen profile: history, trophies, stadium/legends (clubs) or career, records, style, trophies (players). NEVER print current-season stats, standings, results, transfer rumours or odds. Any figure that can change: write it with 'към <месец година>' or mark [VERIFY]. Real people: verifiable public facts only, nothing about private life. Link sibling club/player profiles and league guides (Ла Лига / Премиер лига / Серия А etc. if live). No betting tips; optional RG line.",
+      "opportunity": {
+        "score": 98,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "0",
+      "type": "guide",
+      "query": "Барселона — история, трофеи, стадион и легенди на клуба",
+      "keywords_or_terms": "барселона, фк барселона, барселона история, камп ноу",
+      "volume": "44000",
+      "kd": "6",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN 44000/kd6 (2026-10-28 clubs sweep). Link the Реал Мадрид profile (Ел Класико).",
+      "status": "open",
+      "notes": "OWNER-APPROVED 2026-10-28 (European clubs & stars batch → Футбол hub). Evergreen profile: history, trophies, stadium/legends (clubs) or career, records, style, trophies (players). NEVER print current-season stats, standings, results, transfer rumours or odds. Any figure that can change: write it with 'към <месец година>' or mark [VERIFY]. Real people: verifiable public facts only, nothing about private life. Link sibling club/player profiles and league guides (Ла Лига / Премиер лига / Серия А etc. if live). No betting tips; optional RG line.",
+      "opportunity": {
+        "score": 98,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "0",
+      "type": "guide",
+      "query": "Лионел Меси — кариера, рекорди, трофеи и стил на игра",
+      "keywords_or_terms": "лионел меси, меси, меси кариера, меси трофеи",
+      "volume": "42000",
+      "kd": "0",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN 42000/kd0 (2026-10-28 players sweep). Cluster: лионел меси 27K + меси 15K.",
+      "status": "open",
+      "notes": "OWNER-APPROVED 2026-10-28 (European clubs & stars batch → Футбол hub). Evergreen profile: history, trophies, stadium/legends (clubs) or career, records, style, trophies (players). NEVER print current-season stats, standings, results, transfer rumours or odds. Any figure that can change: write it with 'към <месец година>' or mark [VERIFY]. Real people: verifiable public facts only, nothing about private life. Link sibling club/player profiles and league guides (Ла Лига / Премиер лига / Серия А etc. if live). No betting tips; optional RG line.",
       "opportunity": {
         "score": 100,
         "band": "Strong",
@@ -6307,17 +6388,35 @@
     {
       "priority": "0",
       "type": "guide",
-      "query": "Тенис — правила и точкуване: гейм, сет, тайбрек",
-      "keywords_or_terms": "тенис, тенис правила, тенис точкуване, как се играе тенис",
-      "volume": "55000",
+      "query": "Кристиано Роналдо — кариера, рекорди, трофеи и стил на игра",
+      "keywords_or_terms": "кристиано роналдо, роналдо, роналдо кариера, роналдо рекорди",
+      "volume": "27000",
       "kd": "0",
       "intent": "informational",
       "checked": "ahrefs",
-      "ahrefs_note": "WIN 55000/kd0 (2026-10-28 sports sweep). How-to-play rules guide.",
+      "ahrefs_note": "WIN 27000/kd0 (2026-10-28 players sweep). Cluster: кристиано роналдо 16K + роналдо 11K.",
       "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-28 (sports-guide batch; owner approved sports scope). Evergreen guide on format, rules and how it works. NEVER print current standings, results, fixtures or odds (they go stale); link to official sources for live data. No betting tips. Optional light link to /bonus-ruletka/sport/ + RG line.",
+      "notes": "OWNER-APPROVED 2026-10-28 (European clubs & stars batch → Футбол hub). Evergreen profile: history, trophies, stadium/legends (clubs) or career, records, style, trophies (players). NEVER print current-season stats, standings, results, transfer rumours or odds. Any figure that can change: write it with 'към <месец година>' or mark [VERIFY]. Real people: verifiable public facts only, nothing about private life. Link sibling club/player profiles and league guides (Ла Лига / Премиер лига / Серия А etc. if live). No betting tips; optional RG line.",
       "opportunity": {
         "score": 100,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "0",
+      "type": "guide",
+      "query": "Челси — история, трофеи, стадион и легенди на клуба",
+      "keywords_or_terms": "челси, челси история, стамфорд бридж",
+      "volume": "27000",
+      "kd": "2",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN 27000/kd2 (2026-10-28 clubs sweep).",
+      "status": "open",
+      "notes": "OWNER-APPROVED 2026-10-28 (European clubs & stars batch → Футбол hub). Evergreen profile: history, trophies, stadium/legends (clubs) or career, records, style, trophies (players). NEVER print current-season stats, standings, results, transfer rumours or odds. Any figure that can change: write it with 'към <месец година>' or mark [VERIFY]. Real people: verifiable public facts only, nothing about private life. Link sibling club/player profiles and league guides (Ла Лига / Премиер лига / Серия А etc. if live). No betting tips; optional RG line.",
+      "opportunity": {
+        "score": 99,
         "band": "Strong",
         "winnable": true
       }
@@ -6343,24 +6442,6 @@
     {
       "priority": "0",
       "type": "guide",
-      "query": "Лига Европа — формат и как се класират отборите",
-      "keywords_or_terms": "лига европа, uefa лига европа, europa league",
-      "volume": "18000",
-      "kd": "5",
-      "intent": "informational",
-      "checked": "ahrefs",
-      "ahrefs_note": "WIN 18000/kd5 (2026-10-28 sports sweep). Sibling: Лига на конференциите — link, don't overlap.",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-28 (sports-guide batch; owner approved sports scope). Evergreen guide on format, rules and how it works. NEVER print current standings, results, fixtures or odds (they go stale); link to official sources for live data. No betting tips. Optional light link to /bonus-ruletka/sport/ + RG line.",
-      "opportunity": {
-        "score": 98,
-        "band": "Strong",
-        "winnable": true
-      }
-    },
-    {
-      "priority": "0",
-      "type": "guide",
       "query": "Формула 1 — как работи: точкуване, отбори и състезателният уикенд",
       "keywords_or_terms": "формула 1, formula 1, формула 1 правила, точкуване формула 1",
       "volume": "18000",
@@ -6372,6 +6453,42 @@
       "notes": "OWNER-APPROVED 2026-10-28 (sports-guide batch; owner approved sports scope). Evergreen guide on format, rules and how it works. NEVER print current standings, results, fixtures or odds (they go stale); link to official sources for live data. No betting tips. Optional light link to /bonus-ruletka/sport/ + RG line.",
       "opportunity": {
         "score": 100,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "0",
+      "type": "guide",
+      "query": "Най-известните казино градове в света — Макао и Монте Карло: история, факти и как се сравняват с Лас Вегас",
+      "keywords_or_terms": "макао, монте карло, казино градове, макао казино, монте карло казино",
+      "volume": "2300",
+      "kd": "0",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "Cluster WIN: макао 1.4K/kd0 + монте карло 900/kd0 (+ лас вегас 700/kd0, already covered by kazina-las-vegas) (2026-10-28). Interesting-facts format.",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-10-28. Facts/history piece; link to the existing kazina-las-vegas article and do NOT repeat its content. Facts from primary/encyclopaedic sources only; no invented revenue figures; no glamorised winning. · WRITTEN 2026-10-28 (2nd fire) → vk-0304, PR #327. Макао + Монте Карло history/facts + side-by-side; linked kazina-las-vegas (not repeated), comparisons-news hub, responsible-gambling, zakonno-li-e. Gate 95 PASS, Gemini human 90, img:2 (infographic + hero, review 100). 0 operator/НАП/affiliate, 0 flags, every figure sourced.",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "0",
+      "type": "guide",
+      "query": "Лига Европа — формат и как се класират отборите",
+      "keywords_or_terms": "лига европа, uefa лига европа, europa league",
+      "volume": "18000",
+      "kd": "5",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "WIN 18000/kd5 (2026-10-28 sports sweep). Sibling: Лига на конференциите — link, don't overlap.",
+      "status": "open",
+      "notes": "OWNER-APPROVED 2026-10-28 (sports-guide batch; owner approved sports scope). Evergreen guide on format, rules and how it works. NEVER print current standings, results, fixtures or odds (they go stale); link to official sources for live data. No betting tips. Optional light link to /bonus-ruletka/sport/ + RG line.",
+      "opportunity": {
+        "score": 98,
         "band": "Strong",
         "winnable": true
       }
@@ -6595,24 +6712,6 @@
     {
       "priority": "0",
       "type": "guide",
-      "query": "Лудогорец — история, титли и Хювефарма Арена",
-      "keywords_or_terms": "лудогорец, лудогорец история, лудогорец титли, хювефарма арена",
-      "volume": "81000",
-      "kd": "9",
-      "intent": "informational",
-      "checked": "ahrefs",
-      "ahrefs_note": "WIN 81000/kd9 (2026-10-28 football sweep). Club profile.",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-28 (Bulgarian-football batch). Evergreen profile/history only. NEVER print current standings, results, fixtures, transfer rumours or odds. Real people: verifiable facts only, [VERIFY] anything uncertain, no speculation about private life. Link the Ефбет Лига guide plus sibling club/legend articles. No betting tips; optional RG line.",
-      "opportunity": {
-        "score": 96,
-        "band": "Strong",
-        "winnable": true
-      }
-    },
-    {
-      "priority": "0",
-      "type": "guide",
       "query": "ЦСКА 1948 — история на клуба и пътят до елита",
       "keywords_or_terms": "цска 1948, цска 1948 история, цска 1948 стадион",
       "volume": "17000",
@@ -6793,60 +6892,6 @@
     {
       "priority": "0",
       "type": "guide",
-      "query": "Реал Мадрид — история, трофеи, стадион и легенди на клуба",
-      "keywords_or_terms": "реал мадрид, реал мадрид история, реал мадрид трофеи, сантяго бернабеу",
-      "volume": "50000",
-      "kd": "4",
-      "intent": "informational",
-      "checked": "ahrefs",
-      "ahrefs_note": "WIN 50000/kd4 (2026-10-28 clubs sweep). Can include an Ел Класико section (барселона реал мадрид 2K/kd0).",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-28 (European clubs & stars batch → Футбол hub). Evergreen profile: history, trophies, stadium/legends (clubs) or career, records, style, trophies (players). NEVER print current-season stats, standings, results, transfer rumours or odds. Any figure that can change: write it with 'към <месец година>' or mark [VERIFY]. Real people: verifiable public facts only, nothing about private life. Link sibling club/player profiles and league guides (Ла Лига / Премиер лига / Серия А etc. if live). No betting tips; optional RG line.",
-      "opportunity": {
-        "score": 98,
-        "band": "Strong",
-        "winnable": true
-      }
-    },
-    {
-      "priority": "0",
-      "type": "guide",
-      "query": "Барселона — история, трофеи, стадион и легенди на клуба",
-      "keywords_or_terms": "барселона, фк барселона, барселона история, камп ноу",
-      "volume": "44000",
-      "kd": "6",
-      "intent": "informational",
-      "checked": "ahrefs",
-      "ahrefs_note": "WIN 44000/kd6 (2026-10-28 clubs sweep). Link the Реал Мадрид profile (Ел Класико).",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-28 (European clubs & stars batch → Футбол hub). Evergreen profile: history, trophies, stadium/legends (clubs) or career, records, style, trophies (players). NEVER print current-season stats, standings, results, transfer rumours or odds. Any figure that can change: write it with 'към <месец година>' or mark [VERIFY]. Real people: verifiable public facts only, nothing about private life. Link sibling club/player profiles and league guides (Ла Лига / Премиер лига / Серия А etc. if live). No betting tips; optional RG line.",
-      "opportunity": {
-        "score": 98,
-        "band": "Strong",
-        "winnable": true
-      }
-    },
-    {
-      "priority": "0",
-      "type": "guide",
-      "query": "Челси — история, трофеи, стадион и легенди на клуба",
-      "keywords_or_terms": "челси, челси история, стамфорд бридж",
-      "volume": "27000",
-      "kd": "2",
-      "intent": "informational",
-      "checked": "ahrefs",
-      "ahrefs_note": "WIN 27000/kd2 (2026-10-28 clubs sweep).",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-28 (European clubs & stars batch → Футбол hub). Evergreen profile: history, trophies, stadium/legends (clubs) or career, records, style, trophies (players). NEVER print current-season stats, standings, results, transfer rumours or odds. Any figure that can change: write it with 'към <месец година>' or mark [VERIFY]. Real people: verifiable public facts only, nothing about private life. Link sibling club/player profiles and league guides (Ла Лига / Премиер лига / Серия А etc. if live). No betting tips; optional RG line.",
-      "opportunity": {
-        "score": 99,
-        "band": "Strong",
-        "winnable": true
-      }
-    },
-    {
-      "priority": "0",
-      "type": "guide",
       "query": "Атлетико Мадрид — история, трофеи, стадион и легенди на клуба",
       "keywords_or_terms": "атлетико мадрид, атлетико мадрид история",
       "volume": "11000",
@@ -6998,42 +7043,6 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 3800/kd1 (2026-10-28 clubs sweep). Link the Байерн profile (Дер Класикер).",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-28 (European clubs & stars batch → Футбол hub). Evergreen profile: history, trophies, stadium/legends (clubs) or career, records, style, trophies (players). NEVER print current-season stats, standings, results, transfer rumours or odds. Any figure that can change: write it with 'към <месец година>' or mark [VERIFY]. Real people: verifiable public facts only, nothing about private life. Link sibling club/player profiles and league guides (Ла Лига / Премиер лига / Серия А etc. if live). No betting tips; optional RG line.",
-      "opportunity": {
-        "score": 100,
-        "band": "Strong",
-        "winnable": true
-      }
-    },
-    {
-      "priority": "0",
-      "type": "guide",
-      "query": "Лионел Меси — кариера, рекорди, трофеи и стил на игра",
-      "keywords_or_terms": "лионел меси, меси, меси кариера, меси трофеи",
-      "volume": "42000",
-      "kd": "0",
-      "intent": "informational",
-      "checked": "ahrefs",
-      "ahrefs_note": "WIN 42000/kd0 (2026-10-28 players sweep). Cluster: лионел меси 27K + меси 15K.",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-28 (European clubs & stars batch → Футбол hub). Evergreen profile: history, trophies, stadium/legends (clubs) or career, records, style, trophies (players). NEVER print current-season stats, standings, results, transfer rumours or odds. Any figure that can change: write it with 'към <месец година>' or mark [VERIFY]. Real people: verifiable public facts only, nothing about private life. Link sibling club/player profiles and league guides (Ла Лига / Премиер лига / Серия А etc. if live). No betting tips; optional RG line.",
-      "opportunity": {
-        "score": 100,
-        "band": "Strong",
-        "winnable": true
-      }
-    },
-    {
-      "priority": "0",
-      "type": "guide",
-      "query": "Кристиано Роналдо — кариера, рекорди, трофеи и стил на игра",
-      "keywords_or_terms": "кристиано роналдо, роналдо, роналдо кариера, роналдо рекорди",
-      "volume": "27000",
-      "kd": "0",
-      "intent": "informational",
-      "checked": "ahrefs",
-      "ahrefs_note": "WIN 27000/kd0 (2026-10-28 players sweep). Cluster: кристиано роналдо 16K + роналдо 11K.",
       "status": "open",
       "notes": "OWNER-APPROVED 2026-10-28 (European clubs & stars batch → Футбол hub). Evergreen profile: history, trophies, stadium/legends (clubs) or career, records, style, trophies (players). NEVER print current-season stats, standings, results, transfer rumours or odds. Any figure that can change: write it with 'към <месец година>' or mark [VERIFY]. Real people: verifiable public facts only, nothing about private life. Link sibling club/player profiles and league guides (Ла Лига / Премиер лига / Серия А etc. if live). No betting tips; optional RG line.",
       "opportunity": {
@@ -12160,6 +12169,32 @@
     },
     "winnable": [
       {
+        "query": "Тенис — правила и точкуване: гейм, сет, тайбрек",
+        "keywords": "тенис, тенис правила, тенис точкуване, как се играе тенис",
+        "volume": "55000",
+        "kd": "0",
+        "intent": "informational",
+        "band": "Strong",
+        "score": 100,
+        "winnable": true,
+        "cluster": "uncategorised",
+        "status": "open",
+        "src": "backlog"
+      },
+      {
+        "query": "Лионел Меси — кариера, рекорди, трофеи и стил на игра",
+        "keywords": "лионел меси, меси, меси кариера, меси трофеи",
+        "volume": "42000",
+        "kd": "0",
+        "intent": "informational",
+        "band": "Strong",
+        "score": 100,
+        "winnable": true,
+        "cluster": "uncategorised",
+        "status": "open",
+        "src": "backlog"
+      },
+      {
         "query": "Ефбет Лига — формат, отбори, плейофи и къде да гледате мачовете",
         "keywords": "ефбет лига, efbet лига, efbet liga, efbet лига класиране, първа лига формат",
         "volume": "41000",
@@ -12173,9 +12208,9 @@
         "src": "backlog"
       },
       {
-        "query": "Тенис — правила и точкуване: гейм, сет, тайбрек",
-        "keywords": "тенис, тенис правила, тенис точкуване, как се играе тенис",
-        "volume": "55000",
+        "query": "Кристиано Роналдо — кариера, рекорди, трофеи и стил на игра",
+        "keywords": "кристиано роналдо, роналдо, роналдо кариера, роналдо рекорди",
+        "volume": "27000",
         "kd": "0",
         "intent": "informational",
         "band": "Strong",
@@ -12420,32 +12455,6 @@
         "src": "backlog"
       },
       {
-        "query": "Лионел Меси — кариера, рекорди, трофеи и стил на игра",
-        "keywords": "лионел меси, меси, меси кариера, меси трофеи",
-        "volume": "42000",
-        "kd": "0",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 100,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
-        "query": "Кристиано Роналдо — кариера, рекорди, трофеи и стил на игра",
-        "keywords": "кристиано роналдо, роналдо, роналдо кариера, роналдо рекорди",
-        "volume": "27000",
-        "kd": "0",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 100,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
         "query": "Ерлинг Холанд — кариера, рекорди, трофеи и стил на игра",
         "keywords": "ерлинг холанд, холанд, холанд рекорди",
         "volume": "11500",
@@ -12511,6 +12520,19 @@
         "src": "backlog"
       },
       {
+        "query": "Челси — история, трофеи, стадион и легенди на клуба",
+        "keywords": "челси, челси история, стамфорд бридж",
+        "volume": "27000",
+        "kd": "2",
+        "intent": "informational",
+        "band": "Strong",
+        "score": 99,
+        "winnable": true,
+        "cluster": "uncategorised",
+        "status": "open",
+        "src": "backlog"
+      },
+      {
         "query": "Ла Лига — формат, отбори и как работи класирането",
         "keywords": "ла лига, la liga, испанско първенство",
         "volume": "20000",
@@ -12563,10 +12585,10 @@
         "src": "backlog"
       },
       {
-        "query": "Челси — история, трофеи, стадион и легенди на клуба",
-        "keywords": "челси, челси история, стамфорд бридж",
-        "volume": "27000",
-        "kd": "2",
+        "query": "Тотнъм — история, трофеи, стадион и легенди на клуба",
+        "keywords": "тотнъм, тотнъм хотспър, тотнъм история",
+        "volume": "7000",
+        "kd": "3",
         "intent": "informational",
         "band": "Strong",
         "score": 99,
@@ -12576,13 +12598,26 @@
         "src": "backlog"
       },
       {
-        "query": "Тотнъм — история, трофеи, стадион и легенди на клуба",
-        "keywords": "тотнъм, тотнъм хотспър, тотнъм история",
-        "volume": "7000",
-        "kd": "3",
+        "query": "Реал Мадрид — история, трофеи, стадион и легенди на клуба",
+        "keywords": "реал мадрид, реал мадрид история, реал мадрид трофеи, сантяго бернабеу",
+        "volume": "50000",
+        "kd": "4",
         "intent": "informational",
         "band": "Strong",
-        "score": 99,
+        "score": 98,
+        "winnable": true,
+        "cluster": "uncategorised",
+        "status": "open",
+        "src": "backlog"
+      },
+      {
+        "query": "Барселона — история, трофеи, стадион и легенди на клуба",
+        "keywords": "барселона, фк барселона, барселона история, камп ноу",
+        "volume": "44000",
+        "kd": "6",
+        "intent": "informational",
+        "band": "Strong",
+        "score": 98,
         "winnable": true,
         "cluster": "uncategorised",
         "status": "open",
@@ -12658,32 +12693,6 @@
         "keywords": "пирин благоевград, пирин благоевград история",
         "volume": "3100",
         "kd": "5",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 98,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
-        "query": "Реал Мадрид — история, трофеи, стадион и легенди на клуба",
-        "keywords": "реал мадрид, реал мадрид история, реал мадрид трофеи, сантяго бернабеу",
-        "volume": "50000",
-        "kd": "4",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 98,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
-        "query": "Барселона — история, трофеи, стадион и легенди на клуба",
-        "keywords": "барселона, фк барселона, барселона история, камп ноу",
-        "volume": "44000",
-        "kd": "6",
         "intent": "informational",
         "band": "Strong",
         "score": 98,
