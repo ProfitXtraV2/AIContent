@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-28T16:43:25Z",
+  "generated_utc": "2026-10-28T16:43:49Z",
   "buffer": {
     "count": 229,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 209,
-    "approved": 20,
+    "drafted": 208,
+    "approved": 21,
     "posted": 73,
     "failed": 1
   },
@@ -5931,7 +5931,7 @@
     },
     {
       "id": "vk-0294",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Онлайн машини — как работят слотовете: RTP, волатилност, бонус игри и как да изберете легално казино",
       "keywords_or_terms": "онлайн машини, игри машинки, слот машини онлайн",
