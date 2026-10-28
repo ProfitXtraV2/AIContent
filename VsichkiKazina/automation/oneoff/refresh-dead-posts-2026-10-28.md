@@ -103,3 +103,23 @@ pipeline on each, retargeted as specified below, **keeping the exact same slug/U
   is the all-game-types roundup and links to it once („всички нови слотове").
 - Internal links: `/slot-igri/novi/`, `/kazino-igri/`, `/blog/rechnik-kazino-termini/`,
   `/blog/bezplatni-kazino-igri/`.
+
+---
+
+## RUN SUMMARY — completed 2026-10-28 (autopilot)
+
+All 4 refreshes produced through the full pipeline (stages 1→5b fresh-context + Step-7 Gemini keep-best
++ Step-8 images + 06-verification), one PR per article on `content/<folder>`, board rows `drafted` on main
+(source: refresh). Same slug/URL kept for each. No approve/merge/publish; flags left for the human.
+
+| slug (same URL) | PR | gate | Gemini (Step 7) | images (review) | open flags |
+|---|---|---|---|---|---|
+| danaci-pechalbi-onlajn-kazino | #328 | PASS 92/100 | ai 75 — keep-best pass 2 (HL 15→15→25; noisy detector on BG YMYL tax copy; facts locked to ЗДДФЛ source pack) | 2 — hero + decision-flow SVG (чл.13 т.20 / 01.01.2017 / €20), review 75→95 PASS | 3 [VERIFY]: AML прагове; хазартни загуби; нелицензиран/извън-ЕС/ЕИП третиране (никога ставка) |
+| koe-kazino-da-izberete | #329 | PASS WITH FIXES 93/100 (1 crit: „без риск"→„без да залагате реални пари") | human 85 — PASS pass 1 | 2 — hero + превъртане-база SVG (€100/€200/€3 500/€7 000/35x), review 100 PASS | 0 |
+| rechnik-kazino-termini | #330 | PASS 92/100 (glossary link-hub override) | human 85 — PASS pass 1 | 2 — glossary hero + RTP-96/4 SVG, review 100 PASS | 0 — note: 2 „лев" idiom RTP phrasings (gate kept idiomatic; human may normalize to €) |
+| novi-kazino-igri-2026 | #331 | PASS WITH FIXES 93/100 (1 crit: 9 em-dash labels→colons) | human 85 — PASS pass 1 | 2 — 4-format hero + formats SVG (qualitative), review 95 PASS | 4 [VERIFY]: Gates mult cap; Sugar Rush max; Tombstone bonus/volatility; Eye of Horus provider (all from provider page) |
+
+Notes: KD-cap override applied for novi (KD 42, owner-approved); old `vk-0015` row left untouched. danaci tax
+claim unblocked ONLY to the extent of `source-packs/zddfl-gambling-winnings-2026-10-28.md`. dedup/anti-cannibalization
+skipped for all 4 (same URL by design). byline Георги Тодоров; € currency; RG line + 18+; no affiliate links.
+Dashboard + published feed rebuilt on main. No 429 hit; all 4 completed cleanly.
