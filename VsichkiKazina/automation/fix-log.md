@@ -3100,3 +3100,65 @@ Board `gemini` updated for vk-0292/0294/0299; flag-resolution notes added to vk-
 `build_dashboard.py` (buffer 230/10) and `build_feed.py` (15 approved) re-run on main. No posted/live
 content edited; nothing merged; no new article branches created; only the specific
 flagged/low-rated `content/*` branches touched; API key never printed.
+
+## 2026-10-28 — nightly flag + score fixes
+
+### JOB A — publish-blocking flags
+Scanned all 311 `content/*` branches' `05b-final-draft.md` for blocking markers
+(`[VERIFY]`/`[DATA NEEDED]`/`[CONFLICT]`/`[18+ / RG LINE]`/`[AUTHOR]`/`[BRAND]`/`[EDITORIAL]`/
+`[уточни]`/`[провери]`). **2 flagged branches** found; both are status `drafted` (not posted),
+so both resolved. No posted/live article was touched.
+
+- **vk-0305** `2026-10-28-danaci-pechalbi-onlajn-kazino` (PR #328): **3 [VERIFY] resolved**. All
+  three were tax/AML notes (AML thresholds on an incoming transfer; ЗДДФЛ loss treatment;
+  treatment of winnings from an unlicensed / non-EU/EEA operator). The surrounding prose already
+  hedged correctly and pointed the reader to the bank / НАП / счетоводител without asserting any
+  rate, threshold or figure — so the bracketed internal notes were simply removed, leaving the
+  sentences publish-ready. No tax fact, figure or claim meaning changed. Re-scan: **0 blocking
+  markers**. Commit `fix(flags): resolve …` + push.
+- **vk-0308** `2026-10-28-novi-kazino-igri-2026` (PR #331): **4 [VERIFY] resolved**. All were
+  public game-data notes (Gates of Olympus 1000 / Sugar Rush 1000 exact multiplier cap; Tombstone
+  RIP exact feature count + volatility; Eye of Horus exact provider). None of the guarded
+  sentences asserted a specific number — each already carried a safe qualitative claim. For the two
+  "1000" lines the caveat was folded into natural prose (pointing to the game's info panel for the
+  exact value); the Tombstone and Eye of Horus brackets were removed, leaving the existing hedged
+  wording ("няколко бонус функции", "висока волатилност", "точният доставчик зависи от изданието").
+  No number invented or changed. Re-scan: **0 blocking markers**, 0 em-dashes. Commit + push.
+
+Both flagged drafts are now flag-free and publish-ready.
+
+### JOB B — low Gemini score
+In-scope targets = status ∈ {drafted, approved} AND gemini verdict `ai <n>` OR `human <n>` with
+n<80. **2 in-scope** (worst first); both processed, well under the ≤10/night cap; **0 deferred**.
+
+- **vk-0305** `2026-10-28-danaci-pechalbi-onlajn-kazino` (PR #328), board `ai 75` → **human 80**.
+  After the JOB-A flag removal, the baseline Gemini re-check read **"Likely human-written, 80%
+  confidence" → human 80 (PASS, ≥80)**. Per the loop's stop rule (`if already human n>=80 stop`)
+  and the anti-over-editing guidance, **no humaniser edit applied** — removing the three hedged
+  [VERIFY] notes was enough to clear the detector (and the board's `ai 75` was a stale draft-time
+  read on noisy BG YMYL legal copy). Branch left at the flag-fix commit.
+- **vk-0299** `2026-10-27-igri-s-karti` (PR #322), board `human 75` → **human 85**. Humaniser
+  technique applied over **2 passes**. Pass 1 (ai 80 → ai 70): removed the redundant
+  "Срещу хора, срещу къщата или сам" section that echoed the intro, varied the catalog-style
+  game-description openings (sanтасе/свара/баккара no longer all start "Name → stats → mechanic").
+  Pass 2 (ai 70 → **human 85 PASS**): dropped the formulaic "Зад „игри с карти" се крият…" hook,
+  de-mirrored the "Ако блекджекът…, баккарата прави обратното" antithesis, cut the catalog wrap-up
+  signpost ("Който търси по-дълга игра, се насочва към…"), and removed the "Умение или късмет"
+  synthesis section whose points were already made elsewhere. Rephrasing/cutting tells only — every
+  fact, deck size (32/24/52), player count, the 3-5-8 bidding, all 7+ internal links, the RG line
+  and byline Георги Тодоров preserved; 0 em-dashes. The approved feed (`published/igri-s-karti/`)
+  was regenerated from the pushed branch. Commit `fix(quality): humanise … (gemini 75->85)` + push.
+
+### POSTED — needs human review
+None new this run. (vk-0063 `2026-09-13-nv-casino-zakonno-li-e` remains `ai 75`/posted from prior
+runs — live, never edited per policy; a human should decide whether to re-humanise + re-publish.)
+
+### Deferred
+None — both in-scope JOB B targets processed this run (≤10/night cap).
+
+### Finish
+Board `gemini` updated: vk-0299 `human 75`→`human 85`, vk-0305 `ai 75`→`human 80`; nightly notes
+added to vk-0299/0305/0308 (flags + scores). `build_dashboard.py` (buffer 233/10) and
+`build_feed.py` (19 approved) re-run on main. No posted/live content edited; nothing merged; no new
+article branches created; only the specific flagged/low-rated `content/*` branches touched; API key
+never printed.

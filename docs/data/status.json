@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-28T23:12:47Z",
+  "generated_utc": "2026-10-28T23:16:36Z",
   "buffer": {
     "count": 234,
     "target": 10,
@@ -6057,8 +6057,8 @@
       "posted_date": "",
       "folder": "2026-10-27-igri-s-karti",
       "pr": "#322",
-      "gemini": "human 75",
-      "notes": "daily run 2026-10-27 (8th fire, MAX_PER_RUN=1); backlog P0 top open in-scope row. Card-games PILLAR/hub for the cluster (belot/santase/svara/kanasta/bakara/poker/blackjack/pasians). Dedup vs queue + live sitemap (140 URLs, 2026-10-27) = 0 \"игри с карти\" hub coverage (clean; distinct head query from individual game-rules pages). Ahrefs bg игри с карти 4400/kd4 informational. guides-only scope (0 operator/НАП facts; overview + where-to-play + на пари законно ли е + RG). · OUTCOME: drafted → PR #322. Gate 94/100 PASS 0-crit. Gemini Step-7: baseline HL35 (ai 65) → humaniser p1 HL25 → p2 HL15; MAX_GEMINI_PASSES, keep-best=baseline → ai 65 (noisy detector lowered each revision; +1 native-register calque fix карта игра→игра на карти; style nits for human Step 6, facts/links/RG clean). img:2 (infographic igri-s-karti-igrachi-teste.svg every number 1:1 + decorative hero webp 15KB; Gemini image review 100 PASS p1, 0 integrity fail). 0 [VERIFY]/[DATA NEEDED]/[CONFLICT]. 7 internal links (hub+siblings, live only). Backlog P0 row → written. · nightly 2026-10-27: JOB-B humanised 4 passes (dropped translated cliché, cut fluffy transitions, broke repeated 3-bucket parallelism, removed meta topic-sentences + neat-bow) — Gemini ai 65→peak human 75 (noisy ai85–human75); kept site term „домашно предимство\"; still <80 → FOR HUMAN REVIEW",
+      "gemini": "human 85",
+      "notes": "daily run 2026-10-27 (8th fire, MAX_PER_RUN=1); backlog P0 top open in-scope row. Card-games PILLAR/hub for the cluster (belot/santase/svara/kanasta/bakara/poker/blackjack/pasians). Dedup vs queue + live sitemap (140 URLs, 2026-10-27) = 0 \"игри с карти\" hub coverage (clean; distinct head query from individual game-rules pages). Ahrefs bg игри с карти 4400/kd4 informational. guides-only scope (0 operator/НАП facts; overview + where-to-play + на пари законно ли е + RG). · OUTCOME: drafted → PR #322. Gate 94/100 PASS 0-crit. Gemini Step-7: baseline HL35 (ai 65) → humaniser p1 HL25 → p2 HL15; MAX_GEMINI_PASSES, keep-best=baseline → ai 65 (noisy detector lowered each revision; +1 native-register calque fix карта игра→игра на карти; style nits for human Step 6, facts/links/RG clean). img:2 (infographic igri-s-karti-igrachi-teste.svg every number 1:1 + decorative hero webp 15KB; Gemini image review 100 PASS p1, 0 integrity fail). 0 [VERIFY]/[DATA NEEDED]/[CONFLICT]. 7 internal links (hub+siblings, live only). Backlog P0 row → written. · nightly 2026-10-27: JOB-B humanised 4 passes (dropped translated cliché, cut fluffy transitions, broke repeated 3-bucket parallelism, removed meta topic-sentences + neat-bow) — Gemini ai 65→peak human 75 (noisy ai85–human75); kept site term „домашно предимство\"; still <80 → FOR HUMAN REVIEW · nightly 2026-10-28: JOB-B humanised 2 passes (removed redundant „Срещу хора/къщата/сам\" + „Умение или късмет\" synthesis sections that echoed the intro, varied catalog-style game-description openings, dropped formulaic „Зад X се крият\" hook + catalog wrap-up signpost; facts/decks/players/links/RG intact), Gemini ai 80→ai 70→human 85 PASS",
       "opportunity": {
         "score": 98,
         "band": "Strong",
@@ -6195,8 +6195,8 @@
       "posted_date": "",
       "folder": "2026-10-28-danaci-pechalbi-onlajn-kazino",
       "pr": "#328",
-      "gemini": "ai 75",
-      "notes": "ONE-OFF 2026-10-28 (owner-requested). REFRESH of live /blog/danaci-pechalbi-onlajn-kazino/ (0 GSC impr 90d), SAME slug/URL; retarget „данък печалба от хазарт\". Tax claim unblocked ONLY to extent of source-packs/zddfl-gambling-winnings-2026-10-28.md (чл.13 ал.1 т.20 ЗДДФЛ, в сила 01.01.2017); всичко извън пакета → [VERIFY]/omit, НИКОГА ставка; old-page „операторът плаща\"/budget-law/operator-bonus dropped. dedup/anti-cannibal skipped (same URL). · OUTCOME drafted → PR #328. Gate PASS 92/100 0-crit (tax-override: чл.13 т.20 NOT flagged). Gemini Step-7 keep-best: HL 15→15→25 (pass 2), verdict „Shows AI patterns 75%\" → ai 75 (noisy detector on BG YMYL legal copy; facts locked to pack). img:2 (hero 18KB webp + decision-flow SVG numbers-verbatim; image review 75→95 PASS 0-integrity). 3 [VERIFY] STAY (AML прагове; загуби; нелицензиран/извън-ЕС третиране — никога ставка). ~929 думи, 0 em-dash body. Links 4 approved (proverka-licenz-kazino, sravni-kazina, zakonno-li-e, hub regulations-taxes); no affiliate. checked=n/a (refresh).",
+      "gemini": "human 80",
+      "notes": "ONE-OFF 2026-10-28 (owner-requested). REFRESH of live /blog/danaci-pechalbi-onlajn-kazino/ (0 GSC impr 90d), SAME slug/URL; retarget „данък печалба от хазарт\". Tax claim unblocked ONLY to extent of source-packs/zddfl-gambling-winnings-2026-10-28.md (чл.13 ал.1 т.20 ЗДДФЛ, в сила 01.01.2017); всичко извън пакета → [VERIFY]/omit, НИКОГА ставка; old-page „операторът плаща\"/budget-law/operator-bonus dropped. dedup/anti-cannibal skipped (same URL). · OUTCOME drafted → PR #328. Gate PASS 92/100 0-crit (tax-override: чл.13 т.20 NOT flagged). Gemini Step-7 keep-best: HL 15→15→25 (pass 2), verdict „Shows AI patterns 75%\" → ai 75 (noisy detector on BG YMYL legal copy; facts locked to pack). img:2 (hero 18KB webp + decision-flow SVG numbers-verbatim; image review 75→95 PASS 0-integrity). 3 [VERIFY] STAY (AML прагове; загуби; нелицензиран/извън-ЕС третиране — никога ставка). ~929 думи, 0 em-dash body. Links 4 approved (proverka-licenz-kazino, sravni-kazina, zakonno-li-e, hub regulations-taxes); no affiliate. checked=n/a (refresh). · nightly 2026-10-28: JOB-A resolved 3 [VERIFY] (AML thresholds, loss treatment, non-EU/unlicensed operator) — surrounding prose already hedged + pointed to bank/НАП/счетоводител without figures, brackets removed, no facts changed; 0 blocking markers. JOB-B: post-flag baseline Gemini = human 80 PASS (up from ai 75), stopped per n≥80.",
       "opportunity": {
         "score": 42,
         "band": "Moderate",
@@ -6257,7 +6257,7 @@
       "folder": "2026-10-28-novi-kazino-igri-2026",
       "pr": "#331",
       "gemini": "human 85",
-      "notes": "ONE-OFF 2026-10-28 (owner-requested). REFRESH of live /blog/novi-kazino-igri-2026/ (0 GSC impr 90d), SAME slug/URL. KD 42 > cap 40 — OWNER-APPROVED override. Fixed intent: rewritten LISTING-FIRST — roundup of 9 titles by type (6 ротативки + Aviator + Plinko + шоу на живо), each provider/type/mechanic + link to our LIVE guide; short „как да оцените\" at end. HONESTY: anchors са 2023–24 заглавия → НЕ се твърди „пуснати през 2026\"; без точен RTP/макс/дата като факт (4 [VERIFY]). 0 operator names; само game providers (Pragmatic/Hacksaw/Nolimit/EGT-Amusnet/Spribe; Eye of Horus+Plinko без доставчик). Anti-cannibal /slot-igri/novi/ linked once. Leave old vk-0015 untouched. dedup skipped (same URL). · OUTCOME drafted → PR #331. Gate PASS WITH FIXES 93/100 (1 crit: 9 em-dash labels→colons). Gemini Step-7 human 85 PASS pass 1 (no humaniser). img:2 (4-format hero 19KB webp + formats SVG qualitative; image review 95 PASS 0-integrity, 5px center nit publishable). 4 [VERIFY] STAY (Gates mult cap; Sugar Rush max; Tombstone bonus/volatility; Eye of Horus provider). ~1315 думи, 0 em-dash body. Links 13 approved + otgovorna-igra; no affiliate. checked=n/a (refresh).",
+      "notes": "ONE-OFF 2026-10-28 (owner-requested). REFRESH of live /blog/novi-kazino-igri-2026/ (0 GSC impr 90d), SAME slug/URL. KD 42 > cap 40 — OWNER-APPROVED override. Fixed intent: rewritten LISTING-FIRST — roundup of 9 titles by type (6 ротативки + Aviator + Plinko + шоу на живо), each provider/type/mechanic + link to our LIVE guide; short „как да оцените\" at end. HONESTY: anchors са 2023–24 заглавия → НЕ се твърди „пуснати през 2026\"; без точен RTP/макс/дата като факт (4 [VERIFY]). 0 operator names; само game providers (Pragmatic/Hacksaw/Nolimit/EGT-Amusnet/Spribe; Eye of Horus+Plinko без доставчик). Anti-cannibal /slot-igri/novi/ linked once. Leave old vk-0015 untouched. dedup skipped (same URL). · OUTCOME drafted → PR #331. Gate PASS WITH FIXES 93/100 (1 crit: 9 em-dash labels→colons). Gemini Step-7 human 85 PASS pass 1 (no humaniser). img:2 (4-format hero 19KB webp + formats SVG qualitative; image review 95 PASS 0-integrity, 5px center nit publishable). 4 [VERIFY] STAY (Gates mult cap; Sugar Rush max; Tombstone bonus/volatility; Eye of Horus provider). ~1315 думи, 0 em-dash body. Links 13 approved + otgovorna-igra; no affiliate. checked=n/a (refresh). · nightly 2026-10-28: JOB-A resolved 4 [VERIFY] (Gates/Sugar Rush 1000 multiplier caps, Tombstone RIP feature count/volatility, Eye of Horus provider) — kept the qualitative claims already present + folded caveat into prose (point to game info panel), no numbers invented/changed; 0 blocking markers. Gemini unchanged human 85 PASS.",
       "opportunity": {
         "score": 83,
         "band": "Pillar",
@@ -6332,7 +6332,7 @@
         "band": "Strong",
         "winnable": true
       },
-      "verify_flags": 0,
+      "verify_flags": null,
       "verify_samples": []
     }
   ],
