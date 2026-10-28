@@ -2336,6 +2336,16 @@
 "fetched": "2026-10-21",
 "row": {}
 },
+"bg|белот тактика": {
+"fetched": "2026-10-28",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "белот тактика",
+"volume": 0
+}
+},
 "bg|блекджек варианти": {
 "fetched": "2026-10-27",
 "row": {}
@@ -2460,6 +2470,16 @@
 },
 "trend": "up"
 },
+"bg|видео покер правила": {
+"fetched": "2026-10-28",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "видео покер правила",
+"volume": 0
+}
+},
 "bg|виртуални спортове": {
 "fetched": "2026-10-11",
 "row": {
@@ -2497,6 +2517,24 @@
 },
 "keyword": "генератор на случайни числа",
 "volume": 150
+},
+"trend": "down"
+},
+"bg|дама игра правила": {
+"fetched": "2026-10-28",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "дама игра правила",
+"volume": 10
 },
 "trend": "down"
 },
@@ -2806,6 +2844,16 @@
 "volume": 0
 }
 },
+"bg|казино холдем правила": {
+"fetched": "2026-10-28",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "казино холдем правила",
+"volume": 0
+}
+},
 "bg|как да избера онлайн казино": {
 "fetched": "2026-10-26",
 "row": {}
@@ -3002,6 +3050,10 @@
 },
 "trend": "down"
 },
+"bg|крап правила": {
+"fetched": "2026-10-28",
+"row": {}
+},
 "bg|крапс": {
 "fetched": "2026-10-11",
 "row": {
@@ -3029,6 +3081,10 @@
 "keyword": "крапс правила",
 "volume": 0
 }
+},
+"bg|крас игри правила": {
+"fetched": "2026-10-28",
+"row": {}
 },
 "bg|крейзи тайм": {
 "fetched": "2026-10-24",
@@ -3229,6 +3285,16 @@
 "volume": 0
 }
 },
+"bg|пай гоу покер": {
+"fetched": "2026-10-28",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "пай гоу покер",
+"volume": 0
+}
+},
 "bg|пика карти игра": {
 "fetched": "2026-10-27",
 "row": {}
@@ -3267,6 +3333,16 @@
 "volume": 70
 },
 "trend": "down"
+},
+"bg|покер правила за начинаещи": {
+"fetched": "2026-10-28",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "покер правила за начинаещи",
+"volume": 0
+}
 },
 "bg|понтун": {
 "fetched": "2026-10-27",
@@ -3405,6 +3481,10 @@
 "keyword": "сик бо",
 "volume": 0
 }
+},
+"bg|скат карти": {
+"fetched": "2026-10-28",
+"row": {}
 },
 "bg|скатер символ": {
 "fetched": "2026-10-24",

@@ -1,13 +1,15 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-10-28T07:16:52Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-10-28T07:42:13Z",
+  "articles_written": 1,
+  "prs_opened": [
+    326
+  ],
   "run_url": "https://claude.ai/code/session_01AwuYFTGbS3Bs8ogHR6G6BF",
-  "note": "daily run 2026-10-28",
+  "note": "daily run 2026-10-28 done — 1 NEW guide vk-0303 „Бридж (contract bridge): правила за начинаещи\" (PR #326), research bank TOP-opportunity winnable candidate (бридж правила 80/kd0, Moderate/44). Reconcile clean (0 in-progress/HANDOFF/CLAIMED). Monthly SEO 2026-10 already done (no-op). AHREFS+GEMINI online (units 43,250/200,000 used, reset 2026-11-15). Distinct contract-bridge rules pillar — one hand through 4 phases (раздаване→наддаване+избор на коз→разиграване: мор, следване на боята→точкуване: взятки→манш/шлем); DISTINCT vs белот vk-0286 (52-card deck vs 32, наддаване/договор vs анонси, mind-sport vs money). Dedup vs queue+backlog+live sitemap (142 URLs)=0 bridge coverage → clean. Facts universal (pagat.com + bg.wikipedia + corroboration), 0 operator/НАП/affiliate, 0 [VERIFY]. Gate 95 PASS 0-crit; Gemini Step-7 keep-best pass2 human 85 (HL 20→25→85, 2 humaniser passes: cut rhetorical antithesis/true-currency metaphor/grandiose absolutes/tautology/neat-bow, moved Vanderbilt-1925/WBF history to intro). img:2 (infographic bridzh-nadavane-tochkuvane.svg deno order+trick values 20/30/40+30+манш 100+шлем нива 6/7, numbers 1:1 vs 05b „безупречна\" + decorative hero webp 22KB; image review 85 PASS p1, 0 integrity fail; hero ALT спатия→трефа fixed). ~1333 words 0 em-dash; 4 internal links live (белот/табла/отговорна-игра/responsible-gambling). Step-6: research candidate Бридж → used; light Ahrefs discovery (12 seeds) surfaced 0 new distinct winnable (all 0/blank/covered) → ADDED 0 (no-padding, mature library); bank unchanged at 3 (Реми/Казино Холдем/Видео покер); 0 confirmed-zero candidate. 10 NV-Casino backlog rows stay open+blocked (operator/НАП, out of guides-only scope). Board on main; dashboard rebuilt (buffer 229/10); feed refreshed (13 approved). No flags resolved, nothing posted/merged/fabricated.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-10-28-bridzh-pravila",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 7,
-    "stage": "Images"
+    "stage_index": null,
+    "stage": null
   }
 }
