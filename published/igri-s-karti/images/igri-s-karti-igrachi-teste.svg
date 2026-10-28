@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 384" role="img" aria-label="Сравнение на четири традиционни български игри с карти по брой играчи и големина на тестето: белот 4 играчи (2 отбора) с 32 карти, сантасе 2 играчи с 24 карти, свара 2 до 8 играчи с 32 карти, блато 3 играчи с 52 карти.">
+  <defs>
+    <style>
+      .bg{fill:#f5f1e6;}
+      .card{fill:#ffffff;stroke:#d9cfb3;stroke-width:1.5;}
+      .title{fill:#133a28;font-family:Georgia,'Times New Roman',serif;font-size:23px;font-weight:700;}
+      .sub{fill:#5b6b60;font-family:Georgia,'Times New Roman',serif;font-size:14px;}
+      .hdr{fill:#0f5132;font-family:Georgia,'Times New Roman',serif;font-size:16px;font-weight:700;}
+      .game{fill:#1a2e22;font-family:Georgia,'Times New Roman',serif;font-size:19px;font-weight:700;}
+      .val{fill:#1a2e22;font-family:Georgia,'Times New Roman',serif;font-size:17px;}
+      .foot{fill:#7a8a7f;font-family:Georgia,'Times New Roman',serif;font-size:12.5px;}
+      .rg{fill:#0f5132;font-family:Georgia,'Times New Roman',serif;font-size:12.5px;font-weight:700;}
+      .band{fill:#eef4ef;}
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="720" height="384"/>
+  <rect class="card" x="12" y="12" width="696" height="360" rx="14"/>
+
+  <text class="title" x="360" y="54" text-anchor="middle">Традиционните игри с карти в България</text>
+  <text class="sub" x="360" y="78" text-anchor="middle">колко души сядат на масата и с какво тесте</text>
+
+  <!-- header -->
+  <line x1="40" y1="100" x2="680" y2="100" stroke="#d9cfb3" stroke-width="1"/>
+  <text class="hdr" x="44" y="123" text-anchor="start">Игра</text>
+  <text class="hdr" x="410" y="123" text-anchor="middle">Играчи</text>
+  <text class="hdr" x="600" y="123" text-anchor="middle">Тесте</text>
+  <line x1="40" y1="134" x2="680" y2="134" stroke="#0f5132" stroke-width="1.5"/>
+
+  <!-- rows -->
+  <rect class="band" x="24" y="142" width="672" height="46"/>
+  <text class="game" x="44" y="172" text-anchor="start">Белот</text>
+  <text class="val"  x="410" y="172" text-anchor="middle">4 (2 отбора)</text>
+  <text class="val"  x="600" y="172" text-anchor="middle">32 карти</text>
+
+  <text class="game" x="44" y="218" text-anchor="start">Сантасе</text>
+  <text class="val"  x="410" y="218" text-anchor="middle">2</text>
+  <text class="val"  x="600" y="218" text-anchor="middle">24 карти</text>
+
+  <rect class="band" x="24" y="234" width="672" height="46"/>
+  <text class="game" x="44" y="264" text-anchor="start">Свара</text>
+  <text class="val"  x="410" y="264" text-anchor="middle">2–8</text>
+  <text class="val"  x="600" y="264" text-anchor="middle">32 карти</text>
+
+  <text class="game" x="44" y="310" text-anchor="start">Блато</text>
+  <text class="val"  x="410" y="310" text-anchor="middle">3</text>
+  <text class="val"  x="600" y="310" text-anchor="middle">52 карти</text>
+
+  <line x1="40" y1="330" x2="680" y2="330" stroke="#d9cfb3" stroke-width="1"/>
+  <text class="foot" x="44" y="352" text-anchor="start">Числата са от текста на статията.</text>
+  <text class="rg" x="676" y="352" text-anchor="end">18+ Играйте отговорно</text>
+</svg>

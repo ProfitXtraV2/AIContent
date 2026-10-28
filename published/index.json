@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 21,
+  "count": 22,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -136,6 +136,13 @@
       "status": "approved"
     },
     {
+      "slug": "igri-s-karti",
+      "title": "Игри с карти: кои се играят в България и как",
+      "date_modified": "2026-10-27",
+      "content_hash": "f57429c7191f8e90815ce5dbf3b19b56adee7fe6d26353a017570728f919dcdd",
+      "status": "approved"
+    },
+    {
       "slug": "shah-pravila",
       "title": "Шах правила за начинаещи: фигури, ходове, шах и мат",
       "date_modified": "2026-10-27",
@@ -150,5 +157,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-28T16:43:49Z"
+  "generated_utc": "2026-10-28T16:44:02Z"
 }
