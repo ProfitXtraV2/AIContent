@@ -12,3 +12,9 @@
 - 05b: final draft written. Numbers diffed across stages — identical throughout (no changed/missing number).
 - Step 7 (Gemini text): see 07-gemini-check-*.md
 - Step 8 (images): see 08-image-review-*.md + 06-verification.md
+
+## Final (2026-10-28)
+- Step 7 Gemini text: human 85 (HL 20→25→85, keep-best pass 2, 2 passes). PASS.
+- Step 8 images: 2 (infographic 85, hero 85). Review pass 1 = 85 PASS, 0 integrity. Hero ALT fixed (спатия→трефа).
+- 06-verification: 0 flags; figures recalculated and 1:1 with 05b + infographic.
+- Numbers diffed across all stages — identical throughout; no changed/missing number.
