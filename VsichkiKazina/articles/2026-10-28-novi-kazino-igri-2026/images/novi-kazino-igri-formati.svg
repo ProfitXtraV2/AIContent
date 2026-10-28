@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-label="Шест формата, зад които стоят новите казино игри: падащи символи, cluster pays, разширяващи се wild, крах игри, plinko и шоу на живо">
+  <rect x="0" y="0" width="720" height="420" fill="#ffffff"/>
+  <rect x="8" y="8" width="704" height="404" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+
+  <text x="360" y="36" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#0f172a">Форматите зад новите казино игри</text>
+  <text x="360" y="58" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#475569">Какво отличава новото поколение заглавия</text>
+
+  <!-- row 1 -->
+  <g>
+    <rect x="25" y="78" width="210" height="140" rx="9" fill="#f1f5f9" stroke="#cbd5e1"/>
+    <text x="130" y="108" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#15603f">Падащи символи</text>
+    <text x="130" y="140" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#334155">печелившите изчезват,</text>
+    <text x="130" y="158" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#334155">а нови падат отгоре</text>
+    <text x="130" y="192" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#64748b">(tumble / каскади)</text>
+  </g>
+  <g>
+    <rect x="250" y="78" width="210" height="140" rx="9" fill="#f1f5f9" stroke="#cbd5e1"/>
+    <text x="355" y="108" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#15603f">Cluster pays</text>
+    <text x="355" y="140" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#334155">групи еднакви символи</text>
+    <text x="355" y="158" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#334155">вместо фиксирани линии</text>
+  </g>
+  <g>
+    <rect x="475" y="78" width="210" height="140" rx="9" fill="#f1f5f9" stroke="#cbd5e1"/>
+    <text x="580" y="108" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#15603f">Разширяващи wild</text>
+    <text x="580" y="140" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#334155">специален символ</text>
+    <text x="580" y="158" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#334155">покрива цял барабан</text>
+  </g>
+
+  <!-- row 2 -->
+  <g>
+    <rect x="25" y="238" width="210" height="140" rx="9" fill="#eef5f1" stroke="#1a7f5a"/>
+    <text x="130" y="268" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#92600c">Крах игри</text>
+    <text x="130" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#334155">множител расте от 1.00x,</text>
+    <text x="130" y="318" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#334155">кешаут преди срива</text>
+  </g>
+  <g>
+    <rect x="250" y="238" width="210" height="140" rx="9" fill="#eef5f1" stroke="#1a7f5a"/>
+    <text x="355" y="268" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#92600c">Plinko</text>
+    <text x="355" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#334155">топче през пинове</text>
+    <text x="355" y="318" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#334155">в кошче с множител</text>
+  </g>
+  <g>
+    <rect x="475" y="238" width="210" height="140" rx="9" fill="#eef5f1" stroke="#1a7f5a"/>
+    <text x="580" y="268" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#92600c">Шоу на живо</text>
+    <text x="580" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#334155">водещ в студио,</text>
+    <text x="580" y="318" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#334155">колело и мини-игри</text>
+  </g>
+
+  <text x="360" y="402" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#64748b">18+ Играйте отговорно · „ново" е формат, не по-добър шанс.</text>
+</svg>
