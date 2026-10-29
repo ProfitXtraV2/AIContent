@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 640" role="img" aria-label="Инфографика: ключови години и трофеи на Челси към есента на 2026 г.">
+  <defs>
+    <style>
+      .bg{fill:#f5f7fb;}
+      .card{fill:#ffffff;stroke:#d7deea;stroke-width:1;}
+      .title{fill:#15213a;font-family:'Segoe UI',Arial,sans-serif;font-size:25px;font-weight:700;}
+      .sub{fill:#5f6a7a;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+      .yr{fill:#1d4ed8;font-family:'Segoe UI',Arial,sans-serif;font-size:17px;font-weight:700;}
+      .lbl{fill:#2a3545;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;}
+      .colh{fill:#1d4ed8;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;}
+      .big{fill:#15213a;font-family:'Segoe UI',Arial,sans-serif;font-size:26px;font-weight:800;}
+      .tl{fill:#2a3545;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;}
+      .foot{fill:#5f6a7a;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+      .stad{fill:#15213a;font-family:'Segoe UI',Arial,sans-serif;font-size:15px;font-weight:600;}
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="820" height="640"/>
+  <rect class="card" x="8" y="8" width="804" height="624" rx="14"/>
+
+  <text class="title" x="410" y="50" text-anchor="middle">Челси: години и трофеи</text>
+  <text class="sub" x="410" y="72" text-anchor="middle">към есента на 2026 г.</text>
+  <line x1="40" y1="92" x2="780" y2="92" stroke="#d7deea" stroke-width="1"/>
+
+  <!-- Left column: key years -->
+  <text class="colh" x="40" y="124">Ключови години</text>
+
+  <text class="yr"  x="40"  y="162">1905</text>
+  <text class="lbl" x="150" y="162">Основан край „Стамфорд Бридж"</text>
+
+  <text class="yr"  x="40"  y="206">1971</text>
+  <text class="lbl" x="150" y="206">Първи европейски трофей (КНК)</text>
+
+  <text class="yr"  x="40"  y="250">2012</text>
+  <text class="lbl" x="150" y="250">Първа Шампионска лига</text>
+
+  <text class="yr"  x="40"  y="294">2021</text>
+  <text class="lbl" x="150" y="294">Втора Шампионска лига</text>
+
+  <text class="yr"  x="40"  y="338">2025</text>
+  <text class="lbl" x="150" y="338">Лига на конференциите</text>
+
+  <!-- Stadium fact -->
+  <line x1="40" y1="380" x2="360" y2="380" stroke="#d7deea" stroke-width="1"/>
+  <text class="stad" x="40" y="414">Стадион „Стамфорд Бридж"</text>
+  <text class="lbl"  x="40" y="438">40 044 места</text>
+
+  <!-- Divider -->
+  <line x1="400" y1="108" x2="400" y2="470" stroke="#d7deea" stroke-width="1"/>
+
+  <!-- Right column: trophies -->
+  <text class="colh" x="430" y="124">Трофеи</text>
+
+  <text class="big" x="470" y="166" text-anchor="middle">6</text>
+  <text class="tl"  x="508" y="166">титли в Англия</text>
+
+  <text class="big" x="470" y="206" text-anchor="middle">8</text>
+  <text class="tl"  x="508" y="206">ФА Къп</text>
+
+  <text class="big" x="470" y="246" text-anchor="middle">5</text>
+  <text class="tl"  x="508" y="246">Купи на лигата</text>
+
+  <text class="big" x="470" y="286" text-anchor="middle">2</text>
+  <text class="tl"  x="508" y="286">Шампионска лига</text>
+
+  <text class="big" x="470" y="326" text-anchor="middle">2</text>
+  <text class="tl"  x="508" y="326">Лига Европа</text>
+
+  <text class="big" x="470" y="366" text-anchor="middle">2</text>
+  <text class="tl"  x="508" y="366">Купи на носителите на купи</text>
+
+  <text class="big" x="470" y="406" text-anchor="middle">2</text>
+  <text class="tl"  x="508" y="406">Суперкупи на УЕФА</text>
+
+  <text class="big" x="470" y="446" text-anchor="middle">1</text>
+  <text class="tl"  x="508" y="446">Лига на конференциите</text>
+
+  <text class="big" x="470" y="486" text-anchor="middle">2</text>
+  <text class="tl"  x="508" y="486">световни клубни титли</text>
+
+  <line x1="40" y1="516" x2="780" y2="516" stroke="#d7deea" stroke-width="1"/>
+  <text class="foot" x="40" y="548">Пръв клуб с всичките четири основни клубни трофея на УЕФА (след 2025 г.).</text>
+  <text class="foot" x="40" y="572">Основан 10 март 1905 г. Всички числа следват текста на статията.</text>
+</svg>
