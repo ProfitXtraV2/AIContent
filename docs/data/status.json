@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-29T17:06:13Z",
+  "generated_utc": "2026-10-29T17:06:32Z",
   "buffer": {
     "count": 239,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 216,
-    "approved": 23,
+    "drafted": 215,
+    "approved": 24,
     "posted": 78,
     "failed": 1
   },
@@ -6314,7 +6314,7 @@
     },
     {
       "id": "vk-0311",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Реал Мадрид — история, трофеи, стадион и легенди на клуба",
       "keywords_or_terms": "реал мадрид, реал мадрид история, реал мадрид трофеи, сантяго бернабеу",

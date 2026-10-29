@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 23,
+  "count": 24,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -129,6 +129,13 @@
       "status": "approved"
     },
     {
+      "slug": "real-madrid-istoriya-trofei",
+      "title": "Реал Мадрид: история, трофеи, стадион и легенди | Всички Казина",
+      "date_modified": "2026-10-28",
+      "content_hash": "3092f1636c64d4ddc2a7400d6393aa22035c1678ddbe9dc7dddc1ce88047ec7a",
+      "status": "approved"
+    },
+    {
       "slug": "lionel-messi-kariera-trofei",
       "title": "Лионел Меси: кариера, рекорди и трофеи | Всички Казина",
       "date_modified": "2026-10-29",
@@ -164,5 +171,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-29T17:06:12Z"
+  "generated_utc": "2026-10-29T17:06:32Z"
 }

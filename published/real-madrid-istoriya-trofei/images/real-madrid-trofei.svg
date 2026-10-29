@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" role="img" aria-label="Инфографика: ключови години и трофеи на Реал Мадрид към лятото на 2025 г.">
+  <defs>
+    <style>
+      .bg{fill:#f6f7f9;}
+      .card{fill:#ffffff;stroke:#dde1e8;stroke-width:1;}
+      .title{fill:#1a2330;font-family:'Segoe UI',Arial,sans-serif;font-size:24px;font-weight:700;}
+      .sub{fill:#5f6a7a;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+      .yr{fill:#9a7b1f;font-family:'Segoe UI',Arial,sans-serif;font-size:17px;font-weight:700;}
+      .lbl{fill:#2a3545;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;}
+      .colh{fill:#9a7b1f;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;}
+      .big{fill:#1a2330;font-family:'Segoe UI',Arial,sans-serif;font-size:34px;font-weight:800;}
+      .tl{fill:#2a3545;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;}
+      .foot{fill:#5f6a7a;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="760" height="560"/>
+  <rect class="card" x="8" y="8" width="744" height="544" rx="14"/>
+
+  <text class="title" x="380" y="48" text-anchor="middle">Реал Мадрид: години и трофеи</text>
+  <text class="sub" x="380" y="70" text-anchor="middle">към лятото на 2025 г.</text>
+
+  <line x1="40" y1="88" x2="720" y2="88" stroke="#dde1e8" stroke-width="1"/>
+
+  <!-- Left column: key years -->
+  <text class="colh" x="40" y="118">Ключови години</text>
+
+  <text class="yr"  x="40"  y="152">1902</text>
+  <text class="lbl" x="150" y="152">Основан като Madrid FC</text>
+
+  <text class="yr"  x="40"  y="194">1920</text>
+  <text class="lbl" x="150" y="194">Кралската титла „Реал"</text>
+
+  <text class="yr"  x="40"  y="236">1947</text>
+  <text class="lbl" x="150" y="236">Стадион „Сантяго Бернабеу"</text>
+
+  <text class="yr"  x="40"  y="278">1956-1960</text>
+  <text class="lbl" x="150" y="278">Първите 5 европейски купи</text>
+
+  <text class="yr"  x="40"  y="320">2024</text>
+  <text class="lbl" x="150" y="320">15-и европейски трофей</text>
+
+  <!-- Divider -->
+  <line x1="440" y1="104" x2="440" y2="380" stroke="#dde1e8" stroke-width="1"/>
+
+  <!-- Right column: trophies -->
+  <text class="colh" x="625" y="118" text-anchor="middle">Трофеи</text>
+
+  <text class="big" x="510" y="168" text-anchor="middle">36</text>
+  <text class="tl"  x="550" y="168">титли в Ла Лига</text>
+
+  <text class="big" x="510" y="218" text-anchor="middle">20</text>
+  <text class="tl"  x="550" y="218">Купи на краля</text>
+
+  <text class="big" x="510" y="268" text-anchor="middle">15</text>
+  <text class="tl"  x="550" y="268">Шампионска лига (рекорд)</text>
+
+  <text class="big" x="510" y="318" text-anchor="middle">13</text>
+  <text class="tl"  x="550" y="318">Суперкупи на Испания</text>
+
+  <text class="big" x="510" y="368" text-anchor="middle">9</text>
+  <text class="tl"  x="550" y="368">световни титли (рекорд)</text>
+
+  <!-- Footer strip -->
+  <line x1="40" y1="470" x2="720" y2="470" stroke="#dde1e8" stroke-width="1"/>
+  <text class="foot" x="40"  y="500">ФИФА клуб на XX век (2000) · стадион над 80 000 места</text>
+  <text class="foot" x="720" y="500" text-anchor="end">18+ Играйте отговорно</text>
+</svg>
