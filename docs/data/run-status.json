@@ -1,18 +1,16 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-10-29T04:52:00Z",
-  "run_finished_utc": "2026-10-29T05:12:00Z",
-  "articles_written": 1,
-  "prs_opened": [
-    340
-  ],
-  "run_url": "https://claude.ai/code/session_01AwuYFSS4v6TKPwnbt8mRif",
-  "note": "daily run 2026-10-29 — OWNER BURST fire (hourly window → 2026-10-29 07:00 UTC). Wrote 1 new article (MAX_PER_RUN=1): vk-0317 „Ла Лига — формат, отбори и как работи класирането\" (PR #340), the next open P0 burst row (9th of 10, ла лига 20000/kd3) after Лудогорец/Тенис/Реал Мадрид/Барселона/Меси/Ефбет Лига/Кристиано Роналдо/Челси. Evergreen league-format guide, guides-only (0 operator/НАП/affiliate; 0 current standings/results/fixtures/odds; 0 predictions). Facts = EN Wikipedia (La Liga): основана 1929 (10 клуба), Campeonato Nacional de Liga de Primera División / „LaLiga EA Sports\", организатор Liga Nacional de Fútbol Profesional; 20 отбора (от 1997/98), двукръгов формат → 38 кръга/380 мача, 3/1/0 точки; отличителен тайбрек по преки срещи (двама → голова разлика в преките, трима+ → точки, после обща голова разлика → голове → феърплей); изпадат последните 3 → Segunda, качват се 2 директно + 1 плейоф (места 3–6); европейска рамка от 2023 (топ 4 → ШЛ, възможен 5-и по коефициент; 5-и + Копа дел Рей → ЛЕ; следващ → ЛК) написана принципно + препратка към официален източник (без stale per-season квоти); титли към есента на 2026 г. Реал Мадрид 36 (рекорд)/Барселона 29/Атлетико Мадрид 11/Атлетик Билбао 8/Валенсия 6, 9 клуба общо; Ел Класико; Пичичи (голмайстор, в. Марка)/трофей Замора (вратар). ~740 думи, 0 em-dash, 0 [VERIFY]. Gate 95 PASS 0-crit. Gemini Step-7: HL 25 (Shows AI patterns 75%) → 85 (Likely human-written 85%) after 1 humaniser pass = PASS; keep-best = pass 1; gemini human 85; style-only, 0 facts/numbers/links/RG touched. img:2 (hand-authored SVG infographic numbers 1:1 vs 05b + decorative hero webp 20.8KB, no text/logos/people/EA-Sports mark; Gemini image review 100 PASS p1, 0 integrity; hero gen'd as PNG then ImageMagick→WebP since Pillow unavailable). Reconcile clean on entry (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review = no-op (seo-review.json 2026-10). Dedup vs queue (0) + live sitemap clean; distinct from Ефбет Лига (BG). No Ahrefs pull this fire (conserve units mid-burst; backlog already enriched 20000/kd3 from 2026-10-28 sweep). Board updated: content-queue vk-0317 drafted (human 85, PR #340); backlog Ла Лига row → written; dashboard rebuilt (buffer 240/10); feed refreshed (still 19 approved; vk-0317 is drafted, not in feed). No flags resolved, nothing posted/merged/fabricated. Burst progress: 9 of 10 P0 rows drafted (Лудогорец, Тенис, Реал Мадрид, Барселона, Меси, Ефбет Лига, Кристиано Роналдо, Челси, Ла Лига); 1 open remains (Формула 1). Next burst fire writes the last open P0 row = Формула 1; after that (or after 2026-10-29 07:00 UTC) further fires write 0 (board upkeep only).",
+  "state": "running",
+  "run_started_utc": "2026-10-29T05:52:25Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01AwuYFTJifMzMvJcL8ge1fX",
+  "note": "daily run 2026-10-29 — OWNER BURST fire (hourly window → 2026-10-29 07:00 UTC). Target = the last open P0 burst row (10th of 10) = Формула 1 (18000/kd1). Reconcile clean on entry (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review no-op (seo-review.json 2026-10).",
   "progress": {
-    "phase": "done",
+    "phase": "writing",
     "article_index": 1,
     "article_total": 1,
-    "article_slug": "2026-10-29-la-liga",
+    "article_slug": "2026-10-29-formula-1",
     "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
     "stage_index": null,
     "stage": null
