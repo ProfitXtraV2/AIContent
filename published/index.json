@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 21,
+  "count": 22,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -143,6 +143,13 @@
       "status": "approved"
     },
     {
+      "slug": "formula-1",
+      "title": "Формула 1: как работи — точкуване, отбори и състезателният уикенд | Всички Казина",
+      "date_modified": "2026-10-29",
+      "content_hash": "fd34b989ae6fb505f081ec6e34826a5c6500a509eff96f9c4e0e895d41278290",
+      "status": "approved"
+    },
+    {
       "slug": "la-liga",
       "title": "Ла Лига: формат, отбори и как работи класирането | Всички Казина",
       "date_modified": "2026-10-29",
@@ -150,5 +157,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-29T17:05:37Z"
+  "generated_utc": "2026-10-29T17:06:04Z"
 }

@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-29T17:05:37Z",
+  "generated_utc": "2026-10-29T17:06:04Z",
   "buffer": {
     "count": 239,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 218,
-    "approved": 21,
+    "drafted": 217,
+    "approved": 22,
     "posted": 78,
     "failed": 1
   },
@@ -6452,7 +6452,7 @@
     },
     {
       "id": "vk-0318",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Формула 1 — как работи: точкуване, отбори и състезателният уикенд",
       "keywords_or_terms": "формула 1, formula 1, формула 1 правила, точкуване формула 1",
