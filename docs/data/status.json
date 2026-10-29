@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-29T17:04:47Z",
+  "generated_utc": "2026-10-29T17:05:13Z",
   "buffer": {
     "count": 239,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 220,
-    "approved": 19,
+    "drafted": 219,
+    "approved": 20,
     "posted": 78,
     "failed": 1
   },
@@ -6406,7 +6406,7 @@
     },
     {
       "id": "vk-0315",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Кристиано Роналдо — кариера, рекорди, трофеи и стил на игра",
       "keywords_or_terms": "кристиано роналдо, роналдо, роналдо кариера, роналдо рекорди",

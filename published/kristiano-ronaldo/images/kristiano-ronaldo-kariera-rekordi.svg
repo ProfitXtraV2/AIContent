@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" role="img" aria-label="Инфографика: ключови години и рекорди в кариерата на Кристиано Роналдо">
+  <defs>
+    <style>
+      .bg{fill:#f6f7f9;}
+      .card{fill:#ffffff;stroke:#dde1e8;stroke-width:1;}
+      .title{fill:#1a2330;font-family:'Segoe UI',Arial,sans-serif;font-size:24px;font-weight:700;}
+      .sub{fill:#5f6a7a;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+      .yr{fill:#1f6f4a;font-family:'Segoe UI',Arial,sans-serif;font-size:17px;font-weight:700;}
+      .lbl{fill:#2a3545;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;}
+      .colh{fill:#1f6f4a;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;}
+      .big{fill:#1a2330;font-family:'Segoe UI',Arial,sans-serif;font-size:34px;font-weight:800;}
+      .tl{fill:#2a3545;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;}
+      .foot{fill:#5f6a7a;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="760" height="560"/>
+  <rect class="card" x="8" y="8" width="744" height="544" rx="14"/>
+
+  <text class="title" x="380" y="48" text-anchor="middle">Кристиано Роналдо: кариера и рекорди</text>
+  <text class="sub" x="380" y="70" text-anchor="middle">ключови години и трофеи</text>
+
+  <line x1="40" y1="88" x2="720" y2="88" stroke="#dde1e8" stroke-width="1"/>
+
+  <!-- Left column: key years -->
+  <text class="colh" x="40" y="118">Ключови години</text>
+
+  <text class="yr"  x="40"  y="152">1985</text>
+  <text class="lbl" x="150" y="152">Роден във Фуншал, Мадейра</text>
+
+  <text class="yr"  x="40"  y="194">2003</text>
+  <text class="lbl" x="150" y="194">„Манчестър Юнайтед"</text>
+
+  <text class="yr"  x="40"  y="236">2009</text>
+  <text class="lbl" x="150" y="236">„Реал Мадрид"</text>
+
+  <text class="yr"  x="40"  y="278">2016</text>
+  <text class="lbl" x="150" y="278">Европейски шампион</text>
+
+  <text class="yr"  x="40"  y="320">2018</text>
+  <text class="lbl" x="150" y="320">„Ювентус"</text>
+
+  <!-- Divider -->
+  <line x1="440" y1="104" x2="440" y2="380" stroke="#dde1e8" stroke-width="1"/>
+
+  <!-- Right column: records -->
+  <text class="colh" x="625" y="118" text-anchor="middle">Трофеи и рекорди</text>
+
+  <text class="big" x="505" y="168" text-anchor="middle">450</text>
+  <text class="tl"  x="560" y="168">гола за „Реал"</text>
+
+  <text class="big" x="505" y="218" text-anchor="middle">5</text>
+  <text class="tl"  x="560" y="218">Златни топки</text>
+
+  <text class="big" x="505" y="268" text-anchor="middle">5</text>
+  <text class="tl"  x="560" y="268">Шампионски лиги</text>
+
+  <text class="big" x="505" y="318" text-anchor="middle">3</text>
+  <text class="tl"  x="560" y="318">титли в Премиер лига</text>
+
+  <text class="big" x="505" y="368" text-anchor="middle">2</text>
+  <text class="tl"  x="560" y="368">титли в Серия А</text>
+
+  <!-- Footer strip -->
+  <line x1="40" y1="470" x2="720" y2="470" stroke="#dde1e8" stroke-width="1"/>
+  <text class="foot" x="40"  y="500">Рекордьор по голове в Шампионската лига</text>
+  <text class="foot" x="720" y="500" text-anchor="end">18+ Играйте отговорно</text>
+</svg>

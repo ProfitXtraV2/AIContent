@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 19,
+  "count": 20,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -134,7 +134,14 @@
       "date_modified": "2026-10-29",
       "content_hash": "0e8c560f5f2e0d6cab863dc85203c63686afa17412bf7e0fc1418601f8dd58f8",
       "status": "approved"
+    },
+    {
+      "slug": "kristiano-ronaldo",
+      "title": "Кристиано Роналдо: кариера, рекорди и трофеи | Всички Казина",
+      "date_modified": "2026-10-29",
+      "content_hash": "7c0db18142553f14c9cd39a559508cdafa221c974219cd37be982777f2b9bbf5",
+      "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-29T17:04:47Z"
+  "generated_utc": "2026-10-29T17:05:13Z"
 }
