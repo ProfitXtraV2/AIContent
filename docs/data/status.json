@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-29T01:52:55Z",
+  "generated_utc": "2026-10-29T02:22:57Z",
   "buffer": {
-    "count": 236,
+    "count": 237,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 217,
+    "drafted": 218,
     "approved": 19,
     "posted": 76,
     "failed": 1
@@ -6380,6 +6380,29 @@
       },
       "verify_flags": 0,
       "verify_samples": []
+    },
+    {
+      "id": "vk-0314",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Ефбет Лига — формат, отбори, плейофи и къде да гледате мачовете",
+      "keywords_or_terms": "ефбет лига, efbet лига, efbet liga, efbet лига класиране, първа лига формат",
+      "volume": "41000",
+      "kd": "0",
+      "source": "backlog",
+      "drafted_date": "2026-10-29",
+      "posted_date": "",
+      "folder": "2026-10-29-efbet-liga-format-otbori",
+      "pr": "#337",
+      "gemini": "ai 65",
+      "notes": "OWNER BURST 2026-10-29 (hourly window → 2026-10-29 07:00 UTC); next open P0 burst row after Лудогорец/Тенис/Реал Мадрид/Барселона/Меси (6th of 10). Evergreen football-league guide (guides-only ✓: 0 operator T&C/НАП/affiliate; 0 current standings/results/fixtures/odds; 0 predictions). efbet = title sponsor of BG Първа лига → official name „efbet Лига\" stated as public fact, no operator T&C claims. Cluster ефбет лига 41000/kd0 WIN (efbet liga 13K + efbet лига 6.9K + класиране 3K folded in). Dedup vs queue (0) + live sitemap (145 URLs: /casino/efbet/ = operator money page, /blog/futbol/ = hub; no league guide) = clean. · OUTCOME drafted → PR #337. Facts EN/BG Wikipedia (league pages): преименуване 7 юни 2016 г., efbet спонсор от 2019 г., лига от 1948 г./първенство от 1924 г., организатори БФС+ПФЛ; формат описан принципно + илюстриран със сезон 2025/26 (16 отбора, 30 кръга → групи места 1–4 / 5–8 / 9–16), връщане към 14 отбора от 2026/27; класиране/резултати/ТВ права препратени към официален източник (не се печатат stale данни); рекорди ЦСКА 31 / Левски 27 (шампион 2025/26) / Лудогорец 14 поредни (към 2026 г.). Gate 95 PASS 0-crit. Gemini Step-7 keep-best = humaniser pass 2 (HL 25→15→15/35; детекторът нестабилен 85%/65% на идентичен текст; „ai 65\", под 80 → маркирано за човешки Step-6; style-only, 0 факти/числа/линкове пипнати; официалните-източник препратки НЕ са махнати — brand anti-stale compliance). img:2 (infographic efbet-liga-format-sezon.svg числа 1:1 vs 05b + decorative hero webp 7KB, без текст/лога/хора; image review 100 PASS p1, 0 integrity). ~816 думи, 0 em-dash, 0 [VERIFY]. 4 body internal links live (zakonno-li-e / bonus-ruletka-sport-vsichki / blog-futbol / blog-responsible-gambling) + otgovorna-igra footer; no affiliate. Сиблинг клубни линкове (Лудогорец/Левски/ЦСКА) се добавят при публикуване на профилите. vol/kd 41000/0 (ahrefs, from backlog).",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
     }
   ],
   "backlog": [
@@ -6483,8 +6506,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 41000/kd0 (2026-10-28 sports sweep). Cluster ~64K/kd0 (ефбет лига 41K + efbet liga 13K + efbet лига 6.9K + класиране 3K). efbet is a site partner — factual league guide, no operator T&C claims.",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-28 (sports-guide batch; owner approved sports scope). Evergreen guide on format, rules and how it works. NEVER print current standings, results, fixtures or odds (they go stale); link to official sources for live data. No betting tips. Optional light link to /bonus-ruletka/sport/ + RG line.",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-10-28 (sports-guide batch; owner approved sports scope). Evergreen guide on format, rules and how it works. NEVER print current standings, results, fixtures or odds (they go stale); link to official sources for live data. No betting tips. Optional light link to /bonus-ruletka/sport/ + RG line. · WRITTEN 2026-10-29 (owner burst fire, P0 row 6/10 after Лудогорец/Тенис/Реал Мадрид/Барселона/Меси) → vk-0314, PR #337. Guides-only ✓ (0 operator T&C/НАП/affiliate; 0 standings/results/odds/predictions). efbet = заглавен спонсор (публичен факт, не препоръка). Формат описан принципно + сезон 2025/26 илюстрация (16 отбора/30 кръга → места 1–4/5–8/9–16), връщане към 14 от 2026/27; класиране/ТВ права препратени към официален източник. Рекорди ЦСКА 31/Левски 27/Лудогорец 14 поредни (към 2026 г.). Факти EN/BG Wikipedia. Gate 95 PASS, Gemini ai 65 (keep-best pass 2, HL 35; детектор нестабилен, под 80 → маркирано за човек), img:2 (review 100), ~816 думи, 0 flags.",
       "opportunity": {
         "score": 100,
         "band": "Strong",
@@ -12263,30 +12286,17 @@
       }
     ],
     "bands": {
-      "Strong": 43,
+      "Strong": 42,
       "Moderate": 2
     },
     "clusters": {
       "uncategorised": {
-        "winnable": 44,
+        "winnable": 43,
         "pillar": 0,
-        "total": 45
+        "total": 44
       }
     },
     "winnable": [
-      {
-        "query": "Ефбет Лига — формат, отбори, плейофи и къде да гледате мачовете",
-        "keywords": "ефбет лига, efbet лига, efbet liga, efbet лига класиране, първа лига формат",
-        "volume": "41000",
-        "kd": "0",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 100,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
       {
         "query": "Кристиано Роналдо — кариера, рекорди, трофеи и стил на игра",
         "keywords": "кристиано роналдо, роналдо, роналдо кариера, роналдо рекорди",
@@ -12850,7 +12860,7 @@
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 44,
+      "winnable": 43,
       "pillars": 0
     }
   }

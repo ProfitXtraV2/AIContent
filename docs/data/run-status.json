@@ -1,18 +1,18 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-10-29T01:52:17Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-10-29T02:23:02Z",
+  "articles_written": 1,
+  "prs_opened": [337],
   "run_url": "https://claude.ai/code/session_01AwuYFTAVKXuJUm2USCsVou",
-  "note": "daily run 2026-10-29 — OWNER BURST fire (hourly window → 2026-10-29 07:00 UTC). Writing vk-0314 Ефбет Лига (41000/kd0), 6th of 10 P0 rows. Dedup+reconcile clean. Monthly SEO review no-op (2026-10 done). Buffer 236/10.",
+  "note": "daily run 2026-10-29 — OWNER BURST fire (hourly window → 2026-10-29 07:00 UTC). Wrote 1 new article (MAX_PER_RUN=1): vk-0314 „Ефбет Лига — формат, отбори, плейофи и къде да гледате мачовете\" (PR #337), the next open P0 burst row (6th of 10, top open + highest-volume, 41000/kd0) after Лудогорец/Тенис/Реал Мадрид/Барселона/Меси. Evergreen football-league explainer, guides-only (0 operator T&C/НАП/affiliate; 0 current standings/results/odds/predictions). efbet named only as the league's title sponsor (public fact / official name), not recommended, not linked. All season-variable facts stamped or deferred to БФС/ПФЛ (team count 16 in 2025/26 → 14 from 2026/27; group split 1–4/5–8/9–16 shown as the 2025/26 example; live table / TV rights pointed to official sources, no stale data printed). Facts = EN/BG Wikipedia league pages. Key: renaming 7.06.2016, efbet sponsor from 2019, league since 1948 / championship since 1924, organisers БФС+ПФЛ, records ЦСКА 31 / Левски 27 (champion 2025/26) / Лудогорец 14 consecutive (to 2026). ~816 words, 0 em-dash, 0 [VERIFY]. Gate 95 PASS 0-crit. Gemini Step-7: checks 1/2/3 ran (HL 25→15→15/35); detector UNSTABLE (85% then 65% on identical pass-2 text); keep-best = humaniser pass 2 (highest HL seen 35, editorially tightest, incorporated Gemini's own redundancy fixes); 2 humaniser passes (= cap); gemini `ai 65`, below 80, flagged for human Step-6; style-only, 0 facts/numbers/links/RG touched; Gemini's 'remove official-source pointers' suggestion NOT applied (brand anti-stale compliance feature). img:2 (hand-authored SVG infographic numbers 1:1 vs 05b + decorative hero webp 7KB, no text/logos/people; Gemini image review 100 PASS 0-integrity, pass 1, rendered & layout-verified). Reconcile clean on entry (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review = no-op (seo-review.json 2026-10). Dedup vs queue (0) + sitemap (145 URLs; /casino/efbet/ operator money page, /blog/futbol/ hub, no league guide) clean. No Ahrefs pull this fire (conserve units + avoid 429 mid-burst, consistent with prior burst fires; backlog already enriched from 2026-10-28 sweep). Board updated: content-queue vk-0314 drafted (ai 65, PR #337); backlog Ефбет Лига row → written; dashboard rebuilt (buffer 237/10); feed refreshed (still 19 approved; vk-0314 is drafted, not in feed). No flags resolved, nothing posted/merged/fabricated. Burst progress: 6 of 10 P0 rows drafted (Лудогорец, Тенис, Реал Мадрид, Барселона, Меси, Ефбет Лига); 4 open remain (Кристиано Роналдо, Челси, Ла Лига, Формула 1). Next burst fire writes the next open P0 row top-to-bottom = Кристиано Роналдо (27000/kd0).",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-10-29-efbet-liga-format-otbori",
     "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "stage_index": null,
+    "stage": null
   }
 }
