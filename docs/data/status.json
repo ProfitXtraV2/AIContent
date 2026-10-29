@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-29T04:12:24Z",
+  "generated_utc": "2026-10-29T05:09:20Z",
   "buffer": {
-    "count": 239,
+    "count": 240,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 220,
+    "drafted": 221,
     "approved": 19,
     "posted": 76,
     "failed": 1
@@ -6449,6 +6449,29 @@
       },
       "verify_flags": 0,
       "verify_samples": []
+    },
+    {
+      "id": "vk-0317",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Ла Лига — формат, отбори и как работи класирането",
+      "keywords_or_terms": "ла лига, la liga, испанско първенство",
+      "volume": "20000",
+      "kd": "3",
+      "source": "backlog",
+      "drafted_date": "2026-10-29",
+      "posted_date": "",
+      "folder": "2026-10-29-la-liga",
+      "pr": "#340",
+      "gemini": "human 85",
+      "notes": "OWNER BURST 2026-10-29 (hourly window → 2026-10-29 07:00 UTC); next open P0 burst row after Лудогорец/Тенис/Реал Мадрид/Барселона/Меси/Ефбет Лига/Кристиано Роналдо/Челси (9th of 10). Evergreen league-format guide (guides-only ✓: 0 operator/НАП/affiliate; 0 current standings/results/fixtures/odds; 0 predictions). Cluster ла лига 20000/kd3 WIN (la liga + испанско първенство fold-in). Dedup vs queue (0) + live sitemap (no ла-лига/la-liga) = clean; distinct from Ефбет Лига (BG league). · OUTCOME drafted → PR #340. Факти EN Wikipedia (La Liga): основана 1929 г. (10 клуба), Campeonato Nacional de Liga de Primera División / „LaLiga EA Sports\", организатор Liga Nacional de Fútbol Profesional; 20 отбора (от 1997/98), двукръгов формат → 38 кръга / 380 мача, 3/1/0 точки; отличителен тайбрек по преки срещи (двама → голова разлика в преките; трима+ → точки), после обща голова разлика → голове → феърплей (контраст с англ. модел); изпадат последните 3 → Segunda, качват се 2 директно + 1 плейоф (места 3–6); европейска рамка от 2023 (топ 4 → ШЛ, възможен 5-и по коефициент; 5-и + Копа дел Рей → ЛЕ; следващ → ЛК) написана принципно + препратка към официален източник (без stale per-season квоти); рекорди по титли към есента на 2026 г. — Реал Мадрид 36 (рекорд), Барселона 29, Атлетико Мадрид 11, Атлетик Билбао 8, Валенсия 6, 9 клуба общо; Ел Класико; „Пичичи\"/трофей „Замора\". Gate 95 PASS 0-crit. Gemini Step-7 keep-best = humaniser pass 1 (HL 25→85 = PASS; 1 of 2 passes; style-only, 0 факти/числа/линкове/RG пипнати). img:2 (infographic la-liga-format.svg числа 1:1 vs 05b + decorative hero webp 20.8KB, без текст/лога/хора/EA-Sports знак; image review 100 PASS p1, 0 integrity). ~740 думи, 0 em-dash, 0 [VERIFY]. 4 body internal links live (zakonno-li-e / bonus-ruletka-sport-vsichki / blog-futbol / blog-responsible-gambling) + otgovorna-igra footer; no affiliate. Ефбет Лига / Реал Мадрид / Барселона / Атлетико сиблинг линкове се добавят при публикуване. vol/kd 20000/3 (ahrefs, from backlog).",
+      "opportunity": {
+        "score": 99,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
     }
   ],
   "backlog": [
@@ -6606,8 +6629,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 20000/kd3 (2026-10-28 sports sweep).",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-28 (sports-guide batch; owner approved sports scope). Evergreen guide on format, rules and how it works. NEVER print current standings, results, fixtures or odds (they go stale); link to official sources for live data. No betting tips. Optional light link to /bonus-ruletka/sport/ + RG line.",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-10-28 (sports-guide batch; owner approved sports scope). · WRITTEN 2026-10-29 (owner burst fire, P0 row 9/10 after Лудогорец/Тенис/Реал Мадрид/Барселона/Меси/Ефбет Лига/Кристиано Роналдо/Челси) → vk-0317, PR #340. Evergreen league-format guide (guides-only ✓: 0 operator/НАП/affiliate; 0 current standings/results/fixtures/odds; 0 predictions). Cluster ла лига 20000/kd3 WIN (la liga + испанско първенство fold-in); dedup vs queue + live sitemap clean; distinct from Ефбет Лига (BG). Факти EN Wikipedia: основана 1929 (10 клуба), организатор LaLiga/Liga Nacional de Fútbol Profesional; 20 отбора, 38 кръга/380 мача, 3/1/0 точки; отличителен тайбрек по преки срещи; изпадат 3 → Segunda, качват се 2+1 (плейоф 3–6); европейска рамка от 2023 написана принципно + официален източник (без stale квоти); титли към есента на 2026 г. Реал Мадрид 36/Барселона 29/Атлетико 11/Атлетик Билбао 8/Валенсия 6, 9 клуба; Ел Класико; Пичичи/Замора. Gate 95 PASS, Gemini human 85 (keep-best humaniser pass 1), img:2 (review 100), ~740 думи, 0 flags. Ефбет Лига/клубни сиблинг линкове се добавят при публикуване. Evergreen guide on format, rules and how it works. NEVER print current standings, results, fixtures or odds (they go stale); link to official sources for live data. No betting tips. Optional light link to /bonus-ruletka/sport/ + RG line.",
       "opportunity": {
         "score": 99,
         "band": "Strong",
@@ -12332,14 +12355,14 @@
       }
     ],
     "bands": {
-      "Strong": 40,
+      "Strong": 39,
       "Moderate": 2
     },
     "clusters": {
       "uncategorised": {
-        "winnable": 41,
+        "winnable": 40,
         "pillar": 0,
-        "total": 42
+        "total": 41
       }
     },
     "winnable": [
@@ -12643,19 +12666,6 @@
         "src": "backlog"
       },
       {
-        "query": "Ла Лига — формат, отбори и как работи класирането",
-        "keywords": "ла лига, la liga, испанско първенство",
-        "volume": "20000",
-        "kd": "3",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 99,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
         "query": "Втора лига — формат, промоция и изпадане",
         "keywords": "втора лига, втора професионална лига, втора лига формат",
         "volume": "10000",
@@ -12880,7 +12890,7 @@
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 41,
+      "winnable": 40,
       "pillars": 0
     }
   }
