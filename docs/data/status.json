@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-28T23:16:36Z",
+  "generated_utc": "2026-10-29T00:14:49Z",
   "buffer": {
-    "count": 234,
+    "count": 235,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 215,
+    "drafted": 216,
     "approved": 19,
     "posted": 76,
     "failed": 1
@@ -6332,7 +6332,30 @@
         "band": "Strong",
         "winnable": true
       },
-      "verify_flags": null,
+      "verify_flags": 0,
+      "verify_samples": []
+    },
+    {
+      "id": "vk-0312",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Барселона — история, трофеи, стадион и легенди на клуба",
+      "keywords_or_terms": "барселона, фк барселона, барселона история, камп ноу",
+      "volume": "44000",
+      "kd": "6",
+      "source": "backlog",
+      "drafted_date": "2026-10-28",
+      "posted_date": "",
+      "folder": "2026-10-28-barcelona-istoriya-trofei",
+      "pr": "#335",
+      "gemini": "human 80",
+      "notes": "OWNER BURST 2026-10-28 (hourly window → 2026-10-29 07:00 UTC); next open P0 burst row (highest-volume) after Лудогорец+Тенис+Реал Мадрид (vk-0309/0310/0311). Evergreen клубен профил (guides-only ✓: 0 operator/НАП/affiliate; 0 current-season stats/standings/results/transfers/odds; 0 predictions). Cluster барселона 44000/kd6 WIN. Dedup vs queue (0 барселон) + live sitemap = clean. Факти EN Wikipedia + laliga.com + Camp Nou/Espai Barça pages (fetched 2026-10-28): основан 29.11.1899 (Жоан/Ханс Гампер), членска собственост (socis), мото „Més que un club\"; 29 Ла Лига + 32 Копа дел Рей (рекорд) + 16 Суперкупи (рекорд) към 2026 г.; 5 Шампионски лиги (1992/2006/2009/2011/2015), 4 КНК (рекорд), 5 Суперкупи на УЕФА, 3 световни; секстъпъл 2009 (6 трофея, пръв клуб в света, Гуардиола); Камп Ноу от 1957, „Спотифай Камп Ноу\" от 2022, ист. ~99 354, Espai Barça ремонт планирана ~105 000 (текуща вместимост НЕ се твърди — източници разминаване), Монжуик през ремонта + поетапно връщане от 2025; Ла Масия от 1979; легенди Кройф/Меси(голмайстор №1)/Хави/Иниеста/Роналдиньо/Гуардиола; Ел Класико (Каталуния vs Мадрид). Trophy counts stamped „към 2026 г.\". ~867 думи, 0 em-dash, 0 [VERIFY]. Gate 94 PASS 0-crit. Gemini Step-7 keep-best: HL 25→80, verdict „Likely human-written 80%\" (pass-1 humaniser: fixed „трупа с рекордна ръка\" calque, cut grand-triplet/signpost bridges, de-hyperbole). img:2 (infographic barcelona-trofei.svg числа 1:1 vs 05b + decorative hero webp 16KB blaugrana stadium; image review pass1 100 PASS, 0 integrity). 4 body internal links (zakonno-li-e / bonus-ruletka-sport-vsichki / blog-responsible-gambling / otgovorna-igra); Реал Мадрид/Ел Класико link pending that profile; no affiliate. PR #335. vol/kd 44000/6 (ahrefs, from backlog).",
+      "opportunity": {
+        "score": 98,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 0,
       "verify_samples": []
     }
   ],
@@ -6401,8 +6424,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 44000/kd6 (2026-10-28 clubs sweep). Link the Реал Мадрид profile (Ел Класико).",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-28 (European clubs & stars batch → Футбол hub). Evergreen profile: history, trophies, stadium/legends (clubs) or career, records, style, trophies (players). NEVER print current-season stats, standings, results, transfer rumours or odds. Any figure that can change: write it with 'към <месец година>' or mark [VERIFY]. Real people: verifiable public facts only, nothing about private life. Link sibling club/player profiles and league guides (Ла Лига / Премиер лига / Серия А etc. if live). No betting tips; optional RG line.",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-10-28 (European clubs & stars batch → Футбол hub). Evergreen profile: history, trophies, stadium/legends (clubs) or career, records, style, trophies (players). NEVER print current-season stats, standings, results, transfer rumours or odds. Any figure that can change: write it with 'към <месец година>' or mark [VERIFY]. Real people: verifiable public facts only, nothing about private life. Link sibling club/player profiles and league guides (Ла Лига / Премиер лига / Серия А etc. if live). No betting tips; optional RG line. · WRITTEN 2026-10-28 (owner burst fire, P0 row 4/10 after Лудогорец+Тенис+Реал Мадрид) → vk-0312, PR #335. Evergreen клубен профил: основан 1899 (Жоан Гампер), „Més que un club\", членска собственост; 29 Ла Лига + 32 Копа дел Рей (рекорд) + 16 Суперкупи (рекорд) към 2026 г.; 5 Шампионски лиги (1992/2006/2009/2011/2015), 4 КНК (рекорд), 5 Суперкупи на УЕФА, 3 световни; секстъпъл 2009 (6 трофея, пръв клуб в света); Камп Ноу от 1957, „Спотифай\" от 2022, Espai Barça ремонт планирана ~105 000 (текуща вместимост не се твърди), Монжуик + връщане от 2025; Ла Масия от 1979; Кройф/Меси/Хави/Иниеста/Гуардиола; Ел Класико (Каталуния vs Мадрид). Guides-only ✓ (0 operator/НАП/affiliate; 0 класиране/резултати/трансфери/коефициенти/прогнози). Факти EN Wikipedia + laliga.com. Gate 94 PASS, Gemini human 80, img:2 (review 100), ~867 думи, 0 flags. Реал Мадрид/Ел Класико линк се добавя при публикуване на профила на Реал Мадрид.",
       "opportunity": {
         "score": 98,
         "band": "Strong",
@@ -12217,14 +12240,14 @@
       }
     ],
     "bands": {
-      "Strong": 45,
+      "Strong": 44,
       "Moderate": 2
     },
     "clusters": {
       "uncategorised": {
-        "winnable": 46,
+        "winnable": 45,
         "pillar": 0,
-        "total": 47
+        "total": 46
       }
     },
     "winnable": [
@@ -12645,19 +12668,6 @@
         "src": "backlog"
       },
       {
-        "query": "Барселона — история, трофеи, стадион и легенди на клуба",
-        "keywords": "барселона, фк барселона, барселона история, камп ноу",
-        "volume": "44000",
-        "kd": "6",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 98,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
         "query": "Лига Европа — формат и как се класират отборите",
         "keywords": "лига европа, uefa лига европа, europa league",
         "volume": "18000",
@@ -12830,7 +12840,7 @@
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 46,
+      "winnable": 45,
       "pillars": 0
     }
   }
