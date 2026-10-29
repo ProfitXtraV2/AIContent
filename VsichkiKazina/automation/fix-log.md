@@ -3162,3 +3162,50 @@ added to vk-0299/0305/0308 (flags + scores). `build_dashboard.py` (buffer 233/10
 `build_feed.py` (19 approved) re-run on main. No posted/live content edited; nothing merged; no new
 article branches created; only the specific flagged/low-rated `content/*` branches touched; API key
 never printed.
+
+## 2026-10-29 — nightly flag + score fixes
+
+### JOB A — publish-blocking flags
+Scanned `05b-final-draft.md` on all 317 `content/*` branches (2 of 319 branches carry
+no draft: the two `status=failed` welcome-bonus rows, vk-0002 / its near-dup) for the
+blocking markers `[VERIFY …]` · `[DATA NEEDED]` · `[CONFLICT]` · `[18+ / RG LINE]` ·
+`[AUTHOR …]` · `[BRAND …]` · `[EDITORIAL]` · `[уточни …]` · `[провери …]`.
+**Zero blocking markers found — no branch needed a flag fix.** Nothing committed for Job A.
+
+### JOB B — low Gemini score
+One in-scope target (status ∈ {drafted, approved} AND gemini `ai <n>` or `human <n>`
+with n<80). The 60 `drafted` rows marked `skipped` in the `gemini` column carry no
+Step-7 verdict, so they are not "low-rated" and are out of the target definition.
+
+- **vk-0314** `2026-10-29-efbet-liga-format-otbori` (PR #337), board `ai 65` → **human 90**.
+  Humaniser technique over **2 attempts**, Step-7b (Gemini recs) + Step-3/5b, rephrasing only.
+  Attempt 1 (ai 75% → still ai 75%): broke the "hedge-and-defer" loop — the four near-identical
+  "се обявява официално / се чете в регламента за годината" closers were consolidated to one
+  (kept in the format section where year-to-year change justifies it; removed from the relegation
+  and Europe sections; the TV section's pointer reworded so it no longer echoes the format wording),
+  trimmed didactic padding (round-robin over-explanation → „по два мача на разменено гостуване";
+  cut „които се менят всеки кръг"), and made the standings POV objective (dropped 2nd-person
+  „там проверяваш").
+  Attempt 2 (→ **human 90% PASS**): rewrote the hero alt-text as functional accessibility text
+  (it had read as a literal image-generation prompt, „…без клубни гербове, лога и хора"),
+  de-mirrored the „Горната група решава… долната група решава…" parallelism, and varied the
+  three section openers that all used the „Колко X … зависи от Y" frame. Every fact, number and
+  date preserved (7 юни 2016 г., спонсор от 2019 г., 1924/1948 г., 16 отбора/30 кръга 2025/26,
+  14 отбора 2026/27, places 1–4/5–8/9–16, ЦСКА 31 / Левски 27 / Лудогорец 14 поредни, към 2026 г.);
+  all 4 body internal links + the otgovorna-igra footer link, the official-source pointers (brand
+  anti-stale compliance), the RG line, the 18+/disclosure block and byline Георги Тодоров untouched;
+  0 em-dashes, 0 blocking flags. Commit `fix(quality): humanise … (gemini ai 65 -> human 90)` + push
+  to the existing `content/2026-10-29-efbet-liga-format-otbori` branch (PR #337). Not merged.
+
+### POSTED — needs human review
+No new items this run. (vk-0063 `2026-09-13-nv-casino-zakonno-li-e` remains `ai 75`/posted from
+prior runs — live, never edited per policy; a human should decide whether to re-humanise + re-publish.)
+
+### Deferred
+None — the single in-scope JOB B target was processed (well under the ≤10/night cap).
+
+### Finish
+Board `gemini` updated: vk-0314 `ai 65` → `human 90` (+ nightly note on the row).
+`build_dashboard.py` (buffer 239/10) and `build_feed.py` (26 approved) re-run on main. No
+posted/live content edited; nothing merged; no new article branches created; only the one
+low-rated `content/*` branch touched; API key never printed.
