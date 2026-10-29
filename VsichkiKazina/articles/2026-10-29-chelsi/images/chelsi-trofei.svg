@@ -46,7 +46,7 @@
   <text class="lbl"  x="40" y="438">40 044 места</text>
 
   <!-- Divider -->
-  <line x1="400" y1="108" x2="400" y2="470" stroke="#d7deea" stroke-width="1"/>
+  <line x1="400" y1="108" x2="400" y2="516" stroke="#d7deea" stroke-width="1"/>
 
   <!-- Right column: trophies -->
   <text class="colh" x="430" y="124">Трофеи</text>
