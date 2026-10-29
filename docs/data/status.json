@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-29T17:10:28Z",
+  "generated_utc": "2026-10-29T17:12:43Z",
   "buffer": {
     "count": 239,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 214,
-    "approved": 25,
+    "drafted": 213,
+    "approved": 26,
     "posted": 78,
     "failed": 1
   },
@@ -6337,7 +6337,7 @@
     },
     {
       "id": "vk-0312",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Барселона — история, трофеи, стадион и легенди на клуба",
       "keywords_or_terms": "барселона, фк барселона, барселона история, камп ноу",
