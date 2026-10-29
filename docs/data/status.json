@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-29T17:04:40Z",
+  "generated_utc": "2026-10-29T17:04:47Z",
   "buffer": {
     "count": 239,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 221,
-    "approved": 18,
+    "drafted": 220,
+    "approved": 19,
     "posted": 78,
     "failed": 1
   },
@@ -6360,7 +6360,7 @@
     },
     {
       "id": "vk-0313",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Лионел Меси — кариера, рекорди, трофеи и стил на игра",
       "keywords_or_terms": "лионел меси, меси, меси кариера, меси трофеи",

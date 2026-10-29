@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 18,
+  "count": 19,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -127,7 +127,14 @@
       "date_modified": "2026-10-28",
       "content_hash": "40c632f4b7622c4dd21ce0fdf2539a30f41efb83affa44c7e7912333568f7cad",
       "status": "approved"
+    },
+    {
+      "slug": "lionel-messi-kariera-trofei",
+      "title": "Лионел Меси: кариера, рекорди и трофеи | Всички Казина",
+      "date_modified": "2026-10-29",
+      "content_hash": "0e8c560f5f2e0d6cab863dc85203c63686afa17412bf7e0fc1418601f8dd58f8",
+      "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-29T17:04:40Z"
+  "generated_utc": "2026-10-29T17:04:47Z"
 }
