@@ -13,5 +13,10 @@
 - Numbers diff 02↔05b: identical (1950, 1958, 25-18-15-12-10-8-6-4-2-1, 90%, 2019–2024→2025,
   100 км, 8→1, 2023, 11/22 към 2026, 10/20, 2006, Q1/Q2/Q3, 305 км / ~260 Монако, 2ч/3ч,
   7 титли Шумахер+Хамилтън, 16 Ферари). No drift.
-- Step 7 (Gemini): see below.
-- Step 8 (images): see below.
+- Step 7 (Gemini): HL 90 („Likely human-written, 90%") on initial draft = PASS pass 1.
+  Keep-best = initial (no humaniser pass). gemini = human 90. (07-gemini-check-1.md)
+- Step 8 (images): img:2 — infographic formula-1-tochkuvane.svg (numbers 1:1 vs 05b) +
+  decorative hero formula-1-pista-hero.webp (28 KB, 1200×655; gen'd as PNG then ImageMagick→WebP,
+  Pillow unavailable). Gemini image review 100 PASS pass 1, 0 integrity. (08-image-review-1.md)
+- Step 6 (verification): 06-verification.md — 0 surviving flags; changeable items dated/deferred.
+- Outcome: drafted. PR = see board.
