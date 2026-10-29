@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 548" role="img" aria-label="Стълбицата на точкуването в тениса: гейм, сет, тайбрек и мач">
+  <defs>
+    <style>
+      .bg{fill:#f4f7f6;}
+      .card{fill:#ffffff;stroke:#d7e0dd;stroke-width:1.5;}
+      .title{fill:#15312b;font-family:Georgia,'Times New Roman',serif;font-weight:700;}
+      .badge{fill:#1f6f5c;}
+      .badgeTxt{fill:#ffffff;font-family:Arial,Helvetica,sans-serif;font-weight:700;}
+      .h{fill:#15312b;font-family:Arial,Helvetica,sans-serif;font-weight:700;}
+      .p{fill:#33514a;font-family:Arial,Helvetica,sans-serif;}
+      .accent{fill:#1f6f5c;font-family:Arial,Helvetica,sans-serif;font-weight:700;}
+      .foot{fill:#6c8079;font-family:Arial,Helvetica,sans-serif;}
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="720" height="548" rx="14"/>
+  <text class="title" x="36" y="46" font-size="24">Стълбицата на точкуването в тениса</text>
+  <line x1="36" y1="60" x2="684" y2="60" stroke="#c7d4d0" stroke-width="1.5"/>
+
+  <!-- Row 1: гейм -->
+  <rect class="card" x="32" y="76" width="656" height="96" rx="10"/>
+  <circle class="badge" cx="68" cy="124" r="20"/>
+  <text class="badgeTxt" x="68" y="131" font-size="20" text-anchor="middle">1</text>
+  <text class="h" x="104" y="108" font-size="18">В гейма</text>
+  <text class="accent" x="104" y="134" font-size="17">0  →  15  →  30  →  40  →  гейм</text>
+  <text class="p" x="104" y="158" font-size="14">При 40-40 е равенство (деус): печелиш с 2 поредни точки.</text>
+
+  <!-- Row 2: сет -->
+  <rect class="card" x="32" y="184" width="656" height="96" rx="10"/>
+  <circle class="badge" cx="68" cy="232" r="20"/>
+  <text class="badgeTxt" x="68" y="239" font-size="20" text-anchor="middle">2</text>
+  <text class="h" x="104" y="216" font-size="18">В сета</text>
+  <text class="p" x="104" y="242" font-size="15">Пръв до <tspan class="accent">6 гейма</tspan> с преднина поне 2 (6-4, 7-5).</text>
+  <text class="p" x="104" y="266" font-size="15">При 6-6 сетът се решава от тайбрек.</text>
+
+  <!-- Row 3: тайбрек -->
+  <rect class="card" x="32" y="292" width="656" height="96" rx="10"/>
+  <circle class="badge" cx="68" cy="340" r="20"/>
+  <text class="badgeTxt" x="68" y="347" font-size="20" text-anchor="middle">3</text>
+  <text class="h" x="104" y="324" font-size="18">Тайбрекът</text>
+  <text class="p" x="104" y="350" font-size="15">Пръв до <tspan class="accent">7 точки</tspan> с преднина 2.</text>
+  <text class="p" x="104" y="374" font-size="15">Решаващ сет: тайбрек до <tspan class="accent">10 точки</tspan> (от 2022 г., Голям шлем).</text>
+
+  <!-- Row 4: мач -->
+  <rect class="card" x="32" y="400" width="656" height="96" rx="10"/>
+  <circle class="badge" cx="68" cy="448" r="20"/>
+  <text class="badgeTxt" x="68" y="455" font-size="20" text-anchor="middle">4</text>
+  <text class="h" x="104" y="432" font-size="18">Мачът</text>
+  <text class="p" x="104" y="458" font-size="15">До <tspan class="accent">2 спечелени сета</tspan> (повечето турнири).</text>
+  <text class="p" x="104" y="482" font-size="15">До <tspan class="accent">3 спечелени сета</tspan> (Голям шлем, мъже).</text>
+
+  <text class="foot" x="36" y="526" font-size="13">18+ Играйте отговорно · Всички числа следват текста на статията.</text>
+</svg>
