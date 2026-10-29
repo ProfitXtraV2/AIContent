@@ -5,14 +5,14 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01AwuYFSrkiYfH4CAAkL14B2",
-  "note": "daily run 2026-10-29 — OWNER BURST fire (hourly window → 2026-10-29 07:00 UTC). Reconcile clean on entry (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review = no-op (seo-review.json 2026-10). Writing 1 new article (MAX_PER_RUN=1): next open P0 burst row after Лудогорец/Тенис/Реал Мадрид/Барселона = Лионел Меси (42000/kd0, top open + highest-volume within the Лудогорец…Формула 1 burst range). Evergreen player profile, guides-only.",
+  "note": "daily run 2026-10-29 — OWNER BURST fire. Writing vk-0313 Лионел Меси (42000/kd0), next open P0 burst row. Evergreen player profile, guides-only.",
   "progress": {
     "phase": "writing",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-10-29-lionel-messi-kariera-trofei",
     "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "stage_index": 2,
+    "stage": "Author"
   }
 }
