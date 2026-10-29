@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-29T02:22:57Z",
+  "generated_utc": "2026-10-29T03:12:11Z",
   "buffer": {
-    "count": 237,
+    "count": 238,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 218,
+    "drafted": 219,
     "approved": 19,
     "posted": 76,
     "failed": 1
@@ -6403,6 +6403,29 @@
       },
       "verify_flags": 0,
       "verify_samples": []
+    },
+    {
+      "id": "vk-0315",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Кристиано Роналдо — кариера, рекорди, трофеи и стил на игра",
+      "keywords_or_terms": "кристиано роналдо, роналдо, роналдо кариера, роналдо рекорди",
+      "volume": "27000",
+      "kd": "0",
+      "source": "backlog",
+      "drafted_date": "2026-10-29",
+      "posted_date": "",
+      "folder": "2026-10-29-kristiano-ronaldo",
+      "pr": "#338",
+      "gemini": "human 85",
+      "notes": "OWNER BURST 2026-10-29 (hourly window → 2026-10-29 07:00 UTC); next open P0 burst row after Лудогорец/Тенис/Реал Мадрид/Барселона/Меси/Ефбет Лига (7th of 10). Evergreen играчов профил (guides-only ✓: 0 operator/НАП/affiliate; 0 current-season stats/standings/results/transfers/odds; 0 predictions). Cluster кристиано роналдо 27000/kd0 WIN (роналдо 11K folded in). Dedup vs queue (0) + live sitemap = clean. · OUTCOME drafted → PR #338. Факти EN Wikipedia (Cristiano Ronaldo): роден 05.02.1985 Фуншал/Мадейра; „Спортинг\" на 12 г., дебют 2002, трансфер в „Юнайтед\" след контрола лято 2003; „Манчестър Юнайтед\" 2003–2009 → 3 поредни Премиер лига + ФА Къп 2004 + ШЛ 2008 + първа Златна топка 2008; „Реал Мадрид\" 2009–2018 → голмайстор №1 на клуба 450 гола + 4 ШЛ (2014/2016/2017/2018) + 2 Ла Лига + 4 Златни топки (2013/2014/2016/2017); пръв футболист с 5 трофея от ШЛ (1 Утд + 4 Реал) + рекордьор по голове в ШЛ; „Ювентус\" 2018–2021 → 2 Серия А; кратко завръщане в „Юнайтед\" 2021; „Ал-Насър\" от 2023 (2026 титла + Saudi scoring умишлено НЕ са печатани — recent-season); 5 Златни топки общо (2008/2013/2014/2016/2017); Португалия → Евро 2016 (контузия на финала), Лига на нациите 2019 и 2025, рекордьор по мачове+голове за мъжки нац. отбор, пръв с голове на 5 световни. Active-player live totals рамкирани като held records. Gate 95 PASS 0-crit. Gemini Step-7 keep-best = humaniser pass 2 (HL 15→25→85 = PASS; 2 passes = cap; style-only, 0 факти/числа/линкове/RG пипнати). img:2 (infographic kristiano-ronaldo-kariera-rekordi.svg числа 1:1 vs 05b + decorative hero webp 9.3KB, без текст/лога/хора; image review 100 PASS p1, 0 integrity). ~790 думи, 0 em-dash, 0 [VERIFY]. 4 body internal links live (zakonno-li-e / bonus-ruletka-sport-vsichki / blog-futbol / blog-responsible-gambling) + otgovorna-igra footer; no affiliate. Реал Мадрид/Меси сиблинг линкове се добавят при публикуване. vol/kd 27000/0 (ahrefs, from backlog).",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
     }
   ],
   "backlog": [
@@ -6524,8 +6547,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 27000/kd0 (2026-10-28 players sweep). Cluster: кристиано роналдо 16K + роналдо 11K.",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-28 (European clubs & stars batch → Футбол hub). Evergreen profile: history, trophies, stadium/legends (clubs) or career, records, style, trophies (players). NEVER print current-season stats, standings, results, transfer rumours or odds. Any figure that can change: write it with 'към <месец година>' or mark [VERIFY]. Real people: verifiable public facts only, nothing about private life. Link sibling club/player profiles and league guides (Ла Лига / Премиер лига / Серия А etc. if live). No betting tips; optional RG line.",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-10-28 (European clubs & stars batch → Футбол hub). · WRITTEN 2026-10-29 (owner burst fire, P0 row 7/10 after Лудогорец/Тенис/Реал Мадрид/Барселона/Меси/Ефбет Лига) → vk-0315, PR #338. Evergreen играчов профил (guides-only ✓: 0 operator/НАП/affiliate; 0 current-season stats/standings/results/transfers/odds; 0 predictions). Cluster кристиано роналдо 27000/kd0 WIN (роналдо 11K folded in); dedup vs queue + live sitemap clean. Факти EN Wikipedia: роден 05.02.1985 Фуншал/Мадейра; „Спортинг\" на 12 г., дебют 2002, трансфер в „Юнайтед\" след контрола лято 2003; „Манчестър Юнайтед\" 2003–2009 → 3 поредни Премиер лига + ФА Къп 2004 + Шампионска лига 2008 + първа Златна топка 2008; „Реал Мадрид\" 2009–2018 → голмайстор №1 на клуба 450 гола + 4 Шампионски лиги (2014/2016/2017/2018) + 2 Ла Лига + 4 Златни топки (2013/2014/2016/2017); пръв футболист с 5 трофея от ШЛ (1 Утд + 4 Реал) + рекордьор по голове в ШЛ; „Ювентус\" 2018–2021 → 2 Серия А; кратко завръщане в „Юнайтед\" 2021; „Ал-Насър\" от 2023 (2026 титла + Saudi scoring НЕ са печатани — recent-season); 5 Златни топки общо (2008/2013/2014/2016/2017); Евро 2016 (контузия на финала), Лига на нациите 2019 и 2025, рекордьор по мачове+голове за мъжки нац. отбор, пръв с голове на 5 световни. Gate 95 PASS, Gemini human 85 (keep-best humaniser pass 2, HL 15→25→85), img:2 (review 100), ~790 думи, 0 flags. Реал Мадрид/Меси сиблинг линкове се добавят при публикуване. Evergreen profile: history, trophies, stadium/legends (clubs) or career, records, style, trophies (players). NEVER print current-season stats, standings, results, transfer rumours or odds. Any figure that can change: write it with 'към <месец година>' or mark [VERIFY]. Real people: verifiable public facts only, nothing about private life. Link sibling club/player profiles and league guides (Ла Лига / Премиер лига / Серия А etc. if live). No betting tips; optional RG line.",
       "opportunity": {
         "score": 100,
         "band": "Strong",
@@ -12286,30 +12309,17 @@
       }
     ],
     "bands": {
-      "Strong": 42,
+      "Strong": 41,
       "Moderate": 2
     },
     "clusters": {
       "uncategorised": {
-        "winnable": 43,
+        "winnable": 42,
         "pillar": 0,
-        "total": 44
+        "total": 43
       }
     },
     "winnable": [
-      {
-        "query": "Кристиано Роналдо — кариера, рекорди, трофеи и стил на игра",
-        "keywords": "кристиано роналдо, роналдо, роналдо кариера, роналдо рекорди",
-        "volume": "27000",
-        "kd": "0",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 100,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
       {
         "query": "Формула 1 — как работи: точкуване, отбори и състезателният уикенд",
         "keywords": "формула 1, formula 1, формула 1 правила, точкуване формула 1",
@@ -12860,7 +12870,7 @@
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 43,
+      "winnable": 42,
       "pillars": 0
     }
   }
