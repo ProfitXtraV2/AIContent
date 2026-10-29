@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-29T17:06:32Z",
+  "generated_utc": "2026-10-29T17:10:28Z",
   "buffer": {
     "count": 239,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 215,
-    "approved": 24,
+    "drafted": 214,
+    "approved": 25,
     "posted": 78,
     "failed": 1
   },
@@ -6268,7 +6268,7 @@
     },
     {
       "id": "vk-0309",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Лудогорец — история, титли и Хювефарма Арена",
       "keywords_or_terms": "лудогорец, лудогорец история, лудогорец титли, хювефарма арена",

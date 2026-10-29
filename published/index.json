@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 24,
+  "count": 25,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -122,6 +122,13 @@
       "status": "approved"
     },
     {
+      "slug": "ludogorec-istoriya-titli",
+      "title": "Лудогорец: история, титли и Хювефарма Арена | Всички Казина",
+      "date_modified": "2026-10-28",
+      "content_hash": "0d2cbc705a0ed6e16dddeb3ef9acc9a3c9d7fe38b7ef447efd46f3564858dcc1",
+      "status": "approved"
+    },
+    {
       "slug": "tenis-pravila-tochkuvane",
       "title": "Тенис правила и точкуване: гейм, сет и тайбрек | Всички Казина",
       "date_modified": "2026-10-28",
@@ -171,5 +178,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-29T17:06:32Z"
+  "generated_utc": "2026-10-29T17:10:28Z"
 }
