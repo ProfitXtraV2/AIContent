@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-29T00:14:49Z",
+  "generated_utc": "2026-10-29T01:17:27Z",
   "buffer": {
-    "count": 235,
+    "count": 236,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 216,
+    "drafted": 217,
     "approved": 19,
     "posted": 76,
     "failed": 1
@@ -6357,6 +6357,29 @@
       },
       "verify_flags": 0,
       "verify_samples": []
+    },
+    {
+      "id": "vk-0313",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Лионел Меси — кариера, рекорди, трофеи и стил на игра",
+      "keywords_or_terms": "лионел меси, меси, меси кариера, меси трофеи",
+      "volume": "42000",
+      "kd": "0",
+      "source": "backlog",
+      "drafted_date": "2026-10-29",
+      "posted_date": "",
+      "folder": "2026-10-29-lionel-messi-kariera-trofei",
+      "pr": "#336",
+      "gemini": "human 85",
+      "notes": "OWNER BURST 2026-10-29 (hourly window → 2026-10-29 07:00 UTC); next open P0 burst row after Лудогорец/Тенис/Реал Мадрид/Барселона (5th of 10, vk-0309/0310/0311/0312). Evergreen player profile (guides-only ✓: 0 operator/НАП/affiliate; 0 current-season stats/standings/results/transfers/odds; 0 predictions). Cluster лионел меси 42000/kd0 WIN (меси 15K folded in). Dedup vs queue (0 меси) + live sitemap (145 URLs, 0 player slugs) = clean. Факти EN Wikipedia: роден 24.06.1987 Росарио; недостиг на хормон на растежа; салфетка 14.12.2000 (Карлес Рехач) + „Ла Масия\"; дебют за мъжете 2003, официален в Ла Лига 2004; „Барселона\" 2004–2021 → 672 гола (рекорд за един клуб), 474 в Ла Лига (рекорд), 34 трофея, 10 Ла Лига, 4 Шампионски лиги (2006/2009/2011/2015), 7 Купи на краля, 91 гола за календарната 2012 (рекорд); 8 Златни топки (рекорд, осмата 2023); ПСЖ 2021 → 2 Лига 1 (2022/2023); Интер Маями 2023 → Купата на лигите; Аржентина: Световно 2022, Копа Америка 2021+2024, Финалисима 2022, олимп. злато 2008, Световно до 20 г. 2005; рекордьор по мачове и голове (held record, без жива цифра). ~821 думи, 0 em-dash, 0 [VERIFY]. Gate 95 PASS 0-crit. Gemini Step-7 human 85 PASS pass 1 (initial draft, no humaniser — вече ≥80, keep-best; verdict „Likely human-written 85%\"). img:2 (infographic lionel-messi-kariera-rekordi.svg числа 1:1 vs 05b + decorative hero webp 6.6KB нощна писта/топка; image review 95 PASS 0-integrity). 4 body internal links live (zakonno-li-e / bonus-ruletka-sport-vsichki / blog-futbol / blog-responsible-gambling) + otgovorna-igra footer; Барселона/клубен линк pending that profile; no affiliate. PR #336. vol/kd 42000/0 (ahrefs, from backlog).",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
     }
   ],
   "backlog": [
@@ -6442,8 +6465,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 42000/kd0 (2026-10-28 players sweep). Cluster: лионел меси 27K + меси 15K.",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-28 (European clubs & stars batch → Футбол hub). Evergreen profile: history, trophies, stadium/legends (clubs) or career, records, style, trophies (players). NEVER print current-season stats, standings, results, transfer rumours or odds. Any figure that can change: write it with 'към <месец година>' or mark [VERIFY]. Real people: verifiable public facts only, nothing about private life. Link sibling club/player profiles and league guides (Ла Лига / Премиер лига / Серия А etc. if live). No betting tips; optional RG line.",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-10-28 (European clubs & stars batch → Футбол hub). · WRITTEN 2026-10-29 (owner burst fire, P0 row 5/10 after Лудогорец/Тенис/Реал Мадрид/Барселона) → vk-0313, PR #336. Evergreen играчов профил (guides-only ✓: 0 operator/НАП/affiliate; 0 current-season stats/standings/results/transfers/odds; 0 predictions). Cluster лионел меси 42000/kd0 WIN (меси 15K folded in). Dedup vs queue + live sitemap = clean. Факти EN Wikipedia: роден 24.06.1987 Росарио; салфетка 14.12.2000 (Рехач)/Ла Масия; дебют 2003, Ла Лига 2004; „Барселона\" 2004–2021 → 672 гола (рекорд за клуб), 474 в Ла Лига (рекорд), 34 трофея, 10 Ла Лига, 4 ШЛ (2006/2009/2011/2015), 7 Купи на краля, 91 гола за 2012 (рекорд); 8 Златни топки (рекорд, осмата 2023); ПСЖ 2021 (2 Лига 1); Интер Маями 2023 (Купата на лигите); Аржентина Световно 2022 + Копа Америка 2021/2024 + Финалисима 2022 + олимп. злато 2008 + U20 2005; рекордьор мачове+голове. Gate 95 PASS, Gemini human 85, img:2 (review 95), ~821 думи, 0 flags. Барселона/клубен линк се добавя при публикуване на профила. Evergreen profile: history, trophies, stadium/legends (clubs) or career, records, style, trophies (players). NEVER print current-season stats, standings, results, transfer rumours or odds. Any figure that can change: write it with 'към <месец година>' or mark [VERIFY]. Real people: verifiable public facts only, nothing about private life. Link sibling club/player profiles and league guides (Ла Лига / Премиер лига / Серия А etc. if live). No betting tips; optional RG line.",
       "opportunity": {
         "score": 100,
         "band": "Strong",
@@ -12240,30 +12263,17 @@
       }
     ],
     "bands": {
-      "Strong": 44,
+      "Strong": 43,
       "Moderate": 2
     },
     "clusters": {
       "uncategorised": {
-        "winnable": 45,
+        "winnable": 44,
         "pillar": 0,
-        "total": 46
+        "total": 45
       }
     },
     "winnable": [
-      {
-        "query": "Лионел Меси — кариера, рекорди, трофеи и стил на игра",
-        "keywords": "лионел меси, меси, меси кариера, меси трофеи",
-        "volume": "42000",
-        "kd": "0",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 100,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
       {
         "query": "Ефбет Лига — формат, отбори, плейофи и къде да гледате мачовете",
         "keywords": "ефбет лига, efbet лига, efbet liga, efbet лига класиране, първа лига формат",
@@ -12840,7 +12850,7 @@
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 45,
+      "winnable": 44,
       "pillars": 0
     }
   }
