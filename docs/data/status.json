@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-29T03:12:11Z",
+  "generated_utc": "2026-10-29T04:12:24Z",
   "buffer": {
-    "count": 238,
+    "count": 239,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 219,
+    "drafted": 220,
     "approved": 19,
     "posted": 76,
     "failed": 1
@@ -6426,6 +6426,29 @@
       },
       "verify_flags": 0,
       "verify_samples": []
+    },
+    {
+      "id": "vk-0316",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Челси — история, трофеи, стадион и легенди на клуба",
+      "keywords_or_terms": "челси, челси история, стамфорд бридж",
+      "volume": "27000",
+      "kd": "2",
+      "source": "backlog",
+      "drafted_date": "2026-10-29",
+      "posted_date": "",
+      "folder": "2026-10-29-chelsi",
+      "pr": "#339",
+      "gemini": "human 85",
+      "notes": "OWNER BURST 2026-10-29 (hourly window → 2026-10-29 07:00 UTC); next open P0 burst row after Лудогорец/Тенис/Реал Мадрид/Барселона/Меси/Ефбет Лига/Кристиано Роналдо (8th of 10). Evergreen клубен профил (guides-only: 0 operator/НАП/affiliate; 0 current-season stats/standings/results/transfers/odds; 0 predictions). Cluster челси 27000/kd2 WIN. Dedup vs queue (0) + live sitemap (145 URLs, no челси) = clean. · OUTCOME drafted → PR #339. Факти EN Wikipedia (Chelsea F.C.): основан 10.03.1905 (Гъс Миърс купува „Стамфорд Бридж\" 1904, „Фулъм\" отказва наема → собствен клуб, име от квартала); прякори „Сините\"/„Пенсионерите\"; стадион „Стамфорд Бридж\" 40 044 места (към есента 2026). Трофеи (към есента 2026): 6 титли в Англия (1954/55→2016/17), 8 ФА Къп, 5 Купи на лигата, 2 Шампионска лига (2012/2021), 2 Лига Европа (2013/2019), 2 КНК (1971/1998), 2 Суперкупи УЕФА (1998/2021), 1 Лига на конференциите (2025), 2 световни клубни (2021/2025); пръв клуб с всичките 4 основни клубни трофея на УЕФА. Легенди Лампард/Тери/Дрогба/Чех/Дзола/Осгуд; 2003 Абрамович, 2022 Тод Бьоли. Gate 94 PASS 0-crit. Gemini Step-7 keep-best = humaniser pass 1 (HL 35→85 = PASS; style-only, 0 факти/числа/линкове/RG пипнати). img:2 (infographic chelsi-trofei.svg числа 1:1 vs 05b + decorative hero webp 8.7KB, без лога/хора/текст; image review 95→100 PASS, 0 integrity). ~736 думи, 0 em-dash, 0 [VERIFY]. 4 live internal links (zakonno-li-e / bonus-ruletka-sport-vsichki / blog-futbol / blog-responsible-gambling) + otgovorna-igra footer; no affiliate. Реал Мадрид/Барселона сиблинг линкове се добавят при публикуване. vol/kd 27000/2 (ahrefs, from backlog).",
+      "opportunity": {
+        "score": 99,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
     }
   ],
   "backlog": [
@@ -6565,8 +6588,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 27000/kd2 (2026-10-28 clubs sweep).",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-28 (European clubs & stars batch → Футбол hub). Evergreen profile: history, trophies, stadium/legends (clubs) or career, records, style, trophies (players). NEVER print current-season stats, standings, results, transfer rumours or odds. Any figure that can change: write it with 'към <месец година>' or mark [VERIFY]. Real people: verifiable public facts only, nothing about private life. Link sibling club/player profiles and league guides (Ла Лига / Премиер лига / Серия А etc. if live). No betting tips; optional RG line.",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-10-28 (European clubs & stars batch → Футбол hub). · WRITTEN 2026-10-29 (owner burst fire, P0 row 8/10 after Лудогорец/Тенис/Реал Мадрид/Барселона/Меси/Ефбет Лига/Кристиано Роналдо) → vk-0316, PR #339. Evergreen клубен профил (guides-only ✓: 0 operator/НАП/affiliate; 0 current-season stats/standings/results/transfers/odds; 0 predictions). Cluster челси 27000/kd2 WIN; dedup vs queue + live sitemap clean. Факти EN Wikipedia: основан 10.03.1905 (Гъс Миърс/„Стамфорд Бридж\" 1904); прякори „Сините\"/„Пенсионерите\"; „Стамфорд Бридж\" 40 044 места; 6 титли в Англия (1954/55→2016/17), 8 ФА Къп, 5 Купи на лигата, 2 Шампионска лига (2012/2021), 2 Лига Европа (2013/2019), 2 КНК (1971/1998), 2 Суперкупи УЕФА (1998/2021), 1 Лига на конференциите (2025), 2 световни клубни (2021/2025); пръв клуб с всичките 4 основни клубни трофея на УЕФА; Лампард/Тери/Дрогба/Чех; 2003 Абрамович, 2022 Тод Бьоли. Gate 94 PASS, Gemini human 85 (keep-best humaniser pass 1), img:2 (review 100), ~736 думи, 0 flags. Реал Мадрид/Барселона сиблинг линкове се добавят при публикуване. Evergreen profile: history, trophies, stadium/legends (clubs) or career, records, style, trophies (players). NEVER print current-season stats, standings, results, transfer rumours or odds. Any figure that can change: write it with 'към <месец година>' or mark [VERIFY]. Real people: verifiable public facts only, nothing about private life. Link sibling club/player profiles and league guides (Ла Лига / Премиер лига / Серия А etc. if live). No betting tips; optional RG line.",
       "opportunity": {
         "score": 99,
         "band": "Strong",
@@ -12309,14 +12332,14 @@
       }
     ],
     "bands": {
-      "Strong": 41,
+      "Strong": 40,
       "Moderate": 2
     },
     "clusters": {
       "uncategorised": {
-        "winnable": 42,
+        "winnable": 41,
         "pillar": 0,
-        "total": 43
+        "total": 42
       }
     },
     "winnable": [
@@ -12620,19 +12643,6 @@
         "src": "backlog"
       },
       {
-        "query": "Челси — история, трофеи, стадион и легенди на клуба",
-        "keywords": "челси, челси история, стамфорд бридж",
-        "volume": "27000",
-        "kd": "2",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 99,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
         "query": "Ла Лига — формат, отбори и как работи класирането",
         "keywords": "ла лига, la liga, испанско първенство",
         "volume": "20000",
@@ -12870,7 +12880,7 @@
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 42,
+      "winnable": 41,
       "pillars": 0
     }
   }

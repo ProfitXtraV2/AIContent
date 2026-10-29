@@ -1,17 +1,30 @@
 {
-  "state": "running",
-  "run_started_utc": "2026-10-29T03:52:55Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "state": "idle",
+  "run_started_utc": "2026-10-29T03:51:06Z",
+  "run_finished_utc": "2026-10-29T04:12:50Z",
+  "articles_written": 1,
+  "prs_opened": [
+    339
+  ],
   "run_url": "https://claude.ai/code/session_01AwuYFSQdasr1fzjdQGEr5p",
-  "note": "daily run 2026-10-29 — OWNER BURST fire (hourly window → 2026-10-29 07:00 UTC). Target: next open P0 burst row = Челси (27000/kd2), 8th of 10 after Лудогорец/Тенис/Реал Мадрид/Барселона/Меси/Ефбет Лига/Кристиано Роналдо. Reconcile clean on entry (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review = no-op (seo-review.json 2026-10 = current month).",
+  "note": "daily run 2026-10-29 — OWNER BURST fire (hourly window → 2026-10-29 07:00 UTC). Wrote 1 new article (MAX_PER_RUN=1): vk-0316 „Челси — история, трофеи, стадион и легенди на клуба\" (PR #339), the next open P0 burst row (8th of 10, челси 27000/kd2) after Лудогорец/Тенис/Реал Мадрид/Барселона/Меси/Ефбет Лига/Кристиано Роналдо. Evergreen клубен профил, guides-only (0 operator/НАП/affiliate; 0 current-season stats/standings/results/transfers/odds; 0 predictions). Facts = EN Wikipedia (Chelsea F.C.): founded 10.03.1905 (Gus Mears bought Stamford Bridge 1904, Fulham declined the lease → own club named after the Chelsea borough); nicknames The Blues/The Pensioners; Stamford Bridge 40,044 (stamped „към есента на 2026 г.\"); trophies (autumn 2026): 6 English top-flight titles (1954/55→2016/17), 8 FA Cup, 5 League Cup, 2 Champions League (2012/2021), 2 Europa League (2013/2019), 2 Cup Winners' Cup (1971/1998), 2 UEFA Super Cup (1998/2021), 1 Conference League (2025), 2 FIFA Club World Cup (2021/2025); first club to win all four main UEFA club trophies; legends Lampard/Terry/Drogba/Čech/Zola/Osgood; 2003 Abramovich, 2022 Boehly consortium. ~736 words, 0 em-dash, 0 [VERIFY]. Gate 94 PASS 0-crit. Gemini Step-7: HL 35 (Shows AI patterns 65%) → 85 (Likely human-written 85%) after 1 humaniser pass = PASS; keep-best = pass 1; gemini human 85; style-only, 0 facts/numbers/links/RG touched. img:2 (hand-authored SVG infographic numbers 1:1 vs 05b + decorative hero webp 8.7KB, no text/logos/people; Gemini image review 95→100 after cosmetic SVG divider fix, PASS 0-integrity; hero gen'd as PNG then ImageMagick→WebP since Pillow unavailable). Reconcile clean on entry (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review = no-op (seo-review.json 2026-10). Dedup vs queue (0) + live sitemap (145 URLs) clean. No Ahrefs pull this fire (conserve units mid-burst; backlog already enriched 27000/kd2 from 2026-10-28 sweep). Board updated: content-queue vk-0316 drafted (human 85, PR #339); backlog Челси row → written; dashboard rebuilt (buffer 239/10); feed refreshed (still 19 approved; vk-0316 is drafted, not in feed). No flags resolved, nothing posted/merged/fabricated. Burst progress: 8 of 10 P0 rows drafted (Лудогорец, Тенис, Реал Мадрид, Барселона, Меси, Ефбет Лига, Кристиано Роналдо, Челси); 2 open remain (Ла Лига, Формула 1). Next burst fire writes the next open P0 row top-to-bottom = Ла Лига.",
   "progress": {
-    "phase": "starting",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-10-29-chelsi",
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
     "stage_index": null,
     "stage": null
   }
