@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 20,
+  "count": 21,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -141,7 +141,14 @@
       "date_modified": "2026-10-29",
       "content_hash": "7c0db18142553f14c9cd39a559508cdafa221c974219cd37be982777f2b9bbf5",
       "status": "approved"
+    },
+    {
+      "slug": "la-liga",
+      "title": "Ла Лига: формат, отбори и как работи класирането | Всички Казина",
+      "date_modified": "2026-10-29",
+      "content_hash": "aa69a9f8d1a081a92a3d3115042d40421a9023b324c596d276f921c4c00b781e",
+      "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-29T17:05:13Z"
+  "generated_utc": "2026-10-29T17:05:37Z"
 }

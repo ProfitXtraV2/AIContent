@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-29T17:05:13Z",
+  "generated_utc": "2026-10-29T17:05:37Z",
   "buffer": {
     "count": 239,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 219,
-    "approved": 20,
+    "drafted": 218,
+    "approved": 21,
     "posted": 78,
     "failed": 1
   },
@@ -6475,7 +6475,7 @@
     },
     {
       "id": "vk-0317",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Ла Лига — формат, отбори и как работи класирането",
       "keywords_or_terms": "ла лига, la liga, испанско първенство",
