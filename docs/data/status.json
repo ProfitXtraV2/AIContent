@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-29T17:06:04Z",
+  "generated_utc": "2026-10-29T17:06:13Z",
   "buffer": {
     "count": 239,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 217,
-    "approved": 22,
+    "drafted": 216,
+    "approved": 23,
     "posted": 78,
     "failed": 1
   },
@@ -6429,7 +6429,7 @@
     },
     {
       "id": "vk-0316",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Челси — история, трофеи, стадион и легенди на клуба",
       "keywords_or_terms": "челси, челси история, стамфорд бридж",
