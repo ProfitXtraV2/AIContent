@@ -1,17 +1,17 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-10-04T16:00:00Z",
-  "run_finished_utc": "2026-10-04T16:01:00Z",
-  "articles_written": 0,
+  "state": "running",
+  "run_started_utc": "2026-10-29T01:52:17Z",
+  "run_finished_utc": null,
+  "articles_written": null,
   "prs_opened": [],
-  "run_url": "https://claude.ai/code/session_01KB9K7Ku5Y5YXi7PXcarY6B",
-  "note": "backfill: nothing to do (all review-ready articles have images). Checked all 228 drafted/approved rows — every row carries img: in notes. Backlog fully illustrated; this job may be disabled.",
+  "run_url": "https://claude.ai/code/session_01AwuYFTAVKXuJUm2USCsVou",
+  "note": "daily run 2026-10-29 — OWNER BURST fire (hourly window → 2026-10-29 07:00 UTC). Target: next open P0 burst row = Ефбет Лига (41000/kd0), 6th of 10. Reconcile clean on entry (0 in-progress). Monthly SEO review = no-op (2026-10 done).",
   "progress": {
-    "phase": "done",
-    "article_index": 0,
-    "article_total": 0,
-    "article_slug": null,
-    "stages": [],
+    "phase": "setup",
+    "article_index": 1,
+    "article_total": 1,
+    "article_slug": "2026-10-29-efbet-liga-format-otbori",
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
     "stage_index": null,
     "stage": null
   }
