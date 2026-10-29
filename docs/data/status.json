@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-10-29T05:09:20Z",
+  "generated_utc": "2026-10-29T06:11:09Z",
   "buffer": {
-    "count": 240,
+    "count": 241,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 221,
+    "drafted": 222,
     "approved": 19,
     "posted": 76,
     "failed": 1
@@ -6451,6 +6451,29 @@
       "verify_samples": []
     },
     {
+      "id": "vk-0318",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Формула 1 — как работи: точкуване, отбори и състезателният уикенд",
+      "keywords_or_terms": "формула 1, formula 1, формула 1 правила, точкуване формула 1",
+      "volume": "18000",
+      "kd": "1",
+      "source": "backlog",
+      "drafted_date": "2026-10-29",
+      "posted_date": "",
+      "folder": "2026-10-29-formula-1",
+      "pr": "#341",
+      "gemini": "human 90",
+      "notes": "OWNER BURST 2026-10-29 (hourly window → 2026-10-29 07:00 UTC); LAST open P0 burst row (10th of 10) after Лудогорец/Тенис/Реал Мадрид/Барселона/Меси/Ефбет Лига/Кристиано Роналдо/Челси/Ла Лига. Evergreen how-it-works motorsport guide (guides-only ✓: 0 operator/НАП/affiliate; 0 current standings/results/fixtures/odds; 0 predictions). Cluster формула 1 18000/kd1 WIN (formula 1 + формула 1 правила + точкуване fold-in). Dedup vs queue (0) + live sitemap (no formula/формула/f1) = clean. · OUTCOME drafted → PR #341. Факти EN Wikipedia (Formula One) + FIA: световно първенство от 1950 г. (първа писта Силвърстоун 13.05.1950), санкция FIA / Formula One Group; две титли — при пилотите (от 1950) и при конструкторите (от 1958 = сбор от двата болида на отбора); точкуване от 2010 г. 25-18-15-12-10-8-6-4-2-1 (първите 10, ≥90% дистанция); точка за най-бърза обиколка 2019–2024 → отпадна от сезон 2025 г. (FIA WMSC окт. 2024); спринт ~100 км, първите 8 → 8-7-6-5-4-3-2-1, от 2023 не нарежда неделната решетка; по 2 болида/отбор, към сезон 2026 г. 11 отбора/22 болида (Cadillac дебют, Sauber→Audi), историческа норма 10/20 + препратка към официален източник за актуалната решетка; уикенд FP1/FP2/FP3 + квалификация Q1/Q2/Q3 (нокаут от 2006 г.) → пол-позишън; дистанция най-малкият брой обиколки над 305 км (Монако ~260), лимит 2 ч (до 3 ч с прекъсвания), ≥1 влизане в бокса + ≥2 сухи състава; рекорди към есента на 2026 г. — Шумахер и Хамилтън по 7 титли (пилоти), Ферари 16 (конструктори). Gate 95 PASS 0-crit. Gemini Step-7 keep-best = initial draft (HL 90 „Likely human-written\" = PASS pass 1; style-only, 0 факти/числа/линкове/RG пипнати). img:2 (infographic formula-1-tochkuvane.svg числа 1:1 vs 05b + decorative hero formula-1-pista-hero.webp 28KB, без текст/лога/хора/болиди/ливреи; image review 100 PASS p1, 0 integrity; hero gen'd като PNG → ImageMagick→WebP, Pillow unavailable). ~767 думи, 0 em-dash (body), 0 [VERIFY]. 4 body internal links live (zakonno-li-e / bonus-ruletka-sport-vsichki / blog-sport / blog-responsible-gambling) + otgovorna-igra footer; no affiliate (не се препоръчва оператор). vol/kd 18000/1 (ahrefs, from backlog).",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
+    },
+    {
       "id": "vk-0317",
       "status": "drafted",
       "type": "guide",
@@ -6647,8 +6670,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 18000/kd1 (2026-10-28 sports sweep).",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-28 (sports-guide batch; owner approved sports scope). Evergreen guide on format, rules and how it works. NEVER print current standings, results, fixtures or odds (they go stale); link to official sources for live data. No betting tips. Optional light link to /bonus-ruletka/sport/ + RG line.",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-10-28 (sports-guide batch; owner approved sports scope). · WRITTEN 2026-10-29 (owner burst fire, LAST P0 row 10/10 after Лудогорец/Тенис/Реал Мадрид/Барселона/Меси/Ефбет Лига/Кристиано Роналдо/Челси/Ла Лига) → vk-0318, PR #341. Evergreen how-it-works motorsport guide (guides-only ✓: 0 operator/НАП/affiliate; 0 current standings/results/fixtures/odds; 0 predictions). Cluster формула 1 18000/kd1 WIN (formula 1 + формула 1 правила + точкуване fold-in); dedup vs queue + live sitemap clean. Факти EN Wikipedia (Formula One) + FIA: световно първенство от 1950 г.; две титли (пилоти 1950 / конструктори 1958 = сбор от двата болида); точкуване 25-18-15-12-10-8-6-4-2-1 (от 2010, ≥90% дистанция); точка за най-бърза обиколка 2019–2024 → отпадна от 2025 г.; спринт ~100 км, първите 8 (8→1), от 2023 не нарежда неделната решетка; към сезон 2026 г. 11 отбора/22 болида (Cadillac дебют, Sauber→Audi) + препратка за актуална решетка; уикенд FP1/FP2/FP3 + квалификация Q1/Q2/Q3 (нокаут от 2006) → пол-позишън; дистанция над 305 км (Монако ~260), лимит 2 ч (до 3 ч с прекъсвания); рекорди към есента на 2026 г. Шумахер+Хамилтън по 7, Ферари 16. Gate 95 PASS, Gemini human 90 (keep-best = initial, PASS pass 1), img:2 (review 100), ~767 думи, 0 em-dash, 0 [VERIFY]. Linked /blog/sport/ + /bonus-ruletka/sport/vsichki/ (money) + /zakonno-li-e/ + /blog/responsible-gambling/ + otgovorna-igra footer. Evergreen guide on format, rules and how it works. NEVER print current standings, results, fixtures or odds (they go stale); link to official sources for live data. No betting tips. Optional light link to /bonus-ruletka/sport/ + RG line.",
       "opportunity": {
         "score": 100,
         "band": "Strong",
@@ -12355,30 +12378,17 @@
       }
     ],
     "bands": {
-      "Strong": 39,
+      "Strong": 38,
       "Moderate": 2
     },
     "clusters": {
       "uncategorised": {
-        "winnable": 40,
+        "winnable": 39,
         "pillar": 0,
-        "total": 41
+        "total": 40
       }
     },
     "winnable": [
-      {
-        "query": "Формула 1 — как работи: точкуване, отбори и състезателният уикенд",
-        "keywords": "формула 1, formula 1, формула 1 правила, точкуване формула 1",
-        "volume": "18000",
-        "kd": "1",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 100,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
       {
         "query": "Снукър — правила и точкуване за начинаещи",
         "keywords": "снукър, снукър правила, как се играе снукър",
@@ -12890,7 +12900,7 @@
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 40,
+      "winnable": 39,
       "pillars": 0
     }
   }

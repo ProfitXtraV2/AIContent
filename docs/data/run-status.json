@@ -1,13 +1,15 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-10-29T05:52:25Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-10-29T06:11:17Z",
+  "articles_written": 1,
+  "prs_opened": [
+    341
+  ],
   "run_url": "https://claude.ai/code/session_01AwuYFTJifMzMvJcL8ge1fX",
-  "note": "daily run 2026-10-29 — OWNER BURST fire (hourly window → 2026-10-29 07:00 UTC). Target = the last open P0 burst row (10th of 10) = Формула 1 (18000/kd1). Reconcile clean on entry (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review no-op (seo-review.json 2026-10).",
+  "note": "daily run 2026-10-29 — OWNER BURST fire (hourly window → 2026-10-29 07:00 UTC). Wrote 1 new article (MAX_PER_RUN=1): vk-0318 „Формула 1 — как работи: точкуване, отбори и състезателният уикенд\" (PR #341), the LAST open P0 burst row (10th of 10) after Лудогорец/Тенис/Реал Мадрид/Барселона/Меси/Ефбет Лига/Кристиано Роналдо/Челси/Ла Лига. Evergreen how-it-works motorsport guide, guides-only (0 operator/НАП/affiliate; 0 current standings/results/fixtures/odds; 0 predictions). Facts = EN Wikipedia (Formula One) + FIA: световно първенство от 1950 г. (първа писта Силвърстоун 13.05.1950), санкция FIA / Formula One Group; две титли — пилоти (от 1950) и конструктори (от 1958 = сбор от двата болида на отбора); точкуване от 2010 г. 25-18-15-12-10-8-6-4-2-1 (първите 10, трябва ≥90% дистанция); точка за най-бърза обиколка 2019–2024 → отпадна от сезон 2025 г. (FIA WMSC окт. 2024); спринт ~100 км, първите 8 → 8-7-6-5-4-3-2-1, от 2023 не нарежда неделната решетка; по 2 болида/отбор, към сезон 2026 г. 11 отбора / 22 болида (Cadillac дебют като 11-и, Sauber → заводски Audi), историческа норма 10/20 + препратка към официален източник за актуалната решетка; уикенд FP1/FP2 петък, FP3 събота, квалификация, състезание неделя; нокаут квалификация Q1/Q2/Q3 (от 2006) → пол-позишън; дистанция = най-малкият брой пълни обиколки над 305 км (Монако ~260), лимит 2 ч чисто време (до 3 ч с прекъсвания), ≥1 влизане в бокса + ≥2 сухи състава гуми; рекорди към есента на 2026 г. — Шумахер и Хамилтън по 7 титли (пилоти), Ферари 16 (конструктори). ~767 думи, 0 em-dash (body), 0 [VERIFY]. Gate 95 PASS 0-crit. Gemini Step-7: HL 90 (Likely human-written 90%) на ИНИЦИАЛНИЯ draft = PASS pass 1; keep-best = initial (без humaniser pass, keep-best пази 90); gemini human 90; style-only, 0 facts/numbers/links/RG touched. img:2 (hand-authored SVG infographic formula-1-tochkuvane.svg числа 1:1 vs 05b + decorative hero formula-1-pista-hero.webp 28KB, без текст/лога/хора/болиди/ливреи; Gemini image review 100 PASS p1, 0 integrity; hero gen'd като PNG → ImageMagick→WebP, Pillow unavailable). Reconcile clean on entry (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review = no-op (seo-review.json 2026-10). Dedup vs queue (0) + live sitemap (no formula/формула/f1, 5 internal links confirmed live) clean. No Ahrefs pull this fire (conserve units mid-burst; backlog already enriched 18000/kd1 from 2026-10-28 sweep). Board updated: content-queue vk-0318 drafted (human 90, PR #341); backlog Формула 1 row → written; dashboard rebuilt (buffer 241/10); feed refreshed (still 19 approved; vk-0318 is drafted, not in feed). No flags resolved, nothing posted/merged/fabricated. OWNER BURST COMPLETE: all 10 of 10 P0 rows now drafted/in PR (Лудогорец, Тенис, Реал Мадрид, Барселона, Меси, Ефбет Лига, Кристиано Роналдо, Челси, Ла Лига, Формула 1). Per the burst note, any further fire before 2026-10-29 07:00 UTC writes 0 new articles (board upkeep only); after 07:00 UTC the override lifts and intake returns to 1/day on schedule.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-10-29-formula-1",
