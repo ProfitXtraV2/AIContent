@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" role="img" aria-label="Схема на формата на efbet Лига за сезон 2025/26: редовен сезон с 16 отбора и 30 кръга, след което класирането се разделя на три групи — шампионска (места 1 до 4), група за бараж за Лига на конференциите (места 5 до 8) и група за оставане (места 9 до 16); от сезон 2026/27 отборите стават 14.">
+  <defs>
+    <style>
+      .bg{fill:#0f1b2d;}
+      .card{fill:#16263d;stroke:#2b3f5c;stroke-width:1;}
+      .accent{fill:#1f9d6b;}
+      .accentmid{fill:#caa23a;}
+      .accentlow{fill:#a1485a;}
+      .t{font-family:'DejaVu Sans',Arial,Helvetica,sans-serif;fill:#eaf0f7;}
+      .muted{fill:#9fb0c6;}
+      .dark{fill:#0f1b2d;}
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="760" height="470" rx="14"/>
+
+  <text class="t" x="380" y="44" text-anchor="middle" font-size="25" font-weight="700">efbet Лига: как се подрежда сезонът</text>
+  <text class="t muted" x="380" y="68" text-anchor="middle" font-size="15">Пример за сезон 2025/26</text>
+
+  <!-- Regular season -->
+  <rect class="card" x="30" y="90" width="700" height="66" rx="10"/>
+  <text class="t" x="380" y="118" text-anchor="middle" font-size="18" font-weight="700">Редовен сезон</text>
+  <text class="t muted" x="380" y="141" text-anchor="middle" font-size="15">16 отбора · 30 кръга · всеки срещу всеки, разменени гостувания</text>
+
+  <!-- arrow -->
+  <path d="M380 158 L380 182 M372 174 L380 182 L388 174" stroke="#9fb0c6" stroke-width="2" fill="none"/>
+  <text class="t muted" x="380" y="204" text-anchor="middle" font-size="14">Класирането се разделя на групи</text>
+
+  <!-- three groups -->
+  <!-- col1 -->
+  <rect class="card" x="30" y="220" width="222" height="150" rx="10"/>
+  <rect class="accent" x="30" y="220" width="222" height="6" rx="3"/>
+  <text class="t" x="141" y="252" text-anchor="middle" font-size="16" font-weight="700">Шампионска група</text>
+  <text class="accent" x="141" y="290" text-anchor="middle" font-size="26" font-weight="700">места 1–4</text>
+  <text class="t muted" x="141" y="322" text-anchor="middle" font-size="13">титла на България</text>
+  <text class="t muted" x="141" y="342" text-anchor="middle" font-size="13">и места за Европа</text>
+
+  <!-- col2 -->
+  <rect class="card" x="269" y="220" width="222" height="150" rx="10"/>
+  <rect class="accentmid" x="269" y="220" width="222" height="6" rx="3"/>
+  <text class="t" x="380" y="252" text-anchor="middle" font-size="16" font-weight="700">Група за бараж</text>
+  <text class="accentmid" x="380" y="290" text-anchor="middle" font-size="26" font-weight="700">места 5–8</text>
+  <text class="t muted" x="380" y="322" text-anchor="middle" font-size="13">бараж за</text>
+  <text class="t muted" x="380" y="342" text-anchor="middle" font-size="13">Лига на конференциите</text>
+
+  <!-- col3 -->
+  <rect class="card" x="508" y="220" width="222" height="150" rx="10"/>
+  <rect class="accentlow" x="508" y="220" width="222" height="6" rx="3"/>
+  <text class="t" x="619" y="252" text-anchor="middle" font-size="16" font-weight="700">Група за оставане</text>
+  <text class="accentlow" x="619" y="290" text-anchor="middle" font-size="26" font-weight="700">места 9–16</text>
+  <text class="t muted" x="619" y="322" text-anchor="middle" font-size="13">изпадане и бараж</text>
+  <text class="t muted" x="619" y="342" text-anchor="middle" font-size="13">с Втора лига</text>
+
+  <!-- footer -->
+  <text class="t muted" x="30" y="406" text-anchor="start" font-size="13">От сезон 2026/27 отборите се връщат на 14 отбора. Числата са за сезон 2025/26.</text>
+  <text class="t muted" x="30" y="430" text-anchor="start" font-size="13">Точната схема за всеки сезон е в регламента на БФС и ПФЛ.</text>
+  <text class="accentmid" x="730" y="430" text-anchor="end" font-size="13" font-weight="700">18+ Играйте отговорно</text>
+</svg>
