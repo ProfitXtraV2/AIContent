@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 19,
+  "count": 17,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -80,20 +80,6 @@
       "status": "approved"
     },
     {
-      "slug": "onlayn-mashini-kak-rabotyat",
-      "title": "Как работят онлайн машините: слотове, RTP и шанс",
-      "date_modified": "2026-10-27",
-      "content_hash": "689e1f10f5509d2ada238e9ea52541416eddf2eb92a7447961f5bef464a178a4",
-      "status": "approved"
-    },
-    {
-      "slug": "belot-onlayn",
-      "title": "Белот онлайн: къде се играе безплатно | Всички Казина",
-      "date_modified": "2026-10-27",
-      "content_hash": "8a0f1a40daa383089c3c3aee5dead725d8be565e1c2eb555171fba6033924233",
-      "status": "approved"
-    },
-    {
       "slug": "tabla-onlayn",
       "title": "Табла онлайн: къде се играе безплатно | Всички Казина",
       "date_modified": "2026-10-27",
@@ -118,7 +104,7 @@
       "slug": "igri-s-karti",
       "title": "Игри с карти: кои се играят в България и как",
       "date_modified": "2026-10-27",
-      "content_hash": "be5f6aee8dceffe2dfa78f35a150dc6124cbb68eea74ed218b7105641fbd71a8",
+      "content_hash": "f57429c7191f8e90815ce5dbf3b19b56adee7fe6d26353a017570728f919dcdd",
       "status": "approved"
     },
     {
@@ -136,5 +122,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-29T06:11:17Z"
+  "generated_utc": "2026-10-29T06:43:48Z"
 }
