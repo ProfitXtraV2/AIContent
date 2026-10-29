@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-29T06:53:45Z",
+  "generated_utc": "2026-10-29T17:04:40Z",
   "buffer": {
     "count": 239,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 222,
-    "approved": 17,
+    "drafted": 221,
+    "approved": 18,
     "posted": 78,
     "failed": 1
   },
@@ -6291,7 +6291,7 @@
     },
     {
       "id": "vk-0310",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Тенис — правила и точкуване: гейм, сет, тайбрек",
       "keywords_or_terms": "тенис, тенис правила, тенис точкуване, как се играе тенис",
