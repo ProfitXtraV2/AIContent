@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 26,
+  "count": 24,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -73,13 +73,6 @@
       "status": "approved"
     },
     {
-      "slug": "pasians-pravila",
-      "title": "Пасианс правила: Клондайк, Паяк и FreeCell",
-      "date_modified": "2026-10-27",
-      "content_hash": "9ad1c38d37f81ce35a62720a477983d2e2eedf90e2f94b74a5361e4bb1c4acf6",
-      "status": "approved"
-    },
-    {
       "slug": "tabla-onlayn",
       "title": "Табла онлайн: къде се играе безплатно | Всички Казина",
       "date_modified": "2026-10-27",
@@ -104,14 +97,7 @@
       "slug": "igri-s-karti",
       "title": "Игри с карти: кои се играят в България и как",
       "date_modified": "2026-10-27",
-      "content_hash": "be5f6aee8dceffe2dfa78f35a150dc6124cbb68eea74ed218b7105641fbd71a8",
-      "status": "approved"
-    },
-    {
-      "slug": "shah-pravila",
-      "title": "Шах правила за начинаещи: фигури, ходове, шах и мат",
-      "date_modified": "2026-10-27",
-      "content_hash": "a2f9dd4e351c53f65adb1a4c198f94a675e985f0eaaccec2fc26f38afc627675",
+      "content_hash": "f57429c7191f8e90815ce5dbf3b19b56adee7fe6d26353a017570728f919dcdd",
       "status": "approved"
     },
     {
@@ -185,5 +171,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-29T23:08:38Z"
+  "generated_utc": "2026-10-30T06:43:03Z"
 }
