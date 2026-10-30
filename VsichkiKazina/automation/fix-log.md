@@ -3209,3 +3209,39 @@ Board `gemini` updated: vk-0314 `ai 65` → `human 90` (+ nightly note on the ro
 `build_dashboard.py` (buffer 239/10) and `build_feed.py` (26 approved) re-run on main. No
 posted/live content edited; nothing merged; no new article branches created; only the one
 low-rated `content/*` branch touched; API key never printed.
+
+## 2026-10-30 — nightly flag + score fixes
+
+### JOB A — publish-blocking flags
+Scanned `05b-final-draft.md` on all 320 `content/*` branches (2 carry no draft: the
+`status=failed` welcome-bonus rows vk-0002 / its near-dup — 318 drafts scanned) for the
+blocking markers `[VERIFY …]` · `[DATA NEEDED]` · `[CONFLICT]` · `[18+ / RG LINE]` ·
+`[AUTHOR …]` · `[BRAND …]` · `[EDITORIAL]` · `[уточни …]` · `[провери …]`.
+**Zero blocking markers found — no branch needed a flag fix.** (The `[About Всички Казина
+boilerplate]` token is the standard footer template, present in posted drafts too — not a
+blocking marker.) Nothing committed for Job A.
+
+### JOB B — low Gemini score
+**Zero in-scope targets.** Every `drafted`/`approved` row carrying a real Step-7 verdict is
+already `human ≥80` — no `ai <n>` row and no `human <n>` with n<80 among drafted/approved.
+The 68 `drafted` rows marked `skipped` in the `gemini` column (Step-7 never run — Gemini 429
+credit depletion on earlier batches) carry no verdict, so they are not "low-rated" and remain
+out of the target definition (consistent with the 2026-10-28/29 runs). Nothing humanised;
+idempotent — flag-free, already-`human` drafts left untouched.
+
+### POSTED — needs human review
+No new items this run. (vk-0063 `2026-09-13-nv-casino-zakonno-li-e` remains `ai 75`/posted from
+prior runs — live, never edited per policy; a human should decide whether to re-humanise +
+re-publish.)
+
+### Deferred
+None for JOB B (no low-rated targets, so the ≤10/night cap was not reached). Standing backlog
+unrelated to this run's target definition: 68 `skipped` drafts (vk-0081 … vk-0222) still await
+a Step-7 Gemini verdict — the autopilot's Step-7 stage owns re-running these once credits allow;
+flagged here for visibility, not actioned by the fixer.
+
+### Finish
+No board `gemini` values changed (nothing processed). `build_dashboard.py` (buffer 238/10) and
+`build_feed.py` (24 approved) re-run on main (timestamp-only regeneration; board content
+unchanged). No posted/live content edited; nothing merged; no new article branches created; no
+`content/*` branch touched; API key never printed.
