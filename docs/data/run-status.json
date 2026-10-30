@@ -1,29 +1,18 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-10-30T07:24:00Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-10-30T07:59:00Z",
+  "articles_written": 1,
+  "prs_opened": [342],
   "run_url": "https://claude.ai/code/session_01AwuYFSfFANaBczH1Mab97i",
-  "note": "daily run 2026-10-30 — writing vk-0319 Лига Европа (top open P0 backlog row, sports-guide guide). Reconcile clean on entry. Monthly SEO review not due (2026-10).",
+  "note": "daily run 2026-10-30 — steady throttled intake (MAX_PER_RUN=1). Wrote 1 new guide: vk-0319 Лига Европа (формат и как се класират отборите), top open P0 backlog row (sports-guide batch), PR #342. Guides-only OK (0 operator/НАП/affiliate, 0 current standings/results/winner/odds, 0 predictions). Gate 94 PASS; Gemini Step-7 keep-best over 2 humaniser passes = human 85 (HL 35->15->85, detector unstable mid-loop, final=PASS); img:2 (infographic + hero, image review 82->100 PASS, 0 integrity). ~763 words, 0 flags. Reconcile clean on entry (0 in-progress/CLAIMED/HANDOFF). Monthly SEO review not due (last=2026-10). Research: 3 bank candidates re-verified (all measurable, no zero-vol removals); 16 discovery terms pulled, no strong distinct refill (market saturated per throttle policy), not padding. Backlog row set written; buffer 238/10. Feed refreshed (24 approved, no new approvals). NOTE: Claude GitHub App not installed on repo -> PR events will not wake the session; owner installs at github.com/apps/claude to enable. No flags resolved, nothing posted/merged/fabricated.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-10-30-liga-evropa",
-    "stages": [
-      "Synthesis",
-      "Outline",
-      "Author",
-      "Humaniser",
-      "SEO",
-      "Brand Gate",
-      "Light re-check",
-      "Images",
-      "Verification",
-      "PR"
-    ],
-    "stage_index": 9,
-    "stage": "PR"
+    "stages": ["Synthesis", "Outline", "Author", "Humaniser", "SEO", "Brand Gate", "Light re-check", "Images", "Verification", "PR"],
+    "stage_index": null,
+    "stage": null
   }
 }
