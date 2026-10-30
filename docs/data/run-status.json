@@ -5,14 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01AwuYFSfFANaBczH1Mab97i",
-  "note": "daily run 2026-10-30 — steady throttled intake (MAX_PER_RUN=1). Reconcile clean on entry (0 in-progress / 0 CLAIMED-UNTIL / 0 HANDOFF). Monthly SEO review not due (last=2026-10 = current month).",
+  "note": "daily run 2026-10-30 — writing vk-0319 Лига Европа (top open P0 backlog row, sports-guide guide). Reconcile clean on entry. Monthly SEO review not due (2026-10).",
   "progress": {
-    "phase": "setup",
-    "article_index": 0,
+    "phase": "writing",
+    "article_index": 1,
     "article_total": 1,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "article_slug": "2026-10-30-liga-evropa",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
