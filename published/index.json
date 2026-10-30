@@ -97,7 +97,7 @@
       "slug": "igri-s-karti",
       "title": "Игри с карти: кои се играят в България и как",
       "date_modified": "2026-10-27",
-      "content_hash": "f57429c7191f8e90815ce5dbf3b19b56adee7fe6d26353a017570728f919dcdd",
+      "content_hash": "be5f6aee8dceffe2dfa78f35a150dc6124cbb68eea74ed218b7105641fbd71a8",
       "status": "approved"
     },
     {
@@ -171,5 +171,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-30T06:43:03Z"
+  "generated_utc": "2026-10-30T07:58:15Z"
 }
