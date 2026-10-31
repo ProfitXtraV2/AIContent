@@ -117,6 +117,16 @@
 "fetched": "2026-10-30",
 "row": {}
 },
+"bg|aviator игра": {
+"fetched": "2026-10-31",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "aviator игра",
+"volume": 0
+}
+},
 "bg|aviator стратегия": {
 "fetched": "2026-10-26",
 "row": {
@@ -449,6 +459,10 @@
 },
 "trend": "down"
 },
+"bg|casino holdem правила": {
+"fetched": "2026-10-31",
+"row": {}
+},
 "bg|chaos crew": {
 "fetched": "2026-09-17",
 "row": {
@@ -752,6 +766,24 @@
 },
 "trend": "down"
 },
+"bg|gates of olympus": {
+"fetched": "2026-10-31",
+"row": {
+"cpc": 80,
+"difficulty": 83,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "gates of olympus",
+"volume": 350
+},
+"trend": "flat"
+},
 "bg|gates of olympus 1000": {
 "fetched": "2026-09-16",
 "row": {
@@ -926,6 +958,17 @@
 },
 "trend": "down"
 },
+"bg|jacks or better": {
+"fetched": "2026-10-31",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "jacks or better",
+"volume": 10
+},
+"trend": "down"
+},
 "bg|jammin jars": {
 "fetched": "2026-09-18",
 "row": {
@@ -1013,6 +1056,24 @@
 "volume": 20
 },
 "trend": "up"
+},
+"bg|lightning roulette": {
+"fetched": "2026-10-31",
+"row": {
+"cpc": 90,
+"difficulty": null,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "lightning roulette",
+"volume": 50
+},
+"trend": "flat"
 },
 "bg|majestic forest": {
 "fetched": "2026-10-26",
@@ -1116,6 +1177,16 @@
 "volume": 70
 },
 "trend": "down"
+},
+"bg|mines игра": {
+"fetched": "2026-10-31",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "mines игра",
+"volume": 0
+}
 },
 "bg|mines стратегия": {
 "fetched": "2026-10-26",
@@ -1437,7 +1508,7 @@
 "trend": "flat"
 },
 "bg|plinko": {
-"fetched": "2026-09-20",
+"fetched": "2026-10-31",
 "row": {
 "cpc": 40,
 "difficulty": 78,
@@ -1447,12 +1518,12 @@
 "informational": true,
 "local": false,
 "navigational": false,
-"transactional": true
+"transactional": false
 },
 "keyword": "plinko",
 "volume": 600
 },
-"trend": "down"
+"trend": "flat"
 },
 "bg|power of merlin": {
 "fetched": "2026-09-17",
@@ -1674,6 +1745,10 @@
 },
 "trend": "down"
 },
+"bg|sic bo правила": {
+"fetched": "2026-10-31",
+"row": {}
+},
 "bg|sizzling hot": {
 "fetched": "2026-09-18",
 "row": {
@@ -1709,6 +1784,16 @@
 "volume": 30
 },
 "trend": "down"
+},
+"bg|spaceman игра": {
+"fetched": "2026-10-31",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "spaceman игра",
+"volume": 0
+}
 },
 "bg|spinomenal": {
 "fetched": "2026-09-19",
@@ -1856,6 +1941,24 @@
 "volume": 10
 },
 "trend": "down"
+},
+"bg|sweet bonanza": {
+"fetched": "2026-10-31",
+"row": {
+"cpc": 35,
+"difficulty": 70,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "sweet bonanza",
+"volume": 250
+},
+"trend": "up"
 },
 "bg|sweet bonanza 1000": {
 "fetched": "2026-09-17",
@@ -2326,6 +2429,24 @@
 "volume": 0
 }
 },
+"bg|бакара правила": {
+"fetched": "2026-10-31",
+"row": {
+"cpc": null,
+"difficulty": 10,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "бакара правила",
+"volume": 60
+},
+"trend": "down"
+},
 "bg|баккара стратегия": {
 "fetched": "2026-10-24",
 "row": {
@@ -2570,6 +2691,24 @@
 "keyword": "данъчна лотария",
 "volume": 0
 }
+},
+"bg|дартс правила": {
+"fetched": "2026-10-31",
+"row": {
+"cpc": 1,
+"difficulty": 0,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "дартс правила",
+"volume": 90
+},
+"trend": "down"
 },
 "bg|демо игри казино": {
 "fetched": "2026-10-24",
@@ -3054,6 +3193,16 @@
 "fetched": "2026-10-24",
 "row": {}
 },
+"bg|кено правила": {
+"fetched": "2026-10-31",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "кено правила",
+"volume": 0
+}
+},
 "bg|кешбек бонус": {
 "fetched": "2026-10-30",
 "row": {
@@ -3315,6 +3464,10 @@
 "fetched": "2026-10-24",
 "row": {}
 },
+"bg|монополи лайв": {
+"fetched": "2026-10-31",
+"row": {}
+},
 "bg|мултипликатор слот": {
 "fetched": "2026-10-24",
 "row": {}
@@ -3399,6 +3552,24 @@
 "keyword": "покер за начинаещи",
 "volume": 0
 }
+},
+"bg|покер комбинации": {
+"fetched": "2026-10-31",
+"row": {
+"cpc": null,
+"difficulty": 0,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "покер комбинации",
+"volume": 700
+},
+"trend": "up"
 },
 "bg|покер маса": {
 "fetched": "2026-10-19",
@@ -3638,6 +3809,10 @@
 },
 "bg|тото скандо": {
 "fetched": "2026-10-19",
+"row": {}
+},
+"bg|три карти покер": {
+"fetched": "2026-10-31",
 "row": {}
 },
 "bg|турбо игри казино": {

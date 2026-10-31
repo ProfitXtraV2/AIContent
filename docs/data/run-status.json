@@ -1,13 +1,15 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-10-31T07:14:42Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-10-31T07:36:23Z",
+  "articles_written": 1,
+  "prs_opened": [
+    343
+  ],
   "run_url": "https://claude.ai/code/session_01AwuYFVXH2UnyVa6eqSx7FB",
-  "note": "daily run 2026-10-31",
+  "note": "daily run 2026-10-31 — steady throttled intake (MAX_PER_RUN=1). Wrote 1 new guide: vk-0320 Снукър — правила и точкуване за начинаещи (top open P0 backlog row, sports-guide sweep, owner-approved), PR #343. Guides-only ✓ (0 operator/НАП/affiliate; 0 current rankings/results/calendars/odds; 0 predictions; 0 real-person claims). Cluster снукър 13000/kd0 WIN. Dedup vs queue (0) + live sitemap (151 URLs, no snooker slug) = clean. Gate 95 PASS 0-crit. Gemini Step-7 = human 90 (\"Likely human-written 90%\" PASS on initial draft; no humaniser pass needed, keep-best=initial; style-only recs not applied to avoid lowering a passing score). img:1 — infographic snooker-topki-tochki.svg (numbers 1:1 vs 05b, review 100 PASS 0 integrity); decorative hero gen+reviewed x2 (65->45), reviewer held the decorative hero to strict snooker-rule accuracy -> dropped, ship infographic alone per Step-8 policy (never block PR). ~900 words, 0 em-dash (body), 0 flags. Reconcile clean on entry (0 in-progress/CLAIMED/HANDOFF). Monthly SEO review not due (last=2026-10 = current month). Research: 3 candidates re-verified (видео покер 30; реми 50/kd0 up; Казино Холдем SKIPPED — duplicates vk-0189 + near-zero, folded in), REPLACED by new volume-bearing candidate дартс правила 90/kd0 (uncovered, winnable) -> bank buffer stays 3. Discovery confirmed market saturation: блекджек/бакара/покер комбинации all already covered (vk-0009/0012/0263); plinko/sweet bonanza/gates of olympus all kd>40 (Pillar, not winnable). Backlog enrich: all open rows current (5 blank-vol NV rows already ahrefs-checked no-data). Backlog row set written; buffer 237/10. Feed refreshed. NOTE: Claude GitHub App not installed on repo -> PR events will not wake the session; owner installs at github.com/apps/claude to enable. No flags resolved, nothing posted/merged/fabricated.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-10-31-snooker-pravila",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "stage_index": null,
+    "stage": null
   }
 }
