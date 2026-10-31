@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 24,
+  "count": 22,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -73,13 +73,6 @@
       "status": "approved"
     },
     {
-      "slug": "tabla-onlayn",
-      "title": "Табла онлайн: къде се играе безплатно | Всички Казина",
-      "date_modified": "2026-10-27",
-      "content_hash": "b903c7d6bee7fcef827f8ca8cdb493aa2f6048f66f73cdbdbbe21eb8a5a31704",
-      "status": "approved"
-    },
-    {
       "slug": "proverka-na-fish",
       "title": "Проверка на фиш Тото: онлайн и на гише | Всички Казина",
       "date_modified": "2026-10-27",
@@ -97,14 +90,7 @@
       "slug": "igri-s-karti",
       "title": "Игри с карти: кои се играят в България и как",
       "date_modified": "2026-10-27",
-      "content_hash": "be5f6aee8dceffe2dfa78f35a150dc6124cbb68eea74ed218b7105641fbd71a8",
-      "status": "approved"
-    },
-    {
-      "slug": "stani-bogat-onlayn",
-      "title": "Стани богат онлайн: правила на играта и къде да играете",
-      "date_modified": "2026-10-27",
-      "content_hash": "11ebf597a942ea6f1cb1cbd92fe00a816f3f6bbfceff14233b12c3bd7a5e6f9e",
+      "content_hash": "f57429c7191f8e90815ce5dbf3b19b56adee7fe6d26353a017570728f919dcdd",
       "status": "approved"
     },
     {
@@ -171,5 +157,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-30T23:03:34Z"
+  "generated_utc": "2026-10-31T06:42:36Z"
 }
