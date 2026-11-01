@@ -1,0 +1,40 @@
+{
+  "order": 1,
+  "label": {
+    "bg": "Казино",
+    "en": "Casino"
+  },
+  "about": "A gambling information site: 18+, no operator, no bonus, no call to register or deposit.",
+  "mark_18": true,
+  "compliance_required": true,
+  "palette": {
+    "green": "#0F7B5A",
+    "gold": "#C9962C",
+    "ink": "#14161A",
+    "paper": "#F7F4EC"
+  },
+  "settings": {
+    "bg": {
+      "compliance_long": "18+ Хазартът може да пристрасти. Играйте отговорно.",
+      "compliance_short": "18+ Играйте отговорно.",
+      "voice_notes": "Спокойно и фактологично, предимно учтиво „вие“; без хайп думи; без тирета (—).",
+      "eligible_types": "guide, comparison, review, news",
+      "offer_words": "бонус, бонуса, бонуси, бонусът, бонусите, оферта, оферти, промоция, промоции, промо код, бонус код, кешбек, cashback, free spins, фрий спинове, безплатни завъртания, безплатни спинове, джакпот оферта, welcome bonus",
+      "register_words": "регистрирай се, регистрирайте се, регистрирай се сега, направи депозит, направете депозит, депозирай, депозирайте, вземи бонуса, вземете бонуса, вземи своя бонус, играй сега, играйте сега, sign up, register now, deposit now, claim now"
+    },
+    "en": {
+      "compliance_long": "18+ Gambling can be addictive. Play responsibly.",
+      "compliance_short": "18+ Play responsibly.",
+      "voice_notes": "Calm and factual; no hype words; no em-dashes (—).",
+      "eligible_types": "guide, comparison, review, news",
+      "offer_words": "bonus, bonuses, offer, offers, promotion, promo code, bonus code, cashback, free spins, welcome bonus",
+      "register_words": "sign up, register now, deposit, deposit now, claim now, play now, get your bonus"
+    }
+  },
+  "writing_rules": [
+    "The only calls to action are to read the guide, or to save or share the post. No \"register\", \"deposit\", \"claim\", \"play now\", no bonus or offer, no operator name: not in the text, the image text, the hashtags or the alt text. Not even a bonus guide's example amounts: talk about how a term works.",
+    "Never glamorise winning or present gambling as a way to earn money."
+  ],
+  "art_rules": "NO real casino interface or slot screen, NO chips or cash as the main subject. Neutral and calm: never depict winning, money raining or euphoria.",
+  "review_rules": "Any real operator logo or name, fake casino interface or screenshot, invented bonus number or offer, call to register or deposit, or glamorised winning is a failure. The mark 18+ must be on every image."
+}

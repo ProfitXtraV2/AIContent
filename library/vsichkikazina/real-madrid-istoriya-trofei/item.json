@@ -1,0 +1,49 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0311",
+  "slug": "real-madrid-istoriya-trofei",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-10-28-real-madrid-istoriya-trofei",
+  "pr": "#334",
+  "title": "Реал Мадрид: история, трофеи, стадион и легенди | Всички Казина",
+  "meta_description": "Реал Мадрид: как клубът се ражда през 1902 г., трофеите в Ла Лига и Европа, стадионът Сантяго Бернабеу и легендите на „белите\". Факти, не прогнози.",
+  "keywords": [
+    "реал мадрид",
+    "реал мадрид история",
+    "реал мадрид трофеи",
+    "сантяго бернабеу"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/real-madrid-istoriya-trofei/images/real-madrid-bernabeu-hero.webp",
+      "name": "real-madrid-bernabeu-hero.webp",
+      "alt": "Плоска илюстрация на голям футболен стадион вечер под прожектори, в бяло и сиво; без клубен герб, без лого, без хора",
+      "sha256": "e250c9561df252c060314e555e23242b649dd457748ac931ceb53f4d75c11f10",
+      "review": {
+        "score": 100,
+        "integrity_ok": false,
+        "source": "08-image-review-2.md"
+      }
+    },
+    {
+      "path": "published/real-madrid-istoriya-trofei/images/real-madrid-trofei.svg",
+      "name": "real-madrid-trofei.svg",
+      "alt": "Инфографика с трофеите на Реал Мадрид към лятото на 2025 г.: основан 1902 г., кралска титла 1920 г., 36 титли в Ла Лига, 20 Купи на краля, 13 Суперкупи на Испания, 15 трофея в Шампионската лига, първите пет поредно 1956-1960 г., 9 световни титли, стадион Сантяго Бернабеу от 1947 г.",
+      "sha256": "8b94d757a4f00a1473fef23bb6f428e2e57d631c9967d267505b50c7bd353203",
+      "review": {
+        "score": 100,
+        "integrity_ok": false,
+        "source": "08-image-review-2.md"
+      }
+    }
+  ],
+  "article_version": "e8a5d3b6f77e78553df33423420cbac25eedf770fdde34b2cd2a7077351789dc",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

@@ -1,0 +1,13 @@
+# The named Cloudflare Tunnel, outbound only (tech spec, Third-party services 3). A template:
+# replace the tunnel UUID and example.org. The tunnel's credentials file (its token) lives only in
+# /etc/px-social/cloudflared/ in the guest.
+tunnel: 00000000-0000-0000-0000-000000000000
+credentials-file: /etc/cloudflared/00000000-0000-0000-0000-000000000000.json
+no-autoupdate: true
+
+ingress:
+  - hostname: social.example.org
+    service: http://caddy:80
+  - hostname: auth.example.org
+    service: http://caddy:80
+  - service: http_status:404

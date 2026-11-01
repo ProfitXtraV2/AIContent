@@ -1,0 +1,48 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0299",
+  "slug": "igri-s-karti",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-10-27-igri-s-karti",
+  "pr": "#322",
+  "title": "Игри с карти: кои се играят в България и как",
+  "meta_description": "Преглед на игрите с карти в България: белот, сантасе, свара, блекджек, баккара и покер. Кое е умение, кое е късмет и къде да играете онлайн.",
+  "keywords": [
+    "игри с карти",
+    "онлайн безплатни игри с карти",
+    "игри с карти за двама"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/igri-s-karti/images/igri-s-karti-hero.webp",
+      "name": "igri-s-karti-hero.webp",
+      "alt": "Плоска илюстрация на ветрило от карти за игра с абстрактни знаци на боите върху зелено сукно, до малка купчина чипове, без лица и без марки",
+      "sha256": "f0bb4c7bda53dbab070a850e618de22ac88446cd6a9dc78defe6d95dece41149",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/igri-s-karti/images/igri-s-karti-igrachi-teste.svg",
+      "name": "igri-s-karti-igrachi-teste.svg",
+      "alt": "Сравнителна таблица на четири традиционни български игри с карти по брой играчи и големина на тестето: белот 4 играчи (2 отбора) с 32 карти, сантасе 2 играчи с 24 карти, свара 2 до 8 играчи с 32 карти, блато 3 играчи с 52 карти",
+      "sha256": "ddb5aef1ac87f2ff27844b43dd822f5a077eaa40afb299a686b761f04202b819",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "3692ec5e34986ecc269bc244278918027bf3b3ecc78f62868aa0876a16fe9b79",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

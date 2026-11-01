@@ -1,0 +1,48 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0037",
+  "slug": "flaming-hot",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-10-flaming-hot",
+  "pr": "#52",
+  "title": "Flaming Hot: RTP и характеристики (EGT/Amusnet)",
+  "meta_description": "Flaming Hot на Amusnet (EGT): 5 барабана, 40 фиксирани линии, RTP 95.53%, wild „7\", долар scatter, гембъл и Jackpot Cards. Защо RTP е под средното и защо джакпотът не мени шансовете.",
+  "keywords": [
+    "flaming hot",
+    "флейминг хот",
+    "egt flaming hot"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/flaming-hot/images/flaming-hot-hero.webp",
+      "name": "flaming-hot-hero.webp",
+      "alt": "Абстрактен фон с огнени плодови символи и седмица, вдъхновен от класическа ротативка като Flaming Hot",
+      "sha256": "04fd5e6f51cc9709232b13b7adb0b54541231fc37d35b6698e88019ece592348",
+      "review": {
+        "score": 85,
+        "integrity_ok": true,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/flaming-hot/images/flaming-hot-rtp.svg",
+      "name": "flaming-hot-rtp.svg",
+      "alt": "Flaming Hot RTP 95.53% и домашно предимство 4.47%: при €1000 оборот средно €955 се връщат на играча, €45 остават за казиното",
+      "sha256": "2c5a9c20657b273e970d54bfd96242e199d19183d342a44f6dc8f48086ac4404",
+      "review": {
+        "score": 85,
+        "integrity_ok": true,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "2a702ef04b9cf49762e948b9ab6105bade8b66541cd5d8a0482cb5c57cfbf44e",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

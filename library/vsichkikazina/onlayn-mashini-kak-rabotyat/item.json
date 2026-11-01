@@ -1,0 +1,59 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0294",
+  "slug": "onlayn-mashini-kak-rabotyat",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-10-27-onlayn-mashini-kak-rabotyat",
+  "pr": "#317",
+  "title": "Как работят онлайн машините: слотове, RTP и шанс",
+  "meta_description": "Как работят онлайн машините? Простичко обяснение на RNG, RTP и волатилността при слотовете - и защо никоя система не бие машината на дълъг пробег.",
+  "keywords": [
+    "онлайн машини",
+    "игри машинки",
+    "слот машини онлайн"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/onlayn-mashini-kak-rabotyat/images/onlayn-mashini-hero.webp",
+      "name": "onlayn-mashini-hero.webp",
+      "alt": "Плоска илюстрация: три абстрактни барабана със символи, които в основата си преливат в поток от свързани точки и линии, символ на генератора на случайни числа, захранващ слота, с кръгова стрелка около тях за независимостта на всяко завъртане",
+      "sha256": "4ce4b714600fa90b9435cc083d837f81fcfc00f1e7a467f07d231c4097bf95d2",
+      "review": {
+        "score": 100,
+        "integrity_ok": false,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/onlayn-mashini-kak-rabotyat/images/rtp-domashno-predimstvo.svg",
+      "name": "rtp-domashno-predimstvo.svg",
+      "alt": "Инфографика: от €100 оборот на слот с 96% RTP се връщат €96 към играча и €4 остават в казиното; домашно предимство = 100% минус RTP, напр. 94% RTP оставя 6%; типичен RTP диапазон 92–97%, повечето 95–97%, прогресивни джакпоти примерно 92–94%",
+      "sha256": "7d32ba152ec59b6513279260a1c53ee81db0d363e0476ca6ca367f6e97967536",
+      "review": {
+        "score": 100,
+        "integrity_ok": false,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/onlayn-mashini-kak-rabotyat/images/volatilnost-niska-visoka.svg",
+      "name": "volatilnost-niska-visoka.svg",
+      "alt": "Инфографика: ниска волатилност — плавна крива с чести дребни печалби и бавно падащ баланс; висока волатилност — начупена крива с дълги сухи серии и редки големи удари; при еднакъв RTP двата профила се усещат различно",
+      "sha256": "ec2f1538803952aa58c1a247a00ffe212ace0b8df45dc1545ddfe3adc2a4a87b",
+      "review": {
+        "score": 100,
+        "integrity_ok": false,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "ac42b387f89b3761b2560aab417ac0e9f2ecd0c862d335027bfe94b25b8e8b29",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

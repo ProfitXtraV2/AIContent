@@ -1,0 +1,40 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0261",
+  "slug": "kak-se-preodolyava-hazartna-zavisimost",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-10-08-kak-se-preodolyava-hazartna-zavisimost",
+  "pr": "#281",
+  "title": "Как се преодолява хазартна зависимост: лечение и помощ",
+  "meta_description": "Как се преодолява хазартна зависимост: кои терапии работят, какво е ремисия и откъде да потърсите лечение и помощ в България.",
+  "keywords": [
+    "как се преодолява хазартна зависимост",
+    "лечение на хазартна зависимост",
+    "терапия за хазартна зависимост",
+    "групи за подкрепа при хазарт",
+    "клиники за лечение на хазартна зависимост",
+    "има ли излекувани от хазартна зависимост"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/kak-se-preodolyava-hazartna-zavisimost/images/pat-kam-vazstanovyavane-hazartna-zavisimost-infografika.svg",
+      "name": "pat-kam-vazstanovyavane-hazartna-zavisimost-infografika.svg",
+      "alt": "Инфографика: пътят към възстановяване от хазартна зависимост: степени по DSM-5 (лека при 4–5, умерена при 6–7, тежка при 8–9 от 9 критерия), маршрут за помощ в България (личен лекар, после психиатър или районен център за психично здраве, успоредно група за взаимопомощ) и дефиниция на ремисия (ранна при поне 3 месеца, устойчива при 12 месеца или повече).",
+      "sha256": "41b2c8c94ab14313bb8eda9fe2cbed1444363a0e5cb58ca07ee728216fe73030",
+      "review": {
+        "score": 100,
+        "integrity_ok": null,
+        "source": "08-image-review-2.md"
+      }
+    }
+  ],
+  "article_version": "fa305f84c0c0d26d6c79a64f8d348cb1734774fbc5b40f75bcbe96084a1cb817",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

@@ -1,0 +1,66 @@
+{
+  "brands": [
+    {
+      "key": "vsichkikazina",
+      "name": "Всички Казина",
+      "prefix": "vk",
+      "site": "https://vsichkikazina.bg",
+      "dir": "VsichkiKazina",
+      "topic": "casino",
+      "language": "bg",
+      "social": true
+    },
+    {
+      "key": "dentalvia",
+      "name": "DentalVia",
+      "prefix": "dv",
+      "site": "https://www.dentalvia.de",
+      "dir": "DentalVia",
+      "topic": "dental",
+      "language": "de",
+      "social": false
+    }
+  ],
+  "topics": [
+    {
+      "key": "casino",
+      "label": {
+        "bg": "Казино",
+        "en": "Casino"
+      },
+      "about": "A gambling information site: 18+, no operator, no bonus, no call to register or deposit."
+    },
+    {
+      "key": "betting",
+      "label": {
+        "bg": "Спортни залози",
+        "en": "Sports betting"
+      },
+      "about": "A sports betting information site (football and other sports with betting): 18+, no bookmaker, no odds offer, no call to bet."
+    },
+    {
+      "key": "sport",
+      "label": {
+        "bg": "Спорт / футбол",
+        "en": "Sport / football"
+      },
+      "about": "A sports news and analysis site with no betting: no age mark, no compliance line."
+    },
+    {
+      "key": "dental",
+      "label": {
+        "bg": "Зъболекарска / здраве",
+        "en": "Dental / health"
+      },
+      "about": "A dental or health information site: no medical promise, no diagnosis, a line that the post is no medical advice."
+    },
+    {
+      "key": "general",
+      "label": {
+        "bg": "Обща тема",
+        "en": "General"
+      },
+      "about": "Any other site: no age mark and no compliance line unless you add one."
+    }
+  ]
+}

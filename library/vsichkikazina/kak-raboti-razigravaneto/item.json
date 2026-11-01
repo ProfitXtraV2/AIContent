@@ -1,0 +1,48 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0001",
+  "slug": "kak-raboti-razigravaneto",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-07-kak-raboti-razigravaneto",
+  "pr": "#1",
+  "title": "Как работи изискването за разиграване (wagering)",
+  "meta_description": "Разиграването (wagering) е задача, не число на банера. Виж как множителят, базата, приносът на игрите и срокът решават дали бонусът си струва.",
+  "keywords": [
+    "разиграване",
+    "wagering",
+    "бонус условия"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/kak-raboti-razigravaneto/images/razigravane-hero.webp",
+      "name": "razigravane-hero.webp",
+      "alt": "Ключалка върху купчина чипове с кръгови стрелки — символ на заключения бонус, чакащ оборот преди изтегляне",
+      "sha256": "c0fef96b8f1bbfd8479401368c87d98826ad04bb9847a38396cb10816e260631",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/kak-raboti-razigravaneto/images/razigravane-baza-mnozhitel.svg",
+      "name": "razigravane-baza-mnozhitel.svg",
+      "alt": "Инфографика: два сценария за изчисляване на изискването за разиграване — база само бонус (€3,000) срещу база депозит+бонус (€6,000), с разбивка по приноса на игрите и срока",
+      "sha256": "ed64e3054a7884888a7dec60a04f71bc7c9a901e320e33238eddc96ffca62774",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "7fd609df4d3894668cd5b3ed8ac93c0f7bd70752fb38072ad6c32c6a8b6864d3",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

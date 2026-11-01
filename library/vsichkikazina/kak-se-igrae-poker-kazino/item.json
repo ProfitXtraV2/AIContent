@@ -1,0 +1,60 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0008",
+  "slug": "kak-se-igrae-poker-kazino",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-07-kak-se-igrae-poker-kazino",
+  "pr": "#7",
+  "title": "Как се играе покер в казино: видове игри и правила",
+  "meta_description": "Как се играе покер в казино: видео покер, казино холдем, три карти покер, Caribbean Stud, правилата, ръцете и домашното предимство.",
+  "keywords": [
+    "как се играе покер",
+    "казино покер",
+    "видео покер",
+    "казино холдем"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/kak-se-igrae-poker-kazino/images/kazino-poker-igri-hero.webp",
+      "name": "kazino-poker-igri-hero.webp",
+      "alt": "Казино покер: ветрило от карти с абстрактни символи на бои на изчистен зелен фон",
+      "sha256": "7ee8d5d947ac761d69d9ec281927a25f4da0dd5e569fbb34751b8d826cb76496",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/kak-se-igrae-poker-kazino/images/poker-stalbitsa-na-ratsete.svg",
+      "name": "poker-stalbitsa-na-ratsete.svg",
+      "alt": "Стълбица на покер ръцете: от висока карта (най-слабо) до роял флъш (най-силно) с всичките 10 комбинации",
+      "sha256": "dcd28562f6239a7bb6a0aa3d461d9720fb6fda5c449f2541f96a20bab76b5d31",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/kak-se-igrae-poker-kazino/images/poker-rtp-domashno-predimstvo.svg",
+      "name": "poker-rtp-domashno-predimstvo.svg",
+      "alt": "Покер RTP и домашно предимство: при хипотетичен RTP 98% на €100 залог ≈€2 остават за казиното; числата са илюстративни",
+      "sha256": "2db91771e1a8d0964f50fe42c66449ba3e814eb2b2df42fad3e092cb428a5620",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "8b772ab102c5f1de74e896e832b78b7dd86588e736225bf97e0bfd0843196545",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

@@ -1,0 +1,49 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0318",
+  "slug": "formula-1",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-10-29-formula-1",
+  "pr": "#341",
+  "title": "Формула 1: как работи — точкуване, отбори и състезателният уикенд | Всички Казина",
+  "meta_description": "Как работи Формула 1: двете титли, точкуване 25-18-15…, спринтът, нокаут квалификацията, дистанцията от 305 км и рекордите. Факти, не прогнози.",
+  "keywords": [
+    "формула 1",
+    "formula 1",
+    "формула 1 правила",
+    "точкуване формула 1"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/formula-1/images/formula-1-pista-hero.webp",
+      "name": "formula-1-pista-hero.webp",
+      "alt": "Плоска илюстрация, изглед отгоре на лъкатушеща състезателна писта с бордюри в червено и бяло по завоите и каре за старт и финиш, в хладни сини тонове; без болиди, без лога, без хора",
+      "sha256": "a2c7623ea5d8cd2eda2cf996fb5255238112c823a96bbc6166fe5944df7aeb94",
+      "review": {
+        "score": 100,
+        "integrity_ok": false,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/formula-1/images/formula-1-tochkuvane.svg",
+      "name": "formula-1-tochkuvane.svg",
+      "alt": "Инфографика за формата на Формула 1: световно първенство от 1950 г., 11 отбора и 22 болида към сезон 2026 г., точки за състезание 25, 18, 15, 12, 10, 8, 6, 4, 2 и 1 за първите десет, спринт точки от 8 до 1 за първите осем, дистанция над 305 км, лимит 2 часа, рекорди 7 световни титли за Шумахер и Хамилтън при пилотите и 16 за Ферари при конструкторите",
+      "sha256": "3e82f2ade68c5fbfdfc8f2e7718a7d606effe118c8be996e41b94135d3deb12a",
+      "review": {
+        "score": 100,
+        "integrity_ok": false,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "cbb074d3efbbe4e17a6897d371b50511de55f10c7a3a7cd5e7b4d6bb529c97f2",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

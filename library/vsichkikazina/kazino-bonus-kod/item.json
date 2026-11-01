@@ -1,0 +1,50 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0258",
+  "slug": "kazino-bonus-kod",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-10-04-kazino-bonus-kod",
+  "pr": "#277",
+  "title": "Казино бонус код: как работи и къде се въвежда",
+  "meta_description": "Бонус кодът отключва оферта, но не е стойността ѝ. Виж къде се въвежда (регистрация, каса, „Моите бонуси\") и защо условията решават колко струва.",
+  "keywords": [
+    "казино бонус код",
+    "промо код казино",
+    "бонус код при депозит",
+    "къде се въвежда бонус код",
+    "казино ваучер код"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/kazino-bonus-kod/images/kazino-bonus-kod-hero.webp",
+      "name": "kazino-bonus-kod-hero.webp",
+      "alt": "Декоративна илюстрация: катинар върху подаръчна кутия с празен ваучер етикет и везна отзад, метафора за това как бонус кодът отключва оферта, чиято реална стойност се определя от условията",
+      "sha256": "f1a3ca15a1db7178f65d03ef6c51d310735e0f263064a321d5722af50d313396",
+      "review": {
+        "score": 85,
+        "integrity_ok": false,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/kazino-bonus-kod/images/bonus-kod-usloviya.svg",
+      "name": "bonus-kod-usloviya.svg",
+      "alt": "Инфографика: примерен бонус код за €50 с разиграване 35x прави €1750 оборот; при принос 10 на сто оборотът пада 10 пъти по-бавно, а при минимален депозит €20 внесени €10 не отключват бонуса. Числата са илюстративни.",
+      "sha256": "e988a781edd554f5a920c3b794624db9c4c47902239edfbb1b745f282683b551",
+      "review": {
+        "score": 85,
+        "integrity_ok": false,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "13a6948f356290a1c0016f6c6079469be6c8473f1d674bca34669000ff91da73",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

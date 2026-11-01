@@ -1,0 +1,49 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0014",
+  "slug": "krash-igri-aviator",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-08-krash-igri-aviator",
+  "pr": "#16",
+  "title": "Краш игри и Aviator: как работят и какъв е RTP",
+  "meta_description": "Как работят краш игрите и Aviator: множител, кешаут, provably fair и RTP 97%. Защо „системите\" не свалят 3% предимство и защо темпото е рискът.",
+  "keywords": [
+    "aviator",
+    "краш игри",
+    "aviator стратегия",
+    "spribe"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/krash-igri-aviator/images/krash-igri-aviator-hero.webp",
+      "name": "krash-igri-aviator-hero.webp",
+      "alt": "Краш игри и Aviator: нарастващ множител с точка на изход преди внезапния срив",
+      "sha256": "98825e7e14afb4c6848c94cd6c7fa647a2af96f8a174665fa1ba412e6f25db04",
+      "review": {
+        "score": 85,
+        "integrity_ok": null,
+        "source": "08-image-review-2.md"
+      }
+    },
+    {
+      "path": "published/krash-igri-aviator/images/aviator-rtp-domashno-predimstvo.svg",
+      "name": "aviator-rtp-domashno-predimstvo.svg",
+      "alt": "Авиатор RTP 97% и домашно предимство 3%: при €1000 оборот €970 се връщат на играча, €30 остават за казиното",
+      "sha256": "60de92ca7d3fe500f989e10161fa91e213899025666a08c2df61ebebc7feab2f",
+      "review": {
+        "score": 85,
+        "integrity_ok": null,
+        "source": "08-image-review-2.md"
+      }
+    }
+  ],
+  "article_version": "42508c317f370dc316a33def2b1ec3c8057b147c8b2bef7868cf60fa5ff41b6c",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

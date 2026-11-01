@@ -1,0 +1,13 @@
+[Unit]
+Description=Social backup: Postiz database, the check's SQLite, /uploads (age, off the host)
+After=docker.service
+
+[Service]
+Type=oneshot
+# root: it reads the Postiz container and the px-social state; it writes only its temporary folder.
+# No lock: sqlite3 .backup and pg_dump are safe while the check runs, and a long backup must not
+# hold back a check.
+ExecStart=/opt/px-social/backup.sh
+PrivateTmp=true
+NoNewPrivileges=true
+UMask=0077

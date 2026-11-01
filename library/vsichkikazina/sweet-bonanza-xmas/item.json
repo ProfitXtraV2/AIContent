@@ -1,0 +1,48 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0083",
+  "slug": "sweet-bonanza-xmas",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-15-sweet-bonanza-xmas",
+  "pr": "#100",
+  "title": "Sweet Bonanza Xmas: какво променя коледната версия",
+  "meta_description": "Sweet Bonanza Xmas сменя визията на познатата игра, но не и математиката: pay-anywhere, множители 2x–100x в бонуса, конфигурируем RTP около 96.5%. Защо празничната тема не подобрява шансовете.",
+  "keywords": [
+    "sweet bonanza xmas",
+    "свит бонанза коледа",
+    "sweet bonanza xmas rtp"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/sweet-bonanza-xmas/images/sweet-bonanza-xmas-vs-baza.svg",
+      "name": "sweet-bonanza-xmas-vs-baza.svg",
+      "alt": "Сравнение какво сменя коледната версия на Sweet Bonanza спрямо базовата: визията е нова, но RTP около 96.5%, мрежата 6 на 5, множителите 2x–100x и високата волатилност остават същите",
+      "sha256": "91265016e51cb2858288754ae95c3a314f53ba5061f1a94e8b7d055b809ec238",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/sweet-bonanza-xmas/images/sweet-bonanza-xmas-rtp.svg",
+      "name": "sweet-bonanza-xmas-rtp.svg",
+      "alt": "Sweet Bonanza Xmas RTP: при €1000 оборот и версия 96.48% на играча се връщат средно €965, а €35 остават за казиното; операторът може да пусне и по-нисък RTP",
+      "sha256": "7eb59a023979d01492666cb5e0feb91fa434999e1bc2862460759a44f07b711c",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "91a711ae0dff8c3a05414399089c1ba26d939c7ff58a7fb7f5d719c116920749",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

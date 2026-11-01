@@ -1,0 +1,39 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0267",
+  "slug": "toto-2-igri",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-10-10-toto-2-igri",
+  "pr": "#289",
+  "title": "Тото 6 от 49, 6/42 и 5/35: правила и шансове | Всички Казина",
+  "meta_description": "Тото 6 от 49: джакпот 1 към 13 983 816. Сравняваме с 6 от 42 и 5 от 35, кога се тегли ТОТО 2 и коя игра дава най-добър шанс. Резултатите са на toto.bg.",
+  "keywords": [
+    "тото 6 от 49",
+    "тото 6 49",
+    "тото 5 от 35",
+    "тото 6/42",
+    "тото 2"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/toto-2-igri/images/toto-2-shansove-6-ot-49-6-ot-42-5-ot-35-infografika.svg",
+      "name": "toto-2-shansove-6-ot-49-6-ot-42-5-ot-35-infografika.svg",
+      "alt": "Инфографика: шанс за джакпот с една комбинация в ТОТО 2 – 6 от 49 (1 към 13 983 816), 6 от 42 (1 към 5 245 786) и 5 от 35 в едно теглене (1 към 324 632), плюс шанс за някаква печалба с 3 или повече познати числа",
+      "sha256": "fdc8a507cb1669f88c8c8fe4cae74d7b5b1dff09d64bab5519319ea9844c659f",
+      "review": {
+        "score": 90,
+        "integrity_ok": null,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "d5831a1b677b560a606358359a73d359dd01601057eaa75e9e9fa89ff7393458",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

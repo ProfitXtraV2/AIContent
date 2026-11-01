@@ -1,0 +1,47 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0023",
+  "slug": "40-super-hot",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-09-40-super-hot",
+  "pr": "#29",
+  "title": "40 Super Hot: RTP и джакпот функции (EGT/Amusnet)",
+  "meta_description": "Как работи 40 Super Hot на Amusnet (EGT): 5 барабана, 40 фиксирани линии, RTP 95.81%, Jackpot Cards и гембъл. Защо повече линии не значат по-добри шансове и защо RTP е под средното.",
+  "keywords": [
+    "40 super hot",
+    "40 супер хот"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/40-super-hot/images/40-super-hot-hero.webp",
+      "name": "40-super-hot-hero.webp",
+      "alt": "Абстрактен фон с плодови символи, седмица и звезда, вдъхновен от класическа ротативка като 40 Super Hot",
+      "sha256": "2ee7332bb03d0ba7638df5bdf01b481c9002c5baf99b2dba53815777b4d9c35d",
+      "review": {
+        "score": 82,
+        "integrity_ok": true,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/40-super-hot/images/40-super-hot-rtp.svg",
+      "name": "40-super-hot-rtp.svg",
+      "alt": "40 Super Hot RTP 95.81% и домашно предимство 4.19%: при €1000 оборот средно €958 се връщат на играча, €42 остават за казиното",
+      "sha256": "12d96933771e7291c8f1201b91c2bfad7897fbae7ad81346a32f8290bdaf9a6d",
+      "review": {
+        "score": 82,
+        "integrity_ok": true,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "57336ce790bbbd25745c62d90830c663ac2e1071d641dce3a25e49f94857b32e",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

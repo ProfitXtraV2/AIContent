@@ -1,0 +1,43 @@
+# Caddy in front of Postiz (tech spec, Third-party services 2 and 3; boundary 7).
+# Reached only by cloudflared, over the internal network px-edge. TLS ends at Cloudflare; the
+# hop from cloudflared to Caddy never leaves the guest. PX_DOMAIN comes from the compose file.
+{
+	auto_https off
+	servers {
+		# client addresses are believed only from the cloudflared container, from Cf-Connecting-IP,
+		# so Authelia's sign-in limits count real clients
+		trusted_proxies static 172.30.0.10/32
+		client_ip_headers Cf-Connecting-IP
+	}
+}
+
+http://social.{$PX_DOMAIN} {
+	# Meta fetches Instagram media from here, so /uploads/* is the only public path
+	@uploads path /uploads/*
+	handle @uploads {
+		reverse_proxy postiz:5000
+	}
+	# the public API is for the check and the control loop on 127.0.0.1 only, never the tunnel
+	@public_api path /api/public/*
+	handle @public_api {
+		respond 403
+	}
+	# every Postiz page and every /api/* call, Postiz's own sign-in page included, needs
+	# Authelia's two-step sign-in first
+	handle {
+		forward_auth authelia:9091 {
+			uri /api/authz/forward-auth
+			copy_headers Remote-User Remote-Groups Remote-Email Remote-Name
+		}
+		reverse_proxy postiz:5000
+	}
+}
+
+http://auth.{$PX_DOMAIN} {
+	reverse_proxy authelia:9091
+}
+
+# any other name that reaches Caddy
+:80 {
+	respond 404
+}

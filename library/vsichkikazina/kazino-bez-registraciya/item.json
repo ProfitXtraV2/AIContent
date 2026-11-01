@@ -1,0 +1,49 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0039",
+  "slug": "kazino-bez-registraciya",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-11-kazino-bez-registraciya",
+  "pr": "#55",
+  "title": "Казино без регистрация: какво реално значи в България",
+  "meta_description": "„Казино без регистрация\" звучи удобно, но при легалните казина в България регистрацията и верификацията са задължителни по закон. Кое е реалната игра без акаунт, какво е Pay N Play и кои обещания издават нелицензиран сайт.",
+  "keywords": [
+    "казино без регистрация",
+    "казино игри без регистрация",
+    "pay n play",
+    "демо режим"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/kazino-bez-registraciya/images/kazino-bez-registraciya-hero.webp",
+      "name": "kazino-bez-registraciya-hero.webp",
+      "alt": "Стилизирана врата с пропуск под формата на банкова карта, символ на проверката на самоличност преди достъп до онлайн казино",
+      "sha256": "3fe20e4de692246e18bc8348f559ff4c1fb12669f38b7960a8b6a77fa8a0f746",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/kazino-bez-registraciya/images/tri-nachina-igra-bez-registraciya.svg",
+      "name": "tri-nachina-igra-bez-registraciya.svg",
+      "alt": "Сравнение на три начина да играеш: демо без регистрация (без реални печалби), лицензирано казино с регистрация и защита от НАП, и нелицензиран сайт „без регистрация\" без защита и правен изход",
+      "sha256": "1ced1d57ace2166ce1a14ffb791d264580b6062f2110703a8acf37ee93ece715",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "c4fe15f669617b10c2c73d6d6c9f9cd13462ebd3af3e16526736e8a058741ab5",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

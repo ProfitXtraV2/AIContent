@@ -1,0 +1,60 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0041",
+  "slug": "megaways-kak-rabotyat",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-09-11-megaways-kak-rabotyat",
+  "pr": "#57",
+  "title": "Megaways: как работят и защо броят на начините се променя",
+  "meta_description": "Megaways дават до 117,649 начина за печалба, защото всеки от шестте барабана показва между 2 и 7 символа при всяко завъртане. Как се брои числото и защо повече начини не значи по-добри шансове.",
+  "keywords": [
+    "megaways",
+    "мегауейс",
+    "megaways как работят",
+    "начини за печалба"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/megaways-kak-rabotyat/images/megaways-kak-rabotyat-hero.webp",
+      "name": "megaways-kak-rabotyat-hero.webp",
+      "alt": "Абстрактни шест барабана с различна височина и разклоняващи се линии между символите, символ на променливия брой начини за печалба",
+      "sha256": "7458a97cba1418ed0a8074bbe8cc5168f45d49d38d86d0cf1f0834b770d142f6",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/megaways-kak-rabotyat/images/megaways-broiane-nachini.svg",
+      "name": "megaways-broiane-nachini.svg",
+      "alt": "Как се броят начините в Megaways: умножаване на символите по шестте барабана — максимум 7×7×7×7×7×7 = 117,649, примерен спин 5×4×6×3×7×2 = 5,040 и минимум 2×2×2×2×2×2 = 64",
+      "sha256": "295d45d221132186e3230f9d5714d2660684dd0cf8607e59c80984a0035354b7",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/megaways-kak-rabotyat/images/megaways-nakratko.svg",
+      "name": "megaways-nakratko.svg",
+      "alt": "Megaways накратко: 6 барабана по 2 до 7 символа, начини от 64 до 117,649, броят се мени всяко завъртане, често с каскади, обикновено висока волатилност",
+      "sha256": "a29fb177d69a64d263a5750a352ceb375cb74617c7ef1981fc44a35c2d1c35b0",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "49537de1a304fadda321c4e762b17aee02db5848e222a7c852ac87753b10b730",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

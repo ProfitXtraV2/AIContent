@@ -1,0 +1,40 @@
+{
+  "order": 3,
+  "label": {
+    "bg": "Спорт / футбол",
+    "en": "Sport / football"
+  },
+  "about": "A sports news and analysis site with no betting: no age mark, no compliance line.",
+  "mark_18": false,
+  "compliance_required": false,
+  "palette": {
+    "green": "#1F4E9C",
+    "gold": "#F2A900",
+    "ink": "#11161F",
+    "paper": "#F3F6FB"
+  },
+  "settings": {
+    "bg": {
+      "compliance_long": "",
+      "compliance_short": "",
+      "voice_notes": "Живо, но точно, като спортен журналист; учтиво „вие“; без клюки и без тирета (—).",
+      "eligible_types": "guide, comparison, review, news",
+      "offer_words": "",
+      "register_words": ""
+    },
+    "en": {
+      "compliance_long": "",
+      "compliance_short": "",
+      "voice_notes": "Lively but exact, like a sports journalist; no gossip; no em-dashes (—).",
+      "eligible_types": "guide, comparison, review, news",
+      "offer_words": "",
+      "register_words": ""
+    }
+  },
+  "writing_rules": [
+    "Match facts (scores, dates, players, transfers, records) only as the source states them; never a rumour as a fact.",
+    "No betting: no odds, tips, bookmakers or calls to bet."
+  ],
+  "art_rules": "NO club crests, kits, sponsor logos or real players' faces; use generic balls, pitches, boots, goals and trophies.",
+  "review_rules": "Any club crest, sponsor logo, real player likeness or betting element is a failure."
+}

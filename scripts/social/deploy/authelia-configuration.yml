@@ -1,0 +1,55 @@
+# Authelia for the publishing tool (tech spec, Third-party services 2; I5). A template: replace
+# example.org with the dedicated domain. Secrets are never in this file: the compose override
+# passes them as files (AUTHELIA_*_FILE). Users: /config/users.yml, Nikolay and the setup person.
+theme: auto
+
+server:
+  address: tcp://0.0.0.0:9091
+
+log:
+  level: info
+
+totp:
+  issuer: social.example.org
+  period: 30
+
+webauthn:
+  disable: false
+  display_name: ProfitXtra social
+
+authentication_backend:
+  password_reset:
+    disable: true
+  file:
+    path: /config/users.yml
+    password:
+      algorithm: argon2
+
+# deny by default; the tool needs two steps (TOTP or WebAuthn), always
+access_control:
+  default_policy: deny
+  rules:
+    - domain: social.example.org
+      policy: two_factor
+
+session:
+  cookies:
+    - domain: example.org
+      authelia_url: https://auth.example.org
+      default_redirection_url: https://social.example.org
+      expiration: 8h
+      inactivity: 1h
+
+regulation:
+  max_retries: 5
+  find_time: 10m
+  ban_time: 1h
+
+storage:
+  local:
+    path: /data/db.sqlite3
+
+# two users need no mail server: device registration codes land in this file in the guest
+notifier:
+  filesystem:
+    filename: /data/notification.txt

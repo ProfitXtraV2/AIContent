@@ -1,0 +1,49 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0134",
+  "slug": "bell-link",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-20-bell-link",
+  "pr": "#151",
+  "title": "Bell Link (EGT Digital): как работи джакпот системата",
+  "meta_description": "Bell Link на EGT Digital: hold-and-win с 4 нива (Mini, Minor, Major, Grand). Бонусът тръгва с 5+ звънеца; кои нива растат и кои са фиксирани.",
+  "keywords": [
+    "bell link",
+    "бел линк",
+    "egt bell link",
+    "bell link джакпот"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/bell-link/images/bell-link-hero.webp",
+      "name": "bell-link-hero.webp",
+      "alt": "Абстрактна илюстрация със златни звънци на решетка от барабани в приглушени тонове, символ на hold-and-win джакпот системата Bell Link",
+      "sha256": "2fc1babb148efc91bc1ffde0c468ccb56fd7173e9b65ae9fb1effffca59c7daa",
+      "review": {
+        "score": 85,
+        "integrity_ok": null,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/bell-link/images/bell-link-levels.svg",
+      "name": "bell-link-levels.svg",
+      "alt": "Bell Link: четири нива на джакпота: Mini и Minor са фиксирани множители на залога, Major и Grand са прогресивни и се пълнят от мрежата; бонусът тръгва с 5 или повече звънеца",
+      "sha256": "0f3c73de47d75455438c73358073d0d80e1a3b25ee4a983a104957558d7dbf1e",
+      "review": {
+        "score": 85,
+        "integrity_ok": null,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "9e3242fd76f86e89fec4fd718a280315d1d93364263ea5ea979bdb7c35401cc7",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

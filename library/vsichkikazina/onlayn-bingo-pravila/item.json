@@ -1,0 +1,52 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0262",
+  "slug": "onlayn-bingo-pravila",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-10-09-onlayn-bingo-pravila",
+  "pr": "#282",
+  "title": "Онлайн бинго: правила, видове и реалните шансове",
+  "meta_description": "Как се играе онлайн бинго: правилата, разликата между 90 и 75 топки и откъде идва наградата. Защо една карта плаща различно според броя играчи в залата.",
+  "keywords": [
+    "онлайн бинго",
+    "как се играе бинго",
+    "бинго правила",
+    "бинго игра",
+    "видове бинго",
+    "90 топки",
+    "75 топки"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/onlayn-bingo-pravila/images/onlayn-bingo-nagraden-fond-hero.webp",
+      "name": "onlayn-bingo-nagraden-fond-hero.webp",
+      "alt": "Абстрактна илюстрация на онлайн бинго: общ награден фонд от жетони в центъра на кръгла маса се разпределя със стрелки към местата на играчите, като един дял остава настрани — символ на дела, който залата задържа",
+      "sha256": "74a3751ee1d799a8db52664b0b8a6de3d89aca884499bfd604e4ff483de7960c",
+      "review": {
+        "score": 100,
+        "integrity_ok": true,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/onlayn-bingo-pravila/images/bingo-nagraden-fond-dyal-na-zalata.svg",
+      "name": "bingo-nagraden-fond-dyal-na-zalata.svg",
+      "alt": "Как се формира наградният фонд в онлайн бинго: при 100 карти по €1 залата задържа 20% и остават €80 за наградния фонд; при 20 карти фондът е €16; шансът за награда е приблизително твоят дял от картите — 10 от 100 прави 1 на 10",
+      "sha256": "cf47f3d5efe8d3fbaee4c462ab77c386fa9779cd20640c1c6eb1d49b9ef8da15",
+      "review": {
+        "score": 100,
+        "integrity_ok": true,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "ba81462480a584b162d8cf9fd4a525214edfcca66fa4ef68dd663e81126c1c22",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

@@ -1,0 +1,39 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0265",
+  "slug": "zakon-za-hazarta",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-10-10-zakon-za-hazarta",
+  "pr": "#285",
+  "title": "Закон за хазарта: промени 2025–2026 | Всички Казина",
+  "meta_description": "Законът за хазарта на разбираем език: лиценз от НАП, глоба за игра в нелицензиран сайт, реклама, евро и промените от 01.08.2026.",
+  "keywords": [
+    "закон за хазарта",
+    "закон за хазарта 2025",
+    "закон за хазарта 2026",
+    "закон за хазарта промени",
+    "забрана за реклама на хазарт"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/zakon-za-hazarta/images/zakon-za-hazarta-promeni-2025-2026-infografika.svg",
+      "name": "zakon-za-hazarta-promeni-2025-2026-infografika.svg",
+      "alt": "Инфографика: времева линия на промените в Закона за хазарта - 01.01.2025 служебно вписване на рисковите групи, 27.03.2025 заличаване от регистъра не по-рано от 12 месеца, 17.06.2025 по-строги изисквания към лицензиантите, 01.01.2026 залози и печалби само в евро, 01.08.2026 лиценз за афилиейти и блокиране на нелицензирани сайтове до 24 часа, и проектът за пълна забрана на рекламата в консултация от 23.09.2026 до 23.10.2026",
+      "sha256": "f0fb22332196efc58274a146d3523adf66848ee13ed1dbfb7006e9e79f465c71",
+      "review": {
+        "score": 100,
+        "integrity_ok": null,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "2e67de556a8b395aa8d8b1461f5d84d9f9701c277aefe75fa45971cad82ebf5d",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

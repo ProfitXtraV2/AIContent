@@ -1,0 +1,84 @@
+# Overrides for the official postiz-docker-compose (tech spec, Host and guest deployment,
+# steps 2–4). Images are pinned by digest: replace each <digest> after reading the release notes,
+# and change them only that way (step 8). Needs Docker Compose 2.24+ for `!override`.
+#
+# /opt/postiz/.env (mode 600):  PX_DOMAIN=example.org   POSTIZ_DISABLE_REGISTRATION=false
+#   then true after Nikolay's first sign-up; the setup person is invited from Nikolay's account.
+services:
+  postiz:
+    image: ghcr.io/gitroomhq/postiz-app@sha256:<digest>
+    restart: unless-stopped
+    # only the check and the control loop, on the guest itself; nothing on the LAN
+    ports: !override
+      - "127.0.0.1:5000:5000"
+    environment:
+      MAIN_URL: "https://social.${PX_DOMAIN}"
+      FRONTEND_URL: "https://social.${PX_DOMAIN}"
+      NEXT_PUBLIC_BACKEND_URL: "https://social.${PX_DOMAIN}/api"
+      BACKEND_INTERNAL_URL: "http://localhost:3000"
+      API_LIMIT: "600"
+      DISABLE_REGISTRATION: "${POSTIZ_DISABLE_REGISTRATION:-false}"
+      STORAGE_PROVIDER: "local"
+      UPLOAD_DIRECTORY: "/uploads"
+      NEXT_PUBLIC_UPLOAD_DIRECTORY: "/uploads"
+    volumes:
+      - /var/lib/postiz/uploads:/uploads
+    networks:
+      - postiz-network
+      - px-edge
+
+  caddy:
+    image: caddy@sha256:<digest>
+    restart: unless-stopped
+    environment:
+      PX_DOMAIN: "${PX_DOMAIN}"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+    networks:
+      px-edge:
+        ipv4_address: 172.30.0.20
+
+  authelia:
+    image: authelia/authelia@sha256:<digest>
+    restart: unless-stopped
+    environment:
+      AUTHELIA_SESSION_SECRET_FILE: /run/secrets/authelia_session
+      AUTHELIA_STORAGE_ENCRYPTION_KEY_FILE: /run/secrets/authelia_storage
+      AUTHELIA_IDENTITY_VALIDATION_RESET_PASSWORD_JWT_SECRET_FILE: /run/secrets/authelia_jwt
+    secrets:
+      - authelia_session
+      - authelia_storage
+      - authelia_jwt
+    volumes:
+      - ./authelia:/config:ro
+      - authelia-data:/data
+    networks:
+      px-edge:
+        ipv4_address: 172.30.0.30
+
+  cloudflared:
+    image: cloudflare/cloudflared@sha256:<digest>
+    restart: unless-stopped
+    command: tunnel --no-autoupdate --config /etc/cloudflared/config.yml run
+    volumes:
+      - /etc/px-social/cloudflared:/etc/cloudflared:ro
+    networks:
+      px-edge:
+        ipv4_address: 172.30.0.10
+
+networks:
+  px-edge:
+    ipam:
+      config:
+        - subnet: 172.30.0.0/24
+
+secrets:
+  authelia_session:
+    file: /etc/px-social/authelia/session_secret
+  authelia_storage:
+    file: /etc/px-social/authelia/storage_encryption_key
+  authelia_jwt:
+    file: /etc/px-social/authelia/jwt_secret
+
+volumes:
+  authelia-data:

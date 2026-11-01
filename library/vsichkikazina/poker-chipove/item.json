@@ -1,0 +1,49 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0285",
+  "slug": "poker-chipove",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-10-19-poker-chipove",
+  "pr": "#307",
+  "title": "Покер чипове: цветове, стойности и броене",
+  "meta_description": "Покер чипове: защо няма единен стандарт за цветовете, кои стойности са типични (примерни), разликата кеш срещу турнир и как се редят на купчини.",
+  "keywords": [
+    "покер чипове",
+    "чипове за покер",
+    "цветове на покер чипове",
+    "стойности на чипове"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/poker-chipove/images/poker-chipove-hero.webp",
+      "name": "poker-chipove-hero.webp",
+      "alt": "Абстрактен мотив на покер маса: разноцветни купчини чипове и две карти с лице надолу върху зелено сукно, без лица и лого",
+      "sha256": "9974d2d992a30596b05194eb7896eb335290a4b783c1329848759d7758c04023",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/poker-chipove/images/poker-chipove-cvetove-stoinosti.svg",
+      "name": "poker-chipove-cvetove-stoinosti.svg",
+      "alt": "Примерна схема на цветовете и стойностите на покер чиповете и разликата между кеш и турнирни чипове",
+      "sha256": "bef04c3c8981b369003a9e9e04ad42e733871db4258089784bf8e39d375a7fe2",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "5f3edb7b2283fa86840f8ad08956fc1145f22a5f7954e5e47fbba134c70b002c",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

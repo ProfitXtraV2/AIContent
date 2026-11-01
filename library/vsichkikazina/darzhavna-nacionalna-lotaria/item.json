@@ -1,0 +1,50 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0271",
+  "slug": "darzhavna-nacionalna-lotaria",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-10-10-darzhavna-nacionalna-lotaria",
+  "pr": "#291",
+  "title": "Държавна лотария и Национална лотария: коя е законна",
+  "meta_description": "Държавната лотария днес е само БСТ. Какво стана с Национална лотария и „6 от 47“, как да проверите лиценза в НАП и как да разпознаете SMS измама.",
+  "keywords": [
+    "държавна лотария",
+    "националната лотария",
+    "национална лотария 6 от 47",
+    "държавна лотария билети",
+    "национална лотария измама"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/darzhavna-nacionalna-lotaria/images/zakonna-lotaria-proverka-izmama.svg",
+      "name": "zakonna-lotaria-proverka-izmama.svg",
+      "alt": "Инфографика: пет проверки дали една лотария е законна - организаторът е БСТ, списъците на НАП на nra.bg, „Национална лотария“ няма право да продава лотарийни игри от 2020 г., искане на такса за печалба е белег на измама, сигнал на illegal_gambling@nra.bg; игра при нелицензиран организатор носи глоба от 500 до 2000 лв.",
+      "sha256": "d5e64f452d92b13898a4a6286b98bc039f6d9c4ca733ada22b8a42af04853715",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/darzhavna-nacionalna-lotaria/images/shans-6-ot-47-6-ot-49-6-ot-42-kombinacii.svg",
+      "name": "shans-6-ot-47-6-ot-49-6-ot-42-kombinacii.svg",
+      "alt": "Инфографика: брой комбинации при 6 от 42 (5 245 786), 6 от 47 (10 737 573) и 6 от 49 (13 983 816), показани като пропорционални ленти",
+      "sha256": "40feac13359c2cc78d5b3d3fb27d9066c051abc89b0f9a8a847bac7747ea1927",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "a51d64bae0186bd7110e7d866662ccccd79a875f8a398da70e825aae2cb1d4f7",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

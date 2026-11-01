@@ -1,0 +1,49 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0133",
+  "slug": "plinko",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-20-plinko",
+  "pr": "#150",
+  "title": "Plinko: как работи, RTP и нивата на риск",
+  "meta_description": "Plinko на BGaming, Spribe и Stake: топче пада по дъска с щифтове до множител. RTP 97–99%, нивото на риск сменя волатилността, не шанса. Как се четат числата.",
+  "keywords": [
+    "plinko",
+    "плинко",
+    "plinko rtp",
+    "plinko нива на риск"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/plinko/images/plinko-hero.webp",
+      "name": "plinko-hero.webp",
+      "alt": "Абстрактна триъгълна дъска с щифтове и падащо топче в приглушени цветове, илюстрация на механиката на Plinko",
+      "sha256": "ac55833e1f196bae70e0b2c7b02161ae4ac38f7f7e2d71966e8a4bc06cc00800",
+      "review": {
+        "score": 100,
+        "integrity_ok": null,
+        "source": "08-image-review-2.md"
+      }
+    },
+    {
+      "path": "published/plinko/images/plinko-rtp.svg",
+      "name": "plinko-rtp.svg",
+      "alt": "Plinko RTP по студио: BGaming и Stake 99%, Spribe 97%; домашно предимство 1% срещу 3%; при 1000 евро оборот средно се връщат около 990 евро или 970 евро",
+      "sha256": "507b1c88833413857fc1120d1889a43edf7314038b5be925dfe7b9039ef90e3c",
+      "review": {
+        "score": 100,
+        "integrity_ok": null,
+        "source": "08-image-review-2.md"
+      }
+    }
+  ],
+  "article_version": "72e2eb0309736e631cb632ec557a11de4881972bec83c3c5ee3f3f8ed6e6f7ab",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

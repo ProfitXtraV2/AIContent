@@ -1,0 +1,48 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0021",
+  "slug": "amusnet-egt-provajdar",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-09-amusnet-egt-provajdar",
+  "pr": "#27",
+  "title": "Amusnet (EGT): профил на доставчика, механики и топ слотове",
+  "meta_description": "Кой е Amusnet (бившият EGT Interactive), какви игри прави и кои са топ слотовете му. Защо RTP на класиките е под средното, защо сертификатът не е предимство и как да го проверите.",
+  "keywords": [
+    "amusnet",
+    "egt слотове",
+    "ротативки egt"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/amusnet-egt-provajdar/images/amusnet-egt-hero.webp",
+      "name": "amusnet-egt-hero.webp",
+      "alt": "Абстрактен фон с плодови символи, седмица и звезда, вдъхновен от класическите ротативки на доставчик като Amusnet",
+      "sha256": "14d6efdee8b87ce992fc5f7315df71dabc8adacd06cf080e83b5081f47b658c2",
+      "review": {
+        "score": 82,
+        "integrity_ok": true,
+        "source": "08-image-review-2.md"
+      }
+    },
+    {
+      "path": "published/amusnet-egt-provajdar/images/amusnet-egt-rtp.svg",
+      "name": "amusnet-egt-rtp.svg",
+      "alt": "Обявени RTP на класически заглавия на Amusnet: Shining Crown 96.37%, 40 Super Hot 95.81%, 20 Super Hot 95.79%, Flaming Hot 95.53%, спрямо средното за модерните слотове около 96%",
+      "sha256": "8cf0dd4c71ee57d10350dcacbb01364c8b0aa81df750f99d3ad302dcfeee8cca",
+      "review": {
+        "score": 100,
+        "integrity_ok": true,
+        "source": "08-image-review-2.md"
+      }
+    }
+  ],
+  "article_version": "aebdea8506e88f79e6530a0e30a28d34e866fb938402cf0f4adbca5f96a1b3c1",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

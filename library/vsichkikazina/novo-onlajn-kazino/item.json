@@ -1,0 +1,48 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0005",
+  "slug": "novo-onlajn-kazino",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-07-novo-onlajn-kazino",
+  "pr": "#6",
+  "title": "Ново онлайн казино: как да оцените новооткрит оператор",
+  "meta_description": "Ново казино носи същите въпроси без готовите отговори. Рамка за оценка: лиценз от НАП, условия, RTP, тегления и прозрачност, преди да депозирате.",
+  "keywords": [
+    "ново онлайн казино",
+    "оценка на оператор",
+    "лиценз от НАП"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/novo-onlajn-kazino/images/novo-kazino-ocenka-hero.webp",
+      "name": "novo-kazino-ocenka-hero.webp",
+      "alt": "Лупа, насочена към нов лъскав щит — метафора за внимателната проверка на новооткрит оператор",
+      "sha256": "976790c79f97375f6fdc507f0a4c74594e3d9273cb8a34672580ca25738da775",
+      "review": {
+        "score": 100,
+        "integrity_ok": true,
+        "source": "08-image-review-2.md"
+      }
+    },
+    {
+      "path": "published/novo-onlajn-kazino/images/novo-kazino-bonus-wagering.svg",
+      "name": "novo-kazino-bonus-wagering.svg",
+      "alt": "Инфографика: скрита цена на стартовия бонус — депозит €200 + бонус 150% (€300) = €500 база × 35 = €17 500 изискван оборот за 14 дни; контролен списък с шест ключови проверки при ново казино",
+      "sha256": "5c66229600c894ac59504fcebefee59781e2c7e55688ef8a609e483de5304204",
+      "review": {
+        "score": 100,
+        "integrity_ok": true,
+        "source": "08-image-review-2.md"
+      }
+    }
+  ],
+  "article_version": "d2e94b317d5619fa845d3211da604876fe2981218921ad5a4ad4675eec25878a",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}
