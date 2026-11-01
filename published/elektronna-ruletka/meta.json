@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "slug": "elektronna-ruletka",
+  "title": "Електронна рулетка: как работи (RNG и автоматни рулетки)",
+  "meta_description": "",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-10-14",
+  "date_modified": "2026-10-14",
+  "keywords": [
+    "електронна рулетка",
+    "казино рулетка игра",
+    "автоматична рулетка",
+    "рулетка RNG"
+  ],
+  "images": [
+    {
+      "path": "images/elektronna-ruletka-rng-hero.webp",
+      "alt": "Стилизирано рулетъчно колело, свързано чрез електронна платка с микрочип — електронна (RNG) рулетка, при която зеленото поле тихо държи предимството на казиното."
+    },
+    {
+      "path": "images/domashno-predimstvo-po-vid-ruletka.svg",
+      "alt": "Сравнение на домашното предимство по вид рулетка: американска 5,26% (RTP 94,74%), европейска 2,70% (RTP 97,30%) и френска с „la partage\" около 1,35% върху равните залози."
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": 48,
+  "status": "approved",
+  "content_hash": "205a5e9cd4e52433817100da5cf5e60a4bb620cc0de7a7b60f3e0006a8020c6e"
+}

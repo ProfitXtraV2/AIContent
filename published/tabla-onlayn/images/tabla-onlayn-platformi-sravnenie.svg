@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 584" font-family="'Segoe UI',Arial,sans-serif" role="img" aria-label="Сравнение на платформите за табла онлайн: VIP Games, VIP Backgammon, Backgammon Tabla online и Джаги — режими, варианти, цена и възрастов рейтинг; плюс Belot.BG и Poki">
+  <rect x="0" y="0" width="820" height="584" rx="16" fill="#0f1b2d"/>
+  <text x="32" y="46" fill="#ffffff" font-size="22" font-weight="700">Табла онлайн: къде се играе</text>
+  <text x="32" y="74" fill="#8fb4d9" font-size="14">Безплатни, социални платформи. Чиповете са виртуални, не са реални пари.</text>
+
+  <!-- Card 1: VIP Games -->
+  <g>
+    <rect x="24" y="96" width="184" height="360" rx="12" fill="#17273d" stroke="#2a3d57" stroke-width="1"/>
+    <text x="40" y="128" fill="#ffffff" font-size="15" font-weight="700">VIP Games</text>
+    <text x="40" y="147" fill="#6f8db0" font-size="11">платформа на Casualino</text>
+
+    <text x="40" y="180" fill="#5fd0a0" font-size="11" font-weight="700">РЕЖИМ</text>
+    <text x="40" y="200" fill="#dce8f4" font-size="12">Онлайн, срещу реални</text>
+    <text x="40" y="217" fill="#dce8f4" font-size="12">хора и с приятели</text>
+
+    <text x="40" y="250" fill="#5fd0a0" font-size="11" font-weight="700">ДАННИ</text>
+    <text x="40" y="270" fill="#dce8f4" font-size="12">играчи дневно:</text>
+    <text x="40" y="289" fill="#ffd36b" font-size="14" font-weight="700">над 20 000</text>
+
+    <text x="40" y="322" fill="#5fd0a0" font-size="11" font-weight="700">ТАБЛА</text>
+    <text x="40" y="342" fill="#dce8f4" font-size="12">в раздела Board</text>
+    <text x="40" y="359" fill="#dce8f4" font-size="12">Games; и игра сам</text>
+  </g>
+
+  <!-- Card 2: VIP Backgammon -->
+  <g>
+    <rect x="216" y="96" width="184" height="360" rx="12" fill="#17273d" stroke="#2a3d57" stroke-width="1"/>
+    <text x="232" y="128" fill="#ffffff" font-size="15" font-weight="700">VIP Backgammon</text>
+    <text x="232" y="147" fill="#6f8db0" font-size="11">CASUALINO AD · iOS</text>
+
+    <text x="232" y="180" fill="#5fd0a0" font-size="11" font-weight="700">РЕЖИМ</text>
+    <text x="232" y="200" fill="#dce8f4" font-size="12">Офлайн срещу ботове</text>
+    <text x="232" y="217" fill="#dce8f4" font-size="12">(хора през VIP Games)</text>
+
+    <text x="232" y="250" fill="#5fd0a0" font-size="11" font-weight="700">ВАРИАНТИ (3)</text>
+    <text x="232" y="270" fill="#dce8f4" font-size="12">табла, тапа,</text>
+    <text x="232" y="287" fill="#dce8f4" font-size="12">backgammon с куб</text>
+
+    <text x="232" y="320" fill="#5fd0a0" font-size="11" font-weight="700">ЦЕНА / ВЪЗРАСТ</text>
+    <text x="232" y="340" fill="#dce8f4" font-size="12">покупки</text>
+    <text x="232" y="359" fill="#ffd36b" font-size="13" font-weight="700">€0,99–€19,99</text>
+    <text x="232" y="382" fill="#ffd36b" font-size="13" font-weight="700">18+ Simulated</text>
+    <text x="232" y="401" fill="#ffd36b" font-size="13" font-weight="700">Gambling</text>
+  </g>
+
+  <!-- Card 3: Backgammon Tabla online -->
+  <g>
+    <rect x="408" y="96" width="184" height="360" rx="12" fill="#17273d" stroke="#2a3d57" stroke-width="1"/>
+    <text x="424" y="128" fill="#ffffff" font-size="14" font-weight="700">Backgammon</text>
+    <text x="424" y="145" fill="#ffffff" font-size="14" font-weight="700">Tabla online</text>
+    <text x="424" y="163" fill="#6f8db0" font-size="11">LAN-Games EOOD</text>
+
+    <text x="424" y="194" fill="#5fd0a0" font-size="11" font-weight="700">РЕЖИМ</text>
+    <text x="424" y="214" fill="#dce8f4" font-size="12">Онлайн,</text>
+    <text x="424" y="231" fill="#dce8f4" font-size="12">многопотребителска</text>
+
+    <text x="424" y="262" fill="#5fd0a0" font-size="11" font-weight="700">ВАРИАНТИ (4)</text>
+    <text x="424" y="282" fill="#dce8f4" font-size="12">Regular, Tapa,</text>
+    <text x="424" y="299" fill="#dce8f4" font-size="12">Gulbara, Chelibi</text>
+
+    <text x="424" y="330" fill="#5fd0a0" font-size="11" font-weight="700">ЦЕНА / ВЪЗРАСТ</text>
+    <text x="424" y="350" fill="#ffd36b" font-size="13" font-weight="700">безплатно</text>
+    <text x="424" y="372" fill="#ffd36b" font-size="13" font-weight="700">4+</text>
+  </g>
+
+  <!-- Card 4: Джаги -->
+  <g>
+    <rect x="600" y="96" width="184" height="360" rx="12" fill="#17273d" stroke="#2a3d57" stroke-width="1"/>
+    <text x="616" y="128" fill="#ffffff" font-size="15" font-weight="700">Джаги</text>
+    <text x="616" y="147" fill="#6f8db0" font-size="11">BIG MAGE EOOD</text>
+
+    <text x="616" y="180" fill="#5fd0a0" font-size="11" font-weight="700">РЕЖИМ</text>
+    <text x="616" y="200" fill="#dce8f4" font-size="12">Срещу реални хора</text>
+    <text x="616" y="217" fill="#dce8f4" font-size="12">и с приятели</text>
+
+    <text x="616" y="250" fill="#5fd0a0" font-size="11" font-weight="700">ДАННИ</text>
+    <text x="616" y="270" fill="#ffd36b" font-size="14" font-weight="700">над 20 игри</text>
+
+    <text x="616" y="303" fill="#5fd0a0" font-size="11" font-weight="700">ЦЕНА / ВЪЗРАСТ</text>
+    <text x="616" y="323" fill="#dce8f4" font-size="12">покупки</text>
+    <text x="616" y="342" fill="#ffd36b" font-size="13" font-weight="700">$3,99–$149,99</text>
+    <text x="616" y="365" fill="#ffd36b" font-size="13" font-weight="700">16+</text>
+  </g>
+
+  <!-- Footer strip: Belot.BG + Poki -->
+  <g>
+    <rect x="24" y="472" width="760" height="88" rx="12" fill="#13223a" stroke="#2a3d57" stroke-width="1"/>
+    <text x="40" y="500" fill="#5fd0a0" font-size="11" font-weight="700">И ОЩЕ</text>
+    <text x="40" y="524" fill="#dce8f4" font-size="12.5"><tspan fill="#ffffff" font-weight="700">Belot.BG</tspan> (Casualino): хоства и табла, дневен бонус <tspan fill="#ffd36b" font-weight="700">5 000 чипа</tspan>, <tspan fill="#ffd36b" font-weight="700">13+</tspan></text>
+    <text x="40" y="546" fill="#dce8f4" font-size="12.5"><tspan fill="#ffffff" font-weight="700">Poki</tspan>: табла в браузъра, без регистрация</text>
+  </g>
+</svg>

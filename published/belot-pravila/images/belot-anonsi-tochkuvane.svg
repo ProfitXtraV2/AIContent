@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 548" font-family="'Segoe UI',Roboto,Arial,sans-serif" role="img" aria-label="Анонси и точкуване в белот: точки на терца, петдесет, сто, каре и белот, и сборовете за партията">
+  <rect x="12" y="12" width="696" height="524" rx="16" fill="#f6f8fc" stroke="#cfd8e8" stroke-width="2"/>
+  <text x="360" y="50" text-anchor="middle" font-size="25" font-weight="700" fill="#15223b">Анонси и точкуване в белот</text>
+
+  <!-- section 1: анонси -->
+  <text x="40" y="92" text-anchor="start" font-size="16" font-weight="700" fill="#1f3a63">АНОНСИ (КОМБИНАЦИИ)</text>
+  <g font-size="17" fill="#1a2740">
+    <rect x="32" y="104" width="656" height="32" fill="#eef2f9"/>
+    <text x="52" y="126" text-anchor="start">Терца — 3 поредни от една боя</text>
+    <text x="668" y="126" text-anchor="end" font-weight="700" fill="#1f3a63">20</text>
+
+    <text x="52" y="162" text-anchor="start">Петдесет (кварта) — 4 поредни</text>
+    <text x="668" y="162" text-anchor="end" font-weight="700" fill="#1f3a63">50</text>
+
+    <rect x="32" y="174" width="656" height="32" fill="#eef2f9"/>
+    <text x="52" y="196" text-anchor="start">Сто (квинта) — 5 поредни</text>
+    <text x="668" y="196" text-anchor="end" font-weight="700" fill="#1f3a63">100</text>
+
+    <text x="52" y="232" text-anchor="start">Каре: аса, десетки, попове или дами</text>
+    <text x="668" y="232" text-anchor="end" font-weight="700" fill="#1f3a63">100</text>
+
+    <rect x="32" y="244" width="656" height="32" fill="#eef2f9"/>
+    <text x="52" y="266" text-anchor="start">Каре девятки</text>
+    <text x="668" y="266" text-anchor="end" font-weight="700" fill="#1f3a63">150</text>
+
+    <text x="52" y="302" text-anchor="start">Каре валета (бие всяко друго каре)</text>
+    <text x="668" y="302" text-anchor="end" font-weight="700" fill="#b8341f">200</text>
+
+    <rect x="32" y="314" width="656" height="32" fill="#eef2f9"/>
+    <text x="52" y="336" text-anchor="start">Белот — Поп и Дама от козовата боя</text>
+    <text x="668" y="336" text-anchor="end" font-weight="700" fill="#1f3a63">20</text>
+  </g>
+
+  <!-- section 2: точкуване -->
+  <text x="40" y="384" text-anchor="start" font-size="16" font-weight="700" fill="#1f3a63">ТОЧКУВАНЕ НА РЪКАТА</text>
+  <g font-size="17" fill="#1a2740">
+    <rect x="32" y="396" width="656" height="32" fill="#eef2f9"/>
+    <text x="52" y="418" text-anchor="start">Картите в ръката</text>
+    <text x="668" y="418" text-anchor="end" font-weight="700" fill="#1f3a63">152</text>
+
+    <text x="52" y="454" text-anchor="start">+ последна взятка 10  →  при игра с коз</text>
+    <text x="668" y="454" text-anchor="end" font-weight="700" fill="#1f3a63">162</text>
+
+    <rect x="32" y="466" width="656" height="32" fill="#eef2f9"/>
+    <text x="52" y="488" text-anchor="start">При „Без коз“ и „Всичко коз“ (удвоени)</text>
+    <text x="668" y="488" text-anchor="end" font-weight="700" fill="#1f3a63">262</text>
+  </g>
+
+  <text x="40" y="524" text-anchor="start" font-size="13.5" fill="#15223b" font-weight="600">Партията печели първият отбор до 151 точки.</text>
+  <text x="668" y="524" text-anchor="end" font-size="12.5" fill="#5a6b86">18+ Играйте отговорно.</text>
+</svg>

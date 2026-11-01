@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" role="img" aria-label="Паричната стълба на играта Стани богат: 15 въпроса с по 4 отговора A B C D; около въпрос 5 е първата гарантирана сума; между въпрос 6 и 14 се избира втората плаваща гарантирана сума; на въпрос 15 е горната награда 100 000 евро, а в класическия юбилеен формат 125 000 евро. Стъпалата са примерни за структурата.">
+  <rect x="1" y="1" width="758" height="468" rx="16" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="34" y="44" font-family="Georgia, 'Times New Roman', serif" font-size="23" font-weight="700" fill="#1f2937">Паричната стълба на „Стани богат“</text>
+  <text x="34" y="70" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#6b7280">15 въпроса с по 4 отговора (A, B, C, D) и две гарантирани суми по пътя</text>
+
+  <!-- milestone text block (left) -->
+  <text x="34" y="122" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#1f2937">Въпрос 1</text>
+  <text x="34" y="142" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#6b7280">Стартът на играта</text>
+
+  <text x="34" y="187" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#1f2937">Въпрос 5</text>
+  <text x="34" y="207" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#6b7280">1-ва гарантирана сума</text>
+
+  <text x="34" y="252" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#1f2937">Въпроси 6–14</text>
+  <text x="34" y="272" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#6b7280">2-ра (плаваща) гарантирана сума</text>
+
+  <text x="34" y="317" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#1f2937">Въпрос 15</text>
+  <text x="34" y="337" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#6b7280">Горна награда</text>
+
+  <!-- staircase (right), common baseline y=380 -->
+  <rect x="440" y="330" width="68" height="50" rx="3" fill="#a7c796"/>
+  <rect x="508" y="275" width="68" height="105" rx="3" fill="#7fab5e"/>
+  <rect x="576" y="210" width="68" height="170" rx="3" fill="#5b8c3e"/>
+  <rect x="644" y="120" width="80" height="260" rx="3" fill="#3f6b2a"/>
+  <line x1="440" y1="380" x2="724" y2="380" stroke="#e5e7eb" stroke-width="1.5"/>
+
+  <text x="474" y="361" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1f2937">1</text>
+  <text x="542" y="361" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#ffffff">5</text>
+  <text x="610" y="361" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#ffffff">6–14</text>
+  <text x="684" y="361" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#ffffff">15</text>
+  <text x="684" y="108" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1f2937">100 000 €</text>
+
+  <line x1="34" y1="408" x2="726" y2="408" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="34" y="430" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#9ca3af">Стъпалата са примерни за структурата на играта, не ценоразпис за конкретен сезон.</text>
+  <text x="34" y="450" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#9ca3af">Класическият юбилеен формат стига до 125 000 €. 18+ Играйте отговорно.</text>
+</svg>

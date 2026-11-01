@@ -1,9 +1,10 @@
 {
-  "last_monthly_review": "2026-10",
+  "last_monthly_review": "2026-11",
   "max_winnable_kd": 40,
   "trend": [
-    {"month": "2026-10", "dr": 6, "organic_keywords": 12, "traffic": 90, "note": "baseline; disavow uploaded (100% toxic profile); off-site authority kit pending"}
+    {"month": "2026-10", "dr": 6, "organic_keywords": 12, "traffic": 90, "note": "baseline; disavow uploaded (100% toxic profile); off-site authority kit pending"},
+    {"month": "2026-11", "dr": 5, "organic_keywords": 5, "traffic": 42, "note": "light pass (low units, ~11k workspace remaining, reset 11-15). DR 6->5, org kw 12->5, traffic 90->42 — off-site authority NOT yet lifting DR (declining); keep cap at 40. Pillar re-check: 0 graduated to a NEW write (без депозит kd 37<=40 now but folds into vk-0004 cluster; безплатни казино игри 9900/kd43 near-cap = watch). Competitor-gap (step4), discovery (step5), org-keywords perf (3b) + refdomains (step6) deferred to next full pass."}
   ],
   "tracking": [],
-  "note": "Oct 2026 review done manually 2026-10-04 (competitor-gap pull + backlog + KD-gate). First automated pass: Nov. Canonical source for the dashboard SEO tab + the monthly review marker."
+  "note": "Nov 2026 light pass (automated, 2026-11-01): units gated LIGHT (workspace remaining ~11k < 20k). Steps 2+3 done; 3b/4/5/6 deferred. Canonical source for the dashboard SEO tab + the monthly review marker."
 }

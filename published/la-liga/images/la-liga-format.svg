@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 600" role="img" aria-label="Инфографика: формат и рекорди по титли на Ла Лига към есента на 2026 г.">
+  <defs>
+    <style>
+      .bg{fill:#f6f4ef;}
+      .card{fill:#ffffff;stroke:#e2ddd3;stroke-width:1;}
+      .title{fill:#1b1b2a;font-family:'Segoe UI',Arial,sans-serif;font-size:25px;font-weight:700;}
+      .sub{fill:#6b6257;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+      .colh{fill:#e11d2a;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;}
+      .big{fill:#1b1b2a;font-family:'Segoe UI',Arial,sans-serif;font-size:26px;font-weight:800;}
+      .lbl{fill:#2a2a38;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;}
+      .foot{fill:#6b6257;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="820" height="600"/>
+  <rect class="card" x="8" y="8" width="804" height="584" rx="14"/>
+
+  <text class="title" x="410" y="50" text-anchor="middle">Ла Лига: формат и титли</text>
+  <text class="sub" x="410" y="72" text-anchor="middle">към есента на 2026 г.</text>
+  <line x1="40" y1="92" x2="780" y2="92" stroke="#e2ddd3" stroke-width="1"/>
+
+  <!-- Left column: format -->
+  <text class="colh" x="40" y="124">Форматът</text>
+
+  <text class="big" x="78"  y="166" text-anchor="middle">1929</text>
+  <text class="lbl" x="150" y="166">година на основаване</text>
+
+  <text class="big" x="78"  y="212" text-anchor="middle">20</text>
+  <text class="lbl" x="150" y="212">отбора в лигата</text>
+
+  <text class="big" x="78"  y="258" text-anchor="middle">38</text>
+  <text class="lbl" x="150" y="258">кръга за сезон</text>
+
+  <text class="big" x="78"  y="304" text-anchor="middle">380</text>
+  <text class="lbl" x="150" y="304">мача за сезон</text>
+
+  <text class="big" x="78"  y="350" text-anchor="middle">3</text>
+  <text class="lbl" x="150" y="350">точки за победа</text>
+
+  <text class="big" x="78"  y="396" text-anchor="middle">3</text>
+  <text class="lbl" x="150" y="396">изпадащи отбора</text>
+
+  <!-- Divider -->
+  <line x1="400" y1="108" x2="400" y2="470" stroke="#e2ddd3" stroke-width="1"/>
+
+  <!-- Right column: titles -->
+  <text class="colh" x="430" y="124">Най-титулувани</text>
+
+  <text class="big" x="470" y="178" text-anchor="middle">36</text>
+  <text class="lbl" x="512" y="178">Реал Мадрид (рекорд)</text>
+
+  <text class="big" x="470" y="236" text-anchor="middle">29</text>
+  <text class="lbl" x="512" y="236">Барселона</text>
+
+  <text class="big" x="470" y="294" text-anchor="middle">11</text>
+  <text class="lbl" x="512" y="294">Атлетико Мадрид</text>
+
+  <line x1="400" y1="470" x2="780" y2="470" stroke="#e2ddd3" stroke-width="1"/>
+
+  <line x1="40" y1="470" x2="400" y2="470" stroke="#e2ddd3" stroke-width="1"/>
+  <text class="foot" x="40" y="504">Шампион става отборът с най-много точки след последния кръг.</text>
+  <text class="foot" x="40" y="528">Основана 1929 г. Всички числа следват текста на статията.</text>
+</svg>

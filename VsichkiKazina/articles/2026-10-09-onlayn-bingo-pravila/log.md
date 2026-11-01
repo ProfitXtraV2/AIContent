@@ -26,3 +26,8 @@
 - Stage 5b Light re-check (05b): scanned em-dashes / signposting / banned connectives / over-
   polished tables / excessive bullets — none. Article unchanged from gate output; final file in
   Title/Meta/H1/body/footer format. NUMBER DIFF 05→05b: identical (verified programmatically).
+
+## 2026-10-10 resume (daily run)
+- Step 7 Gemini: initial HL 20 -> humaniser pass1 HL 35 -> humaniser pass2 HL 85 -> PASS (keep pass2). gemini=human 85.
+- Step 8 images: infographic (SVG, rake math) + hero (WebP concept). Gemini image review score 100 PASS, no integrity issue. images:2.
+- Step 9 verification assembled; 1 surviving [VERIFY] flag (participation-fee/prize-fund split). Numbers identical across all stages.

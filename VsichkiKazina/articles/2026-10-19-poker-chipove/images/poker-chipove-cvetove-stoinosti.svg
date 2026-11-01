@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 600" font-family="'Segoe UI',Arial,sans-serif" role="img" aria-label="Примерна схема на цветовете и стойностите на покер чиповете и разликата между кеш и турнирни чипове. Стойностите са примерни и се менят от казино до казино.">
+<rect x="0" y="0" width="720" height="600" fill="#ffffff"/>
+<rect x="16" y="16" width="688" height="568" rx="14" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="360" y="48" text-anchor="middle" font-size="21" font-weight="700" fill="#1a2a3a">Покер чипове: типична схема на цветовете</text>
+<text x="360" y="71" text-anchor="middle" font-size="13" fill="#51607a">Няма световен стандарт · стойностите са примерни · номиналът върху чипа и касата решават</text>
+
+<!-- header row -->
+<text x="80" y="104" font-size="12" font-weight="700" fill="#51607a">Цвят</text>
+<text x="300" y="104" font-size="12" font-weight="700" fill="#51607a">Стойност</text>
+<text x="400" y="104" font-size="12" font-weight="700" fill="#51607a">Бележка</text>
+
+<!-- colour rows -->
+<rect x="32" y="114" width="656" height="30" fill="#eef2f7"/>
+<circle cx="54" cy="129" r="11" fill="#ffffff" stroke="#b7c0cc" stroke-width="1.5"/>
+<text x="80" y="134" font-size="14" font-weight="600" fill="#1a2a3a">Бял</text>
+<text x="300" y="134" font-size="14" font-weight="700" fill="#1a2a3a">1</text>
+
+<circle cx="54" cy="159" r="11" fill="#c0392b"/>
+<text x="80" y="164" font-size="14" font-weight="600" fill="#1a2a3a">Червен</text>
+<text x="300" y="164" font-size="14" font-weight="700" fill="#1a2a3a">5</text>
+
+<rect x="32" y="174" width="656" height="30" fill="#eef2f7"/>
+<circle cx="54" cy="189" r="11" fill="#2d6cdf"/>
+<text x="80" y="194" font-size="14" font-weight="600" fill="#1a2a3a">Син</text>
+<text x="300" y="194" font-size="14" font-weight="700" fill="#1a2a3a">10</text>
+<text x="400" y="194" font-size="12.5" fill="#51607a">варира: 1 / 2 / 50</text>
+
+<circle cx="54" cy="219" r="11" fill="#2a9d55"/>
+<text x="80" y="224" font-size="14" font-weight="600" fill="#1a2a3a">Зелен</text>
+<text x="300" y="224" font-size="14" font-weight="700" fill="#1a2a3a">25</text>
+
+<rect x="32" y="234" width="656" height="30" fill="#eef2f7"/>
+<circle cx="54" cy="249" r="11" fill="#1a1a1a"/>
+<text x="80" y="254" font-size="14" font-weight="600" fill="#1a2a3a">Черен</text>
+<text x="300" y="254" font-size="14" font-weight="700" fill="#1a2a3a">100</text>
+
+<circle cx="54" cy="279" r="11" fill="#7d3cb5"/>
+<text x="80" y="284" font-size="14" font-weight="600" fill="#1a2a3a">Лилав</text>
+<text x="300" y="284" font-size="14" font-weight="700" fill="#1a2a3a">500</text>
+
+<rect x="32" y="294" width="656" height="30" fill="#eef2f7"/>
+<circle cx="54" cy="309" r="11" fill="#f1c40f" stroke="#d4ab00" stroke-width="1"/>
+<text x="80" y="314" font-size="14" font-weight="600" fill="#1a2a3a">Жълт</text>
+<text x="300" y="314" font-size="14" font-weight="700" fill="#1a2a3a">1000</text>
+
+<!-- cash vs tournament -->
+<rect x="32" y="344" width="320" height="170" rx="10" fill="#ffffff" stroke="#cdd6e0" stroke-width="1.5"/>
+<text x="52" y="372" font-size="15" font-weight="700" fill="#1a2a3a">Кеш игра</text>
+<text x="52" y="398" font-size="12.5" fill="#334155">Чипът струва точно толкова пари.</text>
+<text x="52" y="420" font-size="12.5" fill="#334155">Зеленият 25 се осребрява като 25</text>
+<text x="52" y="442" font-size="12.5" fill="#334155">на касата, по всяко време.</text>
+<text x="52" y="464" font-size="12.5" fill="#334155">Печалби и загуби са веднага реални.</text>
+<text x="52" y="494" font-size="12" font-weight="600" fill="#2a9d55">= реални пари</text>
+
+<rect x="368" y="344" width="320" height="170" rx="10" fill="#ffffff" stroke="#cdd6e0" stroke-width="1.5"/>
+<text x="388" y="372" font-size="15" font-weight="700" fill="#1a2a3a">Турнир</text>
+<text x="388" y="398" font-size="12.5" fill="#334155">Чиповете са точки, не пари.</text>
+<text x="388" y="420" font-size="12.5" fill="#334155">Стартов стек напр. 10 000.</text>
+<text x="388" y="442" font-size="12.5" fill="#334155">Най-дребен номинал от 25 или 100.</text>
+<text x="388" y="464" font-size="12.5" fill="#334155">Награда по класиране, не по стек.</text>
+<text x="388" y="494" font-size="12" font-weight="600" fill="#b5651d">= точки без парична стойност</text>
+
+<text x="360" y="542" text-anchor="middle" font-size="12" fill="#51607a">Числата са примерни и се менят от казино до казино. Проверявайте номинала върху чипа.</text>
+<text x="360" y="566" text-anchor="middle" font-size="11.5" font-weight="600" fill="#51607a">18+ Играйте отговорно</text>
+</svg>

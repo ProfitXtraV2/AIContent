@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif" role="img" aria-label="Инфографика: ниска волатилност — чести малки печалби и плавен баланс; висока волатилност — дълги сухи серии и редки големи удари; при еднакъв RTP двата профила се усещат различно">
+  <rect x="8" y="8" width="744" height="404" rx="16" fill="#0f1b2d"/>
+  <rect x="8" y="8" width="744" height="404" rx="16" fill="none" stroke="#24415f" stroke-width="1.5"/>
+
+  <text x="380" y="46" text-anchor="middle" fill="#f2f6fb" font-size="23" font-weight="700">Волатилност: еднакъв RTP, различно усещане</text>
+  <text x="380" y="74" text-anchor="middle" fill="#9fb3c8" font-size="14">Как се движи балансът ти във времето при един и същ RTP</text>
+
+  <!-- LOW volatility panel -->
+  <rect x="32" y="96" width="340" height="252" rx="12" fill="#15283f" stroke="#24415f" stroke-width="1"/>
+  <text x="202" y="126" text-anchor="middle" fill="#8fe0b8" font-size="17" font-weight="700">Ниска волатилност</text>
+  <!-- smooth gently declining line -->
+  <polyline points="56,170 92,176 128,172 164,182 200,178 236,188 272,184 308,194 344,190"
+            fill="none" stroke="#2e9e6b" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="56" y1="210" x2="348" y2="210" stroke="#2a3f58" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="202" y="252" text-anchor="middle" fill="#bcd0e4" font-size="13">Чести дребни печалби</text>
+  <text x="202" y="274" text-anchor="middle" fill="#bcd0e4" font-size="13">Балансът пада бавно и спокойно</text>
+  <text x="202" y="320" text-anchor="middle" fill="#7f96ad" font-size="12">По-приятелска за дълга игра с малки залози</text>
+
+  <!-- HIGH volatility panel -->
+  <rect x="388" y="96" width="340" height="252" rx="12" fill="#15283f" stroke="#24415f" stroke-width="1"/>
+  <text x="558" y="126" text-anchor="middle" fill="#f0b86b" font-size="17" font-weight="700">Висока волатилност</text>
+  <!-- jagged line: long dry drops, rare big spike -->
+  <polyline points="412,172 436,190 460,206 484,200 508,214 532,150 556,196 580,210 604,204 628,218 652,168 676,212 700,222"
+            fill="none" stroke="#e08a3c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="412" y1="210" x2="704" y2="210" stroke="#2a3f58" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="558" y="252" text-anchor="middle" fill="#bcd0e4" font-size="13">Дълги сухи серии</text>
+  <text x="558" y="274" text-anchor="middle" fill="#bcd0e4" font-size="13">Рядко голям удар, който връща много наведнъж</text>
+  <text x="558" y="320" text-anchor="middle" fill="#7f96ad" font-size="12">Иска по-дебел буфер, за да издържиш сухото</text>
+
+  <text x="380" y="384" text-anchor="middle" fill="#9fb3c8" font-size="13">Нито един профил не е по-добър — избираш според търпението и бюджета си. Кривите са илюстративни.</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" width="760" height="430" font-family="'Segoe UI',Arial,sans-serif" role="img" aria-label="Домашно предимство по вид рулетка: американска 5,26 процента, европейска 2,70 процента, френска с la partage около 1,35 процента">
+  <rect x="8" y="8" width="744" height="414" rx="16" fill="#f7f9fb" stroke="#d9e1e8" stroke-width="1"/>
+  <text x="380" y="46" text-anchor="middle" font-size="23" font-weight="700" fill="#16202b">Домашно предимство по вид рулетка</text>
+  <text x="380" y="72" text-anchor="middle" font-size="13" fill="#5a6b7a">Повече зелени полета = по-голямо предимство на казиното</text>
+
+  <!-- Row 1: American -->
+  <text x="28" y="117" font-size="15" font-weight="700" fill="#16202b">Американска (две зера)</text>
+  <text x="28" y="134" font-size="11.5" fill="#6b7a88">38 полета · RTP 94,74%</text>
+  <rect x="250" y="104" width="420" height="30" rx="5" fill="#d64545"/>
+  <text x="680" y="124" font-size="16" font-weight="700" fill="#16202b">5,26%</text>
+
+  <!-- Row 2: European -->
+  <text x="28" y="203" font-size="15" font-weight="700" fill="#16202b">Европейска (едно зеро)</text>
+  <text x="28" y="220" font-size="11.5" fill="#6b7a88">37 полета · RTP 97,30%</text>
+  <rect x="250" y="190" width="216" height="30" rx="5" fill="#e8a03a"/>
+  <text x="476" y="210" font-size="16" font-weight="700" fill="#16202b">2,70%</text>
+
+  <!-- Row 3: French la partage -->
+  <text x="28" y="289" font-size="15" font-weight="700" fill="#16202b">Френска (la partage)</text>
+  <text x="28" y="306" font-size="11.5" fill="#6b7a88">равни залози · ≈ 1,35%</text>
+  <rect x="250" y="276" width="108" height="30" rx="5" fill="#3f9f5a"/>
+  <text x="368" y="296" font-size="16" font-weight="700" fill="#16202b">1,35%</text>
+
+  <!-- scale note -->
+  <line x1="250" y1="322" x2="670" y2="322" stroke="#d9e1e8" stroke-width="1"/>
+  <text x="250" y="338" font-size="10.5" fill="#9aa7b2">Дължината на лентата е пропорционална на предимството (%).</text>
+
+  <!-- footnotes -->
+  <text x="28" y="364" font-size="12" fill="#3a4a58">Европейска: истинският шанс е 1 към 37; честното изплащане би било 36:1, а казиното плаща 35:1.</text>
+  <text x="28" y="384" font-size="12" fill="#3a4a58">1,35% важи само за равните залози (червено/черно, чет/нечет, 1–18/19–36) при „la partage".</text>
+
+  <text x="28" y="408" font-size="11" fill="#8a97a2">Източник: математика на рулетката · Всички Казина</text>
+  <text x="724" y="408" text-anchor="end" font-size="11" font-weight="600" fill="#6b7a88">18+ Играйте отговорно</text>
+</svg>

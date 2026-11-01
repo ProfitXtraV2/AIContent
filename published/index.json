@@ -1,161 +1,147 @@
 {
   "schema_version": 1,
-  "count": 22,
+  "count": 20,
   "articles": [
     {
-      "slug": "gates-of-olympus-1000",
-      "title": "Gates of Olympus 1000: какво променя версията 1000",
-      "date_modified": "2026-09-10",
-      "content_hash": "396797705d64133cc8b645bb636f07403fa097a759fa648abf987933a6f6c4b1",
-      "status": "approved"
-    },
-    {
-      "slug": "kazino-bez-registraciya",
-      "title": "Казино без регистрация: какво реално значи в България",
+      "slug": "megaways-kak-rabotyat",
+      "title": "Megaways: как работят и защо броят на начините се променя",
       "date_modified": "2026-09-11",
-      "content_hash": "6850053b4591301ba6f0d0b3d978facaeac7d7a3aa8ab8bbdfaf26bb8c99d01d",
+      "content_hash": "f03c4ffe0a606832358637f1e627ec60d6de03c6e409683bbf947b364dc7daf8",
       "status": "approved"
     },
     {
-      "slug": "netent-provajdar",
-      "title": "NetEnt: профил на доставчика, механики и топ слотове",
-      "date_modified": "2026-09-11",
-      "content_hash": "74cc9599f1a83b0ebc3a1b750826fda84ce29f9d69501b2d33f13bb6c5cca694",
+      "slug": "bezplatni-zavartaniya-free-spins",
+      "title": "Безплатни завъртания (free spins): видове и условия",
+      "date_modified": "2026-10-05",
+      "content_hash": "b1c96e48fea8eb1dd47b36ef83d3963de8120688ff7d788db6e7c365b05befc5",
       "status": "approved"
     },
     {
-      "slug": "gonzos-quest",
-      "title": "Gonzo's Quest: RTP, Avalanche механика и как се играе",
-      "date_modified": "2026-09-11",
-      "content_hash": "85ba624923984f5456b5202b4fbf8a6e1ea205748fd28850f97155460f20288f",
+      "slug": "kak-se-preodolyava-hazartna-zavisimost",
+      "title": "Как се преодолява хазартна зависимост: лечение и помощ",
+      "date_modified": "2026-10-08",
+      "content_hash": "ef9eb35e9cf23ab040e03888cb413941441fcd93c88ece554e63d2f9f8555ce7",
       "status": "approved"
     },
     {
-      "slug": "dostavchici-kazino-igri",
-      "title": "Кои са доставчиците на казино игри и защо са важни",
-      "date_modified": "2026-09-12",
-      "content_hash": "0b893e3ad291d68aa5857f486485fd5ea0b5bdc56454273bbfc6960420508057",
-      "status": "approved"
-    },
-    {
-      "slug": "le-bandit",
-      "title": "Le Bandit: RTP, cluster pays и Golden Squares",
-      "date_modified": "2026-09-15",
-      "content_hash": "ffe30d45d60199168bccd7b15019015ea7dc6ecb952a5ca12202a4a397b313c4",
-      "status": "approved"
-    },
-    {
-      "slug": "sweet-bonanza-1000",
-      "title": "Sweet Bonanza 1000: какво променя версията 1000",
-      "date_modified": "2026-09-15",
-      "content_hash": "855136d66d1d14ffc50026726f355c8cf2f6d0b34569c8a42fa659d90f329996",
-      "status": "approved"
-    },
-    {
-      "slug": "sweet-bonanza-xmas",
-      "title": "Sweet Bonanza Xmas: какво променя коледната версия",
-      "date_modified": "2026-09-15",
-      "content_hash": "4843a7bb6b25308bf5212418ce7fc5d8a5bb5b2d9eb4a9d0a3c905a0d90590bc",
-      "status": "approved"
-    },
-    {
-      "slug": "elk-studios",
-      "title": "ELK Studios: профил на доставчика, механики и топ слотове",
-      "date_modified": "2026-09-17",
-      "content_hash": "6a1a55fcc3f6afc1b8d527aa795b405f5474b633ebc9ce4c040a574aefc4e000",
-      "status": "approved"
-    },
-    {
-      "slug": "yggdrasil",
-      "title": "Yggdrasil Gaming: профил на доставчика, механики и топ слотове",
-      "date_modified": "2026-09-18",
-      "content_hash": "e511558e938d078f9cf31de377f36c5930291b9cd58ee541002235d1c1bd47fe",
-      "status": "approved"
-    },
-    {
-      "slug": "hub-intro-casino-payments",
-      "title": "Казино плащания: депозити и тегления в БГ казина",
-      "date_modified": "2026-09-19",
-      "content_hash": "a65fd26321d0131c74639026f3f6cc8c5dce8be8b078075a25e4b416d1925f61",
-      "status": "approved"
-    },
-    {
-      "slug": "hub-intro-bonuses-vip",
-      "title": "Казино бонуси и VIP: какво да проверите",
-      "date_modified": "2026-09-19",
-      "content_hash": "9aca2849280b239225072fb5f96b87367129ceb351677d25073b8a36ec89cc35",
-      "status": "approved"
-    },
-    {
-      "slug": "hub-intro-regulations-taxes",
-      "title": "Регулации и данъци в онлайн хазарта в България",
-      "date_modified": "2026-09-19",
-      "content_hash": "92ce1f91d0244e2d7df7e647022cf908e199375e0665ec72f35924036977f634",
-      "status": "approved"
-    },
-    {
-      "slug": "hub-intro-comparisons-news",
-      "title": "HUB INTRO: Сравнения и новини — интро за /blog/comparisons-news/",
-      "date_modified": "2026-09-19",
-      "content_hash": "ad07d26c47bea24a8cbf013b92835b1c394bd122943463d05e14672bcd719223",
-      "status": "approved"
-    },
-    {
-      "slug": "hub-intro-responsible-gambling",
-      "title": "Отговорна игра: лимити, самоизключване, помощ",
-      "date_modified": "2026-09-19",
-      "content_hash": "616a5694058a49614a53c343beefb7de06f84d915dbc74b459b845b1dac20d4b",
-      "status": "approved"
-    },
-    {
-      "slug": "bezkrayni-barabani-infinity-reels",
-      "title": "Безкрайни барабани (Infinity Reels): как работят",
-      "date_modified": "2026-10-04",
-      "content_hash": "18c146e038a05330123588fcbcd937ed9dc1c618fad9f9c46b9ac3a459f92e81",
-      "status": "approved"
-    },
-    {
-      "slug": "naslagani-stacked-simvoli",
-      "title": "Наслагани (stacked) символи в слотовете: как работят",
-      "date_modified": "2026-10-04",
-      "content_hash": "812fba31ea2652ade82db573a067561a1d55eeed698fc30f3ef38cca6f0f9a96",
-      "status": "approved"
-    },
-    {
-      "slug": "turbo-barz-spin",
-      "title": "Турбо и бърз спин в слотовете: скорост и риск",
-      "date_modified": "2026-10-04",
-      "content_hash": "903329e68446df32a3ad4947c92526c2043892ddc12045e01fdb02e9dd4924ac",
-      "status": "approved"
-    },
-    {
-      "slug": "kazino-bonus-kod",
-      "title": "Казино бонус код: как работи и къде се въвежда",
-      "date_modified": "2026-10-04",
-      "content_hash": "d9add1b30b0474ce18950202bf1536a8ad8a162346c6396ceb99897175ff147c",
-      "status": "approved"
-    },
-    {
-      "slug": "toto-zodiak",
-      "title": "Тото Зодиак: правила, печеливши групи и шанс за джакпот",
+      "slug": "onlayn-bingo-pravila",
+      "title": "Онлайн бинго: правила, видове и реалните шансове",
       "date_modified": "2026-10-10",
-      "content_hash": "001d0bf0eb69ba1fddebdd8f29e17173c4f8ebd8518acfb1edc66079e22092e9",
+      "content_hash": "d70ab4937a56843ca255b3b78f79f7b31783927abb2badb80f00ae4eee3fb1b0",
       "status": "approved"
     },
     {
-      "slug": "darzhavna-nacionalna-lotaria",
-      "title": "Държавна лотария и Национална лотария: коя е законна",
+      "slug": "toto-rozhden-den",
+      "title": "Тото Рожден ден: правила, печалби и реален шанс",
       "date_modified": "2026-10-10",
-      "content_hash": "a8f9b0e1511c97b9d8aa53a208426c84ebf3d61e9de7acbb50055c4374d383a2",
+      "content_hash": "6aaac98e9d7def2638b27e65c624259eef2163ded9bd54105f0365801289f8d1",
       "status": "approved"
     },
     {
-      "slug": "kazina-las-vegas",
-      "title": "Казино в Лас Вегас: колко задържа къщата | Всички Казина",
+      "slug": "toto-dzhakpot",
+      "title": "Тото джакпот: колко е сега, рекорди, изплащане и данък",
       "date_modified": "2026-10-10",
-      "content_hash": "07b1990f74091bf6a995ad695d6e0554125d10bd0a506f259d19f6f90817e4a8",
+      "content_hash": "95579d7fa27e7466d559ab7bee166e21b79eb0abfddbc9ac4547a793179c8d4f",
+      "status": "approved"
+    },
+    {
+      "slug": "elektronna-ruletka",
+      "title": "Електронна рулетка: как работи (RNG и автоматни рулетки)",
+      "date_modified": "2026-10-14",
+      "content_hash": "205a5e9cd4e52433817100da5cf5e60a4bb620cc0de7a7b60f3e0006a8020c6e",
+      "status": "approved"
+    },
+    {
+      "slug": "poker-chipove",
+      "title": "Покер чипове: цветове, стойности и броене",
+      "date_modified": "2026-10-19",
+      "content_hash": "300e28118a5cbb23fb3e21ac2fbbc4c7a1865e06f1291bac64cde5ac39bc6ab3",
+      "status": "approved"
+    },
+    {
+      "slug": "svara-pravila",
+      "title": "Свара правила: как се играе свара на точки",
+      "date_modified": "2026-10-23",
+      "content_hash": "0042f2d7303c8e0dec700f98471fb7c08ceec21705c4bd899e1ef21c6e535384",
+      "status": "approved"
+    },
+    {
+      "slug": "kanasta-pravila",
+      "title": "Канаста: правила, точкуване и разновидности",
+      "date_modified": "2026-10-24",
+      "content_hash": "0faab48f87c4dae5e35478feb46da66b0c58cdd2dd05e8c6f5ac69588580d73d",
+      "status": "approved"
+    },
+    {
+      "slug": "proverka-na-fish",
+      "title": "Проверка на фиш Тото: онлайн и на гише | Всички Казина",
+      "date_modified": "2026-10-27",
+      "content_hash": "57cbf19668279c4524050ed2e8e35351a971e730d846e85ddf361e94fbc3558d",
+      "status": "approved"
+    },
+    {
+      "slug": "igri-s-karti",
+      "title": "Игри с карти: кои се играят в България и как",
+      "date_modified": "2026-10-27",
+      "content_hash": "f57429c7191f8e90815ce5dbf3b19b56adee7fe6d26353a017570728f919dcdd",
+      "status": "approved"
+    },
+    {
+      "slug": "ludogorec-istoriya-titli",
+      "title": "Лудогорец: история, титли и Хювефарма Арена | Всички Казина",
+      "date_modified": "2026-10-28",
+      "content_hash": "0d2cbc705a0ed6e16dddeb3ef9acc9a3c9d7fe38b7ef447efd46f3564858dcc1",
+      "status": "approved"
+    },
+    {
+      "slug": "real-madrid-istoriya-trofei",
+      "title": "Реал Мадрид: история, трофеи, стадион и легенди | Всички Казина",
+      "date_modified": "2026-10-28",
+      "content_hash": "3092f1636c64d4ddc2a7400d6393aa22035c1678ddbe9dc7dddc1ce88047ec7a",
+      "status": "approved"
+    },
+    {
+      "slug": "barcelona-istoriya-trofei",
+      "title": "Барселона: история, трофеи, стадион и легенди | Всички Казина",
+      "date_modified": "2026-10-28",
+      "content_hash": "648e69abc5244992ebeff462dd9cd41772a861096d4e9c3ebaaf3ad8631f8c27",
+      "status": "approved"
+    },
+    {
+      "slug": "lionel-messi-kariera-trofei",
+      "title": "Лионел Меси: кариера, рекорди и трофеи | Всички Казина",
+      "date_modified": "2026-10-29",
+      "content_hash": "0e8c560f5f2e0d6cab863dc85203c63686afa17412bf7e0fc1418601f8dd58f8",
+      "status": "approved"
+    },
+    {
+      "slug": "kristiano-ronaldo",
+      "title": "Кристиано Роналдо: кариера, рекорди и трофеи | Всички Казина",
+      "date_modified": "2026-10-29",
+      "content_hash": "7c0db18142553f14c9cd39a559508cdafa221c974219cd37be982777f2b9bbf5",
+      "status": "approved"
+    },
+    {
+      "slug": "chelsi",
+      "title": "Челси: история, трофеи, стадион и легенди | Всички Казина",
+      "date_modified": "2026-10-29",
+      "content_hash": "4ddb9d46c325fa4218513696536cf48d63150b123525201d05fcdb676228cf50",
+      "status": "approved"
+    },
+    {
+      "slug": "formula-1",
+      "title": "Формула 1: как работи — точкуване, отбори и състезателният уикенд | Всички Казина",
+      "date_modified": "2026-10-29",
+      "content_hash": "fd34b989ae6fb505f081ec6e34826a5c6500a509eff96f9c4e0e895d41278290",
+      "status": "approved"
+    },
+    {
+      "slug": "la-liga",
+      "title": "Ла Лига: формат, отбори и как работи класирането | Всички Казина",
+      "date_modified": "2026-10-29",
+      "content_hash": "aa69a9f8d1a081a92a3d3115042d40421a9023b324c596d276f921c4c00b781e",
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-14T17:11:32Z"
+  "generated_utc": "2026-11-01T09:27:15Z"
 }

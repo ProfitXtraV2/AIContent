@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "slug": "tabla-onlayn",
+  "title": "Табла онлайн: къде се играе безплатно | Всички Казина",
+  "meta_description": "Табла онлайн безплатно: VIP Games, Джаги, LAN-Games и Poki, срещу реални хора или с приятели, с чипове. Къде се играе и как да започнете.",
+  "body_path": "article.md",
+  "author": "Георги Тодоров",
+  "date_published": "2026-10-27",
+  "date_modified": "2026-10-27",
+  "keywords": [
+    "табла онлайн",
+    "игра на табла онлайн",
+    "табла с приятели",
+    "табла срещу реални играчи",
+    "безплатна табла"
+  ],
+  "images": [
+    {
+      "path": "images/tabla-onlayn-hero.webp",
+      "alt": "Абстрактна илюстрация на дъска за табла на екран, подредена за онлайн игра, без лого и без лица"
+    },
+    {
+      "path": "images/tabla-onlayn-platformi-sravnenie.svg",
+      "alt": "Сравнителна инфографика на платформите за табла онлайн: налични варианти, устройства и възрастов рейтинг, без логота"
+    }
+  ],
+  "section_hint": "guide",
+  "opportunity": 100,
+  "status": "approved",
+  "content_hash": "b903c7d6bee7fcef827f8ca8cdb493aa2f6048f66f73cdbdbbe21eb8a5a31704"
+}

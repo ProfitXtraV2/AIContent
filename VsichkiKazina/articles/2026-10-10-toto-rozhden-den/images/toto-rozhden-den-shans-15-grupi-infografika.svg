@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 690" width="760" height="690" role="img" aria-labelledby="t d" font-family="Arial, Helvetica, sans-serif">
+<title id="t">Тото Рожден ден: шанс за всяка от 15-те печеливши групи</title>
+<desc id="d">Приблизителен шанс (1 на N) за всяка от 15-те групи в ТОТО 2 Рожден ден: от 1 на 255 675 за джакпота до около 1 на 8.0 за само познат ден.</desc>
+<rect x="1" y="1" width="758" height="688" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="28" y="44" font-size="22" font-weight="700" fill="#0f172a">Тото Рожден ден: шанс за всяка от 15-те групи</text>
+<text x="28" y="70" font-size="14" fill="#475569">Шанс, около 1 на N, за точно тези познати елементи (останалите не)</text>
+<text x="28" y="98" font-size="12" font-weight="700" fill="#334155">ГРУПА</text>
+<text x="732" y="98" font-size="12" font-weight="700" fill="#334155" text-anchor="end">1 НА</text>
+<rect x="16" y="110" width="728" height="30" fill="#eef2f7"/>
+<text x="28" y="130" font-size="13" fill="#0f172a" font-weight="700">Година + Месец + Дата + Ден (джакпот)</text>
+<rect x="330" y="118" width="312.0" height="14" rx="3" fill="#b45309" opacity="0.85"/>
+<text x="732" y="130" font-size="13" font-weight="700" fill="#0f172a" text-anchor="end">255 675</text>
+<text x="28" y="160" font-size="13" fill="#0f172a">Година + Месец + Дата</text>
+<rect x="330" y="148" width="267.1" height="14" rx="3" fill="#2563eb" opacity="0.85"/>
+<text x="732" y="160" font-size="13" font-weight="700" fill="#0f172a" text-anchor="end">42 613</text>
+<rect x="16" y="170" width="728" height="30" fill="#eef2f7"/>
+<text x="28" y="190" font-size="13" fill="#0f172a">Година + Дата + Ден</text>
+<rect x="330" y="178" width="251.9" height="14" rx="3" fill="#2563eb" opacity="0.85"/>
+<text x="732" y="190" font-size="13" font-weight="700" fill="#0f172a" text-anchor="end">23 243</text>
+<text x="28" y="220" font-size="13" fill="#0f172a">Година + Месец + Ден</text>
+<rect x="330" y="208" width="227.2" height="14" rx="3" fill="#2563eb" opacity="0.85"/>
+<text x="732" y="220" font-size="13" font-weight="700" fill="#0f172a" text-anchor="end">8 685</text>
+<rect x="16" y="230" width="728" height="30" fill="#eef2f7"/>
+<text x="28" y="250" font-size="13" fill="#0f172a">Година + Дата</text>
+<rect x="330" y="238" width="207.0" height="14" rx="3" fill="#2563eb" opacity="0.85"/>
+<text x="732" y="250" font-size="13" font-weight="700" fill="#0f172a" text-anchor="end">3 874</text>
+<text x="28" y="280" font-size="13" fill="#0f172a">Месец + Дата + Ден</text>
+<rect x="330" y="268" width="196.9" height="14" rx="3" fill="#2563eb" opacity="0.85"/>
+<text x="732" y="280" font-size="13" font-weight="700" fill="#0f172a" text-anchor="end">2 583</text>
+<rect x="16" y="290" width="728" height="30" fill="#eef2f7"/>
+<text x="28" y="310" font-size="13" fill="#0f172a">Година + Месец</text>
+<rect x="330" y="298" width="182.4" height="14" rx="3" fill="#2563eb" opacity="0.85"/>
+<text x="732" y="310" font-size="13" font-weight="700" fill="#0f172a" text-anchor="end">1 448</text>
+<text x="28" y="340" font-size="13" fill="#0f172a">Година + Ден</text>
+<rect x="330" y="328" width="167.2" height="14" rx="3" fill="#2563eb" opacity="0.85"/>
+<text x="732" y="340" font-size="13" font-weight="700" fill="#0f172a" text-anchor="end">790</text>
+<rect x="16" y="350" width="728" height="30" fill="#eef2f7"/>
+<text x="28" y="370" font-size="13" fill="#0f172a">Месец + Дата</text>
+<rect x="330" y="358" width="151.9" height="14" rx="3" fill="#2563eb" opacity="0.85"/>
+<text x="732" y="370" font-size="13" font-weight="700" fill="#0f172a" text-anchor="end">430</text>
+<text x="28" y="400" font-size="13" fill="#0f172a">Дата + Ден</text>
+<rect x="330" y="388" width="136.8" height="14" rx="3" fill="#2563eb" opacity="0.85"/>
+<text x="732" y="400" font-size="13" font-weight="700" fill="#0f172a" text-anchor="end">235</text>
+<rect x="16" y="410" width="728" height="30" fill="#eef2f7"/>
+<text x="28" y="430" font-size="13" fill="#0f172a">Само Година</text>
+<rect x="330" y="418" width="122.3" height="14" rx="3" fill="#2563eb" opacity="0.85"/>
+<text x="732" y="430" font-size="13" font-weight="700" fill="#0f172a" text-anchor="end">132</text>
+<text x="28" y="460" font-size="13" fill="#0f172a">Месец + Ден</text>
+<rect x="330" y="448" width="112.2" height="14" rx="3" fill="#2563eb" opacity="0.85"/>
+<text x="732" y="460" font-size="13" font-weight="700" fill="#0f172a" text-anchor="end">88</text>
+<rect x="16" y="470" width="728" height="30" fill="#eef2f7"/>
+<text x="28" y="490" font-size="13" fill="#0f172a">Само Дата</text>
+<rect x="330" y="478" width="91.8" height="14" rx="3" fill="#2563eb" opacity="0.85"/>
+<text x="732" y="490" font-size="13" font-weight="700" fill="#0f172a" text-anchor="end">39</text>
+<text x="28" y="520" font-size="13" fill="#0f172a">Само Месец</text>
+<rect x="330" y="508" width="67.2" height="14" rx="3" fill="#2563eb" opacity="0.85"/>
+<text x="732" y="520" font-size="13" font-weight="700" fill="#0f172a" text-anchor="end">14.6</text>
+<rect x="16" y="530" width="728" height="30" fill="#eef2f7"/>
+<text x="28" y="550" font-size="13" fill="#0f172a">Само Ден</text>
+<rect x="330" y="538" width="52.1" height="14" rx="3" fill="#2563eb" opacity="0.85"/>
+<text x="732" y="550" font-size="13" font-weight="700" fill="#0f172a" text-anchor="end">8.0</text>
+<text x="28" y="588" font-size="14" font-weight="700" fill="#0f172a">Всички комбинации: 100 × 365.25 × 7 = 255 675</text>
+<text x="28" y="612" font-size="14" font-weight="700" fill="#0f172a">Поне една печалба: ≈ 24.8 %, около 1 на 4.04</text>
+<text x="28" y="638" font-size="12" fill="#475569">Дължината на лентата е в логаритмичен мащаб. Стойностите са приблизителни и зависят от избраната дата.</text>
+<text x="28" y="660" font-size="12" fill="#475569">Изчислено по формата на играта; вижте сметката в статията.</text>
+<text x="732" y="660" font-size="12" font-weight="700" fill="#b91c1c" text-anchor="end">18+ Играйте отговорно</text>
+</svg>

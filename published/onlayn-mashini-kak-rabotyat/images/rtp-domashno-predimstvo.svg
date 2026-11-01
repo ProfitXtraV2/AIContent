@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif" role="img" aria-label="Инфографика: как се разпределят €100 оборот при слот с 96% RTP — €96 към играча, €4 домашно предимство; домашно предимство = 100% минус RTP; типичен диапазон 92–97%">
+  <rect x="8" y="8" width="744" height="484" rx="16" fill="#0f1b2d"/>
+  <rect x="8" y="8" width="744" height="484" rx="16" fill="none" stroke="#24415f" stroke-width="1.5"/>
+
+  <text x="380" y="48" text-anchor="middle" fill="#f2f6fb" font-size="24" font-weight="700">Какво е RTP (връщане към играча)</text>
+  <text x="380" y="78" text-anchor="middle" fill="#9fb3c8" font-size="15">От всеки €100 оборот на слот с 96% RTP, на дълъг пробег:</text>
+
+  <!-- split bar: 96% player / 4% house, bar x40..720 width680 -->
+  <rect x="40" y="98" width="653" height="54" rx="6" fill="#2e9e6b"/>
+  <rect x="693" y="98" width="27" height="54" rx="0" fill="#d9534f"/>
+  <rect x="40" y="98" width="680" height="54" rx="6" fill="none" stroke="#24415f" stroke-width="1"/>
+  <text x="366" y="131" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">€96 се връщат към играча</text>
+
+  <!-- house-edge callout under the small red segment -->
+  <line x1="706" y1="156" x2="706" y2="176" stroke="#d9534f" stroke-width="2"/>
+  <text x="716" y="182" text-anchor="end" fill="#f0a9a7" font-size="14" font-weight="700">€4 остават в казиното</text>
+
+  <text x="40" y="182" text-anchor="start" fill="#bcd0e4" font-size="14">96% към играча</text>
+
+  <!-- formula box -->
+  <rect x="40" y="208" width="680" height="62" rx="10" fill="#15283f" stroke="#24415f" stroke-width="1"/>
+  <text x="60" y="236" text-anchor="start" fill="#f2f6fb" font-size="18" font-weight="700">Домашно предимство = 100% − RTP</text>
+  <text x="60" y="258" text-anchor="start" fill="#9fb3c8" font-size="14">Пример: слот с 94% RTP оставя 6% на казиното върху всеки заложен лев.</text>
+
+  <!-- typical range -->
+  <text x="40" y="312" text-anchor="start" fill="#f2f6fb" font-size="17" font-weight="700">Типичен RTP при онлайн слотове</text>
+
+  <!-- axis bar 90..98 mapped to x40..720 (width680, 8 pct => 85px/pct) -->
+  <rect x="40" y="332" width="680" height="26" rx="4" fill="#15283f" stroke="#24415f" stroke-width="1"/>
+  <!-- 92..97 highlight: (92-90)*85=170 -> x=210 ; width (97-92)*85=425 -->
+  <rect x="210" y="332" width="425" height="26" rx="4" fill="#2e6f9e"/>
+  <!-- 95..97 darker band: (95-90)*85=425 -> x=465 ; width (97-95)*85=170 -->
+  <rect x="465" y="332" width="170" height="26" rx="0" fill="#3a8fd0"/>
+  <text x="422" y="350" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="700">92–97% (повечето 95–97%)</text>
+  <!-- axis ticks -->
+  <text x="40" y="378" text-anchor="start" fill="#7f96ad" font-size="12">90%</text>
+  <text x="720" y="378" text-anchor="end" fill="#7f96ad" font-size="12">98%</text>
+
+  <text x="40" y="402" text-anchor="start" fill="#bcd0e4" font-size="14">Прогресивни джакпоти обикновено по-ниско: примерно около 92–94%.</text>
+
+  <!-- footer -->
+  <line x1="40" y1="424" x2="720" y2="424" stroke="#24415f" stroke-width="1"/>
+  <text x="40" y="448" text-anchor="start" fill="#9fb3c8" font-size="13">Диапазонът е примерен. RTP важи на дълъг пробег (милиони завъртания), не за една сесия.</text>
+  <text x="40" y="470" text-anchor="start" fill="#7f96ad" font-size="12">Точният RTP на конкретна игра виж в правилата ѝ.</text>
+  <text x="720" y="470" text-anchor="end" fill="#c7d6e6" font-size="12" font-weight="700">18+ Играйте отговорно</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 440" font-family="'Segoe UI',Arial,sans-serif" role="img" aria-label="Графикът на тегленето на Тото: четвъртък и неделя от 18:45 ч. на живо по БНТ; в същия ефир се теглят 6 от 49, 6 от 42, 5 от 35, Тото Джокер, Зодиак, Рожден ден и Втори тото шанс; онлайн сайтът е недостъпен около 18:40 до 19:10 ч. в дните на теглене, а резултатът излиза до около час след ефира; официалните резултати са на info.toto.bg, последният тираж по подразбиране">
+  <rect x="0" y="0" width="840" height="440" rx="16" fill="#0f1b2d"/>
+  <text x="32" y="44" fill="#ffffff" font-size="22" font-weight="700">Теглене на Тото: кога, какво и къде</text>
+  <text x="32" y="70" fill="#8fb4d9" font-size="13">Два пъти седмично, на живо. Числата се четат само на официалния източник.</text>
+
+  <!-- Card 1: Кога -->
+  <g>
+    <rect x="24" y="94" width="256" height="250" rx="12" fill="#17273d" stroke="#2a3d57" stroke-width="1"/>
+    <text x="44" y="128" fill="#ffffff" font-size="15.5" font-weight="700">1 · Кога</text>
+    <text x="44" y="148" fill="#6f8db0" font-size="11">дни и час на тегленето</text>
+
+    <circle cx="52" cy="180" r="3" fill="#5fd0a0"/>
+    <text x="66" y="184" fill="#dce8f4" font-size="12">четвъртък и неделя</text>
+    <circle cx="52" cy="212" r="3" fill="#5fd0a0"/>
+    <text x="66" y="216" fill="#dce8f4" font-size="12">18:45 ч.</text>
+    <circle cx="52" cy="244" r="3" fill="#5fd0a0"/>
+    <text x="66" y="248" fill="#dce8f4" font-size="12">на живо по БНТ</text>
+    <circle cx="52" cy="276" r="3" fill="#5fd0a0"/>
+    <text x="66" y="280" fill="#dce8f4" font-size="12">в присъствие на комисия</text>
+  </g>
+
+  <!-- Card 2: Кои игри -->
+  <g>
+    <rect x="292" y="94" width="256" height="250" rx="12" fill="#17273d" stroke="#2a3d57" stroke-width="1"/>
+    <text x="312" y="128" fill="#ffffff" font-size="15.5" font-weight="700">2 · Кои игри</text>
+    <text x="312" y="148" fill="#6f8db0" font-size="11">в същия ефир</text>
+
+    <circle cx="320" cy="180" r="3" fill="#6bb0ff"/>
+    <text x="334" y="184" fill="#dce8f4" font-size="12">6 от 49 · 6 от 42</text>
+    <circle cx="320" cy="212" r="3" fill="#6bb0ff"/>
+    <text x="334" y="216" fill="#dce8f4" font-size="12">5 от 35 · Тото Джокер</text>
+    <circle cx="320" cy="244" r="3" fill="#6bb0ff"/>
+    <text x="334" y="248" fill="#dce8f4" font-size="12">Зодиак · Рожден ден</text>
+    <circle cx="320" cy="276" r="3" fill="#6bb0ff"/>
+    <text x="334" y="280" fill="#dce8f4" font-size="12">Втори тото шанс</text>
+  </g>
+
+  <!-- Card 3: Онлайн -->
+  <g>
+    <rect x="560" y="94" width="256" height="250" rx="12" fill="#17273d" stroke="#2a3d57" stroke-width="1"/>
+    <text x="580" y="128" fill="#ffffff" font-size="15.5" font-weight="700">3 · Онлайн</text>
+    <text x="580" y="148" fill="#6f8db0" font-size="11">сайтът около тегленето</text>
+
+    <circle cx="588" cy="180" r="3" fill="#ffd36b"/>
+    <text x="602" y="184" fill="#dce8f4" font-size="12">недостъпен за кратко</text>
+    <circle cx="588" cy="212" r="3" fill="#ffd36b"/>
+    <text x="602" y="216" fill="#dce8f4" font-size="12">около 18:40 до 19:10 ч.</text>
+    <circle cx="588" cy="244" r="3" fill="#ffd36b"/>
+    <text x="602" y="248" fill="#dce8f4" font-size="12">в дните на теглене</text>
+    <circle cx="588" cy="276" r="3" fill="#ffd36b"/>
+    <text x="602" y="280" fill="#dce8f4" font-size="12">резултат ~1 ч. след ефира</text>
+  </g>
+
+  <!-- Footer strip -->
+  <rect x="24" y="360" width="792" height="60" rx="12" fill="#13223a" stroke="#2a3d57" stroke-width="1"/>
+  <text x="44" y="388" fill="#5fd0a0" font-size="12" font-weight="700">ОФИЦИАЛНИ РЕЗУЛТАТИ</text>
+  <text x="44" y="408" fill="#dce8f4" font-size="12">info.toto.bg · последният тираж по подразбиране, селектор „ИЗБЕРИ ТИРАЖ" за по-стари тегления</text>
+  <text x="796" y="388" fill="#ffd36b" font-size="12" font-weight="700" text-anchor="end">18+ Играйте отговорно</text>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 560" role="img" aria-label="Инфографика: формат и точкуване на Формула 1 към есента на 2026 г.">
+  <defs>
+    <style>
+      .bg{fill:#f6f4ef;}
+      .card{fill:#ffffff;stroke:#e2ddd3;stroke-width:1;}
+      .title{fill:#1b1b2a;font-family:'Segoe UI',Arial,sans-serif;font-size:25px;font-weight:700;}
+      .sub{fill:#6b6257;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+      .colh{fill:#e11d2a;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;}
+      .big{fill:#1b1b2a;font-family:'Segoe UI',Arial,sans-serif;font-size:26px;font-weight:800;}
+      .lbl{fill:#2a2a38;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;}
+      .val{fill:#1b1b2a;font-family:'Segoe UI',Arial,sans-serif;font-size:15px;font-weight:700;}
+      .rowlbl{fill:#6b6257;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+      .foot{fill:#6b6257;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="820" height="560"/>
+  <rect class="card" x="8" y="8" width="804" height="544" rx="14"/>
+
+  <text class="title" x="410" y="50" text-anchor="middle">Формула 1: как работи</text>
+  <text class="sub" x="410" y="72" text-anchor="middle">към есента на 2026 г.</text>
+  <line x1="40" y1="92" x2="780" y2="92" stroke="#e2ddd3" stroke-width="1"/>
+
+  <!-- Left column: format -->
+  <text class="colh" x="40" y="124">Форматът</text>
+
+  <text class="big" x="92"  y="166" text-anchor="middle">1950</text>
+  <text class="lbl" x="170" y="166">световно първенство от</text>
+
+  <text class="big" x="92"  y="212" text-anchor="middle">11</text>
+  <text class="lbl" x="170" y="212">отбора (сезон 2026 г.)</text>
+
+  <text class="big" x="92"  y="258" text-anchor="middle">22</text>
+  <text class="lbl" x="170" y="258">болида на решетката</text>
+
+  <text class="big" x="92"  y="304" text-anchor="middle">305</text>
+  <text class="lbl" x="170" y="304">км минимална дистанция</text>
+
+  <text class="big" x="92"  y="350" text-anchor="middle">2</text>
+  <text class="lbl" x="170" y="350">часа лимит на състезание</text>
+
+  <!-- Divider -->
+  <line x1="400" y1="108" x2="400" y2="430" stroke="#e2ddd3" stroke-width="1"/>
+
+  <!-- Right column: points -->
+  <text class="colh" x="430" y="124">Точки за състезание (места 1–10)</text>
+
+  <text class="rowlbl" x="430" y="158">места 1–5</text>
+  <text class="val"    x="510" y="158">25 · 18 · 15 · 12 · 10</text>
+
+  <text class="rowlbl" x="430" y="188">места 6–10</text>
+  <text class="val"    x="510" y="188">8 · 6 · 4 · 2 · 1</text>
+
+  <text class="colh" x="430" y="236">Спринт (първите 8)</text>
+  <text class="val"  x="430" y="266">8 · 7 · 6 · 5 · 4 · 3 · 2 · 1</text>
+
+  <text class="rowlbl" x="430" y="306">Най-бързата обиколка: без точка от 2025 г.</text>
+  <text class="rowlbl" x="430" y="330">Точки взимат само завършилите ≥ 90% от дистанцията.</text>
+
+  <text class="colh" x="430" y="380">Две световни титли</text>
+  <text class="rowlbl" x="430" y="408">при пилотите (от 1950) и при конструкторите (от 1958)</text>
+
+  <!-- Footer: records -->
+  <line x1="40" y1="430" x2="780" y2="430" stroke="#e2ddd3" stroke-width="1"/>
+  <text class="foot" x="40" y="462">Най-много титли при пилотите: Шумахер и Хамилтън по 7.</text>
+  <text class="foot" x="40" y="488">Най-успешен конструктор: Ферари с 16 титли.</text>
+  <text class="foot" x="40" y="520">Всички числа следват текста на статията. 18+ Играйте отговорно.</text>
+</svg>

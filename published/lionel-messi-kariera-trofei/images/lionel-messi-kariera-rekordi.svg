@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" role="img" aria-label="Инфографика: ключови години и рекорди в кариерата на Лионел Меси">
+  <defs>
+    <style>
+      .bg{fill:#f6f7f9;}
+      .card{fill:#ffffff;stroke:#dde1e8;stroke-width:1;}
+      .title{fill:#1a2330;font-family:'Segoe UI',Arial,sans-serif;font-size:24px;font-weight:700;}
+      .sub{fill:#5f6a7a;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+      .yr{fill:#1f6f4a;font-family:'Segoe UI',Arial,sans-serif;font-size:17px;font-weight:700;}
+      .lbl{fill:#2a3545;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;}
+      .colh{fill:#1f6f4a;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;}
+      .big{fill:#1a2330;font-family:'Segoe UI',Arial,sans-serif;font-size:34px;font-weight:800;}
+      .tl{fill:#2a3545;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;}
+      .foot{fill:#5f6a7a;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="760" height="560"/>
+  <rect class="card" x="8" y="8" width="744" height="544" rx="14"/>
+
+  <text class="title" x="380" y="48" text-anchor="middle">Лионел Меси: кариера и рекорди</text>
+  <text class="sub" x="380" y="70" text-anchor="middle">ключови години и трофеи</text>
+
+  <line x1="40" y1="88" x2="720" y2="88" stroke="#dde1e8" stroke-width="1"/>
+
+  <!-- Left column: key years -->
+  <text class="colh" x="40" y="118">Ключови години</text>
+
+  <text class="yr"  x="40"  y="152">1987</text>
+  <text class="lbl" x="150" y="152">Роден в Росарио</text>
+
+  <text class="yr"  x="40"  y="194">2000</text>
+  <text class="lbl" x="150" y="194">Салфетката и „Ла Масия"</text>
+
+  <text class="yr"  x="40"  y="236">2004</text>
+  <text class="lbl" x="150" y="236">Дебют в Ла Лига</text>
+
+  <text class="yr"  x="40"  y="278">2021</text>
+  <text class="lbl" x="150" y="278">Край на „Барселона"</text>
+
+  <text class="yr"  x="40"  y="320">2022</text>
+  <text class="lbl" x="150" y="320">Световен шампион</text>
+
+  <!-- Divider -->
+  <line x1="440" y1="104" x2="440" y2="380" stroke="#dde1e8" stroke-width="1"/>
+
+  <!-- Right column: records -->
+  <text class="colh" x="625" y="118" text-anchor="middle">Трофеи и рекорди</text>
+
+  <text class="big" x="510" y="168" text-anchor="middle">672</text>
+  <text class="tl"  x="550" y="168">гола за клуба</text>
+
+  <text class="big" x="510" y="218" text-anchor="middle">8</text>
+  <text class="tl"  x="550" y="218">Златни топки</text>
+
+  <text class="big" x="510" y="268" text-anchor="middle">10</text>
+  <text class="tl"  x="550" y="268">титли в Ла Лига</text>
+
+  <text class="big" x="510" y="318" text-anchor="middle">4</text>
+  <text class="tl"  x="550" y="318">Шампионски лиги</text>
+
+  <text class="big" x="510" y="368" text-anchor="middle">91</text>
+  <text class="tl"  x="550" y="368">гола за 2012 г.</text>
+
+  <!-- Footer strip -->
+  <line x1="40" y1="470" x2="720" y2="470" stroke="#dde1e8" stroke-width="1"/>
+  <text class="foot" x="40"  y="500">Рекордьор за Аржентина по мачове и голове</text>
+  <text class="foot" x="720" y="500" text-anchor="end">18+ Играйте отговорно</text>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" font-family="'Segoe UI',Roboto,Arial,sans-serif" role="img" aria-label="Стойност на картите в белот: коз срещу без коз">
+  <rect x="12" y="12" width="696" height="446" rx="16" fill="#f6f8fc" stroke="#cfd8e8" stroke-width="2"/>
+  <text x="360" y="50" text-anchor="middle" font-size="25" font-weight="700" fill="#15223b">Стойност на картите в белот</text>
+  <text x="360" y="78" text-anchor="middle" font-size="15" fill="#5a6b86">коз срещу без коз — точки на всяка карта</text>
+
+  <!-- header band -->
+  <rect x="32" y="98" width="656" height="38" rx="8" fill="#1f3a63"/>
+  <text x="52" y="123" text-anchor="start" font-size="16" font-weight="600" fill="#ffffff">Карта</text>
+  <text x="440" y="123" text-anchor="middle" font-size="16" font-weight="600" fill="#ffffff">Коз</text>
+  <text x="600" y="123" text-anchor="middle" font-size="16" font-weight="600" fill="#ffffff">Без коз</text>
+
+  <!-- rows -->
+  <g font-size="18" fill="#1a2740">
+    <rect x="32" y="140" width="656" height="34" fill="#eef2f9"/>
+    <text x="52" y="164" text-anchor="start">Вале</text>
+    <text x="440" y="164" text-anchor="middle" font-weight="700" fill="#b8341f">20</text>
+    <text x="600" y="164" text-anchor="middle">2</text>
+
+    <text x="52" y="200" text-anchor="start">Девятка (9)</text>
+    <text x="440" y="200" text-anchor="middle" font-weight="700" fill="#b8341f">14</text>
+    <text x="600" y="200" text-anchor="middle">0</text>
+
+    <rect x="32" y="210" width="656" height="34" fill="#eef2f9"/>
+    <text x="52" y="234" text-anchor="start">Асо</text>
+    <text x="440" y="234" text-anchor="middle">11</text>
+    <text x="600" y="234" text-anchor="middle">11</text>
+
+    <text x="52" y="270" text-anchor="start">Десятка (10)</text>
+    <text x="440" y="270" text-anchor="middle">10</text>
+    <text x="600" y="270" text-anchor="middle">10</text>
+
+    <rect x="32" y="280" width="656" height="34" fill="#eef2f9"/>
+    <text x="52" y="304" text-anchor="start">Поп</text>
+    <text x="440" y="304" text-anchor="middle">4</text>
+    <text x="600" y="304" text-anchor="middle">4</text>
+
+    <text x="52" y="340" text-anchor="start">Дама</text>
+    <text x="440" y="340" text-anchor="middle">3</text>
+    <text x="600" y="340" text-anchor="middle">3</text>
+
+    <rect x="32" y="350" width="656" height="34" fill="#eef2f9"/>
+    <text x="52" y="374" text-anchor="start">Осмица (8)</text>
+    <text x="440" y="374" text-anchor="middle">0</text>
+    <text x="600" y="374" text-anchor="middle">0</text>
+
+    <text x="52" y="410" text-anchor="start">Седмица (7)</text>
+    <text x="440" y="410" text-anchor="middle">0</text>
+    <text x="600" y="410" text-anchor="middle">0</text>
+  </g>
+  <line x1="520" y1="140" x2="520" y2="424" stroke="#cfd8e8" stroke-width="1"/>
+
+  <text x="360" y="444" text-anchor="middle" font-size="12.5" fill="#5a6b86">Във всяка ръка общо 152 точки. При „Всичко коз“ всяка боя се чете като коз.  ·  18+ Играйте отговорно.</text>
+</svg>

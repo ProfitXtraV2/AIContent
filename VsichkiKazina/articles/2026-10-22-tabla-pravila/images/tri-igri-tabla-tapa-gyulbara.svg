@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 430" font-family="'Segoe UI',Roboto,Arial,sans-serif" role="img" aria-label="Обикновена табла, тапа и гюлбара — една дъска, три игри. Обикновена табла: противоположни посоки, удряш самотен пул и той отива на бара. Тапа: противоположни посоки, не удряш, а затискаш пула отгоре, без бар. Гюлбара: една посока, без удряне, 15 пула от едно поле, чифтът се трупа до 6-6. Във всички целта е да изведеш първи 15-те си пула.">
+  <rect x="12" y="12" width="656" height="406" rx="16" fill="#f6f8fc" stroke="#cfd8e8" stroke-width="2"/>
+  <text x="340" y="46" text-anchor="middle" font-size="24" font-weight="700" fill="#15223b">Обикновена табла, тапа и гюлбара</text>
+  <text x="340" y="72" text-anchor="middle" font-size="14" fill="#5a6b86">една дъска, три различни игри</text>
+
+  <!-- card A: обикновена табла -->
+  <rect x="40" y="90" width="600" height="86" rx="10" fill="#ffffff" stroke="#cfd8e8" stroke-width="1.5"/>
+  <rect x="40" y="90" width="8" height="86" rx="4" fill="#2f6f8f"/>
+  <text x="64" y="120" text-anchor="start" font-size="18" font-weight="700" fill="#15223b">Обикновена табла</text>
+  <text x="64" y="144" text-anchor="start" font-size="14" fill="#1a2740">Двамата се движат в противоположни посоки.</text>
+  <text x="64" y="166" text-anchor="start" font-size="14" fill="#1a2740">Удряш самотен пул и той отива на бара.</text>
+
+  <!-- card B: тапа -->
+  <rect x="40" y="186" width="600" height="86" rx="10" fill="#ffffff" stroke="#cfd8e8" stroke-width="1.5"/>
+  <rect x="40" y="186" width="8" height="86" rx="4" fill="#c9962e"/>
+  <text x="64" y="216" text-anchor="start" font-size="18" font-weight="700" fill="#15223b">Тапа</text>
+  <text x="64" y="240" text-anchor="start" font-size="14" fill="#1a2740">Пак в противоположни посоки, но не удряш.</text>
+  <text x="64" y="262" text-anchor="start" font-size="14" fill="#1a2740">Затискаш пула отгоре и го похлупваш. Без бар.</text>
+
+  <!-- card C: гюлбара -->
+  <rect x="40" y="282" width="600" height="86" rx="10" fill="#ffffff" stroke="#cfd8e8" stroke-width="1.5"/>
+  <rect x="40" y="282" width="8" height="86" rx="4" fill="#b8341f"/>
+  <text x="64" y="312" text-anchor="start" font-size="18" font-weight="700" fill="#15223b">Гюлбара</text>
+  <text x="64" y="336" text-anchor="start" font-size="14" fill="#1a2740">Двамата вървят в една посока, без удряне.</text>
+  <text x="64" y="358" text-anchor="start" font-size="14" fill="#1a2740">15 пула от едно поле; чифтът се трупа до 6-6.</text>
+
+  <text x="340" y="400" text-anchor="middle" font-size="13" fill="#5a6b86">Във всички целта е да изведеш първи 15-те си пула · 18+ Играйте отговорно.</text>
+</svg>

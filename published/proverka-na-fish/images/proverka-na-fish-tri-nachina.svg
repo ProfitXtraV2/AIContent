@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 486" font-family="'Segoe UI',Arial,sans-serif" role="img" aria-label="Трите начина за проверка на тото фиш: онлайн на info.toto.bg по числа и тираж, в приложението Спорт Тото, и на гише в тото пункт; официалните резултати са на info.toto.bg, моментните игри на toto.bg">
+  <rect x="0" y="0" width="820" height="486" rx="16" fill="#0f1b2d"/>
+  <text x="32" y="46" fill="#ffffff" font-size="22" font-weight="700">Проверка на тото фиш: трите начина</text>
+  <text x="32" y="72" fill="#8fb4d9" font-size="13.5">Проверката е безплатна. Числата ги гледате само на официалния източник.</text>
+
+  <!-- Card 1: Онлайн -->
+  <g>
+    <rect x="24" y="96" width="248" height="266" rx="12" fill="#17273d" stroke="#2a3d57" stroke-width="1"/>
+    <text x="44" y="130" fill="#ffffff" font-size="16" font-weight="700">1 · Онлайн</text>
+    <text x="44" y="150" fill="#6f8db0" font-size="11">info.toto.bg · „Проверка на фиш"</text>
+
+    <circle cx="50" cy="178" r="3" fill="#5fd0a0"/>
+    <text x="62" y="182" fill="#dce8f4" font-size="12.5">Въвеждате числата</text>
+    <text x="62" y="200" fill="#dce8f4" font-size="12.5">по области + тиража</text>
+
+    <circle cx="50" cy="230" r="3" fill="#5fd0a0"/>
+    <text x="62" y="234" fill="#dce8f4" font-size="12.5">Няма баркод и QR код</text>
+
+    <circle cx="50" cy="264" r="3" fill="#5fd0a0"/>
+    <text x="62" y="268" fill="#dce8f4" font-size="12.5">Безплатно, без акаунт</text>
+
+    <circle cx="50" cy="298" r="3" fill="#5fd0a0"/>
+    <text x="62" y="302" fill="#dce8f4" font-size="12.5">Системен фиш: полето</text>
+    <text x="62" y="320" fill="#dce8f4" font-size="12.5">„СИСТЕМА"</text>
+  </g>
+
+  <!-- Card 2: Приложение -->
+  <g>
+    <rect x="286" y="96" width="248" height="266" rx="12" fill="#17273d" stroke="#2a3d57" stroke-width="1"/>
+    <text x="306" y="130" fill="#ffffff" font-size="16" font-weight="700">2 · Приложение</text>
+    <text x="306" y="150" fill="#6f8db0" font-size="11">„Спорт Тото" · Android и iOS</text>
+
+    <circle cx="312" cy="178" r="3" fill="#6bb0ff"/>
+    <text x="324" y="182" fill="#dce8f4" font-size="12.5">Тиражи и резултати</text>
+    <text x="324" y="200" fill="#dce8f4" font-size="12.5">на телефона</text>
+
+    <circle cx="312" cy="230" r="3" fill="#6bb0ff"/>
+    <text x="324" y="234" fill="#dce8f4" font-size="12.5">Бърза справка в движение</text>
+
+    <circle cx="312" cy="264" r="3" fill="#6bb0ff"/>
+    <text x="324" y="268" fill="#dce8f4" font-size="12.5">Линк към App Store</text>
+    <text x="324" y="286" fill="#dce8f4" font-size="12.5">и Google Play от сайта</text>
+  </g>
+
+  <!-- Card 3: На гише -->
+  <g>
+    <rect x="548" y="96" width="248" height="266" rx="12" fill="#17273d" stroke="#2a3d57" stroke-width="1"/>
+    <text x="568" y="130" fill="#ffffff" font-size="16" font-weight="700">3 · На гише</text>
+    <text x="568" y="150" fill="#6f8db0" font-size="11">тото пункт</text>
+
+    <circle cx="574" cy="178" r="3" fill="#ffd36b"/>
+    <text x="586" y="182" fill="#dce8f4" font-size="12.5">Терминалът чете фиша</text>
+
+    <circle cx="574" cy="212" r="3" fill="#ffd36b"/>
+    <text x="586" y="216" fill="#dce8f4" font-size="12.5">Пазете фиша чист и здрав</text>
+
+    <circle cx="574" cy="258" r="3" fill="#ffd36b"/>
+    <text x="586" y="262" fill="#dce8f4" font-size="12.5">Пунктовият бон е</text>
+    <text x="586" y="280" fill="#dce8f4" font-size="12.5">документът за изплащане</text>
+
+    <circle cx="574" cy="312" r="3" fill="#ffd36b"/>
+    <text x="586" y="316" fill="#dce8f4" font-size="12.5">Пазете фиша до изплащане</text>
+  </g>
+
+  <!-- Footer strip -->
+  <rect x="24" y="382" width="772" height="80" rx="12" fill="#13223a" stroke="#2a3d57" stroke-width="1"/>
+  <text x="44" y="412" fill="#5fd0a0" font-size="12" font-weight="700">ОФИЦИАЛНИ РЕЗУЛТАТИ</text>
+  <text x="44" y="434" fill="#dce8f4" font-size="12.5">Числа и печеливши групи по тиражи: info.toto.bg · моментни игри: toto.bg</text>
+  <text x="44" y="453" fill="#6f8db0" font-size="11.5">Вторият тото шанс е жребий между касовите бележки, не се проверява със свои числа.</text>
+  <text x="776" y="412" fill="#ffd36b" font-size="12" font-weight="700" text-anchor="end">18+ Играйте отговорно</text>
+</svg>

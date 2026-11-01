@@ -81,5 +81,88 @@
     ],
     "tracking_score": 52,
     "score_formula": "rankings45% (pos-based) + authority30% (DR·8) + indexation15% + CWV10% (lab, noisy)"
+  },
+  {
+    "month": "2026-11",
+    "date": "2026-11-01",
+    "authority": {
+      "dr": 5.0,
+      "organic_keywords": 5,
+      "organic_traffic": 42,
+      "refdomains": 100
+    },
+    "search": {
+      "impressions_90d": 23598,
+      "clicks_90d": 427,
+      "avg_position": 21.4,
+      "pages_indexed": 161,
+      "striking_distance": 103,
+      "impressions_28d": 4543,
+      "clicks_28d": 93
+    },
+    "cwv": {
+      "mobile_score": 76,
+      "mobile_lcp_s": 5.6,
+      "desktop_score": 97,
+      "desktop_cls": 0.0
+    },
+    "indexation": {
+      "sitemap_urls": 153,
+      "pages_with_impressions": 161
+    },
+    "top_queries": [
+      {
+        "q": "kazina",
+        "imp": 1140,
+        "pos": 10.2
+      },
+      {
+        "q": "всички казина",
+        "imp": 885,
+        "pos": 8.6
+      },
+      {
+        "q": "bg kazina",
+        "imp": 133,
+        "pos": 12.4
+      },
+      {
+        "q": "всички казина в българия",
+        "imp": 155,
+        "pos": 7.9
+      },
+      {
+        "q": "всички казино сайтове",
+        "imp": 37,
+        "pos": 11.5
+      },
+      {
+        "q": "каззина",
+        "imp": 115,
+        "pos": 6.2
+      },
+      {
+        "q": "лицензирани онлайн казина в българия",
+        "imp": 901,
+        "pos": 19.5
+      },
+      {
+        "q": "kazinna",
+        "imp": 51,
+        "pos": 7.5
+      },
+      {
+        "q": "вазино",
+        "imp": 29,
+        "pos": 8.4
+      },
+      {
+        "q": "всички онлайн бг казина",
+        "imp": 32,
+        "pos": 4.1
+      }
+    ],
+    "tracking_score": 53,
+    "score_formula": "rankings45% (pos-based) + authority30% (DR·8) + indexation15% + CWV10% (lab, noisy)"
   }
 ]
