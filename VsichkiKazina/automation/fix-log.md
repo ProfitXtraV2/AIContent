@@ -3279,3 +3279,48 @@ No board `gemini` values changed (nothing processed). `build_dashboard.py` (buff
 `build_feed.py` (22 approved) re-run on main (timestamp-only regeneration; board content
 unchanged). No posted/live content edited; nothing merged; no new article branches created; no
 `content/*` branch touched; API key never printed.
+
+## 2026-11-01 — nightly flag + score fixes
+
+### JOB A — publish-blocking flags
+Scanned `05b-final-draft.md` on all 322 `content/*` branches (320 carry a draft file;
+`2026-09-07-bonusi-za-dobre-doshli-2026` and `2026-09-07-najdobri-bonusi-za-dobre-doshli-2026`
+have none — vk-0002/the welcome-bonus duplicate pair, status `failed`/not drafted) for the
+blocking markers `[VERIFY …]` · `[DATA NEEDED]` · `[CONFLICT]` · `[18+ / RG LINE]` ·
+`[AUTHOR …]` · `[BRAND …]` · `[EDITORIAL]` · `[уточни …]` · `[провери …]` (exact + a
+case-insensitive second pass).
+**Zero blocking markers found — no branch needed a flag fix.** (Inline markdown links
+`[текст](/url/)` are not flags and are not matched.) Nothing committed for Job A.
+
+### JOB B — low Gemini score
+**Zero in-scope targets.** Of the 235 `drafted`/`approved` rows: 167 carry a real Step-7
+verdict and all are already `human ≥80`; 0 are `ai <n>`; 0 are `human <n>` with n<80; the
+remaining 68 are marked `skipped` in the `gemini` column (Step-7 never run — Gemini-credit
+depletion on earlier batches), carry no verdict, and so are not "low-rated" and stay outside
+the target definition (consistent with the 2026-10-28 → 10-31 runs). Nothing humanised;
+idempotent — flag-free, already-`human` drafts left untouched.
+
+### POSTED — needs human review
+No new items this run. vk-0063 `2026-09-13-nv-casino-zakonno-li-e` (PR #79) remains `ai 75` /
+status **posted/live** from prior runs — live, never edited per policy; a human should decide
+whether to re-humanise + re-publish off-line.
+
+### Deferred
+None for JOB B (no low-rated targets, so the ≤10/night cap was not reached). Standing backlog
+unrelated to this run's target definition: the 68 `skipped` drafts (vk-0081 … vk-0222 et al.)
+still await a Step-7 Gemini verdict — owned by the autopilot's Step-7 stage once credits allow;
+flagged here for visibility, not actioned by the fixer.
+
+### Finish
+No board `gemini` values changed (nothing processed). `build_dashboard.py` (buffer 234/10) and
+`build_feed.py` (20 approved) re-run on main. Unlike prior nights this was **not** timestamp-only:
+the feed regenerated `published/igri-s-karti/` (vk-0299, **approved**, not posted) because its
+`published/` output was stale — the 2026-10-28 nightly humanise (ai 65 → `human 85`) landed on
+`content/2026-10-27-igri-s-karti` and updated the board, but the feed had never been rebuilt to
+propagate it. `build_feed.py` deterministically pulled the current approved source from the
+content branch, dropping the two redundant synthesis sections („Срещу хора/къщата/сам",
+„Умение или късмет") exactly as the board note records; content_hash refreshed in
+`index.json`/`meta.json`. No facts/links/RG/byline changed by the fixer; no draft text authored
+by hand. `status.json` also flipped some `verify_flags` null→0 (dashboard count normalisation).
+No posted/live content edited; nothing merged; no new article branches created; no `content/*`
+branch touched; API key never printed.
