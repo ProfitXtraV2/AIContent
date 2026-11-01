@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 22,
+  "count": 20,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -80,17 +80,10 @@
       "status": "approved"
     },
     {
-      "slug": "teglene-na-toto-dnes",
-      "title": "Теглене на Тото: дни, час и къде да гледате | Всички Казина",
-      "date_modified": "2026-10-27",
-      "content_hash": "565b09b1a771de358797f0f5cfb12f5683c697c3e0c0fafdc366f89adf1fbe87",
-      "status": "approved"
-    },
-    {
       "slug": "igri-s-karti",
       "title": "Игри с карти: кои се играят в България и как",
       "date_modified": "2026-10-27",
-      "content_hash": "be5f6aee8dceffe2dfa78f35a150dc6124cbb68eea74ed218b7105641fbd71a8",
+      "content_hash": "f57429c7191f8e90815ce5dbf3b19b56adee7fe6d26353a017570728f919dcdd",
       "status": "approved"
     },
     {
@@ -98,13 +91,6 @@
       "title": "Лудогорец: история, титли и Хювефарма Арена | Всички Казина",
       "date_modified": "2026-10-28",
       "content_hash": "0d2cbc705a0ed6e16dddeb3ef9acc9a3c9d7fe38b7ef447efd46f3564858dcc1",
-      "status": "approved"
-    },
-    {
-      "slug": "tenis-pravila-tochkuvane",
-      "title": "Тенис правила и точкуване: гейм, сет и тайбрек | Всички Казина",
-      "date_modified": "2026-10-28",
-      "content_hash": "40c632f4b7622c4dd21ce0fdf2539a30f41efb83affa44c7e7912333568f7cad",
       "status": "approved"
     },
     {
@@ -157,5 +143,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-10-31T23:03:13Z"
+  "generated_utc": "2026-11-01T06:53:09Z"
 }
