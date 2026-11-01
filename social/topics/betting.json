@@ -1,0 +1,41 @@
+{
+  "order": 2,
+  "label": {
+    "bg": "Спортни залози",
+    "en": "Sports betting"
+  },
+  "about": "A sports betting information site (football and other sports with betting): 18+, no bookmaker, no odds offer, no call to bet.",
+  "mark_18": true,
+  "compliance_required": true,
+  "palette": {
+    "green": "#1D5C3A",
+    "gold": "#E0B23A",
+    "ink": "#121619",
+    "paper": "#F4F6F2"
+  },
+  "settings": {
+    "bg": {
+      "compliance_long": "18+ Залаганията могат да пристрастят. Залагайте отговорно.",
+      "compliance_short": "18+ Залагайте отговорно.",
+      "voice_notes": "Спокойно и фактологично, като спортен анализ; учтиво „вие“; без обещания за печалба; без тирета (—).",
+      "eligible_types": "guide, comparison, review, news",
+      "offer_words": "бонус, бонуса, бонуси, оферта, оферти, промоция, промоции, промо код, бонус код, безрисков залог, free bet, фрийбет, кешбек, cashback, засилени коефициенти",
+      "register_words": "регистрирай се, регистрирайте се, направи депозит, направете депозит, депозирай, депозирайте, заложи сега, заложете сега, сложи залог, вземи бонуса, вземете бонуса, sign up, bet now, deposit now, claim now"
+    },
+    "en": {
+      "compliance_long": "18+ Betting can be addictive. Bet responsibly.",
+      "compliance_short": "18+ Bet responsibly.",
+      "voice_notes": "Calm and factual, like sports analysis; no promise of winning; no em-dashes (—).",
+      "eligible_types": "guide, comparison, review, news",
+      "offer_words": "bonus, offer, promotion, promo code, free bet, risk-free bet, cashback, boosted odds",
+      "register_words": "sign up, register now, deposit, bet now, place a bet, claim now"
+    }
+  },
+  "writing_rules": [
+    "The only calls to action are to read the article, or to save or share the post. No \"bet now\", \"register\", \"deposit\", no bonus, free bet or odds offer, no bookmaker name: not in the text, the image text, the hashtags or the alt text.",
+    "No tips presented as sure: never \"sure win\", \"guaranteed\", \"lock\". A prediction is always the article's analysis, with its reasons.",
+    "Match facts (scores, dates, players, records) only as the source states them."
+  ],
+  "art_rules": "NO bookmaker interface, odds board or betting slip, NO club crests, kits or real players' faces, NO money. Neutral and calm: never depict winning or euphoria.",
+  "review_rules": "Any bookmaker logo or name, betting interface or slip, invented odds or offer, call to bet, register or deposit, real club crest or player likeness, or glamorised winning is a failure. The mark 18+ must be on every image."
+}

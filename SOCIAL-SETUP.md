@@ -11,6 +11,39 @@ gets administrator rights on the host or SSH into the guest.
 The design is in the XtraFlow tech spec "AIContent: постове в социалните мрежи". The code is in
 `scripts/social/`, the guest's files are in `scripts/social/deploy/` (see its README).
 
+## The simple way: publishing from a team member's computer
+
+Since 2026-11 each person who publishes runs Postiz and the publishing check on their own
+computer, instead of the guest below. One brand is published from one computer: the brand's
+`publisher` setting names that person's GitHub login, and only that computer hands its posts over.
+
+1. **Once, the person who already publishes** makes the team code from their working Postiz:
+   `python scripts/social/local/setup.py team-code --from <their Postiz folder>`. It holds the
+   network apps' keys (Meta and others), so it is sent only in private.
+2. **Each person** opens PowerShell and pastes one line:
+   `irm https://raw.githubusercontent.com/ProfitXtraV2/AIContent/main/scripts/social/local/install.ps1 | iex`.
+   It installs Git, Python, GitHub CLI, ngrok and Docker Desktop (a restart, then the same line
+   again), signs in to GitHub and runs the setup, which asks in Bulgarian for:
+   - the team code;
+   - a free ngrok account and its domain;
+   - the person's own Postiz account and channels (Add Channel);
+   - Postiz's API key.
+3. **The setup prints two addresses for the Meta app.** Whoever runs the app adds them once
+   (Valid OAuth Redirect URIs) and, while the app is not Live, adds the person's accounts as testers.
+4. **The setup links the brands this computer publishes.** It opens the issue
+   "social: settings <brand>" with `publisher` and the accounts' channel IDs; merging its PR makes
+   it count.
+5. **Windows runs it on its own:** the check every hour at :10, the control loop every 5 minutes,
+   Postiz and the tunnel at logon (`scripts/social/local/run.py`). The computer must be on when a
+   post is due. `python run.py status` shows what it publishes.
+
+Everything personal stays in `%USERPROFILE%\px-social` and is never committed: the keys, Postiz,
+and the check's record. A new brand needs no code: the dashboard's Settings tab has
+**+ New brand** (name, site, topic, language). Its topic (`social/topics/`: casino, sports
+betting, sport, dental, general) gives the brand its rules and first settings; the PR it opens
+adds the brand to `social/brands.json` and to the dashboard (`docs/social/`). Every brand is shown
+at `docs/social/?brand=<key>`.
+
 ---
 
 ## Rollout order and gates

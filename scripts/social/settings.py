@@ -30,7 +30,7 @@ BRAND_DEFAULTS = {
     "operator_names_manual": "", "address_pattern": "", "brand_hashtags": "",
     "image_budget_usd": "60", "packs_per_run": "5", "analytics_source": "ahrefs",
     "identities_verified": "", "offer_words": "", "register_words": "",
-    "allowed_number_names": "", "art": "every slide",
+    "allowed_number_names": "", "art": "every slide", "publisher": "",
 }
 ACCOUNT_DEFAULTS = {
     "postiz_channel_id": "", "active": "off", "posts_per_article": "1",
@@ -158,13 +158,16 @@ def parse(md_text, brand_key="vsichkikazina"):
         "register_words": [w.lower() for w in mdtable.split_list(raw["register_words"])],
         "allowed_number_names": mdtable.split_list(raw["allowed_number_names"]),
         "art": raw["art"].strip().lower() or "every slide",
+        # the GitHub login of the person whose computer publishes the brand (its Postiz and check)
+        "publisher": raw["publisher"].strip().lstrip("@"),
     }
     try:
         brand["image_budget_usd"] = float(str(raw["image_budget_usd"]).strip() or 60)
     except ValueError:
         errors.append({"scope": "brand", "message": "image_budget_usd must be a number of dollars"})
         brand["image_budget_usd"] = 0.0
-    errors += _brand_errors(brand, raw, b)
+    # a topic without a compliance line (sport, general) may leave it empty
+    errors += _brand_errors(brand, raw, dict(b, _compliance_required=brands.topic(brand_key).get("compliance_required", True)))
 
     accounts = []
     at = mdtable.find(md_text, "account_id", "network")
@@ -194,8 +197,10 @@ def _brand_errors(brand, raw, b):
         err("social must be on or off")
     if brand["social"] and not brand["identities_verified"]:
         err("social can be switched on only after the identities are verified (identities_verified, I6)")
-    if not brand["compliance_long"]:
+    if not brand["compliance_long"] and b.get("_compliance_required", True):
         err("compliance_long (the brand's compliance line) is empty")
+    if brand["publisher"] and not re.fullmatch(r"[A-Za-z0-9](?:[A-Za-z0-9-]{0,38})", brand["publisher"]):
+        err(f"publisher {brand['publisher']!r} is not a GitHub login")
     if "hub-intro" in brand["eligible_types"]:
         err("hub-intro can never be an eligible article type (section intros get posts only on request)")
     if not brand["eligible_types"]:

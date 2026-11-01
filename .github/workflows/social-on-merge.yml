@@ -34,10 +34,12 @@ jobs:
           set -euo pipefail
           git pull --ff-only -q || true
           python3 scripts/social/pr_sync.py merged "$PR_NUMBER"
-          python3 scripts/social/build_social_dashboard.py vsichkikazina
+          for brand in $(python3 scripts/social/brands.py list); do
+            python3 scripts/social/build_social_dashboard.py "$brand"
+          done
           git config user.name "github-actions[bot]"
           git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
-          git add VsichkiKazina/social/packs.md VsichkiKazina/social/requests.md docs/data/social 2>/dev/null || true
+          git add */social/packs.md */social/requests.md docs/data/social 2>/dev/null || true
           git commit -m "social: record PR #$PR_NUMBER (${{ github.event.pull_request.merged && 'merged' || 'closed' }})" \
             && (git push || (git pull --no-rebase --no-edit && git push)) \
             || echo "nothing to record"

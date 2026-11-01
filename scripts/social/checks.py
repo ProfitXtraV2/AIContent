@@ -157,8 +157,11 @@ def check_post(pack, post, fields, ctx):
 
     # compliance (B5): the brand line word for word (the short form is allowed on X)
     lines_ok = [b.get("compliance_long", "")] + ([b.get("compliance_short", "")] if net == "x" else [])
-    ok = any(line and norm(line) in norm(text) for line in lines_ok)
-    out.append(_r("compliance", ok, "" if ok else f"missing the line: {lines_ok[-1]}"))
+    if not b.get("compliance_long"):                    # a topic with no line (sport, general): nothing to find
+        out.append(_r("compliance", True, "n/a: the brand has no compliance line"))
+    else:
+        ok = any(line and norm(line) in norm(text) for line in lines_ok)
+        out.append(_r("compliance", ok, "" if ok else f"missing the line: {lines_ok[-1]}"))
 
     # advertising (B5): no operator, no amount next to an offer word, no call to register or deposit
     fields_text = {"text": text, "image text": "\n".join(image_lines), "hashtags": " ".join(tags),

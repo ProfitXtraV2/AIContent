@@ -1,0 +1,41 @@
+{
+  "order": 4,
+  "label": {
+    "bg": "Зъболекарска / здраве",
+    "en": "Dental / health"
+  },
+  "about": "A dental or health information site: no medical promise, no diagnosis, a line that the post is no medical advice.",
+  "mark_18": false,
+  "compliance_required": true,
+  "palette": {
+    "green": "#1B6F8C",
+    "gold": "#E3B04B",
+    "ink": "#16242C",
+    "paper": "#F5F8FA"
+  },
+  "settings": {
+    "bg": {
+      "compliance_long": "Информацията не замества консултация с лекар по дентална медицина.",
+      "compliance_short": "Не е медицински съвет.",
+      "voice_notes": "Спокойно, ясно и грижовно; учтиво „вие“; без плашене и без обещания; без тирета (—).",
+      "eligible_types": "guide, comparison, review, news",
+      "offer_words": "отстъпка, промоция, безплатен преглед, оферта",
+      "register_words": "запишете се сега, обадете се сега, резервирайте сега"
+    },
+    "en": {
+      "compliance_long": "This information does not replace a consultation with a dentist.",
+      "compliance_short": "Not medical advice.",
+      "voice_notes": "Calm, clear and caring; no scaring and no promises; no em-dashes (—).",
+      "eligible_types": "guide, comparison, review, news",
+      "offer_words": "discount, promotion, free check-up, offer",
+      "register_words": "book now, call now, sign up now"
+    }
+  },
+  "writing_rules": [
+    "Never promise a medical result: no \"painless\", \"guaranteed\", \"permanent\", \"100%\" unless the source says it word for word about a fact, not a promise.",
+    "No diagnosis and no advice for a person's own case: send them to a dentist.",
+    "Prices, durations and success rates only as the source states them."
+  ],
+  "art_rules": "NO blood, open wounds, needles, drills in a mouth or real patients; NO before-and-after pictures. Clean, calm and friendly: teeth, toothbrushes, a dental chair, a calendar.",
+  "review_rules": "Any blood, wound, needle, real patient, before-and-after picture or promise of a medical result is a failure."
+}

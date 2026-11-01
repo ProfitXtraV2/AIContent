@@ -18,6 +18,16 @@ tech spec flow 1 (approval to pack PR), flow 2 (review loop), flow 10 (fix PRs),
 | Image key | `SOCIAL_GEMINI_API_KEY` (cloud environment secret). **Never** use `GEMINI_API_KEY` for social work |
 | Git identity | the machine user the routine account is connected as; never Nikolay's account |
 
+## Every brand
+
+Do the procedure below once **for every brand** that `python3 scripts/social/brands.py list` prints
+(the brands with social settings; new ones are added from the dashboard), Всички Казина first. For
+another brand, read `vsichkikazina`, `VsichkiKazina` and `vk` below as that brand's key, folder and
+prefix (from `social/brands.json`), and use its own prompts and style in `<folder>/social/prompts/`
+and `<folder>/social/style/`: its topic's rules are written there. A brand with no article library
+(no `library/<brand>/index.json` items) gets posts only from its requests; skip what step 3 says
+about articles for it. A brand whose settings have `social: off` is skipped at step 0, as below.
+
 ## Progress
 
 Add the stage `"Social"` to `run-status.json` `progress.stages` when this run starts, set

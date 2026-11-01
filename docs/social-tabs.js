@@ -38,9 +38,9 @@ const SocialTabs = (() => {
                             link: 'in post', slots: 'daily 12:30, 19:30', max_per_day: '2', emoji: 'light' };
   const BRAND_DEFAULT = { social: 'off', pause: 'off', time_zone: 'Europe/Sofia', language: 'bg',
                           eligible_types: 'guide, comparison, review, news', allowed_link_areas: '/blog/',
-                          image_budget_usd: '60', packs_per_run: '5', analytics_source: 'ahrefs', art: 'every slide' };
+                          image_budget_usd: '60', packs_per_run: '5', analytics_source: 'ahrefs', art: 'every slide', publisher: '' };
   // the brand's keys in the Settings form, and the input of a field: on/off, choices, a number, a long text or a line
-  const BRAND_FIELDS = [['social', 'onoff'], ['pause', 'onoff'], ['language', 'text'], ['time_zone', 'text'],
+  const BRAND_FIELDS = [['social', 'onoff'], ['pause', 'onoff'], ['publisher', 'text'], ['language', 'text'], ['time_zone', 'text'],
                         ['voice_notes', 'long'], ['compliance_long', 'long'], ['compliance_short', 'text'],
                         ['eligible_types', 'text'], ['allowed_link_areas', 'text'], ['address_pattern', 'text'],
                         ['brand_hashtags', 'text'], ['image_budget_usd', 'number'], ['packs_per_run', 'number'],
@@ -56,6 +56,8 @@ const SocialTabs = (() => {
              'Главният ключ. да: AI пише постове за марката и те се публикуват. не: нищо не се пише и не излиза. Може да е „да“ само когато „профилите проверени“ е попълнено.'],
     pause: ['on: nothing goes out. At the next check (minute :10) the posts already handed to Postiz are pulled back and wait; with off they are planned again. To stop within 5 minutes, use "Stop now" above.',
             'да: нищо не излиза. При следващата проверка (в :10) постовете, вече подадени към Postiz, се връщат и чакат; с „не“ се планират отново. За спиране до 5 минути използвай „Спри веднага“ горе.'],
+    publisher: ['The GitHub login of the person whose computer publishes this brand: their Postiz and their publishing check. Only that computer hands posts over, so nothing goes out twice. The local setup fills it in.',
+                'GitHub акаунтът на човека, от чийто компютър се публикува марката: неговият Postiz и неговата проверка. Само този компютър подава постове, затова нищо не излиза два пъти. Локалната инсталация го попълва сама.'],
     language: ['The language of the posts (bg = Bulgarian).', 'Езикът на постовете (bg = български).'],
     time_zone: ['The time zone of every hour in these settings (the posting hours, "Not before"). Europe/Sofia is Bulgarian time.',
                 'Часовата зона на всички часове тук (часовете за публикуване, „Не преди“). Europe/Sofia е българско време.'],
@@ -126,6 +128,8 @@ const SocialTabs = (() => {
     eligible_types: ['always', 'Required: empty stops every post of the brand.', 'Задължително: празно спира всички постове на марката.'],
     allowed_link_areas: ['always', 'Required: empty, and no post with a link passes the checks.',
                          'Задължително: празно и никой пост с линк не минава проверките.'],
+    publisher: ['social', 'Required while social is on: without it no computer publishes the brand.',
+                'Задължително, щом „постове“ е „да“: без него никой компютър не публикува марката.'],
     identities_verified: ['social', 'Required while social is on: empty stops every post of the brand.',
                           'Задължително, щом „постове“ е „да“: празно спира всички постове на марката.'],
     active: ['on', 'Required: on, or this profile gets no posts.', 'Задължително „да“, иначе профилът не получава постове.'],
@@ -137,6 +141,7 @@ const SocialTabs = (() => {
                        'Задължително, щом профилът е включен: празно и той не получава постове.'],
   };
   let tick = 0, freshSchedule = null, livePRs = null, brandKey = 'vsichkikazina', dataBase = './data/social';
+  let catalog = null;                                   // docs/data/social/brands.json (brands.py dashboard)
   const filters = { state: '', network: '', account_id: '' };
   const ui = { sel: null, selPr: null, pack: null, loading: {}, cmd: null, msg: null, dirty: false, board: null };
 
@@ -230,7 +235,14 @@ const SocialTabs = (() => {
     'Follow-up after (days)': 'Втори пост след (дни)', 'Max a day': 'Най-много на ден', 'Link': 'Линк', 'Max hashtags': 'Най-много хаштагове',
     'Emoji': 'Емоджи', 'Test post seen (date, who)': 'Видян тестов пост (дата, кой)', 'Profile link set': 'Линк в профила',
     'Tone (instead of the brand\'s)': 'Тон (вместо този на марката)',
-    'social': 'постове', 'pause': 'пауза', 'time zone': 'часова зона', 'language': 'език',
+    'social': 'постове', 'pause': 'пауза', 'time zone': 'часова зона', 'language': 'език', 'publisher': 'публикува от (GitHub акаунт)',
+    '+ New brand': '+ Нова марка', 'Name': 'Име', 'Site': 'Сайт', 'Topic': 'Тема', 'Language': 'Език',
+    'Create in GitHub ↗': 'Създай в GitHub ↗',
+    'A new brand gets its own settings, accounts and rules from its topic, all switched off. GitHub opens: press "Create", then Merge the PR it links.':
+      'Новата марка получава свои настройки, профили и правила от темата си, всичко изключено. Отваря се GitHub: натисни „Create“, после Merge на PR-а, към който води.',
+    'Write the name and the site (https://…).': 'Напиши името и сайта (https://…).',
+    'Opened GitHub in a new tab: press the green "Create" there. In about a minute the issue links a PR with the new brand: Merge it and the brand appears here.':
+      'Отворих GitHub в нов таб: натисни там зеленото „Create“. След около минута в issue-то идва линк към PR с новата марка: натисни Merge и марката се появява тук.',
     'voice notes': 'тон и стил (указания към AI)', 'brand hashtags': 'хаштагове на марката', 'art': 'снимки в карусела',
     'every slide': 'на всеки слайд', 'cover': 'само на корицата', 'operator names manual': 'имена на оператори (ръчно)',
     'offer words': 'забранени думи: оферти', 'register words': 'забранени думи: регистрация',
@@ -287,9 +299,16 @@ const SocialTabs = (() => {
 
   // brand: vsichkikazina | dentalvia; prefix: vk | dv; base: the folder of the JSON files
   async function load(brand, prefix, base) {
+    if (brand !== brandKey) {                            // another brand (the social page's picker): nothing carries over
+      livePRs = null; freshSchedule = null; ui.board = null; ui.sel = null; ui.selPr = null; ui.pack = null; ui.msg = null;
+    }
     brandKey = brand;
     dataBase = base;
     tick++;
+    try {                                                // the brands added from the dashboard, and the topics
+      catalog = await pages(`${base}/brands.json`);
+      for (const b of catalog.brands || []) BRANDS[b.key] = Object.assign({}, BRANDS[b.key] || {}, b);
+    } catch (e) { catalog = catalog || null; }
     const out = { brand, review: null, schedule: null, prs: livePRs, missing: false };
     try { out.review = await pages(`${base}/${brand}-review.json`); } catch (e) { out.missing = true; }
     try { out.schedule = await pages(`${base}/${brand}-schedule.json`); } catch (e) { out.missing = true; }
@@ -729,6 +748,31 @@ const SocialTabs = (() => {
     return `<label${kind === 'long' ? ' class="sc-wide"' : ''}${req ? ` data-req="${req[0]}"` : ''}>${cap}${input}</label>`;
   }
 
+  // a brand of its own topic (social/topics/): the issue "social: new brand", which intake.py makes a PR
+  const LANGUAGES = ['bg', 'en', 'de', 'ro', 'el', 'es', 'it', 'fr', 'pl', 'pt'];
+  function newBrandForm() {
+    const topics = (catalog && catalog.topics) || [{ key: 'casino', label: { bg: 'Казино', en: 'Casino' } }];
+    const label = x => (x.label && (x.label[lang()] || x.label.en)) || x.key;
+    return `<details class="sc-more sc-newbrand"><summary>${t('+ New brand')}</summary>
+      <form class="sc-form" data-sc-form="newbrand"><p class="hint">${esc(t('A new brand gets its own settings, accounts and rules from its topic, all switched off. GitHub opens: press "Create", then Merge the PR it links.'))}</p>
+      <div class="sc-grid"><label>${t('Name')}<input name="name" placeholder="Футбол 24"></label>
+      <label>${t('Site')}<input name="site" placeholder="https://example.bg" inputmode="url"></label>
+      <label>${t('Topic')}<select name="topic">${topics.map(x => `<option value="${esc(x.key)}" title="${esc(x.about || '')}">${esc(label(x))}</option>`).join('')}</select></label>
+      <label>${t('Language')}<select name="language">${LANGUAGES.map(l => `<option value="${l}">${l}</option>`).join('')}</select></label></div>
+      <button class="sc-btn sc-primary" type="submit">${t('Create in GitHub ↗')}</button></form></details>`;
+  }
+
+  async function saveNewBrand(form) {
+    const val = n => (form.querySelector(`[name="${n}"]`).value || '').trim();
+    const data = { name: val('name'), site: val('site').replace(/\/+$/, ''), topic: val('topic'), language: val('language') };
+    if (!data.name || !/^https:\/\/[^\s/]+\.[a-z]{2,}$/i.test(data.site)) { say('err', t('Write the name and the site (https://…).')); refresh(); return; }
+    const body = `<!-- social:brand ${JSON.stringify(data).replace(/-->/g, '--\\u003e')} -->\n**${t('+ New brand')}:** ${data.name} (${data.site}), ${data.topic}, ${data.language}\n\n${issueNote()}\n`;
+    await GH.openIssue(`social: new brand ${data.name}`.slice(0, 120), body);
+    say('ok', t('Opened GitHub in a new tab: press the green "Create" there. In about a minute the issue links a PR with the new brand: Merge it and the brand appears here.'));
+    ui.dirty = false;
+    refresh();
+  }
+
   // red: a required field that is empty while it counts (always, or while the brand or its account is on)
   function markMissing(form) {
     const on = name => { const el = form.querySelector(`[name="${name}"]`); return !!el && el.value === 'on'; };
@@ -752,6 +796,7 @@ const SocialTabs = (() => {
     if ((s.errors || []).length) html += `<div class="sc-banner sc-red"><b>${t('Settings errors')}</b><ul>${s.errors.map(e => `<li>${esc(e.message || e)}</li>`).join('')}</ul></div>`;
     html += `<p class="hint">${esc(t('Change any field and press "Save in GitHub". GitHub opens with your change: press "Create". In about a minute the issue links a PR: Merge it (anyone with write access may, you too) and the publishing check applies it at its next run (minute :10).'))}
       ${ext(GH.pullsUrl('is:pr is:open in:title "social: settings"'), t('Changes waiting for a Merge ↗'), 'sc-link')}</p>`;
+    html += newBrandForm();
     html += `<form class="sc-form sc-settings" data-sc-form="settings">` +
       `<p class="hint"><span class="sc-req">*</span> ${esc(t('Required: without it posts do not go out. In red: missing now. Hold the mouse over a name to see what it does.'))}</p>` +
       `<h3>${t('Brand')}</h3><div class="sc-grid">` +
@@ -840,6 +885,7 @@ const SocialTabs = (() => {
       ui.cmd = null; refresh();
     } else if (kind === 'request') continueRequest(form);
     else if (kind === 'settings') saveSettings(form);
+    else if (kind === 'newbrand') saveNewBrand(form);
   }
 
   function onInput(ev) {
@@ -960,7 +1006,8 @@ const SocialTabs = (() => {
     document.head.appendChild(el);
   })();
 
+  const brandList = () => (catalog && catalog.brands) || Object.entries(BRANDS).map(([key, b]) => Object.assign({ key }, b));
   return { load, renderReview, renderSchedule, renderRequests, renderSettings, mount, isBusy, banners, reviewRows, postView,
-           tabLabel, t };
+           tabLabel, t, brandList };
 })();
 if (typeof module !== 'undefined' && module.exports) module.exports = SocialTabs;

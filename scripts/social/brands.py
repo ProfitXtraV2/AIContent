@@ -1,42 +1,42 @@
-"""Per-brand constants that are code, not settings (settings live in <Brand>/social/settings.md).
+"""The brands of social posts and what does not change per post.
 
-Paths are relative to the repository root.
+The brands are data: social/brands.json (one entry per brand: its folder, name, ID prefix, site,
+topic, language, layout palette and fonts). A brand is added from the dashboard ("New brand"),
+which opens a PR (new_brand.py). Each topic (social/topics/<topic>.json: casino, betting, sport,
+dental, general) gives a new brand its rules and the first values of its settings. Settings
+live in <Brand>/social/settings.md. Paths are relative to the repository root.
+
+    python3 scripts/social/brands.py list                 # the brand keys, one per line
+    python3 scripts/social/brands.py dashboard <file>     # the brand list the dashboard reads
 """
+import json
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
+REGISTRY = ROOT / "social" / "brands.json"
+TOPICS = ROOT / "social" / "topics"
 
-BRANDS = {
-    "vsichkikazina": {
-        "dir": "VsichkiKazina",
-        "name": "Всички Казина",
-        "prefix": "vk",                      # queue ids vk-0300, request ids vk-req-012
-        "domain": "vsichkikazina.bg",
-        "site": "https://vsichkikazina.bg",
-        "queue_format": "vsichkikazina",     # build_dashboard.parse_queue brand
-        # B6: never these, whatever the settings say (operator, bonus and listing pages)
-        "forbidden_paths": ["/casino/", "/bonusi/", "/bonus-ruletka/", "/bonus-category/",
-                            "/sravni-kazina/", "/novi-kazina/", "/kazino-nisak-depozit/", "/go/"],
-        "palette": {"green": "#0F7B5A", "gold": "#C9962C", "ink": "#14161A", "paper": "#F7F4EC"},
-        "fonts": {"title": "Onest", "body": "Onest", "serif": "Literata"},
-        "mark_18": True,
-        # the publisher's record in WebPortals (read only): the live path of each slug (F2)
-        "publisher_record": "VsichkiKazina/_publisher/.published-state.json",
-    },
-    "dentalvia": {
-        "dir": "DentalVia",
-        "name": "DentalVia",
-        "prefix": "dv",
-        "domain": "dentalvia.de",
-        "site": "https://www.dentalvia.de",
-        "queue_format": "dentalvia",
-        "forbidden_paths": [],
-        "palette": {"green": "#1B6F8C", "gold": "#E3B04B", "ink": "#16242C", "paper": "#F5F8FA"},
-        "fonts": {"title": "Noto Sans", "body": "Noto Sans", "serif": "Noto Sans"},
-        "mark_18": False,
-        "publisher_record": "DentalVia/_publisher/.published-state.json",   # settled with Open question 18
-    },
-}
+
+def load_registry(path=REGISTRY):
+    return json.loads(Path(path).read_text(encoding="utf-8"))["brands"]
+
+
+BRANDS = load_registry()
+
+
+def topics(folder=TOPICS):
+    """{topic key: preset} from social/topics/*.json."""
+    got = {f.stem: json.loads(f.read_text(encoding="utf-8")) for f in Path(folder).glob("*.json")}
+    return dict(sorted(got.items(), key=lambda kv: (kv[1].get("order", 50), kv[0])))
+
+
+def topic(key):
+    """The preset of a brand's topic ({} when it has none)."""
+    name = BRANDS.get(key, {}).get("topic", "")
+    f = TOPICS / f"{name}.json"
+    return json.loads(f.read_text(encoding="utf-8")) if name and f.exists() else {}
+
 
 # B2: what each network takes. `limit` is the hard limit, `aim` the range we write for.
 NETWORKS = {
@@ -79,3 +79,30 @@ def brand_of_prefix(prefix):
         if b["prefix"] == prefix:
             return key
     return None
+
+
+def dashboard_list(root=ROOT):
+    """What the dashboard shows of each brand, and the topics a new brand can take."""
+    root = Path(root)
+    return {"brands": [{"key": k, "name": b["name"], "prefix": b["prefix"], "site": b["site"], "dir": b["dir"],
+                        "topic": b.get("topic", ""), "language": b.get("language", ""),
+                        "social": (root / b["dir"] / "social" / "settings.md").exists()}
+                       for k, b in BRANDS.items()],
+            "topics": [{"key": k, "label": t.get("label", {}), "about": t.get("about", "")} for k, t in topics().items()]}
+
+
+def main(argv=None):
+    argv = sys.argv[1:] if argv is None else argv
+    if argv[:1] == ["list"]:
+        print("\n".join(k for k in BRANDS if (ROOT / BRANDS[k]["dir"] / "social" / "settings.md").exists()))
+        return 0
+    if argv[:1] == ["dashboard"] and len(argv) == 2:
+        Path(argv[1]).parent.mkdir(parents=True, exist_ok=True)
+        Path(argv[1]).write_text(json.dumps(dashboard_list(), ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        return 0
+    print(__doc__)
+    return 2
+
+
+if __name__ == "__main__":
+    sys.exit(main())

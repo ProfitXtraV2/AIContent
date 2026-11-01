@@ -18,6 +18,9 @@ with write access to the repository count; anyone else gets a comment and nothin
         <!-- social:settings {…} -->): checked, committed on its own branch settings/<brand>-<issue>
         and opened as a PR. It counts once someone with write access merges it (the person who
         asked may); the publishing check takes it at its next run.
+  social: new brand
+        a new brand (its fields in <!-- social:brand {"name", "site", "topic", "language"} -->):
+        new_brand.py writes it on the branch settings/new-brand-<key>-<issue>, opened as a PR.
 The issue gets a comment saying what happened and is closed. Commits go to main as github-actions;
 a push with GITHUB_TOKEN starts no workflow, so this gives new rows their IDs and rebuilds the
 dashboard data itself. The issue's text is data: nothing in it is ever run.
@@ -31,7 +34,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from social import board, brands, build_social_dashboard as dash, github, ids, settings as settingsmod  # noqa: E402
+from social import board, brands, build_social_dashboard as dash, github, ids, new_brand, settings as settingsmod  # noqa: E402
 
 WRITE = {"admin", "maintain", "write"}
 COMMAND_RE = re.compile(r"^(post now|post at|cancel|fix|not before)\s+(\S+)(?:\s+(.+))?$", re.I)
@@ -191,6 +194,32 @@ def do_settings(root, brand_key, gh, git, data, who, number):
             f"сила (проверката я взима в :10). Ако се откажеш, затвори PR-а.\n\n" + "\n".join(lines))
 
 
+def do_new_brand(root, gh, git, data, who, number):
+    try:
+        key, written = new_brand.create(root, data.get("name"), data.get("site"), data.get("topic"),
+                                        data.get("language") or "bg")
+    except ValueError as e:
+        return f"Не стана: {e}. Нищо не е създадено."
+    name = brands.load_registry(Path(root) / "social" / "brands.json")[key]["name"]
+    branch = f"settings/new-brand-{key}-{number}"
+    title = f"social: new brand {name} ({key}, #{number}, @{who})"
+    git.commit_to_branch(written, title, branch)
+    body = (f"A new brand for social posts, asked for by @{who} in #{number} from the dashboard: **{name}** "
+            f"({data.get('site')}), topic `{data.get('topic')}`, language `{data.get('language') or 'bg'}`.\n\n"
+            + "\n".join(f"- `{p}`" for p in written) +
+            "\n\nEverything starts switched off. **Merge** adds the brand to the dashboard; then fill in its Settings "
+            "(the red fields) and link its accounts with the local setup. Close the PR to drop it.")
+    try:
+        pr = gh.create_pull(branch, title, body)
+    except github.GitHubError:
+        url = f"https://github.com/{gh.repo}/compare/main...{branch}?expand=1"
+        return (f"Готово: марката „{name}“ е в клона `{branch}`. Отвори {url}, натисни „Create pull request“, "
+                f"после **Merge**.")
+    return (f"Готово: марката „{name}“ е в PR #{pr['number']}: {pr['html_url']}\n\nНатисни **Merge** там. После в "
+            f"таблото избери марката, попълни червените полета в „Настройки“ и свържи профилите ѝ с локалната "
+            f"инсталация. Всичко започва изключено.")
+
+
 def handle(gh, git, root, number):
     """(comment, closed?) for one issue."""
     issue = gh.issue(number)
@@ -212,6 +241,8 @@ def handle(gh, git, root, number):
     if what.lower().startswith("settings"):
         data = data_block(body, "settings")
         return do_settings(root, brand_of(data=data), gh, git, data, who, number)
+    if what.lower().startswith("new brand"):
+        return do_new_brand(root, gh, git, data_block(body, "brand"), who, number)
     return f"Не разбирам „{what}“. Отвори го отново от таблото."
 
 

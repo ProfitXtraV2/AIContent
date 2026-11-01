@@ -218,9 +218,12 @@ def image_sha256(name, data):
 
 
 def build(root, brand_key="vsichkikazina", reader=None, now=None):
-    """(items, missing) for a brand from its queue."""
+    """(items, missing) for a brand from its queue. A brand with no article pipeline (no queue,
+    e.g. one added from the dashboard that posts only on request) has an empty library."""
     b = brands.brand(brand_key)
     root = Path(root)
+    if not b.get("queue_format") or not (root / b["dir"] / "content-queue.md").exists():
+        return [], []
     reader = reader or RepoReader(root, b["dir"])
     queue = (root / b["dir"] / "content-queue.md").read_text(encoding="utf-8")
     s = social_settings.load(brand_key, root)

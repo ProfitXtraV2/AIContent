@@ -20,7 +20,7 @@ JS = DOCS / "social-tabs.js"
 def test_every_page_with_the_tabs_carries_noindex():
     """G4: the page itself says noindex; robots.txt is not relied on."""
     pages = [p for p in DOCS.rglob("*.html") if "social-tabs.js" in p.read_text(encoding="utf-8")]
-    assert sorted(p.relative_to(DOCS).as_posix() for p in pages) == ["dentalvia/index.html", "index.html"]
+    assert sorted(p.relative_to(DOCS).as_posix() for p in pages) == ["dentalvia/index.html", "index.html", "social/index.html"]
     for p in pages:
         head = p.read_text(encoding="utf-8").split("</head>")[0]
         assert re.search(r'<meta name="robots" content="noindex[^"]*">', head), p

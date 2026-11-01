@@ -1,0 +1,37 @@
+{
+  "order": 9,
+  "label": {
+    "bg": "Обща тема",
+    "en": "General"
+  },
+  "about": "Any other site: no age mark and no compliance line unless you add one.",
+  "mark_18": false,
+  "compliance_required": false,
+  "palette": {
+    "green": "#2F6F5E",
+    "gold": "#D9A441",
+    "ink": "#15181C",
+    "paper": "#F6F5F1"
+  },
+  "settings": {
+    "bg": {
+      "compliance_long": "",
+      "compliance_short": "",
+      "voice_notes": "Спокойно и ясно; учтиво „вие“; без хайп думи; без тирета (—).",
+      "eligible_types": "guide, comparison, review, news",
+      "offer_words": "",
+      "register_words": ""
+    },
+    "en": {
+      "compliance_long": "",
+      "compliance_short": "",
+      "voice_notes": "Calm and clear; no hype words; no em-dashes (—).",
+      "eligible_types": "guide, comparison, review, news",
+      "offer_words": "",
+      "register_words": ""
+    }
+  },
+  "writing_rules": [],
+  "art_rules": "NO real logos, brand names or real people's faces.",
+  "review_rules": "Any real logo, brand name or real person's likeness is a failure."
+}
