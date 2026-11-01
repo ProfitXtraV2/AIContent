@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" font-family="Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="Festzuschuss 2026 Beispielbeträge nach Bonusheft für Einzelkrone, dreigliedrige Brücke und Vollprothese, Beispielwerte Stand 2026">
+  <rect x="4" y="4" width="752" height="292" rx="14" fill="#f7f9fb" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="24" y="40" font-size="19" font-weight="700" fill="#0f172a">Festzuschuss 2026: Beispielbeträge nach Bonusheft</text>
+  <text x="24" y="62" font-size="12.5" fill="#64748b">Anteil an der Regelversorgung &#183; Beispielwerte, Stand 2026</text>
+
+  <!-- 75% column highlight -->
+  <rect x="617" y="82" width="127" height="148" rx="6" fill="#e6f4f3"/>
+
+  <!-- header -->
+  <g font-size="12.5" font-weight="700" fill="#334155">
+    <text x="28" y="100">Befund</text>
+    <text x="298" y="100" text-anchor="middle">Regelversorgung</text>
+    <text x="425" y="100" text-anchor="middle">60 %</text>
+    <text x="553" y="100" text-anchor="middle">70 %</text>
+    <text x="680" y="100" text-anchor="middle" fill="#0d7c7a">75 %</text>
+  </g>
+  <line x1="24" y1="108" x2="744" y2="108" stroke="#cbd5e1" stroke-width="1.5"/>
+
+  <!-- rows -->
+  <g font-size="13" fill="#0f172a">
+    <text x="28" y="140">Einzelkrone</text>
+    <text x="298" y="140" text-anchor="middle">rund 280 €</text>
+    <text x="425" y="140" text-anchor="middle">168 €</text>
+    <text x="553" y="140" text-anchor="middle">196 €</text>
+    <text x="680" y="140" text-anchor="middle" font-weight="700">210 €</text>
+
+    <text x="28" y="178">Dreigliedrige Brücke</text>
+    <text x="298" y="178" text-anchor="middle">rund 530 €</text>
+    <text x="425" y="178" text-anchor="middle">318 €</text>
+    <text x="553" y="178" text-anchor="middle">371 €</text>
+    <text x="680" y="178" text-anchor="middle" font-weight="700">398 €</text>
+
+    <text x="28" y="216">Vollprothese (je Kiefer)</text>
+    <text x="298" y="216" text-anchor="middle">rund 500 €</text>
+    <text x="425" y="216" text-anchor="middle">300 €</text>
+    <text x="553" y="216" text-anchor="middle">350 €</text>
+    <text x="680" y="216" text-anchor="middle" font-weight="700">375 €</text>
+  </g>
+  <line x1="24" y1="157" x2="744" y2="157" stroke="#eef2f6" stroke-width="1"/>
+  <line x1="24" y1="195" x2="744" y2="195" stroke="#eef2f6" stroke-width="1"/>
+
+  <text x="24" y="250" font-size="11" fill="#94a3b8">60 % ohne oder mit lückenhaftem Bonusheft &#183; 70 % ab 5 Jahren &#183; 75 % ab 10 Jahren lückenlos.</text>
+  <text x="24" y="268" font-size="11" fill="#94a3b8">Beispielwerte, Stand 2026 (+4,34 % ggü. 2025). Verbindlich ist der Heil- und Kostenplan Ihrer Krankenkasse.</text>
+</svg>
