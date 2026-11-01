@@ -1,13 +1,15 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-11-01T07:14:46Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-11-01T07:45:00Z",
+  "articles_written": 1,
+  "prs_opened": [
+    344
+  ],
   "run_url": "https://claude.ai/code/session_01AwuYFU2AXo63Qf5Qo6Bumu",
-  "note": "daily run 2026-11-01 — monthly SEO review (Nov light pass) done; writing 1 new guide vk-0321 Бундеслига (top open P0 backlog).",
+  "note": "daily run 2026-11-01 — throttled intake (MAX_PER_RUN=1) + monthly SEO review. Reconcile clean on entry (0 in-progress/CLAIMED/HANDOFF). MONTHLY SEO REVIEW (Nov) ran as LIGHT pass (Ahrefs workspace ~11k < 20k): DR 6->5, org kw 12->5, traffic 90->42 (off-site authority not yet lifting DR, cap held 40); pillar KD re-check x8 = 0 graduated to a new write (без депозит kd37 folds into vk-0004; безплатни казино игри 9900/kd43 near-cap watch); steps 3b/4/5/6 deferred to unit reset 2026-11-15; report docs/seo/monthly-review-2026-11.md, marker set 2026-11. WROTE 1 NEW guide vk-0321 Бундеслига — формат, отбори и любопитни факти (top open P0 backlog, sports-guide sweep, owner-approved), PR #344. Guides-only (0 operator/НАП/affiliate; 0 standings/results/fixtures/odds; 0 predictions). Cluster бундеслига 11000/kd0 WIN. Dedup vs queue (0) + live sitemap (153 URLs, no bundesliga slug) = clean; distinct from Ефбет/Ла Лига/Лига Европа. Gate 95 PASS 0-crit. Gemini Step-7 = human 85 (PASS on initial draft, keep-best=initial). img:2 — infographic bundesliga-format.svg (numbers 1:1 vs 05b) + decorative hero bundesliga-stadion-hero.webp (~25KB); image review 75->100 PASS pass 2 (hero regenerated for realistic pitch + dotted crowd), 0 integrity. ~822 words, 0 em-dash (body), 0 flags. Backlog row set written. AHREFS LOW-UNIT (~10.5k remaining): no paid daily discovery; research bank unchanged at 3 candidates (Дартс 90, Видео покер онлайн 150, Реми 50 — all measurable), ADDED 0 (no-padding; matching-terms discovery deferred to 2026-11-15 reset). Human backlog: ~45 open (writable P0 sports guides runway + 10 NV-Casino operator/НАП-blocked). Feed refreshed. No flags resolved, nothing posted/merged/fabricated.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-11-01-bundesliga",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 2,
-    "stage": "Author"
+    "stage_index": null,
+    "stage": null
   }
 }
