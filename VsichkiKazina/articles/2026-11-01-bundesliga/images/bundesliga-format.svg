@@ -48,16 +48,16 @@
   <text class="colh" x="440" y="124">Рекорди</text>
 
   <text class="big" x="440" y="178">34</text>
-  <text class="lbl" x="500" y="178">титли, Байерн Мюнхен (рекорд)</text>
+  <text class="lbl" x="516" y="178">титли, Байерн Мюнхен (рекорд)</text>
 
   <text class="big" x="440" y="236">13</text>
-  <text class="lbl" x="500" y="236">клуба шампиони общо</text>
+  <text class="lbl" x="516" y="236">клуба шампиони общо</text>
 
   <text class="big" x="440" y="294">602</text>
-  <text class="lbl" x="500" y="294">мача, Чарли Кьорбел</text>
+  <text class="lbl" x="516" y="294">мача, Чарли Кьорбел</text>
 
   <text class="big" x="440" y="352">365</text>
-  <text class="lbl" x="500" y="352">гола, Герд Мюлер</text>
+  <text class="lbl" x="516" y="352">гола, Герд Мюлер</text>
 
   <!-- Bottom strip -->
   <line x1="40" y1="452" x2="780" y2="452" stroke="#e2ddd3" stroke-width="1"/>
