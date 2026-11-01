@@ -5,12 +5,12 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01AwuYFU2AXo63Qf5Qo6Bumu",
-  "note": "daily run 2026-11-01 — monthly SEO review (Nov) due + throttled intake (MAX_PER_RUN=1). Reconcile clean on entry (0 in-progress/CLAIMED/HANDOFF).",
+  "note": "daily run 2026-11-01 — monthly SEO review (Nov light pass) done; writing 1 new guide vk-0321 Бундеслига (top open P0 backlog).",
   "progress": {
-    "phase": "seo-review",
-    "article_index": null,
-    "article_total": null,
-    "article_slug": null,
+    "phase": "writing",
+    "article_index": 1,
+    "article_total": 1,
+    "article_slug": "2026-11-01-bundesliga",
     "stages": [
       "Synthesis",
       "Outline",
@@ -23,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": null,
-    "stage": null
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
