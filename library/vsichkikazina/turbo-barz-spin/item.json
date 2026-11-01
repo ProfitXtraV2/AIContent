@@ -1,0 +1,50 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0257",
+  "slug": "turbo-barz-spin",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-10-04-turbo-barz-spin",
+  "pr": "#275",
+  "title": "Турбо и бърз спин в слотовете: скорост и риск",
+  "meta_description": "Турбо и бързият спин ускоряват анимацията, не RTP. Скоростта не мени резултата на спина, но свива времето и ускорява разхода на банкрола.",
+  "keywords": [
+    "турбо спин слот",
+    "бърз спин казино",
+    "turbo режим ротативка",
+    "бързо завъртане слот",
+    "скорост на игра казино"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/turbo-barz-spin/images/turbo-barz-spin-hero.webp",
+      "name": "turbo-barz-spin-hero.webp",
+      "alt": "Декоративна илюстрация: пясъчен часовник със стрелка на скоростомер и казино чипове, които се изсипват бързо през него, метафора за това как турбо режимът свива времето и прекарва повече пари през същия час",
+      "sha256": "1fce6ddd537677891cb46cfb5e937c4c06e46dc4c8f6988da97d5705f0ec763e",
+      "review": {
+        "score": 95,
+        "integrity_ok": false,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/turbo-barz-spin/images/turbo-sravnenie-tempo-oborot.svg",
+      "name": "turbo-sravnenie-tempo-oborot.svg",
+      "alt": "Инфографика: сравнение на нормален и турбо темп при залог €0,50 на спин, завъртания в минута 8-10 срещу 20-25, заложено за минута €4-5 срещу €10-12 и 2-3 пъти повече оборот за един час. Числата са примерни.",
+      "sha256": "8dfe278123cbf62c25ed558e2d840c2ca9cca539a9c6d62500517455d38494e8",
+      "review": {
+        "score": 95,
+        "integrity_ok": false,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "699ed1b5b9d50b84daf1cf3c4593a9e3b3662b396bab92b7038841f1c95f8d6a",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}

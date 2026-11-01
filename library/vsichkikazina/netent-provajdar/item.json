@@ -1,0 +1,49 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0042",
+  "slug": "netent-provajdar",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-09-11-netent-provajdar",
+  "pr": "#58",
+  "title": "NetEnt: профил на доставчика, механики и топ слотове",
+  "meta_description": "Кой е NetEnt, какви механики направи популярни (Avalanche, разширяващ се wild) и кои са топ слотовете му. Защо RTP се чете в инфо-панела, а не в рекламата.",
+  "keywords": [
+    "netent",
+    "нетент",
+    "доставчик netent",
+    "netent слотове"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/netent-provajdar/images/netent-hero.webp",
+      "name": "netent-hero.webp",
+      "alt": "Абстрактна композиция от разсипани скъпоценни камъни и каскадни форми в наситени цветове, вдъхновена от визуалния стил на слотовете на NetEnt",
+      "sha256": "2eebe3bce98602a58469145dbee11b83ab9c4507b417509433ed7a64664b326b",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/netent-provajdar/images/netent-rtp.svg",
+      "name": "netent-rtp.svg",
+      "alt": "Илюстративно: при обявен RTP около 96% и €1000 оборот средно ~€960 се връщат на играча, ~€40 остават за казиното; реалният RTP на NetEnt заглавие се проверява в инфо-панела и зависи от версията",
+      "sha256": "817f6a9bc497997b5723c6d1609dd2cf11e91dbd9f8188de2cde90afa9bd4a17",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "7fd4a3836cbfd322e8f8408b74a48d1cfec8df5fa4cc6eba43457fde7e040378",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}

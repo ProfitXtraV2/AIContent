@@ -1,0 +1,50 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0272",
+  "slug": "chislata-v-toto-statistika",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-10-10-chislata-v-toto-statistika",
+  "pr": "#292",
+  "title": "Числата от тотото: статистика и митът за горещите числа",
+  "meta_description": "Числата от тотото през статистиката: честотна таблица 6/49 за 1 262 тиража, „просрочени\" числа и защо всяка комбинация има еднакъв шанс.",
+  "keywords": [
+    "числата от тотото",
+    "числа за тото",
+    "числа за тото 5/35",
+    "статистика тото",
+    "най-често падащи числа тото"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/chislata-v-toto-statistika/images/chislata-ot-toto-nezavisimi-tirazhi-hero.webp",
+      "name": "chislata-ot-toto-nezavisimi-tirazhi-hero.webp",
+      "alt": "Прозрачен барабан за лотария с еднакви топки, от който излиза една топка, а зад него избледнява стълбовидна диаграма от топки: миналите честоти не насочват следващото теглене",
+      "sha256": "b82423d5297818945e56213b568b061021a6c05432f4d7779a60118781cf8457",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/chislata-v-toto-statistika/images/chislata-ot-toto-chestota-6-ot-49-infografika.svg",
+      "name": "chislata-ot-toto-chestota-6-ot-49-infografika.svg",
+      "alt": "Инфографика: честота на 5-те най-често и 4-те най-рядко изтеглени числа в ТОТО 2 – 6/49 за 1 262 тиража от 01.01.2015 до 08.10.2026, сравнена с очакваните ≈154,5 пъти и с обичайните диапазони 174–192 и 120–135 при чиста случайност",
+      "sha256": "f19285db2ccb1670004f1d0e09832cb19c459bdd0643b186a02c7f9b23ba5925",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "639a226ab8859c26c07bbc3fee6ec848bc88c7bef97e13e6025232b9b8a4da8a",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}

@@ -1,0 +1,46 @@
+name: social-board
+# Pushes to main that change the article board, an article folder or the request list (tech spec
+# Parts, row 5): rebuild the article library (after the publisher's write-back or an in-place
+# fix), give new request and command rows their IDs, rebuild the social dashboard data.
+# Pushes made with GITHUB_TOKEN start no workflow, so this never loops; approve-on-merge builds
+# the library itself for the same reason.
+on:
+  push:
+    branches: [main]
+    paths:
+      - VsichkiKazina/content-queue.md
+      - VsichkiKazina/articles/**
+      - VsichkiKazina/social/requests.md
+      - VsichkiKazina/social/settings.md
+
+permissions:
+  contents: write
+
+concurrency:
+  group: social-board
+  cancel-in-progress: false
+
+jobs:
+  board:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Library, request IDs, dashboard data
+        run: |
+          set -euo pipefail
+          git fetch origin -q 'refs/heads/content/*:refs/remotes/origin/content/*' || true
+          python3 scripts/build_library.py vsichkikazina
+          python3 scripts/social/board.py ids vsichkikazina
+          python3 scripts/social/build_social_dashboard.py vsichkikazina
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add library/ VsichkiKazina/social/requests.md docs/data/social 2>/dev/null || true
+          git commit -m "social: board refresh (library, request IDs, dashboard data)" \
+            && (git push || (git pull --no-rebase --no-edit && git push)) \
+            || echo "nothing to refresh"

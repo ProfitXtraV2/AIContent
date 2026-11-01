@@ -1,0 +1,40 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0264",
+  "slug": "hazartni-igri-vidove",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-10-10-hazartni-igri-vidove",
+  "pr": "#284",
+  "title": "Хазартни игри: видове и кои са законни в България",
+  "meta_description": "Хазартните игри в България са пет вида по Закона за хазарта. Кои са разрешени онлайн, кой издава лиценза и от колко години се играе. 18+",
+  "keywords": [
+    "хазартни игри",
+    "хазарт",
+    "видове хазартни игри",
+    "хазарт игри",
+    "хазартна игра на карти",
+    "хазартни игри онлайн"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/hazartni-igri-vidove/images/hazartni-igri-vidove-zakon-onlajn-infografika.svg",
+      "name": "hazartni-igri-vidove-zakon-onlajn-infografika.svg",
+      "alt": "Инфографика: петте вида хазартни игри по чл. 41, ал. 1 от Закона за хазарта (лотарийни игри, залагания на спорт и надбягвания, залагания на случайни събития и познаване на факти, игри с игрални автомати, игри в игрално казино), с примери, правно основание и отметка кои се допускат онлайн",
+      "sha256": "882deedfd3b806d7cbfd7a802fed8e1e0dc771211697e61c10f6084c859893c8",
+      "review": {
+        "score": 100,
+        "integrity_ok": null,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "f688df2755ea34b4a23088a533e622f1a223ac96a33d9294039b5110a99e6ce8",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}

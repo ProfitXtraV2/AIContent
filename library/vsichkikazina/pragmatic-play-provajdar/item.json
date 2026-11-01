@@ -1,0 +1,48 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0019",
+  "slug": "pragmatic-play-provajdar",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-08-pragmatic-play-provajdar",
+  "pr": "#25",
+  "title": "Pragmatic Play: профил на доставчика, механики и топ слотове",
+  "meta_description": "Кой е Pragmatic Play, какви игри и механики прави и кои са топ слотовете. Защо лицензът не маха домашното предимство и защо RTP се проверява в инфо-панела.",
+  "keywords": [
+    "pragmatic play",
+    "pragmatic слотове",
+    "pragmatic play слотове"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/pragmatic-play-provajdar/images/pragmatic-play-hero.webp",
+      "name": "pragmatic-play-hero.webp",
+      "alt": "Абстрактен фон с игрални символи и геометрични форми, вдъхновен от слот механиките на доставчик като Pragmatic Play",
+      "sha256": "50670275ce243e20b4ca3da703e79d9d7db87c13d1125ab21ff6ca5619765d1d",
+      "review": {
+        "score": 82,
+        "integrity_ok": true,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/pragmatic-play-provajdar/images/pragmatic-play-rtp.svg",
+      "name": "pragmatic-play-rtp.svg",
+      "alt": "Илюстративно: при обявен RTP около 96% и €1000 оборот средно ~€960 се връщат на играча, ~€40 остават за казиното; реалната стойност зависи от заглавието и версията",
+      "sha256": "af8eaf6d349b4a6c5cc4e14279437e013cc35b5ca86e22e4c18a74a8e84fbbf5",
+      "review": {
+        "score": 85,
+        "integrity_ok": true,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "5985eae8186a6457b2dd900adfa96854fbe9ccc6a7f803bc1d5711a72b594e40",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}

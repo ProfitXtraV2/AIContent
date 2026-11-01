@@ -1,0 +1,575 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "items": [
+    {
+      "slug": "kak-raboti-razigravaneto",
+      "id": "vk-0001",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "f754527b00bc1529be7446b240951a80d9e424bdd24d7261f88b233d8c40c859"
+    },
+    {
+      "slug": "bezplatni-kazino-igri",
+      "id": "vk-0003",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "a95dfdd4775307edc6d0f8830c40ddadfd0436ab711609aeb632d895ba08eb95"
+    },
+    {
+      "slug": "bonus-bez-depozit-2026",
+      "id": "vk-0004",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "d951795fe896e1dc68e976d389e48b6248e95b66fd17bf33ae127dcab1ab8bb2"
+    },
+    {
+      "slug": "novo-onlajn-kazino",
+      "id": "vk-0005",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "9b205698e8410da5f3a3c910d085c698fed28e07a758d20b6071a36d890a2f31"
+    },
+    {
+      "slug": "progresivni-dzhakpoti",
+      "id": "vk-0007",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "49497154e18192eabefef5053fb243b90c881cae0abfdb48723d0d943c8ea08e"
+    },
+    {
+      "slug": "kak-se-igrae-poker-kazino",
+      "id": "vk-0008",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "2d07dfcc164e007c3f5ec3df404db26e3805af7037e18ffd8248035528e4c694"
+    },
+    {
+      "slug": "bakara-pravila",
+      "id": "vk-0012",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "fb375d08f758554539ada249ff00724e6d39da4da1544aaeefed2fa21af58aab"
+    },
+    {
+      "slug": "rotativki-s-plodove",
+      "id": "vk-0013",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "426f39fdcf3df14f2c23b6e3eb45032b59a5859c94ac9933c750804110621a03"
+    },
+    {
+      "slug": "krash-igri-aviator",
+      "id": "vk-0014",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "06b95884dc83ca6999c389a8d194485d1a71619c44ebef572cc868920f1ad523"
+    },
+    {
+      "slug": "novi-kazino-igri-2026",
+      "id": "vk-0015",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "88c4966037a98377fa326b6d305488b91f86d635a15da4bbfac8247d82cc66ab"
+    },
+    {
+      "slug": "keno-pravila",
+      "id": "vk-0016",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "82533a66c78ad98313e44ad5504a8e7792fc28df47ec6f3cbff3dcde3004432c"
+    },
+    {
+      "slug": "linii-na-pechalba",
+      "id": "vk-0017",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "21f7c50ee2c38823e3cc461c460049a58bae52bc3e135e6d1efc06a9e2e13691"
+    },
+    {
+      "slug": "sweet-bonanza",
+      "id": "vk-0018",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "33dc0941e8fe7a21fcde16484b83d7d027481df80308afc9aa1c5f38ee6a0684"
+    },
+    {
+      "slug": "pragmatic-play-provajdar",
+      "id": "vk-0019",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "5985eae8186a6457b2dd900adfa96854fbe9ccc6a7f803bc1d5711a72b594e40"
+    },
+    {
+      "slug": "20-super-hot",
+      "id": "vk-0020",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "9af36756e936e7d9f6deaf122d8ba5cc5e2d2eb7cc445a304d99dae159c361ed"
+    },
+    {
+      "slug": "amusnet-egt-provajdar",
+      "id": "vk-0021",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "79a9fc08157d788cd1b98a4a41fe916a08ea5c87c877eb2b35b4039f0cd17d4b"
+    },
+    {
+      "slug": "gates-of-olympus",
+      "id": "vk-0022",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "4119774f40d94668e0588217a744e649db32b5768213baa6b9ee06651110c740"
+    },
+    {
+      "slug": "40-super-hot",
+      "id": "vk-0023",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "adf13d88a9f171b6ea3388546ce97f31531b67afe04823db228753adbfd8068d"
+    },
+    {
+      "slug": "live-game-shows",
+      "id": "vk-0025",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "8b039f5a371d92ac251cfc6b884c48cbe7e19c3fbd3b34ad938bde02375bf9d4"
+    },
+    {
+      "slug": "shining-crown",
+      "id": "vk-0026",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "75ea518a51aafc3bfadab813f93274482517524635ea62fbb746c4b659911ed9"
+    },
+    {
+      "slug": "burning-hot",
+      "id": "vk-0027",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "d7bd84fee5833f2a7c17323a91b012e54154a19de442a8e680536e203c1733af"
+    },
+    {
+      "slug": "big-bass-bonanza",
+      "id": "vk-0028",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "cdfcdd49cc6d62147bcaee40b66d6f6a37cb470c2512a81e77ef6962eabe7fed"
+    },
+    {
+      "slug": "sugar-rush",
+      "id": "vk-0030",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "ff3ce3d5a87fc3a1ca1ebdd06b34415166f567a2eb7a30015312fb71e9230a61"
+    },
+    {
+      "slug": "the-dog-house",
+      "id": "vk-0031",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "daf4867266ca1b819f3dbec3e15068796744e02d7de390ef89ddc7df305d9d33"
+    },
+    {
+      "slug": "sugar-rush-1000",
+      "id": "vk-0033",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "5d464d5ed27a3f3ab87e0e425b4a3f1a44416abe819a4538e4a0a003b6176caf"
+    },
+    {
+      "slug": "gates-of-olympus-1000",
+      "id": "vk-0034",
+      "kind": "article",
+      "board_status": "approved",
+      "live": false,
+      "article_version": "5b25f6e207bd68d596b33965144546b3b52703ae13a5e480607b8c2f1a415f70"
+    },
+    {
+      "slug": "book-of-ra",
+      "id": "vk-0035",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "a11de9324bb47b43096933216b8a5b29dd104ccb6644b0d2504b3308710484f2"
+    },
+    {
+      "slug": "bonus-pri-registraciya",
+      "id": "vk-0036",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "c12cb8c55e606992a30103950ac3c535ecd22b379b4d138fb2d100661778d8fc"
+    },
+    {
+      "slug": "flaming-hot",
+      "id": "vk-0037",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "513a66edb1da1654871e8b579c67c862450114f100b8dc8f5e24871c86d6d4be"
+    },
+    {
+      "slug": "big-bass-splash",
+      "id": "vk-0038",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "c9fdfb9b7965f3fef978645c55f3a83784214cbb2d9d40532ace2ca095977921"
+    },
+    {
+      "slug": "kazino-bez-registraciya",
+      "id": "vk-0039",
+      "kind": "article",
+      "board_status": "approved",
+      "live": false,
+      "article_version": "836ae505c7f6ae638f36dc21a27bbef460c6c33a88b1f0ee068b9bf6e62903a7"
+    },
+    {
+      "slug": "netent-provajdar",
+      "id": "vk-0042",
+      "kind": "article",
+      "board_status": "approved",
+      "live": false,
+      "article_version": "7fd4a3836cbfd322e8f8408b74a48d1cfec8df5fa4cc6eba43457fde7e040378"
+    },
+    {
+      "slug": "starburst",
+      "id": "vk-0043",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "d101e5bc6eaa266be87cd432e1d4fc794d98a5f5b98930da6ca25aa93bb45515"
+    },
+    {
+      "slug": "gonzos-quest",
+      "id": "vk-0044",
+      "kind": "article",
+      "board_status": "approved",
+      "live": false,
+      "article_version": "56ff322c334a55b0835bd0cc47fa9b91ec9ee4ad082daa8bd48830b4b325e78c"
+    },
+    {
+      "slug": "dostavchici-kazino-igri",
+      "id": "vk-0054",
+      "kind": "article",
+      "board_status": "approved",
+      "live": false,
+      "article_version": "e4eebd0cf69ac737f74112985d7d098cd44ffced67f54a1f5799388a6712b616"
+    },
+    {
+      "slug": "nv-casino-zakonno-li-e",
+      "id": "vk-0063",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "54d5793a4b4cbca9398bc360cc8310f734ee78f147c56f8f753d91e156f9601a"
+    },
+    {
+      "slug": "nv-casino-bonus-usloviya",
+      "id": "vk-0064",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "3955f4f2417fc6902254d433b0b8a9020708157171b1b3d0e14add2507cb8952"
+    },
+    {
+      "slug": "le-bandit",
+      "id": "vk-0079",
+      "kind": "article",
+      "board_status": "approved",
+      "live": false,
+      "article_version": "eb85d3e5856bd0d1f979a6307136dc29a3b83d80a37d4c2c58157929a5d38c05"
+    },
+    {
+      "slug": "sweet-bonanza-1000",
+      "id": "vk-0080",
+      "kind": "article",
+      "board_status": "approved",
+      "live": false,
+      "article_version": "b19e98916655f61bf132db4087cc24cc041cdb352d58a1d5b34326721ec01b5f"
+    },
+    {
+      "slug": "sweet-bonanza-xmas",
+      "id": "vk-0083",
+      "kind": "article",
+      "board_status": "approved",
+      "live": false,
+      "article_version": "75933b4ce06009a14fa6d8604b4ed55a80839816fb954cde566975b6074a9ab2"
+    },
+    {
+      "slug": "eye-of-horus",
+      "id": "vk-0093",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "f103aab7ee66724fe41a3ef3cee88a2b921cd2b507a6935fa57e798105a93338"
+    },
+    {
+      "slug": "juicy-fruits",
+      "id": "vk-0094",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "b42846676e7a92cef5bb972dfb43fb0410ae8944c006589c72ed1d0733db8f27"
+    },
+    {
+      "slug": "tombstone-rip",
+      "id": "vk-0098",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "e90ab3b3514ddd4fb37624625c4aaf011f06eee10996472d7d64599f66a84dde"
+    },
+    {
+      "slug": "elk-studios",
+      "id": "vk-0101",
+      "kind": "article",
+      "board_status": "approved",
+      "live": false,
+      "article_version": "aea550cb38a9d33d8086b81e7fd00014177773fd2806383a75ad31ba416a7e74"
+    },
+    {
+      "slug": "nolimit-city",
+      "id": "vk-0104",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "9e2b333cd8187a771d101ab9c93fed846c800e33b1fe6a3ee8b142f1119f69f2"
+    },
+    {
+      "slug": "playtech",
+      "id": "vk-0107",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "43a45b2c46a07d6f60ad11a140b01b43b71319a5c690d38f5b97edf2a308928c"
+    },
+    {
+      "slug": "yggdrasil",
+      "id": "vk-0111",
+      "kind": "article",
+      "board_status": "approved",
+      "live": false,
+      "article_version": "6cbf2289acf0696b88ef4e6b4b5514b1ade517c47b3f55138ab4696f97a4aac5"
+    },
+    {
+      "slug": "hub-intro-casino-payments",
+      "id": "vk-0119",
+      "kind": "hub-intro",
+      "board_status": "approved",
+      "live": false,
+      "article_version": "d2b9c0af7c4547c5413e0d4bf79fafef93cdd2cb05d50cfc7e2a0fe15cebca1f"
+    },
+    {
+      "slug": "hub-intro-bonuses-vip",
+      "id": "vk-0120",
+      "kind": "hub-intro",
+      "board_status": "approved",
+      "live": false,
+      "article_version": "3b3b4f3cab349c09820403e0ac42a63465d1b20bf0f222457afe1de5c182495b"
+    },
+    {
+      "slug": "hub-intro-regulations-taxes",
+      "id": "vk-0121",
+      "kind": "hub-intro",
+      "board_status": "approved",
+      "live": false,
+      "article_version": "59fadff33e705dbda3809eba7b2af8f50d24178ecdf981eddf708b9c33e59841"
+    },
+    {
+      "slug": "hub-intro-comparisons-news",
+      "id": "vk-0122",
+      "kind": "hub-intro",
+      "board_status": "approved",
+      "live": false,
+      "article_version": "9751c6719e9ee94c2c27bf4996322addd93099a33105681941ab57e41a6e00dc"
+    },
+    {
+      "slug": "hub-intro-responsible-gambling",
+      "id": "vk-0123",
+      "kind": "hub-intro",
+      "board_status": "approved",
+      "live": false,
+      "article_version": "f22d8ef75d534be62d187d7f4259d23a333544b1ccece0e1419ac135b9e7ba57"
+    },
+    {
+      "slug": "olympus-glory",
+      "id": "vk-0130",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "672f2dc726dd8579951212ca3a1b09dde26e1cf99bd3451455e5ba1618987020"
+    },
+    {
+      "slug": "versailles-gold",
+      "id": "vk-0132",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "bc13c23ebd65b12e5e378a37fb8bad9fdfdcea7403176186b864312dae29e117"
+    },
+    {
+      "slug": "plinko",
+      "id": "vk-0133",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "e785bc3ab5df4568c9ac54ecb6a5cd5f55444445c96b69f1908eb73fb4c77277"
+    },
+    {
+      "slug": "bell-link",
+      "id": "vk-0134",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "048b6e69866d1cfe3a85de1bfff1c64fa680cfd5f9eb2b73d24a3365b94f6b77"
+    },
+    {
+      "slug": "bezkrayni-barabani-infinity-reels",
+      "id": "vk-0255",
+      "kind": "article",
+      "board_status": "approved",
+      "live": false,
+      "article_version": "afde2f010cf8b1e533895be79a25fb7b0bfc404def122a0e7e612685a02bc629"
+    },
+    {
+      "slug": "naslagani-stacked-simvoli",
+      "id": "vk-0256",
+      "kind": "article",
+      "board_status": "approved",
+      "live": false,
+      "article_version": "d73bc95d5c7ffb5eecabe206d06fc8cf5dbce8a905009f97b44a244b8dd759d0"
+    },
+    {
+      "slug": "turbo-barz-spin",
+      "id": "vk-0257",
+      "kind": "article",
+      "board_status": "approved",
+      "live": false,
+      "article_version": "699ed1b5b9d50b84daf1cf3c4593a9e3b3662b396bab92b7038841f1c95f8d6a"
+    },
+    {
+      "slug": "kazino-bonus-kod",
+      "id": "vk-0258",
+      "kind": "article",
+      "board_status": "approved",
+      "live": false,
+      "article_version": "a74c101a5b80827bd427b5256785f96a0307e52b715fa0e670d02dd913670a22"
+    },
+    {
+      "slug": "kak-da-si-napravish-zabrana-za-hazart",
+      "id": "vk-0260",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "b28d2d1e64237d5970b91053120cce343799ae098d92195d941c8f40a0e53fa1"
+    },
+    {
+      "slug": "poker-kombinacii",
+      "id": "vk-0263",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "a523661b14b2ac8dd5263cb08512752d761ebad0655ad64519f98aeeb6a206aa"
+    },
+    {
+      "slug": "hazartni-igri-vidove",
+      "id": "vk-0264",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "f688df2755ea34b4a23088a533e622f1a223ac96a33d9294039b5110a99e6ce8"
+    },
+    {
+      "slug": "toto-dzhoker",
+      "id": "vk-0266",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "364d242e0f5262740c026b27c963f4f7e067dc6b4abeeb44f48af8b431671b88"
+    },
+    {
+      "slug": "toto-2-igri",
+      "id": "vk-0267",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "3cb432f520edc566f18c81dc287209f5317c5de232d50751dfb060e28d08a3c4"
+    },
+    {
+      "slug": "vtori-toto-shans",
+      "id": "vk-0268",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "f1d2a8e302f48cc0823d4a1e8797b8be2a92ad42c14763b05cd4367711f7cc4e"
+    },
+    {
+      "slug": "toto-zodiak",
+      "id": "vk-0269",
+      "kind": "article",
+      "board_status": "approved",
+      "live": false,
+      "article_version": "13923627cfb99e1e585926102bdf7096085266cbfff2717dcdeb07ef35436167"
+    },
+    {
+      "slug": "darzhavna-nacionalna-lotaria",
+      "id": "vk-0271",
+      "kind": "article",
+      "board_status": "approved",
+      "live": false,
+      "article_version": "7d7284d55df99adf7658995013f81941402bb4ca000566fcb40c53bbae3807b6"
+    },
+    {
+      "slug": "chislata-v-toto-statistika",
+      "id": "vk-0272",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "639a226ab8859c26c07bbc3fee6ec848bc88c7bef97e13e6025232b9b8a4da8a"
+    },
+    {
+      "slug": "lotaria-vidove",
+      "id": "vk-0273",
+      "kind": "article",
+      "board_status": "posted",
+      "live": true,
+      "article_version": "3c10fe3b807778f87a34aa84170b5fb3ff1f2eab763dc7a78f0cfd981b9e58a3"
+    },
+    {
+      "slug": "kazina-las-vegas",
+      "id": "vk-0276",
+      "kind": "article",
+      "board_status": "approved",
+      "live": false,
+      "article_version": "74e593a7775eea656295111e71a455897cc44dd20dc19881d7b73679a8de9740"
+    }
+  ],
+  "missing": []
+}

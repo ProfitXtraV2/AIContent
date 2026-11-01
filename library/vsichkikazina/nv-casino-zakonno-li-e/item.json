@@ -1,0 +1,37 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0063",
+  "slug": "nv-casino-zakonno-li-e",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-13-nv-casino-zakonno-li-e",
+  "pr": "#79",
+  "title": "NV Casino законно ли е в България? Не, ето защо",
+  "meta_description": "NV Casino (нв казино) няма лиценз от НАП, не е законно в България. Вижте какво губите без защита по Закона за хазарта и коя е лицензираната алтернатива.",
+  "keywords": [
+    "nv casino",
+    "нв казино",
+    "nv casino законно ли е"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/nv-casino-zakonno-li-e/images/licenziran-nap-sreshtu-nelicenziran-kurasao.svg",
+      "name": "licenziran-nap-sreshtu-nelicenziran-kurasao.svg",
+      "alt": "Сравнителна таблица какво получава играчът при лицензиран оператор с лиценз от НАП (защита по Закона за хазарта, жалба до НАП при спор и надзор от НАП) срещу нелицензиран оператор с лиценз от Кюрасао, който не важи на българския пазар и срещу когото НАП не приема жалби и не упражнява надзор.",
+      "sha256": "0673c77d6c467e9a0bd6b995d21ed2f3fdcf101466c41fa4f0b103183d432ce4",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "54d5793a4b4cbca9398bc360cc8310f734ee78f147c56f8f753d91e156f9601a",
+  "operator_or_bonus": true,
+  "operator_or_bonus_reason": "names the operator nv casino",
+  "built_utc": "2026-10-19T05:29:51Z"
+}

@@ -377,6 +377,13 @@ stage you are STARTING now>,"stage":"<that stage's name>"}`.
    review from the
    repo owner. Then set that article's `content-queue.md` `pr` column to `#<PR number>`.
 
+7b. **Social drafting (only if social is on).** After the article PRs, run
+   `VsichkiKazina/automation/social-run.md` start to finish: it checks the social settings
+   first and does nothing when social is off (fix PRs aside). Add the stage `"Social"` to the
+   `run-status.json` progress while it runs. Article work always comes first; if the run is
+   short on time, skip this step (the next run resumes from the branches and the registry).
+   It never publishes and never uses `GEMINI_API_KEY` (social images use `SOCIAL_GEMINI_API_KEY`).
+
 8. **Commit the board to `main`** (`content-queue.md`, `topic-backlog.md`,
    `research-topics.md`, `docs/`) and end the heartbeat: `run-status.json`
    `{"state":"idle", "run_started_utc":"<start>","run_finished_utc":"<now>",

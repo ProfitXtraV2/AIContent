@@ -1,0 +1,59 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0054",
+  "slug": "dostavchici-kazino-igri",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-09-12-dostavchici-kazino-igri",
+  "pr": "#72",
+  "title": "Кои са доставчиците на казино игри и защо са важни",
+  "meta_description": "Кои са доставчиците на казино игри, какво прави казино софтуер честен и защо сертификатът не гарантира по-добра игра. RTP се проверява в инфо-панела.",
+  "keywords": [
+    "доставчици казино игри",
+    "провайдъри казино",
+    "казино софтуер"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/dostavchici-kazino-igri/images/dostavchici-kazino-igri-hero.webp",
+      "name": "dostavchici-kazino-igri-hero.webp",
+      "alt": "Абстрактна илюстрация: централен модул на игра, свързан с линии към няколко еднакви екрана на казина, за да покаже как един доставчик захранва много оператори",
+      "sha256": "5f251c2cf401ae9b66650997d8f1ea690c5304fd6610ea23660ed89b961902b9",
+      "review": {
+        "score": 100,
+        "integrity_ok": true,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/dostavchici-kazino-igri/images/dostavchik-vs-operator.svg",
+      "name": "dostavchik-vs-operator.svg",
+      "alt": "Инфографика в две колони: доставчикът прави играта (математика и RTP, генератор на случайни числа, графика и звук, лицензира каталога на много казина), а операторът е казиното (регистрация, баланс, депозити и тегления, избира коя RTP версия да пусне)",
+      "sha256": "363143815e5cc57c0edb401d9ebb8f53dddea6abec7414b05b95bcce02bf1331",
+      "review": {
+        "score": 100,
+        "integrity_ok": true,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/dostavchici-kazino-igri/images/dostavchik-rtp-primer.svg",
+      "name": "dostavchik-rtp-primer.svg",
+      "alt": "Инфографика: при обявен RTP 96% от €1000 оборот играта връща средно около €960 на играча, а около €40 остават за казиното; едно заглавие може да има различен RTP в различни казина",
+      "sha256": "b348163aba07b641851e2e85666db8275b93d9feaee0702b79217283cfe8dd8b",
+      "review": {
+        "score": 100,
+        "integrity_ok": true,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "e4eebd0cf69ac737f74112985d7d098cd44ffced67f54a1f5799388a6712b616",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}

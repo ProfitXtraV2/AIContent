@@ -1,0 +1,36 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0123",
+  "slug": "hub-intro-responsible-gambling",
+  "kind": "hub-intro",
+  "type": "hub-intro",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-09-19-hub-intro-responsible-gambling",
+  "pr": "#139",
+  "title": "Отговорна игра: лимити, самоизключване, помощ",
+  "meta_description": "Какво включва отговорната игра: лимити на депозит/загуба/време, самоизключване, признаци на проблем и какво да провериш преди да заложиш.",
+  "keywords": [
+    "отговорна игра",
+    "хазартна зависимост помощ"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/hub-intro-responsible-gambling/images/rg-instrumenti-limiti-samoizklyuchvane.svg",
+      "name": "rg-instrumenti-limiti-samoizklyuchvane.svg",
+      "alt": "Три инструмента за отговорна игра: лимити в профила предварително, самоизключване при нужда, НАП регистър постоянно",
+      "sha256": "8161923aa0fcbdf8ec79b5603e93256846550e3fe866cff347f98aa42927c0c7",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "f22d8ef75d534be62d187d7f4259d23a333544b1ccece0e1419ac135b9e7ba57",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}

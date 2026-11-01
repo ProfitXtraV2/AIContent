@@ -1,0 +1,48 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0013",
+  "slug": "rotativki-s-plodove",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-08-rotativki-s-plodove",
+  "pr": "#15",
+  "title": "Класически ротативки с плодове: как работят слотовете",
+  "meta_description": "Плодовите (класически) ротативки обяснени: 3 барабана, платежни линии, RNG и RTP. Защо „горещи/студени\" машини няма и колко струва RTP в евро.",
+  "keywords": [
+    "ротативки с плодове",
+    "класически ротативки",
+    "плодови ротативки"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/rotativki-s-plodove/images/rotativki-s-plodove-hero.webp",
+      "name": "rotativki-s-plodove-hero.webp",
+      "alt": "Три класически барабана с плодови символи — череша, лимон и слива — наредени на платежна линия в ретро стил",
+      "sha256": "9e76e3890b3a8f25ef6e36f9d53e244e11b6f45d45fd12771c7325c7d96e2a4c",
+      "review": {
+        "score": 98,
+        "integrity_ok": null,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/rotativki-s-plodove/images/rotativki-rtp-domashno-predimstvo.svg",
+      "name": "rotativki-rtp-domashno-predimstvo.svg",
+      "alt": "Инфографика: при RTP 96% от €1000 оборот ротативката връща €960 на играча, €40 остават за казиното (4%); при €0,20 на завъртане — 5000 завъртания = €1000 оборот",
+      "sha256": "513039bea8d898a86557d766b7b0e768132bdc82cfd6b2b79ef47f2f1a39de68",
+      "review": {
+        "score": 98,
+        "integrity_ok": null,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "426f39fdcf3df14f2c23b6e3eb45032b59a5859c94ac9933c750804110621a03",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}

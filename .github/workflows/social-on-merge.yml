@@ -1,0 +1,43 @@
+name: social-on-merge
+# After a pack or fix PR closes (tech spec flow 3): the checks run again on the merged files and
+# their result is commented; a merge by someone without write access (or a bot) gets "not
+# approved" (its posts are not approved: only a merge by the team approves, E4); the pack
+# registry row becomes merged or closed; the dashboard data is rebuilt. Merging a pack never
+# touches an article's status: approve-on-merge acts only on content/ branches.
+on:
+  pull_request_target:
+    types: [closed]
+    branches: [main]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  record:
+    if: startsWith(github.event.pull_request.head.ref, 'social/')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Check again, warn, record
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          set -euo pipefail
+          git pull --ff-only -q || true
+          python3 scripts/social/pr_sync.py merged "$PR_NUMBER"
+          python3 scripts/social/build_social_dashboard.py vsichkikazina
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add VsichkiKazina/social/packs.md VsichkiKazina/social/requests.md docs/data/social 2>/dev/null || true
+          git commit -m "social: record PR #$PR_NUMBER (${{ github.event.pull_request.merged && 'merged' || 'closed' }})" \
+            && (git push || (git pull --no-rebase --no-edit && git push)) \
+            || echo "nothing to record"

@@ -1,0 +1,47 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0120",
+  "slug": "hub-intro-bonuses-vip",
+  "kind": "hub-intro",
+  "type": "hub-intro",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-09-19-hub-intro-bonuses-vip",
+  "pr": "#136",
+  "title": "Казино бонуси и VIP: какво да проверите",
+  "meta_description": "Казино бонуси, безплатни завъртания и VIP програми: какво да проверите в превъртането, лимита на залога и срока, преди да вземете бонус.",
+  "keywords": [
+    "казино бонуси",
+    "vip програма казино"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/hub-intro-bonuses-vip/images/bonusi-vip-hero.webp",
+      "name": "bonusi-vip-hero.webp",
+      "alt": "Стилизирана илюстрация на казино бонус и изискване за разиграване: катинар върху монети с кръгови стрелки около тях, символизиращи завъртанията, необходими за отключване на бонуса, с VIP корона наблизо",
+      "sha256": "e5c83f5c7984c025cbf5ff04349cff8b92f9ed11ec5d563cf0282cbe55bab6d7",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/hub-intro-bonuses-vip/images/razigravane-prinos-igri.svg",
+      "name": "razigravane-prinos-igri.svg",
+      "alt": "Таблица на принос към оборота при разиграване: ротативки допринасят 100%, маси и казино на живо — наполовина или изключени; срок за разиграване обичайно 7–30 дни",
+      "sha256": "db19ddc776447cee54111b38846ff02c8de06cd04ae5e60f17cff31d8134b2e2",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "3b3b4f3cab349c09820403e0ac42a63465d1b20bf0f222457afe1de5c182495b",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}

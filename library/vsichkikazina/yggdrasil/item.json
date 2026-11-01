@@ -1,0 +1,49 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0111",
+  "slug": "yggdrasil",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-09-18-yggdrasil",
+  "pr": "#128",
+  "title": "Yggdrasil Gaming: профил на доставчика, механики и топ слотове",
+  "meta_description": "Кой е Yggdrasil (игдрасил): шведско-малтийското студио зад Splitz, GigaBlox и Multiplier Wilds, платформата GATI и числата на топ слотовете.",
+  "keywords": [
+    "yggdrasil",
+    "игдрасил",
+    "yggdrasil gaming",
+    "yggdrasil слотове"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/yggdrasil/images/yggdrasil-hero.svg",
+      "name": "yggdrasil-hero.svg",
+      "alt": "Абстрактна метафора за Yggdrasil: разклонено дърво-платформа, чиито клони захранват стилизирани барабани, без лога и без текстови числа",
+      "sha256": "c65fa855484e2f339f5db895d12c61a2fc1c27a611724c787fd473ebc958f0ef",
+      "review": {
+        "score": 100,
+        "integrity_ok": true,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/yggdrasil/images/yggdrasil-top-slotove.svg",
+      "name": "yggdrasil-top-slotove.svg",
+      "alt": "Таблица с топ слотове на Yggdrasil: Valley of the Gods 96.20% RTP и макс. 5 800x, 2017; Temple Stacks Splitz 96.10% и 25 000x, 2020; Lucky Neko Gigablox 96.40% и 6 950x, 2020; Vikings Go Berzerk Reloaded 96.00% и 25 000x, 2021",
+      "sha256": "262a54ef9ef05fd49998cdae7ca72facc5a225c38b7c38bbe0bd52fed4fccb79",
+      "review": {
+        "score": 100,
+        "integrity_ok": true,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "6cbf2289acf0696b88ef4e6b4b5514b1ade517c47b3f55138ab4696f97a4aac5",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}

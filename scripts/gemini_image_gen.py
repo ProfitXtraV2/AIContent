@@ -5,8 +5,13 @@ Reads GEMINI_API_KEY (and optional GEMINI_IMAGE_MODEL) from the environment. Sen
 prompt to a Gemini image model, extracts the returned inline image (base64), writes it to
 <out>, and — if Pillow is available — converts to a web-optimised WebP under the size cap.
 
-Usage:  python3 scripts/gemini_image_gen.py "<prompt>" <out_path> [max_kb]
+Usage:  python3 scripts/gemini_image_gen.py "<prompt>" <out_path> [max_kb] [--aspect 4:5] [--size 2K]
+                                                  [--ref <image>]...
         <out_path> should end .webp (preferred) or .png. Default max_kb = 100.
+        --aspect / --size (optional, social): sent as generationConfig.imageConfig
+        (aspectRatio, imageSize 1K|2K). Without them the request is exactly as before.
+        --ref (optional, social, repeatable): a reference picture (.png/.jpg/.webp) sent before the
+        prompt, e.g. the brand mascot the picture must draw the same.
 Exit:   0 = ok (wrote the file; prints the final path) · 2 = unavailable/error (caller skips)
 
 Image hygiene is the CALLER'S responsibility via the prompt (no operator logos/names, no
@@ -47,10 +52,24 @@ def _find_inline_image(data):
     return None
 
 
-def _request(url, key, prompt, with_modalities):
-    body = {"contents": [{"parts": [{"text": prompt}]}]}
+MIME = {".png": "image/png", ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".webp": "image/webp"}
+
+
+def parts_for(prompt, refs=()):
+    """The request's parts: each reference picture inline, then the prompt."""
+    parts = [{"inlineData": {"mimeType": MIME.get(Path(r).suffix.lower(), "image/png"),
+                             "data": base64.b64encode(Path(r).read_bytes()).decode("ascii")}} for r in refs]
+    return parts + [{"text": prompt}]
+
+
+def _request(url, key, prompt, with_modalities, image_config=None, refs=()):
+    body = {"contents": [{"parts": parts_for(prompt, refs)}]}
     if with_modalities:
         body["generationConfig"] = {"responseModalities": ["TEXT", "IMAGE"]}
+        if image_config:
+            body["generationConfig"]["imageConfig"] = image_config
+    # (the retry without responseModalities sends no generationConfig, so imageConfig is
+    # dropped too and models that reject it, such as gemini-2.5-flash-image, still answer)
     req = urllib.request.Request(
         url, data=json.dumps(body).encode("utf-8"),
         headers={"Content-Type": "application/json", "x-goog-api-key": key},
@@ -97,17 +116,51 @@ def _to_webp(png_bytes, out_path, max_kb):
     return True                                   # kept best effort even if slightly over
 
 
+def _take_option(args, name):
+    """Remove `--name value` from args and return value (None when absent)."""
+    if name in args:
+        i = args.index(name)
+        if i + 1 < len(args):
+            value = args[i + 1]
+            del args[i:i + 2]
+            return value
+        del args[i]
+    return None
+
+
+def image_config(aspect=None, size=None):
+    """generationConfig.imageConfig for --aspect / --size, or None when neither is given."""
+    cfg = {}
+    if aspect:
+        cfg["aspectRatio"] = aspect
+    if size:
+        cfg["imageSize"] = size.upper()
+    return cfg or None
+
+
 def main():
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
         print("GEMINI_UNAVAILABLE: GEMINI_API_KEY not set", file=sys.stderr)
         return 2
-    if len(sys.argv) < 3:
-        print("usage: gemini_image_gen.py \"<prompt>\" <out_path> [max_kb]", file=sys.stderr)
+    args = list(sys.argv[1:])
+    cfg = image_config(_take_option(args, "--aspect"), _take_option(args, "--size"))
+    refs = []
+    while "--ref" in args:
+        ref = _take_option(args, "--ref")
+        if ref:
+            refs.append(ref)
+    missing = [r for r in refs if not Path(r).is_file()]
+    if missing:
+        print(f"GEMINI_ERROR: reference picture not found: {', '.join(missing)}", file=sys.stderr)
         return 2
-    prompt = sys.argv[1]
-    out = Path(sys.argv[2])
-    max_kb = int(sys.argv[3]) if len(sys.argv) > 3 else 100
+    if len(args) < 2:
+        print("usage: gemini_image_gen.py \"<prompt>\" <out_path> [max_kb] [--aspect R] [--size 1K|2K]",
+              file=sys.stderr)
+        return 2
+    prompt = args[0]
+    out = Path(args[1])
+    max_kb = int(args[2]) if len(args) > 2 else 100
 
     # Try the primary model, then the proven fallback, so a run still gets an image if the
     # primary id is unavailable on the key.
@@ -117,11 +170,11 @@ def main():
         url = API_TMPL.format(model=model)
         try:
             try:
-                data = _request(url, key, prompt, with_modalities=True)
+                data = _request(url, key, prompt, with_modalities=True, image_config=cfg, refs=refs)
             except urllib.error.HTTPError as e:
                 # Some models reject responseModalities; retry once without it.
                 if e.code == 400:
-                    data = _request(url, key, prompt, with_modalities=False)
+                    data = _request(url, key, prompt, with_modalities=False, refs=refs)
                 else:
                     raise
         except urllib.error.HTTPError as e:

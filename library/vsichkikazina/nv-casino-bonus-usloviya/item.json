@@ -1,0 +1,36 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0064",
+  "slug": "nv-casino-bonus-usloviya",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-13-nv-casino-bonus-usloviya",
+  "pr": "#80",
+  "title": "NV Casino бонус: колко наистина струва €2 000",
+  "meta_description": "NV Casino бонус до €2 000 + 225 FS: реалната цена на x40 превъртането в евро, липсата на НАП лиценз и защо лицензирана къща излиза по-евтино.",
+  "keywords": [
+    "nv casino бонус",
+    "nv casino bonus"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/nv-casino-bonus-usloviya/images/oborot-za-100-evro-bonus-sravnenie.svg",
+      "name": "oborot-za-100-evro-bonus-sravnenie.svg",
+      "alt": "Сравнение на изисквания оборот за €100 бонус: NV Casino x40 само върху бонуса = €4 000, NV Casino x40 върху депозит + бонус = €8 000, Betano x25 върху депозит + бонус = €5 000",
+      "sha256": "59f1888731db6c35f653dff392828db21f991494e48e503138b8eaefeb2bcb85",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "3955f4f2417fc6902254d433b0b8a9020708157171b1b3d0e14add2507cb8952",
+  "operator_or_bonus": true,
+  "operator_or_bonus_reason": "names the operator nv casino",
+  "built_utc": "2026-10-19T05:29:51Z"
+}

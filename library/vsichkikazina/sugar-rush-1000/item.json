@@ -1,0 +1,58 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0033",
+  "slug": "sugar-rush-1000",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-10-sugar-rush-1000",
+  "pr": "#39",
+  "title": "Sugar Rush 1000: какво променя версията 1000",
+  "meta_description": "Sugar Rush 1000 качва тавана на точките от x128 на x1,024 и максимума от 5,000x на 25,000x. Защо това значи повече волатилност, а не по-добри шансове, и кой RTP реално получаваш.",
+  "keywords": [
+    "sugar rush 1000",
+    "сугар ръш 1000"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/sugar-rush-1000/images/sugar-rush-1000-hero.webp",
+      "name": "sugar-rush-1000-hero.webp",
+      "alt": "Абстрактна розова мрежа от светещи желирани бонбони, падащи в колона, по темата на Sugar Rush 1000",
+      "sha256": "3039f05bcf018abd651b1840194913fc9e4f39f2e5851bea31ad70ed1c7fbe26",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/sugar-rush-1000/images/sugar-rush-1000-rtp.svg",
+      "name": "sugar-rush-1000-rtp.svg",
+      "alt": "Sugar Rush 1000 RTP: версия по подразбиране 96.53% връща средно €965.30 на €1000 оборот, €34.70 остават за казиното; възможни са версии 97.50% и 95.50%",
+      "sha256": "172e9c0eef389c3bc20f60d1d81be8c299ff34b37e62c6fb2f5433043ece2165",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/sugar-rush-1000/images/sugar-rush-1000-sravnenie.svg",
+      "name": "sugar-rush-1000-sravnenie.svg",
+      "alt": "Сравнение Sugar Rush 1000 и оригинала: таван на точката 1,024x срещу 128x, максимум 25,000x срещу 5,000x, RTP по подразбиране 96.53% срещу 96.50%, и двете 7×7 cluster pays",
+      "sha256": "76a9001895ad5b65d6b28db90ec4a2eb910c2044e2f76007b5be5ccd39499b23",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "5d464d5ed27a3f3ab87e0e425b4a3f1a44416abe819a4538e4a0a003b6176caf",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}

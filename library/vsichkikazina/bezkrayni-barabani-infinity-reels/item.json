@@ -1,0 +1,50 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0255",
+  "slug": "bezkrayni-barabani-infinity-reels",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-10-04-bezkrayni-barabani-infinity-reels",
+  "pr": "#274",
+  "title": "Безкрайни барабани (Infinity Reels): как работят",
+  "meta_description": "Infinity Reels добавят нов барабан при всяка печалба, с растящ множител. Защо „безкрайното\" е само на теория и как RTP вече го е сметнал.",
+  "keywords": [
+    "безкрайни барабани",
+    "infinity reels",
+    "нарастващи барабани слот",
+    "добавящ се барабан",
+    "infinity reels механика"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/bezkrayni-barabani-infinity-reels/images/bezkrayni-barabani-hero.webp",
+      "name": "bezkrayni-barabani-hero.webp",
+      "alt": "Декоративна илюстрация: редица от барабани на слот, която се удължава надясно с още и още колони, стилизирана метафора на безкрайни барабани",
+      "sha256": "824ad1e7126a0c8d4df0db268fdbb29fb478d49a6328c91682b2183a7aa83182",
+      "review": {
+        "score": 100,
+        "integrity_ok": null,
+        "source": "08-image-review-2.md"
+      }
+    },
+    {
+      "path": "published/bezkrayni-barabani-infinity-reels/images/infinity-reels-mnozhitel-verizhka.svg",
+      "name": "infinity-reels-mnozhitel-verizhka.svg",
+      "alt": "Инфографика: верига от безкрайни барабани. Започва с 3 барабана и множител ×1; печалба добавя 4-ти барабан и множителят става ×2; нова печалба добавя 5-и барабан и множителят става ×3; петият барабан не удължава печалбата, затова шести не се добавя и веригата спира. Числата са примерни.",
+      "sha256": "0cdc9cff1ea0d541397463e8f499973c9aa57a5b99477b22e54ac2a45d4f7b7c",
+      "review": {
+        "score": 100,
+        "integrity_ok": null,
+        "source": "08-image-review-2.md"
+      }
+    }
+  ],
+  "article_version": "afde2f010cf8b1e533895be79a25fb7b0bfc404def122a0e7e612685a02bc629",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}

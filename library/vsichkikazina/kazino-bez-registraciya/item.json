@@ -1,0 +1,49 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0039",
+  "slug": "kazino-bez-registraciya",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-09-11-kazino-bez-registraciya",
+  "pr": "#55",
+  "title": "Казино без регистрация: какво реално значи в България",
+  "meta_description": "„Казино без регистрация\" звучи удобно, но при легалните казина в България регистрацията и верификацията са задължителни по закон. Кое е реалната игра без акаунт, какво е Pay N Play и кои обещания издават нелицензиран сайт.",
+  "keywords": [
+    "казино без регистрация",
+    "казино игри без регистрация",
+    "pay n play",
+    "демо режим"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/kazino-bez-registraciya/images/kazino-bez-registraciya-hero.webp",
+      "name": "kazino-bez-registraciya-hero.webp",
+      "alt": "Стилизирана врата с пропуск под формата на банкова карта, символ на проверката на самоличност преди достъп до онлайн казино",
+      "sha256": "3fe20e4de692246e18bc8348f559ff4c1fb12669f38b7960a8b6a77fa8a0f746",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/kazino-bez-registraciya/images/tri-nachina-igra-bez-registraciya.svg",
+      "name": "tri-nachina-igra-bez-registraciya.svg",
+      "alt": "Сравнение на три начина да играеш: демо без регистрация (без реални печалби), лицензирано казино с регистрация и защита от НАП, и нелицензиран сайт „без регистрация\" без защита и правен изход",
+      "sha256": "4a438f117f41b48a2e35237f75d9fa18606e13949b2f241269b41d88d63f4718",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "836ae505c7f6ae638f36dc21a27bbef460c6c33a88b1f0ee068b9bf6e62903a7",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}

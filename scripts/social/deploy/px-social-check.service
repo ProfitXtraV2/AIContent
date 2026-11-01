@@ -1,0 +1,27 @@
+[Unit]
+Description=Social publishing check (AIContent; tech spec flow 4)
+Documentation=https://github.com/ProfitXtraV2/AIContent/blob/main/SOCIAL-SETUP.md
+After=network-online.target docker.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=px-social
+Group=px-social
+EnvironmentFile=/etc/px-social/env
+WorkingDirectory=/var/lib/px-social
+ExecStart=/usr/bin/flock -w 240 /run/px-social/lock /usr/bin/python3 /opt/px-social/current/scripts/social/publishing_check.py
+TimeoutStartSec=25min
+# The check reads its data clone and SQLite and writes nothing else.
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+PrivateDevices=true
+ReadWritePaths=/var/lib/px-social /run/px-social
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+CapabilityBoundingSet=
+UMask=0077

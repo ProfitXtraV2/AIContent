@@ -1,0 +1,49 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0015",
+  "slug": "novi-kazino-igri-2026",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-08-novi-kazino-igri-2026",
+  "pr": "#17",
+  "title": "Нови казино игри 2026: как да оцените ново заглавие",
+  "meta_description": "Нови казино игри 2026: оценете ново заглавие по RTP, волатилност и механика (Megaways, крах, шоу на живо). Защо демото е истинският тест.",
+  "keywords": [
+    "нови казино игри",
+    "нови слотове",
+    "нови формати",
+    "как да оцените нова игра"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/novi-kazino-igri-2026/images/novi-kazino-igri-ocenka-hero.webp",
+      "name": "novi-kazino-igri-ocenka-hero.webp",
+      "alt": "Лупа, изследваща светеща иконка на казино игра, с икони за отметки наоколо, концепция за оценяване на ново заглавие преди игра",
+      "sha256": "cd7bfac265d42fb969e6570029aa2f8f1304a3dc9c58c76caa1e3c3949e44a56",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/novi-kazino-igri-2026/images/novi-igri-formati-mehanika.svg",
+      "name": "novi-igri-formati-mehanika.svg",
+      "alt": "Сравнение на основни формати при нови казино игри: Megaways до 117 649 начина за печалба, Cluster pays, Крах игри 5–30 секунди на кръг, Шоу на живо",
+      "sha256": "6e7ea6ad5199f8a048f26acaaae0bbfb1db0305519e370e7400f3613122b5ca9",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "88c4966037a98377fa326b6d305488b91f86d635a15da4bbfac8247d82cc66ab",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}

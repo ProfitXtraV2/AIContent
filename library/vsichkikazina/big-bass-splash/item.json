@@ -1,0 +1,47 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0038",
+  "slug": "big-bass-splash",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-10-big-bass-splash",
+  "pr": "#54",
+  "title": "Big Bass Splash: RTP, волатилност и как се играе",
+  "meta_description": "Big Bass Splash на Pragmatic Play: 5x3, 10 линии, RTP 96.71%, много висока волатилност, макс. 5,000x. Как рибарят събира парите и как множителят стига до 10x в безплатните завъртания.",
+  "keywords": [
+    "big bass splash",
+    "биг бас сплаш"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/big-bass-splash/images/big-bass-splash-hero.webp",
+      "name": "big-bass-splash-hero.webp",
+      "alt": "Абстрактна риболовна сцена с плувка, монети-риби и вълни, вдъхновена от слот като Big Bass Splash",
+      "sha256": "a85fab5c5540a7e94555218c71c30d1a1d249fcffeaec6a39f8365a21987b649",
+      "review": {
+        "score": 95,
+        "integrity_ok": true,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/big-bass-splash/images/big-bass-splash-mnozhitel.svg",
+      "name": "big-bass-splash-mnozhitel.svg",
+      "alt": "Стълба на множителя в безплатните завъртания на Big Bass Splash: на всеки 4-ти събран рибар се сменя ниво с нови 10 завъртания и множител 1x, 2x, 3x и 10x",
+      "sha256": "1b6cb133376bb21685a2fa44e61403166438e60576e5fcd9c052f7fe1ef59c13",
+      "review": {
+        "score": 98,
+        "integrity_ok": true,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "c9fdfb9b7965f3fef978645c55f3a83784214cbb2d9d40532ace2ca095977921",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}

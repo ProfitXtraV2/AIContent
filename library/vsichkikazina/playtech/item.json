@@ -1,0 +1,60 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0107",
+  "slug": "playtech",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-18-playtech",
+  "pr": "#124",
+  "title": "Playtech: профил на доставчика, механики и топ слотове",
+  "meta_description": "Кой е Playtech, как работи мрежата от джакпоти Age of the Gods и кои са топ слотовете. Защо RTP идва в няколко версии и защо джакпотът се пълни от оборота.",
+  "keywords": [
+    "playtech",
+    "плейтек",
+    "playtech слотове",
+    "playtech казино игри"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/playtech/images/playtech-hero.svg",
+      "name": "playtech-hero.svg",
+      "alt": "Абстрактна метафора за Playtech като голям доставчик: свързани панели за казино, живо казино, покер и бинго и стълбица от четири нива на прогресивен джакпот",
+      "sha256": "c03a764a912d830e22510d13b2ac18c7c19ec753fa6ba180194bf5f4d54ade44",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/playtech/images/playtech-age-of-the-gods-niva.svg",
+      "name": "playtech-age-of-the-gods-niva.svg",
+      "alt": "Схема на четирите нива джакпот в мрежата Age of the Gods на Playtech: Power, Extra Power, Super Power и Ultimate Power, споделящи общ фонд",
+      "sha256": "3a13d0b02cb1aa68444963319abef60ae9f64601495f4b93b02c0c340d1d57ed",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/playtech/images/playtech-top-slotove.svg",
+      "name": "playtech-top-slotove.svg",
+      "alt": "Таблица с топ слотове на Playtech: Age of the Gods 95.02% RTP и 10 000x, Gladiator: Road to Rome 95.05% и 150 000x, Jackpot Giant 94.22% и 50 000x, Great Blue 94.30% и 10 000x, Buffalo Blitz 95.96% и 300x",
+      "sha256": "14a65c2f794188014a167839deb7361f627ea12dfcd6ca9b3f95bafae911b8d7",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "43a45b2c46a07d6f60ad11a140b01b43b71319a5c690d38f5b97edf2a308928c",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}

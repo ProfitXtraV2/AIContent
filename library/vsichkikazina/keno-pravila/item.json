@@ -1,0 +1,37 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0016",
+  "slug": "keno-pravila",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-08-keno-pravila",
+  "pr": "#18",
+  "title": "Кено: правила, изплащания и реални шансове",
+  "meta_description": "Кено на прости думи: правила, как работят таблиците за изплащане и реалните шансове. Защо домашното предимство е сред най-високите в казиното.",
+  "keywords": [
+    "кено",
+    "кено правила",
+    "как се играе кено"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/keno-pravila/images/keno-domashno-predimstvo-sravnenie.svg",
+      "name": "keno-domashno-predimstvo-sravnenie.svg",
+      "alt": "Сравнение на RTP при кено (видео 84%–95%, наземно/живо 50%–80%, онлайн по таблица) спрямо добри ротативки (~96%) и маса игри (>95%)",
+      "sha256": "db8f7d7ed9b720794e0eedd168f23bf94f7842c947ece52e058ebd30942b9b53",
+      "review": {
+        "score": 100,
+        "integrity_ok": true,
+        "source": "08-image-review-2.md"
+      }
+    }
+  ],
+  "article_version": "82533a66c78ad98313e44ad5504a8e7792fc28df47ec6f3cbff3dcde3004432c",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}

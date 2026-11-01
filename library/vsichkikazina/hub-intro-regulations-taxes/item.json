@@ -1,0 +1,36 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0121",
+  "slug": "hub-intro-regulations-taxes",
+  "kind": "hub-intro",
+  "type": "hub-intro",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-09-19-hub-intro-regulations-taxes",
+  "pr": "#138",
+  "title": "Регулации и данъци в онлайн хазарта в България",
+  "meta_description": "Кои са хазартните закони в България, какво значи лиценз от НАП и как стои въпросът с данъка върху хазартни печалби, преди да заложиш и стотинка.",
+  "keywords": [
+    "хазартни закони българия",
+    "данък върху хазартни печалби"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/hub-intro-regulations-taxes/images/regulacii-danaci-hero.webp",
+      "name": "regulacii-danaci-hero.webp",
+      "alt": "Абстрактна илюстрация на хазартна регулация: официален документ-свитък с щит и печат в центъра, символизиращи лиценз и регулаторна защита, с геометрични орнаменти в тъмносини и златни тонове",
+      "sha256": "adc42316e34b4addb83fc03ca0732cfbacb75c11b7a4bf03170bdf97a49acd16",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "59fadff33e705dbda3809eba7b2af8f50d24178ecdf981eddf708b9c33e59841",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}

@@ -1,0 +1,59 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0276",
+  "slug": "kazina-las-vegas",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-10-10-kazina-las-vegas",
+  "pr": "#294",
+  "title": "Казино в Лас Вегас: колко задържа къщата | Всички Казина",
+  "meta_description": "Колко задържат казината в Лас Вегас по данните на Невада, кои правила ви струват пари, 21+ и данък в САЩ за българи. Сравнение с онлайн казино в България.",
+  "keywords": [
+    "лас вегас",
+    "лас вегас казино",
+    "атлантик сити"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/kazina-las-vegas/images/las-vegas-kazino-zadarzhan-dyal-hero.webp",
+      "name": "las-vegas-kazino-zadarzhan-dyal-hero.webp",
+      "alt": "Илюстрация: поток от чипове минава през фуния пред силует на пустинен град по здрач, а малък постоянен дял от чиповете се отклонява встрани, метафора за процента, който казиното задържа",
+      "sha256": "087dd62d3ab8bd305b881084a12f045c63675f9703be2489820a92135655d8f0",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/kazina-las-vegas/images/las-vegas-slotove-zadarzhano-po-nominal-infografika.svg",
+      "name": "las-vegas-slotove-zadarzhano-po-nominal-infografika.svg",
+      "alt": "Инфографика: win % на слот машините в района Las Vegas Strip за 12 месеца до 31.08.2026 по номинал, от 5.67% при машините за 100 долара до 11.44% при 25-центовите, средно 7.75%, срещу теоретични 3.92 на 100 при онлайн слота Starburst с RTP 96.08%",
+      "sha256": "89d22c99914c2ca7065facd7898a820bd1edfc7bf906a9fecdcc858b45736ca3",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/kazina-las-vegas/images/las-vegas-ruletka-nuli-blekdzhek-6-5-infografika.svg",
+      "name": "las-vegas-ruletka-nuli-blekdzhek-6-5-infografika.svg",
+      "alt": "Инфографика: теоретична загуба на 100 долара заложени на рулетка, 2.70 при една нула, 5.26 при двойна и 7.69 при тройна; натурал при залог 10 долара в блекджек плаща 15 при 3:2 и 12 при 6:5",
+      "sha256": "f248fd753cb92168ccbe8baad8e08ccde19f81dbb77d36cb2433ef5e0ad1a14e",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "74e593a7775eea656295111e71a455897cc44dd20dc19881d7b73679a8de9740",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}

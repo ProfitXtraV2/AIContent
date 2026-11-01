@@ -1,0 +1,102 @@
+name: social-pr
+# Pack and fix PRs of social posts (tech spec flow 2): the review view and the checks, within
+# minutes of every change. pull_request_target runs this workflow and the scripts from main; the
+# PR's files are checked out into pr/ and only read as data, so a PR cannot change the checks that
+# judge it. It needs no key: the English references come with the posts, written by the drafting
+# agent. Results are advisory: the publishing check runs the same checks again from its pinned
+# code at hand-over.
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened, edited]
+    branches: [main]
+  issue_comment:
+    types: [created]
+
+concurrency:
+  group: social-pr-${{ github.event.pull_request.number || github.event.issue.number }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write        # push the dashboard's preview of the pack to main
+  pull-requests: write   # replace the description with the review view
+  issues: write          # sticky comment, "redo requested" label
+  statuses: write        # the social-checks commit status
+
+jobs:
+  review:
+    if: >-
+      github.event_name == 'pull_request_target' &&
+      startsWith(github.event.pull_request.head.ref, 'social/') &&
+      github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - name: Scripts and data from main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+          persist-credentials: true    # pushes the dashboard's preview of the pack to main (no workflow starts from it)
+      - name: The PR's files, as data only
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          path: pr
+          fetch-depth: 1
+          persist-credentials: false   # read only: nothing is pushed to the PR branch
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Render the review view, run the checks
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          set -euo pipefail
+          python3 scripts/social/secret_scan.py pr/VsichkiKazina/social pr/DentalVia/social 2>/dev/null || {
+            echo "::error::a key-like value is in the PR's files; the checks stop until it is removed"
+            exit 1
+          }
+          python3 scripts/social/pr_sync.py review "$PR_NUMBER" --pr-dir pr --preview-root .
+      - name: The dashboard's preview of the pack (docs/data/social/previews)
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          # the pack folders this pass wrote, put on the newest main each try (the checkout is shallow)
+          dirs=$(git status --porcelain --untracked-files=all -- docs/data/social/previews | awk '{print $2}' | cut -d/ -f1-5 | sort -u)
+          [ -z "$dirs" ] && exit 0
+          keep=$(mktemp -d)
+          for d in $dirs; do mkdir -p "$keep/$d"; cp -r "$d/." "$keep/$d/"; done
+          for i in 1 2 3; do
+            git fetch -q --depth=1 origin main && git reset -q --hard FETCH_HEAD
+            for d in $dirs; do rm -rf "$d"; mkdir -p "$d"; cp -r "$keep/$d/." "$d/"; done
+            git add docs/data/social/previews
+            git diff --cached --quiet && exit 0
+            git commit -q -m "social: dashboard preview of PR #$PR_NUMBER" && git push -q origin HEAD:main && exit 0
+            sleep 5
+          done
+          exit 1
+
+  redo:
+    if: >-
+      github.event_name == 'issue_comment' &&
+      github.event.issue.pull_request &&
+      startsWith(github.event.comment.body, '/redo')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Mark the pack "redo requested" (the next drafting run does the redo)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.issue.number }}
+          COMMENT_ID: ${{ github.event.comment.id }}
+        run: python3 scripts/social/pr_sync.py redo "$PR_NUMBER" --comment-id "$COMMENT_ID"

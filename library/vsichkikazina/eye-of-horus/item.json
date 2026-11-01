@@ -1,0 +1,49 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0093",
+  "slug": "eye-of-horus",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-16-eye-of-horus",
+  "pr": "#110",
+  "title": "Eye of Horus: RTP 96.31%, разширяващ се символ и 12 завъртания",
+  "meta_description": "Eye of Horus (око на хор): поле 5×3, 10 линии, RTP 96.31%. Как разширяващият се символ Око на Хор надгражда символите в 12-те безплатни завъртания и защо е book-слот.",
+  "keywords": [
+    "eye of horus",
+    "око на хор",
+    "eye of horus rtp",
+    "ай ъв хорус"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/eye-of-horus/images/eye-of-horus-rtp.svg",
+      "name": "eye-of-horus-rtp.svg",
+      "alt": "Eye of Horus RTP 96.31% и домашно предимство 3.69%: при €1000 оборот средно ~€963.10 се връщат на играча, а ~€36.90 остават за казиното",
+      "sha256": "a1658c84bfb76668ea0a864617b3f664d4218298445712cf9d8068f41a6db4bb",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/eye-of-horus/images/eye-of-horus-free-spins.svg",
+      "name": "eye-of-horus-free-spins.svg",
+      "alt": "Как работят 12-те безплатни завъртания на Eye of Horus: 3+ скатера дават 12 завъртания, дивите карти Хор зареждат плочите и надграждат ниските символи към символа Око на Хор",
+      "sha256": "1b4a7acfa529d03c4634470caeb3b288698b3c8d11b0e063d67174ff7cbe7f6e",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "f103aab7ee66724fe41a3ef3cee88a2b921cd2b507a6935fa57e798105a93338",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}

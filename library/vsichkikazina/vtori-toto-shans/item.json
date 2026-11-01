@@ -1,0 +1,36 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0268",
+  "slug": "vtori-toto-shans",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-10-10-vtori-toto-shans",
+  "pr": "#290",
+  "title": "Втори тото шанс 5 от 35 и 6 от 49: как работи през 2026",
+  "meta_description": "Втори тото шанс 5 от 35 вече е жребий между квитанциите: 5 печалби по 350 € на тираж, при 6 от 49 са 6 по 490 €. Без доплащане. Вижте как се проверява.",
+  "keywords": [
+    "втори тото шанс 5 от 35",
+    "втори тото шанс 6 49"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/vtori-toto-shans/images/vtori-toto-shans-zhrebiy-kak-raboti-infografika.svg",
+      "name": "vtori-toto-shans-zhrebiy-kak-raboti-infografika.svg",
+      "alt": "Инфографика: как работи втори тото шанс от 2026 г. при ТОТО 2 5 от 35 и 6 от 49 - залог без доплащане, автоматично участие на квитанцията в жребия, жребий на живо по БНТ в четвъртък и неделя от 18:45 ч., печалби 5 × 350 евро при 5 от 35 и 6 × 490 евро при 6 от 49 (специален тираж: една печалба от 33 000 евро) и проверка по имейл или по серийния номер на квитанцията",
+      "sha256": "ad21a3a1db68e0fe2a397a66b11983b1a75abe9b785fe53c9620132fe2703ce9",
+      "review": {
+        "score": 85,
+        "integrity_ok": null,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "f1d2a8e302f48cc0823d4a1e8797b8be2a92ad42c14763b05cd4367711f7cc4e",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}

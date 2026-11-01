@@ -1,0 +1,37 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0269",
+  "slug": "toto-zodiak",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-10-10-toto-zodiak",
+  "pr": "#286",
+  "title": "Тото Зодиак: правила, печеливши групи и шанс за джакпот",
+  "meta_description": "Тото 2 Зодиак (5 от 50 + зодия): кога е тиражът, десетте печеливши групи, шансът 1 на 25 425 120 и защо няма печеливши числа. 18+",
+  "keywords": [
+    "тото зодиак",
+    "тото 2 зодиак",
+    "числа за тото зодиак"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/toto-zodiak/images/toto-zodiak-shans-pechalba-grupi-infografika.svg",
+      "name": "toto-zodiak-shans-pechalba-grupi-infografika.svg",
+      "alt": "Инфографика: при Тото Зодиак 5 числа от 50 и 1 зодия от 12 дават 25 425 120 комбинации; шансът за всяка от десетте печеливши групи за една комбинация, от 1 на 25 425 120 за джакпота до 1 на 16,3 за 2 числа, и около 14,9% шанс за каквато и да е печалба",
+      "sha256": "fa2b433e1c2242853ee0ef8fba79d46ca306e9b8e3cdd7fa6e6f703f04017486",
+      "review": {
+        "score": 100,
+        "integrity_ok": null,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "13923627cfb99e1e585926102bdf7096085266cbfff2717dcdeb07ef35436167",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}

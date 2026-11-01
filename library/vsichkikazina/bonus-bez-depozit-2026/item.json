@@ -1,0 +1,48 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0004",
+  "slug": "bonus-bez-depozit-2026",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-07-bonus-bez-depozit-2026",
+  "pr": "#5",
+  "title": "Бонус без депозит 2026: какво наистина получавате",
+  "meta_description": "Бонусът без депозит: печелиш, без да залагаш свои пари, но условията са стегнати. Превъртане, таван на тегленето, KYC и защо лицензът от НАП решава.",
+  "keywords": [
+    "бонус без депозит",
+    "казино без депозит",
+    "безплатни завъртания без депозит"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/bonus-bez-depozit-2026/images/bonus-bez-depozit-hero.webp",
+      "name": "bonus-bez-depozit-hero.webp",
+      "alt": "Малка монета в стъклена сфера с кръгови стрелки — символ на бонус, заключен от изискванията за превъртане",
+      "sha256": "6e29d99dbbb6abdf9ecf2fbc9c0d43e449131742b340fc853cfdfd957993544e",
+      "review": {
+        "score": 95,
+        "integrity_ok": true,
+        "source": "08-image-review-2.md"
+      }
+    },
+    {
+      "path": "published/bonus-bez-depozit-2026/images/bonus-bez-depozit-smetka.svg",
+      "name": "bonus-bez-depozit-smetka.svg",
+      "alt": "Инфографика: три стъпки в бонус без депозит — изискван оборот €400, темпо ≈€57/ден за 7 дни, таван на тегленето €50; разбивка на принос на игрите (ротативки 100% → €400 залози; маси 10–20% → €2,000+ залози)",
+      "sha256": "bdd1648b4104819a9d3814717227d6b6df8590811da9e9c5b76c14c792121c4b",
+      "review": {
+        "score": 100,
+        "integrity_ok": true,
+        "source": "08-image-review-2.md"
+      }
+    }
+  ],
+  "article_version": "d951795fe896e1dc68e976d389e48b6248e95b66fd17bf33ae127dcab1ab8bb2",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}

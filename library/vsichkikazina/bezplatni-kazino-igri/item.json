@@ -1,0 +1,26 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0003",
+  "slug": "bezplatni-kazino-igri",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-07-bezplatni-kazino-igri",
+  "pr": "#4",
+  "title": "Безплатни казино игри: демо режим, RTP и „безплатното\"",
+  "meta_description": "Демо режимът е истински безплатен и полезен за волатилността. „Безплатните\" бонуси носят превъртане и таван. Кога да вярваш на демото и какво значи RTP.",
+  "keywords": [
+    "безплатни казино игри",
+    "демо режим",
+    "RTP",
+    "безплатни завъртания"
+  ],
+  "body_path": "article.md",
+  "images": [],
+  "article_version": "a95dfdd4775307edc6d0f8830c40ddadfd0436ab711609aeb632d895ba08eb95",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}

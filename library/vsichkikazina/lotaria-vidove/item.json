@@ -1,0 +1,61 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0273",
+  "slug": "lotaria-vidove",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-10-10-lotaria-vidove",
+  "pr": "#296",
+  "title": "Лотария в България: видове, кой я организира и онлайн игра",
+  "meta_description": "Какво е лотария по Закона за хазарта, четирите вида лотарии, игрите на БСТ, законната онлайн лотария на toto.bg и как да познаете незаконна. 18+",
+  "keywords": [
+    "лотария",
+    "онлайн лотария",
+    "лотария онлайн",
+    "бг лотария",
+    "видове лотарии"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/lotaria-vidove/images/vidove-lotarii-hero.webp",
+      "name": "vidove-lotarii-hero.webp",
+      "alt": "Илюстрация: четирите вида лотарийни игри като празен тиражен билет, скреч талон с частично изтрито покритие, откъснат талон за томбола и фиш с числова мрежа, пред очертанието на щит като символ на законовата рамка",
+      "sha256": "de7ec7231a0e5807e4a8f4896196e0064cc38ed600cec9cc1e2eb9cb7d2a2b1a",
+      "review": {
+        "score": 100,
+        "integrity_ok": true,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/lotaria-vidove/images/vidove-lotariyni-igri-zakon-za-hazarta.svg",
+      "name": "vidove-lotariyni-igri-zakon-za-hazarta.svg",
+      "alt": "Инфографика: четирите вида лотарийни игри по Закона за хазарта - традиционна лотария, томбола, числова лотарийна игра и моментна лотария, кои билети участват, как се определя печалбата, минимум 50% за печалби и дали играта може онлайн",
+      "sha256": "c1b94249205249d3ca9fab201f853150023f2ddce3b64196b091a215c87835d4",
+      "review": {
+        "score": 100,
+        "integrity_ok": true,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/lotaria-vidove/images/shansove-6-ot-49-6-ot-42-5-ot-35.svg",
+      "name": "shansove-6-ot-49-6-ot-42-5-ot-35.svg",
+      "alt": "Инфографика: брой възможни комбинации и шанс с една комбинация в 6 от 49 (13 983 816), 6 от 42 (5 245 786) и 5 от 35 (324 632 за всяко от двете тегления), показани като пропорционални ленти",
+      "sha256": "3f609ae3858313aa81f9f5d11a60e9511851612a27daad268431e556f729c2e1",
+      "review": {
+        "score": 100,
+        "integrity_ok": true,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "3c10fe3b807778f87a34aa84170b5fb3ff1f2eab763dc7a78f0cfd981b9e58a3",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}

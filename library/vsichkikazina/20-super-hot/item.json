@@ -1,0 +1,47 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0020",
+  "slug": "20-super-hot",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-08-20-super-hot",
+  "pr": "#26",
+  "title": "20 Super Hot: RTP и характеристики (EGT/Amusnet)",
+  "meta_description": "Как работи 20 Super Hot на Amusnet (EGT): 5 барабана, 20 фиксирани линии, RTP 95.79%, Jackpot Cards и гембъл. Защо RTP е под средното и защо джакпотът не мени шансовете.",
+  "keywords": [
+    "20 super hot",
+    "20 супер хот"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/20-super-hot/images/20-super-hot-hero.webp",
+      "name": "20-super-hot-hero.webp",
+      "alt": "Абстрактен фон с плодови символи и звезда, вдъхновен от класическа ротативка като 20 Super Hot",
+      "sha256": "516ed83671597b78859167fb1e100c67832fab5bd6ec2ce691618c9f532c4ef2",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/20-super-hot/images/20-super-hot-rtp.svg",
+      "name": "20-super-hot-rtp.svg",
+      "alt": "20 Super Hot RTP 95.79% и домашно предимство 4.21%: при €1000 оборот средно €958 се връщат на играча, €42 остават за казиното",
+      "sha256": "0a1566a9e8031c6347ee5d7bfddcb6d35fcd5c8332e305b923c16486dfe528ad",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "9af36756e936e7d9f6deaf122d8ba5cc5e2d2eb7cc445a304d99dae159c361ed",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}

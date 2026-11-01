@@ -1,0 +1,58 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0028",
+  "slug": "big-bass-bonanza",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-09-big-bass-bonanza",
+  "pr": "#35",
+  "title": "Big Bass Bonanza: RTP, волатилност и как се играе",
+  "meta_description": "Как работи Big Bass Bonanza на Pragmatic Play: рибарят wild събира парите-риби, безплатни завъртания с множители до 10x, RTP 96.71% и висока волатилност.",
+  "keywords": [
+    "big bass bonanza",
+    "биг бас бонанза"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/big-bass-bonanza/images/big-bass-bonanza-hero.webp",
+      "name": "big-bass-bonanza-hero.webp",
+      "alt": "Абстрактна илюстрация на риболовна тема с плувка, риба и вълни по мотива на Big Bass Bonanza, без лого или интерфейс на оператор",
+      "sha256": "493c4a3edb1b7b98be9da1288e868b31402465224fd1d80af3f2486c498e1a3a",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/big-bass-bonanza/images/big-bass-bonanza-rtp.svg",
+      "name": "big-bass-bonanza-rtp.svg",
+      "alt": "Big Bass Bonanza RTP: при €1000 оборот и версия 96.71% на играча се връщат средно €967.10, а €32.90 остават за казиното; операторът може да пусне и по-нисък RTP",
+      "sha256": "45d4f98d46fa0cb2a4ef802bf1187bb707e0c5b003cfeb14f3ad37faac255c7f",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/big-bass-bonanza/images/big-bass-bonanza-bonus.svg",
+      "name": "big-bass-bonanza-bonus.svg",
+      "alt": "Инфографика за бонуса на Big Bass Bonanza: 3 скатера дават 10 завъртания, 4 дават 15, 5 дават 20; на всеки 4 събрани рибари множителят се качва 2x, 3x, 10x с по още 10 завъртания",
+      "sha256": "060a3ac18bad56328ed6c9d3e4293ce6a0f0e0d32bb62c5344a46b65c6ff5080",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "cdfcdd49cc6d62147bcaee40b66d6f6a37cb470c2512a81e77ef6962eabe7fed",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}

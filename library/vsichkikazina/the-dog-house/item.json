@@ -1,0 +1,47 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0031",
+  "slug": "the-dog-house",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-10-the-dog-house",
+  "pr": "#37",
+  "title": "The Dog House: RTP, волатилност и как се играе",
+  "meta_description": "Как работи The Dog House на Pragmatic Play: 5×3 с 20 линии, лепкави wild-ове с множители 2x и 3x, безплатни завъртания и RTP 96.51%. Защо таванът 6750x е рядкост и защо bonus buy не сваля предимството.",
+  "keywords": [
+    "the dog house",
+    "дог хаус слот"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/the-dog-house/images/the-dog-house-hero.webp",
+      "name": "the-dog-house-hero.webp",
+      "alt": "Абстрактен фон с кучешки колиби, лапи и кокали в топли цветове по темата на The Dog House",
+      "sha256": "b48e635f154c302cdca697ce2d2b1b7bd7f2651d4c18d7dea30daa5f5df37673",
+      "review": {
+        "score": 85,
+        "integrity_ok": true,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/the-dog-house/images/the-dog-house-rtp.svg",
+      "name": "the-dog-house-rtp.svg",
+      "alt": "The Dog House RTP: при €1000 оборот и версия 96.51% на играча се връщат средно €965, а €35 остават за казиното; операторът може да пусне и по-нисък RTP",
+      "sha256": "78cdf4eb7004e8b92f5aaf7b403196b44afaa1d795a31971d9aa0c8807f88b38",
+      "review": {
+        "score": 85,
+        "integrity_ok": true,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "daf4867266ca1b819f3dbec3e15068796744e02d7de390ef89ddc7df305d9d33",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}

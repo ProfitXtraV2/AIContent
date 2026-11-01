@@ -1,0 +1,49 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0012",
+  "slug": "bakara-pravila",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-08-bakara-pravila",
+  "pr": "#14",
+  "title": "Бакара: правила, залози и как се играе в казино",
+  "meta_description": "Бакара обяснена просто: правилата, трите залога (Пунто, Банко, равенство), комисионата и кой залог струва най-малко. Защо равенството е капан.",
+  "keywords": [
+    "бакара",
+    "как се играе бакара",
+    "бакара правила",
+    "бакара онлайн"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/bakara-pravila/images/bakara-izbor-dve-ratsye-hero.webp",
+      "name": "bakara-izbor-dve-ratsye-hero.webp",
+      "alt": "Две абстрактни карти на везни, едната по-тежка — визуална метафора на избора между Банко и Пунто в бакара",
+      "sha256": "dd7b2acdcda92cda14af906187716833fdde7a5010f5f1c18e5a2be733581cbf",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/bakara-pravila/images/bakara-zalozi-domashno-predimstvo.svg",
+      "name": "bakara-zalozi-domashno-predimstvo.svg",
+      "alt": "Трите залога в бакара: Банко 1:1 минус 5% комисиона с домашно предимство ~1,06%; Пунто 1:1 с ~1,24%; Равенство 8:1 с ~14,36% — пример €1 000 оборот, очаквана загуба Банко ~€11, Равенство ~€144",
+      "sha256": "41ce24a1ff725c1d6617de2af93b017dd9432e63b5045634692d1af35d81a1fe",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "fb375d08f758554539ada249ff00724e6d39da4da1544aaeefed2fa21af58aab",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}

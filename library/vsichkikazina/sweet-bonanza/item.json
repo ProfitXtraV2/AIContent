@@ -1,0 +1,48 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0018",
+  "slug": "sweet-bonanza",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-08-sweet-bonanza",
+  "pr": "#24",
+  "title": "Sweet Bonanza: RTP, волатилност и как се играе",
+  "meta_description": "Как работи Sweet Bonanza на Pragmatic Play: pay-anywhere, tumble, множители 2x–100x, безплатни завъртания и RTP 96.48%. Защо RTP се проверява и защо bonus buy не сваля предимството.",
+  "keywords": [
+    "sweet bonanza",
+    "свит бонанза",
+    "sweet bonanza rtp"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/sweet-bonanza/images/sweet-bonanza-hero.webp",
+      "name": "sweet-bonanza-hero.webp",
+      "alt": "Абстрактен захарен фон с бонбони, плодове и близалки по темата на Sweet Bonanza",
+      "sha256": "98c5220132d55437041e1cee661a5418e59b22a404b190f428477c79ea919fc3",
+      "review": {
+        "score": 98,
+        "integrity_ok": true,
+        "source": "08-image-review-2.md"
+      }
+    },
+    {
+      "path": "published/sweet-bonanza/images/sweet-bonanza-rtp.svg",
+      "name": "sweet-bonanza-rtp.svg",
+      "alt": "Sweet Bonanza RTP: при €1000 оборот и версия 96.48% на играча се връщат средно €965, а €35 остават за казиното; операторът може да пусне и по-нисък RTP",
+      "sha256": "42cc785e9bfc33062d53fb783cc137cbc6424b33d9559c73b04c75fd78a827f3",
+      "review": {
+        "score": 98,
+        "integrity_ok": true,
+        "source": "08-image-review-2.md"
+      }
+    }
+  ],
+  "article_version": "33dc0941e8fe7a21fcde16484b83d7d027481df80308afc9aa1c5f38ee6a0684",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-10-19T05:29:36Z"
+}
