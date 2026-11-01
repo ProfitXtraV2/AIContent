@@ -25,7 +25,7 @@
       "path": "published/hazartni-igri-vidove/images/hazartni-igri-vidove-zakon-onlajn-infografika.svg",
       "name": "hazartni-igri-vidove-zakon-onlajn-infografika.svg",
       "alt": "Инфографика: петте вида хазартни игри по чл. 41, ал. 1 от Закона за хазарта (лотарийни игри, залагания на спорт и надбягвания, залагания на случайни събития и познаване на факти, игри с игрални автомати, игри в игрално казино), с примери, правно основание и отметка кои се допускат онлайн",
-      "sha256": "882deedfd3b806d7cbfd7a802fed8e1e0dc771211697e61c10f6084c859893c8",
+      "sha256": "2da0dc9b87f3cb2727fe6b7af378d5078c8cb0ab22879bb017f4f162d2509ad2",
       "review": {
         "score": 100,
         "integrity_ok": null,
@@ -33,8 +33,8 @@
       }
     }
   ],
-  "article_version": "f688df2755ea34b4a23088a533e622f1a223ac96a33d9294039b5110a99e6ce8",
+  "article_version": "67835b524336dbb52cbfdc08fb5f54e8122912e82ec7e16a308e80fd0ef8e21c",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

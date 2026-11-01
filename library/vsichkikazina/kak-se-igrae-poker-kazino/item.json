@@ -34,7 +34,7 @@
       "path": "published/kak-se-igrae-poker-kazino/images/poker-stalbitsa-na-ratsete.svg",
       "name": "poker-stalbitsa-na-ratsete.svg",
       "alt": "Стълбица на покер ръцете: от висока карта (най-слабо) до роял флъш (най-силно) с всичките 10 комбинации",
-      "sha256": "a907462ed8fff2b7291e5fd9ef08b5b0445d6650c1c24cc2c79aff65912dd412",
+      "sha256": "dcd28562f6239a7bb6a0aa3d461d9720fb6fda5c449f2541f96a20bab76b5d31",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -45,7 +45,7 @@
       "path": "published/kak-se-igrae-poker-kazino/images/poker-rtp-domashno-predimstvo.svg",
       "name": "poker-rtp-domashno-predimstvo.svg",
       "alt": "Покер RTP и домашно предимство: при хипотетичен RTP 98% на €100 залог ≈€2 остават за казиното; числата са илюстративни",
-      "sha256": "d244c3976f5ec8384541645b5cabd700a84ca128a7f67cdd5128df15734f3b3c",
+      "sha256": "2db91771e1a8d0964f50fe42c66449ba3e814eb2b2df42fad3e092cb428a5620",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -53,8 +53,8 @@
       }
     }
   ],
-  "article_version": "2d07dfcc164e007c3f5ec3df404db26e3805af7037e18ffd8248035528e4c694",
+  "article_version": "8b772ab102c5f1de74e896e832b78b7dd86588e736225bf97e0bfd0843196545",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

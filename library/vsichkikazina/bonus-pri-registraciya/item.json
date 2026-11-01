@@ -34,7 +34,7 @@
       "path": "published/bonus-pri-registraciya/images/bonus-pri-registraciya-prevurtane.svg",
       "name": "bonus-pri-registraciya-prevurtane.svg",
       "alt": "Депозит €100 плюс 100% бонус €100 дава игрален баланс €200; при превъртане 35x върху депозит+бонус се дължи €7,000 оборот, а при 35x само върху бонуса е €3,500; числата са примерни",
-      "sha256": "c1dc3820d60ab650ace20cf5552c6d965825e688846204b613ce865b48a86ed7",
+      "sha256": "477516ed2152b5dbc6b403b584386c613076fedfd2ea2b17be0750dbe74ee3b8",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -42,8 +42,8 @@
       }
     }
   ],
-  "article_version": "c12cb8c55e606992a30103950ac3c535ecd22b379b4d138fb2d100661778d8fc",
+  "article_version": "42d5df8a6371da0cac7c5e203cb37c358ca1449232894855a8759204488b4305",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

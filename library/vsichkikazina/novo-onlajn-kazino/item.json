@@ -33,7 +33,7 @@
       "path": "published/novo-onlajn-kazino/images/novo-kazino-bonus-wagering.svg",
       "name": "novo-kazino-bonus-wagering.svg",
       "alt": "Инфографика: скрита цена на стартовия бонус — депозит €200 + бонус 150% (€300) = €500 база × 35 = €17 500 изискван оборот за 14 дни; контролен списък с шест ключови проверки при ново казино",
-      "sha256": "77a0da60f988cb362056577cbef44df93e4e62ffc620c9144354fa1ad9855d20",
+      "sha256": "5c66229600c894ac59504fcebefee59781e2c7e55688ef8a609e483de5304204",
       "review": {
         "score": 100,
         "integrity_ok": true,
@@ -41,8 +41,8 @@
       }
     }
   ],
-  "article_version": "9b205698e8410da5f3a3c910d085c698fed28e07a758d20b6071a36d890a2f31",
+  "article_version": "d2e94b317d5619fa845d3211da604876fe2981218921ad5a4ad4675eec25878a",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

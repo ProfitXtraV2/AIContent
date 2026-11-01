@@ -1,0 +1,48 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0297",
+  "slug": "proverka-na-fish",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-10-27-proverka-na-fish",
+  "pr": "#320",
+  "title": "Проверка на фиш Тото: онлайн и на гише | Всички Казина",
+  "meta_description": "Как да проверите фиш от ТОТО за печалба: онлайн по числа и тираж, в приложението „Спорт Тото\" и на гише в тото пункт. Къде са официалните резултати.",
+  "keywords": [
+    "проверка на фиш",
+    "спорт тото 6 49 проверка на фиш",
+    "проверка на фиш тото"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/proverka-na-fish/images/proverka-na-fish-hero.webp",
+      "name": "proverka-na-fish-hero.webp",
+      "alt": "Декоративна илюстрация на лотариен фиш с лупа и знак за отметка, без числа, лога и лица",
+      "sha256": "83a9fb85cebb70572638dae7732a2d0ab6fa5b447efa7fe8424f303d4a29355d",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/proverka-na-fish/images/proverka-na-fish-tri-nachina.svg",
+      "name": "proverka-na-fish-tri-nachina.svg",
+      "alt": "Инфографика: трите начина за проверка на тото фиш - онлайн по числа и тираж, в приложението и на гише - и къде са официалните резултати",
+      "sha256": "b197c0a0f71ee40f507ffded09bc8642aac370cdbf73b76cd4bf1303c0e7b969",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "92ea1fdabdcf4d58d1416a1d7c19893e18e5372c3bffdae513ec0d5a50085237",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

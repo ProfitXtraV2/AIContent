@@ -23,7 +23,7 @@
       "path": "published/playtech/images/playtech-hero.svg",
       "name": "playtech-hero.svg",
       "alt": "Абстрактна метафора за Playtech като голям доставчик: свързани панели за казино, живо казино, покер и бинго и стълбица от четири нива на прогресивен джакпот",
-      "sha256": "c03a764a912d830e22510d13b2ac18c7c19ec753fa6ba180194bf5f4d54ade44",
+      "sha256": "1818f9743c5bb24a01f20c684008ddb74a7dee7bf9d32905d15d40fd9a1d6280",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -34,7 +34,7 @@
       "path": "published/playtech/images/playtech-age-of-the-gods-niva.svg",
       "name": "playtech-age-of-the-gods-niva.svg",
       "alt": "Схема на четирите нива джакпот в мрежата Age of the Gods на Playtech: Power, Extra Power, Super Power и Ultimate Power, споделящи общ фонд",
-      "sha256": "3a13d0b02cb1aa68444963319abef60ae9f64601495f4b93b02c0c340d1d57ed",
+      "sha256": "ba7814cbc0da6c01fc6a20a757e6c64539410cf8ecc99e8ab8e3dbbacba19829",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -45,7 +45,7 @@
       "path": "published/playtech/images/playtech-top-slotove.svg",
       "name": "playtech-top-slotove.svg",
       "alt": "Таблица с топ слотове на Playtech: Age of the Gods 95.02% RTP и 10 000x, Gladiator: Road to Rome 95.05% и 150 000x, Jackpot Giant 94.22% и 50 000x, Great Blue 94.30% и 10 000x, Buffalo Blitz 95.96% и 300x",
-      "sha256": "14a65c2f794188014a167839deb7361f627ea12dfcd6ca9b3f95bafae911b8d7",
+      "sha256": "ca50dfcf710e241104295936dc7de44a17f6d61aac5aeb32467b81f67dc14b87",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -53,8 +53,8 @@
       }
     }
   ],
-  "article_version": "43a45b2c46a07d6f60ad11a140b01b43b71319a5c690d38f5b97edf2a308928c",
+  "article_version": "7fff4a24c9b399740cdc61fba7b8e8048e2d2d99d9d5b78928be4566f093d86c",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

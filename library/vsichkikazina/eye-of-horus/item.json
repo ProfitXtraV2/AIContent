@@ -23,7 +23,7 @@
       "path": "published/eye-of-horus/images/eye-of-horus-rtp.svg",
       "name": "eye-of-horus-rtp.svg",
       "alt": "Eye of Horus RTP 96.31% и домашно предимство 3.69%: при €1000 оборот средно ~€963.10 се връщат на играча, а ~€36.90 остават за казиното",
-      "sha256": "a1658c84bfb76668ea0a864617b3f664d4218298445712cf9d8068f41a6db4bb",
+      "sha256": "a762f6dc5ef22a4561df14b925d1ba281b0caa38dd68128f6f0512542ec11881",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -34,7 +34,7 @@
       "path": "published/eye-of-horus/images/eye-of-horus-free-spins.svg",
       "name": "eye-of-horus-free-spins.svg",
       "alt": "Как работят 12-те безплатни завъртания на Eye of Horus: 3+ скатера дават 12 завъртания, дивите карти Хор зареждат плочите и надграждат ниските символи към символа Око на Хор",
-      "sha256": "1b4a7acfa529d03c4634470caeb3b288698b3c8d11b0e063d67174ff7cbe7f6e",
+      "sha256": "c62f57d015de47f10859beee347574860dd363f683c525f1c139a67a58e3b706",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -42,8 +42,8 @@
       }
     }
   ],
-  "article_version": "f103aab7ee66724fe41a3ef3cee88a2b921cd2b507a6935fa57e798105a93338",
+  "article_version": "d49ed58c2f0e29321626322089b4e31fed4fee5a90de995279e84ce13a5d8d24",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

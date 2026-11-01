@@ -35,7 +35,7 @@
       "path": "published/lotaria-vidove/images/vidove-lotariyni-igri-zakon-za-hazarta.svg",
       "name": "vidove-lotariyni-igri-zakon-za-hazarta.svg",
       "alt": "Инфографика: четирите вида лотарийни игри по Закона за хазарта - традиционна лотария, томбола, числова лотарийна игра и моментна лотария, кои билети участват, как се определя печалбата, минимум 50% за печалби и дали играта може онлайн",
-      "sha256": "c1b94249205249d3ca9fab201f853150023f2ddce3b64196b091a215c87835d4",
+      "sha256": "c6449d9b822042b53ff7f9d7eed3fd0ddc6dfe575e98abc52846e06bd33cc386",
       "review": {
         "score": 100,
         "integrity_ok": true,
@@ -46,7 +46,7 @@
       "path": "published/lotaria-vidove/images/shansove-6-ot-49-6-ot-42-5-ot-35.svg",
       "name": "shansove-6-ot-49-6-ot-42-5-ot-35.svg",
       "alt": "Инфографика: брой възможни комбинации и шанс с една комбинация в 6 от 49 (13 983 816), 6 от 42 (5 245 786) и 5 от 35 (324 632 за всяко от двете тегления), показани като пропорционални ленти",
-      "sha256": "3f609ae3858313aa81f9f5d11a60e9511851612a27daad268431e556f729c2e1",
+      "sha256": "d026dfc98b1f9e58d385d423cfb06ef1c90685efcf459f1768b2a127de514959",
       "review": {
         "score": 100,
         "integrity_ok": true,
@@ -54,8 +54,8 @@
       }
     }
   ],
-  "article_version": "3c10fe3b807778f87a34aa84170b5fb3ff1f2eab763dc7a78f0cfd981b9e58a3",
+  "article_version": "bbcb10463c8fd42f8ee973b9827176f259836ee0b71800f2e98fb586330a9fca",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

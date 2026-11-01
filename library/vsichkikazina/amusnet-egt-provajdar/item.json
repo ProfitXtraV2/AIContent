@@ -33,7 +33,7 @@
       "path": "published/amusnet-egt-provajdar/images/amusnet-egt-rtp.svg",
       "name": "amusnet-egt-rtp.svg",
       "alt": "Обявени RTP на класически заглавия на Amusnet: Shining Crown 96.37%, 40 Super Hot 95.81%, 20 Super Hot 95.79%, Flaming Hot 95.53%, спрямо средното за модерните слотове около 96%",
-      "sha256": "9eb5fbbaee4b92e8aa0463b81f24e7f28e1c5c64e31e77385ce2119f07817220",
+      "sha256": "8cf0dd4c71ee57d10350dcacbb01364c8b0aa81df750f99d3ad302dcfeee8cca",
       "review": {
         "score": 100,
         "integrity_ok": true,
@@ -41,8 +41,8 @@
       }
     }
   ],
-  "article_version": "79a9fc08157d788cd1b98a4a41fe916a08ea5c87c877eb2b35b4039f0cd17d4b",
+  "article_version": "aebdea8506e88f79e6530a0e30a28d34e866fb938402cf0f4adbca5f96a1b3c1",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

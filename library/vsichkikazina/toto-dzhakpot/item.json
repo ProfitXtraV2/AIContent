@@ -1,0 +1,60 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0275",
+  "slug": "toto-dzhakpot",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-10-10-toto-dzhakpot",
+  "pr": "#293",
+  "title": "Тото джакпот: колко е сега, рекорди, изплащане и данък",
+  "meta_description": "Тото джакпотът в 6 от 49 е 5 060 115,42 € към тираж 79. Вижте рекордите, как се изплаща на вноски, облага ли се печалбата и какъв е реалният шанс.",
+  "keywords": [
+    "тото джакпот",
+    "джакпот тото",
+    "джакпот 6 от 49",
+    "най-голям джакпот тото"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/toto-dzhakpot/images/toto-dzhakpot-natrupvane-hero.webp",
+      "name": "toto-dzhakpot-natrupvane-hero.webp",
+      "alt": "Илюстрация: топка от монети, която расте с всеки тираж без печеливш, и една самотна лотарийна топка в далечината като символ на малкия шанс за тото джакпот",
+      "sha256": "61d198ba6dd67d64f9aeb9a3d7509fee41411e53042cac7b43444059ac4cfb47",
+      "review": {
+        "score": 100,
+        "integrity_ok": true,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/toto-dzhakpot/images/rekordni-dzhakpoti-toto-6-ot-49-infografika.svg",
+      "name": "rekordni-dzhakpoti-toto-6-ot-49-infografika.svg",
+      "alt": "Инфографика: рекордните джакпоти в Тото 2 – 6 от 49 по години – 9 501 430,40 лв. (2019), 11 715 401,70 лв. (2022), 9 667 090,20 лв. (2023), 10 095 908,40 лв. (2024), 11 304 948,90 лв. (2025) и 5 778 403 € (2026), с преизчисление по курс 1,95583",
+      "sha256": "6e249a96fb78c306a6ca134f394de01c0a20007e89a163956dec2115e5867196",
+      "review": {
+        "score": 100,
+        "integrity_ok": true,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/toto-dzhakpot/images/shans-dzhakpot-6-ot-49-6-ot-42-godini-infografika.svg",
+      "name": "shans-dzhakpot-6-ot-49-6-ot-42-godini-infografika.svg",
+      "alt": "Инфографика: шанс за джакпот с една комбинация – 1 към 13 983 816 в 6 от 49 и 1 към 5 245 786 в 6 от 42, и средно чакане около 134 460 и 50 440 години при една комбинация на тираж",
+      "sha256": "2c515c1346c042f19467b82cd9db06c150bb96ac11f6ef3a685b6a35afe77648",
+      "review": {
+        "score": 100,
+        "integrity_ok": true,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "6bec267f6b490e16e718441b515019f3c2991908990f4a7ffd23c0f6d9124d32",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

@@ -32,7 +32,7 @@
       "path": "published/big-bass-bonanza/images/big-bass-bonanza-rtp.svg",
       "name": "big-bass-bonanza-rtp.svg",
       "alt": "Big Bass Bonanza RTP: при €1000 оборот и версия 96.71% на играча се връщат средно €967.10, а €32.90 остават за казиното; операторът може да пусне и по-нисък RTP",
-      "sha256": "45d4f98d46fa0cb2a4ef802bf1187bb707e0c5b003cfeb14f3ad37faac255c7f",
+      "sha256": "e953022284ca93b61a7ffdbda4e7718aee3753a6bcb7a0f89acb7b77fe3b5c48",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -43,7 +43,7 @@
       "path": "published/big-bass-bonanza/images/big-bass-bonanza-bonus.svg",
       "name": "big-bass-bonanza-bonus.svg",
       "alt": "Инфографика за бонуса на Big Bass Bonanza: 3 скатера дават 10 завъртания, 4 дават 15, 5 дават 20; на всеки 4 събрани рибари множителят се качва 2x, 3x, 10x с по още 10 завъртания",
-      "sha256": "060a3ac18bad56328ed6c9d3e4293ce6a0f0e0d32bb62c5344a46b65c6ff5080",
+      "sha256": "3450e070725124f7e4d26c0e0228b6d5758e349f54e77eb2cf5ac062cf692b7d",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -51,8 +51,8 @@
       }
     }
   ],
-  "article_version": "cdfcdd49cc6d62147bcaee40b66d6f6a37cb470c2512a81e77ef6962eabe7fed",
+  "article_version": "4354348a0b26d0727c0e310af84127210fbd2c00cfaf014da8c762e78e0d0a9f",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

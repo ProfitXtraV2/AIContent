@@ -5,8 +5,8 @@
   "slug": "dostavchici-kazino-igri",
   "kind": "article",
   "type": "guide",
-  "board_status": "approved",
-  "live": false,
+  "board_status": "posted",
+  "live": true,
   "folder": "2026-09-12-dostavchici-kazino-igri",
   "pr": "#72",
   "title": "Кои са доставчиците на казино игри и защо са важни",
@@ -33,7 +33,7 @@
       "path": "published/dostavchici-kazino-igri/images/dostavchik-vs-operator.svg",
       "name": "dostavchik-vs-operator.svg",
       "alt": "Инфографика в две колони: доставчикът прави играта (математика и RTP, генератор на случайни числа, графика и звук, лицензира каталога на много казина), а операторът е казиното (регистрация, баланс, депозити и тегления, избира коя RTP версия да пусне)",
-      "sha256": "363143815e5cc57c0edb401d9ebb8f53dddea6abec7414b05b95bcce02bf1331",
+      "sha256": "fa43ddfe6940927c1885cb20af61e2d4696ad175f93191cee9bb3d51ed05cd3a",
       "review": {
         "score": 100,
         "integrity_ok": true,
@@ -44,7 +44,7 @@
       "path": "published/dostavchici-kazino-igri/images/dostavchik-rtp-primer.svg",
       "name": "dostavchik-rtp-primer.svg",
       "alt": "Инфографика: при обявен RTP 96% от €1000 оборот играта връща средно около €960 на играча, а около €40 остават за казиното; едно заглавие може да има различен RTP в различни казина",
-      "sha256": "b348163aba07b641851e2e85666db8275b93d9feaee0702b79217283cfe8dd8b",
+      "sha256": "e10d7e0ab5c1644b57fbf9c4459fb1015ab9e4c23c70ba477de58ac0290cdcd2",
       "review": {
         "score": 100,
         "integrity_ok": true,
@@ -52,8 +52,8 @@
       }
     }
   ],
-  "article_version": "e4eebd0cf69ac737f74112985d7d098cd44ffced67f54a1f5799388a6712b616",
+  "article_version": "bc8c97e593003e70347aef140032227a4e400d94e8bc650d986fedee7d28cbe3",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

@@ -33,7 +33,7 @@
       "path": "published/flaming-hot/images/flaming-hot-rtp.svg",
       "name": "flaming-hot-rtp.svg",
       "alt": "Flaming Hot RTP 95.53% и домашно предимство 4.47%: при €1000 оборот средно €955 се връщат на играча, €45 остават за казиното",
-      "sha256": "de402d4f2bde1b38dbb841a2fec1a6ca5333277e548635d343008d88456a6abe",
+      "sha256": "2c5a9c20657b273e970d54bfd96242e199d19183d342a44f6dc8f48086ac4404",
       "review": {
         "score": 85,
         "integrity_ok": true,
@@ -41,8 +41,8 @@
       }
     }
   ],
-  "article_version": "513a66edb1da1654871e8b579c67c862450114f100b8dc8f5e24871c86d6d4be",
+  "article_version": "2a702ef04b9cf49762e948b9ab6105bade8b66541cd5d8a0482cb5c57cfbf44e",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

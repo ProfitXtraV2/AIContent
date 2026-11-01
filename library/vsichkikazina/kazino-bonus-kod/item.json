@@ -5,8 +5,8 @@
   "slug": "kazino-bonus-kod",
   "kind": "article",
   "type": "guide",
-  "board_status": "approved",
-  "live": false,
+  "board_status": "posted",
+  "live": true,
   "folder": "2026-10-04-kazino-bonus-kod",
   "pr": "#277",
   "title": "Казино бонус код: как работи и къде се въвежда",
@@ -35,7 +35,7 @@
       "path": "published/kazino-bonus-kod/images/bonus-kod-usloviya.svg",
       "name": "bonus-kod-usloviya.svg",
       "alt": "Инфографика: примерен бонус код за €50 с разиграване 35x прави €1750 оборот; при принос 10 на сто оборотът пада 10 пъти по-бавно, а при минимален депозит €20 внесени €10 не отключват бонуса. Числата са илюстративни.",
-      "sha256": "c5c3a449fd64aa5b10e07d00c988526de9bce4b78ea3156448dea4c0350bb637",
+      "sha256": "e988a781edd554f5a920c3b794624db9c4c47902239edfbb1b745f282683b551",
       "review": {
         "score": 85,
         "integrity_ok": false,
@@ -43,8 +43,8 @@
       }
     }
   ],
-  "article_version": "a74c101a5b80827bd427b5256785f96a0307e52b715fa0e670d02dd913670a22",
+  "article_version": "13a6948f356290a1c0016f6c6079469be6c8473f1d674bca34669000ff91da73",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

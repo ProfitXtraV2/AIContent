@@ -33,7 +33,7 @@
       "path": "published/sweet-bonanza/images/sweet-bonanza-rtp.svg",
       "name": "sweet-bonanza-rtp.svg",
       "alt": "Sweet Bonanza RTP: при €1000 оборот и версия 96.48% на играча се връщат средно €965, а €35 остават за казиното; операторът може да пусне и по-нисък RTP",
-      "sha256": "42cc785e9bfc33062d53fb783cc137cbc6424b33d9559c73b04c75fd78a827f3",
+      "sha256": "837e37a05605b92ec3948b2b95ebe1af65e68a60aad5bdfdc0816754d2b6dbfd",
       "review": {
         "score": 98,
         "integrity_ok": true,
@@ -41,8 +41,8 @@
       }
     }
   ],
-  "article_version": "33dc0941e8fe7a21fcde16484b83d7d027481df80308afc9aa1c5f38ee6a0684",
+  "article_version": "045411d55fda6d9d1197bc0762eda119bfbaebeed9c1d44e629ed017905443d8",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

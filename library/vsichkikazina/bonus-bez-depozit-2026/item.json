@@ -33,7 +33,7 @@
       "path": "published/bonus-bez-depozit-2026/images/bonus-bez-depozit-smetka.svg",
       "name": "bonus-bez-depozit-smetka.svg",
       "alt": "Инфографика: три стъпки в бонус без депозит — изискван оборот €400, темпо ≈€57/ден за 7 дни, таван на тегленето €50; разбивка на принос на игрите (ротативки 100% → €400 залози; маси 10–20% → €2,000+ залози)",
-      "sha256": "bdd1648b4104819a9d3814717227d6b6df8590811da9e9c5b76c14c792121c4b",
+      "sha256": "2a3ad70838a23853232b6901f66477b361835550738863445b9dd2ba7ba26089",
       "review": {
         "score": 100,
         "integrity_ok": true,
@@ -41,8 +41,8 @@
       }
     }
   ],
-  "article_version": "d951795fe896e1dc68e976d389e48b6248e95b66fd17bf33ae127dcab1ab8bb2",
+  "article_version": "53f7999c5faac19e960f664755bb3656bec59ac9cc6d9b598334ba18bace7aa5",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

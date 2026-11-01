@@ -1,0 +1,61 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0287",
+  "slug": "santase-pravila",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-10-21-santase-pravila",
+  "pr": "#309",
+  "title": "Сантасе правила: как се играе сантасе (66)",
+  "meta_description": "Пълните правила на сантасе (66): раздаване, коз, стойност на картите, обявяване на 20 и 40, смяна на девятката, затваряне на талона и как се стига до 66.",
+  "keywords": [
+    "сантасе",
+    "сантасе правила",
+    "как се играе сантасе",
+    "игра на сантасе",
+    "сантасе онлайн"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/santase-pravila/images/santase-karti-hero.webp",
+      "name": "santase-karti-hero.webp",
+      "alt": "Плоска илюстрация на ветрило от карти за игра на сантасе, с обърната коз карта и затворено тесте (талон) на зелена маса",
+      "sha256": "7b3d71edf492deac69ccc4592816dd68b587cd1effc87d771b5ffa47f94e46f6",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/santase-pravila/images/stoynost-na-kartite-santase.svg",
+      "name": "stoynost-na-kartite-santase.svg",
+      "alt": "Таблица със стойността на всяка карта в сантасе: Асо 11, десятка 10, Поп 4, Дама 3, Вале 2, девятка 0 точки",
+      "sha256": "18d7f7a817c9f646ac61888e0ed203ba7f2b254767a46e6cf683e689fc2401cc",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/santase-pravila/images/tochkuvane-santase.svg",
+      "name": "tochkuvane-santase.svg",
+      "alt": "Инфографика с точкуването в сантасе: цел 66 точки, тесте 24 карти, обявяване 20 или 40, последна взятка плюс 10 и печеливши точки 1, 2 при шнайдер и 3 при шварц, партия до 11",
+      "sha256": "0f1f7b1b57c186155f6439db629608586066d575abc046982e821a3be9bdc67e",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "1f894e13ee92d1cb2e6f70ee5b131fdc714c7d06630a6252513247414f2173b7",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

@@ -32,7 +32,7 @@
       "path": "published/gates-of-olympus/images/gates-of-olympus-rtp.svg",
       "name": "gates-of-olympus-rtp.svg",
       "alt": "Gates of Olympus RTP 96.50% и домашно предимство 3.50%: при €1000 оборот средно €965 се връщат на играча, €35 остават за казиното; висока волатилност, макс. печалба 5000x",
-      "sha256": "83e3138bc227858a995df6ec4325b9ad78ba2f86f00db786d70e896bc7a8f79d",
+      "sha256": "8d561279d406b9656d6d50098812631175a9517ae117bbb24508b26dd5ee4c19",
       "review": {
         "score": 85,
         "integrity_ok": true,
@@ -40,8 +40,8 @@
       }
     }
   ],
-  "article_version": "4119774f40d94668e0588217a744e649db32b5768213baa6b9ee06651110c740",
+  "article_version": "45f619b4f6573875f6e5daea61f7542a0fb5a388642a35403582b0ea138e141b",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

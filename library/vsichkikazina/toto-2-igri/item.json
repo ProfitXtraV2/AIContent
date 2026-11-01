@@ -24,7 +24,7 @@
       "path": "published/toto-2-igri/images/toto-2-shansove-6-ot-49-6-ot-42-5-ot-35-infografika.svg",
       "name": "toto-2-shansove-6-ot-49-6-ot-42-5-ot-35-infografika.svg",
       "alt": "Инфографика: шанс за джакпот с една комбинация в ТОТО 2 – 6 от 49 (1 към 13 983 816), 6 от 42 (1 към 5 245 786) и 5 от 35 в едно теглене (1 към 324 632), плюс шанс за някаква печалба с 3 или повече познати числа",
-      "sha256": "7f6c13413c518ccae31c5ed77bc2174157a72a6eca1382d4ac88670ebd5cb108",
+      "sha256": "fdc8a507cb1669f88c8c8fe4cae74d7b5b1dff09d64bab5519319ea9844c659f",
       "review": {
         "score": 90,
         "integrity_ok": null,
@@ -32,8 +32,8 @@
       }
     }
   ],
-  "article_version": "3cb432f520edc566f18c81dc287209f5317c5de232d50751dfb060e28d08a3c4",
+  "article_version": "d5831a1b677b560a606358359a73d359dd01601057eaa75e9e9fa89ff7393458",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

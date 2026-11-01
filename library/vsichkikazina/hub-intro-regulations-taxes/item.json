@@ -5,8 +5,8 @@
   "slug": "hub-intro-regulations-taxes",
   "kind": "hub-intro",
   "type": "hub-intro",
-  "board_status": "approved",
-  "live": false,
+  "board_status": "posted",
+  "live": true,
   "folder": "2026-09-19-hub-intro-regulations-taxes",
   "pr": "#138",
   "title": "Регулации и данъци в онлайн хазарта в България",
@@ -32,5 +32,5 @@
   "article_version": "59fadff33e705dbda3809eba7b2af8f50d24178ecdf981eddf708b9c33e59841",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

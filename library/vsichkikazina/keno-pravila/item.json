@@ -22,7 +22,7 @@
       "path": "published/keno-pravila/images/keno-domashno-predimstvo-sravnenie.svg",
       "name": "keno-domashno-predimstvo-sravnenie.svg",
       "alt": "Сравнение на RTP при кено (видео 84%–95%, наземно/живо 50%–80%, онлайн по таблица) спрямо добри ротативки (~96%) и маса игри (>95%)",
-      "sha256": "db8f7d7ed9b720794e0eedd168f23bf94f7842c947ece52e058ebd30942b9b53",
+      "sha256": "3f7a87caccf1b6d371aef69109b48c26bb8a923fddfea805bfe421765acd9a72",
       "review": {
         "score": 100,
         "integrity_ok": true,
@@ -30,8 +30,8 @@
       }
     }
   ],
-  "article_version": "82533a66c78ad98313e44ad5504a8e7792fc28df47ec6f3cbff3dcde3004432c",
+  "article_version": "d92de5f9cdbb7ed5335564cf56119811c2ba9078ff1610304fb2b776766ef923",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

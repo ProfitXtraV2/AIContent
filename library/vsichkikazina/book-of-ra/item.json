@@ -32,7 +32,7 @@
       "path": "published/book-of-ra/images/book-of-ra-bonus-igri.svg",
       "name": "book-of-ra-bonus-igri.svg",
       "alt": "Схема на бонуса на Book of Ra: 3 или повече книги дават 10 безплатни игри, преди които се тегли символ, който се разширява върху цял барабан и плаща на всяка позиция",
-      "sha256": "9949350b48f9c47b62f27de3907a50d3caef3ab5a8fbd48e1f9e76e5b96e4cad",
+      "sha256": "51c2c3fc47fcccbdeff67cb3c0e6af390995b70f38b24abc4960522d62a94cf1",
       "review": {
         "score": 100,
         "integrity_ok": null,
@@ -43,7 +43,7 @@
       "path": "published/book-of-ra/images/book-of-ra-rtp.svg",
       "name": "book-of-ra-rtp.svg",
       "alt": "Book of Ra RTP: оригиналът връща 92.13% (домашно предимство 7.87%), Deluxe връща 95.10% (домашно предимство 4.90%), и двете под нормата от около 96%",
-      "sha256": "e3c4387d1dde7bec0d56bfd263d8a251897b666ae7474c59a3a6e1c2dd0b7835",
+      "sha256": "c1e108fac5070d9a5859b017b85e88bc481fd5027b8591b57344db64de043f47",
       "review": {
         "score": 100,
         "integrity_ok": null,
@@ -51,8 +51,8 @@
       }
     }
   ],
-  "article_version": "a11de9324bb47b43096933216b8a5b29dd104ccb6644b0d2504b3308710484f2",
+  "article_version": "874131311229fa18137247df0917432149690aebad8d08953c0e749936239010",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

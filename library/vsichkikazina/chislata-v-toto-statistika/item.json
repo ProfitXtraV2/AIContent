@@ -35,7 +35,7 @@
       "path": "published/chislata-v-toto-statistika/images/chislata-ot-toto-chestota-6-ot-49-infografika.svg",
       "name": "chislata-ot-toto-chestota-6-ot-49-infografika.svg",
       "alt": "Инфографика: честота на 5-те най-често и 4-те най-рядко изтеглени числа в ТОТО 2 – 6/49 за 1 262 тиража от 01.01.2015 до 08.10.2026, сравнена с очакваните ≈154,5 пъти и с обичайните диапазони 174–192 и 120–135 при чиста случайност",
-      "sha256": "f19285db2ccb1670004f1d0e09832cb19c459bdd0643b186a02c7f9b23ba5925",
+      "sha256": "cd7130aca079c194c8aa723d03d8bbc0c0a41cd5a44729d1b64507e5c5226983",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -43,8 +43,8 @@
       }
     }
   ],
-  "article_version": "639a226ab8859c26c07bbc3fee6ec848bc88c7bef97e13e6025232b9b8a4da8a",
+  "article_version": "8fe749f3259683d9e2b10f9a9ae64ee831cb0daf988cdbbeeb140d11b8e479b5",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

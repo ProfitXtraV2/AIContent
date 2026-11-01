@@ -32,7 +32,7 @@
       "path": "published/sugar-rush-1000/images/sugar-rush-1000-rtp.svg",
       "name": "sugar-rush-1000-rtp.svg",
       "alt": "Sugar Rush 1000 RTP: версия по подразбиране 96.53% връща средно €965.30 на €1000 оборот, €34.70 остават за казиното; възможни са версии 97.50% и 95.50%",
-      "sha256": "172e9c0eef389c3bc20f60d1d81be8c299ff34b37e62c6fb2f5433043ece2165",
+      "sha256": "c0e0533c0c3aecc6b3cfd6076847075a32054019026e0c351ce92fd4f902bf3d",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -43,7 +43,7 @@
       "path": "published/sugar-rush-1000/images/sugar-rush-1000-sravnenie.svg",
       "name": "sugar-rush-1000-sravnenie.svg",
       "alt": "Сравнение Sugar Rush 1000 и оригинала: таван на точката 1,024x срещу 128x, максимум 25,000x срещу 5,000x, RTP по подразбиране 96.53% срещу 96.50%, и двете 7×7 cluster pays",
-      "sha256": "76a9001895ad5b65d6b28db90ec4a2eb910c2044e2f76007b5be5ccd39499b23",
+      "sha256": "db047d82eb4afb342dc2004b9bc1b217c0a29389815fc72ba72a54cf3d9ca8e1",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -51,8 +51,8 @@
       }
     }
   ],
-  "article_version": "5d464d5ed27a3f3ab87e0e425b4a3f1a44416abe819a4538e4a0a003b6176caf",
+  "article_version": "9df77b32a753729802d364e50a56379eb41014c7eb58e9d5fd7f147fe40445ed",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

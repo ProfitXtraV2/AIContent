@@ -1,0 +1,62 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0286",
+  "slug": "belot-pravila",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-10-20-belot-pravila",
+  "pr": "#308",
+  "title": "Белот правила: как се играе и точкуване | Всички Казина",
+  "meta_description": "Белот правила за начинаещи: тесте от 32 карти, раздаване 3+2+3, наддаване, стойност на картите и точкуване до 151. Вижте как се играе белот стъпка по стъпка.",
+  "keywords": [
+    "белот правила",
+    "как се играе белот",
+    "обикновен белот",
+    "белот карти",
+    "игра на белот",
+    "белот точки"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/belot-pravila/images/belot-karti-hero.webp",
+      "name": "belot-karti-hero.webp",
+      "alt": "Плоска илюстрация на четири карти за игра на белот със символите спатия, каро, купа и пика, подредени на масата",
+      "sha256": "c0e4e42c5a00396c1010151d20fe86d51bccab554a4f8d0bd1fd728cb5b608af",
+      "review": {
+        "score": 100,
+        "integrity_ok": null,
+        "source": "08-image-review-2.md"
+      }
+    },
+    {
+      "path": "published/belot-pravila/images/belot-stoynost-karti-koz-bez-koz.svg",
+      "name": "belot-stoynost-karti-koz-bez-koz.svg",
+      "alt": "Таблица със стойността на всяка карта в белот при коз и при без коз: Вале 20/2, девятка 14/0, Асо 11/11, десятка 10/10, Поп 4/4, Дама 3/3, осмица и седмица 0/0",
+      "sha256": "33ebbb361ca9764d43286d47a4b9606061d40a11d5e6477eb635ecc0f37b3a01",
+      "review": {
+        "score": 100,
+        "integrity_ok": null,
+        "source": "08-image-review-2.md"
+      }
+    },
+    {
+      "path": "published/belot-pravila/images/belot-anonsi-tochkuvane.svg",
+      "name": "belot-anonsi-tochkuvane.svg",
+      "alt": "Инфографика с точките за анонсите в белот: терца 20, петдесет 50, сто 100, каре 100/150/200, белот 20, плюс сборовете за ръката 152, 162 и 262 точки и праг за партията 151",
+      "sha256": "fa27a0cb2554cbc0aaf97aeb3465e767106e6d54eb45e089a1c23930e7d52ec4",
+      "review": {
+        "score": 100,
+        "integrity_ok": null,
+        "source": "08-image-review-2.md"
+      }
+    }
+  ],
+  "article_version": "f63b835ba3d2a63c01a27938e2e2eeadc1e99acdc2aca2f4110911b4cbe04569",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

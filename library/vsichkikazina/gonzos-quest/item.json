@@ -5,8 +5,8 @@
   "slug": "gonzos-quest",
   "kind": "article",
   "type": "guide",
-  "board_status": "approved",
-  "live": false,
+  "board_status": "posted",
+  "live": true,
   "folder": "2026-09-11-gonzos-quest",
   "pr": "#60",
   "title": "Gonzo's Quest: RTP, Avalanche механика и как се играе",
@@ -34,7 +34,7 @@
       "path": "published/gonzos-quest/images/gonzos-quest-rtp.svg",
       "name": "gonzos-quest-rtp.svg",
       "alt": "Илюстративно: при обявен RTP около 96% и €1000 оборот средно ~€960 се връщат на играча, ~€40 остават за казиното; официалният RTP на Gonzo's Quest е 95.97% и се проверява в инфо-панела",
-      "sha256": "d9838ab0f5a2248e4ac6630ac8e74c6314d3f90b8ac55e69510804f6bcf58170",
+      "sha256": "8e0558c8751f884162787d20dece7550079d7334754736c87cd465207a611c81",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -42,8 +42,8 @@
       }
     }
   ],
-  "article_version": "56ff322c334a55b0835bd0cc47fa9b91ec9ee4ad082daa8bd48830b4b325e78c",
+  "article_version": "e4d7afbeacc9f88f4583d424c1bce8e9ba25ae068f4ae97c8dbb0e3c2201a4e6",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

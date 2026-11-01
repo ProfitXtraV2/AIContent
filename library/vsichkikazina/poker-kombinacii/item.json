@@ -39,7 +39,7 @@
       "path": "published/poker-kombinacii/images/poker-kombinacii-podredba-na-racete.svg",
       "name": "poker-kombinacii-podredba-na-racete.svg",
       "alt": "Инфографика с подредбата на покер комбинациите от роял флъш до старша карта, с примерни карти за всяка ръка",
-      "sha256": "ceb504f0bfb13973b57417d11581673a1f1e5e716b61d7e99456e86a45cbcf6c",
+      "sha256": "52bcc5f60c551bcd2e143c952d36d5c6e9b5f40a55040d7b51f4861b6997fcb5",
       "review": {
         "score": 100,
         "integrity_ok": true,
@@ -47,8 +47,8 @@
       }
     }
   ],
-  "article_version": "a523661b14b2ac8dd5263cb08512752d761ebad0655ad64519f98aeeb6a206aa",
+  "article_version": "f3ee289f8302c86dd85f276578a6f6cbf541adc11515d3880824a2b58855523c",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

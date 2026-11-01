@@ -5,8 +5,8 @@
   "slug": "hub-intro-bonuses-vip",
   "kind": "hub-intro",
   "type": "hub-intro",
-  "board_status": "approved",
-  "live": false,
+  "board_status": "posted",
+  "live": true,
   "folder": "2026-09-19-hub-intro-bonuses-vip",
   "pr": "#136",
   "title": "Казино бонуси и VIP: какво да проверите",
@@ -32,7 +32,7 @@
       "path": "published/hub-intro-bonuses-vip/images/razigravane-prinos-igri.svg",
       "name": "razigravane-prinos-igri.svg",
       "alt": "Таблица на принос към оборота при разиграване: ротативки допринасят 100%, маси и казино на живо — наполовина или изключени; срок за разиграване обичайно 7–30 дни",
-      "sha256": "db19ddc776447cee54111b38846ff02c8de06cd04ae5e60f17cff31d8134b2e2",
+      "sha256": "07f83b6020be8f100cee91399cd26bb4b5744db536e959bd1fe5e37c9f9d1fcf",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -40,8 +40,8 @@
       }
     }
   ],
-  "article_version": "3b3b4f3cab349c09820403e0ac42a63465d1b20bf0f222457afe1de5c182495b",
+  "article_version": "a2599db8ee1c42e90b9b1d72a8f41d7aa05c8738ceb9f771f3a9f9a23c86415a",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

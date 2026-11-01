@@ -5,8 +5,8 @@
   "slug": "netent-provajdar",
   "kind": "article",
   "type": "guide",
-  "board_status": "approved",
-  "live": false,
+  "board_status": "posted",
+  "live": true,
   "folder": "2026-09-11-netent-provajdar",
   "pr": "#58",
   "title": "NetEnt: профил на доставчика, механики и топ слотове",
@@ -34,7 +34,7 @@
       "path": "published/netent-provajdar/images/netent-rtp.svg",
       "name": "netent-rtp.svg",
       "alt": "Илюстративно: при обявен RTP около 96% и €1000 оборот средно ~€960 се връщат на играча, ~€40 остават за казиното; реалният RTP на NetEnt заглавие се проверява в инфо-панела и зависи от версията",
-      "sha256": "817f6a9bc497997b5723c6d1609dd2cf11e91dbd9f8188de2cde90afa9bd4a17",
+      "sha256": "bd0398fc74d965022401c323b8fff7910ad6e092ae734837357cc5468ceefaeb",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -42,8 +42,8 @@
       }
     }
   ],
-  "article_version": "7fd4a3836cbfd322e8f8408b74a48d1cfec8df5fa4cc6eba43457fde7e040378",
+  "article_version": "ec91923e59b2236b49726d09b1bcadd905242e4ac8005359ee079e392cb34de3",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

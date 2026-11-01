@@ -34,7 +34,7 @@
       "path": "published/live-game-shows/images/live-game-shows-rtp-sravnenie-infografika.svg",
       "name": "live-game-shows-rtp-sravnenie-infografika.svg",
       "alt": "RTP диапазони на популярни live game shows: Crazy Time, Monopoly Live, Lightning Roulette, и защо залогът определя реалния RTP",
-      "sha256": "2967e5264e8c38bddd3fabc45396022bf31ed7573df585f6fb9c19e23f125de0",
+      "sha256": "91c9796094e1b2404964311068519887211c7cf02b88dcddb1aa80e3df0b912b",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -42,8 +42,8 @@
       }
     }
   ],
-  "article_version": "8b039f5a371d92ac251cfc6b884c48cbe7e19c3fbd3b34ad938bde02375bf9d4",
+  "article_version": "16a2bdd25068bd18c7bbc4c5117d0d556961bacc8d33ae5de2a49a6d84ab9b95",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

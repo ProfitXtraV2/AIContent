@@ -5,8 +5,8 @@
   "slug": "bezkrayni-barabani-infinity-reels",
   "kind": "article",
   "type": "guide",
-  "board_status": "approved",
-  "live": false,
+  "board_status": "posted",
+  "live": true,
   "folder": "2026-10-04-bezkrayni-barabani-infinity-reels",
   "pr": "#274",
   "title": "Безкрайни барабани (Infinity Reels): как работят",
@@ -35,7 +35,7 @@
       "path": "published/bezkrayni-barabani-infinity-reels/images/infinity-reels-mnozhitel-verizhka.svg",
       "name": "infinity-reels-mnozhitel-verizhka.svg",
       "alt": "Инфографика: верига от безкрайни барабани. Започва с 3 барабана и множител ×1; печалба добавя 4-ти барабан и множителят става ×2; нова печалба добавя 5-и барабан и множителят става ×3; петият барабан не удължава печалбата, затова шести не се добавя и веригата спира. Числата са примерни.",
-      "sha256": "0cdc9cff1ea0d541397463e8f499973c9aa57a5b99477b22e54ac2a45d4f7b7c",
+      "sha256": "bac1684eb26f5985d066d7f36ec15bf561906f391e107043050a14e7f8d18c91",
       "review": {
         "score": 100,
         "integrity_ok": null,
@@ -43,8 +43,8 @@
       }
     }
   ],
-  "article_version": "afde2f010cf8b1e533895be79a25fb7b0bfc404def122a0e7e612685a02bc629",
+  "article_version": "05d7bb9d32182e293f7e5d0d414d1e1a47a56bc965274aae2082375b6f379d23",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

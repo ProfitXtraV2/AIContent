@@ -21,7 +21,7 @@
       "path": "published/nv-casino-bonus-usloviya/images/oborot-za-100-evro-bonus-sravnenie.svg",
       "name": "oborot-za-100-evro-bonus-sravnenie.svg",
       "alt": "Сравнение на изисквания оборот за €100 бонус: NV Casino x40 само върху бонуса = €4 000, NV Casino x40 върху депозит + бонус = €8 000, Betano x25 върху депозит + бонус = €5 000",
-      "sha256": "59f1888731db6c35f653dff392828db21f991494e48e503138b8eaefeb2bcb85",
+      "sha256": "84f18f34bd88146907ac5c5e11d08fe6b94705bc282088a7c85a975c6aab3fe9",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -29,8 +29,8 @@
       }
     }
   ],
-  "article_version": "3955f4f2417fc6902254d433b0b8a9020708157171b1b3d0e14add2507cb8952",
+  "article_version": "0f2792283dbfe9e52131a00cf35266dfe206efc5fe13889f02e4b509d38fb076",
   "operator_or_bonus": true,
   "operator_or_bonus_reason": "names the operator nv casino",
-  "built_utc": "2026-10-19T05:29:51Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

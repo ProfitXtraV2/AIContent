@@ -22,7 +22,7 @@
       "path": "published/nolimit-city/images/nolimit-city-hero.svg",
       "name": "nolimit-city-hero.svg",
       "alt": "Абстрактна метафора за Nolimit City: разширяваща се решетка от клетки и назъбена крива на висока волатилност с редки резки върхове",
-      "sha256": "bd7b047f1032d76b476908be9aba5a0596ab993ec4ee09755f2bac04f3178399",
+      "sha256": "e871541bc49af4bce5733f3e598b91bc326ce6d5b68e631dc3478611be46696e",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -33,7 +33,7 @@
       "path": "published/nolimit-city/images/nolimit-city-top-slotove.svg",
       "name": "nolimit-city-top-slotove.svg",
       "alt": "Таблица с топ слотове на Nolimit City: Tombstone R.I.P. 96.08% и 300 000x, San Quentin xWays 96.03% и 150 000x, Mental 96.08% и 66 666x, Fire in the Hole 2 96.07% и 65 000x, Das xBoot 96.03% и 55 200x, Deadwood 96.03% и 13 950x",
-      "sha256": "7b37504f8497d19c6af446afbe1a5c4884244b2c871b6d85412c9cbe0bc42da6",
+      "sha256": "94062a92f774a82134125d5827f540e76dcc3735897d8457a07261f371a6ff1d",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -41,8 +41,8 @@
       }
     }
   ],
-  "article_version": "9e2b333cd8187a771d101ab9c93fed846c800e33b1fe6a3ee8b142f1119f69f2",
+  "article_version": "38e1560b5eadc45da28b3965d870a800babcdea8c478afe716f7b144a1acbcec",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

@@ -32,7 +32,7 @@
       "path": "published/shining-crown/images/shining-crown-harakteristiki-infografika.svg",
       "name": "shining-crown-harakteristiki-infografika.svg",
       "alt": "Shining Crown накратко: 5x3 барабана, 10 линии, RTP ~96.37%, ниска-до-средна волатилност, wild корона, scatter звезда, Gamble и Jackpot Cards прогресив",
-      "sha256": "178b5f930209f66d721cb98c86c17f36df2527b01673f192e027f6fce496bf16",
+      "sha256": "7e2091769c20867f9dac476307cf354cbd7d0ea9594a345d459a3fc9ae138022",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -40,8 +40,8 @@
       }
     }
   ],
-  "article_version": "75ea518a51aafc3bfadab813f93274482517524635ea62fbb746c4b659911ed9",
+  "article_version": "9c4f94222c8adc6e3c74c2a65466c7523036e0387e6c13fd5d8e6aca1cb5fc40",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

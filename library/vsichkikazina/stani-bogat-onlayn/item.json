@@ -1,0 +1,47 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0301",
+  "slug": "stani-bogat-onlayn",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-10-27-stani-bogat-onlayn",
+  "pr": "#324",
+  "title": "Стани богат онлайн: правила на играта и къде да играете",
+  "meta_description": "Как се играе „Стани богат\": 15 въпроса, паричната стълба, гарантираните суми и жокерите, плюс къде да намерите безплатната онлайн версия на предаването.",
+  "keywords": [
+    "стани богат онлайн",
+    "стани богат игра"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/stani-bogat-onlayn/images/stani-bogat-hero.webp",
+      "name": "stani-bogat-hero.webp",
+      "alt": "Изкачващи се светещи стъпала, водещи нагоре към голям светещ въпросителен знак на тъмна студийна сцена — визуална метафора за стълбата от въпроси в играта",
+      "sha256": "9d607ffbd7713afc95071e531d050ebf342a8e4f8dcd4de88ec95b956b1f66f0",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/stani-bogat-onlayn/images/stani-bogat-stalbata.svg",
+      "name": "stani-bogat-stalbata.svg",
+      "alt": "Инфографика на структурата на играта „Стани богат\": 15 въпроса с по 4 отговора, първа гарантирана сума около пети въпрос, втора „плаваща\" гарантирана сума между шести и четиринадесети въпрос, и горна награда 100 000 евро; числата са примерни за структурата, не за конкретен сезон",
+      "sha256": "4c1f198630c861cb7223b8b95338f23229bfcb8fbade324d31ccafc052921656",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "0e505f842790dffeeaa0c3a0724c5a44f4786a2b49fe39d9d971373ee9f74c41",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

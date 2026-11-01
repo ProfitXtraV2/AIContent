@@ -5,8 +5,8 @@
   "slug": "turbo-barz-spin",
   "kind": "article",
   "type": "guide",
-  "board_status": "approved",
-  "live": false,
+  "board_status": "posted",
+  "live": true,
   "folder": "2026-10-04-turbo-barz-spin",
   "pr": "#275",
   "title": "Турбо и бърз спин в слотовете: скорост и риск",
@@ -35,7 +35,7 @@
       "path": "published/turbo-barz-spin/images/turbo-sravnenie-tempo-oborot.svg",
       "name": "turbo-sravnenie-tempo-oborot.svg",
       "alt": "Инфографика: сравнение на нормален и турбо темп при залог €0,50 на спин, завъртания в минута 8-10 срещу 20-25, заложено за минута €4-5 срещу €10-12 и 2-3 пъти повече оборот за един час. Числата са примерни.",
-      "sha256": "8dfe278123cbf62c25ed558e2d840c2ca9cca539a9c6d62500517455d38494e8",
+      "sha256": "ba6cf9e141b1898de08e74d59fa5198149490afaea21741e575049eddd231907",
       "review": {
         "score": 95,
         "integrity_ok": false,
@@ -43,8 +43,8 @@
       }
     }
   ],
-  "article_version": "699ed1b5b9d50b84daf1cf3c4593a9e3b3662b396bab92b7038841f1c95f8d6a",
+  "article_version": "22e9185133135f66840d26f84bb1524bbb46d7d8b2810983b7c49529a69a2a63",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

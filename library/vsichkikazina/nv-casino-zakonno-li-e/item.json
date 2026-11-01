@@ -22,7 +22,7 @@
       "path": "published/nv-casino-zakonno-li-e/images/licenziran-nap-sreshtu-nelicenziran-kurasao.svg",
       "name": "licenziran-nap-sreshtu-nelicenziran-kurasao.svg",
       "alt": "Сравнителна таблица какво получава играчът при лицензиран оператор с лиценз от НАП (защита по Закона за хазарта, жалба до НАП при спор и надзор от НАП) срещу нелицензиран оператор с лиценз от Кюрасао, който не важи на българския пазар и срещу когото НАП не приема жалби и не упражнява надзор.",
-      "sha256": "0673c77d6c467e9a0bd6b995d21ed2f3fdcf101466c41fa4f0b103183d432ce4",
+      "sha256": "3dc981835539107352e93c1c1a6033cfff8613f5c342656ffd301c7d53094a31",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -30,8 +30,8 @@
       }
     }
   ],
-  "article_version": "54d5793a4b4cbca9398bc360cc8310f734ee78f147c56f8f753d91e156f9601a",
+  "article_version": "d7eee9d77a505100f603b8ab4ab399af5c9d5f934fb5cb65522137b8eea41dfd",
   "operator_or_bonus": true,
   "operator_or_bonus_reason": "names the operator nv casino",
-  "built_utc": "2026-10-19T05:29:51Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

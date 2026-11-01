@@ -33,7 +33,7 @@
       "path": "published/olympus-glory/images/olympus-glory-rtp.svg",
       "name": "olympus-glory-rtp.svg",
       "alt": "Olympus Glory: RTP 96.23% и домашно предимство 3.77%; при 1000 евро оборот средно 962 евро се връщат на играча, 38 евро остават за казиното",
-      "sha256": "1ebfc9497768630f2909f6a861bf8454605334988a0068585ff177c469263f91",
+      "sha256": "c84f8a2e7336d64de61513866eb8c6a6deb3732fa8e2a084f1a91a7b8a0aff06",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -41,8 +41,8 @@
       }
     }
   ],
-  "article_version": "672f2dc726dd8579951212ca3a1b09dde26e1cf99bd3451455e5ba1618987020",
+  "article_version": "36842ae1560cf746462a76e101a163c120c14a77c722b65fd8612bf51a515efd",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

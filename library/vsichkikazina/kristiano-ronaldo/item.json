@@ -1,0 +1,49 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0315",
+  "slug": "kristiano-ronaldo",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-10-29-kristiano-ronaldo",
+  "pr": "#338",
+  "title": "Кристиано Роналдо: кариера, рекорди и трофеи | Всички Казина",
+  "meta_description": "Кристиано Роналдо: от Мадейра и „Спортинг\" до 5 Златни топки, трофеите с Юнайтед и Реал Мадрид и стилът му на игра. Факти и рекорди, не прогнози.",
+  "keywords": [
+    "кристиано роналдо",
+    "роналдо",
+    "роналдо кариера",
+    "роналдо рекорди"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/kristiano-ronaldo/images/kristiano-ronaldo-futbol-hero.webp",
+      "name": "kristiano-ronaldo-futbol-hero.webp",
+      "alt": "Плоска илюстрация на футболна топка в тревата под лъч светлина на тъмен стадион нощем; без клубен герб, без лого, без хора",
+      "sha256": "149c37e820cbee43799d77f585a202034c4758e50fb862a49025c7a50fe2778f",
+      "review": {
+        "score": 100,
+        "integrity_ok": false,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/kristiano-ronaldo/images/kristiano-ronaldo-kariera-rekordi.svg",
+      "name": "kristiano-ronaldo-kariera-rekordi.svg",
+      "alt": "Инфографика с кариерата на Кристиано Роналдо: роден 1985 г. във Фуншал на Мадейра, преминаване в Манчестър Юнайтед 2003 г., Реал Мадрид 2009 г., европейски шампион 2016 г., Ювентус 2018 г., 450 гола за Реал Мадрид, 5 Златни топки, 5 трофея от Шампионската лига, 3 титли в Премиер лига, 2 титли в Серия А",
+      "sha256": "bd2353e0c767679692a7c09e836018c1c021d1ca73c1b08c942265a4804de8cf",
+      "review": {
+        "score": 100,
+        "integrity_ok": false,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "a241385b88acc8fe916adc9c30392efdb468c0cf9f5dfd96701c11b70767a22d",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

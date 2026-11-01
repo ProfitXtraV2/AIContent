@@ -5,8 +5,8 @@
   "slug": "kazino-bez-registraciya",
   "kind": "article",
   "type": "guide",
-  "board_status": "approved",
-  "live": false,
+  "board_status": "posted",
+  "live": true,
   "folder": "2026-09-11-kazino-bez-registraciya",
   "pr": "#55",
   "title": "Казино без регистрация: какво реално значи в България",
@@ -34,7 +34,7 @@
       "path": "published/kazino-bez-registraciya/images/tri-nachina-igra-bez-registraciya.svg",
       "name": "tri-nachina-igra-bez-registraciya.svg",
       "alt": "Сравнение на три начина да играеш: демо без регистрация (без реални печалби), лицензирано казино с регистрация и защита от НАП, и нелицензиран сайт „без регистрация\" без защита и правен изход",
-      "sha256": "4a438f117f41b48a2e35237f75d9fa18606e13949b2f241269b41d88d63f4718",
+      "sha256": "1ced1d57ace2166ce1a14ffb791d264580b6062f2110703a8acf37ee93ece715",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -42,8 +42,8 @@
       }
     }
   ],
-  "article_version": "836ae505c7f6ae638f36dc21a27bbef460c6c33a88b1f0ee068b9bf6e62903a7",
+  "article_version": "c4fe15f669617b10c2c73d6d6c9f9cd13462ebd3af3e16526736e8a058741ab5",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

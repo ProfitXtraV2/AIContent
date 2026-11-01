@@ -34,7 +34,7 @@
       "path": "published/bakara-pravila/images/bakara-zalozi-domashno-predimstvo.svg",
       "name": "bakara-zalozi-domashno-predimstvo.svg",
       "alt": "Трите залога в бакара: Банко 1:1 минус 5% комисиона с домашно предимство ~1,06%; Пунто 1:1 с ~1,24%; Равенство 8:1 с ~14,36% — пример €1 000 оборот, очаквана загуба Банко ~€11, Равенство ~€144",
-      "sha256": "41ce24a1ff725c1d6617de2af93b017dd9432e63b5045634692d1af35d81a1fe",
+      "sha256": "8ace50c6181e92e5b43ee3a9e0d8bc7205edec00e4797dbdd0be6d80023b973d",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -42,8 +42,8 @@
       }
     }
   ],
-  "article_version": "fb375d08f758554539ada249ff00724e6d39da4da1544aaeefed2fa21af58aab",
+  "article_version": "8f17e54b0c104aa863fef8d9a4b931ebe71d991ddfabec067effdf5ce767bfb1",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

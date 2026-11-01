@@ -1,0 +1,50 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0259",
+  "slug": "bezplatni-zavartaniya-free-spins",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-10-05-bezplatni-zavartaniya-free-spins",
+  "pr": "#279",
+  "title": "Безплатни завъртания (free spins): видове и условия",
+  "meta_description": "Безплатните завъртания са безплатни, но печалбата идва като бонус пари с превъртане и таван на теглене. Видовете, условията и къде е истинската уловка.",
+  "keywords": [
+    "безплатни завъртания",
+    "безплатни врътки",
+    "free spins",
+    "видове безплатни завъртания",
+    "условия на безплатните завъртания"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/bezplatni-zavartaniya-free-spins/images/bezplatni-zavartaniya-hero.webp",
+      "name": "bezplatni-zavartaniya-hero.webp",
+      "alt": "Декоративна илюстрация: отворена подаръчна кутия, от която излизат стилизирани символи на слот ротативка и малки монети, спокоен тон без конкретни числа или лого",
+      "sha256": "b0b3aa3a7a9121cb3ed35307bea0545f9e9f6086d1f3b2f76d805710ec96a27f",
+      "review": {
+        "score": 100,
+        "integrity_ok": false,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/bezplatni-zavartaniya-free-spins/images/bezplatni-zavartaniya-usloviya.svg",
+      "name": "bezplatni-zavartaniya-usloviya.svg",
+      "alt": "Инфографика: от 100 безплатни завъртания по €0,10 се получават €10 оборот; примерна печалба €20; превъртане 35 пъти върху печалбата прави €700 залози; таван на теглене €100 ограничава максимума. Числата са примерни.",
+      "sha256": "c47eed7cbefa4a0c32fbcb47c330930cef0ba43e632bd08717566d4c3593c70a",
+      "review": {
+        "score": 100,
+        "integrity_ok": false,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "e2bdc5ff7d763ff5aabec32879d4c2fd149746b10ee608c3229ce9e0b410c79d",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

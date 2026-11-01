@@ -34,7 +34,7 @@
       "path": "published/starburst/images/starburst-rtp.svg",
       "name": "starburst-rtp.svg",
       "alt": "Илюстративно: при обявен RTP около 96% и €1000 оборот средно ~€960 се връщат на играча, ~€40 остават за казиното; официалният RTP на Starburst е 96.08% и се проверява в инфо-панела",
-      "sha256": "c67c084f05d5f0d506ba827c7aa65e96b1b6564ad4e3b2c7992719550f467a56",
+      "sha256": "dac9b3cfe654022368998a60439c0208ceaf3f8112180edcbfe03b859e48ad3d",
       "review": {
         "score": 82,
         "integrity_ok": false,
@@ -42,8 +42,8 @@
       }
     }
   ],
-  "article_version": "d101e5bc6eaa266be87cd432e1d4fc794d98a5f5b98930da6ca25aa93bb45515",
+  "article_version": "15cb88375c58907d5222c725218e04a34393005f480b2af92fa2456170381418",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

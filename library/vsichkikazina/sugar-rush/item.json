@@ -32,7 +32,7 @@
       "path": "published/sugar-rush/images/sugar-rush-rtp.svg",
       "name": "sugar-rush-rtp.svg",
       "alt": "Sugar Rush RTP: при €1000 оборот и версия 96.50% на играча се връщат средно €965, а €35 остават за казиното; операторът може да пусне и по-нисък RTP",
-      "sha256": "65d823d2fa215497ece0517f49ad6318e7568baf195432f2c9e2aa5643ead571",
+      "sha256": "7928edd3eb813860be9b55049cbaed90cc7e4d5a4a566fbf6ef0b909a2aa0082",
       "review": {
         "score": 100,
         "integrity_ok": true,
@@ -40,8 +40,8 @@
       }
     }
   ],
-  "article_version": "ff3ce3d5a87fc3a1ca1ebdd06b34415166f567a2eb7a30015312fb71e9230a61",
+  "article_version": "49c34be494e763347d2a23eab89a4836e5bddbe0483865cbd592f0f3a4ba72f1",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

@@ -5,8 +5,8 @@
   "slug": "sweet-bonanza-1000",
   "kind": "article",
   "type": "guide",
-  "board_status": "approved",
-  "live": false,
+  "board_status": "posted",
+  "live": true,
   "folder": "2026-09-15-sweet-bonanza-1000",
   "pr": "#97",
   "title": "Sweet Bonanza 1000: какво променя версията 1000",
@@ -22,7 +22,7 @@
       "path": "published/sweet-bonanza-1000/images/sweet-bonanza-1000-rtp.svg",
       "name": "sweet-bonanza-1000-rtp.svg",
       "alt": "Sweet Bonanza 1000 RTP: версия по подразбиране 95.52% връща средно €955.20 на €1000 оборот, €44.80 остават за казиното; операторът може да зареди и по-нисък RTP",
-      "sha256": "fab0ceca5836270532ca4a20a5585707b9709e99efa8c021628b9aa3461745b0",
+      "sha256": "121edea5482b039902546d6a9d569daa27c60c64b26d2beab6d576fb481de59b",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -33,7 +33,7 @@
       "path": "published/sweet-bonanza-1000/images/sweet-bonanza-1000-sravnenie.svg",
       "name": "sweet-bonanza-1000-sravnenie.svg",
       "alt": "Сравнение Sweet Bonanza 1000 и оригинала: множители-бомби до 1,000x срещу 100x, максимум 25,000x срещу 21,100x, RTP по подразбиране 95.52% срещу 96.48%, и двете 6×5 с pay anywhere и tumble",
-      "sha256": "7e62adcf14a20d500e2f6eac630146bc90e35323bcd8bf20d1b05c0671c88b39",
+      "sha256": "19a632deb59e7bfa769a822a234ad8fd79fdc0062a710312aef23d1ecb975e56",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -41,8 +41,8 @@
       }
     }
   ],
-  "article_version": "b19e98916655f61bf132db4087cc24cc041cdb352d58a1d5b34326721ec01b5f",
+  "article_version": "dc23f7c7db25204918294ac726b6452e29223062178721fcaff4770eab879fd9",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

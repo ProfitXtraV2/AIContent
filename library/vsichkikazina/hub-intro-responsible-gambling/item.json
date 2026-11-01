@@ -5,8 +5,8 @@
   "slug": "hub-intro-responsible-gambling",
   "kind": "hub-intro",
   "type": "hub-intro",
-  "board_status": "approved",
-  "live": false,
+  "board_status": "posted",
+  "live": true,
   "folder": "2026-09-19-hub-intro-responsible-gambling",
   "pr": "#139",
   "title": "Отговорна игра: лимити, самоизключване, помощ",
@@ -21,7 +21,7 @@
       "path": "published/hub-intro-responsible-gambling/images/rg-instrumenti-limiti-samoizklyuchvane.svg",
       "name": "rg-instrumenti-limiti-samoizklyuchvane.svg",
       "alt": "Три инструмента за отговорна игра: лимити в профила предварително, самоизключване при нужда, НАП регистър постоянно",
-      "sha256": "8161923aa0fcbdf8ec79b5603e93256846550e3fe866cff347f98aa42927c0c7",
+      "sha256": "725cce6d4c900fddb8498fd475df4e8075ff5f959763c654020b0ff35929c302",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -29,8 +29,8 @@
       }
     }
   ],
-  "article_version": "f22d8ef75d534be62d187d7f4259d23a333544b1ccece0e1419ac135b9e7ba57",
+  "article_version": "3e724809ca4a9d6257981db0f89745070d1882ca6f96bdb229c40cd217aa00cb",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

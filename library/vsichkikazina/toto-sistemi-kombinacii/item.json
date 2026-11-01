@@ -1,0 +1,37 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0270",
+  "slug": "toto-sistemi-kombinacii",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-10-10-toto-sistemi-kombinacii",
+  "pr": "#288",
+  "title": "Тото комбинации 6 от 49: цени на системите и шанс",
+  "meta_description": "Колко струват тото комбинациите в 6 от 49: системи от 7 до 12 числа за 6,30–831,60 €, шанс за джакпот по таблица и защо шансът на евро не се мени.",
+  "keywords": [
+    "тото комбинации 6 от 49 цени",
+    "най добрата система за тото 2",
+    "системен фиш тото"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/toto-sistemi-kombinacii/images/toto-6-ot-49-sistemi-kombinacii-cena-shans-infografika.svg",
+      "name": "toto-6-ot-49-sistemi-kombinacii-cena-shans-infografika.svg",
+      "alt": "Инфографика: системи в Тото 2 „6 от 49“ от 6 до 12 числа с брой комбинации, цена при 0,90 € за комбинация и шанс за джакпот, от 1 към 13 983 816 до 1 към 15 134",
+      "sha256": "b9fa6a60db69a0d05314616677bdc1aed409270a64f74ec096ddfd8aa47b8362",
+      "review": {
+        "score": 100,
+        "integrity_ok": null,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "411895b1c277b88d7f6141a388cf8c83dfa669eebdd323a3ddfd407d1c82ab96",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

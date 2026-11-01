@@ -34,7 +34,7 @@
       "path": "published/plinko/images/plinko-rtp.svg",
       "name": "plinko-rtp.svg",
       "alt": "Plinko RTP по студио: BGaming и Stake 99%, Spribe 97%; домашно предимство 1% срещу 3%; при 1000 евро оборот средно се връщат около 990 евро или 970 евро",
-      "sha256": "1e1a0e16ac62582a9be76b0dc882c968843ae36ba5fb663fc1b8c87e6b98d78b",
+      "sha256": "507b1c88833413857fc1120d1889a43edf7314038b5be925dfe7b9039ef90e3c",
       "review": {
         "score": 100,
         "integrity_ok": null,
@@ -42,8 +42,8 @@
       }
     }
   ],
-  "article_version": "e785bc3ab5df4568c9ac54ecb6a5cd5f55444445c96b69f1908eb73fb4c77277",
+  "article_version": "72e2eb0309736e631cb632ec557a11de4881972bec83c3c5ee3f3f8ed6e6f7ab",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

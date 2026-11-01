@@ -33,7 +33,7 @@
       "path": "published/rotativki-s-plodove/images/rotativki-rtp-domashno-predimstvo.svg",
       "name": "rotativki-rtp-domashno-predimstvo.svg",
       "alt": "Инфографика: при RTP 96% от €1000 оборот ротативката връща €960 на играча, €40 остават за казиното (4%); при €0,20 на завъртане — 5000 завъртания = €1000 оборот",
-      "sha256": "513039bea8d898a86557d766b7b0e768132bdc82cfd6b2b79ef47f2f1a39de68",
+      "sha256": "64f6ed650fcacaed782bf085c5724be4a64d09e9db412ed18d1b03bdc2912a97",
       "review": {
         "score": 98,
         "integrity_ok": null,
@@ -41,8 +41,8 @@
       }
     }
   ],
-  "article_version": "426f39fdcf3df14f2c23b6e3eb45032b59a5859c94ac9933c750804110621a03",
+  "article_version": "9b6f0bd01a8bdd1a689c5e190d6be4c2bf52b4248e11647663c3ed3c87323647",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

@@ -5,8 +5,8 @@
   "slug": "le-bandit",
   "kind": "article",
   "type": "guide",
-  "board_status": "approved",
-  "live": false,
+  "board_status": "posted",
+  "live": true,
   "folder": "2026-09-15-le-bandit",
   "pr": "#96",
   "title": "Le Bandit: RTP, cluster pays и Golden Squares",
@@ -34,7 +34,7 @@
       "path": "published/le-bandit/images/le-bandit-rtp.svg",
       "name": "le-bandit-rtp.svg",
       "alt": "Le Bandit RTP: при €1000 оборот и версия 96.34% на играча се връщат средно €963, а €37 остават за казиното",
-      "sha256": "7bccf99db51f2aa4acf4d3a506b779d19cb2b480d92f6e88e8accbe0403608aa",
+      "sha256": "290a382c720250eb33c6a4e42125f7372a1717e7bf7364ba21901a7bd39a0f8e",
       "review": {
         "score": 100,
         "integrity_ok": false,
@@ -42,8 +42,8 @@
       }
     }
   ],
-  "article_version": "eb85d3e5856bd0d1f979a6307136dc29a3b83d80a37d4c2c58157929a5d38c05",
+  "article_version": "f72807c618f3d651c74567f23485a073b4ca7d91b6689df84927d755e031aec1",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

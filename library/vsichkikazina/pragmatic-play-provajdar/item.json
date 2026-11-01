@@ -33,7 +33,7 @@
       "path": "published/pragmatic-play-provajdar/images/pragmatic-play-rtp.svg",
       "name": "pragmatic-play-rtp.svg",
       "alt": "Илюстративно: при обявен RTP около 96% и €1000 оборот средно ~€960 се връщат на играча, ~€40 остават за казиното; реалната стойност зависи от заглавието и версията",
-      "sha256": "af8eaf6d349b4a6c5cc4e14279437e013cc35b5ca86e22e4c18a74a8e84fbbf5",
+      "sha256": "6f183aef181fbbbfb2dee521dcec5221d0b594a2bfe9f3d8f50c0603f52b9013",
       "review": {
         "score": 85,
         "integrity_ok": true,
@@ -41,8 +41,8 @@
       }
     }
   ],
-  "article_version": "5985eae8186a6457b2dd900adfa96854fbe9ccc6a7f803bc1d5711a72b594e40",
+  "article_version": "66e631e50b4377e3256d1121d4b664e8402ff47c955672f2db77b2211011a09d",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

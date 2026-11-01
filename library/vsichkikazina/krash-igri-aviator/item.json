@@ -34,7 +34,7 @@
       "path": "published/krash-igri-aviator/images/aviator-rtp-domashno-predimstvo.svg",
       "name": "aviator-rtp-domashno-predimstvo.svg",
       "alt": "Авиатор RTP 97% и домашно предимство 3%: при €1000 оборот €970 се връщат на играча, €30 остават за казиното",
-      "sha256": "2954ee2f373bcb6961687dac00f58e02bdccb24c8c4fb71284221697d49e451e",
+      "sha256": "60de92ca7d3fe500f989e10161fa91e213899025666a08c2df61ebebc7feab2f",
       "review": {
         "score": 85,
         "integrity_ok": null,
@@ -42,8 +42,8 @@
       }
     }
   ],
-  "article_version": "06b95884dc83ca6999c389a8d194485d1a71619c44ebef572cc868920f1ad523",
+  "article_version": "42508c317f370dc316a33def2b1ec3c8057b147c8b2bef7868cf60fa5ff41b6c",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

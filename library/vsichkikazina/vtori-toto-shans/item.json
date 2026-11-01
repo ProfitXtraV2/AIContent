@@ -21,7 +21,7 @@
       "path": "published/vtori-toto-shans/images/vtori-toto-shans-zhrebiy-kak-raboti-infografika.svg",
       "name": "vtori-toto-shans-zhrebiy-kak-raboti-infografika.svg",
       "alt": "Инфографика: как работи втори тото шанс от 2026 г. при ТОТО 2 5 от 35 и 6 от 49 - залог без доплащане, автоматично участие на квитанцията в жребия, жребий на живо по БНТ в четвъртък и неделя от 18:45 ч., печалби 5 × 350 евро при 5 от 35 и 6 × 490 евро при 6 от 49 (специален тираж: една печалба от 33 000 евро) и проверка по имейл или по серийния номер на квитанцията",
-      "sha256": "ad21a3a1db68e0fe2a397a66b11983b1a75abe9b785fe53c9620132fe2703ce9",
+      "sha256": "04908f78a88898c75e4194a35d7024c6d59eb570a310ba94aa64cd9002f13792",
       "review": {
         "score": 85,
         "integrity_ok": null,
@@ -29,8 +29,8 @@
       }
     }
   ],
-  "article_version": "f1d2a8e302f48cc0823d4a1e8797b8be2a92ad42c14763b05cd4367711f7cc4e",
+  "article_version": "d77fe7f0570742f640d03f8b4bc10a8db0fc3f658f32128bca1e818643260f2c",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

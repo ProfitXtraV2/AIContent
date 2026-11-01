@@ -32,7 +32,7 @@
       "path": "published/the-dog-house/images/the-dog-house-rtp.svg",
       "name": "the-dog-house-rtp.svg",
       "alt": "The Dog House RTP: при €1000 оборот и версия 96.51% на играча се връщат средно €965, а €35 остават за казиното; операторът може да пусне и по-нисък RTP",
-      "sha256": "78cdf4eb7004e8b92f5aaf7b403196b44afaa1d795a31971d9aa0c8807f88b38",
+      "sha256": "7a2337d7e4f13fd96a63015aeeacd008b48736a674dbd0b337f0c2c6c3a178d0",
       "review": {
         "score": 85,
         "integrity_ok": true,
@@ -40,8 +40,8 @@
       }
     }
   ],
-  "article_version": "daf4867266ca1b819f3dbec3e15068796744e02d7de390ef89ddc7df305d9d33",
+  "article_version": "8b98e0efa530eec1dc67abc0f1152ae565e4c516fc8ddd8be42d601525488673",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

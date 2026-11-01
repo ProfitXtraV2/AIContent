@@ -25,7 +25,7 @@
       "path": "published/toto-dzhoker/images/toto-dzhoker-shans-za-pechalba-infografika.svg",
       "name": "toto-dzhoker-shans-za-pechalba-infografika.svg",
       "alt": "Инфографика: шансът за печалба на Тото Джокер с една комбинация за €0,20 (I група 1 на 84 000, II група около 1 на 406, каквато и да е печалба около 1 на 404), цената на системите с 4, 5 и 9 позиции и средното връщане от €0,10 на всеки €0,20",
-      "sha256": "ac82aed067dcab097f0d445d4959723c72335b029907230a2d371b309cfade2e",
+      "sha256": "3071f1637cf86b8e92abc01c53de136822dde5bbc27e88a1d403c581077b6171",
       "review": {
         "score": 100,
         "integrity_ok": null,
@@ -33,8 +33,8 @@
       }
     }
   ],
-  "article_version": "364d242e0f5262740c026b27c963f4f7e067dc6b4abeeb44f48af8b431671b88",
+  "article_version": "ca6571532e47fdf12e59243869c17c8725bbdaaa186e2d54cbe91028c2c62950",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

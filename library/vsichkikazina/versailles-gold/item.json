@@ -33,7 +33,7 @@
       "path": "published/versailles-gold/images/versailles-gold-rtp.svg",
       "name": "versailles-gold-rtp.svg",
       "alt": "Versailles Gold: RTP 96.09% и домашно предимство 3.91%; при 1000 евро оборот средно 961 евро се връщат на играча, 39 евро остават за казиното",
-      "sha256": "0d6a564c36c7a35565b485d13b31d1c8ab69f2ba0ac1de474dd4e05349b3d1bd",
+      "sha256": "62cd56f82b23e32e3603c21ea1af476ceb7e4c395e58979c52b1147fc55165a9",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -41,8 +41,8 @@
       }
     }
   ],
-  "article_version": "bc13c23ebd65b12e5e378a37fb8bad9fdfdcea7403176186b864312dae29e117",
+  "article_version": "dee0a1424ceff2c80f9e1f50101d206b9c9f10dd0ccb5269eea63ed3da45a643",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

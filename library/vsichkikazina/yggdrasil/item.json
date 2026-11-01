@@ -5,8 +5,8 @@
   "slug": "yggdrasil",
   "kind": "article",
   "type": "guide",
-  "board_status": "approved",
-  "live": false,
+  "board_status": "posted",
+  "live": true,
   "folder": "2026-09-18-yggdrasil",
   "pr": "#128",
   "title": "Yggdrasil Gaming: профил на доставчика, механики и топ слотове",
@@ -23,7 +23,7 @@
       "path": "published/yggdrasil/images/yggdrasil-hero.svg",
       "name": "yggdrasil-hero.svg",
       "alt": "Абстрактна метафора за Yggdrasil: разклонено дърво-платформа, чиито клони захранват стилизирани барабани, без лога и без текстови числа",
-      "sha256": "c65fa855484e2f339f5db895d12c61a2fc1c27a611724c787fd473ebc958f0ef",
+      "sha256": "3100ff67e8bba5f020605183e91508c09554f0fa455c849304f57a0205d81038",
       "review": {
         "score": 100,
         "integrity_ok": true,
@@ -34,7 +34,7 @@
       "path": "published/yggdrasil/images/yggdrasil-top-slotove.svg",
       "name": "yggdrasil-top-slotove.svg",
       "alt": "Таблица с топ слотове на Yggdrasil: Valley of the Gods 96.20% RTP и макс. 5 800x, 2017; Temple Stacks Splitz 96.10% и 25 000x, 2020; Lucky Neko Gigablox 96.40% и 6 950x, 2020; Vikings Go Berzerk Reloaded 96.00% и 25 000x, 2021",
-      "sha256": "262a54ef9ef05fd49998cdae7ca72facc5a225c38b7c38bbe0bd52fed4fccb79",
+      "sha256": "5f531a649bee726768a2b30150bca068e84a1b0d9edf6771dd044dc0c18cf739",
       "review": {
         "score": 100,
         "integrity_ok": true,
@@ -42,8 +42,8 @@
       }
     }
   ],
-  "article_version": "6cbf2289acf0696b88ef4e6b4b5514b1ade517c47b3f55138ab4696f97a4aac5",
+  "article_version": "e4ea7b4a9699481a27305f771e16ea346a7715b55645eda660ff169967ee6ba8",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

@@ -5,8 +5,8 @@
   "slug": "hub-intro-casino-payments",
   "kind": "hub-intro",
   "type": "hub-intro",
-  "board_status": "approved",
-  "live": false,
+  "board_status": "posted",
+  "live": true,
   "folder": "2026-09-19-hub-intro-casino-payments",
   "pr": "#140",
   "title": "Казино плащания: депозити и тегления в БГ казина",
@@ -32,5 +32,5 @@
   "article_version": "d2b9c0af7c4547c5413e0d4bf79fafef93cdd2cb05d50cfc7e2a0fe15cebca1f",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

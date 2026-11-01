@@ -34,7 +34,7 @@
       "path": "published/bell-link/images/bell-link-levels.svg",
       "name": "bell-link-levels.svg",
       "alt": "Bell Link: четири нива на джакпота: Mini и Minor са фиксирани множители на залога, Major и Grand са прогресивни и се пълнят от мрежата; бонусът тръгва с 5 или повече звънеца",
-      "sha256": "64108823e870d1119b07c5f43f634476c9b32d8ff106724150edda9bd165df62",
+      "sha256": "0f3c73de47d75455438c73358073d0d80e1a3b25ee4a983a104957558d7dbf1e",
       "review": {
         "score": 85,
         "integrity_ok": null,
@@ -42,8 +42,8 @@
       }
     }
   ],
-  "article_version": "048b6e69866d1cfe3a85de1bfff1c64fa680cfd5f9eb2b73d24a3365b94f6b77",
+  "article_version": "9e3242fd76f86e89fec4fd718a280315d1d93364263ea5ea979bdb7c35401cc7",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

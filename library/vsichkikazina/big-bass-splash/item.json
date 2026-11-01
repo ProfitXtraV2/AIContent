@@ -32,7 +32,7 @@
       "path": "published/big-bass-splash/images/big-bass-splash-mnozhitel.svg",
       "name": "big-bass-splash-mnozhitel.svg",
       "alt": "Стълба на множителя в безплатните завъртания на Big Bass Splash: на всеки 4-ти събран рибар се сменя ниво с нови 10 завъртания и множител 1x, 2x, 3x и 10x",
-      "sha256": "1b6cb133376bb21685a2fa44e61403166438e60576e5fcd9c052f7fe1ef59c13",
+      "sha256": "18e1bb54e38b476f66e5797d52946e3935f530ccb54b75b3ab4ad7d6f8ef4028",
       "review": {
         "score": 98,
         "integrity_ok": true,
@@ -40,8 +40,8 @@
       }
     }
   ],
-  "article_version": "c9fdfb9b7965f3fef978645c55f3a83784214cbb2d9d40532ace2ca095977921",
+  "article_version": "15a2a1253fe88fd614daef383948c7f573035fd13fb7dda528d6d22ea2e77b30",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

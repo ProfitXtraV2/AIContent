@@ -1,0 +1,64 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0288",
+  "slug": "tabla-pravila",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-10-22-tabla-pravila",
+  "pr": "#310",
+  "title": "Табла правила: как се играе (обикновена, тапа, гюлбара)",
+  "meta_description": "Табла правила на ясен език: подредба, зарове и чифт, удряне и бар, изваждане и марс. Плюс как се различават обикновена табла, тапа и гюлбара.",
+  "keywords": [
+    "табла",
+    "табла правила",
+    "как се играе табла",
+    "игра на табла",
+    "табла подредба",
+    "обикновена табла",
+    "тапа",
+    "гюлбара"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/tabla-pravila/images/tabla-daska-zar-hero.webp",
+      "name": "tabla-daska-zar-hero.webp",
+      "alt": "Плоска илюстрация на дъска за табла, видяна отгоре: четири групи по шест триъгълни полета в бежово, петролено-синьо и тухленочервено, с подредени пулове и два зара в средата",
+      "sha256": "9e5abd0dcbe0dd0d2d1c7338cecbc49f133bc592b3fbb56ecbbdce44cd010e42",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/tabla-pravila/images/nachalna-podredba-tabla.svg",
+      "name": "nachalna-podredba-tabla.svg",
+      "alt": "Инфографика с началната подредба в обикновена табла: 15 пула на играч, дъска с 24 полета в 4 групи по 6, 2 зара; пуловете тръгват с 2 на поле 24, 5 на поле 13, 3 на поле 8 и 5 на поле 6, общо 15",
+      "sha256": "c60885004e5ae4370f1f29f050efe3b3742bc7efd98a73a1ae90cc0f5893dcaa",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/tabla-pravila/images/tri-igri-tabla-tapa-gyulbara.svg",
+      "name": "tri-igri-tabla-tapa-gyulbara.svg",
+      "alt": "Инфографика, сравняваща обикновена табла, тапа и гюлбара по посока на движение и по това какво става при среща със самотен пул",
+      "sha256": "8da1f5717eaaa002a749d210aa4cb6b10c559f80d1c8dd37a8d087900632744d",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "d0bacd16d9c390f0411fdb2f5834f60de35f8eecacd9aa9328b3ed603fe3e289",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

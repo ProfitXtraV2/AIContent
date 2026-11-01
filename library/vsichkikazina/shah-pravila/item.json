@@ -1,0 +1,49 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0300",
+  "slug": "shah-pravila",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-10-27-shah-pravila",
+  "pr": "#323",
+  "title": "Шах правила за начинаещи: фигури, ходове, шах и мат",
+  "meta_description": "Шах правила за начинаещи на ясен език: подредбата на дъската, как се движат фигурите, рокада и ан пасан, шах, мат и пат, и къде да играете шах срещу компютър.",
+  "keywords": [
+    "шах",
+    "шах правила",
+    "как се играе шах",
+    "шах срещу компютър"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/shah-pravila/images/shah-figuri-hero.webp",
+      "name": "shah-figuri-hero.webp",
+      "alt": "Декоративна илюстрация на шахматен кон върху стилизирана дъска в меки тонове, плосък векторен стил, без текст и без лица",
+      "sha256": "50496ef514b8ff18cddf3ebe55e5d1c2fc5a2a433ac70e898aa8c42bf53bbaab",
+      "review": {
+        "score": 100,
+        "integrity_ok": false,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/shah-pravila/images/shah-stoynost-figuri.svg",
+      "name": "shah-stoynost-figuri.svg",
+      "alt": "Инфографика със стойността на фигурите в шаха: пешка 1 точка, кон 3, офицер 3, топ 5, дама 9; царят е безценен, защото е целта на играта",
+      "sha256": "25380461afba54a2a23ee9f52c3bd50652ff6e7453ca25b9e722571887a6cb8a",
+      "review": {
+        "score": 100,
+        "integrity_ok": false,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "2049f8c3646a96fc2013c2fa078265fa79e052b8d6fae5ffb264cd1f12bd6046",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

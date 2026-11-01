@@ -34,7 +34,7 @@
       "path": "published/progresivni-dzhakpoti/images/progresiven-dzhakpot-kak-raboti.svg",
       "name": "progresiven-dzhakpot-kak-raboti.svg",
       "alt": "Как работи прогресивният джакпот: при €1 залог с 2% дял — €0.02 към пула, €0.98 към базата; 500 завъртания × €1 = €10 в пула; базов RTP 88–93% при прогресивна срещу ~96% при обикновена ротативка",
-      "sha256": "b1e5cebaef4b3205e725711bdd3737270b0cbdda0519de6d251653062aaad2bd",
+      "sha256": "3c5d0b6f39a787c3d718c8fa18902fe06094059e6f4de12393be114abc05b6eb",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -42,8 +42,8 @@
       }
     }
   ],
-  "article_version": "49497154e18192eabefef5053fb243b90c881cae0abfdb48723d0d943c8ea08e",
+  "article_version": "cc9715772a6acfa58c7caab024c3f65238f2b22d741a5deffbe585f34826f01c",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

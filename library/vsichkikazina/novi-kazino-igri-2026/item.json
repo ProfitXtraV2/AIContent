@@ -34,7 +34,7 @@
       "path": "published/novi-kazino-igri-2026/images/novi-igri-formati-mehanika.svg",
       "name": "novi-igri-formati-mehanika.svg",
       "alt": "Сравнение на основни формати при нови казино игри: Megaways до 117 649 начина за печалба, Cluster pays, Крах игри 5–30 секунди на кръг, Шоу на живо",
-      "sha256": "6e7ea6ad5199f8a048f26acaaae0bbfb1db0305519e370e7400f3613122b5ca9",
+      "sha256": "2cca1e0b0ada2e93d5eea7e5113afc4f775a2187629a174fd0ef12f9007e14a4",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -42,8 +42,8 @@
       }
     }
   ],
-  "article_version": "88c4966037a98377fa326b6d305488b91f86d635a15da4bbfac8247d82cc66ab",
+  "article_version": "6818586da9bc3fbb68f6047ea083f28aaab2a763f149bccaed9446875a5d8daa",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

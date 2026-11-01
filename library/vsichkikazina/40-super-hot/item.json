@@ -32,7 +32,7 @@
       "path": "published/40-super-hot/images/40-super-hot-rtp.svg",
       "name": "40-super-hot-rtp.svg",
       "alt": "40 Super Hot RTP 95.81% и домашно предимство 4.19%: при €1000 оборот средно €958 се връщат на играча, €42 остават за казиното",
-      "sha256": "da4003352c6e7b3e683dc22c9470252e471b660f78ce552ce20e6c38fb53f25b",
+      "sha256": "12d96933771e7291c8f1201b91c2bfad7897fbae7ad81346a32f8290bdaf9a6d",
       "review": {
         "score": 82,
         "integrity_ok": true,
@@ -40,8 +40,8 @@
       }
     }
   ],
-  "article_version": "adf13d88a9f171b6ea3388546ce97f31531b67afe04823db228753adbfd8068d",
+  "article_version": "57336ce790bbbd25745c62d90830c663ac2e1071d641dce3a25e49f94857b32e",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }

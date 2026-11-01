@@ -5,8 +5,8 @@
   "slug": "elk-studios",
   "kind": "article",
   "type": "guide",
-  "board_status": "approved",
-  "live": false,
+  "board_status": "posted",
+  "live": true,
   "folder": "2026-09-17-elk-studios",
   "pr": "#119",
   "title": "ELK Studios: профил на доставчика, механики и топ слотове",
@@ -23,7 +23,7 @@
       "path": "published/elk-studios/images/elk-studios-hero.svg",
       "name": "elk-studios-hero.svg",
       "alt": "Абстрактна илюстрация на решетеста мрежа, по която цветни колекторни маркери събират символи, вдъхновена от collection механиката на ELK Studios, без лога и без текст",
-      "sha256": "d5f6dae62d2a852c1e848fd4991553d9be1f7c598986d8be6fd9e3e56d98ec10",
+      "sha256": "559035ba00cf54952d23ef9a93ececeed731123ec71b6c033f29399f9a8e829c",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -34,7 +34,7 @@
       "path": "published/elk-studios/images/elk-studios-top-slotove.svg",
       "name": "elk-studios-top-slotove.svg",
       "alt": "Сравнение на топ слотове на ELK Studios по RTP, максимална печалба и година: Pirots 2 RTP 94.0% max 10 000×, Nitropolis 4 RTP 94.0% max 50 000×, Wild Toro 2 RTP 95.0% max 10 000×, Katmandu Gold RTP 96.2% max 10 000×, Cygnus 4 RTP 94.0% max 50 000×, Lake's Five RTP 96.3% max 2160×",
-      "sha256": "90d5674eb9575b1eda6a5febe592592b6deeea16f599e1eced7a0ea6d73e0fb2",
+      "sha256": "05c98f0accbd0677b0c0b3c60e4761e47bf9faa3dd7fdb35c61dae6808ee41ea",
       "review": {
         "score": "unknown",
         "integrity_ok": null,
@@ -42,8 +42,8 @@
       }
     }
   ],
-  "article_version": "aea550cb38a9d33d8086b81e7fd00014177773fd2806383a75ad31ba416a7e74",
+  "article_version": "0872ce80c10525812bcee1a370fe7e35200ca2fc52998894ae47c8f9ed8457d0",
   "operator_or_bonus": false,
   "operator_or_bonus_reason": "",
-  "built_utc": "2026-10-19T05:29:36Z"
+  "built_utc": "2026-11-01T10:03:49Z"
 }
