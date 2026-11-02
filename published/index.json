@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 20,
+  "count": 18,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -83,7 +83,7 @@
       "slug": "igri-s-karti",
       "title": "Игри с карти: кои се играят в България и как",
       "date_modified": "2026-10-27",
-      "content_hash": "be5f6aee8dceffe2dfa78f35a150dc6124cbb68eea74ed218b7105641fbd71a8",
+      "content_hash": "f57429c7191f8e90815ce5dbf3b19b56adee7fe6d26353a017570728f919dcdd",
       "status": "approved"
     },
     {
@@ -115,24 +115,10 @@
       "status": "approved"
     },
     {
-      "slug": "kristiano-ronaldo",
-      "title": "Кристиано Роналдо: кариера, рекорди и трофеи | Всички Казина",
-      "date_modified": "2026-10-29",
-      "content_hash": "7c0db18142553f14c9cd39a559508cdafa221c974219cd37be982777f2b9bbf5",
-      "status": "approved"
-    },
-    {
       "slug": "chelsi",
       "title": "Челси: история, трофеи, стадион и легенди | Всички Казина",
       "date_modified": "2026-10-29",
       "content_hash": "4ddb9d46c325fa4218513696536cf48d63150b123525201d05fcdb676228cf50",
-      "status": "approved"
-    },
-    {
-      "slug": "formula-1",
-      "title": "Формула 1: как работи — точкуване, отбори и състезателният уикенд | Всички Казина",
-      "date_modified": "2026-10-29",
-      "content_hash": "fd34b989ae6fb505f081ec6e34826a5c6500a509eff96f9c4e0e895d41278290",
       "status": "approved"
     },
     {
@@ -143,5 +129,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-11-01T23:04:36Z"
+  "generated_utc": "2026-11-02T06:43:39Z"
 }
