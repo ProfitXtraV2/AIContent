@@ -3324,3 +3324,59 @@ content branch, dropping the two redundant synthesis sections („Срещу х�
 by hand. `status.json` also flipped some `verify_flags` null→0 (dashboard count normalisation).
 No posted/live content edited; nothing merged; no new article branches created; no `content/*`
 branch touched; API key never printed.
+
+## 2026-11-02 — nightly flag + score fixes
+
+### JOB A — publish-blocking flags
+Scanned `05b-final-draft.md` on all 323 `content/*` branches for the blocking markers
+`[VERIFY …]` · `[DATA NEEDED]` · `[CONFLICT]` · `[18+ / RG LINE]` · `[AUTHOR …]` ·
+`[BRAND …]` · `[EDITORIAL]` · `[уточни …]` · `[провери …]` (strict bracketed scan +
+a looser case-insensitive cross-check). **Zero blocking markers found — no branch needed
+a flag fix.** (The looser pass surfaced 161 branches only via the bare Bulgarian verbs
+„провери"/„провериш" in normal reader-facing prose, i.e. no brackets — not flags; inline
+markdown links `[текст](/url/)` likewise not matched.) Nothing committed for Job A.
+
+### JOB B — low Gemini score
+**One in-scope target: vk-0322 `2026-11-02-liga-na-konferenciite` (PR #347), board `ai 75`.**
+(Of 235 `drafted`/`approved` rows: 166 carry a real Step-7 verdict `human ≥80`; 68 are
+`skipped` (no verdict, out of scope); the only `human <80`/`ai <n>` row was vk-0322.)
+
+- **vk-0322** — checked out `content/2026-11-02-liga-na-konferenciite`. Applied the Step-7
+  check-3 + fresh-check style recommendations that fell beyond the earlier 2-pass cap
+  (step-7b + step-3/5b technique, style-only): grandiose „вратата към Европа" opening →
+  direct phrasing; personification „Роди се късно…" → „Турнирът е сравнително нов — първият
+  сезон е 2021/22"; metaphor heading „Нагоре по стълбата…" → „Кой продължава и какво печели";
+  cliché „не си тръгва с празни ръце" → merged into the benefit; journey signpost „Пътят
+  дотук минава през" → „До лиговата фаза се стига през"; awkward localization „допълнителна
+  двойка" → „допълнителен плейоф"; a rhythm merge in §„36 отбора"; de-„Затова"-ed the closing
+  line; smoothed the clunky RG budget/limits sentence. **0 facts/numbers/dates/names/links/RG
+  changed** (word-diff verified).
+  - **Gemini before→after: `ai 75` → `ai 75`** (4 attempts). Score trail: baseline `human 85`
+    → batch-1 `ai 85` → batch-2 `ai 75` → `ai 75`. The same near-identical text scored
+    `human 85` and `ai 85` on consecutive calls before settling at `ai 75` twice — detector
+    confirmed noise/pinned ~75% AI on dense encyclopaedic BG tournament content, exactly as
+    logged for the sibling Лига Европа / Ефбет Лига. Residual complaint is structural
+    („Wikipedia syndrome" / encyclopedic H2-then-definition), unfixable without gutting the
+    factual heading structure (SEO) or risking facts. **Attempts: 4. Outcome: still-flagged**
+    (modal `ai 75` < 80) — kept the improved version (better prose, zero fact changes),
+    committed `fix(quality): humanise liga-na-konferenciite` + `07-gemini-check-4.md`, pushed
+    to the branch (PR #347 updated). Gate still 95/100, 0 criticals. Flagged for human (owns
+    Step 6 / publishing).
+
+### POSTED — needs human review
+No new items this run. vk-0063 `2026-09-13-nv-casino-zakonno-li-e` (PR #79) remains `ai 75` /
+status **posted/live** from prior runs — live, never edited per policy; a human should decide
+whether to re-humanise + re-publish off-line.
+
+### Deferred
+None. The single Job B target (vk-0322) was processed in full; the ≤10/night cap was not
+reached. Standing backlog unrelated to this run's target definition: the 68 `skipped` drafts
+still await a Step-7 Gemini verdict — owned by the autopilot's Step-7 stage once credits allow.
+
+### Finish
+Board `gemini` for vk-0322 stays `ai 75` (verdict unchanged); appended a `NIGHTLY-FIX
+2026-11-02` note to its row documenting the humanise pass + detector instability.
+`build_dashboard.py` (buffer 235/10) and `build_feed.py` (18 approved) re-run on main —
+timestamp-only this night (no approved source changed on main). No posted/live content edited;
+nothing merged; no new article branches created; only the specific low-rated `content/*` branch
+(vk-0322) was touched; API key never printed.
