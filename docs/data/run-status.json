@@ -1,13 +1,15 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-11-03T07:14:51Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-11-03T08:08:41Z",
+  "articles_written": 1,
+  "prs_opened": [
+    348
+  ],
   "run_url": "https://claude.ai/code/session_01AwuYFUs6rnqM6ZnGzgYJvp",
-  "note": "daily run 2026-11-03 — throttled intake (MAX_PER_RUN=1). Reconcile clean (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review NOT due (marker 2026-11). Writing vk-0323 Втора лига — формат, промоция и изпадане (top open P0 backlog, 10000/kd3).",
+  "note": "daily run 2026-11-03 — throttled intake (MAX_PER_RUN=1). Reconcile clean on entry (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review NOT due (marker 2026-11 = current). WROTE 1 NEW guide vk-0323 Втора лига — формат, промоция и изпадане (top open P0 backlog row, sports-guide batch, owner-approved), PR #348. Evergreen second-tier format guide (guides-only: 0 operator/НАП/affiliate; 0 current standings/results/fixtures/odds; 0 predictions). Distinct 2nd-tier sibling of Ефбет Лига (vk-0314, 1st tier) — promotion path referenced in prose only (vk-0314 not yet live). Cluster втора лига 10000/kd3 WIN. Dedup vs queue (0) + live sitemap (157 URLs, no liga slug) = clean. Факти EN/BG Wikipedia (Second Professional Football League BG) + официални БФС/ПФЛ канали: второ ниво между Първа лига и аматьорската Трета лига; организатор БФС, администрира ПФЛ; съществува от 1950 г. („Б\" група Север/Юг по 10 отбора), име „Втора професионална футболна лига\" от 2016 г.; формат една обща група, двукръгов „всеки срещу всеки\", точки 3/1/0; промоция шампион директно в Първа лига + 2.–3. през бараж; изпадане най-слабите слизат в Трета лига, част през бараж; НЯМА европейски квоти от това ниво; рекорд по титли Берое 9 (към 2026 г.), шампион 2025/26 Дунав (Русе, историческа справка). Сезонните стойности (брой отбори 14/16/17/18/20 примерно, места за бараж/изпадане, съперник, спонсор, ТВ права) рамкирани „по регламента за всеки сезон\" + препратка към официалните канали, не печатани фиксирано. Gate 93 PASS 0-crit. Gemini Step-7 keep-best = pass 1 (HL 15→35→25, MAX_GEMINI_PASSES достигнат; детектор закотвен ~65–75% AI на плътно фактологично BG съдържание като сестринските; ai 65 < 80 → маркирано за човек; style-only, 0 факти/числа/линкове/RG пипнати). img:2 — infographic vtora-liga-piramida-promociq-izpadane.svg (числа 1:1 vs 05b) + decorative hero vtora-liga-piramida-hero.webp 8KB (без лога/хора/текст); image review 75→70→100 PASS, 0 integrity (SVG wording fix „слизат\" pass 1; hero регенериран pass 2 за adjacent-tier стрелки + акцент среден ред; PNG→ImageMagick→WebP, Pillow unavailable). ~676 думи, 0 em-dash (body), 0 [VERIFY]. 4 body internal links live + otgovorna-igra footer; 0 affiliate. Backlog row Втора лига → written. AHREFS LOW-UNIT (9846 < 20000, reset 2026-11-15): no paid discovery this fire; backlog open rows already enriched; research bank unchanged. Dashboard buffer 234/10. Feed refreshed. No flags resolved, nothing posted/merged/fabricated. Remaining open P0 backlog runway: 43 writable sports/club/league guides.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-11-03-vtora-liga-format",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 7,
-    "stage": "Images"
+    "stage_index": null,
+    "stage": null
   }
 }
