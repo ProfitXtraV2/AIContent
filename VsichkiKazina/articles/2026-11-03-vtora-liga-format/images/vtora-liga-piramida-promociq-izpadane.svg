@@ -38,7 +38,7 @@
   <text x="60" y="333" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a"><tspan font-weight="700">Промоция:</tspan> шампионът директно в Първа лига; следващите през бараж.</text>
 
   <circle cx="46" cy="356" r="6" fill="#b45309"/>
-  <text x="60" y="361" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a"><tspan font-weight="700">Изпадане:</tspan> най-слабо класиралите се в Трета лига, част от тях през бараж.</text>
+  <text x="60" y="361" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a"><tspan font-weight="700">Изпадане:</tspan> най-слабо класиралите се слизат в Трета лига, част от тях през бараж.</text>
 
   <!-- divider -->
   <line x1="40" y1="382" x2="720" y2="382" stroke="#e2e8f0" stroke-width="1.5"/>
