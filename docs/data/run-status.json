@@ -1,18 +1,16 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-11-02T07:28:42Z",
-  "run_finished_utc": "2026-11-02T08:05:00Z",
-  "articles_written": 1,
-  "prs_opened": [
-    347
-  ],
-  "run_url": "https://claude.ai/code/session_01AwuYFTbzyZvEz6QkLaVXJe",
-  "note": "daily run 2026-11-02 — throttled intake (MAX_PER_RUN=1). Reconcile clean on entry (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review NOT due (marker 2026-11 = current, ran 2026-11-01). WROTE 1 NEW guide vk-0322 Лига на конференциите — какво е и как работи (top open P0 backlog row, sports-guide batch, owner-approved), PR #347. Evergreen tournament-format guide (guides-only: 0 operator/НАП/affiliate; 0 current standings/results/draws/odds; 0 predictions). 3rd-tier sibling of Лига Европа (vk-0319), distinct, no overlap. Cluster лига на конференциите 11000/kd1 WIN (conference league + uefa лига на конференциите fold-in). Dedup vs queue (0) + live sitemap (155 URLs, no conference/europa/liga slug) = clean. Факти EN Wikipedia (UEFA Conference League + 2024/25 league phase) + BG Wikipedia/uefa.com: трето ниво; първи сезон 2021/22, първи носител Рома (Тирана 25.05.2022 1:0 Фейеноорд); име без Европа от 2024/25; лигова фаза 36 отбора/6 мача (3+3)/6 урни; топ-8→1/8-финал, 9–24→плейоф, 25–36 отпадат; победителят→Лига Европа БЕЗ Суперкупа; квоти coefficient-dependent (рамка+офиц. сайт); почетна листа Рома 2022/Уест Хям 2023/Олимпиакос 2024/Челси 2025/Кристъл Палас 2026, Англия 3 (текущ сезон 2026/27 НЕ печатан). Gate 95 PASS 0-crit. Gemini Step-7 = ai 75 (HL 15→25→25, keep-best pass 2, MAX_GEMINI_PASSES reached; детектор закотвен ~75% AI на плътно фактологично BG съдържание, под 80 → маркирано за човек). img:2 — infographic liga-na-konferenciite-format.svg (числа 1:1 vs 05b) + decorative hero webp 13.6KB (без лога/хора/текст); image review 100 PASS pass 1, 0 integrity (hero gen'd PNG→ImageMagick→WebP, Pillow unavailable). ~691 думи, 0 em-dash (body), 0 flags. Backlog row set written. ALSO fixed a pre-existing content-queue formatting bug (vk-0320||vk-0321 merged on one line → split). AHREFS LOW-UNIT (reset 2026-11-15): no paid daily discovery; research bank unchanged at 3 measurable candidates (Дартс, Видео покер онлайн, Реми); human backlog already enriched (44 open P0 writable sports-guide runway remains + 10 NV-Casino operator/НАП-blocked). Dashboard buffer 235. Feed refreshed (18 approved). No flags resolved, nothing posted/merged/fabricated.",
+  "state": "running",
+  "run_started_utc": "2026-11-03T07:14:51Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01AwuYFUs6rnqM6ZnGzgYJvp",
+  "note": "daily run 2026-11-03 — throttled intake (MAX_PER_RUN=1). Reconcile clean on entry (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review NOT due (marker 2026-11 = current). Selecting next topic.",
   "progress": {
-    "phase": "done",
-    "article_index": 1,
-    "article_total": 1,
-    "article_slug": "2026-11-02-liga-na-konferenciite",
+    "phase": "starting",
+    "article_index": null,
+    "article_total": null,
+    "article_slug": null,
     "stages": [
       "Synthesis",
       "Outline",
