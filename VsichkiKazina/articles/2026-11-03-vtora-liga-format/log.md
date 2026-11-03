@@ -12,3 +12,5 @@
 - 08 Images: infographic SVG (pyramid + promotion/relegation + format/records; numbers 1:1 vs 05b) + decorative hero WebP (8 KB). Image review: 75 → 70 → 100 PASS (SVG wording fix pass 1; hero regenerated pass 2 for adjacent-tier arrows + middle-tier focus). images: 2, best 100, 0 integrity.
 - 06 Verification: 0 surviving flags; historical facts sourced to EN Wikipedia; images 2 (100); gemini ai 65 recorded.
 - PR: one content-only PR for branch content/2026-11-03-vtora-liga-format.
+
+- nightly 2026-11-03 (quality fixer): applied check-3 style-only recs (removed meta-reassurance sentence, trimmed redundant Първа-лига padding, merged staccato history run); 0 fact/number/date/link/RG/byline/brand changes. Fresh re-sampling: pass-1 and humanised versions both anchor ai 75-80 (recorded ai 65 was a lucky-low sample) — detector noise on dense BG football-format prose. Kept humanised version (cleaner prose, same score band). gemini = ai 75; still <80 → human review. See 07-gemini-check-4.md.
