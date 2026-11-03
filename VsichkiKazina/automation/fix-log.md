@@ -3380,3 +3380,74 @@ Board `gemini` for vk-0322 stays `ai 75` (verdict unchanged); appended a `NIGHTL
 timestamp-only this night (no approved source changed on main). No posted/live content edited;
 nothing merged; no new article branches created; only the specific low-rated `content/*` branch
 (vk-0322) was touched; API key never printed.
+
+## 2026-11-03 — nightly flag + score fixes
+
+Run by the nightly article-quality fixer. Jobs: (A) resolve publish-blocking flags across all
+draft branches; (B) improve low Gemini-score drafted/approved articles. Posted/live content not
+touched; nothing merged; no new article branches created.
+
+### JOB A — publish-blocking flags
+Scanned every `refs/remotes/origin/content/*` branch (324 branches) — each one's
+`VsichkiKazina/articles/<folder>/05b-final-draft.md` — for the blocking markers
+(`[VERIFY…]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`, `[AUTHOR…]`, `[BRAND…]`,
+`[EDITORIAL]`, `[уточни…]`, `[провери…]`). **Result: ZERO blocking markers.** A broader
+`[…keyword…]` sweep returned only false positives — legitimate Bulgarian link-anchor text
+(e.g. `[как да провериш лиценза на казино](/blog/…)`) and image alt-text containing the ordinary
+verbs „провери/провериш", never placeholder flags. No flag-resolution commits needed
+(idempotent — all drafts already flag-free).
+
+### JOB B — low Gemini score
+Targets (status ∈ {drafted, approved} AND gemini `ai <n>` OR `human <n>` with n<80): **2 rows**,
+worst first. All other drafted/approved rows are `human` ≥80 (pass) or `skipped` (no verdict — not
+a low score, out of JOB B scope). ≤10/night cap not reached; nothing deferred.
+
+- **vk-0322 — `2026-11-02-liga-na-konferenciite` (PR #347), was `ai 75`.** Re-sampled with
+  `gemini_check.py` (gemini-3.1-pro-preview). 3 fresh reads: **human 80 / human 90 / ai 70** →
+  modal/dominant **HUMAN**; attempt-1 returned human 80 (PASS, ≥80), so per the accept rule the
+  loop stops with no edits. Draft was already the improved version from the 2026-11-02 run, so it
+  was **left untouched** (over-editing strips voice; detector noise re-confirmed — same text swung
+  human 90 ↔ ai 70). Flags resolved: n/a (none). Gemini before→after: `ai 75` → **`human 80`**
+  (honest fresh dominant read; board updated). Attempts: 1. **Outcome: pass** — no longer a
+  quality target; no branch commit (idempotent, content unchanged).
+
+- **vk-0323 — `2026-11-03-vtora-liga-format` (PR #348), was `ai 65`.** Applied the three
+  style-only Step-7 recommendations from `07-gemini-check-3.md` that fell beyond the pipeline's
+  2-pass cap and did NOT require deleting load-bearing facts: (1) removed the meta-reassurance
+  sentence „Това разделение между носител и администратор е обичайно…"; (2) trimmed the redundant
+  restatement „…и така излиза на най-високото клубно ниво в страната" (Първа лига already
+  established as top tier); (3) merged the staccato history run (2016-name / Берое-record /
+  Дунав-champion) into one flowing sentence. The remaining recs (delete the 3/1/0 points values;
+  delete the whole „няма пряк път към Европа" section) were NOT applied — load-bearing facts.
+  Zero facts / numbers / dates / links / RG line / 18+ / disclosures / byline (Георги Тодоров) /
+  brand (Всички Казина) changed (fact-anchor diff clean). Fair same-session head-to-head:
+  pass-1 (committed, recorded `ai 65`) fresh reads = ai 75 / ai 80 / ai 75 / human 90; humanised
+  version = ai 75 / ai 75 / ai 80 / ai 75 / ai 75 — **statistically indistinguishable**; the
+  recorded `ai 65` was a single lucky-low sample. Detector anchors ~75% AI on dense BG
+  football-format prose (same as siblings vk-0314 efbet, vk-0319 Лига Европа, vk-0322). Kept the
+  humanised version (cleaner prose, same score band); committed
+  `fix(quality): humanise 2026-11-03-vtora-liga-format` + `07-gemini-check-4.md` + log, pushed
+  (PR #348 updated). Gate stays 93/100, 0 criticals. Flags resolved: n/a (none). Gemini
+  before→after: `ai 65` → **`ai 75`** (honest modal fresh read). Attempts: 1 humaniser pass after
+  the pipeline's 2 (5-pass budget not exhausted — further passes would need to delete required
+  facts, and the detector is proven noise, so stopped). **Outcome: still-flagged** (`ai 75` < 80)
+  — kept best version, flagged for human (owns Step 6 / publishing).
+
+### POSTED — needs human review
+- **vk-0063 — `2026-09-13-nv-casino-zakonno-li-e` (PR #79), `ai 75`, status posted/live.** Carried
+  forward from prior runs — live content, never edited per policy. A human should decide whether
+  to re-humanise and re-publish off-line. (Only posted row scoring below the human-80 threshold.)
+
+### Deferred
+None. Both JOB B targets were processed in full; the ≤10/night cap was not reached. Standing
+backlog unrelated to this run's target definition: the `skipped` drafts (no Step-7 Gemini verdict
+yet) are owned by the autopilot's Step-7 stage once credits allow — they are not low scores and
+not JOB B targets.
+
+### Finish
+Board `gemini` updated for both processed rows (vk-0322 `ai 75`→`human 80`; vk-0323 `ai 65`→
+`ai 75`) with dated `NIGHTLY-FIX 2026-11-03` notes. `build_dashboard.py` (buffer 234/10) and
+`build_feed.py` (16 approved) re-run on main — board + timestamp changes only (no approved source
+changed on main). No posted/live content edited; nothing merged; no new article branches created;
+only the specific low-rated branch vk-0323 was touched (vk-0322 left untouched); GEMINI_API_KEY
+never printed.
