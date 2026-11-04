@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" width="640" height="430" role="img" aria-label="Илюстративно за Money Train 4: при обявен RTP 96.10% и €1 000 оборот средно €961 се връщат на играча, €39 остават за казиното; купуването на бонуса струва 100х или 500х залога; максималната печалба е 150 000х залога; залогът е от €0.10 до €6; числата са примерни">
+  <title>Money Train 4: RTP 96.10%, цена на бонуса и таван (илюстративно)</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#eef0f4"/>
+    </linearGradient>
+    <linearGradient id="playerBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <linearGradient id="houseBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#f87171"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="430" rx="14" ry="14" fill="url(#bg)"/>
+
+  <text x="320" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#0f766e" text-anchor="middle">Money Train 4: RTP, цена на бонуса и таван</text>
+  <text x="320" y="54" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">илюстративен пример при обявен RTP 96.10%; операторът може да пусне друга версия</text>
+
+  <text x="50" y="86" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151" font-weight="600">Връщане към играча (RTP)</text>
+  <text x="590" y="86" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151" font-weight="600" text-anchor="end">Домашно предимство</text>
+
+  <rect x="50" y="96" width="540" height="46" rx="8" fill="#e5e7eb"/>
+  <!-- Player bar 96.10% of 540 = 519px; house bar 21px; 519+21=540, flush -->
+  <rect x="50" y="96" width="519" height="46" rx="8" fill="url(#playerBar)"/>
+  <rect x="569" y="96" width="21" height="46" rx="4" fill="url(#houseBar)"/>
+
+  <text x="309" y="126" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">96.10%</text>
+
+  <line x1="50" y1="168" x2="590" y2="168" stroke="#d1d5db" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <text x="320" y="192" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6b7280" text-anchor="middle" font-style="italic">Пример: €1 000 оборот</text>
+
+  <rect x="50" y="205" width="250" height="84" rx="10" fill="#f0fdfa" stroke="#14b8a6" stroke-width="1.5"/>
+  <text x="175" y="235" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#0f766e" text-anchor="middle" font-weight="600">Обратно към играча</text>
+  <text x="175" y="265" font-family="system-ui, -apple-system, sans-serif" font-size="27" font-weight="800" fill="#0d9488" text-anchor="middle">~€961</text>
+  <text x="175" y="281" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#0f766e" text-anchor="middle">(средно, дългосрочно)</text>
+
+  <text x="320" y="255" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#9ca3af" text-anchor="middle">+</text>
+
+  <rect x="340" y="205" width="250" height="84" rx="10" fill="#fef2f2" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="465" y="235" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#b91c1c" text-anchor="middle" font-weight="600">За казиното</text>
+  <text x="465" y="265" font-family="system-ui, -apple-system, sans-serif" font-size="27" font-weight="800" fill="#dc2626" text-anchor="middle">~€39</text>
+  <text x="465" y="281" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#ef4444" text-anchor="middle">(при €1 000 оборот)</text>
+
+  <rect x="50" y="300" width="170" height="88" rx="10" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="135" y="323" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle" font-weight="600">Купуване на бонуса</text>
+  <text x="135" y="352" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#b45309" text-anchor="middle">100× / 500×</text>
+  <text x="135" y="373" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">залога (достъп до бонуса)</text>
+
+  <rect x="235" y="300" width="170" height="88" rx="10" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="320" y="323" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle" font-weight="600">Максимална печалба</text>
+  <text x="320" y="352" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#5b21b6" text-anchor="middle">150 000×</text>
+  <text x="320" y="373" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">залога (теоретичен връх)</text>
+
+  <rect x="420" y="300" width="170" height="88" rx="10" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="505" y="323" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle" font-weight="600">Залог на завъртане</text>
+  <text x="505" y="352" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#374151" text-anchor="middle">€0.10–€6</text>
+  <text x="505" y="373" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">волатилност 5/5</text>
+
+  <text x="320" y="414" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">18+ Играйте отговорно · числата са примерни · провери реалния RTP в инфо-панела на казиното</text>
+</svg>
