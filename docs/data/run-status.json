@@ -1,13 +1,15 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-11-04T07:15:20Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-11-04T07:45:48Z",
+  "articles_written": 1,
+  "prs_opened": [
+    349
+  ],
   "run_url": "https://claude.ai/code/session_01AwuYFSY649uiQzWz6p1ahQ",
-  "note": "daily run 2026-11-04 — throttled intake (MAX_PER_RUN=1). Reconcile clean (0 in-progress/HANDOFF/CLAIMED). SEO review not due. Writing vk-0324 Лига на нациите (top open P0 backlog row).",
+  "note": "daily run 2026-11-04 — throttled intake (MAX_PER_RUN=1). Reconcile clean on entry (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review NOT due (marker 2026-11 = current). WROTE 1 NEW guide vk-0324 Лига на нациите — формат и как влияе на квалификациите (top open P0 backlog row, sports-guide batch, owner-approved), PR #349. Evergreen турнирен гайд за УЕФА Лигата на нациите (guides-only: 0 operator/НАП/affiliate; 0 current standings/results/draws/odds; 0 predictions). Национален-отбор турнир, DISTINCT от клубните лиги-гайдове (Ефбет/Втора/Ла Лига/Бундеслига) и от профила на БГ нац. отбор (отделен open row). Cluster лига на нациите 4900/kd6 WIN. Dedup vs queue (0) + live sitemap (159 URLs, no nations/наци slug) = clean. Факти EN/BG Wikipedia (UEFA Nations League) + uefa.com: Астана 27.03.2014; първо издание 2018/19; 55 отбора в 4 дивизии A–D по сила; от 2020/21 A/B/C по 16, D със 7, групи по ~4 двукръгово; точки 3/1/0; промоция B/C/D нагоре, изпадане A/B надолу, от 2024/25 + баражи; финална фаза само Лига A (от 2024/25 двумачови ЧФ → полуфинали + 3-то + финал → шампион); връзка с квалификациите като МЕХАНИЗЪМ (Евро плейоф втора врата, финалът не дава място, Лига D без гарантиран път от Евро 2024; Световно плейоф подсилване, 2026 пример) — точните бройки НЕ печатани като вечни, препратка към официален регламент; шампиони Португалия 2019/Франция 2021/Испания 2023/Португалия 2025, Португалия единствен двукратен към 2026 г. Gate 94 PASS 0-crit. Gemini Step-7 keep-best = humaniser pass 2 (HL 35→20→30; initial re-sampled 15/35/80 = non-deterministic детектор noise, както при сестринските; запазена най-чистата проза + 2 реални BG корекции товарни→безцелни/нарязана→разделена; ai 70 < 80 → маркирано за човек; style-only, 0 факти/числа/линкове/RG пипнати). img:2 — infographic liga-na-naciite-format.svg (числа 1:1 vs 05b) Gemini review APPROVED/accurate 0 integrity (2 layout fix passes) + decorative hero liga-na-naciite-hero.webp 23KB празен стадион без хора/лога/флагове/текст, review 85 PASS 0 integrity (регенериран веднъж — първият hero показа силуети на публика = integrity fail; PNG→ImageMagick→WebP, Pillow unavailable). ~807 думи, 0 em-dash (body), 0 [VERIFY]. 4 body internal links + otgovorna-igra footer; 0 affiliate. Backlog row Лига на нациите → written. AHREFS LOW-UNIT (≈7762 remaining < 20000, reset 2026-11-15): no paid discovery this fire; backlog open rows already enriched (2026-10-28 sweep); research bank unchanged. Dashboard buffer 233/10. Feed refreshed. No flags resolved, nothing posted/merged/fabricated. PR #349 watched. Remaining open P0 backlog runway: 42 writable sports/club/player guides.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-11-04-liga-na-naciite",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 7,
-    "stage": "Images"
+    "stage_index": null,
+    "stage": null
   }
 }
