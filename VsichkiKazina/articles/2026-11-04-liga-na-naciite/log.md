@@ -7,8 +7,8 @@
 - 03 Humaniser: style-only; 0 em-dash, no signposting, varied shapes, no counting-in-prose, asymmetric ending; number-diff 02→03 IDENTICAL (0 drift).
 - 04 SEO: title/meta/H1/ALT keyword placement; 4 body + 1 footer internal links; number-diff 03→04 IDENTICAL.
 - 05 Brand Gate: 94/100 PASS, 0 critical. 0 [VERIFY]/[DATA NEEDED].
-- 07 Gemini Step-7: (recorded below after run)
-- 08 Images: (recorded below after run)
-- 06 Verification: (assembled after Steps 7-8)
+- 07 Gemini Step-7: 3 checks (HL 35 / 20 / 30); initial re-sampled 15/35/80 = non-deterministic detector noise. Keep-best = humaniser pass 2 (cleanest prose, same band). gemini = ai 70, marked for human review. 0 number-drift.
+- 08 Images: 2 shipped. SVG infographic APPROVED (numbers verbatim, 2 layout fix passes, 0 integrity). Hero regenerated once (first showed crowd = integrity fail) → empty-stadium hero 85 PASS, 0 integrity, 23 KB WebP. ALT fixed.
+- 06 Verification: 0 flags; 48+7=55 recalc consistent; sources Wikipedia/UEFA; compliance PASS.
 
 Sources (reachable): en.wikipedia.org/wiki/UEFA_Nations_League; bg.wikipedia.org/wiki/Лига_на_нациите_на_УЕФА; uefa.com (official regulation for live place allocation).
