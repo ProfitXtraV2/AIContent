@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 600" role="img" aria-label="Инфографика за формата на Лигата на нациите: първо издание 2018/19, 55 национални отбора, 4 дивизии A, B, C, D, Лиги A, B и C по 16 отбора и Лига D със 7 от издание 2020/21, точкуване 3-1-0, финална фаза с 4 отбора, шампиони Португалия 2 пъти, Франция и Испания">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef2fb"/>
+      <stop offset="1" stop-color="#e2e8f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="840" height="600" fill="url(#bg)"/>
+  <rect x="16" y="16" width="808" height="568" rx="18" fill="#ffffff" stroke="#c7d2e8" stroke-width="2"/>
+
+  <text x="40" y="58" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#14233b">Лига на нациите — формат и ключови числа</text>
+  <text x="40" y="84" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#5a6b86">УЕФА, турнир между национални отбори</text>
+
+  <!-- Pyramid of divisions -->
+  <text x="40" y="120" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#14233b">Дивизии (от издание 2020/21)</text>
+
+  <!-- Лига A -->
+  <rect x="140" y="134" width="260" height="52" rx="8" fill="#1d4ed8"/>
+  <text x="270" y="166" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#ffffff">Лига A · 16 отбора · най-силна</text>
+  <!-- Лига B -->
+  <rect x="120" y="194" width="300" height="52" rx="8" fill="#2563eb"/>
+  <text x="270" y="226" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#ffffff">Лига B · 16 отбора</text>
+  <!-- Лига C -->
+  <rect x="100" y="254" width="340" height="52" rx="8" fill="#3b82f6"/>
+  <text x="270" y="286" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#ffffff">Лига C · 16 отбора</text>
+  <!-- Лига D -->
+  <rect x="80" y="314" width="380" height="52" rx="8" fill="#60a5fa"/>
+  <text x="270" y="346" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0b1b36">Лига D · 7 отбора</text>
+
+  <!-- promotion / relegation arrow glyphs (words are in the caption below) -->
+  <text x="486" y="172" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#166534">▲</text>
+  <text x="486" y="348" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#9a1414">▼</text>
+
+  <!-- Key numbers panel -->
+  <rect x="560" y="120" width="240" height="250" rx="12" fill="#f1f5fd" stroke="#c7d2e8" stroke-width="1.5"/>
+  <text x="580" y="150" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#14233b">Ключови числа</text>
+  <text x="580" y="184" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#30425f">Първо издание: 2018/19</text>
+  <text x="580" y="214" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#30425f">Отбори: 55 национални</text>
+  <text x="580" y="244" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#30425f">Дивизии: 4 (A · B · C · D)</text>
+  <text x="580" y="274" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#30425f">Точки: 3 / 1 / 0</text>
+  <text x="580" y="304" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#30425f">Финална фаза: 4 отбора</text>
+  <text x="580" y="340" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5a6b86">(полуфинали, 3-то място, финал)</text>
+
+  <!-- Champions strip -->
+  <rect x="40" y="400" width="760" height="86" rx="12" fill="#0f2747"/>
+  <text x="60" y="432" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#ffffff">Шампиони (завършени издания, към 2026 г.)</text>
+  <text x="60" y="466" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#dbe6fb">Португалия 2019 · Франция 2021 · Испания 2023 · Португалия 2025</text>
+
+  <text x="40" y="524" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#5a6b86">▲ промоция: груповите победители в лиги B, C и D се изкачват. ▼ изпадане: най-слабите в A и B.</text>
+  <text x="40" y="548" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#5a6b86">Финална фаза само за Лига A. Португалия е единственият двукратен победител.</text>
+  <text x="40" y="572" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#8a98b0">Всички стойности следват текста на статията. Не е класиране на живо.</text>
+</svg>
