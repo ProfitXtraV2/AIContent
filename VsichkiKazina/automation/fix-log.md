@@ -3451,3 +3451,56 @@ Board `gemini` updated for both processed rows (vk-0322 `ai 75`→`human 80`; vk
 changed on main). No posted/live content edited; nothing merged; no new article branches created;
 only the specific low-rated branch vk-0323 was touched (vk-0322 left untouched); GEMINI_API_KEY
 never printed.
+
+## 2026-11-04 — nightly flag + score fixes
+
+### JOB A — publish-blocking flags
+Scanned all 305 `refs/remotes/origin/content/*` branches' `05b-final-draft.md` for the full
+blocking-marker set (`[VERIFY]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`, `[AUTHOR …]`,
+`[BRAND …]`, `[EDITORIAL]`, `[уточни …]`, `[провери …]`, plus a broader TODO/FIXME/Cyrillic
+sweep). **Zero blocking flags found on any branch** — nothing to resolve. No branch touched.
+
+### JOB B — low Gemini score
+Two targets (status drafted/approved, verdict `ai`/`human`<80): vk-0324 (`ai 70`, worst) and
+vk-0323 (`ai 75`). Both processed; ≤10/night cap not reached.
+
+- **vk-0324 — `2026-11-04-liga-na-naciite` (PR #349), was `ai 70`.** Baseline Step-7 re-check
+  tonight came back **Likely human-written, 90% confidence**, confirmed on two more samples
+  (90 / 90 / 85 — all ≥80). The file is unchanged since commit `e0659b5a`, so the prior `ai 70`
+  was pure detector non-determinism (the kept version's own history already recorded identical
+  input sampling HL 15→35→80). Per the "already human ≥80 → stop" rule and the idempotency rule
+  (flag-free, already-human draft left untouched), **no edit made**. Flags resolved: n/a (none).
+  Gemini before→after: `ai 70` → **`human 90`** (tonight's stable modal, range 85-90). Attempts:
+  0 humaniser passes (passed on baseline re-check). **Outcome: success** (now ≥80, publish-ready).
+
+- **vk-0323 — `2026-11-03-vtora-liga-format` (PR #348), was `ai 75`.** Baseline Step-7 re-check
+  tonight = **Shows AI patterns, 80% confidence** (HL 20) — genuinely below target. Applied the
+  four concrete Step-7b recommendations via humaniser technique, style-only: (1) removed the
+  encyclopedic full-sentence over-explaining of the 3/1/0 point system (kept the 3/1/0 values in a
+  compressed "Точкуването е стандартното, 3 за победа, 1 за равен и 0 за загуба" so the infographic
+  stays text-consistent); (2) cut the meta-signposting openers „Движението … следва един и същ
+  прост принцип." and „Дотук всичко е постоянно."; (3) removed the hollow filler intro sentence
+  „Когато някой види името … това е нивото, за което става дума." and the „проста и постоянна"
+  self-narration; (4) converted the formulaic „Четири неща …" numbered-list setup + its 4-item
+  bullet list into flowing prose. Every number/date/name (1950, 2016, Берое 9, Дунав, 2025/26,
+  3/1/0, 14/16/17/18/20), all internal links, RG lines, 18+, disclosures, byline Георги Тодоров
+  and brand Всички Казина preserved exactly; 0 em-dashes, 0 blocking flags (verified). Gemini
+  re-check: **human 85**, confirmed on a second sample (human 85 — stable). Committed
+  `fix(quality): humanise 2026-11-03-vtora-liga-format (gemini ai 75->human 85)` and pushed
+  (PR #348 updated). Flags resolved: n/a (none). Gemini before→after: `ai 75` → **`human 85`**.
+  Attempts: 1 humaniser pass. **Outcome: success** (now ≥80, publish-ready).
+
+### POSTED — needs human review
+- **vk-0063 — `2026-09-13-nv-casino-zakonno-li-e` (PR #79), `ai 75`, status posted/live.** Carried
+  forward — live content, never edited per policy. A human should decide whether to re-humanise
+  and re-publish off-line. (Still the only posted row scoring below the human-80 threshold.)
+
+### Deferred
+None. Both JOB B targets were processed in full; the ≤10/night cap was not reached.
+
+### Finish
+Board `gemini` updated for both processed rows (vk-0323 `ai 75`→`human 85`; vk-0324 `ai 70`→
+`human 90`). `build_dashboard.py` (buffer 233/10) and `build_feed.py` (14 approved) re-run on main
+— board + timestamp changes only (no approved source changed on main). No posted/live content
+edited; nothing merged; no new article branches created; only the specific low-rated branch
+vk-0323 was touched (vk-0324 left untouched, already human); GEMINI_API_KEY never printed.
