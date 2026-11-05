@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" role="img" aria-label="Инфографика за Bac Bo на Evolution. Зарова версия на бакара: два зара за Player и два за Banker, по-високата сума печели, равните суми са Tie. Изплащания: Player 1 към 1, Banker 1 към 1 без комисиона, Tie от 4 към 1 до 88 към 1 според числото. Таблица за Tie: 2 или 12 плаща 88 към 1, 3 или 11 плаща 25 към 1, 4 или 10 плаща 10 към 1, 5 или 9 плаща 6 към 1, 6, 7 или 8 плаща 4 към 1. RTP на Player и Banker около 98,87 процента, домашно предимство около 1,13 процента. Tie залогът е с домашно предимство около 4,48 процента, тоест около четири пъти по-скъп. Числата са примерни и зависят от версията и масата.">
+  <rect x="8" y="8" width="704" height="454" rx="18" fill="#0f172a"/>
+
+  <text x="32" y="42" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#f8fafc">Bac Bo: залози, изплащания и RTP</text>
+  <text x="32" y="64" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Зарова бакара на Evolution. По-високата сума от два зара печели; равните суми са Tie.</text>
+
+  <text x="32" y="98" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Основните залози</text>
+
+  <g stroke="#1e293b" stroke-width="1">
+    <line x1="32" y1="112" x2="688" y2="112"/>
+    <line x1="32" y1="140" x2="688" y2="140"/>
+    <line x1="32" y1="168" x2="688" y2="168"/>
+  </g>
+
+  <text x="48" y="132" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Player (по-висока сума) · RTP ≈ 98,87%</text>
+  <text x="688" y="132" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#4ade80" text-anchor="end">1:1</text>
+
+  <text x="48" y="160" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Banker (по-висока сума) · без комисиона</text>
+  <text x="688" y="160" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#4ade80" text-anchor="end">1:1</text>
+
+  <text x="32" y="196" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Tie (равни суми) — според числото</text>
+
+  <g stroke="#1e293b" stroke-width="1">
+    <line x1="32" y1="210" x2="688" y2="210"/>
+    <line x1="32" y1="238" x2="688" y2="238"/>
+    <line x1="32" y1="266" x2="688" y2="266"/>
+    <line x1="32" y1="294" x2="688" y2="294"/>
+    <line x1="32" y1="322" x2="688" y2="322"/>
+  </g>
+
+  <text x="48" y="230" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Равни 2 или 12 (най-редки)</text>
+  <text x="688" y="230" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fbbf24" text-anchor="end">88:1</text>
+
+  <text x="48" y="258" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Равни 3 или 11</text>
+  <text x="688" y="258" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">25:1</text>
+
+  <text x="48" y="286" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Равни 4 или 10</text>
+  <text x="688" y="286" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">10:1</text>
+
+  <text x="48" y="314" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Равни 5 или 9</text>
+  <text x="688" y="314" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">6:1</text>
+
+  <text x="48" y="342" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Равни 6, 7 или 8 (най-чести)</text>
+  <text x="688" y="342" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">4:1</text>
+
+  <text x="32" y="374" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Кое е по-изгодно</text>
+  <text x="32" y="396" font-family="Arial, sans-serif" font-size="12.5" fill="#cbd5e1">Player / Banker: домашно предимство ≈ 1,13%.</text>
+  <text x="32" y="416" font-family="Arial, sans-serif" font-size="12.5" fill="#fbbf24">Tie: домашно предимство ≈ 4,48% — около 4 пъти по-скъп въпреки 88:1.</text>
+
+  <rect x="32" y="432" width="656" height="24" rx="6" fill="#111f38"/>
+  <text x="44" y="448" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Примерни стойности; зависят от версията и масата. 18+ Играйте отговорно.</text>
+</svg>
