@@ -1,13 +1,15 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-11-05T07:15:00Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-11-05T07:46:34Z",
+  "articles_written": 1,
+  "prs_opened": [
+    350
+  ],
   "run_url": "https://claude.ai/code/session_01AwuYFT71xZy3f4iLZ8zdVF",
-  "note": "daily run 2026-11-05 — writing vk-0325 Купа на България (top open P0 backlog row, 4600/kd5). Reconcile clean; SEO review not due (2026-11).",
+  "note": "daily run 2026-11-05 — throttled intake (MAX_PER_RUN=1). Reconcile clean on entry (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review NOT due (marker 2026-11 = current). WROTE 1 NEW guide vk-0325 Купа на България — формат, история и рекорди (top open P0 backlog row, sports-guide batch, owner-approved), PR #350. Evergreen национална нокаут купа (guides-only: 0 operator/НАП/affiliate; 0 current standings/results/fixtures/odds/draws; 0 predictions; 0 2026-final scoreline). DISTINCT от лигите (Ефбет/Втора/Ла Лига/Бундеслига) и от клубните профили — националната елиминационна купа, различно интент. Cluster купа на българия 4600/kd5 WIN. Dedup vs queue (0) + live sitemap (161 URLs, no kupa/купа slug) = clean. Факти BG/EN Wikipedia (Купа на България / Bulgarian Cup): под БФС; старт сезон 1980/81, официален статут от 1982/83; име до 1990 „Купа на НР България"; предшественици Царска купа + Купа на Съветската армия (отделни турнири); формат = директни елиминации, 1 мач/кръг, полуфинали в 2 срещи, финал 1 мач, домакин по-нископоставеният (жребий при равни), продължения+дузпи; участват всички нива; европейска врата принципно (КНК до 1998/99 → Купа на УЕФА/Лига Европа от 2009/10 → Лига на конференциите от 2021; шампион-носител → мястото при следващия; зависи от коеф. на България в УЕФА); ЦСКА единствен носител извън елита 2016. РЕКОРДИ [VERIFY]×2: Левски рекордьор/ЦСКА втори — точните бройки се разминават между източниците (BG 27/22 vs EN 26/21–22; спорни/анулирани издания, анулиран финал 1985) → стампнати „към есента на 2026 г.", routed to human; headline ordering безспорен; инфографиката НЕ печата спорните числа. Gate 94 PASS 0-crit. Gemini Step-7 keep-best = humaniser pass 2 (HL 15→25→90 Likely human-written 90% = PASS; style-only 0 факти/числа/линкове/RG + 1 grammar-agreement fix). img:2 — infographic kupa-na-balgariya-format.svg (числа 1:1 vs 05b: 1/2/1 мача, 1980/81, 1982/83, 1990, 2021) Gemini review 65→75→100 PASS 0 integrity (2 layout fix passes) + decorative hero kupa-na-balgariya-trofej-hero.webp 8.2KB плосък трофей тъмен фон/златисто сияние без лога/хора/текст, review 100 PASS 0 integrity (PNG→ImageMagick→WebP, Pillow unavailable). ~751 думи, 0 em-dash (body). 4 body internal links live + otgovorna-igra footer; 0 affiliate (0 оператори). Backlog row Купа на България → written. AHREFS LOW-UNIT (reset 2026-11-15): no paid discovery this fire; backlog row already enriched 4600/kd5 (2026-10-28 sweep); research bank unchanged. Dashboard buffer rebuilt. Feed refreshed. No flags resolved, nothing posted/merged/fabricated. PR #350 watched (Claude GitHub App not installed on repo → no PR events; human owns approval/publishing). Remaining open P0 backlog runway: sports/club/player guides (Уимбълдън, НБА, Биатлон, Премиер лига, Вечното дерби, ЦСКА 1948, Берое, Спартак Варна, нац. отбор и др.).",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-11-05-kupa-na-balgariya",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "stage_index": null,
+    "stage": null
   }
 }
