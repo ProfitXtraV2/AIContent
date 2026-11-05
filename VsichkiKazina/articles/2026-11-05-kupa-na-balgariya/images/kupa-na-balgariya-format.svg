@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 600" role="img" aria-label="Инфографика: формат, история и европейско място на Купата на България към есента на 2026 г.">
+  <defs>
+    <style>
+      .bg{fill:#f6f4ef;}
+      .card{fill:#ffffff;stroke:#e2ddd3;stroke-width:1;}
+      .title{fill:#1b1b2a;font-family:'Segoe UI',Arial,sans-serif;font-size:25px;font-weight:700;}
+      .sub{fill:#6b6257;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+      .colh{fill:#107a3d;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;}
+      .big{fill:#1b1b2a;font-family:'Segoe UI',Arial,sans-serif;font-size:24px;font-weight:800;}
+      .lbl{fill:#2a2a38;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;}
+      .foot{fill:#6b6257;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="820" height="600"/>
+  <rect class="card" x="8" y="8" width="804" height="584" rx="14"/>
+
+  <text class="title" x="410" y="50" text-anchor="middle">Купата на България накратко</text>
+  <text class="sub" x="410" y="72" text-anchor="middle">формат и история, към есента на 2026 г.</text>
+  <line x1="40" y1="92" x2="780" y2="92" stroke="#e2ddd3" stroke-width="1"/>
+
+  <!-- Left column: format -->
+  <text class="colh" x="40" y="124">Форматът</text>
+
+  <text class="lbl" x="40"  y="166">Директни елиминации — губещият отпада.</text>
+
+  <text class="big" x="78"  y="214" text-anchor="middle">1</text>
+  <text class="lbl" x="150" y="214">мач на кръг</text>
+
+  <text class="big" x="78"  y="262" text-anchor="middle">2</text>
+  <text class="lbl" x="150" y="262">срещи в полуфиналите</text>
+
+  <text class="big" x="78"  y="310" text-anchor="middle">1</text>
+  <text class="lbl" x="150" y="310">мач на финала</text>
+
+  <text class="lbl" x="40"  y="356">При равенство: продължения,</text>
+  <text class="lbl" x="40"  y="376">при нужда дузпи.</text>
+
+  <!-- Divider -->
+  <line x1="400" y1="108" x2="400" y2="470" stroke="#e2ddd3" stroke-width="1"/>
+
+  <!-- Right column: history + Europe -->
+  <text class="colh" x="430" y="124">История и Европа</text>
+
+  <text class="big" x="476" y="170" text-anchor="middle">1980/81</text>
+  <text class="lbl" x="556" y="170">първо издание</text>
+
+  <text class="big" x="476" y="222" text-anchor="middle">1982/83</text>
+  <text class="lbl" x="556" y="222">официален статут</text>
+
+  <text class="big" x="476" y="274" text-anchor="middle">1990</text>
+  <text class="lbl" x="556" y="274">край на името „Купа на НР България“</text>
+
+  <text class="big" x="476" y="326" text-anchor="middle">2021</text>
+  <text class="lbl" x="556" y="326">носителят влиза в Лигата на конференциите</text>
+
+  <line x1="400" y1="470" x2="780" y2="470" stroke="#e2ddd3" stroke-width="1"/>
+  <line x1="40" y1="470" x2="400" y2="470" stroke="#e2ddd3" stroke-width="1"/>
+
+  <text class="foot" x="40" y="504">Национална елиминационна купа под егидата на БФС.</text>
+  <text class="foot" x="40" y="528">Всички числа следват текста на статията.</text>
+</svg>
