@@ -6,7 +6,7 @@
       .title{fill:#1b1b2a;font-family:'Segoe UI',Arial,sans-serif;font-size:25px;font-weight:700;}
       .sub{fill:#6b6257;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
       .colh{fill:#107a3d;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;}
-      .big{fill:#1b1b2a;font-family:'Segoe UI',Arial,sans-serif;font-size:23px;font-weight:800;}
+      .big{fill:#1b1b2a;font-family:'Segoe UI',Arial,sans-serif;font-size:22px;font-weight:800;}
       .lbl{fill:#2a2a38;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;}
       .foot{fill:#6b6257;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
     </style>
@@ -42,19 +42,19 @@
   <!-- Right column: history + Europe -->
   <text class="colh" x="430" y="124">История и Европа</text>
 
-  <text class="big" x="448" y="170" text-anchor="middle">1980/81</text>
-  <text class="lbl" x="500" y="170">първо издание</text>
+  <text class="big" x="462" y="170" text-anchor="middle">1980/81</text>
+  <text class="lbl" x="532" y="170">първо издание</text>
 
-  <text class="big" x="448" y="216" text-anchor="middle">1982/83</text>
-  <text class="lbl" x="500" y="216">официален статут</text>
+  <text class="big" x="462" y="216" text-anchor="middle">1982/83</text>
+  <text class="lbl" x="532" y="216">официален статут</text>
 
-  <text class="big" x="448" y="276" text-anchor="middle">1990</text>
-  <text class="lbl" x="500" y="268">край на името</text>
-  <text class="lbl" x="500" y="288">„Купа на НР България“</text>
+  <text class="big" x="462" y="276" text-anchor="middle">1990</text>
+  <text class="lbl" x="532" y="268">край на името</text>
+  <text class="lbl" x="532" y="288">„Купа на НР България“</text>
 
-  <text class="big" x="448" y="344" text-anchor="middle">2021</text>
-  <text class="lbl" x="500" y="336">носителят влиза в</text>
-  <text class="lbl" x="500" y="356">Лигата на конференциите</text>
+  <text class="big" x="462" y="344" text-anchor="middle">2021</text>
+  <text class="lbl" x="532" y="336">носителят влиза в</text>
+  <text class="lbl" x="532" y="356">Лигата на конференциите</text>
 
   <line x1="400" y1="470" x2="780" y2="470" stroke="#e2ddd3" stroke-width="1"/>
   <line x1="40" y1="470" x2="400" y2="470" stroke="#e2ddd3" stroke-width="1"/>
