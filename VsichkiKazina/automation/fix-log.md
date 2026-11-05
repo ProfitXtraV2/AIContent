@@ -8,6 +8,74 @@ Facts, numbers, licence/RTP/tax figures, dates, byline (Георги Тодор�
 
 ---
 
+## 2026-11-05 (nightly run — flags + score)
+
+### JOB A — publish-blocking flags
+- **2026-11-05-kupa-na-balgariya** (vk-0325, PR #350) — 2 `[VERIFY]` markers on the
+  contested all-time Bulgarian Cup win counts (`[VERIFY: 27]` Левски, `[VERIFY: 22]`
+  ЦСКА). Sources genuinely disagree on the totals depending on which early/disputed
+  editions count (e.g. the annulled 1985 final), and the draft's own sentence already
+  said so. Resolved by rephrasing: dropped the specific disputed figures and kept the
+  qualitative ranking already stated in the preceding sentence (Левски record holder,
+  ЦСКА second). **No number invented.** Re-scan: **0 blocking markers.** Facts, links,
+  18+/RG line, byline Георги Тодоров, brand Всички Казина intact. Commit
+  `fix(flags): resolve 2026-11-05-kupa-na-balgariya — publish-ready`, pushed.
+- All other `content/*` branches scanned (300+): **0 flagged** — only this one carried
+  markers.
+
+### JOB B — low Gemini score
+No board row met the target definition (status drafted/approved AND gemini `ai <n>` or
+`human <n>` with n<80): every standard-scored drafted/approved row is already `human ≥80`.
+However, while verifying the JOB A fix, a **fresh Step-7 re-check of vk-0325** (board
+`human 90`, status drafted) returned an **`ai` verdict** (ai 85, then ai 75), so it was
+treated as a discovered JOB B target and humanised.
+- **vk-0325** (2026-11-05-kupa-na-balgariya, PR #350) — board `human 90`.
+  - Attempt 1 (baseline re-read): **ai 85.** Flagged a genuine correctness risk —
+    „купен мач" reads as a *fixed/bought* match in BG football slang (dangerous in a
+    betting-adjacent piece) — plus translated-metaphor „врата", the „Силата на купата
+    е, че…"/„купата иска друго" tropes, and a didactic intro signpost.
+  - Humaniser pass 1 (rephrasing only, 0 fact changes): „купен мач"→„мач за купата";
+    „врата"→plain terms („през годините това се е променяло" / „точният турнир");
+    dropped „Силата на купата е, че" and „купата иска друго"; reworked the intro→H2
+    signpost; removed the em-dash introduced by the JOB A edit. **Re-read: ai 75.**
+  - Humaniser pass 2: applied Step-7b recs that don't touch protected content —
+    deleted the intro→H2 thematic echo (last 2 sentences of „Какво е Купата"), cut the
+    „Купата събира… целия български футбол" sweeping opener, trimmed the
+    meta-commentary self-justification around the disputed counts (kept the factual
+    1985 caveat, still no numbers). **Re-reads: human 75, then human 85 ×2.**
+  - Rejected Gemini recs that conflict with policy: keeping the infographic caption
+    „Всички стойности следват текста на статията." (a deliberate house convention used
+    across La Liga / Barcelona / Real Madrid / Chelsea / F1 etc., not a stray artifact)
+    and the mandated RG/betting wrap-up („philosophical wrap-up").
+  - Gemini before→after: `human 90` (board) → re-reads `ai 85 / ai 75 / human 75 / human
+    85 / human 85`; **keep best/stable = human 85** (high-variance, as is typical for
+    this content type). Attempts: 2 humaniser passes. **Outcome: success** — publish-ready,
+    0 blocking flags, a real clarity bug fixed. Commit
+    `fix(quality): humanise 2026-11-05-kupa-na-balgariya (gemini ai 85->human 85)`, pushed.
+
+### POSTED — needs human review
+- **vk-0063 — `2026-09-13-nv-casino-zakonno-li-e` (PR #79), `ai 75`, status posted/live.**
+  Carried forward — live content, never edited per policy. A human should decide whether
+  to re-humanise and re-publish off-line. (Still the only posted row scoring below the
+  human-80 threshold.)
+
+### Deferred
+None. JOB B had 0 board-defined targets (all drafted/approved standard-scored rows already
+human ≥80); the one article processed was a flag fix that a fresh re-check also qualified
+for humanising. The ≤10/night cap was not reached. The 68 `skipped`-verdict drafted rows
+are out of JOB B scope by definition (a `skipped` verdict is neither `ai <n>` nor
+`human <n>`); they are unscored, not low-scored, and were left untouched.
+
+### Finish
+Board `gemini` updated for the processed row (vk-0325 `human 90`→`human 85`, with a dated
+nightly note). `build_dashboard.py` (buffer 232/10) and `build_feed.py` (12 approved) re-run
+on main — board + dashboard/feed data only; no approved source changed on main. No
+posted/live content edited; nothing merged; no new article branches created; only the single
+flagged/low-rated branch content/2026-11-05-kupa-na-balgariya was touched; GEMINI_API_KEY
+never printed.
+
+---
+
 ## 2026-10-17 (nightly run — flags + score)
 
 ### JOB A — publish-blocking flags
