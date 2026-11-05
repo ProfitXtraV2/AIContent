@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 14,
+  "count": 12,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -73,13 +73,6 @@
       "status": "approved"
     },
     {
-      "slug": "proverka-na-fish",
-      "title": "Проверка на фиш Тото: онлайн и на гише | Всички Казина",
-      "date_modified": "2026-10-27",
-      "content_hash": "57cbf19668279c4524050ed2e8e35351a971e730d846e85ddf361e94fbc3558d",
-      "status": "approved"
-    },
-    {
       "slug": "ludogorec-istoriya-titli",
       "title": "Лудогорец: история, титли и Хювефарма Арена | Всички Казина",
       "date_modified": "2026-10-28",
@@ -92,14 +85,7 @@
       "date_modified": "2026-10-28",
       "content_hash": "3092f1636c64d4ddc2a7400d6393aa22035c1678ddbe9dc7dddc1ce88047ec7a",
       "status": "approved"
-    },
-    {
-      "slug": "barcelona-istoriya-trofei",
-      "title": "Барселона: история, трофеи, стадион и легенди | Всички Казина",
-      "date_modified": "2026-10-28",
-      "content_hash": "648e69abc5244992ebeff462dd9cd41772a861096d4e9c3ebaaf3ad8631f8c27",
-      "status": "approved"
     }
   ],
-  "generated_utc": "2026-11-04T23:12:15Z"
+  "generated_utc": "2026-11-05T06:44:11Z"
 }
