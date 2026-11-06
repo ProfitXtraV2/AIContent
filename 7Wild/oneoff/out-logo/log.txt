@@ -1,132 +1,30 @@
 == wordmark-black-a
 model=gemini-3-pro-image imageConfig=True
-WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
-Traceback (most recent call last):
-  File "/home/user/AIContent/7Wild/oneoff/gen_from_ref.py", line 49, in main
-    from PIL import Image
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 84, in <module>
-    from . import _imaging as core
-ImportError: cannot import name '_imaging' from 'PIL' (/usr/lib/python3/dist-packages/PIL/__init__.py)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/user/AIContent/7Wild/oneoff/gen_from_ref.py", line 65, in <module>
-    sys.exit(main())
-             ^^^^^^
-  File "/home/user/AIContent/7Wild/oneoff/gen_from_ref.py", line 53, in main
-    from PIL import Image
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 84, in <module>
-    from . import _imaging as core
-ImportError: cannot import name '_imaging' from 'PIL' (/usr/lib/python3/dist-packages/PIL/__init__.py)
-exit=1
+7Wild/oneoff/out-logo/wordmark-black-a.png 214 KB (raw)
+WARN: webp conversion skipped (cannot import name '_imaging' from 'PIL' (/usr/lib/python3/dist-packages/PIL/__init__.py)); raw PNG kept
+exit=0
 == wordmark-black-b
 model=gemini-3-pro-image imageConfig=True
-WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
-Traceback (most recent call last):
-  File "/home/user/AIContent/7Wild/oneoff/gen_from_ref.py", line 49, in main
-    from PIL import Image
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 84, in <module>
-    from . import _imaging as core
-ImportError: cannot import name '_imaging' from 'PIL' (/usr/lib/python3/dist-packages/PIL/__init__.py)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/user/AIContent/7Wild/oneoff/gen_from_ref.py", line 65, in <module>
-    sys.exit(main())
-             ^^^^^^
-  File "/home/user/AIContent/7Wild/oneoff/gen_from_ref.py", line 53, in main
-    from PIL import Image
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 84, in <module>
-    from . import _imaging as core
-ImportError: cannot import name '_imaging' from 'PIL' (/usr/lib/python3/dist-packages/PIL/__init__.py)
-exit=1
+7Wild/oneoff/out-logo/wordmark-black-b.png 221 KB (raw)
+WARN: webp conversion skipped (cannot import name '_imaging' from 'PIL' (/usr/lib/python3/dist-packages/PIL/__init__.py)); raw PNG kept
+exit=0
 == wordmark-cream
 model=gemini-3-pro-image imageConfig=True
-WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
-Traceback (most recent call last):
-  File "/home/user/AIContent/7Wild/oneoff/gen_from_ref.py", line 49, in main
-    from PIL import Image
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 84, in <module>
-    from . import _imaging as core
-ImportError: cannot import name '_imaging' from 'PIL' (/usr/lib/python3/dist-packages/PIL/__init__.py)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/user/AIContent/7Wild/oneoff/gen_from_ref.py", line 65, in <module>
-    sys.exit(main())
-             ^^^^^^
-  File "/home/user/AIContent/7Wild/oneoff/gen_from_ref.py", line 53, in main
-    from PIL import Image
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 84, in <module>
-    from . import _imaging as core
-ImportError: cannot import name '_imaging' from 'PIL' (/usr/lib/python3/dist-packages/PIL/__init__.py)
-exit=1
+7Wild/oneoff/out-logo/wordmark-cream.png 221 KB (raw)
+WARN: webp conversion skipped (cannot import name '_imaging' from 'PIL' (/usr/lib/python3/dist-packages/PIL/__init__.py)); raw PNG kept
+exit=0
 == wordmark-on-orange
 model=gemini-3-pro-image imageConfig=True
-WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
-Traceback (most recent call last):
-  File "/home/user/AIContent/7Wild/oneoff/gen_from_ref.py", line 49, in main
-    from PIL import Image
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 84, in <module>
-    from . import _imaging as core
-ImportError: cannot import name '_imaging' from 'PIL' (/usr/lib/python3/dist-packages/PIL/__init__.py)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/user/AIContent/7Wild/oneoff/gen_from_ref.py", line 65, in <module>
-    sys.exit(main())
-             ^^^^^^
-  File "/home/user/AIContent/7Wild/oneoff/gen_from_ref.py", line 53, in main
-    from PIL import Image
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 84, in <module>
-    from . import _imaging as core
-ImportError: cannot import name '_imaging' from 'PIL' (/usr/lib/python3/dist-packages/PIL/__init__.py)
-exit=1
+7Wild/oneoff/out-logo/wordmark-on-orange.png 273 KB (raw)
+WARN: webp conversion skipped (cannot import name '_imaging' from 'PIL' (/usr/lib/python3/dist-packages/PIL/__init__.py)); raw PNG kept
+exit=0
 == icon-7
 model=gemini-3-pro-image imageConfig=True
-WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
-Traceback (most recent call last):
-  File "/home/user/AIContent/7Wild/oneoff/gen_from_ref.py", line 49, in main
-    from PIL import Image
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 84, in <module>
-    from . import _imaging as core
-ImportError: cannot import name '_imaging' from 'PIL' (/usr/lib/python3/dist-packages/PIL/__init__.py)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/user/AIContent/7Wild/oneoff/gen_from_ref.py", line 65, in <module>
-    sys.exit(main())
-             ^^^^^^
-  File "/home/user/AIContent/7Wild/oneoff/gen_from_ref.py", line 53, in main
-    from PIL import Image
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 84, in <module>
-    from . import _imaging as core
-ImportError: cannot import name '_imaging' from 'PIL' (/usr/lib/python3/dist-packages/PIL/__init__.py)
-exit=1
+7Wild/oneoff/out-logo/icon-7.png 254 KB (raw)
+WARN: webp conversion skipped (cannot import name '_imaging' from 'PIL' (/usr/lib/python3/dist-packages/PIL/__init__.py)); raw PNG kept
+exit=0
 == stacked
 model=gemini-3-pro-image imageConfig=True
-WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
-Traceback (most recent call last):
-  File "/home/user/AIContent/7Wild/oneoff/gen_from_ref.py", line 49, in main
-    from PIL import Image
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 84, in <module>
-    from . import _imaging as core
-ImportError: cannot import name '_imaging' from 'PIL' (/usr/lib/python3/dist-packages/PIL/__init__.py)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/user/AIContent/7Wild/oneoff/gen_from_ref.py", line 65, in <module>
-    sys.exit(main())
-             ^^^^^^
-  File "/home/user/AIContent/7Wild/oneoff/gen_from_ref.py", line 53, in main
-    from PIL import Image
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 84, in <module>
-    from . import _imaging as core
-ImportError: cannot import name '_imaging' from 'PIL' (/usr/lib/python3/dist-packages/PIL/__init__.py)
-exit=1
+7Wild/oneoff/out-logo/stacked.png 205 KB (raw)
+WARN: webp conversion skipped (cannot import name '_imaging' from 'PIL' (/usr/lib/python3/dist-packages/PIL/__init__.py)); raw PNG kept
+exit=0
