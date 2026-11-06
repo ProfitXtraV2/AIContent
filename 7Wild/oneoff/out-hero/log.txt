@@ -1,0 +1,20 @@
+== hero-wide-stroke
+model=gemini-3-pro-image imageConfig=True
+7Wild/oneoff/out-hero/hero-wide-stroke.webp (1376, 768) 77 KB
+exit=0
+== hero-wide-bars
+model=gemini-3-pro-image imageConfig=True
+7Wild/oneoff/out-hero/hero-wide-bars.webp (1376, 768) 62 KB
+exit=0
+== hero-wide-logo
+model=gemini-3-pro-image imageConfig=True
+7Wild/oneoff/out-hero/hero-wide-logo.webp (1376, 768) 77 KB
+exit=0
+== hero-mobile-stroke
+model=gemini-3-pro-image imageConfig=True
+7Wild/oneoff/out-hero/hero-mobile-stroke.webp (928, 1152) 108 KB
+exit=0
+== bonus-chip
+model=gemini-3-pro-image imageConfig=True
+7Wild/oneoff/out-hero/bonus-chip.webp (1024, 1024) 51 KB
+exit=0
