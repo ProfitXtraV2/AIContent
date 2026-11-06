@@ -45,19 +45,20 @@ def main():
             break
     if not raw:
         print("GEMINI_ERROR: " + " | ".join(errs), file=sys.stderr); return 2
+    out.parent.mkdir(parents=True, exist_ok=True)
+    png = out.with_suffix(".png")
+    png.write_bytes(raw)  # always keep Gemini's raw image, even if Pillow is broken
+    print(f"{png} {len(raw) // 1024} KB (raw)")
     try:
         from PIL import Image
-    except ImportError:
-        import subprocess
-        subprocess.run([sys.executable, "-m", "pip", "install", "-q", "Pillow"], check=True)
-        from PIL import Image
-    img = Image.open(io.BytesIO(raw)).convert("RGB")
-    out.parent.mkdir(parents=True, exist_ok=True)
-    for q in (86, 80, 72, 64):
-        img.save(out, "WEBP", quality=q, method=6)
-        if out.stat().st_size <= 520 * 1024:
-            break
-    print(f"{out} {img.size} {out.stat().st_size // 1024} KB")
+        img = Image.open(io.BytesIO(raw)).convert("RGB")
+        for q in (86, 80, 72, 64):
+            img.save(out, "WEBP", quality=q, method=6)
+            if out.stat().st_size <= 520 * 1024:
+                break
+        print(f"{out} {img.size} {out.stat().st_size // 1024} KB")
+    except Exception as e:  # noqa: BLE001
+        print(f"WARN: webp conversion skipped ({e}); raw PNG kept")
     return 0
 
 
