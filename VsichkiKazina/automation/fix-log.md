@@ -8,6 +8,51 @@ Facts, numbers, licence/RTP/tax figures, dates, byline (Георги Тодор�
 
 ---
 
+## 2026-11-06 (nightly run — flags + score)
+
+### JOB A — publish-blocking flags
+- **2026-11-06-uimbaldon** (vk-0326, PR #351) — 2 `[VERIFY]` markers in the
+  Wimbledon-records sentence (men's Open-Era record Роджър Федерер с осем титли;
+  women's Мартина Навратилова с девет титли).
+  - **Resolution: stated-with-caveat.** Both counts are well-established public
+    tournament records, so the values (8 / 9) and the names are kept verbatim; the
+    verify caveat is folded into natural prose — „…стойности, които е най-сигурно да
+    се сверят в официалната статистика на турнира." The article's existing lead-in
+    (records are cited carefully because sources mix full history with the Open Era)
+    is preserved. No number, name, link, RG line, 18+, byline (Георги Тодоров) or
+    brand (Всички Казина) changed. Post-fix scan: **0 blocking markers** (publisher
+    regex + full task marker list both clean).
+  - Committed `fix(flags): resolve 2026-11-06-uimbaldon — publish-ready` and pushed
+    (PR #351 updated). **Outcome: success — flag-free, publish-ready.**
+- All other `content/*` branches scanned: **no genuine blocking markers.** (A broad
+  catch-all also surfaced legitimate Bulgarian prose/links containing „проверка/
+  провери" — markdown anchors like `[проверка на лиценз](/blog/…)` and image
+  alt-text — which are content, not editorial flag brackets, and were left untouched.)
+
+### JOB B — low Gemini score
+- **No qualifying targets tonight.** Scan of all `drafted`/`approved` rows found no
+  `ai <n>` verdicts and no `human <n>` with n<80 (lowest live score is `human 80`,
+  which is not below the threshold). Nothing to humanise; no drafts touched (idempotent).
+
+### POSTED — needs human review
+- **vk-0063 — `2026-09-13-nv-casino-zakonno-li-e` (PR #79), `ai 75`, status posted/live.**
+  Carried forward — live content, never edited per policy. Still the only posted row
+  scoring below the human-80 threshold. A human should decide whether to re-humanise
+  and re-publish off-line.
+
+### Deferred
+None — JOB B had zero targets, so the ≤10/night cap was not approached.
+
+### Finish
+No board `gemini` values changed (JOB B had no targets; JOB A is rephrasing only and
+did not re-score vk-0326, which stays `human 85`). `build_dashboard.py` (buffer 231/10)
+and `build_feed.py` (10 approved) re-run on main — the dashboard now reflects
+2026-11-06-uimbaldon's flag count dropping 2→0. No posted/live content edited; nothing
+merged; no new article branches created; only the one flagged branch
+(content/2026-11-06-uimbaldon) was touched; GEMINI_API_KEY never printed.
+
+---
+
 ## 2026-11-05 (nightly run — flags + score)
 
 ### JOB A — publish-blocking flags
