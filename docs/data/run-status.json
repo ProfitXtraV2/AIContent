@@ -1,13 +1,15 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-11-06T07:16:02Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-11-06T07:39:08Z",
+  "articles_written": 1,
+  "prs_opened": [
+    351
+  ],
   "run_url": "https://claude.ai/code/session_01AwuYFWPXUvEdgs8dDHWgFq",
-  "note": "daily run 2026-11-06 — throttled intake (MAX_PER_RUN=1). Reconcile on entry: 0 in-progress/HANDOFF/CLAIMED. Monthly SEO review NOT due (marker 2026-11 = current). Selecting 1 new guide topic.",
+  "note": "daily run 2026-11-06 — throttled intake (MAX_PER_RUN=1). Reconcile clean on entry (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review NOT due (marker 2026-11 = current). WROTE 1 NEW guide vk-0326 Уимбълдън — история, правила и любопитни факти (top open P0 backlog row, sports-guide batch, owner-approved), PR #351. Evergreen tournament profile (guides-only: 0 operator/НАП/affiliate; 0 current standings/results/fixtures/draws/odds; 0 predictions). DISTINCT от общия Тенис-правила guide (vk-0310) — tournament-profile intent, cross-links to it. Cluster уимбълдън 4300/kd0 WIN. Dedup vs queue (0) + live sitemap (163 URLs, only tenis-pravila-tochkuvane) = clean. Факти EN Wikipedia (Wimbledon Championships) + BG/RU web: 1877 първо издание (само мъже сингъл, Spencer Gore); клуб 1868; AELTC; Worple Road→Чърч Роуд 1922; най-стар турнир; трети от Големия шлем; ЕДИНСТВЕН на трева (AO напуска тревата 1988); дисциплини + години (дами сингъл 1884, двойки/смесени 1913); формат best-of-5 мъже сингъл / best-of-3 останали (мъже двойки→best-of-3 реш. 2023); тайбрек история (advantage до 2018 → 2019@12-12 → 2022 единно 10-pt@6-6); Централен корт ~14979 + покрив 2009; Корт №1 покрив 2019; традиции (бяло облекло изрично 1963, ягоди със сметана [легендата за Хенри VIII = мълва], Кралска ложа, райграс 2001); seeding 1924, 32 поставени от 2001. 2 [VERIFY] рекорди по титли (Федерер 8 мъже / Навратилова 9 жени — all-time vs Open-Era се разминават между източниците; headline ordering безопасен; инфографиката НЕ печата спорните числа) → routed to human. Gate 94 PASS 0-crit. Gemini Step-7 baseline „Likely human-written 85%\" → HL 85 = PASS (0 humaniser passes, keep-best=baseline). img:2 — infographic uimbaldon-klyuchovi-fakti.svg (числа 1:1 vs 05b: 1877/1922/2009/2019/2022/10/6-6/3-5 сета) Gemini review 100 PASS 0 integrity + decorative hero uimbaldon-treven-kort-hero.webp 46KB близък план трева+бяла линия+сянка от мрежа без хора/лица/лога/текст; hero v1 45 (court-geometry) → regen v2 75 → ALT aligned per review → 100 PASS 0 integrity (PNG→ImageMagick→WebP, Pillow unavailable). ~827 думи, 0 em-dash (body). 4 body internal links live + otgovorna-igra + responsible-gambling RG footer; 0 affiliate (0 оператори). Backlog row Уимбълдън → written. AHREFS LOW-UNIT (reset 2026-11-15): no paid discovery this fire; backlog row already enriched 4300/kd0 (2026-10-28 sweep); research bank unchanged. Dashboard buffer rebuilt 231/10. Feed refreshed (10 approved). No flags resolved, nothing posted/merged/fabricated. PR #351 watched (subscribed). Human owns [VERIFY] resolution, approval, publishing. Remaining open P0 backlog runway: sports/club/player guides (НБА, Биатлон, Премиер лига, Лига 1, Вечното дерби, ЦСКА 1948, Берое, Спартак Варна, нац. отбор, Бербатов, клубни профили Атлетико/Ювентус/Милан/Интер/Байерн/др., играчи Холанд/Ямал/Салах/Мбапе/Модрич/Роналдиньо и др.).",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-11-06-uimbaldon",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 9,
-    "stage": "PR"
+    "stage_index": null,
+    "stage": null
   }
 }
