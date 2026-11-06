@@ -1,0 +1,32 @@
+== hero-wide-snarl-a
+model=gemini-3-pro-image imageConfig=True
+7Wild/oneoff/out-v2/hero-wide-snarl-a.webp (1376, 768) 60 KB
+exit=0
+== hero-wide-snarl-b
+model=gemini-3-pro-image imageConfig=True
+7Wild/oneoff/out-v2/hero-wide-snarl-b.webp (1376, 768) 84 KB
+exit=0
+== hero-mobile-snarl
+model=gemini-3-pro-image imageConfig=True
+7Wild/oneoff/out-v2/hero-mobile-snarl.webp (928, 1152) 74 KB
+exit=0
+== promo-tournament
+model=gemini-3-pro-image imageConfig=True
+7Wild/oneoff/out-v2/promo-tournament.webp (1024, 1024) 59 KB
+exit=0
+== promo-cashback
+model=gemini-3-pro-image imageConfig=True
+7Wild/oneoff/out-v2/promo-cashback.webp (1024, 1024) 92 KB
+exit=0
+== promo-vip
+model=gemini-3-pro-image imageConfig=True
+7Wild/oneoff/out-v2/promo-vip.webp (1024, 1024) 50 KB
+exit=0
+== live-roulette
+model=gemini-3-pro-image imageConfig=True
+7Wild/oneoff/out-v2/live-roulette.webp (1200, 896) 84 KB
+exit=0
+== live-blackjack
+model=gemini-3-pro-image imageConfig=True
+7Wild/oneoff/out-v2/live-blackjack.webp (1200, 896) 68 KB
+exit=0
