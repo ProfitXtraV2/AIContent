@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 12,
+  "count": 10,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -71,21 +71,7 @@
       "date_modified": "2026-10-24",
       "content_hash": "0faab48f87c4dae5e35478feb46da66b0c58cdd2dd05e8c6f5ac69588580d73d",
       "status": "approved"
-    },
-    {
-      "slug": "ludogorec-istoriya-titli",
-      "title": "Лудогорец: история, титли и Хювефарма Арена | Всички Казина",
-      "date_modified": "2026-10-28",
-      "content_hash": "0d2cbc705a0ed6e16dddeb3ef9acc9a3c9d7fe38b7ef447efd46f3564858dcc1",
-      "status": "approved"
-    },
-    {
-      "slug": "real-madrid-istoriya-trofei",
-      "title": "Реал Мадрид: история, трофеи, стадион и легенди | Всички Казина",
-      "date_modified": "2026-10-28",
-      "content_hash": "3092f1636c64d4ddc2a7400d6393aa22035c1678ddbe9dc7dddc1ce88047ec7a",
-      "status": "approved"
     }
   ],
-  "generated_utc": "2026-11-05T23:11:52Z"
+  "generated_utc": "2026-11-06T06:43:04Z"
 }
