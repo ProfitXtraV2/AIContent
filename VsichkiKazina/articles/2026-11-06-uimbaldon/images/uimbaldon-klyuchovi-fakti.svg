@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-label="Ключовите факти за Уимбълдън: 1877 първо издание, 1922 Чърч Роуд, единствен на трева, покрив 2009, тайбрек 2022, формат на сетовете">
+  <defs>
+    <style>
+      .bg{fill:#f4f7f6;}
+      .card{fill:#ffffff;stroke:#d7e0dd;stroke-width:1.5;}
+      .title{fill:#15312b;font-family:Georgia,'Times New Roman',serif;font-weight:700;}
+      .badge{fill:#1f6f5c;}
+      .badgeTxt{fill:#ffffff;font-family:Arial,Helvetica,sans-serif;font-weight:700;}
+      .h{fill:#15312b;font-family:Arial,Helvetica,sans-serif;font-weight:700;}
+      .p{fill:#33514a;font-family:Arial,Helvetica,sans-serif;}
+      .accent{fill:#1f6f5c;font-family:Arial,Helvetica,sans-serif;font-weight:700;}
+      .foot{fill:#6c8079;font-family:Arial,Helvetica,sans-serif;}
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="720" height="560" rx="14"/>
+  <text class="title" x="36" y="46" font-size="24">Уимбълдън: ключовите факти</text>
+  <line x1="36" y1="60" x2="684" y2="60" stroke="#c7d4d0" stroke-width="1.5"/>
+
+  <!-- Row 1: 1877 -->
+  <rect class="card" x="32" y="76" width="656" height="72" rx="10"/>
+  <text class="accent" x="52" y="122" font-size="26">1877</text>
+  <text class="h" x="150" y="108" font-size="17">Първо първенство</text>
+  <text class="p" x="150" y="132" font-size="14">Само мъжки сингъл. Най-старият тенис турнир в света.</text>
+
+  <!-- Row 2: 1922 -->
+  <rect class="card" x="32" y="160" width="656" height="72" rx="10"/>
+  <text class="accent" x="52" y="206" font-size="26">1922</text>
+  <text class="h" x="150" y="192" font-size="17">Преместване на Чърч Роуд</text>
+  <text class="p" x="150" y="216" font-size="14">Днешното място на турнира в южен Лондон (AELTC).</text>
+
+  <!-- Row 3: трева -->
+  <rect class="card" x="32" y="244" width="656" height="72" rx="10"/>
+  <text class="accent" x="52" y="290" font-size="20">трева</text>
+  <text class="h" x="150" y="276" font-size="17">Единственият от Големия шлем на трева</text>
+  <text class="p" x="150" y="300" font-size="14">Трети от четирите турнира за годината.</text>
+
+  <!-- Row 4: 2009 -->
+  <rect class="card" x="32" y="328" width="656" height="72" rx="10"/>
+  <text class="accent" x="52" y="374" font-size="26">2009</text>
+  <text class="h" x="150" y="360" font-size="17">Подвижен покрив на Централния корт</text>
+  <text class="p" x="150" y="384" font-size="14">Игра на закрито при дъжд. Корт №1 получава покрив за 2019 г.</text>
+
+  <!-- Row 5: 2022 -->
+  <rect class="card" x="32" y="412" width="656" height="72" rx="10"/>
+  <text class="accent" x="52" y="458" font-size="26">2022</text>
+  <text class="h" x="150" y="444" font-size="17">Единно правило за решаващия сет</text>
+  <text class="p" x="150" y="468" font-size="14">Тайбрек до 10 точки при 6-6 (с преднина от две).</text>
+
+  <!-- Row 6: формат -->
+  <rect class="card" x="32" y="496" width="656" height="48" rx="10"/>
+  <text class="p" x="52" y="526" font-size="15">Мъжки сингъл: до <tspan class="accent">3</tspan> спечелени сета (5 възможни). Останалите дисциплини: до 2 сета.</text>
+</svg>
