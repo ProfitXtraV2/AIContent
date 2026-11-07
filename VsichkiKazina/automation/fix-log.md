@@ -3617,3 +3617,45 @@ Board `gemini` updated for both processed rows (vk-0323 `ai 75`→`human 85`; vk
 — board + timestamp changes only (no approved source changed on main). No posted/live content
 edited; nothing merged; no new article branches created; only the specific low-rated branch
 vk-0323 was touched (vk-0324 left untouched, already human); GEMINI_API_KEY never printed.
+
+## 2026-11-07 — nightly flag + score fixes
+
+### JOB A — publish-blocking flags
+Scanned every `refs/remotes/origin/content/*` branch (328 content refs; 326 carry an
+`05b-final-draft.md`) for the full blocking-marker set (`[VERIFY]`, `[DATA NEEDED]`, `[CONFLICT]`,
+`[18+ / RG LINE]`, `[AUTHOR …]`, `[BRAND …]`, `[EDITORIAL]`, `[уточни …]`, `[провери …]`), plus a
+broader sweep (any uppercase/Cyrillic-directive bracketed token, TODO/FIXME/XXX/TK). **Zero
+blocking flags on any branch.** Every bracketed token found was a legitimate markdown link anchor
+(`[RTP]`, `[EGT]`, `[KYC]`, `[RNG]`, `[Законно ли е]`, `[ротативки]`, `[методологията ни]`,
+`[About Всички Казина boilerplate]`, etc.). Nothing to resolve; no branch touched.
+
+### JOB B — low Gemini score
+**Zero targets.** No row with status ∈ {drafted, approved} has a verdict of `ai <n>` or
+`human <n>`<80. Across all 230 drafted/approved rows the human-likeness distribution is 95:5,
+90:41, 85:95, 80:21 — minimum **80**, which meets the PASS threshold (80 is acceptable per the
+Step-7 accept policy). vk-0323 (`human 85`) and vk-0324 (`human 90`), the two targets from the
+2026-11-04 run, remain ≥80 and unchanged. Idempotency rule applied — every flag-free, already-≥80
+draft left untouched. No `gemini_check.py` call made (no qualifying target), so GEMINI_API_KEY was
+not used tonight.
+
+### POSTED — needs human review
+- **vk-0063 — `2026-09-13-nv-casino-zakonno-li-e` (PR #79), `ai 75`, status posted/live.** Carried
+  forward — live content, never edited per policy. Still the only posted row below the human-80
+  threshold. A human should decide whether to re-humanise and re-publish off-line.
+
+### Deferred
+None — the ≤10/night JOB B cap was not reached (0 qualifying targets).
+
+Observation (not a JOB B target, logged for human awareness): ~68 drafted/approved rows (vk-0081–
+vk-0109, vk-0172–vk-0222 ranges) carry gemini `skipped` — never scored (Step-7 was unavailable at
+draft time). These are not JOB B targets by definition (`skipped` is neither `ai <n>` nor
+`human <n>`), and consistent with prior nightly runs they are left to the daily-run Step-7 backfill
+rather than scored here. They are flag-free (JOB A verified) and therefore publish-blockable only
+by flags, not by score — safe to publish as-is. Flagging the backlog size in case a human wants a
+dedicated backfill pass.
+
+### Finish
+No board `gemini` cells changed (no rows processed). `build_dashboard.py` and `build_feed.py`
+re-run on main for freshness. No posted/live content edited; nothing merged; no new article
+branches created; no `content/<folder>` branch touched (idempotent all-clean night);
+GEMINI_API_KEY never printed.
