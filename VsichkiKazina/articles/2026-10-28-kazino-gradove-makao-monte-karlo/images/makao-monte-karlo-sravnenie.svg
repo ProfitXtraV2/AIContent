@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 486" role="img" aria-label="Сравнение на Макао и Монте Карло в числа: ключови години и факти за двата казино града">
+  <rect x="0" y="0" width="780" height="486" rx="18" fill="#10243a"/>
+  <rect x="16" y="16" width="748" height="454" rx="12" fill="none" stroke="#1d3a57" stroke-width="1.5"/>
+
+  <text x="390" y="52" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="700" fill="#f2f6fa">Макао и Монте Карло в числа</text>
+  <text x="390" y="78" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#8aa6c2">Два различни модела на казино град</text>
+
+  <line x1="390" y1="98" x2="390" y2="414" stroke="#1d3a57" stroke-width="1.5"/>
+
+  <!-- Column headers -->
+  <text x="48" y="124" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#d9a441">МАКАО</text>
+  <text x="414" y="124" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#d9a441">МОНТЕ КАРЛО</text>
+
+  <!-- Macau facts -->
+  <text x="48" y="168" font-family="Arial, Helvetica, sans-serif" font-size="14.5" fill="#dfe8f1">Легален хазарт: <tspan fill="#d9a441" font-weight="700">1849 г.</tspan></text>
+  <text x="48" y="212" font-family="Arial, Helvetica, sans-serif" font-size="14.5" fill="#dfe8f1">САР на Китай от: <tspan fill="#d9a441" font-weight="700">1999 г.</tspan></text>
+  <text x="48" y="256" font-family="Arial, Helvetica, sans-serif" font-size="14.5" fill="#dfe8f1">Край на монопола: <tspan fill="#d9a441" font-weight="700">2002 г.</tspan></text>
+  <text x="48" y="300" font-family="Arial, Helvetica, sans-serif" font-size="14.5" fill="#dfe8f1">Изпреварва Лас Вегас: <tspan fill="#d9a441" font-weight="700">2007 г.</tspan></text>
+  <text x="48" y="344" font-family="Arial, Helvetica, sans-serif" font-size="14.5" fill="#dfe8f1">Хазартът дава <tspan fill="#d9a441" font-weight="700">~75%</tspan> от бюджета</text>
+  <text x="48" y="388" font-family="Arial, Helvetica, sans-serif" font-size="14.5" fill="#dfe8f1">Водеща игра: <tspan fill="#d9a441" font-weight="700">баккара</tspan></text>
+
+  <!-- Monte Carlo facts -->
+  <text x="414" y="168" font-family="Arial, Helvetica, sans-serif" font-size="14.5" fill="#dfe8f1">Концесия (Фр. Блан): <tspan fill="#d9a441" font-weight="700">1863 г.</tspan></text>
+  <text x="414" y="212" font-family="Arial, Helvetica, sans-serif" font-size="14.5" fill="#dfe8f1">Без данък доход: <tspan fill="#d9a441" font-weight="700">1869 г.</tspan></text>
+  <text x="414" y="256" font-family="Arial, Helvetica, sans-serif" font-size="14.5" fill="#dfe8f1">Разширение (Гарние): <tspan fill="#d9a441" font-weight="700">1878-79</tspan></text>
+  <text x="414" y="300" font-family="Arial, Helvetica, sans-serif" font-size="14.5" fill="#dfe8f1">Рекордно черно: <tspan fill="#d9a441" font-weight="700">1913 г.</tspan></text>
+  <text x="414" y="344" font-family="Arial, Helvetica, sans-serif" font-size="14.5" fill="#dfe8f1">Гражданите не играят</text>
+  <text x="414" y="388" font-family="Arial, Helvetica, sans-serif" font-size="14.5" fill="#dfe8f1">Водеща игра: <tspan fill="#d9a441" font-weight="700">рулетка</tspan></text>
+
+  <line x1="32" y1="414" x2="748" y2="414" stroke="#1d3a57" stroke-width="1"/>
+  <text x="390" y="440" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#8aa6c2">Числата следват текста на статията. 18+ Играйте отговорно.</text>
+</svg>
