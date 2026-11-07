@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-07T07:24:16Z",
+  "generated_utc": "2026-11-07T07:24:53Z",
   "buffer": {
     "count": 229,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 1,
-    "drafted": 220,
-    "approved": 9,
+    "drafted": 219,
+    "approved": 10,
     "posted": 96,
     "failed": 1
   },
@@ -6161,7 +6161,7 @@
     },
     {
       "id": "vk-0304",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Най-известните казино градове в света — Макао и Монте Карло: история, факти и как се сравняват с Лас Вегас",
       "keywords_or_terms": "макао, монте карло, казино градове, макао казино, монте карло казино",

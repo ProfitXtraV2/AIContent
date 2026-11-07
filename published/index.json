@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 9,
+  "count": 10,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -59,6 +59,13 @@
       "status": "approved"
     },
     {
+      "slug": "kazino-gradove-makao-monte-karlo",
+      "title": "Казино градове: Макао и Монте Карло | Всички Казина",
+      "date_modified": "2026-10-28",
+      "content_hash": "c8a61a44445f2a659e0e945534dfd6d9338af3059d882f512d081652a821ef23",
+      "status": "approved"
+    },
+    {
       "slug": "efbet-liga-format-otbori",
       "title": "Какво е efbet Лига: формат, отбори и класиране | Всички Казина",
       "date_modified": "2026-10-29",
@@ -66,5 +73,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-11-07T07:24:16Z"
+  "generated_utc": "2026-11-07T07:24:53Z"
 }
