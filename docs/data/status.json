@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-07T07:25:57Z",
+  "generated_utc": "2026-11-07T07:26:06Z",
   "buffer": {
     "count": 229,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 1,
-    "drafted": 217,
-    "approved": 12,
+    "drafted": 216,
+    "approved": 13,
     "posted": 96,
     "failed": 1
   },
@@ -6659,7 +6659,7 @@
     },
     {
       "id": "vk-0326",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Уимбълдън — история, правила и любопитни факти",
       "keywords_or_terms": "уимбълдън, wimbledon, уимбълдън история",

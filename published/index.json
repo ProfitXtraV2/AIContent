@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 12,
+  "count": 13,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -85,7 +85,14 @@
       "date_modified": "2026-11-02",
       "content_hash": "2b978cee064de1b175a6aba59f2ce04977d33fa6176e3ad8b3a37870c0a7d33d",
       "status": "approved"
+    },
+    {
+      "slug": "uimbaldon",
+      "title": "Уимбълдън: история, трева и правила на турнира | Всички Казина",
+      "date_modified": "2026-11-06",
+      "content_hash": "f804f3a01a87fe7d8528b1ab7dc990f4f82dec954db71e6f3a46eaa32b820082",
+      "status": "approved"
     }
   ],
-  "generated_utc": "2026-11-07T07:25:57Z"
+  "generated_utc": "2026-11-07T07:26:06Z"
 }
