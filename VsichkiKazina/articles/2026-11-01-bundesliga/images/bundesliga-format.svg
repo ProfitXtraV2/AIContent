@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 600" role="img" aria-label="Инфографика: формат и рекорди на Бундеслигата към есента на 2026 г.">
+  <defs>
+    <style>
+      .bg{fill:#f6f4ef;}
+      .card{fill:#ffffff;stroke:#e2ddd3;stroke-width:1;}
+      .title{fill:#15151f;font-family:'Segoe UI',Arial,sans-serif;font-size:25px;font-weight:700;}
+      .sub{fill:#6b6257;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+      .colh{fill:#d3111c;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;}
+      .big{fill:#15151f;font-family:'Segoe UI',Arial,sans-serif;font-size:26px;font-weight:800;}
+      .yr{fill:#15151f;font-family:'Segoe UI',Arial,sans-serif;font-size:22px;font-weight:800;}
+      .lbl{fill:#2a2a30;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;}
+      .foot{fill:#6b6257;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="820" height="600"/>
+  <rect class="card" x="8" y="8" width="804" height="584" rx="14"/>
+
+  <text class="title" x="410" y="50" text-anchor="middle">Бундеслига: формат и рекорди</text>
+  <text class="sub" x="410" y="72" text-anchor="middle">към есента на 2026 г.</text>
+  <line x1="40" y1="92" x2="780" y2="92" stroke="#e2ddd3" stroke-width="1"/>
+
+  <!-- Left column: format -->
+  <text class="colh" x="46" y="124">Форматът</text>
+
+  <text class="yr"  x="46" y="166">1963/64</text>
+  <text class="lbl" x="170" y="166">първи сезон</text>
+
+  <text class="big" x="46"  y="212">18</text>
+  <text class="lbl" x="170" y="212">отбора в лигата</text>
+
+  <text class="big" x="46"  y="258">34</text>
+  <text class="lbl" x="170" y="258">кръга за сезон</text>
+
+  <text class="big" x="46"  y="304">306</text>
+  <text class="lbl" x="170" y="304">мача за сезон</text>
+
+  <text class="big" x="46"  y="350">3</text>
+  <text class="lbl" x="170" y="350">точки за победа</text>
+
+  <text class="big" x="46"  y="396">2</text>
+  <text class="lbl" x="170" y="396">директно изпадащи + бараж</text>
+
+  <!-- Divider -->
+  <line x1="408" y1="108" x2="408" y2="452" stroke="#e2ddd3" stroke-width="1"/>
+
+  <!-- Right column: records -->
+  <text class="colh" x="440" y="124">Рекорди</text>
+
+  <text class="big" x="440" y="178">34</text>
+  <text class="lbl" x="516" y="178">титли, Байерн Мюнхен (рекорд)</text>
+
+  <text class="big" x="440" y="236">13</text>
+  <text class="lbl" x="516" y="236">клуба шампиони общо</text>
+
+  <text class="big" x="440" y="294">602</text>
+  <text class="lbl" x="516" y="294">мача, Чарли Кьорбел</text>
+
+  <text class="big" x="440" y="352">365</text>
+  <text class="lbl" x="516" y="352">гола, Герд Мюлер</text>
+
+  <!-- Bottom strip -->
+  <line x1="40" y1="452" x2="780" y2="452" stroke="#e2ddd3" stroke-width="1"/>
+  <text class="foot" x="46" y="486">Класиране при равни точки: първо головата разлика за сезона, после головете.</text>
+  <text class="foot" x="46" y="510">Правило 50+1: клубните членове държат мнозинството от гласовете (от 1998 г.).</text>
+  <text class="foot" x="46" y="534">Байерн: 34 титли от старта на Бундеслигата (1963 г.); с по-старите шампионски титли повече.</text>
+  <text class="foot" x="46" y="566">18+ Играйте отговорно. · Всички стойности следват текста на статията.</text>
+</svg>
