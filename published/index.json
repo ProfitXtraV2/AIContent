@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 11,
+  "count": 12,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -78,7 +78,14 @@
       "date_modified": "2026-10-31",
       "content_hash": "904591858a5ab498c928360c1d10d9c542143c0dbaaba5365904b509924bbcc9",
       "status": "approved"
+    },
+    {
+      "slug": "liga-na-konferenciite",
+      "title": "Лига на конференциите: какво е и как работи турнирът | Всички Казина",
+      "date_modified": "2026-11-02",
+      "content_hash": "2b978cee064de1b175a6aba59f2ce04977d33fa6176e3ad8b3a37870c0a7d33d",
+      "status": "approved"
     }
   ],
-  "generated_utc": "2026-11-07T07:25:43Z"
+  "generated_utc": "2026-11-07T07:25:57Z"
 }

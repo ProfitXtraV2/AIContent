@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-07T07:25:43Z",
+  "generated_utc": "2026-11-07T07:25:57Z",
   "buffer": {
     "count": 229,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 1,
-    "drafted": 218,
-    "approved": 11,
+    "drafted": 217,
+    "approved": 12,
     "posted": 96,
     "failed": 1
   },
@@ -6567,7 +6567,7 @@
     },
     {
       "id": "vk-0322",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Лига на конференциите — какво е и как работи",
       "keywords_or_terms": "лига на конференциите, conference league, uefa лига на конференциите",
