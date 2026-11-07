@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-11-07T07:26:14Z",
+  "generated_utc": "2026-11-07T07:37:46Z",
   "buffer": {
-    "count": 229,
+    "count": 230,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 1,
-    "drafted": 215,
+    "in-progress": 0,
+    "drafted": 216,
     "approved": 14,
     "posted": 96,
     "failed": 1
@@ -6682,25 +6682,25 @@
     },
     {
       "id": "vk-0327",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "НБА — как работи сезонът, конференциите и плейофите",
       "keywords_or_terms": "нба, nba, нба плейофи",
       "volume": "4200",
       "kd": "6",
       "source": "backlog",
-      "drafted_date": "",
+      "drafted_date": "2026-11-07",
       "posted_date": "",
       "folder": "2026-11-07-nba",
-      "pr": "",
-      "gemini": "",
-      "notes": "daily run 2026-11-07 (throttled intake, MAX_PER_RUN=1); top open P0 backlog row (sports-guide batch, owner-approved sports scope). Evergreen how-the-season-works guide (guides-only: 0 operator/НАП/affiliate; 0 current standings/results/fixtures/odds; 0 predictions). Cluster нба 4200/kd6 WIN (ahrefs 2026-10-28 sweep). Dedup vs queue (0) + live sitemap (165 URLs, no nba/баскет slug) = clean. DISTINCT cluster (no basketball pillar exists).",
+      "pr": "#352",
+      "gemini": "human 90",
+      "notes": "daily run 2026-11-07 (throttled intake, MAX_PER_RUN=1); top open P0 backlog row (sports-guide batch, owner-approved sports scope). Evergreen how-the-season-works guide (guides-only: 0 operator/НАП/affiliate; 0 current standings/results/fixtures/rosters/odds; 0 predictions). Cluster нба 4200/kd6 WIN (ahrefs 2026-10-28 sweep). Dedup vs queue (0) + live sitemap (165 URLs, no nba/баскет slug) = clean; DISTINCT new pillar (no basketball article exists). · OUTCOME drafted → PR #352. Факти EN Wikipedia (NBA / NBA playoffs / NBA Cup / Larry O'Brien Trophy): 1946 BAA → 1949 НБА (сливане BAA+NBL); 30 отбора (29 САЩ + 1 Канада/Торонто); 2 конференции по 15, 6 дивизиона по 5 (Атлантическа/Централна/Югоизточна · Северозападна/Тихоокеанска/Югозападна); редовен сезон 82 мача (окт–апр); NBA Cup от 2023/24 (6 групи по 5, 4 групови мача броят и за сезона, финалът не); плейин места 7–10 (въведен 2020, формат 2021) → последните 2 плейофни места; плейофи 16 отбора (8+8), 4 кръга до 4 победи (Първи кръг / Полуфинали на конференцията / Финал на конференцията / Финал на НБА), фиксирана схема; финал Изток vs Запад ~юни; купа „Лари О'Брайън\" (име от 1984); титли към есента на 2026 г. Селтикс 18 (посл. 2024)/Лейкърс 17 (стамп, time-sensitive). Gate 95 PASS 0-crit. Gemini Step-7 keep-best = humaniser pass 1 (HL 35 Shows AI patterns 65% → 90 Likely human-written 90% = PASS; style-only, 0 факти/числа/линкове/RG/дати/byline/brand, „към есента на 2026 г.\" stamp preserved). img:2 — infographic nba-sezon-struktura.svg (season funnel числа 1:1 vs 05b: 30/2×15/6×5/82/6 групи/7–10/16=8+8/4 кръга/4 победи) Gemini review 100 PASS 0 integrity + decorative hero nba-sezon-funiya-hero.webp 25KB (топки→фуния→1 шампион, без лога/хора/текст) review 100 PASS 0 integrity (PNG→ImageMagick→WebP, Pillow unavailable). ~860 думи, 0 em-dash, 0 [VERIFY]. 4 body internal links live (zakonno-li-e / blog-sport / bonus-ruletka-sport-vsichki / blog-responsible-gambling) + otgovorna-igra footer; 0 affiliate (0 оператори). vol/kd 4200/6 (ahrefs, from backlog). Сиблинг баскетболни/спортни линкове се добавят при публикуване. AHREFS low-unit (reset 2026-11-15): no paid discovery this fire; backlog row already enriched.",
       "opportunity": {
         "score": 98,
         "band": "Strong",
         "winnable": true
       },
-      "verify_flags": null,
+      "verify_flags": 0,
       "verify_samples": []
     }
   ],
@@ -7057,8 +7057,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 4200/kd6 (2026-10-28 sports sweep).",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-28 (sports-guide batch; owner approved sports scope). Evergreen guide on format, rules and how it works. NEVER print current standings, results, fixtures or odds (they go stale); link to official sources for live data. No betting tips. Optional light link to /bonus-ruletka/sport/ + RG line.",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-10-28 (sports-guide batch; owner approved sports scope). Evergreen guide on format, rules and how it works. NEVER print current standings, results, fixtures or odds (they go stale); link to official sources for live data. No betting tips. Optional light link to /bonus-ruletka/sport/ + RG line. · WRITTEN 2026-11-07 (daily run, top open P0 row) → vk-0327, PR #352. Evergreen how-the-season-works guide (guides-only ✓: 0 operator/НАП/affiliate; 0 standings/results/odds/predictions). Cluster нба 4200/kd6 WIN. Gate 95 PASS, Gemini human 90 (keep-best pass 1), img:2 (review 100/100). ~860 думи, 0 [VERIFY].",
       "opportunity": {
         "score": 98,
         "band": "Strong",
@@ -12880,14 +12880,14 @@
       }
     ],
     "bands": {
-      "Strong": 45,
+      "Strong": 44,
       "Moderate": 3
     },
     "clusters": {
       "uncategorised": {
-        "winnable": 47,
+        "winnable": 46,
         "pillar": 0,
-        "total": 48
+        "total": 47
       }
     },
     "winnable": [
@@ -13217,19 +13217,6 @@
         "src": "backlog"
       },
       {
-        "query": "НБА — как работи сезонът, конференциите и плейофите",
-        "keywords": "нба, nba, нба плейофи",
-        "volume": "4200",
-        "kd": "6",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 98,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
         "query": "Национален отбор по футбол на България — история, големи турнири и САЩ '94",
         "keywords": "национален отбор по футбол на българия, българия национален отбор история, българия световно първенство",
         "volume": "6200",
@@ -13506,7 +13493,7 @@
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 47,
+      "winnable": 46,
       "pillars": 0
     }
   }
