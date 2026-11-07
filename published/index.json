@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 8,
+  "count": 9,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -57,7 +57,14 @@
       "date_modified": "2026-10-24",
       "content_hash": "0faab48f87c4dae5e35478feb46da66b0c58cdd2dd05e8c6f5ac69588580d73d",
       "status": "approved"
+    },
+    {
+      "slug": "efbet-liga-format-otbori",
+      "title": "Какво е efbet Лига: формат, отбори и класиране | Всички Казина",
+      "date_modified": "2026-10-29",
+      "content_hash": "2edc46d16a03b74c85eaa7aeb7113799471d0b6c347ce7875c87040975559380",
+      "status": "approved"
     }
   ],
-  "generated_utc": "2026-11-07T06:43:08Z"
+  "generated_utc": "2026-11-07T07:24:16Z"
 }
