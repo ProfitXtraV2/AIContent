@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 580" font-family="'DejaVu Sans', Arial, Helvetica, sans-serif" role="img" aria-label="Пътят на един сезон в НБА: от 30 отбора през октомври до 1 шампион през юни">
+  <rect width="720" height="580" fill="#0f1420"/>
+  <text x="360" y="46" text-anchor="middle" fill="#eef2f8" font-size="25" font-weight="700">Пътят на един сезон в НБА</text>
+  <text x="360" y="74" text-anchor="middle" fill="#8ea0bd" font-size="15">От 30 отбора през октомври до 1 шампион през юни</text>
+
+  <!-- Band 1 -->
+  <rect x="70" y="96" width="580" height="64" rx="10" fill="#1b2435" stroke="#2f3e5a" stroke-width="1.5"/>
+  <text x="360" y="123" text-anchor="middle" fill="#eef2f8" font-size="18" font-weight="700">Октомври · 30 отбора</text>
+  <text x="360" y="146" text-anchor="middle" fill="#aab8d1" font-size="14.5">2 конференции по 15 · 6 дивизиона по 5</text>
+  <polygon points="360,168 350,160 370,160" fill="#3a4c6e"/>
+
+  <!-- Band 2 -->
+  <rect x="80" y="176" width="560" height="50" rx="10" fill="#1b2435" stroke="#2f3e5a" stroke-width="1.5"/>
+  <text x="360" y="207" text-anchor="middle" fill="#eef2f8" font-size="17" font-weight="600">Редовен сезон · 82 мача на отбор</text>
+  <polygon points="360,234 350,226 370,226" fill="#3a4c6e"/>
+
+  <!-- Band 3 -->
+  <rect x="90" y="242" width="540" height="50" rx="10" fill="#1b2435" stroke="#2f3e5a" stroke-width="1.5"/>
+  <text x="360" y="273" text-anchor="middle" fill="#eef2f8" font-size="16.5" font-weight="600">NBA Cup · 6 групи по 5 отбора (от сезон 2023/24)</text>
+  <polygon points="360,300 350,292 370,292" fill="#3a4c6e"/>
+
+  <!-- Band 4 -->
+  <rect x="110" y="308" width="500" height="64" rx="10" fill="#1b2435" stroke="#2f3e5a" stroke-width="1.5"/>
+  <text x="360" y="335" text-anchor="middle" fill="#eef2f8" font-size="17" font-weight="700">Плейин · места 7–10</text>
+  <text x="360" y="358" text-anchor="middle" fill="#aab8d1" font-size="14.5">играят за последните 2 плейофни места</text>
+  <polygon points="360,380 350,372 370,372" fill="#3a4c6e"/>
+
+  <!-- Band 5 -->
+  <rect x="120" y="388" width="480" height="64" rx="10" fill="#1b2435" stroke="#2f3e5a" stroke-width="1.5"/>
+  <text x="360" y="415" text-anchor="middle" fill="#eef2f8" font-size="17" font-weight="700">Плейофи · 16 отбора (8 + 8)</text>
+  <text x="360" y="438" text-anchor="middle" fill="#aab8d1" font-size="14.5">4 кръга, всяка серия до 4 победи</text>
+  <polygon points="360,460 350,452 370,452" fill="#3a4c6e"/>
+
+  <!-- Band 6 (champion) -->
+  <rect x="210" y="468" width="300" height="64" rx="10" fill="#243457" stroke="#f0b429" stroke-width="2"/>
+  <text x="360" y="495" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">Юни · Финал на НБА</text>
+  <text x="360" y="518" text-anchor="middle" fill="#f0b429" font-size="15" font-weight="700">1 шампион</text>
+
+  <text x="360" y="556" text-anchor="middle" fill="#6f7f9c" font-size="13">Числата следват текста на статията · 18+ Играйте отговорно</text>
+</svg>
