@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 540" width="760" height="540" role="img" aria-label="Втора лига в българската футболна пирамида: Първа лига отгоре, Втора лига в средата, Трета лига отдолу, с промоция нагоре и изпадане надолу">
+  <rect x="1" y="1" width="758" height="538" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+
+  <!-- Title -->
+  <text x="380" y="46" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#0f172a">Втора лига в българската футболна пирамида</text>
+
+  <!-- Tier 1: Първа лига -->
+  <rect x="230" y="78" width="300" height="52" rx="8" fill="#cbd5e1"/>
+  <text x="380" y="105" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Първа лига</text>
+  <text x="380" y="122" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#475569">елит (efbet Лига)</text>
+
+  <!-- Tier 2: Втора лига (highlighted) -->
+  <rect x="190" y="150" width="380" height="66" rx="8" fill="#1e3a8a"/>
+  <text x="380" y="179" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#ffffff">Втора лига</text>
+  <text x="380" y="199" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#c7d2fe">второто ниво · една обща група</text>
+
+  <!-- Tier 3: Трета лига -->
+  <rect x="150" y="236" width="460" height="52" rx="8" fill="#e2e8f0"/>
+  <text x="380" y="263" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#334155">Трета лига</text>
+  <text x="380" y="280" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#64748b">аматьорско ниво</text>
+
+  <!-- Promotion arrow (up, left) -->
+  <g stroke="#15803d" stroke-width="5" fill="none">
+    <line x1="108" y1="196" x2="108" y2="120"/>
+  </g>
+  <polygon points="108,104 99,122 117,122" fill="#15803d"/>
+  <text x="108" y="214" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#15803d">нагоре</text>
+
+  <!-- Relegation arrow (down, right) -->
+  <g stroke="#b45309" stroke-width="5" fill="none">
+    <line x1="652" y1="170" x2="652" y2="246"/>
+  </g>
+  <polygon points="652,262 643,244 661,244" fill="#b45309"/>
+  <text x="652" y="158" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#b45309">надолу</text>
+
+  <!-- Flow explanation lines -->
+  <circle cx="46" cy="328" r="6" fill="#15803d"/>
+  <text x="60" y="333" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a"><tspan font-weight="700">Промоция:</tspan> шампионът директно в Първа лига; следващите през бараж.</text>
+
+  <circle cx="46" cy="356" r="6" fill="#b45309"/>
+  <text x="60" y="361" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a"><tspan font-weight="700">Изпадане:</tspan> най-слабо класиралите се слизат в Трета лига, част от тях през бараж.</text>
+
+  <!-- divider -->
+  <line x1="40" y1="382" x2="720" y2="382" stroke="#e2e8f0" stroke-width="1.5"/>
+
+  <!-- Facts strip -->
+  <text x="40" y="408" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#334155"><tspan font-weight="700">Формат:</tspan> двукръгов „всеки срещу всеки" · точки: 3 за победа / 1 за равен / 0 за загуба</text>
+  <text x="40" y="432" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#334155"><tspan font-weight="700">История:</tspan> съществува от 1950 г. · име „Втора професионална футболна лига" от 2016 г.</text>
+  <text x="40" y="456" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#334155"><tspan font-weight="700">Рекорди:</tspan> най-много титли във второто ниво — Берое 9 (към 2026 г.) · шампион 2025/26: Дунав</text>
+
+  <!-- Illustrative note -->
+  <text x="40" y="490" font-family="Arial, Helvetica, sans-serif" font-size="12" font-style="italic" fill="#64748b">Брой отбори по сезони (примерно): 14 / 16 / 17 / 18 / 20 — точният се определя в регламента за всеки сезон.</text>
+
+  <!-- RG + source note -->
+  <text x="40" y="518" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#94a3b8">Източник: БФС / ПФЛ. Всички числа следват текста на статията.</text>
+  <text x="720" y="518" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#94a3b8">18+ Играйте отговорно</text>
+</svg>
