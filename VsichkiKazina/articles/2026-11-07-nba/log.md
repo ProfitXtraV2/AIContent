@@ -11,3 +11,8 @@
 - 05 Brand Gate: PASS 95/100, 0 criticals (fixed 1 ALT em-dash → 0 em-dashes).
 - 05b Final draft locked for Step 7.
 - 07 Gemini check pass 1 (baseline): „Shows AI patterns 65%" → HL 35 (< 80) → humanise.
+- 08 Images: infographic nba-sezon-struktura.svg (Gemini 100 PASS, numbers 1:1 vs 05b) + decorative
+  hero nba-sezon-funiya-hero.webp 25KB (Gemini 100 PASS, 0 integrity). img:2. PNG→ImageMagick→WebP
+  (Pillow unavailable).
+- 06 Verification: 0 [VERIFY]/[DATA NEEDED]; titles stamped „към есента на 2026 г."; 4+1 live links.
+- Final: Gate 95 PASS, Gemini human 90 (keep-best pass 1), img:2 (100/100). Ready for PR.
