@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 13,
+  "count": 14,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -87,6 +87,13 @@
       "status": "approved"
     },
     {
+      "slug": "vtora-liga-format",
+      "title": "Втора лига: формат, промоция и изпадане | Всички Казина",
+      "date_modified": "2026-11-03",
+      "content_hash": "0dfe162d171d2c8d4fdf5e9e8857db7449bd65c1445ad0732c0b9685f173e4ca",
+      "status": "approved"
+    },
+    {
       "slug": "uimbaldon",
       "title": "Уимбълдън: история, трева и правила на турнира | Всички Казина",
       "date_modified": "2026-11-06",
@@ -94,5 +101,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-11-07T07:26:06Z"
+  "generated_utc": "2026-11-07T07:26:14Z"
 }
