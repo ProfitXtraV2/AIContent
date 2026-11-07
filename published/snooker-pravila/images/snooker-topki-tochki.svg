@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 470" role="img" aria-label="Инфографика: стойностите на топките в снукъра и съставът на максималния брейк 147">
+  <defs>
+    <style>
+      .bg{fill:#eef4ef;}
+      .card{fill:#ffffff;stroke:#d6e2d9;stroke-width:1;}
+      .title{fill:#113224;font-family:'Segoe UI',Arial,sans-serif;font-size:24px;font-weight:700;}
+      .sub{fill:#5c6a62;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+      .colh{fill:#1a5c3a;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;}
+      .name{fill:#2a3230;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+      .ballnum{font-family:'Segoe UI',Arial,sans-serif;font-size:15px;font-weight:800;}
+      .calc{fill:#2a3230;font-family:'Segoe UI',Arial,sans-serif;font-size:16px;}
+      .big{fill:#113224;font-family:'Segoe UI',Arial,sans-serif;font-size:24px;font-weight:800;}
+      .foot{fill:#5c6a62;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="820" height="470"/>
+  <rect class="card" x="8" y="8" width="804" height="454" rx="14"/>
+
+  <text class="title" x="410" y="46" text-anchor="middle">Снукър: стойност на топките и брейкът 147</text>
+  <text class="sub" x="410" y="68" text-anchor="middle">Колко точки носи всяка топка и от какво се събира идеалният фрейм</text>
+  <line x1="40" y1="88" x2="780" y2="88" stroke="#d6e2d9" stroke-width="1"/>
+
+  <text class="colh" x="40" y="118">Стойност на всяка топка</text>
+
+  <!-- 7 balls in a horizontal row: value inside circle, name below -->
+  <g>
+    <circle cx="70"  cy="162" r="17" fill="#c0392b"/>
+    <text class="ballnum" x="70"  y="167" text-anchor="middle" fill="#ffffff">1</text>
+    <text class="name" x="70"  y="200" text-anchor="middle">Червена</text>
+
+    <circle cx="178" cy="162" r="17" fill="#f1c40f"/>
+    <text class="ballnum" x="178" y="167" text-anchor="middle" fill="#3a2f00">2</text>
+    <text class="name" x="178" y="200" text-anchor="middle">Жълта</text>
+
+    <circle cx="286" cy="162" r="17" fill="#27ae60"/>
+    <text class="ballnum" x="286" y="167" text-anchor="middle" fill="#ffffff">3</text>
+    <text class="name" x="286" y="200" text-anchor="middle">Зелена</text>
+
+    <circle cx="394" cy="162" r="17" fill="#8a5a2b"/>
+    <text class="ballnum" x="394" y="167" text-anchor="middle" fill="#ffffff">4</text>
+    <text class="name" x="394" y="200" text-anchor="middle">Кафява</text>
+
+    <circle cx="502" cy="162" r="17" fill="#2e6fd6"/>
+    <text class="ballnum" x="502" y="167" text-anchor="middle" fill="#ffffff">5</text>
+    <text class="name" x="502" y="200" text-anchor="middle">Синя</text>
+
+    <circle cx="610" cy="162" r="17" fill="#e48fb0"/>
+    <text class="ballnum" x="610" y="167" text-anchor="middle" fill="#3a1f2b">6</text>
+    <text class="name" x="610" y="200" text-anchor="middle">Розова</text>
+
+    <circle cx="718" cy="162" r="17" fill="#1b1b1b"/>
+    <text class="ballnum" x="718" y="167" text-anchor="middle" fill="#ffffff">7</text>
+    <text class="name" x="718" y="200" text-anchor="middle">Черна</text>
+  </g>
+
+  <line x1="40" y1="228" x2="780" y2="228" stroke="#d6e2d9" stroke-width="1"/>
+
+  <text class="colh" x="40" y="258">Максималният брейк (147)</text>
+  <text class="calc" x="40" y="294">15 пъти по червена (1) и черна (7): 15 × (1 + 7) = 120</text>
+  <text class="calc" x="40" y="322">после 6-те цветни: 2 + 3 + 4 + 5 + 6 + 7 = 27</text>
+  <line x1="40" y1="340" x2="430" y2="340" stroke="#d6e2d9" stroke-width="1"/>
+  <text class="big" x="40" y="376">Общо: 120 + 27 = 147 точки</text>
+
+  <!-- Footer -->
+  <line x1="40" y1="398" x2="780" y2="398" stroke="#d6e2d9" stroke-width="1"/>
+  <text class="foot" x="40" y="426">Масата е 12 × 6 фута; топките са 22 (15 червени, 6 цветни, 1 бяла). Фал: най-малко 4 точки.</text>
+  <text class="foot" x="40" y="448">Всички числа следват текста на статията. 18+ Играйте отговорно.</text>
+</svg>

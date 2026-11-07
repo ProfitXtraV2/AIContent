@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-07T07:24:53Z",
+  "generated_utc": "2026-11-07T07:25:43Z",
   "buffer": {
     "count": 229,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 1,
-    "drafted": 219,
-    "approved": 10,
+    "drafted": 218,
+    "approved": 11,
     "posted": 96,
     "failed": 1
   },
@@ -6521,7 +6521,7 @@
     },
     {
       "id": "vk-0320",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Снукър — правила и точкуване за начинаещи",
       "keywords_or_terms": "снукър, снукър правила, как се играе снукър, снукър точкуване",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 10,
+  "count": 11,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -71,7 +71,14 @@
       "date_modified": "2026-10-29",
       "content_hash": "2edc46d16a03b74c85eaa7aeb7113799471d0b6c347ce7875c87040975559380",
       "status": "approved"
+    },
+    {
+      "slug": "snooker-pravila",
+      "title": "Снукър: правила и точкуване за начинаещи | Всички Казина",
+      "date_modified": "2026-10-31",
+      "content_hash": "904591858a5ab498c928360c1d10d9c542143c0dbaaba5365904b509924bbcc9",
+      "status": "approved"
     }
   ],
-  "generated_utc": "2026-11-07T07:24:53Z"
+  "generated_utc": "2026-11-07T07:25:43Z"
 }
