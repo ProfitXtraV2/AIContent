@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 13,
+  "count": 14,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -87,6 +87,13 @@
       "status": "approved"
     },
     {
+      "slug": "liga-na-naciite",
+      "title": "Лига на нациите: формат и как влияе на квалификациите | Всички Казина",
+      "date_modified": "2026-11-04",
+      "content_hash": "b5905589d66d228885ee0f38b672661f8bbf0f66c4991143e437d4d4006bc652",
+      "status": "approved"
+    },
+    {
       "slug": "uimbaldon",
       "title": "Уимбълдън: история, трева и правила на турнира | Всички Казина",
       "date_modified": "2026-11-06",
@@ -94,5 +101,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-11-08T18:06:56Z"
+  "generated_utc": "2026-11-08T18:07:19Z"
 }

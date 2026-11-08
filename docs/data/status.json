@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-08T18:06:56Z",
+  "generated_utc": "2026-11-08T18:07:19Z",
   "buffer": {
     "count": 229,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 216,
-    "approved": 13,
+    "drafted": 215,
+    "approved": 14,
     "posted": 98,
     "failed": 1
   },
@@ -6636,7 +6636,7 @@
     },
     {
       "id": "vk-0324",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Лига на нациите — формат и как влияе на квалификациите",
       "keywords_or_terms": "лига на нациите, nations league, uefa лига на нациите",
