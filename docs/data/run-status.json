@@ -1,18 +1,16 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-11-07T07:15:10Z",
-  "run_finished_utc": "2026-11-07T07:38:19Z",
-  "articles_written": 1,
-  "prs_opened": [
-    352
-  ],
-  "run_url": "https://claude.ai/code/session_01AwuYFRwvkGQoW7tTYMQScQ",
-  "note": "daily run 2026-11-07 — throttled intake (MAX_PER_RUN=1). Reconcile clean on entry (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review NOT due (marker 2026-11 = current). WROTE 1 NEW guide vk-0327 „НБА — как работи сезонът, конференциите и плейофите\" (top open P0 backlog row, sports-guide batch, owner-approved), PR #352. Evergreen how-the-season-works guide (guides-only ✓: 0 operator/НАП/affiliate; 0 current standings/results/fixtures/rosters/odds; 0 predictions). DISTINCT new pillar (no basketball article in queue or sitemap). Cluster нба 4200/kd6 WIN. Dedup vs queue (0) + live sitemap (165 URLs) = clean. Факти EN Wikipedia (NBA/NBA playoffs/NBA Cup/Larry O'Brien Trophy): 1946 BAA→1949 НБА; 30 отбора (29 САЩ+1 Канада); 2 конф. по 15, 6 дивизиона по 5; 82 мача (окт–апр); NBA Cup от 2023/24 (6 групи по 5, групови мача броят за сезона, финалът не); плейин места 7–10 (2020/формат 2021)→последни 2 места; плейофи 16 (8+8), 4 кръга до 4 победи, фиксирана схема; финал Изток vs Запад ~юни; купа „Лари О'Брайън\" (1984); титли към есента на 2026 г. Селтикс 18/Лейкърс 17 (стамп). 0 [VERIFY]. Gate 95 PASS 0-crit. Gemini Step-7 keep-best = humaniser pass 1 (HL 35 Shows AI patterns 65% → 90 Likely human-written 90% = PASS; style-only, 0 факти/числа/линкове/RG/дати/byline/brand; „към есента на 2026 г.\" stamp preserved). img:2 — infographic nba-sezon-struktura.svg (числа 1:1 vs 05b) Gemini review 100 PASS 0 integrity + decorative hero nba-sezon-funiya-hero.webp 25KB (топки→фуния→1 шампион, без лога/хора/текст) review 100 PASS 0 integrity (PNG→ImageMagick→WebP, Pillow unavailable). ~860 думи, 0 em-dash. 4 body internal links live (zakonno-li-e/blog-sport/bonus-ruletka-sport-vsichki/blog-responsible-gambling) + otgovorna-igra footer; 0 affiliate (0 оператори). Backlog row НБА → written. AHREFS low-unit (reset 2026-11-15): no paid discovery this fire; backlog row already enriched 4200/kd6 (2026-10-28 sweep); research bank unchanged. Dashboard buffer rebuilt 230/10. Feed refreshed (14 approved). No flags resolved, nothing posted/merged/fabricated. PR #352 watched (subscribed). Human owns approval + publishing. Remaining open P0 backlog runway: Биатлон, Премиер лига, Лига 1, Вечното дерби, ЦСКА 1948, Берое, Спартак Варна, нац. отбор, Стилиян Петров, Локомотив София, Бербатов, героите от САЩ '94, клубни/играчови профили.",
+  "state": "running",
+  "run_started_utc": "2026-11-08T07:15:50Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01AwuYFTHcwMMXTGQ4HMy1n2",
+  "note": "daily run 2026-11-08 — throttled intake (MAX_PER_RUN=1). Reconcile clean on entry (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review NOT due (marker 2026-11 = current). Selecting top open P0 backlog row: Биатлон — правила, дисциплини и наказания (4200/kd0 WIN).",
   "progress": {
-    "phase": "done",
+    "phase": "writing",
     "article_index": 1,
     "article_total": 1,
-    "article_slug": "2026-11-07-nba",
+    "article_slug": "2026-11-08-biatlon-pravila",
     "stages": [
       "Synthesis",
       "Outline",
