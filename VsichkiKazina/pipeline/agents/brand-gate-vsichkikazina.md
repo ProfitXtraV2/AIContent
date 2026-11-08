@@ -40,6 +40,7 @@ PILLAR 4 — TRUST SIGNALS & DISCLOSURES (0-15) — each missing item is a CRITI
 □ Publication + last-updated dates
 □ About Всички Казина boilerplate slot
 □ Author bio slot (bylined content)
+□ Author description: Георги Тодоров is „автор на ревюта на онлайн казина“ who „проверява и оценява“ casinos — any „тества“/„тестер“/„като хоби“ wording about him is a MAJOR flag; fix to the verbatim bio in markets/bg/author.md (Tier 1 „Author bio“)
 □ The verbatim line "18+ Хазартът може да пристрасти. Играйте отговорно." + RG signposting to /otgovorna-igra/ and the национален регистър на уязвимите лица (НАП)
 □ Affiliate disclosure where commercial links exist, incl. the verbatim 1-Aug-2026 affiliate-licensing footer (site licence: заявление подадено, очаква издаване — an "issued" claim or invented licence № for the site is CRITICAL)
 □ Type-specific: НАП licence № quoted + six-criteria scoring rubric + documented "Протокол на тегленето" (reviews) / covers-and-doesn't framing + risk statements (guides) / sourcing on all claims (news) / like-for-like превъртане bases + timestamped terms (comparisons)
