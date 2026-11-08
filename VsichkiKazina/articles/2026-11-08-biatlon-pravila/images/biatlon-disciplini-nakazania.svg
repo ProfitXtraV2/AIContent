@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 660" font-family="'DejaVu Sans', Arial, Helvetica, sans-serif" role="img" aria-label="Биатлон накратко: стрелбата с 5 мишени от 50 метра и четирите основни дисциплини с техните дистанции, брой стрелби и наказание за пропуск">
+  <rect width="760" height="660" fill="#0f1420"/>
+  <text x="380" y="46" text-anchor="middle" fill="#eef2f8" font-size="25" font-weight="700">Биатлон: стрелбата и дисциплините накратко</text>
+  <text x="380" y="74" text-anchor="middle" fill="#8ea0bd" font-size="15">Ски бягане плюс стрелба, където всеки пропуск се плаща</text>
+
+  <!-- Shooting facts band -->
+  <rect x="40" y="96" width="680" height="92" rx="10" fill="#1b2435" stroke="#2f3e5a" stroke-width="1.5"/>
+  <text x="380" y="124" text-anchor="middle" fill="#eef2f8" font-size="18" font-weight="700">Огневата линия (еднаква за всички)</text>
+  <text x="380" y="150" text-anchor="middle" fill="#aab8d1" font-size="14.5">5 мишени · разстояние 50 м · легнало Ø 45 мм · право Ø 115 мм</text>
+  <text x="380" y="172" text-anchor="middle" fill="#aab8d1" font-size="14.5">Пушка калибър 5,6 мм (.22 LR) · тегло най-малко 3,5 кг</text>
+
+  <!-- Table header -->
+  <text x="40" y="224" fill="#8ea0bd" font-size="13.5" font-weight="700">ДИСЦИПЛИНА</text>
+  <text x="330" y="224" text-anchor="middle" fill="#8ea0bd" font-size="13.5" font-weight="700">МЪЖЕ / ЖЕНИ</text>
+  <text x="520" y="224" text-anchor="middle" fill="#8ea0bd" font-size="13.5" font-weight="700">СТРЕЛБИ</text>
+  <text x="648" y="224" text-anchor="middle" fill="#8ea0bd" font-size="13.5" font-weight="700">ПРОПУСК</text>
+  <line x1="40" y1="234" x2="720" y2="234" stroke="#2f3e5a" stroke-width="1.5"/>
+
+  <!-- Row 1: Individual -->
+  <rect x="40" y="244" width="680" height="58" rx="8" fill="#1b2435" stroke="#2f3e5a" stroke-width="1"/>
+  <text x="56" y="270" fill="#eef2f8" font-size="16" font-weight="700">Индивидуално</text>
+  <text x="56" y="291" fill="#7f8ea8" font-size="12.5">старт на интервали</text>
+  <text x="330" y="280" text-anchor="middle" fill="#eef2f8" font-size="15.5">20 / 15 км</text>
+  <text x="520" y="280" text-anchor="middle" fill="#eef2f8" font-size="15.5">4</text>
+  <text x="648" y="280" text-anchor="middle" fill="#f0b429" font-size="15" font-weight="700">+1 минута</text>
+
+  <!-- Row 2: Sprint -->
+  <rect x="40" y="310" width="680" height="58" rx="8" fill="#1b2435" stroke="#2f3e5a" stroke-width="1"/>
+  <text x="56" y="336" fill="#eef2f8" font-size="16" font-weight="700">Спринт</text>
+  <text x="56" y="357" fill="#7f8ea8" font-size="12.5">старт на интервали</text>
+  <text x="330" y="346" text-anchor="middle" fill="#eef2f8" font-size="15.5">10 / 7,5 км</text>
+  <text x="520" y="346" text-anchor="middle" fill="#eef2f8" font-size="15.5">2</text>
+  <text x="648" y="346" text-anchor="middle" fill="#f0b429" font-size="15" font-weight="700">150 м</text>
+
+  <!-- Row 3: Pursuit -->
+  <rect x="40" y="376" width="680" height="58" rx="8" fill="#1b2435" stroke="#2f3e5a" stroke-width="1"/>
+  <text x="56" y="402" fill="#eef2f8" font-size="16" font-weight="700">Преследване</text>
+  <text x="56" y="423" fill="#7f8ea8" font-size="12.5">старт по спринта (топ 60)</text>
+  <text x="330" y="412" text-anchor="middle" fill="#eef2f8" font-size="15.5">12,5 / 10 км</text>
+  <text x="520" y="412" text-anchor="middle" fill="#eef2f8" font-size="15.5">4</text>
+  <text x="648" y="412" text-anchor="middle" fill="#f0b429" font-size="15" font-weight="700">150 м</text>
+
+  <!-- Row 4: Mass start -->
+  <rect x="40" y="442" width="680" height="58" rx="8" fill="#1b2435" stroke="#2f3e5a" stroke-width="1"/>
+  <text x="56" y="468" fill="#eef2f8" font-size="16" font-weight="700">Масов старт</text>
+  <text x="56" y="489" fill="#7f8ea8" font-size="12.5">30 души едновременно</text>
+  <text x="330" y="478" text-anchor="middle" fill="#eef2f8" font-size="15.5">15 / 12,5 км</text>
+  <text x="520" y="478" text-anchor="middle" fill="#eef2f8" font-size="15.5">4</text>
+  <text x="648" y="478" text-anchor="middle" fill="#f0b429" font-size="15" font-weight="700">150 м</text>
+
+  <!-- Penalty legend band -->
+  <rect x="40" y="520" width="680" height="94" rx="10" fill="#243457" stroke="#3a4c6e" stroke-width="1.5"/>
+  <text x="380" y="548" text-anchor="middle" fill="#eef2f8" font-size="16.5" font-weight="700">Наказание за пропусната мишена</text>
+  <text x="380" y="573" text-anchor="middle" fill="#aab8d1" font-size="14">Наказателна обиколка 150 м в повечето дисциплини · +1 минута в индивидуалното</text>
+  <text x="380" y="595" text-anchor="middle" fill="#aab8d1" font-size="14">По-кратка обиколка 75 м в супер спринта и единичната смесена щафета</text>
+
+  <text x="380" y="640" text-anchor="middle" fill="#6f7f9c" font-size="13">Числата следват текста на статията · 18+ Играйте отговорно</text>
+</svg>
