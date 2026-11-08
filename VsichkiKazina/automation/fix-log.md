@@ -3659,3 +3659,52 @@ No board `gemini` cells changed (no rows processed). `build_dashboard.py` and `b
 re-run on main for freshness. No posted/live content edited; nothing merged; no new article
 branches created; no `content/<folder>` branch touched (idempotent all-clean night);
 GEMINI_API_KEY never printed.
+
+## 2026-11-08 — nightly flag + score fixes
+
+### JOB A — publish-blocking flags
+Scanned every `refs/remotes/origin/content/*` branch (329 content refs; 327 carry an
+`05b-final-draft.md` — `2026-09-07-bonusi-za-dobre-doshli-2026` and
+`2026-09-07-najdobri-bonusi-za-dobre-doshli-2026` have none, the latter being the lone
+`failed` row vk-0002) for the full blocking-marker set (`[VERIFY]`, `[DATA NEEDED]`,
+`[CONFLICT]`, `[18+ / RG LINE]`, `[AUTHOR …]`, `[BRAND …]`, `[EDITORIAL]`, `[уточни …]`,
+`[провери …]`), plus a broader sweep (any uppercase/Cyrillic-directive bracketed token,
+TODO/FIXME/PLACEHOLDER). **Zero blocking flags on any branch.** Every bracketed match found was a
+legitimate markdown link anchor whose text happens to begin with the Bulgarian verb „провери/
+проверка" (e.g. `[проверката на лиценза на казино](/blog/proverka-licenz-kazino/)` in
+kyc-verifikaciya, lotaria-vidove, evrodzhakpot, onlayn-mashini, koe-kazino-da-izberete,
+rechnik-kazino-termini) — a `[text](url)` link, never a `[директива]` flag. Nothing to resolve;
+no branch touched.
+
+### JOB B — low Gemini score
+**Zero targets.** No row with status ∈ {drafted, approved} has a verdict of `ai <n>` or
+`human <n>`<80. Across all 229 drafted/approved rows the human-likeness distribution is
+95:5, 90:39, 85:95, 80:21 — minimum **80**, which meets the PASS threshold (n≥80). The remaining
+69 drafted/approved rows carry `skipped` (never Step-7-scored), which by definition is neither
+`ai <n>` nor `human <n>` and therefore not a JOB B target. Idempotency rule applied — every
+flag-free, already-≥80 draft left untouched. No `gemini_check.py` call made (no qualifying
+target); GEMINI_API_KEY not used tonight.
+
+### POSTED — needs human review
+- **vk-0063 — `2026-09-13-nv-casino-zakonno-li-e` (PR #79), `ai 75`, status posted/live.** Carried
+  forward — live content, never edited per policy. Still the only posted row below the human-80
+  threshold. A human should decide whether to re-humanise and re-publish off-line.
+
+### Deferred
+None — the ≤10/night JOB B cap was not reached (0 qualifying targets).
+
+Observation (not a JOB B target, logged for human awareness): 69 drafted/approved rows still carry
+gemini `skipped` — never scored (Step-7 unavailable at draft time). Not JOB B targets by
+definition; left to the daily-run Step-7 backfill rather than scored here. All are flag-free
+(JOB A verified), so publish-blockable only by flags, not by score. Flagging the backlog size in
+case a human wants a dedicated backfill pass.
+
+### Finish
+No board `gemini` cells changed (no rows processed). `build_dashboard.py` (buffer 229/10) and
+`build_feed.py` (14 approved) re-run on main for freshness: `build_feed.py` propagated a
+previously-committed author-bio byline refresh from the `content/2026-10-23-svara-pravila` and
+`content/2026-10-14-elektronna-ruletka` branches (both status `approved`) into the `published/`
+feed, which had been stale relative to those branch sources — no content authored here, the feed
+is a deterministic regeneration from committed branch content. No posted/live content edited;
+nothing merged; no new article branches created; no `content/<folder>` branch touched (idempotent
+all-clean night); GEMINI_API_KEY never printed.
