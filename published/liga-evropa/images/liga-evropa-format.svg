@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 500" role="img" aria-label="Инфографика: формат и класиране на Лига Европа към есента на 2026 г.">
+  <defs>
+    <style>
+      .bg{fill:#eef2f8;}
+      .card{fill:#ffffff;stroke:#d8e0ee;stroke-width:1;}
+      .title{fill:#10233f;font-family:'Segoe UI',Arial,sans-serif;font-size:25px;font-weight:700;}
+      .sub{fill:#5c6a82;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+      .colh{fill:#15317e;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;}
+      .big{fill:#10233f;font-family:'Segoe UI',Arial,sans-serif;font-size:26px;font-weight:800;}
+      .lbl{fill:#2a3242;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;}
+      .foot{fill:#5c6a82;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="820" height="500"/>
+  <rect class="card" x="8" y="8" width="804" height="484" rx="14"/>
+
+  <text class="title" x="410" y="50" text-anchor="middle">Лига Европа: формат и класиране</text>
+  <text class="sub" x="410" y="72" text-anchor="middle">към есента на 2026 г.</text>
+  <line x1="40" y1="92" x2="780" y2="92" stroke="#d8e0ee" stroke-width="1"/>
+
+  <!-- Left column: format -->
+  <text class="colh" x="40" y="124">Форматът (швейцарски модел)</text>
+
+  <text class="big" x="95"  y="170" text-anchor="middle">36</text>
+  <text class="lbl" x="150" y="170">отбора в една обща класация</text>
+
+  <text class="big" x="95"  y="222" text-anchor="middle">8</text>
+  <text class="lbl" x="150" y="222">мача за всеки отбор</text>
+
+  <text class="big" x="95"  y="274" text-anchor="middle">4+4</text>
+  <text class="lbl" x="150" y="274">у дома и на гости</text>
+
+  <!-- Divider -->
+  <line x1="400" y1="108" x2="400" y2="320" stroke="#d8e0ee" stroke-width="1"/>
+
+  <!-- Right column: standings -->
+  <text class="colh" x="430" y="124">Класиране след лиговата фаза</text>
+
+  <text class="big" x="482" y="170" text-anchor="middle">1–8</text>
+  <text class="lbl" x="540" y="170">директно на 1/8-финал</text>
+
+  <text class="big" x="482" y="222" text-anchor="middle">9–24</text>
+  <text class="lbl" x="540" y="222">двоен плейоф</text>
+
+  <text class="big" x="482" y="274" text-anchor="middle">25–36</text>
+  <text class="lbl" x="540" y="274">отпадат</text>
+
+  <!-- Footer -->
+  <line x1="40" y1="340" x2="780" y2="340" stroke="#d8e0ee" stroke-width="1"/>
+  <text class="foot" x="40" y="372">Купа на УЕФА от 1971 г. · име „Лига Европа" от 2009/10 · швейцарски модел от 2024/25.</text>
+  <text class="foot" x="40" y="398">Рекордьор по титли: Севиля — 7. Победителят се класира за следващата Шампионска лига.</text>
+  <text class="foot" x="40" y="430">Всички числа следват текста на статията. 18+ Играйте отговорно.</text>
+</svg>
