@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 540" role="img" aria-label="Инфографика за формата на Премиер лига: 20 отбора играят всеки срещу всеки по два пъти, за 38 мача на отбор и 380 мача общо за сезона от август до май; победа 3 точки, равен 1 точка, загуба 0 точки; първите 4 до 5 места отиват в Европа, а последните 3 отбора изпадат в Чемпиъншип.">
+  <defs>
+    <style>
+      .bg{fill:#0f1b2d;}
+      .card{fill:#16263d;stroke:#2b3f5c;stroke-width:1;}
+      .accent{fill:#1f9d6b;}
+      .accentmid{fill:#caa23a;}
+      .accentlow{fill:#a1485a;}
+      .t{font-family:'DejaVu Sans',Arial,Helvetica,sans-serif;fill:#eaf0f7;}
+      .muted{fill:#9fb0c6;}
+      .big{font-family:'DejaVu Sans',Arial,Helvetica,sans-serif;fill:#eaf0f7;font-weight:700;}
+      .dark{fill:#0f1b2d;}
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="760" height="540" rx="14"/>
+
+  <text class="big" x="380" y="46" text-anchor="middle" font-size="26">Премиер лига: как е устроен сезонът</text>
+  <text class="t muted" x="380" y="72" text-anchor="middle" font-size="15">Една обща таблица от първия до последния кръг</text>
+
+  <!-- top: core format -->
+  <rect class="card" x="30" y="96" width="700" height="96" rx="10"/>
+  <text class="big accent" x="180" y="150" text-anchor="middle" font-size="46">20</text>
+  <text class="t muted" x="180" y="176" text-anchor="middle" font-size="15">отбора</text>
+  <text class="big" x="400" y="150" text-anchor="middle" font-size="46">38</text>
+  <text class="t muted" x="400" y="176" text-anchor="middle" font-size="15">мача за всеки отбор</text>
+  <text class="big" x="610" y="150" text-anchor="middle" font-size="46">380</text>
+  <text class="t muted" x="610" y="176" text-anchor="middle" font-size="15">мача общо за сезона</text>
+
+  <text class="t muted" x="380" y="216" text-anchor="middle" font-size="15">Всеки срещу всеки по два пъти, у дома и като гост · от август до май</text>
+
+  <!-- points row -->
+  <rect class="card" x="30" y="236" width="700" height="72" rx="10"/>
+  <text class="t" x="380" y="262" text-anchor="middle" font-size="16" font-weight="700">Точки</text>
+  <text class="big accent" x="180" y="294" text-anchor="middle" font-size="30">3</text>
+  <text class="t muted" x="260" y="294" text-anchor="start" font-size="15">победа</text>
+  <text class="big" x="380" y="294" text-anchor="middle" font-size="30">1</text>
+  <text class="t muted" x="420" y="294" text-anchor="start" font-size="15">равен</text>
+  <text class="big accentlow" x="560" y="294" text-anchor="middle" font-size="30">0</text>
+  <text class="t muted" x="600" y="294" text-anchor="start" font-size="15">загуба</text>
+
+  <!-- bottom: three zones of the table -->
+  <text class="t muted" x="380" y="340" text-anchor="middle" font-size="14">Къде водят местата в таблицата</text>
+
+  <rect class="card" x="30" y="356" width="700" height="52" rx="10"/>
+  <rect class="accent" x="30" y="356" width="8" height="52" rx="4"/>
+  <text class="t" x="54" y="380" text-anchor="start" font-size="16" font-weight="700">Първите 4–5 места</text>
+  <text class="t muted" x="54" y="399" text-anchor="start" font-size="14">квалификации за Шампионската лига (5-о място идва от коефициента на Англия)</text>
+
+  <rect class="card" x="30" y="418" width="700" height="52" rx="10"/>
+  <rect class="accentmid" x="30" y="418" width="8" height="52" rx="4"/>
+  <text class="t" x="54" y="442" text-anchor="start" font-size="16" font-weight="700">Средата на таблицата</text>
+  <text class="t muted" x="54" y="461" text-anchor="start" font-size="14">следващите места и купите водят към Лига Европа и Лига на конференциите</text>
+
+  <rect class="card" x="30" y="480" width="700" height="52" rx="10"/>
+  <rect class="accentlow" x="30" y="480" width="8" height="52" rx="4"/>
+  <text class="t" x="54" y="504" text-anchor="start" font-size="16" font-weight="700">Последните 3 места</text>
+  <text class="t muted" x="54" y="523" text-anchor="start" font-size="14">изпадане в Чемпиъншип; нагоре идват топ 2 директно + 1 през плейоф (места 3–6)</text>
+</svg>
