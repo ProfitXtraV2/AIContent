@@ -5,14 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01AwuYFVetRWjyJyR8EEQxXP",
-  "note": "daily run 2026-11-09 — throttled intake (MAX_PER_RUN=1). Reconcile clean (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review marker 2026-11 = current (not due). Selecting topic.",
+  "note": "daily run 2026-11-09 — writing 1 new guide „Премиер лига — формат, отбори\" (top open P0 backlog, vol 3600/kd2, sports scope). Facts locked from Wikipedia+official.",
   "progress": {
-    "phase": "selecting",
+    "phase": "writing",
     "article_index": 1,
     "article_total": 1,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "article_slug": "2026-11-09-premier-liga-format-otbori",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
