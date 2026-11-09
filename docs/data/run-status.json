@@ -1,30 +1,17 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-11-08T07:15:50Z",
-  "run_finished_utc": "2026-11-08T07:45:00Z",
-  "articles_written": 1,
-  "prs_opened": [
-    353
-  ],
-  "run_url": "https://claude.ai/code/session_01AwuYFTHcwMMXTGQ4HMy1n2",
-  "note": "daily run 2026-11-08 — throttled intake (MAX_PER_RUN=1). Reconcile clean on entry (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review NOT due (marker 2026-11 = current). WROTE 1 NEW guide vk-0328 „Биатлон — правила, дисциплини и наказания\" (top open P0 backlog row, sports-guide batch, owner-approved sports scope), PR #353. Evergreen rules/format guide (guides-only ✓: 0 operator/НАП/affiliate; 0 current standings/results/rankings/odds; 0 predictions). DISTINCT new pillar (no biatlon in queue or sitemap). Cluster биатлон 4200/kd0 WIN. Dedup vs queue (0) + live sitemap (167 URLs) = clean. Факти IBU (competition-formats + rules-overview) + Wikipedia (Biathlon), verified 2026-11-08: ски бягане своб. стил + стрелба .22 LR; IBU (1993); олимпийски 1960 (воен. патрул 1924); стрелба 5 мишени/50 м, легнало Ø45 мм / право Ø115 мм, пушка 5,6 мм мин. 3,5 кг; наказания — индивид. +1 мин, спринт/преслед./масов старт/щафета 150 м, супер спринт + единична смесена 75 м, къс индивид. +45 сек; формати М/Ж индивид. 20/15 4 серии · спринт 10/7,5 2 серии · преслед. 12,5/10 4 серии (топ 60) · масов старт 15/12,5 4 серии 30 души · щафета 4×7,5/4×6 2 серии 3 резервни патрона. 0 [VERIFY]. Gate 95 PASS 0-crit, 0 em-dash. Verification recalc CAUGHT a derived figure: 3 пропуска × 150 м = 450 м (не 500) → поправено, +1 мин индивид. регим отделен. Gemini Step-7 TEXT skipped (API HTTP 402 RESOURCE_EXHAUSTED → gemini=skipped; no keep-best loop). img:1 — infographic biatlon-disciplini-nakazania.svg (числа 1:1 vs 05b, Chromium-rendered OK); Gemini image review skipped (HTTP 402) → manual integrity PASS 0 log/имена/хора/измислени числа; AI hero skipped (same API). ~1040 думи. 6 body internal links live (zakonno-li-e / blog-sport / tenis-pravila-tochkuvane / bonus-ruletka-sport-vsichki / blog-responsible-gambling) + otgovorna-igra footer; 0 affiliate (0 оператори). Backlog row Биатлон → written. AHREFS low-unit (reset 2026-11-15): no paid discovery this fire; backlog row already enriched 4200/kd0 (2026-10-28 sweep); research bank unchanged (3 candidates; throttle slows intake). Dashboard buffer rebuilt 229/10. Feed refreshed. No flags resolved, nothing posted/merged/fabricated. PR #353 watched (subscribed; Claude GitHub App not installed on repo → events won't wake session, human owns review+publishing). Remaining open P0 backlog runway: Премиер лига, Лига 1, Вечното дерби, ЦСКА 1948, Берое, Спартак Варна, нац. отбор, Стилиян Петров, Локомотив София, Бербатов, героите от САЩ '94, Ливърпул, Григор Димитров, клубни/играчови профили.",
+  "state": "running",
+  "run_started_utc": "2026-11-09T07:21:04Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01AwuYFVetRWjyJyR8EEQxXP",
+  "note": "daily run 2026-11-09 — throttled intake (MAX_PER_RUN=1). Reconcile clean (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review marker 2026-11 = current (not due). Selecting topic.",
   "progress": {
-    "phase": "done",
+    "phase": "selecting",
     "article_index": 1,
     "article_total": 1,
-    "article_slug": "2026-11-08-biatlon-pravila",
-    "stages": [
-      "Synthesis",
-      "Outline",
-      "Author",
-      "Humaniser",
-      "SEO",
-      "Brand Gate",
-      "Light re-check",
-      "Images",
-      "Verification",
-      "PR"
-    ],
+    "article_slug": null,
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
     "stage_index": null,
     "stage": null
   }
