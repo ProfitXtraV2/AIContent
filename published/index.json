@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 12,
+  "count": 10,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -34,7 +34,7 @@
       "slug": "elektronna-ruletka",
       "title": "Електронна рулетка: как работи (RNG и автоматни рулетки)",
       "date_modified": "2026-10-14",
-      "content_hash": "205a5e9cd4e52433817100da5cf5e60a4bb620cc0de7a7b60f3e0006a8020c6e",
+      "content_hash": "86da704a21e6a750007ecd39274ddff0da0c72b63d373eea335745ae88ca9c61",
       "status": "approved"
     },
     {
@@ -48,7 +48,7 @@
       "slug": "svara-pravila",
       "title": "Свара правила: как се играе свара на точки",
       "date_modified": "2026-10-23",
-      "content_hash": "0042f2d7303c8e0dec700f98471fb7c08ceec21705c4bd899e1ef21c6e535384",
+      "content_hash": "633043f74149bea9dc83b06cd247a9ad56095cb7427e431298c3264486dbe43f",
       "status": "approved"
     },
     {
@@ -66,26 +66,12 @@
       "status": "approved"
     },
     {
-      "slug": "vtora-liga-format",
-      "title": "Втора лига: формат, промоция и изпадане | Всички Казина",
-      "date_modified": "2026-11-03",
-      "content_hash": "0dfe162d171d2c8d4fdf5e9e8857db7449bd65c1445ad0732c0b9685f173e4ca",
-      "status": "approved"
-    },
-    {
       "slug": "liga-na-naciite",
       "title": "Лига на нациите: формат и как влияе на квалификациите | Всички Казина",
       "date_modified": "2026-11-04",
       "content_hash": "b5905589d66d228885ee0f38b672661f8bbf0f66c4991143e437d4d4006bc652",
       "status": "approved"
-    },
-    {
-      "slug": "uimbaldon",
-      "title": "Уимбълдън: история, трева и правила на турнира | Всички Казина",
-      "date_modified": "2026-11-06",
-      "content_hash": "f804f3a01a87fe7d8528b1ab7dc990f4f82dec954db71e6f3a46eaa32b820082",
-      "status": "approved"
     }
   ],
-  "generated_utc": "2026-11-09T23:04:36Z"
+  "generated_utc": "2026-11-10T06:42:19Z"
 }
