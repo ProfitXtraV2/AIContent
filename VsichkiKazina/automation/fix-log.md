@@ -3752,3 +3752,47 @@ No board `gemini` cells changed (no rows processed). `build_dashboard.py` (buffe
 `generated_utc` timestamp line, i.e. a deterministic regeneration with no content change. No
 posted/live content edited; nothing merged; no new article branches created; no `content/<folder>`
 branch touched (idempotent all-clean night); GEMINI_API_KEY never printed.
+
+## 2026-11-10 — nightly flag + score fixes
+
+### JOB A — publish-blocking flags
+Scanned every `refs/remotes/origin/content/*` branch (all content branches) against its own
+`VsichkiKazina/articles/<folder>/05b-final-draft.md` for the full blocking-marker set
+(`[VERIFY …]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`, `[AUTHOR …]`, `[BRAND …]`,
+`[EDITORIAL]`, `[уточни …]`, `[провери …]`), plus a broader catch-all sweep for any bracketed
+uppercase/Cyrillic editorial directive. **Zero blocking flags on any branch.** Nothing to
+resolve; no branch checked out or touched.
+
+### JOB B — low Gemini score
+**Zero qualifying targets.** Across all 227 `drafted`/`approved` rows the recorded Gemini verdicts
+are 156 `human <n>` (distribution 95:5, 90:38, 85:93, 80:20 — minimum **80**, which meets the
+Step-7 PASS threshold) and **0** `ai <n>`; the remaining 71 rows are `skipped` (see observation
+below). No row carries `ai <n>` or `human <n>` with n<80, so there is nothing to humanise.
+Idempotency rule applied — every flag-free, already-≥80 draft left untouched. No `gemini_check.py`
+call made (no qualifying target); GEMINI_API_KEY not used tonight.
+
+### POSTED — needs human review
+- **vk-0063 — `2026-09-13-nv-casino-zakonno-li-e` (PR #79), `ai 75`, status posted/live.** Carried
+  forward unchanged — live content, never edited per policy. Still the only board row scoring
+  below the human-80 threshold, and it is posted/live. A human should decide whether to
+  re-humanise and re-publish off-line.
+
+### Deferred
+None — the ≤10/night JOB B cap was not reached (0 qualifying targets).
+
+Observation (not a JOB B target, logged for human awareness): 71 drafted/approved rows still carry
+gemini `skipped` — never Step-7-scored (Step-7 unavailable at draft time). By definition `skipped`
+is neither `ai <n>` nor `human <n>`, so these are not JOB B targets, and — consistent with every
+prior nightly run — they are left to the daily-run Step-7 backfill rather than scored here. Count
+rose by one vs 2026-11-09 (70→71): the newly drafted vk-0330 (`2026-11-10-ligue-1-format`, Лига 1)
+entered the board today still `skipped`. JOB A verified all are flag-free, so they are
+publish-blockable only by flags, not by score. Backlog size flagged in case a human wants a
+dedicated one-off backfill pass.
+
+### Finish
+No board `gemini` cells changed (no rows processed). `build_dashboard.py` (buffer 227/10) and
+`build_feed.py` (10 approved) re-run on main for freshness — both diffs were a single
+`generated_utc` timestamp line (deterministic regeneration, no content change); the dashboard had
+already been regenerated earlier today by the daily run. No posted/live content edited; nothing
+merged; no new article branches created; no `content/<folder>` branch touched (idempotent
+all-clean night); GEMINI_API_KEY never printed.
