@@ -1,30 +1,17 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-11-09T07:21:04Z",
-  "run_finished_utc": "2026-11-09T07:35:46Z",
-  "articles_written": 1,
-  "prs_opened": [
-    355
-  ],
-  "run_url": "https://claude.ai/code/session_01AwuYFVetRWjyJyR8EEQxXP",
-  "note": "daily run 2026-11-09 — throttled intake (MAX_PER_RUN=1). Reconcile clean on entry (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review NOT due (marker 2026-11 = current). WROTE 1 NEW guide vk-0329 „Премиер лига — формат, отбори и любопитни факти\" (top open P0 backlog, sports-guide batch, owner-approved sports scope), PR #355. Evergreen league-format guide (guides-only ✓: 0 operator/НАП/affiliate; 0 current standings/results/fixtures/odds; 0 predictions). DISTINCT new pillar — English top flight; siblings /blog/la-liga/ + /blog/efbet-liga-format-otbori/ + /blog/liga-na-konferenciite/ already live (one-pillar-per-league, no cannibalization). Dedup vs queue (0) + live sitemap (169 URLs, no premier/висша-лига slug) = clean. Cluster премиер лига 3600/kd2 WIN. Факти EN Wikipedia (Premier League) + premierleague.com, verified 2026-11-09: 20 отбора, всеки срещу всеки ×2 → 38 мача/отбор, 380 общо, авг–май; 3/1/0 точки; равенство голова разлика→голове→преки срещи→плейоф (не се е случвало); изпадат последни 3 → Чемпиъншип, нагоре топ2 директно+плейоф места 3–6; осн. 20.02.1992 (FA Premier League), първи сезон 1992/93 с 22 отбора, 20 от 1995/96, замени Първа дивизия (елит от 1888); рекорди към 2026 — МЮ 13 (рекорд във Висшата лига), Ман Сити 4 поредни 2020/21–2023/24 (пръв в Англия), Ливърпул 2024/25, Арсенал 2025/26, всички времена МЮ+Ливърпул по 20; Европа топ4–5 ШЛ (5-о от коефициента на Англия, дадено 2024/25+2025/26), следващи+ФА Къп→Лига Европа, Купа на лигата→Лига на конференциите (брой места варира); 180+ държави излъчване. 0 [VERIFY]. Gate 95 PASS 0-crit, 0 em-dash, 0 banned AI phrases. Verification recalc: 20×(19×2)=38 мача/отбор, 20×38÷2=380 ✓. Gemini Step-7 TEXT skipped (API HTTP 402 RESOURCE_EXHAUSTED → gemini=skipped; no keep-best loop). img:2 — hero schematic premier-liga-struktura-hero.svg + infographic premier-liga-format-sezon.svg (числа 1:1 vs 05b; Chromium-rendered OK); Gemini image review skipped (HTTP 402) → manual integrity PASS on both (0 лога/имена/хора/измислени числа/glamorised winning). ~1223 думи. 6 body internal links live (zakonno-li-e / blog-futbol / la-liga / efbet-liga-format-otbori / bonus-ruletka-sport-vsichki / blog-responsible-gambling) + otgovorna-igra footer; 0 affiliate (0 оператори). Backlog row Премиер лига → written. AHREFS low-unit (reset 2026-11-15): no paid discovery this fire; backlog row already enriched 3600/kd2 (2026-10-28 sweep); research bank unchanged (3 candidates; throttle slows intake). Dashboard buffer rebuilt 228/10. Feed refreshed (12 approved, unchanged). No flags resolved, nothing posted/merged/fabricated. PR #355 watched (subscribed; Claude GitHub App not installed on repo → events won't wake session, human owns review+publishing). Remaining open P0 backlog runway: Лига 1, Вечното дерби, ЦСКА 1948, Берое, Спартак Варна, нац. отбор, Стилиян Петров, Локомотив София, Етър, Пирин, Бербатов, героите от САЩ '94, европейски клубове (Атлетико/Ювентус/Милан/Интер/Байерн/Сити/Тотнъм/Наполи/Дортмунд), играчи (Холанд/Ямал/Салах/Мбапе/Модрич/Роналдиньо), Ливърпул, Григор Димитров.",
+  "state": "running",
+  "run_started_utc": "2026-11-10T07:24:24Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01AwuYFWRazxV1fAFJMT2KZL",
+  "note": "daily run 2026-11-10 — throttled intake (MAX_PER_RUN=1); reconcile clean (0 in-progress/HANDOFF/CLAIMED); monthly SEO review NOT due (marker 2026-11). Selecting top open P0 backlog row: Лига 1 (Ligue 1) league-format guide.",
   "progress": {
-    "phase": "done",
+    "phase": "writing",
     "article_index": 1,
     "article_total": 1,
-    "article_slug": "2026-11-09-premier-liga-format-otbori",
-    "stages": [
-      "Synthesis",
-      "Outline",
-      "Author",
-      "Humaniser",
-      "SEO",
-      "Brand Gate",
-      "Light re-check",
-      "Images",
-      "Verification",
-      "PR"
-    ],
+    "article_slug": "2026-11-10-ligue-1-format",
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
     "stage_index": null,
     "stage": null
   }
