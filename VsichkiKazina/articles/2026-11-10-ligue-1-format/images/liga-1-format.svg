@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 600" role="img" aria-label="Инфографика: формат и рекорди на Лига 1 към есента на 2026 г.">
+  <defs>
+    <style>
+      .bg{fill:#f5f6fa;}
+      .card{fill:#ffffff;stroke:#dce0ea;stroke-width:1;}
+      .title{fill:#111a2e;font-family:'Segoe UI',Arial,sans-serif;font-size:25px;font-weight:700;}
+      .sub{fill:#5f6b82;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+      .colh{fill:#0a3d91;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;}
+      .big{fill:#111a2e;font-family:'Segoe UI',Arial,sans-serif;font-size:26px;font-weight:800;}
+      .yr{fill:#111a2e;font-family:'Segoe UI',Arial,sans-serif;font-size:22px;font-weight:800;}
+      .lbl{fill:#273349;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;}
+      .foot{fill:#5f6b82;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="820" height="600"/>
+  <rect class="card" x="8" y="8" width="804" height="584" rx="14"/>
+
+  <text class="title" x="410" y="50" text-anchor="middle">Лига 1: формат и рекорди</text>
+  <text class="sub" x="410" y="72" text-anchor="middle">към есента на 2026 г.</text>
+  <line x1="40" y1="92" x2="780" y2="92" stroke="#dce0ea" stroke-width="1"/>
+  <rect x="40" y="92" width="247" height="3" fill="#0a3d91"/>
+  <rect x="287" y="92" width="246" height="3" fill="#ffffff"/>
+  <rect x="533" y="92" width="247" height="3" fill="#d80027"/>
+
+  <!-- Left column: format -->
+  <text class="colh" x="46" y="128">Форматът</text>
+
+  <text class="yr"  x="46" y="170">1932/33</text>
+  <text class="lbl" x="196" y="170">първи сезон</text>
+
+  <text class="big" x="46"  y="216">18</text>
+  <text class="lbl" x="196" y="216">отбора в елита</text>
+
+  <text class="big" x="46"  y="262">34</text>
+  <text class="lbl" x="196" y="262">кръга за сезон</text>
+
+  <text class="big" x="46"  y="308">306</text>
+  <text class="lbl" x="196" y="308">мача за сезон</text>
+
+  <text class="big" x="46"  y="354">3</text>
+  <text class="lbl" x="196" y="354">точки за победа</text>
+
+  <text class="yr"  x="46"  y="400">2016/17</text>
+  <text class="lbl" x="196" y="400">бараж: 16-и срещу 3-ти (Лига 2)</text>
+
+  <!-- Divider -->
+  <line x1="408" y1="108" x2="408" y2="452" stroke="#dce0ea" stroke-width="1"/>
+
+  <!-- Right column: records -->
+  <text class="colh" x="440" y="128">Рекорди по титли</text>
+
+  <text class="big" x="440" y="182">14</text>
+  <text class="lbl" x="516" y="182">титли, Пари Сен Жермен (рекорд)</text>
+
+  <text class="big" x="440" y="228">10</text>
+  <text class="lbl" x="516" y="228">титли, Сент Етиен</text>
+
+  <text class="big" x="440" y="274">9</text>
+  <text class="lbl" x="516" y="274">титли, Марсилия</text>
+
+  <text class="big" x="440" y="320">7</text>
+  <text class="lbl" x="516" y="320">поредни, Лион (2002–2008)</text>
+
+  <text class="big" x="440" y="366">618</text>
+  <text class="lbl" x="516" y="366">мача, Микаел Ландро</text>
+
+  <text class="big" x="440" y="412">299</text>
+  <text class="lbl" x="516" y="412">гола, Делио Онис</text>
+
+  <!-- Bottom strip -->
+  <line x1="40" y1="452" x2="780" y2="452" stroke="#dce0ea" stroke-width="1"/>
+  <text class="foot" x="46" y="486">Класиране при равни точки: първо головата разлика за сезона, после головете.</text>
+  <text class="foot" x="46" y="510">За разлика от Ла Лига, където първи тежат преките срещи.</text>
+  <text class="foot" x="46" y="534">Име „Лига 1“ от 2002 г.; организатор Професионалната футболна лига (LFP).</text>
+  <text class="foot" x="46" y="566">18+ Играйте отговорно. · Всички стойности следват текста на статията.</text>
+</svg>
