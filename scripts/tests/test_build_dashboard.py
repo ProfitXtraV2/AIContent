@@ -84,7 +84,8 @@ def test_queue_ahrefs_columns_and_article_opportunity():
     assert rows[0]["volume"] == "11000" and rows[0]["kd"] == "45"
     status = bd.build_status(rows, target=10)
     # article rows now carry a computed Opportunity from their target keyword's vol/kd
-    assert status["rows"][0]["opportunity"]["band"] == "Strong"
+    # KD 45 is above SITE_MAX_WINNABLE_KD (40): a high-value head is demoted to "Pillar"
+    assert status["rows"][0]["opportunity"]["band"] == "Pillar"
 
 
 def test_legacy_queue_rows_get_empty_metrics():
@@ -137,7 +138,8 @@ def test_build_status_is_json_serialisable():
 
 def test_build_status_includes_meta_schedule_and_links():
     status = bd.build_status(bd.parse_queue(SAMPLE), target=10)
-    assert status["meta"]["schedule"]["cron_utc_hours"] == [3, 7, 22]
+    # throttled to once daily on 2026-10-04 (commit e7e3bfba)
+    assert status["meta"]["schedule"]["cron_utc_hours"] == [7]
     assert status["meta"]["links"]["repo"].startswith("https://github.com/")
     assert "routine" in status["meta"]["links"]
 
