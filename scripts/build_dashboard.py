@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Build per-brand status.json (VsichkiKazina, DentalVia) from each brand's content-queue.md.
+"""Build per-brand status.json (VsichkiKazina, DentalVia, ElleDental) from each brand's content-queue.md.
 
 Brand-aware, deterministic, stdlib-only. Run from repo root:
     python3 scripts/build_dashboard.py [brand]
-where brand ∈ vsichkikazina (default) | dentalvia.
+where brand ∈ vsichkikazina (default) | dentalvia | elledental.
 """
 import json
 import os
@@ -38,6 +38,14 @@ BRANDS = {
     "dentalvia":     {"dir": "DentalVia", "brand": "DentalVia",
                       "out": ("docs", "data", "dentalvia", "status.json"),
                       "links": {"site": "https://www.dentalvia.de"}},
+    # ELLE Dental: Bulgarian clinic site, page rewrites drafted for doctor review.
+    # PAUSED by the owner on 2026-11-11: manual trigger only, produces nothing until
+    # the owner un-pauses it in writing (see ElleDental/automation/daily-run.md).
+    "elledental":    {"dir": "ElleDental", "brand": "ELLE Dental",
+                      "out": ("docs", "data", "elledental", "status.json"),
+                      "links": {"site": "https://elledental.bg"},
+                      "target": 3,
+                      "paused": "2026-11-11"},
 }
 
 # Human backlog. Ahrefs metrics (volume/kd/intent/checked/ahrefs_note) are enriched by the
@@ -176,7 +184,11 @@ def build_status(rows, backlog=None, research=None, target=10, brand="vsichkikaz
         "backlog": f"{repo}/blob/main/{brand_dir}/topic-backlog.md",
         "queue": f"{repo}/blob/main/{brand_dir}/content-queue.md",
     }
-    if brand == "dentalvia":
+    if brand_cfg.get("paused"):
+        schedule_meta = {"note": f"PAUSED by owner on {brand_cfg['paused']} — manual trigger only, "
+                                 "do not run until the owner un-pauses it in writing",
+                         "paused": True}
+    elif brand == "dentalvia":
         schedule_meta = {"note": "manual runs only — not scheduled"}
     else:
         schedule_meta = SCHEDULE
@@ -307,7 +319,8 @@ def main():
     bl = backlog_f.read_text(encoding="utf-8") if backlog_f.exists() else ""
     rs = research_f.read_text(encoding="utf-8") if research_f.exists() else ""
     status = build_status(parse_queue(md, brand=brand), backlog=parse_backlog(bl),
-                          research=parse_research(rs), target=10, brand=brand)
+                          research=parse_research(rs), target=brand_cfg.get("target", 10),
+                          brand=brand)
     attach_verify_flags(status["rows"], lambda r: _read_final_draft(root, brand_dir, r))
     if brand == "vsichkikazina":
         sr_f = root / "docs" / "data" / "seo-review.json"

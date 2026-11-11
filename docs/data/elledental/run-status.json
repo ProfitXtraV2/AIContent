@@ -1,0 +1,14 @@
+{
+  "state": "idle",
+  "run_started_utc": null,
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": null,
+  "note": "PAUSED by owner on 2026-11-11 — onboarded, no runs until the owner un-pauses it in writing",
+  "progress": {
+    "phase": "paused",
+    "stage": null,
+    "stage_index": null
+  }
+}

@@ -1,0 +1,565 @@
+{
+  "generated_utc": "2026-11-11T18:22:24Z",
+  "buffer": {
+    "count": 0,
+    "target": 3,
+    "deficit": 3,
+    "ok": false
+  },
+  "counts": {
+    "in-progress": 0,
+    "drafted": 0,
+    "approved": 0,
+    "posted": 0,
+    "failed": 0
+  },
+  "rows": [],
+  "backlog": [
+    {
+      "priority": "1",
+      "type": "page-rewrite",
+      "query": "/ortodontsko-lechenie-s-alajneri/",
+      "keywords_or_terms": "алайнери, алайнери за зъби, прозрачни шини",
+      "volume": "4900",
+      "kd": "0",
+      "intent": "informational, commercial",
+      "checked": "ahrefs",
+      "ahrefs_note": "Ahrefs bg 2026-11-11: алайнери 4,900, KD 0; voevadental.com (DR 9) #1 with a 7-question FAQ, ortodentbg.com #3 with ~2,900 words + 10 FAQs. Biggest opportunity.",
+      "status": "paused",
+      "notes": "H1: Алайнери за зъби: изправяне с прозрачни шини. Add a full FAQ from real patient questions. „прозрачни шини за зъби“ 0 vol; invisalign 900/KD 62 is a brand term, not used.",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "2",
+      "type": "page-rewrite",
+      "query": "/mezoterapija-i-biorevitalizacija/",
+      "keywords_or_terms": "мезотерапия, скинбустер, биоревитализация",
+      "volume": "3400",
+      "kd": "0",
+      "intent": "informational, commercial",
+      "checked": "ahrefs",
+      "ahrefs_note": "Ahrefs bg: мезотерапия 3,400 KD 0; скинбустер 500 KD 0 (branded intent); биоревитализация 100 KD 0.",
+      "status": "paused",
+      "notes": "Injectable page: named risks and contraindications mandatory; no brand names.",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "3",
+      "type": "page-rewrite",
+      "query": "/izbelvane-na-zabi/",
+      "keywords_or_terms": "избелване на зъби",
+      "volume": "2900",
+      "kd": "0",
+      "intent": "informational, commercial, transactional",
+      "checked": "ahrefs",
+      "ahrefs_note": "Ahrefs bg: 2,900, KD 0; parent topic „избелване на зъби софия“.",
+      "status": "paused",
+      "notes": "No product names (Opalescence banned). Spec: complete the cut-off sentence.",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "4",
+      "type": "page-rewrite",
+      "query": "/pochistvane-na-zaben-kamak-i-polirane/",
+      "keywords_or_terms": "почистване на зъбен камък, зъбен камък",
+      "volume": "1000",
+      "kd": "0",
+      "intent": "informational, commercial, local",
+      "checked": "ahrefs",
+      "ahrefs_note": "Ahrefs bg: почистване на зъбен камък 1,000 KD 0; зъбен камък 2,600 KD 0 (informational).",
+      "status": "paused",
+      "notes": "Spec lists this page as thin: expand with real patient questions.",
+      "opportunity": {
+        "score": 90,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "5",
+      "type": "page-rewrite",
+      "query": "/bonding/",
+      "keywords_or_terms": "бондинг на зъби, бондинг",
+      "volume": "1200",
+      "kd": "0",
+      "intent": "informational, commercial",
+      "checked": "ahrefs",
+      "ahrefs_note": "Ahrefs bg: бондинг на зъби 1,200 KD 0; бондинг 2,500 KD 0 (a DR 1 site ranks #7).",
+      "status": "paused",
+      "notes": "",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "6",
+      "type": "page-rewrite",
+      "query": "/faseti/",
+      "keywords_or_terms": "фасети за зъби, фасети, порцеланови фасети",
+      "volume": "350",
+      "kd": "0",
+      "intent": "informational, commercial",
+      "checked": "ahrefs",
+      "ahrefs_note": "Ahrefs bg: фасети за зъби 350 KD 0; фасети 2,500 KD 0; порцеланови фасети 70.",
+      "status": "paused",
+      "notes": "Competitors publish prices; ELLE does not (spec).",
+      "opportunity": {
+        "score": 58,
+        "band": "Good",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "7",
+      "type": "page-rewrite",
+      "query": "/precizni-intervencii-s-minimalen-diskomfort/",
+      "keywords_or_terms": "вадене на мъдрец, вадене на зъб, дентална хирургия",
+      "volume": "1000",
+      "kd": "0",
+      "intent": "informational, commercial",
+      "checked": "ahrefs",
+      "ahrefs_note": "Ahrefs bg: вадене на мъдрец 1,000 KD 0; вадене на зъб 500 KD 0; суха алвеола 100.",
+      "status": "paused",
+      "notes": "Slug misspelling stays. H1: Вадене на зъб и мъдрец и дентална хирургия.",
+      "opportunity": {
+        "score": 90,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "8",
+      "type": "page-rewrite",
+      "query": "/lechenie-na-karies/",
+      "keywords_or_terms": "лечение на кариес, кариес, пломба",
+      "volume": "100",
+      "kd": "0",
+      "intent": "informational, commercial",
+      "checked": "ahrefs",
+      "ahrefs_note": "Ahrefs bg: лечение на кариес 100 KD 0; кариес 1,600 KD 0; пломба 250 KD 0.",
+      "status": "paused",
+      "notes": "",
+      "opportunity": {
+        "score": 45,
+        "band": "Good",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "9",
+      "type": "page-rewrite",
+      "query": "/",
+      "keywords_or_terms": "дентална клиника софия, зъболекар софия",
+      "volume": "500",
+      "kd": "0",
+      "intent": "informational, commercial, local",
+      "checked": "ahrefs",
+      "ahrefs_note": "Ahrefs bg: дентална клиника софия 500 KD 0 (directories DR 1-16 rank); зъболекар софия 1,000 KD 54 (Superdoc #1-2).",
+      "status": "paused",
+      "notes": "Home page. Title/H1 name София and Света Троица.",
+      "opportunity": {
+        "score": 65,
+        "band": "Good",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "10",
+      "type": "page-rewrite",
+      "query": "/protezi/",
+      "keywords_or_terms": "зъбни протези, протези",
+      "volume": "800",
+      "kd": "0",
+      "intent": "informational, commercial",
+      "checked": "ahrefs",
+      "ahrefs_note": "Ahrefs bg: зъбни протези 800 KD 0.",
+      "status": "paused",
+      "notes": "",
+      "opportunity": {
+        "score": 80,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "11",
+      "type": "page-rewrite",
+      "query": "/dalboko-pochistvane-zakrit-i-otkrit-kjuretazh/",
+      "keywords_or_terms": "кюретаж на венци, кюретаж",
+      "volume": "700",
+      "kd": "0",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "Ahrefs bg: кюретаж 700 KD 0 (metric for „кюретаж“; „кюретаж на венци“ not measured). Site ranks #1 for „кюретаж на зъб“ (40).",
+      "status": "paused",
+      "notes": "Protect the existing #1 ranking: keep the term.",
+      "opportunity": {
+        "score": 75,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "12",
+      "type": "page-rewrite",
+      "query": "/zabni-koroni/",
+      "keywords_or_terms": "зъбни коронки, циркониеви коронки, коронка за зъб",
+      "volume": "70",
+      "kd": "0",
+      "intent": "informational, commercial",
+      "checked": "ahrefs",
+      "ahrefs_note": "Ahrefs bg: зъбни коронки 70 KD 0; циркониеви коронки 700 KD 0; коронки 80.",
+      "status": "paused",
+      "notes": "Use „циркониеви коронки“ only if the clinic confirms it makes them (clinical item).",
+      "opportunity": {
+        "score": 44,
+        "band": "Moderate",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "13",
+      "type": "page-rewrite",
+      "query": "/diagnostika-i-lechenie-na-gingivit-i-parodontit/",
+      "keywords_or_terms": "пародонтоза, гингивит, пародонтит, кървене на венците",
+      "volume": "600",
+      "kd": "0",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "Ahrefs bg: пародонтоза 600 KD 0 (parent of пародонтит 400); гингивит 700 KD 0; кървене на венците 150.",
+      "status": "paused",
+      "notes": "Gum disease page; never swap with /lechenie-na-peridontiti/.",
+      "opportunity": {
+        "score": 70,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "14",
+      "type": "page-rewrite",
+      "query": "/lechenie-na-pulpiti/",
+      "keywords_or_terms": "пулпит, пулпит симптоми, кореново лечение",
+      "volume": "500",
+      "kd": "0",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "Ahrefs bg: пулпит 500 KD 0 (parent „пулпит симптоми“); кореново лечение 90.",
+      "status": "paused",
+      "notes": "Symptoms first.",
+      "opportunity": {
+        "score": 65,
+        "band": "Good",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "15",
+      "type": "page-rewrite",
+      "query": "/lechenie-na-peridontiti/",
+      "keywords_or_terms": "периодонтит, гранулом на зъб, възпаление на зъбен корен",
+      "volume": "350",
+      "kd": "0",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "Ahrefs bg: периодонтит 350 KD 0 (parent „възпаление на зъбен корен“); гранулом на зъб 300 KD 0.",
+      "status": "paused",
+      "notes": "Root-apex inflammation, not gum disease. Slug misspelling stays.",
+      "opportunity": {
+        "score": 58,
+        "band": "Good",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "16",
+      "type": "page-rewrite",
+      "query": "/botulinov-toksin/",
+      "keywords_or_terms": "ботулинов токсин",
+      "volume": "450",
+      "kd": "0",
+      "intent": "informational, commercial",
+      "checked": "ahrefs",
+      "ahrefs_note": "Ahrefs bg: ботулинов токсин 450 KD 0. „ботокс“ (2,100) is barred by the spec pending the lawyer's answer.",
+      "status": "paused",
+      "notes": "Neutral medical information only: no booking, doctors, Superdoc, brand names or medical-use claims.",
+      "opportunity": {
+        "score": 62,
+        "band": "Good",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "17",
+      "type": "page-rewrite",
+      "query": "/silanti/",
+      "keywords_or_terms": "силанти за зъби, силанти",
+      "volume": "300",
+      "kd": "0",
+      "intent": "informational, commercial",
+      "checked": "ahrefs",
+      "ahrefs_note": "Ahrefs bg: силанти 300 KD 0 (metric for „силанти“; „силанти за зъби“ not measured).",
+      "status": "paused",
+      "notes": "Spec lists this page as thin.",
+      "opportunity": {
+        "score": 55,
+        "band": "Good",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "18",
+      "type": "page-rewrite",
+      "query": "/lechenie-na-karies-pri-deca/",
+      "keywords_or_terms": "кариес при деца, кариес на млечни зъби, детски зъболекар софия",
+      "volume": "150",
+      "kd": "0",
+      "intent": "informational",
+      "checked": "ahrefs",
+      "ahrefs_note": "Ahrefs bg: кариес на млечни зъби 150 KD 0; кариес при деца 30 (KD not given); детски зъболекар софия 350 KD 44.",
+      "status": "paused",
+      "notes": "Parent-led page.",
+      "opportunity": {
+        "score": 48,
+        "band": "Good",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "19",
+      "type": "page-rewrite",
+      "query": "/zabni-mostove/",
+      "keywords_or_terms": "зъбни мостове, мост на зъби",
+      "volume": "50",
+      "kd": "0",
+      "intent": "informational, commercial",
+      "checked": "ahrefs",
+      "ahrefs_note": "Ahrefs bg: зъбни мостове 50 KD 0 (parent „мост на зъби“).",
+      "status": "paused",
+      "notes": "",
+      "opportunity": {
+        "score": 42,
+        "band": "Moderate",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "20",
+      "type": "page-rewrite",
+      "query": "/dermalni-filari/",
+      "keywords_or_terms": "дермални филъри, филъри",
+      "volume": "100",
+      "kd": "0",
+      "intent": "informational, commercial",
+      "checked": "ahrefs",
+      "ahrefs_note": "Ahrefs bg: дермални филъри 100 KD 0; филъри 250 KD 0; хиалурон за устни 80.",
+      "status": "paused",
+      "notes": "Injectable page: named risks and contraindications mandatory.",
+      "opportunity": {
+        "score": 45,
+        "band": "Good",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "21",
+      "type": "page-rewrite",
+      "query": "/kontakti/",
+      "keywords_or_terms": "дентална клиника Света Троица, зъболекар света троица",
+      "volume": "10",
+      "kd": "0",
+      "intent": "local",
+      "checked": "ahrefs",
+      "ahrefs_note": "Ahrefs bg: зъболекар света троица 10 KD 0 (site #10). Main term itself not measured.",
+      "status": "paused",
+      "notes": "Address, phone and hours first (spec).",
+      "opportunity": {
+        "score": 40,
+        "band": "Moderate",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "22",
+      "type": "page-rewrite",
+      "query": "/profilaktichni-pregledi/",
+      "keywords_or_terms": "профилактичен преглед при зъболекар",
+      "volume": "",
+      "kd": "",
+      "intent": "",
+      "checked": "none",
+      "ahrefs_note": "Not measured in the 2026-11-11 Ahrefs pull.",
+      "status": "paused",
+      "notes": "Spec lists this page as thin.",
+      "opportunity": null
+    },
+    {
+      "priority": "23",
+      "type": "page-rewrite",
+      "query": "/profilaktika-i-obuchenie/",
+      "keywords_or_terms": "детска дентална профилактика",
+      "volume": "",
+      "kd": "",
+      "intent": "",
+      "checked": "none",
+      "ahrefs_note": "Not measured in the 2026-11-11 Ahrefs pull.",
+      "status": "paused",
+      "notes": "Spec lists this page as thin. Parent-led.",
+      "opportunity": null
+    },
+    {
+      "priority": "24",
+      "type": "page-rewrite",
+      "query": "/poddarzhashta-terapija/",
+      "keywords_or_terms": "поддържаща пародонтална терапия",
+      "volume": "",
+      "kd": "",
+      "intent": "",
+      "checked": "none",
+      "ahrefs_note": "Not measured in the 2026-11-11 Ahrefs pull.",
+      "status": "paused",
+      "notes": "",
+      "opportunity": null
+    },
+    {
+      "priority": "25",
+      "type": "page-rewrite",
+      "query": "/za-nas/",
+      "keywords_or_terms": "ELLE Dental Clinic",
+      "volume": "",
+      "kd": "",
+      "intent": "navigational",
+      "checked": "none",
+      "ahrefs_note": "Brand term; not measured.",
+      "status": "paused",
+      "notes": "Trust page: legal entity, БЗС, history only where sourced (questionnaire pending).",
+      "opportunity": null
+    },
+    {
+      "priority": "26",
+      "type": "page-rewrite",
+      "query": "/d-r-elena-manolova/",
+      "keywords_or_terms": "д-р Елена Манолова",
+      "volume": "",
+      "kd": "",
+      "intent": "navigational",
+      "checked": "none",
+      "ahrefs_note": "Doctor-name term; not measured. Expected #1 after launch.",
+      "status": "paused",
+      "notes": "Facts only from Superdoc canon (2026-11-10) with confirm items.",
+      "opportunity": null
+    },
+    {
+      "priority": "27",
+      "type": "page-rewrite",
+      "query": "/d-r-teodora-yancheva/",
+      "keywords_or_terms": "д-р Теодора Янчева",
+      "volume": "",
+      "kd": "",
+      "intent": "navigational",
+      "checked": "none",
+      "ahrefs_note": "Doctor-name term; not measured. Expected #1 after launch.",
+      "status": "paused",
+      "notes": "Facts only from Superdoc canon (2026-11-10) with confirm items.",
+      "opportunity": null
+    },
+    {
+      "priority": "28",
+      "type": "page-rewrite",
+      "query": "/privacy/",
+      "keywords_or_terms": "политика за поверителност",
+      "volume": "",
+      "kd": "",
+      "intent": "",
+      "checked": "none",
+      "ahrefs_note": "Not an SEO target.",
+      "status": "paused",
+      "notes": "Legal text: the pipeline does not draft it; the owner/lawyer supplies the real policy (spec open item 3).",
+      "opportunity": null
+    },
+    {
+      "priority": "29",
+      "type": "new-page",
+      "query": "зъбни импланти (no address yet)",
+      "keywords_or_terms": "зъбни импланти",
+      "volume": "1300",
+      "kd": "0",
+      "intent": "informational, commercial",
+      "checked": "ahrefs",
+      "ahrefs_note": "Ahrefs bg: 1,300 KD 0, no page today.",
+      "status": "blocked: owner decision",
+      "notes": "Only if the clinic places implants (spec: out of scope for v1; „come later through AIContent“). Owner must approve the page and its address.",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "30",
+      "type": "new-page",
+      "query": "спешен зъболекар / остра зъбобол (no address yet)",
+      "keywords_or_terms": "спешен зъболекар софия",
+      "volume": "200",
+      "kd": "0",
+      "intent": "informational, commercial, local",
+      "checked": "ahrefs",
+      "ahrefs_note": "Ahrefs bg: 200 KD 0 (parent „денонощен зъболекар софия“).",
+      "status": "blocked: owner decision",
+      "notes": "The clinic has NO emergency service or out-of-hours number. Only a neutral „what to do with acute toothache“ page could fit, never a promise of emergency care. Owner decision.",
+      "opportunity": {
+        "score": 50,
+        "band": "Good",
+        "winnable": true
+      }
+    },
+    {
+      "priority": "31",
+      "type": "new-page",
+      "query": "детски зъболекар (hub, no address yet)",
+      "keywords_or_terms": "детски зъболекар софия",
+      "volume": "350",
+      "kd": "44",
+      "intent": "informational, commercial, local",
+      "checked": "ahrefs",
+      "ahrefs_note": "Ahrefs bg: 350 KD 44.",
+      "status": "blocked: owner decision",
+      "notes": "Spec lists a children's dentist hub as a later page. Risk of overlap with /lechenie-na-karies-pri-deca/ and /profilaktika-i-obuchenie/. Owner decision.",
+      "opportunity": {
+        "score": 40,
+        "band": "Moderate",
+        "winnable": false
+      }
+    }
+  ],
+  "research": [],
+  "articles_base_url": "https://github.com/ProfitXtraV2/AIContent/tree/main/ElleDental/articles/",
+  "meta": {
+    "brand": "ELLE Dental",
+    "schedule": {
+      "note": "PAUSED by owner on 2026-11-11 — manual trigger only, do not run until the owner un-pauses it in writing",
+      "paused": true
+    },
+    "links": {
+      "repo": "https://github.com/ProfitXtraV2/AIContent",
+      "prs": "https://github.com/ProfitXtraV2/AIContent/pulls",
+      "site": "https://elledental.bg",
+      "backlog": "https://github.com/ProfitXtraV2/AIContent/blob/main/ElleDental/topic-backlog.md",
+      "queue": "https://github.com/ProfitXtraV2/AIContent/blob/main/ElleDental/content-queue.md"
+    }
+  }
+}

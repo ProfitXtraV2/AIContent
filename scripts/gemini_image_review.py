@@ -11,7 +11,7 @@ and re-checks — mirroring the Step-7 text loop (keep-best, commit trail).
 - SVG infographics are sent as their SOURCE TEXT (Gemini reads the markup, so it can verify
   the labels/numbers match the article) — no local SVG rasteriser is required in the cloud.
 
-Usage:  python3 scripts/gemini_image_review.py <article_file> <image1> [image2 ...] [--brand dentalvia]
+Usage:  python3 scripts/gemini_image_review.py <article_file> <image1> [image2 ...] [--brand dentalvia|elledental]
 Exit:   0 = ok (verdict on stdout) · 2 = unavailable/error (caller falls back to skip)
 
 stdlib-only (urllib).
@@ -30,6 +30,7 @@ API_TMPL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:gene
 BRAND_PROMPTS = {
     "vsichkikazina": "VsichkiKazina/pipeline/prompts/step-8-image-review.md",
     "dentalvia": "DentalVia/pipeline/prompts/step-8-image-review.md",
+    "elledental": "ElleDental/pipeline/prompts/step-8-image-review.md",
 }
 def prompt_file(brand="vsichkikazina"):
     if brand not in BRAND_PROMPTS:
