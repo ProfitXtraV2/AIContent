@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520" role="img" aria-label="Инфографика с ключовите числа на вечното дерби Левски и ЦСКА към есента на 2026 г.">
+  <defs>
+    <style>
+      .bg{fill:#f5f6fa;}
+      .card{fill:#ffffff;stroke:#dce0ea;stroke-width:1;}
+      .title{fill:#111a2e;font-family:'Segoe UI',Arial,sans-serif;font-size:25px;font-weight:700;}
+      .sub{fill:#5f6b82;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+      .colh{fill:#1b4ea0;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;}
+      .big{fill:#111a2e;font-family:'Segoe UI',Arial,sans-serif;font-size:26px;font-weight:800;}
+      .lbl{fill:#273349;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;}
+      .foot{fill:#5f6b82;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="820" height="520"/>
+  <rect class="card" x="8" y="8" width="804" height="504" rx="14"/>
+
+  <text class="title" x="410" y="50" text-anchor="middle">Вечното дерби: Левски и ЦСКА</text>
+  <text class="sub" x="410" y="72" text-anchor="middle">ключови числа, към есента на 2026 г.</text>
+  <line x1="40" y1="92" x2="780" y2="92" stroke="#dce0ea" stroke-width="1"/>
+  <rect x="40" y="92" width="370" height="3" fill="#1b4ea0"/>
+  <rect x="410" y="92" width="370" height="3" fill="#d80027"/>
+
+  <!-- Left column: beginnings and scale -->
+  <text class="colh" x="46" y="128">Началото и мащабът</text>
+
+  <text class="big" x="46"  y="172">1948</text>
+  <text class="lbl" x="150" y="172">първо дерби (5 май)</text>
+
+  <text class="big" x="46"  y="218">1:0</text>
+  <text class="lbl" x="150" y="218">резултат на първия мач</text>
+
+  <text class="big" x="46"  y="264">12 000</text>
+  <text class="lbl" x="150" y="264">зрители на „Юнак" (1948)</text>
+
+  <text class="big" x="46"  y="310">220+</text>
+  <text class="lbl" x="150" y="310">официални мача</text>
+
+  <!-- Divider -->
+  <line x1="408" y1="108" x2="408" y2="330" stroke="#dce0ea" stroke-width="1"/>
+
+  <!-- Right column: records -->
+  <text class="colh" x="440" y="128">Рекорди</text>
+
+  <text class="big" x="440" y="172">22:9</text>
+  <text class="lbl" x="536" y="172">Купа на България (Левски води)</text>
+
+  <text class="big" x="440" y="218">7:1</text>
+  <text class="lbl" x="536" y="218">най-голяма разлика (1994)</text>
+
+  <text class="big" x="440" y="264">70 000</text>
+  <text class="lbl" x="536" y="264">рекордна публика (1967)</text>
+
+  <line x1="40" y1="470" x2="780" y2="470" stroke="#dce0ea" stroke-width="1"/>
+  <text class="foot" x="46" y="494">Числата следват текста на статията.</text>
+  <text class="foot" x="774" y="494" text-anchor="end">18+ Играйте отговорно</text>
+</svg>
