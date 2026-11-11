@@ -5,14 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01AwuYFVYREKNF8Ffpm13VQq",
-  "note": "daily run 2026-11-11 — throttled intake (MAX_PER_RUN=1). Reconcile clean (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review NOT due (marker 2026-11 = current). Selecting topic.",
+  "note": "daily run 2026-11-11 — throttled (MAX_PER_RUN=1). Writing vk-0331 Вечно дерби Левски–ЦСКА (top open P0 backlog). Stage: Synthesis.",
   "progress": {
-    "phase": "selecting",
-    "article_index": null,
-    "article_total": null,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "phase": "writing",
+    "article_index": 1,
+    "article_total": 1,
+    "article_slug": "2026-11-11-vechno-derbi-levski-cska",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
