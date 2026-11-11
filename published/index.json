@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 10,
+  "count": 8,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -34,7 +34,7 @@
       "slug": "elektronna-ruletka",
       "title": "Електронна рулетка: как работи (RNG и автоматни рулетки)",
       "date_modified": "2026-10-14",
-      "content_hash": "205a5e9cd4e52433817100da5cf5e60a4bb620cc0de7a7b60f3e0006a8020c6e",
+      "content_hash": "86da704a21e6a750007ecd39274ddff0da0c72b63d373eea335745ae88ca9c61",
       "status": "approved"
     },
     {
@@ -48,7 +48,7 @@
       "slug": "svara-pravila",
       "title": "Свара правила: как се играе свара на точки",
       "date_modified": "2026-10-23",
-      "content_hash": "0042f2d7303c8e0dec700f98471fb7c08ceec21705c4bd899e1ef21c6e535384",
+      "content_hash": "633043f74149bea9dc83b06cd247a9ad56095cb7427e431298c3264486dbe43f",
       "status": "approved"
     },
     {
@@ -57,21 +57,7 @@
       "date_modified": "2026-10-24",
       "content_hash": "0faab48f87c4dae5e35478feb46da66b0c58cdd2dd05e8c6f5ac69588580d73d",
       "status": "approved"
-    },
-    {
-      "slug": "liga-evropa",
-      "title": "Лига Европа: формат и как работи турнирът | Всички Казина",
-      "date_modified": "2026-10-30",
-      "content_hash": "47e5547569c1703f75dc21d72831bc74bb1e2409cd2c6dcc01c7e12ef2643053",
-      "status": "approved"
-    },
-    {
-      "slug": "liga-na-naciite",
-      "title": "Лига на нациите: формат и как влияе на квалификациите | Всички Казина",
-      "date_modified": "2026-11-04",
-      "content_hash": "b5905589d66d228885ee0f38b672661f8bbf0f66c4991143e437d4d4006bc652",
-      "status": "approved"
     }
   ],
-  "generated_utc": "2026-11-10T23:02:59Z"
+  "generated_utc": "2026-11-11T06:42:04Z"
 }
