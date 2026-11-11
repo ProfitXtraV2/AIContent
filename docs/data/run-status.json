@@ -1,30 +1,17 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-11-10T07:24:24Z",
-  "run_finished_utc": "2026-11-10T07:37:13Z",
-  "articles_written": 1,
-  "prs_opened": [
-    356
-  ],
-  "run_url": "https://claude.ai/code/session_01AwuYFWRazxV1fAFJMT2KZL",
-  "note": "daily run 2026-11-10 — throttled intake (MAX_PER_RUN=1). Reconcile clean on entry (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review NOT due (marker 2026-11 = current). WROTE 1 NEW guide vk-0330 „Лига 1 — формат и отбори на френското първенство“ (top open P0 backlog, sports-guide batch, owner-approved sports scope), PR #356. Evergreen French-league format guide (guides-only: 0 operator/НАП/affiliate; 0 current standings/results/fixtures/odds; 0 predictions). DISTINCT pillar — siblings /blog/la-liga/ + Ефбет Лига + Премиер лига + Бундеслига already handled (one-pillar-per-league, no cannibalization). Dedup vs queue (0) + live sitemap (171 URLs, no ligue/frensk slug) = clean. Cluster лига 1 3300/kd0 WIN. Факти EN Wikipedia (Ligue 1) + web verif 2026-11-10: старт 1932/33 (име 'Лига 1' от 2002), организатор LFP; 18 отбора (20->18, реш. юни 2021, от 2023/24), 34 кръга, 306 мача, 3/1/0; отличителен ТАЙБРЕК по голова разлика ПЪРВО (не преки срещи — контраст с Ла Лига); изпадане в Лига 2 + двоен бараж 16-и vs 3-ти от 2016/17 (рамкирано по регламента); европейски квоти рамкирани принципно + официален източник (коефициент-зависими); рекорди към есента на 2026 г.: ПСЖ 14 (рекорд)/Сент Етиен 10/Марсилия 9, ПСЖ 5 поредни 2021/22-2025/26, Лион 7 поредни 2002-2008, Ландро 618 мача, Онис 299 гола, трофей Хексагол 2007-2024 -> нов дизайн 2024. 306 recalc: 18x17=306 / 34x9=306 ✓. Gate 94 PASS 0-crit. Gemini Step-7 TEXT = GEMINI_UNAVAILABLE (HTTP 402 RESOURCE_EXHAUSTED, prepayment credits depleted) -> skipped per daily-run; kept initial 05b (0 em-dash, varied section shapes, no signposting, asymmetric close); gemini=skipped. Step-8 img:1 (hand-authored infographic liga-1-format.svg, every number 1:1 vs 05b, hand-verified 0 fabrication; AI hero skipped HTTP 402; Gemini image review skipped HTTP 402 -> manual integrity PASS, 0 logos/faces/fabricated numbers/glamorised winning). ~800 думи, 0 [VERIFY], 6 internal links + otgovorna-igra footer, 0 affiliate (0 оператори). vol/kd 3300/0 (ahrefs backlog). Keyword research = LIGHT pass: Ahrefs reachable but workspace near cap (193294/200000, reset 2026-11-15); all open backlog rows already ahrefs-enriched; research bank (3 candidates: дартс/видео покер/реми) freshly re-verified 2026-10-31, all measurable+winnable+distinct — deferred fresh pulls to conserve ~6.7k remaining units (Nov light-pass policy). Board: content-queue vk-0330 drafted (gemini skipped, PR #356, img:1); backlog Лига 1 row -> written; dashboard rebuilt (buffer 227/10); feed refreshed (approved-only, unchanged). NO flags resolved, nothing posted/merged/fabricated.",
+  "state": "running",
+  "run_started_utc": "2026-11-11T07:15:53Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01AwuYFVYREKNF8Ffpm13VQq",
+  "note": "daily run 2026-11-11 — throttled intake (MAX_PER_RUN=1). Reconcile clean (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review NOT due (marker 2026-11 = current). Selecting topic.",
   "progress": {
-    "phase": "done",
-    "article_index": 1,
-    "article_total": 1,
-    "article_slug": "2026-11-10-ligue-1-format",
-    "stages": [
-      "Synthesis",
-      "Outline",
-      "Author",
-      "Humaniser",
-      "SEO",
-      "Brand Gate",
-      "Light re-check",
-      "Images",
-      "Verification",
-      "PR"
-    ],
+    "phase": "selecting",
+    "article_index": null,
+    "article_total": null,
+    "article_slug": null,
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
     "stage_index": null,
     "stage": null
   }
