@@ -5,7 +5,7 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01AwuYFVYREKNF8Ffpm13VQq",
-  "note": "daily run 2026-11-11 — throttled (MAX_PER_RUN=1). Writing vk-0331 Вечно дерби Левски–ЦСКА (top open P0 backlog). Stage: Synthesis.",
+  "note": "daily run 2026-11-11 — vk-0331 Вечно дерби: Gate PASS 94, Gemini TEXT skipped (HTTP 402). Stage: Images.",
   "progress": {
     "phase": "writing",
     "article_index": 1,
@@ -23,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "stage_index": 7,
+    "stage": "Images"
   }
 }
