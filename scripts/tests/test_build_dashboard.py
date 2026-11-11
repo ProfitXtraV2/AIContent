@@ -222,6 +222,44 @@ def test_dentalvia_links_no_vk_site_or_routine():
     assert "DentalVia" in links["queue"]
 
 
+ED_SAMPLE = """# Content Queue — ELLE Dental
+| id | status | type | query | keywords_or_terms | volume | kd | source | drafted_date | posted_date | folder | pr | gemini | notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| ed-0001 | drafted | page-rewrite | /faseti/ | фасети за зъби, фасети | 350 | 0 | backlog | 2026-12-01 |  | 2026-12-01-faseti | #500 | human 82 |  |
+"""
+
+ED_BACKLOG = """# Topic Backlog — ELLE Dental
+| priority | type | query | keywords_or_terms | volume | kd | intent | checked | ahrefs_note | status | notes |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | page-rewrite | /ortodontsko-lechenie-s-alajneri/ | алайнери | 4900 | 0 | informational | ahrefs | KD 0 | paused | |
+| 30 | new-page | зъбни импланти | зъбни импланти | 1300 | 0 | informational | ahrefs | KD 0 | blocked: owner decision | |
+"""
+
+
+def test_elledental_registered_and_paused():
+    status = bd.build_status(bd.parse_queue(ED_SAMPLE, brand="elledental"),
+                             backlog=bd.parse_backlog(ED_BACKLOG),
+                             target=bd.BRANDS["elledental"]["target"], brand="elledental")
+    meta = status["meta"]
+    assert meta["brand"] == "ELLE Dental"
+    assert meta["schedule"]["paused"] is True
+    assert "PAUSED" in meta["schedule"]["note"]
+    assert "cron_utc_hours" not in meta["schedule"]
+    assert status["articles_base_url"].endswith("/tree/main/ElleDental/articles/")
+    assert status["buffer"] == {"count": 1, "target": 3, "deficit": 2, "ok": False}
+    assert [r["status"] for r in status["backlog"]] == ["paused", "blocked: owner decision"]
+    assert status["backlog"][0]["opportunity"]["band"] == "Strong"
+
+
+def test_elledental_links_isolated():
+    status = bd.build_status([], target=3, brand="elledental")
+    links = status["meta"]["links"]
+    assert links["site"] == "https://elledental.bg"
+    assert "routine" not in links
+    assert "ElleDental" in links["backlog"] and "ElleDental" in links["queue"]
+    assert bd.BRANDS["elledental"]["out"] == ("docs", "data", "elledental", "status.json")
+
+
 def test_vsichkikazina_links_unchanged():
     """VsichkiKazina meta.links must keep site vsichkikazina.bg and routine present."""
     rows = bd.parse_queue(SAMPLE)

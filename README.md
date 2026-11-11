@@ -6,13 +6,19 @@ through a multi-stage editorial pipeline, and delivers each one as a GitHub Pull
 for a human to review and publish — keeping a **rolling buffer of ready-to-post drafts** at
 all times.
 
-It is currently configured for two brands:
+It is currently configured for three brands:
 
 - **Всички Казина** (`vsichkikazina.bg`, Bulgarian online-casino comparison) — fully
   automated; a scheduled cloud routine runs daily at 07:00 Europe/Sofia.
 - **Dentalvia** (`dentalvia.de`, German dental-tourism mediation) — **manual trigger
   only** (no routine registered); German-language output; English comes via a future
   publisher-side translation step.
+- **ELLE Dental** (`elledental.bg`, Bulgarian dental clinic in ж.к. Света Троица, София) —
+  **⏸ PAUSED by the owner on 2026-11-11, manual trigger only**: onboarded, but it must not run
+  or be scheduled until the owner un-pauses it in writing (how: banner at the top of
+  `ElleDental/automation/daily-run.md`). It rewrites the site's 28 existing pages as
+  WebPortals-ready `content/<slug>.md` drafts for doctor review, in a professional clinic voice
+  that deliberately departs from the shared humaniser (see `ElleDental/pipeline/SKILL.md`).
 
 The layout is multi-brand by design (see [Adding a brand](#adding-a-new-brand)).
 
@@ -158,7 +164,7 @@ AIContent/
 │   ├── gemini_check.py           # Step-7 external check: POSTs article+prompt to Gemini API
 │   ├── AHREFS_ENDPOINTS.md       # recorded working Ahrefs v3 endpoints (for scripting)
 │   ├── GEMINI_ENDPOINT.md        # recorded working Gemini model/endpoint
-│   └── tests/test_build_dashboard.py
+│   └── tests/                    # test_build_dashboard.py, test_gemini_brand_prompts.py, …
 ├── VsichkiKazina/                # ── one folder per brand ──
 │   ├── pipeline/                 # the editorial pipeline (agents, prompts, markets, gate)
 │   ├── automation/
@@ -178,6 +184,16 @@ AIContent/
     ├── research-topics.md        # AI keyword bank (Ahrefs country=de)
     ├── conversion-links.md       # internal-link / CTA registry
     └── articles/<YYYY-MM-DD-slug>/# per-article working dir
+└── ElleDental/                   # ── third brand (Bulgarian dental clinic) — ⏸ PAUSED 2026-11-11 ──
+    ├── pipeline/                 # BG clinic pipeline: professional voice, YMYL gate, site rules
+    │   └── reference/site-rules.md #   copy of the WebPortals publisher rules (publisher wins)
+    ├── automation/
+    │   └── daily-run.md          # PAUSED banner + MANUAL TRIGGER ONLY; how to un-pause
+    ├── content-queue.md          # page lifecycle board
+    ├── topic-backlog.md          # the 28 pages as page-rewrite rows (all paused) + blocked new pages
+    ├── research-topics.md        # possible new pages (owner approval required)
+    ├── conversion-links.md       # the 28 site addresses + /kontakti/#zapazi
+    └── articles/<YYYY-MM-DD-slug>/# per-page working dir; deliverable content/<slug>.md
 ```
 
 ## Data model & schemas
@@ -270,9 +286,11 @@ Static, data-driven (`docs/index.html` reads `docs/data/status.json` + `run-stat
 |-------|-----|
 | Всички Казина | https://profitxtrav2.github.io/AIContent/ |
 | Dentalvia | https://profitxtrav2.github.io/AIContent/dentalvia/ |
+| ELLE Dental (⏸ paused) | https://profitxtrav2.github.io/AIContent/elledental/ |
 
-Rebuild either dashboard: `python3 scripts/build_dashboard.py` (VsichkiKazina) or
-`python3 scripts/build_dashboard.py dentalvia` (Dentalvia).
+Rebuild a dashboard: `python3 scripts/build_dashboard.py` (VsichkiKazina),
+`python3 scripts/build_dashboard.py dentalvia` (Dentalvia) or
+`python3 scripts/build_dashboard.py elledental` (ELLE Dental).
 
 ## Local development
 
@@ -310,6 +328,9 @@ counting, opportunity scoring, and the meta/links block.
 The pipeline is multi-brand (`pipeline/SKILL.md` binds brand-specific gate/author/market
 files). **DentalVia** (`DentalVia/`) is the worked example — a German dental-tourism brand
 onboarded as a manual-trigger-only brand alongside the fully-scheduled VsichkiKazina.
+**ElleDental** (`ElleDental/`) is the second example: a clinic site whose output is a page file
+for another repo (not a blog article), onboarded **paused** (banner in `daily-run.md` and
+`SKILL.md`, `paused` in `scripts/build_dashboard.py` BRANDS, backlog rows `paused`).
 
 To onboard another site:
 1. Create a sibling folder (e.g. `NewBrand/`) mirroring `VsichkiKazina/` — its own
@@ -319,7 +340,10 @@ To onboard another site:
 2. Set the brand constants in `SKILL.md` (name, market/currency/regulator, content types,
    approved internal-link set, byline, gate + author bindings).
 3. Add the brand's seed backlog and its link registry.
-4. Decide on automation: either point a new scheduled routine at
+4. Register the brand key in `scripts/build_dashboard.py` (`BRANDS`), `scripts/gemini_check.py`
+   and `scripts/gemini_image_review.py` (`BRAND_PROMPTS`), add `docs/<brand>/index.html` and
+   `docs/data/<brand>/`, and extend `scripts/tests/`.
+5. Decide on automation: either point a new scheduled routine at
    `NewBrand/automation/daily-run.md`, or mark the run **MANUAL TRIGGER ONLY** (as
    DentalVia does) and trigger it manually from a Claude Code session. The dashboard can be
    extended to aggregate brands (`python3 scripts/build_dashboard.py <brand-key>`).
