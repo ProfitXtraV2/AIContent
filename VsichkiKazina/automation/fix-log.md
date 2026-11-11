@@ -3796,3 +3796,55 @@ No board `gemini` cells changed (no rows processed). `build_dashboard.py` (buffe
 already been regenerated earlier today by the daily run. No posted/live content edited; nothing
 merged; no new article branches created; no `content/<folder>` branch touched (idempotent
 all-clean night); GEMINI_API_KEY never printed.
+
+## 2026-11-11 — nightly flag + score fixes
+
+### JOB A — publish-blocking flags
+Scanned every `refs/remotes/origin/content/*` branch (332 content branches) against its own
+`VsichkiKazina/articles/<folder>/05b-final-draft.md` for the full blocking-marker set
+(`[VERIFY …]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`, `[AUTHOR …]`, `[BRAND …]`,
+`[EDITORIAL]`, `[уточни …]`, `[провери …]`). **One flagged branch:**
+
+- **vk-0331 — `2026-11-11-vechno-derbi-levski-cska` (PR #357)** — 1 `[VERIFY: точната дата се
+  посочва различно от източниците]` marker on the records paragraph. The bracket sat after
+  „победа с пет гола разлика, 5:0" — the **5:0 score is a public result and no date was actually
+  asserted** in the sentence; the uncertainty was only about the (unstated) exact date. Resolved
+  by rephrasing to „ЦСКА пък има свои паметни вечери, сред които победа с пет гола разлика — 5:0,
+  така че разгромът не е еднопосочна привилегия." — bracket gone, 5:0 fact kept, **no date
+  invented**, meaning preserved. Byline Георги Тодоров, brand Всички Казина and the RG/18+ line
+  all intact. Re-scan: **0 blocking markers.** Committed `fix(flags): resolve
+  2026-11-11-vechno-derbi-levski-cska — publish-ready` on `content/2026-11-11-vechno-derbi-levski-cska`
+  and pushed (fa5cb28f..16f2f260).
+
+### JOB B — low Gemini score
+**Zero qualifying targets.** Across all 226 `drafted`/`approved` rows the recorded Gemini verdicts
+are all `human ≥80` (minimum **80**, which meets the Step-7 PASS threshold) and **0** `ai <n>`; the
+rest are `skipped`. No row carries `ai <n>` or `human <n>` with n<80, so there is nothing to
+humanise. Idempotency rule applied — every flag-free, already-≥80 draft left untouched. No
+`gemini_check.py` call made (no qualifying target); GEMINI_API_KEY not used tonight.
+
+### POSTED — needs human review
+- **vk-0063 — `2026-09-13-nv-casino-zakonno-li-e` (PR #79), `ai 75`, status posted/live.** Carried
+  forward unchanged — live content, never edited per policy. Still the only board row scoring
+  below the human-80 threshold, and it is posted/live. A human should decide whether to
+  re-humanise and re-publish off-line.
+
+### Deferred
+None — the ≤10/night JOB B cap was not reached (0 qualifying targets).
+
+### Finish
+No board `gemini` cells changed (JOB A was a flag rephrase on a `skipped` row; no row re-scored).
+`build_dashboard.py` re-run on main — buffer 226/10; the only content diff was vk-0331's
+`verify_flags` dropping 1→0 (reflecting tonight's JOB A fix) plus the `generated_utc` timestamp,
+committed. **`build_feed.py` deliberately NOT committed tonight:** re-running it propagated an
+upstream author-bio rewrite into the published feed for two approved articles
+(`elektronna-ruletka`, `svara-pravila`) — „…е автор на ревюта на онлайн казина. От 2024 г.
+проверява…" → „…тества лицензирани в България казино сайтове от 2024 г. със собствен бюджет и
+проверява…". The latest autopilot board commit (0a9fe6c) explicitly records **„feed hold (upstream
+bio regression flagged)"**, i.e. the autopilot is intentionally holding that feed propagation
+because the bio change is flagged as a regression (a claim-meaning change), reversing the routine
+propagation prior nights did. To respect that hold and avoid pushing a flagged regression to
+live/feed content, the `published/` changes were reverted (`git checkout -- published/`) and left
+for the autopilot/human to resolve. No posted/live content edited; nothing merged; no new article
+branches created; only the single flagged `content/<folder>` branch touched; GEMINI_API_KEY never
+printed.

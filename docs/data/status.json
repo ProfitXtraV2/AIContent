@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-11T07:30:37Z",
+  "generated_utc": "2026-11-11T23:03:45Z",
   "buffer": {
     "count": 226,
     "target": 10,
@@ -6792,10 +6792,8 @@
         "band": "Strong",
         "winnable": true
       },
-      "verify_flags": 1,
-      "verify_samples": [
-        "[VERIFY: точната дата се посочва различно от източниците]"
-      ]
+      "verify_flags": 0,
+      "verify_samples": []
     }
   ],
   "backlog": [
