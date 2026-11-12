@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 580" role="img" aria-label="Инфографика с ключовите стъпки от изкачването на ЦСКА 1948 от аматьорската група до елита и постиженията в Първа лига">
+  <defs>
+    <style>
+      .bg{fill:#f5f6fa;}
+      .card{fill:#ffffff;stroke:#dce0ea;stroke-width:1;}
+      .title{fill:#111a2e;font-family:'Segoe UI',Arial,sans-serif;font-size:26px;font-weight:700;}
+      .sub{fill:#5f6b82;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;}
+      .colh{fill:#c8102e;font-family:'Segoe UI',Arial,sans-serif;font-size:15px;font-weight:700;}
+      .big{fill:#111a2e;font-family:'Segoe UI',Arial,sans-serif;font-size:25px;font-weight:800;}
+      .lbl{fill:#273349;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;}
+      .foot{fill:#5f6b82;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="940" height="580"/>
+  <rect class="card" x="8" y="8" width="924" height="564" rx="14"/>
+
+  <text class="title" x="470" y="50" text-anchor="middle">ЦСКА 1948: пътят до елита</text>
+  <text class="sub" x="470" y="74" text-anchor="middle">от аматьорската група до Първа лига</text>
+  <line x1="40" y1="94" x2="900" y2="94" stroke="#dce0ea" stroke-width="1"/>
+  <rect x="40" y="94" width="860" height="3" fill="#c8102e"/>
+
+  <!-- Left column: the climb -->
+  <text class="colh" x="46" y="130">Пътят нагоре</text>
+
+  <text class="big" x="46"  y="176">2016</text>
+  <text class="lbl" x="200" y="176">основан (19 юли)</text>
+
+  <text class="big" x="46"  y="230">2016/17</text>
+  <text class="lbl" x="200" y="230">шампион, аматьорска група</text>
+
+  <text class="big" x="46"  y="284">2017/18</text>
+  <text class="lbl" x="200" y="284">шампион, Трета лига</text>
+
+  <text class="big" x="46"  y="338">29-5-0</text>
+  <text class="lbl" x="200" y="338">сезон 2017/18 (победи-равни-загуби)</text>
+
+  <text class="big" x="46"  y="392">2019/20</text>
+  <text class="lbl" x="200" y="392">шампион, Втора лига</text>
+
+  <text class="big" x="46"  y="446">7.08.2020</text>
+  <text class="lbl" x="200" y="446">дебют в елита, 2:2</text>
+
+  <!-- Divider -->
+  <line x1="468" y1="110" x2="468" y2="470" stroke="#dce0ea" stroke-width="1"/>
+
+  <!-- Right column: in the top flight -->
+  <text class="colh" x="500" y="130">В елита</text>
+
+  <text class="big" x="500" y="176">2:2</text>
+  <text class="lbl" x="620" y="176">дебютен мач (2020)</text>
+
+  <text class="big" x="500" y="230">2022/23</text>
+  <text class="lbl" x="620" y="230">трето място и финал за Купата</text>
+
+  <text class="big" x="500" y="284">2023</text>
+  <text class="lbl" x="620" y="284">финал за Суперкупата</text>
+
+  <text class="big" x="500" y="338">2025/26</text>
+  <text class="lbl" x="620" y="338">вицешампион</text>
+
+  <line x1="40" y1="516" x2="900" y2="516" stroke="#dce0ea" stroke-width="1"/>
+  <text class="foot" x="46" y="544">Числата следват текста на статията.</text>
+  <text class="foot" x="894" y="544" text-anchor="end">18+ Играйте отговорно</text>
+</svg>
