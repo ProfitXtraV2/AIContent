@@ -5,14 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01AwuYFV2KVgGHqYaUxJf8xB",
-  "note": "daily run 2026-11-12 — start heartbeat; reconcile clean (0 in-progress/HANDOFF/CLAIMED); SEO review marker 2026-11 = current (NOT due); throttled intake MAX_PER_RUN=1.",
+  "note": "daily run 2026-11-12 — writing vk-0332 ЦСКА 1948 club profile (top open P0 backlog); throttled MAX_PER_RUN=1.",
   "progress": {
-    "phase": "selecting",
-    "article_index": null,
-    "article_total": null,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "phase": "writing",
+    "article_index": 1,
+    "article_total": 1,
+    "article_slug": "2026-11-12-cska-1948-istoria",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
