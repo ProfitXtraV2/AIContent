@@ -1,0 +1,58 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0034",
+  "slug": "gates-of-olympus-1000",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-10-gates-of-olympus-1000",
+  "pr": "#40",
+  "title": "Gates of Olympus 1000: какво променя версията 1000",
+  "meta_description": "Gates of Olympus 1000 качва тавана на множителите на Зевс от 500x на 1,000x и максимума от 5,000x на 15,000x. Домашното предимство остава 96.50%: защо това е по-волатилна, а не по-щедра игра.",
+  "keywords": [
+    "gates of olympus 1000",
+    "гейтс ъв олимпус 1000"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/gates-of-olympus-1000/images/gates-of-olympus-1000-hero.webp",
+      "name": "gates-of-olympus-1000-hero.webp",
+      "alt": "Абстрактна композиция със златни сфери и синкави мълнии на тъмен фон по темата на Gates of Olympus 1000",
+      "sha256": "f1d1562ad5ddf35bebbb3d8dc6d6d37fafca46e431ec8c678c871a251657f1e0",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/gates-of-olympus-1000/images/gates-of-olympus-1000-rtp.svg",
+      "name": "gates-of-olympus-1000-rtp.svg",
+      "alt": "Gates of Olympus 1000 RTP: версия по подразбиране 96.50% връща средно €965 на €1000 оборот, €35 остават за казиното; възможни са версии 95.51% и 94.50%",
+      "sha256": "6bb3a7550656bdcc035ac329997fbf0fa7bd288e59f3cdfbf9a18d100531d475",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/gates-of-olympus-1000/images/gates-of-olympus-1000-sravnenie.svg",
+      "name": "gates-of-olympus-1000-sravnenie.svg",
+      "alt": "Сравнение Gates of Olympus 1000 и оригинала: таван на сферата 1,000x срещу 500x, максимум 15,000x срещу 5,000x, RTP по подразбиране 96.50% и в двете, и двете 6×5 pay anywhere с каскади",
+      "sha256": "1c9c0e1be6112bc283dd7c8ed8805795d8fea420ef7d3096d109b9af43218437",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "0756e9816ee1a8363f446d2d63b8f007854f658a30e53a9f19a886e5c13e42ee",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

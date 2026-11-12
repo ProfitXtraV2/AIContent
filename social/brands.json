@@ -1,0 +1,36 @@
+{
+  "about": "The brands of social posts: one entry per brand (site). Add one from the dashboard's Settings tab (\"New brand\"), which opens a PR; scripts/social/new_brand.py writes it. Each brand's own settings are in <dir>/social/settings.md.",
+  "brands": {
+    "vsichkikazina": {
+      "dir": "VsichkiKazina",
+      "name": "Всички Казина",
+      "prefix": "vk",
+      "domain": "vsichkikazina.bg",
+      "site": "https://vsichkikazina.bg",
+      "topic": "casino",
+      "language": "bg",
+      "queue_format": "vsichkikazina",
+      "forbidden_paths": ["/casino/", "/bonusi/", "/bonus-ruletka/", "/bonus-category/",
+                          "/sravni-kazina/", "/novi-kazina/", "/kazino-nisak-depozit/", "/go/"],
+      "palette": {"green": "#0F7B5A", "gold": "#C9962C", "ink": "#14161A", "paper": "#F7F4EC"},
+      "fonts": {"title": "Onest", "body": "Onest", "serif": "Literata"},
+      "mark_18": true,
+      "publisher_record": "VsichkiKazina/_publisher/.published-state.json"
+    },
+    "dentalvia": {
+      "dir": "DentalVia",
+      "name": "DentalVia",
+      "prefix": "dv",
+      "domain": "dentalvia.de",
+      "site": "https://www.dentalvia.de",
+      "topic": "dental",
+      "language": "de",
+      "queue_format": "dentalvia",
+      "forbidden_paths": [],
+      "palette": {"green": "#1B6F8C", "gold": "#E3B04B", "ink": "#16242C", "paper": "#F5F8FA"},
+      "fonts": {"title": "Noto Sans", "body": "Noto Sans", "serif": "Noto Sans"},
+      "mark_18": false,
+      "publisher_record": "DentalVia/_publisher/.published-state.json"
+    }
+  }
+}

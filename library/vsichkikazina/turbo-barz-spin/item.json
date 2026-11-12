@@ -1,0 +1,50 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0257",
+  "slug": "turbo-barz-spin",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-10-04-turbo-barz-spin",
+  "pr": "#275",
+  "title": "Турбо и бърз спин в слотовете: скорост и риск",
+  "meta_description": "Турбо и бързият спин ускоряват анимацията, не RTP. Скоростта не мени резултата на спина, но свива времето и ускорява разхода на банкрола.",
+  "keywords": [
+    "турбо спин слот",
+    "бърз спин казино",
+    "turbo режим ротативка",
+    "бързо завъртане слот",
+    "скорост на игра казино"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/turbo-barz-spin/images/turbo-barz-spin-hero.webp",
+      "name": "turbo-barz-spin-hero.webp",
+      "alt": "Декоративна илюстрация: пясъчен часовник със стрелка на скоростомер и казино чипове, които се изсипват бързо през него, метафора за това как турбо режимът свива времето и прекарва повече пари през същия час",
+      "sha256": "1fce6ddd537677891cb46cfb5e937c4c06e46dc4c8f6988da97d5705f0ec763e",
+      "review": {
+        "score": 95,
+        "integrity_ok": false,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/turbo-barz-spin/images/turbo-sravnenie-tempo-oborot.svg",
+      "name": "turbo-sravnenie-tempo-oborot.svg",
+      "alt": "Инфографика: сравнение на нормален и турбо темп при залог €0,50 на спин, завъртания в минута 8-10 срещу 20-25, заложено за минута €4-5 срещу €10-12 и 2-3 пъти повече оборот за един час. Числата са примерни.",
+      "sha256": "ba6cf9e141b1898de08e74d59fa5198149490afaea21741e575049eddd231907",
+      "review": {
+        "score": 95,
+        "integrity_ok": false,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "22e9185133135f66840d26f84bb1524bbb46d7d8b2810983b7c49529a69a2a63",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

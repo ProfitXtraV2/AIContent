@@ -1,0 +1,39 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0260",
+  "slug": "kak-da-si-napravish-zabrana-za-hazart",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-10-07-kak-da-si-napravish-zabrana-za-hazart",
+  "pr": "#280",
+  "title": "Как да си направя забрана за хазарт в НАП | Всички Казина",
+  "meta_description": "Как да си направя забрана за хазарт? Подавате безплатно заявление до НАП, вписвате се в националния регистър на уязвимите лица, минимум за една година.",
+  "keywords": [
+    "как да си направя забрана за хазарт",
+    "забрана за хазарт",
+    "премахване на забрана за хазарт",
+    "проверка за забрана за хазарт по егн",
+    "декларация за забрана за хазарт"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/kak-da-si-napravish-zabrana-za-hazart/images/samoizklyuchvane-zabrana-hazart-stapki-infografika.svg",
+      "name": "samoizklyuchvane-zabrana-hazart-stapki-infografika.svg",
+      "alt": "Инфографика: стъпките за забрана за хазарт чрез националния регистър на уязвимите лица към НАП - подаване на заявление по образец (в офис или с КЕП, безплатно), вписване за ориентировъчно 5–7 работни дни, минимален срок 1 година без предсрочно прекратяване и ефект върху всички лицензирани оператори",
+      "sha256": "3d315d8ece519001c8541ec0f54fcc911e6a450f14ad90613ada65d1fcc81126",
+      "review": {
+        "score": 100,
+        "integrity_ok": null,
+        "source": "08-image-review-2.md"
+      }
+    }
+  ],
+  "article_version": "c8b936fc72fc579aa5f09137c686f2dc4a98ff9624425f4b5ad7fdf8ad22e113",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

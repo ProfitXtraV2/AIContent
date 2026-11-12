@@ -1,0 +1,50 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0296",
+  "slug": "tabla-onlayn",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-10-27-tabla-onlayn",
+  "pr": "#319",
+  "title": "Табла онлайн: къде се играе безплатно | Всички Казина",
+  "meta_description": "Табла онлайн безплатно: VIP Games, Джаги, LAN-Games и Poki, срещу реални хора или с приятели, с чипове. Къде се играе и как да започнете.",
+  "keywords": [
+    "табла онлайн",
+    "игра на табла онлайн",
+    "табла с приятели",
+    "табла срещу реални играчи",
+    "безплатна табла"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/tabla-onlayn/images/tabla-onlayn-hero.webp",
+      "name": "tabla-onlayn-hero.webp",
+      "alt": "Абстрактна илюстрация на дъска за табла на екран, подредена за онлайн игра, без лого и без лица",
+      "sha256": "17465b3f2d413c1900fd3e680b435f7bd3a7b19cfaac993f7986ee81a3410916",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/tabla-onlayn/images/tabla-onlayn-platformi-sravnenie.svg",
+      "name": "tabla-onlayn-platformi-sravnenie.svg",
+      "alt": "Сравнителна инфографика на платформите за табла онлайн: налични варианти, устройства и възрастов рейтинг, без логота",
+      "sha256": "cc3f377d6e119d1ace3a8496c74f0e4e9af0961e9e8d61bd6ee53823dd8d4b8a",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "13a583868503a0f8b9f2015ee32d913d200774e29589fb52c5802b7d30e0ad06",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

@@ -1,0 +1,48 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0316",
+  "slug": "chelsi",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-10-29-chelsi",
+  "pr": "#339",
+  "title": "Челси: история, трофеи, стадион и легенди | Всички Казина",
+  "meta_description": "Челси: как клубът се ражда през 1905 г. край „Стамфорд Бридж\", трофеите в Англия и Европа, стадионът и легендите на „Сините\". Факти, не прогнози.",
+  "keywords": [
+    "челси",
+    "челси история",
+    "стамфорд бридж"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/chelsi/images/chelsi-stamford-bridge-hero.webp",
+      "name": "chelsi-stamford-bridge-hero.webp",
+      "alt": "Плоска илюстрация на голям футболен стадион вечер под прожектори, в синьо и сиво; без клубен герб, без лого, без хора",
+      "sha256": "08fe0688d2ee9c3d8a01b4b7f555b13609584aafe9259666aac2330b46b038c7",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/chelsi/images/chelsi-trofei.svg",
+      "name": "chelsi-trofei.svg",
+      "alt": "Инфографика с трофеите на Челси към есента на 2026 г.: основан 1905 г., стадион „Стамфорд Бридж\" с 40 044 места, 6 титли в Англия, 8 ФА Къп, 5 Купи на лигата, 2 Шампионска лига, 2 Лига Европа, 2 Купи на носителите на купи, 2 Суперкупи на УЕФА, 1 Лига на конференциите, 2 световни клубни титли",
+      "sha256": "2ed591d65d31c75766ef3ff4317a1732222b4638b7ba596a89001a6d03841039",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "be4dd99ff54173dec9e723d142fb2db72c714caab404a673563dff3f08f61b03",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

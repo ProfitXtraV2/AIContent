@@ -1,0 +1,49 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0295",
+  "slug": "belot-onlayn",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-10-27-belot-onlayn",
+  "pr": "#318",
+  "title": "Белот онлайн: къде се играе безплатно | Всички Казина",
+  "meta_description": "Белот онлайн безплатно: Belot.BG, Джаги и други платформи, срещу реални хора или с приятели, с чипове. Къде и как да започнете.",
+  "keywords": [
+    "белот бг",
+    "джаги белот",
+    "белот онлайн",
+    "белот"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/belot-onlayn/images/belot-onlayn-hero.webp",
+      "name": "belot-onlayn-hero.webp",
+      "alt": "Абстрактна илюстрация на карти за белот на екран, подредени за онлайн игра, без лого и без лица",
+      "sha256": "98da19864c83e615bed07bcbf6e13e9d8bef3a89c6d9817ee32f0df6238eda22",
+      "review": {
+        "score": 100,
+        "integrity_ok": null,
+        "source": "08-image-review-2.md"
+      }
+    },
+    {
+      "path": "published/belot-onlayn/images/belot-onlayn-platformi-sravnenie.svg",
+      "name": "belot-onlayn-platformi-sravnenie.svg",
+      "alt": "Инфографика с режимите и наличността на основните платформи за белот онлайн: Belot.BG (уеб, приложение, Facebook, Smart TV; срещу хора, ботове, с приятели; дневен бонус 5 000 чипа; 13+), Djagi (приложение; срещу хора и с приятели; 20+ игри), Belot/lan.bg (приложение; срещу хора или компютър)",
+      "sha256": "e5546b332cca9c5d57746aa3790c5fa9979c0d28a7230628c9b15a2db0ae7889",
+      "review": {
+        "score": 100,
+        "integrity_ok": null,
+        "source": "08-image-review-2.md"
+      }
+    }
+  ],
+  "article_version": "3d11951f680edebc294e4db523e11c6fd0e6f28b7d532e249eb2b69e4f6fcad4",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

@@ -1,0 +1,49 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0289",
+  "slug": "svara-pravila",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-10-23-svara-pravila",
+  "pr": "#311",
+  "title": "Свара правила: как се играе свара на точки",
+  "meta_description": "Свара правила на ясен език: раздаване по 3 карти, залагане на тъмно и повишаване, точкуване по бои и какво значи „свара“. И законно ли е на пари.",
+  "keywords": [
+    "свара правила",
+    "как се играе свара",
+    "свара игра на карти",
+    "игра на свара"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/svara-pravila/images/svara-karti-chipove-hero.webp",
+      "name": "svara-karti-chipove-hero.webp",
+      "alt": "Плоска илюстрация на три карти за игра с гръб нагоре и малка купчина чипове върху зелено сукно, видени отгоре, без лица и без марки",
+      "sha256": "5a329c29aada2ed890d1afa063c8e029c69310fe492c5a793ebddc78203ce431",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/svara-pravila/images/svara-tochki-po-boi.svg",
+      "name": "svara-tochki-po-boi.svg",
+      "alt": "Инфографика със стойността на картите в свара: седмица, осмица и деветка с ниска стойност, десетка, вале, дама и поп по 10 точки, асо 11; точките се събират по боя, две аса правят 22, три аса правят 33",
+      "sha256": "1c56af1f113e88c689869f054b68118e71ee70f7cd452502d08e192f0335a8dd",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "7c80e9a40386a268ff1f183abf8b561dadea25dd0a0617bf2ce4aaf06a0e88b5",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

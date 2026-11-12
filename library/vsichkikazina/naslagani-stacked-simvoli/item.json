@@ -1,0 +1,50 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0256",
+  "slug": "naslagani-stacked-simvoli",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-10-04-naslagani-stacked-simvoli",
+  "pr": "#276",
+  "title": "Наслагани (stacked) символи в слотовете: как работят",
+  "meta_description": "Наслаганите символи падат като блок от еднакви икони на един барабан и покриват цяла колона наведнъж. Защо вдигат едрите попадения, но не и RTP.",
+  "keywords": [
+    "наслагани символи слот",
+    "stacked символи",
+    "стекнати символи ротативка",
+    "подредени символи барабан",
+    "цял барабан еднакви символи"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/naslagani-stacked-simvoli/images/naslagani-simvoli-hero.webp",
+      "name": "naslagani-simvoli-hero.webp",
+      "alt": "Декоративна илюстрация: една колона от еднакви светещи плочки се откроява сред решетка от различни по-тъмни плочки, метафора за наслаган барабан, където един и същ символ запълва цяла колона",
+      "sha256": "6b68ccb9ee3a99e0c375f5a2ca8b41313193e22c8cabeb59710131b60e658797",
+      "review": {
+        "score": 100,
+        "integrity_ok": false,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/naslagani-stacked-simvoli/images/naslagan-simvol-barabani.svg",
+      "name": "naslagan-simvol-barabani.svg",
+      "alt": "Инфографика: примерен слот с 5 барабана и 3 реда, 10 линии; на първия барабан пада наслаган символ, цяла колона от три еднакви знака, а барабани 2 и 3 го повтарят, тъй че всичките 10 линии тръгват с едно и също начало. Числата са примерни.",
+      "sha256": "0f3e93b29993d0f0ccdf4e4205b094e871bbc8182e8b1eb9c4f261df2af4575e",
+      "review": {
+        "score": 100,
+        "integrity_ok": false,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "7762701cd380090b36241aaac6cf2c2d1bddcc90be67729c4b68c151edd6e3cd",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

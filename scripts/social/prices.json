@@ -1,0 +1,12 @@
+{
+  "checked": "2026-10-19",
+  "note": "Estimates for the monthly social image budget (C7). Re-check against the source when Google changes prices; spend.py reads these numbers.",
+  "source": "https://ai.google.dev/gemini-api/docs/pricing",
+  "image_generation_usd": 0.134,
+  "review": {
+    "model": "gemini-3.1-pro-preview",
+    "input_usd_per_million_tokens": 2.0,
+    "output_usd_per_million_tokens": 12.0,
+    "estimate_usd": 0.03
+  }
+}

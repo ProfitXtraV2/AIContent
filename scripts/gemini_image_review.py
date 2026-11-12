@@ -12,6 +12,11 @@ and re-checks — mirroring the Step-7 text loop (keep-best, commit trail).
   the labels/numbers match the article) — no local SVG rasteriser is required in the cloud.
 
 Usage:  python3 scripts/gemini_image_review.py <article_file> <image1> [image2 ...] [--brand dentalvia]
+                [--prompt <file>] [--usage-out <file>]
+        --prompt: another prompt file with the same "## PROMPT (verbatim" / "## Accept / iterate"
+        markers (social posts use VsichkiKazina/social/prompts/visual-review.md).
+        --usage-out: write the response's usageMetadata (token counts) there as JSON.
+        Without them the behaviour and the output are exactly as before.
 Exit:   0 = ok (verdict on stdout) · 2 = unavailable/error (caller falls back to skip)
 
 stdlib-only (urllib).
@@ -40,10 +45,11 @@ RASTER = {".webp": "image/webp", ".png": "image/png",
           ".jpg": "image/jpeg", ".jpeg": "image/jpeg"}
 
 
-def _prompt(brand="vsichkikazina"):
-    """Extract the verbatim PROMPT block from the brand's Step-8 image-review prompt file."""
+def _prompt(brand="vsichkikazina", path=None):
+    """Extract the verbatim PROMPT block from the brand's Step-8 image-review prompt file (or from
+    `path`, a prompt file with the same markers)."""
     try:
-        text = prompt_file(brand).read_text(encoding="utf-8")
+        text = (Path(path) if path else prompt_file(brand)).read_text(encoding="utf-8")
         marker = "## PROMPT (verbatim"
         if marker in text:
             body = text.split(marker, 1)[1].split("\n", 1)[1]
@@ -64,6 +70,18 @@ def main():
         print("GEMINI_UNAVAILABLE: GEMINI_API_KEY not set", file=sys.stderr)
         return 2
     args = list(sys.argv[1:])
+    prompt_path = usage_out = None
+    for opt in ("--prompt", "--usage-out"):
+        if opt in args:
+            i = args.index(opt)
+            if i + 1 >= len(args):
+                print(f"usage: {opt} needs a file", file=sys.stderr)
+                return 2
+            if opt == "--prompt":
+                prompt_path = args[i + 1]
+            else:
+                usage_out = args[i + 1]
+            del args[i:i + 2]
     brand = "vsichkikazina"
     if "--brand" in args:
         i = args.index("--brand")
@@ -79,7 +97,7 @@ def main():
         return 2
 
     article = Path(args[0]).read_text(encoding="utf-8")
-    parts = [{"text": _prompt(brand) + "\n\n---ARTICLE TEXT---\n\n" + article}]
+    parts = [{"text": _prompt(brand, prompt_path) + "\n\n---ARTICLE TEXT---\n\n" + article}]
 
     for img_arg in args[1:]:
         p = Path(img_arg)
@@ -110,6 +128,10 @@ def main():
     try:
         with urllib.request.urlopen(req, timeout=180) as resp:
             data = json.load(resp)
+        if usage_out:
+            Path(usage_out).write_text(json.dumps({"model": DEFAULT_MODEL,
+                                                   "usageMetadata": data.get("usageMetadata", {})}),
+                                       encoding="utf-8")
         print(data["candidates"][0]["content"]["parts"][0]["text"])
         return 0
     except urllib.error.HTTPError as e:

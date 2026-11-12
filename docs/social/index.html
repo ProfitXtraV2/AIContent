@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="bg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Social posts</title>
+<style>
+  :root { --ink: #14161a; --muted: #5d6673; --line: #dbdfe6; --paper: #f6f7f9; --card: #fff; --accent: #1668c7; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  header { display: flex; flex-wrap: wrap; gap: .6rem 1rem; align-items: center; padding: .9rem 16px; background: var(--card); border-bottom: 1px solid var(--line); }
+  header h1 { font-size: 1.05rem; margin: 0; }
+  header select { font: inherit; padding: .3rem .5rem; border: 1px solid #cfd6e0; border-radius: 6px; background: #fff; max-width: 100%; }
+  header .site { color: var(--muted); font-size: .86rem; }
+  nav { display: flex; gap: .25rem; overflow-x: auto; padding: .6rem 16px 0; }
+  nav button { font: inherit; border: 1px solid var(--line); border-bottom: 0; background: #eef1f5; padding: .45rem .8rem; border-radius: 8px 8px 0 0; cursor: pointer; white-space: nowrap; }
+  nav button.on { background: var(--card); font-weight: 600; }
+  main { background: var(--card); border-top: 1px solid var(--line); padding: 1rem 16px 2rem; min-height: 60vh; }
+  .hint { color: var(--muted); font-size: .86rem; }
+  .empty { color: var(--muted); padding: 1.25rem .2rem; }
+  @media (max-width: 600px) { body { font-size: 14px; } }
+</style>
+</head>
+<body>
+<header>
+  <h1 id="title">Social posts</h1>
+  <select id="brand" aria-label="Brand"></select>
+  <a class="site" id="site" target="_blank" rel="noopener"></a>
+</header>
+<nav id="tabs"></nav>
+<main id="content"><div class="empty">…</div></main>
+<script src="../social-md.js"></script>
+<script src="../social-github.js"></script>
+<script src="../social-preview.js"></script>
+<script src="../social-tabs.js"></script>
+<script>
+// Every brand's social posts on one page (the brand dashboards keep their own tabs too): the brand
+// comes from ?brand=, else the last one chosen in this browser; the data from docs/data/social/.
+(() => {
+  const BASE = '../data/social';
+  const KINDS = ['social-review', 'social-schedule', 'social-requests', 'social-settings'];
+  const KEY = 'px-social-brand';
+  const remembered = () => { try { return localStorage.getItem(KEY); } catch (e) { return null; } };
+  let brand = new URLSearchParams(location.search).get('brand') || remembered() || 'vsichkikazina';
+  let state = null;
+  const contentEl = document.getElementById('content');
+
+  function brandInfo() { return SocialTabs.brandList().find(b => b.key === brand) || { key: brand, prefix: '', name: brand }; }
+
+  function picker() {
+    const sel = document.getElementById('brand');
+    const list = SocialTabs.brandList().filter(b => b.social !== false);
+    sel.innerHTML = list.map(b => `<option value="${b.key}"${b.key === brand ? ' selected' : ''}>${b.name}</option>`).join('');
+    const b = brandInfo();
+    document.getElementById('title').textContent = SocialTabs.t('Brand') + ':';
+    const site = document.getElementById('site');
+    site.textContent = b.site || ''; site.href = b.site || '#';
+    document.title = `${b.name} · Social`;
+  }
+
+  function activate(key) {
+    window.__tabKey = KINDS.includes(key) ? key : KINDS[0];
+    document.getElementById('tabs').innerHTML = KINDS.map(k =>
+      `<button class="${k === window.__tabKey ? 'on' : ''}" onclick="__activate('${k}')">${SocialTabs.tabLabel(k)}</button>`).join('');
+    if (!state) return;
+    const k = window.__tabKey;
+    contentEl.innerHTML = k === 'social-review' ? SocialTabs.renderReview(state)
+      : k === 'social-schedule' ? SocialTabs.renderSchedule(state)
+      : k === 'social-requests' ? SocialTabs.renderRequests(state)
+      : SocialTabs.renderSettings(state);
+    SocialTabs.mount(contentEl, k);
+    try { history.replaceState(null, '', `?brand=${encodeURIComponent(brand)}${location.search.match(/[?&]repo=[^&]+/) ? '&' + location.search.match(/repo=[^&]+/)[0] : ''}#tab=${k}`); } catch (e) { /* file:// */ }
+  }
+  window.__activate = activate;
+
+  async function load() {
+    if (state && SocialTabs.isBusy()) return;                 // an open panel, editor or form stays as it is
+    let b = brandInfo();
+    try { state = await SocialTabs.load(brand, b.prefix || '', BASE); } catch (e) { state = null; }
+    if (!b.prefix && brandInfo().prefix) {                    // a brand added from the dashboard: its prefix came with the list
+      b = brandInfo();
+      try { state = await SocialTabs.load(brand, b.prefix, BASE); } catch (e) { state = null; }
+    }
+    picker();
+    activate(window.__tabKey || (location.hash.match(/tab=([\w-]+)/) || [])[1]);
+  }
+
+  document.getElementById('brand').addEventListener('change', ev => {
+    brand = ev.target.value;
+    try { localStorage.setItem(KEY, brand); } catch (e) { /* not kept */ }
+    state = null;
+    load();
+  });
+  load();
+  setInterval(load, 90000);
+})();
+</script>
+</body>
+</html>

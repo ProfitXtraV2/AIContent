@@ -1,0 +1,1047 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "items": [
+    {
+      "slug": "kak-raboti-razigravaneto",
+      "id": "vk-0001",
+      "kind": "article",
+      "title": "Как работи изискването за разиграване (wagering)",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "7fd609df4d3894668cd5b3ed8ac93c0f7bd70752fb38072ad6c32c6a8b6864d3"
+    },
+    {
+      "slug": "bezplatni-kazino-igri",
+      "id": "vk-0003",
+      "kind": "article",
+      "title": "Безплатни казино игри: демо режим, RTP и „безплатното\"",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "a95dfdd4775307edc6d0f8830c40ddadfd0436ab711609aeb632d895ba08eb95"
+    },
+    {
+      "slug": "bonus-bez-depozit-2026",
+      "id": "vk-0004",
+      "kind": "article",
+      "title": "Бонус без депозит 2026: какво наистина получавате",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "53f7999c5faac19e960f664755bb3656bec59ac9cc6d9b598334ba18bace7aa5"
+    },
+    {
+      "slug": "novo-onlajn-kazino",
+      "id": "vk-0005",
+      "kind": "article",
+      "title": "Ново онлайн казино: как да оцените новооткрит оператор",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "d2e94b317d5619fa845d3211da604876fe2981218921ad5a4ad4675eec25878a"
+    },
+    {
+      "slug": "progresivni-dzhakpoti",
+      "id": "vk-0007",
+      "kind": "article",
+      "title": "Прогресивни джакпоти: как работят и реалните шансове",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "cc9715772a6acfa58c7caab024c3f65238f2b22d741a5deffbe585f34826f01c"
+    },
+    {
+      "slug": "kak-se-igrae-poker-kazino",
+      "id": "vk-0008",
+      "kind": "article",
+      "title": "Как се играе покер в казино: видове игри и правила",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "8b772ab102c5f1de74e896e832b78b7dd86588e736225bf97e0bfd0843196545"
+    },
+    {
+      "slug": "bakara-pravila",
+      "id": "vk-0012",
+      "kind": "article",
+      "title": "Бакара: правила, залози и как се играе в казино",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "8f17e54b0c104aa863fef8d9a4b931ebe71d991ddfabec067effdf5ce767bfb1"
+    },
+    {
+      "slug": "rotativki-s-plodove",
+      "id": "vk-0013",
+      "kind": "article",
+      "title": "Класически ротативки с плодове: как работят слотовете",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "9b6f0bd01a8bdd1a689c5e190d6be4c2bf52b4248e11647663c3ed3c87323647"
+    },
+    {
+      "slug": "krash-igri-aviator",
+      "id": "vk-0014",
+      "kind": "article",
+      "title": "Краш игри и Aviator: как работят и какъв е RTP",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "42508c317f370dc316a33def2b1ec3c8057b147c8b2bef7868cf60fa5ff41b6c"
+    },
+    {
+      "slug": "novi-kazino-igri-2026",
+      "id": "vk-0015",
+      "kind": "article",
+      "title": "Нови казино игри 2026: как да оцените ново заглавие",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "6818586da9bc3fbb68f6047ea083f28aaab2a763f149bccaed9446875a5d8daa"
+    },
+    {
+      "slug": "keno-pravila",
+      "id": "vk-0016",
+      "kind": "article",
+      "title": "Кено: правила, изплащания и реални шансове",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "d92de5f9cdbb7ed5335564cf56119811c2ba9078ff1610304fb2b776766ef923"
+    },
+    {
+      "slug": "linii-na-pechalba",
+      "id": "vk-0017",
+      "kind": "article",
+      "title": "Линии на печалба в ротативките: как печелите",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "fdc4e7aa00ff8e4150c586d9b0cbf6de35aa870ba4457f08e7dd114c0e9eff71"
+    },
+    {
+      "slug": "sweet-bonanza",
+      "id": "vk-0018",
+      "kind": "article",
+      "title": "Sweet Bonanza: RTP, волатилност и как се играе",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "045411d55fda6d9d1197bc0762eda119bfbaebeed9c1d44e629ed017905443d8"
+    },
+    {
+      "slug": "pragmatic-play-provajdar",
+      "id": "vk-0019",
+      "kind": "article",
+      "title": "Pragmatic Play: профил на доставчика, механики и топ слотове",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "66e631e50b4377e3256d1121d4b664e8402ff47c955672f2db77b2211011a09d"
+    },
+    {
+      "slug": "20-super-hot",
+      "id": "vk-0020",
+      "kind": "article",
+      "title": "20 Super Hot: RTP и характеристики (EGT/Amusnet)",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "a212e4a464ba05443fe7bce061de563ceff1e88ec9d50e05bda89236c33ed930"
+    },
+    {
+      "slug": "amusnet-egt-provajdar",
+      "id": "vk-0021",
+      "kind": "article",
+      "title": "Amusnet (EGT): профил на доставчика, механики и топ слотове",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "aebdea8506e88f79e6530a0e30a28d34e866fb938402cf0f4adbca5f96a1b3c1"
+    },
+    {
+      "slug": "gates-of-olympus",
+      "id": "vk-0022",
+      "kind": "article",
+      "title": "Gates of Olympus: RTP, волатилност и как се играе",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "45f619b4f6573875f6e5daea61f7542a0fb5a388642a35403582b0ea138e141b"
+    },
+    {
+      "slug": "40-super-hot",
+      "id": "vk-0023",
+      "kind": "article",
+      "title": "40 Super Hot: RTP и джакпот функции (EGT/Amusnet)",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "57336ce790bbbd25745c62d90830c663ac2e1071d641dce3a25e49f94857b32e"
+    },
+    {
+      "slug": "live-game-shows",
+      "id": "vk-0025",
+      "kind": "article",
+      "title": "Live game shows: Crazy Time, Monopoly Live, Lightning",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "16a2bdd25068bd18c7bbc4c5117d0d556961bacc8d33ae5de2a49a6d84ab9b95"
+    },
+    {
+      "slug": "shining-crown",
+      "id": "vk-0026",
+      "kind": "article",
+      "title": "Shining Crown: RTP, линии и характеристики (EGT)",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "9c4f94222c8adc6e3c74c2a65466c7523036e0387e6c13fd5d8e6aca1cb5fc40"
+    },
+    {
+      "slug": "burning-hot",
+      "id": "vk-0027",
+      "kind": "article",
+      "title": "Burning Hot: RTP и характеристики (EGT/Amusnet)",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "99f1a3eb2ffc41ed967ce48f588112634516a0f0d06c7b821a5fa3235e1a400b"
+    },
+    {
+      "slug": "big-bass-bonanza",
+      "id": "vk-0028",
+      "kind": "article",
+      "title": "Big Bass Bonanza: RTP, волатилност и как се играе",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "4354348a0b26d0727c0e310af84127210fbd2c00cfaf014da8c762e78e0d0a9f"
+    },
+    {
+      "slug": "sugar-rush",
+      "id": "vk-0030",
+      "kind": "article",
+      "title": "Sugar Rush: RTP, волатилност и как се играе",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "49c34be494e763347d2a23eab89a4836e5bddbe0483865cbd592f0f3a4ba72f1"
+    },
+    {
+      "slug": "the-dog-house",
+      "id": "vk-0031",
+      "kind": "article",
+      "title": "The Dog House: RTP, волатилност и как се играе",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "8b98e0efa530eec1dc67abc0f1152ae565e4c516fc8ddd8be42d601525488673"
+    },
+    {
+      "slug": "sugar-rush-1000",
+      "id": "vk-0033",
+      "kind": "article",
+      "title": "Sugar Rush 1000: какво променя версията 1000",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "9df77b32a753729802d364e50a56379eb41014c7eb58e9d5fd7f147fe40445ed"
+    },
+    {
+      "slug": "gates-of-olympus-1000",
+      "id": "vk-0034",
+      "kind": "article",
+      "title": "Gates of Olympus 1000: какво променя версията 1000",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "0756e9816ee1a8363f446d2d63b8f007854f658a30e53a9f19a886e5c13e42ee"
+    },
+    {
+      "slug": "book-of-ra",
+      "id": "vk-0035",
+      "kind": "article",
+      "title": "Book of Ra: RTP, характеристики и как се играе",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "874131311229fa18137247df0917432149690aebad8d08953c0e749936239010"
+    },
+    {
+      "slug": "bonus-pri-registraciya",
+      "id": "vk-0036",
+      "kind": "article",
+      "title": "Бонус при регистрация: как работи и условията",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "42d5df8a6371da0cac7c5e203cb37c358ca1449232894855a8759204488b4305"
+    },
+    {
+      "slug": "flaming-hot",
+      "id": "vk-0037",
+      "kind": "article",
+      "title": "Flaming Hot: RTP и характеристики (EGT/Amusnet)",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "2a702ef04b9cf49762e948b9ab6105bade8b66541cd5d8a0482cb5c57cfbf44e"
+    },
+    {
+      "slug": "big-bass-splash",
+      "id": "vk-0038",
+      "kind": "article",
+      "title": "Big Bass Splash: RTP, волатилност и как се играе",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "15a2a1253fe88fd614daef383948c7f573035fd13fb7dda528d6d22ea2e77b30"
+    },
+    {
+      "slug": "kazino-bez-registraciya",
+      "id": "vk-0039",
+      "kind": "article",
+      "title": "Казино без регистрация: какво реално значи в България",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "c4fe15f669617b10c2c73d6d6c9f9cd13462ebd3af3e16526736e8a058741ab5"
+    },
+    {
+      "slug": "megaways-kak-rabotyat",
+      "id": "vk-0041",
+      "kind": "article",
+      "title": "Megaways: как работят и защо броят на начините се променя",
+      "board_status": "approved",
+      "live": false,
+      "operator_or_bonus": false,
+      "article_version": "49537de1a304fadda321c4e762b17aee02db5848e222a7c852ac87753b10b730"
+    },
+    {
+      "slug": "netent-provajdar",
+      "id": "vk-0042",
+      "kind": "article",
+      "title": "NetEnt: профил на доставчика, механики и топ слотове",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "ec91923e59b2236b49726d09b1bcadd905242e4ac8005359ee079e392cb34de3"
+    },
+    {
+      "slug": "starburst",
+      "id": "vk-0043",
+      "kind": "article",
+      "title": "Starburst: защо е класика с ниска волатилност",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "15cb88375c58907d5222c725218e04a34393005f480b2af92fa2456170381418"
+    },
+    {
+      "slug": "gonzos-quest",
+      "id": "vk-0044",
+      "kind": "article",
+      "title": "Gonzo's Quest: RTP, Avalanche механика и как се играе",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "e4d7afbeacc9f88f4583d424c1bce8e9ba25ae068f4ae97c8dbb0e3c2201a4e6"
+    },
+    {
+      "slug": "dostavchici-kazino-igri",
+      "id": "vk-0054",
+      "kind": "article",
+      "title": "Кои са доставчиците на казино игри и защо са важни",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "bc8c97e593003e70347aef140032227a4e400d94e8bc650d986fedee7d28cbe3"
+    },
+    {
+      "slug": "nv-casino-zakonno-li-e",
+      "id": "vk-0063",
+      "kind": "article",
+      "title": "NV Casino законно ли е в България? Не, ето защо",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": true,
+      "article_version": "d7eee9d77a505100f603b8ab4ab399af5c9d5f934fb5cb65522137b8eea41dfd"
+    },
+    {
+      "slug": "nv-casino-bonus-usloviya",
+      "id": "vk-0064",
+      "kind": "article",
+      "title": "NV Casino бонус: колко наистина струва €2 000",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": true,
+      "article_version": "0f2792283dbfe9e52131a00cf35266dfe206efc5fe13889f02e4b509d38fb076"
+    },
+    {
+      "slug": "le-bandit",
+      "id": "vk-0079",
+      "kind": "article",
+      "title": "Le Bandit: RTP, cluster pays и Golden Squares",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "f72807c618f3d651c74567f23485a073b4ca7d91b6689df84927d755e031aec1"
+    },
+    {
+      "slug": "sweet-bonanza-1000",
+      "id": "vk-0080",
+      "kind": "article",
+      "title": "Sweet Bonanza 1000: какво променя версията 1000",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "dc23f7c7db25204918294ac726b6452e29223062178721fcaff4770eab879fd9"
+    },
+    {
+      "slug": "sweet-bonanza-xmas",
+      "id": "vk-0083",
+      "kind": "article",
+      "title": "Sweet Bonanza Xmas: какво променя коледната версия",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "91a711ae0dff8c3a05414399089c1ba26d939c7ff58a7fb7f5d719c116920749"
+    },
+    {
+      "slug": "eye-of-horus",
+      "id": "vk-0093",
+      "kind": "article",
+      "title": "Eye of Horus: RTP 96.31%, разширяващ се символ и 12 завъртания",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "d49ed58c2f0e29321626322089b4e31fed4fee5a90de995279e84ce13a5d8d24"
+    },
+    {
+      "slug": "juicy-fruits",
+      "id": "vk-0094",
+      "kind": "article",
+      "title": "Juicy Fruits (Pragmatic): RTP 96.51%, разширяващ се wild",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "4b562c04951a7be4ef054f1728b8f2b0f995ec8ff58f8ec30935e84365698330"
+    },
+    {
+      "slug": "tombstone-rip",
+      "id": "vk-0098",
+      "kind": "article",
+      "title": "Tombstone R.I.P.: RTP, волатилност и как работи",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "be08a2ac6ba32dfd56cfb2ead767890bb2f667e50a831386a31b9ef56ee642f5"
+    },
+    {
+      "slug": "elk-studios",
+      "id": "vk-0101",
+      "kind": "article",
+      "title": "ELK Studios: профил на доставчика, механики и топ слотове",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "0872ce80c10525812bcee1a370fe7e35200ca2fc52998894ae47c8f9ed8457d0"
+    },
+    {
+      "slug": "nolimit-city",
+      "id": "vk-0104",
+      "kind": "article",
+      "title": "Nolimit City: профил на доставчика, механики и топ слотове",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "38e1560b5eadc45da28b3965d870a800babcdea8c478afe716f7b144a1acbcec"
+    },
+    {
+      "slug": "playtech",
+      "id": "vk-0107",
+      "kind": "article",
+      "title": "Playtech: профил на доставчика, механики и топ слотове",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "7fff4a24c9b399740cdc61fba7b8e8048e2d2d99d9d5b78928be4566f093d86c"
+    },
+    {
+      "slug": "yggdrasil",
+      "id": "vk-0111",
+      "kind": "article",
+      "title": "Yggdrasil Gaming: профил на доставчика, механики и топ слотове",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "e4ea7b4a9699481a27305f771e16ea346a7715b55645eda660ff169967ee6ba8"
+    },
+    {
+      "slug": "hub-intro-casino-payments",
+      "id": "vk-0119",
+      "kind": "hub-intro",
+      "title": "Казино плащания: депозити и тегления в БГ казина",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "d2b9c0af7c4547c5413e0d4bf79fafef93cdd2cb05d50cfc7e2a0fe15cebca1f"
+    },
+    {
+      "slug": "hub-intro-bonuses-vip",
+      "id": "vk-0120",
+      "kind": "hub-intro",
+      "title": "Казино бонуси и VIP: какво да проверите",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "a2599db8ee1c42e90b9b1d72a8f41d7aa05c8738ceb9f771f3a9f9a23c86415a"
+    },
+    {
+      "slug": "hub-intro-regulations-taxes",
+      "id": "vk-0121",
+      "kind": "hub-intro",
+      "title": "Регулации и данъци в онлайн хазарта в България",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "59fadff33e705dbda3809eba7b2af8f50d24178ecdf981eddf708b9c33e59841"
+    },
+    {
+      "slug": "hub-intro-comparisons-news",
+      "id": "vk-0122",
+      "kind": "hub-intro",
+      "title": "HUB INTRO: Сравнения и новини — интро за /blog/comparisons-news/",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "394d1a638b9099493a68dc7a34597bd61d1cb2bd418bbabca8f9e1557a017aeb"
+    },
+    {
+      "slug": "hub-intro-responsible-gambling",
+      "id": "vk-0123",
+      "kind": "hub-intro",
+      "title": "Отговорна игра: лимити, самоизключване, помощ",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "3e724809ca4a9d6257981db0f89745070d1882ca6f96bdb229c40cd217aa00cb"
+    },
+    {
+      "slug": "olympus-glory",
+      "id": "vk-0130",
+      "kind": "article",
+      "title": "Olympus Glory: RTP 96.23% и характеристики (Amusnet/EGT)",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "36842ae1560cf746462a76e101a163c120c14a77c722b65fd8612bf51a515efd"
+    },
+    {
+      "slug": "versailles-gold",
+      "id": "vk-0132",
+      "kind": "article",
+      "title": "Versailles Gold: RTP 96.09% и характеристики (Amusnet/EGT)",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "dee0a1424ceff2c80f9e1f50101d206b9c9f10dd0ccb5269eea63ed3da45a643"
+    },
+    {
+      "slug": "plinko",
+      "id": "vk-0133",
+      "kind": "article",
+      "title": "Plinko: как работи, RTP и нивата на риск",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "72e2eb0309736e631cb632ec557a11de4881972bec83c3c5ee3f3f8ed6e6f7ab"
+    },
+    {
+      "slug": "bell-link",
+      "id": "vk-0134",
+      "kind": "article",
+      "title": "Bell Link (EGT Digital): как работи джакпот системата",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "9e3242fd76f86e89fec4fd718a280315d1d93364263ea5ea979bdb7c35401cc7"
+    },
+    {
+      "slug": "bezkrayni-barabani-infinity-reels",
+      "id": "vk-0255",
+      "kind": "article",
+      "title": "Безкрайни барабани (Infinity Reels): как работят",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "05d7bb9d32182e293f7e5d0d414d1e1a47a56bc965274aae2082375b6f379d23"
+    },
+    {
+      "slug": "naslagani-stacked-simvoli",
+      "id": "vk-0256",
+      "kind": "article",
+      "title": "Наслагани (stacked) символи в слотовете: как работят",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "7762701cd380090b36241aaac6cf2c2d1bddcc90be67729c4b68c151edd6e3cd"
+    },
+    {
+      "slug": "turbo-barz-spin",
+      "id": "vk-0257",
+      "kind": "article",
+      "title": "Турбо и бърз спин в слотовете: скорост и риск",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "22e9185133135f66840d26f84bb1524bbb46d7d8b2810983b7c49529a69a2a63"
+    },
+    {
+      "slug": "kazino-bonus-kod",
+      "id": "vk-0258",
+      "kind": "article",
+      "title": "Казино бонус код: как работи и къде се въвежда",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "13a6948f356290a1c0016f6c6079469be6c8473f1d674bca34669000ff91da73"
+    },
+    {
+      "slug": "bezplatni-zavartaniya-free-spins",
+      "id": "vk-0259",
+      "kind": "article",
+      "title": "Безплатни завъртания (free spins): видове и условия",
+      "board_status": "approved",
+      "live": false,
+      "operator_or_bonus": false,
+      "article_version": "e2bdc5ff7d763ff5aabec32879d4c2fd149746b10ee608c3229ce9e0b410c79d"
+    },
+    {
+      "slug": "kak-da-si-napravish-zabrana-za-hazart",
+      "id": "vk-0260",
+      "kind": "article",
+      "title": "Как да си направя забрана за хазарт в НАП | Всички Казина",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "c8b936fc72fc579aa5f09137c686f2dc4a98ff9624425f4b5ad7fdf8ad22e113"
+    },
+    {
+      "slug": "kak-se-preodolyava-hazartna-zavisimost",
+      "id": "vk-0261",
+      "kind": "article",
+      "title": "Как се преодолява хазартна зависимост: лечение и помощ",
+      "board_status": "approved",
+      "live": false,
+      "operator_or_bonus": false,
+      "article_version": "fa305f84c0c0d26d6c79a64f8d348cb1734774fbc5b40f75bcbe96084a1cb817"
+    },
+    {
+      "slug": "onlayn-bingo-pravila",
+      "id": "vk-0262",
+      "kind": "article",
+      "title": "Онлайн бинго: правила, видове и реалните шансове",
+      "board_status": "approved",
+      "live": false,
+      "operator_or_bonus": false,
+      "article_version": "ba81462480a584b162d8cf9fd4a525214edfcca66fa4ef68dd663e81126c1c22"
+    },
+    {
+      "slug": "poker-kombinacii",
+      "id": "vk-0263",
+      "kind": "article",
+      "title": "Покер комбинации: подредба на ръцете (от роял флъш надолу)",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "f3ee289f8302c86dd85f276578a6f6cbf541adc11515d3880824a2b58855523c"
+    },
+    {
+      "slug": "hazartni-igri-vidove",
+      "id": "vk-0264",
+      "kind": "article",
+      "title": "Хазартни игри: видове и кои са законни в България",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "67835b524336dbb52cbfdc08fb5f54e8122912e82ec7e16a308e80fd0ef8e21c"
+    },
+    {
+      "slug": "zakon-za-hazarta",
+      "id": "vk-0265",
+      "kind": "article",
+      "title": "Закон за хазарта: промени 2025–2026 | Всички Казина",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "2e67de556a8b395aa8d8b1461f5d84d9f9701c277aefe75fa45971cad82ebf5d"
+    },
+    {
+      "slug": "toto-dzhoker",
+      "id": "vk-0266",
+      "kind": "article",
+      "title": "Тото Джокер: как се играе и какъв е шансът за печалба",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "ca6571532e47fdf12e59243869c17c8725bbdaaa186e2d54cbe91028c2c62950"
+    },
+    {
+      "slug": "toto-2-igri",
+      "id": "vk-0267",
+      "kind": "article",
+      "title": "Тото 6 от 49, 6/42 и 5/35: правила и шансове | Всички Казина",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "d5831a1b677b560a606358359a73d359dd01601057eaa75e9e9fa89ff7393458"
+    },
+    {
+      "slug": "vtori-toto-shans",
+      "id": "vk-0268",
+      "kind": "article",
+      "title": "Втори тото шанс 5 от 35 и 6 от 49: как работи през 2026",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "d77fe7f0570742f640d03f8b4bc10a8db0fc3f658f32128bca1e818643260f2c"
+    },
+    {
+      "slug": "toto-zodiak",
+      "id": "vk-0269",
+      "kind": "article",
+      "title": "Тото Зодиак: правила, печеливши групи и шанс за джакпот",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "f4a8bd90b24abec870a827464d78b31432966b726a9f1a0b9670f5d6f1a9d6c3"
+    },
+    {
+      "slug": "toto-sistemi-kombinacii",
+      "id": "vk-0270",
+      "kind": "article",
+      "title": "Тото комбинации 6 от 49: цени на системите и шанс",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "411895b1c277b88d7f6141a388cf8c83dfa669eebdd323a3ddfd407d1c82ab96"
+    },
+    {
+      "slug": "darzhavna-nacionalna-lotaria",
+      "id": "vk-0271",
+      "kind": "article",
+      "title": "Държавна лотария и Национална лотария: коя е законна",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "a51d64bae0186bd7110e7d866662ccccd79a875f8a398da70e825aae2cb1d4f7"
+    },
+    {
+      "slug": "chislata-v-toto-statistika",
+      "id": "vk-0272",
+      "kind": "article",
+      "title": "Числата от тотото: статистика и митът за горещите числа",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "8fe749f3259683d9e2b10f9a9ae64ee831cb0daf988cdbbeeb140d11b8e479b5"
+    },
+    {
+      "slug": "lotaria-vidove",
+      "id": "vk-0273",
+      "kind": "article",
+      "title": "Лотария в България: видове, кой я организира и онлайн игра",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "bbcb10463c8fd42f8ee973b9827176f259836ee0b71800f2e98fb586330a9fca"
+    },
+    {
+      "slug": "toto-rozhden-den",
+      "id": "vk-0274",
+      "kind": "article",
+      "title": "Тото Рожден ден: правила, печалби и реален шанс",
+      "board_status": "approved",
+      "live": false,
+      "operator_or_bonus": false,
+      "article_version": "e8b3beb5ae9d1067a1dfb570008c12a6239bf751cecf658fa708e72453a935db"
+    },
+    {
+      "slug": "toto-dzhakpot",
+      "id": "vk-0275",
+      "kind": "article",
+      "title": "Тото джакпот: колко е сега, рекорди, изплащане и данък",
+      "board_status": "approved",
+      "live": false,
+      "operator_or_bonus": false,
+      "article_version": "6bec267f6b490e16e718441b515019f3c2991908990f4a7ffd23c0f6d9124d32"
+    },
+    {
+      "slug": "kazina-las-vegas",
+      "id": "vk-0276",
+      "kind": "article",
+      "title": "Казино в Лас Вегас: колко задържа къщата | Всички Казина",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "609bb407d09fc663f071ad7bedcb37360341f2606f8c4b55065be8966094cd03"
+    },
+    {
+      "slug": "elektronna-ruletka",
+      "id": "vk-0280",
+      "kind": "article",
+      "title": "Електронна рулетка: как работи (RNG и автоматни рулетки)",
+      "board_status": "approved",
+      "live": false,
+      "operator_or_bonus": false,
+      "article_version": "0cbd9d5f0769beb998f895f5e8ce5fcbd915d65f11610af3f1a7f3a23ea4c7a1"
+    },
+    {
+      "slug": "poker-chipove",
+      "id": "vk-0285",
+      "kind": "article",
+      "title": "Покер чипове: цветове, стойности и броене",
+      "board_status": "approved",
+      "live": false,
+      "operator_or_bonus": false,
+      "article_version": "5f3edb7b2283fa86840f8ad08956fc1145f22a5f7954e5e47fbba134c70b002c"
+    },
+    {
+      "slug": "belot-pravila",
+      "id": "vk-0286",
+      "kind": "article",
+      "title": "Белот правила: как се играе и точкуване | Всички Казина",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "f63b835ba3d2a63c01a27938e2e2eeadc1e99acdc2aca2f4110911b4cbe04569"
+    },
+    {
+      "slug": "santase-pravila",
+      "id": "vk-0287",
+      "kind": "article",
+      "title": "Сантасе правила: как се играе сантасе (66)",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "1f894e13ee92d1cb2e6f70ee5b131fdc714c7d06630a6252513247414f2173b7"
+    },
+    {
+      "slug": "tabla-pravila",
+      "id": "vk-0288",
+      "kind": "article",
+      "title": "Табла правила: как се играе (обикновена, тапа, гюлбара)",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "d0bacd16d9c390f0411fdb2f5834f60de35f8eecacd9aa9328b3ed603fe3e289"
+    },
+    {
+      "slug": "svara-pravila",
+      "id": "vk-0289",
+      "kind": "article",
+      "title": "Свара правила: как се играе свара на точки",
+      "board_status": "approved",
+      "live": false,
+      "operator_or_bonus": false,
+      "article_version": "7c80e9a40386a268ff1f183abf8b561dadea25dd0a0617bf2ce4aaf06a0e88b5"
+    },
+    {
+      "slug": "kanasta-pravila",
+      "id": "vk-0290",
+      "kind": "article",
+      "title": "Канаста: правила, точкуване и разновидности",
+      "board_status": "approved",
+      "live": false,
+      "operator_or_bonus": false,
+      "article_version": "b7d454cb0ab055d06b7b67b4fbfab58cefff5d3503b6ade244e011ecf18bd8eb"
+    },
+    {
+      "slug": "pasians-pravila",
+      "id": "vk-0293",
+      "kind": "article",
+      "title": "Пасианс правила: Клондайк, Паяк и FreeCell",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "f00bd7e3bcb17def8ada7f353b3841892507475b18727ee98e3a2c563cae174c"
+    },
+    {
+      "slug": "onlayn-mashini-kak-rabotyat",
+      "id": "vk-0294",
+      "kind": "article",
+      "title": "Как работят онлайн машините: слотове, RTP и шанс",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "ac42b387f89b3761b2560aab417ac0e9f2ecd0c862d335027bfe94b25b8e8b29"
+    },
+    {
+      "slug": "belot-onlayn",
+      "id": "vk-0295",
+      "kind": "article",
+      "title": "Белот онлайн: къде се играе безплатно | Всички Казина",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "3d11951f680edebc294e4db523e11c6fd0e6f28b7d532e249eb2b69e4f6fcad4"
+    },
+    {
+      "slug": "tabla-onlayn",
+      "id": "vk-0296",
+      "kind": "article",
+      "title": "Табла онлайн: къде се играе безплатно | Всички Казина",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "13a583868503a0f8b9f2015ee32d913d200774e29589fb52c5802b7d30e0ad06"
+    },
+    {
+      "slug": "proverka-na-fish",
+      "id": "vk-0297",
+      "kind": "article",
+      "title": "Проверка на фиш Тото: онлайн и на гише | Всички Казина",
+      "board_status": "approved",
+      "live": false,
+      "operator_or_bonus": false,
+      "article_version": "92ea1fdabdcf4d58d1416a1d7c19893e18e5372c3bffdae513ec0d5a50085237"
+    },
+    {
+      "slug": "teglene-na-toto-dnes",
+      "id": "vk-0298",
+      "kind": "article",
+      "title": "Теглене на Тото: дни, час и къде да гледате | Всички Казина",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "caf4b895fe52e1fe4ec0cba86fd5962492de72a98a1039f7ac464fcdc83ad4c4"
+    },
+    {
+      "slug": "igri-s-karti",
+      "id": "vk-0299",
+      "kind": "article",
+      "title": "Игри с карти: кои се играят в България и как",
+      "board_status": "approved",
+      "live": false,
+      "operator_or_bonus": false,
+      "article_version": "3692ec5e34986ecc269bc244278918027bf3b3ecc78f62868aa0876a16fe9b79"
+    },
+    {
+      "slug": "shah-pravila",
+      "id": "vk-0300",
+      "kind": "article",
+      "title": "Шах правила за начинаещи: фигури, ходове, шах и мат",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "2049f8c3646a96fc2013c2fa078265fa79e052b8d6fae5ffb264cd1f12bd6046"
+    },
+    {
+      "slug": "stani-bogat-onlayn",
+      "id": "vk-0301",
+      "kind": "article",
+      "title": "Стани богат онлайн: правила на играта и къде да играете",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "0e505f842790dffeeaa0c3a0724c5a44f4786a2b49fe39d9d971373ee9f74c41"
+    },
+    {
+      "slug": "ludogorec-istoriya-titli",
+      "id": "vk-0309",
+      "kind": "article",
+      "title": "Лудогорец: история, титли и Хювефарма Арена | Всички Казина",
+      "board_status": "approved",
+      "live": false,
+      "operator_or_bonus": false,
+      "article_version": "8820b194c0e6efbc5432ac9436e9292017c884d0d5b0d7d89ddb138e032d8136"
+    },
+    {
+      "slug": "tenis-pravila-tochkuvane",
+      "id": "vk-0310",
+      "kind": "article",
+      "title": "Тенис правила и точкуване: гейм, сет и тайбрек | Всички Казина",
+      "board_status": "posted",
+      "live": true,
+      "operator_or_bonus": false,
+      "article_version": "214518acc9acfe28b94e2b9d5920514db2f2846103140439862aceccb15879f2"
+    },
+    {
+      "slug": "real-madrid-istoriya-trofei",
+      "id": "vk-0311",
+      "kind": "article",
+      "title": "Реал Мадрид: история, трофеи, стадион и легенди | Всички Казина",
+      "board_status": "approved",
+      "live": false,
+      "operator_or_bonus": false,
+      "article_version": "e8a5d3b6f77e78553df33423420cbac25eedf770fdde34b2cd2a7077351789dc"
+    },
+    {
+      "slug": "barcelona-istoriya-trofei",
+      "id": "vk-0312",
+      "kind": "article",
+      "title": "Барселона: история, трофеи, стадион и легенди | Всички Казина",
+      "board_status": "approved",
+      "live": false,
+      "operator_or_bonus": false,
+      "article_version": "264df87fe286c2064b01f6926bc7b604ee4f7b489e4ea492f0ee099187f4a33e"
+    },
+    {
+      "slug": "lionel-messi-kariera-trofei",
+      "id": "vk-0313",
+      "kind": "article",
+      "title": "Лионел Меси: кариера, рекорди и трофеи | Всички Казина",
+      "board_status": "approved",
+      "live": false,
+      "operator_or_bonus": false,
+      "article_version": "462192ea82744a3ca4d70126e532ab60ca96f317cb29d4d5427e4680c73f1abb"
+    },
+    {
+      "slug": "kristiano-ronaldo",
+      "id": "vk-0315",
+      "kind": "article",
+      "title": "Кристиано Роналдо: кариера, рекорди и трофеи | Всички Казина",
+      "board_status": "approved",
+      "live": false,
+      "operator_or_bonus": false,
+      "article_version": "a241385b88acc8fe916adc9c30392efdb468c0cf9f5dfd96701c11b70767a22d"
+    },
+    {
+      "slug": "chelsi",
+      "id": "vk-0316",
+      "kind": "article",
+      "title": "Челси: история, трофеи, стадион и легенди | Всички Казина",
+      "board_status": "approved",
+      "live": false,
+      "operator_or_bonus": false,
+      "article_version": "be4dd99ff54173dec9e723d142fb2db72c714caab404a673563dff3f08f61b03"
+    },
+    {
+      "slug": "la-liga",
+      "id": "vk-0317",
+      "kind": "article",
+      "title": "Ла Лига: формат, отбори и как работи класирането | Всички Казина",
+      "board_status": "approved",
+      "live": false,
+      "operator_or_bonus": false,
+      "article_version": "962c424906a0b38fcd3cfb1d84a5d1358c36fbde94c583e3aa02741ad11bbcbb"
+    },
+    {
+      "slug": "formula-1",
+      "id": "vk-0318",
+      "kind": "article",
+      "title": "Формула 1: как работи — точкуване, отбори и състезателният уикенд | Всички Казина",
+      "board_status": "approved",
+      "live": false,
+      "operator_or_bonus": false,
+      "article_version": "cbb074d3efbbe4e17a6897d371b50511de55f10c7a3a7cd5e7b4d6bb529c97f2"
+    }
+  ],
+  "missing": []
+}

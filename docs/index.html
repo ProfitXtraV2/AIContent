@@ -197,6 +197,10 @@
   <footer id="footer"></footer>
 </div>
 
+<script src="./social-md.js"></script>
+<script src="./social-github.js"></script>
+<script src="./social-preview.js"></script>
+<script src="./social-tabs.js"></script>
 <script>
 const LABELS = {
   site: "Live site", repo: "Repo", prs: "Pull requests",
@@ -396,6 +400,9 @@ async function load() {
   const repo = (meta.links && meta.links.repo) || 'https://github.com/ProfitXtraV2/AIContent';
   const REVIEW_STATES = ['in-progress', 'drafted', 'failed'];   // need attention before deploy
   const HIDE_BACKLOG = ['written', 'used', 'queued'];           // consumed → drop from backlog
+  // Social posts (G1, G2): the two tabs read docs/data/social/vsichkikazina-*.json, see social-tabs.js
+  let social = null;
+  try { social = await SocialTabs.load('vsichkikazina', 'vk', './data/social'); } catch (e) { social = null; }
   const TABS = [
     { key: 'deploy', cls: 'deploy', label: 'Articles ready to deploy',
       rows: allRows.filter(r => r.status === 'approved'), kind: 'article' },
@@ -405,6 +412,15 @@ async function load() {
       rows: backlog.filter(r => !HIDE_BACKLOG.includes((r.status || 'open').toLowerCase())), kind: 'backlog' },
     { key: 'seo', cls: 'review', label: 'SEO & keywords',
       rows: research.filter(r => (r.status || 'candidate') !== 'used'), kind: 'seo' },
+    ...(social ? [
+      { key: 'social-review', cls: 'review', label: SocialTabs.tabLabel('social-review'),
+        rows: social.reviewRows, kind: 'social-review' },
+      { key: 'social-schedule', cls: 'deploy', label: SocialTabs.tabLabel('social-schedule'),
+        rows: social.scheduleRows, kind: 'social-schedule' },
+      { key: 'social-requests', cls: '', label: SocialTabs.tabLabel('social-requests'),
+        rows: [], badge: false, kind: 'social-requests' },
+      { key: 'social-settings', cls: '', label: SocialTabs.tabLabel('social-settings'),
+        rows: [], badge: false, kind: 'social-settings' }] : []),
   ];
   // AI research bank — the SEO & keywords tab shows the keyword-discovery candidates.
   const researchActive = research.filter(r => (r.status || 'candidate') !== 'used');
@@ -526,6 +542,7 @@ async function load() {
   const tabsEl = document.getElementById('tabs');
   const contentEl = document.getElementById('tabContent');
   function activate(key) {
+    window.__tabKey = key;
     TABS.forEach(t => {
       document.getElementById('tab-' + t.key).classList.toggle('active', t.key === key);
     });
@@ -534,14 +551,23 @@ async function load() {
       : t.kind === 'research' ? renderResearch(t.rows)
       : t.kind === 'seo' ? renderSeo(s.seo)
       : t.kind === 'prs' ? renderPRs(t.rows)
+      : t.kind === 'social-review' ? SocialTabs.renderReview(social)
+      : t.kind === 'social-schedule' ? SocialTabs.renderSchedule(social)
+      : t.kind === 'social-requests' ? SocialTabs.renderRequests(social)
+      : t.kind === 'social-settings' ? SocialTabs.renderSettings(social)
       : renderArticles(t.rows);
+    if (t.kind.startsWith('social-')) SocialTabs.mount(contentEl, t.kind);
   }
   tabsEl.innerHTML = TABS.map(t =>
-    `<button class="tab ${t.cls}" id="tab-${t.key}" onclick="__activate('${t.key}')">` +
-    `${t.label}<span class="badge">${t.rows.length}</span></button>`).join('');
+    `<button class="tab ${t.cls}" id="tab-${t.key}" onclick="__activate('${t.key}')"${t.bg ? ` title="${t.bg}"` : ''}>` +
+    `${t.label}${t.badge === false ? '' : `<span class="badge">${t.count != null ? t.count : t.rows.length}</span>`}</button>`).join('');
   window.__activate = activate;
   const firstNonEmpty = TABS.find(t => t.rows.length) || TABS[TABS.length - 1];
-  activate(firstNonEmpty.key);
+  window.__tabKey = window.__tabKey || (location.hash.match(/tab=([\w-]+)/) || [])[1];   // #tab=<key> opens a tab
+  const kept = TABS.find(t => t.key === window.__tabKey);            // the refresh keeps the open tab
+  if (kept && kept.kind.startsWith('social-') && SocialTabs.isBusy())   // an open panel, editor or form stays as it is
+    TABS.forEach(t => document.getElementById('tab-' + t.key).classList.toggle('active', t.key === kept.key));
+  else activate((kept || firstNonEmpty).key);
 
   document.getElementById('footer').textContent =
     'Autopilot keeps ≥10 written-but-unposted articles ready · dashboard regenerates each run.';

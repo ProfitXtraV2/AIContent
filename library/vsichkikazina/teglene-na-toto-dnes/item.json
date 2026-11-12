@@ -1,0 +1,49 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0298",
+  "slug": "teglene-na-toto-dnes",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-10-27-teglene-na-toto-dnes",
+  "pr": "#321",
+  "title": "Теглене на Тото: дни, час и къде да гледате | Всички Казина",
+  "meta_description": "Кога тегли Спорт Тото 6 от 49, 6 от 42, 5 от 35, Джокер и Зодиак, по кой канал е тегленето на живо и къде излиза последният тираж с официалните числа.",
+  "keywords": [
+    "теглене на тото 6 от 49 днес",
+    "спорт тото 6 от 49 последен тираж",
+    "спорт тото 5 от 35 последен тираж",
+    "тото джокер последен тираж"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/teglene-na-toto-dnes/images/teglene-na-toto-grafik-hero.webp",
+      "name": "teglene-na-toto-grafik-hero.webp",
+      "alt": "Декоративна илюстрация на телевизионен екран с лотариен барабан и стенен календар с два отбелязани дни и часовник, без числа, лога и лица",
+      "sha256": "4d1a840ee61878730c7616046a25745cb17300d62181ae385ba03ad4bade5cfb",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/teglene-na-toto-dnes/images/teglene-na-toto-grafik.svg",
+      "name": "teglene-na-toto-grafik.svg",
+      "alt": "Инфографика: графикът на тегленето на Тото - четвъртък и неделя от 18:45 ч., на живо по БНТ, кои игри се теглят в този слот и къде са официалните резултати",
+      "sha256": "48ff18bc850229d17771e0e926ee7f4457f1c5e29b229d3933dd3248193b1717",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "caf4b895fe52e1fe4ec0cba86fd5962492de72a98a1039f7ac464fcdc83ad4c4",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

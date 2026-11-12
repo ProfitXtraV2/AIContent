@@ -1,0 +1,48 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0274",
+  "slug": "toto-rozhden-den",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-10-10-toto-rozhden-den",
+  "pr": "#295",
+  "title": "Тото Рожден ден: правила, печалби и реален шанс",
+  "meta_description": "Как се играе тото Рожден ден: какво се тегли, как се попълва фишът, 15 печеливши групи и шансът, 1 на 255 675 за джакпот и около 1 на 4 за печалба.",
+  "keywords": [
+    "тото рожден ден",
+    "как се играе тото рожден ден",
+    "тото рожден ден правила"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/toto-rozhden-den/images/toto-rozhden-den-kalendar-barabani-hero.webp",
+      "name": "toto-rozhden-den-kalendar-barabani-hero.webp",
+      "alt": "Илюстрация: настолен календар с четири отделни въртящи се барабана за година, месец, дата и ден от седмицата до топки за лотария и подарък",
+      "sha256": "dc73d815808f2cf6a50715391121381e23767f69233429d53caf30c9a8bf9182",
+      "review": {
+        "score": 100,
+        "integrity_ok": null,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/toto-rozhden-den/images/toto-rozhden-den-shans-15-grupi-infografika.svg",
+      "name": "toto-rozhden-den-shans-15-grupi-infografika.svg",
+      "alt": "Инфографика: приблизителен шанс 1 на N за всяка от 15-те печеливши групи в тото Рожден ден, от 1 на 255 675 за джакпота до около 1 на 8.0 само за деня",
+      "sha256": "e9fe3d6fcee1f58a021151f3f5fcdcb10912a51290032ba180c2a9be5dde919f",
+      "review": {
+        "score": 100,
+        "integrity_ok": null,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "e8b3beb5ae9d1067a1dfb570008c12a6239bf751cecf658fa708e72453a935db",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

@@ -1,0 +1,49 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0280",
+  "slug": "elektronna-ruletka",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-10-14-elektronna-ruletka",
+  "pr": "#301",
+  "title": "Електронна рулетка: как работи (RNG и автоматни рулетки)",
+  "meta_description": "",
+  "keywords": [
+    "електронна рулетка",
+    "казино рулетка игра",
+    "автоматична рулетка",
+    "рулетка RNG"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/elektronna-ruletka/images/elektronna-ruletka-rng-hero.webp",
+      "name": "elektronna-ruletka-rng-hero.webp",
+      "alt": "Стилизирано рулетъчно колело, свързано чрез електронна платка с микрочип — електронна (RNG) рулетка, при която зеленото поле тихо държи предимството на казиното.",
+      "sha256": "178b088a38014b43475b67752bccc02aac08513b5a6b9e465bbbab6d4312b5d9",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/elektronna-ruletka/images/domashno-predimstvo-po-vid-ruletka.svg",
+      "name": "domashno-predimstvo-po-vid-ruletka.svg",
+      "alt": "Сравнение на домашното предимство по вид рулетка: американска 5,26% (RTP 94,74%), европейска 2,70% (RTP 97,30%) и френска с „la partage\" около 1,35% върху равните залози.",
+      "sha256": "4109412b9fc936c6f1e656106769844f9493a27c74e5bd706c9b1c63f7ef8d0f",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "0cbd9d5f0769beb998f895f5e8ce5fcbd915d65f11610af3f1a7f3a23ea4c7a1",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

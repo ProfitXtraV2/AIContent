@@ -1,0 +1,40 @@
+name: social-intake
+# An issue the dashboard opened for a person ("social: …"): a command on a post, a request for
+# posts or a settings change (a PR they merge), done for them when they have write access
+# (scripts/social/intake.py). The
+# page holds no key: the person's own "Submit new issue" is the action. The issue's title and text
+# reach the script only through the GitHub API, as data.
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write        # requests.md, the dashboard data, a settings branch
+  issues: write          # the answer and closing the issue
+  pull-requests: write   # the PR of a settings change
+
+concurrency:
+  group: social-intake
+  cancel-in-progress: false
+
+jobs:
+  intake:
+    if: startsWith(github.event.issue.title, 'social:')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Do what the issue asks
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          python3 scripts/social/intake.py "$ISSUE_NUMBER"

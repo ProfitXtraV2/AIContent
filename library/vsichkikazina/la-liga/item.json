@@ -1,0 +1,48 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0317",
+  "slug": "la-liga",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-10-29-la-liga",
+  "pr": "#340",
+  "title": "Ла Лига: формат, отбори и как работи класирането | Всички Казина",
+  "meta_description": "Как работи испанската Ла Лига: 20 отбора, 38 кръга, точкуване и отличителният тайбрек по преки срещи, промоция/изпадане и рекордите по титли. Факти, не прогнози.",
+  "keywords": [
+    "ла лига",
+    "la liga",
+    "испанско първенство"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/la-liga/images/la-liga-igrishte-hero.webp",
+      "name": "la-liga-igrishte-hero.webp",
+      "alt": "Плоска илюстрация на футболно игрище с трибуни вечер, в топли жълто-червени тонове; без клубни гербове, без лога, без хора",
+      "sha256": "6c9716554ab4de958e1bca793757fc39bdee864e433b44338685f78f96c4d27e",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/la-liga/images/la-liga-format.svg",
+      "name": "la-liga-format.svg",
+      "alt": "Инфографика за формата на Ла Лига: основана 1929 г., 20 отбора, 38 кръга, 380 мача, 3 точки за победа, изпадат последните 3, рекордьор по титли Реал Мадрид с 36, Барселона 29, Атлетико Мадрид 11, всичко към есента на 2026 г.",
+      "sha256": "beaaaac12c4e117e8394cdad75f680f531a23cfe8505e5e38dca7310fba34902",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "962c424906a0b38fcd3cfb1d84a5d1358c36fbde94c583e3aa02741ad11bbcbb",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

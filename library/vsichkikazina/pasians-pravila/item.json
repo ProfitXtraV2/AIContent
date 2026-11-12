@@ -1,0 +1,60 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0293",
+  "slug": "pasians-pravila",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-10-27-pasians-pravila",
+  "pr": "#316",
+  "title": "Пасианс правила: Клондайк, Паяк и FreeCell",
+  "meta_description": "Пасианс правила на ясен език: Клондайк (Косинка), Паяк и FreeCell, подредба, нареждане и как се печели. Кои правила са стандартни и кои са по вариант.",
+  "keywords": [
+    "пасианс",
+    "пасианс паяк",
+    "пасианс клондайк",
+    "как се играе пасианс"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/pasians-pravila/images/pasians-podredba-hero.webp",
+      "name": "pasians-podredba-hero.webp",
+      "alt": "Плоска илюстрация: разбъркани карти отляво постепенно се подреждат в четири равни нарастващи купчини отдясно, символ на пасианса като подреждане на тесте",
+      "sha256": "bf7b511ceba5f2e6b1c48cc701f3b4c21a43b8dc87f5e87be55d4806ea7dc3bd",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/pasians-pravila/images/klondike-nachalna-podredba.svg",
+      "name": "klondike-nachalna-podredba.svg",
+      "alt": "Инфографика на началната подредба в Клондайк: 7 колони с 1 до 7 карти, само най-горната във всяка е открита, общо 28 раздадени карти и 24 в талона от тесте с 52 карти",
+      "sha256": "31dffce4148b57081f32b9d52e3cb04ebb88e8f2b1fa36f0f9df0e4d4b8173b4",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/pasians-pravila/images/pasians-trite-vida-sravnenie.svg",
+      "name": "pasians-trite-vida-sravnenie.svg",
+      "alt": "Сравнителна инфографика на Клондайк, Паяк и FreeCell по брой тесте, брой колони, начина на нареждане в колоните и условието за победа",
+      "sha256": "3cf7c588c3da9849b3eea482afdd4e0a230cc1d4036317e5853c419e308c13c2",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "f00bd7e3bcb17def8ada7f353b3841892507475b18727ee98e3a2c563cae174c",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

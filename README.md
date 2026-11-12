@@ -9,12 +9,18 @@ all times.
 It is currently configured for two brands:
 
 - **Всички Казина** (`vsichkikazina.bg`, Bulgarian online-casino comparison) — fully
-  automated; a scheduled cloud routine runs daily at 07:00 Europe/Sofia.
+  automated; a scheduled cloud routine runs once a day at about 07:00 UTC (10:00 Sofia in
+  summer, 09:00 in winter; once daily since 2026-10-04).
 - **Dentalvia** (`dentalvia.de`, German dental-tourism mediation) — **manual trigger
   only** (no routine registered); German-language output; English comes via a future
   publisher-side translation step.
 
 The layout is multi-brand by design (see [Adding a brand](#adding-a-new-brand)).
+
+**Social posts** (built, not switched on yet): every approved article can get a pack of posts
+for Facebook, Instagram, X and LinkedIn, reviewed and merged like an article, then handed to a
+self-hosted publishing tool at the right time. See [Social posts: day to day](#social-posts-day-to-day)
+and `SOCIAL-SETUP.md`.
 
 > **Status:** operational. VsichkiKazina's daily automation runs in the cloud
 > (laptop-independent); Dentalvia runs are triggered manually (not scheduled). Human
@@ -30,11 +36,12 @@ The layout is multi-brand by design (see [Adding a brand](#adding-a-new-brand)).
 5. [Data model & schemas](#data-model--schemas)
 6. [Configuration & setup](#configuration--setup)
 7. [Human workflow](#human-workflow)
-8. [The dashboard](#the-dashboard)
-9. [Local development](#local-development)
-10. [Operational notes & known limits](#operational-notes--known-limits)
-11. [Adding a new brand](#adding-a-new-brand)
-12. [Non-negotiable principles](#non-negotiable-principles)
+8. [Social posts: day to day](#social-posts-day-to-day)
+9. [The dashboard](#the-dashboard)
+10. [Local development](#local-development)
+11. [Operational notes & known limits](#operational-notes--known-limits)
+12. [Adding a new brand](#adding-a-new-brand)
+13. [Non-negotiable principles](#non-negotiable-principles)
 
 ---
 
@@ -147,8 +154,10 @@ Summary of its steps:
 AIContent/
 ├── README.md                     # this file
 ├── SETUP.md                      # one-time setup checklist
+├── SOCIAL-SETUP.md               # social posts: setup checklist and records (host, identities, V1–V11)
 ├── docs/                         # GitHub Pages dashboard (served from /docs)
 │   ├── index.html                #   static, data-driven UI
+│   ├── social-tabs.js            #   the two social tabs, shared by both brand pages
 │   ├── robots.txt                #   noindex (drafts are unpublished)
 │   └── data/
 │       ├── status.json           #   generated: buffer, queue, backlogs, opportunity
@@ -158,7 +167,10 @@ AIContent/
 │   ├── gemini_check.py           # Step-7 external check: POSTs article+prompt to Gemini API
 │   ├── AHREFS_ENDPOINTS.md       # recorded working Ahrefs v3 endpoints (for scripting)
 │   ├── GEMINI_ENDPOINT.md        # recorded working Gemini model/endpoint
-│   └── tests/test_build_dashboard.py
+│   ├── build_library.py          # the article library (library/<brand>/): what social posts may quote
+│   ├── social/                   # social posts: drafting helpers, checks, PR sync, publishing check,
+│   │   └── deploy/               #   control loop; the guest's systemd, Caddy, Authelia, tunnel files
+│   └── tests/                    # pytest: dashboard, library, feed, social
 ├── VsichkiKazina/                # ── one folder per brand ──
 │   ├── pipeline/                 # the editorial pipeline (agents, prompts, markets, gate)
 │   ├── automation/
@@ -168,6 +180,7 @@ AIContent/
 │   ├── topic-backlog.md          # HUMAN keyword backlog     (you add; run enriches)
 │   ├── research-topics.md        # AI keyword bank           (Ahrefs-driven)
 │   ├── affiliate-links.md        # operator → affiliate URL registry (reuse site links)
+│   ├── social/                   # social: settings.md, requests.md, packs.md, packs/, prompts/, ledger
 │   └── articles/<YYYY-MM-DD-slug>/# per-article working dir (00-brief … 06-verification, log)
 └── DentalVia/                    # ── second brand (German dental-tourism) ──
     ├── pipeline/                 # German-market editorial pipeline
@@ -220,7 +233,7 @@ the **cloud environment / routine**, not in the repo.
 | 4 | Cloud environment network | claude.ai/code → routine → env ⚙ | **Network access: Full** (WebFetch/Ahrefs need egress) |
 | 5 | Ahrefs key | same env ⚙ → Environment variables | secret **`AHREFS_API_KEY`** (never commit it) |
 | 6 | Gemini key (optional) | same env ⚙ → Environment variables | secret **`GEMINI_API_KEY`** for the Step-7 cross-model check (skips gracefully if unset) |
-| 7 | Scheduled routine | `/schedule` / routines API | cron **`0 3,7,22 * * *`** (01:00, 06:00, 10:00 Europe/Sofia), model, run `automation/daily-run.md` |
+| 7 | Scheduled routine | `/schedule` / routines API | once a day at about **07:00 UTC** (10:00 Sofia in summer, 09:00 in winter; once daily since 2026-10-04), model, run `automation/daily-run.md` |
 
 **Tunable constants** (top of `automation/daily-run.md`):
 
@@ -228,7 +241,7 @@ the **cloud environment / routine**, not in the repo.
 |---|---|---|
 | `BUFFER_TARGET` | 10 | desired written-but-unposted articles |
 | `MAX_PER_RUN` | 10 | safety cap on articles per run (first backfill) |
-| `RUN_TIME` | 07:00 Europe/Sofia | cron fire time (UTC in the routine: `0 3,7,22 * * *`) |
+| `RUN_TIME` | about 07:00 UTC | the routine's fire time (cron is fixed in UTC, so Sofia time moves by an hour twice a year) |
 | `GEMINI_TARGET_CONFIDENCE` | 80 | Step-7 accepts at "human-written ≥ this" |
 | `MAX_GEMINI_PASSES` | 2 | max Humaniser re-passes Gemini can drive before handing to human |
 | **Content scope** | guides-only | single switch — see limits below |
@@ -252,6 +265,41 @@ The **Gemini rating** (green `✓ Gemini NN%` = approved, amber `AI-ish NN%` = b
 shown per article on the review/deploy tabs — an amber badge is your cue to tighten the copy
 (or post as-is). The Step-7 check runs automatically in the pipeline; you don't run it by hand.
 
+## Social posts: day to day
+
+Built for Всички Казина first (DentalVia follows once its approval wiring is settled). Nothing is
+posted until the setup in `SOCIAL-SETUP.md` is done and Nikolay merges `settings.md` with
+`social: on`. Everything happens in screens that exist today, plus the dashboard's social tabs;
+Postiz itself is needed rarely. The dashboard holds no key: every button opens GitHub, where you
+confirm with your own login (a PR to merge or close, a file to edit, or a new issue `social: …`
+that `social-intake.yml` does for people with write access, answering in the issue).
+
+| You want to | Where | What it loads from |
+|---|---|---|
+| See what is waiting for review | Dashboard, tab **Posts for review** („Постове за преглед“) | `docs/data/social/vsichkikazina-review.json`, plus open `social/…` PRs read live |
+| Read a pack | The pack PR. Its **description** is the review view (every post in Bulgarian with the English reference the AI wrote with it, image text, images, link and the source of each number); the **sticky comment** lists every check | The PR's files, rendered by `social-pr.yml` |
+| Change a post | The PR's **Files changed**: edit `posts/<post ID>.md` (text, hashtags, image text, alt text), or delete a post's file | The checks run again within minutes; the review view marks the English reference as written before the edit |
+| Ask for a rewrite | A PR comment `/redo <post ID> <note>` | The next drafting run |
+| Approve or reject | **Merge** (approve) or **Close** (reject) the pack PR in GitHub; the dashboard's pack panel shows the posts as the networks will, links to the PR and asks **When should it go out?** before the merge: in the first free slot (just Merge), at once (the issue `social: post now <pack ID>`) or at a day and time (`social: post at <pack ID> <YYYY-MM-DD HH:MM>`); the chosen line waits for the merge | GitHub's record of who merged |
+| Ask for posts about a keyword, an older article, a section intro or a free topic, with its own format, slides and sources (web addresses or a pasted text) | Tab **New post** → **Ask the AI for posts** (the article from a list) → **Continue in GitHub**: the issue `social: request …`; or a row in the Requests table of `VsichkiKazina/social/requests.md` (a pasted text is saved under `VsichkiKazina/social/sources/`) | The next drafting run |
+| Fix, cancel, move, post one post now or at a day and time | **Post now**, **Schedule for…**, **Cancel**, **Not before…** or **Fix** on "Scheduled & published": each opens the issue `social: <command> <post ID>`; submitted, it adds the line to the Commands table of the same file | `post now` within about 5 minutes (the control loop wakes the check); `fix` at the next drafting run; the others at the next publishing check |
+| Follow what goes out | Tab **Scheduled & published** („Насрочени и публикувани“): status per post, Sofia time, link to the live post | `docs/data/social/vsichkikazina-schedule.json` |
+| Change slots, accounts, posts per article, format, slides or any other setting (Facebook and Instagram post carousels, 5 slides by default) | Tab **Social settings** is a form: change the fields, **Save in GitHub** opens the issue `social: settings`; submitted, it becomes a PR that changes `VsichkiKazina/social/settings.md`, and the person who made the change (or anyone with write access) merges it | The next publishing check, after the merge |
+| Stop a brand now, or lift a stop | Comment `/stop-now vsichkikazina` or `/lift vsichkikazina` on the pinned issue "Social control" | The control loop, within 5 minutes |
+| Reschedule or cancel in the tool, reconnect an expired login | Postiz at `https://social.<domain>`, after the two-step sign-in | Seen by the next check |
+
+**How a post travels.** Article merged → the daily run drafts a pack (`social/vk/<pack-id>` PR) →
+`social-pr.yml` adds the English references, the review view and the checks → you merge → the
+hourly publishing check (in the guest, minute :10) confirms your merge, waits until the article is
+live, plans the account's next free slot (12:30 or 19:30 Sofia by default), checks the live page
+and hands the post to Postiz 3 hours to 30 minutes before its slot → Postiz publishes → the check
+records the link. Only the check holds the Postiz key; only a merge by someone with write access to
+the repository (the team) approves, never a bot; the text sent equals the approved text apart from
+the filled-in link.
+
+To see one day of it without any network: `python3 scripts/social/publishing_check.py --dry-run
+--fake-postiz --replay vk-0300`.
+
 ## The dashboard
 
 Static, data-driven (`docs/index.html` reads `docs/data/status.json` + `run-status.json`).
@@ -262,6 +310,9 @@ Static, data-driven (`docs/index.html` reads `docs/data/status.json` + `run-stat
   row shows keywords used, source, links (PR + files), and the **Gemini rating badge**;
   **Backlog keywords** (yours, with Ahrefs verdict) and **AI backlog keywords** (sorted by
   opportunity, with Vol/KD/Opportunity + `✓ Ahrefs`/`web` badge).
+- Tabs **Posts for review** and **Scheduled & published** for social posts (`social-tabs.js`,
+  data from `scripts/social/build_social_dashboard.py`), with counters, filters and banners.
+  `#tab=social-schedule` in the address opens a tab directly.
 - Regenerated every run by `build_dashboard.py`.
 
 **Dashboard URLs:**

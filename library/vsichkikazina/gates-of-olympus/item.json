@@ -1,0 +1,47 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0022",
+  "slug": "gates-of-olympus",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-09-gates-of-olympus",
+  "pr": "#28",
+  "title": "Gates of Olympus: RTP, волатилност и как се играе",
+  "meta_description": "Как работи Gates of Olympus на Pragmatic Play: мрежа 6x5, печалби от 8 символа, каскади, множителите на Зевс до 500x, RTP 96.50% и защо високата волатилност значи дълги сухи серии.",
+  "keywords": [
+    "gates of olympus",
+    "гейтс ъв олимпус"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/gates-of-olympus/images/gates-of-olympus-hero.webp",
+      "name": "gates-of-olympus-hero.webp",
+      "alt": "Абстрактен фон с антични колони, мълнии и светещи сфери с множители, вдъхновен от темата на Gates of Olympus",
+      "sha256": "2ecb3132f5aea4ed354f0286323e2525fd217750faadfaef098b6d957749554c",
+      "review": {
+        "score": 85,
+        "integrity_ok": true,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/gates-of-olympus/images/gates-of-olympus-rtp.svg",
+      "name": "gates-of-olympus-rtp.svg",
+      "alt": "Gates of Olympus RTP 96.50% и домашно предимство 3.50%: при €1000 оборот средно €965 се връщат на играча, €35 остават за казиното; висока волатилност, макс. печалба 5000x",
+      "sha256": "8d561279d406b9656d6d50098812631175a9517ae117bbb24508b26dd5ee4c19",
+      "review": {
+        "score": 85,
+        "integrity_ok": true,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "45f619b4f6573875f6e5daea61f7542a0fb5a388642a35403582b0ea138e141b",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

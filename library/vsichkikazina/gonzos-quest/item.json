@@ -1,0 +1,49 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0044",
+  "slug": "gonzos-quest",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-11-gonzos-quest",
+  "pr": "#60",
+  "title": "Gonzo's Quest: RTP, Avalanche механика и как се играе",
+  "meta_description": "Gonzo's Quest на NetEnt с RTP 95.97%, каскади (Avalanche) и растящ множител до 15х в бонуса. Как работят падащите блокове и какво да очакваш реалистично.",
+  "keywords": [
+    "gonzo's quest",
+    "гонзо куест",
+    "gonzos quest",
+    "avalanche слот"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/gonzos-quest/images/gonzos-quest-hero.webp",
+      "name": "gonzos-quest-hero.webp",
+      "alt": "Абстрактна композиция от падащи каменни блокове и златни отблясъци сред тропическа зеленина, вдъхновена от визуалния стил на слота Gonzo's Quest",
+      "sha256": "45e6688a5f37e74638f32fc7d9d002853fa15faf2a098eb2fbc655c156393f09",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/gonzos-quest/images/gonzos-quest-rtp.svg",
+      "name": "gonzos-quest-rtp.svg",
+      "alt": "Илюстративно: при обявен RTP около 96% и €1000 оборот средно ~€960 се връщат на играча, ~€40 остават за казиното; официалният RTP на Gonzo's Quest е 95.97% и се проверява в инфо-панела",
+      "sha256": "8e0558c8751f884162787d20dece7550079d7334754736c87cd465207a611c81",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "e4d7afbeacc9f88f4583d424c1bce8e9ba25ae068f4ae97c8dbb0e3c2201a4e6",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

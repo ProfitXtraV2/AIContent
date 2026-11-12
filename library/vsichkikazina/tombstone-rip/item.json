@@ -1,0 +1,49 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0098",
+  "slug": "tombstone-rip",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-17-tombstone-rip",
+  "pr": "#116",
+  "title": "Tombstone R.I.P.: RTP, волатилност и как работи",
+  "meta_description": "Как работи Tombstone R.I.P. на Nolimit City: мрежа 2-3-3-3-1, xNudge и xSplit диви символи, RTP 96.08%, макс. печалба 300 000x и защо „insane\" волатилността значи дълги сухи серии.",
+  "keywords": [
+    "tombstone",
+    "тумбстоун",
+    "tombstone rip",
+    "nolimit tombstone"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/tombstone-rip/images/tombstone-rip-key-facts.svg",
+      "name": "tombstone-rip-key-facts.svg",
+      "alt": "Ключови факти за Tombstone R.I.P. на Nolimit City: RTP по подразбиране 96.08% (94.08% при някои оператори), много висока „insane\" волатилност, макс. печалба 300 000 пъти залога, мрежа 2-3-3-3-1 със 108 начина, диви символи xNudge и xSplit",
+      "sha256": "7223dafa4de59f4768a308501457675b7ea1f2a8bb87f46763b375206d465532",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/tombstone-rip/images/tombstone-rip-rtp.svg",
+      "name": "tombstone-rip-rtp.svg",
+      "alt": "Tombstone R.I.P. RTP 96.08% и домашно предимство 3.92%: при €1000 оборот средно €961 се връщат на играча, €39 остават за казиното; много висока волатилност, макс. печалба 300 000 пъти залога",
+      "sha256": "c5855326b91a5c2d2c2bd7fb8b1266cf263456c23a7b64101b69eb94d693d604",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "be08a2ac6ba32dfd56cfb2ead767890bb2f667e50a831386a31b9ef56ee642f5",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

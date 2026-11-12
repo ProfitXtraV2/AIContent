@@ -1,0 +1,49 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0309",
+  "slug": "ludogorec-istoriya-titli",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-10-28-ludogorec-istoriya-titli",
+  "pr": "#332",
+  "title": "Лудогорец: история, титли и Хювефарма Арена | Всички Казина",
+  "meta_description": "Лудогорец от Разград: как клубът стигна до елита, 14 поредни титли, пътят до Шампионската лига и историята на Хювефарма Арена. Факти, не прогнози.",
+  "keywords": [
+    "лудогорец",
+    "лудогорец история",
+    "лудогорец титли",
+    "хювефарма арена"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/ludogorec-istoriya-titli/images/ludogorec-huvepharma-arena-hero.webp",
+      "name": "ludogorec-huvepharma-arena-hero.webp",
+      "alt": "Плоска илюстрация на футболен стадион вечер под прожектори, със стилизиран мотив на орел в небето; без клубен герб, без лого, без хора",
+      "sha256": "2bdb17863b9d83ecd40d1e6dbd3822835066b14e2e06f21ce55df6341f4bb51d",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/ludogorec-istoriya-titli/images/ludogorec-trofei-klyuchovi-godini.svg",
+      "name": "ludogorec-trofei-klyuchovi-godini.svg",
+      "alt": "Инфографика с отличията на Лудогорец и ключовите години: основан 1945 г., купен от Домусчиев 2010 г., влизане в елита 2011 г., требъл 2011/12, 14 поредни титли 2011/12 до 2024/25, 4 Купи на България, 9 Суперкупи (рекорд), групи на Шампионската лига 2014/15, стадион Хювефарма Арена над 10 000 места",
+      "sha256": "5039e2401759d5f211f30864add760b083432d4ec4e525cdc00367a7b5600c50",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "8820b194c0e6efbc5432ac9436e9292017c884d0d5b0d7d89ddb138e032d8136",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

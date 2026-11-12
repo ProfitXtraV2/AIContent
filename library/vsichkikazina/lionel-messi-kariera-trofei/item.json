@@ -1,0 +1,49 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0313",
+  "slug": "lionel-messi-kariera-trofei",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-10-29-lionel-messi-kariera-trofei",
+  "pr": "#336",
+  "title": "Лионел Меси: кариера, рекорди и трофеи | Всички Казина",
+  "meta_description": "Лионел Меси: пътят от Ла Масия до световната титла, 8 Златни топки, трофеите с Барселона и стилът на игра. Факти и рекорди, не прогнози.",
+  "keywords": [
+    "лионел меси",
+    "меси",
+    "меси кариера",
+    "меси трофеи"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/lionel-messi-kariera-trofei/images/lionel-messi-futbol-hero.webp",
+      "name": "lionel-messi-futbol-hero.webp",
+      "alt": "Плоска илюстрация на футболна топка под лъча на прожектор върху тъмен стадион нощем; без клубен герб, без лого, без хора",
+      "sha256": "8a4bc7837869ade443427bff087a42f6e78039fde3766a0f6f2ba594bde3ada4",
+      "review": {
+        "score": 95,
+        "integrity_ok": false,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/lionel-messi-kariera-trofei/images/lionel-messi-kariera-rekordi.svg",
+      "name": "lionel-messi-kariera-rekordi.svg",
+      "alt": "Инфографика с кариерата на Лионел Меси: роден 1987 г., салфетката и Ла Масия 2000 г., дебют в Ла Лига 2004 г., край на периода в Барселона 2021 г., световна титла 2022 г., 672 гола за Барселона, 8 Златни топки, 10 титли в Ла Лига, 4 трофея в Шампионската лига, 91 гола за календарната 2012 г.",
+      "sha256": "c509135a9bed6f16551c4d1c34139fea5d2bd565d8a6f6244f82f42a9c467738",
+      "review": {
+        "score": 95,
+        "integrity_ok": false,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "462192ea82744a3ca4d70126e532ab60ca96f317cb29d4d5427e4680c73f1abb",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

@@ -18,10 +18,12 @@ echo '{"source":{"branch":"main","path":"/docs"}}' | \
 ```
 Dashboard → https://profitxtrav2.github.io/AIContent/  (drafts carry `noindex`).
 
-## 3. Give the cloud agent GitHub access
-Run **`/web-setup`** in Claude Code, or install the **Claude GitHub App**
-(https://claude.ai/code/onboarding?magic=github-app-setup) and grant
-`ProfitXtraV2/AIContent`. Without this the cloud routine cannot clone or open PRs.
+## 3. Connect the machine user
+The cloud routine acts on GitHub as the machine user **`profitxtra-agent`**, never as Nikolay:
+create it, then run **`/web-setup`** in Claude Code while `gh` is signed in as that user (steps in
+`SOCIAL-SETUP.md`, "Identities"). Without this the cloud routine cannot clone or open PRs. The
+Claude GitHub App (https://claude.ai/code/onboarding?magic=github-app-setup) is the other way to
+grant `ProfitXtraV2/AIContent`. Nikolay's own `gh` token must never be in a run environment (I6).
 
 ## 4. Cloud environment settings (claude.ai/code → routine → environment ⚙)
 - **Network access: Full** — the run needs egress for WebFetch and the Ahrefs API.
@@ -33,10 +35,16 @@ Run **`/web-setup`** in Claude Code, or install the **Claude GitHub App**
 
 ## 5. Scheduled routine
 Create a routine (via `/schedule` or the routines API):
-- Schedule: **`0 4 * * *`** (07:00 Europe/Sofia).
+- Schedule: once a day at about **07:00 UTC** (10:00 Sofia in summer, 09:00 in winter); once daily
+  since 2026-10-04. Cron is fixed in UTC, so the Sofia time moves twice a year.
 - Repo: `ProfitXtraV2/AIContent`. Model: Opus (recommended for editorial quality).
 - Instruction: run `VsichkiKazina/automation/daily-run.md`.
 - Env must have `gh` + Python 3 (standard in the CCR image).
+
+## 5b. Social posts (optional)
+- Cloud environment secret **`SOCIAL_GEMINI_API_KEY`**: a separate Google AI Studio project with
+  its own billing (social images and their reviews only; never the article key).
+- Everything else (the guest, Postiz, the tunnel, the GitHub App) is in `SOCIAL-SETUP.md`.
 
 ## 6. First backfill
 The first runs ramp the buffer from 0 → 10 (capped by `MAX_PER_RUN`). Review the PRs,

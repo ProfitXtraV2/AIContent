@@ -1,0 +1,58 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0035",
+  "slug": "book-of-ra",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-10-book-of-ra",
+  "pr": "#41",
+  "title": "Book of Ra: RTP, характеристики и как се играе",
+  "meta_description": "Book of Ra на Novomatic/Greentube: разширяващият се символ, 10 безплатни игри и RTP под средното: 92.13% при оригинала и 95.10% при Deluxe. Честен поглед върху класиката.",
+  "keywords": [
+    "book of ra",
+    "бук ъв ра"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/book-of-ra/images/book-of-ra-hero.webp",
+      "name": "book-of-ra-hero.webp",
+      "alt": "Абстрактна композиция със стара книга и египетски мотиви в златисто и пясъчно на тъмен фон по темата на Book of Ra",
+      "sha256": "2471e19b45bb042946033420f941cfb6b741257d9c3061683bd7dc7acc05685f",
+      "review": {
+        "score": 100,
+        "integrity_ok": null,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/book-of-ra/images/book-of-ra-bonus-igri.svg",
+      "name": "book-of-ra-bonus-igri.svg",
+      "alt": "Схема на бонуса на Book of Ra: 3 или повече книги дават 10 безплатни игри, преди които се тегли символ, който се разширява върху цял барабан и плаща на всяка позиция",
+      "sha256": "51c2c3fc47fcccbdeff67cb3c0e6af390995b70f38b24abc4960522d62a94cf1",
+      "review": {
+        "score": 100,
+        "integrity_ok": null,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/book-of-ra/images/book-of-ra-rtp.svg",
+      "name": "book-of-ra-rtp.svg",
+      "alt": "Book of Ra RTP: оригиналът връща 92.13% (домашно предимство 7.87%), Deluxe връща 95.10% (домашно предимство 4.90%), и двете под нормата от около 96%",
+      "sha256": "c1e108fac5070d9a5859b017b85e88bc481fd5027b8591b57344db64de043f47",
+      "review": {
+        "score": 100,
+        "integrity_ok": null,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "874131311229fa18137247df0917432149690aebad8d08953c0e749936239010",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

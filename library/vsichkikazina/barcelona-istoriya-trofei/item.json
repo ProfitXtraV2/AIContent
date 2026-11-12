@@ -1,0 +1,49 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0312",
+  "slug": "barcelona-istoriya-trofei",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "approved",
+  "live": false,
+  "folder": "2026-10-28-barcelona-istoriya-trofei",
+  "pr": "#335",
+  "title": "Барселона: история, трофеи, стадион и легенди | Всички Казина",
+  "meta_description": "Барселона: как клубът се ражда през 1899 г., трофеите в Ла Лига и Европа, стадионът Камп Ноу и легендите на каталунците. Факти, не прогнози.",
+  "keywords": [
+    "барселона",
+    "фк барселона",
+    "барселона история",
+    "камп ноу"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/barcelona-istoriya-trofei/images/barcelona-camp-nou-hero.webp",
+      "name": "barcelona-camp-nou-hero.webp",
+      "alt": "Плоска илюстрация на голям футболен стадион вечер под прожектори, в сини и тъмночервени тонове; без клубен герб, без лого, без хора",
+      "sha256": "059135fc5e1989175fabd1c7b0634351ded9a5420d2b7eb613bd5b8c1ab64405",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/barcelona-istoriya-trofei/images/barcelona-trofei.svg",
+      "name": "barcelona-trofei.svg",
+      "alt": "Инфографика с трофеите на Барселона към 2026 г.: основан 1899 г., 29 титли в Ла Лига, 32 Купи на краля, 16 Суперкупи на Испания, 5 трофея в Шампионската лига, 4 Купи на носителите на купи, 3 световни клубни титли, стадион Камп Ноу от 1957 г.",
+      "sha256": "eabfdd15584979d80f92a98a8dd03c5450eb3716250f71b913622ac619d801e9",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "264df87fe286c2064b01f6926bc7b604ee4f7b489e4ea492f0ee099187f4a33e",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

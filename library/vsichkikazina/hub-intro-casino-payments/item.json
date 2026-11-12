@@ -1,0 +1,36 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0119",
+  "slug": "hub-intro-casino-payments",
+  "kind": "hub-intro",
+  "type": "hub-intro",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-19-hub-intro-casino-payments",
+  "pr": "#140",
+  "title": "Казино плащания: депозити и тегления в БГ казина",
+  "meta_description": "Как работят депозитите и тегленията в българските онлайн казина: методи, срокове, верификация и какво да провериш преди да избереш начин на плащане.",
+  "keywords": [
+    "казино плащания",
+    "депозити и тегления казино"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/hub-intro-casino-payments/images/kazino-plashtaniya-hero.webp",
+      "name": "kazino-plashtaniya-hero.webp",
+      "alt": "Абстрактна илюстрация на онлайн плащане: стилизирана карта вляво, централен щит за сигурност и везна с монети вдясно, свързани с извити стрелки, символизиращи движението на средства към баланса на казино",
+      "sha256": "8b9ce8f16a862ebc6fd7effee3579a5ce91aae5b07bad555576913a2015f0cf2",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "d2b9c0af7c4547c5413e0d4bf79fafef93cdd2cb05d50cfc7e2a0fe15cebca1f",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

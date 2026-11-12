@@ -1,0 +1,49 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0310",
+  "slug": "tenis-pravila-tochkuvane",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-10-28-tenis-pravila-tochkuvane",
+  "pr": "#333",
+  "title": "Тенис правила и точкуване: гейм, сет и тайбрек | Всички Казина",
+  "meta_description": "Как се играе и точкува тенис: защо точките са 15-30-40, какво е деус и предимство, кога идва тайбрек и колко сета печелят мача. Ясно обяснение на правилата.",
+  "keywords": [
+    "тенис",
+    "тенис правила",
+    "тенис точкуване",
+    "как се играе тенис"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/tenis-pravila-tochkuvane/images/tenis-kort-mrezha-hero.webp",
+      "name": "tenis-kort-mrezha-hero.webp",
+      "alt": "Плоска илюстрация на тенис корт отгоре със стилизирана мрежа и очертания на игрището, без играчи, без лица, без лога",
+      "sha256": "864e05a98baa2e0fe7d3f9d4cc50548da0025c1b82c345086b3bebd31f1f965f",
+      "review": {
+        "score": 100,
+        "integrity_ok": false,
+        "source": "08-image-review-1.md"
+      }
+    },
+    {
+      "path": "published/tenis-pravila-tochkuvane/images/tenis-tochkuvane-stylba.svg",
+      "name": "tenis-tochkuvane-stylba.svg",
+      "alt": "Инфографика със стълбицата на точкуването в тениса: точки в гейм 0, 15, 30, 40 и гейм, равенство при 40-40 и печалба с две поредни точки; сет до 6 гейма с преднина 2, тайбрек при 6-6; тайбрек до 7 точки с преднина 2 и решаващ сет до 10 от 2022 г.; мач до 2 сета или до 3 сета на Големия шлем при мъжете",
+      "sha256": "3bb34019cbdca431e626dd3fa4b2e3a632c56223dd3758072c9cd0314c0b19cf",
+      "review": {
+        "score": 100,
+        "integrity_ok": false,
+        "source": "08-image-review-1.md"
+      }
+    }
+  ],
+  "article_version": "214518acc9acfe28b94e2b9d5920514db2f2846103140439862aceccb15879f2",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

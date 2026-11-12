@@ -23,11 +23,14 @@ jobs:
           git fetch origin -q || true
           python3 scripts/mark_approved.py "$FOLDER"
           python3 scripts/build_feed.py
+          # Social article library (not read by the publisher; published/ is unchanged by it).
+          # Built in this job, because a push made with GITHUB_TOKEN starts no other workflow.
+          python3 scripts/build_library.py vsichkikazina
           python3 scripts/build_dashboard.py
           git config user.name "VK Approver"
           git config user.email "approver@vsichkikazina.local"
           git add VsichkiKazina/content-queue.md || true
-          git add docs/data published/ 2>/dev/null || true
+          git add docs/data published/ library/ 2>/dev/null || true
           git commit -m "board($FOLDER): approve on PR merge -> feed" \
             && (git push || (git pull --no-rebase --no-edit && git push)) \
             || echo "nothing to approve (already approved/posted)"

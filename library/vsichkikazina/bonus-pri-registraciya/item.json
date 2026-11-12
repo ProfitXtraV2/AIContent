@@ -1,0 +1,49 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0036",
+  "slug": "bonus-pri-registraciya",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-10-bonus-pri-registraciya",
+  "pr": "#51",
+  "title": "Бонус при регистрация: как работи и условията",
+  "meta_description": "Какво наистина получавате от бонус при регистрация: защо банерът „100% до €500\" не е сумата на ръка, как превъртането, срокът, приносът на игрите и таванът на тегленето определят реалната цена.",
+  "keywords": [
+    "бонус при регистрация",
+    "начален бонус",
+    "депозитен бонус",
+    "welcome бонус"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/bonus-pri-registraciya/images/bonus-pri-registraciya-hero.webp",
+      "name": "bonus-pri-registraciya-hero.webp",
+      "alt": "Опакован подарък, вързан за въже, което минава през катинар, като метафора за начален казино бонус, заключен зад изискване за превъртане",
+      "sha256": "b88a6a3902a6f556e405c83c4aca32275c2dcb92d42130f3406bb7913a360a13",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/bonus-pri-registraciya/images/bonus-pri-registraciya-prevurtane.svg",
+      "name": "bonus-pri-registraciya-prevurtane.svg",
+      "alt": "Депозит €100 плюс 100% бонус €100 дава игрален баланс €200; при превъртане 35x върху депозит+бонус се дължи €7,000 оборот, а при 35x само върху бонуса е €3,500; числата са примерни",
+      "sha256": "477516ed2152b5dbc6b403b584386c613076fedfd2ea2b17be0750dbe74ee3b8",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "42d5df8a6371da0cac7c5e203cb37c358ca1449232894855a8759204488b4305",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

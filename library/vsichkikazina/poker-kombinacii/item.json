@@ -1,0 +1,54 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0263",
+  "slug": "poker-kombinacii",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-10-10-poker-kombinacii",
+  "pr": "#283",
+  "title": "Покер комбинации: подредба на ръцете (от роял флъш надолу)",
+  "meta_description": "Покер комбинации по сила: роял флъш, каре, фул, флъш, кента и останалите. Как се решават равните ръце и защо при три карти покер цветът пада под кентата.",
+  "keywords": [
+    "покер комбинации",
+    "подредба на покер ръцете",
+    "покер ръце",
+    "роял флъш",
+    "каре",
+    "фул хаус",
+    "кента",
+    "цвят",
+    "старша карта"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/poker-kombinacii/images/poker-kombinacii-podredba-hero.webp",
+      "name": "poker-kombinacii-podredba-hero.webp",
+      "alt": "Роял флъш купа (10, вале, дама, поп и асо), разтворен ветрилообразно върху зелено покер сукно до купчини чипове",
+      "sha256": "611dcda3a66f33c0bbbefba2d0db049ff3153eacc98011b3e192c76fe833076f",
+      "review": {
+        "score": 100,
+        "integrity_ok": true,
+        "source": "08-image-review-2.md"
+      }
+    },
+    {
+      "path": "published/poker-kombinacii/images/poker-kombinacii-podredba-na-racete.svg",
+      "name": "poker-kombinacii-podredba-na-racete.svg",
+      "alt": "Инфографика с подредбата на покер комбинациите от роял флъш до старша карта, с примерни карти за всяка ръка",
+      "sha256": "52bcc5f60c551bcd2e143c952d36d5c6e9b5f40a55040d7b51f4861b6997fcb5",
+      "review": {
+        "score": 100,
+        "integrity_ok": true,
+        "source": "08-image-review-2.md"
+      }
+    }
+  ],
+  "article_version": "f3ee289f8302c86dd85f276578a6f6cbf541adc11515d3880824a2b58855523c",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

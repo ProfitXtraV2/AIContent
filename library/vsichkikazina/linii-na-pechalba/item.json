@@ -1,0 +1,60 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0017",
+  "slug": "linii-na-pechalba",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-08-linii-na-pechalba",
+  "pr": "#19",
+  "title": "Линии на печалба в ротативките: как печелите",
+  "meta_description": "Линии на печалба и начини за печалба: какво значат 243 и 1024 начина, защо повече линии не подобряват шансовете и как да четете RTP и цената на завъртане.",
+  "keywords": [
+    "линии на печалба",
+    "печеливши линии",
+    "как печелят ротативките",
+    "начини за печалба"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/linii-na-pechalba/images/linii-na-pechalba-rotativki-hero.webp",
+      "name": "linii-na-pechalba-rotativki-hero.webp",
+      "alt": "Линии на печалба в ротативките: абстрактни успоредни пътища, преминаващи през структурирана мрежа от колони, символизиращи предварително начертани линии на печалба",
+      "sha256": "ada8fe4e101f958acd048d2bbe96be0b6f0d0776357b843ca7dfaad7da852ddf",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/linii-na-pechalba/images/nachinite-za-pechalba-243-1024-117649.svg",
+      "name": "nachinite-za-pechalba-243-1024-117649.svg",
+      "alt": "Начини за печалба: 243 начина (3⁵), 1024 начина (4⁵) и Megaways до 117 649 начина (7⁶): мащабът е логаритмичен",
+      "sha256": "28cddd15aabe7ce2a9bde9122891a437883fc454b8b8215904da90ba42c62127",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/linii-na-pechalba/images/linii-zalog-na-zavarshtane.svg",
+      "name": "linii-zalog-na-zavarshtane.svg",
+      "alt": "Цена на завъртане: €0,02 × 20 линии = €0,40 на завъртане срещу €0,02 × 40 линии = €0,80 на завъртане: двойно по-скъпо, без промяна в шансовете (числата са илюстративни)",
+      "sha256": "26385f3e913fd7ad1dc94c29f1ac437dc00c4572ef0b6eb187dd1453997948f1",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "fdc4e7aa00ff8e4150c586d9b0cbf6de35aa870ba4457f08e7dd114c0e9eff71",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

@@ -32,3 +32,32 @@ published/
 ## index.json
 `{schema_version, count, generated_utc, articles:[{slug,title,date_modified,content_hash,status}]}`
 — consumers diff `content_hash` to find new/changed articles.
+
+## Article library (not read by publishers)
+
+`library/<brand>/` keeps a copy of every **approved and live** item, for social posts (product
+spec A8). Built by `scripts/build_library.py` in the approve-on-merge job and the social board
+workflow. **Publishers never read it.** The feed above is built exactly as before: the list of
+approved items, their files and their `content_hash` do not change, and live copies and the live
+marker stay outside `published/` (`scripts/tests/test_feed_unchanged.py`).
+
+```
+library/<brand>/
+  index.json                 # {library_schema, brand, items:[{slug,id,kind,board_status,live,article_version}], missing:[…]}
+  <slug>/
+    item.json                # library_schema 1 (below)
+    article.md               # the article body, as text
+```
+
+`item.json`: `brand`, `id`, `slug`, `kind` (`article` | `hub-intro`), `type`, `board_status`
+(`approved` | `posted`), `live` (board `posted`), `folder`, `pr`, `title`, `meta_description`,
+`keywords`, `body_path`, `images` (`{path, name, alt, sha256, review: {score, integrity_ok,
+source}}`), `article_version`, `operator_or_bonus` (+ reason), `built_utc`.
+
+**The article version** is the sha256 of the canonical JSON `{title, meta_description, body,
+images: [{name, alt, sha256}]}`: only what a post can quote. Status, the live marker, the
+opportunity score and dates are left out, so going live alone never changes it. It is not the
+feed's `content_hash`, which also covers status, score and dates.
+
+Image review scores come from the article's last `08-image-review-*.md`, and only when it names
+the image unambiguously; otherwise `score` is `unknown`.

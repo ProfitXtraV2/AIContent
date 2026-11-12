@@ -1,0 +1,36 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0122",
+  "slug": "hub-intro-comparisons-news",
+  "kind": "hub-intro",
+  "type": "hub-intro",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-19-hub-intro-comparisons-news",
+  "pr": "#137",
+  "title": "HUB INTRO: Сравнения и новини — интро за /blog/comparisons-news/",
+  "meta_description": "",
+  "keywords": [
+    "сравнение на онлайн казина",
+    "кое казино да избера"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/hub-intro-comparisons-news/images/sravnenie-bonus-baza-wagering.svg",
+      "name": "sravnenie-bonus-baza-wagering.svg",
+      "alt": "Сравнение на 35x превъртане: база депозит+бонус срещу база само бонус — реалният оборот е двойно по-висок при по-широката база",
+      "sha256": "b0a6533e49d2145eb6346858d470e718e27fedd4c67153086930d7372e958fa7",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "394d1a638b9099493a68dc7a34597bd61d1cb2bd418bbabca8f9e1557a017aeb",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}

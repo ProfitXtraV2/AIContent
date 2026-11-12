@@ -1,0 +1,48 @@
+{
+  "library_schema": 1,
+  "brand": "vsichkikazina",
+  "id": "vk-0132",
+  "slug": "versailles-gold",
+  "kind": "article",
+  "type": "guide",
+  "board_status": "posted",
+  "live": true,
+  "folder": "2026-09-20-versailles-gold",
+  "pr": "#149",
+  "title": "Versailles Gold: RTP 96.09% и характеристики (Amusnet/EGT)",
+  "meta_description": "Versailles Gold на Amusnet (EGT): 5 барабана, 10 линии, RTP 96.09%, Кралят-Слънце като wild, кралски печат за 12 безплатни завъртания с разширяващ символ.",
+  "keywords": [
+    "versailles gold",
+    "версайлс голд",
+    "versailles gold egt"
+  ],
+  "body_path": "article.md",
+  "images": [
+    {
+      "path": "published/versailles-gold/images/versailles-gold-hero.webp",
+      "name": "versailles-gold-hero.webp",
+      "alt": "Абстрактен фон в бароков стил със златни орнаменти и корона, вдъхновен от двореца Версай в темата на Versailles Gold",
+      "sha256": "172c9b758496125e2adf330d1a99081da2672a1e08dac75a1cad32505f232271",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    },
+    {
+      "path": "published/versailles-gold/images/versailles-gold-rtp.svg",
+      "name": "versailles-gold-rtp.svg",
+      "alt": "Versailles Gold: RTP 96.09% и домашно предимство 3.91%; при 1000 евро оборот средно 961 евро се връщат на играча, 39 евро остават за казиното",
+      "sha256": "62cd56f82b23e32e3603c21ea1af476ceb7e4c395e58979c52b1147fc55165a9",
+      "review": {
+        "score": "unknown",
+        "integrity_ok": null,
+        "source": "unknown"
+      }
+    }
+  ],
+  "article_version": "dee0a1424ceff2c80f9e1f50101d206b9c9f10dd0ccb5269eea63ed3da45a643",
+  "operator_or_bonus": false,
+  "operator_or_bonus_reason": "",
+  "built_utc": "2026-11-01T10:03:49Z"
+}
