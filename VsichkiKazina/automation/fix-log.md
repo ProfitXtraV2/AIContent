@@ -3848,3 +3848,54 @@ live/feed content, the `published/` changes were reverted (`git checkout -- publ
 for the autopilot/human to resolve. No posted/live content edited; nothing merged; no new article
 branches created; only the single flagged `content/<folder>` branch touched; GEMINI_API_KEY never
 printed.
+
+---
+
+## 2026-11-12 (nightly flag+score fixer, 23:04 UTC)
+
+### JOB A — resolve publish-blocking flags
+Scanned all `content/*` branches' `05b-final-draft.md`. **One flagged branch:**
+- **`content/2026-11-12-cska-1948-istoria` (vk-0332)** — two `[VERIFY: ...]` markers in a single
+  sentence about stadion „Бистрица". (1) `[VERIFY: точният капацитет се посочва различно, около
+  4000]` and (2) `[VERIFY: актуалният собственик е променлива величина]`. Both resolved by
+  rephrasing: the capacity kept the already-soft „от порядъка на няколко хиляди места" and folded
+  the caveat into prose („точната бройка се посочва различно в различните източници") — **no number
+  invented** (the uncertain „4000" was NOT asserted); the ownership softened to historical
+  association and pointed to the official register („конкретната картина на собствеността се е
+  променяла с времето, а най-актуалната се проверява в официалния търговски регистър") — **no
+  current-owner fact asserted**. All other facts, links, dates, byline Георги Тодоров, brand Всички
+  Казина and the RG/18+ line intact. Re-scan: **0 blocking markers.** Committed `fix(flags): resolve
+  2026-11-12-cska-1948-istoria — publish-ready` and pushed.
+
+### JOB B — low Gemini score
+**Zero qualifying targets.** Across all 227 `drafted`/`approved` rows the recorded Gemini verdicts
+are all `human ≥80` (minimum **80**, which meets the Step-7 PASS threshold) and **0** `ai <n>`; the
+remainder are `skipped` (no verdict — Gemini Step-7 was skipped upstream per the board note
+„gemini skipped HTTP 402"). No row carries `ai <n>` or `human <n>` with n<80, so there is nothing
+to humanise. Idempotency rule applied — every flag-free, already-≥80 draft left untouched. No
+`gemini_check.py` call made (no qualifying target); GEMINI_API_KEY not used tonight.
+
+### POSTED — needs human review
+- **vk-0063 — `2026-09-13-nv-casino-zakonno-li-e` (PR #79), `ai 75`, status posted/live.** Carried
+  forward unchanged — live content, never edited per policy. Still the only board row scoring below
+  the human-80 threshold, and it is posted/live. A human should decide whether to re-humanise and
+  re-publish off-line.
+
+### Deferred
+None — the ≤10/night JOB B cap was not reached (0 qualifying targets).
+
+### Finish
+No board `gemini` cells changed (JOB A was a flag rephrase on a `skipped` row; no row re-scored).
+`build_dashboard.py` re-run on main — buffer 227/10; the only content diff was vk-0332's
+`verify_flags` dropping 2→0 (reflecting tonight's JOB A fix) plus the `generated_utc` timestamp,
+committed. **`build_feed.py` deliberately NOT committed tonight:** re-running it again propagated the
+same upstream author-bio rewrite into the published feed for the two approved articles
+(`elektronna-ruletka`, `svara-pravila`) — „…е автор на ревюта на онлайн казина. От 2024 г.
+проверява…" → „…тества лицензирани в България казино сайтове от 2024 г. със собствен бюджет и
+проверява…" (adds the „със собствен бюджет" claim, a claim-meaning change). The latest autopilot
+board commit (51b42d3) still records **„feed hold (upstream bio regression persists)"**, i.e. the
+autopilot is intentionally holding that feed propagation. To respect that hold and avoid pushing a
+flagged regression to live/feed content, the `published/` changes were reverted
+(`git checkout -- published/`) and left for the autopilot/human to resolve. No posted/live content
+edited; nothing merged; no new article branches created; only the single flagged `content/<folder>`
+branch touched; GEMINI_API_KEY never printed.

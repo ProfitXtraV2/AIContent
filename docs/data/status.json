@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-12T07:29:28Z",
+  "generated_utc": "2026-11-12T23:06:21Z",
   "buffer": {
     "count": 227,
     "target": 10,
@@ -6815,11 +6815,8 @@
         "band": "Strong",
         "winnable": true
       },
-      "verify_flags": 2,
-      "verify_samples": [
-        "[VERIFY: точният капацитет се посочва различно, около 4000]",
-        "[VERIFY: актуалният собственик е променлива величина]"
-      ]
+      "verify_flags": 0,
+      "verify_samples": []
     }
   ],
   "backlog": [
