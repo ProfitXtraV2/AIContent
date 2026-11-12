@@ -1,13 +1,15 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-11-12T07:15:14Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-11-12T07:29:53Z",
+  "articles_written": 1,
+  "prs_opened": [
+    359
+  ],
   "run_url": "https://claude.ai/code/session_01AwuYFV2KVgGHqYaUxJf8xB",
-  "note": "daily run 2026-11-12 — writing vk-0332 ЦСКА 1948 club profile (top open P0 backlog); throttled MAX_PER_RUN=1.",
+  "note": "daily run 2026-11-12 — throttled intake (MAX_PER_RUN=1). Reconcile clean on entry (0 in-progress/HANDOFF/CLAIMED; local main had 3 stale 2026-11-06 board commits, reset to origin/main). Monthly SEO review NOT due (marker 2026-11 = current). WROTE 1 NEW guide vk-0332 „ЦСКА 1948 — история на клуба и пътят до елита“ (top open P0 backlog, Bulgarian-football sweep, owner-approved sports scope), PR #359. Evergreen club profile (guides-only: 0 operator/НАП/affiliate; 0 current standings/results/fixtures/odds; 0 predictions; neutral on the ЦСКА naming dispute). Cluster цска 1948 17000/kd0 WIN (история + стадион fold-in). DISTINCT from ЦСКА София (separate open backlog row) + Левски–ЦСКА derby vk-0331. Dedup vs queue(0 ЦСКА 1948) + live sitemap(173 URLs, 0 cska/1948) = clean. Факти EN Wikipedia „FC CSKA 1948“ + Stadion Bistritsa + stavka.tv/cska1948.bg: основан 19.07.2016 (Централен военен клуб); име от 1948 г.; А ОФГ 2016/17 -> Трета 2017/18 (29-5-0, промоция 19.05.2018) -> 4-ти Втора 2018/19 -> шампион Втора 2019/20 -> дебют елит 7.08.2020 (2:2); вицешампион 2025/26, 3-то + финал Купа 2022/23, финал Суперкупа 2023; евродебют лято 2023 (Лига на конференциите); стадион „Бистрица“ тенант от 2021 (~4000 [VERIFY]); прякори „Червените“/„Делта Форс“. Gate ~95 PASS 0-crit. Gemini Step-7 TEXT = GEMINI_UNAVAILABLE (HTTP 402 RESOURCE_EXHAUSTED, prepayment credits depleted — same as 2026-11-10/11) -> skipped per daily-run; kept initial 05b (0 em/en-dash body, non-pivot opening, asymmetric close); gemini=skipped. Step-8 img:1 (hand-authored infographic cska-1948-pat-nagore.svg, 10 числа 1:1 vs 05b, Chromium render clean 0 overlap/clip; AI hero skipped HTTP 402; Gemini image review skipped HTTP 402 -> manual integrity PASS, 0 logos/faces/fabricated numbers/glamorised winning). ~865 думи, 2 [VERIFY] (капацитет „Бистрица“ ~4000; актуален собственик Цветомир Найденов), 5 internal links + otgovorna-igra footer; 0 affiliate (0 оператори). Review request to owner GTodorov9 could NOT be auto-assigned (gh non-search write blocked by auto-mode; GitHub MCP has no reviewer-request tool) — PR #359 is open and visible in the owner's PR list. Keyword research = LIGHT pass (Nov policy): Ahrefs units still ~6.7k (<20k discovery threshold), reset 2026-11-15 not yet reached -> deferred fresh pulls to conserve; all writable open backlog rows already ahrefs-enriched; 10 NV Casino open rows correctly held open with blocked notes (out-of-scope operator reviews under guides-only); research bank healthy. Board: content-queue vk-0332 drafted (gemini skipped, PR #359, img:1); backlog ЦСКА 1948 row -> written; dashboard rebuilt (buffer 227/10). FEED STILL HELD (unchanged from 2026-11-11): build_feed again reintroduces the FORBIDDEN author bio „Георги Тодоров ТЕСТВА ... казино сайтове ... със собствен бюджет“ into published/ for 2 already-approved articles (elektronna-ruletka, svara-pravila) — markets/bg/author.md Tier 3 forbids тества/тестер. Reverted published/ (live feed kept at the compliant „автор на ревюта ... проверява и оценява“ bio). No NEW approved article this run (vk-0332 is drafted), so nothing legitimate needed exposing. HUMAN ACTION (repeat): revert the author bio on those 2 content branches to the canonical author.md bio and check the nightly flag+score-fix job that keeps reintroducing it. NO flags resolved, nothing posted/merged/fabricated.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-11-12-cska-1948-istoria",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 7,
-    "stage": "Images"
+    "stage_index": null,
+    "stage": null
   }
 }

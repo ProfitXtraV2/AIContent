@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-11-11T23:03:45Z",
+  "generated_utc": "2026-11-12T07:29:28Z",
   "buffer": {
-    "count": 226,
+    "count": 227,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 218,
+    "drafted": 219,
     "approved": 8,
     "posted": 104,
     "failed": 1
@@ -6794,6 +6794,32 @@
       },
       "verify_flags": 0,
       "verify_samples": []
+    },
+    {
+      "id": "vk-0332",
+      "status": "drafted",
+      "type": "guide",
+      "query": "ЦСКА 1948 — история на клуба и пътят до елита",
+      "keywords_or_terms": "цска 1948, цска 1948 история, цска 1948 стадион",
+      "volume": "17000",
+      "kd": "0",
+      "source": "backlog",
+      "drafted_date": "2026-11-12",
+      "posted_date": "",
+      "folder": "2026-11-12-cska-1948-istoria",
+      "pr": "#359",
+      "gemini": "skipped",
+      "notes": "daily run 2026-11-12 throttled MAX_PER_RUN=1; top open P0 backlog (Bulgarian-football sweep, owner-approved sports scope). Evergreen club profile (guides-only: 0 operator/НАП/affiliate; 0 current standings/results/fixtures/odds; 0 predictions). Neutral on the ЦСКА naming dispute, facts only. Cluster цска 1948 17000/kd0 WIN (цска 1948 история + цска 1948 стадион fold-in); DISTINCT from ЦСКА София (separate open row) + Левски–ЦСКА derby vk-0331. Dedup vs queue(0 ЦСКА 1948) + live sitemap(173, 0 cska/1948) = clean. OUTCOME drafted -> PR #359. Факти EN Wikipedia „FC CSKA 1948\" + Stadion Bistritsa + stavka.tv/cska1948.bg: основан 19.07.2016 (Централен военен клуб, София); име от 1948 г. (историческата армейска традиция); път А ОФГ 2016/17 -> Трета лига 2017/18 (шампион ЮЗ, 29-5-0, промоция 19.05.2018) -> 4-ти Втора лига 2018/19 -> шампион Втора лига 2019/20 -> дебют елит 7.08.2020 (2:2); вицешампион 2025/26, 3-то 2022/23, финал за Купата 2022/23 (първи), финал Суперкупа 2023; евродебют лято 2023 (Лига на конференциите); стадион „Бистрица\" тенант от 2021 (~4000 места [VERIFY]). Прякори „Червените\"/„Делта Форс\", цветове червено-бяло. Gate ~95 PASS 0-crit. Gemini Step-7 TEXT = GEMINI_UNAVAILABLE (HTTP 402 RESOURCE_EXHAUSTED, credits depleted, same as 2026-11-10/11) -> skipped; kept initial 05b (0 em/en-dash body, non-pivot opening, asymmetric close); gemini=skipped. img:1 (hand-authored infographic cska-1948-pat-nagore.svg, 10 числа 1:1 vs 05b, render clean 0 overlap/clip; AI hero + Gemini image review skipped HTTP 402 -> manual integrity PASS, 0 logos/faces/fabrication/glamour). ~865 думи, 2 [VERIFY] (капацитет „Бистрица\" ~4000; актуален собственик Цветомир Найденов), 5 internal links (zakonno-li-e/bonus-ruletka-sport-vsichki/blog-futbol/responsible-gambling/otgovorna-igra) + otgovorna-igra footer; 0 affiliate (0 оператори). Review request to owner GTodorov9 couldn't be auto-assigned (gh write blocked by auto-mode; no MCP reviewer tool) — PR open & visible in owner's list. vol/kd 17000/0 (ahrefs backlog).",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 2,
+      "verify_samples": [
+        "[VERIFY: точният капацитет се посочва различно, около 4000]",
+        "[VERIFY: актуалният собственик е променлива величина]"
+      ]
     }
   ],
   "backlog": [
@@ -7239,8 +7265,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 17000/kd0 (2026-10-28 football sweep). Club profile. Neutral on the ЦСКА naming dispute; facts only.",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-28 (Bulgarian-football batch). Evergreen profile/history only. NEVER print current standings, results, fixtures, transfer rumours or odds. Real people: verifiable facts only, [VERIFY] anything uncertain, no speculation about private life. Link the Ефбет Лига guide plus sibling club/legend articles. No betting tips; optional RG line.",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-10-28 (Bulgarian-football batch). Evergreen profile/history only. NEVER print current standings, results, fixtures, transfer rumours or odds. Real people: verifiable facts only, [VERIFY] anything uncertain, no speculation about private life. Link the Ефбет Лига guide plus sibling club/legend articles. No betting tips; optional RG line. · WRITTEN 2026-11-12 (daily run, top open P0) → vk-0332, PR #359. Evergreen клубен профил guides-only ✓: основан 19.07.2016, път А ОФГ 2016/17 → Трета 2017/18 (29-5-0) → Втора 2019/20 → елит 7.08.2020 (2:2); вицешампион 2025/26, финал Купа 2022/23, финал Суперкупа 2023; стадион „Бистрица\" от 2021. Gate ~95, Gemini skipped (HTTP 402), img:1 (manual integrity PASS), ~865 думи, 2 [VERIFY]. Факти EN Wikipedia. Сиблинг линкове (Ефбет Лига/клубове) се добавят при публикуване.",
       "opportunity": {
         "score": 100,
         "band": "Strong",
@@ -12972,30 +12998,17 @@
       }
     ],
     "bands": {
-      "Strong": 40,
+      "Strong": 39,
       "Moderate": 3
     },
     "clusters": {
       "uncategorised": {
-        "winnable": 42,
+        "winnable": 41,
         "pillar": 0,
-        "total": 43
+        "total": 42
       }
     },
     "winnable": [
-      {
-        "query": "ЦСКА 1948 — история на клуба и пътят до елита",
-        "keywords": "цска 1948, цска 1948 история, цска 1948 стадион",
-        "volume": "17000",
-        "kd": "0",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 100,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
       {
         "query": "Стилиян Петров — кариера, Астън Вила и битката с левкемията",
         "keywords": "стилиян петров, стилиян петров кариера, стилиян петров астън вила",
@@ -13533,7 +13546,7 @@
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 42,
+      "winnable": 41,
       "pillars": 0
     }
   }
