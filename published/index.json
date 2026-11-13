@@ -1,19 +1,12 @@
 {
   "schema_version": 1,
-  "count": 8,
+  "count": 6,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
       "title": "Megaways: как работят и защо броят на начините се променя",
       "date_modified": "2026-09-11",
       "content_hash": "f03c4ffe0a606832358637f1e627ec60d6de03c6e409683bbf947b364dc7daf8",
-      "status": "approved"
-    },
-    {
-      "slug": "bezplatni-zavartaniya-free-spins",
-      "title": "Безплатни завъртания (free spins): видове и условия",
-      "date_modified": "2026-10-05",
-      "content_hash": "b1c96e48fea8eb1dd47b36ef83d3963de8120688ff7d788db6e7c365b05befc5",
       "status": "approved"
     },
     {
@@ -50,14 +43,7 @@
       "date_modified": "2026-10-23",
       "content_hash": "633043f74149bea9dc83b06cd247a9ad56095cb7427e431298c3264486dbe43f",
       "status": "approved"
-    },
-    {
-      "slug": "kanasta-pravila",
-      "title": "Канаста: правила, точкуване и разновидности",
-      "date_modified": "2026-10-24",
-      "content_hash": "0faab48f87c4dae5e35478feb46da66b0c58cdd2dd05e8c6f5ac69588580d73d",
-      "status": "approved"
     }
   ],
-  "generated_utc": "2026-11-11T06:42:04Z"
+  "generated_utc": "2026-11-13T15:51:10Z"
 }
