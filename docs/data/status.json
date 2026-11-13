@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-11-12T23:06:21Z",
+  "generated_utc": "2026-11-13T07:31:09Z",
   "buffer": {
-    "count": 227,
+    "count": 228,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 219,
+    "drafted": 220,
     "approved": 8,
     "posted": 104,
     "failed": 1
@@ -6817,6 +6817,29 @@
       },
       "verify_flags": 0,
       "verify_samples": []
+    },
+    {
+      "id": "vk-0333",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Берое Стара Загора — история, стадион и трофеи",
+      "keywords_or_terms": "берое, берое стара загора, берое история",
+      "volume": "16000",
+      "kd": "8",
+      "source": "backlog",
+      "drafted_date": "2026-11-13",
+      "posted_date": "2026-11-13",
+      "folder": "2026-11-13-beroe-stara-zagora",
+      "pr": "#360",
+      "gemini": "skipped",
+      "notes": "daily run 2026-11-13 throttled MAX_PER_RUN=1; top open P0 backlog (Bulgarian-football sweep, owner-approved sports scope). Evergreen club profile (guides-only: 0 operator/НАП/affiliate; 0 current standings/results/fixtures/odds; 0 predictions). Cluster берое 16000/kd8 WIN (берое стара загора + берое история fold-in). Dedup vs queue(0 берое) + live sitemap(173, 0 beroe) = clean. OUTCOME drafted -> PR #360. Факти EN/BG Wikipedia (ПФК Берое) + Beroe Stadium: име „Берое\" = античното/тракийско име на Стара Загора, прието като клубна марка 1959; цветове зелено-бяло, прякори „Зелените\"/„Заралии\"; шампион 1986 (единствена титла, сезон 1985/86) -> КЕШ 1986/87 (отпада от Динамо Киев); Купа на България 2010 (Илиан Илиев) + 2013 (Петър Хубчев); Суперкупа 2013; Балканска купа 4 (рекорд); Втора лига 9 (рекорд); по-стари европоходи КНК 1973/74 1/4-финал + 1979/80 (Ювентус); легенди Петко Петков 144 гола (рекордьор), Евгени Янчовски 341 мача (рекордьор); стадион „Берое\" („Храмът\") открит 4.04.1959, капацитет 12 128. Gate ~95 PASS 0-crit. Gemini Step-7 TEXT = GEMINI_UNAVAILABLE (HTTP 402 RESOURCE_EXHAUSTED, credits depleted, persistent since 2026-11-10/11/12) -> skipped; kept initial 05b (0 em/en-dash body, non-pivot opening, asymmetric close); gemini=skipped. img:1 (hand-authored infographic beroe-fakti.svg, 10 числа 1:1 vs 05b, Chromium render clean 0 overlap/clip; AI hero + Gemini image review skipped HTTP 402 -> manual integrity PASS, 0 logos/faces/fabrication/glamour). ~861 думи, 3 [VERIFY] (точна година на основаване 1916/1924; точен капацитет „Берое\" 12 128 vs разнобой; актуален собственик CRD Sport 2023 — не се печата), 5 internal links (zakonno-li-e/bonus-ruletka-sport-vsichki/blog-futbol/blog-responsible-gambling/otgovorna-igra) + otgovorna-igra footer; 0 affiliate (0 оператори). Review request to owner GTodorov9 not auto-assignable (self; no MCP reviewer tool) — PR #360 open & visible in owner's list. vol/kd 16000/8 (ahrefs backlog).",
+      "opportunity": {
+        "score": 97,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
     }
   ],
   "backlog": [
@@ -7280,8 +7303,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 16000/kd8 (2026-10-28 football sweep). Club profile.",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-28 (Bulgarian-football batch). Evergreen profile/history only. NEVER print current standings, results, fixtures, transfer rumours or odds. Real people: verifiable facts only, [VERIFY] anything uncertain, no speculation about private life. Link the Ефбет Лига guide plus sibling club/legend articles. No betting tips; optional RG line.",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-10-28 (Bulgarian-football batch). Evergreen profile/history only. NEVER print current standings, results, fixtures, transfer rumours or odds. Real people: verifiable facts only, [VERIFY] anything uncertain, no speculation about private life. Link the Ефбет Лига guide plus sibling club/legend articles. No betting tips; optional RG line. · WRITTEN 2026-11-13 (recurring fire) -> vk-0333, PR #360. Evergreen club profile: име от античното название на Стара Загора, прието 1959; шампион 1986; Купа 2010 + 2013; Суперкупа 2013; Балканска купа 4 (рекорд); Втора лига 9 (рекорд); стадион „Берое\" 12 128 (4.04.1959); легенди Петко Петков 144 гола, Евгени Янчовски 341 мача. Guides-only (0 operator/НАП/affiliate; без класиране/резултати/трансфери/коефициенти/прогнози). Gate ~95, Gemini skipped (HTTP 402), img:1 (infographic, manual integrity PASS), ~861 думи, 3 [VERIFY].",
       "opportunity": {
         "score": 97,
         "band": "Strong",
@@ -12995,14 +13018,14 @@
       }
     ],
     "bands": {
-      "Strong": 39,
+      "Strong": 38,
       "Moderate": 3
     },
     "clusters": {
       "uncategorised": {
-        "winnable": 41,
+        "winnable": 40,
         "pillar": 0,
-        "total": 42
+        "total": 41
       }
     },
     "winnable": [
@@ -13319,19 +13342,6 @@
         "src": "backlog"
       },
       {
-        "query": "Берое Стара Загора — история, стадион и трофеи",
-        "keywords": "берое, берое стара загора, берое история",
-        "volume": "16000",
-        "kd": "8",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 97,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
         "query": "Локомотив София — история на клуба",
         "keywords": "локомотив софия, локомотив софия история",
         "volume": "5000",
@@ -13543,7 +13553,7 @@
     "pillars": [],
     "tracking": [],
     "counts": {
-      "winnable": 41,
+      "winnable": 40,
       "pillars": 0
     }
   }
