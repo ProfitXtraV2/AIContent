@@ -3899,3 +3899,67 @@ flagged regression to live/feed content, the `published/` changes were reverted
 (`git checkout -- published/`) and left for the autopilot/human to resolve. No posted/live content
 edited; nothing merged; no new article branches created; only the single flagged `content/<folder>`
 branch touched; GEMINI_API_KEY never printed.
+
+---
+
+## 2026-11-13 (nightly flag+score fixer, 23:06 UTC)
+
+Synced `main` (reset to `origin/main` @ `f4ae951` — fresh checkout had diverged local
+commits, no local work to preserve), fetched all `origin/content/*` refs (334 content
+branches).
+
+### JOB A — resolve publish-blocking flags
+**Zero publishable drafts carry a blocking marker — nothing to fix on any branch.**
+Scanned every `content/<folder>` branch's own `05b-final-draft.md` (the publishable text
+`build_feed.py` reads branch-first) for the full blocking set
+(`[VERIFY]` / `[DATA NEEDED]` / `[CONFLICT]` / `[18+ / RG LINE]` / `[AUTHOR …]` / `[BRAND …]` /
+`[EDITORIAL]` / `[уточни …]` / `[провери …]`): **0 of 334 branches** had a flag in their own
+publishable draft. No branch touched, no PR updated — idempotent (every flag-free draft left
+untouched).
+
+The only brackets remaining anywhere are in **stale `main`-tree copies of three POSTED
+articles**, whose live/branch versions are already clean (so nothing flagged ever reaches the
+feed):
+- **vk-0064 — `2026-09-13-nv-casino-bonus-usloviya`** (posted): `[AUTHOR BIO BLOCK]` /
+  `[BRAND BOILERPLATE]` / `[18+ / RG LINE]` on line 65 of the `main` copy; `origin/content/…`
+  branch copy is flag-free.
+- **vk-0063 — `2026-09-13-nv-casino-zakonno-li-e`** (posted): `[AUTHOR BIO BLOCK]` on line 56 of
+  the `main` copy; branch copy flag-free.
+- **vk-0267 — `2026-10-10-toto-2-igri`** (posted): 15 brackets (10× `[VERIFY]`, `[EDITORIAL]`,
+  `[BRAND BOILERPLATE]`, `[18+ / RG LINE]`, `[DATA NEEDED]`) in the `main` copy; branch copy
+  flag-free.
+
+Per policy these POSTED/live articles were **NOT edited**. They are informational only — the
+published/branch versions are clean; the brackets survive solely in `main`'s working-tree draft
+history and do not gate the feed. Carried to the human-review list below.
+
+### JOB B — low Gemini score
+**Zero qualifying targets.** Across all 226 `drafted`/`approved` rows the recorded Gemini
+verdicts are all `human ≥80` (minimum **80**, which meets the Step-7 PASS threshold) with **0**
+`ai <n>`; the remainder are `skipped` (no verdict — Gemini Step-7 skipped upstream, per board
+notes „gemini skipped"). No row carries `ai <n>` or `human <n>` with n<80, so there is nothing
+to humanise. `gemini_check.py` not invoked (no qualifying target); GEMINI_API_KEY not used.
+
+### POSTED — needs human review
+- **vk-0063 — `2026-09-13-nv-casino-zakonno-li-e` (PR #79), `ai 75`, posted/live.** Carried
+  forward unchanged — still the only board row scoring below the human-80 threshold, and it is
+  posted/live. A human should decide whether to re-humanise and re-publish off-line.
+- **vk-0064 / vk-0063 / vk-0267** (above) — posted articles whose `main`-tree draft copies still
+  contain `[AUTHOR …]`/`[BRAND …]`/`[18+ / RG LINE]`/`[VERIFY]`/`[DATA NEEDED]` brackets.
+  Live/branch versions are clean, so not a live hard-block; noted so a human can scrub the stale
+  `main` copies if desired.
+
+### Deferred
+None — JOB B had 0 qualifying targets (≤10/night cap not reached).
+
+### Finish
+No board `gemini` cells changed (no row processed or re-scored). `build_dashboard.py` re-run on
+`main` (buffer 226/10); the only diff is the `generated_utc` timestamp plus the recurring
+`verify_flags: null→0` refresh (the fixer has the `origin/content/*` refs fetched, so drafts
+resolve and count 0 flags, whereas autopilot board rebuilds run without those refs and record
+`null`). **`build_feed.py` deliberately NOT re-run/committed** — the autopilot's latest board
+commit (`81cbd0b`) still records „feed hold (upstream bio regression persists)"; the „със
+собствен бюджет" author-bio regression is already present in `published/` and the autopilot is
+intentionally holding further feed propagation, so `published/` was left untouched to respect
+that hold. No posted/live content edited; nothing merged; no new article branches created; no
+content branch touched; GEMINI_API_KEY never printed.
