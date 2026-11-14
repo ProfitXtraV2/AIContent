@@ -1,13 +1,15 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-11-14T07:14:00Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-11-14T07:45:00Z",
+  "articles_written": 1,
+  "prs_opened": [
+    361
+  ],
   "run_url": "https://claude.ai/code/session_01AwuYFSt46yHgbxzWz9D5UH",
-  "note": "daily run 2026-11-14 — started; reconcile clean (0 in-progress/HANDOFF/CLAIMED); monthly SEO review not due (marker 2026-11)",
+  "note": "daily run 2026-11-14 — throttled intake (MAX_PER_RUN=1). Reconcile clean on entry (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review NOT due (marker 2026-11 = current). WROTE 1 NEW guide vk-0334 „Спартак Варна — история и легенди на клуба“ (top open P0 backlog, спартак варна 14000/kd2 WIN, OWNER-APPROVED Bulgarian-football sweep), PR #361. Evergreen BG club profile (guides-only: 0 operator/НАП/affiliate; 0 standings/results/fixtures/transfers/odds/predictions). Facts cross-verified BG+EN Wikipedia: единствена титла 1932; ПЪРВИ бълг. клуб в КНК (дебют 1961/62 Рапид); връх 2-ри кръг КНК 1983/84 vs Манчестър Юнайтед (4:1); 8 титли Втора лига; рекордьори Илия Кирчев 286 мача / Стефан Найденов 56 гола; стадион „Спартак“ ~7000 [VERIFY]. DISTINCT — dedup vs queue (0 спартак) + live sitemap (177 URLs, 0 spartak) clean; anti-cannibalization clean (Черно море Варна still open/unwritten). Gate ~95 PASS 0-crit (0 em-dash body, non-pivot opening, asymmetric close). Gemini Step-7 TEXT = GEMINI_UNAVAILABLE (HTTP 402 RESOURCE_EXHAUSTED, credits depleted — persistent since 2026-11-10) → skipped per daily-run; kept initial 05b; gemini=skipped. Step-8 img:1 (hand-authored infographic spartak-varna-fakti.svg, 8 числа 1:1 vs 05b, Chromium render clean deviceScaleFactor 2; AI hero skipped 402; Gemini image review skipped 402 → manual integrity PASS, 0 logos/faces/fabricated numbers/glamorised winning). ~779 думи, 2 [VERIFY] (капацитет 6000/7000/8000; институционална хронология 1918→днес) + 1 omitted (купа 1994/95, противоречиви източници), 5 internal links (zakonno-li-e/bonus-ruletka-sport-vsichki/blog-futbol/blog-responsible-gambling/otgovorna-igra) + otgovorna-igra footer; 0 affiliate (0 оператори). Keyword research = LIGHT pass: Ahrefs unit reset 2026-11-15 not yet reached → no paid discovery (0 intake pressure, backlog deep ~37 open writable P0 rows already enriched); research bank thin at 3 candidates, REPLENISH-AT-RESET flag set for next fire ≥11-15; 10 NV-Casino rows stay open+blocked. Board: content-queue vk-0334 drafted (gemini skipped, PR #361, img:1); backlog Спартак Варна open→written; dashboard rebuilt (buffer 225/10); feed refreshed (git fetch + build_feed). FEED HELD (unchanged from prior fires): build_feed again reintroduces the FORBIDDEN author bio „Георги Тодоров тества … казино сайтове … със собствен бюджет“ into published/ for 2 already-approved articles (elektronna-ruletka, svara-pravila) — markets/bg/author.md Tier 3 forbids тества/тестер; reverted published/ (live feed kept at the compliant „автор на ревюта … проверява и оценява“ bio). No NEW approved article this run (vk-0334 is drafted), so nothing legitimate needed exposing. HUMAN ACTION (repeat): revert the author bio on those 2 content branches to the canonical author.md bio and fix the nightly flag+score-fix job that keeps reintroducing it. Review request to owner GTodorov9 not auto-assignable via MCP — PR #361 open & visible in owner's PR list. NO flags resolved, nothing posted/merged/fabricated.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-11-14-spartak-varna",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "stage_index": null,
+    "stage": null
   }
 }
