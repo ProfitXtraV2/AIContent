@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 6,
+  "count": 4,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -17,13 +17,6 @@
       "status": "approved"
     },
     {
-      "slug": "onlayn-bingo-pravila",
-      "title": "Онлайн бинго: правила, видове и реалните шансове",
-      "date_modified": "2026-10-10",
-      "content_hash": "d70ab4937a56843ca255b3b78f79f7b31783927abb2badb80f00ae4eee3fb1b0",
-      "status": "approved"
-    },
-    {
       "slug": "elektronna-ruletka",
       "title": "Електронна рулетка: как работи (RNG и автоматни рулетки)",
       "date_modified": "2026-10-14",
@@ -36,14 +29,7 @@
       "date_modified": "2026-10-19",
       "content_hash": "300e28118a5cbb23fb3e21ac2fbbc4c7a1865e06f1291bac64cde5ac39bc6ab3",
       "status": "approved"
-    },
-    {
-      "slug": "svara-pravila",
-      "title": "Свара правила: как се играе свара на точки",
-      "date_modified": "2026-10-23",
-      "content_hash": "633043f74149bea9dc83b06cd247a9ad56095cb7427e431298c3264486dbe43f",
-      "status": "approved"
     }
   ],
-  "generated_utc": "2026-11-13T15:51:10Z"
+  "generated_utc": "2026-11-14T06:41:51Z"
 }
