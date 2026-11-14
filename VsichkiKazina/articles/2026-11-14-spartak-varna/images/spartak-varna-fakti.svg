@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 560" role="img" aria-label="Инфографика с ключовите факти за Спартак Варна: основаване, титла, европейска следа и рекордьори">
+  <defs>
+    <style>
+      .bg{fill:#f3f6fb;}
+      .card{fill:#ffffff;stroke:#d4e0f0;stroke-width:1;}
+      .title{fill:#0a2a5e;font-family:'Segoe UI',Arial,sans-serif;font-size:26px;font-weight:700;}
+      .sub{fill:#5a6b85;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;}
+      .colh{fill:#1457b0;font-family:'Segoe UI',Arial,sans-serif;font-size:15px;font-weight:700;}
+      .big{fill:#0a2a5e;font-family:'Segoe UI',Arial,sans-serif;font-size:24px;font-weight:800;}
+      .lbl{fill:#263a57;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;}
+      .foot{fill:#5a6b85;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="940" height="560"/>
+  <rect class="card" x="8" y="8" width="924" height="544" rx="14"/>
+
+  <text class="title" x="470" y="50" text-anchor="middle">Спартак Варна в числа</text>
+  <text class="sub" x="470" y="74" text-anchor="middle">история, трофеи и рекорди</text>
+  <line x1="40" y1="94" x2="900" y2="94" stroke="#d4e0f0" stroke-width="1"/>
+  <rect x="40" y="94" width="860" height="3" fill="#1457b0"/>
+
+  <!-- Left column: trophies & history -->
+  <text class="colh" x="46" y="130">Трофеи и история</text>
+
+  <text class="big" x="46"  y="178">1918</text>
+  <text class="lbl" x="210" y="178">основан (история от 1918 г.)</text>
+
+  <text class="big" x="46"  y="232">1932</text>
+  <text class="lbl" x="210" y="232">шампион на България</text>
+
+  <text class="big" x="46"  y="286">8</text>
+  <text class="lbl" x="210" y="286">титли във Втора лига</text>
+
+  <text class="big" x="46"  y="340">~7 000</text>
+  <text class="lbl" x="210" y="340">места на стадион „Спартак“ (около)</text>
+
+  <!-- Divider -->
+  <line x1="472" y1="112" x2="472" y2="430" stroke="#d4e0f0" stroke-width="1"/>
+
+  <!-- Right column: Europe & record holders -->
+  <text class="colh" x="500" y="130">Европа и рекордьори</text>
+
+  <text class="big" x="500" y="178">1961/62</text>
+  <text class="lbl" x="660" y="178">първи бълг. клуб в КНК</text>
+
+  <text class="big" x="500" y="232">1983/84</text>
+  <text class="lbl" x="660" y="232">2-ри кръг КНК (Ман Юнайтед)</text>
+
+  <text class="big" x="500" y="286">286</text>
+  <text class="lbl" x="660" y="286">мача: Илия Кирчев (рекорд)</text>
+
+  <text class="big" x="500" y="340">56</text>
+  <text class="lbl" x="660" y="340">гола: Стефан Найденов (рекорд)</text>
+
+  <!-- Footer -->
+  <line x1="40" y1="460" x2="900" y2="460" stroke="#d4e0f0" stroke-width="1"/>
+  <text class="foot" x="46" y="488">Сини и бели · прякор „Соколите“ · клуб от Варна с дерби срещу Черно море.</text>
+  <text class="foot" x="46" y="512">Профил и история, без класирания, резултати или прогнози. Всички стойности следват текста на статията.</text>
+  <text class="foot" x="46" y="536">Източници: BG/EN Wikipedia (ПФК Спартак Варна / FC Spartak Varna). Всички Казина · vsichkikazina.bg</text>
+</svg>
