@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-15T07:38:23Z",
+  "generated_utc": "2026-11-15T13:01:40Z",
   "buffer": {
     "count": 224,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 222,
-    "approved": 2,
+    "drafted": 221,
+    "approved": 3,
     "posted": 110,
     "failed": 1
   },
@@ -6774,7 +6774,7 @@
     },
     {
       "id": "vk-0331",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Вечното дерби Левски – ЦСКА: история, статистика и рекорди",
       "keywords_or_terms": "левски цска, вечното дерби, левски срещу цска",
