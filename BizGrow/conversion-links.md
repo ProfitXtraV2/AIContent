@@ -25,9 +25,16 @@ add them to the table below in the same change.
 | /avtomatizacii/ | Автоматизация на бизнес процеси | bg | booking, reminders, offers, documents, invoices, connected systems, dashboards |
 | /seo-statii/ | SEO копирайтинг и SEO статии | bg | the content tool: SEO articles, product descriptions, copywriting |
 | /socialni-mrezhi/ | Поддръжка на социални мрежи и криейтиви | bg | scheduled social posts, monthly creatives, visuals for ads |
-| /reklama/ | Реклама в Google и Facebook | bg | the marketing specialist: Google Ads, Facebook/Instagram ads, reporting |
+| /reklama/ | Реклама в Google | bg | the marketing specialist: Google Ads, reporting (Facebook/Instagram → /reklama-vav-facebook/) |
 | /seo-optimizacia/ | SEO оптимизация на сайтове | bg | technical SEO, on-page optimisation, links |
 | /diagnostika/ | Безплатна диагностика (checker) | bg | the free diagnosis; "see where your business loses time" |
+| /izrabotka-na-sait/ | Изработка на сайт | bg | building or maintaining a website |
+| /izrabotka-na-onlain-magazin/ | Изработка на онлайн магазин | bg | building an online shop |
+| /reklama-vav-facebook/ | Реклама във Facebook и Instagram | bg | paid social ads (Facebook, Instagram) |
+| /saveti/ | Съвети (advice hub) | bg | list of advice articles |
+| /saveti/kakvo-pravi-kopiraytar/ | Какво прави копирайтърът | bg | advice: copywriters |
+| /saveti/google-biznes-profil/ | Google бизнес профил | bg | advice: Google Business Profile |
+| /saveti/klyuchovi-dumi/ | Ключови думи | bg | advice: keywords |
 
 ## Section anchors (same ids on both locales)
 

@@ -45,6 +45,11 @@ SERVICES (four, owner-confirmed 2026-11-15):
 3. **Криейтиви всеки месец** — branded visuals, posts and advertising materials every month.
 4. **Маркетинг специалист** — a real specialist plans, runs and tracks advertising and marketing
    and reports with numbers.
+6. **Изработка на сайтове и онлайн магазини** (owner-confirmed 2026-11-15: "we offer that", for
+   website building, online shops and website maintenance) — building websites and online shops,
+   and maintaining websites (поддръжка на сайт). Nothing more specific is canon: no platforms
+   (WordPress, Shopify, WooCommerce …), page counts, design process, hosting, domains, payment or
+   courier integrations, delivery times or prices unless the owner adds them; raise owner items.
 5. **SEO оптимизация** (owner-confirmed later on 2026-11-15: "full SEO too") — SEO optimisation of
    websites: technical SEO, on-page optimisation and links. Nothing more specific (tools, audits'
    length, link counts, positions) unless the owner adds it.
