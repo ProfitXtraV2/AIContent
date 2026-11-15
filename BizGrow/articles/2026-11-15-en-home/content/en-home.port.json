@@ -1,0 +1,229 @@
+{
+  "meta": {
+    "title": "AI automation for small business | BizGrow",
+    "description": "AI automation for small business: a free diagnosis, a report with prioritised fixes and clear prices within 48 hours, and a build usually within 2 weeks.",
+    "ogTitle": "BizGrow: AI automation for small businesses",
+    "ogDescription": "A free diagnosis with no obligation. A report with clear one-time prices within 48 hours, and the fixes built usually within 2 weeks.",
+    "ogLocale": "en_US"
+  },
+  "a11y": {
+    "skipToContent": "Skip to content",
+    "primaryNav": "Primary",
+    "home": "BizGrow home",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "newTab": "(opens in a new tab)",
+    "language": "Language",
+    "results": "Free diagnosis",
+    "step": "Step",
+    "breadcrumb": "Breadcrumb"
+  },
+  "page": {
+    "home": "Home",
+    "faq": "Frequently asked questions",
+    "related": "Related services",
+    "diagnosis": "Free diagnosis"
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Process",
+        "href": "#process"
+      },
+      {
+        "label": "Contact us",
+        "href": "#contact"
+      }
+    ],
+    "cta": "Book a call"
+  },
+  "hero": {
+    "line1": "AI automation for small businesses.",
+    "line2": "Less busywork, more business.",
+    "body": "BizGrow provides AI automation for small business: we find where your business loses time, choose the fixes worth building and build them for you. We start with a free diagnosis and a 30-minute call, and the build usually takes up to 2 weeks.",
+    "primary": "Free diagnosis",
+    "secondary": "Explore services",
+    "imageSrc": "/bizgrow-banner.webp",
+    "imageAlt": "BizGrow: AI and automation for small businesses. The banner reads: integrate AI, automate workflows, save time and costs, grow your business.",
+    "overlayLabel": "Free diagnosis",
+    "overlayUnit": "usually within 2 weeks"
+  },
+  "metrics": [
+    {
+      "value": "30 min",
+      "caption": "diagnosis call",
+      "label": "30 minutes"
+    },
+    {
+      "value": "48 h",
+      "caption": "to the report with prices",
+      "label": "48 hours"
+    },
+    {
+      "value": "0",
+      "caption": "obligation"
+    }
+  ],
+  "losses": {
+    "title": "Where you lose customers and hours every day",
+    "items": [
+      "Missed calls and messages after working hours",
+      "Hours lost writing quotes and invoices by hand",
+      "Messages on Messenger, Instagram or WhatsApp that go without a timely reply",
+      "No time for content and social media while competitors grow",
+      "Not knowing which numbers in your business actually matter"
+    ]
+  },
+  "services": {
+    "title": "AI automation for small business, content and advertising in one place",
+    "items": [
+      {
+        "icon": "brain",
+        "title": "AI assistant and chatbot",
+        "body": "A chatbot is a chat assistant that answers repeated questions on Messenger, Instagram and WhatsApp. When it cannot help, it collects the customer's contact details."
+      },
+      {
+        "icon": "loop",
+        "title": "Automations",
+        "body": "We build online booking with reminders, quotes that go from a filled-in form to a finished PDF, and automatic handling of documents and invoices. We also connect the programs you already use and set up a dashboard, one screen with your key figures."
+      },
+      {
+        "icon": "spark",
+        "title": "SEO articles and copy",
+        "body": "Our own content tool writes articles about your industry and city, prepared for Google searches (SEO, search engine optimisation). Each article is published only after you approve it."
+      },
+      {
+        "icon": "spark",
+        "title": "Social media and creatives",
+        "body": "Posts with text and an image go out on a schedule once you approve them. Every month we also prepare branded visuals and advertising materials."
+      },
+      {
+        "icon": "loop",
+        "title": "Google and Facebook ads",
+        "body": "A real marketing specialist plans, runs and tracks your ads and reports the results to you with concrete numbers."
+      },
+      {
+        "icon": "brain",
+        "title": "SEO optimisation",
+        "body": "We work on your website's technical SEO (how the site is set up for search engines), on the optimisation of individual pages and on the links that point to the site."
+      }
+    ]
+  },
+  "process": {
+    "title": "Three steps to a working solution",
+    "lead": "The work goes through three steps, from the first call to support for the finished solution.",
+    "steps": [
+      {
+        "n": "1",
+        "label": "Diagnosis",
+        "title": "Where time and money leak",
+        "body": "We start with a free diagnosis and a 30-minute call. You describe the problems you see in your business, and together we find exactly where it loses time and money."
+      },
+      {
+        "n": "2",
+        "label": "Build",
+        "title": "A clear one-time price",
+        "body": "Within 48 hours you receive a report with prioritised fixes and clear one-time prices. We then build the specific AI solution, usually within 2 weeks."
+      },
+      {
+        "n": "3",
+        "label": "Support",
+        "title": "A transparent report every month",
+        "body": "After launch we monitor the solution and improve it. Every month you receive a short report on the work done."
+      }
+    ]
+  },
+  "results": {
+    "title": "What the result can look like",
+    "note": "Example scenarios from our method, not figures from specific clients.",
+    "rows": [
+      {
+        "business": "Restaurant",
+        "problem": "Nobody picks up at peak hours.",
+        "outcome": "Bookings 24/7, about 10 hours less manual work a week."
+      },
+      {
+        "business": "Online shop",
+        "problem": "Questions about deliveries sit unanswered for hours.",
+        "outcome": "80% of the repeated questions answered in seconds."
+      },
+      {
+        "business": "Dental clinic",
+        "problem": "Missed calls and appointments moved around.",
+        "outcome": "Online booking at any time."
+      }
+    ]
+  },
+  "reasons": {
+    "title": "The little “extra” that changes the result",
+    "lead": "We explain every solution in plain language and build only AI tools that solve a specific problem in your business.",
+    "items": [
+      "We work under GDPR",
+      "No long-term contracts",
+      "Transparent prices",
+      "A result before a large investment"
+    ]
+  },
+  "cta": {
+    "title": "The first step is free",
+    "body": "The diagnosis commits you to nothing. We show you exactly what we can fix and what it will cost.",
+    "button": "Book a free diagnosis"
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "question": "What can a small business automate?",
+        "answer": "The most common candidates are answers to repeated questions on Messenger, Instagram and WhatsApp, online booking with reminders, quotes, documents and invoices. Business automation also covers connecting the programs you already use so that data fills itself in, and a dashboard with your key figures in one place."
+      },
+      {
+        "question": "How much does it cost to build a solution?",
+        "answer": "Each solution has a one-time price that depends on what exactly is built. You find the price in the report you receive within 48 hours of the diagnosis, and we work without long-term contracts."
+      },
+      {
+        "question": "Where do I start if I don't know what to automate?",
+        "answer": "Start with the free diagnosis: book a 30-minute call and tell us about the problems you see in your business. The diagnosis commits you to nothing."
+      },
+      {
+        "question": "How long does the build take?",
+        "answer": "Once you have the report, we build the specific solution, usually within 2 weeks."
+      },
+      {
+        "question": "Will AI replace the people on my team?",
+        "answer": "AI takes over repeated tasks, and you stay in control: articles and posts go out only after you approve them. Your advertising is run by a real marketing specialist, and when the chat assistant cannot help, it collects the customer's contact details."
+      },
+      {
+        "question": "Is this suitable for my industry?",
+        "answer": "We work with small businesses: restaurants and cafés, hotels and guest houses, salons, online shops, retail shops and showrooms, clinics and practices, car services and tradespeople, real estate and B2B companies (businesses that sell to other businesses). After the diagnosis, the report shows which fixes make sense for your type of business."
+      },
+      {
+        "question": "Do I have to sign a long-term contract?",
+        "answer": "No, we work without long-term contracts. During support we monitor the solution, and every month you receive a short report on the work done."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact us",
+    "book": "Book a video call now",
+    "emailBefore": "Send us an email at",
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "description": "Description"
+    },
+    "submit": "Submit",
+    "mailSubject": "BizGrow message from"
+  },
+  "footer": {
+    "descriptor": "We find where your business loses time and fix it with AI.",
+    "services": "Services",
+    "process": "Process",
+    "contact": "Contact us",
+    "privacy": "Privacy",
+    "rights": "All rights reserved."
+  }
+}

@@ -40,6 +40,7 @@ add them to the table below in the same change.
 | #results | Example scenarios (hypothetical, labelled) | what a result can look like; never as "client results" |
 | #reasons | Why this offer (GDPR, no long-term contracts, transparent prices) | policies |
 | #audit | CTA band: the first step is free | the free diagnosis |
+| #faq | Home FAQ (added 2026-11-15) | common questions about BizGrow |
 | #contact | Contact: booking, email, form | contacting BizGrow |
 
 On a separate page, link a home-page section as `/#<anchor>` (bg) or `/en/#<anchor>` (en).
