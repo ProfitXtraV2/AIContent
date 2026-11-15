@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 4,
+  "count": 2,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -10,26 +10,12 @@
       "status": "approved"
     },
     {
-      "slug": "kak-se-preodolyava-hazartna-zavisimost",
-      "title": "Как се преодолява хазартна зависимост: лечение и помощ",
-      "date_modified": "2026-10-08",
-      "content_hash": "ef9eb35e9cf23ab040e03888cb413941441fcd93c88ece554e63d2f9f8555ce7",
-      "status": "approved"
-    },
-    {
       "slug": "elektronna-ruletka",
       "title": "Електронна рулетка: как работи (RNG и автоматни рулетки)",
       "date_modified": "2026-10-14",
       "content_hash": "86da704a21e6a750007ecd39274ddff0da0c72b63d373eea335745ae88ca9c61",
       "status": "approved"
-    },
-    {
-      "slug": "poker-chipove",
-      "title": "Покер чипове: цветове, стойности и броене",
-      "date_modified": "2026-10-19",
-      "content_hash": "300e28118a5cbb23fb3e21ac2fbbc4c7a1865e06f1291bac64cde5ac39bc6ab3",
-      "status": "approved"
     }
   ],
-  "generated_utc": "2026-11-14T06:41:51Z"
+  "generated_utc": "2026-11-15T06:41:33Z"
 }
