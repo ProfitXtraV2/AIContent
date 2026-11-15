@@ -1,0 +1,31 @@
+PASS | TOML parses | 
+PASS | title <= 60 incl suffix | 49
+PASS | meta 120-160 | 154
+PASS | meta contains primary kw | 
+PASS | JSON meta == TOML | 
+PASS | pk in title | 
+PASS | pk in H1 (Latin variant) | 
+PASS | pk in first 100 words | 
+PASS | pk in one H2 (definite variant „платената“) | 
+PASS | sections <-> body ids/headings in order | 
+PASS | JSON section ids == body (minus hero) | 
+PASS | zero em-dashes (md+json) | 
+PASS | zero bracketed markers | 
+PASS | zero „ти“ forms ("защото те зависят" = 3rd-person „they“, reviewed) | []
+PASS | zero „доклад“ | 
+PASS | zero delivery periods | 
+PASS | zero banned words | []
+PASS | zero PRICE/OFFER/TESTIMONIAL | 
+PASS | numbers only canon (30) | ['30']
+PASS | every link in conversion-links.md | ['#cena', '/diagnostika/', '/reklama/', '/socialni-mrezhi/', '{{BOOKING_URL}}']
+PASS | related = 3 allowed, not / nor self | ['/reklama/', '/socialni-mrezhi/', '/ai-asistent/']
+PASS | BOOKING_URL x2 body, EMAIL x1 body | 
+PASS | max one booking CTA per section | 
+PASS | no hard-coded email/URL | 
+PASS | inventory I1-I19 present (I20 n/a) | []
+PASS | no budget separate/included statement | 
+PASS | JSON strings exact vs md (lead/faq/h1) | 
+PASS | JSON required keys | 
+PASS | decision/checked fields empty | 
+passed 29 / 29
+body words (sections only) 479 | lead 37 | faq words 249 | owner_items 10

@@ -76,7 +76,7 @@ Do not describe how a service works beyond these words (no named vendors, platfo
 integrations, turnaround times or volumes) unless the owner adds it to this canon.
 
 PRICES (owner decision 2026-11-15): explain how the price is formed, never a number or range:
-a one-off price per fix, given in the report after the free diagnosis; it depends on what is
+a one-off price per fix, given in the offer („оферта“) after the free diagnosis; it depends on what is
 built; no long-term contracts. Service pages may say this; they may not say „от X лв./€“.
 
 PROCESS:

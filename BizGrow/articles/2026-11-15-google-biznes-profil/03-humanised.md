@@ -1,0 +1,210 @@
+# 03-humanised — /saveti/google-biznes-profil/ (Step 3, professional-quality edit)
+
+```
+PROFESSIONAL-QUALITY REPORT — /saveti/google-biznes-profil/ (bg)
+Verdict: NEEDS EDIT (light)
+Correctness 8/10 | Clarity 8/10 | Register 9/10 | Readability 7/10 | No AI tells 8/10
+Em-dashes: 0 | „ти“ forms: 0 | lowercase courtesy pronouns: 0 | exclamation marks: 0 | register breaches: 0
+```
+
+CRITICAL (must fix)
+- #ocenki: „Ако същите въпроси се повтарят в Messenger, Instagram или WhatsApp, [AI асистент](/ai-asistent/), тоест програма, която отговаря автоматично …, може да отговаря на тях и извън работно време.“ → 33 words with an inserted definition between subject and verb (D, over ~30 words) → split: main clause first, the definition of „AI асистент“ as its own sentence.
+- FAQ 5: „е добре да проверявате и снимките и оценките и коментарите“ → stacked „и … и … и“ makes the object list ambiguous (A) → „проверявайте също снимките, както и оценките и коментарите“.
+
+MODERATE
+- #ocenki: „Част от въпросите в коментарите идват и като съобщения.“ → unclear subject (B) → „Част от въпросите, които клиентите задават в коментарите, идват и като съобщения.“
+- #potvarzhdavane: „че именно Вие управлявате бизнеса“ → demonstrative crutch „именно“ (E) → removed.
+- #potvarzhdavane: „Прегледите за потвърждаване отнемат до 5 работни дни“ → „прегледите“ appears without attribution in body while FAQ attributes it → „Според Google прегледите …“ (keeps the sourced fact attributed; number and qualifier unchanged).
+- #poddrazhka: „Остарялото работно време или старото меню водят до клиенти, които намират затворена врата …“ → nominal, translated-sounding construction (A/B) → conditional sentence with the same content.
+- #syzdavane: „Преди създаването на нов профил проверете“ → noun-heavy (A) → „Преди да създадете нов профил, проверете“; „стъпките са следните:“ → mild signposting lead-in (E) → „създайте го така:“.
+- #bizgrow: „всеки месец“ twice in one sentence → the first becomes „редовно“; the canon phrase „публикации, снимки и актуална информация всеки месец“ (I5) is untouched.
+
+PRESERVE (already good)
+- Formal „Вие“ with capitalised Ви/Вас/Ваш throughout; formal imperatives in steps and CTA.
+- Question-led H2s, section ids, numbered steps and bullet lists; short paragraphs.
+- Honest qualifiers („обикновено“, „в редки случаи“) and the no-ranking-promise wording in #kakvo-e and FAQ 4.
+- All [VERIFY] (5) and [OWNER CONFIRM] (4) markers, links, tokens, the one booking CTA, the closing canon block (оферта, timing line, no commitment, no long-term contracts).
+- No em-dashes, no „не A, а B“ endings, no hype, no banned terms; „безплатн*“ only for the diagnosis (2 hits, both diagnosis).
+
+---
+
+Page: /saveti/google-biznes-profil/ | Locale: bg | Type: new-page | Main term: бизнес профил в гугъл
+
+# Как да създадете и поддържате Google бизнес профил
+
+- eyebrow: Съвети
+- label: Google бизнес профил
+- summary: Как да създадете, заявите и потвърдите Google бизнес профил и какво да проверявате в него всеки месец, включително отговорите на оценки и коментари.
+
+**Lead:** Google бизнес профил е информацията за бизнеса Ви, която клиентите виждат в Google Търсене и Google Карти: име, адрес, работно време, телефон, снимки, оценки и коментари. Същото имат предвид и хората, които търсят „бизнес профил в гугъл“. Създаването, заявяването и потвърждаването му следват ясни стъпки, а поддръжката изисква редовна проверка на данните и отговори на клиентите.
+
+## Какво е Google бизнес профил и защо е полезен? {#kakvo-e}
+
+Профилът събира на едно място данните, които клиентите проверяват, преди да се обадят или да дойдат: къде се намирате, кога работите и как да се свържат с Вас. Той се показва в Google Търсене и Google Карти, когато някой потърси бизнеса Ви.
+
+Според Google, когато добавите и потвърдите бизнес профила си, клиентите могат да намират бизнеса Ви в Търсене и Карти. Добавянето или заявяването на бизнес става без парично заплащане. [VERIFY: added and verified profile → customers can find the business in Search and Maps; adding/claiming without monetary payment: https://support.google.com/business/answer/2911778?hl=bg]
+
+Профилът е полезен за всеки бизнес, при който клиентите идват на място или търсят телефон и работно време: ресторант, хотел, салон, автосервиз, клиника или магазин. Подредбата в резултатите се определя от Google и никой не може да обещае конкретно място в Картите. Пълният и актуален профил помага на клиентите да решат дали да дойдат при Вас, когато вече са Ви открили.
+
+## Как се създава бизнес профил в гугъл? {#syzdavane}
+
+[OWNER CONFIRM: main term „бизнес профил в гугъл“ placed verbatim in this H2 and in the lead (first 100 words); the SEO stage may move the H2 placement to „Как се създава бизнес профил в Google?“ and keep the colloquial form only in the title/meta.]
+
+Преди да създадете нов профил, проверете дали бизнесът Ви вече се показва в Google Карти, като потърсите името му и града. Ако го има, заявете съществуващия профил, за да не се появят два профила на едно място. Прочетете и условията на Google за това кои бизнеси могат да имат профил.
+
+Ако бизнесът Ви още няма профил, създайте го така:
+
+1. Отворете страницата на Google за добавяне на бизнес и изберете „Добавете бизнеса си в Google“. [OWNER CONFIRM: show the address business.google.com/add as plain text? External links are not allowed in the body; it is quoted in S1.]
+2. Въведете данните на бизнеса, като следвате инструкциите на екрана.
+3. Изберете начин за потвърждаване и изпълнете стъпките, които Google Ви показва.
+
+Използвайте точното име на бизнеса, същото като на табелата и на сайта Ви. Така клиентите разпознават от пръв поглед, че профилът е Вашият.
+
+## Какво да направите, ако бизнесът Ви вече е в Google Карти? {#zayavyavane}
+
+Ако при търсенето бизнесът Ви вече се показва в Google Карти, не е нужно да създавате нов профил. Можете да заявите съществуващия по следния начин:
+
+1. Отворете Google Карти от компютър.
+2. Потърсете името на бизнеса и града си.
+3. Изберете „Заявяване на този бизнес“ и продължете към потвърждаването.
+
+Ако профилът вече е потвърден от друг човек, а Вие сте упълномощени да го управлявате, можете да подадете заявка за собственост до настоящия му собственик. [OWNER CONFIRM: the synthesis sentence „Това често се случва, когато профилът е създаден от бивш служител или от външна фирма.“ is an unsourced generalisation and was dropped per the outline; restore only if the owner agrees.]
+
+## Как се потвърждава профилът и колко време отнема? {#potvarzhdavane}
+
+Потвърждаването доказва пред Google, че Вие управлявате бизнеса. Когато потвърдите бизнеса си, придобивате собствеността върху бизнес профила, а наличните начини за потвърждаване зависят от типа на бизнеса Ви. [VERIFY: verification gives ownership of the profile; available options depend on the business type: https://support.google.com/business/answer/7107242?hl=bg]
+
+Google показва възможните начини по време на процеса, затова изберете този, който можете да изпълните веднага. Според Google прегледите за потвърждаване отнемат до 5 работни дни, а в редки случаи и повече. [VERIFY: verification reviews take up to 5 working days; rarely longer: https://support.google.com/business/answer/7107242?hl=bg]
+
+Докато чакате, подгответе снимките и текстовете, които ще добавите след потвърждаването. Проверете и дали името, адресът и телефонът съвпадат с тези на сайта Ви и в профилите Ви в социалните мрежи.
+
+## Какво да попълните в профила? {#danni}
+
+Клиентите обикновено отварят профила, за да разберат дали сте отворени, как да стигнат до Вас и как да се свържат с Вас. Затова започнете с основните данни:
+
+- Точното име на бизнеса.
+- Адрес или местоположение, така че клиентите да Ви намерят на картата.
+- Телефонен номер, на който някой отговаря в работно време.
+- Уебсайт, ако имате такъв.
+- Работно време, включително промените през празниците или през сезона.
+- Снимки и видеоклипове на обекта, продуктите и услугите.
+
+Добавяйте реални снимки на мястото и на това, което продавате. Те дават на клиента представа какво го очаква, преди да дойде.
+
+## Какво да проверявате в профила всеки месец? {#poddrazhka}
+
+Профилът е полезен, докато информацията в него е вярна. Ако работното време или менюто са остарели, клиентите може да намерят затворена врата или да очакват друга цена.
+
+Веднъж месечно проверявайте следното:
+
+- Работното време, особено преди празници и при смяна на сезона.
+- Менюто, цените и услугите, така че да съвпадат със сайта и социалните мрежи.
+- Снимките, като добавяте нови, когато обновите обекта, продуктите или услугите.
+- Оценките и коментарите, на които още не сте отговорили.
+
+Ако менюто или цените Ви се сменят често, удобно е да ги обновявате от едно място. Така в Google, в сайта и във Facebook не остава стара информация, която да обърква клиентите.
+
+## Как да отговаряте на оценки и коментари в Google? {#ocenki}
+
+Оценките и коментарите в Google се виждат от всеки, който отвори профила. Новите клиенти четат и самите коментари, и начина, по който бизнесът отговаря на тях.
+
+Няколко правила помагат отговорите да звучат професионално:
+
+- Отговаряйте и на положителните, и на критичните коментари.
+- Благодарете конкретно, като споменете услугата или продукта, за който пише клиентът.
+- При оплакване отговорете спокойно, признайте проблема и предложете да го решите извън профила.
+- Не публикувайте лични данни на клиента и подробности за поръчката му.
+
+Част от въпросите, които клиентите задават в коментарите, идват и като съобщения. Ако тези въпроси се повтарят в Messenger, Instagram или WhatsApp, на тях може да отговаря [AI асистент](/ai-asistent/), включително извън работно време. AI асистентът е програма, която отговаря автоматично по информацията на бизнеса Ви. Когато не може да помогне, асистентът записва контакта на клиента, за да се свържете с него.
+
+[OWNER CONFIRM: the house term „оценки и коментари в Google“ is used throughout instead of Google's own „отзиви“ (site-rules §3; /diagnostika/ item 21 still open).]
+
+## Как BizGrow може да поддържа профила вместо Вас? {#bizgrow}
+
+Ако нямате време да следите профила редовно, BizGrow може да [поддържа профила жив](/socialni-mrezhi/) с публикации, снимки и актуална информация всеки месец. Следим оценките и коментарите, които клиентите оставят в Google, и подготвяме отговор за Вашето одобрение. Нищо не се публикува, преди да го одобрите.
+
+Първата стъпка е [безплатната диагностика](/diagnostika/) и 30-минутен разговор, в който разглеждаме къде бизнесът Ви губи време. След него получавате оферта с приоритизирани решения и ясни еднократни цени. Срокът зависи от решението и го посочваме в офертата. Диагностиката не Ви обвързва с нищо. Работим без дългосрочни договори.
+
+[Запазете безплатна диагностика]({{BOOKING_URL}})
+
+Ако предпочитате да пишете, изпратете ни съобщение на {{EMAIL}}.
+
+## FAQ
+
+q: Плаща ли се за Google бизнес профил?
+a: Google посочва, че можете да добавите или заявите бизнеса си без парично заплащане. [VERIFY: adding/claiming without monetary payment: https://support.google.com/business/answer/2911778?hl=bg]
+
+q: Колко дни отнема потвърждаването на профила?
+a: Според Google прегледите за потвърждаване на бизнес профила отнемат до 5 работни дни. В редки случаи може да отнемат повече време. [VERIFY: up to 5 working days, rarely longer: https://support.google.com/business/answer/7107242?hl=bg]
+
+q: Мога ли да заявя профил, който Google Карти вече показва?
+a: Да. Потърсете името на бизнеса и града си в Google Карти от компютър, изберете „Заявяване на този бизнес“ и изпълнете стъпките за потвърждаване.
+
+q: Ще се класира ли бизнесът ми по-напред в Google Карти?
+a: Подредбата в Карти и Търсене се определя от Google и никой не може да обещае конкретна позиция. Пълният и актуален профил помага на клиентите да изберат Вас, когато Ви открият.
+
+q: Колко често да обновявам профила?
+a: Обновявайте го веднага, щом се промени работното време, менюто, цените или контактите. Веднъж месечно проверявайте също снимките, както и оценките и коментарите, на които още няма отговор.
+
+q: Може ли BizGrow да отговаря на оценките и коментарите вместо мен?
+a: BizGrow следи оценките и коментарите в Google и подготвя отговор за Вашето одобрение. Отговорът се публикува едва след като го одобрите.
+
+## INVENTORY CHECK
+
+- I1 booking CTA (exactly one on the page): #bizgrow closing, „[Запазете безплатна диагностика]({{BOOKING_URL}})“
+- I2 /diagnostika/: #bizgrow paragraph 2, „[безплатната диагностика](/diagnostika/)“
+- I3 /socialni-mrezhi/: #bizgrow paragraph 1, „[поддържа профила жив](/socialni-mrezhi/)“
+- I4 /ai-asistent/: #ocenki closing, „[AI асистент](/ai-asistent/)“
+- optional {{EMAIL}}: #bizgrow last line, „изпратете ни съобщение на {{EMAIL}}“
+- I5 monthly upkeep: #bizgrow paragraph 1, „публикации, снимки и актуална информация всеки месец“
+- I6 replies prepared for approval: #bizgrow paragraph 1, „подготвяме отговор за Вашето одобрение. Нищо не се публикува, преди да го одобрите.“ + FAQ 6
+- I7 diagnosis + 30-minute call + оферта + timing line: #bizgrow paragraph 2, „30-минутен разговор … оферта с приоритизирани решения и ясни еднократни цени. Срокът зависи от решението и го посочваме в офертата.“
+- I8 no commitment, no long-term contracts: #bizgrow paragraph 2, „Диагностиката не Ви обвързва с нищо. Работим без дългосрочни договори.“
+- Numbers on page: 30 (минути, canon), 5 (работни дни, F3 sourced). No others.
+- Status: all items present; homeless items: none.
+
+## FLAGS
+
+- [VERIFY] F1 (S1/S3, found in Search and Maps after adding and verifying; adding/claiming without monetary payment) → #kakvo-e, FAQ 1
+- [VERIFY] F2 (S2, verification gives ownership; options depend on business type) → #potvarzhdavane
+- [VERIFY] F3 (S2, up to 5 working days, rarely longer) → #potvarzhdavane, FAQ 2
+- [OWNER CONFIRM] main-term H2 placement („Как се създава бизнес профил в гугъл?“), SEO stage may move it → #syzdavane
+- [OWNER CONFIRM] show business.google.com/add as plain text → #syzdavane step 1
+- [OWNER CONFIRM] „бивш служител / външна фирма“ sentence dropped per outline → #zayavyavane
+- [OWNER CONFIRM] house wording „оценки и коментари“ vs Google's „отзиви“ (/diagnostika/ item 21) → #ocenki (applies also to #poddrazhka, #bizgrow, FAQ 5-6)
+- [OWNER CONFIRM] FAQ 1 „например реклама“ sentence dropped per outline (not inline; listed here only)
+- NOTE (gate) FAQ 4 reworded to „по-напред“ (no „първо място“)
+- NOTE posts kept out of #poddrazhka as a Google feature (synthesis exclusion 4); posts appear only as BizGrow canon in #bizgrow
+- NOTE lead and #kakvo-e rewritten without signposting („По-долу ще намерите“, „Тази статия обяснява“ removed)
+- NOTE `related` = /socialni-mrezhi/, /ai-asistent/, /seo-optimizacia/ (owner may swap #3 for /diagnostika/)
+- Inline markers in body/FAQ: 5 [VERIFY] + 4 [OWNER CONFIRM]
+
+## CANON ADDITIONS
+
+none
+
+---
+
+## CHANGE LOG (Step 3)
+
+- Fixed: split the 33-word AI-assistant sentence in #ocenki and clarified its lead-in; resolved the „и … и … и“ chain in FAQ 5; removed „именно“; attributed the 5-working-day fact to Google in the body; de-nominalised two sentences (#syzdavane, #poddrazhka); replaced the „стъпките са следните:“ lead-in; removed the doubled „всеки месец“ in #bizgrow.
+- Preserved: every fact, number (30 минути; 5 работни дни), CTA, token, link, section id, eyebrow/label/summary/lead/H1, all 6 FAQ, all [VERIFY]/[OWNER CONFIRM] markers and the FLAGS list. No facts, numbers or sections added.
+- Flags remaining: 5 [VERIFY] + 4 [OWNER CONFIRM] inline, unchanged.
+- Body word count (H2 sections, excluding lead, FAQ and flag markers): 917 (draft 911). Lead: 56 words.
+
+## INVENTORY DIFF (00-inventory.md vs this page)
+
+| Item | Status | Where |
+|---|---|---|
+| I1 one booking CTA → {{BOOKING_URL}} | PASS (1 occurrence) | #bizgrow „[Запазете безплатна диагностика]({{BOOKING_URL}})“ |
+| I2 /diagnostika/ | PASS | #bizgrow „[безплатната диагностика](/diagnostika/)“ |
+| I3 /socialni-mrezhi/ | PASS | #bizgrow „[поддържа профила жив](/socialni-mrezhi/)“ |
+| I4 /ai-asistent/ | PASS | #ocenki „[AI асистент](/ai-asistent/)“ (sentence restructured, link text unchanged) |
+| {{EMAIL}} (optional) | PASS | #bizgrow last line |
+| I5 monthly upkeep (posts, photos, info) | PASS | #bizgrow „публикации, снимки и актуална информация всеки месец“ |
+| I6 replies prepared for approval | PASS | #bizgrow „подготвяме отговор за Вашето одобрение. Нищо не се публикува, преди да го одобрите.“ + FAQ 6 |
+| I7 diagnosis + 30-min call + оферта + timing line | PASS | #bizgrow unchanged; „доклад“ 0 hits; no delivery periods |
+| I8 no commitment, no long-term contracts | PASS | #bizgrow „Диагностиката не Ви обвързва с нищо. Работим без дългосрочни договори.“ |
+| Numbers | PASS | only 30 (canon) and 5 (F3, [VERIFY]) |
+
+Result: 9/9 present, nothing dropped or weakened.

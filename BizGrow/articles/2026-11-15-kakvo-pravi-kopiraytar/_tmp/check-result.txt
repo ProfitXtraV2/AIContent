@@ -1,0 +1,40 @@
+| TOML parses | PASS |  |
+| title<=60 | PASS | 45 |
+| meta 120-160 | PASS | 128 |
+| meta has term | PASS |  |
+| summary<=160 | PASS | 135 |
+| primary kw | PASS |  |
+| term in first 100 words | PASS |  |
+| term in title | PASS |  |
+| term in H1 (variant) | PASS | Какво прави копирайтърът и кога Ви трябва |
+| term in an H2 | PASS |  |
+| section ids/headings match | PASS |  |
+| no em/en dash | PASS |  |
+| no bracket markers | PASS |  |
+| no ти forms | FAIL | ['запази', 'запази'] |
+| no lowercase formal pronouns | PASS | [] |
+| no banned/hype/sibling terms | PASS | [] |
+| безплатн only diagnosis | PASS | ['безплатната диагностика', 'безплатна диагностика', 'безплатната диагностика'] |
+| numbers only 30 | FAIL | ['30', '1'] |
+| no periods | FAIL | ['седмиц'] |
+| links in conversion-links | PASS | ['/saveti/klyuchovi-dumi/', '/seo-statii/', '/diagnostika/', '{{BOOKING_URL}}'] |
+| one booking CTA | PASS |  |
+| related 3 valid | PASS |  |
+| no service key | PASS |  |
+| H2 count 6-8 | PASS | 7 |
+| FAQ 4-6 | PASS | 6 |
+| body words 900-1400 | PASS | 949 |
+| port strings == md strings | PASS | [] |
+| example label present | PASS |  |
+| inventory: инструмент за съдържание | PASS |  |
+| inventory: бранш и град | PASS |  |
+| inventory: цели колекции | PASS |  |
+| inventory: по график | PASS |  |
+| inventory: преди да го одобрите | PASS |  |
+| inventory: 30-минутен разговор | PASS |  |
+| inventory: оферта с приоритизирани решения и ясни еднократни цени | PASS |  |
+| inventory: без дългосрочен договор | PASS |  |
+| inventory: не ви задължава | PASS |  |
+| inventory: срокът зависи от решението и го посочваме в офертата | PASS |  |
+| inventory: /seo-statii/ | PASS |  |
+| inventory: /diagnostika/ | PASS |  |

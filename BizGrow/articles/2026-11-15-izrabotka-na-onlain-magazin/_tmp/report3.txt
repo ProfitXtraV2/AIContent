@@ -1,0 +1,66 @@
+# 03-humanised — /izrabotka-na-onlain-magazin/ (bg)
+
+## PHASE 1
+
+```
+PROFESSIONAL-QUALITY REPORT — /izrabotka-na-onlain-magazin/ (bg)
+Verdict: NEEDS EDIT
+Correctness 8/10 | Clarity 8/10 | Register 7/10 | Readability 9/10 | No AI tells 8/10
+```
+
+CRITICAL (must fix):
+- „## Отговори на въпроса „Къде ми е поръчката?““ → „Отговори“ може да се прочете като повелително наклонение в единствено число („ти“ форма, регистър C) → „Автоматични отговори на въпроса „Къде ми е поръчката?““ (съществително, без двусмислие).
+- „SEO означава текстове, подготвени така, че…“ → неточно определение (SEO не означава „текстове“) → „SEO описанието е текст, подготвен така, че търсачки като Google по-лесно да разберат какво продавате.“
+
+MODERATE:
+- „Асистент в чата (AI асистент), свързан с куриера, който отговаря на въпроси за пратките.“ → „който“ граматически се отнася към „куриера“ → „…който е свързан с куриера и отговаря на въпроси за пратките.“
+- „…за да се свържете с него Вие.“ → неестествен словоред със завършващо „Вие“ → „…за да можете да се свържете с него.“
+- FAQ 7: „Диагностиката не Ви задължава с нищо, а след нея работим…“ → конструкция „не A, а B“ (AI маркер) → две отделни изречения.
+- #za-kogo: изречение от ~30 думи с две „когато“ клаузи → разделено на две.
+- #za-kogo: „…изчислени на база типични случаи, и можете да запазите разговор.“ → две несвързани действия в едно изречение → разделено; етикетът „ориентировъчно … на база типични случаи“ е запазен.
+
+PRESERVE (already good): 0 тирета в текста на страницата; 0 „ти“ форми след поправката (въпросите във FAQ са в първо лице на купувача, не са обръщение); главно „Вие/Ви/Вашият“ навсякъде; „оферта“, никъде „доклад“; без срокове за изпълнение, единственото число е 30-минутният разговор; „Срокът зависи от решението и го посочваме в офертата.“ дословно; честното „обикновено“ в #izostaveni-kolichki; „не обещаваме конкретно място в резултатите“; „Работим по GDPR.“ дословно; обяснени термини (AI асистент, интеграция, дашборд); CTA с формално повелително наклонение; всички флагове.
+
+## PHASE 2 — EDITED PAGE
+
+@@PAGE@@
+
+---
+
+## CHANGE LOG
+
+- Регистър: H2 на #pratki вече не може да се прочете като повелително наклонение в единствено число („Автоматични отговори на въпроса…“); котвата `{#pratki}` е непроменена.
+- Коректност и яснота: поправено определението за SEO описание; премахната двусмислената връзка „куриера, който“ в булета; изправен словоредът „за да можете да се свържете с него“.
+- AI маркери: махната конструкцията „не…, а…“ във FAQ 7; две дълги изречения в #za-kogo са разделени.
+- Запазени без промяна: всички CTA, токени (`{{BOOKING_URL}}` x2, `{{EMAIL}}`), линкове (/diagnostika/, /ai-asistent/, /seo-statii/, /avtomatizacii/, /seo-optimizacia/), котви, факти от канона, числото 30, етикетът „на база типични случаи“ и всички 14 OWNER CONFIRM маркера. Нищо не е добавено.
+
+## INVENTORY DIFF (I1–I16)
+
+| Item | Status | Where / quote after edit |
+|---|---|---|
+| I1 Booking CTA „Запазете безплатна диагностика“ → `{{BOOKING_URL}}` | PRESENT, unchanged | #kak-rabotim „[Запазете безплатна диагностика]({{BOOKING_URL}})“; second CTA #cena „[Запазете час]({{BOOKING_URL}})“ |
+| I2 `{{EMAIL}}` | PRESENT, unchanged | #cena „пишете ни на {{EMAIL}}“ |
+| I3 /diagnostika/ | PRESENT, unchanged | #za-kogo „В [безплатната диагностика](/diagnostika/) изберете „Онлайн магазин“…“; hours still „ориентировъчно … на база типични случаи“ (sentence split only) |
+| I4 builds online shops, nothing more specific | PRESENT, unchanged | lead „BizGrow предлага изработка на онлайн магазин…“; #kakvo-vklyuchva „Изграждаме самия магазин“ |
+| I5 courier-status AI, link /ai-asistent/ | PRESENT, same meaning | #pratki „Свързваме AI асистент с куриера и той отговаря автоматично на клиента със статуса на пратката“; bullet reworded „…който е свързан с куриера и отговаря на въпроси за пратките“; FAQ 4, 8 |
+| I6 SEO descriptions for whole collections, own tool, client approves, link /seo-statii/ | PRESENT, same meaning | #opisania-na-produkti „Нашият собствен инструмент за съдържание пише SEO описания за цели колекции“ + „Вие преглеждате и одобрявате всяко описание, преди да бъде публикувано“ |
+| I7 abandoned-cart messages | PRESENT, unchanged | #izostaveni-kolichki „Настройваме автоматични съобщения, които напомнят на клиента за изоставената количка“ |
+| I8 connected systems, link /avtomatizacii/ | PRESENT, unchanged | #poruchki-i-schetovodstvo „Свързваме програмите, които вече използвате (това се нарича интеграция), и данните се попълват сами, без копиране“ |
+| I9 free diagnosis + 30-minute call | PRESENT, unchanged | #kak-rabotim step 1 „Безплатна диагностика и 30-минутен разговор.“ |
+| I10 оферта, prioritised fixes, one-off prices | PRESENT, unchanged | #kak-rabotim step 2 „оферта с приоритизирани решения и ясни еднократни цени“; „доклад“ nowhere |
+| I11 build, no duration | PRESENT, unchanged | #kak-rabotim step 3 „Срокът зависи от решението и го посочваме в офертата.“; FAQ 2 |
+| I12 monthly support + short report | PRESENT, unchanged | #kak-rabotim step 4 „кратък месечен отчет“; FAQ 6 |
+| I13 price formation, no number | PRESENT, unchanged | #cena „Цената на магазина е еднократна и зависи от това какво ще бъде изградено…“; FAQ 1 |
+| I14 no long-term contracts, transparent prices | PRESENT, same meaning | #cena „Цените са прозрачни и не подписвате дългосрочен договор.“; FAQ 7 „След нея работим без дългосрочни договори и с прозрачни цени.“ |
+| I15 diagnosis commits to nothing | PRESENT, unchanged | #kak-rabotim „Диагностиката не Ви задължава с нищо.“; FAQ 7 |
+| I16 „Работим по GDPR“ | PRESENT, verbatim | #cena „Работим по GDPR.“ |
+
+Numbers on the page: „30“ only. Delivery periods: none. Example scenarios: none. Em-dashes in page text: 0. „ти“ forms: 0.
+
+## FLAGS
+
+@@FLAGS@@
+
+## CANON ADDITIONS
+
+none
