@@ -55,7 +55,7 @@ Pipeline stance: prefer to avoid even negated forms of a banned term.
 ## 3. No prices, offers or testimonials
 
 - PRICE: a digit followed by лв / лева / евро / € / EUR / BGN / $ → forbidden on every page.
-  Price talk stays at the canon level: „ясни еднократни цени в доклада до 48 часа“, „прозрачни
+  Price talk stays at the canon level: „ясни еднократни цени в офертата“ (no deadline), „прозрачни
   цени“, „без дългосрочни договори“.
 - OFFER: промоци*, отстъпк*, ваучер*, discount*, promo*, voucher* → forbidden.
 - TESTIMONIAL: отзив*, „мнения на клиенти“, „доволни клиенти“, client names or logos, "what our

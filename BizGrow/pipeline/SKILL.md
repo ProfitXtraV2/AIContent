@@ -53,7 +53,7 @@ other brands, and do not import ELLE Dental's medical rules, into any BizGrow st
 2. **ONLY CANON FACTS ABOUT BIZGROW.** Services, process, audience and policies come only from
    the canon in `markets/bg/author.md` (owner-confirmed 2026-11-15). Prices, team names, legal
    data, address, phone, client names and case results are UNKNOWN and are never stated.
-3. **NO INVENTED NUMBERS.** Every figure is either canon (48 часа, 30 минути, обикновено до 2
+3. **NO INVENTED NUMBERS.** Every figure is either canon (30 минути for the call only; NO delivery periods (owner 2026-11-15: "why 2 weeks? dont commit to exact periods"; „доклад“ is called „оферта“); was: 48 часа, обикновено до 2
    седмици), a clearly labelled hypothetical example/estimate, or a sourced external fact in
    `[[sources]]` (max 3 new sourced facts per page, `reference/verification-policy.md`).
 4. **EXAMPLE SCENARIOS STAY HYPOTHETICAL.** Any "what the result looks like" content keeps an

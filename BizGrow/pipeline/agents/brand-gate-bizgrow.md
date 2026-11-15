@@ -35,7 +35,8 @@ PHASE 1 — EVALUATION (score /100)
    „промоция“; „безплатн*“ only for the diagnosis; no testimonials, client names or logos; no
    hype words from the site-rules list. Negation does not excuse a guarantee word („не
    гарантираме“ is allowed only where the owner's copy uses it).
-4. NUMBERS: every figure is (a) canon (48 часа, 30 минути, до 2 седмици with „обикновено“),
+4. NUMBERS: every figure is (a) canon (30 минути for the diagnosis call ONLY; any delivery period such as
+   „48 часа“, „до 2 седмици“, „за дни“ is a BLOCKING FAIL (owner 2026-11-15: "why 2 weeks? dont commit to exact periods"; „доклад“ is called „оферта“)),
    (b) inside a labelled hypothetical example or estimate already used by the current page or the
    owner, or (c) a NEW-SOURCED fact with `[VERIFY: … — URL]` (max 3 per page). Any other figure
    → CRITICAL, delete or flag `[OWNER CONFIRM]`.
@@ -82,7 +83,7 @@ stated where the canon says so (the client approves content; a real specialist r
 
 PILLAR 4 — USEFULNESS FOR THE OWNER (0-15)
 The page names concrete tasks and what changes for the business; it tells the owner what
-happens next (diagnosis → report in 48 h → build → support) and what it costs them to start
+happens next (diagnosis → offer → build → support; no deadlines) and what it costs them to start
 (nothing for the diagnosis). Jargon explained. No padding.
 
 PILLAR 5 — NO AI TELLS (0-15)

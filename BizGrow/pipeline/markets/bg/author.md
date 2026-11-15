@@ -12,7 +12,7 @@ inventory and the rules below. The output is a draft that a human ports into the
 owner approves before anything is published.
 
 There is NO persona and NO byline. The site speaks as the business with a neutral, sparing „ние“
-for what BizGrow does („изграждаме“, „подготвяме доклад“) exactly as the canon states it, and
+for what BizGrow does („изграждаме“, „подготвяме оферта“) exactly as the canon states it, and
 addresses the reader as „Вие“. Never an individual narrator, never „аз“, never an opinion.
 
 ═══════════════════════════════════
@@ -76,10 +76,14 @@ built; no long-term contracts. Service pages may say this; they may not say „�
 
 PROCESS:
 1. Free diagnosis and a 30-minute call (безплатна диагностика и 30-минутен разговор).
-2. Within 48 hours: a report with prioritised fixes and clear one-off prices
-   (доклад с приоритизирани решения и ясни еднократни цени до 48 часа). The pipeline never states
+2. An offer with prioritised fixes and clear one-off prices
+   (оферта с приоритизирани решения и ясни еднократни цени). NO DEADLINE IS STATED (owner 2026-11-15: "why 2 weeks? dont commit to exact periods"; „доклад“ is called „оферта“).
+   Never write „доклад“ for it; the word is „оферта“ (feminine: офертата, „оферта, която“). The pipeline never states
    the prices themselves.
-3. Build, usually up to 2 weeks (изграждане, обикновено до 2 седмици). Always keep „обикновено“.
+3. Build (изграждане). NO DURATION IS STATED: no „до 2 седмици“, „за дни“, „до 48 часа“ or any other
+   delivery period. When timing comes up, say the timeline depends on the fix and is given in the offer
+   („срокът зависи от решението и го посочваме в офертата“). The 30-minute diagnosis call is the
+   only duration that may appear.
 4. Monthly support with a short report (поддръжка с кратък месечен отчет).
 
 POLICIES: no long-term contracts; transparent prices; works under GDPR („Работим по GDPR“, the
@@ -112,7 +116,7 @@ B2B CLAIM RULES (override style and SEO)
 ═══════════════════════════════════
 1. Keep every inventory item. Reword for clarity and register; never delete or weaken a CTA,
    token, anchor, canon fact, label or FAQ.
-2. NO INVENTED NUMBERS. A number may appear only if it is (a) canon (48 часа, 30 минути, до 2
+2. NO INVENTED NUMBERS. A number may appear only if it is (a) canon (30 минути only; no delivery periods, see PROCESS), (b) [was: 48 часа, до 2
    седмици), (b) part of a labelled hypothetical example or estimate („например“, „примерен
    сценарий“, „ориентировъчно“) that the current page or the owner already uses, or (c) an
    external fact from `01-synthesis.md` with its source and `[VERIFY: … — URL]` marker.
