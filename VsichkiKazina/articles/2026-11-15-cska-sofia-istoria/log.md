@@ -9,5 +9,7 @@
 - 04-seo: title/meta set; keyword coverage (цска / цска история / пфк цска софия / цска титли) natural; 5 internal links placed; infographic SEO.
 - 05-gate: PASS 95/100, 0 critical. Fixed 1 em-dash in meta description → comma. 2 [VERIFY] (stadium capacity; new-stadium status) stay in text.
 - 05b-final: assembled (title/meta + body + infographic + footer). 0 em-dash, ~956 body words, all numbers 1:1.
-- Step-8 image: infographic cska-sofia-trofei-i-evropa.svg (10 data points, 1:1 vs 05b), Chromium render clean (0 overlap/clip). [pending Gemini image review]
-- Step-7 Gemini TEXT: [pending]
+- Step-8 image: infographic cska-sofia-trofei-i-evropa.svg (10 data points, 1:1 vs 05b), Chromium render clean (0 overlap/clip). Gemini image review = HTTP 402 skipped -> manual integrity PASS (0 logos/faces/fabrication/glamour). AI hero skipped (same 402). images: 1. See 08-image-review-1.md.
+- Step-7 Gemini TEXT: GEMINI_ERROR HTTP 402 (credits depleted, persistent since 2026-11-10) -> skipped; kept initial 05b (keep-best); gemini=skipped; 0 passes. See 07-gemini-check-1.md.
+- 06-verification: 2 [VERIFY] (stadium capacity; new-stadium status) stay in text; worked consistency checks PASS (31 titles; 'над 20' cups; 1981/82 Байерн).
+- Outcome: drafted. PR [pending push].
