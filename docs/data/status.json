@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-15T13:02:49Z",
+  "generated_utc": "2026-11-15T13:03:04Z",
   "buffer": {
     "count": 224,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 219,
-    "approved": 5,
+    "drafted": 218,
+    "approved": 6,
     "posted": 110,
     "failed": 1
   },
@@ -6843,7 +6843,7 @@
     },
     {
       "id": "vk-0334",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Спартак Варна — история и легенди на клуба",
       "keywords_or_terms": "спартак варна, спартак варна история",
