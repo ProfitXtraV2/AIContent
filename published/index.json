@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 4,
+  "count": 5,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -29,7 +29,14 @@
       "date_modified": "2026-11-11",
       "content_hash": "e8d95be1aa8a9bda6afee8bcf99edc08d6db7fa1dca4a3edb9029dc38db6bd60",
       "status": "approved"
+    },
+    {
+      "slug": "cska-1948-istoria",
+      "title": "ЦСКА 1948: история на клуба и пътят до елита | Всички Казина",
+      "date_modified": "2026-11-12",
+      "content_hash": "14be1c23aac3aeea6f2dd0f1fcc363e7cab3be7af1d5bbba0f8b5687324dcc5c",
+      "status": "approved"
     }
   ],
-  "generated_utc": "2026-11-15T13:02:21Z"
+  "generated_utc": "2026-11-15T13:02:49Z"
 }

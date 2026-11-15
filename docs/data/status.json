@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-15T13:02:21Z",
+  "generated_utc": "2026-11-15T13:02:49Z",
   "buffer": {
     "count": 224,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 220,
-    "approved": 4,
+    "drafted": 219,
+    "approved": 5,
     "posted": 110,
     "failed": 1
   },
@@ -6797,7 +6797,7 @@
     },
     {
       "id": "vk-0332",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "ЦСКА 1948 — история на клуба и пътят до елита",
       "keywords_or_terms": "цска 1948, цска 1948 история, цска 1948 стадион",
