@@ -1,0 +1,214 @@
+# 03-humanised — /seo-optimizacia/ (Step 3, professional-quality edit)
+
+```
+PROFESSIONAL-QUALITY REPORT — /seo-optimizacia/ (bg)
+Verdict: NEEDS EDIT
+Correctness 7/10 | Clarity 9/10 | Register 8/10 | Readability 9/10 | No AI tells 8/10
+CRITICAL (must fix):
+- „Подредбата на резултатите определя Google и тя зависи и от…“ (#ochakvania) → object fronted without clitic doubling; two clauses with different subjects glued by „и“ → „Подредбата на резултатите я определя Google. Тя зависи и от…“
+- „Подредбата на резултатите определя Google и BizGrow не обещава…“ (FAQ 2) → same missing clitic → „…я определя Google, затова BizGrow не обещава…“
+- „Тях подготвяме с [инструмента ни за съдържание]…“ (#on-page) → fronted pronoun without doubling, awkward order → „Подготвяме ги с [инструмента ни за съдържание]…“
+- „Кое да е първо за Вашия бизнес, можем да обсъдим…“ (FAQ 7) → fronted clause needs the clitic → „…можем да го обсъдим…“
+- „Освен техническата и on-page работата“ (FAQ 5) → double definite article in coordinated modifiers → „техническата и on-page работа“
+MODERATE:
+- „Този съвет важи при избора на всеки SEO експерт или SEO агенция.“ (#ochakvania) → verdict line closing the paragraph → neutral, informational: „Можете да използвате този съвет при избора на SEO експерт или SEO агенция.“
+- „Колкото по-ясно сайтът отговаря на тези търсения, толкова по-лесно клиентите стигат до Вас.“ (#za-kogo) → aphorism-style closer that leans toward an outcome promise → „SEO работата цели сайтът да отговаря ясно на тези търсения, за да могат клиентите да го открият.“
+- Google list sentence (#kakvo-e, ~33 words) → over 30 words → split after the lead-in; facts, order and [VERIFY] marker unchanged.
+PRESERVE (already good):
+- Formal „Вие“ throughout, capitalised courtesy forms; zero „ти“ forms; no slang, hype, exclamation marks or urgency.
+- Zero em-dashes in page copy (the only „—“ characters sit inside [VERIFY: … — URL] markers, which pass through untouched).
+- Jargon explained on first use (SEO, обхождане/индексиране, on-page, ключови думи, redirects).
+- Predictable order, 2–4 sentence paragraphs, lists for tasks, sectors and steps; honest qualifiers („обикновено“, „една от честите причини“) kept.
+- No-guarantee statement (R7), canon process (R4), price formation without numbers (R5), policies (R6) clear and intact.
+```
+
+---
+
+Page: /seo-optimizacia/ | Locale: bg | Type: new-page | Main term: seo оптимизация
+
+# SEO оптимизация на сайтове
+
+<!-- LEAD (kind: hero; rendered under the H1, not an H2; the template adds the „Запазете час“ and „Безплатна диагностика“ buttons below it) -->
+
+BizGrow предлага SEO оптимизация на сайтове за малки бизнеси в България, която включва техническо SEO, on-page оптимизация на страниците и работа по връзките от други сайтове. SEO (оптимизация за търсачки) е работата, с която сайтът става по-лесен за откриване и разбиране както от Google, така и от хората, които търсят Вашите услуги.
+
+## Какво е SEO оптимизация на сайт {#kakvo-e}
+
+SEO оптимизацията на сайт обхваща всичко, което помага на Google да открие страниците Ви, да разбере какво предлагате и да ги покаже на хората, които търсят точно това. Ключовите думи са изразите, които клиентите пишат в Google, когато търсят дадена услуга или продукт.
+
+В собствените си насоки Google посочва с какво може да помогне специалист по SEO. Сред задачите са преглед на съдържанието и структурата на сайта, технически съвети за хостинг, пренасочвания, страници за грешки и използване на JavaScript, както и проучване на ключовите думи. [VERIFY: Google lists content/structure review, technical advice (hosting, redirects, error pages, JavaScript) and keyword research as SEO work — https://developers.google.com/search/docs/fundamentals/do-i-need-seo]
+
+Целта е сайтът да отговаря ясно на въпросите на Вашите клиенти, а Google да може да го прочете и да го показва при подходящите търсения. При BizGrow тази работа има три части: техническо SEO, on-page оптимизация на страниците и връзки от други сайтове.
+
+## Техническо SEO: сайтът да може да бъде открит и прочетен {#tehnichesko-seo}
+
+Техническото SEO се занимава с основата на сайта и с това дали Google може да обходи и индексира страниците му. Обхождането означава, че Google открива страниците, а индексирането, че ги включва в базата, от която подбира резултатите от търсенето.
+
+Когато собственик пита защо сайтът му не излиза в Google, една от честите причини е техническа. Страница, която не е индексирана, не се показва в резултатите, колкото и полезен да е текстът ѝ. Тази част на SEO обикновено обхваща:
+
+- достъпа на Google до страниците и тяхното индексиране;
+- скоростта на зареждане и работата на сайта на телефон;
+- пренасочванията (redirects) от стари адреси към нови, така че посетителят да не попада на липсваща страница;
+- страниците, които връщат грешка, и счупените връзки вътре в сайта;
+- подредбата на адресите и вътрешните връзки между страниците.
+
+[OWNER CONFIRM: which technical SEO tasks BizGrow performs; the list above describes the field in general, canon says only „техническо SEO“]
+
+## On-page оптимизация на страниците {#on-page}
+
+On-page оптимизацията е работата по самите страници на сайта: заглавията, описанията, които Google показва в резултатите, подзаглавията и текста. Всяка страница се подрежда около изразите, с които клиентите търсят съответната услуга или продукт, и казва ясно какво предлага. [OWNER CONFIRM: which on-page tasks BizGrow performs (titles, meta descriptions, headings, keyword research, internal links)]
+
+Някои страници имат нужда от нови или по-пълни текстове. Подготвяме ги с [инструмента ни за съдържание](/seo-statii/), който пише SEO статии и описания на продукти. Всеки текст се публикува едва след като го одобрите.
+
+## Връзки от други сайтове {#vrazki}
+
+Връзките (линковете) от други сайтове към Вашия са третата част от SEO оптимизацията. Това са споменавания на сайта Ви в други сайтове, които водят посетители и показват на Google, че други се позовават на Вас.
+
+Работата по връзките се води според правилата на Google. В тях купуването и продаването на връзки с цел по-добро класиране е определено като спам на връзки. [VERIFY: buying or selling links for ranking purposes is link spam under Google's spam policies — https://developers.google.com/search/docs/essentials/spam-policies] [OWNER CONFIRM: how BizGrow works on links (which sources, confirmation that no links are bought); canon says only „връзки“]
+
+## За кои бизнеси е подходяща SEO услугата {#za-kogo}
+
+SEO оптимизацията е полезна за всеки бизнес, чиито клиенти търсят в Google, преди да се обадят, да запазят час или да поръчат. SEO работата цели сайтът да отговаря ясно на тези търсения, за да могат клиентите да го открият.
+
+При SEO оптимизацията на онлайн магазин основната работа е по продуктовите страници и категориите. Инструментът ни за съдържание може да подготви SEO описания за цели колекции от продукти, които Вие одобрявате преди публикуване.
+
+Работим с малки бизнеси от следните сектори:
+
+- ресторанти и кафенета;
+- хотели и къщи за гости;
+- салони;
+- онлайн магазини;
+- търговски обекти и шоуруми;
+- клиники и практики;
+- автосервизи и майстори;
+- недвижими имоти;
+- фирми, които работят с други фирми (B2B).
+
+## Как протича работата {#kak-rabotim}
+
+Работата минава през четири стъпки и не изисква дългосрочен ангажимент от Ваша страна.
+
+1. **Безплатна диагностика и 30-минутен разговор.** В разговора обсъждаме Вашия бизнес и сайта Ви. Можете да започнете от [безплатната диагностика](/diagnostika/). [OWNER CONFIRM: whether the diagnosis and the 30-minute call cover the website's SEO state; the /diagnostika/ checker is about hours lost per week]
+2. **Доклад до 48 часа.** Получавате доклад с приоритизирани решения и ясни еднократни цени.
+3. **Изграждане, обикновено до 2 седмици.** Изпълняваме решенията, които изберете от доклада. [OWNER CONFIRM: whether „обикновено до 2 седмици“ applies to SEO fixes, including link work]
+4. **Поддръжка с кратък месечен отчет.** След изграждането продължаваме с поддръжка и всеки месец Ви изпращаме кратък отчет.
+
+## Какво можете да очаквате и какво не обещаваме {#ochakvania}
+
+BizGrow не обещава конкретни позиции в Google, трафик, запитвания или срокове за класиране. Подредбата на резултатите я определя Google. Тя зависи и от сайтовете, с които се състезавате. Самият Google съветва собствениците на сайтове да потърсят друг изпълнител, ако някой им обещава най-горното място в резултатите. [VERIFY: Google advises against an SEO who promises first place in search results — https://developers.google.com/search/docs/fundamentals/do-i-need-seo] Можете да използвате този съвет при избора на SEO експерт или SEO агенция.
+
+От нас получавате ясно описание на работата в доклада и сами избирате кои решения да изпълним. Одобрявате всеки текст преди публикуване, а напредъкът се вижда в краткия месечен отчет.
+
+Рекламата в Google работи по друг начин: тя се показва срещу заплащане, докато кампанията е активна. Ако имате нужда от посещения още сега, повече ще намерите на страницата за [реклама в Google и Facebook](/reklama/).
+
+[OWNER CONFIRM: access and ownership policy (who keeps the site, Google accounts and data access after the work); not stated on the page, buyer question left open]
+
+## Как се формира цената на SEO услугите {#cena}
+
+Цената на SEO оптимизацията зависи от това какво трябва да се направи по конкретния сайт. След безплатната диагностика получавате доклад с еднократна цена за всяко отделно решение и сами избирате кои да изпълним.
+
+Цените са прозрачни и не изискваме дългосрочни договори. Диагностиката не Ви задължава с нищо. Работим по GDPR.
+
+Ако имате въпрос преди разговора, можете да ни пишете на {{EMAIL}}.
+
+[Запазете безплатна диагностика]({{BOOKING_URL}})
+
+---
+
+## PROPOSED FAQ
+
+1. **q:** Какво включва SEO оптимизацията на сайт?
+   **a:** Тя включва техническо SEO, on-page оптимизация на страниците и работа по връзките от други сайтове. Кои решения са нужни за Вашия сайт, се вижда в доклада след безплатната диагностика.
+
+2. **q:** Можете ли да обещаете най-горното място в резултатите на Google?
+   **a:** Не. Подредбата на резултатите я определя Google, затова BizGrow не обещава позиции, трафик или срокове. Самият Google съветва да се избягва изпълнител, който обещава най-горното място. [VERIFY: Google advises against an SEO who promises first place in search results — https://developers.google.com/search/docs/fundamentals/do-i-need-seo]
+
+3. **q:** Кога ще видя резултат от SEO оптимизацията?
+   **a:** Не даваме срок за позиции в Google, защото той не зависи само от нас. Сроковете, които спазваме, са за самата работа: доклад до 48 часа след диагностиката и изграждане, обикновено до 2 седмици. [OWNER CONFIRM: whether „обикновено до 2 седмици“ applies to SEO fixes, including link work]
+
+4. **q:** Колко струва SEO оптимизацията?
+   **a:** Цената зависи от това какво трябва да се направи по сайта. След безплатната диагностика получавате доклад с ясна еднократна цена за всяко решение, без дългосрочен договор.
+
+5. **q:** Подходяща ли е SEO оптимизацията за онлайн магазин?
+   **a:** Да, онлайн магазините са сред бизнесите, с които работим. Освен техническата и on-page работа можем да подготвим SEO описания за цели колекции от продукти, които Вие одобрявате преди публикуване.
+
+6. **q:** Пишете ли текстовете и статиите за сайта?
+   **a:** Да, с нашия инструмент за съдържание, който пише SEO статии и описания на продукти. Вие одобрявате всеки текст преди публикуване, а повече подробности ще намерите на страницата за [инструмента за съдържание](/seo-statii/).
+
+7. **q:** Кое е по-подходящо за мен, SEO или реклама в Google?
+   **a:** SEO подобрява самия сайт, за да може да се показва в обикновените резултати на Google, а рекламата се показва срещу заплащане само докато кампанията е активна. Кое да е първо за Вашия бизнес, можем да го обсъдим в безплатната диагностика.
+
+8. **q:** Трябва ли да подпиша дългосрочен договор за SEO услуги?
+   **a:** Не, работим без дългосрочни договори. Плащате еднократно за решенията, които изберете, а поддръжката с кратък месечен отчет е отделна стъпка. [OWNER CONFIRM: how monthly support is priced/contracted; canon says only „поддръжка с кратък месечен отчет“ and „без дългосрочни договори“]
+
+---
+
+## INVENTORY CHECK
+
+Current-page items: none (new page). Required items R1–R8:
+
+| item | where it sits now |
+|---|---|
+| R1 canon item 5 (техническо SEO, on-page, връзки) | lead „…включва техническо SEO, on-page оптимизация на страниците и работа по връзките от други сайтове“; #kakvo-e „три части: техническо SEO, on-page оптимизация на страниците и връзки от други сайтове“; detailed in #tehnichesko-seo, #on-page, #vrazki; FAQ 1 |
+| R2 body link /seo-statii/ | #on-page „[инструмента ни за съдържание](/seo-statii/)“; FAQ 6 „[инструмента за съдържание](/seo-statii/)“ |
+| R3 booking CTA {{BOOKING_URL}} + diagnosis | #cena closing „[Запазете безплатна диагностика]({{BOOKING_URL}})“; #kak-rabotim step 1 „[безплатната диагностика](/diagnostika/)“ |
+| R4 canon process (4 steps, „обикновено“) | #kak-rabotim: „Безплатна диагностика и 30-минутен разговор“, „Доклад до 48 часа … приоритизирани решения и ясни еднократни цени“, „Изграждане, обикновено до 2 седмици“, „Поддръжка с кратък месечен отчет“; FAQ 3 |
+| R5 price formation, no numbers | #cena „доклад с еднократна цена за всяко отделно решение“, „зависи от това какво трябва да се направи“, „не изискваме дългосрочни договори“; FAQ 4 |
+| R6 policies | #cena „Цените са прозрачни и не изискваме дългосрочни договори. Диагностиката не Ви задължава с нищо. Работим по GDPR.“; FAQ 8 |
+| R7 no-guarantee statement | #ochakvania „BizGrow не обещава конкретни позиции в Google, трафик, запитвания или срокове за класиране“; FAQ 2, FAQ 3 |
+| R8 6–8 H2 + 6–8 FAQ | 8 H2 (lead not counted) + 8 FAQ |
+| C6 audience (all nine) | #za-kogo list |
+| C2 content tool / product descriptions, client approval | #on-page, #za-kogo; FAQ 5, 6 |
+| C7 {{EMAIL}} | #cena „пишете на {{EMAIL}}“ |
+| C8 ads via marketing specialist | #ochakvania link „[реклама в Google и Facebook](/reklama/)“; FAQ 7 |
+
+Main term: H1 „SEO оптимизация на сайтове“; first sentence of the lead; one H2 (#kakvo-e). No other H2 contains „SEO оптимизация“. Body links: 3 (/seo-statii/, /diagnostika/, /reklama/), all in conversion-links.md.
+
+## FLAGS
+
+| flag | where |
+|---|---|
+| [VERIFY] F1 Google's list of SEO work (do-i-need-seo) | #kakvo-e |
+| [VERIFY] F2 Google: avoid an SEO who promises first place (do-i-need-seo) | #ochakvania; FAQ 2 |
+| [VERIFY] F3 buying/selling links = link spam (spam-policies) | #vrazki |
+| [OWNER CONFIRM] O1 technical SEO tasks | #tehnichesko-seo |
+| [OWNER CONFIRM] O2 on-page tasks | #on-page |
+| [OWNER CONFIRM] O3 link work (sources, no bought links) | #vrazki |
+| [OWNER CONFIRM] O4 „обикновено до 2 седмици“ for SEO fixes incl. links | #kak-rabotim step 3; FAQ 3 |
+| [OWNER CONFIRM] O5 diagnosis/call covers the site's SEO state | #kak-rabotim step 1 (bears on lead buttons, FAQ 1, 4, 7) |
+| [OWNER CONFIRM] O6 access and ownership after the work | #ochakvania |
+| [OWNER CONFIRM] O7 monthly support pricing/contract | FAQ 8 |
+| [DATA NEEDED] / [LINK NEEDED] | none |
+
+Note for Step 6: H1 is new (keyword-map proposal). The #cena email line and booking CTA carry tokens that are not allowed in the port JSON (see outline port note).
+
+## CANON ADDITIONS
+
+none
+
+---
+
+## CHANGE LOG (Step 3)
+
+- Correctness: added clitic doubling in #ochakvania, FAQ 2 and FAQ 7; rewrote „Тях подготвяме“ as „Подготвяме ги“ (#on-page); fixed the double article in FAQ 5.
+- Register / AI tells: replaced the verdict line at the end of the Google-advice paragraph (#ochakvania) and the „колкото…, толкова…“ aphorism in #za-kogo with neutral informational sentences (no new facts, no outcome promise).
+- Readability: split the 33-word Google list sentence in #kakvo-e into lead-in + list sentence; content and source marker unchanged.
+- Preserved: every heading, section id, link, token, canon fact, number, qualifier, FAQ and flag; INVENTORY CHECK and FLAGS tables above carried over unchanged (their quotes still match the text).
+- Flags remaining: 3 [VERIFY] (F1–F3, 4 occurrences in copy) and 7 [OWNER CONFIRM] (O1–O7, 8 occurrences in copy), all untouched.
+
+## INVENTORY DIFF vs 00-inventory.md
+
+Current-page items: none (new page), nothing to lose. Required items R1–R8 compared 02-draft.md → 03-humanised.md:
+
+| item | 02-draft | 03-humanised | result |
+|---|---|---|---|
+| R1 canon item 5 (техническо SEO, on-page, връзки) | lead, #kakvo-e, 3 dedicated H2s, FAQ 1 | same, wording unchanged | OK |
+| R2 body link /seo-statii/ | #on-page, FAQ 6 | #on-page („Подготвяме ги с [инструмента ни за съдържание](/seo-statii/)“), FAQ 6 | OK |
+| R3 {{BOOKING_URL}} CTA + /diagnostika/ | #cena CTA; #kak-rabotim step 1 | unchanged | OK |
+| R4 canon process (30-минутен разговор, 48 часа, „обикновено до 2 седмици“, кратък месечен отчет) | #kak-rabotim, FAQ 3 | unchanged; „обикновено“ kept | OK |
+| R5 price formation, no numbers | #cena, FAQ 4 | unchanged | OK |
+| R6 policies (без дългосрочни договори, прозрачни цени, „Работим по GDPR“) | #cena, FAQ 8 | unchanged | OK |
+| R7 no-guarantee statement | #ochakvania, FAQ 2, FAQ 3 | #ochakvania first sentence unchanged; FAQ 2 strengthened grammatically („…я определя Google, затова BizGrow не обещава позиции, трафик или срокове“) | OK |
+| R8 6–8 H2 + 6–8 FAQ | 8 H2 + 8 FAQ | 8 H2 + 8 FAQ | OK |
+
+Mechanical counts (identical in both files): section ids 8 (kakvo-e, tehnichesko-seo, on-page, vrazki, za-kogo, kak-rabotim, ochakvania, cena); links /seo-statii/, /diagnostika/, /reklama/ and {{BOOKING_URL}} unchanged; tokens {{BOOKING_URL}} and {{EMAIL}} unchanged; [VERIFY] and [OWNER CONFIRM] marker counts unchanged; em-dashes outside flag markers 0. Items lost: 0. Items weakened: 0. Items added: 0 (no new facts, numbers or sections).

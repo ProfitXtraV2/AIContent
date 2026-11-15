@@ -1,0 +1,209 @@
+# 03-humanised — /ai-asistent/ (bg, new-page)
+
+## PHASE 1
+
+```
+PROFESSIONAL-QUALITY REPORT — /ai-asistent/ (bg)
+Verdict: NEEDS EDIT (light)
+Correctness 8/10 | Clarity 9/10 | Register 8/10 | Readability 8/10 | No AI tells 9/10
+```
+
+Checks: em-dashes 0; „ти“ forms 0; lowercase „вие/ви/вас/ваш“ in direct address 0; exclamation marks 0; hype words 0; rhetorical questions 0 (the quoted customer question „Къде ми е поръчката?“ is reported speech, not a rhetorical device); „не A, а B“ endings 0; banned connectives 0.
+
+CRITICAL (must fix):
+- „Въпросът „Къде ми е поръчката?“ идва по двайсет пъти на ден.“ → „двайсет“ is the colloquial numeral, a register breach (C) → „по двадесет пъти на ден“ (same number, formal form).
+
+MODERATE:
+- #za-kogo: „Сред тях са ресторанти и кафенета, хотели и къщи за гости, салони, онлайн магазини, търговски обекти и шоуруми, клиники и практики, автосервизи и майстори, агенции за недвижими имоти, както и фирми, които работят с други фирми (B2B).“ → nine parallel items crammed into one sentence of 35+ words (B, D; agent rule 6) → short lead-in + bulleted list, all nine groups kept, B2B explanation kept.
+- #zadachi: „Ако освен отговорите в чата Ви трябват онлайн записване…“ → „Ви трябват“ is conversational and the dative clitic sits awkwardly after „чата“ (A, C) → „Ако освен отговорите в чата търсите и онлайн записване…“.
+- #primeri, first bullet: „Клиент пише в 21:30 с въпрос за продукт и ако чака до сутринта, може вече да е купил от друго място.“ → missing comma logic around the embedded „ако“ clause, one overloaded sentence (A) → split into two sentences: „Клиент пише в 21:30 с въпрос за продукт. Ако чака отговор до сутринта, може вече да е купил от друго място.“
+- #kakvo-pravi: „Клиентът научава това, което търси, и не е нужно да чака началото на работния ден.“ → reads as a certain outcome right after the honest „може да получи отговор“ (B2B claim rule 3) → „Така клиентът може да научи това, което търси, без да чака началото на работния ден.“
+- FAQ 5: „Посочваме я в доклада до 48 часа след безплатната диагностика, като работим без дългосрочни договори.“ → the „като“ clause joins two unrelated facts (A, B) → two sentences: „Посочваме я в доклада, който получавате до 48 часа след безплатната диагностика. Не изискваме дългосрочни договори.“
+
+PRESERVE (already good):
+- Lead opens with the direct answer and carries all canon items 5 and 6.
+- „чатбот“ explained on first use; „B2B“ explained; „свързване на програмите, които вече ползвате“ used instead of „интеграция“.
+- Process list keeps „обикновено до 2 седмици“, „30-минутен разговор“, „до 48 часа“, „кратък месечен отчет“ verbatim.
+- Example label in #primeri is in the same section as the scenarios; the [OWNER CONFIRM] on the scenario numbers stays.
+- Price section states formation only, no number; „Работим по GDPR“ in owner wording only.
+- Human-control line („под Ваш контрол“, „остават за Вас и Вашия екип“) matches claim rule 7.
+- One booking CTA per section; `{{BOOKING_URL}}` and `{{EMAIL}}` tokens intact.
+
+---
+
+## PHASE 2 — EDITED PAGE
+
+Page: /ai-asistent/ | Locale: bg | Type: new-page | Main term: ai асистент
+
+PROPOSED META (for Step 4 to count)
+- title: „AI асистент за бизнеса в Messenger и WhatsApp | BizGrow“
+- meta_description: „AI асистент, който отговаря на клиентите Ви в Messenger, Instagram и WhatsApp денонощно. Безплатна диагностика и доклад с ясни цени до 48 часа.“
+- related: /diagnostika/, /avtomatizacii/, /socialni-mrezhi/
+
+H1: AI асистент и чатбот за Вашия бизнес [OWNER CONFIRM: H1 of the new page]
+
+LEAD (the `lead` field under the H1, no heading):
+BizGrow изгражда AI асистент, който отговаря на клиентите Ви в Messenger, Instagram и WhatsApp денонощно и събира контакта им, когато не може да помогне. Асистентът е обучен на собствената информация на Вашия бизнес и поема повтарящите се въпроси за цени, работно време, доставка и наличности.
+
+## Какво прави AI асистентът за Вашия бизнес {#kakvo-pravi}
+
+Чатботът е програма, която отговаря автоматично на съобщенията, които клиентите пишат в чата. Асистентът, който изграждаме, отговаря на въпросите на клиентите Ви в Messenger, Instagram и WhatsApp с информацията на Вашия бизнес.
+
+Асистентът работи денонощно, затова съобщение, изпратено вечер или в почивен ден, може да получи отговор веднага. Така клиентът може да научи това, което търси, без да чака началото на работния ден.
+
+Когато въпросът излиза извън информацията, с която асистентът разполага, той събира контакта на клиента. Запитването остава при Вас и Вие решавате кой от екипа и кога да се свърже с човека.
+
+## Кои въпроси и задачи поема асистентът {#zadachi}
+
+Асистентът е обучен на собствената информация на Вашия бизнес. Той поема въпросите, на които иначе Вие или служителите Ви отговаряте по няколко пъти всеки ден.
+
+- Цени на продуктите и услугите Ви.
+- Работно време и почивни дни.
+- Условия и срокове за доставка.
+- Наличност на стоки, стаи или свободни часове.
+- Името и контакта на клиента, когато асистентът не може да помогне.
+
+Ако освен отговорите в чата търсите и онлайн записване с напомняния, автоматични оферти или свързване на програмите, които вече ползвате, разгледайте [автоматизациите за бизнеса](/avtomatizacii/).
+
+## За кои бизнеси е подходящ асистентът {#za-kogo}
+
+Работим с малки бизнеси, чиито клиенти пишат в социалните мрежи и в WhatsApp и често задават едни и същи въпроси. Сред тях са:
+
+- ресторанти и кафенета;
+- хотели и къщи за гости;
+- салони;
+- онлайн магазини;
+- търговски обекти и шоуруми;
+- клиники и практики;
+- автосервизи и майстори;
+- агенции за недвижими имоти;
+- фирми, които работят с други фирми (B2B).
+
+В някои отрасли асистентът поема и по-специфични задачи:
+
+- **Хотели и къщи за гости.** Асистентът за гости отговаря на всеки език, денонощно, с актуалната наличност и цените на стаите.
+- **Онлайн магазини.** Асистентът е свързан с куриера и сам отговаря на въпроса „Къде ми е поръчката?“ със статуса на пратката.
+- **Недвижими имоти.** Асистентът отделя сериозните запитвания от останалите и предлага на тези клиенти свободни часове за оглед.
+
+## Как протича работата {#proces}
+
+Работата започва с [безплатната диагностика](/diagnostika/). На страницата избирате вида на бизнеса си, отбелязвате проблемите, които познавате, виждате ориентировъчно колко часа седмично Ви отнемат и запазвате разговор.
+
+1. **Безплатна диагностика и 30-минутен разговор.** Разглеждаме къде бизнесът Ви губи време, включително съобщенията, които остават без отговор.
+2. **Доклад до 48 часа.** Получавате доклад с приоритизирани решения и ясни еднократни цени за всяко от тях.
+3. **Изграждане.** Изграждаме и настройваме асистента, обикновено до 2 седмици.
+4. **Поддръжка.** След старта поддържаме асистента и Ви изпращаме кратък месечен отчет.
+
+Диагностиката не Ви задължава с нищо. Вие решавате дали и кои от предложените в доклада решения да изградим.
+
+[Запазете безплатна диагностика]({{BOOKING_URL}})
+
+## Какво получавате {#kakvo-poluchavate}
+
+- **Асистент в Messenger, Instagram и WhatsApp**, обучен на информацията на Вашия бизнес и настроен да отговаря денонощно.
+- **Контактите на клиентите**, на които асистентът не е могъл да помогне, за да продължите разговора лично.
+- **Доклад с ясни еднократни цени**, който получавате преди началото на работата.
+- **Поддръжка с кратък месечен отчет** след изграждането.
+
+Асистентът е инструмент, който Вашият бизнес използва под Ваш контрол. Запитванията, които изискват преценка, остават за Вас и Вашия екип.
+
+## Примерни сценарии {#primeri}
+
+Примерни сценарии по нашия метод, не данни от конкретни клиенти. [OWNER CONFIRM: example scenarios adapted from the „Скрити проблеми“ checker pain lines, with their numbers]
+
+- **Вечерно съобщение.** Клиент пише в 21:30 с въпрос за продукт. Ако чака отговор до сутринта, може вече да е купил от друго място. Асистентът му отговаря още същата вечер или записва контакта му.
+- **Хотел.** Турист пише на английски в 23:00 и пита за свободни стаи. Асистентът за гости му отговаря на английски с актуалната наличност и цените, без запитването да чака до сутринта.
+- **Онлайн магазин.** Въпросът „Къде ми е поръчката?“ идва по двадесет пъти на ден. Асистентът, свързан с куриера, отговаря на всеки клиент със статуса на неговата пратка.
+- **Недвижими имоти.** Запитване за оглед пристига в полунощ от сайт за имоти и се вижда чак на обяд, заедно с още 40. Асистентът отделя сериозните запитвания и предлага на тези клиенти свободни часове за оглед още през нощта.
+
+## Цена, договори и данни {#usloviya}
+
+Цената за изграждането на асистента е еднократна и зависи от това какво точно се изгражда за Вашия бизнес. Посочваме я в доклада след безплатната диагностика, преди да започне каквато и да е работа.
+
+Цените ни са прозрачни и не изискваме дългосрочни договори. Работим по GDPR.
+
+## Следваща стъпка {#sledvashta-stapka}
+
+Ако клиентите Ви пишат в Messenger, Instagram или WhatsApp и отговорите често закъсняват, започнете с безплатната диагностика. В 30-минутния разговор ще прегледаме кои въпроси може да поеме асистентът и къде още бизнесът Ви губи време.
+
+[Запазете безплатна диагностика]({{BOOKING_URL}})
+
+Ако предпочитате да пишете, изпратете ни имейл на {{EMAIL}}.
+
+---
+
+## PROPOSED FAQ
+
+[[faq]]
+q = "В кои канали работи AI асистентът?"
+a = "Асистентът отговаря на клиентите Ви в Messenger, Instagram и WhatsApp. Кои от тези канали са подходящи за Вашия бизнес, уточняваме по време на безплатната диагностика."
+
+[[faq]]
+q = "Отговаря ли асистентът извън работно време?"
+a = "Да, асистентът е настроен да отговаря денонощно, включително вечер и в почивни дни. Така съобщенията могат да получат отговор и когато никой от екипа Ви не е на линия."
+
+[[faq]]
+q = "Какво става, ако асистентът не знае отговора?"
+a = "Когато не може да помогне, асистентът събира контакта на клиента. Запитването остава при Вас и Вие решавате кой да продължи разговора."
+
+[[faq]]
+q = "Откъде асистентът знае цените, работното време и условията на моя бизнес?"
+a = "Асистентът е обучен на собствената информация на Вашия бизнес. С нея той отговаря на въпросите за цени, работно време, доставка и наличности."
+
+[[faq]]
+q = "Колко струва AI асистент?"
+a = "Цената е еднократна и зависи от това какво се изгражда за Вашия бизнес. Посочваме я в доклада, който получавате до 48 часа след безплатната диагностика. Не изискваме дългосрочни договори."
+
+[[faq]]
+q = "Колко време отнема изграждането на асистента?"
+a = "Изграждането отнема обикновено до 2 седмици. Преди него са безплатната диагностика с 30-минутен разговор и докладът, който получавате до 48 часа."
+
+[[faq]]
+q = "Ще замени ли асистентът служител?"
+a = "Асистентът е инструмент, който поема повтарящите се въпроси в чата. Запитванията, които изискват преценка, остават за Вас и Вашия екип."
+
+[[faq]]
+q = "Как се отнасяте към данните на клиентите ми?"
+a = "Работим по GDPR. Конкретните въпроси за данните на Вашия бизнес можете да обсъдите в 30-минутния разговор по време на диагностиката."
+
+---
+
+## INVENTORY CHECK (diff vs 00-inventory.md: all 12 items + example label present, none weakened)
+
+1. Booking CTA → #proces and #sledvashta-stapka: „[Запазете безплатна диагностика]({{BOOKING_URL}})“, one per section. Unchanged.
+2. {{EMAIL}} → #sledvashta-stapka: „изпратете ни имейл на {{EMAIL}}“. Unchanged.
+3. /diagnostika/ link → #proces intro: „[безплатната диагностика](/diagnostika/)“. Unchanged.
+4. Sibling link → #zadachi: „[автоматизациите за бизнеса](/avtomatizacii/)“. Lead-in reworded, link and anchor text unchanged.
+5. Messenger/Instagram/WhatsApp, денонощно, collects contact → lead; #kakvo-pravi; #zadachi bullet; #kakvo-poluchavate; FAQ 1–3. Unchanged.
+6. Own information; цени, работно време, доставка, наличности → lead; #zadachi; #kakvo-poluchavate; FAQ 4. Unchanged.
+7. Hotel guest assistant, any language, денонощно, live availability and prices → #za-kogo; #primeri. Unchanged.
+8. Shop, courier, parcel status → #za-kogo; #primeri. Unchanged (numeral „двайсет“ → „двадесет“, same value).
+9. Real estate, qualifies enquiries, viewing slots → #za-kogo; #primeri. Unchanged.
+10. Process 30-минутен разговор / до 48 часа / обикновено до 2 седмици / кратък месечен отчет → #proces 1–4; FAQ 6. Unchanged, „обикновено“ kept.
+11. Price formation, no number → #usloviya; FAQ 5 (split into two sentences, same facts).
+12. No long-term contracts; transparent prices; „Работим по GDPR“ → #usloviya; FAQ 5 („Не изискваме дългосрочни договори.“); FAQ 8.
+- Example label → #primeri first line, same section. Unchanged.
+- Canon audience list → #za-kogo, now a list; all nine groups present, B2B explanation kept.
+- Diagnosis commits to nothing → #proces. Unchanged.
+
+## FLAGS
+
+- [OWNER CONFIRM: H1 of the new page] (H1 line).
+- [OWNER CONFIRM: example scenarios adapted from the „Скрити проблеми“ checker pain lines, with their numbers] (#primeri).
+- Kept out of the text, for `[[owner_items]]` at Step 6: [OWNER CONFIRM: assistant on the client's website]; [OWNER CONFIRM: languages for non-hotel assistants]; [OWNER CONFIRM: handoff and contact delivery]; [OWNER CONFIRM: model/platform and data location, only if the owner wants them on the page]; [DATA NEEDED: support pricing model, if the owner wants it explained].
+- [VERIFY]: none. [LINK NEEDED]: none.
+- Note for Step 4 (carried from Step 2): „AI асистент“ appears in the H1, the lead's first sentence and the #kakvo-pravi H2; FAQ q1 and q5 also carry it in question form (trim if counted as stuffing). The courier bullet omits „в реално време“ (not in the canon wording) and hotel availability is „актуалната“; FAQ 1's second sentence (channels settled in the diagnosis) describes the canon process only.
+
+## CANON ADDITIONS
+
+none
+
+---
+
+## CHANGE LOG
+
+- Register: colloquial „двайсет“ → „двадесет“ (#primeri); „Ви трябват“ → „търсите и“ (#zadachi).
+- Readability: nine-item audience sentence in #za-kogo turned into a list lead-in + bulleted list; first #primeri scenario and FAQ 5 split into two sentences each.
+- Claim honesty: „Клиентът научава…“ softened to „Така клиентът може да научи…“ to match the „може да получи отговор“ qualifier before it.
+- Preserved: every CTA, token, anchor, canon fact, number (21:30, 23:00, 20, 40, 30 минути, 48 часа, обикновено до 2 седмици), example label and flag; no facts added; no sections added or removed.
+- Flags remaining: 2 in-text [OWNER CONFIRM] + 5 owner items for Step 6.

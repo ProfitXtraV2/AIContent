@@ -1,0 +1,208 @@
+# Stage 5 · Brand Gate · /diagnostika/
+
+```
+BRAND COMPLIANCE SCORECARD — /diagnostika/ (bg)
+Verdict: PASS WITH FIXES (fixes applied below; post-fix re-score 91/100)
+Total (as received from Stage 4): 86/100
+Voice 18/20 | Language 13/15 | Trust & claims 17/20 | Usefulness 14/15 | Anti-AI 12/15 | SEO 12/15
+Total (after Phase 2): 91/100
+Voice 19/20 | Language 14/15 | Trust & claims 18/20 | Usefulness 14/15 | Anti-AI 14/15 | SEO 12/15
+```
+
+## BLOCKING CHECKS
+1. NOTHING LOST — PASS. Booking CTA „Запазете безплатна диагностика“ → {{BOOKING_URL}} (#bez-obvarzvane) + checker `cta`; {{EMAIL}} line; ctaTitle meaning („Позна ли се в нещо?“) → „Ако сте разпознали своя бизнес в някои от примерите…“; ctaText meaning („правим точната сметка… казваме честно какво може да се автоматизира“) kept verbatim in meaning; source title meaning → lead sentence 1; lede meaning → lead paragraph 2 („29 реални примера“ → „примери“, REMOVE-BY-BRIEF); all 9 type names, allLabel, 4 solution titles + hrefs, 4 groups + subs, hoursBadge `{h}`, summary `{n}`/`{h}`; all 8 canon facts (free diagnosis + 30 min; report ≤ 48 h with prioritised fixes and one-off prices; build „обикновено до 2 седмици“; monthly support with short report; no long-term contracts; transparent prices; „Работим по GDPR“; commits to nothing). Footer line dropped per REMOVE-BY-BRIEF.
+   29 checker bracket lines script-diffed against 00-inventory.md table D: IDENTICAL, in source order (group | types | hours | solutions for every item).
+2. FACTS ALLOWED LIST — PASS (after fix). All fixes state only capabilities from the canon "WHAT THE SERVICES CAN DO" list. One process detail beyond canon was removed: „в който преглеждаме отбелязаните от Вас ситуации“ (implies BizGrow receives the checker ticks; the checker is client-side and the canon says nothing about it) → „в който заедно откриваме къде Вашият бизнес губи най-много време“.
+3. BANNED CLAIMS — PASS. No гарант*, №1, лидер, hype list words, prices, offers, testimonials. „безплатн*“ only for the diagnosis. „отзиви“ and „отстъпки“ already reworded by Stage 2/3 under [OWNER CONFIRM] (items 21, 26). „денонощно“ (items 1, 5) is canon capability wording („around the clock“), stated as what the assistant does, not as a guaranteed outcome.
+4. NUMBERS — PASS. Canon: 30 минути, 48 часа, до 2 седмици (with „обикновено“). Hours 1–4 per item: owner estimates, labelled „ориентировъчно, на база типични случаи“ in lead, estimateNote, summary, FAQ 4, meta. Pain-detail numbers (21:30, 10 въпроса, 23:00, пет пъти, двайсет пъти, още 40, два дни, три пъти, три портала, 50 продукта, 3 снимки от 2022 г.) are owner scenario details inside labelled examples, carried under [OWNER CONFIRM]. „за минути“ (items 10, 11, 16) under [OWNER CONFIRM]. „четири стъпки“ counts the canon steps. No Tier B facts (0 sources).
+5. HYPOTHETICAL LABEL — PASS (after fix). The label „илюстративни и не са данни от конкретни клиенти“ sat only in the hero lead, i.e. outside the #checker section where the 29 examples render (and where a visitor scrolling past the lead or landing mid-page reads them). Restored inside the checker: estimateNote now opens with „Ситуациите са примери, не данни от конкретни клиенти.“ (label only, no new fact).
+6. GDPR WORDING — PASS. Only „Работим по GDPR“ (#bez-obvarzvane).
+7. REGISTER — PASS. Zero „ти“ forms in visible copy (script check on body, checker, FAQ, title, meta, label, summary). The only „ти“ is inside the hero [OWNER CONFIRM] flag quoting the source title, which is a flag, not copy. Formal pronouns capitalised throughout (Вие, Ви, Вас, Вашия, Вашият, Вашата); „моя бизнес“ in pickLabel / FAQ 5 question is the visitor's own voice, correct.
+8. CTA RULES — PASS. One booking link in #bez-obvarzvane; the checker `cta` button is a separate section; approved wording „Запазете безплатна диагностика“; email only {{EMAIL}}; no urgency.
+9. ONE TERM PER PAGE — PASS. „безплатна диагностика за бизнеса“: title (exact), meta (exact), lead sentence 1 (now „Безплатната диагностика за бизнеса“, articled for correct Bulgarian), H2 #kakvo-vklyuchva (variant). H1 is the keyword-map h1 (partial, under [OWNER CONFIRM]). No sibling main term in title/H1/H2.
+10. LINKS & ANCHORS — PASS. Body links /avtomatizacii/, /ai-asistent/; solution hrefs /avtomatizacii/, /seo-statii/, /socialni-mrezhi/, /reklama/; related /avtomatizacii/, /ai-asistent/, /seo-statii/ (3 siblings, not / and not itself): all in conversion-links.md. New ids latin-kebab (#hero, #checker, #kakvo-vklyuchva, #kakvo-poluchavate, #bez-obvarzvane). No EN pair.
+11. BIZGROW VOICE — FAIL → fixed (mechanical):
+   - Verdict/aphorism line closing #kakvo-poluchavate: „Дигитализацията на бизнеса започва от задачите, които отнемат най-много време.“ → „Така докладът показва откъде да започне дигитализацията на Вашия бизнес.“ (keeps the secondary term, ties it to the canon report).
+   - Fragment answers in FAQ: „Не.“ (FAQ 2) and „Да.“ (FAQ 5) → complete sentences.
+
+## CRITICAL (blocks) — all mechanically fixed
+- „Дигитализацията на бизнеса започва от задачите, които отнемат най-много време.“ → check 11 (verdict line) → rewritten as above.
+- Examples label missing inside #checker → check 5 → label added to estimateNote.
+- „преглеждаме отбелязаните от Вас ситуации“ → check 2 (process detail beyond canon) → removed.
+
+## MODERATE (fixed)
+- Lead sentence 1: „Безплатна диагностика за бизнеса започва…“ (unarticled subject, unnatural Bulgarian) → „Безплатната диагностика за бизнеса започва с кратка проверка на това, колко време…“ (article + comma consistent with „зависи от това, какво“ elsewhere).
+- Item 7 pain: „докато Вие работите под друга кола“ changed the owner's meaning („а ти си под колата“) → „докато Вие работите под колата“.
+- Item 19 fix: the content tool publishes social posts with no mention of approval; canon says the client approves before publication → „и след Вашето одобрение ги публикува по график всяка седмица“ (canon, Pillar 3).
+- #bez-obvarzvane: „Не изискваме дългосрочни договори, а цените ни са прозрачни.“ („не A, а B“ shape) → „BizGrow работи без дългосрочни договори и с прозрачни цени.“
+- #kakvo-vklyuchva preparation sentence reordered so the purpose („за да ги обсъдим по време на разговора“) is clear and the advice does not imply the ticks are sent to BizGrow.
+
+## MINOR (not changed, noted)
+- „Ще Ви кажем честно“ (owner ctaText wording) kept; it is the owner's phrase, not a hype claim.
+- SEO: H1 is only a partial main-term match (keyword-map h1, under [OWNER CONFIRM]); lead now uses the articled form. Accepted for a conversion page with no measured volume.
+- Item 25/27 purpose clauses („за да се върне…“, „за да присъствате редовно…“) read as intent, not outcome; acceptable, flagged items already with the owner.
+
+## OWNER ITEMS TO RAISE (for Step 6)
+1. H1 „Безплатна диагностика: къде губи време Вашият бизнес“ (keyword-map proposal) replacing the source title „Колко време губи бизнесът ти, без да забелязваш?“.
+2. Item 4: „напомняния, които намаляват неявяванията“ softened to „за да има по-малко неявявания“.
+3. Items 10, 11, 16: „за минути“ is owner checker wording; canon lists the capability without a time. Confirm it may stay. (Item 11: „не за дни“ antithesis removed.)
+4. Item 21: „отзиви в Google“ → „оценки и коментари в Google“ (site-rules §3 testimonial pattern); confirm the reword or allow „отзиви в Google“ as an exception.
+5. Item 25: „едни от най-лесните продажби“ removed as an outcome claim.
+6. Item 26: „отстъпки“ → „намаления“ (site-rules §3 offer pattern).
+7. Item 27: „присъствие като на голям бранд“ removed as hype.
+8. Illustrative numbers inside the pains (21:30, 10 въпроса, 23:00, пет пъти, двайсет пъти, още 40, два дни, три пъти, три портала, 50 продукта, 3 снимки от 2022 г.) kept as labelled scenario details.
+9. Hours per item (1–4) are the owner's estimates, shown only with „ориентировъчно, на база типични случаи“.
+10. New this stage: examples label added inside the checker (estimateNote) and item 19 now says posts are published after the client's approval (canon); confirm the wording.
+11. Note for the porting human: the checker is client-side; the page does not claim BizGrow receives the ticked items. If the owner wants the booking to carry the selection, that is a site change and an owner decision.
+
+## VOICE NOTES (protect during later edits)
+- Pains stay in the owner's lived-situation voice („Клиент Ви пише в 21:30…“); fixes start with the bold capability and explain jargon once (AI асистент, интеграция, SEO, дашборд, криейтиви).
+- Keep „обикновено“ with „до 2 седмици“; keep the estimate label wherever hours appear; keep the examples label in both lead and estimateNote.
+
+## CHANGE LOG (Phase 2)
+10 surgical edits: lead sentence 1 (article, comma); item 7 pain; item 19 fix (approval); estimateNote (examples label); #kakvo-vklyuchva para 1 (non-canon process detail removed) and preparation sentence; #kakvo-poluchavate closing line; #bez-obvarzvane „не A, а B“; FAQ 2 and FAQ 5 fragment openers. Checker bracket data, all `{h}`/`{n}`, tokens, links, anchors, CTAs and all 10 [OWNER CONFIRM] flags unchanged. No fact or number added. Em-dashes: 0.
+
+---
+
+# FIXED PAGE
+
+Page: /diagnostika/ | Locale: bg | Type: new-page | Main term: безплатна диагностика за бизнеса
+
+## Безплатна диагностика: къде губи време Вашият бизнес {#hero}
+Eyebrow: Проверка за собственици на малък бизнес
+
+[OWNER CONFIRM: H1 for this new page taken from the keyword-map proposal „Безплатна диагностика: къде губи време Вашият бизнес“; the source title „Колко време губи бизнесът ти, без да забелязваш?“ lives on as the meaning of the lead's opening]
+
+Безплатната диагностика за бизнеса започва с кратка проверка на това, колко време губи Вашият бизнес, без да го забелязвате. Изберете вида на Вашия бизнес и отбележете ситуациите, които познавате от ежедневната си работа. Ще видите колко часа седмично отнемат тези задачи, ориентировъчно, на база типични случаи.
+
+Ситуациите по-долу са примери от различни видове бизнеси: проблемът, както го преживява собственикът, и това, което BizGrow поема вместо него. Те са илюстративни и не са данни от конкретни клиенти. Следващата стъпка е безплатна диагностика с 30-минутен разговор, след който до 48 часа получавате доклад с приоритизирани решения и ясни еднократни цени.
+
+## Проверка {#checker}
+
+allLabel: Всички бизнеси
+filterLabel: Изберете вида на Вашия бизнес
+typeNames:
+- resto: Ресторант / кафене
+- hotel: Хотел / къща за гости
+- salon: Салон / услуги
+- shop: Онлайн магазин
+- retail: Магазин / шоурум
+- clinic: Клиника / кабинет
+- auto: Автосервиз / майстори
+- estate: Недвижими имоти
+- b2b: B2B / друго
+
+solutions:
+- a: AI автоматизации -> /avtomatizacii/
+- t: Собствен инструмент за съдържание -> /seo-statii/
+- c: Криейтиви всеки месец -> /socialni-mrezhi/
+- m: Маркетинг специалист -> /reklama/
+
+groups:
+- g1: Клиенти и комуникация | Там, където запитванията се превръщат в клиенти или се губят.
+- g2: Администрация и документи | Повтарящата се работа, за която никой не Ви плаща.
+- g3: Онлайн присъствие и съдържание | Това, което клиентите виждат, преди да Ви потърсят.
+- g4: Реклама и растеж | Как Ви намират нови клиенти.
+
+symptoms:
+1. [g1 | all | 3 | a] pain: Клиент Ви пише в 21:30 с въпрос, а до сутринта вече е купил от друг. || fix: **AI асистент** (автоматичен отговор в чата) отговаря в Messenger, Instagram и WhatsApp денонощно и записва контакта, когато не може да помогне.
+2. [g1 | all | 4 | a] pain: Всеки ден отговаряте на едни и същи 10 въпроса за цени, работно време, доставка и наличности. || fix: **AI помощник**, обучен на информацията на Вашия бизнес, поема повтарящите се въпроси вместо Вас.
+3. [g1 | resto,salon,clinic,auto | 2 | a] pain: Телефонът звъни, докато обслужвате клиент, и обаждането се губи безвъзвратно. || fix: **Онлайн записване**: клиентите сами избират час или маса, без някой да вдига телефона.
+4. [g1 | salon,clinic,resto | 3 | a] pain: Часовете и резервациите се водят в тетрадка и всяко разместване означава цял ден разговори по телефона. || fix: **Резервации, синхронизирани с календара**, с автоматични напомняния, за да има по-малко неявявания. [OWNER CONFIRM: source „напомняния, които намаляват неявяванията“ softened to a purpose clause so it reads as intent, not a guaranteed result]
+5. [g1 | hotel | 3 | a] pain: Турист пише на английски в 23:00 за свободни стаи, а отговорът тръгва чак след закуска. || fix: **AI асистент за гости** отговаря на всеки език денонощно, с актуална наличност и цени.
+6. [g1 | resto,salon,clinic | 2 | a] pain: Клиенти запазват час или маса и не идват, а мястото остава празно. || fix: **Автоматични потвърждения и напомняния** и списък с чакащи, от който се запълват освободените часове.
+7. [g1 | auto | 2 | a] pain: Клиентите питат по пет пъти на ден „Готова ли е колата?“, докато Вие работите под колата. || fix: **Автоматични съобщения за статуса** на ремонта, така че клиентът знае докъде е стигнала работата, без да се обажда.
+8. [g1 | shop | 3 | a] pain: Двайсет пъти на ден, всеки ден, някой пита „Къде ми е поръчката?“. || fix: **AI, свързан с куриера**, отговаря автоматично със статуса на пратката в реално време.
+9. [g1 | estate | 3 | a] pain: Запитване за оглед пристига от портала в полунощ, а Вие го виждате на обяд заедно с още 40. || fix: **AI квалифицира запитванията**, тоест отделя сериозните, и им предлага свободни часове за оглед.
+10. [g2 | b2b,retail,auto,estate | 3 | a] pain: Всяка оферта пишете на ръка и тя тръгва чак вечерта, когато най-после седнете. || fix: **Автоматични оферти**: от попълнен формуляр до готов PDF в пощата на клиента за минути. [OWNER CONFIRM: „за минути“ is owner checker wording; the canon lists the capability (form → PDF) without a time]
+11. [g2 | auto,b2b | 3 | a] pain: Оглеждате, снимате, обещавате оферта и я изпращате чак след два дни. || fix: **Оферта от снимки и кратък формуляр**, готова за минути. [OWNER CONFIRM: „за минути“ as in item 10; the source antithesis „не за дни“ removed]
+12. [g2 | shop,retail,b2b | 3 | a] pain: Прехвърляте едни и същи данни между поръчки, таблици и счетоводство по три пъти. || fix: **Свързваме програмите, които вече ползвате** (интеграция), и данните се попълват сами, без копиране.
+13. [g2 | all | 2 | a] pain: Фактури, отчети и таблици в Excel Ви отнемат неделната вечер. || fix: **Автоматизираме документите**: фактурите, отчетите и таблиците се създават и подреждат от системата.
+14. [g2 | b2b,estate | 2 | a] pain: Договорите се сглобяват с копиране от стари файлове, понякога с чужди имена в тях. || fix: **Шаблони с автоматично попълване**, без ръчно копиране между файлове и грешките, които то носи.
+15. [g2 | estate | 2 | a] pain: Една обява означава ръчно качване в три портала, а после ръчно сваляне от трите. || fix: **Публикувате веднъж** и системата качва, обновява и сваля обявата навсякъде.
+16. [g2 | shop | 3 | t] pain: 50 нови продукта чакат описания и Вие ги пишете вечер, едно по едно. || fix: **Инструментът ни пише SEO описания** (текстове, които помагат на продуктите да бъдат намирани в Google) на цели колекции за минути, във Вашия тон. [OWNER CONFIRM: „за минути“ as in item 10]
+17. [g2 | all | 2 | a] pain: Не знаете кои клиенти се връщат, кое се продава и кое реално носи печалба. || fix: **Табло с показатели** (дашборд) в реално време, в което виждате бизнеса си на едно място.
+18. [g3 | all | 3 | t] pain: Сайтът Ви не се е променял от месеци и Google показва конкурентите преди Вас. || fix: **Собственият ни инструмент за съдържание** пише SEO статии за Вашия бранш и град и ги публикува, след като ги одобрите.
+19. [g3 | all | 3 | t] pain: Профилите Ви в Instagram и Facebook мълчат от седмици, защото „нямаше време“. || fix: **Инструментът ни създава публикации** с текст и изображение и след Вашето одобрение ги публикува по график всяка седмица.
+20. [g3 | shop,retail,resto,salon,hotel | 2 | t,c] pain: Нямате свежи снимки и визии и всяка публикация или реклама започва от нулата. || fix: **AI изображения и брандирани криейтиви** (визии в стила на Вашия бранд), готови за публикуване и за реклама.
+21. [g3 | resto,salon,clinic,retail,auto,hotel | 1 | a] pain: Оценките и коментарите на клиентите в Google стоят без отговор, а новите клиенти виждат това. || fix: **Следим оценките и коментарите в Google** и подготвяме отговор, който одобрявате с едно докосване. [OWNER CONFIRM: source „отзиви в Google“ reworded to „оценки и коментари в Google“ because „отзив*“ matches the banned TESTIMONIAL pattern in site-rules §3; the topic is replying to Google reviews, not client testimonials. Confirm the reword or an exception for „отзиви в Google“]
+22. [g3 | resto,salon,clinic,retail,auto | 1 | t,m] pain: Профилът Ви в Google Business е с 3 снимки от 2022 г. и старо работно време. || fix: **Поддържаме профила актуален**: публикации, снимки и вярна информация всеки месец.
+23. [g3 | resto,hotel | 1 | a] pain: Менюто и цените са сменени, но в сайта, в Google и във Facebook стои старата информация. || fix: **Обновяване от едно място**, което променя информацията навсякъде едновременно, без да влизате във всяка платформа поотделно.
+24. [g4 | shop,retail,b2b,salon,estate | 2 | m] pain: Пускали сте реклама „да видим дали ще стане“ и до днес не знаете какво точно Ви е донесла. || fix: **Нашият маркетинг специалист** настройва кампаниите и Ви показва какво връща всяко вложено евро.
+25. [g4 | shop | 2 | a,m] pain: Количката е пълна, клиентът изчезва и никой не му напомня. || fix: **Автоматични съобщения** напомнят на клиента за изоставената количка, за да се върне и да завърши поръчката. [OWNER CONFIRM: source „едни от най-лесните продажби“ removed as an outcome claim]
+26. [g4 | retail,shop,resto | 2 | m] pain: Пускате намаления наслуки и не знаете кое всъщност връща клиентите. || fix: **Кампании на база данни**: кой какво купува, кога се връща и какво е подходящо да му предложите. [OWNER CONFIRM: source „отстъпки“ changed to „намаления“ because „отстъпк*“ is a banned offer term in site-rules §3]
+27. [g4 | all | 2 | t,c,m] pain: Конкуренти с по-слаб продукт се показват над Вас в Google и в социалните мрежи. || fix: **SEO съдържание и криейтиви всеки месец**, за да присъствате редовно в Google и в социалните мрежи, без да наемате собствен екип. [OWNER CONFIRM: source „присъствие като на голям бранд“ replaced as hype; „без да наемате собствен екип“ kept from the owner's meaning]
+28. [g4 | b2b | 2 | a] pain: След всяка среща обещаното остава в тефтера и половината се забравя. || fix: **AI резюме след срещата** с изводите, задачите и следващите стъпки, изготвено автоматично.
+29. [g4 | all | 4 | m,c,t] pain: Нямате време да мислите за маркетинг, камо ли да го правите всяка седмица. || fix: **Маркетинг специалистът ни поема планирането и изпълнението**, а Вие получавате отчет с числата.
+
+[OWNER CONFIRM: the numbers inside the pains (21:30, 10 въпроса, 23:00, пет пъти, двайсет пъти, още 40, два дни, три пъти, три портала, 50 продукта, 3 снимки от 2022 г.) are illustrative scenario details from the owner's checker, kept under the lead's label „илюстративни и не са данни от конкретни клиенти“]
+
+hoursBadge: ~{h} ч/седм.
+pickLabel: Отнася се за моя бизнес
+summary: Отбелязани ситуации: {n}. Ориентировъчно {h} ч. на седмица.
+summaryEmpty: Отбележете ситуациите, които познавате от своя бизнес, и ще видите ориентировъчните часове на седмица.
+estimateNote: Ситуациите са примери, не данни от конкретни клиенти. Часовете са ориентировъчни, на база типични случаи. Точната сметка за Вашия бизнес правим по време на безплатната диагностика.
+cta: Запазете безплатна диагностика
+
+## Какво включва безплатната диагностика за бизнеса {#kakvo-vklyuchva}
+
+Диагностиката е 30-минутен разговор, в който заедно откриваме къде Вашият бизнес губи най-много време. Работата с BizGrow протича в четири стъпки.
+
+- **Безплатна диагностика и 30-минутен разговор** за задачите, които отнемат най-много време.
+- **Доклад до 48 часа** с приоритизирани решения и ясни еднократни цени.
+- **Изграждане** на избраните решения, обикновено до 2 седмици.
+- **Поддръжка** с кратък месечен отчет.
+
+Преди разговора е полезно да отбележите в проверката ситуациите, които познавате, за да ги обсъдим по време на разговора. Започнете от най-бавните и най-често повтарящите се задачи: запитвания, записвания, оферти и фактури.
+
+## Какво получавате след разговора {#kakvo-poluchavate}
+
+До 48 часа след разговора получавате доклад, който подрежда решенията по приоритет и посочва еднократна цена за всяко от тях. Цената зависи от това, какво се изгражда, и я знаете предварително, преди да решите дали да продължите.
+
+Решенията в доклада идват от услугите на BizGrow: [автоматизации на записвания, оферти и документи](/avtomatizacii/), [AI асистент, който отговаря в чата](/ai-asistent/), съдържание и криейтиви, както и реклама, която води маркетинг специалист. Така докладът показва откъде да започне дигитализацията на Вашия бизнес.
+
+## Диагностиката не Ви обвързва с нищо {#bez-obvarzvane}
+
+Разговорът и докладът не Ви задължават да поръчате каквото и да е. BizGrow работи без дългосрочни договори и с прозрачни цени. Работим по GDPR.
+
+Ако сте разпознали своя бизнес в някои от примерите, запазете безплатна диагностика. Ще направим точната сметка за Вашия бизнес и ще Ви кажем честно какво може да се автоматизира.
+
+[Запазете безплатна диагностика]({{BOOKING_URL}})
+
+Ако предпочитате да пишете, изпратете ни имейл на {{EMAIL}}.
+
+## FAQ
+
+- q: Колко време отнема безплатната диагностика?
+  a: Диагностиката е 30-минутен разговор. До 48 часа след него получавате доклад с приоритизирани решения и ясни еднократни цени.
+- q: Задължавам ли се да поръчам нещо след диагностиката?
+  a: Диагностиката не Ви обвързва с нищо и не Ви задължава да поръчате каквото и да е. BizGrow работи без дългосрочни договори.
+- q: Колко ще струва решението след диагностиката?
+  a: Цената е еднократна за всяко решение и зависи от това, какво се изгражда. Посочваме я в доклада, който получавате до 48 часа след разговора.
+- q: Точни ли са часовете, които показва проверката?
+  a: Часовете са ориентировъчни, на база типични случаи. Точната сметка за Вашия бизнес правим по време на диагностиката.
+- q: Видът на моя бизнес не е в списъка. Мога ли да използвам проверката?
+  a: Изберете „B2B / друго“ или „Всички бизнеси“, за да видите всички примери, и отбележете тези, които се отнасят за Вас.
+- q: Колко време отнема изграждането на решенията?
+  a: Изграждането обикновено отнема до 2 седмици. След това поддръжката продължава с кратък месечен отчет.
+
+Related (ContentPage `related`): /avtomatizacii/, /ai-asistent/, /seo-statii/
+
+---
+
+## SEO FIELDS
+
+title = "Безплатна диагностика за бизнеса | BizGrow"   (42 characters incl. suffix; no em-dash)
+meta_description = "Безплатна диагностика за бизнеса: отбележете познатите Ви ситуации, вижте ориентировъчно колко часа седмично губите и получете доклад до 48 часа."   (145 characters; exact main term)
+primary_keyword = "безплатна диагностика за бизнеса"
+secondary_keywords used = ["дигитализация на бизнеса" (#kakvo-poluchavate, „дигитализацията на Вашия бизнес“), "къде губи време бизнесът" (H1; #kakvo-vklyuchva)]
+
+label = "Безплатна диагностика"
+summary = "Отбележете ситуациите, които познавате от своя бизнес, и вижте ориентировъчно колко часа седмично отнемат."
+
+related = ["/avtomatizacii/", "/ai-asistent/", "/seo-statii/"]
+
+FAQ (6): as in the page body above (FAQ 2 and FAQ 5 answers reworded to complete sentences; questions unchanged).
+
+## FLAGS (carried untouched)
+10 × [OWNER CONFIRM]: hero H1; checker items 4, 10, 11, 16, 21, 25, 26, 27; illustrative pain numbers (after item 29). No [VERIFY], [DATA NEEDED], [LINK NEEDED]. Sources: 0.
