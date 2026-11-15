@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-15T13:03:04Z",
+  "generated_utc": "2026-11-15T13:03:10Z",
   "buffer": {
     "count": 224,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 218,
-    "approved": 6,
+    "drafted": 217,
+    "approved": 7,
     "posted": 110,
     "failed": 1
   },
@@ -6613,7 +6613,7 @@
     },
     {
       "id": "vk-0325",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Купа на България — формат, история и рекорди",
       "keywords_or_terms": "купа на българия, купа на българия по футбол",
