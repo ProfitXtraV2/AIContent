@@ -1,7 +1,6 @@
 # Content Queue — BizGrow (page lifecycle board)
 
-⏸ **PAUSED at onboarding on 2026-11-15** — no rows are added until the owner un-pauses the brand
-in writing (see `BizGrow/automation/daily-run.md`).
+Manual trigger only. Un-paused for manual runs by the owner on 2026-11-15 ("the seo content need to go through contentai, but the professional version … use that analysis to help redo the content of the site"); still not scheduled.
 
 A page enters this table only once selected to write. Ideas live in `topic-backlog.md` /
 `research-topics.md`.

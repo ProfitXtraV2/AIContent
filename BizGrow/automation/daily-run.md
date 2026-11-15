@@ -1,30 +1,3 @@
-# ⏸ PAUSED — at onboarding on 2026-11-15 — MANUAL TRIGGER ONLY
-
-> **DO NOT RUN. DO NOT SCHEDULE.** BizGrow was added to the AIContent pipeline on 2026-11-15 as
-> a pipeline only ("do NOT write any site copy yet"). Until the owner un-pauses it **in
-> writing**, this file must not be executed by anyone or anything, and no routine, cron,
-> RemoteTrigger or CronCreate may be registered for it. While paused the brand produces nothing:
-> no topic selection, no research, no Ahrefs calls, no pages, no PRs, no heartbeat writes.
->
-> **If you are an agent asked to run this file:** check for a written un-pause from the owner
-> (dated after 2026-11-15, e.g. a message, issue or PR comment saying BizGrow may run). If there
-> is none, STOP now and reply: "BizGrow is paused (onboarded 2026-11-15); it needs a written
-> un-pause from the owner first." Do not continue to the steps below.
->
-> **How to un-pause (human, in one PR):**
-> 1. Get the owner's written go-ahead and link or quote it in the PR description.
-> 2. Delete this banner (down to the line `# Daily Run — BizGrow`) and the PAUSED banner in
->    `BizGrow/pipeline/SKILL.md` (and its "PAUSED" wording in the front-matter description).
-> 3. Update README.md: brand list, dashboard table, layout tree (remove "PAUSED").
-> 4. Make sure `BizGrow/keyword-map.md` has a main term for every page to be written. In
->    `BizGrow/topic-backlog.md` set those rows from `paused` to `open` (leave
->    `blocked: owner decision` rows alone unless the owner approved that page).
-> 5. In `scripts/build_dashboard.py` remove `"paused"` from `BRANDS["bizgrow"]`; update
->    `test_bizgrow_registered_and_paused` in `scripts/tests/test_build_dashboard.py`; run
->    `python3 -m pytest scripts/tests -q`; run `python3 scripts/build_dashboard.py bizgrow`.
-> 6. Commit `chore(bizgrow): un-pause per owner <YYYY-MM-DD>`. The brand stays MANUAL TRIGGER
->    ONLY after un-pausing; scheduling it is a separate, explicit owner decision.
-
 # Daily Run — BizGrow Page Autopilot
 
 > **MANUAL TRIGGER — NOT SCHEDULED** (even after un-pausing). Trigger: open a Claude Code
@@ -44,10 +17,10 @@ Follow `BizGrow/pipeline/` VERBATIM (SKILL.md, agents, markets/*/author.md, refe
 - IMAGE_MIN_PER_ARTICLE = 0       (no images by default)
 
 ## Step 0 — pause and pre-flight (every run)
-1. If the PAUSED banner above is still in this file → STOP (see banner). Nothing else runs.
+1. Un-paused for manual runs by the owner on 2026-11-15 ("the seo content need to go through contentai, but the professional version … use that analysis to help redo the content of the site"); still not scheduled. Do not register a routine.
 2. If any `BizGrow/content-queue.md` row is `in-progress`, resume it instead of starting a new
    page (never duplicate a drafted/approved/posted page).
-3. Read the site sources (`desislavamit/biz-grow`, branch `main` unless the owner names another;
+3. Read the site sources (`desislavamit/biz-grow`, branch `main` unless the owner names another; for the 2026-11-15 SEO rewrite the owner's session uses branch `feature/seo-improvements` (local worktree `~/Work/biz-grow-seo`);
    local clone `~/Work/biz-grow` if running locally): `docs/ai-consultancy-spec.md`,
    `site/src/i18n/dictionaries/bg.ts`, `en.ts`, `site/src/i18n/types.ts`,
    `site/src/i18n/config.ts`. Diff them against `BizGrow/pipeline/reference/site-rules.md`; on
@@ -105,7 +78,7 @@ Keep `docs/data/bizgrow/run-status.json` current exactly as ELLE Dental does, wi
 7. **End heartbeat** → `idle`, counts, note. Push board files to `main`.
 
 ## Never
-- Never run or schedule while the PAUSED banner is present.
+- Never schedule this file; runs are manual.
 - Never state a fact about BizGrow outside the canon (prices, team, legal data, address, phone,
   clients, case results are unknown).
 - Never invent a number, promise a result, or present an example scenario as a client result.

@@ -47,14 +47,13 @@ BRANDS = {
                       "target": 3,
                       "paused": "2026-11-11"},
     # BizGrow: AI/automation consultancy site (Next.js, bg at /, en at /en/); page drafts are
-    # ported into the site's TS dictionaries by a human. PAUSED at onboarding on 2026-11-15:
-    # manual trigger only, produces nothing until the owner un-pauses it in writing
-    # (see BizGrow/automation/daily-run.md).
+    # ported into the site's TS dictionaries by a human. Un-paused for manual runs by the owner
+    # on 2026-11-15; manual trigger only, not scheduled (see BizGrow/automation/daily-run.md).
     "bizgrow":       {"dir": "BizGrow", "brand": "BizGrow",
                       "out": ("docs", "data", "bizgrow", "status.json"),
                       "links": {"site": "https://desislavamit.github.io/biz-grow/"},
                       "target": 3,
-                      "paused": "2026-11-15"},
+                      "manual": True},
 }
 
 # Human backlog. Ahrefs metrics (volume/kd/intent/checked/ahrefs_note) are enriched by the
@@ -197,7 +196,7 @@ def build_status(rows, backlog=None, research=None, target=10, brand="vsichkikaz
         schedule_meta = {"note": f"PAUSED by owner on {brand_cfg['paused']} — manual trigger only, "
                                  "do not run until the owner un-pauses it in writing",
                          "paused": True}
-    elif brand == "dentalvia":
+    elif brand == "dentalvia" or brand_cfg.get("manual"):
         schedule_meta = {"note": "manual runs only — not scheduled"}
     else:
         schedule_meta = SCHEDULE

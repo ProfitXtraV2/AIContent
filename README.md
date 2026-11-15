@@ -20,9 +20,8 @@ It is currently configured for four brands:
   WebPortals-ready `content/<slug>.md` drafts for doctor review, in a professional clinic voice
   that deliberately departs from the shared humaniser (see `ElleDental/pipeline/SKILL.md`).
 - **BizGrow** (AI and automation consultancy for small businesses in Bulgaria; Next.js site,
-  Bulgarian at `/`, English at `/en/`) — **⏸ PAUSED at onboarding on 2026-11-15, manual trigger
-  only**: pipeline only, no copy written yet; it must not run or be scheduled until the owner
-  un-pauses it in writing (banner at the top of `BizGrow/automation/daily-run.md`). It drafts
+  Bulgarian at `/`, English at `/en/`) — **manual trigger only, not scheduled** (onboarded and un-paused for manual runs by the
+  owner on 2026-11-15). It drafts
   pages as Markdown + TOML porting files for the site's TypeScript dictionaries, in a
   professional B2B voice (formal „Вие“) cloned from the ELLE Dental line, with B2B claim rules
   instead of medical ones (see `BizGrow/pipeline/SKILL.md`).
@@ -201,13 +200,13 @@ AIContent/
     ├── research-topics.md        # possible new pages (owner approval required)
     ├── conversion-links.md       # the 28 site addresses + /kontakti/#zapazi
     └── articles/<YYYY-MM-DD-slug>/# per-page working dir; deliverable content/<slug>.md
-└── BizGrow/                      # ── fourth brand (AI/automation consultancy, bg + en) — ⏸ PAUSED 2026-11-15 ──
+└── BizGrow/                      # ── fourth brand (AI/automation consultancy, bg + en) — manual trigger only ──
     ├── pipeline/                 # professional B2B voice („Вие“), B2B claim gate, bg + en authors
     │   └── reference/site-rules.md #   copy of the biz-grow site rules (site repo / owner wins)
     ├── automation/
-    │   └── daily-run.md          # PAUSED banner + MANUAL TRIGGER ONLY; how to un-pause
+    │   └── daily-run.md          # MANUAL TRIGGER ONLY (not scheduled)
     ├── content-queue.md          # page lifecycle board
-    ├── topic-backlog.md          # / and /en/ as page-rewrite rows (paused) + 4 blocked service pages
+    ├── topic-backlog.md          # the 9 pages of the 2026-11-15 keyword map
     ├── research-topics.md        # possible new pages (keyword-map `planned` required)
     ├── keyword-map.md            # one main term per address (filled by the owner's session)
     ├── conversion-links.md       # pages, section anchors, {{BOOKING_URL}}, {{EMAIL}}
@@ -305,7 +304,7 @@ Static, data-driven (`docs/index.html` reads `docs/data/status.json` + `run-stat
 | Всички Казина | https://profitxtrav2.github.io/AIContent/ |
 | Dentalvia | https://profitxtrav2.github.io/AIContent/dentalvia/ |
 | ELLE Dental (⏸ paused) | https://profitxtrav2.github.io/AIContent/elledental/ |
-| BizGrow (⏸ paused) | https://profitxtrav2.github.io/AIContent/bizgrow/ |
+| BizGrow (manual) | https://profitxtrav2.github.io/AIContent/bizgrow/ |
 
 Rebuild a dashboard: `python3 scripts/build_dashboard.py` (VsichkiKazina),
 `python3 scripts/build_dashboard.py dentalvia` (Dentalvia),
@@ -352,7 +351,7 @@ onboarded as a manual-trigger-only brand alongside the fully-scheduled VsichkiKa
 for another repo (not a blog article), onboarded **paused** (banner in `daily-run.md` and
 `SKILL.md`, `paused` in `scripts/build_dashboard.py` BRANDS, backlog rows `paused`).
 **BizGrow** (`BizGrow/`) is the third example: a clone of the ELLE Dental professional-register
-pipeline for a B2B site in two locales, also onboarded **paused**, with a `keyword-map.md` that
+pipeline for a B2B site in two locales, onboarded paused and un-paused for manual runs on 2026-11-15, with a `keyword-map.md` that
 gates which addresses may be written.
 
 To onboard another site:

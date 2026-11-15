@@ -1,23 +1,22 @@
 # Topic Backlog — BizGrow (HUMAN input, highest priority)
 
-⏸ **PAUSED at onboarding on 2026-11-15.** Every row is `paused` or `blocked` and nothing is
-written until the owner un-pauses the brand in writing (see `BizGrow/automation/daily-run.md`).
-To un-pause a page, set its status to `open`.
+Manual trigger only. Un-paused for manual runs by the owner on 2026-11-15 ("the seo content need to go through contentai, but the professional version … use that analysis to help redo the content of the site"); still not scheduled.
 
-Seeded 2026-11-15 with the site's two existing pages (`/` Bulgarian, `/en/` English) as
-`page-rewrite` rows, and the four owner-confirmed services as possible `new-page` rows with no
-address yet. Main terms come from `BizGrow/keyword-map.md`, which is empty at onboarding: a row
-cannot be written until its address has a main term there. `volume`/`kd` are blank because
-nothing has been measured yet (never estimated).
+Filled 2026-11-15 from the owner's session niche analysis (biz-grow
+`docs/seo-audit/NICHE-ANALYSIS-2026-11-15.md`, Ahrefs country bg): the two home pages as
+`page-rewrite` rows and the seven planned pages from `BizGrow/keyword-map.md` as `new-page` rows.
 
 `type` ∈ page-rewrite | new-page · `status` ∈ paused | open | written | failed | blocked: owner decision ·
 `checked` ∈ ahrefs | web | none
 
 | priority | type | query | keywords_or_terms | volume | kd | intent | checked | ahrefs_note | status | notes |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1 | page-rewrite | / |  |  |  | commercial, informational | none | Not measured. Main term pending in keyword-map.md. | paused | Bulgarian home page. Convert every „ти“ form to formal „Вие“; align the four service cards to the owner list of 2026-11-15; remove em-dashes from title/meta/hero; keep anchors and the example-scenario label. |
-| 2 | page-rewrite | /en/ |  |  |  | commercial, informational | none | Not measured. Main term pending in keyword-map.md. | paused | English pair of `/`: same section ids, same facts, plain professional English, no em-dashes. Write after the Bulgarian page. |
-| 3 | new-page | AI автоматизации (no address yet) |  |  |  | commercial | none | Not measured. | blocked: owner decision | Service 1: chatbots/AI assistants in Messenger/Instagram/WhatsApp, online booking + calendar + reminders, automatic offers (form → PDF), document/invoice automation, connecting systems, dashboards. Needs an address + main term in keyword-map.md (status `planned`). |
-| 4 | new-page | инструмент за съдържание (no address yet) |  |  |  | commercial | none | Not measured. | blocked: owner decision | Service 2: own content tool (SEO articles, images, scheduled social posts, client approves). Needs an address + main term in keyword-map.md. |
-| 5 | new-page | криейтиви всеки месец (no address yet) |  |  |  | commercial | none | Not measured. | blocked: owner decision | Service 3: branded visuals, posts, ad materials monthly. Needs an address + main term in keyword-map.md. |
-| 6 | new-page | маркетинг специалист (no address yet) |  |  |  | commercial | none | Not measured. | blocked: owner decision | Service 4: a real specialist plans, runs and tracks ads/marketing and reports with numbers. Needs an address + main term in keyword-map.md. |
+| 1 | page-rewrite | / | ai автоматизация | 40 |  | commercial | ahrefs | 2026-11-15 | open | Home. „Вие“; align service cards to the 6 service pages (link each); link /diagnostika/ from #losses and the hero; drop the ads section (done); FAQ allowed. |
+| 2 | new-page | /diagnostika/ | безплатна диагностика за бизнеса |  |  | commercial | ahrefs | no measurable term | open | Checker page: rewrite the owner's 29 problems/fixes (docs/content-sources/skriti-problemi.json) to „Вие“; hours stay labelled estimates. Output both the page sections and a `checker` block (see brief). |
+| 3 | new-page | /seo-statii/ | seo копирайтинг | 100 | 0 | commercial | ahrefs | 2026-11-15 | open | Content tool + copywriting. |
+| 4 | new-page | /reklama/ | реклама в гугъл | 400 | 0 | commercial | ahrefs | 2026-11-15 | open | Marketing specialist: Google + Facebook/Instagram ads. |
+| 5 | new-page | /seo-optimizacia/ | seo оптимизация | 600 | 29 | commercial | ahrefs | 2026-11-15 | open | Full SEO: technical, on-page, links. |
+| 6 | new-page | /ai-asistent/ | ai асистент | 150 |  | commercial | ahrefs | 2026-11-15 | open | AI assistants/chatbots. |
+| 7 | new-page | /avtomatizacii/ | автоматизация на бизнес процеси | 10 |  | commercial | ahrefs | 2026-11-15 | open | Booking, offers, documents, systems, dashboards. |
+| 8 | new-page | /socialni-mrezhi/ | маркетинг в социалните мрежи | 150 | 0 | commercial | ahrefs | 2026-11-15 | open | Content tool social posts + monthly creatives. |
+| 9 | page-rewrite | /en/ | ai automation for small business |  |  | commercial | none | not measured | open | After `/`: same section ids, same facts. |

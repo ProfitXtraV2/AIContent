@@ -8,7 +8,7 @@ BizGrow is a consultancy, not an affiliate site: there are **no affiliate links*
 offers and no prices. Every link in this file points to the BizGrow site itself, the booking page
 or the email address.
 
-The site is one page per language today. A link to any address not in this file is a defect:
+The site has the home pages plus the content pages below (planned 2026-11-15; links become live when each page is ported). A link to any address not in this file is a defect:
 write `[LINK NEEDED: <topic>]` in a draft instead, and never let it reach the final content file.
 When the owner's session adds pages (rows with status `planned` or `live` in `keyword-map.md`),
 add them to the table below in the same change.
@@ -21,6 +21,13 @@ add them to the table below in the same change.
 |---|---|---|---|
 | / | Home (Bulgarian, default) | bg | orientation; BizGrow in general |
 | /en/ | Home (English) | en | the English pair of `/`; never as an editorial link inside Bulgarian copy |
+| /ai-asistent/ | AI асистент и чатбот за бизнеса | bg | AI assistants/chatbots in Messenger, Instagram, WhatsApp, on the site |
+| /avtomatizacii/ | Автоматизация на бизнес процеси | bg | booking, reminders, offers, documents, invoices, connected systems, dashboards |
+| /seo-statii/ | SEO копирайтинг и SEO статии | bg | the content tool: SEO articles, product descriptions, copywriting |
+| /socialni-mrezhi/ | Поддръжка на социални мрежи и криейтиви | bg | scheduled social posts, monthly creatives, visuals for ads |
+| /reklama/ | Реклама в Google и Facebook | bg | the marketing specialist: Google Ads, Facebook/Instagram ads, reporting |
+| /seo-optimizacia/ | SEO оптимизация на сайтове | bg | technical SEO, on-page optimisation, links |
+| /diagnostika/ | Безплатна диагностика (checker) | bg | the free diagnosis; "see where your business loses time" |
 
 ## Section anchors (same ids on both locales)
 
@@ -31,7 +38,6 @@ add them to the table below in the same change.
 | #services | Services | pointing to the service list |
 | #process | Three steps | how the work goes |
 | #results | Example scenarios (hypothetical, labelled) | what a result can look like; never as "client results" |
-| #ads | Separate ads page | only where the page already mentions it |
 | #reasons | Why this offer (GDPR, no long-term contracts, transparent prices) | policies |
 | #audit | CTA band: the first step is free | the free diagnosis |
 | #contact | Contact: booking, email, form | contacting BizGrow |

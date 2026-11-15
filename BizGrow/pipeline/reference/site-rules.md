@@ -78,13 +78,22 @@ Pipeline stance: prefer to avoid even negated forms of a banned term.
 ## 5. Page structure
 
 - Home pages (`/`, `/en/`) keep the sections and anchors of spec §3: `#hero`, `#losses`,
-  `#services`, `#process`, `#results`, `#ads`, `#reasons`, `#audit`, `#contact`. The nav links
+  `#services`, `#process`, `#results`, `#reasons`, `#audit`, `#contact` (`#ads` was removed by
+  the owner's session on 2026-11-15). The nav links
   `#services`, `#process`, `#contact`. Renaming or removing an anchor needs the brief.
 - Both locales have identical sections; the English page uses the same section ids.
 - The current site lists four service cards (Автоматизации, SEO копирайтинг, Креативи, Решения по
   поръчка). The owner-confirmed services (2026-11-15) are AI автоматизации, собствен инструмент
-  за съдържание, криейтиви всеки месец, маркетинг специалист. A home-page rewrite aligns the
-  cards to the owner list and records the change as an `[[owner_items]]` entry.
+  за съдържание, криейтиви всеки месец, маркетинг специалист and SEO оптимизация. A home-page
+  rewrite aligns the cards to the service pages in `BizGrow/keyword-map.md` (one card per page,
+  each card linking to its page) and records the change as an `[[owner_items]]` entry.
+- Multi-page site (2026-11-15): content pages are Next.js routes rendered from a typed
+  `ContentPage` object (`site/src/content/types.ts` on branch `feature/seo-improvements`):
+  `meta.title`, `meta.description`, `label` (breadcrumb/card name), `summary` (one sentence for
+  cards), optional `eyebrow`, `h1`, `lead`, `sections[]` (`id`, `title`, `paragraphs[]`,
+  optional `bullets[]`), `faq[]`, `related[]` (3 paths), `service` (schema name). Inline syntax:
+  `**bold**` and `[label](/path/)` or `[label](#anchor)` only. Internal links use root paths
+  from `BizGrow/conversion-links.md`; the site makes them relative.
 - Service pages (new-page): see `agents/outline-architect.md` default order; about 5–8 H2s.
 - Card copy: title + 1–2 sentence body; list items one sentence or one noun phrase.
 

@@ -45,8 +45,34 @@ SERVICES (four, owner-confirmed 2026-11-15):
 3. **Криейтиви всеки месец** — branded visuals, posts and advertising materials every month.
 4. **Маркетинг специалист** — a real specialist plans, runs and tracks advertising and marketing
    and reports with numbers.
+5. **SEO оптимизация** (owner-confirmed later on 2026-11-15: "full SEO too") — SEO optimisation of
+   websites: technical SEO, on-page optimisation and links. Nothing more specific (tools, audits'
+   length, link counts, positions) unless the owner adds it.
+
+WHAT THE SERVICES CAN DO FOR SPECIFIC PROBLEMS (owner content, the "Скрити проблеми" checker,
+source `docs/content-sources/skriti-problemi.json` in the biz-grow repo, owner-provided
+2026-11-15). These capabilities may be stated as written there: an AI assistant answering in
+Messenger/Instagram/WhatsApp around the clock and collecting the contact when it cannot help; an
+AI helper trained on the business's own information; online booking; bookings synced to a
+calendar with automatic reminders and a waitlist; a guest AI assistant answering in any language
+with live availability and prices; automatic repair-status messages; an AI connected to the
+courier giving parcel status; AI qualifying property enquiries and offering viewing slots;
+automatic offers from a form to a PDF; an offer from photos and a short form; connecting systems
+so data fills itself in; automating documents; contract templates with auto-fill; publishing a
+listing once to several portals; SEO product descriptions for whole collections; a real-time
+dashboard; SEO articles for the client's industry and city, published after approval; social
+posts (text + image) on a schedule; AI images and branded creatives; watching Google reviews and
+preparing a reply for approval; keeping the Google Business profile up to date (posts, photos,
+info) monthly; updating menu/prices everywhere from one place; campaigns set up by the marketing
+specialist showing what each euro returns; automatic messages for abandoned carts; data-driven
+campaigns; an AI meeting summary with tasks and next steps. The per-problem hours in that file
+are the owner's rough estimates „на база типични случаи“ and may only appear with that label.
 Do not describe how a service works beyond these words (no named vendors, platforms, models,
 integrations, turnaround times or volumes) unless the owner adds it to this canon.
+
+PRICES (owner decision 2026-11-15): explain how the price is formed, never a number or range:
+a one-off price per fix, given in the report after the free diagnosis; it depends on what is
+built; no long-term contracts. Service pages may say this; they may not say „от X лв./€“.
 
 PROCESS:
 1. Free diagnosis and a 30-minute call (безплатна диагностика и 30-минутен разговор).
@@ -65,10 +91,12 @@ retail and showrooms, clinics and practices, car services and tradesmen, real es
 CONTACT: booking through a Google Calendar appointment link, always the token `{{BOOKING_URL}}`;
 email always the token `{{EMAIL}}`. Never write the URL or the address itself.
 
-CURRENT SITE COPY NOT IN THE 2026-11-15 OWNER LIST (use only if the current page already has it,
-keep it exactly, and raise an `[OWNER CONFIRM: …]` flag): the "8 short questions / 2-minute AI
-diagnosis on the site" questionnaire, „за дни, не месеци“, the ads landing page with UTM data,
-and the example result rows (restaurant, online shop, dental clinic). The example rows are
+OWNER DECISIONS ON EXISTING SITE COPY (2026-11-15): the "8 short questions / 2-minute AI
+diagnosis on the site" questionnaire is REPLACED by the free diagnosis page `/diagnostika/`
+(the "Скрити проблеми" checker: pick the business type, tick the problems, see rough hours a
+week, book the call); never mention "8 questions" again. The ads landing page section was REMOVED.
+Still needing an `[OWNER CONFIRM: …]` flag if kept: „за дни, не месеци“ and the example result
+rows (restaurant, online shop, dental clinic). The example rows are
 explicitly hypothetical and must keep the label „Примерни сценарии по нашия метод, не данни от
 конкретни клиенти.“ (or an equally explicit wording).
 

@@ -1,14 +1,9 @@
 ---
 name: bizgrow-content-pipeline
-description: "BizGrow page pipeline — PAUSED at onboarding on 2026-11-15, manual trigger only, do not run until the owner un-pauses it in writing. BizGrow is a practical AI and automation consultancy for small businesses in Bulgaria (Next.js static site, Bulgarian at /, English at /en/). Rewrites an existing page (page-rewrite) or drafts a page listed in BizGrow/keyword-map.md (new-page), as a Markdown content file with TOML front matter that a human ports into the site's TypeScript dictionaries. B2B claim rules, professional voice in formal „Вие“ (plain professional English on /en/). Synthesis → Outline → Author → Professional edit → SEO → Brand Gate → light re-check → verification + content file → Gemini check, then STOPS for the human."
+description: "BizGrow page pipeline — manual trigger only, not scheduled (un-paused by the owner for manual runs on 2026-11-15). BizGrow is a practical AI and automation consultancy for small businesses in Bulgaria (Next.js static site, Bulgarian at /, English at /en/). Rewrites an existing page (page-rewrite) or drafts a page listed in BizGrow/keyword-map.md (new-page), as a Markdown content file with TOML front matter that a human ports into the site's TypeScript dictionaries. B2B claim rules, professional voice in formal „Вие“ (plain professional English on /en/). Synthesis → Outline → Author → Professional edit → SEO → Brand Gate → light re-check → verification + content file → Gemini check, then STOPS for the human."
 ---
 
-> ## ⏸ PAUSED — at onboarding on 2026-11-15
-> **Manual trigger only. Do not run this pipeline, and do not schedule it, until the owner
-> un-pauses it in writing.** On 2026-11-15 the owner's session asked for the BizGrow pipeline
-> only ("do NOT write any site copy yet"). If you were asked to run it and there is no written
-> un-pause from the owner (dated after 2026-11-15), stop and say so. How to un-pause: see the
-> banner at the top of `BizGrow/automation/daily-run.md`.
+> **Manual trigger only, not scheduled.** Un-paused for manual runs by the owner on 2026-11-15 ("the seo content need to go through contentai, but the professional version … use that analysis to help redo the content of the site"); still not scheduled.
 
 # BizGrow Content Pipeline (port of the ELLE Dental professional-register line)
 # Single brand: BizGrow — AI and automation consultancy for small businesses in Bulgaria.
@@ -124,8 +119,8 @@ Slugs: `home` = `/` (bg), `en-home` = `/en/` (en). New pages use the slug listed
 
 ## Running one page
 
-STEP 0 — BRIEF. Confirm the pause has been lifted in writing (else stop). Read the current copy
-from the `biz-grow` repo (`desislavamit/biz-grow`, branch `main` unless the owner names another):
+STEP 0 — BRIEF. Read the current copy
+from the `biz-grow` repo (`desislavamit/biz-grow`, branch `main` unless the owner names another; the 2026-11-15 SEO rewrite reads branch `feature/seo-improvements`, local worktree `~/Work/biz-grow-seo`):
 `site/src/i18n/dictionaries/<locale>.ts`, the page component(s) that render it
 (`site/src/components/*.tsx`, `site/src/app/(bg|en)/…/page.tsx`), `site/src/i18n/config.ts`
 (booking URL and email that the tokens stand for) and `docs/ai-consultancy-spec.md`. Write

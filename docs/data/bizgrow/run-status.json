@@ -5,9 +5,9 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": null,
-  "note": "PAUSED at onboarding on 2026-11-15 — pipeline only, no runs until the owner un-pauses it in writing",
+  "note": "manual runs only — not scheduled (un-paused by the owner 2026-11-15)",
   "progress": {
-    "phase": "paused",
+    "phase": "idle",
     "stage": null,
     "stage_index": null
   }

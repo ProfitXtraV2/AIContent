@@ -1,7 +1,6 @@
 # Research Topics Bank — BizGrow (AGENT-maintained · Ahrefs-enriched)
 
-⏸ **PAUSED at onboarding on 2026-11-15** — no research runs, no Ahrefs calls, until the owner
-un-pauses the brand in writing (see `BizGrow/automation/daily-run.md`).
+Manual trigger only. Un-paused for manual runs by the owner on 2026-11-15 ("the seo content need to go through contentai, but the professional version … use that analysis to help redo the content of the site"); still not scheduled.
 
 This bank holds possible NEW pages only. Existing pages are tracked in `topic-backlog.md` as
 `page-rewrite` rows. A new page is never written from this bank until its address and main term

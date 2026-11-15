@@ -271,24 +271,23 @@ BZ_SAMPLE = """# Content Queue — BizGrow
 BZ_BACKLOG = """# Topic Backlog — BizGrow
 | priority | type | query | keywords_or_terms | volume | kd | intent | checked | ahrefs_note | status | notes |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1 | page-rewrite | / |  |  |  | commercial | none | Not measured. | paused | |
+| 1 | page-rewrite | / | ai автоматизация | 40 |  | commercial | ahrefs | | open | |
 | 3 | new-page | AI автоматизации (no address yet) |  |  |  | commercial | none | Not measured. | blocked: owner decision | |
 """
 
 
-def test_bizgrow_registered_and_paused():
+def test_bizgrow_registered_manual_only():
     status = bd.build_status(bd.parse_queue(BZ_SAMPLE, brand="bizgrow"),
                              backlog=bd.parse_backlog(BZ_BACKLOG),
                              target=bd.BRANDS["bizgrow"]["target"], brand="bizgrow")
     meta = status["meta"]
     assert meta["brand"] == "BizGrow"
-    assert meta["schedule"]["paused"] is True
-    assert "PAUSED" in meta["schedule"]["note"]
+    assert "paused" not in meta["schedule"]
+    assert "manual" in meta["schedule"]["note"]
     assert "cron_utc_hours" not in meta["schedule"]
     assert status["articles_base_url"].endswith("/tree/main/BizGrow/articles/")
     assert status["buffer"] == {"count": 1, "target": 3, "deficit": 2, "ok": False}
-    assert [r["status"] for r in status["backlog"]] == ["paused", "blocked: owner decision"]
-    assert status["backlog"][0]["opportunity"] is None   # nothing measured, never estimated
+    assert [r["status"] for r in status["backlog"]] == ["open", "blocked: owner decision"]
 
 
 def test_bizgrow_links_isolated():
