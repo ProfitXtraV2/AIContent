@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 3,
+  "count": 4,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -17,6 +17,13 @@
       "status": "approved"
     },
     {
+      "slug": "biatlon-pravila",
+      "title": "Биатлон: правила, дисциплини и наказания | Всички Казина",
+      "date_modified": "2026-11-08",
+      "content_hash": "c27057e62309ea45b0ed6db1144df1908ed32c0e08daa6bafec454b7c6967d15",
+      "status": "approved"
+    },
+    {
       "slug": "vechno-derbi-levski-cska",
       "title": "Вечното дерби Левски – ЦСКА: история, статистика и рекорди | Всички Казина",
       "date_modified": "2026-11-11",
@@ -24,5 +31,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-11-15T13:01:40Z"
+  "generated_utc": "2026-11-15T13:02:21Z"
 }

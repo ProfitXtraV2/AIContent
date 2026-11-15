@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-15T13:01:40Z",
+  "generated_utc": "2026-11-15T13:02:21Z",
   "buffer": {
     "count": 224,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 221,
-    "approved": 3,
+    "drafted": 220,
+    "approved": 4,
     "posted": 110,
     "failed": 1
   },
@@ -6705,7 +6705,7 @@
     },
     {
       "id": "vk-0328",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Биатлон — правила, дисциплини и наказания",
       "keywords_or_terms": "биатлон, биатлон правила, биатлон дисциплини",
