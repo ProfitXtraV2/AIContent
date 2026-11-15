@@ -262,6 +262,44 @@ def test_elledental_links_isolated():
     assert bd.BRANDS["elledental"]["out"] == ("docs", "data", "elledental", "status.json")
 
 
+BZ_SAMPLE = """# Content Queue — BizGrow
+| id | status | type | query | keywords_or_terms | volume | kd | source | drafted_date | posted_date | folder | pr | gemini | notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| bz-0001 | drafted | page-rewrite | / | ai автоматизации |  |  | backlog | 2026-12-01 |  | 2026-12-01-home | #600 | skipped |  |
+"""
+
+BZ_BACKLOG = """# Topic Backlog — BizGrow
+| priority | type | query | keywords_or_terms | volume | kd | intent | checked | ahrefs_note | status | notes |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | page-rewrite | / |  |  |  | commercial | none | Not measured. | paused | |
+| 3 | new-page | AI автоматизации (no address yet) |  |  |  | commercial | none | Not measured. | blocked: owner decision | |
+"""
+
+
+def test_bizgrow_registered_and_paused():
+    status = bd.build_status(bd.parse_queue(BZ_SAMPLE, brand="bizgrow"),
+                             backlog=bd.parse_backlog(BZ_BACKLOG),
+                             target=bd.BRANDS["bizgrow"]["target"], brand="bizgrow")
+    meta = status["meta"]
+    assert meta["brand"] == "BizGrow"
+    assert meta["schedule"]["paused"] is True
+    assert "PAUSED" in meta["schedule"]["note"]
+    assert "cron_utc_hours" not in meta["schedule"]
+    assert status["articles_base_url"].endswith("/tree/main/BizGrow/articles/")
+    assert status["buffer"] == {"count": 1, "target": 3, "deficit": 2, "ok": False}
+    assert [r["status"] for r in status["backlog"]] == ["paused", "blocked: owner decision"]
+    assert status["backlog"][0]["opportunity"] is None   # nothing measured, never estimated
+
+
+def test_bizgrow_links_isolated():
+    status = bd.build_status([], target=3, brand="bizgrow")
+    links = status["meta"]["links"]
+    assert links["site"] == "https://desislavamit.github.io/biz-grow/"
+    assert "routine" not in links
+    assert "BizGrow" in links["backlog"] and "BizGrow" in links["queue"]
+    assert bd.BRANDS["bizgrow"]["out"] == ("docs", "data", "bizgrow", "status.json")
+
+
 def test_vsichkikazina_links_unchanged():
     """VsichkiKazina meta.links must keep site vsichkikazina.bg and routine present."""
     rows = bd.parse_queue(SAMPLE)

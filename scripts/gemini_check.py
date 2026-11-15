@@ -6,7 +6,7 @@ article to Gemini with the Step-7 prompt and prints Gemini's raw verdict + recom
 to stdout. The caller (daily-run.md Step 7) reads the verdict, decides whether to apply the
 recommendations through a fresh Humaniser pass, and re-checks.
 
-Usage:  python3 scripts/gemini_check.py <article_file> [model] [--brand dentalvia|elledental]
+Usage:  python3 scripts/gemini_check.py <article_file> [model] [--brand dentalvia|elledental|bizgrow]
 Exit:   0 = ok (verdict on stdout) · 2 = unavailable/error (caller falls back to skip)
 
 stdlib-only (urllib) so no pip is needed in the cloud image.
@@ -26,6 +26,7 @@ BRAND_PROMPTS = {
     "vsichkikazina": "VsichkiKazina/pipeline/prompts/step-7-gemini-check.md",
     "dentalvia": "DentalVia/pipeline/prompts/step-7-gemini-check.md",
     "elledental": "ElleDental/pipeline/prompts/step-7-gemini-check.md",
+    "bizgrow": "BizGrow/pipeline/prompts/step-7-gemini-check.md",
 }
 
 

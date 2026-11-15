@@ -1,0 +1,119 @@
+{
+  "generated_utc": "2026-11-15T17:44:36Z",
+  "buffer": {
+    "count": 0,
+    "target": 3,
+    "deficit": 3,
+    "ok": false
+  },
+  "counts": {
+    "in-progress": 0,
+    "drafted": 0,
+    "approved": 0,
+    "posted": 0,
+    "failed": 0
+  },
+  "rows": [],
+  "backlog": [
+    {
+      "priority": "1",
+      "type": "page-rewrite",
+      "query": "/",
+      "keywords_or_terms": "",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial, informational",
+      "checked": "none",
+      "ahrefs_note": "Not measured. Main term pending in keyword-map.md.",
+      "status": "paused",
+      "notes": "Bulgarian home page. Convert every „ти“ form to formal „Вие“; align the four service cards to the owner list of 2026-11-15; remove em-dashes from title/meta/hero; keep anchors and the example-scenario label.",
+      "opportunity": null
+    },
+    {
+      "priority": "2",
+      "type": "page-rewrite",
+      "query": "/en/",
+      "keywords_or_terms": "",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial, informational",
+      "checked": "none",
+      "ahrefs_note": "Not measured. Main term pending in keyword-map.md.",
+      "status": "paused",
+      "notes": "English pair of `/`: same section ids, same facts, plain professional English, no em-dashes. Write after the Bulgarian page.",
+      "opportunity": null
+    },
+    {
+      "priority": "3",
+      "type": "new-page",
+      "query": "AI автоматизации (no address yet)",
+      "keywords_or_terms": "",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial",
+      "checked": "none",
+      "ahrefs_note": "Not measured.",
+      "status": "blocked: owner decision",
+      "notes": "Service 1: chatbots/AI assistants in Messenger/Instagram/WhatsApp, online booking + calendar + reminders, automatic offers (form → PDF), document/invoice automation, connecting systems, dashboards. Needs an address + main term in keyword-map.md (status `planned`).",
+      "opportunity": null
+    },
+    {
+      "priority": "4",
+      "type": "new-page",
+      "query": "инструмент за съдържание (no address yet)",
+      "keywords_or_terms": "",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial",
+      "checked": "none",
+      "ahrefs_note": "Not measured.",
+      "status": "blocked: owner decision",
+      "notes": "Service 2: own content tool (SEO articles, images, scheduled social posts, client approves). Needs an address + main term in keyword-map.md.",
+      "opportunity": null
+    },
+    {
+      "priority": "5",
+      "type": "new-page",
+      "query": "криейтиви всеки месец (no address yet)",
+      "keywords_or_terms": "",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial",
+      "checked": "none",
+      "ahrefs_note": "Not measured.",
+      "status": "blocked: owner decision",
+      "notes": "Service 3: branded visuals, posts, ad materials monthly. Needs an address + main term in keyword-map.md.",
+      "opportunity": null
+    },
+    {
+      "priority": "6",
+      "type": "new-page",
+      "query": "маркетинг специалист (no address yet)",
+      "keywords_or_terms": "",
+      "volume": "",
+      "kd": "",
+      "intent": "commercial",
+      "checked": "none",
+      "ahrefs_note": "Not measured.",
+      "status": "blocked: owner decision",
+      "notes": "Service 4: a real specialist plans, runs and tracks ads/marketing and reports with numbers. Needs an address + main term in keyword-map.md.",
+      "opportunity": null
+    }
+  ],
+  "research": [],
+  "articles_base_url": "https://github.com/ProfitXtraV2/AIContent/tree/main/BizGrow/articles/",
+  "meta": {
+    "brand": "BizGrow",
+    "schedule": {
+      "note": "PAUSED by owner on 2026-11-15 — manual trigger only, do not run until the owner un-pauses it in writing",
+      "paused": true
+    },
+    "links": {
+      "repo": "https://github.com/ProfitXtraV2/AIContent",
+      "prs": "https://github.com/ProfitXtraV2/AIContent/pulls",
+      "site": "https://desislavamit.github.io/biz-grow/",
+      "backlog": "https://github.com/ProfitXtraV2/AIContent/blob/main/BizGrow/topic-backlog.md",
+      "queue": "https://github.com/ProfitXtraV2/AIContent/blob/main/BizGrow/content-queue.md"
+    }
+  }
+}

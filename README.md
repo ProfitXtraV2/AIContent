@@ -6,7 +6,7 @@ through a multi-stage editorial pipeline, and delivers each one as a GitHub Pull
 for a human to review and publish — keeping a **rolling buffer of ready-to-post drafts** at
 all times.
 
-It is currently configured for three brands:
+It is currently configured for four brands:
 
 - **Всички Казина** (`vsichkikazina.bg`, Bulgarian online-casino comparison) — fully
   automated; a scheduled cloud routine runs daily at 07:00 Europe/Sofia.
@@ -19,6 +19,13 @@ It is currently configured for three brands:
   `ElleDental/automation/daily-run.md`). It rewrites the site's 28 existing pages as
   WebPortals-ready `content/<slug>.md` drafts for doctor review, in a professional clinic voice
   that deliberately departs from the shared humaniser (see `ElleDental/pipeline/SKILL.md`).
+- **BizGrow** (AI and automation consultancy for small businesses in Bulgaria; Next.js site,
+  Bulgarian at `/`, English at `/en/`) — **⏸ PAUSED at onboarding on 2026-11-15, manual trigger
+  only**: pipeline only, no copy written yet; it must not run or be scheduled until the owner
+  un-pauses it in writing (banner at the top of `BizGrow/automation/daily-run.md`). It drafts
+  pages as Markdown + TOML porting files for the site's TypeScript dictionaries, in a
+  professional B2B voice (formal „Вие“) cloned from the ELLE Dental line, with B2B claim rules
+  instead of medical ones (see `BizGrow/pipeline/SKILL.md`).
 
 The layout is multi-brand by design (see [Adding a brand](#adding-a-new-brand)).
 
@@ -194,6 +201,17 @@ AIContent/
     ├── research-topics.md        # possible new pages (owner approval required)
     ├── conversion-links.md       # the 28 site addresses + /kontakti/#zapazi
     └── articles/<YYYY-MM-DD-slug>/# per-page working dir; deliverable content/<slug>.md
+└── BizGrow/                      # ── fourth brand (AI/automation consultancy, bg + en) — ⏸ PAUSED 2026-11-15 ──
+    ├── pipeline/                 # professional B2B voice („Вие“), B2B claim gate, bg + en authors
+    │   └── reference/site-rules.md #   copy of the biz-grow site rules (site repo / owner wins)
+    ├── automation/
+    │   └── daily-run.md          # PAUSED banner + MANUAL TRIGGER ONLY; how to un-pause
+    ├── content-queue.md          # page lifecycle board
+    ├── topic-backlog.md          # / and /en/ as page-rewrite rows (paused) + 4 blocked service pages
+    ├── research-topics.md        # possible new pages (keyword-map `planned` required)
+    ├── keyword-map.md            # one main term per address (filled by the owner's session)
+    ├── conversion-links.md       # pages, section anchors, {{BOOKING_URL}}, {{EMAIL}}
+    └── articles/<YYYY-MM-DD-slug>/# per-page working dir; deliverable content/<slug>.md (porting source)
 ```
 
 ## Data model & schemas
@@ -287,10 +305,12 @@ Static, data-driven (`docs/index.html` reads `docs/data/status.json` + `run-stat
 | Всички Казина | https://profitxtrav2.github.io/AIContent/ |
 | Dentalvia | https://profitxtrav2.github.io/AIContent/dentalvia/ |
 | ELLE Dental (⏸ paused) | https://profitxtrav2.github.io/AIContent/elledental/ |
+| BizGrow (⏸ paused) | https://profitxtrav2.github.io/AIContent/bizgrow/ |
 
 Rebuild a dashboard: `python3 scripts/build_dashboard.py` (VsichkiKazina),
-`python3 scripts/build_dashboard.py dentalvia` (Dentalvia) or
-`python3 scripts/build_dashboard.py elledental` (ELLE Dental).
+`python3 scripts/build_dashboard.py dentalvia` (Dentalvia),
+`python3 scripts/build_dashboard.py elledental` (ELLE Dental) or
+`python3 scripts/build_dashboard.py bizgrow` (BizGrow).
 
 ## Local development
 
@@ -331,6 +351,9 @@ onboarded as a manual-trigger-only brand alongside the fully-scheduled VsichkiKa
 **ElleDental** (`ElleDental/`) is the second example: a clinic site whose output is a page file
 for another repo (not a blog article), onboarded **paused** (banner in `daily-run.md` and
 `SKILL.md`, `paused` in `scripts/build_dashboard.py` BRANDS, backlog rows `paused`).
+**BizGrow** (`BizGrow/`) is the third example: a clone of the ELLE Dental professional-register
+pipeline for a B2B site in two locales, also onboarded **paused**, with a `keyword-map.md` that
+gates which addresses may be written.
 
 To onboard another site:
 1. Create a sibling folder (e.g. `NewBrand/`) mirroring `VsichkiKazina/` — its own

@@ -8,7 +8,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import gemini_check as gc
 import gemini_image_review as gir
 
-BRANDS = ["vsichkikazina", "dentalvia", "elledental"]
+BRANDS = ["vsichkikazina", "dentalvia", "elledental", "bizgrow"]
 
 
 @pytest.mark.parametrize("module", [gc, gir], ids=["gemini_check", "gemini_image_review"])
@@ -32,6 +32,21 @@ def test_elledental_text_prompt_is_bulgarian_clinic():
 def test_elledental_image_prompt_extracted():
     prompt = gir._prompt("elledental")
     assert "ELLE Dental" in prompt
+    assert "## Accept / iterate" not in prompt
+
+
+def test_bizgrow_text_prompt_is_professional_b2b():
+    prompt = gc._prompt("bizgrow")
+    assert "BizGrow" in prompt and "Bulgarian" in prompt
+    assert "„Вие“" in prompt and "„ти“" in prompt      # register check is part of the prompt
+    assert "{{BOOKING_URL}}" in prompt                  # tokens are untouchable
+    assert "URGENT_CARE" not in prompt                  # no clinic rules leaked in
+    assert "## Accept / iterate" not in prompt
+
+
+def test_bizgrow_image_prompt_extracted():
+    prompt = gir._prompt("bizgrow")
+    assert "BizGrow" in prompt
     assert "## Accept / iterate" not in prompt
 
 
