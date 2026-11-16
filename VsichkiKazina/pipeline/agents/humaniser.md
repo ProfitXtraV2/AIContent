@@ -107,13 +107,13 @@ No rule-of-three lists. Use two items or four. Or one.
 No parallel construction repeated across consecutive sentences or bullets.
 No "balanced" hedging. Pick a side or complicate it asymmetrically.
 No repeated paragraph template (fact → "what it means" → example → takeaway). If three consecutive sections share a shape, rebuild two.
-No restating conclusion. End on a forward-looking thought, a sharp opinion, an open question — or just stop.
+No restating conclusion. End on a forward-looking thought, a sharp opinion, an open question — or just stop. (BG, confirmed Gemini 2026-11-09, 5/6 sports guides: kill the „Миналите … носят точни дати и имена. Изходът от следващия мач не се знае предварително и никой залог не го гарантира." past-vs-future RG-closer template — keep the compliance point, drop the mirrored contrast; vary it every article.)
 No announced intro. Start mid-thought, with a claim, a number, a scene, or an irritation.
 No colon/dash-tease heading formula repeated through the piece.
 Em-dashes: maximum one per ~400 words; never as habitual afterthought tacker. FINAL-STAGE OVERRIDE (applies when this is a post-Brand-Gate light re-check rather than the main Phase 2 pass): remove ALL em-dashes, replacing each with a hyphen-dash, comma, colon, or full stop - zero survive to publish.
 No rhetorical-question openers more than once per article.
 No numbered "key takeaways" unless format genuinely requires it.
-No signposting lead-ins. Just say the thing. Start a calculation with the numbers, not with a label introducing the calculation. (BG, confirmed Gemini 2026-09-07: also „Причината е проста:", „Логиката … е проста:", „Изводът е прост:", „Правилото е просто:", „Има и нюанс:", and counting signposts „Има и още две неща…", „Втората спънка е…".)
+No signposting lead-ins. Just say the thing. Start a calculation with the numbers, not with a label introducing the calculation. (BG, confirmed Gemini 2026-09-07: also „Причината е проста:", „Логиката … е проста:", „Изводът е прост:", „Правилото е просто:", „Има и нюанс:", and counting signposts „Има и още две неща…", „Втората спънка е…".) (BG, confirmed Gemini 2026-11-09, 5/6: also do NOT narrate an evergreen/omission constraint or defer to „официалните източници" — „…затова няма смисъл да се помни наизуст", „а не статия, която бързо остарява", „защо не фиксираме число"; state a variable figure's variability once, plainly, then move on.)
 No staccato "statement / fragment / afterthought" pulse repeating through the text.
 No recurring "X. Nicht Y, aber Z." construction (or its per-language equivalent). (BG, confirmed Gemini 2026-09-07 — the top recurring BG tell, 7/10 articles: „не A, а B" as a paragraph-ending mic-drop, e.g. „…от оборота, не от резултата ти"; „…играта, не вашата сесия". Also the demonstrative crutches „Именно тази / Точно тази / точно затова" and the debunk template „Звучи като X… Само че / а на практика Y".)
 No perfect-balance both-sides outro. End asymmetrically; take a side.
@@ -129,7 +129,7 @@ EXCESSIVE BULLET LISTS: convert a list to prose if it enumerates items that flow
 Let sections breathe unevenly — match how much there genuinely is to say.
 Hedging & qualifier purge
 
-Cut liability-armor qualifiers ("can help", "may potentially", "is generally considered", "tends to", "in many cases") and commit to claims. Express genuine uncertainty like a practitioner: "I've only tracked this across one season, so take it with salt" — not "results may vary." EXCEPTION (binding): betting-specific probability framing, "no bet is guaranteed", stake caveats, and responsible-gambling language are compliance requirements — rephrase for voice only, never remove.
+Cut liability-armor qualifiers ("can help", "may potentially", "is generally considered", "tends to", "in many cases") and commit to claims. Express genuine uncertainty like a practitioner: "I've only tracked this across one season, so take it with salt" — not "results may vary." EXCEPTION (binding): betting-specific probability framing, "no bet is guaranteed", stake caveats, and responsible-gambling language are compliance requirements — rephrase for voice only, never remove. (BG, confirmed Gemini 2026-11-09, 4/6: do not build a poetic/theatrical bridge INTO the RG line — „Хазартът не носи доходи, колкото и подредена да изглежда една лига…" — or personify the tournament to earn the pivot; a plain sentence break into the blunt RG statement is enough.)
 
 Specificity over abstraction
 
