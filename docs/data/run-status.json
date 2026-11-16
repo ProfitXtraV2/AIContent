@@ -1,30 +1,17 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-11-15T07:14:39Z",
-  "run_finished_utc": "2026-11-15T07:39:34Z",
-  "articles_written": 1,
-  "prs_opened": [
-    362
-  ],
-  "run_url": "https://claude.ai/code/session_01AwuYFUXdaP8H4EAfVAgkSF",
-  "note": "daily run 2026-11-15 — throttled intake (MAX_PER_RUN=1). Reconcile clean on entry (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review NOT due (marker 2026-11 = current). WROTE 1 NEW guide vk-0335 „ЦСКА София — история, трофеи и легенди на клуба“ (PR #362) — the single BIGGEST winnable keyword in the whole backlog (цска 127000/kd26 < cap; fresh Ahrefs re-pull this run confirms 129000/kd17, even stronger). Top open P0 backlog (owner-approved Bulgarian-football sweep). Evergreen club profile (guides-only: 0 operator/НАП/affiliate; 0 current standings/results/fixtures/transfers/odds; 0 predictions). SENSITIVE правоприемствен спор (ПФК ЦСКА-София vs ЦСКА 1948) handled NEUTRAL + cited, no side taken. Facts cross-verified EN+BG Wikipedia: основан 5.05.1948 (Септември+ЦДВ); имена ЦДВ->ЦДНА->ЦСКА (от 1962; кратко Средец 1985-88); 31 титли (нац. рекорд, посл. 2007/08); над 20 Купи (списък 22; 1984/85 отнета -> „над двайсет“); 5 Суперкупи (посл. 2026); 2 полуфинала КЕШ (1966/67 Интер; 1981/82 Байерн 4:3/0:4); полуфинал КНК 1988/89 Барселона; 8:1 Динамо Букурещ (най-крупна, 1956/57); стадион „Българска армия“ (разрушаване от 2024, нов стадион в строеж); легенди Стоичков(Златна обувка 1989,38 гола)/Жеков/Л.Пенев/Костадинов/Д.Пенев/Милев/Чакмаков; 2015-16: отказан лиценз А група -> В група -> 2.06.2016 ПФК ЦСКА-София (Литекс+Чавдар Етрополе), Гриша Ганчев; старото ПФК ЦСКА АД фалира; ЦСКА 1948 отделен клуб. Dedup vs queue(0 ЦСКА София)+live sitemap(179, 0 cska)=clean; DISTINCT from ЦСКА 1948 (vk-0332) + derby (vk-0331). Gate 95 PASS 0-crit (0 em-dash body+meta, 0 AI connectives/signposting, asymmetric close, 5 internal links). Gemini Step-7 TEXT=GEMINI_ERROR HTTP 402 (prepayment credits depleted, persistent since 2026-11-10) -> skipped per daily-run; kept initial 05b (keep-best); gemini=skipped, 0 passes. Step-8 img:1 (hand-authored infographic cska-sofia-trofei-i-evropa.svg, 10 числа 1:1 vs 05b, Chromium render clean 0 overlap/clip; AI hero skipped 402; Gemini image review 402 -> manual integrity PASS, 0 logos/faces/fabricated numbers/glamour). ~956 думи, 2 [VERIFY] (капацитет „Българска армия“ 18520/22015/22995; статус нов стадион към есента 2026), 5 internal links (zakonno-li-e/bonus-ruletka-sport-vsichki/blog-futbol/blog-responsible-gambling/otgovorna-igra) + otgovorna-igra footer; 0 affiliate (0 оператори). KEYWORD RESEARCH: Ahrefs UNITS RESET this run (Lite monthly, 0/200000 used, next reset 2026-12-15) — prior runs were deferring fresh pulls waiting for this. Did a live Ahrefs bg re-pull on top backlog keywords: цска 129000/kd17 (confirms the pick), григор димитров 37000/kd3 (UP from 31000/kd7 — NEXT-BEST single pick), ботев пловдив 30000/kd17, ливърпул 56000/kd15, шампионска лига 49000/kd13, манчестър юнайтед 21000/kd11. MATERIAL CORRECTIONS (metric columns enriched, status/priority untouched): черно море варна 14000/kd24 -> 800/kd52 (demoted: предишните 14000 от многозначния „черно море“/морето, club query е тънък + над cap), славия софия 8700/kd12 -> 500/kd12 (club-specific тънък). Research bank: 3 candidates (дартс/видео покер/реми) recent+valid, kept. BOARD: content-queue vk-0335 drafted (gemini skipped, PR #362, img:1); backlog ЦСКА София row -> written; 3 backlog rows metric-refreshed; dashboard rebuilt (buffer 224/10). FIXED latent build_dashboard.py bug: pillars.sort used raw string volume -> TypeError when a Pillar row (черно море kd52) carries a non-empty numeric volume; now coerces via _num(). FEED STILL HELD (unchanged, persistent since 2026-11-11): build_feed again reintroduces the FORBIDDEN author bio „Георги Тодоров тества ... казино сайтове ... със собствен бюджет“ into published/ for approved article elektronna-ruletka — markets/bg/author.md Tier 3 forbids тества/тестер. Reverted published/ (live feed kept at compliant „автор на ревюта ... проверява и оценява“ bio). No NEW approved article this run (vk-0335 is drafted), so nothing legitimate needed exposing. HUMAN ACTION (repeat): revert the author bio on the affected content branch(es) to the canonical author.md bio and fix the nightly job that keeps reintroducing it. Review request to owner couldn't be auto-assigned (no reviewer-request tool in GitHub MCP) — PR #362 is open & visible in the owner's PR list. NO flags resolved, nothing posted/merged/fabricated.",
+  "state": "running",
+  "run_started_utc": "2026-11-16T07:17:05Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01AwuYFSUVku5C5j8sjJfzf9",
+  "note": "daily run 2026-11-16 — started; reconcile clean (0 in-progress/HANDOFF/CLAIMED); SEO review not due (2026-11)",
   "progress": {
-    "phase": "done",
-    "article_index": 1,
-    "article_total": 1,
-    "article_slug": "2026-11-15-cska-sofia-istoria",
-    "stages": [
-      "Synthesis",
-      "Outline",
-      "Author",
-      "Humaniser",
-      "SEO",
-      "Brand Gate",
-      "Light re-check",
-      "Images",
-      "Verification",
-      "PR"
-    ],
+    "phase": "selecting",
+    "article_index": null,
+    "article_total": null,
+    "article_slug": null,
+    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
     "stage_index": null,
     "stage": null
   }
