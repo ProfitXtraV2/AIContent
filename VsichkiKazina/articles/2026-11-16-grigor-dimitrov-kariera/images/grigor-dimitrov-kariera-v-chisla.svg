@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="596" viewBox="0 0 820 596" font-family="'DejaVu Sans','Segoe UI',Arial,sans-serif" role="img" aria-label="Инфографика: кариерата на Григор Димитров в числа">
+  <rect width="820" height="596" fill="#f6f7f9"/>
+  <!-- header -->
+  <rect x="0" y="0" width="820" height="88" fill="#15223b"/>
+  <text x="32" y="42" fill="#ffffff" font-size="25" font-weight="700">Григор Димитров: кариерата в числа</text>
+  <text x="32" y="68" fill="#9fb0c9" font-size="14">Всички стойности следват текста на статията</text>
+
+  <!-- hero stat -->
+  <rect x="24" y="108" width="772" height="92" rx="8" fill="#ffffff" stroke="#e2e6ee"/>
+  <rect x="24" y="108" width="7" height="92" rx="3" fill="#c3372b"/>
+  <text x="52" y="168" fill="#15223b" font-size="48" font-weight="800">№ 3</text>
+  <text x="168" y="146" fill="#15223b" font-size="19" font-weight="700">в света · 20 ноември 2017 г.</text>
+  <text x="168" y="174" fill="#5a6b85" font-size="15">най-високото класиране, което българин е постигал</text>
+
+  <!-- grid tiles -->
+  <!-- row 1 -->
+  <g>
+    <rect x="24" y="216" width="378" height="80" rx="8" fill="#ffffff" stroke="#e2e6ee"/>
+    <text x="42" y="252" fill="#1d3f6e" font-size="26" font-weight="800">1991</text>
+    <text x="42" y="278" fill="#44526a" font-size="14">роден в Хасково, България</text>
+  </g>
+  <g>
+    <rect x="418" y="216" width="378" height="80" rx="8" fill="#ffffff" stroke="#e2e6ee"/>
+    <text x="436" y="252" fill="#1d3f6e" font-size="26" font-weight="800">2008</text>
+    <text x="436" y="272" fill="#44526a" font-size="14">№ 1 при юношите; юношески титли</text>
+    <text x="436" y="290" fill="#44526a" font-size="14">на Уимбълдън и US Open</text>
+  </g>
+  <!-- row 2 -->
+  <g>
+    <rect x="24" y="308" width="378" height="80" rx="8" fill="#ffffff" stroke="#e2e6ee"/>
+    <text x="42" y="344" fill="#1d3f6e" font-size="26" font-weight="800">2013</text>
+    <text x="42" y="364" fill="#44526a" font-size="14">първа титла на ATP Tour</text>
+    <text x="42" y="382" fill="#44526a" font-size="14">(Стокхолм)</text>
+  </g>
+  <g>
+    <rect x="418" y="308" width="378" height="80" rx="8" fill="#ffffff" stroke="#e2e6ee"/>
+    <text x="436" y="344" fill="#1d3f6e" font-size="26" font-weight="800">2017</text>
+    <text x="436" y="364" fill="#44526a" font-size="14">„Мастърс" Синсинати, финал</text>
+    <text x="436" y="382" fill="#44526a" font-size="14">6:3, 7:5 срещу Ник Кириос</text>
+  </g>
+  <!-- row 3 -->
+  <g>
+    <rect x="24" y="400" width="378" height="80" rx="8" fill="#ffffff" stroke="#e2e6ee"/>
+    <text x="42" y="436" fill="#1d3f6e" font-size="26" font-weight="800">2017</text>
+    <text x="42" y="456" fill="#44526a" font-size="14">ATP Finals, Лондон, финал</text>
+    <text x="42" y="474" fill="#44526a" font-size="14">7:5, 4:6, 6:3 срещу Давид Гофен</text>
+  </g>
+  <g>
+    <rect x="418" y="400" width="378" height="80" rx="8" fill="#ffffff" stroke="#e2e6ee"/>
+    <text x="436" y="436" fill="#1d3f6e" font-size="26" font-weight="800">3</text>
+    <text x="460" y="436" fill="#44526a" font-size="14">полуфинала на Големия шлем</text>
+    <text x="436" y="462" fill="#44526a" font-size="13">AO 2017 · Уимбълдън 2014 · US Open 2019</text>
+  </g>
+  <!-- row 4 -->
+  <g>
+    <rect x="24" y="492" width="378" height="80" rx="8" fill="#ffffff" stroke="#e2e6ee"/>
+    <text x="42" y="528" fill="#1d3f6e" font-size="26" font-weight="800">9</text>
+    <text x="66" y="528" fill="#44526a" font-size="14">титли на сингъл в ATP Tour</text>
+    <text x="42" y="552" fill="#7a869c" font-size="13">към есента на 2026 г.</text>
+  </g>
+  <g>
+    <rect x="418" y="492" width="378" height="80" rx="8" fill="#ffffff" stroke="#e2e6ee"/>
+    <text x="436" y="528" fill="#1d3f6e" font-size="22" font-weight="800">2014 и 2017</text>
+    <text x="436" y="552" fill="#44526a" font-size="14">Спортист на годината на България</text>
+  </g>
+</svg>
