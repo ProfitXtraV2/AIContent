@@ -20,10 +20,10 @@
 1991 (Хасково) · 2008 (№1 юноши + юношески титли Уимбълдън/US Open) · 2013 (Стокхолм, първа ATP титла) · 2017 (Синсинати 6:3,7:5 Кириос) · 2017 (ATP Finals 7:5,4:6,6:3 Гофен) · № 3 / 20.11.2017 · 3 полуфинала (AO 2017, Уимбълдън 2014, US Open 2019) · 9 титли (към есента 2026) · Спортист 2014 и 2017. Chromium render: clean, 0 overlap/clip.
 
 ## Gemini Step-7 (text) verdict
-- (попълва се след `scripts/gemini_check.py`)
+- `GEMINI_ERROR` (HTTP 402 RESOURCE_EXHAUSTED — prepayment credits depleted; persistent outage since 2026-11-10). External check **skipped**; kept initial 05b (keep-best). `gemini = skipped`. Passes applied: 0. See `07-gemini-check-1.md`.
 
 ## Images (Step-8)
-- (попълва се след `scripts/gemini_image_review.py`)
+- **images: 1** (infographic `grigor-dimitrov-kariera-v-chisla.svg`). Gemini image review **skipped (HTTP 402)**; **manual integrity PASS** (9 числа 1:1 vs 05b; 0 logos/faces/fabrication/glamour; Chromium render clean, 0 overlap/clip). AI hero skipped (same depleted key). Best review score: manual integrity PASS (Gemini score unavailable). See `08-image-review-1.md`.
 
 ## Brand Gate
 - PASS (95/100, 0 critical). Byline Георги Тодоров; brand Всички Казина (×3, exact); verbatim 18+ RG line; /otgovorna-igra/ + национален регистър на уязвимите лица (НАП) signposting; affiliate-licensing footer verbatim (pending, not „issued"). 0 operators → 0 affiliate links. 0 em-dash (U+2014) + 0 en-dash (U+2013) in body + metadata. 6 internal links in body (2 siblings: tenis-pravila-tochkuvane, uimbaldon; 1 hub: blog/sport; + zakonno-li-e, bonus-ruletka/sport/vsichki, blog/responsible-gambling) + otgovorna-igra footer. 0 AI connectives/signposting; asymmetric opinionated close.
