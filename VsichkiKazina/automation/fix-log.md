@@ -4079,3 +4079,64 @@ No board `gemini` cells changed (no row processed or re-scored). `build_dashboar
 regression) remains in effect, so `published/` was left untouched to respect that hold. No
 posted/live content edited; nothing merged; no new article branches created; no content branch
 touched; GEMINI_API_KEY never printed.
+
+## 2026-11-16 (nightly flag+score fixer, 23:04 UTC)
+
+Synced `main` (`git checkout main && git pull --no-edit`, up to date), fetched all
+`origin/content/*` refs (**337** content branches — one more than 2026-11-15: new
+**vk-0336 — `2026-11-16-grigor-dimitrov-kariera`**, drafted today, PR #363, `gemini skipped`;
+daily run throttled MAX_PER_RUN=1, Григор Димитров 37000/kd3 opp 99).
+
+### JOB A — resolve publish-blocking flags
+**Zero publishable drafts carry a blocking marker — nothing to fix on any branch.**
+Scanned every `content/<folder>` branch's own `05b-final-draft.md` for the full blocking set
+(`[VERIFY]` / `[DATA NEEDED]` / `[CONFLICT]` / `[18+ / RG LINE]` / `[AUTHOR …]` / `[BRAND …]` /
+`[EDITORIAL]` / `[уточни …]` / `[провери …]`): **0 of 337 branches** had a flag in their own
+publishable draft. No branch touched, no PR updated — idempotent.
+
+Directly re-checked the new **vk-0336** branch draft: its board note logs „1 [VERIFY] (9 titles,
+dated hedge)", but that lives in the verification notes, **not** in `05b-final-draft.md` — the
+publishable draft is flag-free (byline Георги Тодоров, brand Всички Казина, proper
+`**Отговорна игра.** 18+ …` RG line intact). Nothing to resolve.
+
+(The only non-link brackets anywhere remain the systemic build token `[About Всички Казина
+boilerplate]` — present in 163 files across `main` incl. posted content, so it is a render-time
+placeholder, NOT a per-draft flag — plus the known **stale `main`-tree copies of three POSTED
+articles** vk-0064 / vk-0063 / vk-0267, whose live/branch versions are already clean. Neither can
+hard-block the feed. Posted/live → NOT edited; carried to human-review below.)
+
+### JOB B — low Gemini score
+**Zero qualifying targets.** Of **223** `drafted`/`approved` rows (218 drafted + 5 approved),
+**148** carry a recorded verdict, all `human ≥80` (minimum **80** = Step-7 PASS threshold), **0**
+`ai <n>`, and **0** `human <80`; the remaining **75** are `skipped` (no verdict). `skipped` is
+neither `ai <n>` nor `human <n<80`, so none qualifies under the JOB B rule and nothing was
+humanised. `gemini_check.py` not invoked (no qualifying target); GEMINI_API_KEY not used/printed.
+
+**Upstream note — Gemini Step-7 API still depleted:** board notes on the recent sports drafts
+(vk-0328…vk-0336) still record `HTTP 402 / RESOURCE_EXHAUSTED (credits depleted, persistent since
+2026-11-10)`, which is why those rows are `gemini=skipped` rather than scored. Step-7 verdict
+backfill remains blocked upstream until the Gemini credits are topped up — flagged for a human.
+It did not affect tonight's JOB B (0 qualifying targets regardless).
+
+### POSTED — needs human review
+- **vk-0063 — `2026-09-13-nv-casino-zakonno-li-e` (PR #79), `ai 75`, posted/live.** Carried
+  forward unchanged — still the only board row below the human-80 threshold, and it is posted/live.
+  A human should decide whether to re-humanise and re-publish off-line.
+- **vk-0064 / vk-0063 / vk-0267** — posted articles whose `main`-tree draft copies still contain
+  `[AUTHOR …]` / `[BRAND …]` / `[18+ / RG LINE]` / `[VERIFY]` / `[DATA NEEDED]` brackets. Live/branch
+  versions are clean, so not a live hard-block; noted so a human can scrub the stale `main` copies.
+- **Gemini credits (HTTP 402) depleted since 2026-11-10** — top up so Step-7 scoring/backfill and
+  image review resume for the sports-guide batch (vk-0328…vk-0336 currently `gemini=skipped`).
+
+### Deferred
+None — JOB B had 0 qualifying targets (≤10/night cap not reached).
+
+### Finish
+No board `gemini` cells changed (no row processed or re-scored). `build_dashboard.py` re-run on
+`main` as a health check (buffer 223/10, verify_flags already 0) — the only diff was the
+`generated_utc` timestamp (07:40→23:04, autopilot's 07:40 rebuild already current), so it was
+reverted rather than committed (pure churn; dashboard is autopilot-owned). **`build_feed.py`
+deliberately NOT re-run/committed** — the autopilot's feed hold (author-bio regression) remains in
+effect, so `published/` was left untouched to respect that hold. No posted/live content edited;
+nothing merged; no new article branches created; no content branch touched; GEMINI_API_KEY never
+printed.
