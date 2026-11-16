@@ -5,14 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01AwuYFSUVku5C5j8sjJfzf9",
-  "note": "daily run 2026-11-16 — started; reconcile clean (0 in-progress/HANDOFF/CLAIMED); SEO review not due (2026-11)",
+  "note": "daily run 2026-11-16 — writing vk-0336 Григор Димитров (Synthesis)",
   "progress": {
-    "phase": "selecting",
-    "article_index": null,
-    "article_total": null,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "phase": "writing",
+    "article_index": 1,
+    "article_total": 1,
+    "article_slug": "2026-11-16-grigor-dimitrov-kariera",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
