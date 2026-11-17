@@ -1,18 +1,16 @@
 {
-  "state": "idle",
-  "run_started_utc": "2026-11-16T07:17:05Z",
-  "run_finished_utc": "2026-11-16T07:41:30Z",
-  "articles_written": 1,
-  "prs_opened": [
-    363
-  ],
-  "run_url": "https://claude.ai/code/session_01AwuYFSUVku5C5j8sjJfzf9",
-  "note": "daily run 2026-11-16 — throttled MAX_PER_RUN=1. Reconcile clean on entry (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review NOT due (marker 2026-11 == current). WROTE 1 NEW guide vk-0336 „Григор Димитров — кариера, титли, рекорди и стил на игра\" (PR #363) — top open P0 backlog (owner-approved BG sports sweep), григор димитров 37000/kd3 opportunity 99 Strong winnable, ~3x volume of saturated kd0 sweep rows + explicitly teed up by the 2026-11-15 run as NEXT-BEST single pick. Evergreen BG tennis profile (guides-only: 0 operator/НАП/affiliate; 0 current ranking/results/odds; 0 predictions; 0 private-life). KEY FACTS cross-verified EN+BG Wikipedia + contemporary reports (BTA/ATP/SCMP/Sky Sports/Sofia Globe): роден 16.05.1991 Хасково; прякор „Бейби Федерер\" (едноръчен бекхенд); юноши №1 2008 + юношески Уимбълдън/US Open 2008; първа ATP титла Стокхолм 2013 (vs Ферер, първи българин с титла); победа над Джокович Мадрид 2013; 2017 пробив: Синсинати Мастърс (vs Кириос 6:3,7:5, първа Мастърс 1000) + ATP Finals Лондон (vs Гофен 7:5,4:6,6:3) -> №3 в света 20.11.2017 (най-високо за българин, първи дебютант с финала от 1998); полуфинали Шлем AO 2017/Уимбълдън 2014 (побеждава защитаващия Мъри на 1/4)/US Open 2019; 1/4 Roland Garros 2024; 9 титли на сингъл (към есента 2026, дати-hedge+[VERIFY]); Спортист на годината 2014 и 2017; Олимпиада 2012. CONFLICT RESOLVED: Синсинати year (BG-wiki extract 2016) -> 2017 (single fact, no Version A/B). Dedup vs queue(0 григор)+live sitemap(181, 0 grigor)=clean; distinct unique entity; siblings tenis-pravila-tochkuvane(vk-0310)+uimbaldon(vk-0326) linked. Gate 95 PASS 0-crit (0 em-dash U+2014 + 0 en-dash U+2013 body+meta, 0 AI connectives/signposting, asymmetric close, 6 internal links). Gemini Step-7 TEXT=GEMINI_ERROR HTTP 402 (prepayment credits depleted, persistent since 2026-11-10) -> skipped per daily-run; kept initial 05b (keep-best); gemini=skipped, 0 passes. Step-8 img:1 (hand-authored infographic grigor-dimitrov-kariera-v-chisla.svg, 9 числа 1:1 vs 05b, Chromium render clean 0 overlap/clip; AI hero skipped 402; Gemini image review 402 -> manual integrity PASS, 0 logos/faces/fabricated numbers/glamour). ~916 думи, 1 [VERIFY] (9 титли, дати-hedge), 6 internal links (zakonno-li-e/bonus-ruletka-sport-vsichki/blog-sport/tenis-pravila-tochkuvane/uimbaldon/blog-responsible-gambling) + otgovorna-igra footer; 0 affiliate (0 оператори). KEYWORD RESEARCH: Ahrefs ONLINE (units reset 2026-11-15; helper unit-protected+30d cache). Light discovery (10 seeds): дартс 800/kd0 (↑ от 90, existing candidate STRENGTHENED, refresh) + реми 250/kd27 (↑ от 50, still winnable, refresh) + видео покер онлайн 150 (kept) = bank 3 candidates (2 metric-refreshed); бакара 350/kd3 winnable но вече покрит (vk-0012 + live /blog/bakara-pravila/) -> fold-in, NOT added; крипто казино 350/kd60 + слот игри 700/kd78 = Pillar; казино турнири/живо казино = zero-vol; ADDED 0 (no-padding, mature library). Backlog open P0 Григор Димитров row -> written; ~36 open writable sports rows remain + 9 NV-Casino operator rows open+blocked. BOARD: content-queue vk-0336 drafted (gemini skipped, PR #363, img:1); dashboard rebuilt (buffer 223/10); content refs fetched. FEED HELD (persistent regression, unchanged): build_feed again reintroduced the FORBIDDEN „Георги Тодоров тества ... казино сайтове ... със собствен бюджет\" author bio into published/elektronna-ruletka (author.md Tier 3 forbids тества/тестер); reverted published/ (live feed kept at compliant „автор на ревюта ... проверява и оценява\"). No NEW approved article this run (vk-0336 is drafted), so nothing legitimate needed exposing. HUMAN ACTION (repeat): revert the author bio on the affected content branch(es) to canonical author.md bio + fix the nightly job that keeps reintroducing it. PR #363 open & visible in owner's PR list (no reviewer-request tool in GitHub MCP). NO flags resolved, nothing posted/merged/fabricated.",
+  "state": "running",
+  "run_started_utc": "2026-11-17T07:14:38Z",
+  "run_finished_utc": null,
+  "articles_written": null,
+  "prs_opened": [],
+  "run_url": "https://claude.ai/code/session_01AwuYFSZSue9RaebAGSNEZw",
+  "note": "daily run 2026-11-17 — throttled MAX_PER_RUN=1. Reconcile clean on entry (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review NOT due (marker 2026-11 == current). Selecting topic.",
   "progress": {
-    "phase": "done",
-    "article_index": 1,
-    "article_total": 1,
-    "article_slug": "2026-11-16-grigor-dimitrov-kariera",
+    "phase": "selecting",
+    "article_index": null,
+    "article_total": null,
+    "article_slug": null,
     "stages": [
       "Synthesis",
       "Outline",
