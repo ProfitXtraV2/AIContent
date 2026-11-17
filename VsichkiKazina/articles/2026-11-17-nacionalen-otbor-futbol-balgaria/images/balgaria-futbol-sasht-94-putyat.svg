@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="650" viewBox="0 0 820 650" font-family="'DejaVu Sans','Segoe UI',Arial,sans-serif" role="img" aria-label="Инфографика: пътят на България на Световното в САЩ 1994 и ключови числа">
+  <rect width="820" height="650" fill="#f6f7f9"/>
+
+  <!-- header -->
+  <rect x="0" y="0" width="820" height="88" fill="#15223b"/>
+  <text x="32" y="40" fill="#ffffff" font-size="24" font-weight="700">България на Световното в САЩ '94</text>
+  <text x="32" y="67" fill="#9fb0c9" font-size="14">Всички стойности следват текста на статията</text>
+
+  <!-- hero stat -->
+  <rect x="24" y="104" width="772" height="80" rx="8" fill="#ffffff" stroke="#e2e6ee"/>
+  <rect x="24" y="104" width="7" height="80" rx="3" fill="#c3372b"/>
+  <text x="52" y="158" fill="#15223b" font-size="40" font-weight="800">4-то място</text>
+  <text x="300" y="140" fill="#15223b" font-size="18" font-weight="700">в света · САЩ, 1994 г.</text>
+  <text x="300" y="166" fill="#5a6b85" font-size="14">най-големият успех в историята на българския футбол</text>
+
+  <!-- knockout path -->
+  <text x="24" y="210" fill="#15223b" font-size="16" font-weight="700">Пътят през елиминациите</text>
+
+  <!-- row 1 -->
+  <rect x="24" y="220" width="772" height="56" rx="8" fill="#ffffff" stroke="#e2e6ee"/>
+  <text x="44" y="254" fill="#1d3f6e" font-size="15" font-weight="700">Осминафинал</text>
+  <text x="250" y="254" fill="#2a3547" font-size="16">Мексико · 1:1, 3:1 след дузпи</text>
+  <rect x="686" y="236" width="90" height="26" rx="13" fill="#e4f0e6"/>
+  <text x="731" y="254" fill="#1f7a3d" font-size="14" font-weight="700" text-anchor="middle">победа</text>
+
+  <!-- row 2 -->
+  <rect x="24" y="286" width="772" height="56" rx="8" fill="#ffffff" stroke="#e2e6ee"/>
+  <text x="44" y="320" fill="#1d3f6e" font-size="15" font-weight="700">Четвъртфинал</text>
+  <text x="250" y="320" fill="#2a3547" font-size="16">Германия · 2:1 (световният шампион)</text>
+  <rect x="686" y="302" width="90" height="26" rx="13" fill="#e4f0e6"/>
+  <text x="731" y="320" fill="#1f7a3d" font-size="14" font-weight="700" text-anchor="middle">победа</text>
+
+  <!-- row 3 -->
+  <rect x="24" y="352" width="772" height="56" rx="8" fill="#ffffff" stroke="#e2e6ee"/>
+  <text x="44" y="386" fill="#1d3f6e" font-size="15" font-weight="700">Полуфинал</text>
+  <text x="250" y="386" fill="#2a3547" font-size="16">Италия · 1:2 (два гола на Баджо)</text>
+  <rect x="686" y="368" width="90" height="26" rx="13" fill="#f2e3e1"/>
+  <text x="731" y="386" fill="#b23b2e" font-size="14" font-weight="700" text-anchor="middle">загуба</text>
+
+  <!-- row 4 -->
+  <rect x="24" y="418" width="772" height="56" rx="8" fill="#ffffff" stroke="#e2e6ee"/>
+  <text x="44" y="452" fill="#1d3f6e" font-size="15" font-weight="700">Мач за 3-то място</text>
+  <text x="250" y="452" fill="#2a3547" font-size="16">Швеция · 4:0</text>
+  <rect x="686" y="434" width="90" height="26" rx="13" fill="#f2e3e1"/>
+  <text x="731" y="452" fill="#b23b2e" font-size="14" font-weight="700" text-anchor="middle">загуба</text>
+
+  <!-- key numbers -->
+  <text x="24" y="508" fill="#15223b" font-size="16" font-weight="700">Ключови числа</text>
+
+  <rect x="24" y="518" width="248" height="96" rx="8" fill="#ffffff" stroke="#e2e6ee"/>
+  <text x="42" y="556" fill="#1d3f6e" font-size="30" font-weight="800">7 участия</text>
+  <text x="42" y="582" fill="#44526a" font-size="13">на световни първенства,</text>
+  <text x="42" y="600" fill="#44526a" font-size="13">от 1962 до 1998 г.</text>
+
+  <rect x="286" y="518" width="248" height="96" rx="8" fill="#ffffff" stroke="#e2e6ee"/>
+  <text x="304" y="556" fill="#1d3f6e" font-size="30" font-weight="800">6 гола</text>
+  <text x="304" y="582" fill="#44526a" font-size="13">Стоичков, голмайстор на</text>
+  <text x="304" y="600" fill="#44526a" font-size="13">турнира; „Златна топка" 1994</text>
+
+  <rect x="548" y="518" width="248" height="96" rx="8" fill="#ffffff" stroke="#e2e6ee"/>
+  <text x="566" y="556" fill="#1d3f6e" font-size="30" font-weight="800">90-ата мин.</text>
+  <text x="566" y="582" fill="#44526a" font-size="13">гол на Костадинов, Париж,</text>
+  <text x="566" y="600" fill="#44526a" font-size="13">17 ноември 1993 г.</text>
+
+  <!-- footer -->
+  <text x="24" y="636" fill="#8591a6" font-size="12">18+ Играйте отговорно. Исторически данни, без прогнози.</text>
+</svg>
