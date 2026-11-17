@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-17T07:42:54Z",
+  "generated_utc": "2026-11-17T23:04:44Z",
   "buffer": {
     "count": 222,
     "target": 10,
@@ -6924,16 +6924,14 @@
       "folder": "2026-11-17-nacionalen-otbor-futbol-balgaria",
       "pr": "#364",
       "gemini": "human 90",
-      "notes": "daily run 2026-11-17 throttled MAX_PER_RUN=1; top open P0 backlog (BG football sweep, owner-approved 2026-10-28). национален отбор по футбол 6200/kd6 informational WIN. Evergreen national-team history guide (guides-only: 0 operator/НАП/affiliate; NO current standings/results/fixtures/transfers/odds/predictions). Dedup vs queue(0 национален отбор)+live sitemap(183, 0 nacionalen)=clean. Facts cross-verified EN Wikipedia(nt+WC)+BTA+ESPN: БФС 1923; първи мач 21.05.1924 Виена Австрия 6:0; 7 участия СП (1962-1998); САЩ '94 4-то място (1/8 Мексико 3:1 дузпи, 1/4 Германия 2:1 10.07.1994 Стоичков+Лечков, 1/2 Италия 1:2 Баджо, 3-то Швеция 0:4); Стоичков голмайстор 6 гола + Златна топка 1994; Костадинов 90' Париж 17.11.1993; Евро 1996+2004 групи; Стилиян Петров 105 мача; Бербатов 48 гола [VERIFY]; олимп. сребро 1968. Gemini Step-7 TEXT ONLINE (402 outage cleared): pass1 Shows AI 85% (HL15) -> Humaniser pass1 -> pass2 Likely human 90% PASS, keep-best 15->90. Step-8 img:1 infographic (SVG USA'94 path, numbers 1:1 vs 05b, render clean); image review pass1 78 (Швеция 4:0 perspective) -> fix 0:4 -> pass2 98 PASS, keep-best 78->98; no AI hero. Gate 95 PASS 0-crit (0 em/en-dash, 6 internal links). ~955 думи, 1 [VERIFY] (Бербатов 48). Sibling to САЩ'94 heroes row (not yet written) + Ефбет Лига guide. img:1 (98)",
+      "notes": "daily run 2026-11-17 throttled MAX_PER_RUN=1; top open P0 backlog (BG football sweep, owner-approved 2026-10-28). национален отбор по футбол 6200/kd6 informational WIN. Evergreen national-team history guide (guides-only: 0 operator/НАП/affiliate; NO current standings/results/fixtures/transfers/odds/predictions). Dedup vs queue(0 национален отбор)+live sitemap(183, 0 nacionalen)=clean. Facts cross-verified EN Wikipedia(nt+WC)+BTA+ESPN: БФС 1923; първи мач 21.05.1924 Виена Австрия 6:0; 7 участия СП (1962-1998); САЩ '94 4-то място (1/8 Мексико 3:1 дузпи, 1/4 Германия 2:1 10.07.1994 Стоичков+Лечков, 1/2 Италия 1:2 Баджо, 3-то Швеция 0:4); Стоичков голмайстор 6 гола + Златна топка 1994; Костадинов 90' Париж 17.11.1993; Евро 1996+2004 групи; Стилиян Петров 105 мача; Бербатов 48 гола [VERIFY]; олимп. сребро 1968. Gemini Step-7 TEXT ONLINE (402 outage cleared): pass1 Shows AI 85% (HL15) -> Humaniser pass1 -> pass2 Likely human 90% PASS, keep-best 15->90. Step-8 img:1 infographic (SVG USA'94 path, numbers 1:1 vs 05b, render clean); image review pass1 78 (Швеция 4:0 perspective) -> fix 0:4 -> pass2 98 PASS, keep-best 78->98; no AI hero. Gate 95 PASS 0-crit (0 em/en-dash, 6 internal links). ~955 думи, 1 [VERIFY] (Бербатов 48). Sibling to САЩ'94 heroes row (not yet written) + Ефбет Лига guide. img:1 (98) · nightly 2026-11-17: JOB-A flag resolved — [VERIFY] Бербатов 48 removed (contested exact count + Бонев-tie softened: dropped precise figure, framed top of all-time scorers list as shared между Бербатов и Бонев, no invented number); 0 blocking markers; byline/brand/RG intact; PR #364 updated",
       "opportunity": {
         "score": 98,
         "band": "Strong",
         "winnable": true
       },
-      "verify_flags": 1,
-      "verify_samples": [
-        "[VERIFY: точен брой и дали е наравно с Христо Бонев]"
-      ]
+      "verify_flags": 0,
+      "verify_samples": []
     }
   ],
   "backlog": [

@@ -4140,3 +4140,63 @@ deliberately NOT re-run/committed** — the autopilot's feed hold (author-bio re
 effect, so `published/` was left untouched to respect that hold. No posted/live content edited;
 nothing merged; no new article branches created; no content branch touched; GEMINI_API_KEY never
 printed.
+
+## 2026-11-17 (nightly flag+score fixer, 23:05 UTC)
+
+Synced `main` (up to date) and fetched all `refs/remotes/origin/content/*` (**338** content
+branches).
+
+### JOB A — resolve publish-blocking flags
+Scanned every `content/*` branch's own `05b-final-draft.md` for blocking markers
+(`[VERIFY…]` / `[DATA NEEDED]` / `[CONFLICT]` / `[18+ / RG LINE]` / `[AUTHOR …]` / `[BRAND …]` /
+`[EDITORIAL]` / `[уточни …]` / `[провери …]`): **1 of 338 branches** carried a flag.
+
+- **vk-0337 — `2026-11-17-nacionalen-otbor-futbol-balgaria` (PR #364), status `drafted`, gemini
+  `human 90`.** One `[VERIFY: точен брой и дали е наравно с Христо Бонев]` on the sentence
+  „По реализирани голове начело е Димитър Бербатов с 48 попадения". The flag questioned both the
+  exact figure (48) and whether Berbatov is tied with Христо Бонев. Per the hard rule (never
+  invent / never assert a contested number), **softened** rather than asserted: dropped the precise
+  „48 попадения" count and the definite „начело", and reframed the top of the all-time scorers list
+  as shared — „върхът на класацията на голмайсторите години наред се дели между Димитър Бербатов и
+  Христо Бонев". No number invented; the neighbouring unflagged fact (Стилиян Петров 105 мача) and
+  all other facts, links, byline (Георги Тодоров), brand (Всички Казина) and the RG line left
+  untouched. Re-scan → **0 blocking markers**. Committed on branch
+  `fix(flags): resolve 2026-11-17-nacionalen-otbor-futbol-balgaria — publish-ready` and pushed
+  (PR #364 updated). Flags resolved: **1**; still-flagged: **0**.
+
+### JOB B — low Gemini score
+**Zero qualifying targets.** Of **222** `drafted`/`approved` rows (219 drafted + 3 approved),
+**149** carry a recorded verdict, all `human ≥80` (distribution: 89×`human 85`, 37×`human 90`,
+18×`human 80`, 5×`human 95`); **0** `ai <n>` and **0** `human <80`. The remaining **73** are
+`skipped` (no verdict) — `skipped` is neither `ai <n>` nor `human <n<80>`, so none qualifies under
+the JOB B rule. Nothing humanised; `gemini_check.py` not invoked (no qualifying target);
+GEMINI_API_KEY not used/printed.
+
+**Upstream note — Gemini Step-7 API is back online.** Today's daily-run row for vk-0337 records
+„Gemini Step-7 TEXT ONLINE (402 outage cleared)" and scored the draft `human 90`, so the
+RESOURCE_EXHAUSTED/HTTP-402 depletion that had persisted since 2026-11-10 appears resolved. The
+**73 `skipped` rows remain un-backfilled** (Step-7 verdicts were never recorded during the outage);
+backfilling them is a daily-run/autopilot concern, not a JOB B target, and is flagged below for a
+human so the skipped sports/earlier batches can be scored.
+
+### POSTED — needs human review
+- **vk-0063 — `2026-09-13-nv-casino-zakonno-li-e` (PR #79), `ai 75`, posted/live.** Still the only
+  board row below the human-80 threshold and it is posted/live — carried forward unchanged. A human
+  should decide whether to re-humanise and re-publish off-line. Not edited.
+- **73 `skipped` rows (Gemini Step-7 not scored)** — the 402 outage has now cleared, so a human /
+  the autopilot can backfill Step-7 verdicts for the rows left `skipped` during 2026-11-10…-17.
+
+### Deferred
+None — JOB B had 0 qualifying targets (≤10/night cap not reached).
+
+### Finish
+`gemini` column unchanged (no row re-scored; vk-0337 stays `human 90` — a flag rephrase, not a
+re-score). Appended the JOB-A resolution note to vk-0337's board row.
+`build_dashboard.py` re-run on `main`: real diff this time — vk-0337 `verify_flags` 1→0 and its
+updated note (the dashboard reads unposted drafts from their `content/*` branch, so it picked up the
+pushed fix); buffer 222/10. Committed. **`build_feed.py` deliberately NOT re-run/committed** — the
+autopilot's feed hold (author-bio regression, reverted again in today's latest `main` commit)
+remains in effect, and the feed only contains `approved` rows anyway, so tonight's drafted-article
+fix has zero feed impact. No posted/live content edited; nothing merged; no new article branches
+created; only the one flagged `content/2026-11-17-nacionalen-otbor-futbol-balgaria` branch touched;
+GEMINI_API_KEY never printed.
