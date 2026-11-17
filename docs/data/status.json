@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-11-17T07:16:30Z",
+  "generated_utc": "2026-11-17T07:42:54Z",
   "buffer": {
-    "count": 221,
+    "count": 222,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
-    "in-progress": 1,
-    "drafted": 218,
+    "in-progress": 0,
+    "drafted": 219,
     "approved": 3,
     "posted": 114,
     "failed": 1
@@ -6912,7 +6912,7 @@
     },
     {
       "id": "vk-0337",
-      "status": "in-progress",
+      "status": "drafted",
       "type": "guide",
       "query": "Национален отбор по футбол на България — история, големи турнири и САЩ '94",
       "keywords_or_terms": "национален отбор по футбол на българия, българия национален отбор история, българия световно първенство",
@@ -6922,16 +6922,18 @@
       "drafted_date": "2026-11-17",
       "posted_date": "",
       "folder": "2026-11-17-nacionalen-otbor-futbol-balgaria",
-      "pr": "",
-      "gemini": "",
-      "notes": "daily run 2026-11-17 throttled MAX_PER_RUN=1; top open P0 backlog (BG football sweep, owner-approved 2026-10-28). национален отбор по футбол 6200/kd6 informational WIN. Evergreen national-team history guide (guides-only: 0 operator/НАП/affiliate; NO current standings/results/fixtures/transfers/odds/predictions). Dedup vs queue(0 национален отбор)+live sitemap(183, 0 nacionalen)=clean. Sibling to САЩ 94 heroes row + Ефбет Лига guide.",
+      "pr": "#364",
+      "gemini": "human 90",
+      "notes": "daily run 2026-11-17 throttled MAX_PER_RUN=1; top open P0 backlog (BG football sweep, owner-approved 2026-10-28). национален отбор по футбол 6200/kd6 informational WIN. Evergreen national-team history guide (guides-only: 0 operator/НАП/affiliate; NO current standings/results/fixtures/transfers/odds/predictions). Dedup vs queue(0 национален отбор)+live sitemap(183, 0 nacionalen)=clean. Facts cross-verified EN Wikipedia(nt+WC)+BTA+ESPN: БФС 1923; първи мач 21.05.1924 Виена Австрия 6:0; 7 участия СП (1962-1998); САЩ '94 4-то място (1/8 Мексико 3:1 дузпи, 1/4 Германия 2:1 10.07.1994 Стоичков+Лечков, 1/2 Италия 1:2 Баджо, 3-то Швеция 0:4); Стоичков голмайстор 6 гола + Златна топка 1994; Костадинов 90' Париж 17.11.1993; Евро 1996+2004 групи; Стилиян Петров 105 мача; Бербатов 48 гола [VERIFY]; олимп. сребро 1968. Gemini Step-7 TEXT ONLINE (402 outage cleared): pass1 Shows AI 85% (HL15) -> Humaniser pass1 -> pass2 Likely human 90% PASS, keep-best 15->90. Step-8 img:1 infographic (SVG USA'94 path, numbers 1:1 vs 05b, render clean); image review pass1 78 (Швеция 4:0 perspective) -> fix 0:4 -> pass2 98 PASS, keep-best 78->98; no AI hero. Gate 95 PASS 0-crit (0 em/en-dash, 6 internal links). ~955 думи, 1 [VERIFY] (Бербатов 48). Sibling to САЩ'94 heroes row (not yet written) + Ефбет Лига guide. img:1 (98)",
       "opportunity": {
         "score": 98,
         "band": "Strong",
         "winnable": true
       },
-      "verify_flags": null,
-      "verify_samples": []
+      "verify_flags": 1,
+      "verify_samples": [
+        "[VERIFY: точен брой и дали е наравно с Христо Бонев]"
+      ]
     }
   ],
   "backlog": [
@@ -7431,8 +7433,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 6200/kd6 (2026-10-28 football sweep). National-team history; link the САЩ '94 heroes piece.",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-28 (Bulgarian-football batch). Evergreen profile/history only. NEVER print current standings, results, fixtures, transfer rumours or odds. Real people: verifiable facts only, [VERIFY] anything uncertain, no speculation about private life. Link the Ефбет Лига guide plus sibling club/legend articles. No betting tips; optional RG line.",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-10-28 (Bulgarian-football batch). WRITTEN 2026-11-17 vk-0337 PR #364 (gemini human 90, img:1 infographic 98). Evergreen profile/history only. NEVER print current standings, results, fixtures, transfer rumours or odds. Real people: verifiable facts only, [VERIFY] anything uncertain, no speculation about private life. Link the Ефбет Лига guide plus sibling club/legend articles. No betting tips; optional RG line.",
       "opportunity": {
         "score": 98,
         "band": "Strong",
@@ -13110,16 +13112,16 @@
       }
     ],
     "bands": {
-      "Strong": 34,
+      "Strong": 33,
       "Good": 1,
       "Pillar": 1,
       "Moderate": 2
     },
     "clusters": {
       "uncategorised": {
-        "winnable": 36,
+        "winnable": 35,
         "pillar": 1,
-        "total": 38
+        "total": 37
       }
     },
     "winnable": [
@@ -13371,19 +13373,6 @@
         "src": "backlog"
       },
       {
-        "query": "Национален отбор по футбол на България — история, големи турнири и САЩ '94",
-        "keywords": "национален отбор по футбол на българия, българия национален отбор история, българия световно първенство",
-        "volume": "6200",
-        "kd": "6",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 98,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
         "query": "Пирин Благоевград — история на клуба",
         "keywords": "пирин благоевград, пирин благоевград история",
         "volume": "3100",
@@ -13609,7 +13598,7 @@
     ],
     "tracking": [],
     "counts": {
-      "winnable": 36,
+      "winnable": 35,
       "pillars": 1
     }
   }
