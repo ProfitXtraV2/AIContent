@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 5,
+  "count": 3,
   "articles": [
     {
       "slug": "megaways-kak-rabotyat",
@@ -22,21 +22,7 @@
       "date_modified": "2026-11-05",
       "content_hash": "d926855468f704375378ac943bfea97c43d115783e5d191902c17f961c88ad16",
       "status": "approved"
-    },
-    {
-      "slug": "cska-1948-istoria",
-      "title": "ЦСКА 1948: история на клуба и пътят до елита | Всички Казина",
-      "date_modified": "2026-11-12",
-      "content_hash": "14be1c23aac3aeea6f2dd0f1fcc363e7cab3be7af1d5bbba0f8b5687324dcc5c",
-      "status": "approved"
-    },
-    {
-      "slug": "spartak-varna",
-      "title": "Спартак Варна: история, титлата от 1932 и „Соколите\" | Всички Казина",
-      "date_modified": "2026-11-14",
-      "content_hash": "0b0ed6b5e48f44ad76f19bd5f8c1b7c6ec7729dcebf15e2cf265897cb19495a6",
-      "status": "approved"
     }
   ],
-  "generated_utc": "2026-11-16T06:43:00Z"
+  "generated_utc": "2026-11-17T06:43:02Z"
 }
