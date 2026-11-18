@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-18T17:36:13Z",
+  "generated_utc": "2026-11-18T17:36:23Z",
   "buffer": {
     "count": 221,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 218,
-    "approved": 3,
+    "drafted": 217,
+    "approved": 4,
     "posted": 116,
     "failed": 1
   },
@@ -6912,7 +6912,7 @@
     },
     {
       "id": "vk-0337",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Национален отбор по футбол на България — история, големи турнири и САЩ '94",
       "keywords_or_terms": "национален отбор по футбол на българия, българия национален отбор история, българия световно първенство",

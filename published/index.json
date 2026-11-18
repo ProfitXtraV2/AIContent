@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 3,
+  "count": 4,
   "articles": [
     {
       "slug": "elektronna-ruletka",
@@ -22,7 +22,14 @@
       "date_modified": "2026-11-10",
       "content_hash": "c978d4b882817fe2dec9160440d8fac9316cd3ca54ce5caa8fb2c25f50ba2fd8",
       "status": "approved"
+    },
+    {
+      "slug": "nacionalen-otbor-futbol-balgaria",
+      "title": "Национален отбор по футбол на България: история и САЩ '94 | Всички Казина",
+      "date_modified": "2026-11-17",
+      "content_hash": "932126d63da544b57b44638ec2c04a8eccb6388d2ef5637f8a361ef4c9486502",
+      "status": "approved"
     }
   ],
-  "generated_utc": "2026-11-18T17:36:13Z"
+  "generated_utc": "2026-11-18T17:36:23Z"
 }
