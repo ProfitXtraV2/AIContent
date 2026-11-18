@@ -1,28 +1,14 @@
 {
   "schema_version": 1,
-  "count": 3,
+  "count": 1,
   "articles": [
-    {
-      "slug": "megaways-kak-rabotyat",
-      "title": "Megaways: как работят и защо броят на начините се променя",
-      "date_modified": "2026-09-11",
-      "content_hash": "f03c4ffe0a606832358637f1e627ec60d6de03c6e409683bbf947b364dc7daf8",
-      "status": "approved"
-    },
     {
       "slug": "elektronna-ruletka",
       "title": "Електронна рулетка: как работи (RNG и автоматни рулетки)",
       "date_modified": "2026-10-14",
       "content_hash": "86da704a21e6a750007ecd39274ddff0da0c72b63d373eea335745ae88ca9c61",
       "status": "approved"
-    },
-    {
-      "slug": "kupa-na-balgariya",
-      "title": "Купа на България: формат, история и рекорди | Всички Казина",
-      "date_modified": "2026-11-05",
-      "content_hash": "d926855468f704375378ac943bfea97c43d115783e5d191902c17f961c88ad16",
-      "status": "approved"
     }
   ],
-  "generated_utc": "2026-11-17T06:43:02Z"
+  "generated_utc": "2026-11-18T06:45:46Z"
 }
