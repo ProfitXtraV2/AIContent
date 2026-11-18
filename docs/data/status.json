@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-18T07:41:20Z",
+  "generated_utc": "2026-11-18T17:36:07Z",
   "buffer": {
     "count": 221,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 220,
-    "approved": 1,
+    "drafted": 219,
+    "approved": 2,
     "posted": 116,
     "failed": 1
   },
@@ -6751,7 +6751,7 @@
     },
     {
       "id": "vk-0330",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Лига 1 — формат и отбори на френското първенство",
       "keywords_or_terms": "лига 1, ligue 1, френско първенство",
