@@ -4,6 +4,10 @@ on:
     types: [closed]
 permissions:
   contents: write
+# Merges often land seconds apart; run one approval at a time so pushes don't race.
+concurrency:
+  group: approve-on-merge
+  cancel-in-progress: false
 jobs:
   approve:
     if: github.event.pull_request.merged == true && startsWith(github.event.pull_request.head.ref, 'content/')
@@ -20,14 +24,27 @@ jobs:
           set -euo pipefail
           FOLDER="${BRANCH#content/}"
           echo "Approving folder: $FOLDER"
-          git fetch origin -q || true
-          python3 scripts/mark_approved.py "$FOLDER"
-          python3 scripts/build_feed.py
-          python3 scripts/build_dashboard.py
           git config user.name "VK Approver"
           git config user.email "approver@vsichkikazina.local"
-          git add VsichkiKazina/content-queue.md || true
-          git add docs/data published/ 2>/dev/null || true
-          git commit -m "board($FOLDER): approve on PR merge -> feed" \
-            && (git push || (git pull --no-rebase --no-edit && git push)) \
-            || echo "nothing to approve (already approved/posted)"
+          # status.json / published/ are generated, so a rejected push is never merged:
+          # reset to the new main and regenerate everything on top of it.
+          for attempt in 1 2 3 4 5; do
+            git fetch origin -q
+            git reset -q --hard origin/main
+            python3 scripts/mark_approved.py "$FOLDER"
+            python3 scripts/build_feed.py
+            python3 scripts/build_dashboard.py
+            git add VsichkiKazina/content-queue.md docs/data published/
+            if git diff --cached --quiet; then
+              echo "nothing to approve (already approved/posted)"
+              exit 0
+            fi
+            git commit -q -m "board($FOLDER): approve on PR merge -> feed"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "push rejected (attempt $attempt), retrying on fresh main"
+            sleep $((attempt * 5))
+          done
+          echo "::error::could not push approval for $FOLDER after 5 attempts"
+          exit 1

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 6,
+  "count": 9,
   "articles": [
     {
       "slug": "elektronna-ruletka",
@@ -10,10 +10,31 @@
       "status": "approved"
     },
     {
+      "slug": "sudoku-kak-se-igrae",
+      "title": "Судоку правила: как се играе и стратегии за начинаещи",
+      "date_modified": "2026-10-27",
+      "content_hash": "95ab5b4fa4a0a35121380f45e78fbbfdcd19dae3fcc33f97ba47db4ec8b5baa2",
+      "status": "approved"
+    },
+    {
+      "slug": "bundesliga",
+      "title": "Бундеслига: формат, отбори и как работи първенството | Всички Казина",
+      "date_modified": "2026-11-01",
+      "content_hash": "44cd68f0c987406e058cf772cb6a2c0f85ccaa349455c5ec21b846998b53992b",
+      "status": "approved"
+    },
+    {
       "slug": "nba",
       "title": "НБА: как работи сезонът, конференциите и плейофите | Всички Казина",
       "date_modified": "2026-11-07",
       "content_hash": "ce62524f09ef82dfaccc7610be1be919c36575ea815dec69ba9494339c208e3f",
+      "status": "approved"
+    },
+    {
+      "slug": "premier-liga-format-otbori",
+      "title": "Премиер лига: формат, отбори и как работи английското първенство | Всички Казина",
+      "date_modified": "2026-11-09",
+      "content_hash": "7d425be353cfa5341f09962993608272969e86fa88af619de9ce7e52f4f1231c",
       "status": "approved"
     },
     {
@@ -45,5 +66,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-11-18T17:36:44Z"
+  "generated_utc": "2026-11-18T17:37:54Z"
 }

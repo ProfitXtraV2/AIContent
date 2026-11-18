@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-18T17:36:45Z",
+  "generated_utc": "2026-11-18T17:37:54Z",
   "buffer": {
     "count": 221,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 215,
-    "approved": 6,
+    "drafted": 212,
+    "approved": 9,
     "posted": 116,
     "failed": 1
   },
@@ -6115,7 +6115,7 @@
     },
     {
       "id": "vk-0302",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Судоку — как се играе и стратегии за начинаещи",
       "keywords_or_terms": "судоку правила, как се играе судоку, судоку онлайн безплатно, игра судоку безплатно",
@@ -6544,7 +6544,7 @@
     },
     {
       "id": "vk-0321",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Бундеслига — формат, отбори и любопитни факти",
       "keywords_or_terms": "бундеслига, bundesliga, германско първенство",
@@ -6728,7 +6728,7 @@
     },
     {
       "id": "vk-0329",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Премиер лига — формат, отбори и любопитни факти",
       "keywords_or_terms": "премиер лига, premier league, английска висша лига",
