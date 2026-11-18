@@ -1,13 +1,15 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-11-18T07:14:30Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-11-18T07:41:56Z",
+  "articles_written": 1,
+  "prs_opened": [
+    365
+  ],
   "run_url": "https://claude.ai/code/session_01AwuYFVdgVcYJvWEPZdi5tL",
-  "note": "daily run 2026-11-18 — writing vk-0338 ПСЖ (Пари Сен Жермен) club profile (19000/kd1, opp100, P0 open backlog, owner-approved 2026-11-07). Guides-only: 0 operator/НАП/affiliate, 0 current-season stats/standings/transfers/odds.",
+  "note": "daily run 2026-11-18 — throttled MAX_PER_RUN=1. Reconcile clean on entry (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review NOT due (marker 2026-11 == current). WROTE 1 NEW guide vk-0338 „ПСЖ (Пари Сен Жермен) — история, трофеи, стадион и легенди“ (PR #365) — top open P0 backlog (owner-approved 2026-11-07 high-vol/low-KD discovery), псж 19000/kd1 informational opportunity 100 WIN, single best distinct topic after dedup. Evergreen club profile (guides-only: 0 operator/НАП/affiliate; 0 current standings/results/fixtures/transfers/odds; 0 predictions; 2025/2026 ШЛ финали = completed historic results). Dedup vs queue(0 псж/pari-sen)+live sitemap(185, 0 psg)=clean; distinct entity. Facts cross-verified EN Wikipedia+Britannica+CNN/SI/Ligue1/official PSG: основан 12.08.1970 (сливане Пари ФК+Стад Сен Жермен); Парк де пренс от 1974; QSI мажор. 2011; първа титла 1985/86 (Улие); към 2026 г. 14 Лига 1/16 Купа на Франция/9 Купа на лигата(прекратена)/14 Трофей на шампионите; КНК 1996 1:0 Рапид Виена (Нготи); ШЛ 2025 требъл финал 31.05.2025 Мюнхен 5:0 Интер; ШЛ 2026 втора поредна 30.05.2026 Будапеща Арсенал 1:1 4:3 дузпи (Дембеле), пръв с поредни след Реал 2018; легенди Мбапе(голмайстор №1)/Маркиньос/Ди Мария/Тиаго Силва/Лама. GEMINI ONLINE: Step-7 TEXT check1 HL20 -> humaniser p1 -> check2 HL15 -> humaniser p2 -> check3 HL30, MAX_GEMINI_PASSES reached, keep-best pass2 HL30 -> gemini=ai 70 (под 80 след cap -> flagged for human; noisy detector на football-history cf vk-0314/vk-0063). Gemini knowledge-limit flagged реалните 2025/2026 ШЛ титли като 'fictional' (training cutoff), НЕ е fact error. Step-8 img:1 hand-authored infographic pszh-pari-sen-zhermen-v-chisla.svg (клуб накратко+домашни трофеи+европейски път, числа 1:1 vs 05b, Chromium render clean 0 overlap/clip, 0 em/en-dash in SVG); image review pass1 100 PASS 0-integrity-fail; keep-best 100; no AI hero (data article). Gate 95 PASS 0-crit (0 em-dash U+2014 + 0 en-dash U+2013 body+meta+SVG, 0 AI connectives, 6 internal links Футбол/Меси/Барселона/спорт-money/zakonno/responsible-gambling, byline Георги Тодоров, verbatim 18+ RG + affiliate 1-Aug-2026 footer pending). ~860 думи, 0 inline flags (2 uncertainties written around: Парк де пренс capacity, Мбапе/Кавани tally). Number fix at gate: 'тринайсет месеца' -> 'една година' (12 мес, 31.05.2025->30.05.2026), then dropped during humaniser. 0 number drift 02->05b. KEYWORD RESEARCH: Ahrefs ONLINE (bg, unit-protected+30d cache). Light discovery (6 seeds): дартс правила 90/kd0 (head дартс 800 kept), реми игра правила 50, видео покер онлайн 150 (3 existing candidates confirmed); крупие казино 0 + мартингейл стратегия рулетка 0 (zero-vol SKIP, not added); казино речник термини no-data. ADDED 0 (no-padding, mature library 221 drafted). Backlog open P0 ПСЖ row -> written (PR #365); ~43 open writable sports/club/player rows remain + 9 NV-Casino operator rows open+blocked. BOARD: content-queue vk-0338 drafted (gemini ai 70, PR #365, img:1 infographic 100); topic-backlog ПСЖ row written; research bank refreshed (0 added); dashboard rebuilt (buffer 221/10); content refs fetched; feed refreshed (approved-only). PR #365 open in owner's (GTodorov9) PR list for review. NO flags resolved, nothing posted/merged/fabricated. Clean finish.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-11-18-pszh-pari-sen-zhermen",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 5,
-    "stage": "Brand Gate"
+    "stage_index": null,
+    "stage": null
   }
 }

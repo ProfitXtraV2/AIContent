@@ -3061,6 +3061,10 @@
 "fetched": "2026-10-26",
 "row": {}
 },
+"bg|казино речник термини": {
+"fetched": "2026-11-18",
+"row": {}
+},
 "bg|казино стратегия": {
 "fetched": "2026-10-11",
 "row": {
@@ -3409,6 +3413,16 @@
 },
 "trend": "up"
 },
+"bg|крупие казино": {
+"fetched": "2026-11-18",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "крупие казино",
+"volume": 0
+}
+},
 "bg|купи бонус": {
 "fetched": "2026-09-20",
 "row": {
@@ -3542,6 +3556,16 @@
 "difficulty": null,
 "intents": {},
 "keyword": "мартингейл стратегия",
+"volume": 0
+}
+},
+"bg|мартингейл стратегия рулетка": {
+"fetched": "2026-11-18",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "мартингейл стратегия рулетка",
 "volume": 0
 }
 },
@@ -3814,6 +3838,24 @@
 },
 "keyword": "реми",
 "volume": 250
+},
+"trend": "up"
+},
+"bg|реми игра правила": {
+"fetched": "2026-11-18",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "реми игра правила",
+"volume": 50
 },
 "trend": "up"
 },
