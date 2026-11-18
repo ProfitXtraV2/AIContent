@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-18T17:36:07Z",
+  "generated_utc": "2026-11-18T17:36:13Z",
   "buffer": {
     "count": 221,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 219,
-    "approved": 2,
+    "drafted": 218,
+    "approved": 3,
     "posted": 116,
     "failed": 1
   },
@@ -6682,7 +6682,7 @@
     },
     {
       "id": "vk-0327",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "НБА — как работи сезонът, конференциите и плейофите",
       "keywords_or_terms": "нба, nba, нба плейофи",

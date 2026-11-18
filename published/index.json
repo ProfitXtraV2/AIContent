@@ -1,12 +1,19 @@
 {
   "schema_version": 1,
-  "count": 2,
+  "count": 3,
   "articles": [
     {
       "slug": "elektronna-ruletka",
       "title": "Електронна рулетка: как работи (RNG и автоматни рулетки)",
       "date_modified": "2026-10-14",
       "content_hash": "205a5e9cd4e52433817100da5cf5e60a4bb620cc0de7a7b60f3e0006a8020c6e",
+      "status": "approved"
+    },
+    {
+      "slug": "nba",
+      "title": "НБА: как работи сезонът, конференциите и плейофите | Всички Казина",
+      "date_modified": "2026-11-07",
+      "content_hash": "ce62524f09ef82dfaccc7610be1be919c36575ea815dec69ba9494339c208e3f",
       "status": "approved"
     },
     {
@@ -17,5 +24,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-11-18T17:36:07Z"
+  "generated_utc": "2026-11-18T17:36:13Z"
 }
