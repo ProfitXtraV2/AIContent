@@ -4200,3 +4200,79 @@ remains in effect, and the feed only contains `approved` rows anyway, so tonight
 fix has zero feed impact. No posted/live content edited; nothing merged; no new article branches
 created; only the one flagged `content/2026-11-17-nacionalen-otbor-futbol-balgaria` branch touched;
 GEMINI_API_KEY never printed.
+
+---
+
+## 2026-11-18 (nightly run — quality-fixer: flags + score)
+
+### JOB A — publish-blocking flags
+**Zero flagged draft branches.** Scanned every `refs/remotes/origin/content/*` branch
+(339 total) against its **own** folder's `05b-final-draft.md` for the full blocking-marker
+set (`[VERIFY…]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`, `[AUTHOR…]`, `[BRAND…]`,
+`[EDITORIAL]`, `[уточни…]`, `[провери…]`). **0** draft branches carry any blocking marker —
+the idempotent, already-clean state. Nothing rewritten, nothing committed under JOB A. (An
+initial pass that keyed on each branch's alphabetically-first `05b` was discarded as unsound —
+every content branch holds a full tree, so `head -1` always hit the same file; the corrected
+per-branch own-folder scan is authoritative.)
+
+### JOB B — low Gemini score
+**1 target, improved and verified.** Qualifying rows = status ∈ {drafted, approved} with
+verdict `ai <n>` or `human <n<80>`. Exactly **one** qualified:
+
+- **vk-0338 — `2026-11-18-pszh-pari-sen-zhermen` (PR #365), board verdict `ai 70` → `human 85`.**
+  Fresh Gemini Step-7 re-checks on the current draft returned **human 80** then **human 85**
+  (borderline, well above the daily-run's `ai 70`/HL20-15-30 reads — confirms the "noisy
+  detector on football-history" note the daily run itself recorded; Gemini's training cutoff
+  also mis-flags the real 2025/2026 Champions-League titles as "fictional", which is a
+  knowledge-limit, not a fact error). Applied **3 surgical anti-AI-tell rephrasings** (step-7b
+  technique, rephrase-only): (1) removed the verbatim narrative-loop repeat of „все не идваше"
+  in the 2011 section (kept the intro hook; reworded to the money-vs-Europe contrast);
+  (2) dropped the „остави следа" filler cliché → concrete assist/defence phrasing for Ди Мария
+  и Тиаго Силва; (3) dropped the signposting adjective „внушителна" before the trophy tally and
+  led with the figures. **0** fact/number/name/date/claim changes (14/16/9/14 tally, all legends,
+  all dates and scorelines preserved exactly); byline Георги Тодоров, brand Всички Казина, the
+  18+/RG line and the affiliate disclosure untouched; 0 em-dashes, 0 flags. Post-edit re-check:
+  **„Likely human-written, 85% confidence" → human 85.** Stopped after the single pass per the
+  Step-7 ≥80 stop rule and the over-editing guard (remaining Gemini recs were diminishing-returns
+  subjective tweaks — it even re-flagged the fresh rephrase; detector noise). Committed on branch
+  `fix(quality): humanise 2026-11-18-pszh-pari-sen-zhermen (gemini ai 70->human 85)` and pushed
+  (PR #365 updated). Attempts: 1 edit pass + 3 Gemini checks. Result: **success (human 85)**.
+
+Still-failing after 5 passes: **none**. Of the ~221 other drafted/approved rows, all carry a
+recorded verdict `human ≥80` or are `skipped` (no verdict — not a JOB B target).
+
+### POSTED — needs human review (NOT edited — posted/live, out of scope)
+Scanning `main`'s article sources surfaced **3 posted/live articles whose live `05b-final-draft.md`
+still contains blocking markers, while their `content/*` branches already hold clean, publish-ready
+versions that were never merged back.** Since the site publisher now hard-blocks any bracket marker,
+a human should decide whether to refresh these live pages from their clean branches:
+
+- **vk-0063 — `2026-09-13-nv-casino-zakonno-li-e` (PR #79), posted, `ai 75`.** main `05b` retains
+  the older `[AUTHOR BIO BLOCK: Георги Тодоров]` / `[About Всички Казина boilerplate]` template
+  slots (clean branch expands them to full prose). Also still the **only board row below the
+  human-80 threshold** — carried forward unchanged from prior runs.
+- **vk-0064 — `2026-09-13-nv-casino-bonus-usloviya` (PR #80), posted, `human 85`.** main `05b`
+  retains `[AUTHOR BIO BLOCK: Георги Тодоров] [BRAND BOILERPLATE: Всички Казина] [18+ / RG LINE]`
+  template slots (clean branch expands them to full prose).
+- **vk-0267 — `2026-10-10-toto-2-igri` (PR #289), posted, `human 85`.** main `05b` retains **13
+  real `[VERIFY]` editorial flags** on lottery mechanics, ticket prices, prize-fund % and 5-от-35
+  rules; the clean branch version folds every caveat into prose / softens the uncertain claims.
+  Highest-priority of the three for a human look, since these are genuine unresolved factual
+  uncertainties in live content.
+
+(These were NOT touched: the hard rules forbid editing posted/live content and merging. JOB A's
+scope is `content/*` draft branches, all of which are clean.)
+
+### Deferred
+**None.** JOB B had exactly 1 qualifying target (≤10/night cap never approached); it was processed.
+
+### Finish
+`gemini` column updated for the one processed row: **vk-0338 `ai 70` → `human 85`** (board note
+appended with the full before→after). `build_dashboard.py` re-run on `main` — real diff: vk-0338
+`gemini` now `human 85` in `docs/data/status.json` (buffer 221/10); committed. `build_feed.py`
+re-run for idempotency but its output was a **timestamp-only** change (feed content byte-identical;
+the feed holds only `approved` rows and the autopilot maintains it via "approve on PR merge → feed")
+— the timestamp churn was reverted and **not committed**, to avoid pointless noise and a race with
+the approve-on-merge autopilot; tonight's drafted-article fix has zero feed impact. No posted/live
+content edited; nothing merged; no new article branches created; only the one low-rated
+`content/2026-11-18-pszh-pari-sen-zhermen` branch was touched. GEMINI_API_KEY never printed.
