@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 4,
+  "count": 5,
   "articles": [
     {
       "slug": "elektronna-ruletka",
@@ -24,6 +24,13 @@
       "status": "approved"
     },
     {
+      "slug": "beroe-stara-zagora",
+      "title": "Берое Стара Загора: история, стадион и трофеи | Всички Казина",
+      "date_modified": "2026-11-13",
+      "content_hash": "a1ec93c259758bd92e3be2df14f0e33d65860edc55b1008b03585ae6792c9920",
+      "status": "approved"
+    },
+    {
       "slug": "nacionalen-otbor-futbol-balgaria",
       "title": "Национален отбор по футбол на България: история и САЩ '94 | Всички Казина",
       "date_modified": "2026-11-17",
@@ -31,5 +38,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-11-18T17:36:23Z"
+  "generated_utc": "2026-11-18T17:36:35Z"
 }

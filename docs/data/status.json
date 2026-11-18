@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-18T17:36:23Z",
+  "generated_utc": "2026-11-18T17:36:35Z",
   "buffer": {
     "count": 221,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 217,
-    "approved": 4,
+    "drafted": 216,
+    "approved": 5,
     "posted": 116,
     "failed": 1
   },
@@ -6820,7 +6820,7 @@
     },
     {
       "id": "vk-0333",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "Берое Стара Загора — история, стадион и трофеи",
       "keywords_or_terms": "берое, берое стара загора, берое история",
