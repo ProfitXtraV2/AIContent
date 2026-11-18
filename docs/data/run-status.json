@@ -5,14 +5,25 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01AwuYFVdgVcYJvWEPZdi5tL",
-  "note": "daily run 2026-11-18 — throttled MAX_PER_RUN=1. Entry reconcile: 0 in-progress/HANDOFF/CLAIMED. Monthly SEO review marker 2026-11 == current (not due). Selecting topic.",
+  "note": "daily run 2026-11-18 — writing vk-0338 ПСЖ (Пари Сен Жермен) club profile (19000/kd1, opp100, P0 open backlog, owner-approved 2026-11-07). Guides-only: 0 operator/НАП/affiliate, 0 current-season stats/standings/transfers/odds.",
   "progress": {
-    "phase": "selecting",
-    "article_index": null,
-    "article_total": null,
-    "article_slug": null,
-    "stages": ["Synthesis","Outline","Author","Humaniser","SEO","Brand Gate","Light re-check","Images","Verification","PR"],
-    "stage_index": null,
-    "stage": null
+    "phase": "writing",
+    "article_index": 1,
+    "article_total": 1,
+    "article_slug": "2026-11-18-pszh-pari-sen-zhermen",
+    "stages": [
+      "Synthesis",
+      "Outline",
+      "Author",
+      "Humaniser",
+      "SEO",
+      "Brand Gate",
+      "Light re-check",
+      "Images",
+      "Verification",
+      "PR"
+    ],
+    "stage_index": 0,
+    "stage": "Synthesis"
   }
 }
