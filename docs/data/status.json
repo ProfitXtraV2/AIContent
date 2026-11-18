@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-18T17:36:35Z",
+  "generated_utc": "2026-11-18T17:36:45Z",
   "buffer": {
     "count": 221,
     "target": 10,
@@ -8,8 +8,8 @@
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 216,
-    "approved": 5,
+    "drafted": 215,
+    "approved": 6,
     "posted": 116,
     "failed": 1
   },
@@ -6866,7 +6866,7 @@
     },
     {
       "id": "vk-0335",
-      "status": "drafted",
+      "status": "approved",
       "type": "guide",
       "query": "ЦСКА София — история, трофеи и легенди на клуба",
       "keywords_or_terms": "цска, пфк цска софия, цска история",

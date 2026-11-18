@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 5,
+  "count": 6,
   "articles": [
     {
       "slug": "elektronna-ruletka",
@@ -31,6 +31,13 @@
       "status": "approved"
     },
     {
+      "slug": "cska-sofia-istoria",
+      "title": "ЦСКА София: история, трофеи и легенди на клуба | Всички Казина",
+      "date_modified": "2026-11-15",
+      "content_hash": "81fa829907678bd5236f5f10b98583354c84f91d6e2ecd44087ccf1badcbc09c",
+      "status": "approved"
+    },
+    {
       "slug": "nacionalen-otbor-futbol-balgaria",
       "title": "Национален отбор по футбол на България: история и САЩ '94 | Всички Казина",
       "date_modified": "2026-11-17",
@@ -38,5 +45,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-11-18T17:36:35Z"
+  "generated_utc": "2026-11-18T17:36:44Z"
 }
