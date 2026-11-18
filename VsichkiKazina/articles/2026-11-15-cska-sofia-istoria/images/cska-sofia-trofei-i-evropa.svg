@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 600" role="img" aria-label="Инфографика с трофеите на ЦСКА София у дома и европейските върхове на клуба: основан 1948, 31 титли, последна 2007/08, над 20 купи, 5 суперкупи, 2 полуфинала за КЕШ, Байерн 4:3 и 0:4 през 1981/82, най-крупна европейска победа 8:1 над Динамо Букурещ">
+  <defs>
+    <style>
+      .bg{fill:#f5f6fa;}
+      .card{fill:#ffffff;stroke:#dce0ea;stroke-width:1;}
+      .title{fill:#111a2e;font-family:'Segoe UI',Arial,sans-serif;font-size:26px;font-weight:700;}
+      .sub{fill:#5f6b82;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;}
+      .colh{fill:#c8102e;font-family:'Segoe UI',Arial,sans-serif;font-size:15px;font-weight:700;}
+      .big{fill:#111a2e;font-family:'Segoe UI',Arial,sans-serif;font-size:24px;font-weight:800;}
+      .lbl{fill:#273349;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;}
+      .foot{fill:#5f6b82;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="940" height="600"/>
+  <rect class="card" x="8" y="8" width="924" height="584" rx="14"/>
+
+  <text class="title" x="470" y="50" text-anchor="middle">ЦСКА София: трофеи и европейски върхове</text>
+  <text class="sub" x="470" y="74" text-anchor="middle">най-титулуваният български клуб, в числа</text>
+  <line x1="40" y1="94" x2="900" y2="94" stroke="#dce0ea" stroke-width="1"/>
+  <rect x="40" y="94" width="860" height="3" fill="#c8102e"/>
+
+  <!-- Left column: trophies at home -->
+  <text class="colh" x="46" y="132">Трофеи у дома</text>
+
+  <text class="big" x="46"  y="182">1948</text>
+  <text class="lbl" x="230" y="182">основан (5 май)</text>
+
+  <text class="big" x="46"  y="236">31</text>
+  <text class="lbl" x="230" y="236">титли, национален рекорд</text>
+
+  <text class="big" x="46"  y="290">2007/08</text>
+  <text class="lbl" x="230" y="290">последна титла засега</text>
+
+  <text class="big" x="46"  y="344">над 20</text>
+  <text class="lbl" x="230" y="344">Купи на България</text>
+
+  <text class="big" x="46"  y="398">5</text>
+  <text class="lbl" x="230" y="398">Суперкупи (последна 2026)</text>
+
+  <!-- Divider -->
+  <line x1="468" y1="112" x2="468" y2="430" stroke="#dce0ea" stroke-width="1"/>
+
+  <!-- Right column: European highs -->
+  <text class="colh" x="500" y="132">Европейски върхове</text>
+
+  <text class="big" x="500" y="182">2</text>
+  <text class="lbl" x="560" y="182">полуфинала за КЕШ</text>
+
+  <text class="big" x="500" y="236">1966/67</text>
+  <text class="lbl" x="650" y="236">полуфинал срещу Интер</text>
+
+  <text class="big" x="500" y="290">1981/82</text>
+  <text class="lbl" x="650" y="290">Байерн: 4:3 вкъщи, 0:4 вън</text>
+
+  <text class="big" x="500" y="344">1988/89</text>
+  <text class="lbl" x="650" y="344">полуфинал за КНК (Барселона)</text>
+
+  <text class="big" x="500" y="398">8:1</text>
+  <text class="lbl" x="560" y="398">най-крупна евро победа</text>
+  <text class="foot" x="560" y="418">Динамо Букурещ, 1956/57</text>
+
+  <line x1="40" y1="452" x2="900" y2="452" stroke="#dce0ea" stroke-width="1"/>
+  <text class="foot" x="46" y="478">Цветове: червено и бяло. Прякори: „Армейците", „Червените". Стадион „Българска армия".</text>
+  <text class="foot" x="46" y="500">Всички стойности следват текста на статията. Завършени минали сезони, без текущо класиране.</text>
+  <text class="foot" x="46" y="522">Източници: bg.wikipedia.org и en.wikipedia.org (PFC CSKA Sofia).</text>
+</svg>
