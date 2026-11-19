@@ -1,26 +1,12 @@
 {
   "schema_version": 1,
-  "count": 9,
+  "count": 7,
   "articles": [
     {
       "slug": "elektronna-ruletka",
       "title": "Електронна рулетка: как работи (RNG и автоматни рулетки)",
       "date_modified": "2026-10-14",
-      "content_hash": "205a5e9cd4e52433817100da5cf5e60a4bb620cc0de7a7b60f3e0006a8020c6e",
-      "status": "approved"
-    },
-    {
-      "slug": "sudoku-kak-se-igrae",
-      "title": "Судоку правила: как се играе и стратегии за начинаещи",
-      "date_modified": "2026-10-27",
-      "content_hash": "95ab5b4fa4a0a35121380f45e78fbbfdcd19dae3fcc33f97ba47db4ec8b5baa2",
-      "status": "approved"
-    },
-    {
-      "slug": "bundesliga",
-      "title": "Бундеслига: формат, отбори и как работи първенството | Всички Казина",
-      "date_modified": "2026-11-01",
-      "content_hash": "44cd68f0c987406e058cf772cb6a2c0f85ccaa349455c5ec21b846998b53992b",
+      "content_hash": "86da704a21e6a750007ecd39274ddff0da0c72b63d373eea335745ae88ca9c61",
       "status": "approved"
     },
     {
@@ -66,5 +52,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-11-18T17:37:54Z"
+  "generated_utc": "2026-11-19T06:44:00Z"
 }
