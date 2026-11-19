@@ -4276,3 +4276,85 @@ the feed holds only `approved` rows and the autopilot maintains it via "approve 
 the approve-on-merge autopilot; tonight's drafted-article fix has zero feed impact. No posted/live
 content edited; nothing merged; no new article branches created; only the one low-rated
 `content/2026-11-18-pszh-pari-sen-zhermen` branch was touched. GEMINI_API_KEY never printed.
+
+---
+
+## 2026-11-19 (nightly, 2nd run) — flag + score fixes
+
+### JOB A — Resolve publish-blocking flags
+Scanned all **340** `refs/remotes/origin/content/*` branches, each against its **own**
+article's `05b-final-draft.md` (`git grep -nE` for the genuine Step-7 reviewer/fact-check
+markers: `[VERIFY]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`, `[AUTHOR …]`,
+`[BRAND BOILERPLATE …]`, `[EDITORIAL]`, `[уточни …]`, `[провери …]`).
+
+**Result: 0 draft branches carry a genuine blocking flag — all `content/*` branches are clean.**
+The only bracket token present on draft branches is the ubiquitous `[About Всички Казина
+boilerplate]` (187 drafted/approved branches). Per `pipeline/SKILL.md` Step 8 this is a
+**template-assembly slot** (byline / bio / boilerplate / dates / 18+-RG / disclosure are
+assembled at publish), not a fact-check flag: it is present in 100% of drafts **and in 61
+already-live `published/*/article.md` pages**, and the dashboard's own authoritative flag
+regex (`build_dashboard.py`: `\[(?:VERIFY|DATA NEEDED)\b[^\]\n]*\]`) does not count it. Byline,
+brand, the 18+/RG line and the affiliate disclosure are already expanded to full prose on every
+draft branch. Left untouched (idempotent) — same disposition as the prior nightly run.
+
+### POSTED — needs human review (NOT edited — posted/live, out of scope)
+Re-scan of `main`'s article sources for genuine markers surfaced **3 posted/live articles**
+whose live `05b-final-draft.md` still contains blocking markers (carried forward, unchanged):
+
+- **vk-0063 — `2026-09-13-nv-casino-zakonno-li-e` (PR #79), posted, `ai 75`.** main `05b` retains
+  old `[AUTHOR BIO BLOCK: Георги Тодоров]` / `[About Всички Казина boilerplate]` template slots
+  (the `content/*` branch already expands byline/RG to prose; About-box slot still a slot).
+- **vk-0064 — `2026-09-13-nv-casino-bonus-usloviya` (PR #80), posted, `human 85`.** main `05b`
+  retains old `[AUTHOR BIO BLOCK …] [BRAND BOILERPLATE …] [18+ / RG LINE]` template slots.
+- **vk-0267 — `2026-10-10-toto-2-igri` (PR #289), posted, `human 85`.** main `05b` still holds
+  **real `[VERIFY]` editorial flags** on lottery mechanics / ticket prices / prize-fund % — the
+  highest-priority of the three for a human look (genuine unresolved factual uncertainties in
+  live content). A human should decide whether to refresh these live pages from their clean
+  branches. NOT touched (hard rules: never edit posted/live, never merge).
+
+### JOB B — Improve low Gemini score
+TARGETS = status ∈ {drafted, approved} AND verdict `ai <n>` or `human <n<80>`. Exactly **one**
+qualified (≤10/night cap never approached):
+
+- **vk-0339 — `2026-11-19-stiliyan-petrov` (PR #367), board `ai 70`.**
+  Fresh Step-7 Gemini re-checks on the current draft: **baseline AI 80% (HL 20)** → after a
+  rephrase-only humaniser pass **AI 75% (HL 25)** → a second pass fell back to **AI 80% (HL 20)**,
+  so per the mandatory **keep-best** rule the final `05b` is the pass-1 version (HL 25). The same
+  **unedited** text scored AI 70% (daily run) vs AI 80% (this run's fresh check) — a 10-point
+  swing on identical content, i.e. the documented noisy-detector ceiling on football-biography
+  copy (same pattern logged on vk-0314, vk-0063, vk-0338). Applied **6 surgical anti-AI-tell
+  rephrasings** (step-7b technique, rephrase-only): (1) removed the "geographical journey"
+  framing in the intro (`Пътят… минава през Монтана, Глазгоу и Бирмингам` → `Зад нея стоят
+  годините му в ЦСКА, „Селтик" и „Астън Вила"`); (2) de-personified `Признанието… пристига` →
+  `През сезон 2004/05 е избран…`; (3) dropped the `Футболистът, дошъл от Монтана` destiny tag;
+  (4) de-personified `Отговорът идва на 2 август 2012 г.` → `На 2 август 2012 г. е обявено…`;
+  (5) grounded the virtue-list captain cliché (`покриват цялото поле… водят с пример, а не с
+  крясък`) in football terms (box-to-box, периметър, бягане между двете наказателни полета);
+  (6) replaced the "beyond the statistics" conclusion with a concrete close (minute 19 at Villa
+  Park + return after leukaemia). Also replaced the soft bridge heading `На пари, отдалеч` →
+  functional `Спортни залози накратко`. **0** fact/number/name/date/claim changes (105 мача, 8
+  гола, 6,5 млн паунда, 5.07.1979, 1996-1999, four title seasons, 2003 UEFA final, 30.08.2006,
+  2007/2009, 1998-2013, 2004 Euro, 2003 BG PotY, 30.03.2012, 02.08.2012, 09.05.2013, 26.05 all
+  preserved exactly); byline Георги Тодоров, brand Всички Казина, the 18+/RG line, the affiliate
+  disclosure and all 6 internal links untouched; 0 em-dashes. Committed on branch
+  `fix(quality): humanise 2026-11-19-stiliyan-petrov (gemini ai 80->ai 75)` and pushed (PR #367
+  updated). Attempts: 2 edit passes + 3 Gemini checks. **Result: still below human-80 after
+  keep-best → left best version (HL 25), flagged for human Step-6 review.** Genuine prose
+  improvements landed; the noisy detector did not reward them past the gate.
+
+**Still-failing after passes:** vk-0339 (above) — detector-ceiling, not a content defect; human
+Step-6 review. Of the ~219 other drafted/approved rows, all carry a recorded verdict `human ≥80`
+or are `skipped` (no numeric verdict — not a JOB B target).
+
+### Deferred
+**None.** JOB B had exactly 1 qualifying target; it was processed.
+
+### Finish
+`gemini` column updated for the one processed row: **vk-0339 `ai 70` → `ai 75`** (board note
+appended with the full before→after and the noise caveat). `build_dashboard.py` re-run on `main`
+— real diff: vk-0339 `gemini` now `ai 75` + note in `docs/data/status.json` (buffer 220/10);
+committed. `build_feed.py` re-run — output was a **timestamp-only** change (feed holds only
+`approved` rows; vk-0339 is drafted, zero feed impact) — reverted, not committed, to avoid noise
+and a race with the approve-on-merge autopilot. No posted/live content edited; nothing merged; no
+new article branches created; only the one low-rated `content/2026-11-19-stiliyan-petrov` branch
+was touched. GEMINI_API_KEY never printed.

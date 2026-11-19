@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-19T07:37:12Z",
+  "generated_utc": "2026-11-19T23:16:50Z",
   "buffer": {
     "count": 220,
     "target": 10,
@@ -6969,8 +6969,8 @@
       "posted_date": "",
       "folder": "2026-11-19-stiliyan-petrov",
       "pr": "#367",
-      "gemini": "ai 70",
-      "notes": "P0 open backlog (owner-approved 2026-10-28 Bulgarian-football batch); legend player profile; guides-only (0 operator/НАП/affiliate); illness respectful public-facts only; gate 95 PASS 0-crit; Gemini keep-best pass1 HL30 (ai 70, flagged for human; noisy football-bio detector); img:1 infographic review 100; ~750 думи, 0 flags; 6 internal links",
+      "gemini": "ai 75",
+      "notes": "P0 open backlog (owner-approved 2026-10-28 Bulgarian-football batch); legend player profile; guides-only (0 operator/НАП/affiliate); illness respectful public-facts only; gate 95 PASS 0-crit; Gemini keep-best pass1 HL30 (ai 70, flagged for human; noisy football-bio detector); img:1 infographic review 100; ~750 думи, 0 flags; 6 internal links · nightly 2026-11-19: rephrase-only humaniser on 6 Step-7 LLM-tells (journey framing, personification, virtue-list, forced affiliate pivot, 'beyond-stats' close), 0 fact/date/name/number changes; this-run fresh re-checks AI 80→75 (HL20→25), still <human-80, kept-best pass1, PR #367 updated, flagged for human Step-6 (noisy football-bio detector)",
       "opportunity": {
         "score": 100,
         "band": "Strong",
