@@ -13,3 +13,12 @@
 - 05b: final draft locked.
 - Step 7 (Gemini text): see 07-gemini-check-*.md + 06-verification.md.
 - Step 8 (images): see 08-image-review-*.md + 06-verification.md.
+
+## Final (2026-11-19)
+- Step 7 Gemini TEXT: check1 HL10 -> humaniser p1 -> check2 HL30 -> humaniser p2 -> check3 HL25;
+  MAX_GEMINI_PASSES reached; keep-best = pass 1 (HL 30) restored as final 05b -> gemini `ai 70`
+  (below 80 after cap -> flagged for human). Noisy football-bio detector.
+- Step 8 images: 1 infographic SVG (every number 1:1 from 05b), Chromium render clean, Gemini
+  image review pass1 100 PASS (0 integrity fail), keep-best 100. No AI hero (data article).
+- Gate 95 PASS, 0 critical, 0 em/en-dash, 6 internal links, byline Георги Тодоров.
+- ~750 words body, 0 surviving flags. Ready for PR.
