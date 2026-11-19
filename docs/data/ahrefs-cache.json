@@ -31,6 +31,24 @@
 },
 "trend": "up"
 },
+"bg|20 super hot": {
+"fetched": "2026-11-19",
+"row": {
+"cpc": 160,
+"difficulty": 2,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "20 super hot",
+"volume": 900
+},
+"trend": "flat"
+},
 "bg|20 super hot xmas": {
 "fetched": "2026-09-20",
 "row": {}
@@ -1555,6 +1573,24 @@
 "volume": 0
 }
 },
+"bg|pragmatic play": {
+"fetched": "2026-11-19",
+"row": {
+"cpc": 45,
+"difficulty": 62,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "pragmatic play",
+"volume": 2400
+},
+"trend": "down"
+},
 "bg|quickspin": {
 "fetched": "2026-09-18",
 "row": {
@@ -2465,6 +2501,16 @@
 },
 "trend": "down"
 },
+"bg|баккара правила": {
+"fetched": "2026-11-19",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "баккара правила",
+"volume": 0
+}
+},
 "bg|баккара стратегия": {
 "fetched": "2026-10-24",
 "row": {
@@ -3283,6 +3329,24 @@
 "fetched": "2026-10-24",
 "row": {}
 },
+"bg|кено": {
+"fetched": "2026-11-19",
+"row": {
+"cpc": null,
+"difficulty": 0,
+"intents": {
+"branded": false,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "кено",
+"volume": 150
+},
+"trend": "down"
+},
 "bg|кено правила": {
 "fetched": "2026-10-31",
 "row": {
@@ -3360,7 +3424,7 @@
 "trend": "up"
 },
 "bg|крапс правила": {
-"fetched": "2026-10-11",
+"fetched": "2026-11-19",
 "row": {
 "cpc": null,
 "difficulty": null,
@@ -3721,6 +3785,10 @@
 },
 "trend": "up"
 },
+"bg|покер комбинации ръце": {
+"fetched": "2026-11-19",
+"row": {}
+},
 "bg|покер маса": {
 "fetched": "2026-10-19",
 "row": {
@@ -3962,7 +4030,7 @@
 "row": {}
 },
 "bg|слот турнири": {
-"fetched": "2026-10-17",
+"fetched": "2026-11-19",
 "row": {}
 },
 "bg|сплит блекджек": {

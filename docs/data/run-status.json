@@ -1,13 +1,15 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-11-19T07:14:00Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-11-19T07:37:45Z",
+  "articles_written": 1,
+  "prs_opened": [
+    367
+  ],
   "run_url": "https://claude.ai/code/session_01AwuYFT4hKGibzzomKnKNeJ",
-  "note": "daily run 2026-11-19 — throttled MAX_PER_RUN=1. Reconcile clean on entry (0 in-progress/HANDOFF/CLAIMED).",
+  "note": "daily run 2026-11-19 — throttled MAX_PER_RUN=1. Reconcile clean on entry (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review NOT due (marker 2026-11 == current). WROTE 1 NEW guide vk-0339 „Стилиян Петров — кариера, ЦСКА, Селтик, Астън Вила и битката с левкемията“ (PR #367) — top open P0 backlog (owner-approved 2026-10-28 Bulgarian-football batch), стилиян петров 5800/kd0 informational WIN, single best distinct topic after dedup. Evergreen legend player profile (guides-only: 0 operator/НАП/affiliate; 0 current standings/results/transfers/odds; 0 predictions; illness handled respectfully, public facts only). Dedup vs queue(0 petrov)+live sitemap(187,0 petrov)+bank=clean; distinct entity. Facts EN Wikipedia + Sky Sports/FourFourTwo: роден 05.07.1979 Монтана; ФК Монтана→ЦСКА 1996–1999 (титла+2 купи, забелязан от Димитър Пенев); „Селтик“ 1999–2006 (4 титли в Шотландия 2000/01–2005/06 + купи, Футболист на годината на клуба 2004/05, финал за Купата на УЕФА 2003); „Астън Вила“ 2006–2013 (6,5 млн. паунда, №19 от 2007, капитан от 2009, Зала на славата); 105 мача+8 гола за България (1998–2013, рекорд по участия), капитан на Евро 2004, Футболист на годината на България 2003; остра левкемия 30.03.2012, аплодисменти в 19-ата минута на „Вила Парк“, ремисия 02.08.2012, край 09.05.2013, прощален мач 26.05.2013 „Васил Левски“. Оспорен голов актив за Селтик (55 vs 64) умишлено не е печатан. GEMINI ONLINE: Step-7 TEXT check1 HL10 → humaniser p1 → check2 HL30 → humaniser p2 → check3 HL25, MAX_GEMINI_PASSES reached, keep-best pass1 HL30 → gemini=ai 70 (под 80 след cap → flagged for human; noisy detector на football-bio cf vk-0314/vk-0338). Step-8 img:1 hand-authored infographic stiliyan-petrov-kariera-v-chisla.svg (числа 1:1 vs 05b, Chromium render clean 0 overlap/clip, 0 em/en-dash); image review pass1 100 PASS 0-integrity-fail; keep-best 100; no AI hero (data article). Gate 95 PASS 0-crit (0 em-dash U+2014 + 0 en-dash U+2013 body+meta+SVG, 0 AI connectives, 6 internal links futbol/cska-1948/efbet-liga/sport-money/zakonno/responsible-gambling, byline Георги Тодоров, verbatim 18+ RG + affiliate 1-Aug-2026 footer). ~750 думи, 0 inline flags. KEYWORD RESEARCH: Ahrefs ONLINE (bg, unit-protected cache). Light discovery 12 seeds: all volume-bearing hits ALREADY COVERED (бакара 350/kd3, кено 150/kd0, 20 super hot 900/kd2 = posted+live → fold-ins), казино бонус кодове 50 + бинго правила 50 weak/cannibal (not added), zero-vol SKIP (крапс правила 0, баккара правила 0, +3 no-data). ADDED 1 Pillar head: Pragmatic Play провайдер 2400/kd62 (distinct, NOT covered, above cap→defer; sweet bonanza 250/kd70 folded as satellite). No padding (mature library 220 drafted). BOARD: content-queue vk-0339 drafted (gemini ai 70, PR #367, img:1 infographic 100); topic-backlog Стилиян Петров row→written; research bank +1 Pillar + run-note; dashboard rebuilt (buffer 220/10); content refs fetched; feed refreshed (approved-only). PR #367 open in owner's (GTodorov9) PR list for review (subscribed to PR activity). NO flags resolved, nothing posted/merged/fabricated. Clean finish.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-11-19-stiliyan-petrov",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "stage_index": null,
+    "stage": null
   }
 }
