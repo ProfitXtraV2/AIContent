@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="624" viewBox="0 0 820 624" font-family="'DejaVu Sans','Segoe UI',Arial,sans-serif" role="img" aria-label="Инфографика: кариерата на Стилиян Петров в числа">
+  <rect width="820" height="624" fill="#f6f7f9"/>
+  <!-- header -->
+  <rect x="0" y="0" width="820" height="88" fill="#15223b"/>
+  <text x="32" y="42" fill="#ffffff" font-size="25" font-weight="700">Стилиян Петров: кариерата в числа</text>
+  <text x="32" y="68" fill="#9fb0c9" font-size="14">Всички стойности следват текста на статията</text>
+
+  <!-- hero stat -->
+  <rect x="24" y="108" width="772" height="92" rx="8" fill="#ffffff" stroke="#e2e6ee"/>
+  <rect x="24" y="108" width="7" height="92" rx="3" fill="#c3372b"/>
+  <text x="52" y="168" fill="#15223b" font-size="46" font-weight="800">105</text>
+  <text x="170" y="146" fill="#15223b" font-size="19" font-weight="700">мача за България · рекорд</text>
+  <text x="170" y="174" fill="#5a6b85" font-size="15">най-много за националния отбор (1998-2013)</text>
+
+  <!-- row 1 -->
+  <g>
+    <rect x="24" y="216" width="378" height="88" rx="8" fill="#ffffff" stroke="#e2e6ee"/>
+    <text x="42" y="256" fill="#1d3f6e" font-size="26" font-weight="800">1979</text>
+    <text x="42" y="284" fill="#44526a" font-size="14">роден в Монтана, България</text>
+  </g>
+  <g>
+    <rect x="418" y="216" width="378" height="88" rx="8" fill="#ffffff" stroke="#e2e6ee"/>
+    <text x="436" y="252" fill="#1d3f6e" font-size="22" font-weight="800">ЦСКА · 1996-1999</text>
+    <text x="436" y="278" fill="#44526a" font-size="14">шампион на България</text>
+    <text x="436" y="296" fill="#44526a" font-size="14">и две купи на страната</text>
+  </g>
+
+  <!-- row 2 -->
+  <g>
+    <rect x="24" y="316" width="378" height="88" rx="8" fill="#ffffff" stroke="#e2e6ee"/>
+    <text x="42" y="352" fill="#1d3f6e" font-size="21" font-weight="800">„Селтик" · 1999-2006</text>
+    <text x="42" y="378" fill="#44526a" font-size="14">четири титли в Шотландия</text>
+    <text x="42" y="396" fill="#7a869c" font-size="13">2000/01 · 2001/02 · 2003/04 · 2005/06</text>
+  </g>
+  <g>
+    <rect x="418" y="316" width="378" height="88" rx="8" fill="#ffffff" stroke="#e2e6ee"/>
+    <text x="436" y="352" fill="#1d3f6e" font-size="20" font-weight="800">„Астън Вила" · 2006-2013</text>
+    <text x="436" y="378" fill="#44526a" font-size="14">номер 19, капитан на клуба</text>
+    <text x="436" y="396" fill="#7a869c" font-size="13">капитан от лятото на 2009 г.</text>
+  </g>
+
+  <!-- row 3 -->
+  <g>
+    <rect x="24" y="416" width="378" height="88" rx="8" fill="#ffffff" stroke="#e2e6ee"/>
+    <text x="42" y="456" fill="#1d3f6e" font-size="26" font-weight="800">8</text>
+    <text x="70" y="456" fill="#44526a" font-size="14">гола за България</text>
+    <text x="42" y="484" fill="#7a869c" font-size="13">за националния отбор (1998-2013)</text>
+  </g>
+  <g>
+    <rect x="418" y="416" width="378" height="88" rx="8" fill="#ffffff" stroke="#e2e6ee"/>
+    <text x="436" y="452" fill="#1d3f6e" font-size="21" font-weight="800">Евро 2004</text>
+    <text x="436" y="478" fill="#44526a" font-size="14">капитан на България; Футболист</text>
+    <text x="436" y="496" fill="#44526a" font-size="14">на годината на България 2003</text>
+  </g>
+
+  <!-- row 4 -->
+  <g>
+    <rect x="24" y="516" width="378" height="88" rx="8" fill="#ffffff" stroke="#e2e6ee"/>
+    <text x="42" y="552" fill="#1d3f6e" font-size="18" font-weight="800">30 март 2012</text>
+    <text x="42" y="578" fill="#44526a" font-size="14">остра левкемия</text>
+    <text x="42" y="596" fill="#7a869c" font-size="13">ремисия: 2 август 2012 г.</text>
+  </g>
+  <g>
+    <rect x="418" y="516" width="378" height="88" rx="8" fill="#ffffff" stroke="#e2e6ee"/>
+    <text x="436" y="552" fill="#1d3f6e" font-size="18" font-weight="800">9 май 2013</text>
+    <text x="436" y="578" fill="#44526a" font-size="14">край на кариерата</text>
+    <text x="436" y="596" fill="#7a869c" font-size="13">прощален мач: 26 май, „В. Левски"</text>
+  </g>
+</svg>
