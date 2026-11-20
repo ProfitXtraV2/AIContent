@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 620" role="img" aria-label="Инфографика с ключовите факти за Локомотив София: титли, купи, европейско участие, стадион и клубни рекордьори">
+  <defs>
+    <style>
+      .bg{fill:#f6f4f4;}
+      .card{fill:#ffffff;stroke:#e2d6d6;stroke-width:1;}
+      .title{fill:#1a1113;font-family:'Segoe UI',Arial,sans-serif;font-size:26px;font-weight:700;}
+      .sub{fill:#6b5b5d;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;}
+      .colh{fill:#b31217;font-family:'Segoe UI',Arial,sans-serif;font-size:15px;font-weight:700;}
+      .big{fill:#1a1113;font-family:'Segoe UI',Arial,sans-serif;font-size:23px;font-weight:800;}
+      .lbl{fill:#2e2124;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;}
+      .foot{fill:#6b5b5d;font-family:'Segoe UI',Arial,sans-serif;font-size:12.5px;}
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="980" height="620"/>
+  <rect class="card" x="8" y="8" width="964" height="604" rx="14"/>
+
+  <text class="title" x="490" y="50" text-anchor="middle">Локомотив София в числа</text>
+  <text class="sub" x="490" y="74" text-anchor="middle">история, трофеи и рекорди</text>
+  <line x1="40" y1="94" x2="940" y2="94" stroke="#e2d6d6" stroke-width="1"/>
+  <rect x="40" y="94" width="900" height="3" fill="#b31217"/>
+
+  <!-- Left column: titles, cups, Europe -->
+  <text class="colh" x="46" y="130">Трофеи и Европа</text>
+
+  <text class="big" x="46"  y="178">4</text>
+  <text class="lbl" x="120" y="178">шампион (1940 · 1945 · 1964 · 1978)</text>
+
+  <text class="big" x="46"  y="232">4</text>
+  <text class="lbl" x="120" y="232">Купа на България (1948 · 1953 · 1982 · 1995)</text>
+
+  <text class="big" x="46"  y="286">1973</text>
+  <text class="lbl" x="120" y="286">Балканска клубна купа</text>
+
+  <text class="big" x="46"  y="340">1979/80</text>
+  <text class="lbl" x="170" y="340">четвъртфинал · Купа на УЕФА</text>
+
+  <!-- Divider -->
+  <line x1="492" y1="112" x2="492" y2="486" stroke="#e2d6d6" stroke-width="1"/>
+
+  <!-- Right column: club, stadium, legends -->
+  <text class="colh" x="516" y="130">Клубът и легендите</text>
+
+  <text class="big" x="516" y="178">1929</text>
+  <text class="lbl" x="620" y="178">основан като ЖСК</text>
+
+  <text class="big" x="516" y="232">1945</text>
+  <text class="lbl" x="620" y="232">име „Локомотив“</text>
+
+  <text class="big" x="516" y="286">~22 000</text>
+  <text class="lbl" x="660" y="286">места · стадион „Локомотив“ (1985)</text>
+
+  <text class="big" x="516" y="340">348 · 145</text>
+  <text class="lbl" x="680" y="340">Ат. Михайлов: мача · гола</text>
+
+  <text class="big" x="516" y="394">143</text>
+  <text class="lbl" x="620" y="394">Н. Котков: гола в А група</text>
+
+  <!-- Footer -->
+  <line x1="40" y1="500" x2="940" y2="500" stroke="#e2d6d6" stroke-width="1"/>
+  <text class="foot" x="46" y="528">Червено-черни · прякор „Железничарите“ · корени от железницата (ЖСК София).</text>
+  <text class="foot" x="46" y="552">Профил и история, без класирания, резултати или прогнози. Всички стойности следват текста на статията.</text>
+  <text class="foot" x="46" y="576">Източници: EN/BG Wikipedia (ПФК Локомотив София). Всички Казина · vsichkikazina.bg</text>
+</svg>
