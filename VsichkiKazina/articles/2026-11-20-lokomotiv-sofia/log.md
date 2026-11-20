@@ -9,3 +9,9 @@
 - Stage 5b Light re-check: 0 em-dash / 0 en-dash (body+meta+ALT); byline/brand/RG/affiliate strings present; numbers 1:1.
 - Stage 7 Gemini TEXT check: see 07-gemini-check-*.md.
 - Stage 8 Images: see 08-image-review-*.md.
+
+## Final results
+- Step 7 Gemini TEXT: check1 AI85/HL15 → humaniser p1 → check2 AI85/HL15 → humaniser p2 → check3 AI75/HL25. Keep-best = pass 2 (HL25). gemini = ai 75 (flagged for human; noisy football-bio detector).
+- Step 8 Images: 1 infographic (lokomotiv-sofia-v-chisla.svg), Gemini review 100/100 PASS 0-integrity-fail; Chromium render clean. No AI hero (data article).
+- Step 5b light re-check: 0 em-dash / 0 en-dash (body+meta+ALT+SVG); byline/brand/18+/affiliate present; 916 body words; 16 numbers 1:1 text↔infographic.
+- Gate: PASS 95, 0 critical. 2 [VERIFY] (stadium, succession) kept in text. 0 operators → 0 affiliate.
