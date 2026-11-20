@@ -4358,3 +4358,99 @@ committed. `build_feed.py` re-run — output was a **timestamp-only** change (fe
 and a race with the approve-on-merge autopilot. No posted/live content edited; nothing merged; no
 new article branches created; only the one low-rated `content/2026-11-19-stiliyan-petrov` branch
 was touched. GEMINI_API_KEY never printed.
+
+---
+
+## 2026-11-20 (nightly flag+score fixer, 23:22 UTC)
+
+### JOB A — Resolve publish-blocking flags
+Scanned all **341** `refs/remotes/origin/content/*` branches, each against its **own**
+article's `05b-final-draft.md` (`git grep -nE` for the genuine Step-7 reviewer/fact-check
+markers: `[VERIFY: …]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`, `[AUTHOR …]`,
+`[BRAND …]`, `[EDITORIAL]`, `[уточни …]`, `[провери …]`).
+
+**Result: 0 draft branches carry a genuine blocking flag — all `content/*` branches are clean.**
+The only square-bracket tokens on draft branches are legitimate markdown link text
+(`[законно](/zakonno-li-e/)`, `[раздела за спорт](…)`, etc.) and image alt-text — content,
+not editorial flag brackets. vk-0340's board note mentions "2 `[VERIFY]` (stadium capacity /
+2015 succession)" but those were already folded into neutral prose on the branch last cycle;
+the current `05b` holds **zero** brackets of that kind (re-verified directly). Left untouched
+(idempotent) — same disposition as prior nightly runs.
+
+Note: one real first-person drafting artifact (`затова го оставям за проверка`, a leaked
+editorial note — not a bracketed flag, so it passed the regex scan) **was** present in the
+vk-0340 draft and is surfaced + removed under JOB B below.
+
+### JOB B — Improve low Gemini score
+TARGETS = status ∈ {drafted, approved} AND verdict `ai <n>` or `human <n<80>`, worst-first,
+≤10/night. Exactly **two** qualified (cap never approached); both the owner-approved
+Bulgarian-football batch, both sitting at the documented noisy football-bio detector ceiling.
+
+- **vk-0340 — `2026-11-20-lokomotiv-sofia` (PR #368), board `ai 75` → `human 85` ✓ PASS.**
+  Fresh Step-7 checks: baseline **ai 75 (HL 25)**. Applied rephrase-only step-7b humaniser
+  pass on Gemini-flagged tells: removed a **leaked first-person drafting artifact**
+  (`…затова го оставям за проверка` → neutral `…и който остава спорен`), a persona slip
+  (`за клуб от нашия мащаб` → `за български клуб от този мащаб`), the symmetric intro/outro,
+  the "forgotten-but-significant" Balkan-Cup trope, two poetic metaphors (`котвата, около
+  която…` → plain stadium description; `корени… от релсите` → plain railway origin), and the
+  redundant trophy-recap close. Re-checks swung **ai 85 → human 75 → ai 85 → (committed text)
+  human 85** across passes — the documented ±10 detector noise; **keep-best** retained the
+  version that reads `human 85`, which Gemini praised for its grounded compliance section and
+  colloquial voice (`дядовците на днешните фенове`, `независимо кой води счетоводството`).
+  **0** fact/date/name/number changes (1929/2.09.1929 ЖСК, 3.04.1945, titles 1940/1945/1964/
+  1978, cups 1948/1953/1982/1995, Balkan Cup 1973, UEFA QF 1979/80 vs Фенцварош/Монако/Динамо
+  Киев/Щутгарт, stadium 1985 ~22 000, Михайлов 348/145, Котков 143, Стойков 326, 2015
+  insolvency — all preserved); byline Георги Тодоров, brand Всички Казина, 18+/RG line,
+  affiliate disclosure and all internal links untouched; 0 em-dashes; 0 blocking markers.
+  Committed `fix(quality): humanise 2026-11-20-lokomotiv-sofia (gemini ai 75->human 85)`,
+  pushed (PR #368). Attempts: 4 edit passes + 5 Gemini checks. **Result: PASS (human 85).**
+
+- **vk-0339 — `2026-11-19-stiliyan-petrov` (PR #367), board `ai 75` → `ai 65`.**
+  Sensitive legend biography (leukaemia — respectful, public-facts-only). Already humanised
+  the prior two nights (ai 80→75, kept-best, flagged). Fresh checks this run: baseline
+  **ai 85** → after rephrase-only step-7b passes **ai 75 → ai 75 → ai 75 → ai 65** (best).
+  Each re-check surfaced *different* complaints on near-identical text (round 1 contrastive
+  pairs; round 2 "legacy" heading; round 3 date-first chronology; round 4 anglicisms) — the
+  saturated football-bio detector, consistent with the vk-0339/vk-0314/vk-0063 history. Edits
+  landed: removed the `битката, по-голяма от футбола` H1 cliché (→ factual `…и капитанът на
+  „Астън Вила"`), the `кратък, но не празен` / `На терена… / Извън терена…` contrastive pairs,
+  the `рядка чест…` and `за едно поколение българи…` narrated-emotion wrap-ups, the meta-bridge
+  into the betting section (`…по-приземен въпрос от спомена за един футболист` → `…разглеждаме
+  отделно`), the redundant legacy summary paragraph, the `Какво остава` heading (→ `Стил на
+  игра`), the `Така… момчето от Монтана` storybook pivot, a pronoun-referent bug (`Зад нея` →
+  `Зад този рекорд`), date-first sentence monotony, and three literal-translation anglicisms
+  (`най-опитните очи`, `трибуните стават на крака`, `носене на топката напред`). **0**
+  fact/date/name/number changes (105 мача/8 гола, 5.07.1979 Монтана, Пенев, 1996-1999,
+  2000/01-2005/06 titles, 2003 UEFA final, 2004/05 club PotY, 30.08.2006 6,5 млн £, №19, 2009
+  captain, 2003 BG PotY, 2004 Euro armband, 30.03.2012 diagnosis, 2.08.2012 remission, 9.05.2013
+  end, 26.05 Левски farewell — all preserved); byline, brand, 18+/RG line, disclosure, all 6
+  internal links untouched; 0 em-dashes; 0 blocking markers. Committed `fix(quality): humanise
+  2026-11-19-stiliyan-petrov (gemini ai 75->ai 65)`, pushed (PR #367). Attempts: 4 edit passes +
+  5 Gemini checks (the cap). **Result: still below human-80 after keep-best → left best version
+  (ai 65, a 10-pt improvement over the board's ai 75), flagged for human Step-6 review.**
+  Detector-ceiling, not a content defect; genuine prose improvements landed.
+
+### POSTED — needs human review (NOT edited — posted/live, out of scope)
+- **vk-0063 — `2026-09-13-nv-casino-zakonno-li-e` (PR #79), posted, `ai 75`.** Only posted row
+  below the human-80 threshold (carried forward every run). Also still carries an
+  `[AUTHOR BIO BLOCK: Георги Тодоров]` template slot in main's `05b`. Never edited per policy.
+- **vk-0064 — `2026-09-13-nv-casino-bonus-usloviya` (PR #80), posted, `human 85`.** main `05b`
+  retains `[AUTHOR BIO BLOCK …] [BRAND BOILERPLATE …] [18+ / RG LINE]` template slots.
+- **vk-0267 — `2026-10-10-toto-2-igri` (PR #289), posted, `human 85`.** main `05b` still holds
+  **10 real `[VERIFY]` editorial flags** (lottery mechanics, ticket prices, prize-fund %,
+  БСТ rules, ЗХ wording) — highest-priority of the three for a human look (genuine unresolved
+  factual uncertainties on a live page). A human should decide whether to refresh these live
+  pages from clean branches. NOT touched (hard rules: never edit posted/live, never merge).
+
+### Deferred
+**None.** JOB B had exactly 2 qualifying targets (≤10/night cap); both processed.
+
+### Finish
+`gemini` column updated on `main` for the two processed rows: **vk-0340 `ai 75` → `human 85`**,
+**vk-0339 `ai 75` → `ai 65`**. `build_dashboard.py` re-run — real diff: those two `gemini`
+values in `docs/data/status.json` (buffer 219/10); committed. `build_feed.py` re-run — output
+was a **timestamp-only** change to `published/index.json` (feed holds only `approved` rows; both
+processed articles are drafted → zero feed impact) — reverted, not committed, to avoid noise and
+a race with the approve-on-merge autopilot (same disposition as prior nightly runs). No posted/
+live content edited; nothing merged; no new article branches created; only the two low-rated
+`content/*` branches were touched. GEMINI_API_KEY never printed.
