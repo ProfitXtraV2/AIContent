@@ -1,13 +1,15 @@
 {
-  "state": "running",
+  "state": "idle",
   "run_started_utc": "2026-11-20T07:13:27Z",
-  "run_finished_utc": null,
-  "articles_written": null,
-  "prs_opened": [],
+  "run_finished_utc": "2026-11-20T08:05:00Z",
+  "articles_written": 1,
+  "prs_opened": [
+    368
+  ],
   "run_url": "https://claude.ai/code/session_01AwuYFT58cRAB9hgjBZeRW2",
-  "note": "daily run 2026-11-20 — writing vk-0340 Локомотив София (P0 backlog, 5000/kd7).",
+  "note": "daily run 2026-11-20 — throttled MAX_PER_RUN=1. Reconcile clean on entry (0 in-progress/HANDOFF/CLAIMED). Monthly SEO review NOT due (marker 2026-11 == current). WROTE 1 NEW guide vk-0340 „Локомотив София — история на клуба\" (PR #368) — top open P0 backlog (owner-approved 2026-10-28 Bulgarian-football batch), локомотив софия 5000/kd7 informational WIN, single best distinct topic after dedup. Evergreen club profile (guides-only: 0 operator/НАП/affiliate; 0 current standings/results/fixtures/transfers/odds; 0 predictions). Dedup vs queue(0 локомотив)+live sitemap(189, 0 lokomotiv)+bank = clean; distinct entity. Facts EN+BG Wikipedia: основан 02.09.1929 като ЖСК (железничари), име „Локомотив\" от 03.04.1945; червено-черно, прякор Железничарите; шампион 4× (1940, 1945, 1964, 1978); Купа на България 4× (1948, 1953, 1982, 1995); Балканска клубна купа 1973; Купа на УЕФА 1979/80 четвъртфинал (елиминира Фенцварош, Монако, Динамо Киев; отпада от Щутгарт); стадион „Локомотив\" от 1985, ~22 000 места; легенди Атанас Михайлов 348 мача/145 гола, Никола Котков 143 гола, Йордан Стойков 326 мача, Стою Недялков (капитан 1940), Васил Методиев (треньор 1978). SENSITIVE handled NEUTRALLY: 2015 несъстоятелност + ново ФК Локомотив София 1929 АД; приемственост/признаване на трофеите оспорвана → [VERIFY], no side taken; stadium capacity/location разнобой → [VERIFY], меко поднесено. GEMINI ONLINE: Step-7 TEXT check1 AI85/HL15 → humaniser p1 → check2 AI85/HL15 → humaniser p2 → check3 AI75/HL25, MAX_GEMINI_PASSES reached, keep-best pass2 HL25 → gemini=ai 75 (под 80 след cap → flagged for human; noisy football-bio detector, same text scored AI85 then AI75 cf vk-0339). Step-8 img:1 hand-authored infographic lokomotiv-sofia-v-chisla.svg (16 числа 1:1 vs 05b, Chromium render clean 0 overlap/clip, red-black club palette, 0 em/en-dash); image review pass1 100/100 PASS 0-integrity-fail; keep-best 100; no AI hero (data article). Gate 95 PASS 0-crit (0 em-dash + 0 en-dash body+meta+ALT+SVG, 0 AI connectives, 6 internal links efbet-liga/futbol/zakonno/sport-bonus/responsible-gambling/otgovorna-igra, byline Георги Тодоров, verbatim 18+ RG + affiliate 1-Aug-2026 footer, 0 operators → 0 affiliate). ~916 думи, 2 [VERIFY] kept in text. KEYWORD RESEARCH: Ahrefs ONLINE (bg, unit-protected cache). Light discovery 10 seeds: all volume-bearing hits ALREADY COVERED (покер комбинации 700/kd0 = vk-0263+/blog/poker-kombinacii/; блекджек правила 60/kd32 = vk-0009 cluster) or ABOVE-CAP Pillars (gates of olympus 350/kd83, book of ra 150/kd69 → defer) or thin/commercial (egt игри 20, амуснет 60, авиатор 60). Zero-vol SKIP (aviator игра 0, лаки джет 0). 0 new candidate rows (market saturated — confirms throttle; no padding). BOARD: content-queue vk-0340 drafted (gemini ai 75, PR #368, img:1 infographic 100); topic-backlog Локомотив София row → written; research bank +run-note; dashboard rebuilt (buffer 219/10); content refs fetched; feed refreshed (5 approved). PR #368 open in owner's (GTodorov9) PR list for review (subscribed to PR activity; owner is PR author so no separate reviewer). NO flags resolved, nothing posted/merged/fabricated. Clean finish.",
   "progress": {
-    "phase": "writing",
+    "phase": "done",
     "article_index": 1,
     "article_total": 1,
     "article_slug": "2026-11-20-lokomotiv-sofia",
@@ -23,7 +25,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 0,
-    "stage": "Synthesis"
+    "stage_index": null,
+    "stage": null
   }
 }

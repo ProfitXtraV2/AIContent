@@ -341,10 +341,10 @@
 "trend": "up"
 },
 "bg|book of ra": {
-"fetched": "2026-09-18",
+"fetched": "2026-11-20",
 "row": {
 "cpc": 80,
-"difficulty": 73,
+"difficulty": 69,
 "intents": {
 "branded": true,
 "commercial": true,
@@ -640,6 +640,24 @@
 "volume": 50
 },
 "trend": "up"
+},
+"bg|egt игри": {
+"fetched": "2026-11-20",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "egt игри",
+"volume": 20
+},
+"trend": "down"
 },
 "bg|egypt sky": {
 "fetched": "2026-10-26",
@@ -2465,6 +2483,42 @@
 "volume": 0
 }
 },
+"bg|авиатор игра": {
+"fetched": "2026-11-20",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "авиатор игра",
+"volume": 60
+},
+"trend": "up"
+},
+"bg|амуснет": {
+"fetched": "2026-11-20",
+"row": {
+"cpc": 10,
+"difficulty": 0,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "амуснет",
+"volume": 60
+},
+"trend": "down"
+},
 "bg|бакара": {
 "fetched": "2026-11-16",
 "row": {
@@ -2719,6 +2773,10 @@
 },
 "bg|волатилност на слот": {
 "fetched": "2026-10-26",
+"row": {}
+},
+"bg|гейтс ъф олимпус": {
+"fetched": "2026-11-20",
 "row": {}
 },
 "bg|генератор на случайни числа": {
@@ -3504,6 +3562,16 @@
 "bg|лайтнинг рулетка": {
 "fetched": "2026-10-27",
 "row": {}
+},
+"bg|лаки джет": {
+"fetched": "2026-11-20",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "лаки джет",
+"volume": 0
+}
 },
 "bg|лига европа": {
 "fetched": "2026-10-30",
