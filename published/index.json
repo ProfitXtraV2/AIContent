@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "count": 7,
+  "count": 5,
   "articles": [
     {
       "slug": "elektronna-ruletka",
       "title": "Електронна рулетка: как работи (RNG и автоматни рулетки)",
       "date_modified": "2026-10-14",
-      "content_hash": "205a5e9cd4e52433817100da5cf5e60a4bb620cc0de7a7b60f3e0006a8020c6e",
+      "content_hash": "86da704a21e6a750007ecd39274ddff0da0c72b63d373eea335745ae88ca9c61",
       "status": "approved"
     },
     {
@@ -14,20 +14,6 @@
       "title": "НБА: как работи сезонът, конференциите и плейофите | Всички Казина",
       "date_modified": "2026-11-07",
       "content_hash": "ce62524f09ef82dfaccc7610be1be919c36575ea815dec69ba9494339c208e3f",
-      "status": "approved"
-    },
-    {
-      "slug": "premier-liga-format-otbori",
-      "title": "Премиер лига: формат, отбори и как работи английското първенство | Всички Казина",
-      "date_modified": "2026-11-09",
-      "content_hash": "7d425be353cfa5341f09962993608272969e86fa88af619de9ce7e52f4f1231c",
-      "status": "approved"
-    },
-    {
-      "slug": "ligue-1-format",
-      "title": "Лига 1: формат, отбори и как работи френското първенство | Всички Казина",
-      "date_modified": "2026-11-10",
-      "content_hash": "c978d4b882817fe2dec9160440d8fac9316cd3ca54ce5caa8fb2c25f50ba2fd8",
       "status": "approved"
     },
     {
@@ -52,5 +38,5 @@
       "status": "approved"
     }
   ],
-  "generated_utc": "2026-11-19T07:37:50Z"
+  "generated_utc": "2026-11-20T06:42:37Z"
 }
