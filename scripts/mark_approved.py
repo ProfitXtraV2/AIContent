@@ -2,9 +2,9 @@
 """Mark content-queue rows as approved by folder name.
 
 Usage:
-    python3 scripts/mark_approved.py <folder> [<folder>...]
+    python3 scripts/mark_approved.py [--queue <path>] <folder> [<folder>...]
 
-Reads VsichkiKazina/content-queue.md, sets status=approved for each drafted row
+Reads VsichkiKazina/content-queue.md (or the --queue board), sets status=approved for each drafted row
 whose folder matches one of the given folders, writes the file back, and prints
 which folders were updated (or "no rows updated").
 """
@@ -80,13 +80,18 @@ def mark_approved(md_text: str, folders: set) -> tuple:
 
 
 def main():
-    if len(sys.argv) < 2:
-        print("Usage: mark_approved.py <folder> [<folder>...]", file=sys.stderr)
+    args = sys.argv[1:]
+    queue_arg = None
+    if len(args) >= 2 and args[0] == "--queue":
+        queue_arg, args = args[1], args[2:]
+    if not args:
+        print("Usage: mark_approved.py [--queue <path>] <folder> [<folder>...]", file=sys.stderr)
         return 1
 
-    folders = set(sys.argv[1:])
+    folders = set(args)
     root = Path(__file__).resolve().parents[1]
-    queue_path = root / "VsichkiKazina" / "content-queue.md"
+    # Default is the VsichkiKazina board; --queue points at another brand's board (e.g. BizGrow).
+    queue_path = Path(queue_arg) if queue_arg else root / "VsichkiKazina" / "content-queue.md"
     md_text = queue_path.read_text(encoding="utf-8")
 
     new_md, updated = mark_approved(md_text, folders)

@@ -48,3 +48,41 @@ jobs:
           done
           echo "::error::could not push approval for $FOLDER after 5 attempts"
           exit 1
+
+  approve-xtra-ai:
+    if: github.event.pull_request.merged == true && startsWith(github.event.pull_request.head.ref, 'bz-content/')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Approve merged Xtra AI article + rebuild its feed
+        env:
+          BRANCH: ${{ github.event.pull_request.head.ref }}
+        run: |
+          set -euo pipefail
+          FOLDER="${BRANCH#bz-content/}"
+          echo "Approving Xtra AI folder: $FOLDER"
+          git config user.name "Xtra AI Approver"
+          git config user.email "approver@xtra-ai.local"
+          for attempt in 1 2 3 4 5; do
+            git fetch origin -q
+            git reset -q --hard origin/main
+            python3 scripts/mark_approved.py --queue BizGrow/content-queue.md "$FOLDER"
+            python3 scripts/build_feed_bizgrow.py
+            python3 scripts/build_dashboard.py
+            git add BizGrow/content-queue.md BizGrow/published docs/data
+            if git diff --cached --quiet; then
+              echo "nothing to approve (already approved/posted)"
+              exit 0
+            fi
+            git commit -q -m "board($FOLDER): approve Xtra AI article on PR merge -> feed"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "push rejected (attempt $attempt), retrying on fresh main"
+            sleep $((attempt * 5))
+          done
+          echo "::error::could not push approval for $FOLDER after 5 attempts"
+          exit 1
