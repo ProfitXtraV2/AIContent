@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 600" role="img" aria-label="Инфографика с ключовите факти за Етър Велико Търново: основаване, шампионска титла, трофеи, европейски участия, треньор и стадион">
+  <defs>
+    <style>
+      .bg{fill:#f6f3fa;}
+      .card{fill:#ffffff;stroke:#e0d6ec;stroke-width:1;}
+      .title{fill:#3d1a63;font-family:'Segoe UI',Arial,sans-serif;font-size:26px;font-weight:700;}
+      .sub{fill:#6f5c85;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;}
+      .colh{fill:#5b2a86;font-family:'Segoe UI',Arial,sans-serif;font-size:15px;font-weight:700;}
+      .big{fill:#2a123f;font-family:'Segoe UI',Arial,sans-serif;font-size:23px;font-weight:800;}
+      .lbl{fill:#3a2b4a;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;}
+      .foot{fill:#6f5c85;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="940" height="600"/>
+  <rect class="card" x="8" y="8" width="924" height="584" rx="14"/>
+
+  <text class="title" x="470" y="50" text-anchor="middle">Етър Велико Търново в числа</text>
+  <text class="sub" x="470" y="74" text-anchor="middle">история, титла и трофеи</text>
+  <line x1="40" y1="94" x2="900" y2="94" stroke="#e0d6ec" stroke-width="1"/>
+  <rect x="40" y="94" width="860" height="3" fill="#5b2a86"/>
+
+  <!-- Left column: title & trophies -->
+  <text class="colh" x="46" y="130">Титла и трофеи</text>
+
+  <text class="big" x="46"  y="178">1924</text>
+  <text class="lbl" x="135" y="178">основан във Велико Търново</text>
+
+  <text class="big" x="46"  y="232">1991</text>
+  <text class="lbl" x="135" y="232">шампион на България (7 точки пред ЦСКА)</text>
+
+  <text class="big" x="46"  y="286">1991</text>
+  <text class="lbl" x="135" y="286">Купа на БФС</text>
+
+  <text class="big" x="46"  y="340">1995</text>
+  <text class="lbl" x="135" y="340">първата Купа на лигата</text>
+
+  <text class="big" x="46"  y="394">1993</text>
+  <text class="lbl" x="135" y="394">финал за Балканската купа</text>
+
+  <!-- Divider -->
+  <line x1="472" y1="112" x2="472" y2="470" stroke="#e0d6ec" stroke-width="1"/>
+
+  <!-- Right column: Europe, coach, stadium -->
+  <text class="colh" x="500" y="130">Европа, треньор и стадион</text>
+
+  <text class="big" x="500" y="178">1991/92</text>
+  <text class="lbl" x="640" y="178">Купа на шампионите, Кайзерслаутерн</text>
+
+  <text class="big" x="500" y="232">1974/75</text>
+  <text class="lbl" x="640" y="232">Купа на УЕФА, Интер</text>
+
+  <text class="big" x="500" y="286">Василев</text>
+  <text class="lbl" x="640" y="286">треньор на титлата</text>
+
+  <text class="big" x="500" y="340">„Ивайло“</text>
+  <text class="lbl" x="640" y="340">домашният стадион</text>
+
+  <text class="big" x="500" y="394">1958</text>
+  <text class="lbl" x="640" y="394">открит на 24 май</text>
+
+  <!-- Footer -->
+  <line x1="40" y1="500" x2="900" y2="500" stroke="#e0d6ec" stroke-width="1"/>
+  <text class="foot" x="46" y="528">Виолетови · прякори „Виолетовите“ и „Болярите“ · име от старото название на река Янтра.</text>
+  <text class="foot" x="46" y="552">Профил и история, без класирания, резултати или прогнози. Всички стойности следват текста на статията.</text>
+  <text class="foot" x="46" y="576">Източници: EN/BG Wikipedia (ФК Етър, Велико Търново). Всички Казина · vsichkikazina.bg</text>
+</svg>
