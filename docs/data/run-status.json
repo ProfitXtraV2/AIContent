@@ -5,7 +5,7 @@
   "articles_written": null,
   "prs_opened": [],
   "run_url": "https://claude.ai/code/session_01AwuYFWJWbmmFskuZNCBn3A",
-  "note": "daily run 2026-11-21 — throttled MAX_PER_RUN=1. Reconcile clean. Writing vk-0341 Етър Велико Търново (историческата титла 1990/91).",
+  "note": "daily run 2026-11-21 — vk-0341 Етър Велико Търново: text PASS (Gemini human 85, keep-best pass 2). Creating image.",
   "progress": {
     "phase": "writing",
     "article_index": 1,
@@ -23,7 +23,7 @@
       "Verification",
       "PR"
     ],
-    "stage_index": 2,
-    "stage": "Author"
+    "stage_index": 7,
+    "stage": "Images"
   }
 }
