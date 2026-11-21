@@ -31,6 +31,24 @@
 },
 "trend": "up"
 },
+"bg|20 super hot": {
+"fetched": "2026-11-19",
+"row": {
+"cpc": 160,
+"difficulty": 2,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "20 super hot",
+"volume": 900
+},
+"trend": "flat"
+},
 "bg|20 super hot xmas": {
 "fetched": "2026-09-20",
 "row": {}
@@ -323,10 +341,10 @@
 "trend": "up"
 },
 "bg|book of ra": {
-"fetched": "2026-09-18",
+"fetched": "2026-11-20",
 "row": {
 "cpc": 80,
-"difficulty": 73,
+"difficulty": 69,
 "intents": {
 "branded": true,
 "commercial": true,
@@ -622,6 +640,24 @@
 "volume": 50
 },
 "trend": "up"
+},
+"bg|egt игри": {
+"fetched": "2026-11-20",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "egt игри",
+"volume": 20
+},
+"trend": "down"
 },
 "bg|egypt sky": {
 "fetched": "2026-10-26",
@@ -1555,6 +1591,24 @@
 "volume": 0
 }
 },
+"bg|pragmatic play": {
+"fetched": "2026-11-19",
+"row": {
+"cpc": 45,
+"difficulty": 62,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "pragmatic play",
+"volume": 2400
+},
+"trend": "down"
+},
 "bg|quickspin": {
 "fetched": "2026-09-18",
 "row": {
@@ -2429,6 +2483,60 @@
 "volume": 0
 }
 },
+"bg|авиатор игра": {
+"fetched": "2026-11-20",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "авиатор игра",
+"volume": 60
+},
+"trend": "up"
+},
+"bg|амуснет": {
+"fetched": "2026-11-20",
+"row": {
+"cpc": 10,
+"difficulty": 0,
+"intents": {
+"branded": true,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "амуснет",
+"volume": 60
+},
+"trend": "down"
+},
+"bg|бакара": {
+"fetched": "2026-11-16",
+"row": {
+"cpc": 3,
+"difficulty": 3,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "бакара",
+"volume": 350
+},
+"trend": "down"
+},
 "bg|бакара правила": {
 "fetched": "2026-10-31",
 "row": {
@@ -2447,6 +2555,16 @@
 },
 "trend": "down"
 },
+"bg|баккара правила": {
+"fetched": "2026-11-19",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "баккара правила",
+"volume": 0
+}
+},
 "bg|баккара стратегия": {
 "fetched": "2026-10-24",
 "row": {
@@ -2461,6 +2579,28 @@
 "fetched": "2026-10-26",
 "row": {}
 },
+"bg|безплатни завъртания 2026": {
+"fetched": "2026-11-16",
+"row": {}
+},
+"bg|белот правила": {
+"fetched": "2026-11-21",
+"row": {
+"cpc": 30,
+"difficulty": 0,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "белот правила",
+"volume": 1400
+},
+"trend": "flat"
+},
 "bg|белот правила за начинаещи": {
 "fetched": "2026-10-21",
 "row": {}
@@ -2474,6 +2614,24 @@
 "keyword": "белот тактика",
 "volume": 0
 }
+},
+"bg|бинго правила": {
+"fetched": "2026-11-17",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "бинго правила",
+"volume": 50
+},
+"trend": "down"
 },
 "bg|блекджек варианти": {
 "fetched": "2026-10-27",
@@ -2567,6 +2725,10 @@
 },
 "trend": "down"
 },
+"bg|бридж правила игра": {
+"fetched": "2026-11-21",
+"row": {}
+},
 "bg|видео покер": {
 "fetched": "2026-10-27",
 "row": {
@@ -2635,6 +2797,10 @@
 "fetched": "2026-10-26",
 "row": {}
 },
+"bg|гейтс ъф олимпус": {
+"fetched": "2026-11-20",
+"row": {}
+},
 "bg|генератор на случайни числа": {
 "fetched": "2026-10-27",
 "row": {
@@ -2691,6 +2857,24 @@
 "keyword": "данъчна лотария",
 "volume": 0
 }
+},
+"bg|дартс": {
+"fetched": "2026-11-16",
+"row": {
+"cpc": 7,
+"difficulty": 0,
+"intents": {
+"branded": false,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "дартс",
+"volume": 800
+},
+"trend": "down"
 },
 "bg|дартс правила": {
 "fetched": "2026-10-31",
@@ -2846,6 +3030,16 @@
 },
 "trend": "down"
 },
+"bg|живо казино": {
+"fetched": "2026-11-16",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "живо казино",
+"volume": 0
+}
+},
 "bg|игрално казино": {
 "fetched": "2026-10-18",
 "row": {}
@@ -2920,6 +3114,24 @@
 },
 "trend": "up"
 },
+"bg|казино бонус кодове": {
+"fetched": "2026-11-16",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": false,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "казино бонус кодове",
+"volume": 50
+},
+"trend": "down"
+},
 "bg|казино бонус условия": {
 "fetched": "2026-10-27",
 "row": {}
@@ -2973,6 +3185,10 @@
 },
 "bg|казино речник": {
 "fetched": "2026-10-26",
+"row": {}
+},
+"bg|казино речник термини": {
+"fetched": "2026-11-18",
 "row": {}
 },
 "bg|казино стратегия": {
@@ -3122,7 +3338,7 @@
 "row": {}
 },
 "bg|канаста правила": {
-"fetched": "2026-10-21",
+"fetched": "2026-11-21",
 "row": {
 "cpc": null,
 "difficulty": 0,
@@ -3193,6 +3409,24 @@
 "fetched": "2026-10-24",
 "row": {}
 },
+"bg|кено": {
+"fetched": "2026-11-19",
+"row": {
+"cpc": null,
+"difficulty": 0,
+"intents": {
+"branded": false,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "кено",
+"volume": 150
+},
+"trend": "down"
+},
 "bg|кено правила": {
 "fetched": "2026-10-31",
 "row": {
@@ -3247,6 +3481,10 @@
 },
 "trend": "down"
 },
+"bg|крап казино правила": {
+"fetched": "2026-11-21",
+"row": {}
+},
 "bg|крап правила": {
 "fetched": "2026-10-28",
 "row": {}
@@ -3270,7 +3508,7 @@
 "trend": "up"
 },
 "bg|крапс правила": {
-"fetched": "2026-10-11",
+"fetched": "2026-11-19",
 "row": {
 "cpc": null,
 "difficulty": null,
@@ -3278,6 +3516,10 @@
 "keyword": "крапс правила",
 "volume": 0
 }
+},
+"bg|крас игри": {
+"fetched": "2026-11-17",
+"row": {}
 },
 "bg|крас игри правила": {
 "fetched": "2026-10-28",
@@ -3301,6 +3543,34 @@
 },
 "trend": "down"
 },
+"bg|крипто казино": {
+"fetched": "2026-11-16",
+"row": {
+"cpc": 110,
+"difficulty": 60,
+"intents": {
+"branded": false,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "крипто казино",
+"volume": 350
+},
+"trend": "up"
+},
+"bg|крупие казино": {
+"fetched": "2026-11-18",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "крупие казино",
+"volume": 0
+}
+},
 "bg|купи бонус": {
 "fetched": "2026-09-20",
 "row": {
@@ -3319,6 +3589,16 @@
 "fetched": "2026-10-27",
 "row": {}
 },
+"bg|лаки джет": {
+"fetched": "2026-11-20",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "лаки джет",
+"volume": 0
+}
+},
 "bg|лига европа": {
 "fetched": "2026-10-30",
 "row": {
@@ -3336,6 +3616,24 @@
 "volume": 18000
 },
 "trend": "up"
+},
+"bg|лотария онлайн": {
+"fetched": "2026-11-17",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": true,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "лотария онлайн",
+"volume": 50
+},
+"trend": "down"
 },
 "bg|лъки джокър": {
 "fetched": "2026-10-26",
@@ -3416,6 +3714,16 @@
 "difficulty": null,
 "intents": {},
 "keyword": "мартингейл стратегия",
+"volume": 0
+}
+},
+"bg|мартингейл стратегия рулетка": {
+"fetched": "2026-11-18",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {},
+"keyword": "мартингейл стратегия рулетка",
 "volume": 0
 }
 },
@@ -3571,6 +3879,10 @@
 },
 "trend": "up"
 },
+"bg|покер комбинации ръце": {
+"fetched": "2026-11-19",
+"row": {}
+},
 "bg|покер маса": {
 "fetched": "2026-10-19",
 "row": {
@@ -3673,6 +3985,42 @@
 "volume": 0
 }
 },
+"bg|реми": {
+"fetched": "2026-11-16",
+"row": {
+"cpc": 10,
+"difficulty": 27,
+"intents": {
+"branded": false,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "реми",
+"volume": 250
+},
+"trend": "up"
+},
+"bg|реми игра правила": {
+"fetched": "2026-11-18",
+"row": {
+"cpc": null,
+"difficulty": null,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "реми игра правила",
+"volume": 50
+},
+"trend": "up"
+},
 "bg|реми правила": {
 "fetched": "2026-10-27",
 "row": {
@@ -3727,6 +4075,24 @@
 },
 "trend": "up"
 },
+"bg|сантасе правила": {
+"fetched": "2026-11-21",
+"row": {
+"cpc": 45,
+"difficulty": 0,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "сантасе правила",
+"volume": 1000
+},
+"trend": "down"
+},
 "bg|сик бо": {
 "fetched": "2026-10-11",
 "row": {
@@ -3745,6 +4111,28 @@
 "fetched": "2026-10-24",
 "row": {}
 },
+"bg|скрч карти": {
+"fetched": "2026-11-17",
+"row": {}
+},
+"bg|слот игри": {
+"fetched": "2026-11-16",
+"row": {
+"cpc": 20,
+"difficulty": 78,
+"intents": {
+"branded": false,
+"commercial": true,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": true
+},
+"keyword": "слот игри",
+"volume": 700
+},
+"trend": "down"
+},
 "bg|слот с бонус игра": {
 "fetched": "2026-10-30",
 "row": {}
@@ -3754,7 +4142,7 @@
 "row": {}
 },
 "bg|слот турнири": {
-"fetched": "2026-10-17",
+"fetched": "2026-11-19",
 "row": {}
 },
 "bg|сплит блекджек": {

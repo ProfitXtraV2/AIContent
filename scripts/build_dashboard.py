@@ -298,7 +298,7 @@ def build_seo(backlog, research, seo_review):
             elif opp.get("winnable"):
                 winnable.append(item); c["winnable"] += 1
     winnable.sort(key=lambda x: -(x["score"] or 0))
-    pillars.sort(key=lambda x: -((x["volume"] or 0)))
+    pillars.sort(key=lambda x: -(_num(x["volume"]) or 0))
     return {
         "max_winnable_kd": seo_review.get("max_winnable_kd", SITE_MAX_WINNABLE_KD),
         "last_monthly_review": seo_review.get("last_monthly_review"),

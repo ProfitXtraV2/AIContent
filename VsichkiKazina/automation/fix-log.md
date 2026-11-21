@@ -3796,3 +3796,661 @@ No board `gemini` cells changed (no rows processed). `build_dashboard.py` (buffe
 already been regenerated earlier today by the daily run. No posted/live content edited; nothing
 merged; no new article branches created; no `content/<folder>` branch touched (idempotent
 all-clean night); GEMINI_API_KEY never printed.
+
+## 2026-11-11 — nightly flag + score fixes
+
+### JOB A — publish-blocking flags
+Scanned every `refs/remotes/origin/content/*` branch (332 content branches) against its own
+`VsichkiKazina/articles/<folder>/05b-final-draft.md` for the full blocking-marker set
+(`[VERIFY …]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`, `[AUTHOR …]`, `[BRAND …]`,
+`[EDITORIAL]`, `[уточни …]`, `[провери …]`). **One flagged branch:**
+
+- **vk-0331 — `2026-11-11-vechno-derbi-levski-cska` (PR #357)** — 1 `[VERIFY: точната дата се
+  посочва различно от източниците]` marker on the records paragraph. The bracket sat after
+  „победа с пет гола разлика, 5:0" — the **5:0 score is a public result and no date was actually
+  asserted** in the sentence; the uncertainty was only about the (unstated) exact date. Resolved
+  by rephrasing to „ЦСКА пък има свои паметни вечери, сред които победа с пет гола разлика — 5:0,
+  така че разгромът не е еднопосочна привилегия." — bracket gone, 5:0 fact kept, **no date
+  invented**, meaning preserved. Byline Георги Тодоров, brand Всички Казина and the RG/18+ line
+  all intact. Re-scan: **0 blocking markers.** Committed `fix(flags): resolve
+  2026-11-11-vechno-derbi-levski-cska — publish-ready` on `content/2026-11-11-vechno-derbi-levski-cska`
+  and pushed (fa5cb28f..16f2f260).
+
+### JOB B — low Gemini score
+**Zero qualifying targets.** Across all 226 `drafted`/`approved` rows the recorded Gemini verdicts
+are all `human ≥80` (minimum **80**, which meets the Step-7 PASS threshold) and **0** `ai <n>`; the
+rest are `skipped`. No row carries `ai <n>` or `human <n>` with n<80, so there is nothing to
+humanise. Idempotency rule applied — every flag-free, already-≥80 draft left untouched. No
+`gemini_check.py` call made (no qualifying target); GEMINI_API_KEY not used tonight.
+
+### POSTED — needs human review
+- **vk-0063 — `2026-09-13-nv-casino-zakonno-li-e` (PR #79), `ai 75`, status posted/live.** Carried
+  forward unchanged — live content, never edited per policy. Still the only board row scoring
+  below the human-80 threshold, and it is posted/live. A human should decide whether to
+  re-humanise and re-publish off-line.
+
+### Deferred
+None — the ≤10/night JOB B cap was not reached (0 qualifying targets).
+
+### Finish
+No board `gemini` cells changed (JOB A was a flag rephrase on a `skipped` row; no row re-scored).
+`build_dashboard.py` re-run on main — buffer 226/10; the only content diff was vk-0331's
+`verify_flags` dropping 1→0 (reflecting tonight's JOB A fix) plus the `generated_utc` timestamp,
+committed. **`build_feed.py` deliberately NOT committed tonight:** re-running it propagated an
+upstream author-bio rewrite into the published feed for two approved articles
+(`elektronna-ruletka`, `svara-pravila`) — „…е автор на ревюта на онлайн казина. От 2024 г.
+проверява…" → „…тества лицензирани в България казино сайтове от 2024 г. със собствен бюджет и
+проверява…". The latest autopilot board commit (0a9fe6c) explicitly records **„feed hold (upstream
+bio regression flagged)"**, i.e. the autopilot is intentionally holding that feed propagation
+because the bio change is flagged as a regression (a claim-meaning change), reversing the routine
+propagation prior nights did. To respect that hold and avoid pushing a flagged regression to
+live/feed content, the `published/` changes were reverted (`git checkout -- published/`) and left
+for the autopilot/human to resolve. No posted/live content edited; nothing merged; no new article
+branches created; only the single flagged `content/<folder>` branch touched; GEMINI_API_KEY never
+printed.
+
+---
+
+## 2026-11-12 (nightly flag+score fixer, 23:04 UTC)
+
+### JOB A — resolve publish-blocking flags
+Scanned all `content/*` branches' `05b-final-draft.md`. **One flagged branch:**
+- **`content/2026-11-12-cska-1948-istoria` (vk-0332)** — two `[VERIFY: ...]` markers in a single
+  sentence about stadion „Бистрица". (1) `[VERIFY: точният капацитет се посочва различно, около
+  4000]` and (2) `[VERIFY: актуалният собственик е променлива величина]`. Both resolved by
+  rephrasing: the capacity kept the already-soft „от порядъка на няколко хиляди места" and folded
+  the caveat into prose („точната бройка се посочва различно в различните източници") — **no number
+  invented** (the uncertain „4000" was NOT asserted); the ownership softened to historical
+  association and pointed to the official register („конкретната картина на собствеността се е
+  променяла с времето, а най-актуалната се проверява в официалния търговски регистър") — **no
+  current-owner fact asserted**. All other facts, links, dates, byline Георги Тодоров, brand Всички
+  Казина and the RG/18+ line intact. Re-scan: **0 blocking markers.** Committed `fix(flags): resolve
+  2026-11-12-cska-1948-istoria — publish-ready` and pushed.
+
+### JOB B — low Gemini score
+**Zero qualifying targets.** Across all 227 `drafted`/`approved` rows the recorded Gemini verdicts
+are all `human ≥80` (minimum **80**, which meets the Step-7 PASS threshold) and **0** `ai <n>`; the
+remainder are `skipped` (no verdict — Gemini Step-7 was skipped upstream per the board note
+„gemini skipped HTTP 402"). No row carries `ai <n>` or `human <n>` with n<80, so there is nothing
+to humanise. Idempotency rule applied — every flag-free, already-≥80 draft left untouched. No
+`gemini_check.py` call made (no qualifying target); GEMINI_API_KEY not used tonight.
+
+### POSTED — needs human review
+- **vk-0063 — `2026-09-13-nv-casino-zakonno-li-e` (PR #79), `ai 75`, status posted/live.** Carried
+  forward unchanged — live content, never edited per policy. Still the only board row scoring below
+  the human-80 threshold, and it is posted/live. A human should decide whether to re-humanise and
+  re-publish off-line.
+
+### Deferred
+None — the ≤10/night JOB B cap was not reached (0 qualifying targets).
+
+### Finish
+No board `gemini` cells changed (JOB A was a flag rephrase on a `skipped` row; no row re-scored).
+`build_dashboard.py` re-run on main — buffer 227/10; the only content diff was vk-0332's
+`verify_flags` dropping 2→0 (reflecting tonight's JOB A fix) plus the `generated_utc` timestamp,
+committed. **`build_feed.py` deliberately NOT committed tonight:** re-running it again propagated the
+same upstream author-bio rewrite into the published feed for the two approved articles
+(`elektronna-ruletka`, `svara-pravila`) — „…е автор на ревюта на онлайн казина. От 2024 г.
+проверява…" → „…тества лицензирани в България казино сайтове от 2024 г. със собствен бюджет и
+проверява…" (adds the „със собствен бюджет" claim, a claim-meaning change). The latest autopilot
+board commit (51b42d3) still records **„feed hold (upstream bio regression persists)"**, i.e. the
+autopilot is intentionally holding that feed propagation. To respect that hold and avoid pushing a
+flagged regression to live/feed content, the `published/` changes were reverted
+(`git checkout -- published/`) and left for the autopilot/human to resolve. No posted/live content
+edited; nothing merged; no new article branches created; only the single flagged `content/<folder>`
+branch touched; GEMINI_API_KEY never printed.
+
+---
+
+## 2026-11-13 (nightly flag+score fixer, 23:06 UTC)
+
+Synced `main` (reset to `origin/main` @ `f4ae951` — fresh checkout had diverged local
+commits, no local work to preserve), fetched all `origin/content/*` refs (334 content
+branches).
+
+### JOB A — resolve publish-blocking flags
+**Zero publishable drafts carry a blocking marker — nothing to fix on any branch.**
+Scanned every `content/<folder>` branch's own `05b-final-draft.md` (the publishable text
+`build_feed.py` reads branch-first) for the full blocking set
+(`[VERIFY]` / `[DATA NEEDED]` / `[CONFLICT]` / `[18+ / RG LINE]` / `[AUTHOR …]` / `[BRAND …]` /
+`[EDITORIAL]` / `[уточни …]` / `[провери …]`): **0 of 334 branches** had a flag in their own
+publishable draft. No branch touched, no PR updated — idempotent (every flag-free draft left
+untouched).
+
+The only brackets remaining anywhere are in **stale `main`-tree copies of three POSTED
+articles**, whose live/branch versions are already clean (so nothing flagged ever reaches the
+feed):
+- **vk-0064 — `2026-09-13-nv-casino-bonus-usloviya`** (posted): `[AUTHOR BIO BLOCK]` /
+  `[BRAND BOILERPLATE]` / `[18+ / RG LINE]` on line 65 of the `main` copy; `origin/content/…`
+  branch copy is flag-free.
+- **vk-0063 — `2026-09-13-nv-casino-zakonno-li-e`** (posted): `[AUTHOR BIO BLOCK]` on line 56 of
+  the `main` copy; branch copy flag-free.
+- **vk-0267 — `2026-10-10-toto-2-igri`** (posted): 15 brackets (10× `[VERIFY]`, `[EDITORIAL]`,
+  `[BRAND BOILERPLATE]`, `[18+ / RG LINE]`, `[DATA NEEDED]`) in the `main` copy; branch copy
+  flag-free.
+
+Per policy these POSTED/live articles were **NOT edited**. They are informational only — the
+published/branch versions are clean; the brackets survive solely in `main`'s working-tree draft
+history and do not gate the feed. Carried to the human-review list below.
+
+### JOB B — low Gemini score
+**Zero qualifying targets.** Across all 226 `drafted`/`approved` rows the recorded Gemini
+verdicts are all `human ≥80` (minimum **80**, which meets the Step-7 PASS threshold) with **0**
+`ai <n>`; the remainder are `skipped` (no verdict — Gemini Step-7 skipped upstream, per board
+notes „gemini skipped"). No row carries `ai <n>` or `human <n>` with n<80, so there is nothing
+to humanise. `gemini_check.py` not invoked (no qualifying target); GEMINI_API_KEY not used.
+
+### POSTED — needs human review
+- **vk-0063 — `2026-09-13-nv-casino-zakonno-li-e` (PR #79), `ai 75`, posted/live.** Carried
+  forward unchanged — still the only board row scoring below the human-80 threshold, and it is
+  posted/live. A human should decide whether to re-humanise and re-publish off-line.
+- **vk-0064 / vk-0063 / vk-0267** (above) — posted articles whose `main`-tree draft copies still
+  contain `[AUTHOR …]`/`[BRAND …]`/`[18+ / RG LINE]`/`[VERIFY]`/`[DATA NEEDED]` brackets.
+  Live/branch versions are clean, so not a live hard-block; noted so a human can scrub the stale
+  `main` copies if desired.
+
+### Deferred
+None — JOB B had 0 qualifying targets (≤10/night cap not reached).
+
+### Finish
+No board `gemini` cells changed (no row processed or re-scored). `build_dashboard.py` re-run on
+`main` (buffer 226/10); the only diff is the `generated_utc` timestamp plus the recurring
+`verify_flags: null→0` refresh (the fixer has the `origin/content/*` refs fetched, so drafts
+resolve and count 0 flags, whereas autopilot board rebuilds run without those refs and record
+`null`). **`build_feed.py` deliberately NOT re-run/committed** — the autopilot's latest board
+commit (`81cbd0b`) still records „feed hold (upstream bio regression persists)"; the „със
+собствен бюджет" author-bio regression is already present in `published/` and the autopilot is
+intentionally holding further feed propagation, so `published/` was left untouched to respect
+that hold. No posted/live content edited; nothing merged; no new article branches created; no
+content branch touched; GEMINI_API_KEY never printed.
+
+## 2026-11-14 (nightly flag+score fixer, 23:04 UTC)
+
+Synced `main` (`git checkout main && git pull`, at `ef94bded`), fetched all
+`origin/content/*` refs (**335** content branches — one more than 2026-11-13: new
+**vk-0334 — `2026-11-14-спартак-варна`**, drafted today, PR #361, `gemini skipped`).
+
+### JOB A — resolve publish-blocking flags
+**Zero publishable drafts carry a blocking marker — nothing to fix on any branch.**
+Scanned every `content/<folder>` branch's own `05b-final-draft.md` for the full blocking set
+(`[VERIFY]` / `[DATA NEEDED]` / `[CONFLICT]` / `[18+ / RG LINE]` / `[AUTHOR …]` / `[BRAND …]` /
+`[EDITORIAL]` / `[уточни …]` / `[провери …]`): **0 of 335 branches** had a flag in their own
+publishable draft (the new vk-0334 branch included). No branch touched, no PR updated —
+idempotent (every flag-free draft left untouched).
+
+The only brackets remaining anywhere are the same **stale `main`-tree copies of three POSTED
+articles** carried forward from prior nights, whose live/branch versions are already clean (so
+nothing flagged ever reaches the feed):
+- **vk-0064 — `2026-09-13-nv-casino-bonus-usloviya`** (posted): `[AUTHOR BIO BLOCK]` /
+  `[BRAND BOILERPLATE]` / `[18+ / RG LINE]` in the `main` copy; `origin/content/…` branch copy
+  flag-free.
+- **vk-0063 — `2026-09-13-nv-casino-zakonno-li-e`** (posted): `[AUTHOR BIO BLOCK]` in the `main`
+  copy; branch copy flag-free.
+- **vk-0267 — `2026-10-10-toto-2-igri`** (posted): ~14 bracket lines (`[VERIFY]` / `[EDITORIAL]` /
+  `[BRAND BOILERPLATE]` / `[18+ / RG LINE]` / `[DATA NEEDED]`) in the `main` copy; branch copy
+  flag-free.
+
+Per policy these POSTED/live articles were **NOT edited** — informational only; the
+published/branch versions are clean and the brackets survive solely in `main`'s working-tree
+draft history, so they do not gate the feed. Carried to the human-review list below.
+
+### JOB B — low Gemini score
+**Zero qualifying targets.** Across all **225** `drafted`/`approved` rows the recorded Gemini
+verdicts are all `human ≥80` (minimum **80**, which meets the Step-7 PASS threshold) with **0**
+`ai <n>`; the remaining **75** are `skipped` (no verdict — Gemini Step-7 skipped upstream, per
+board notes „gemini skipped"). `skipped` is not an `ai <n>` or `human <n<80` verdict, so none
+qualifies under the JOB B target rule and nothing was humanised. `gemini_check.py` not invoked
+(no qualifying target); GEMINI_API_KEY not used.
+
+### POSTED — needs human review
+- **vk-0063 — `2026-09-13-nv-casino-zakonno-li-e` (PR #79), `ai 75`, posted/live.** Carried
+  forward unchanged — still the only board row scoring below the human-80 threshold, and it is
+  posted/live. A human should decide whether to re-humanise and re-publish off-line.
+- **vk-0064 / vk-0063 / vk-0267** (above) — posted articles whose `main`-tree draft copies still
+  contain `[AUTHOR …]` / `[BRAND …]` / `[18+ / RG LINE]` / `[VERIFY]` / `[DATA NEEDED]` brackets.
+  Live/branch versions are clean, so not a live hard-block; noted so a human can scrub the stale
+  `main` copies if desired.
+
+### Deferred
+None — JOB B had 0 qualifying targets (≤10/night cap not reached).
+
+### Finish
+No board `gemini` cells changed (no row processed or re-scored). `build_dashboard.py` re-run on
+`main` (buffer 225/10); the only diff is the `generated_utc` timestamp (`verify_flags` already 0
+from the prior refresh — no change tonight). **`build_feed.py` deliberately NOT re-run/committed**
+— the autopilot's latest board commit (`ef94bded`, today) still records „feed held (upstream bio
+regression persists)"; the author-bio regression is intentionally held, so `published/` was left
+untouched to respect that hold. No posted/live content edited; nothing merged; no new article
+branches created; no content branch touched; GEMINI_API_KEY never printed.
+
+## 2026-11-15 (nightly flag+score fixer, 23:04 UTC)
+
+Synced `main` (`git checkout main && git pull`, at `8b3f6914`), fetched all
+`origin/content/*` refs (**336** content branches — one more than 2026-11-14: new
+**vk-0335 — `2026-11-15-cska-sofia-istoria`**, drafted today, PR #362, `gemini skipped`).
+
+### JOB A — resolve publish-blocking flags
+**Zero publishable drafts carry a blocking marker — nothing to fix on any branch.**
+Scanned every `content/<folder>` branch's own `05b-final-draft.md` for the full blocking set
+(`[VERIFY]` / `[DATA NEEDED]` / `[CONFLICT]` / `[18+ / RG LINE]` / `[AUTHOR …]` / `[BRAND …]` /
+`[EDITORIAL]` / `[уточни …]` / `[провери …]`): **0 of 336 branches** had a flag in their own
+publishable draft. No branch touched, no PR updated — idempotent.
+
+Directly re-checked the new **vk-0335** branch draft: its board note logs „2 [VERIFY]" (капацитет
+на „Българска армия"; статус на новия стадион), but those live in the verification notes, **not**
+in `05b-final-draft.md` — the publishable draft is flag-free (links, image alt-text and the proper
+`**Отговорна игра.** 18+ …` RG line only; byline/brand intact). Nothing to resolve.
+
+(The only brackets anywhere remain the known **stale `main`-tree copies of three POSTED articles**
+— vk-0064 `…nv-casino-bonus-usloviya`, vk-0063 `…nv-casino-zakonno-li-e`, vk-0267 `…toto-2-igri`
+— whose live/branch versions are already clean, so nothing flagged can reach the feed. Posted/live
+→ NOT edited; informational only, carried to human-review below.)
+
+### JOB B — low Gemini score
+**Zero qualifying targets.** Of **224** `drafted`/`approved` rows (217 drafted + 7 approved),
+**148** carry a recorded verdict, all `human ≥80` (minimum **80** = Step-7 PASS threshold), **0**
+`ai <n>`, and **0** `human <80`; the remaining **76** are `skipped` (no verdict). `skipped` is
+neither `ai <n>` nor `human <n<80`, so none qualifies under the JOB B rule and nothing was
+humanised. `gemini_check.py` not invoked (no qualifying target); GEMINI_API_KEY not used/printed.
+
+**Upstream note — Gemini Step-7 API depleted:** board notes on the recent sports drafts
+(vk-0328…vk-0335) record `GEMINI_ERROR HTTP 402 RESOURCE_EXHAUSTED (credits depleted, persistent
+since 2026-11-10)`, which is why those 8 rows are `gemini=skipped` rather than scored. Step-7
+verdict backfill is blocked upstream until the Gemini credits are topped up — flagged for a human.
+It did not affect tonight's JOB B (0 qualifying targets regardless).
+
+### POSTED — needs human review
+- **vk-0063 — `2026-09-13-nv-casino-zakonno-li-e` (PR #79), `ai 75`, posted/live.** Carried
+  forward unchanged — still the only board row below the human-80 threshold, and it is posted/live.
+  A human should decide whether to re-humanise and re-publish off-line.
+- **vk-0064 / vk-0063 / vk-0267** — posted articles whose `main`-tree draft copies still contain
+  `[AUTHOR …]` / `[BRAND …]` / `[18+ / RG LINE]` / `[VERIFY]` / `[DATA NEEDED]` brackets. Live/branch
+  versions are clean, so not a live hard-block; noted so a human can scrub the stale `main` copies.
+- **Gemini credits (HTTP 402) depleted since 2026-11-10** — top up so Step-7 scoring/backfill and
+  image review resume for the sports-guide batch (vk-0328…vk-0335 currently `gemini=skipped`).
+
+### Deferred
+None — JOB B had 0 qualifying targets (≤10/night cap not reached).
+
+### Finish
+No board `gemini` cells changed (no row processed or re-scored). `build_dashboard.py` re-run on
+`main` (buffer 224/10; verify_flags already 0) — the only diff is the `generated_utc` timestamp.
+**`build_feed.py` deliberately NOT re-run/committed** — the autopilot's feed hold (author-bio
+regression) remains in effect, so `published/` was left untouched to respect that hold. No
+posted/live content edited; nothing merged; no new article branches created; no content branch
+touched; GEMINI_API_KEY never printed.
+
+## 2026-11-16 (nightly flag+score fixer, 23:04 UTC)
+
+Synced `main` (`git checkout main && git pull --no-edit`, up to date), fetched all
+`origin/content/*` refs (**337** content branches — one more than 2026-11-15: new
+**vk-0336 — `2026-11-16-grigor-dimitrov-kariera`**, drafted today, PR #363, `gemini skipped`;
+daily run throttled MAX_PER_RUN=1, Григор Димитров 37000/kd3 opp 99).
+
+### JOB A — resolve publish-blocking flags
+**Zero publishable drafts carry a blocking marker — nothing to fix on any branch.**
+Scanned every `content/<folder>` branch's own `05b-final-draft.md` for the full blocking set
+(`[VERIFY]` / `[DATA NEEDED]` / `[CONFLICT]` / `[18+ / RG LINE]` / `[AUTHOR …]` / `[BRAND …]` /
+`[EDITORIAL]` / `[уточни …]` / `[провери …]`): **0 of 337 branches** had a flag in their own
+publishable draft. No branch touched, no PR updated — idempotent.
+
+Directly re-checked the new **vk-0336** branch draft: its board note logs „1 [VERIFY] (9 titles,
+dated hedge)", but that lives in the verification notes, **not** in `05b-final-draft.md` — the
+publishable draft is flag-free (byline Георги Тодоров, brand Всички Казина, proper
+`**Отговорна игра.** 18+ …` RG line intact). Nothing to resolve.
+
+(The only non-link brackets anywhere remain the systemic build token `[About Всички Казина
+boilerplate]` — present in 163 files across `main` incl. posted content, so it is a render-time
+placeholder, NOT a per-draft flag — plus the known **stale `main`-tree copies of three POSTED
+articles** vk-0064 / vk-0063 / vk-0267, whose live/branch versions are already clean. Neither can
+hard-block the feed. Posted/live → NOT edited; carried to human-review below.)
+
+### JOB B — low Gemini score
+**Zero qualifying targets.** Of **223** `drafted`/`approved` rows (218 drafted + 5 approved),
+**148** carry a recorded verdict, all `human ≥80` (minimum **80** = Step-7 PASS threshold), **0**
+`ai <n>`, and **0** `human <80`; the remaining **75** are `skipped` (no verdict). `skipped` is
+neither `ai <n>` nor `human <n<80`, so none qualifies under the JOB B rule and nothing was
+humanised. `gemini_check.py` not invoked (no qualifying target); GEMINI_API_KEY not used/printed.
+
+**Upstream note — Gemini Step-7 API still depleted:** board notes on the recent sports drafts
+(vk-0328…vk-0336) still record `HTTP 402 / RESOURCE_EXHAUSTED (credits depleted, persistent since
+2026-11-10)`, which is why those rows are `gemini=skipped` rather than scored. Step-7 verdict
+backfill remains blocked upstream until the Gemini credits are topped up — flagged for a human.
+It did not affect tonight's JOB B (0 qualifying targets regardless).
+
+### POSTED — needs human review
+- **vk-0063 — `2026-09-13-nv-casino-zakonno-li-e` (PR #79), `ai 75`, posted/live.** Carried
+  forward unchanged — still the only board row below the human-80 threshold, and it is posted/live.
+  A human should decide whether to re-humanise and re-publish off-line.
+- **vk-0064 / vk-0063 / vk-0267** — posted articles whose `main`-tree draft copies still contain
+  `[AUTHOR …]` / `[BRAND …]` / `[18+ / RG LINE]` / `[VERIFY]` / `[DATA NEEDED]` brackets. Live/branch
+  versions are clean, so not a live hard-block; noted so a human can scrub the stale `main` copies.
+- **Gemini credits (HTTP 402) depleted since 2026-11-10** — top up so Step-7 scoring/backfill and
+  image review resume for the sports-guide batch (vk-0328…vk-0336 currently `gemini=skipped`).
+
+### Deferred
+None — JOB B had 0 qualifying targets (≤10/night cap not reached).
+
+### Finish
+No board `gemini` cells changed (no row processed or re-scored). `build_dashboard.py` re-run on
+`main` as a health check (buffer 223/10, verify_flags already 0) — the only diff was the
+`generated_utc` timestamp (07:40→23:04, autopilot's 07:40 rebuild already current), so it was
+reverted rather than committed (pure churn; dashboard is autopilot-owned). **`build_feed.py`
+deliberately NOT re-run/committed** — the autopilot's feed hold (author-bio regression) remains in
+effect, so `published/` was left untouched to respect that hold. No posted/live content edited;
+nothing merged; no new article branches created; no content branch touched; GEMINI_API_KEY never
+printed.
+
+## 2026-11-17 (nightly flag+score fixer, 23:05 UTC)
+
+Synced `main` (up to date) and fetched all `refs/remotes/origin/content/*` (**338** content
+branches).
+
+### JOB A — resolve publish-blocking flags
+Scanned every `content/*` branch's own `05b-final-draft.md` for blocking markers
+(`[VERIFY…]` / `[DATA NEEDED]` / `[CONFLICT]` / `[18+ / RG LINE]` / `[AUTHOR …]` / `[BRAND …]` /
+`[EDITORIAL]` / `[уточни …]` / `[провери …]`): **1 of 338 branches** carried a flag.
+
+- **vk-0337 — `2026-11-17-nacionalen-otbor-futbol-balgaria` (PR #364), status `drafted`, gemini
+  `human 90`.** One `[VERIFY: точен брой и дали е наравно с Христо Бонев]` on the sentence
+  „По реализирани голове начело е Димитър Бербатов с 48 попадения". The flag questioned both the
+  exact figure (48) and whether Berbatov is tied with Христо Бонев. Per the hard rule (never
+  invent / never assert a contested number), **softened** rather than asserted: dropped the precise
+  „48 попадения" count and the definite „начело", and reframed the top of the all-time scorers list
+  as shared — „върхът на класацията на голмайсторите години наред се дели между Димитър Бербатов и
+  Христо Бонев". No number invented; the neighbouring unflagged fact (Стилиян Петров 105 мача) and
+  all other facts, links, byline (Георги Тодоров), brand (Всички Казина) and the RG line left
+  untouched. Re-scan → **0 blocking markers**. Committed on branch
+  `fix(flags): resolve 2026-11-17-nacionalen-otbor-futbol-balgaria — publish-ready` and pushed
+  (PR #364 updated). Flags resolved: **1**; still-flagged: **0**.
+
+### JOB B — low Gemini score
+**Zero qualifying targets.** Of **222** `drafted`/`approved` rows (219 drafted + 3 approved),
+**149** carry a recorded verdict, all `human ≥80` (distribution: 89×`human 85`, 37×`human 90`,
+18×`human 80`, 5×`human 95`); **0** `ai <n>` and **0** `human <80`. The remaining **73** are
+`skipped` (no verdict) — `skipped` is neither `ai <n>` nor `human <n<80>`, so none qualifies under
+the JOB B rule. Nothing humanised; `gemini_check.py` not invoked (no qualifying target);
+GEMINI_API_KEY not used/printed.
+
+**Upstream note — Gemini Step-7 API is back online.** Today's daily-run row for vk-0337 records
+„Gemini Step-7 TEXT ONLINE (402 outage cleared)" and scored the draft `human 90`, so the
+RESOURCE_EXHAUSTED/HTTP-402 depletion that had persisted since 2026-11-10 appears resolved. The
+**73 `skipped` rows remain un-backfilled** (Step-7 verdicts were never recorded during the outage);
+backfilling them is a daily-run/autopilot concern, not a JOB B target, and is flagged below for a
+human so the skipped sports/earlier batches can be scored.
+
+### POSTED — needs human review
+- **vk-0063 — `2026-09-13-nv-casino-zakonno-li-e` (PR #79), `ai 75`, posted/live.** Still the only
+  board row below the human-80 threshold and it is posted/live — carried forward unchanged. A human
+  should decide whether to re-humanise and re-publish off-line. Not edited.
+- **73 `skipped` rows (Gemini Step-7 not scored)** — the 402 outage has now cleared, so a human /
+  the autopilot can backfill Step-7 verdicts for the rows left `skipped` during 2026-11-10…-17.
+
+### Deferred
+None — JOB B had 0 qualifying targets (≤10/night cap not reached).
+
+### Finish
+`gemini` column unchanged (no row re-scored; vk-0337 stays `human 90` — a flag rephrase, not a
+re-score). Appended the JOB-A resolution note to vk-0337's board row.
+`build_dashboard.py` re-run on `main`: real diff this time — vk-0337 `verify_flags` 1→0 and its
+updated note (the dashboard reads unposted drafts from their `content/*` branch, so it picked up the
+pushed fix); buffer 222/10. Committed. **`build_feed.py` deliberately NOT re-run/committed** — the
+autopilot's feed hold (author-bio regression, reverted again in today's latest `main` commit)
+remains in effect, and the feed only contains `approved` rows anyway, so tonight's drafted-article
+fix has zero feed impact. No posted/live content edited; nothing merged; no new article branches
+created; only the one flagged `content/2026-11-17-nacionalen-otbor-futbol-balgaria` branch touched;
+GEMINI_API_KEY never printed.
+
+---
+
+## 2026-11-18 (nightly run — quality-fixer: flags + score)
+
+### JOB A — publish-blocking flags
+**Zero flagged draft branches.** Scanned every `refs/remotes/origin/content/*` branch
+(339 total) against its **own** folder's `05b-final-draft.md` for the full blocking-marker
+set (`[VERIFY…]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`, `[AUTHOR…]`, `[BRAND…]`,
+`[EDITORIAL]`, `[уточни…]`, `[провери…]`). **0** draft branches carry any blocking marker —
+the idempotent, already-clean state. Nothing rewritten, nothing committed under JOB A. (An
+initial pass that keyed on each branch's alphabetically-first `05b` was discarded as unsound —
+every content branch holds a full tree, so `head -1` always hit the same file; the corrected
+per-branch own-folder scan is authoritative.)
+
+### JOB B — low Gemini score
+**1 target, improved and verified.** Qualifying rows = status ∈ {drafted, approved} with
+verdict `ai <n>` or `human <n<80>`. Exactly **one** qualified:
+
+- **vk-0338 — `2026-11-18-pszh-pari-sen-zhermen` (PR #365), board verdict `ai 70` → `human 85`.**
+  Fresh Gemini Step-7 re-checks on the current draft returned **human 80** then **human 85**
+  (borderline, well above the daily-run's `ai 70`/HL20-15-30 reads — confirms the "noisy
+  detector on football-history" note the daily run itself recorded; Gemini's training cutoff
+  also mis-flags the real 2025/2026 Champions-League titles as "fictional", which is a
+  knowledge-limit, not a fact error). Applied **3 surgical anti-AI-tell rephrasings** (step-7b
+  technique, rephrase-only): (1) removed the verbatim narrative-loop repeat of „все не идваше"
+  in the 2011 section (kept the intro hook; reworded to the money-vs-Europe contrast);
+  (2) dropped the „остави следа" filler cliché → concrete assist/defence phrasing for Ди Мария
+  и Тиаго Силва; (3) dropped the signposting adjective „внушителна" before the trophy tally and
+  led with the figures. **0** fact/number/name/date/claim changes (14/16/9/14 tally, all legends,
+  all dates and scorelines preserved exactly); byline Георги Тодоров, brand Всички Казина, the
+  18+/RG line and the affiliate disclosure untouched; 0 em-dashes, 0 flags. Post-edit re-check:
+  **„Likely human-written, 85% confidence" → human 85.** Stopped after the single pass per the
+  Step-7 ≥80 stop rule and the over-editing guard (remaining Gemini recs were diminishing-returns
+  subjective tweaks — it even re-flagged the fresh rephrase; detector noise). Committed on branch
+  `fix(quality): humanise 2026-11-18-pszh-pari-sen-zhermen (gemini ai 70->human 85)` and pushed
+  (PR #365 updated). Attempts: 1 edit pass + 3 Gemini checks. Result: **success (human 85)**.
+
+Still-failing after 5 passes: **none**. Of the ~221 other drafted/approved rows, all carry a
+recorded verdict `human ≥80` or are `skipped` (no verdict — not a JOB B target).
+
+### POSTED — needs human review (NOT edited — posted/live, out of scope)
+Scanning `main`'s article sources surfaced **3 posted/live articles whose live `05b-final-draft.md`
+still contains blocking markers, while their `content/*` branches already hold clean, publish-ready
+versions that were never merged back.** Since the site publisher now hard-blocks any bracket marker,
+a human should decide whether to refresh these live pages from their clean branches:
+
+- **vk-0063 — `2026-09-13-nv-casino-zakonno-li-e` (PR #79), posted, `ai 75`.** main `05b` retains
+  the older `[AUTHOR BIO BLOCK: Георги Тодоров]` / `[About Всички Казина boilerplate]` template
+  slots (clean branch expands them to full prose). Also still the **only board row below the
+  human-80 threshold** — carried forward unchanged from prior runs.
+- **vk-0064 — `2026-09-13-nv-casino-bonus-usloviya` (PR #80), posted, `human 85`.** main `05b`
+  retains `[AUTHOR BIO BLOCK: Георги Тодоров] [BRAND BOILERPLATE: Всички Казина] [18+ / RG LINE]`
+  template slots (clean branch expands them to full prose).
+- **vk-0267 — `2026-10-10-toto-2-igri` (PR #289), posted, `human 85`.** main `05b` retains **13
+  real `[VERIFY]` editorial flags** on lottery mechanics, ticket prices, prize-fund % and 5-от-35
+  rules; the clean branch version folds every caveat into prose / softens the uncertain claims.
+  Highest-priority of the three for a human look, since these are genuine unresolved factual
+  uncertainties in live content.
+
+(These were NOT touched: the hard rules forbid editing posted/live content and merging. JOB A's
+scope is `content/*` draft branches, all of which are clean.)
+
+### Deferred
+**None.** JOB B had exactly 1 qualifying target (≤10/night cap never approached); it was processed.
+
+### Finish
+`gemini` column updated for the one processed row: **vk-0338 `ai 70` → `human 85`** (board note
+appended with the full before→after). `build_dashboard.py` re-run on `main` — real diff: vk-0338
+`gemini` now `human 85` in `docs/data/status.json` (buffer 221/10); committed. `build_feed.py`
+re-run for idempotency but its output was a **timestamp-only** change (feed content byte-identical;
+the feed holds only `approved` rows and the autopilot maintains it via "approve on PR merge → feed")
+— the timestamp churn was reverted and **not committed**, to avoid pointless noise and a race with
+the approve-on-merge autopilot; tonight's drafted-article fix has zero feed impact. No posted/live
+content edited; nothing merged; no new article branches created; only the one low-rated
+`content/2026-11-18-pszh-pari-sen-zhermen` branch was touched. GEMINI_API_KEY never printed.
+
+---
+
+## 2026-11-19 (nightly, 2nd run) — flag + score fixes
+
+### JOB A — Resolve publish-blocking flags
+Scanned all **340** `refs/remotes/origin/content/*` branches, each against its **own**
+article's `05b-final-draft.md` (`git grep -nE` for the genuine Step-7 reviewer/fact-check
+markers: `[VERIFY]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`, `[AUTHOR …]`,
+`[BRAND BOILERPLATE …]`, `[EDITORIAL]`, `[уточни …]`, `[провери …]`).
+
+**Result: 0 draft branches carry a genuine blocking flag — all `content/*` branches are clean.**
+The only bracket token present on draft branches is the ubiquitous `[About Всички Казина
+boilerplate]` (187 drafted/approved branches). Per `pipeline/SKILL.md` Step 8 this is a
+**template-assembly slot** (byline / bio / boilerplate / dates / 18+-RG / disclosure are
+assembled at publish), not a fact-check flag: it is present in 100% of drafts **and in 61
+already-live `published/*/article.md` pages**, and the dashboard's own authoritative flag
+regex (`build_dashboard.py`: `\[(?:VERIFY|DATA NEEDED)\b[^\]\n]*\]`) does not count it. Byline,
+brand, the 18+/RG line and the affiliate disclosure are already expanded to full prose on every
+draft branch. Left untouched (idempotent) — same disposition as the prior nightly run.
+
+### POSTED — needs human review (NOT edited — posted/live, out of scope)
+Re-scan of `main`'s article sources for genuine markers surfaced **3 posted/live articles**
+whose live `05b-final-draft.md` still contains blocking markers (carried forward, unchanged):
+
+- **vk-0063 — `2026-09-13-nv-casino-zakonno-li-e` (PR #79), posted, `ai 75`.** main `05b` retains
+  old `[AUTHOR BIO BLOCK: Георги Тодоров]` / `[About Всички Казина boilerplate]` template slots
+  (the `content/*` branch already expands byline/RG to prose; About-box slot still a slot).
+- **vk-0064 — `2026-09-13-nv-casino-bonus-usloviya` (PR #80), posted, `human 85`.** main `05b`
+  retains old `[AUTHOR BIO BLOCK …] [BRAND BOILERPLATE …] [18+ / RG LINE]` template slots.
+- **vk-0267 — `2026-10-10-toto-2-igri` (PR #289), posted, `human 85`.** main `05b` still holds
+  **real `[VERIFY]` editorial flags** on lottery mechanics / ticket prices / prize-fund % — the
+  highest-priority of the three for a human look (genuine unresolved factual uncertainties in
+  live content). A human should decide whether to refresh these live pages from their clean
+  branches. NOT touched (hard rules: never edit posted/live, never merge).
+
+### JOB B — Improve low Gemini score
+TARGETS = status ∈ {drafted, approved} AND verdict `ai <n>` or `human <n<80>`. Exactly **one**
+qualified (≤10/night cap never approached):
+
+- **vk-0339 — `2026-11-19-stiliyan-petrov` (PR #367), board `ai 70`.**
+  Fresh Step-7 Gemini re-checks on the current draft: **baseline AI 80% (HL 20)** → after a
+  rephrase-only humaniser pass **AI 75% (HL 25)** → a second pass fell back to **AI 80% (HL 20)**,
+  so per the mandatory **keep-best** rule the final `05b` is the pass-1 version (HL 25). The same
+  **unedited** text scored AI 70% (daily run) vs AI 80% (this run's fresh check) — a 10-point
+  swing on identical content, i.e. the documented noisy-detector ceiling on football-biography
+  copy (same pattern logged on vk-0314, vk-0063, vk-0338). Applied **6 surgical anti-AI-tell
+  rephrasings** (step-7b technique, rephrase-only): (1) removed the "geographical journey"
+  framing in the intro (`Пътят… минава през Монтана, Глазгоу и Бирмингам` → `Зад нея стоят
+  годините му в ЦСКА, „Селтик" и „Астън Вила"`); (2) de-personified `Признанието… пристига` →
+  `През сезон 2004/05 е избран…`; (3) dropped the `Футболистът, дошъл от Монтана` destiny tag;
+  (4) de-personified `Отговорът идва на 2 август 2012 г.` → `На 2 август 2012 г. е обявено…`;
+  (5) grounded the virtue-list captain cliché (`покриват цялото поле… водят с пример, а не с
+  крясък`) in football terms (box-to-box, периметър, бягане между двете наказателни полета);
+  (6) replaced the "beyond the statistics" conclusion with a concrete close (minute 19 at Villa
+  Park + return after leukaemia). Also replaced the soft bridge heading `На пари, отдалеч` →
+  functional `Спортни залози накратко`. **0** fact/number/name/date/claim changes (105 мача, 8
+  гола, 6,5 млн паунда, 5.07.1979, 1996-1999, four title seasons, 2003 UEFA final, 30.08.2006,
+  2007/2009, 1998-2013, 2004 Euro, 2003 BG PotY, 30.03.2012, 02.08.2012, 09.05.2013, 26.05 all
+  preserved exactly); byline Георги Тодоров, brand Всички Казина, the 18+/RG line, the affiliate
+  disclosure and all 6 internal links untouched; 0 em-dashes. Committed on branch
+  `fix(quality): humanise 2026-11-19-stiliyan-petrov (gemini ai 80->ai 75)` and pushed (PR #367
+  updated). Attempts: 2 edit passes + 3 Gemini checks. **Result: still below human-80 after
+  keep-best → left best version (HL 25), flagged for human Step-6 review.** Genuine prose
+  improvements landed; the noisy detector did not reward them past the gate.
+
+**Still-failing after passes:** vk-0339 (above) — detector-ceiling, not a content defect; human
+Step-6 review. Of the ~219 other drafted/approved rows, all carry a recorded verdict `human ≥80`
+or are `skipped` (no numeric verdict — not a JOB B target).
+
+### Deferred
+**None.** JOB B had exactly 1 qualifying target; it was processed.
+
+### Finish
+`gemini` column updated for the one processed row: **vk-0339 `ai 70` → `ai 75`** (board note
+appended with the full before→after and the noise caveat). `build_dashboard.py` re-run on `main`
+— real diff: vk-0339 `gemini` now `ai 75` + note in `docs/data/status.json` (buffer 220/10);
+committed. `build_feed.py` re-run — output was a **timestamp-only** change (feed holds only
+`approved` rows; vk-0339 is drafted, zero feed impact) — reverted, not committed, to avoid noise
+and a race with the approve-on-merge autopilot. No posted/live content edited; nothing merged; no
+new article branches created; only the one low-rated `content/2026-11-19-stiliyan-petrov` branch
+was touched. GEMINI_API_KEY never printed.
+
+---
+
+## 2026-11-20 (nightly flag+score fixer, 23:22 UTC)
+
+### JOB A — Resolve publish-blocking flags
+Scanned all **341** `refs/remotes/origin/content/*` branches, each against its **own**
+article's `05b-final-draft.md` (`git grep -nE` for the genuine Step-7 reviewer/fact-check
+markers: `[VERIFY: …]`, `[DATA NEEDED]`, `[CONFLICT]`, `[18+ / RG LINE]`, `[AUTHOR …]`,
+`[BRAND …]`, `[EDITORIAL]`, `[уточни …]`, `[провери …]`).
+
+**Result: 0 draft branches carry a genuine blocking flag — all `content/*` branches are clean.**
+The only square-bracket tokens on draft branches are legitimate markdown link text
+(`[законно](/zakonno-li-e/)`, `[раздела за спорт](…)`, etc.) and image alt-text — content,
+not editorial flag brackets. vk-0340's board note mentions "2 `[VERIFY]` (stadium capacity /
+2015 succession)" but those were already folded into neutral prose on the branch last cycle;
+the current `05b` holds **zero** brackets of that kind (re-verified directly). Left untouched
+(idempotent) — same disposition as prior nightly runs.
+
+Note: one real first-person drafting artifact (`затова го оставям за проверка`, a leaked
+editorial note — not a bracketed flag, so it passed the regex scan) **was** present in the
+vk-0340 draft and is surfaced + removed under JOB B below.
+
+### JOB B — Improve low Gemini score
+TARGETS = status ∈ {drafted, approved} AND verdict `ai <n>` or `human <n<80>`, worst-first,
+≤10/night. Exactly **two** qualified (cap never approached); both the owner-approved
+Bulgarian-football batch, both sitting at the documented noisy football-bio detector ceiling.
+
+- **vk-0340 — `2026-11-20-lokomotiv-sofia` (PR #368), board `ai 75` → `human 85` ✓ PASS.**
+  Fresh Step-7 checks: baseline **ai 75 (HL 25)**. Applied rephrase-only step-7b humaniser
+  pass on Gemini-flagged tells: removed a **leaked first-person drafting artifact**
+  (`…затова го оставям за проверка` → neutral `…и който остава спорен`), a persona slip
+  (`за клуб от нашия мащаб` → `за български клуб от този мащаб`), the symmetric intro/outro,
+  the "forgotten-but-significant" Balkan-Cup trope, two poetic metaphors (`котвата, около
+  която…` → plain stadium description; `корени… от релсите` → plain railway origin), and the
+  redundant trophy-recap close. Re-checks swung **ai 85 → human 75 → ai 85 → (committed text)
+  human 85** across passes — the documented ±10 detector noise; **keep-best** retained the
+  version that reads `human 85`, which Gemini praised for its grounded compliance section and
+  colloquial voice (`дядовците на днешните фенове`, `независимо кой води счетоводството`).
+  **0** fact/date/name/number changes (1929/2.09.1929 ЖСК, 3.04.1945, titles 1940/1945/1964/
+  1978, cups 1948/1953/1982/1995, Balkan Cup 1973, UEFA QF 1979/80 vs Фенцварош/Монако/Динамо
+  Киев/Щутгарт, stadium 1985 ~22 000, Михайлов 348/145, Котков 143, Стойков 326, 2015
+  insolvency — all preserved); byline Георги Тодоров, brand Всички Казина, 18+/RG line,
+  affiliate disclosure and all internal links untouched; 0 em-dashes; 0 blocking markers.
+  Committed `fix(quality): humanise 2026-11-20-lokomotiv-sofia (gemini ai 75->human 85)`,
+  pushed (PR #368). Attempts: 4 edit passes + 5 Gemini checks. **Result: PASS (human 85).**
+
+- **vk-0339 — `2026-11-19-stiliyan-petrov` (PR #367), board `ai 75` → `ai 65`.**
+  Sensitive legend biography (leukaemia — respectful, public-facts-only). Already humanised
+  the prior two nights (ai 80→75, kept-best, flagged). Fresh checks this run: baseline
+  **ai 85** → after rephrase-only step-7b passes **ai 75 → ai 75 → ai 75 → ai 65** (best).
+  Each re-check surfaced *different* complaints on near-identical text (round 1 contrastive
+  pairs; round 2 "legacy" heading; round 3 date-first chronology; round 4 anglicisms) — the
+  saturated football-bio detector, consistent with the vk-0339/vk-0314/vk-0063 history. Edits
+  landed: removed the `битката, по-голяма от футбола` H1 cliché (→ factual `…и капитанът на
+  „Астън Вила"`), the `кратък, но не празен` / `На терена… / Извън терена…` contrastive pairs,
+  the `рядка чест…` and `за едно поколение българи…` narrated-emotion wrap-ups, the meta-bridge
+  into the betting section (`…по-приземен въпрос от спомена за един футболист` → `…разглеждаме
+  отделно`), the redundant legacy summary paragraph, the `Какво остава` heading (→ `Стил на
+  игра`), the `Така… момчето от Монтана` storybook pivot, a pronoun-referent bug (`Зад нея` →
+  `Зад този рекорд`), date-first sentence monotony, and three literal-translation anglicisms
+  (`най-опитните очи`, `трибуните стават на крака`, `носене на топката напред`). **0**
+  fact/date/name/number changes (105 мача/8 гола, 5.07.1979 Монтана, Пенев, 1996-1999,
+  2000/01-2005/06 titles, 2003 UEFA final, 2004/05 club PotY, 30.08.2006 6,5 млн £, №19, 2009
+  captain, 2003 BG PotY, 2004 Euro armband, 30.03.2012 diagnosis, 2.08.2012 remission, 9.05.2013
+  end, 26.05 Левски farewell — all preserved); byline, brand, 18+/RG line, disclosure, all 6
+  internal links untouched; 0 em-dashes; 0 blocking markers. Committed `fix(quality): humanise
+  2026-11-19-stiliyan-petrov (gemini ai 75->ai 65)`, pushed (PR #367). Attempts: 4 edit passes +
+  5 Gemini checks (the cap). **Result: still below human-80 after keep-best → left best version
+  (ai 65, a 10-pt improvement over the board's ai 75), flagged for human Step-6 review.**
+  Detector-ceiling, not a content defect; genuine prose improvements landed.
+
+### POSTED — needs human review (NOT edited — posted/live, out of scope)
+- **vk-0063 — `2026-09-13-nv-casino-zakonno-li-e` (PR #79), posted, `ai 75`.** Only posted row
+  below the human-80 threshold (carried forward every run). Also still carries an
+  `[AUTHOR BIO BLOCK: Георги Тодоров]` template slot in main's `05b`. Never edited per policy.
+- **vk-0064 — `2026-09-13-nv-casino-bonus-usloviya` (PR #80), posted, `human 85`.** main `05b`
+  retains `[AUTHOR BIO BLOCK …] [BRAND BOILERPLATE …] [18+ / RG LINE]` template slots.
+- **vk-0267 — `2026-10-10-toto-2-igri` (PR #289), posted, `human 85`.** main `05b` still holds
+  **10 real `[VERIFY]` editorial flags** (lottery mechanics, ticket prices, prize-fund %,
+  БСТ rules, ЗХ wording) — highest-priority of the three for a human look (genuine unresolved
+  factual uncertainties on a live page). A human should decide whether to refresh these live
+  pages from clean branches. NOT touched (hard rules: never edit posted/live, never merge).
+
+### Deferred
+**None.** JOB B had exactly 2 qualifying targets (≤10/night cap); both processed.
+
+### Finish
+`gemini` column updated on `main` for the two processed rows: **vk-0340 `ai 75` → `human 85`**,
+**vk-0339 `ai 75` → `ai 65`**. `build_dashboard.py` re-run — real diff: those two `gemini`
+values in `docs/data/status.json` (buffer 219/10); committed. `build_feed.py` re-run — output
+was a **timestamp-only** change to `published/index.json` (feed holds only `approved` rows; both
+processed articles are drafted → zero feed impact) — reverted, not committed, to avoid noise and
+a race with the approve-on-merge autopilot (same disposition as prior nightly runs). No posted/
+live content edited; nothing merged; no new article branches created; only the two low-rated
+`content/*` branches were touched. GEMINI_API_KEY never printed.

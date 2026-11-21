@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-label="Схема на структурата на Премиер лига: 20 отбора играят всеки срещу всеки по два пъти — веднъж у дома и веднъж като гост — за общо 38 кръга в сезона.">
+  <defs>
+    <style>
+      .bg{fill:#0f1b2d;}
+      .card{fill:#16263d;stroke:#2b3f5c;stroke-width:1;}
+      .accent{fill:#1f9d6b;}
+      .accentmid{fill:#caa23a;}
+      .t{font-family:'DejaVu Sans',Arial,Helvetica,sans-serif;fill:#eaf0f7;}
+      .muted{fill:#9fb0c6;}
+      .dot{fill:#2b3f5c;stroke:#3c557a;stroke-width:1;}
+      .dotA{fill:#1f9d6b;}
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="760" height="300" rx="14"/>
+
+  <text class="t" x="40" y="54" text-anchor="start" font-size="24" font-weight="700">Висшата лига: как изглежда един сезон</text>
+  <text class="t muted" x="40" y="82" text-anchor="start" font-size="15">Всеки отбор среща всеки друг по два пъти, у дома и като гост</text>
+
+  <!-- 20 team dots in a 10x2 grid -->
+  <g>
+    <!-- row 1 -->
+    <circle class="dot dotA" cx="60"  cy="130" r="12"/>
+    <circle class="dot" cx="130" cy="130" r="12"/>
+    <circle class="dot" cx="200" cy="130" r="12"/>
+    <circle class="dot" cx="270" cy="130" r="12"/>
+    <circle class="dot" cx="340" cy="130" r="12"/>
+    <circle class="dot" cx="410" cy="130" r="12"/>
+    <circle class="dot" cx="480" cy="130" r="12"/>
+    <circle class="dot" cx="550" cy="130" r="12"/>
+    <circle class="dot" cx="620" cy="130" r="12"/>
+    <circle class="dot" cx="690" cy="130" r="12"/>
+    <!-- row 2 -->
+    <circle class="dot" cx="60"  cy="172" r="12"/>
+    <circle class="dot" cx="130" cy="172" r="12"/>
+    <circle class="dot" cx="200" cy="172" r="12"/>
+    <circle class="dot" cx="270" cy="172" r="12"/>
+    <circle class="dot" cx="340" cy="172" r="12"/>
+    <circle class="dot" cx="410" cy="172" r="12"/>
+    <circle class="dot" cx="480" cy="172" r="12"/>
+    <circle class="dot" cx="550" cy="172" r="12"/>
+    <circle class="dot" cx="620" cy="172" r="12"/>
+    <circle class="dot" cx="690" cy="172" r="12"/>
+  </g>
+  <text class="t muted" x="40" y="210" text-anchor="start" font-size="14">20 отбора в таблицата</text>
+
+  <!-- stat chips -->
+  <rect class="card" x="40" y="232" width="200" height="46" rx="10"/>
+  <text class="t accent" x="66" y="262" text-anchor="start" font-size="24" font-weight="700">38</text>
+  <text class="t muted" x="104" y="262" text-anchor="start" font-size="14">кръга в сезона</text>
+
+  <rect class="card" x="260" y="232" width="220" height="46" rx="10"/>
+  <text class="t" x="286" y="262" text-anchor="start" font-size="24" font-weight="700">380</text>
+  <text class="t muted" x="352" y="262" text-anchor="start" font-size="14">мача общо</text>
+
+  <rect class="card" x="500" y="232" width="220" height="46" rx="10"/>
+  <text class="t accentmid" x="526" y="262" text-anchor="start" font-size="16" font-weight="700">август–май</text>
+  <text class="t muted" x="636" y="262" text-anchor="start" font-size="14">сезон</text>
+</svg>

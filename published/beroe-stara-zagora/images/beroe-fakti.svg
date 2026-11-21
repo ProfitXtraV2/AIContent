@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 600" role="img" aria-label="Инфографика с ключовите факти за Берое Стара Загора: трофеи, рекорди, стадион и легенди">
+  <defs>
+    <style>
+      .bg{fill:#f4f7f4;}
+      .card{fill:#ffffff;stroke:#d6e2d9;stroke-width:1;}
+      .title{fill:#0f2a19;font-family:'Segoe UI',Arial,sans-serif;font-size:26px;font-weight:700;}
+      .sub{fill:#5c7064;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;}
+      .colh{fill:#1a7f3c;font-family:'Segoe UI',Arial,sans-serif;font-size:15px;font-weight:700;}
+      .big{fill:#0f2a19;font-family:'Segoe UI',Arial,sans-serif;font-size:24px;font-weight:800;}
+      .lbl{fill:#243a2d;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;}
+      .foot{fill:#5c7064;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;}
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="940" height="600"/>
+  <rect class="card" x="8" y="8" width="924" height="584" rx="14"/>
+
+  <text class="title" x="470" y="50" text-anchor="middle">Берое Стара Загора в числа</text>
+  <text class="sub" x="470" y="74" text-anchor="middle">история, трофеи и рекорди</text>
+  <line x1="40" y1="94" x2="900" y2="94" stroke="#d6e2d9" stroke-width="1"/>
+  <rect x="40" y="94" width="860" height="3" fill="#1a7f3c"/>
+
+  <!-- Left column: trophies -->
+  <text class="colh" x="46" y="130">Трофеи и титли</text>
+
+  <text class="big" x="46"  y="178">1986</text>
+  <text class="lbl" x="210" y="178">шампион на България</text>
+
+  <text class="big" x="46"  y="232">2010 · 2013</text>
+  <text class="lbl" x="210" y="232">Купа на България (2 пъти)</text>
+
+  <text class="big" x="46"  y="286">2013</text>
+  <text class="lbl" x="210" y="286">Суперкупа на България</text>
+
+  <text class="big" x="46"  y="340">4</text>
+  <text class="lbl" x="210" y="340">Балкански купи (рекорд)</text>
+
+  <text class="big" x="46"  y="394">9</text>
+  <text class="lbl" x="210" y="394">титли във Втора лига (рекорд)</text>
+
+  <!-- Divider -->
+  <line x1="472" y1="112" x2="472" y2="470" stroke="#d6e2d9" stroke-width="1"/>
+
+  <!-- Right column: stadium + legends -->
+  <text class="colh" x="500" y="130">Стадион и легенди</text>
+
+  <text class="big" x="500" y="178">„Берое“</text>
+  <text class="lbl" x="660" y="178">стадионът („Храмът“)</text>
+
+  <text class="big" x="500" y="232">1959</text>
+  <text class="lbl" x="660" y="232">открит на 4 април</text>
+
+  <text class="big" x="500" y="286">12 128</text>
+  <text class="lbl" x="660" y="286">места (официален капацитет)</text>
+
+  <text class="big" x="500" y="340">144</text>
+  <text class="lbl" x="660" y="340">гола: Петко Петков (рекорд)</text>
+
+  <text class="big" x="500" y="394">341</text>
+  <text class="lbl" x="660" y="394">мача: Евгени Янчовски (рекорд)</text>
+
+  <!-- Footer -->
+  <line x1="40" y1="500" x2="900" y2="500" stroke="#d6e2d9" stroke-width="1"/>
+  <text class="foot" x="46" y="528">Зелено-бели · прякори „Зелените“ и „Заралии“ · име от античното название на Стара Загора.</text>
+  <text class="foot" x="46" y="552">Профил и история, без класирания, резултати или прогнози. Всички стойности следват текста на статията.</text>
+  <text class="foot" x="46" y="576">Източници: EN/BG Wikipedia (ПФК Берое, Beroe Stadium). Всички Казина · vsichkikazina.bg</text>
+</svg>

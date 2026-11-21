@@ -1,16 +1,16 @@
 {
-  "generated_utc": "2026-11-11T07:30:37Z",
+  "generated_utc": "2026-11-21T07:42:50Z",
   "buffer": {
-    "count": 226,
+    "count": 218,
     "target": 10,
     "deficit": 0,
     "ok": true
   },
   "counts": {
     "in-progress": 0,
-    "drafted": 218,
-    "approved": 8,
-    "posted": 104,
+    "drafted": 215,
+    "approved": 3,
+    "posted": 122,
     "failed": 1
   },
   "rows": [
@@ -904,7 +904,7 @@
     },
     {
       "id": "vk-0041",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Megaways: как работят и защо броят на начините се променя",
       "keywords_or_terms": "megaways, мегауейс, megaways как работят, начини за печалба",
@@ -912,7 +912,7 @@
       "kd": "",
       "source": "research",
       "drafted_date": "2026-09-11",
-      "posted_date": "",
+      "posted_date": "2026-11-18",
       "folder": "2026-09-11-megaways-kak-rabotyat",
       "pr": "#57",
       "gemini": "human 95",
@@ -5142,7 +5142,7 @@
     },
     {
       "id": "vk-0259",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Безплатни завъртания (free spins): видове, условия и капани",
       "keywords_or_terms": "безплатни завъртания, безплатни врътки, free spins, видове безплатни завъртания, условия на безплатните завъртания",
@@ -5150,7 +5150,7 @@
       "kd": "13",
       "source": "backlog",
       "drafted_date": "2026-10-05",
-      "posted_date": "",
+      "posted_date": "2026-11-13",
       "folder": "2026-10-05-bezplatni-zavartaniya-free-spins",
       "pr": "#279",
       "gemini": "human 80",
@@ -5188,7 +5188,7 @@
     },
     {
       "id": "vk-0261",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Как се преодолява хазартна зависимост — лечение, терапия и групи за подкрепа",
       "keywords_or_terms": "как се преодолява хазартна зависимост, лечение на хазартна зависимост, терапия за хазартна зависимост, групи за подкрепа при хазарт, клиники за лечение на хазартна зависимост, има ли излекувани от хазартна зависимост",
@@ -5196,7 +5196,7 @@
       "kd": "10",
       "source": "research",
       "drafted_date": "2026-10-08",
-      "posted_date": "",
+      "posted_date": "2026-11-15",
       "folder": "2026-10-08-kak-se-preodolyava-hazartna-zavisimost",
       "pr": "#281",
       "gemini": "human 80",
@@ -5211,7 +5211,7 @@
     },
     {
       "id": "vk-0262",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Как се играе онлайн бинго — правила, видове и реалните шансове",
       "keywords_or_terms": "онлайн бинго, как се играе бинго, бинго правила, бинго игра, видове бинго, 90 топки, 75 топки",
@@ -5219,7 +5219,7 @@
       "kd": "0",
       "source": "research",
       "drafted_date": "2026-10-10",
-      "posted_date": "",
+      "posted_date": "2026-11-14",
       "folder": "2026-10-09-onlayn-bingo-pravila",
       "pr": "#282",
       "gemini": "human 85",
@@ -5705,7 +5705,7 @@
     },
     {
       "id": "vk-0285",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Покер чипове — цветове, стойности и как се броят",
       "keywords_or_terms": "покер чипове, чипове за покер, цветове на покер чипове, стойности на чипове",
@@ -5713,7 +5713,7 @@
       "kd": "23",
       "source": "backlog",
       "drafted_date": "2026-10-19",
-      "posted_date": "",
+      "posted_date": "2026-11-15",
       "folder": "2026-10-19-poker-chipove",
       "pr": "#307",
       "gemini": "human 85",
@@ -5820,7 +5820,7 @@
     },
     {
       "id": "vk-0289",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Свара правила — как се играе свара (игра на карти на пари)",
       "keywords_or_terms": "свара правила, как се играе свара, свара игра на карти, игра на свара",
@@ -5828,7 +5828,7 @@
       "kd": "0",
       "source": "research",
       "drafted_date": "2026-10-23",
-      "posted_date": "",
+      "posted_date": "2026-11-14",
       "folder": "2026-10-23-svara-pravila",
       "pr": "#311",
       "gemini": "human 90",
@@ -5843,7 +5843,7 @@
     },
     {
       "id": "vk-0290",
-      "status": "approved",
+      "status": "posted",
       "type": "guide",
       "query": "Канаста — правила и как се играе (разновидности и точкуване)",
       "keywords_or_terms": "канаста, канаста правила, как се играе канаста, игра на канаста",
@@ -5851,7 +5851,7 @@
       "kd": "0",
       "source": "research",
       "drafted_date": "2026-10-24",
-      "posted_date": "",
+      "posted_date": "2026-11-13",
       "folder": "2026-10-24-kanasta-pravila",
       "pr": "#312",
       "gemini": "human 85",
@@ -6115,7 +6115,7 @@
     },
     {
       "id": "vk-0302",
-      "status": "drafted",
+      "status": "posted",
       "type": "guide",
       "query": "Судоку — как се играе и стратегии за начинаещи",
       "keywords_or_terms": "судоку правила, как се играе судоку, судоку онлайн безплатно, игра судоку безплатно",
@@ -6123,7 +6123,7 @@
       "kd": "1",
       "source": "backlog",
       "drafted_date": "2026-10-27",
-      "posted_date": "",
+      "posted_date": "2026-11-19",
       "folder": "2026-10-27-sudoku-kak-se-igrae",
       "pr": "#325",
       "gemini": "human 90",
@@ -6544,7 +6544,7 @@
     },
     {
       "id": "vk-0321",
-      "status": "drafted",
+      "status": "posted",
       "type": "guide",
       "query": "Бундеслига — формат, отбори и любопитни факти",
       "keywords_or_terms": "бундеслига, bundesliga, германско първенство",
@@ -6552,7 +6552,7 @@
       "kd": "0",
       "source": "backlog",
       "drafted_date": "2026-11-01",
-      "posted_date": "",
+      "posted_date": "2026-11-19",
       "folder": "2026-11-01-bundesliga",
       "pr": "#344",
       "gemini": "human 85",
@@ -6613,7 +6613,7 @@
     },
     {
       "id": "vk-0325",
-      "status": "drafted",
+      "status": "posted",
       "type": "guide",
       "query": "Купа на България — формат, история и рекорди",
       "keywords_or_terms": "купа на българия, купа на българия по футбол",
@@ -6621,7 +6621,7 @@
       "kd": "5",
       "source": "backlog",
       "drafted_date": "2026-11-05",
-      "posted_date": "",
+      "posted_date": "2026-11-18",
       "folder": "2026-11-05-kupa-na-balgariya",
       "pr": "#350",
       "gemini": "human 85",
@@ -6682,7 +6682,7 @@
     },
     {
       "id": "vk-0327",
-      "status": "drafted",
+      "status": "posted",
       "type": "guide",
       "query": "НБА — как работи сезонът, конференциите и плейофите",
       "keywords_or_terms": "нба, nba, нба плейофи",
@@ -6690,7 +6690,7 @@
       "kd": "6",
       "source": "backlog",
       "drafted_date": "2026-11-07",
-      "posted_date": "",
+      "posted_date": "2026-11-21",
       "folder": "2026-11-07-nba",
       "pr": "#352",
       "gemini": "human 90",
@@ -6705,7 +6705,7 @@
     },
     {
       "id": "vk-0328",
-      "status": "drafted",
+      "status": "posted",
       "type": "guide",
       "query": "Биатлон — правила, дисциплини и наказания",
       "keywords_or_terms": "биатлон, биатлон правила, биатлон дисциплини",
@@ -6713,7 +6713,7 @@
       "kd": "0",
       "source": "backlog",
       "drafted_date": "2026-11-08",
-      "posted_date": "",
+      "posted_date": "2026-11-16",
       "folder": "2026-11-08-biatlon-pravila",
       "pr": "#353",
       "gemini": "skipped",
@@ -6728,7 +6728,7 @@
     },
     {
       "id": "vk-0329",
-      "status": "drafted",
+      "status": "posted",
       "type": "guide",
       "query": "Премиер лига — формат, отбори и любопитни факти",
       "keywords_or_terms": "премиер лига, premier league, английска висша лига",
@@ -6736,7 +6736,7 @@
       "kd": "2",
       "source": "backlog",
       "drafted_date": "2026-11-09",
-      "posted_date": "",
+      "posted_date": "2026-11-20",
       "folder": "2026-11-09-premier-liga-format-otbori",
       "pr": "#355",
       "gemini": "skipped",
@@ -6751,7 +6751,7 @@
     },
     {
       "id": "vk-0330",
-      "status": "drafted",
+      "status": "posted",
       "type": "guide",
       "query": "Лига 1 — формат и отбори на френското първенство",
       "keywords_or_terms": "лига 1, ligue 1, френско първенство",
@@ -6759,7 +6759,7 @@
       "kd": "0",
       "source": "backlog",
       "drafted_date": "2026-11-10",
-      "posted_date": "",
+      "posted_date": "2026-11-20",
       "folder": "2026-11-10-ligue-1-format",
       "pr": "#356",
       "gemini": "skipped",
@@ -6774,7 +6774,7 @@
     },
     {
       "id": "vk-0331",
-      "status": "drafted",
+      "status": "posted",
       "type": "guide",
       "query": "Вечното дерби Левски – ЦСКА: история, статистика и рекорди",
       "keywords_or_terms": "левски цска, вечното дерби, левски срещу цска",
@@ -6782,7 +6782,7 @@
       "kd": "0",
       "source": "backlog",
       "drafted_date": "2026-11-11",
-      "posted_date": "",
+      "posted_date": "2026-11-16",
       "folder": "2026-11-11-vechno-derbi-levski-cska",
       "pr": "#357",
       "gemini": "skipped",
@@ -6792,9 +6792,239 @@
         "band": "Strong",
         "winnable": true
       },
+      "verify_flags": 0,
+      "verify_samples": []
+    },
+    {
+      "id": "vk-0332",
+      "status": "posted",
+      "type": "guide",
+      "query": "ЦСКА 1948 — история на клуба и пътят до елита",
+      "keywords_or_terms": "цска 1948, цска 1948 история, цска 1948 стадион",
+      "volume": "17000",
+      "kd": "0",
+      "source": "backlog",
+      "drafted_date": "2026-11-12",
+      "posted_date": "2026-11-17",
+      "folder": "2026-11-12-cska-1948-istoria",
+      "pr": "#359",
+      "gemini": "skipped",
+      "notes": "daily run 2026-11-12 throttled MAX_PER_RUN=1; top open P0 backlog (Bulgarian-football sweep, owner-approved sports scope). Evergreen club profile (guides-only: 0 operator/НАП/affiliate; 0 current standings/results/fixtures/odds; 0 predictions). Neutral on the ЦСКА naming dispute, facts only. Cluster цска 1948 17000/kd0 WIN (цска 1948 история + цска 1948 стадион fold-in); DISTINCT from ЦСКА София (separate open row) + Левски–ЦСКА derby vk-0331. Dedup vs queue(0 ЦСКА 1948) + live sitemap(173, 0 cska/1948) = clean. OUTCOME drafted -> PR #359. Факти EN Wikipedia „FC CSKA 1948\" + Stadion Bistritsa + stavka.tv/cska1948.bg: основан 19.07.2016 (Централен военен клуб, София); име от 1948 г. (историческата армейска традиция); път А ОФГ 2016/17 -> Трета лига 2017/18 (шампион ЮЗ, 29-5-0, промоция 19.05.2018) -> 4-ти Втора лига 2018/19 -> шампион Втора лига 2019/20 -> дебют елит 7.08.2020 (2:2); вицешампион 2025/26, 3-то 2022/23, финал за Купата 2022/23 (първи), финал Суперкупа 2023; евродебют лято 2023 (Лига на конференциите); стадион „Бистрица\" тенант от 2021 (~4000 места [VERIFY]). Прякори „Червените\"/„Делта Форс\", цветове червено-бяло. Gate ~95 PASS 0-crit. Gemini Step-7 TEXT = GEMINI_UNAVAILABLE (HTTP 402 RESOURCE_EXHAUSTED, credits depleted, same as 2026-11-10/11) -> skipped; kept initial 05b (0 em/en-dash body, non-pivot opening, asymmetric close); gemini=skipped. img:1 (hand-authored infographic cska-1948-pat-nagore.svg, 10 числа 1:1 vs 05b, render clean 0 overlap/clip; AI hero + Gemini image review skipped HTTP 402 -> manual integrity PASS, 0 logos/faces/fabrication/glamour). ~865 думи, 2 [VERIFY] (капацитет „Бистрица\" ~4000; актуален собственик Цветомир Найденов), 5 internal links (zakonno-li-e/bonus-ruletka-sport-vsichki/blog-futbol/responsible-gambling/otgovorna-igra) + otgovorna-igra footer; 0 affiliate (0 оператори). Review request to owner GTodorov9 couldn't be auto-assigned (gh write blocked by auto-mode; no MCP reviewer tool) — PR open & visible in owner's list. vol/kd 17000/0 (ahrefs backlog).",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
+    },
+    {
+      "id": "vk-0333",
+      "status": "approved",
+      "type": "guide",
+      "query": "Берое Стара Загора — история, стадион и трофеи",
+      "keywords_or_terms": "берое, берое стара загора, берое история",
+      "volume": "16000",
+      "kd": "8",
+      "source": "backlog",
+      "drafted_date": "2026-11-13",
+      "posted_date": "2026-11-13",
+      "folder": "2026-11-13-beroe-stara-zagora",
+      "pr": "#360",
+      "gemini": "skipped",
+      "notes": "daily run 2026-11-13 throttled MAX_PER_RUN=1; top open P0 backlog (Bulgarian-football sweep, owner-approved sports scope). Evergreen club profile (guides-only: 0 operator/НАП/affiliate; 0 current standings/results/fixtures/odds; 0 predictions). Cluster берое 16000/kd8 WIN (берое стара загора + берое история fold-in). Dedup vs queue(0 берое) + live sitemap(173, 0 beroe) = clean. OUTCOME drafted -> PR #360. Факти EN/BG Wikipedia (ПФК Берое) + Beroe Stadium: име „Берое\" = античното/тракийско име на Стара Загора, прието като клубна марка 1959; цветове зелено-бяло, прякори „Зелените\"/„Заралии\"; шампион 1986 (единствена титла, сезон 1985/86) -> КЕШ 1986/87 (отпада от Динамо Киев); Купа на България 2010 (Илиан Илиев) + 2013 (Петър Хубчев); Суперкупа 2013; Балканска купа 4 (рекорд); Втора лига 9 (рекорд); по-стари европоходи КНК 1973/74 1/4-финал + 1979/80 (Ювентус); легенди Петко Петков 144 гола (рекордьор), Евгени Янчовски 341 мача (рекордьор); стадион „Берое\" („Храмът\") открит 4.04.1959, капацитет 12 128. Gate ~95 PASS 0-crit. Gemini Step-7 TEXT = GEMINI_UNAVAILABLE (HTTP 402 RESOURCE_EXHAUSTED, credits depleted, persistent since 2026-11-10/11/12) -> skipped; kept initial 05b (0 em/en-dash body, non-pivot opening, asymmetric close); gemini=skipped. img:1 (hand-authored infographic beroe-fakti.svg, 10 числа 1:1 vs 05b, Chromium render clean 0 overlap/clip; AI hero + Gemini image review skipped HTTP 402 -> manual integrity PASS, 0 logos/faces/fabrication/glamour). ~861 думи, 3 [VERIFY] (точна година на основаване 1916/1924; точен капацитет „Берое\" 12 128 vs разнобой; актуален собственик CRD Sport 2023 — не се печата), 5 internal links (zakonno-li-e/bonus-ruletka-sport-vsichki/blog-futbol/blog-responsible-gambling/otgovorna-igra) + otgovorna-igra footer; 0 affiliate (0 оператори). Review request to owner GTodorov9 not auto-assignable (self; no MCP reviewer tool) — PR #360 open & visible in owner's list. vol/kd 16000/8 (ahrefs backlog).",
+      "opportunity": {
+        "score": 97,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
+    },
+    {
+      "id": "vk-0334",
+      "status": "posted",
+      "type": "guide",
+      "query": "Спартак Варна — история и легенди на клуба",
+      "keywords_or_terms": "спартак варна, спартак варна история",
+      "volume": "14000",
+      "kd": "2",
+      "source": "backlog",
+      "drafted_date": "2026-11-14",
+      "posted_date": "2026-11-17",
+      "folder": "2026-11-14-spartak-varna",
+      "pr": "#361",
+      "gemini": "skipped",
+      "notes": "evergreen BG club profile (guides-only: 0 operator/НАП/affiliate); top open P0 backlog (football sweep). Шампион 1932 (единствена титла); първи бълг. клуб в КНК (дебют 1961/62, Рапид); връх 2-ри кръг КНК 1983/84 (Ман Юнайтед 4:1); 8 титли Втора лига; рекорд мачове Илия Кирчев 286; голмайстор Стефан Найденов 56; стадион „Спартак“ ~7000 [VERIFY]. Факти крос-верифицирани BG+EN Wikipedia. Gate ~95 PASS 0-crit. Gemini Step-7 TEXT=GEMINI_UNAVAILABLE (HTTP 402, persistent от 2026-11-10) -> skipped; kept initial 05b; gemini=skipped. img:1 (infographic spartak-varna-fakti.svg, 8 числа 1:1, Chromium render clean; AI hero + Gemini image review skipped 402 -> manual integrity PASS). ~779 думи, 2 [VERIFY] (капацитет 6000/7000/8000; хронология 1918->днес) + 1 omitted (купа 1994/95). 5 internal links + otgovorna-igra footer; 0 affiliate. vol/kd 14000/2 (ahrefs backlog).",
+      "opportunity": {
+        "score": 99,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
+    },
+    {
+      "id": "vk-0335",
+      "status": "approved",
+      "type": "guide",
+      "query": "ЦСКА София — история, трофеи и легенди на клуба",
+      "keywords_or_terms": "цска, пфк цска софия, цска история",
+      "volume": "127000",
+      "kd": "26",
+      "source": "backlog",
+      "drafted_date": "2026-11-15",
+      "posted_date": "",
+      "folder": "2026-11-15-cska-sofia-istoria",
+      "pr": "#362",
+      "gemini": "skipped",
+      "notes": "daily run 2026-11-15 throttled MAX_PER_RUN=1; top open P0 backlog (Bulgarian-football sweep, owner-approved sports scope). Biggest single winnable keyword under KD cap (127000/kd26 < 40). Evergreen club profile (guides-only: 0 operator/НАП/affiliate; 0 current standings/results/fixtures/transfers/odds; 0 predictions). SENSITIVE naming/successor dispute (ЦСКА София vs ЦСКА 1948) neutral+cited, no partisan claims. Cluster цска 127000/kd26 (пфк цска софия + цска история fold-in); DISTINCT from ЦСКА 1948 vk-0332 + Левски–ЦСКА derby vk-0331. Dedup vs queue(0 ЦСКА София) + live sitemap(179, 0 cska) = clean. Факти крос-верифицирани EN+BG Wikipedia (PFC CSKA Sofia): основан 5.05.1948 (Септември+ЦДВ); имена ЦДВ->ЦДНА->ЦСКА (от 1962; кратко Средец 1985-88); 31 титли (рекорд, посл. 2007/08); над 20 Купи (списък 22; 1984/85 отнета -> 'над двайсет'); 5 Суперкупи (посл. 2026); 2 полуфинала КЕШ (1966/67 Интер; 1981/82 Байерн 4:3/0:4); полуфинал КНК 1988/89 Барселона; 8:1 Динамо Букурещ (най-крупна, 1956/57); стадион 'Българска армия' (разрушаване от 2024, нов стадион в строеж); легенди Стоичков(Златна обувка 1989,38 гола)/Жеков/Л.Пенев/Костадинов/Д.Пенев/Милев/Чакмаков; 2015-16: отказан лиценз А група -> В група -> 2.06.2016 ПФК ЦСКА-София (Литекс+Чавдар Етрополе), Гриша Ганчев; старото ПФК ЦСКА АД фалира; ЦСКА 1948 отделен клуб. Gate 95 PASS 0-crit. Gemini Step-7 TEXT=GEMINI_ERROR HTTP 402 (credits depleted, persistent от 2026-11-10) -> skipped; kept initial 05b; gemini=skipped. img:1 (infographic cska-sofia-trofei-i-evropa.svg, 10 числа 1:1, Chromium render clean; AI hero + Gemini image review skipped 402 -> manual integrity PASS). ~956 думи, 2 [VERIFY] (капацитет 'Българска армия' 18520/22015/22995; статус нов стадион към есента 2026). 5 internal links (zakonno-li-e/bonus-ruletka-sport-vsichki/blog-futbol/blog-responsible-gambling/otgovorna-igra) + otgovorna-igra footer; 0 affiliate (0 оператори). vol/kd 127000/26 (ahrefs backlog).",
+      "opportunity": {
+        "score": 90,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
+    },
+    {
+      "id": "vk-0336",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Григор Димитров — кариера, титли, рекорди и стил на игра",
+      "keywords_or_terms": "григор димитров, григор димитров кариера, григор димитров титли",
+      "volume": "37000",
+      "kd": "3",
+      "source": "backlog",
+      "drafted_date": "2026-11-16",
+      "posted_date": "",
+      "folder": "2026-11-16-grigor-dimitrov-kariera",
+      "pr": "#363",
+      "gemini": "skipped",
+      "notes": "daily run 2026-11-16 throttled MAX_PER_RUN=1; top open P0 backlog (BG sports sweep, owner-approved). Григор Димитров 37000/kd3 (Ahrefs bg re-pull 2026-11-15); opportunity 99 Strong winnable, ~3x volume of saturated kd0 sweep rows — single best distinct topic. Evergreen player profile (guides-only: 0 operator/НАП/affiliate; 0 current ranking/results/odds/predictions). Siblings: Тенис правила vk-0310 + Уимбълдън vk-0326. Dedup vs queue(0 григор) + live sitemap(181, 0 grigor) = clean. img:1 (infographic, manual integrity PASS, Gemini 402); Gemini text 402 -> skipped (keep-best initial 05b). Gate 95 PASS 0-crit. 916 words, 1 [VERIFY] (9 titles, dated hedge).",
+      "opportunity": {
+        "score": 99,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
+    },
+    {
+      "id": "vk-0337",
+      "status": "posted",
+      "type": "guide",
+      "query": "Национален отбор по футбол на България — история, големи турнири и САЩ '94",
+      "keywords_or_terms": "национален отбор по футбол на българия, българия национален отбор история, българия световно първенство",
+      "volume": "6200",
+      "kd": "6",
+      "source": "backlog",
+      "drafted_date": "2026-11-17",
+      "posted_date": "2026-11-21",
+      "folder": "2026-11-17-nacionalen-otbor-futbol-balgaria",
+      "pr": "#364",
+      "gemini": "human 90",
+      "notes": "daily run 2026-11-17 throttled MAX_PER_RUN=1; top open P0 backlog (BG football sweep, owner-approved 2026-10-28). национален отбор по футбол 6200/kd6 informational WIN. Evergreen national-team history guide (guides-only: 0 operator/НАП/affiliate; NO current standings/results/fixtures/transfers/odds/predictions). Dedup vs queue(0 национален отбор)+live sitemap(183, 0 nacionalen)=clean. Facts cross-verified EN Wikipedia(nt+WC)+BTA+ESPN: БФС 1923; първи мач 21.05.1924 Виена Австрия 6:0; 7 участия СП (1962-1998); САЩ '94 4-то място (1/8 Мексико 3:1 дузпи, 1/4 Германия 2:1 10.07.1994 Стоичков+Лечков, 1/2 Италия 1:2 Баджо, 3-то Швеция 0:4); Стоичков голмайстор 6 гола + Златна топка 1994; Костадинов 90' Париж 17.11.1993; Евро 1996+2004 групи; Стилиян Петров 105 мача; Бербатов 48 гола [VERIFY]; олимп. сребро 1968. Gemini Step-7 TEXT ONLINE (402 outage cleared): pass1 Shows AI 85% (HL15) -> Humaniser pass1 -> pass2 Likely human 90% PASS, keep-best 15->90. Step-8 img:1 infographic (SVG USA'94 path, numbers 1:1 vs 05b, render clean); image review pass1 78 (Швеция 4:0 perspective) -> fix 0:4 -> pass2 98 PASS, keep-best 78->98; no AI hero. Gate 95 PASS 0-crit (0 em/en-dash, 6 internal links). ~955 думи, 1 [VERIFY] (Бербатов 48). Sibling to САЩ'94 heroes row (not yet written) + Ефбет Лига guide. img:1 (98) · nightly 2026-11-17: JOB-A flag resolved — [VERIFY] Бербатов 48 removed (contested exact count + Бонев-tie softened: dropped precise figure, framed top of all-time scorers list as shared между Бербатов и Бонев, no invented number); 0 blocking markers; byline/brand/RG intact; PR #364 updated",
+      "opportunity": {
+        "score": 98,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
+    },
+    {
+      "id": "vk-0338",
+      "status": "drafted",
+      "type": "guide",
+      "query": "ПСЖ (Пари Сен Жермен) — история, трофеи, стадион и легенди на клуба",
+      "keywords_or_terms": "псж, пари сен жермен, псж история, псж трофеи",
+      "volume": "19000",
+      "kd": "1",
+      "source": "backlog",
+      "drafted_date": "2026-11-18",
+      "posted_date": "",
+      "folder": "2026-11-18-pszh-pari-sen-zhermen",
+      "pr": "#365",
+      "gemini": "human 85",
+      "notes": "daily run 2026-11-18 throttled MAX_PER_RUN=1; top open P0 backlog (owner-approved 2026-11-07 high-vol/low-KD discovery). псж 19000/kd1 informational, opportunity 100 WIN. Evergreen club profile (guides-only: 0 operator/НАП/affiliate; 0 current standings/results/fixtures/transfers/odds; 0 predictions). 2025/2026 ШЛ финали = completed historic results (evergreen). Dedup vs queue(0 псж/pari-sen) + live sitemap(185, 0 psg) = clean; distinct entity. Facts cross-verified EN Wikipedia + Britannica + CNN/SI/Ligue1/official PSG: основан 12.08.1970 (сливане Пари ФК + Стад Сен Жермен), Пари ФК се отделя 1972; Парк де пренс от 1974 (~48000 approx); QSI мажор. 2011 (преди Канал+ 1991, Колони Капитал 2008); първа титла 1985/86 (Улие); към 2026 г. 14 Лига 1 / 16 Купа на Франция / 9 Купа на лигата (прекратена) / 14 Трофей на шампионите; КНК 1996 1:0 Рапид Виена (Нготи); ШЛ 2025 требъл, финал 31.05.2025 Мюнхен 5:0 Интер; ШЛ 2026 втора поредна 30.05.2026 Будапеща Арсенал 1:1 4:3 дузпи (Дембеле), пръв с поредни след Реал 2018; легенди Мбапе(голмайстор №1)/Маркиньос/Ди Мария/Тиаго Силва/Лама. Gemini Step-7 TEXT ONLINE: check1 HL20 -> humaniser p1 -> check2 HL15 -> humaniser p2 -> check3 HL30, MAX_GEMINI_PASSES, keep-best pass2 HL30 -> ai 70 (под 80, noisy detector на football-history, cf vk-0314/vk-0063; flagged for human). Gemini knowledge-limit: flagged реалните 2025/2026 ШЛ титли като 'fictional' (training cutoff), не е fact error. Step-8 img:1 infographic pszh-pari-sen-zhermen-v-chisla.svg (числа 1:1 vs 05b, Chromium render clean 0 overlap/clip, 0 em/en-dash); image review pass1 100 PASS 0-integrity-fail, keep-best 100; no AI hero (data article). Gate 95 PASS 0-crit (0 em/en-dash body+meta+SVG, 6 internal links, byline Георги Тодоров, verbatim 18+ RG + affiliate 1-Aug-2026 footer). ~860 думи, 0 inline flags (2 uncertainties written around: Парк де пренс capacity, Мбапе/Кавани tally). Siblings: Меси (игра в ПСЖ 2021-23) + Барселона linked; Футбол hub. img:1 (100) · vol/kd 19000/1 (ahrefs backlog). · nightly 2026-11-18 (quality-fixer): JOB-B humanise — fresh Gemini Step-7 re-checks human 80/85 (borderline, up from daily-run ai 70 — confirms noisy detector on football-history, cf note above); applied 3 surgical anti-AI-tell fixes on branch (verbatim narrative-loop „все не идваше\" -> money-vs-Europe contrast; „остави следа\" cliche -> concrete assist/defence phrasing за Ди Мария/Тиаго Силва; signposting adjective „внушителна\" dropped, lead with 14/16/9/14 tally) — 0 fact/number/name/date/claim changes, byline+brand+RG+affiliate untouched, 0 em-dashes, 0 flags; post-edit re-check „Likely human-written, 85% confidence\" -> human 85; committed+pushed on content/2026-11-18-pszh-pari-sen-zhermen (gemini ai 70 -> human 85).",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
+    },
+    {
+      "id": "vk-0339",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Стилиян Петров — кариера, CSKA, Селтик, Астън Вила и битката с левкемията",
+      "keywords_or_terms": "стилиян петров, стилиян петров кариера, стилиян петров астън вила",
+      "volume": "5800",
+      "kd": "0",
+      "source": "backlog",
+      "drafted_date": "2026-11-19",
+      "posted_date": "",
+      "folder": "2026-11-19-stiliyan-petrov",
+      "pr": "#367",
+      "gemini": "ai 65",
+      "notes": "P0 open backlog (owner-approved 2026-10-28 Bulgarian-football batch); legend player profile; guides-only (0 operator/НАП/affiliate); illness respectful public-facts only; gate 95 PASS 0-crit; Gemini keep-best pass1 HL30 (ai 70, flagged for human; noisy football-bio detector); img:1 infographic review 100; ~750 думи, 0 flags; 6 internal links · nightly 2026-11-19: rephrase-only humaniser on 6 Step-7 LLM-tells (journey framing, personification, virtue-list, forced affiliate pivot, 'beyond-stats' close), 0 fact/date/name/number changes; this-run fresh re-checks AI 80→75 (HL20→25), still <human-80, kept-best pass1, PR #367 updated, flagged for human Step-6 (noisy football-bio detector)",
+      "opportunity": {
+        "score": 100,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
+    },
+    {
+      "id": "vk-0340",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Локомотив София — история на клуба",
+      "keywords_or_terms": "локомотив софия, локомотив софия история",
+      "volume": "5000",
+      "kd": "7",
+      "source": "backlog",
+      "drafted_date": "2026-11-20",
+      "posted_date": "",
+      "folder": "2026-11-20-lokomotiv-sofia",
+      "pr": "#368",
+      "gemini": "human 85",
+      "notes": "P0 open backlog (owner-approved 2026-10-28 Bulgarian-football batch); evergreen club profile; guides-only (0 operator/НАП/affiliate); gate 95 PASS 0-crit; Gemini keep-best pass2 HL25 (ai 75, flagged for human; noisy football-bio detector cf vk-0339); img:1 infographic review 100; ~916 думи; 6 internal links; 2 [VERIFY] (stadium capacity/location, 2015 succession/trophies) kept neutral in text; NEVER print current standings/results/fixtures.",
+      "opportunity": {
+        "score": 97,
+        "band": "Strong",
+        "winnable": true
+      },
+      "verify_flags": 0,
+      "verify_samples": []
+    },
+    {
+      "id": "vk-0341",
+      "status": "drafted",
+      "type": "guide",
+      "query": "Етър Велико Търново — история и шампионската титла",
+      "keywords_or_terms": "етър, етър велико търново, етър история",
+      "volume": "4200",
+      "kd": "8",
+      "source": "backlog",
+      "drafted_date": "2026-11-21",
+      "posted_date": "",
+      "folder": "2026-11-21-etar-veliko-tarnovo",
+      "pr": "#369",
+      "gemini": "human 85",
+      "notes": "P0 open backlog (owner-approved 2026-10-28 Bulgarian-football batch); evergreen HISTORICAL club profile centred on the 1990/91 титла (7 точки пред ЦСКА) + златното поколение, тръгнало към националния отбор на САЩ '94. Guides-only (0 operator/НАП/affiliate; 0 current standings/results/fixtures/transfers/odds/predictions). Dedup vs queue(0 etar)+live sitemap(191, 0 etar/veliko/tarnovo)+bank=clean. OUTCOME drafted → PR #369. Facts EN/BG Wikipedia (историческ ФК Етър): основан 24.04.1924; прякори Виолетовите/Болярите; шампион 1991 (единствена, 7 т. пред ЦСКА, треньор Георги Василев); бронз 1989/1990; Купа на БФС 1991; първа Купа на лигата 1995; финал Балканска купа 1993; КЕШ 1991/92 Кайзерслаутерн (1:1/0:2=1:3, гол Ангел Червенков); Купа на УЕФА 1974/75 Интер (0:0/0:3); стадион „Ивайло\" открит 24.05.1958; край на мъжкия тим 2003; наследници Етър 1924 → SFC Етър (2013) водени поотделно от БФС (неутрално, без страна). Gate 95 PASS 0-crit (0 em/en-dash; 7 internal links nacionalen-otbor/efbet-liga/futbol/zakonno-li-e/bonus-sport/responsible-gambling/otgovorna-igra; byline Георги Тодоров; verbatim 18+ RG + affiliate footer; 0 operators → 0 affiliate). Gemini Step-7 keep-best HL 15→20→85 (pass 2) → human 85 PASS. img:1 hand-authored infographic etar-veliko-tarnovo-v-chisla.svg (10 числа 1:1 vs 05b, Chromium render clean); image review 75→100 PASS 0-integrity (keep-best 100). ~864 думи, 1 [VERIFY] (капацитет „Ивайло\" 18 000 vs 15 000, kept in text, kept out of image). NEVER print current standings/results/fixtures.",
+      "opportunity": {
+        "score": 97,
+        "band": "Strong",
+        "winnable": true
+      },
       "verify_flags": 1,
       "verify_samples": [
-        "[VERIFY: точната дата се посочва различно от източниците]"
+        "[VERIFY: точен капацитет на „Ивайло“, източниците се разминават]"
       ]
     }
   ],
@@ -7241,8 +7471,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 17000/kd0 (2026-10-28 football sweep). Club profile. Neutral on the ЦСКА naming dispute; facts only.",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-28 (Bulgarian-football batch). Evergreen profile/history only. NEVER print current standings, results, fixtures, transfer rumours or odds. Real people: verifiable facts only, [VERIFY] anything uncertain, no speculation about private life. Link the Ефбет Лига guide plus sibling club/legend articles. No betting tips; optional RG line.",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-10-28 (Bulgarian-football batch). Evergreen profile/history only. NEVER print current standings, results, fixtures, transfer rumours or odds. Real people: verifiable facts only, [VERIFY] anything uncertain, no speculation about private life. Link the Ефбет Лига guide plus sibling club/legend articles. No betting tips; optional RG line. · WRITTEN 2026-11-12 (daily run, top open P0) → vk-0332, PR #359. Evergreen клубен профил guides-only ✓: основан 19.07.2016, път А ОФГ 2016/17 → Трета 2017/18 (29-5-0) → Втора 2019/20 → елит 7.08.2020 (2:2); вицешампион 2025/26, финал Купа 2022/23, финал Суперкупа 2023; стадион „Бистрица\" от 2021. Gate ~95, Gemini skipped (HTTP 402), img:1 (manual integrity PASS), ~865 думи, 2 [VERIFY]. Факти EN Wikipedia. Сиблинг линкове (Ефбет Лига/клубове) се добавят при публикуване.",
       "opportunity": {
         "score": 100,
         "band": "Strong",
@@ -7259,8 +7489,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 16000/kd8 (2026-10-28 football sweep). Club profile.",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-28 (Bulgarian-football batch). Evergreen profile/history only. NEVER print current standings, results, fixtures, transfer rumours or odds. Real people: verifiable facts only, [VERIFY] anything uncertain, no speculation about private life. Link the Ефбет Лига guide plus sibling club/legend articles. No betting tips; optional RG line.",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-10-28 (Bulgarian-football batch). Evergreen profile/history only. NEVER print current standings, results, fixtures, transfer rumours or odds. Real people: verifiable facts only, [VERIFY] anything uncertain, no speculation about private life. Link the Ефбет Лига guide plus sibling club/legend articles. No betting tips; optional RG line. · WRITTEN 2026-11-13 (recurring fire) -> vk-0333, PR #360. Evergreen club profile: име от античното название на Стара Загора, прието 1959; шампион 1986; Купа 2010 + 2013; Суперкупа 2013; Балканска купа 4 (рекорд); Втора лига 9 (рекорд); стадион „Берое\" 12 128 (4.04.1959); легенди Петко Петков 144 гола, Евгени Янчовски 341 мача. Guides-only (0 operator/НАП/affiliate; без класиране/резултати/трансфери/коефициенти/прогнози). Gate ~95, Gemini skipped (HTTP 402), img:1 (infographic, manual integrity PASS), ~861 думи, 3 [VERIFY].",
       "opportunity": {
         "score": 97,
         "band": "Strong",
@@ -7277,7 +7507,7 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 14000/kd2 (2026-10-28 football sweep). Club profile.",
-      "status": "open",
+      "status": "written",
       "notes": "OWNER-APPROVED 2026-10-28 (Bulgarian-football batch). Evergreen profile/history only. NEVER print current standings, results, fixtures, transfer rumours or odds. Real people: verifiable facts only, [VERIFY] anything uncertain, no speculation about private life. Link the Ефбет Лига guide plus sibling club/legend articles. No betting tips; optional RG line.",
       "opportunity": {
         "score": 99,
@@ -7295,8 +7525,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 6200/kd6 (2026-10-28 football sweep). National-team history; link the САЩ '94 heroes piece.",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-28 (Bulgarian-football batch). Evergreen profile/history only. NEVER print current standings, results, fixtures, transfer rumours or odds. Real people: verifiable facts only, [VERIFY] anything uncertain, no speculation about private life. Link the Ефбет Лига guide plus sibling club/legend articles. No betting tips; optional RG line.",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-10-28 (Bulgarian-football batch). WRITTEN 2026-11-17 vk-0337 PR #364 (gemini human 90, img:1 infographic 98). Evergreen profile/history only. NEVER print current standings, results, fixtures, transfer rumours or odds. Real people: verifiable facts only, [VERIFY] anything uncertain, no speculation about private life. Link the Ефбет Лига guide plus sibling club/legend articles. No betting tips; optional RG line.",
       "opportunity": {
         "score": 98,
         "band": "Strong",
@@ -7313,8 +7543,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 5800/kd0 (2026-10-28 football sweep). Legend profile; handle the illness respectfully, public facts only.",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-28 (Bulgarian-football batch). Evergreen profile/history only. NEVER print current standings, results, fixtures, transfer rumours or odds. Real people: verifiable facts only, [VERIFY] anything uncertain, no speculation about private life. Link the Ефбет Лига guide plus sibling club/legend articles. No betting tips; optional RG line.",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-10-28 (Bulgarian-football batch). Evergreen profile/history only. NEVER print current standings, results, fixtures, transfer rumours or odds. Real people: verifiable facts only, [VERIFY] anything uncertain, no speculation about private life. Link the Ефбет Лига guide plus sibling club/legend articles. No betting tips; optional RG line. · WRITTEN 2026-11-19 (daily run, top open P0 row) → vk-0339, PR #367. Evergreen играчов профил (guides-only ✓: 0 operator/НАП/affiliate; 0 current standings/results/transfers/odds; 0 predictions). Dedup vs queue + live sitemap clean; distinct entity. Факти EN Wikipedia + Sky Sports/FourFourTwo: роден 05.07.1979 Монтана; ФК Монтана → ЦСКА 1996–1999 (титла + 2 купи, забелязан от Димитър Пенев); „Селтик\" 1999–2006 (4 титли в Шотландия 2000/01–2005/06 + купи, Футболист на годината на клуба 2004/05, финал за Купата на УЕФА 2003); „Астън Вила\" 2006–2013 (6,5 млн. паунда, №19 от 2007, капитан от 2009, Зала на славата); 105 мача + 8 гола за България (1998–2013, рекорд по участия), капитан на Евро 2004, Футболист на годината на България 2003; остра левкемия 30.03.2012, аплодисменти в 19-ата минута на „Вила Парк\", ремисия 02.08.2012, край на кариерата 09.05.2013, прощален мач 26.05.2013 „Васил Левски\". Оспорен голов актив за Селтик (55 vs 64) умишлено не е печатан. Gate 95 PASS, Gemini ai 70 (keep-best pass1 HL30, под 80 след cap → flagged for human; noisy football-bio детектор), img:1 (infographic review 100), ~750 думи, 0 flags. Линкове: /blog/futbol/, /blog/cska-1948-istoria/, /blog/efbet-liga-format-otbori/, /bonus-ruletka/sport/vsichki/ (money), /zakonno-li-e/, /blog/responsible-gambling/.",
       "opportunity": {
         "score": 100,
         "band": "Strong",
@@ -7330,8 +7560,8 @@
       "kd": "7",
       "intent": "informational",
       "checked": "ahrefs",
-      "ahrefs_note": "WIN 5000/kd7 (2026-10-28 football sweep). Club profile.",
-      "status": "open",
+      "ahrefs_note": "WIN 5000/kd7 (2026-10-28 football sweep). Club profile. WRITTEN 2026-11-20 vk-0340 (PR #368): gate 95, gemini ai 75 (keep-best p2, flagged for human), img:1 infographic 100; 2 [VERIFY] kept neutral (stadium, 2015 succession).",
+      "status": "written",
       "notes": "OWNER-APPROVED 2026-10-28 (Bulgarian-football batch). Evergreen profile/history only. NEVER print current standings, results, fixtures, transfer rumours or odds. Real people: verifiable facts only, [VERIFY] anything uncertain, no speculation about private life. Link the Ефбет Лига guide plus sibling club/legend articles. No betting tips; optional RG line.",
       "opportunity": {
         "score": 97,
@@ -7349,8 +7579,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 4200/kd8 (2026-10-28 football sweep). Club profile.",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-10-28 (Bulgarian-football batch). Evergreen profile/history only. NEVER print current standings, results, fixtures, transfer rumours or odds. Real people: verifiable facts only, [VERIFY] anything uncertain, no speculation about private life. Link the Ефбет Лига guide plus sibling club/legend articles. No betting tips; optional RG line.",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-10-28 (Bulgarian-football batch). Evergreen profile/history only. NEVER print current standings, results, fixtures, transfer rumours or odds. Real people: verifiable facts only, [VERIFY] anything uncertain, no speculation about private life. Link the Ефбет Лига guide plus sibling club/legend articles. No betting tips; optional RG line. · WRITTEN 2026-11-21 (recurring fire) → vk-0341, PR #369. Historical ФК Етър profile centred on the 1990/91 title (7 т. пред ЦСКА, треньор Георги Василев) + золотото поколение (Балаков/Тр.Иванов/Киряков/Цветанов/Генчев → САЩ '94); КЕШ 1991/92 Кайзерслаутерн, Купа на УЕФА 1974/75 Интер; стадион „Ивайло\" 1958; край на мъжкия тим 2003 (наследници водени поотделно, неутрално). Guides-only ✓ (0 operator/НАП/affiliate; 0 класиране/резултати/трансфери/коефициенти). Gate 95, Gemini human 85, img:1 infographic (review 100), ~864 думи, 1 [VERIFY] (капацитет „Ивайло\"). Links: nacionalen-otbor + efbet-liga siblings + futbol hub.",
       "opportunity": {
         "score": 97,
         "band": "Strong",
@@ -7704,15 +7934,15 @@
       "type": "guide",
       "query": "Григор Димитров — кариера, титли, рекорди и стил на игра",
       "keywords_or_terms": "григор димитров, григор димитров кариера, григор димитров титли",
-      "volume": "31000",
-      "kd": "7",
+      "volume": "37000",
+      "kd": "3",
       "intent": "informational",
       "checked": "ahrefs",
-      "ahrefs_note": "WIN 31000/kd7. Biggest BG tennis name; pairs with Тенис правила (vk-0310) + Уимбълдън (vk-0326). (2026-11-07 discovery)",
-      "status": "open",
+      "ahrefs_note": "WIN 37000/kd3 (Ahrefs bg re-pull 2026-11-15 after unit reset: обемът ↑ 31000->37000, kd ↓ 7->3 — още по-силен). Biggest BG tennis name; pairs with Тенис правила (vk-0310) + Уимбълдън (vk-0326). NEXT-BEST single pick. (2026-11-07 discovery)",
+      "status": "written",
       "notes": "OWNER-APPROVED 2026-11-07 (owner asked in session for more high-vol/low-KD topics). Evergreen profile: history, trophies, stadium/legends (clubs) or career, records, style, trophies (players). NEVER print current-season stats, standings, results, transfer rumours or odds. Any figure that can change: write it with 'към <месец година>' or mark [VERIFY]. Real people: verifiable public facts only, nothing about private life. Link sibling club/player profiles and league guides. No betting tips; optional RG line.",
       "opportunity": {
-        "score": 97,
+        "score": 99,
         "band": "Strong",
         "winnable": true
       }
@@ -7745,8 +7975,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "WIN 19000/kd1. Club profile; link Лига 1 row + Мбапе/Меси/Неймар mentions. (2026-11-07 discovery)",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-11-07 (owner asked in session for more high-vol/low-KD topics). Evergreen profile: history, trophies, stadium/legends (clubs) or career, records, style, trophies (players). NEVER print current-season stats, standings, results, transfer rumours or odds. Any figure that can change: write it with 'към <месец година>' or mark [VERIFY]. Real people: verifiable public facts only, nothing about private life. Link sibling club/player profiles and league guides. No betting tips; optional RG line.",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-11-07 (owner asked in session for more high-vol/low-KD topics). Evergreen profile: history, trophies, stadium/legends (clubs) or career, records, style, trophies (players). NEVER print current-season stats, standings, results, transfer rumours or odds. Any figure that can change: write it with 'към <месец година>' or mark [VERIFY]. Real people: verifiable public facts only, nothing about private life. Link sibling club/player profiles and league guides. No betting tips; optional RG line. · WRITTEN 2026-11-18 (daily run, top open P0) → vk-0338, PR #365. Evergreen клубен профил (guides-only ✓: 0 operator/НАП/affiliate; 0 current standings/results/transfers/odds; 0 predictions). псж 19000/kd1 opportunity 100 WIN; dedup vs queue + live sitemap clean. Факти крос-верифицирани EN Wikipedia + Britannica + CNN/SI/Ligue1/official PSG: основан 12.08.1970 (сливане Пари ФК + Стад Сен Жермен); Парк де пренс от 1974; QSI 2011; първа титла 1985/86; към 2026 г. 14 Лига 1 / 16 Купа на Франция / 14 Трофей на шампионите; КНК 1996 (1:0 Рапид Виена); ШЛ 2025 требъл (5:0 Интер, Мюнхен) + ШЛ 2026 втора поредна (Арсенал, 4:3 дузпи, Будапеща), пръв с поредни след Реал 2018; легенди Мбапе/Маркиньос/Ди Мария/Тиаго Силва. Gate 95 PASS, Gemini ai 70 (keep-best pass 2 HL30, под 80 → flagged for human; noisy detector на football-history), img:1 infographic (review 100), ~860 думи, 0 inline flags. Линкнати Меси (игра в ПСЖ 2021-23) + Барселона + Футбол hub (Лига 1 / Мбапе / Неймар профили още не публикувани → добавят се при наличие).",
       "opportunity": {
         "score": 100,
         "band": "Strong",
@@ -7812,16 +8042,16 @@
       "type": "guide",
       "query": "Славия София — история и легенди на клуба",
       "keywords_or_terms": "славия, пфк славия, славия софия история",
-      "volume": "8700",
+      "volume": "500",
       "kd": "12",
       "intent": "informational",
       "checked": "ahrefs",
-      "ahrefs_note": "WIN 8700/kd12. BG club profile; link Ефбет Лига guide. (2026-11-07 discovery)",
+      "ahrefs_note": "THIN 500/kd12 (Ahrefs bg re-pull 2026-11-15: club-specific „славия софия\" 500, не 8700 — предишната стойност е смесвала навигационния/многозначен „славия\"). Winnable (kd12) но тънък обем -> long-tail, нисък приоритет сред football sweep. BG club profile; link Ефбет Лига guide. (2026-11-07 discovery)",
       "status": "open",
       "notes": "OWNER-APPROVED 2026-11-07 (owner asked in session for more high-vol/low-KD topics). Evergreen profile: history, trophies, stadium/legends (clubs) or career, records, style, trophies (players). NEVER print current-season stats, standings, results, transfer rumours or odds. Any figure that can change: write it with 'към <месец година>' or mark [VERIFY]. Real people: verifiable public facts only, nothing about private life. Link sibling club/player profiles and league guides. No betting tips; optional RG line.",
       "opportunity": {
-        "score": 95,
-        "band": "Strong",
+        "score": 60,
+        "band": "Good",
         "winnable": true
       }
     },
@@ -7830,17 +8060,17 @@
       "type": "guide",
       "query": "Черно море Варна — история, стадион и трофеи",
       "keywords_or_terms": "черно море, черно море варна, тичка",
-      "volume": "14000",
-      "kd": "24",
+      "volume": "800",
+      "kd": "52",
       "intent": "informational",
       "checked": "ahrefs",
-      "ahrefs_note": "STRETCH 14000/kd24. BG club profile; link Спартак Варна row (Varna derby). (2026-11-07 discovery)",
+      "ahrefs_note": "DEMOTED 800/kd52 (Ahrefs bg re-pull 2026-11-15: club-specific „черно море варна\" 800/kd52 — предишните 14000 са от многозначния „черно море\" (морето/курорта), не клуба). kd52 > winnable cap 40 -> Pillar-ish, defer; тънък реален обем. BG club profile; link Спартак Варна (vk-0334, Varna derby). (2026-11-07 discovery)",
       "status": "open",
       "notes": "OWNER-APPROVED 2026-11-07 (owner asked in session for more high-vol/low-KD topics). Evergreen profile: history, trophies, stadium/legends (clubs) or career, records, style, trophies (players). NEVER print current-season stats, standings, results, transfer rumours or odds. Any figure that can change: write it with 'към <месец година>' or mark [VERIFY]. Real people: verifiable public facts only, nothing about private life. Link sibling club/player profiles and league guides. No betting tips; optional RG line.",
       "opportunity": {
-        "score": 90,
-        "band": "Strong",
-        "winnable": true
+        "score": 59,
+        "band": "Pillar",
+        "winnable": false
       }
     },
     {
@@ -7871,8 +8101,8 @@
       "intent": "informational",
       "checked": "ahrefs",
       "ahrefs_note": "STRETCH 127000/kd26 — biggest single win available under the KD cap. SENSITIVE: two clubs claim the CSKA history (ЦСКА София vs ЦСКА 1948, separate backlog row) — describe the split neutrally, cite sources, no partisan claims. (2026-11-07 discovery)",
-      "status": "open",
-      "notes": "OWNER-APPROVED 2026-11-07 (owner asked in session for more high-vol/low-KD topics). Evergreen profile: history, trophies, stadium/legends (clubs) or career, records, style, trophies (players). NEVER print current-season stats, standings, results, transfer rumours or odds. Any figure that can change: write it with 'към <месец година>' or mark [VERIFY]. Real people: verifiable public facts only, nothing about private life. Link sibling club/player profiles and league guides. No betting tips; optional RG line.",
+      "status": "written",
+      "notes": "OWNER-APPROVED 2026-11-07 (owner asked in session for more high-vol/low-KD topics). Evergreen profile: history, trophies, stadium/legends (clubs) or career, records, style, trophies (players). NEVER print current-season stats, standings, results, transfer rumours or odds. Any figure that can change: write it with 'към <месец година>' or mark [VERIFY]. Real people: verifiable public facts only, nothing about private life. Link sibling club/player profiles and league guides. No betting tips; optional RG line. WRITTEN 2026-11-15 vk-0335 (PR #362) — gemini skipped (HTTP 402), img:1 (infographic), gate 95 PASS. Succession split ЦСКА София/ЦСКА 1948 handled neutral+cited.",
       "opportunity": {
         "score": 90,
         "band": "Strong",
@@ -9071,17 +9301,17 @@
       "type": "guide",
       "query": "Дартс — правила, точкуване и как се играе (501, чекаут)",
       "researched_keywords": "дартс правила, дартс точкуване, как се играе дартс, правила на дартс 501",
-      "volume": "90",
+      "volume": "800",
       "kd": "0",
       "intent": "informational",
       "trend": "down",
       "checked": "ahrefs",
-      "suggestion": "NEW candidate (discovery 2026-10-31, Ahrefs bg): „дартс правила\" 90/kd0 (informational, ↓ сезонно). DISTINCT sport/game-rules pillar (darts) — 0 hits in queue+backlog+bank+live sitemap (151 URLs, 2026-10-31; no dart slug). Sibling на sports-rules sweep (снукър vk-0320, тенис vk-0310, формула 1 vk-0318). Winnable (kd0<40), guides-only scope OK (универсални правила: 501, удвояване за финиш, точкуване 20/тройки, bull 50 — публични източници, 0 operator/НАП). Слаб-среден обем (90) → long-tail; write when it tops the writable backlog (sports sweep има приоритет). Refills bank after Казино Холдем skipped (cannibal vs vk-0189).",
+      "suggestion": "RE-VERIFY 2026-11-16 (Ahrefs bg): base „дартс\" 800/kd0 (↑ значително от 90 — силен long-tail head, trend ↓ сезонно но стабилен); winnable, остава кандидат, подсилен. NEW candidate (discovery 2026-10-31, Ahrefs bg): „дартс правила\" 90/kd0 (informational, ↓ сезонно). DISTINCT sport/game-rules pillar (darts) — 0 hits in queue+backlog+bank+live sitemap (151 URLs, 2026-10-31; no dart slug). Sibling на sports-rules sweep (снукър vk-0320, тенис vk-0310, формула 1 vk-0318). Winnable (kd0<40), guides-only scope OK (универсални правила: 501, удвояване за финиш, точкуване 20/тройки, bull 50 — публични източници, 0 operator/НАП). Слаб-среден обем (90) → long-tail; write when it tops the writable backlog (sports sweep има приоритет). Refills bank after Казино Холдем skipped (cannibal vs vk-0189).",
       "status": "candidate",
       "date_researched": "2026-10-31",
       "opportunity": {
-        "score": 44,
-        "band": "Moderate",
+        "score": 80,
+        "band": "Strong",
         "winnable": true
       }
     },
@@ -12903,12 +13133,12 @@
       "type": "guide",
       "query": "Реми (rummy): правила и как се играе (теглене, подреждане, сваляне)",
       "researched_keywords": "реми правила, как се играе реми, реми карти, правила на реми",
-      "volume": "50",
-      "kd": "0",
+      "volume": "250",
+      "kd": "27",
       "intent": "informational",
       "trend": "up",
       "checked": "ahrefs",
-      "suggestion": "NEW candidate (fresh discovery 2026-10-27, Ahrefs bg): „реми правила\" 50/kd0 ↑ + „как се играе реми\" 40 ↑ (fold-in). Distinct card-game rules pillar (rummy) — 0 hits in queue+backlog+bank+live sitemap (140 URLs, 2026-10-27). Sibling на card-game rules cluster (белот vk-0286, табла vk-0288, сантасе vk-0287, свара vk-0289, канаста vk-0290). Winnable (kd0<40), guides-only scope OK (универсални правила на играта, 0 operator/НАП). Слаб обем (cluster ~90) → long-tail; write when it tops the writable queue. Refills bank after Белот онлайн (vk-0295) used. · RE-VERIFY 2026-10-31 (Ahrefs bg): „реми правила\" 50/kd0 ↑ + „как се играе реми\" 40 ↑ confirmed; measurable+winnable, distinct, still candidate.",
+      "suggestion": "NEW candidate (fresh discovery 2026-10-27, Ahrefs bg): „реми правила\" 50/kd0 ↑ + „как се играе реми\" 40 ↑ (fold-in). Distinct card-game rules pillar (rummy) — 0 hits in queue+backlog+bank+live sitemap (140 URLs, 2026-10-27). Sibling на card-game rules cluster (белот vk-0286, табла vk-0288, сантасе vk-0287, свара vk-0289, канаста vk-0290). Winnable (kd<40), guides-only scope OK (универсални правила на играта, 0 operator/НАП). Long-tail; write when it tops the writable queue. Refills bank after Белот онлайн (vk-0295) used. · RE-VERIFY 2026-10-31 (Ahrefs bg): „реми правила\" 50/kd0 ↑ + „как се играе реми\" 40 ↑ confirmed. · RE-VERIFY 2026-11-16 (Ahrefs bg): base „реми\" 250/kd27 ↑ (обемът ↑ от 50, kd 0→27 но все още winnable <40); measurable+winnable, distinct, still candidate.",
       "status": "candidate",
       "date_researched": "2026-10-31",
       "opportunity": {
@@ -12933,6 +13163,24 @@
         "score": 44,
         "band": "Moderate",
         "winnable": true
+      }
+    },
+    {
+      "type": "guide",
+      "query": "Pragmatic Play: профил на доставчика и най-известни слотове",
+      "researched_keywords": "pragmatic play, прагматик плей, pragmatic play слотове, pragmatic play казино игри",
+      "volume": "2400",
+      "kd": "62",
+      "intent": "commercial",
+      "trend": "down",
+      "checked": "ahrefs",
+      "suggestion": "NEW discovery 2026-11-19 (Ahrefs bg): „pragmatic play\" 2400/kd62 — HIGH-VALUE provider head, DISTINCT (имаме Amusnet/EGT профил vk-0021, но НЕ Pragmatic Play). PILLAR (kd 62 > SITE_MAX_WINNABLE_KD 40 → winnable:false; dashboard демотира). НЕ се пише сега; future head, graduate when DR lifts cap. Guides-only ✓ (provider profile от собствения сайт на доставчика + game databases; 0 operator T&C/НАП). Fold-in: „sweet bonanza\" 250/kd70 (Pragmatic слот, също над cap → сателит на този клъстер, не отделен ред).",
+      "status": "candidate",
+      "date_researched": "2026-11-19",
+      "opportunity": {
+        "score": 75,
+        "band": "Pillar",
+        "winnable": false
       }
     }
   ],
@@ -12974,43 +13222,19 @@
       }
     ],
     "bands": {
-      "Strong": 40,
-      "Moderate": 3
+      "Strong": 29,
+      "Good": 1,
+      "Pillar": 2,
+      "Moderate": 2
     },
     "clusters": {
       "uncategorised": {
-        "winnable": 42,
-        "pillar": 0,
-        "total": 43
+        "winnable": 31,
+        "pillar": 2,
+        "total": 34
       }
     },
     "winnable": [
-      {
-        "query": "ЦСКА 1948 — история на клуба и пътят до елита",
-        "keywords": "цска 1948, цска 1948 история, цска 1948 стадион",
-        "volume": "17000",
-        "kd": "0",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 100,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
-        "query": "Стилиян Петров — кариера, Астън Вила и битката с левкемията",
-        "keywords": "стилиян петров, стилиян петров кариера, стилиян петров астън вила",
-        "volume": "5800",
-        "kd": "0",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 100,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
       {
         "query": "Димитър Бербатов — кариера, рекорди и стил на игра",
         "keywords": "димитър бербатов, бербатов кариера, бербатов манчестър юнайтед",
@@ -13181,19 +13405,6 @@
         "src": "backlog"
       },
       {
-        "query": "ПСЖ (Пари Сен Жермен) — история, трофеи, стадион и легенди на клуба",
-        "keywords": "псж, пари сен жермен, псж история",
-        "volume": "19000",
-        "kd": "1",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 100,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
         "query": "Роберт Левандовски — кариера, рекорди, трофеи и стил на игра",
         "keywords": "левандовски, роберт левандовски",
         "volume": "2000",
@@ -13220,19 +13431,6 @@
         "src": "backlog"
       },
       {
-        "query": "Спартак Варна — история и легенди на клуба",
-        "keywords": "спартак варна, спартак варна история",
-        "volume": "14000",
-        "kd": "2",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 99,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
         "query": "Тотнъм — история, трофеи, стадион и легенди на клуба",
         "keywords": "тотнъм, тотнъм хотспър, тотнъм история",
         "volume": "7000",
@@ -13253,19 +13451,6 @@
         "intent": "informational",
         "band": "Strong",
         "score": 99,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
-        "query": "Национален отбор по футбол на България — история, големи турнири и САЩ '94",
-        "keywords": "национален отбор по футбол на българия, българия национален отбор история, българия световно първенство",
-        "volume": "6200",
-        "kd": "6",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 98,
         "winnable": true,
         "cluster": "uncategorised",
         "status": "open",
@@ -13311,61 +13496,9 @@
         "src": "backlog"
       },
       {
-        "query": "Берое Стара Загора — история, стадион и трофеи",
-        "keywords": "берое, берое стара загора, берое история",
-        "volume": "16000",
-        "kd": "8",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 97,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
-        "query": "Локомотив София — история на клуба",
-        "keywords": "локомотив софия, локомотив софия история",
-        "volume": "5000",
-        "kd": "7",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 97,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
-        "query": "Етър Велико Търново — история и шампионската титла",
-        "keywords": "етър, етър велико търново, етър история",
-        "volume": "4200",
-        "kd": "8",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 97,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
         "query": "Милан — история, трофеи, стадион и легенди на клуба",
         "keywords": "милан, ак милан, милан история, сан сиро",
         "volume": "11000",
-        "kd": "7",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 97,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
-        "query": "Григор Димитров — кариера, титли, рекорди и стил на игра",
-        "keywords": "григор димитров, григор димитров кариера, григор димитров титли",
-        "volume": "31000",
         "kd": "7",
         "intent": "informational",
         "band": "Strong",
@@ -13396,19 +13529,6 @@
         "intent": "informational",
         "band": "Strong",
         "score": 96,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
-        "query": "Славия София — история и легенди на клуба",
-        "keywords": "славия, пфк славия, славия софия история",
-        "volume": "8700",
-        "kd": "12",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 95,
         "winnable": true,
         "cluster": "uncategorised",
         "status": "open",
@@ -13467,32 +13587,6 @@
         "src": "backlog"
       },
       {
-        "query": "Черно море Варна — история, стадион и трофеи",
-        "keywords": "черно море, черно море варна, тичка",
-        "volume": "14000",
-        "kd": "24",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 90,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
-        "query": "ЦСКА София — история, трофеи и легенди на клуба",
-        "keywords": "цска, пфк цска софия, цска история",
-        "volume": "127000",
-        "kd": "26",
-        "intent": "informational",
-        "band": "Strong",
-        "score": 90,
-        "winnable": true,
-        "cluster": "uncategorised",
-        "status": "open",
-        "src": "backlog"
-      },
-      {
         "query": "Шампионска лига — формат, история и как се класират отборите",
         "keywords": "шампионска лига, шампионска лига формат, uefa шампионска лига",
         "volume": "49000",
@@ -13508,21 +13602,34 @@
       {
         "query": "Дартс — правила, точкуване и как се играе (501, чекаут)",
         "keywords": "дартс правила, дартс точкуване, как се играе дартс, правила на дартс 501",
-        "volume": "90",
+        "volume": "800",
         "kd": "0",
         "intent": "informational",
-        "band": "Moderate",
-        "score": 44,
+        "band": "Strong",
+        "score": 80,
         "winnable": true,
         "cluster": "uncategorised",
         "status": "candidate",
         "src": "research"
       },
       {
+        "query": "Славия София — история и легенди на клуба",
+        "keywords": "славия, пфк славия, славия софия история",
+        "volume": "500",
+        "kd": "12",
+        "intent": "informational",
+        "band": "Good",
+        "score": 60,
+        "winnable": true,
+        "cluster": "uncategorised",
+        "status": "open",
+        "src": "backlog"
+      },
+      {
         "query": "Реми (rummy): правила и как се играе (теглене, подреждане, сваляне)",
         "keywords": "реми правила, как се играе реми, реми карти, правила на реми",
-        "volume": "50",
-        "kd": "0",
+        "volume": "250",
+        "kd": "27",
         "intent": "informational",
         "band": "Moderate",
         "score": 42,
@@ -13532,11 +13639,38 @@
         "src": "research"
       }
     ],
-    "pillars": [],
+    "pillars": [
+      {
+        "query": "Pragmatic Play: профил на доставчика и най-известни слотове",
+        "keywords": "pragmatic play, прагматик плей, pragmatic play слотове, pragmatic play казино игри",
+        "volume": "2400",
+        "kd": "62",
+        "intent": "commercial",
+        "band": "Pillar",
+        "score": 75,
+        "winnable": false,
+        "cluster": "uncategorised",
+        "status": "candidate",
+        "src": "research"
+      },
+      {
+        "query": "Черно море Варна — история, стадион и трофеи",
+        "keywords": "черно море, черно море варна, тичка",
+        "volume": "800",
+        "kd": "52",
+        "intent": "informational",
+        "band": "Pillar",
+        "score": 59,
+        "winnable": false,
+        "cluster": "uncategorised",
+        "status": "open",
+        "src": "backlog"
+      }
+    ],
     "tracking": [],
     "counts": {
-      "winnable": 42,
-      "pillars": 0
+      "winnable": 31,
+      "pillars": 2
     }
   }
 }
