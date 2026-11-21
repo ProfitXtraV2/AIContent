@@ -2583,6 +2583,24 @@
 "fetched": "2026-11-16",
 "row": {}
 },
+"bg|белот правила": {
+"fetched": "2026-11-21",
+"row": {
+"cpc": 30,
+"difficulty": 0,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "белот правила",
+"volume": 1400
+},
+"trend": "flat"
+},
 "bg|белот правила за начинаещи": {
 "fetched": "2026-10-21",
 "row": {}
@@ -2706,6 +2724,10 @@
 "volume": 80
 },
 "trend": "down"
+},
+"bg|бридж правила игра": {
+"fetched": "2026-11-21",
+"row": {}
 },
 "bg|видео покер": {
 "fetched": "2026-10-27",
@@ -3316,7 +3338,7 @@
 "row": {}
 },
 "bg|канаста правила": {
-"fetched": "2026-10-21",
+"fetched": "2026-11-21",
 "row": {
 "cpc": null,
 "difficulty": 0,
@@ -3458,6 +3480,10 @@
 "volume": 90
 },
 "trend": "down"
+},
+"bg|крап казино правила": {
+"fetched": "2026-11-21",
+"row": {}
 },
 "bg|крап правила": {
 "fetched": "2026-10-28",
@@ -4048,6 +4074,24 @@
 "volume": 1400
 },
 "trend": "up"
+},
+"bg|сантасе правила": {
+"fetched": "2026-11-21",
+"row": {
+"cpc": 45,
+"difficulty": 0,
+"intents": {
+"branded": false,
+"commercial": false,
+"informational": true,
+"local": false,
+"navigational": false,
+"transactional": false
+},
+"keyword": "сантасе правила",
+"volume": 1000
+},
+"trend": "down"
 },
 "bg|сик бо": {
 "fetched": "2026-10-11",
