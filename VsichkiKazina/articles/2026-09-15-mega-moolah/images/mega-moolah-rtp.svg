@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 330" width="600" height="330" role="img" aria-label="Mega Moolah базов RTP 88.12%: при €1000 оборот средно €881 се връщат на играча, €119 напускат баланса, като част от тях захранват прогресивния пул">
+  <title>Mega Moolah: базов RTP 88.12% и €1000 оборот</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fffaf0"/>
+      <stop offset="100%" stop-color="#fbeecb"/>
+    </linearGradient>
+    <linearGradient id="playerBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#b45309"/>
+      <stop offset="100%" stop-color="#eab308"/>
+    </linearGradient>
+    <linearGradient id="houseBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c2410c"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="330" rx="12" ry="12" fill="url(#bg)"/>
+
+  <text x="300" y="38" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700" fill="#92400e" text-anchor="middle">Mega Moolah: базов RTP и къде отива оборотът</text>
+
+  <text x="50" y="80" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151" font-weight="600">Връщане към играча (базов RTP)</text>
+  <text x="550" y="80" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151" font-weight="600" text-anchor="end">Дом. предимство + пул</text>
+
+  <rect x="50" y="90" width="500" height="48" rx="8" fill="#e5e7eb"/>
+  <!-- Player portion fills the track (88.12%); house+pool bar overlays the right ~59px (11.88% of 500px) -->
+  <rect x="50" y="90" width="441" height="48" rx="8" fill="url(#playerBar)"/>
+  <rect x="491" y="90" width="59" height="48" rx="4" fill="url(#houseBar)"/>
+
+  <text x="270" y="120" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">88.12%</text>
+
+  <line x1="50" y1="165" x2="550" y2="165" stroke="#ecd9a6" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <text x="300" y="192" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#7c6212" text-anchor="middle" font-style="italic">Пример: €1000 оборот (базов RTP 88.12%)</text>
+
+  <rect x="50" y="205" width="220" height="76" rx="10" fill="#fef9ec" stroke="#eab308" stroke-width="1.5"/>
+  <text x="160" y="232" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#92400e" text-anchor="middle" font-weight="600">Обратно към играча</text>
+  <text x="160" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#b45309" text-anchor="middle">~€881</text>
+  <text x="160" y="275" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#a16207" text-anchor="middle">(средно, дългосрочно)</text>
+
+  <rect x="330" y="205" width="220" height="76" rx="10" fill="#fff1e8" stroke="#f97316" stroke-width="1.5"/>
+  <text x="440" y="230" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#9a3412" text-anchor="middle" font-weight="600">Напускат баланса</text>
+  <text x="440" y="256" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#ea580c" text-anchor="middle">~€119</text>
+  <text x="440" y="272" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#c2410c" text-anchor="middle">(казино + прогресивен пул)</text>
+
+  <text x="300" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#d6bb73" text-anchor="middle">+</text>
+
+  <text x="300" y="312" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#9a7b3f" text-anchor="middle">18+ Играйте отговорно · Част от оборота пълни джакпота и се връща на един-единствен победител</text>
+</svg>
