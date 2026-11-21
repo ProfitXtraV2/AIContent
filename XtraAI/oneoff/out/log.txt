@@ -1,0 +1,17 @@
+model=gemini-3-pro-image imageConfig=True
+out/xtra-ai-banner-bg-v1.png 552 KB (raw)
+WARN: webp conversion skipped (cannot import name '_imaging' from 'PIL' (/usr/lib/python3/dist-packages/PIL/__init__.py)); raw PNG kept
+model=gemini-3-pro-image imageConfig=True
+out/xtra-ai-banner-en-v1.png 552 KB (raw)
+WARN: webp conversion skipped (cannot import name '_imaging' from 'PIL' (/usr/lib/python3/dist-packages/PIL/__init__.py)); raw PNG kept
+model=gemini-3-pro-image imageConfig=True
+out/xtra-ai-banner-bg-v2.png 552 KB (raw)
+WARN: webp conversion skipped (cannot import name '_imaging' from 'PIL' (/usr/lib/python3/dist-packages/PIL/__init__.py)); raw PNG kept
+model=gemini-3-pro-image imageConfig=True
+out/xtra-ai-banner-en-v2.png 552 KB (raw)
+WARN: webp conversion skipped (cannot import name '_imaging' from 'PIL' (/usr/lib/python3/dist-packages/PIL/__init__.py)); raw PNG kept
+REVIEW xtra-ai-banner-bg-v1.png: wordmark reads exactly "Xtra AI" (navy Xtra, green AI); Cyrillic subtitle "AI И АВТОМАТИЗАЦИЯ ЗА МАЛКИЯ БИЗНЕС" and 4 captions unchanged and correctly spelled.
+REVIEW xtra-ai-banner-bg-v2.png: wordmark reads exactly "Xtra AI"; Cyrillic subtitle and 4 captions unchanged and correctly spelled.
+REVIEW xtra-ai-banner-en-v1.png: wordmark reads exactly "Xtra AI"; English subtitle "AI & AUTOMATION FOR SMALL BUSINESSES" and 4 captions unchanged and correctly spelled.
+REVIEW xtra-ai-banner-en-v2.png: wordmark reads exactly "Xtra AI"; English subtitle and 4 captions unchanged and correctly spelled.
+NOTE: webp conversion skipped (Pillow broken); raw PNGs kept. Variants within each language look near-identical.
