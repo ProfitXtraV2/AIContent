@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 524" role="img" aria-label="Инфографика за Lightning Dice на Evolution. Залагаш на сбора на три зара, число от 3 до 18. Базови изплащания: сбор 3 или 18 плаща 149 към 1, сбор 4 или 17 плаща 49 към 1, сбор 5 или 16 плаща 24 към 1, сбор 6 или 15 плаща 14 към 1, сбор 7 или 14 плаща 9 към 1, сбор 8 или 13 плаща 6 към 1, сбор 9 или 12 плаща 5 към 1, сбор 10 или 11 плаща 4 към 1. Светкавици добавят множители от 5x до 1000x, като 1000x пада само на сбор 3 и 18, а 500x на сбор 4 и 17, върху 2 до 4 числа всеки рунд. RTP около 96,21 процента при залог на 3 или 18 и около 96,03 процента при останалите, домашно предимство около 3,8 до 4 процента. Числата са примерни и зависят от версията и масата.">
+  <rect x="8" y="8" width="704" height="508" rx="18" fill="#0f172a"/>
+
+  <text x="32" y="42" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#f8fafc">Lightning Dice: изплащания, множители и RTP</text>
+  <text x="32" y="64" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Залагаш на сбора на три зара (3–18). Крайните суми плащат най-много, но се падат най-рядко.</text>
+
+  <text x="32" y="96" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Базово изплащане по сбор</text>
+
+  <g stroke="#1e293b" stroke-width="1">
+    <line x1="32" y1="108" x2="688" y2="108"/>
+    <line x1="32" y1="136" x2="688" y2="136"/>
+    <line x1="32" y1="164" x2="688" y2="164"/>
+    <line x1="32" y1="192" x2="688" y2="192"/>
+    <line x1="32" y1="220" x2="688" y2="220"/>
+    <line x1="32" y1="248" x2="688" y2="248"/>
+    <line x1="32" y1="276" x2="688" y2="276"/>
+    <line x1="32" y1="304" x2="688" y2="304"/>
+  </g>
+
+  <text x="48" y="126" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Сбор 3 или 18 (най-редки) · може 1000x</text>
+  <text x="688" y="126" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fbbf24" text-anchor="end">149:1</text>
+
+  <text x="48" y="154" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Сбор 4 или 17 · може 500x</text>
+  <text x="688" y="154" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">49:1</text>
+
+  <text x="48" y="182" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Сбор 5 или 16</text>
+  <text x="688" y="182" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">24:1</text>
+
+  <text x="48" y="210" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Сбор 6 или 15</text>
+  <text x="688" y="210" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">14:1</text>
+
+  <text x="48" y="238" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Сбор 7 или 14</text>
+  <text x="688" y="238" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">9:1</text>
+
+  <text x="48" y="266" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Сбор 8 или 13</text>
+  <text x="688" y="266" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">6:1</text>
+
+  <text x="48" y="294" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Сбор 9 или 12</text>
+  <text x="688" y="294" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="end">5:1</text>
+
+  <text x="48" y="322" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">Сбор 10 или 11 (най-чести)</text>
+  <text x="688" y="322" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#4ade80" text-anchor="end">4:1</text>
+
+  <text x="32" y="356" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">Светкавиците</text>
+  <text x="32" y="378" font-family="Arial, sans-serif" font-size="12.5" fill="#cbd5e1">Всеки рунд удрят 2 до 4 числа с множител от 5x до 1000x.</text>
+  <text x="32" y="398" font-family="Arial, sans-serif" font-size="12.5" fill="#cbd5e1">1000x пада само на сбор 3 и 18; 500x на сбор 4 и 17.</text>
+
+  <text x="32" y="432" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#93c5fd">RTP и цена</text>
+  <text x="32" y="454" font-family="Arial, sans-serif" font-size="12.5" fill="#cbd5e1">RTP ≈ 96,21% (залог 3 или 18), ≈ 96,03% при останалите.</text>
+  <text x="32" y="474" font-family="Arial, sans-serif" font-size="12.5" fill="#fbbf24">Домашно предимство ≈ 3,8–4%: множителите са платени от свалените изплащания.</text>
+
+  <rect x="32" y="486" width="656" height="24" rx="6" fill="#111f38"/>
+  <text x="44" y="502" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Примерни стойности; зависят от версията и масата. 18+ Играйте отговорно.</text>
+</svg>
